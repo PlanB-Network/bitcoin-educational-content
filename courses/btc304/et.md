@@ -701,7 +701,7 @@ Kui soovite kujundada futuristliku logo "Bitcoin London" kokkusaamise jaoks, võ
 
 
 
-- [ ] *Prompt: Loo Bitcoin logo, mille taustal on Londoni sild ja Big Ben. Futuristlik* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *Prompt: Loo Bitcoin logo, mille taustal on Londoni sild ja Big Ben. Futuristlik*
 
 
 
@@ -714,7 +714,7 @@ Kui esimesed neli tulemust ei ole piisavalt realistlikud, täpsustage oma taotlu
 
 
 
-- [ ] *Prompt: Tee 4. palju realistlikum* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *Prompt: Tee 4. palju realistlikum*
 
 
 
@@ -732,7 +732,7 @@ Puhtama väljanägemise jaoks, näiteks kleebise jaoks:
 
 
 
-- [ ] *Prompt: Loo "London Bitcoin Meetup" logo, mis on briti ja puhta stiiliga* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Prompt: Loo "London Bitcoin Meetup" logo, mis on briti ja puhta stiiliga*
 
 
 
@@ -1392,7 +1392,7 @@ Nende hulka kuuluvad:
 
 
 - [Btcmap.org](https://btcmap.org/)**, veebisait, kus on kaks kaarti, mida uuendatakse iga päev: **[maailma kaart ettevõtetest, mis aktsepteerivad Bitcoin](https://btcmap.org/map)** ja **[maailma kogukondade kaart](https://btcmap.org/communities/map)**. Paljud bitcoin'i kasutajad vaatavad neid kaarte regulaarselt, kas nad reisivad või elavad oma igapäevaelu, et kohtuda uute inimestega või leida kohti, kus oma [Sats](https://planb.academy/resources/glossary/satoshi-sat) kulutada. Btcmap on ülemaailmne viide ja oma kogukonna loetellu kandmine seal on nähtavuse jaoks väga oluline.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), veebisait, mille on loonud bitcoiners, bitcoiners. **See võimaldab teil postitada oma kogukonna eelseisvaid üritusi**. Prantsusmaal ei kasutata seda siiski veel laialdaselt.
+- BitcoinerEvents, veebisait, mille on loonud bitcoiners, bitcoiners. **See võimaldab teil postitada oma kogukonna eelseisvaid üritusi**. Prantsusmaal ei kasutata seda siiski veel laialdaselt. **Märkus (oktoober 2026):** see veebisait ei ole enam kättesaadav. [BitcoinOnly Events](https://bitcoinonly.events/) on sarnane kalender, mis endiselt töötab.
 - sõltuvalt teie riigist võivad olla ka muud kohalikud algatused. Prantsusmaal on näiteks [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), kus **kuulub iga kuu kümneid Bitcoin üritusi**. Nii et kui te ei ole neile veel Twitteris järgnenud või nendega ühendust võtnud, et jagada teavet oma kogukonna ja ürituste kohta, on nüüd õige aeg! **Kui aitaksite hoida Prantsuse sündmuste kalendrit ajakohasena, oleks tore, kui kõik Prantsuse Bitcoin kogukonnad võtaksid harjumuseks:**
     - mainides @bitcoinpointfr Twitteris iga uue kogukonna sündmuse puhul
     - uute sündmuste väljakuulutuste kinnitamine oma Telegram-gruppi.
@@ -1412,7 +1412,7 @@ Samuti on **[Orangepillapp](https://www.orangepillapp.com/)** tasuline mobiilira
 
 Kuigi need kaks viimast platvormi võivad aidata suurendada nähtavust, ei soovitata neid kogukonna loomisel kasutada lihtsalt seetõttu, et need ei ole tasuta.
 
-**Alustades nimekirjaga [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) ja prantsuse kogukondade jaoks [Bitcoin.fr](https://Bitcoin.fr) on enam kui piisav**.
+**Alustades nimekirjaga [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) ja prantsuse kogukondade jaoks [Bitcoin.fr](https://Bitcoin.fr) on enam kui piisav**.
 
 
 Palju õnne! Teie **kogukond on loodud**, teie **visuaalid on valmis**, teie **eesmärgid on seatud**, teie **kommunikatsioonikanalid on paigas**, teie **sotsiaalvõrgustikud on käivitatud** ja teie **nähtusstrateegia on otsustatud**.

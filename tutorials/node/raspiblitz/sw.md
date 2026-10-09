@@ -20,7 +20,7 @@ RASPIBLITZ - Jinsi ya Kuendesha Umeme na Bitcoin Full node kwa kipindi cha BTC
 ## Mwongozo wa Kuweka Raspiblitz wa Parman
 
 
-Raspiblitz ni mfumo bora wa kuendesha Node ya Bitcoin na programu zinazohusiana. Ninapendekeza hii na Node ya MyNode kwa watumiaji wengi (iwe bora kuwa na nodes mbili kwa upungufu wa hatari). Faida kuu ni kwamba Node ya Raspiblitz ni "Free Open Source Software", tofauti na MyNode au Umbrel. [Kwa nini hilo ni muhimu? Vlad Costa anaeleza.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Pia unaweza kuendesha Raspiblitz kwa muunganisho wa WiFi badala ya ethernet – hapa kuna [mwongozo wa ziada](https://armantheparman.com/headless-wifi/) kwa hilo. (Sijapata njia ya kufanya hivyo na MyNode).
+Raspiblitz ni mfumo bora wa kuendesha Node ya Bitcoin na programu zinazohusiana. Ninapendekeza hii na Node ya MyNode kwa watumiaji wengi (iwe bora kuwa na nodes mbili kwa upungufu wa hatari). Faida kuu ni kwamba Node ya Raspiblitz ni "Free Open Source Software", tofauti na MyNode au Umbrel. [Kwa nini hilo ni muhimu? Vlad Costea anaeleza.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Pia unaweza kuendesha Raspiblitz kwa muunganisho wa WiFi badala ya ethernet – hapa kuna [mwongozo wa ziada](https://armantheparman.com/headless-wifi/) kwa hilo. (Sijapata njia ya kufanya hivyo na MyNode).
 
 
 Unaweza kununua node iliyopangwa tayari na skrini ndogo iliyounganishwa, au unaweza kuijenga mwenyewe (huhitaji skrini).
@@ -96,7 +96,7 @@ Hapa kuna [video yenye msaada kwa Linux, lakini pia inatumika kwa Mac](https://y
 Kwa Windows, hapa kuna [mafunzo rahisi](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
 
-_SASISHO: Uthibitishaji wa pgp/gpg sasa unapatikana. Utahitaji ufunguo wa umma wa Openoms. [Hapa](http://parman.org/downloadable/openoms.txt) ndio ulipo (huenda ukahitaji hali fiche ili kiungo kifanye kazi – http, sio https)_
+_SASISHO: Uthibitishaji wa pgp/gpg sasa unapatikana. Picha za sasa za RaspiBlitz zimetiwa saini na rootzoll, si Openoms (alama ya kidole ya ufunguo: 92A746AE33A3C186D014BF5C1C73060C7C176461). [Maswali rasmi yanayoulizwa mara kwa mara](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download) yanatoa ufunguo na amri `gpg --verify`._
 Mac/Linux
 
 

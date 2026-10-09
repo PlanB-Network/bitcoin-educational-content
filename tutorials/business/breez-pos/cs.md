@@ -5,7 +5,7 @@ description: Breez usnadňuje vybírání plateb v bitcoinech pro vaši firmu.
 
 ![cover](assets/cover.webp)
 
-
+> **Upozornění (říjen 2026):** Společnost Breez v roce 2026 stáhla svou původní mobilní aplikaci (Breez: Lightning Client & POS) z obchodů s aplikacemi a uzavřela kanály uživatelů. Odkazy ke stažení a kroky v tomto návodu již nefungují. Dřívější uživatelé mohou své prostředky získat zpět pomocí nástroje [breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery). Tuto stránku ponecháváme pro referenci, dokud nebude aktualizována.
 
 Od pandemie COVID-19 se bezkontaktní digitální platby rozšířily i v těch nejmenších obchodech. Během tohoto období mnoho podniků objevilo praktičnost řešení bitcoin cash, které jim umožňuje přijímat platby z celého světa. Tato řešení jsou však někdy obtížně použitelná nebo nevhodná pro malé podniky. V tomto návodu se podíváme na platební terminál Breez, řešení, které vyniká snadným používáním a zároveň poskytuje úplnou kontrolu nad správou bitcoinů.
 
@@ -15,7 +15,7 @@ Od pandemie COVID-19 se bezkontaktní digitální platby rozšířily i v těch 
 
 
 
-Breez POS je služba vlastní úschovy poskytovaná zařízením Breez wallet. Užitečnost této služby spočívá v tom, že umožňuje obchodníkům vybírat platby prostřednictvím Bitcoin, přičemž zůstává na jednoduchém rozhraní, velmi podobném různým peněženkám Lightning. Služba Breez POS je k dispozici ke stažení na platformách [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) a [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS).
+Breez POS je služba vlastní úschovy poskytovaná zařízením Breez wallet. Užitečnost této služby spočívá v tom, že umožňuje obchodníkům vybírat platby prostřednictvím Bitcoin, přičemž zůstává na jednoduchém rozhraní, velmi podobném různým peněženkám Lightning. Služba Breez POS je k dispozici ke stažení na platformách Google Play Store (Android) a App Store (iOS).
 
 
 

@@ -408,7 +408,9 @@ För att ta emot Liquid-Bitcoins (L-BTC) finns det flera alternativ. Du kan be n
 
 
 
-Alternativt kan du Exchange dina bitcoins på kedjan eller via Lightning Network för L-BTC med hjälp av [en brygga som Boltz](https://boltz.Exchange/): ange din Liquid som tar emot Address, gör betalning som du föredrar och ta emot din L-BTC.
+Alternativt kan du Exchange dina bitcoins på kedjan eller via Lightning Network för L-BTC med hjälp av en brygga som Boltz: ange din Liquid som tar emot Address, gör betalning som du föredrar och ta emot din L-BTC.
+
+> **Obs (oktober 2026):** Boltz stoppade alla swappar den 3 augusti 2026 och webbplatsen är offline. Den här metoden fungerar inte för närvarande.
 
 
 

@@ -5,6 +5,8 @@ description: RoninDojo Bitcoin düğümünüzü yükleme ve kullanma.
 ---
 ***UYARI:** Samourai Wallet'nin kurucularının tutuklanması ve sunucularına 24 Nisan'da el konulmasının ardından, RoninDojo'nun Whirlpool gibi bazı özellikleri artık çalışmıyor. Bununla birlikte, bu araçların önümüzdeki haftalarda eski haline getirilmesi veya farklı bir şekilde yeniden başlatılması mümkündür. Ayrıca, RoninDojo kodu Samourai'nin GitLab'ında barındırıldığından ve bu GitLab'a da el konulduğundan, kodu uzaktan indirmek şu anda mümkün değil. RoninDojo ekipleri muhtemelen kodu yeniden yayınlamak için çalışıyorlar.*
 
+> **Güncelleme (Ekim 2026):** RoninDojo o zamandan beri kodunu kendi platformunda ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) yeniden yayımladı ve artık 3. sürümde. Bu eğitim daha eski bir sürümü anlatıyor: bazı bağlantılar ve komutlar artık çalışmıyor. Güncel prosedür için resmi belgelere bakın: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 
 _Bu davayla ilgili gelişmeleri ve ilgili araçlarla ilgili gelişmeleri yakından takip ediyoruz. Yeni bilgiler elde edildikçe bu eğitimi güncelleyeceğimizden emin olabilirsiniz._
 
@@ -84,10 +86,12 @@ Artık RoninDojo'nun bir resmini çizebildiğimize göre, bu düğümü nasıl k
 RoninDojo'yu barındıran ve çalıştıran makineyi seçmek için birkaç seçeneğiniz vardır.
 
 
-Daha önce açıklandığı gibi, en basit seçim, özellikle bu amaç için tasarlanmış bir tak ve çalıştır makinesi olan Tanto'yu sipariş etmektir. Kendinizinkini sipariş etmek için buraya gidin: [link](https://shop.ronindojo.io/product-category/nodes/).
+Daha önce açıklandığı gibi, en basit seçim, özellikle bu amaç için tasarlanmış bir tak ve çalıştır makinesi olan Tanto'yu sipariş etmektir.
+
+> **Not (Ekim 2026):** RoninDojo artık Tanto'yu satmıyor gibi görünüyor ve çevrimiçi mağazası kapalı. Uyumlu donanım listesine bakın: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
 
 
-RoninDojo ekipleri açık kaynaklı kod ürettiğinden, RoninDojo'yu başka makinelerde de uygulamak mümkündür. Kurulum sihirbazının en son sürümlerini bu sayfada bulabilirsiniz: [link](https://ronindojo.io/downloads) ve kodun en son sürümlerini bu sayfada bulabilirsiniz: [link](https://code.samourai.io/ronindojo/RoninDojo).
+RoninDojo ekipleri açık kaynaklı kod ürettiğinden, RoninDojo'yu başka makinelerde de uygulamak mümkündür. Kurulum sihirbazının en son sürümlerini bu sayfada bulabilirsiniz: [link](https://ronindojo.io/downloads) ve kodun en son sürümlerini bu sayfada bulabilirsiniz: [link](https://git.ronindojo.io/Ronin/monorepo).
 
 
 Şahsen ben Raspberry Pi 4 8GB üzerine kurdum ve her şey mükemmel çalışıyor.
@@ -232,6 +236,8 @@ Terminalde şu şekilde görünecektir:
 
 Şu anda sadece RoninOS'a sahip olan makinenize bağlandınız. Şimdi üzerine RoninDojo'yu yüklemeniz gerekiyor.
 
+
+> **Not (Ekim 2026):** Aşağıdaki komut artık çalışmıyor: Samourai'nin GitLab'ına (code.samourai.io) 24 Nisan 2024'te el konuldu. RoninDojo kodunu artık burada barındırıyor: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Güncel kurulum prosedürü için bakın: [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
 
 Aşağıdaki komutu girerek RoninDojo'nun en son sürümünü indirin:
 

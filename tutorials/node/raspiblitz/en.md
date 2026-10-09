@@ -15,7 +15,7 @@ RASPIBLITZ - How To Run A Lightning and Bitcoin Full Node by BTC session
 
 ## Parman’s Raspiblitz Setup Guide
 
-The Raspiblitz is an excellent system for running a Bitcoin Node and associated apps. I recommend this and the My Node node to most users (Have two nodes for redundancy ideally.) One major advantage is that the Raspiblitz node is “Free Open Source Software”, unlike MyNode or Umbrel. [Why is that important? Vlad Costa explains.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) You can also run the RaspbiBlitz with a WiFi connection rather then ethernet – here’s a [supplemental guide](https://armantheparman.com/headless-wifi/) for that. (I haven’t found a way to do this with MyNode).
+The Raspiblitz is an excellent system for running a Bitcoin Node and associated apps. I recommend this and the My Node node to most users (Have two nodes for redundancy ideally.) One major advantage is that the Raspiblitz node is “Free Open Source Software”, unlike MyNode or Umbrel. [Why is that important? Vlad Costea explains.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) You can also run the RaspbiBlitz with a WiFi connection rather then ethernet – here’s a [supplemental guide](https://armantheparman.com/headless-wifi/) for that. (I haven’t found a way to do this with MyNode).
 
 You can buy a ready made node with an attached mini screen, or you can build it yourself (you don’t need a screen).
 
@@ -67,7 +67,7 @@ Here is a [useful video for Linux, but applies to Mac](https://youtu.be/id3DGvl
 
 For windows, here’s a [simple tutorial](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
-_UPDATE: pgp/gpg verification is now available. You’ll need Openoms’s public key. [Here](http://parman.org/downloadable/openoms.txt) it is (you might need incognito mode for the link to work – http, not https)_
+_UPDATE: pgp/gpg verification is now available. Current RaspiBlitz images are signed by rootzoll, not Openoms (key fingerprint: 92A746AE33A3C186D014BF5C1C73060C7C176461). The [official FAQ](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download) gives the key and the `gpg --verify` command._
 
 Mac/Linux
 

@@ -5,6 +5,8 @@ description: Instalar e usar seu próprio nó Bitcoin RoninDojo.
 ---
 ***ATENÇÃO:** Após a prisão dos fundadores da Samourai Wallet e a apreensão dos seus servidores em 24 de abril, algumas funcionalidades do RoninDojo, como o Whirlpool, não estão mais operacionais. No entanto, é possível que essas ferramentas sejam reativadas ou relançadas de forma diferente nas próximas semanas. Além disso, como o código do RoninDojo estava hospedado no GitLab da Samourai, que também foi apreendido, atualmente não é possível fazer o download do código remotamente. É provável que as equipes do RoninDojo estejam trabalhando para republicar o código.*
 
+> **Atualização (outubro de 2026):** O RoninDojo voltou a publicar o seu código na sua própria forja ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) e está agora na versão 3. Este tutorial descreve uma versão mais antiga: alguns links e comandos já não funcionam. Para o procedimento atual, consulte a documentação oficial: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 _Estamos acompanhando de perto a evolução deste caso, bem como os desenvolvimentos relacionados às ferramentas associadas. Fique assegurado de que atualizaremos este tutorial à medida que novas informações estiverem disponíveis._
 
 _Este tutorial é fornecido apenas para fins educativos e informativos. Não endossamos nem encorajamos o uso dessas ferramentas para fins criminosos. É responsabilidade de cada usuário cumprir as leis em sua jurisdição._
@@ -57,9 +59,11 @@ Agora que conseguimos traçar o perfil do RoninDojo, vamos ver juntos como confi
 
 Para escolher a máquina que hospeda e executa o RoninDojo, você tem várias opções.
 
-Como explicado anteriormente, a opção mais simples será encomendar o Tanto, uma máquina plug-and-play projetada especificamente para esse fim. Para encomendar o seu, vá para: https://shop.ronindojo.io/product-category/nodes/.
+Como explicado anteriormente, a opção mais simples será encomendar o Tanto, uma máquina plug-and-play projetada especificamente para esse fim.
 
-Como as equipes do RoninDojo produzem código aberto, também é possível implementar o RoninDojo em outras máquinas. Você pode encontrar as versões mais recentes do assistente de instalação nesta página: https://ronindojo.io/downloads e as versões mais recentes do código nesta página: https://code.samourai.io/ronindojo/RoninDojo.
+> **Nota (outubro de 2026):** O RoninDojo parece já não vender o Tanto, e a sua loja online está fora do ar. Consulte a lista de hardware compatível: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
+
+Como as equipes do RoninDojo produzem código aberto, também é possível implementar o RoninDojo em outras máquinas. Você pode encontrar as versões mais recentes do assistente de instalação nesta página: https://ronindojo.io/downloads e as versões mais recentes do código nesta página: https://git.ronindojo.io/Ronin/monorepo.
 
 Pessoalmente, instalei no Raspberry Pi 4 8GB e tudo funciona perfeitamente.
 
@@ -155,6 +159,8 @@ No terminal, será assim:
 ![Conexão SSH ao RoninOS](assets/10.webp)
 
 Agora você está conectado à sua máquina que possui apenas o RoninOS no momento. Agora você precisa instalar o RoninDojo.
+
+> **Nota (outubro de 2026):** O comando abaixo já não funciona: o GitLab da Samourai (code.samourai.io) foi apreendido em 24 de abril de 2024. O RoninDojo hospeda agora o seu código aqui: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Para o procedimento de instalação atual, consulte [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
 
 Baixe a versão mais recente do RoninDojo digitando o seguinte comando:
 

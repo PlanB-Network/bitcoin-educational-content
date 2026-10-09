@@ -28,7 +28,6 @@ Btcmap.org](https://btcmap.org/)로 이동합니다:
 
 
 - 앱스토어](https://apps.apple.com/app/btc-world-map/id6443604345)를 통한 iOS
-- Android [Play 스토어](https://play.google.com/store/apps/details?id=org.btcmap.app)를 통해
 - 안드로이드 오픈소스 앱 카탈로그 [F-Droid](https://f-droid.org/en/packages/org.btcmap/)
 - 프로젝트의 깃허브에서 직접 [apk 안드로이드](https://github.com/teambtcmap/btcmap-android/releases/latest)를 다운로드하면 됩니다
 - 브라우저에서 웹 앱을 통해(현재 보기)

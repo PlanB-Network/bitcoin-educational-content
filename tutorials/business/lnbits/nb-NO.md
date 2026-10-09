@@ -85,7 +85,7 @@ Du kan også finne en video på [dockerisert oppsett på en VPS med PostgreSQ, L
 
 [Flere installasjonsscenarier her](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
-For programvarepakker, se deres spesifikke dokumentasjon om LNbits: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+For programvarepakker, se deres spesifikke dokumentasjon om LNbits: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 ### LNbits SaaS
 
@@ -161,11 +161,13 @@ For å kryptere macaroon kjører du `./venv/bin/python lnbits/wallets/macaroon/m
 
 #### Lightning TipBot
 
+> **Advarsel (oktober 2026):** LightningTipBot og ln.tips er lagt ned; nedleggelsen ble kunngjort 29. april 2024. Denne finansieringskilden fungerer ikke lenger, med mindre du drifter din egen bot.
+
 For å koble din [Lightning Tipbot](https://t.me/LightningTipBot) fra Telegram må du angi følgende parameter:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://ln.tips
+  - `LNBITS_ENDPOINT`: `https://ln.tips`
   - `LNBITS_KEY`: For å få nøkkelen må du kjøre /api i en privat chat med LightningTipbot på Telegram en gang.
 
 Se også denne veiledningen om hvordan du installerer [LNbits med LightningTipBot via vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
@@ -178,11 +180,13 @@ For mer informasjon, se [IBEX API-Documentation](https://ibexpay-api.readme.io/r
 
 #### LNPay
 
-For at fakturalytteren skal fungere, må du ha en offentlig tilgjengelig URL i LNbits og sette opp en [LNPay webhook](https://dashboard.lnpay.co/webhook/) som peker til `<din LNbits-vert>/wallet/webhook` med "Wallet Receive"-hendelsen og ingen hemmelighet gitt. Innstillingen `https://mylnbits/wallet/webhook` vil være endepunkt-URL-en som blir varslet om enhver betaling.
+> **Advarsel (oktober 2026):** LNPay ser ut til å være lagt ned: domenet lnpay.co svarer ikke lenger. Denne finansieringskilden kan sannsynligvis ikke brukes lenger.
+
+For at fakturalytteren skal fungere, må du ha en offentlig tilgjengelig URL i LNbits og sette opp en LNPay webhook som peker til `<din LNbits-vert>/wallet/webhook` med "Wallet Receive"-hendelsen og ingen hemmelighet gitt. Innstillingen `https://mylnbits/wallet/webhook` vil være endepunkt-URL-en som blir varslet om enhver betaling.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -403,7 +407,9 @@ Det er to måter å veksle sats fra onchain BTC til LN BTC (hhv. til LNbits).
 
 ###### Via en ekstern byttetjeneste.
 
-Andre brukere som ikke har tilgang til LNb its kan bruke en byttetjeneste som [Boltz](https://boltz.exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) eller [ZigZag](https://zigzag.io/). Dette er nyttig hvis du bare leverer LNURL/LN-fakturaer fra LNbits-instansen din, men en betaler bare har onchain-satser, så de må bytte disse satsene først på sin side. Fremgangsmåten er enkel: brukeren sender onchain btc til byttetjenesten og oppgir LNURL/LN-fakturaen fra LNbits som destinasjon for byttet.
+Andre brukere som ikke har tilgang til LNb its kan bruke en byttetjeneste som Boltz, [FixedFloat](https://fixedfloat.com/) eller [ZigZag](https://zigzag.io/). Dette er nyttig hvis du bare leverer LNURL/LN-fakturaer fra LNbits-instansen din, men en betaler bare har onchain-satser, så de må bytte disse satsene først på sin side. Fremgangsmåten er enkel: brukeren sender onchain btc til byttetjenesten og oppgir LNURL/LN-fakturaen fra LNbits som destinasjon for byttet.
+
+> **Advarsel (oktober 2026):** Boltz stanset alle swapper 3. august 2026 etter at flere sårbarheter ble utnyttet, og nettstedet er frakoblet. Boltz og Boltz-utvidelsen i LNbits kan ikke brukes for øyeblikket.
 
 ###### Bruk av Onchain og Boltz LNbits-utvidelsen.
 

@@ -85,7 +85,7 @@ LNbitsを初めてお使いになる方のために、特定の環境でLNbits�
 
 [その他の設置シナリオはこちら](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server)。
 
-バンドルソフトウェアノードについては、それぞれのLNbitsに関するドキュメントを参照してください：[Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+バンドルソフトウェアノードについては、それぞれのLNbitsに関するドキュメントを参照してください：[Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 ### LNbits SaaS
 
@@ -161,11 +161,13 @@ AESで暗号化されたマカロン（詳細はこちら）を使うことも�
 
 #### ライトニング・チップボット
 
+> **注意（2026年10月）：** LightningTipBot と ln.tips はサービスを終了しました。終了は2024年4月29日に発表されました。自分でボットをホストしない限り、この資金源はもう使えません。
+
 テレグラムから[Lightning Tipbot](https://t.me/LightningTipBot)に接続するには、以下のパラメータを設定する必要があります：
 
 
   - lnbits_backend_wallet_class`： **LnTipsWallet**
-  - lnbits_endpoint`: https://ln.tips
+  - lnbits_endpoint`: `https://ln.tips`
   - LNBITS_KEY`：キーを取得するには、テレグラムの LightningTipbot とのプライベートチャットで /api を実行する必要があります。
 
 LNbits with LightningTipBot via vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)のインストール方法はこちらもご覧ください。
@@ -178,11 +180,13 @@ LNbits with LightningTipBot via vps](https://www.massmux.com/howto-complete-ligh
 
 #### LNPay
 
-請求書リスナーを動作させるには、LNbitsに一般にアクセス可能なURLを設定し、[LNPay webhook](https://dashboard.lnpay.co/webhook/)を`<your LNbits host>/wallet/webhook`を指すように設定する必要があります。https://mylnbits/wallet/webhook`は支払いに関する通知を受けるエンドポイントのURLになります。
+> **注意（2026年10月）：** LNPay はサービスを終了したようです。lnpay.co ドメインは応答しなくなっています。この資金源はおそらくもう利用できません。
+
+請求書リスナーを動作させるには、LNbitsに一般にアクセス可能なURLを設定し、LNPay webhookを`<your LNbits host>/wallet/webhook`を指すように設定する必要があります。https://mylnbits/wallet/webhook`は支払いに関する通知を受けるエンドポイントのURLになります。
 
 
   - lnbits_backend_wallet_class`： **LNPayWallet**
-  - lnpay_api_endpoint`: https://api.lnpay.co/v1/
+  - lnpay_api_endpoint`: `https://api.lnpay.co/v1/`
   - LNPAY_API_KEY`: sak_apiKey
   - LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -403,7 +407,9 @@ LNURL-pを作成する際、デフォルトではコメント欄は埋められ�
 
 ###### 外部のスワップサービス経由。
 
-あなたのLNbにアクセスできない他のユーザーは、[Boltz](https://boltz.exchange/)、[FixedFloat](https://fixedfloat.com/)、[DiamondHands](https://swap.diamondhands.technology/)、[ZigZag](https://zigzag.io/)のようなスワップサービスを利用できます。これは、LNbitsインスタンスからLNURL/LNインボイスのみを提供する場合に便利ですが、支払者はオンチェーンサットしか持っていないため、まず支払者側でそれらのサットをスワップする必要があります。手順は簡単です。ユーザーはスワップサービスにオンチェーンBTCを送り、スワップの宛先としてLNbitsのLNURL/LNインボイスを提供します。
+あなたのLNbにアクセスできない他のユーザーは、Boltz、[FixedFloat](https://fixedfloat.com/)、[ZigZag](https://zigzag.io/)のようなスワップサービスを利用できます。これは、LNbitsインスタンスからLNURL/LNインボイスのみを提供する場合に便利ですが、支払者はオンチェーンサットしか持っていないため、まず支払者側でそれらのサットをスワップする必要があります。手順は簡単です。ユーザーはスワップサービスにオンチェーンBTCを送り、スワップの宛先としてLNbitsのLNURL/LNインボイスを提供します。
+
+> **注意（2026年10月）：** Boltz は複数の脆弱性を悪用されたため、2026年8月3日にすべてのスワップを停止し、ウェブサイトもオフラインです。現在、Boltz と LNbits の Boltz エクステンションは利用できません。
 
 ###### OnchainとBoltzのLNbitsエクステンションを使用。
 

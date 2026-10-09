@@ -408,7 +408,9 @@ Liquid-bitcoinien (L-BTC) vastaanottamiseen on useita vaihtoehtoja. Voit pyytä�
 
 
 
-Vaihtoehtoisesti Exchange bitcoinit onchain tai kautta Lightning Network L-BTC käyttäen [silta kuten Boltz](https://boltz.Exchange/): kirjoita Liquid vastaanottava Address, tee maksu haluamallasi tavalla ja vastaanota L-BTC.
+Vaihtoehtoisesti Exchange bitcoinit onchain tai kautta Lightning Network L-BTC käyttäen silta kuten Boltz: kirjoita Liquid vastaanottava Address, tee maksu haluamallasi tavalla ja vastaanota L-BTC.
+
+> **Huomautus (lokakuu 2026):** Boltz keskeytti kaikki swapit 3. elokuuta 2026, ja sen verkkosivusto on poissa käytöstä. Tämä menetelmä ei toimi tällä hetkellä.
 
 
 

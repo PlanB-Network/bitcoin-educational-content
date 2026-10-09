@@ -2,8 +2,10 @@
 name: Lipa
 description: Postavljanje i korišćenje Lipa lightning mobilnog Wallet
 ---
+
 ![cover](assets/cover.webp)
 
+> **Upozorenje (oktobar 2026):** Novčanik Lipa je ugašen 31. decembra 2025. godine, a njegov izdavač, lightning payment services ag, nalazi se u likvidaciji. Aplikacija se više ne može preuzeti i koraci iz ovog uputstva više ne rade. Ovu stranicu čuvamo kao referencu dok ne bude ažurirana.
 
 A Bitcoin Lightning Wallet je mobilna aplikacija koja omogućava trenutne, niskotarifne transakcije na Bitcoin's Lightning Network. Za razliku od transakcija na glavnom Blockchain (On-Chain), Lightning plaćanja su skoro trenutna i zahtevaju minimalne naknade, što ih čini posebno pogodnim za male, svakodnevne isplate.
 
@@ -44,7 +46,7 @@ Prvi korak je preuzimanje aplikacije Lipa. Za sada je dostupna samo na iOS :
 
 
 
-- [Za Apple](https://apps.apple.com/app/lipa-Bitcoin-lightning/id1602180066)
+- Za Apple
 
 
 Android verzija je trenutno u razvoju i biće dostupna uskoro.

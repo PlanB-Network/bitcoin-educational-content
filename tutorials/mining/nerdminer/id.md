@@ -14,7 +14,7 @@ Sebelum melalui berbagai langkah, mari kita daftar peralatan yang diperlukan unt
 
 - sebuah [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - sebuah [sumber daya USB-C](https://amzn.eu/d/gIOot90)
-- sebuah casing 3D: jika kamu memiliki printer 3D, kamu dapat mengunduh [file 3D](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) jika tidak, kamu dapat membelinya di [toko online Silexperience](https://silexperience.company.site/NerdMiner_V2-p544379757).
+- sebuah casing 3D: jika kamu memiliki printer 3D, kamu dapat mengunduh [file 3D](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) jika tidak, kamu dapat membelinya di [toko online Bitronics](https://bitronics.store/).
 - sebuah PC dengan Chrome Browser terinstal
 - sebuah koneksi internet
 - sebuah alamat bitcoin
@@ -66,7 +66,6 @@ Untuk NerdMiner, kamu bisa memilih untuk terhubung ke salah satu kolam berikut:
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Kolam Solo dan sumber terbuka default    |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Dipelihara oleh CHMEX                    |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Dipelihara oleh djerfy                   |
 
 Setelah Anda memilih kolam kamu, kamu perlu memasukkan alamat bitcoin Anda untuk menerima hadiah jika (secara luar biasa) sebuah blok ditemukan.
 
@@ -129,4 +128,4 @@ Dengan mengetahui bahwa total hashrate jaringan sekitar 450 EH/s (atau 4.5 x 10^
 Berikut adalah beberapa tautan jika kamu ingin membaca lebih lanjut tentang subjek ini:
 
 - [Halaman proyek NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Dokumentasi lengkap NerdMiners](https://bitwater.ch/nerd-miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

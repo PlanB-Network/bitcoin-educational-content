@@ -28,7 +28,6 @@ OSM (ओपनस्ट्रीटमैप) पर आधारित, जो 
 
 
 - iOS के माध्यम से [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
-- Android के माध्यम से [Play स्टोर](https://play.google.com/store/apps/details?id=org.btcmap.app)
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) एंड्रॉइड ओपन-सोर्स ऐप कैटलॉग
 - [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) को सीधे प्रोजेक्ट के github से डाउनलोड करके
 - अपने ब्राउज़र से वेब ऐप के माध्यम से (हमारा आज का दृष्टिकोण)

@@ -28,7 +28,6 @@ BTC Map 基於 OSM (OpenStreetMap)，本身就是一個開放源碼的參與性�
 
 
 - iOS 透過 [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
-- Android 透過 [Play 商店](https://play.google.com/store/apps/details?id=org.btcmap.app)
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) Android 開源應用程式目錄
 - 直接從專案的 github 下載 [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest)。
 - 透過瀏覽器的網頁應用程式 (我們今天的觀點)

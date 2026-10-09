@@ -701,7 +701,7 @@ Bitcoin London」ミートアップの未来的なロゴをデザインしたい
 
 
 
-- [ ] *プロンプトロンドン橋とビッグベンを背景にビットコインのロゴを作ってください。Futuristic* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *プロンプトロンドン橋とビッグベンを背景にビットコインのロゴを作ってください。Futuristic*
 
 
 
@@ -714,7 +714,7 @@ Bitcoin London」ミートアップの未来的なロゴをデザインしたい
 
 
 
-- [ ] *プロンプト4枚目をもっとリアルに* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *プロンプト4枚目をもっとリアルに*
 
 
 
@@ -732,7 +732,7 @@ Bitcoin London」ミートアップの未来的なロゴをデザインしたい
 
 
 
-- [ ] *プロンプトLondon Bitcoin Meetup "のロゴをブリティッシュでクリーンなスタイルで作成してください* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *プロンプトLondon Bitcoin Meetup "のロゴをブリティッシュでクリーンなスタイルで作成してください*
 
 
 
@@ -1390,7 +1390,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 
 
 - [Btcmap.org](https://btcmap.org/)は、2つの地図を毎日更新しているウェブサイトです： **[ビットコインを受け入れるビジネスの世界地図](https://btcmap.org/map)**と**[世界コミュニティ地図](https://btcmap.org/communities/map)**である。多くのビットコイナーは、旅行中であれ、日常生活中であれ、新しい人々に出会ったり、[Sats](https://planb.academy/resources/glossary/satoshi-sat)を過ごす場所を見つけたりするために、これらのマップを定期的にチェックしている。Btcmapは世界的なリファレンスであり、そこにあなたのコミュニティを掲載することは、知名度を上げるために不可欠です。
-- [ビットコイナーイベント](https://www.bitcoinerevents.com/)は、ビットコイナーによるビットコイナーのためのウェブサイトです。**あなたのコミュニティで開催予定のイベントを掲載することができます。しかし、フランスではまだあまり使われていない。**
+- ビットコイナーイベントは、ビットコイナーによるビットコイナーのためのウェブサイトです。**あなたのコミュニティで開催予定のイベントを掲載することができます。しかし、フランスではまだあまり使われていない。** **注記（2026年10月）：** このサイトは現在アクセスできません。同様のイベントカレンダーとして、[BitcoinOnly Events](https://bitcoinonly.events/)が現在も利用できます。
 - あなたの国によっては、他にもローカルな取り組みがあるかもしれません。例えばフランスでは、[Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/)があり、**毎月何十ものビットコインイベントがリストアップされている**。もしあなたがまだツイッターで彼らをフォローしたり、あなたのコミュニティやイベントについての情報を共有するために彼らに連絡を取っていないのであれば、今がその時です！ **フランスのイベント・カレンダーを最新に保つために、すべてのフランスのビットコインコミュニティが以下の習慣を身につけるとよいでしょう。**
     - 新しいコミュニティイベントが開催されるたびに、Twitterで@bitcoinpointfrに言及する。
     - テレグラム・グループに新しいイベント告知をピン留めする。
@@ -1410,7 +1410,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 
 最後の2つのプラットフォームは知名度を上げるのに役立つが、コミュニティを立ち上げる際にはお勧めできない。
 
-**[btcmap.org](https://btcmap.org/)、[BitcoinerEvents](https://www.bitcoinerevents.com/)、フランスのコミュニティの場合は[Bitcoin.fr](https://Bitcoin.fr)に掲載することから始めれば十分です**。
+**[btcmap.org](https://btcmap.org/)、[BitcoinOnly Events](https://bitcoinonly.events/)、フランスのコミュニティの場合は[Bitcoin.fr](https://Bitcoin.fr)に掲載することから始めれば十分です**。
 
 
 おめでとうございます！あなたの**コミュニティは作られ**、**ビジュアルは準備され**、**目標は設定され**、**コミュニケーション・チャンネルは整えられ**、**ソーシャル・ネットワークは立ち上げられ**、**ビジビリティ戦略は決定された**。

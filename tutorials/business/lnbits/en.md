@@ -81,7 +81,7 @@ You can also find a video on the [dockerised Setup on a VPS with PostgreSQ, Ligh
 
 [More installation scenarios here](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
-For bundle software nodes, please refer to their specific documentation about LNbits: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+For bundle software nodes, please refer to their specific documentation about LNbits: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 ### LNbits SaaS
 
@@ -145,9 +145,11 @@ To encrypt your macaroon, run `./venv/bin/python lnbits/wallets/macaroon/macaroo
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 #### Lightning TipBot
 
+> **Warning (October 2026):** LightningTipBot and ln.tips shut down; the closure was announced on 29 April 2024. This funding source no longer works unless you host your own bot.
+
 To connect your [Lightning Tipbot](https://t.me/LightningTipBot) from Telegram you will need to set the following parameter:
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://ln.tips
+  - `LNBITS_ENDPOINT`: `https://ln.tips`
   - `LNBITS_KEY`: To get the Key you will need to run /api in a private chat with the LightningTipbot on Telegram once.
 
 Also see this tutorial how to install [LNbits with LightningTipBot via vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
@@ -158,9 +160,12 @@ Register [here](https://ibexpay.ibexmercado.com/onboard) then get your keys/toke
 More info see [IBEX API-Documentation](https://ibexpay-api.readme.io/reference/getting-started-with-your-api).
 
 #### LNPay
-For the invoice listener to work you have a publicly accessible URL in your LNbits and have to set up a [LNPay webhook](https://dashboard.lnpay.co/webhook/) pointing to `<your LNbits host>/wallet/webhook` with the "Wallet Receive" event and no secret given. The setting  `https://mylnbits/wallet/webhook` will be the endpoint url that gets notified about any payment.
+
+> **Warning (October 2026):** LNPay appears to be discontinued: the lnpay.co domain no longer responds. This funding source is probably no longer usable.
+
+For the invoice listener to work you have a publicly accessible URL in your LNbits and have to set up a LNPay webhook pointing to `<your LNbits host>/wallet/webhook` with the "Wallet Receive" event and no secret given. The setting  `https://mylnbits/wallet/webhook` will be the endpoint url that gets notified about any payment.
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -376,7 +381,9 @@ There are two ways to exchange sats from onchain BTC to LN BTC (resp. to LNbits)
 
 ###### Via an external swap service. 
 
-Other users that dont have access to your LNb its can use a swap service like [Boltz](https://boltz.exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) or [ZigZag](https://zigzag.io/). This is useful if you provide only LNURL/LN invoices from your LNbits instance, but a payer only has onchain sats so they will have to swap those sats first on their side. The procedure is simple: user sends onchain btc to the swap service and provides the LNURL / LN invoice from LNbits as destination of the swap.
+Other users that dont have access to your LNb its can use a swap service like Boltz, [FixedFloat](https://fixedfloat.com/) or [ZigZag](https://zigzag.io/). This is useful if you provide only LNURL/LN invoices from your LNbits instance, but a payer only has onchain sats so they will have to swap those sats first on their side. The procedure is simple: user sends onchain btc to the swap service and provides the LNURL / LN invoice from LNbits as destination of the swap.
+
+> **Warning (October 2026):** Boltz suspended all swaps on 3 August 2026 after several exploited vulnerabilities, and its website is offline. Boltz and the LNbits Boltz extension cannot be used at the moment.
 
 ###### Using the Onchain and Boltz LNbits extension. 
 

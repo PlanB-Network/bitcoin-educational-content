@@ -5,7 +5,7 @@ description: 面向商户的 Bitcoin 和 Lightning 支付解决方案
 
 ![cover](assets/cover.webp)
 
-
+> **警告（2026年10月）：** Lipa for Business 已于 2026 年 3 月中旬停止服务，其发行方 lightning payment services ag 正在清算中。本教程中的链接和操作步骤已不再有效。 在更新之前，我们保留此页面以供参考。
 
 现在，商家对通过 Lightning Network 接受 Bitcoin 支付越来越感兴趣。与手续费高、结算时间长的传统信用卡支付不同，"闪电 "交易几乎是瞬时完成的，不会被扣款，还能为客户保密。
 
@@ -267,9 +267,9 @@ Bitcoin 具有非拘禁、隐私友好的特性，再加上专业的管理工具
 
 
 
-- [Lipa for Business 官方网站](https://lipa.swiss/en/for-business)
-- [仪表板网络](https://dashboard.lipa.swiss)
-- [Lipa Support for Business](https://help.lipa.swiss/business)
-- [利帕一般支助](https://help.lipa.swiss/Wallet)
+- Lipa for Business 官方网站
+- 仪表板网络
+- Lipa Support for Business
+- 利帕一般支助
 - [LinkedIn Lipa](https://www.linkedin.com/company/getlipa)
 - [Twitter @lipa_btc](https://twitter.com/lipa_btc)

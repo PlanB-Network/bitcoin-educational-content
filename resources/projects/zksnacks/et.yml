@@ -1,3 +1,5 @@
 description: |
   "zk" zkSNACKs'is tähistab nullteadmisi, mis tähendab, et me ei kogu ega saa koguda mingit isiklikku kasutajateavet oma toodetes.
 
+  zkSNACKs sulges oma coinjoin-koordinaatori 1. juunil 2024 ja selle veebisait on võrgust väljas. Wasabi Wallet jätkab avatud lähtekoodiga tarkvarana.
+

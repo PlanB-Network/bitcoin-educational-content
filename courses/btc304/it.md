@@ -701,7 +701,7 @@ Se vuoi progettare un logo futuristico per un incontro "Bitcoin London", puoi ch
 
 
 
-- [*Prompt: Crea un logo Bitcoin con il London Bridge e il Big Ben sullo sfondo. Futuristico* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [*Prompt: Crea un logo Bitcoin con il London Bridge e il Big Ben sullo sfondo. Futuristico*
 
 
 
@@ -714,7 +714,7 @@ Se i primi quattro risultati non sono abbastanza realistici, perfeziona la richi
 
 
 
-- [ ] *Prompt: Rendi il 4° molto più realistico* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *Prompt: Rendi il 4° molto più realistico*
 
 
 
@@ -732,7 +732,7 @@ Per un aspetto più pulito, come per un adesivo:
 
 
 
-- [ ] *Prompt: Crea il logo del "London Bitcoin Meetup" con uno stile britannico e pulito* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Prompt: Crea il logo del "London Bitcoin Meetup" con uno stile britannico e pulito*
 
 
 
@@ -1392,7 +1392,7 @@ Questi includono:
 
 
 - [Btcmap.org](https://btcmap.org/)**, un sito web con due mappe aggiornate quotidianamente: **[la mappa mondiale delle aziende che accettano Bitcoin](https://btcmap.org/map)** e **[la mappa delle community mondiali](https://btcmap.org/communities/map)**. Molti Bitcoiners controllano regolarmente queste mappe, sia in viaggio che nella vita di tutti i giorni, per conoscere nuove persone o trovare luoghi in cui spendere i propri [sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap è il punto di riferimento globale e inserirvi la propria community è essenziale per la visibilità.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), un sito web creato da Bitcoiners, per Bitcoiners. **Consente di pubblicare i prossimi eventi della propria community**. In Francia, tuttavia, non è ancora molto utilizzato.
+- BitcoinerEvents, un sito web creato da Bitcoiners, per Bitcoiners. **Consente di pubblicare i prossimi eventi della propria community**. In Francia, tuttavia, non è ancora molto utilizzato. **Nota (ottobre 2026):** questo sito è offline. [BitcoinOnly Events](https://bitcoinonly.events/) è un calendario equivalente ancora in servizio.
 - a seconda del tuo Paese, potrebbero esserci altre iniziative locali. In Francia, ad esempio, c'è [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), che **elenca decine di eventi Bitcoin ogni mese**. Quindi, se non li hai ancora seguiti su Twitter o contattati per condividere informazioni sulla tua community e sugli eventi, è il momento giusto! **Per contribuire a mantenere aggiornato il calendario degli eventi in Francia, sarebbe bello se tutte le community Bitcoin francesi prendessero questa abitudine.**
     - menzionando @bitcoinpointfr su Twitter per ogni nuovo evento della community.
     - appuntare gli annunci di nuovi eventi nel loro gruppo Telegram.
@@ -1412,7 +1412,7 @@ Allo stesso modo, **[Orangepillapp](https://www.orangepillapp.com/)** è un'appl
 
 Sebbene queste ultime due piattaforme possano contribuire ad aumentare la visibilità, non sono consigliate per il lancio di una community, semplicemente perché non sono gratuite.
 
-**Iniziare con un annuncio su [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) e per le community francesi, su [Bitcoin.fr](https://Bitcoin.fr) è più che sufficiente**.
+**Iniziare con un annuncio su [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) e per le community francesi, su [Bitcoin.fr](https://Bitcoin.fr) è più che sufficiente**.
 
 
 Congratulazioni! La tua **community è stata creata**, le tue **visual(logo, banner, ecc.) sono pronte**, i tuoi **obiettivi sono stati fissati**, i tuoi **canali di comunicazione sono pronti**, i tuoi **social network sono stati lanciati** e la tua **strategia di visibilità è stata decisa**.

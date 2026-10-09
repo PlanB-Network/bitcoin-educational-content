@@ -85,7 +85,7 @@ Anda juga dapat menemukan video tentang [Pengaturan dockerised pada VPS dengan P
 
 [Skenario instalasi lebih lanjut di sini](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
-Untuk node perangkat lunak bundel, silakan merujuk ke dokumentasi khusus tentang LNbits: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+Untuk node perangkat lunak bundel, silakan merujuk ke dokumentasi khusus tentang LNbits: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 ### LNbits SaaS
 
@@ -161,11 +161,13 @@ Untuk mengenkripsi macaroon Anda, jalankan `./venv/bin/python lnbits/wallets/mac
 
 #### TipBot Petir
 
+> **Peringatan (Oktober 2026):** LightningTipBot dan ln.tips telah berhenti beroperasi; penutupannya diumumkan pada 29 April 2024. Sumber pendanaan ini tidak lagi berfungsi, kecuali Anda meng-host bot sendiri.
+
 Untuk menghubungkan [Lightning Tipbot](https://t.me/LightningTipBot) Anda dari Telegram, Anda perlu mengatur parameter berikut:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: ** LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://ln.tips
+  - `LNBITS_ENDPOINT`: `https://ln.tips`
   - `LNBITS_KEY`: Untuk mendapatkan Key, Anda harus menjalankan /api dalam obrolan pribadi dengan LightningTipbot di Telegram satu kali.
 
 Lihat juga tutorial ini cara menginstal [LNbits dengan LightningTipBot melalui vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
@@ -178,11 +180,13 @@ Info lebih lanjut lihat [IBEX API-Documentation](https://ibexpay-api.readme.io/r
 
 #### LNPay
 
-Agar pendengar faktur dapat berfungsi, Anda harus memiliki URL yang dapat diakses publik di LNbits Anda dan harus menyiapkan [LNPay webhook](https://dashboard.lnpay.co/webhook/) yang mengarah ke `<host LNbits Anda>/wallet/webhook` dengan event "Wallet Receive" dan tidak ada rahasia yang diberikan. Pengaturan `https://mylnbits/wallet/webhook` akan menjadi url titik akhir yang akan diberitahukan tentang pembayaran apa pun.
+> **Peringatan (Oktober 2026):** LNPay tampaknya telah dihentikan: domain lnpay.co tidak lagi merespons. Sumber pendanaan ini kemungkinan tidak dapat digunakan lagi.
+
+Agar pendengar faktur dapat berfungsi, Anda harus memiliki URL yang dapat diakses publik di LNbits Anda dan harus menyiapkan LNPay webhook yang mengarah ke `<host LNbits Anda>/wallet/webhook` dengan event "Wallet Receive" dan tidak ada rahasia yang diberikan. Pengaturan `https://mylnbits/wallet/webhook` akan menjadi url titik akhir yang akan diberitahukan tentang pembayaran apa pun.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -403,7 +407,9 @@ Ada dua cara untuk menukar satoshi dari onchain BTC ke LN BTC (resp. ke LNbits).
 
 ###### Melalui layanan swap eksternal.
 
-Pengguna lain yang tidak memiliki akses ke LNbits Anda dapat menggunakan layanan swap seperti [Boltz](https://boltz.exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/), atau [ZigZag](https://zigzag.io/). Ini berguna jika Anda hanya menyediakan faktur LNURL/LN dari instance LNbits Anda, tetapi pembayar hanya memiliki satelite sehingga mereka harus menukar satelite tersebut terlebih dahulu di sisi mereka. Prosedurnya sederhana: pengguna mengirimkan btc onchain ke layanan swap dan memberikan faktur LNURL/LN dari LNbits sebagai tujuan swap.
+Pengguna lain yang tidak memiliki akses ke LNbits Anda dapat menggunakan layanan swap seperti Boltz, [FixedFloat](https://fixedfloat.com/), atau [ZigZag](https://zigzag.io/). Ini berguna jika Anda hanya menyediakan faktur LNURL/LN dari instance LNbits Anda, tetapi pembayar hanya memiliki satelite sehingga mereka harus menukar satelite tersebut terlebih dahulu di sisi mereka. Prosedurnya sederhana: pengguna mengirimkan btc onchain ke layanan swap dan memberikan faktur LNURL/LN dari LNbits sebagai tujuan swap.
+
+> **Peringatan (Oktober 2026):** Boltz menangguhkan semua swap pada 3 Agustus 2026 setelah beberapa kerentanan dieksploitasi, dan situs webnya offline. Boltz dan ekstensi Boltz LNbits saat ini tidak dapat digunakan.
 
 ###### Menggunakan ekstensi Onchain dan Boltz LNbits.
 

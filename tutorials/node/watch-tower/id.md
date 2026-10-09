@@ -493,13 +493,7 @@ Pada menu yang sama, kamu juga akan menemukan URI layanan Watchtower kamu jika A
 
 
 
-Ada beberapa Menara Pengawal yang tersedia secara online. Sebagai contoh, [LN+ dan Voltage menawarkan Watchtower altruistik](https://lightningnetwork.plus/Watchtower) yang dapat Anda sambungkan:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+Ada beberapa Menara Pengawal yang tersedia secara online. LN+ dan Voltage dulu menawarkan Watchtower altruistik, tetapi layanan itu sudah tidak tersedia (Oktober 2026). LN+ kini menawarkan [Watch Swaps](https://lightningnetwork.plus/watch_swaps), di mana dua operator node saling mengawasi kanal masing-masing, dan menerbitkan [panduan Watchtower altruistik](https://lightningnetwork.plus/posts/12).
 
 
 

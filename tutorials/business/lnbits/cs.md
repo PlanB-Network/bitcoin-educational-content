@@ -85,7 +85,7 @@ Video najdete také na stránce [dockerised Setup on a VPS with PostgreSQ, Light
 
 [Další scénáře instalace zde](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
-Pokud jde o softwarové uzly svazků, podívejte se do jejich specifické dokumentace o LNbits: [Citadela](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+Pokud jde o softwarové uzly svazků, podívejte se do jejich specifické dokumentace o LNbits: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 ### LNbits SaaS
 
@@ -161,11 +161,13 @@ Chcete-li zašifrovat svůj macaroon, spusťte `./venv/bin/python lnbits/wallets
 
 #### Lightning TipBot
 
+> **Upozornění (říjen 2026):** LightningTipBot a ln.tips ukončily provoz; ukončení bylo oznámeno 29. dubna 2024. Tento zdroj financování už nefunguje, pokud si neprovozujete vlastního bota.
+
 Chcete-li připojit svůj [Lightning Tipbot](https://t.me/LightningTipBot) z Telegramu, musíte nastavit následující parametr:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://ln.tips
+  - `LNBITS_ENDPOINT`: `https://ln.tips`
   - `LNBITS_KEY`: Pro získání klíče musíte jednou spustit /api v soukromém chatu s LightningTipbotem na Telegramu.
 
 Podívejte se také na tento návod, jak nainstalovat [LNbits s LightningTipBot přes vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
@@ -178,11 +180,13 @@ Více informací naleznete v [IBEX API-Documentation](https://ibexpay-api.readme
 
 #### LNPay
 
-Aby poslouchání faktur fungovalo, musíte mít v LNbits veřejně přístupnou adresu URL a nastavit [LNPay webhook](https://dashboard.lnpay.co/webhook/) ukazující na `<Váš hostitel LNbits>/wallet/webhook` s událostí "Příjem peněženky" a bez zadání tajemství. Nastavení `https://mylnbits/wallet/webhook` bude url koncového bodu, který bude informován o každé platbě.
+> **Upozornění (říjen 2026):** Zdá se, že služba LNPay ukončila provoz: doména lnpay.co už neodpovídá. Tento zdroj financování už pravděpodobně nelze použít.
+
+Aby poslouchání faktur fungovalo, musíte mít v LNbits veřejně přístupnou adresu URL a nastavit LNPay webhook ukazující na `<Váš hostitel LNbits>/wallet/webhook` s událostí "Příjem peněženky" a bez zadání tajemství. Nastavení `https://mylnbits/wallet/webhook` bude url koncového bodu, který bude informován o každé platbě.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -403,7 +407,9 @@ Existují dva způsoby, jak vyměnit saty z onchainu BTC na LN BTC (resp. na LNb
 
 ###### Prostřednictvím externí výměnné služby.
 
-Ostatní uživatelé, kteří nemají přístup k vašemu LNb, mohou použít výměnnou službu, například [Boltz](https://boltz.exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) nebo [ZigZag](https://zigzag.io/). To je užitečné, pokud ze své instance LNbits poskytujete pouze faktury LNURL/LN, ale plátce má pouze onchain saty, takže bude muset na své straně nejprve vyměnit tyto saty. Postup je jednoduchý: uživatel pošle onchain btc do swapové služby a jako cíl swapu poskytne LNURL/LN fakturu z LNbits.
+Ostatní uživatelé, kteří nemají přístup k vašemu LNb, mohou použít výměnnou službu, například Boltz, [FixedFloat](https://fixedfloat.com/) nebo [ZigZag](https://zigzag.io/). To je užitečné, pokud ze své instance LNbits poskytujete pouze faktury LNURL/LN, ale plátce má pouze onchain saty, takže bude muset na své straně nejprve vyměnit tyto saty. Postup je jednoduchý: uživatel pošle onchain btc do swapové služby a jako cíl swapu poskytne LNURL/LN fakturu z LNbits.
+
+> **Upozornění (říjen 2026):** Boltz pozastavil 3. srpna 2026 všechny swapy po zneužití několika zranitelností a jeho web je mimo provoz. Boltz ani rozšíření Boltz pro LNbits nyní nelze používat.
 
 ###### Použití rozšíření Onchain a Boltz LNbits.
 

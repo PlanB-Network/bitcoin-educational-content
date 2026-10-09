@@ -601,7 +601,6 @@ GrapheneOS to królicza nora, w której każdy może spędzić tygodnie. Jest ta
 - [Oficjalny przewodnik użytkowania GrapheneOS](https://grapheneos.org/usage) - Oficjalna strona internetowa
 - [Forum GrapheneOS](https://discuss.grapheneos.org/) - Oficjalna strona internetowa
 - [GrapheneOS Settings Masterclass](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - wideo przygotowane przez "The Privacy Wayfinder
-- [GrapheneOS General Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast przygotowany przez 'Watchman Privacy'
 
 
 *Ten poradnik jest adaptacją oryginalnej treści opublikowanej przez [BitcoinQnA na Bitcoiner.Guide na licencji MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), któremu należy się pełne uznanie za pierwotną pracę redakcyjną.*

@@ -106,7 +106,7 @@ Imbere y'uko twisuka cane, reka turabe `Home Screen` kugira ngo tumenye neza:
 - Ushobora gushika ku `Bitcoin Bull Exchange` kugira ngo `Ugure, Ugurishe, canke Ushireho` (ivyo bivana n'ububasha kandi bishobora gusaba KYC).
 - `Kwimurira` amafaranga hagati y'amasakoshi
 - `Umutekano Bitcoin` ungana n'uruzitiro Bitcoin Wallet
-- `Ukwishura vuba` biciye ku Muravyo- / Liquid Network *(Iciyumviro: Bull Bitcoin Wallet ishoboza kwishura no kwakirwa biciye ku Muravyo. Amahera yakiriwe biciye ku Muravyo abikwa ku muhora [*Liquid](https://liquid.net/) (mu kwishura vuba* biciye kuri [3-5]. exchange](https://boltz.exchange/) Ivyo biguha ubushobozi bwo gukorana na Lightning utabwirizwa gucunga imihora y’amahera, mu gihe uguma mu kwirinda.)*
+- `Ukwishura vuba` biciye ku Muravyo- / Liquid Network *(Iciyumviro: Bull Bitcoin Wallet ishoboza kwishura no kwakirwa biciye ku Muravyo. Amahera yakiriwe biciye ku Muravyo abikwa ku muhora [*Liquid](https://liquid.net/) (mu kwishura vuba* biciye kuri Boltz exchange. Ivyo biguha ubushobozi bwo gukorana na Lightning utabwirizwa gucunga imihora y’amahera, mu gihe uguma mu kwirinda.)*
 - `Kohereza` na `Kwakira` amafranga
 
 
@@ -418,6 +418,8 @@ Kugira ngo urangize ugucuruza, uhe uwurungitse `aderesi` canke `URI`. Ivyo urash
 
 
 
+> **Menya (Gitugutu 2026):** Boltz yahagaritse swaps zose ku wa 3 Myandagaro 2026, kandi urubuga rwayo ntirugikora. Ukwishura kwa Lightning muri Bull Bitcoin Wallet gushingiye kuri Boltz, kandi gushobora kuba kutagikora.
+
 Bull Bitcoin Wallet iragufasha kandi kohereza no kwakira amahera biciye kuri Lightning Network. Ikintu nyamukuru ni uko amafaranga yaronse biciye ku Muravyo ahita ahindurwa kandi akabikwa kuri `Liquid Network` mu `Ivyishyurwa vy'Igihugu Wallet` yawe. Iyi serivisi ikoreshwa na `Boltz`. Iyi design iragufasha kunezerererwa umuvuduko n’igiciro gito ca Lightning ata ngorane zo gucunga imihora y’amahera, vyose mu gihe uguma wizigamira amahera yawe. Naho iyo nzira y’ubuhinga bushasha ari iyo kwizigama kandi ikarinda ubugoyagoye bwo gucunga imihora, izana igikorwa c’uwundi muntu (Boltz), amahera make yo guhindura, no kwizigira ishirahamwe ry’abakozi ba Liquid Network nk’abafise urufunguzo, ivyo bikaba bitandukanye n’imirongo ya kera, idacungirwa. Ushobora kumenya vyinshi ku vyerekeye Liquid n'uburongozi bw'aho hano:
 
 
@@ -508,6 +510,8 @@ Ushobora gucapura Lightning Address (nk’akarorero `runningbitcoin@rizful.com`)
 
 *Ibuka ko amafaranga makeyi n'amahera bikoreshwa.*
 
+
+> **Menya (Gitugutu 2026):** Boltz yahagaritse swaps zose ku wa 3 Myandagaro 2026, kandi urubuga rwayo ntirugikora. Ukwishura kwa Lightning muri Bull Bitcoin Wallet gushingiye kuri Boltz, kandi gushobora kuba kutagikora.
 
 Bull Bitcoin Wallet yohereza amahera y'umuravyo mu gukura amahera mu `Ivyishyura vy'ubu nyene Wallet` (ku Liquid) ukayahindura biciye ku `Boltz`. Ubu buryo bw'imigwi ni ubwo kwizigama kandi burinda amafaranga menshi ya on-chain yo gucunga umurongo wa Lightning wihariye, ariko bisaba kwishura `amafaranga yo guhindura`. Ku giciro gitoyi, wohereze kuri aderesi y’uwuguhaye Liquid nimba na we nyene akoresha Bull Bitcoin wallet.
 

@@ -5,7 +5,7 @@ description: Minimalistický model Bitcoin Wallet pro každého
 
 ![cover](assets/cover.webp)
 
-
+> **Upozornění (říjen 2026):** StashPay byl ukončen. Jeho autor oznámil konec 26. července 2026 a aplikace byla uzavřena 31. srpna 2026; webové stránky jsou mimo provoz ([přečtěte si oznámení](https://blog.onionmill.com/p/sunsetting-stashpay)). Chcete-li obnovit svou peněženku Liquid, importujte svou obnovovací frázi do Blockstream App. Tuto stránku ponecháváme pro referenci.
 
 Uživatelské zkušenosti jsou klíčovým faktorem při zavádění řešení Bitcoin po celém světě. Poskytování hladkého, jednoduchého a technicky nezatíženého prostředí je pro mnoho peněženek a platforem Exchange prioritou. V tomto ohledu StashPay vyniká svým minimalistickým přístupem a zároveň demonstruje sílu Lightning Network.
 
@@ -23,7 +23,7 @@ StashPay je blesková samoobsluha Wallet uznávaná především pro své minima
 
 
 
-StashPay je open-source projekt vyvinutý v React Native a jeho cílem je vyřešit problém vysokých transakčních poplatků i u transakcí v hlavním řetězci protokolu Bitcoin. Je k dispozici jako mobilní aplikace na platformách Android a iOS prostřednictvím odkazů ke stažení, které jsou k dispozici na [webových stránkách](https://stashpay.me/).
+StashPay je open-source projekt vyvinutý v React Native a jeho cílem je vyřešit problém vysokých transakčních poplatků i u transakcí v hlavním řetězci protokolu Bitcoin. Je k dispozici jako mobilní aplikace na platformách Android a iOS prostřednictvím odkazů ke stažení, které jsou k dispozici na webových stránkách.
 
 
 

@@ -411,6 +411,5 @@ GrapheneOS è una tana del coniglio in cui chiunque potrebbe facilmente passare 
 - [Guida ufficiale all'uso di GrapheneOS](https://grapheneos.org/usage) - Sito web ufficiale
 - [Forum di GrapheneOS](https://discuss.grapheneos.org/) - Sito web ufficiale
 - [Masterclass sulle impostazioni di GrapheneOS](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video di 'The Privacy Wayfinder'
-- [Podcast generale su GrapheneOS](https://www.youtube.com/@WatchmanPrivacy/podcasts) - Podcast di 'Watchman Privacy'
 
 *Questo tutorial è un adattamento del contenuto originale pubblicato da [BitcoinQnA su Bitcoiner.Guide sotto licenza MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), a cui va tutto il merito per il lavoro di redazione iniziale.*

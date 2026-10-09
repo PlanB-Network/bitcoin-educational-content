@@ -415,7 +415,9 @@ La mayor ventaja de este enfoque, en comparación con una custodia convencional 
 
 
 
-La mayoría de las carteras que ofrecen este tipo de funcionalidad se basan en [Boltz](https://boltz.exchange/) para la parte técnica del canje.
+La mayoría de las carteras que ofrecen este tipo de funcionalidad se basan en Boltz para la parte técnica del canje.
+
+> **Nota (octubre de 2026):** Boltz suspendió todos sus swaps el 3 de agosto de 2026 y su sitio web está fuera de línea. Es posible que los monederos que dependen de Boltz ya no ofrezcan esta función.
 
 
 

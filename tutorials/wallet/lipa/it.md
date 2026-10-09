@@ -2,7 +2,10 @@
 name: Lipa
 description: Impostazione e utilizzo del portafoglio mobile Lipa lightning
 ---
+
 ![cover](assets/cover.webp)
+
+> **Avviso (ottobre 2026):** Il wallet Lipa ha cessato l'attività il 31 dicembre 2025 e il suo editore, lightning payment services ag, è in liquidazione. L'applicazione non è più scaricabile e i passaggi di questo tutorial non funzionano più. Conserviamo questa pagina come riferimento fino al suo aggiornamento.
 
 Un portafoglio Bitcoin Lightning è un'applicazione mobile che consente transazioni istantanee e a basso costo sulla rete Lightning di Bitcoin. A differenza delle transazioni sulla blockchain principale (on-chain), i pagamenti Lightning sono quasi istantanei e richiedono commissioni minime, il che li rende particolarmente adatti ai piccoli pagamenti quotidiani.
 
@@ -31,7 +34,7 @@ Le caratteristiche principali includono:
 Il primo passo è scaricare l'applicazione Lipa. Per il momento è disponibile solo su iOS:
 
 
-- [Per Apple](https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
+- Per Apple
 
 La versione per Android è attualmente in fase di sviluppo e sarà presto disponibile.
 

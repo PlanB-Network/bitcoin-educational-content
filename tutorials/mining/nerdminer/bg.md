@@ -19,7 +19,7 @@ description: Започнете с mining bitcoin с шанс за печалб�
 
 - а [Lilygo T-дисплей S3](https://lilygo.cc/products/t-display-s3)
 - а [USB-C захранване](https://amzn.eu/d/gIOot90)
-- 3D калъф: ако разполагате с 3D принтер, можете да изтеглите [3D файл](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons), в противен случай можете да го закупите от [онлайн магазина на Silexperience](https://silexperience.company.site/NerdMiner_V2-p544379757).
+- 3D калъф: ако разполагате с 3D принтер, можете да изтеглите [3D файл](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons), в противен случай можете да го закупите от [онлайн магазина на Bitronics](https://bitronics.store/).
 - компютър с инсталиран браузър Chrome
 - връзка с интернет
 - адрес на биткойн
@@ -95,7 +95,6 @@ description: Започнете с mining bitcoin с шанс за печалб�
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Default Solo and open-source mining pool |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Maintained by CHMEX                      |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Maintained by djerfy                     |
 
 След като сте избрали своя пул, трябва да въведете своя биткойн адрес, за да получите възнаграждението в случай, че (по изключение) бъде намерен блок.
 
@@ -191,4 +190,4 @@ description: Започнете с mining bitcoin с шанс за печалб�
 
 
 - [Страница на проекта NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Пълна документация на NerdMiners](https://bitwater.ch/nerd-miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

@@ -6,3 +6,5 @@ description: |
   Pour ceux qui cherchent à intégrer des paiements Lightning de pair à pair dans leurs applications, Breez offre un SDK pour une personnalisation maximale avec un minimum de programmation. Breez Cloud améliore encore l'expérience utilisateur, combinant la souveraineté de Lightning non-custodial avec la commodité des services custodial pour des paiements polyvalents à tout moment.
 
   Breez façonne l'avenir de l'économie Lightning, rendant les paiements Bitcoin plus accessibles et efficaces que jamais.
+
+  Depuis juin 2026, l'application mobile Breez d'origine est en mode maintenance : Breez n'ouvre plus de nouveaux canaux et recommande Glow ou Misty Breez.

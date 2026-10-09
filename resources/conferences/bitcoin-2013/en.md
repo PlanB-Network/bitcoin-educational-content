@@ -39,12 +39,6 @@ Andreas Antonopoulos discusses Bitcoin neutrality at the Bitcoin 2013 Conference
 Speaker: Erik Voorhees
 Erik Voorhees discusses the role of Bitcoin as money at the Bitcoin 2013 Conference in San Jose, CA, May 18, 2013, hosted by the Bitcoin Foundation.  For more information about donating or joining, please visit https://bitcoinfoundation.org.
 
-##  Thinking through Bitcoin: Piracy, Security, and e-Business 
-
-[live replay](https://youtu.be/alQ5q65QZF8?si=BNmMSUTMFX59dwEX)
-
-Speaker: Andrew and Arthur Labenek - 
-
 ## Online Gambling: Bits and Chips 
 
 [live replay](https://youtu.be/qcfhzcF6RcE?si=Np-0QrUI4JsiFakT)

@@ -28,7 +28,6 @@ description: ค้นหาสถานที่ใช้จ่าย Sats ข�
 
 
 - iOS ผ่าน [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
-- Android ผ่าน [Play Store](https://play.google.com/store/apps/details?id=org.btcmap.app)
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) แคตตาล็อกแอปโอเพนซอร์สสำหรับแอนดรอยด์
 - โดยการดาวน์โหลด [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) โดยตรงจาก github ของโปรเจค
 - ผ่านเว็บแอปจากเบราว์เซอร์ของคุณ (มุมมองของเราวันนี้)

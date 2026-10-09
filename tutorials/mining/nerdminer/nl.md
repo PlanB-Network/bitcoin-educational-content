@@ -19,7 +19,7 @@ Voordat we de verschillende stappen doorlopen, zetten we eerst de benodigdheden 
 
 - a [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - a [USB-C voeding Supply](https://amzn.eu/d/gIOot90)
-- een 3D-koffer: als je een 3D-printer hebt, kun je het [3D-bestand] downloaden (https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) en anders kun je er een kopen in de [Silexperience online winkel](https://silexperience.company.site/NerdMiner_V2-p544379757).
+- een 3D-koffer: als je een 3D-printer hebt, kun je het [3D-bestand] downloaden (https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) en anders kun je er een kopen in de [Bitronics online winkel](https://bitronics.store/).
 - een pc met geïnstalleerde Chrome-browser
 - een internetverbinding
 - a Bitcoin Address
@@ -95,7 +95,6 @@ Voor NerdMiners kun je kiezen om verbinding te maken met een van deze pools:
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Default Solo and open-source mining pool |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Maintained by CHMEX                      |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Maintained by djerfy                     |
 
 Als je je pool hebt gekozen, moet je je Bitcoin Address invoeren om de beloning te ontvangen als er (uitzonderlijk) een blok wordt gevonden.
 
@@ -191,4 +190,4 @@ Hier zijn enkele links als je meer wilt lezen over het onderwerp:
 
 
 - [NerdMiner_v2 projectpagina](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Volledige documentatie van NerdMiners](https://bitwater.ch/nerd-miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

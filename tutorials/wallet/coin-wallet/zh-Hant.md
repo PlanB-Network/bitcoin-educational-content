@@ -44,10 +44,6 @@ Coin Wallet 可在所有主要平台上使用。
 
 
 
-- [Android (Galaxy Store)](https://galaxystore.samsung.com/detail/com.coinspace.app)
-
-
-
 - [Android (Huawei AppGallery)](https://appgallery.huawei.com/app/C112183767)
 
 

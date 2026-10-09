@@ -3,10 +3,9 @@ name: Boltz
 description: 在不同的 Bitcoin 层之间切换，同时保持控制。
 ---
 
-
 ![cover](assets/cover.webp)
 
-
+> **警告（2026年10月）：** 在多个漏洞被利用后，Boltz 已于 2026 年 8 月 3 日暂停所有交换，其网站也已下线。本教程中的链接和步骤已无法使用。在更新之前，我们保留此页面以供参考。
 
 自 2009 年部署以来，Bitcoin 的点对点电子现金系统得到了飞速发展，为各种解决方案注入了活力，使其成为我们在日常行动中可以立即使用的系统，特别是通过 Lightning Network。
 
@@ -20,7 +19,7 @@ description: 在不同的 Bitcoin 层之间切换，同时保持控制。
 
 
 
-[Boltz](https://boltz.Exchange)是一个非托管平台，非常适合任何希望在 Bitcoin 协议不同层之间进行交易的人：
+Boltz是一个非托管平台，非常适合任何希望在 Bitcoin 协议不同层之间进行交易的人：
 
 
 

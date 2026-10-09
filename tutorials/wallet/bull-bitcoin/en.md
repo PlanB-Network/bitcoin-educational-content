@@ -71,7 +71,7 @@ Before we dive deeper, let's take a look at the `Home Screen` to get oriented:
 - Access the `Bitcoin Bull Exchange` to `Buy, Sell, or Pay` (this depends on the jurisdiction and may require KYC).
 - `Transfer` of funds between wallets
 - `Secure Bitcoin` equals Onchain Bitcoin Wallet
-- `Instant payments` via the Lightning- / Liquid Network *(Note: Bull Bitcoin Wallet enables payments to be made and received via Lightning. Funds received via Lightning are stored on the [*Liquid network](https://liquid.net/) (in the Wallet Instant Payments) thanks to an automatic swap via [*Boltz exchange](https://boltz.exchange/). This gives you the ability to interact with Lightning without having to manage liquidity channels, while remaining in self-custody.)*
+- `Instant payments` via the Lightning- / Liquid Network *(Note: Bull Bitcoin Wallet enables payments to be made and received via Lightning. Funds received via Lightning are stored on the [*Liquid network](https://liquid.net/) (in the Wallet Instant Payments) thanks to an automatic swap via Boltz exchange. This gives you the ability to interact with Lightning without having to manage liquidity channels, while remaining in self-custody.)*
 - `Send` and `Receive` of funds
 
 ![image](assets/en/02.webp) 
@@ -287,6 +287,8 @@ To complete the transaction, provide the sender with the `address` or `URI`. You
 ### Receiving via Lightning
 
 
+> **Note (October 2026):** Boltz suspended all swaps on 3 August 2026 and its website is offline. The Lightning payments of Bull Bitcoin Wallet rely on Boltz and may no longer work.
+
 The Bull Bitcoin Wallet also allows you to send and receive payments via the Lightning Network. A key feature is that funds received via Lightning are automatically swapped and stored on the `Liquid Network` within your `Instant Payments Wallet`. This service is powered by `Boltz`. This design enables you to enjoy the speed and low cost of Lightning without the complexity of managing liquidity channels, all while maintaining full self-custody of your funds. While this hybrid approach is self-custodial and avoids the complexity of managing channels, it introduces a third-party service (Boltz), a small swap fee, and reliance on the Liquid Network's federation of functionaries as keyholders, which is different from a traditional, non-custodial Lightning wallet where you manage your own channels. You can learn more about Liquid and there governance model here:
 
 https://planb.academy/en/courses/e17ee350-41d4-49fa-b270-29e4d26d22f8/overview-of-liquid-architecture-and-governance-model-17650c4b-cd1f-4bc6-b490-708f92dc9306
@@ -348,6 +350,8 @@ On the confirmation screen for a Liquid transaction, you will review the details
 You can either scan an Lightning Address (e.g. `runningbitcoin@rizful.com`) which allows you to set the amount and an optional note for the recipient, or scan a invoice with a pre-defined amount, which takes you directly to the confirmation screen. 
 
 *Note that minimum amounts and fees apply.*
+
+> **Note (October 2026):** Boltz suspended all swaps on 3 August 2026 and its website is offline. The Lightning payments of Bull Bitcoin Wallet rely on Boltz and may no longer work.
 
 The Bull Bitcoin Wallet sends Lightning payments by withdrawing funds from your `Instant Payments Wallet` (on Liquid) and swapping them via `Boltz`. This hybrid approach is fully self-custodial and avoids the high on-chain fees of managing a dedicated Lightning channel, but it requires paying a `swap fee`. For the lowest cost, send directly to a recipient's Liquid address if they also use a Bull Bitcoin wallet.
 

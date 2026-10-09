@@ -85,7 +85,7 @@ LNbits может быть установлен на любой машине с 
 
 [Другие сценарии установки здесь](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
-Для узлов с программным обеспечением для связок, пожалуйста, обратитесь к их специальной документации по LNbits: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+Для узлов с программным обеспечением для связок, пожалуйста, обратитесь к их специальной документации по LNbits: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 ### LNbits SaaS
 
@@ -161,11 +161,13 @@ LNbits может работать поверх многих источнико�
 
 #### Молния TipBot
 
+> **Предупреждение (октябрь 2026 г.):** LightningTipBot и ln.tips прекратили работу; о закрытии было объявлено 29 апреля 2024 года. Этот источник финансирования больше не работает, если только вы не разместите собственного бота.
+
 Чтобы подключить ваш [Lightning Tipbot](https://t.me/LightningTipBot) из Telegram, вам нужно установить следующий параметр:
 
 
   - кЛАСС `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://ln.tips
+  - `LNBITS_ENDPOINT`: `https://ln.tips`
   - `LNBITS_KEY`: Чтобы получить ключ, вам нужно будет один раз выполнить команду /api в приватном чате с LightningTipbot в Telegram.
 
 Также смотрите это руководство по установке [LNbits с LightningTipBot через vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
@@ -178,11 +180,13 @@ LNbits может работать поверх многих источнико�
 
 #### LNPay
 
-Чтобы слушатель счетов работал, у вас есть общедоступный URL в LNbits и вы должны настроить [LNPay webhook](https://dashboard.lnpay.co/webhook/), указывающий на `<ваш хост LNbits>/wallet/webhook` с событием "Wallet Receive" и без указания секрета. Настройка `https://mylnbits/wallet/webhook` будет конечным адресом, который будет получать уведомления о любом платеже.
+> **Предупреждение (октябрь 2026 г.):** Судя по всему, LNPay прекратил работу: домен lnpay.co больше не отвечает. Этот источник финансирования, вероятно, больше нельзя использовать.
+
+Чтобы слушатель счетов работал, у вас есть общедоступный URL в LNbits и вы должны настроить LNPay webhook, указывающий на `<ваш хост LNbits>/wallet/webhook` с событием "Wallet Receive" и без указания секрета. Настройка `https://mylnbits/wallet/webhook` будет конечным адресом, который будет получать уведомления о любом платеже.
 
 
   - кЛАСС `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -403,7 +407,9 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 
 ###### Через внешнюю службу подмены.
 
-Другие пользователи, не имеющие доступа к вашему экземпляру LNb, могут воспользоваться сервисом обмена, например [Boltz](https://boltz.exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) или [ZigZag](https://zigzag.io/). Это полезно, если вы предоставляете только LNURL/LN-счета от вашего экземпляра LNbits, но у плательщика есть только onchain-саты, поэтому ему придется сначала обменять эти саты на своей стороне. Процедура проста: пользователь отправляет onchain btc на своп-сервис и предоставляет LNURL/LN-инвойс от LNbits в качестве пункта назначения свопа.
+Другие пользователи, не имеющие доступа к вашему экземпляру LNb, могут воспользоваться сервисом обмена, например Boltz, [FixedFloat](https://fixedfloat.com/) или [ZigZag](https://zigzag.io/). Это полезно, если вы предоставляете только LNURL/LN-счета от вашего экземпляра LNbits, но у плательщика есть только onchain-саты, поэтому ему придется сначала обменять эти саты на своей стороне. Процедура проста: пользователь отправляет onchain btc на своп-сервис и предоставляет LNURL/LN-инвойс от LNbits в качестве пункта назначения свопа.
+
+> **Предупреждение (октябрь 2026 г.):** Boltz приостановил все свопы 3 августа 2026 года после эксплуатации нескольких уязвимостей, и его сайт недоступен. Boltz и расширение Boltz для LNbits сейчас использовать нельзя.
 
 ###### Использование расширения Onchain и Boltz LNbits.
 

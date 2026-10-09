@@ -106,7 +106,7 @@ Sebelum kita menyelam lebih dalam, mari kita lihat `Layar Utama` untuk mendapatk
 - Akses `Bitcoin Bull Exchange` untuk `Beli, Jual, atau Bayar` (ini tergantung pada yurisdiksi dan mungkin memerlukan KYC).
 - 'Transfer' dana antar dompet
 - `Secure Bitcoin` sama dengan Onchain Bitcoin Wallet
-- pembayaran instan melalui Lightning- / Liquid Network *(Catatan: Bull Bitcoin Wallet memungkinkan pembayaran dilakukan dan diterima melalui Lightning. Dana yang diterima melalui Lightning disimpan di jaringan [*Liquid](https://liquid.net/) (dalam Pembayaran Instan Wallet) berkat pertukaran otomatis melalui [*pertukaran Boltz](https://boltz.exchange/). Hal ini memberikan Anda kemampuan untuk berinteraksi dengan Lightning tanpa harus mengelola saluran likuiditas, namun tetap berada dalam penyimpanan sendiri)
+- pembayaran instan melalui Lightning- / Liquid Network *(Catatan: Bull Bitcoin Wallet memungkinkan pembayaran dilakukan dan diterima melalui Lightning. Dana yang diterima melalui Lightning disimpan di jaringan [*Liquid](https://liquid.net/) (dalam Pembayaran Instan Wallet) berkat pertukaran otomatis melalui pertukaran Boltz. Hal ini memberikan Anda kemampuan untuk berinteraksi dengan Lightning tanpa harus mengelola saluran likuiditas, namun tetap berada dalam penyimpanan sendiri)
 - `Kirim` dan `Terima` dana
 
 
@@ -418,6 +418,8 @@ Untuk menyelesaikan transaksi, berikan pengirim `alamat` atau `URI`. Anda dapat 
 
 
 
+> **Catatan (Oktober 2026):** Boltz menangguhkan semua swap pada 3 Agustus 2026 dan situs webnya tidak aktif. Pembayaran Lightning di Bull Bitcoin Wallet bergantung pada Boltz dan mungkin tidak lagi berfungsi.
+
 Bull Bitcoin Wallet juga memungkinkan Anda untuk mengirim dan menerima pembayaran melalui Lightning Network. Fitur utamanya adalah dana yang diterima melalui Lightning secara otomatis ditukar dan disimpan di `Liquid Network` dalam `Pembayaran Instan Wallet`. Layanan ini didukung oleh `Boltz`. Desain ini memungkinkan Anda untuk menikmati kecepatan dan biaya rendah Lightning tanpa kerumitan dalam mengelola saluran likuiditas, sambil tetap mempertahankan kustodian penuh atas dana Anda. Meskipun pendekatan hibrida ini bersifat kustodian mandiri dan menghindari kerumitan dalam mengelola saluran, pendekatan ini memperkenalkan layanan pihak ketiga (Boltz), biaya swap yang kecil, dan ketergantungan pada federasi fungsionaris Liquid Network sebagai pemegang kunci, yang berbeda dengan Lightning wallet non-kustodian tradisional di mana Anda mengelola saluran Anda sendiri. Anda dapat mempelajari lebih lanjut tentang Liquid dan model tata kelola di sana di sini:
 
 
@@ -508,6 +510,8 @@ Anda dapat memindai Lightning Address (mis. `runningbitcoin@rizful.com`) yang me
 
 *Harap diperhatikan bahwa jumlah minimum dan biaya berlaku.*
 
+
+> **Catatan (Oktober 2026):** Boltz menangguhkan semua swap pada 3 Agustus 2026 dan situs webnya tidak aktif. Pembayaran Lightning di Bull Bitcoin Wallet bergantung pada Boltz dan mungkin tidak lagi berfungsi.
 
 Bull Bitcoin Wallet mengirimkan pembayaran Lightning dengan menarik dana dari `Pembayaran Instan Wallet` (pada Liquid) dan menukarnya melalui `Boltz`. Pendekatan hibrida ini sepenuhnya bersifat kustodian mandiri dan menghindari biaya on-chain yang tinggi untuk mengelola saluran Lightning khusus, tetapi memerlukan pembayaran `biaya pertukaran`. Untuk biaya terendah, kirim langsung ke alamat Liquid penerima jika mereka juga menggunakan Bull Bitcoin wallet.
 

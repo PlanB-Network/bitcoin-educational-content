@@ -6,3 +6,5 @@ description: |
   Bagi mereka yang ingin mengintegrasikan pembayaran Lightning P2P ke dalam aplikasi mereka, Breez menawarkan SDK untuk kustomisasi maksimal dengan pemrograman minimal. Breez Cloud lebih meningkatkan pengalaman pengguna, menggabungkan kedaulatan Lightning non-custodial dengan kenyamanan layanan custodial untuk pembayaran yang serbaguna, kapan saja.
 
   Breez sedang membentuk masa depan ekonomi Lightning, membuat pembayaran Bitcoin lebih mudah diakses dan efisien dari sebelumnya.
+
+  Sejak Juni 2026, aplikasi seluler Breez yang asli berada dalam mode pemeliharaan: Breez tidak lagi membuka kanal baru dan merekomendasikan Glow atau Misty Breez.

@@ -408,7 +408,9 @@ Kugira ngo uronke amafaranga Liquid-Bitcoins (L-BTC), hariho uburyo bwinshi bwo 
 
 
 
-Canke, Exchange amafaranga yawe y’ibiceri onchain canke biciye kuri Lightning Network ya L-BTC ukoresheje [ikiraro nka Boltz](https://boltz.Exchange/): winjize Liquid yawe uronka Address, ukore amahera uko ushaka, hanyuma uronke L-BTC yawe.
+Canke, Exchange amafaranga yawe y’ibiceri onchain canke biciye kuri Lightning Network ya L-BTC ukoresheje ikiraro nka Boltz: winjize Liquid yawe uronka Address, ukore amahera uko ushaka, hanyuma uronke L-BTC yawe.
+
+> **Menya (Gitugutu 2026):** Boltz yahagaritse swaps zose ku wa 3 Myandagaro 2026, kandi urubuga rwayo ntirugikora. Ubu buryo ntibukora muri iki gihe.
 
 
 

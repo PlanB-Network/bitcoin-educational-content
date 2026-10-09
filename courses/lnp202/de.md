@@ -415,7 +415,9 @@ Der große Vorteil dieses Ansatzes im Vergleich zu einem konventionellen Lightni
 
 
 
-Die meisten Portfolios, die diese Art von Funktionalität anbieten, stützen sich auf [Boltz](https://boltz.exchange/) für den technischen Teil des Swaps.
+Die meisten Portfolios, die diese Art von Funktionalität anbieten, stützen sich auf Boltz für den technischen Teil des Swaps.
+
+> **Hinweis (Oktober 2026):** Boltz hat am 3. August 2026 alle Swaps ausgesetzt, und die Website ist offline. Wallets, die auf Boltz angewiesen sind, bieten diese Funktion möglicherweise nicht mehr an.
 
 
 

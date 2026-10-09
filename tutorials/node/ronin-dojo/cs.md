@@ -5,6 +5,8 @@ description: Instalace a používání vašeho Bitcoinového uzlu RoninDojo.
 ---
 ***VAROVÁNÍ:** Po zatčení zakladatelů peněženky Samourai a zabavení jejich serverů dne 24. dubna jsou některé funkce RoninDojo, jako je Whirlpool, již nefunkční. Je však možné, že tyto nástroje budou v nadcházejících týdnech obnoveny nebo spuštěny jinak. Jelikož byl kód RoninDojo hostován na GitLabu Samourai, který byl také zabaven, v současné době není možné kód stáhnout na dálku. Týmy RoninDojo pravděpodobně pracují na znovuzveřejnění kódu.*
 
+> **Aktualizace (říjen 2026):** RoninDojo mezitím znovu zveřejnil svůj kód na vlastní platformě ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) a nyní je ve verzi 3. Tento návod popisuje starší verzi: některé odkazy a příkazy už nefungují. Aktuální postup najdete v oficiální dokumentaci: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 _Sledujeme vývoj této kauzy stejně jako vývoj s ním spojených nástrojů. Ujistěte se, že tento návod aktualizujeme, jakmile budou k dispozici nové informace._
 
 _Tento návod je poskytován pouze pro vzdělávací a informační účely. Nepodporujeme ani nevyzýváme k používání těchto nástrojů pro kriminální účely. Je zodpovědností každého uživatele dodržovat zákony ve své jurisdikci._
@@ -55,9 +57,11 @@ Nyní, když jsme si vytvořili představu o RoninDojo, pojďme se podívat, jak
 
 Pro výběr stroje, který bude hostit a provozovat RoninDojo, máte několik možností.
 
-Jak bylo vysvětleno dříve, nejjednodušší volbou je objednat si Tanto, plug-and-play stroj navržený speciálně pro tento účel. Pro objednání vašeho přejděte sem: [odkaz](https://shop.ronindojo.io/product-category/nodes/).
+Jak bylo vysvětleno dříve, nejjednodušší volbou je objednat si Tanto, plug-and-play stroj navržený speciálně pro tento účel.
 
-Vzhledem k tomu, že týmy RoninDojo produkují open-source kód, je také možné implementovat RoninDojo na jiných strojích. Nejnovější verze instalačního průvodce najdete na této stránce: [odkaz](https://ronindojo.io/downloads), a nejnovější verze kódu na této stránce: [odkaz](https://code.samourai.io/ronindojo/RoninDojo).
+> **Poznámka (říjen 2026):** RoninDojo už Tanto zřejmě neprodává a jeho internetový obchod je mimo provoz. Podívejte se na seznam kompatibilního hardwaru: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
+
+Vzhledem k tomu, že týmy RoninDojo produkují open-source kód, je také možné implementovat RoninDojo na jiných strojích. Nejnovější verze instalačního průvodce najdete na této stránce: [odkaz](https://ronindojo.io/downloads), a nejnovější verze kódu na této stránce: [odkaz](https://git.ronindojo.io/Ronin/monorepo).
 
 Osobně jsem ho nainstaloval na Raspberry Pi 4 8GB a vše funguje perfektně.
 
@@ -149,6 +153,8 @@ V terminálu to bude vypadat takto:
 ![SSH Connection to RoninOS](assets/10.webp)
 
 Nyní jste připojeni k vašemu stroji, na kterém je aktuálně pouze RoninOS. Nyní potřebujete na něm nainstalovat RoninDojo.
+
+> **Poznámka (říjen 2026):** Níže uvedený příkaz už nefunguje: GitLab projektu Samourai (code.samourai.io) byl zabaven 24. dubna 2024. RoninDojo nyní hostuje svůj kód zde: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Aktuální postup instalace najdete na [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
 
 Stáhněte si nejnovější verzi RoninDojo zadáním následujícího příkazu:
 

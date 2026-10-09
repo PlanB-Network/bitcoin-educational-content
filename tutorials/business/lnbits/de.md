@@ -85,7 +85,7 @@ Sie können auch ein Video auf dem [dockerised Setup auf einem VPS mit PostgreSQ
 
 [Weitere Installationsszenarien hier](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
-Für Bundle-Software-Knoten lesen Sie bitte deren spezifische Dokumentation über LNbits: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+Für Bundle-Software-Knoten lesen Sie bitte deren spezifische Dokumentation über LNbits: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 ### LNbits SaaS
 
@@ -161,11 +161,13 @@ Um Ihr Macaroon zu verschlüsseln, führen Sie `./venv/bin/python lnbits/wallets
 
 #### Blitz-TipBot
 
+> **Warnung (Oktober 2026):** LightningTipBot und ln.tips wurden eingestellt; die Einstellung wurde am 29. April 2024 angekündigt. Diese Finanzierungsquelle funktioniert nicht mehr, es sei denn, Sie betreiben Ihren eigenen Bot.
+
 Um Ihren [Lightning Tipbot](https://t.me/LightningTipBot) mit Telegram zu verbinden, müssen Sie die folgenden Parameter einstellen:
 
 
   - lNBITS_BACKEND_WALLET_CLASS": **LnTipsWallet**
-  - lNBITS_ENDPOINT": https://ln.tips
+  - lNBITS_ENDPOINT": `https://ln.tips`
   - `LNBITS_KEY`: Um den Schlüssel zu erhalten, musst du einmal /api in einem privaten Chat mit dem LightningTipbot auf Telegram ausführen.
 
 Siehe auch diese Anleitung zur Installation von [LNbits mit LightningTipBot via vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
@@ -178,11 +180,13 @@ Weitere Informationen finden Sie unter [IBEX API-Dokumentation](https://ibexpay-
 
 #### LNPay
 
-Damit der Rechnungshörer funktioniert, müssen Sie eine öffentlich zugängliche URL in Ihrem LNbits haben und einen [LNPay webhook](https://dashboard.lnpay.co/webhook/) einrichten, der auf `<Ihren LNbits-Host>/wallet/webhook` mit dem Ereignis "Wallet Receive" und ohne Angabe eines Geheimnisses zeigt. Die Einstellung `https://mylnbits/wallet/webhook` wird die Endpunkt-URL sein, die über jede Zahlung benachrichtigt wird.
+> **Warnung (Oktober 2026):** LNPay scheint eingestellt worden zu sein: Die Domain lnpay.co antwortet nicht mehr. Diese Finanzierungsquelle ist wahrscheinlich nicht mehr nutzbar.
+
+Damit der Rechnungshörer funktioniert, müssen Sie eine öffentlich zugängliche URL in Ihrem LNbits haben und einen LNPay webhook einrichten, der auf `<Ihren LNbits-Host>/wallet/webhook` mit dem Ereignis "Wallet Receive" und ohne Angabe eines Geheimnisses zeigt. Die Einstellung `https://mylnbits/wallet/webhook` wird die Endpunkt-URL sein, die über jede Zahlung benachrichtigt wird.
 
 
   - lNBITS_BACKEND_WALLET_CLASS": **LNPayWallet**
-  - lNPAY_API_ENDPOINT": https://api.lnpay.co/v1/
+  - lNPAY_API_ENDPOINT": `https://api.lnpay.co/v1/`
   - lNPAY_API_KEY": sak_apiKey
   - lNPAY_WALLET_KEY": waka_apiKey
 
@@ -403,7 +407,9 @@ Es gibt zwei Möglichkeiten, Sats von onchain BTC in LN BTC (bzw. in LNbits) zu 
 
 ###### Über einen externen Tauschdienst.
 
-Andere Nutzer, die keinen Zugriff auf Ihre LNbits-Instanz haben, können einen Tauschdienst wie [Boltz](https://boltz.exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) oder [ZigZag](https://zigzag.io/) nutzen. Dies ist nützlich, wenn Sie nur LNURL/LN-Rechnungen von Ihrer LNbits-Instanz aus bereitstellen, ein Zahler aber nur Onchain-Sats hat, so dass er diese Sats zuerst auf seiner Seite austauschen muss. Das Verfahren ist einfach: Benutzer sendet onchain btc an den Swap-Service und gibt die LNURL / LN-Rechnung von LNbits als Ziel des Swaps an.
+Andere Nutzer, die keinen Zugriff auf Ihre LNbits-Instanz haben, können einen Tauschdienst wie Boltz, [FixedFloat](https://fixedfloat.com/) oder [ZigZag](https://zigzag.io/) nutzen. Dies ist nützlich, wenn Sie nur LNURL/LN-Rechnungen von Ihrer LNbits-Instanz aus bereitstellen, ein Zahler aber nur Onchain-Sats hat, so dass er diese Sats zuerst auf seiner Seite austauschen muss. Das Verfahren ist einfach: Benutzer sendet onchain btc an den Swap-Service und gibt die LNURL / LN-Rechnung von LNbits als Ziel des Swaps an.
+
+> **Warnung (Oktober 2026):** Boltz hat am 3. August 2026 alle Swaps ausgesetzt, nachdem mehrere Schwachstellen ausgenutzt wurden, und die Website ist offline. Boltz und die Boltz-Erweiterung von LNbits können derzeit nicht genutzt werden.
 
 ###### Verwendung der LNbits-Erweiterung von Onchain und Boltz.
 

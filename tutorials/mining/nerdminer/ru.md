@@ -14,7 +14,7 @@ description: Начните майнить биткоин с шансом выи
 
 - [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - [USB-C блок питания](https://amzn.eu/d/gIOot90)
-- 3D корпус: если у вас есть 3D принтер, вы можете скачать [3D файл](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons), в противном случае вы можете купить его в [интернет-магазине Silexperience](https://silexperience.company.site/NerdMiner_V2-p544379757).
+- 3D корпус: если у вас есть 3D принтер, вы можете скачать [3D файл](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons), в противном случае вы можете купить его в [интернет-магазине Bitronics](https://bitronics.store/).
 - ПК с установленным браузером Chrome
 - Интернет-соединение
 - Биткоин-адрес
@@ -66,7 +66,6 @@ description: Начните майнить биткоин с шансом выи
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Стандартный Solo и открытый пул для майнинга |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Поддерживается CHMEX                      |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Поддерживается djerfy                     |
 
 После выбора пула вам нужно ввести ваш биткоин-адрес для получения награды в случае (исключительно) нахождения блока.
 
@@ -128,4 +127,4 @@ description: Начните майнить биткоин с шансом выи
 Вот некоторые ссылки, если вы хотите узнать больше о теме:
 
 - [Страница проекта NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Полная документация NerdMiners](https://bitwater.ch/nerd-miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

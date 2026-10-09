@@ -600,7 +600,6 @@ GrapheneOS je zečja rupa kojom bi svako mogao lako provesti nedelje istražuju�
 - [Službeni vodič za korišćenje GrapheneOS-a](https://grapheneos.org/usage) - Službena veb stranica
 - [GrapheneOS Forum](https://discuss.grapheneos.org/) - Zvanična veb stranica
 - [GrapheneOS Settings Masterclass](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video od 'The Privacy Wayfinder'
-- [GrapheneOS General Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast od 'Watchman Privacy'
 
 
 *Ovaj vodič je adaptacija originalnog sadržaja objavljenog od strane [BitcoinQnA na Bitcoiner.Guide pod MIT licencom](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), kojem pripadaju sve zasluge za početni rad na pisanju.*

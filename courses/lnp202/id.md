@@ -415,7 +415,9 @@ Keuntungan utama dari pendekatan ini, dibandingkan dengan kustodian Lightning wa
 
 
 
-Sebagian besar portofolio yang menawarkan jenis fungsionalitas ini mengandalkan [Boltz](https://boltz.exchange/) untuk bagian teknis swap.
+Sebagian besar portofolio yang menawarkan jenis fungsionalitas ini mengandalkan Boltz untuk bagian teknis swap.
+
+> **Catatan (Oktober 2026):** Boltz menangguhkan semua swap pada 3 Agustus 2026 dan situs webnya tidak dapat diakses. Dompet yang mengandalkan Boltz mungkin tidak lagi menawarkan fitur ini.
 
 
 

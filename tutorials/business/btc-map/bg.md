@@ -28,7 +28,6 @@ description: Намерете места, където да похарчите �
 
 
 - iOS чрез [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
-- Android чрез [Play Store](https://play.google.com/store/apps/details?id=org.btcmap.app)
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) каталогът за приложения с отворен код за Android
 - като изтеглите [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) директно от github на проекта
 - чрез уеб приложението от вашия браузър (нашето мнение днес)

@@ -20,7 +20,7 @@ RASPIBLITZ - Yıldırım ve Bitcoin Full node BTC oturumu ile Nasıl Çalıştı
 ## Parman'ın Raspiblitz Kurulum Kılavuzu
 
 
-Raspiblitz, bir Bitcoin Node ve ilgili uygulamaları çalıştırmak için mükemmel bir sistemdir. Bunu ve My Node düğümünü çoğu kullanıcıya tavsiye ederim (İdeal olarak yedeklilik için iki düğüme sahip olun.) En büyük avantajı, Raspiblitz düğümünün MyNode veya Umbrel'den farklı olarak "Ücretsiz Açık Kaynak Yazılımı" olmasıdır. Bu neden önemli? Vlad Costa açıklıyor. RaspbiBlitz'i ethernet yerine WiFi bağlantısı ile de çalıştırabilirsiniz - işte bunun için ek bir kılavuz. (Bunu MyNode ile yapmanın bir yolunu bulamadım).
+Raspiblitz, bir Bitcoin Node ve ilgili uygulamaları çalıştırmak için mükemmel bir sistemdir. Bunu ve My Node düğümünü çoğu kullanıcıya tavsiye ederim (İdeal olarak yedeklilik için iki düğüme sahip olun.) En büyük avantajı, Raspiblitz düğümünün MyNode veya Umbrel'den farklı olarak "Ücretsiz Açık Kaynak Yazılımı" olmasıdır. Bu neden önemli? Vlad Costea açıklıyor. RaspbiBlitz'i ethernet yerine WiFi bağlantısı ile de çalıştırabilirsiniz - işte bunun için ek bir kılavuz. (Bunu MyNode ile yapmanın bir yolunu bulamadım).
 
 
 Ekli bir mini ekrana sahip hazır bir düğüm satın alabilir veya kendiniz inşa edebilirsiniz (ekrana ihtiyacınız yoktur).

@@ -5,7 +5,7 @@ description: Bitcoin و راه‌حل‌های پرداخت لایتنینگ ب�
 
 ![cover](assets/cover.webp)
 
-
+> **هشدار (اکتبر ۲۰۲۶):** Lipa for Business در اواسط مارس ۲۰۲۶ تعطیل شد و ناشر آن، lightning payment services ag، در حال انحلال است. پیوندها و مراحل این آموزش دیگر کار نمی‌کنند. این صفحه را تا زمان به‌روزرسانی برای مرجع نگه می‌داریم.
 
 بازرگانان اکنون به طور فزاینده‌ای علاقه‌مند به پذیرش پرداخت‌های Bitcoin از طریق Lightning Network هستند. برخلاف پرداخت‌های سنتی با کارت اعتباری که شامل هزینه‌های بالا و زمان‌های طولانی تسویه می‌شوند، تراکنش‌های Lightning تقریباً فوری هستند، مشمول بازپرداخت نمی‌شوند و محرمانگی مشتری را حفظ می‌کنند.
 
@@ -267,9 +267,9 @@ description: Bitcoin و راه‌حل‌های پرداخت لایتنینگ ب�
 
 
 
-- [وب‌سایت رسمی Lipa برای کسب‌وکار](https://lipa.swiss/en/for-business)
-- [داشبورد وب](https://dashboard.lipa.swiss)
-- [پشتیبانی لیپا برای کسب‌وکار](https://help.lipa.swiss/business)
-- [پشتیبانی عمومی لیپا](https://help.lipa.swiss/Wallet)
+- وب‌سایت رسمی Lipa برای کسب‌وکار
+- داشبورد وب
+- پشتیبانی لیپا برای کسب‌وکار
+- پشتیبانی عمومی لیپا
 - [LinkedIn Lipa](https://www.linkedin.com/company/getlipa)
 - [توییتر @lipa_btc](https://twitter.com/lipa_btc)

@@ -19,7 +19,7 @@ description: 0에 가까운 승리 확률로 Mining Bitcoin을 시작합니다
 
 - a [릴리고 T-디스플레이 S3](https://lilygo.cc/products/t-display-s3)
 - a [USB-C 전원 Supply](https://amzn.eu/d/gIOot90)
-- 3D 케이스: 3D 프린터가 있는 경우 [3D 파일](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons)을 다운로드할 수 있으며, 그렇지 않은 경우 [실렉체험 온라인 스토어](https://silexperience.company.site/NerdMiner_V2-p544379757)에서 구매할 수 있습니다.
+- 3D 케이스: 3D 프린터가 있는 경우 [3D 파일](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons)을 다운로드할 수 있으며, 그렇지 않은 경우 [Bitronics 온라인 스토어](https://bitronics.store/)에서 구매할 수 있습니다.
 - 크롬 브라우저가 설치된 PC
 - 인터넷 연결
 - gW-8 Address
@@ -95,7 +95,6 @@ WiFi를 활성화하고 로컬 NerdMinerAP 네트워크에 연결합니다. 스�
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Default Solo and open-source mining pool |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Maintained by CHMEX                      |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Maintained by djerfy                     |
 
 풀을 선택한 후에는 (예외적으로) 블록이 발견될 경우 보상을 받으려면 Bitcoin Address을 입력해야 합니다.
 
@@ -191,4 +190,4 @@ Block reward 당첨 확률을 재미있게 추정해 보겠습니다. 이 추정
 
 
 - [NerdMiner_v2 프로젝트 페이지](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [너드마이너의 전체 문서](https://bitwater.ch/nerd-miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

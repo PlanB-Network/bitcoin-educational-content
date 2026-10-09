@@ -5,7 +5,7 @@ description: Breez macht es einfach, Bitcoin-Zahlungen für Ihr Unternehmen einz
 
 ![cover](assets/cover.webp)
 
-
+> **Warnung (Oktober 2026):** Breez hat seine bisherige mobile App (Breez: Lightning Client & POS) 2026 aus den App-Stores entfernt und die Kanäle seiner Nutzer geschlossen. Die Download-Links und Schritte in diesem Tutorial funktionieren nicht mehr. Frühere Nutzer können ihre Guthaben mit dem Tool [breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery) wiederherstellen. Wir behalten diese Seite als Referenz bei, bis sie aktualisiert wird.
 
 Seit der COVID-19-Pandemie ist der kontaktlose digitale Zahlungsverkehr weit verbreitet, selbst in den kleinsten Geschäften. In dieser Zeit haben viele Unternehmen die Praktikabilität von Bitcoin-Cash-Lösungen entdeckt, mit denen sie Zahlungen aus der ganzen Welt empfangen können. Allerdings sind diese Lösungen manchmal schwierig zu bedienen oder für kleine Unternehmen ungeeignet. In diesem Tutorial werden wir einen Blick auf das Breez-Zahlungsterminal werfen, eine Lösung, die sich durch ihre Benutzerfreundlichkeit auszeichnet und Ihnen gleichzeitig die volle Kontrolle über die Verwaltung Ihrer Bitcoins gibt.
 
@@ -15,7 +15,7 @@ Seit der COVID-19-Pandemie ist der kontaktlose digitale Zahlungsverkehr weit ver
 
 
 
-Breez POS ist ein Self-Custody-Dienst, der vom Breez wallet bereitgestellt wird. Der Nutzen dieses Dienstes besteht darin, Händlern zu ermöglichen, Zahlungen über Bitcoin einzuziehen, während sie auf einer einfachen Schnittstelle bleiben, die den verschiedenen Lightning-Geldbörsen sehr ähnlich ist. Breez POS ist auf den Download-Plattformen [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) und [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS) verfügbar.
+Breez POS ist ein Self-Custody-Dienst, der vom Breez wallet bereitgestellt wird. Der Nutzen dieses Dienstes besteht darin, Händlern zu ermöglichen, Zahlungen über Bitcoin einzuziehen, während sie auf einer einfachen Schnittstelle bleiben, die den verschiedenen Lightning-Geldbörsen sehr ähnlich ist. Breez POS ist auf den Download-Plattformen Google Play Store (Android) und App Store (iOS) verfügbar.
 
 
 

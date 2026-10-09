@@ -106,9 +106,9 @@ RGB ifise umwobo wayo w’inkwavu mu mwobo w’inkwavu wa Bitcoin, mu gihe ndiko
 
 - 1 Umugambi99.urubuga/~mike/Satoshi-imeli/urudodo4.html
 - 2 https://btctranscripts.com/uruzitiro-ruzitiro/uruzitiro-ruzitiro/2018-10-22-amateka-y'umuravyo/
-- 3 Urutonde rw'Ishirahamwe ry'Ivyabona vya Yehova
-- 4 Ubutumwa bw'ibara ry'agahama
-- 5 Ubutumwa bw'ibara ry'agahama
+- 3 https://gnusha.org/pi/bitcoindev/20160620085649.GA29964@fedora-21-dvm/
+- 4 https://github.com/RGB-WG/RFC/blob/master/RGB-0020.md
+- 5 https://github.com/RGB-WG/RFC/blob/master/RGB-0021.md
 
 
 ## Inyigisho y'urudodo rwa RGB

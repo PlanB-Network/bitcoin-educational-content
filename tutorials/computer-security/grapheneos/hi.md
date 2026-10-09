@@ -601,7 +601,6 @@ eSIM को फ़ोन की गोपनीयता के लिए पू
 - [ग्राफीनओएस आधिकारिक उपयोग गाइड](https://grapheneos.org/usage) - आधिकारिक वेबसाइट
 - [ग्राफीनओएस फोरम](https://discuss.grapheneos.org/) - आधिकारिक वेबसाइट
 - [ग्राफीनओएस सेटिंग्स मास्टरक्लास](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - वीडियो 'द प्राइवेसी वेफाइंडर' द्वारा
-- [ग्राफीनओएस जनरल पॉडकास्ट](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - 'वॉचमैन प्राइवेसी' द्वारा पॉडकास्ट
 
 
 *यह ट्यूटोरियल [BitcoinQnA द्वारा Bitcoiner.Guide पर MIT लाइसेंस के तहत प्रकाशित](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) मूल सामग्री का अनुकूलन है, जिसके लिए प्रारंभिक लेखन कार्य का पूरा श्रेय उन्हें जाता है।*

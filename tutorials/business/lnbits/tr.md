@@ -116,7 +116,7 @@ Ayrıca [nginx kullanarak bir fon kaynağı olarak PostgreSQ, LightningTipBot il
 [Daha fazla kurulum senaryosu burada](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
 
-Paket yazılım düğümleri için lütfen LNbits hakkındaki özel belgelerine bakın: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+Paket yazılım düğümleri için lütfen LNbits hakkındaki özel belgelerine bakın: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
 ### LNbits SaaS
@@ -207,12 +207,14 @@ Makaronunuzu şifrelemek için `./venv/bin/python lnbits/wallets/macaroon/macaro
 
 #### Lightning TipBot
 
+> **Uyarı (Ekim 2026):** LightningTipBot ve ln.tips faaliyetlerini sonlandırdı; kapanış 29 Nisan 2024'te duyuruldu. Kendi botunuzu barındırmadığınız sürece bu fon kaynağı artık çalışmıyor.
+
 
 Lightning Tipbot] (https://t.me/LightningTipBot) cihazınızı Telegram'dan bağlamak için aşağıdaki parametreyi ayarlamanız gerekecektir:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://LN.tips
+  - `LNBITS_ENDPOINT`: `https://LN.tips`
   - lNBITS_KEY`: Anahtarı almak için Telegram'da LightningTipbot ile özel bir sohbette bir kez /api çalıştırmanız gerekecektir.
 
 
@@ -229,11 +231,13 @@ Daha fazla bilgi için bakınız [IBEX API-Documentation](https://ibexpay-api.re
 
 #### LNPay
 
-Invoice dinleyicisinin çalışması için LNbits'inizde herkese açık bir URL'ye sahip olmanız ve "Wallet Receive" olayı ile `<your LNbits host>/Wallet/webhook` adresini işaret eden bir [LNPay webhook](https://dashboard.lnpay.co/webhook/) kurmanız gerekir. Ayar `https://mylnbits/Wallet/webhook`, herhangi bir ödeme hakkında bilgilendirilen uç nokta url'si olacaktır.
+> **Uyarı (Ekim 2026):** LNPay faaliyetini sonlandırmış görünüyor: lnpay.co alan adı artık yanıt vermiyor. Bu fon kaynağı büyük olasılıkla artık kullanılamıyor.
+
+Invoice dinleyicisinin çalışması için LNbits'inizde herkese açık bir URL'ye sahip olmanız ve "Wallet Receive" olayı ile `<your LNbits host>/Wallet/webhook` adresini işaret eden bir LNPay webhook kurmanız gerekir. Ayar `https://mylnbits/Wallet/webhook`, herhangi bir ödeme hakkında bilgilendirilen uç nokta url'si olacaktır.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -537,7 +541,9 @@ Onchain BTC'den LN BTC'ye (LNbits'e) Exchange Sats yapmanın iki yolu vardır.
 ###### Harici bir takas hizmeti aracılığıyla.
 
 
-LNb'nize erişimi olmayan diğer kullanıcılar [Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) veya [ZigZag](https://zigzag.io/) gibi bir takas hizmeti kullanabilir. Bu, LNbits örneğinizden yalnızca LNURL/LN faturaları sağlıyorsanız, ancak bir ödeyenin yalnızca zincir üzerinde Sats'ü varsa, bu nedenle önce bu Sats'ü kendi taraflarında değiştirmeleri gerekecektir. Prosedür basittir: kullanıcı takas hizmetine onchain btc gönderir ve takasın hedefi olarak LNbits'ten LNURL / LN Invoice sağlar.
+LNb'nize erişimi olmayan diğer kullanıcılar Boltz, [FixedFloat](https://fixedfloat.com/) veya [ZigZag](https://zigzag.io/) gibi bir takas hizmeti kullanabilir. Bu, LNbits örneğinizden yalnızca LNURL/LN faturaları sağlıyorsanız, ancak bir ödeyenin yalnızca zincir üzerinde Sats'ü varsa, bu nedenle önce bu Sats'ü kendi taraflarında değiştirmeleri gerekecektir. Prosedür basittir: kullanıcı takas hizmetine onchain btc gönderir ve takasın hedefi olarak LNbits'ten LNURL / LN Invoice sağlar.
+
+> **Uyarı (Ekim 2026):** Boltz, birkaç güvenlik açığının istismar edilmesinin ardından 3 Ağustos 2026'da tüm takasları askıya aldı ve web sitesi çevrimdışı. Boltz ve LNbits Boltz uzantısı şu anda kullanılamıyor.
 
 
 ###### Onchain ve Boltz LNbits uzantısını kullanma.

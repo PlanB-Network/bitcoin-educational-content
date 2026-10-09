@@ -408,7 +408,9 @@ Da biste primili Liquid-Bitcoins (L-BTC), dostupno je nekoliko opcija. Možete z
 
 
 
-Alternativno, Exchange vaše bitkoine onchain ili putem Lightning Network za L-BTC koristeći [most kao što je Boltz](https://boltz.Exchange/): unesite vaš Liquid primajući Address, izvršite uplatu kako želite i primite vaš L-BTC.
+Alternativno, Exchange vaše bitkoine onchain ili putem Lightning Network za L-BTC koristeći most kao što je Boltz: unesite vaš Liquid primajući Address, izvršite uplatu kako želite i primite vaš L-BTC.
+
+> **Napomena (oktobar 2026):** Boltz je obustavio sve swapove 3. avgusta 2026, a njegov veb-sajt nije dostupan. Ovaj metod trenutno ne radi.
 
 
 

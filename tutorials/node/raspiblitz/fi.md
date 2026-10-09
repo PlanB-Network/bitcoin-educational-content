@@ -14,7 +14,7 @@ RASPIBLITZ - Kuinka Pyörittää Lightning ja Bitcoin Full Nodea BTC sessionin t
 
 ## Parmanin Raspiblitzin asennusopas
 
-Raspiblitz on erinomainen järjestelmä Bitcoin-noden ja siihen liittyvien sovellusten ajamiseen. Suosittelen tätä ja MyNode-nodia useimmille käyttäjille (ihanteellisesti kaksi nodia redundanssin vuoksi). Yksi suuri etu on, että Raspiblitz-node on "Free Open Source Software", toisin kuin MyNode tai Umbrel. [Miksi se on tärkeää? Vlad Costa selittää.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Voit myös käyttää Raspiblitziä WiFi-yhteydellä ethernetin sijaan – tässä on [lisäopas](https://armantheparman.com/headless-wifi/) siihen. (En ole löytänyt tapaa tehdä tätä MyNode:n kanssa).
+Raspiblitz on erinomainen järjestelmä Bitcoin-noden ja siihen liittyvien sovellusten ajamiseen. Suosittelen tätä ja MyNode-nodia useimmille käyttäjille (ihanteellisesti kaksi nodia redundanssin vuoksi). Yksi suuri etu on, että Raspiblitz-node on "Free Open Source Software", toisin kuin MyNode tai Umbrel. [Miksi se on tärkeää? Vlad Costea selittää.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Voit myös käyttää Raspiblitziä WiFi-yhteydellä ethernetin sijaan – tässä on [lisäopas](https://armantheparman.com/headless-wifi/) siihen. (En ole löytänyt tapaa tehdä tätä MyNode:n kanssa).
 
 Voit ostaa valmiin noden kiinnitetyllä mininäytöllä, tai voit rakentaa sen itse (et tarvitse näyttöä).
 
@@ -63,7 +63,7 @@ Ennen kuin jatkat, jos et tunne tiedostojärjestelmää komentorivillä, on help
 Tässä on [hyödyllinen video Linuxille, mutta se pätee myös Maciin](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Windowsille tässä on [yksinkertainen opetusohjelma](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
-_PÄIVITYS: pgp/gpg-varmennus on nyt saatavilla. Tarvitset Openomsin julkisen avaimen. [Tässä](http://parman.org/downloadable/openoms.txt) se on (saatat tarvita incognito-tilaa, jotta linkki toimii – http, ei https)_
+_PÄIVITYS: pgp/gpg-varmennus on nyt saatavilla. Nykyiset RaspiBlitz-levykuvat allekirjoittaa rootzoll, ei Openoms (avaimen sormenjälki: 92A746AE33A3C186D014BF5C1C73060C7C176461). Avain ja komento `gpg --verify` löytyvät [virallisesta UKK:sta](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download)._
 Mac/Linux
 
 Odota, että tiedosto on valmis latautumaan (tärkeää!), ja avaa sitten terminaali, siirry kansioon, johon latasit tiedoston, ja kirjoita seuraava komento...

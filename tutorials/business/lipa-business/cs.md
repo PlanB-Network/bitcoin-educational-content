@@ -5,7 +5,7 @@ description: Platební řešení Bitcoin a Lightning pro obchodníky
 
 ![cover](assets/cover.webp)
 
-
+> **Upozornění (říjen 2026):** Služba Lipa for Business ukončila provoz v polovině března 2026 a její vydavatel, lightning payment services ag, je v likvidaci. Odkazy a kroky v tomto návodu již nefungují. Tuto stránku ponecháváme pro referenci, dokud nebude aktualizována.
 
 Obchodníci mají nyní stále větší zájem přijímat platby Bitcoin prostřednictvím Lightning Network. Na rozdíl od tradičních plateb kreditními kartami, které jsou spojeny s vysokými poplatky a dlouhou dobou vypořádání, jsou transakce Lightning prakticky okamžité, nepodléhají zpětným poplatkům a zachovávají důvěrnost informací o zákaznících.
 
@@ -267,9 +267,9 @@ Díky své nenáročnosti na ochranu osobních údajů a profesionálním nástr
 
 
 
-- [Oficiální stránky Lipa for Business](https://lipa.swiss/en/for-business)
-- [Přístrojová deska web](https://dashboard.lipa.swiss)
-- [Lipa Podpora podnikání](https://help.lipa.swiss/business)
-- [Lipa Obecná podpora](https://help.lipa.swiss/Wallet)
+- Oficiální stránky Lipa for Business
+- Přístrojová deska web
+- Lipa Podpora podnikání
+- Lipa Obecná podpora
 - [LinkedIn Lipa](https://www.linkedin.com/company/getlipa)
 - [Twitter @lipa_btc](https://twitter.com/lipa_btc)

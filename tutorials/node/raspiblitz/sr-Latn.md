@@ -20,7 +20,7 @@ RASPIBLITZ - Kako pokrenuti Lightning i Bitcoin kompletni node po BTC sesiji
 ## Parmanov vodič za postavljanje Raspiblitz-a
 
 
-Raspiblitz je odličan sistem za pokretanje Bitcoin noda i povezanih aplikacija. Preporučujem ovo i MyNode nod većini korisnika (idealno imati dva noda radi redundanse). Jedna velika prednost je to što je Raspiblitz nod „Free Open Source Software“, za razliku od MyNode ili Umbrel. [Zašto je to važno? Vlad Costa objašnjava.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Takođe možete pokrenuti Raspiblitz preko WiFi veze umesto ethernet – evo [dopunskog vodiča](https://armantheparman.com/headless-wifi/) za to. (Nisam pronašao način da ovo uradim sa MyNode).
+Raspiblitz je odličan sistem za pokretanje Bitcoin noda i povezanih aplikacija. Preporučujem ovo i MyNode nod većini korisnika (idealno imati dva noda radi redundanse). Jedna velika prednost je to što je Raspiblitz nod „Free Open Source Software“, za razliku od MyNode ili Umbrel. [Zašto je to važno? Vlad Costea objašnjava.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Takođe možete pokrenuti Raspiblitz preko WiFi veze umesto ethernet – evo [dopunskog vodiča](https://armantheparman.com/headless-wifi/) za to. (Nisam pronašao način da ovo uradim sa MyNode).
 
 
 Možete kupiti gotov čvor sa priloženim mini ekranom, ili ga možete sami napraviti (nije vam potreban ekran).
@@ -96,7 +96,7 @@ Evo [korisnog videa za Linux, ali se odnosi i na Mac](https://youtu.be/id3DGvljh
 Za Windows, evo [jednostavnog tutorijala](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
 
-_AŽURIRANJE: pgp/gpg verifikacija je sada dostupna. Trebaće vam Openoms-ov javni ključ. [Ovde](http://parman.org/downloadable/openoms.txt) je (možda ćete morati da koristite inkognito režim da bi link radio – http, ne https)_
+_AŽURIRANJE: pgp/gpg verifikacija je sada dostupna. Trenutne RaspiBlitz slike potpisuje rootzoll, a ne Openoms (otisak ključa: 92A746AE33A3C186D014BF5C1C73060C7C176461). Ključ i komandu `gpg --verify` daje [zvanični FAQ](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download)._
 Mac/Linux
 
 

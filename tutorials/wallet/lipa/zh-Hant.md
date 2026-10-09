@@ -2,8 +2,10 @@
 name: Lipa
 description: 設定和使用 Lipa lightning 移動 Wallet
 ---
+
 ![cover](assets/cover.webp)
 
+> **警告（2026年10月）：** Lipa 錢包已於 2025 年 12 月 31 日停止服務，其發行方 lightning payment services ag 正在清算中。該應用程式已無法下載，本教學中的操作步驟已不再有效。 在更新之前，我們保留此頁面以供參考。
 
 Bitcoin Lightning Wallet 是一種行動應用程式，可在 Bitcoin 的 Lightning Network 上進行即時、低成本的交易。與主 Blockchain (On-Chain) 上的交易不同，Lightning 付款幾乎是瞬間完成，且所需費用極低，因此特別適用於日常的小額付款。
 
@@ -44,7 +46,7 @@ Lipa 是一款非監控的 Lightning Wallet，以其簡單的使用方式和不�
 
 
 
-- [For Apple](https://apps.apple.com/app/lipa-Bitcoin-lightning/id1602180066)
+- For Apple
 
 
 Android 版本目前正在開發中，很快就會推出。

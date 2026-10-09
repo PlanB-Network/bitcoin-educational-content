@@ -2,7 +2,10 @@
 name: Lipa
 description: Sette opp og bruke den mobile lommeboken Lipa lightning
 ---
+
 ![cover](assets/cover.webp)
+
+> **Advarsel (oktober 2026):** Lipa-lommeboken ble lagt ned 31. desember 2025, og utgiveren, lightning payment services ag, er under avvikling. Appen kan ikke lenger lastes ned, og trinnene i denne veiledningen fungerer ikke lenger. Vi beholder denne siden som referanse til den blir oppdatert.
 
 En Bitcoin Lightning-lommebok er en mobilapplikasjon som muliggjør umiddelbare, rimelige transaksjoner på Bitcoins Lightning-nettverk. I motsetning til transaksjoner på hovedblokkjeden (on-chain) er Lightning-betalinger nesten øyeblikkelige og krever minimale avgifter, noe som gjør dem spesielt egnet for små, daglige betalinger.
 
@@ -31,7 +34,7 @@ Viktige funksjoner inkluderer:
 Det første trinnet er å laste ned Lipa-appen. For øyeblikket er den bare tilgjengelig på iOS :
 
 
-- [For Apple](https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
+- For Apple
 
 Android-versjonen er under utvikling og vil snart være tilgjengelig.
 

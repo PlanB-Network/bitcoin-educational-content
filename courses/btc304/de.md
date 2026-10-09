@@ -772,7 +772,7 @@ Aber du kannst nicht vorankommen, ohne zu wissen, dass **es Plattformen gibt, au
 Dazu gehören:
 
 - [Btcmap.org](https://btcmap.org/), eine Website mit zwei täglich aktualisierten Karten: **[die Weltkarte der Unternehmen, die Bitcoin akzeptieren](https://btcmap.org/map)** und **[die Weltkarte der Gemeinden](https://btcmap.org/communities/map)**. Viele Bitcoiner überprüfen diese Karten regelmäßig, egal ob sie auf Reisen sind oder ihrem täglichen Leben nachgehen, um neue Leute kennenzulernen oder Orte zu finden, an denen sie ihre [Sats](https://planb.academy/resources/glossary/satoshi-sat) ausgeben können. Btcmap ist die globale Referenz, und die Auflistung Ihrer Gemeinschaft dort ist für die Sichtbarkeit unerlässlich.
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), eine Website, die von Bitcoinern für Bitcoiner erstellt wurde. **Sie ermöglicht es dir, die anstehenden Veranstaltungen deiner Gemeinschaft zu veröffentlichen**. In Frankreich ist sie jedoch noch nicht weit verbreitet.
+- BitcoinerEvents, eine Website, die von Bitcoinern für Bitcoiner erstellt wurde. **Sie ermöglicht es dir, die anstehenden Veranstaltungen deiner Gemeinschaft zu veröffentlichen**. In Frankreich ist sie jedoch noch nicht weit verbreitet. **Hinweis (Oktober 2026):** Diese Website ist offline. [BitcoinOnly Events](https://bitcoinonly.events/) ist ein vergleichbarer Kalender, der weiterhin in Betrieb ist.
 - Je nach Land gibt es vielleicht andere lokale Initiativen. In Frankreich gibt es zum Beispiel [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), die **jeden Monat Dutzende von Bitcoin-Veranstaltungen auflistet**. Wenn du ihnen also noch nicht auf Twitter gefolgt bist oder sich mit ihnen in Verbindung gesetzt hast, um Informationen über Ihre Gemeinde und Veranstaltungen auszutauschen, dann ist jetzt der richtige Zeitpunkt dafür! **Um den französischen Veranstaltungskalender auf dem neuesten Stand zu halten, wäre es toll, wenn alle französischen Bitcoin-Gemeinschaften sich angewöhnen würden:**
     - erwähnung von @bitcoinpointfr auf Twitter für jedes neue Community-Event
     - neue Veranstaltungsankündigungen in ihrer Telegram-Gruppe anpinnen.
@@ -784,7 +784,7 @@ Auch andere Plattformen können deine Sichtbarkeit erhöhen. **[Meetup](https://
 In ähnlicher Weise ist [Orangepillapp](https://www.orangepillapp.com/) eine kostenpflichtige mobile App (50.000 Sats/Jahr oder 200.000 Sats für lebenslangen Zugang), die Bitcoinern hilft, sich zu treffen.
 
 Die beiden letztgenannten Plattformen können zwar die Sichtbarkeit erhöhen, werden aber für den Start einer Community nicht empfohlen, weil sie nicht kostenlos sind.
-**Eine Auflistung auf [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) und für französische Gemeinschaften auf [Bitcoin.fr](https://Bitcoin.fr) ist mehr als genug**.
+**Eine Auflistung auf [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) und für französische Gemeinschaften auf [Bitcoin.fr](https://Bitcoin.fr) ist mehr als genug**.
 
 
 Herzlichen Glückwunsch! Deine **Community ist gegründet**, deine **Visuals sind fertig**, deine **Ziele sind festgelegt**, deine **Kommunikationskanäle sind eingerichtet**, deine **sozialen Netzwerke sind gestartet** und deine **Sichtbarkeitsstrategie ist beschlossen**.

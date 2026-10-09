@@ -5,7 +5,7 @@ description: Bitcoin na Lightning inyishu zo kwishura ku bacuruzi
 
 ![cover](assets/cover.webp)
 
-
+> **Imburi (Gitugutu 2026):** Lipa for Business yahagaze hagati muri Ntwarante 2026, kandi ishirahamwe ryayikoze, lightning payment services ag, ririko rirasenywa. Amahuza n'intambwe zo muri iyi nyigisho ntibigikora. Tugumije uru rupapuro nk'icitegererezo gushika ruvugururwe.
 
 Abacuruzi ubu bararushiriza gukunda kwemera amahera ya Bitcoin biciye ku Lightning Network. Mu buryo butandukanye n’ukwishura kw’ikarata y’inguzanyo, ivyo bikaba birimwo amahera menshi be n’igihe kirekire co kwishura, amafaranga y’umuravyo ashobora gukorwa hafi mu kanya nk’ako gukubita, ntashobora kwishurwa, kandi arazigama ibanga ry’abaguzi.
 
@@ -267,9 +267,9 @@ Kubera ko idashobora kubikwa, ikaba ishobora gukingira ubuzima bwite, ifatanijwe
 
 
 
-- [Urubuga rwemewe rwa Lipa ku Bucuruzi](https://lipa.swiss/ru/ku-bucuruzi)
-- [Urubuga rw'ibikoresho](https://urubuga.lipa.suwisi)
-- [Lipa Ifasha Ubucuruzi](https://imfashanyo.lipa.Swiss/ubucuruzi)
-- [Infashanyo rusangi ya Lipa](ubufasha.lipa.Ubusuwisi/Wallet)
+- Urubuga rwemewe rwa Lipa ku Bucuruzi
+- Urubuga rw'ibikoresho
+- Lipa Ifasha Ubucuruzi
+- Infashanyo rusangi ya Lipa
 - [Ihuye n'i Lipa](urubuga rwo guhuza.com/isosiyete/getlipa)
 - [Twitter @lipa_btc](ku rubuga rwa Twitter)

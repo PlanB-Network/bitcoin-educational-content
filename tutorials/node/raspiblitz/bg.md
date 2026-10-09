@@ -21,7 +21,7 @@ RASPIBLITZ - Как да стартирате Lightning и Bitcoin Full Node о�
 ## Ръководство за настройка на Raspiblitz на Parman
 
 
-Raspiblitz е отлична система за работа с Bitcoin Node и свързаните с него приложения. Препоръчвам този възел и My Node на повечето потребители (в идеалния случай имайте два възела за резервиране.) Едно от основните предимства е, че възелът Raspiblitz е "безплатен софтуер с отворен код", за разлика от MyNode или Umbrel. [Защо това е важно? Влад Коста обяснява](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Можете също така да използвате RaspbiBlitz с WiFi връзка, а не с Ethernet - ето [допълнително ръководство](https://armantheparman.com/headless-wifi/) за това. (Не съм открил начин да направя това с MyNode).
+Raspiblitz е отлична система за работа с Bitcoin Node и свързаните с него приложения. Препоръчвам този възел и My Node на повечето потребители (в идеалния случай имайте два възела за резервиране.) Едно от основните предимства е, че възелът Raspiblitz е "безплатен софтуер с отворен код", за разлика от MyNode или Umbrel. [Защо това е важно? Влад Костя обяснява](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Можете също така да използвате RaspbiBlitz с WiFi връзка, а не с Ethernet - ето [допълнително ръководство](https://armantheparman.com/headless-wifi/) за това. (Не съм открил начин да направя това с MyNode).
 
 
 Можете да си купите готов възел с прикрепен мини екран или да го построите сами (не ви е необходим екран).
@@ -97,7 +97,7 @@ Raspiblitz е отлична система за работа с Bitcoin Node и
 За Windows ето един [прост урок](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
 
-_ДОБАВКА: проверката на pgp/gpg вече е налична. Ще ви е необходим публичният ключ на Openoms. [Тук](http://parman.org/downloadable/openoms.txt) е (може да ви е необходим режим инкогнито, за да работи връзката - http, а не https)_
+_ДОБАВКА: проверката на pgp/gpg вече е налична. Текущите образи на RaspiBlitz са подписани от rootzoll, а не от Openoms (отпечатък на ключа: 92A746AE33A3C186D014BF5C1C73060C7C176461). [Официалните ЧЗВ](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download) дават ключа и командата `gpg --verify`._
 
 
 Mac/Linux

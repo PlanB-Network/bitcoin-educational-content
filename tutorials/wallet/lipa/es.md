@@ -2,7 +2,10 @@
 name: Lipa
 description: Configuración y uso del monedero móvil Lipa lightning
 ---
+
 ![cover](assets/cover.webp)
+
+> **Advertencia (octubre de 2026):** El monedero Lipa dejó de funcionar el 31 de diciembre de 2025 y su editor, lightning payment services ag, está en liquidación. La aplicación ya no se puede descargar y los pasos de este tutorial ya no funcionan. Conservamos esta página como referencia hasta que se actualice.
 
 Un monedero Bitcoin Lightning es una aplicación móvil que permite realizar transacciones instantáneas y de bajo coste en la red Lightning de Bitcoin. A diferencia de las transacciones en la cadena de bloques principal (on-chain), los pagos Lightning son casi instantáneos y requieren comisiones mínimas, lo que los hace especialmente adecuados para pagos pequeños y cotidianos.
 
@@ -31,7 +34,7 @@ Las características clave incluyen:
 El primer paso es descargar la aplicación Lipa. Por el momento, solo está disponible en iOS :
 
 
-- [Para Apple](https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
+- Para Apple
 
 La versión para Android está actualmente en desarrollo y estará disponible en breve.
 

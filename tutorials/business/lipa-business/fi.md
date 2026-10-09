@@ -5,7 +5,7 @@ description: Bitcoin- ja Lightning-maksuratkaisut kauppiaille
 
 ![cover](assets/cover.webp)
 
-
+> **Varoitus (lokakuu 2026):** Lipa for Business lopetettiin maaliskuun 2026 puolivälissä, ja sen julkaisija, lightning payment services ag, on selvitystilassa. Tämän oppaan linkit ja vaiheet eivät enää toimi. Säilytämme tämän sivun viitteenä, kunnes se päivitetään.
 
 Kauppiaat ovat nyt yhä kiinnostuneempia hyväksymään Bitcoin-maksuja Lightning Network:n kautta. Toisin kuin perinteiset luottokorttimaksut, joihin liittyy korkeita maksuja ja pitkiä selvitysaikoja, Lightning-maksutapahtumat ovat lähes välittömiä, niitä ei voi periä takaisin ja ne säilyvät luottamuksellisina.
 
@@ -267,9 +267,9 @@ Sen ei-vartiointi- ja yksityisyydensuojaystävällinen luonne yhdistettynä amma
 
 
 
-- [Lipa for Businessin virallinen verkkosivusto](https://lipa.swiss/en/for-business)
-- [Dashboard web](https://dashboard.lipa.swiss)
-- [Lipa Support for Business](https://help.lipa.swiss/business)
-- [Lipa General Support](https://help.lipa.swiss/Wallet)
+- Lipa for Businessin virallinen verkkosivusto
+- Dashboard web
+- Lipa Support for Business
+- Lipa General Support
 - [LinkedIn Lipa](https://www.linkedin.com/company/getlipa)
 - [Twitter @lipa_btc](https://twitter.com/lipa_btc)

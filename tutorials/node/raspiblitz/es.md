@@ -15,7 +15,7 @@ RASPIBLITZ - Cómo ejecutar un nodo Lightning y Bitcoin Full Node por BTC sessio
 
 ## Guía de configuración de Raspiblitz de Parman
 
-El Raspiblitz es un excelente sistema para ejecutar un nodo de Bitcoin y aplicaciones asociadas. Recomendamos esto y el nodo My Node a la mayoría de los usuarios (idealmente, tener dos nodos para redundancia). Una ventaja importante es que el nodo Raspiblitz es "Software de código abierto gratuito", a diferencia de MyNode o Umbrel. ¿Por qué es importante eso? Vlad Costa lo explica. También puedes ejecutar el RaspbiBlitz con una conexión WiFi en lugar de Ethernet, aquí tienes una guía complementaria para eso (no he encontrado una forma de hacer esto con MyNode).
+El Raspiblitz es un excelente sistema para ejecutar un nodo de Bitcoin y aplicaciones asociadas. Recomendamos esto y el nodo My Node a la mayoría de los usuarios (idealmente, tener dos nodos para redundancia). Una ventaja importante es que el nodo Raspiblitz es "Software de código abierto gratuito", a diferencia de MyNode o Umbrel. ¿Por qué es importante eso? Vlad Costea lo explica. También puedes ejecutar el RaspbiBlitz con una conexión WiFi en lugar de Ethernet, aquí tienes una guía complementaria para eso (no he encontrado una forma de hacer esto con MyNode).
 
 Puedes comprar un nodo preconfigurado con una pantalla miniatura adjunta, o puedes construirlo tú mismo (no necesitas una pantalla).
 

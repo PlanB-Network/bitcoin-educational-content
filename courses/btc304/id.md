@@ -701,7 +701,7 @@ Jika Anda ingin mendesain logo futuristik untuk pertemuan "Bitcoin London", Anda
 
 
 
-- [] *Permintaan: Buat logo Bitcoin dengan latar belakang London Bridge dan Big Ben. Futuristik* - [Tautan](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [] *Permintaan: Buat logo Bitcoin dengan latar belakang London Bridge dan Big Ben. Futuristik*
 
 
 
@@ -714,7 +714,7 @@ Jika empat hasil pertama tidak cukup realistis, perbaiki permintaan Anda:
 
 
 
-- [] *Prompt: Buatlah yang ke-4 jauh lebih realistis* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [] *Prompt: Buatlah yang ke-4 jauh lebih realistis*
 
 
 
@@ -732,7 +732,7 @@ Untuk tampilan yang lebih bersih, seperti stiker:
 
 
 
-- [ ] *Permintaan: Buat logo "London Bitcoin Meetup" dengan gaya Inggris dan bersih* - [Tautan](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Permintaan: Buat logo "London Bitcoin Meetup" dengan gaya Inggris dan bersih*
 
 
 
@@ -1392,7 +1392,7 @@ Ini termasuk:
 
 
 - [Btcmap.org](https://btcmap.org/)**, sebuah situs web dengan dua peta yang diperbarui setiap hari: **[peta dunia bisnis yang menerima Bitcoin](https://btcmap.org/map)** dan **[peta komunitas dunia](https://btcmap.org/communities/map)**. Banyak pengguna bitcoin yang memeriksa peta-peta ini secara teratur, baik ketika mereka bepergian atau menjalani kehidupan sehari-hari, untuk bertemu dengan orang-orang baru atau menemukan tempat untuk membelanjakan [Sats](https://planb.academy/resources/glossary/satoshi-sat) mereka. Btcmap adalah referensi global, dan mendaftarkan komunitas Anda di sana sangat penting untuk visibilitas.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), sebuah situs web yang dibuat oleh para bitcoiners, untuk para bitcoiners. **Situs ini memungkinkan Anda untuk memposting acara-acara yang akan diadakan oleh komunitas Anda. Namun, di Prancis, situs ini masih belum banyak digunakan.**
+- BitcoinerEvents, sebuah situs web yang dibuat oleh para bitcoiners, untuk para bitcoiners. **Situs ini memungkinkan Anda untuk memposting acara-acara yang akan diadakan oleh komunitas Anda. Namun, di Prancis, situs ini masih belum banyak digunakan.** **Catatan (Oktober 2026):** situs ini sudah tidak dapat diakses. [BitcoinOnly Events](https://bitcoinonly.events/) adalah kalender serupa yang masih aktif.
 - tergantung pada negara Anda, mungkin ada inisiatif lokal lainnya. Di Prancis, misalnya, ada [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), yang **mencantumkan lusinan acara Bitcoin setiap bulannya**. Jadi, jika Anda belum mengikuti mereka di Twitter atau menghubungi mereka untuk berbagi informasi tentang komunitas dan acara Anda, sekaranglah saatnya! **Untuk membantu menjaga agar kalender acara di Perancis tetap up-to-date, akan sangat baik jika semua komunitas Bitcoin Perancis membiasakan diri untuk:**
     - menyebut @bitcoinpointfr di Twitter untuk setiap acara komunitas baru
     - menyematkan pengumuman acara baru di grup Telegram mereka.
@@ -1412,7 +1412,7 @@ Demikian pula, **[Orangepillapp](https://www.orangepillapp.com/)** adalah aplika
 
 Meskipun dua platform terakhir ini dapat membantu meningkatkan visibilitas, mereka tidak direkomendasikan saat meluncurkan komunitas, hanya karena mereka tidak gratis.
 
-**Dimulai dengan mendaftar di [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) dan untuk komunitas Prancis, di [Bitcoin.fr](https://Bitcoin.fr) sudah lebih dari cukup**.
+**Dimulai dengan mendaftar di [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) dan untuk komunitas Prancis, di [Bitcoin.fr](https://Bitcoin.fr) sudah lebih dari cukup**.
 
 
 Selamat! Komunitas Anda telah terbentuk, visual Anda telah siap, tujuan Anda telah ditetapkan, saluran komunikasi Anda telah siap, jejaring sosial Anda telah diluncurkan, dan strategi visibilitas Anda telah diputuskan.

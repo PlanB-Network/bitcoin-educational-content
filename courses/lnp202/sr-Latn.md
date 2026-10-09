@@ -415,7 +415,9 @@ Glavna prednost ovog pristupa, u poređenju sa konvencionalnim Lightning kustodi
 
 
 
-Većina portfolija koji nude ovu vrstu funkcionalnosti oslanja se na [Boltz](https://boltz.exchange/) za tehnički deo zamene.
+Većina portfolija koji nude ovu vrstu funkcionalnosti oslanja se na Boltz za tehnički deo zamene.
+
+> **Napomena (oktobar 2026):** Boltz je obustavio sve zamene 3. avgusta 2026, a njegov sajt je van mreže. Novčanici koji se oslanjaju na Boltz možda više ne nude ovu funkciju.
 
 
 

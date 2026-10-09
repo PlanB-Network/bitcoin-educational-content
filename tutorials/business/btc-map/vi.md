@@ -28,7 +28,6 @@ Có sẵn trên:
 
 
 - iOS qua [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
-- Android qua [Play Store](https://play.google.com/store/apps/details?id=org.btcmap.app)
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) danh mục ứng dụng nguồn mở Android
 - bằng cách tải xuống [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) trực tiếp từ github của dự án
 - thông qua ứng dụng web từ trình duyệt của bạn (quan điểm của chúng tôi ngày hôm nay)

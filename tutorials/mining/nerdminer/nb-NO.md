@@ -14,7 +14,7 @@ Før vi går gjennom de forskjellige stegene, la oss liste opp det nødvendige u
 
 - en [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - en [USB-C strømforsyning](https://amzn.eu/d/gIOot90)
-- et 3D-deksel: hvis du har en 3D-printer, kan du laste ned [3D-filen](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) ellers kan du kjøpe en på [Silexperience online butikk](https://silexperience.company.site/NerdMiner_V2-p544379757).
+- et 3D-deksel: hvis du har en 3D-printer, kan du laste ned [3D-filen](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) ellers kan du kjøpe en på [Bitronics online butikk](https://bitronics.store/).
 - en PC med Chrome-nettleser installert
 - en internettforbindelse
 - en bitcoin-adresse
@@ -66,7 +66,6 @@ For NerdMiners, kan du velge å koble til en av disse poolene:
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Standard Solo og åpen kildekode miningpool |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Vedlikeholdt av CHMEX                    |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Vedlikeholdt av djerfy                   |
 
 Når du har valgt din pool, må du skrive inn din bitcoin-adresse for å motta belønningen i tilfelle (unntaksvis) en blokk blir funnet.
 
@@ -128,4 +127,4 @@ Med tanke på at den totale hashraten er omtrent 450 EH/s (eller 4.5 x 10^20 has
 Her er noen lenker hvis du vil lese mer om emnet:
 
 - [NerdMiner_v2 prosjektside](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Komplett dokumentasjon av NerdMiners](https://bitwater.ch/nerd-miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

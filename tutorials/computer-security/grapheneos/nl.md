@@ -601,7 +601,6 @@ GrapheneOS is een konijnenhol waar je gemakkelijk weken in kunt duiken. Er is zo
 - [GrapheneOS officiële handleiding](https://grapheneos.org/usage) - Officiële website
 - [GrapheneOS Forum](https://discuss.grapheneos.org/) - Officiële website
 - [GrapheneOS Instellingen Masterclass](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video door 'The Privacy Wayfinder'
-- [GrapheneOS General Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast door 'Watchman Privacy'
 
 
 *Deze handleiding is een bewerking van de originele inhoud gepubliceerd door [BitcoinQnA op Bitcoiner.Guide onder MIT-licentie](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), aan wie de volledige eer toekomt voor het oorspronkelijke schrijfwerk.*

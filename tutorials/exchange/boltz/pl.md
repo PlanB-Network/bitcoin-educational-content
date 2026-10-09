@@ -3,10 +3,9 @@ name: Boltz
 description: Przełączaj się między różnymi warstwami Bitcoin, zachowując kontrolę.
 ---
 
-
 ![cover](assets/cover.webp)
 
-
+> **Ostrzeżenie (październik 2026):** Boltz zawiesił wszystkie swapy 3 sierpnia 2026 r. po wykorzystaniu kilku luk w zabezpieczeniach, a jego strona internetowa jest niedostępna. Linki i kroki opisane w tym poradniku już nie działają. Zachowujemy tę stronę w celach informacyjnych do czasu jej aktualizacji.
 
 Od czasu wdrożenia w 2009 r., elektroniczny system gotówkowy peer-to-peer Bitcoin rozwijał się wykładniczo, dając życie rozwiązaniom, które dziś pozwalają mu być systemem, z którego możemy korzystać natychmiast w naszych codziennych działaniach, zwłaszcza za pośrednictwem Lightning Network.
 
@@ -20,7 +19,7 @@ Pozostawał jednak poważny problem pomiędzy warstwami protokołu Bitcoin: pły
 
 
 
-[Boltz](https://boltz.Exchange) to platforma nie wymagająca opieki, idealna dla każdego, kto chce dokonywać transakcji między różnymi warstwami protokołu Bitcoin:
+Boltz to platforma nie wymagająca opieki, idealna dla każdego, kto chce dokonywać transakcji między różnymi warstwami protokołu Bitcoin:
 
 
 

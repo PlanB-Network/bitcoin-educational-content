@@ -28,7 +28,6 @@ description: پیدا کردن مکان‌هایی برای خرج کردن Sats
 
 
 - iOS از طریق [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
-- اندروید از طریق [Play Store](https://play.google.com/store/apps/details?id=org.btcmap.app)
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) فهرست برنامه‌های متن‌باز اندروید
 - با دانلود [apk اندروید](https://github.com/teambtcmap/btcmap-android/releases/latest) به‌طور مستقیم از گیت‌هاب پروژه
 - از طریق برنامه وب از مرورگر خود (نمای امروز ما)

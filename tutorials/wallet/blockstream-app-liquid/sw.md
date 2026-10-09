@@ -408,7 +408,9 @@ Ili kupokea Liquid-Bitcoins (L-BTC), chaguo kadhaa zinapatikana. Unaweza kumwomb
 
 
 
-Vinginevyo, Exchange bitcoins zako kwenye mnyororo au kupitia Lightning Network kwa L-BTC kwa kutumia [daraja kama vile Boltz](https://boltz.Exchange/): weka Liquid yako ikipokea Address, lipa upendavyo, na upokee L-BTC yako.
+Vinginevyo, Exchange bitcoins zako kwenye mnyororo au kupitia Lightning Network kwa L-BTC kwa kutumia daraja kama vile Boltz: weka Liquid yako ikipokea Address, lipa upendavyo, na upokee L-BTC yako.
+
+> **Kumbuka (Oktoba 2026):** Boltz ilisitisha swap zote tarehe 3 Agosti 2026 na tovuti yake haipatikani. Njia hii haifanyi kazi kwa sasa.
 
 
 

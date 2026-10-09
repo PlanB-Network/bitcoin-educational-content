@@ -3,10 +3,9 @@ name: Boltz
 description: Alterne entre diferentes camadas de Bitcoin mantendo o controlo.
 ---
 
-
 ![cover](assets/cover.webp)
 
-
+> **Aviso (outubro de 2026):** A Boltz suspendeu todos os swaps em 3 de agosto de 2026, após a exploração de várias vulnerabilidades, e o seu site está offline. As ligações e os passos deste tutorial já não funcionam. Mantemos esta página como referência até ser atualizada.
 
 Desde a sua implantação em 2009, o sistema de dinheiro eletrónico peer-to-peer do Bitcoin cresceu exponencialmente, dando vida a soluções que lhe permitem hoje ser um sistema que podemos utilizar instantaneamente nas nossas acções quotidianas, nomeadamente através do Lightning Network.
 
@@ -20,7 +19,7 @@ No entanto, subsistia um problema importante entre as camadas do protocolo Bitco
 
 
 
-[Boltz](https://boltz.Exchange) é uma plataforma sem custódia ideal para quem deseja efetuar transacções entre as diferentes camadas do protocolo Bitcoin:
+Boltz é uma plataforma sem custódia ideal para quem deseja efetuar transacções entre as diferentes camadas do protocolo Bitcoin:
 
 
 

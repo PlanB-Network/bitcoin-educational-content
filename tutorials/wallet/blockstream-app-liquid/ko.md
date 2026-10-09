@@ -408,7 +408,9 @@ Liquid-비트코인(L-BTC)을 받으려면 몇 가지 옵션을 사용할 수 �
 
 
 
-또는 [볼츠와 같은 브릿지](https://boltz.Exchange/)를 사용하여 온체인 또는 L-BTC용 Lightning Network를 통해 비트코인을 Exchange으로 보내세요: Address을 받는 Liquid을 입력하고 원하는 대로 결제한 후 L-BTC를 받습니다.
+또는 볼츠와 같은 브릿지를 사용하여 온체인 또는 L-BTC용 Lightning Network를 통해 비트코인을 Exchange으로 보내세요: Address을 받는 Liquid을 입력하고 원하는 대로 결제한 후 L-BTC를 받습니다.
+
+> **참고 (2026년 10월):** Boltz는 2026년 8월 3일에 모든 스왑을 중단했으며 웹사이트는 오프라인 상태입니다. 이 방법은 현재 작동하지 않습니다.
 
 
 

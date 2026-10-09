@@ -116,7 +116,7 @@ Ushobora kandi kubona videwo ku [gutegura kuri VPS ikoresheje PostgreSQ, Lightni
 [Ibindi bimenyetso vyo gushiramwo hano](https:
 
 
-Ku bijanye n'ibice vy'amaporogarama, usabwe kuraba inyandiko zabo zidasanzwe ku bijanye na LNbits: [Citadel](https://runcitadel.space) | [Umutaka](https://umutaka.com) | [Igikoresho canje](https://igikoresho canje.com) | [Ikinyamakuru c'Igihugu](Igitabu c'Igihugu c'Igihugu/) | [Igikoresho c'Igikoresho]( https://Igikoresho c'Igikoresho.org)
+Ku bijanye n'ibice vy'amaporogarama, usabwe kuraba inyandiko zabo zidasanzwe ku bijanye na LNbits: [Umutaka](https://umutaka.com) | [Igikoresho canje](https://igikoresho canje.com) | [Ikinyamakuru c'Igihugu](Igitabu c'Igihugu c'Igihugu/) | [Igikoresho c'Igikoresho]( https://Igikoresho c'Igikoresho.org)
 
 
 ### LNibice SaaS
@@ -207,12 +207,14 @@ Kugira ngo ushiremwo amakuru y'inyama zawe, koresha `./venv/bin/inyama z'ingurub
 
 #### Umuravyo TipBot
 
+> **Imburi (Gitugutu 2026):** LightningTipBot na ln.tips vyarahagaze; ihagarikwa ryatangajwe ku wa 29 Ndamukiza 2024. Iyi nzira y'amahera ntigikora, kiretse wiyakiriye bot yawe bwite.
+
 
 Kugira ngo uhuze [Impanuro y'Umuravyo](https://t.me/Impanuro y'Umuravyo) yawe kuri Telegram uzokenera gushinga ibi bikurikira:
 
 
   - `LNBITS_INYUMA_IKIGANIRO_IKIGO`: **Igikapu c'Impanuro za Ln**
-  - `IMPERUKA_YA LNBITS`: https://LN.impanuro
+  - `IMPERUKA_YA LNBITS`: `https://LN.impanuro`
   - `LNBITS_KEY`: Kugira ngo ubone Urufunguzo uzokenera gukoresha /api mu kiganiro c'ibanga na Tipbot y'Umuravyo kuri Telegram rimwe.
 
 
@@ -229,7 +231,9 @@ Ibindi bisobanuro raba [IBEX API-Inyandiko](https://ibexpay-api.soma.io/ishingir
 
 #### LNPishura
 
-Kugira ngo uwumviriza Invoice akore ufise URL ishobora gushikirwa na bose muri LNbits zawe kandi utegerezwa gushinga [urubuga rwa LNPay](https://dashboard.lnpay.co/webhook/) rwerekana `<umushitsi wawe wa LNbits>/Wallet/urubuga rwawe` n'ikibazo gitagira ibanga gifise. Ivyagezwe `https://mylnbits/Wallet/webhook` bizoba url y'iherezo imenyeshwa ivy'ukwishura kwose.
+> **Imburi (Gitugutu 2026):** LNPay isa n'iyahagaze: urubuga lnpay.co ntirucishura. Iyi nzira y'amahera birashoboka ko itagikoreshwa.
+
+Kugira ngo uwumviriza Invoice akore ufise URL ishobora gushikirwa na bose muri LNbits zawe kandi utegerezwa gushinga urubuga rwa LNPay rwerekana `<umushitsi wawe wa LNbits>/Wallet/urubuga rwawe` n'ikibazo gitagira ibanga gifise. Ivyagezwe `https://mylnbits/Wallet/webhook` bizoba url y'iherezo imenyeshwa ivy'ukwishura kwose.
 
 
   - `LNBITS_INYUMA_IKIGANIRO_IKIGANI`: **Igikapu ca LNPay**
@@ -537,7 +541,9 @@ Hari uburyo bubiri bwo gushika ku Exchange Sats kuva kuri BTC y’uruzitiro gush
 ###### Biciye ku nzira y’uguhindura hanze.
 
 
-Abandi bakoresha badashobora gukoresha LNb yawe bashobora gukoresha ubuhinga bwo guhindura nk'[Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [Ivyuma vy'amadayimoni](zitps://swap.diamondhands.technology/) canke [Zhg). Ivyo ni ngirakamaro iyo utanga gusa amafagitire ya LNURL/LN avuye mu nkuru yawe ya LNbits, ariko uwuriha afise gusa onchain Sats rero bazobwirizwa guhindura izo Sats mbere ku ruhande rwabo. Uburyo bwo kubikora burasanzwe: umukoresha yohereza onchain btc ku nzira y’uguhinduranya maze agatanga LNURL / LN Invoice iva kuri LNbits nk’aho uguhinduranya kuja.
+Abandi bakoresha badashobora gukoresha LNb yawe bashobora gukoresha ubuhinga bwo guhindura nk'Boltz, [FixedFloat](https://fixedfloat.com/) canke [Zhg). Ivyo ni ngirakamaro iyo utanga gusa amafagitire ya LNURL/LN avuye mu nkuru yawe ya LNbits, ariko uwuriha afise gusa onchain Sats rero bazobwirizwa guhindura izo Sats mbere ku ruhande rwabo. Uburyo bwo kubikora burasanzwe: umukoresha yohereza onchain btc ku nzira y’uguhinduranya maze agatanga LNURL / LN Invoice iva kuri LNbits nk’aho uguhinduranya kuja.
+
+> **Imburi (Gitugutu 2026):** Boltz yahagaritse ihinduranya ryose ku wa 3 Myandagaro 2026 inyuma y'aho intege nke nyinshi zikoreshejwe nabi, kandi urubuga rwayo ntirugikora. Boltz hamwe n'umugereka wa Boltz wa LNbits ntibishobora gukoreshwa muri iki gihe.
 
 
 ###### Gukoresha umurongo wa Onchain na Boltz LNbits.

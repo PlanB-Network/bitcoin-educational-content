@@ -415,7 +415,9 @@ Inyungu nini y’iyi nzira, ugereranyije n’iyindi wallet isanzwe y’ububiko b
 
 
 
-Ivyinshi mu bitabo bitanga ubwo bwoko bw’imikorere bishingiye kuri [Boltz](https://boltz.exchange/) ku bijanye n’igice c’ubuhinga c’uguhinduranya.
+Ivyinshi mu bitabo bitanga ubwo bwoko bw’imikorere bishingiye kuri Boltz ku bijanye n’igice c’ubuhinga c’uguhinduranya.
+
+> **Icitonderwa (Gitugutu 2026):** Boltz yarahagaritse uguhinduranya kwose ku wa 3 Myandagaro 2026, kandi urubuga rwayo ntirugikora. Amasakoshi yishimikiza Boltz ashobora kuba atagitanga ubu buryo.
 
 
 

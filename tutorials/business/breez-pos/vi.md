@@ -5,7 +5,7 @@ description: Breez giúp bạn dễ dàng thu tiền thanh toán bằng bitcoin 
 
 ![cover](assets/cover.webp)
 
-
+> **Cảnh báo (tháng 10 năm 2026):** Breez đã gỡ ứng dụng di động cũ của mình (Breez: Lightning Client & POS) khỏi các cửa hàng ứng dụng vào năm 2026 và đã đóng các kênh của người dùng. Các liên kết tải xuống và các bước trong hướng dẫn này không còn hoạt động. Người dùng cũ có thể khôi phục tiền của mình bằng công cụ [breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery). Chúng tôi giữ trang này để tham khảo cho đến khi nó được cập nhật.
 
 Kể từ đại dịch COVID-19, thanh toán kỹ thuật số không tiếp xúc đã trở nên phổ biến, ngay cả ở những cửa hàng nhỏ nhất. Trong thời gian này, nhiều doanh nghiệp đã khám phá ra tính thực tiễn của các giải pháp Bitcoin Cash, cho phép họ nhận thanh toán từ khắp nơi trên thế giới. Tuy nhiên, các giải pháp này đôi khi khó sử dụng hoặc không phù hợp với các doanh nghiệp nhỏ. Trong hướng dẫn này, chúng ta sẽ tìm hiểu về thiết bị đầu cuối thanh toán Breez, một giải pháp nổi bật với tính dễ sử dụng, đồng thời cho phép bạn kiểm soát hoàn toàn việc quản lý Bitcoin của mình.
 
@@ -15,7 +15,7 @@ Kể từ đại dịch COVID-19, thanh toán kỹ thuật số không tiếp x�
 
 
 
-Breez POS là dịch vụ tự quản lý do Breez wallet cung cấp. Tiện ích của dịch vụ này là cho phép các thương nhân thu tiền qua Bitcoin mà vẫn duy trì giao diện đơn giản, rất giống với các ví Lightning khác. Breez POS có sẵn trên các nền tảng tải xuống [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) và [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS).
+Breez POS là dịch vụ tự quản lý do Breez wallet cung cấp. Tiện ích của dịch vụ này là cho phép các thương nhân thu tiền qua Bitcoin mà vẫn duy trì giao diện đơn giản, rất giống với các ví Lightning khác. Breez POS có sẵn trên các nền tảng tải xuống Google Play Store (Android) và App Store (iOS).
 
 
 

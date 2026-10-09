@@ -44,10 +44,6 @@ Coin Wallet hiện có sẵn trên tất cả các nền tảng chính.
 
 
 
-- [Android (Galaxy Store)](https://galaxystore.samsung.com/detail/com.coinspace.app)
-
-
-
 - [Android (Huawei AppGallery)](https://appgallery.huawei.com/app/C112183767)
 
 

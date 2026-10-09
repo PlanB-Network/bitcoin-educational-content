@@ -85,7 +85,7 @@ Löydät myös videon [dockerised Setup on a VPS with PostgreSQ, LightningTipBot
 
 [Lisää asennusskenaarioita täällä](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
-Nippuohjelmistosolmujen osalta katso niiden LNbits-ohjelmistoja koskeva dokumentaatio: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+Nippuohjelmistosolmujen osalta katso niiden LNbits-ohjelmistoja koskeva dokumentaatio: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 ### LNbits SaaS
 
@@ -161,11 +161,13 @@ Voit salata makaronisi suorittamalla `./venv/bin/python lnbits/wallets/macaroon/
 
 #### Salama TipBot
 
+> **Varoitus (lokakuu 2026):** LightningTipBot ja ln.tips ovat lopettaneet toimintansa; lopettamisesta ilmoitettiin 29. huhtikuuta 2024. Tämä rahoituslähde ei enää toimi, ellet ylläpidä omaa bottiasi.
+
 Jos haluat muodostaa yhteyden [Lightning Tipbot](https://t.me/LightningTipBot) Telegramista, sinun on asetettava seuraava parametri:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://ln.tips
+  - `LNBITS_ENDPOINT`: `https://ln.tips`
   - `LNBITS_KEY`: Avaimen saadaksesi sinun on suoritettava /api yksityisessä keskustelussa LightningTipbotin kanssa Telegramissa kerran.
 
 Katso myös tämä opetusohjelma [LNbitsin ja LightningTipBotin asentaminen vps:n kautta](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
@@ -178,11 +180,13 @@ Lisätietoja on [IBEX API-Documentation](https://ibexpay-api.readme.io/reference
 
 #### LNPay
 
-Jotta laskun kuuntelu toimisi, sinulla on julkisesti saatavilla oleva URL-osoite LNbitsissäsi ja sinun on luotava [LNPay webhook](https://dashboard.lnpay.co/webhook/), joka osoittaa osoitteeseen `<LNbits-isäntäsi>/wallet/webhook` ja jossa on tapahtuma "Wallet Receive" eikä salaisuutta ole annettu. Asetuksesta `https://mylnbits/wallet/webhook` tulee päätepisteen url, joka saa ilmoituksen kaikista maksuista.
+> **Varoitus (lokakuu 2026):** LNPay näyttää lopettaneen toimintansa: verkkotunnus lnpay.co ei enää vastaa. Tätä rahoituslähdettä ei todennäköisesti voi enää käyttää.
+
+Jotta laskun kuuntelu toimisi, sinulla on julkisesti saatavilla oleva URL-osoite LNbitsissäsi ja sinun on luotava LNPay webhook, joka osoittaa osoitteeseen `<LNbits-isäntäsi>/wallet/webhook` ja jossa on tapahtuma "Wallet Receive" eikä salaisuutta ole annettu. Asetuksesta `https://mylnbits/wallet/webhook` tulee päätepisteen url, joka saa ilmoituksen kaikista maksuista.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -403,7 +407,9 @@ On olemassa kaksi tapaa vaihtaa satsit ketjussa olevasta BTC:stä LN BTC:hen (ta
 
 ###### Ulkoisen vaihtopalvelun kautta.
 
-Muut käyttäjät, joilla ei ole pääsyä LNb:hen, voivat käyttää vaihtopalvelua, kuten [Boltz](https://boltz.exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) tai [ZigZag](https://zigzag.io/). Tämä on hyödyllistä, jos tarjoat vain LNURL/LN-laskuja LNbits-instanssistasi, mutta maksajalla on vain onchain-satseja, joten hänen on ensin vaihdettava ne omalle puolelleen. Menettely on yksinkertainen: käyttäjä lähettää onchain-btc:tä swap-palveluun ja antaa LNbitsin LNURL/LN-laskun swapin kohteeksi.
+Muut käyttäjät, joilla ei ole pääsyä LNb:hen, voivat käyttää vaihtopalvelua, kuten Boltz, [FixedFloat](https://fixedfloat.com/) tai [ZigZag](https://zigzag.io/). Tämä on hyödyllistä, jos tarjoat vain LNURL/LN-laskuja LNbits-instanssistasi, mutta maksajalla on vain onchain-satseja, joten hänen on ensin vaihdettava ne omalle puolelleen. Menettely on yksinkertainen: käyttäjä lähettää onchain-btc:tä swap-palveluun ja antaa LNbitsin LNURL/LN-laskun swapin kohteeksi.
+
+> **Varoitus (lokakuu 2026):** Boltz keskeytti kaikki swapit 3. elokuuta 2026 useiden haavoittuvuuksien hyväksikäytön jälkeen, ja sen verkkosivusto on poissa käytöstä. Boltzia ja LNbitsin Boltz-laajennusta ei voi tällä hetkellä käyttää.
 
 ###### Onchainin ja Boltzin LNbits-laajennuksen käyttäminen.
 

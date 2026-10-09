@@ -5,6 +5,8 @@ description: Installera och använda din RoninDojo Bitcoin-nod.
 ---
 ***VARNING:** Efter gripandet av grundarna av Samourai Wallet och beslagtagandet av deras servrar den 24 april är vissa funktioner i RoninDojo, såsom Whirlpool, inte längre i drift. Det är dock möjligt att dessa verktyg kan återinföras eller återlanseras på olika sätt under de kommande veckorna. Eftersom RoninDojo-koden fanns på Samourais GitLab, som också beslagtogs, är det för närvarande inte möjligt att ladda ner koden på distans. RoninDojo-teamen arbetar sannolikt med att publicera koden på nytt.*
 
+> **Uppdatering (oktober 2026):** RoninDojo har sedan dess publicerat sin kod på nytt på en egen plattform ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) och är nu på version 3. Den här handledningen beskriver en äldre version: vissa länkar och kommandon fungerar inte längre. Se den officiella dokumentationen för det aktuella tillvägagångssättet: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 
 _Vi följer noga utvecklingen av detta fall och utvecklingen av de tillhörande verktygen. Du kan vara säker på att vi kommer att uppdatera denna handledning när ny information blir tillgänglig._
 
@@ -84,10 +86,12 @@ Nu när vi har kunnat måla upp en bild av RoninDojo, låt oss se hur man sätte
 För att välja den maskin som är värd för och kör RoninDojo har du flera alternativ.
 
 
-Som förklarats tidigare är det enklaste valet att beställa Tanto, en plug-and-play-maskin som utformats speciellt för detta ändamål. För att beställa din, gå hit: [länk](https://shop.ronindojo.io/product-category/nodes/).
+Som förklarats tidigare är det enklaste valet att beställa Tanto, en plug-and-play-maskin som utformats speciellt för detta ändamål.
+
+> **Obs (oktober 2026):** RoninDojo verkar inte längre sälja Tanto, och webbutiken är offline. Se listan över kompatibel hårdvara: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
 
 
-Eftersom RoninDojo-teamen producerar kod med öppen källkod är det också möjligt att implementera RoninDojo på andra maskiner. Du kan hitta de senaste versionerna av installationsguiden på den här sidan: [länk](https://ronindojo.io/downloads), och de senaste versionerna av koden på den här sidan: [länk](https://code.samourai.io/ronindojo/RoninDojo).
+Eftersom RoninDojo-teamen producerar kod med öppen källkod är det också möjligt att implementera RoninDojo på andra maskiner. Du kan hitta de senaste versionerna av installationsguiden på den här sidan: [länk](https://ronindojo.io/downloads), och de senaste versionerna av koden på den här sidan: [länk](https://git.ronindojo.io/Ronin/monorepo).
 
 
 Personligen installerade jag det på en Raspberry Pi 4 8GB och allt fungerar perfekt.
@@ -232,6 +236,8 @@ I terminalen kommer det att se ut så här:
 
 Du är nu ansluten till din maskin, som för närvarande bara har RoninOS. Nu måste du installera RoninDojo på den.
 
+
+> **Obs (oktober 2026):** Kommandot nedan fungerar inte längre: Samourais GitLab (code.samourai.io) beslagtogs den 24 april 2024. RoninDojo har nu sin kod här: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Se [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/) för den aktuella installationsproceduren
 
 Ladda ner den senaste versionen av RoninDojo genom att ange följande kommando:
 

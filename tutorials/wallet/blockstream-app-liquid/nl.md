@@ -408,7 +408,9 @@ Om Liquid-Bitcoins (L-BTC) te ontvangen, zijn er verschillende opties beschikbaa
 
 
 
-Als alternatief, Exchange uw bitcoins onchain of via de Lightning Network voor L-BTC met behulp van [een bridge zoals Boltz](https://boltz.Exchange/): voer uw Liquid in die Address ontvangt, doe de betaling zoals u verkiest, en ontvang uw L-BTC.
+Als alternatief, Exchange uw bitcoins onchain of via de Lightning Network voor L-BTC met behulp van een bridge zoals Boltz: voer uw Liquid in die Address ontvangt, doe de betaling zoals u verkiest, en ontvang uw L-BTC.
+
+> **Opmerking (oktober 2026):** Boltz heeft op 3 augustus 2026 alle swaps opgeschort en de website is offline. Deze methode werkt op dit moment niet.
 
 
 

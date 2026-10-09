@@ -106,7 +106,7 @@ Androidユーザーには別の選択肢もある：
 - Bitcoin Bull Exchange` にアクセスし、`購入、売却、支払い`を行う（これは管轄地域によって異なり、KYCが必要になる場合もある）。
 - ウォレット間の資金移動
 - セキュアBitcoin`はオンチェーンBitcoin Walletに等しい。
-- Lightningを利用した「即時決済」 / Liquid Network *（注：Bull Bitcoin WalletではLightningを利用した決済が可能。Lightning経由で受け取った資金は、[*Boltz exchange](https://boltz.exchange/)を介した自動スワップにより、[*Liquid network](https://liquid.net/)(Walletインスタントペイメント内)に保管されます。これにより、流動性チャネルを管理することなく、自己カストディのままLightningとやり取りすることができます)*。
+- Lightningを利用した「即時決済」 / Liquid Network *（注：Bull Bitcoin WalletではLightningを利用した決済が可能。Lightning経由で受け取った資金は、Boltz exchangeを介した自動スワップにより、[*Liquid network](https://liquid.net/)(Walletインスタントペイメント内)に保管されます。これにより、流動性チャネルを管理することなく、自己カストディのままLightningとやり取りすることができます)*。
 - 資金の「送信」と「受信
 
 
@@ -418,6 +418,8 @@ liquidnetwork:lq1qqdhgs7w537nun55a5sdy4gxkd08pclk3d7v4qz36sy4xp0cq6gvl52fcfv7kdg
 
 
 
+> **注記（2026年10月）：** Boltzは2026年8月3日にすべてのスワップを停止し、ウェブサイトはオフラインです。Bull Bitcoin WalletのLightning決済はBoltzに依存しており、利用できなくなっている可能性があります。
+
 Bull Bitcoin Walletはまた、Lightning Networkを介して支払いを送受信することができます。主な特徴は、Lightning経由で受け取った資金が自動的にスワップされ、「Liquid Network」の「Instant Payments Wallet」に保存されることだ。このサービスは`Boltz`によって提供される。この設計により、資金の完全な自己保管を維持しながら、流動性チャネルを管理する複雑さを伴わずに、Lightningのスピードと低コストを享受することができます。このハイブリッド・アプローチはセルフ・カストディであり、チャネル管理の複雑さを回避する一方で、サードパーティ・サービス（Boltz）、少額のスワップ手数料、キーホルダーとしてのLiquid Networkのファンクショナリー・フェデレーションへの依存を導入しており、従来の非カストディのLightning walletとは異なり、お客様自身でチャネルを管理します。Liquidとそのガバナンス・モデルについては、こちらをご覧ください：
 
 
@@ -508,6 +510,8 @@ Liquid取引の確認画面で詳細を確認します。手数料は特に低�
 
 *最低金額と手数料が適用されることに注意。
 
+
+> **注記（2026年10月）：** Boltzは2026年8月3日にすべてのスワップを停止し、ウェブサイトはオフラインです。Bull Bitcoin WalletのLightning決済はBoltzに依存しており、利用できなくなっている可能性があります。
 
 Bull Bitcoin Walletは、インスタント・ペイメントWallet（Liquid上）から資金を引き出し、Boltzを経由してスワップすることで、ライトニング・ペイメントを送信します。このハイブリッド・アプローチは完全に自己完結型であり、専用のLightningチャネルを管理するための高額なon-chain手数料を回避できますが、`スワップ手数料`を支払う必要があります。最も低いコストで送信するには、受信者がBull Bitcoin walletも使用している場合、受信者のLiquidアドレスに直接送信します。
 

@@ -599,7 +599,6 @@ GrapheneOS ni mada yenye kina ambayo mtu yeyote anaweza kuchunguza kwa urahisi k
 - [Mwongozo Rasmi wa Matumizi ya GrapheneOS](https://grapheneos.org/usage) - Tovuti Rasmi
 - [Mjadala wa GrapheneOS](https://discuss.grapheneos.org/) - Tovuti Rasmi
 - [GrapheneOS Settings Masterclass](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video ya 'The Privacy Wayfinder'
-- [GrapheneOS General Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast na 'Faragha ya Mlinzi'
 
 
 *Mafunzo haya ni urekebishaji wa yaliyomo asilia yaliyotolewa na [BitcoinQnA kwenye Bitcoiner.Guide chini ya leseni ya MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), ambaye anastahili sifa zote kwa kazi ya awali ya uandishi.*

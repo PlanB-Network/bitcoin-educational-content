@@ -6,6 +6,8 @@ description: RoninDojo v2 Bitcoin-solmun asentaminen Raspberry Pi:lle
 
 **VAROITUS:** Samourai Walletin perustajien pidätyksen ja heidän palvelimiensa takavarikoinnin jälkeen 24. huhtikuuta, tietyt RoninDojon ominaisuudet, kuten Whirlpool, eivät ole enää toiminnassa. On kuitenkin mahdollista, että nämä työkalut voidaan palauttaa tai käynnistää uudelleen eri tavalla tulevina viikkoina. Lisäksi, koska RoninDojon koodi oli isännöity Samourain GitLabiin, joka myös takavarikoitiin, koodin etälataus ei tällä hetkellä ole mahdollista. RoninDojon tiimit työskentelevät todennäköisesti koodin uudelleenjulkaisemiseksi.*
 
+> **Päivitys (lokakuu 2026):** RoninDojo on sittemmin julkaissut koodinsa uudelleen omalla alustallaan ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) ja on nyt versiossa 3. Tämä opas kuvaa vanhempaa versiota: osa linkeistä ja komennoista ei enää toimi. Katso nykyinen menettely virallisesta dokumentaatiosta: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 _Seuraamme tiiviisti tämän tapauksen kehitystä sekä siihen liittyvien työkalujen kehitystä. Voit olla varma, että päivitämme tämän oppaan, kun uutta tietoa tulee saataville._
 
 _Tämä opas on tarkoitettu vain koulutus- ja tiedotustarkoituksiin. Emme kannusta tai hyväksy näiden työkalujen käyttöä rikollisiin tarkoituksiin. Jokaisen käyttäjän on noudatettava oman lainkäyttöalueensa lakeja._
@@ -30,7 +32,10 @@ https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-
 ## Mikä on RoninDojo?
 Dojo on alun perin täysi Bitcoin-solmun toteutus, joka perustuu Bitcoin Coreen ja on kehitetty Samourai Wallet -tiimien toimesta. Tämä ratkaisu voidaan asentaa mille tahansa laitteistolle. Toisin kuin muut Core-toteutukset, Dojo on erityisesti optimoitu integroitumaan Samourai Walletin Android-sovellusympäristöön. RoninDojon osalta se on työkalu, joka on suunniteltu helpottamaan Dojon sekä erilaisten muiden täydentävien työkalujen asentamista ja hallintaa. Lyhyesti sanottuna, RoninDojo rikastaa Dojon perustoteutusta integroimalla lukuisia lisätyökaluja, samalla yksinkertaistaen sen asentamista ja hallintaa.
 
-Ronin tarjoaa myös [solmu-boksi-ratkaisun, nimeltään "*Tanto*"](https://ronindojo.io/en/products), laite, jossa RoninDojo on jo asennettuna tiimin kokoamaan järjestelmään. Tanto on maksullinen vaihtoehto, joka voi olla kiinnostava niille, jotka haluavat välttää tekniset komplikaatiot. Mutta koska RoninDojon lähdekoodi on avoin, on myös mahdollista ottaa se käyttöön omalla laitteistolla. Tämä vaihtoehto, joka on taloudellisempi, vaatii kuitenkin joitakin lisätoimenpiteitä, joita käsittelemme tässä oppaassa.
+Ronin tarjoaa myös [solmu-boksi-ratkaisun, nimeltään "*Tanto*"](https://docs.ronindojo.io/hardware/tanto/), laite, jossa RoninDojo on jo asennettuna tiimin kokoamaan järjestelmään. Tanto on maksullinen vaihtoehto, joka voi olla kiinnostava niille, jotka haluavat välttää tekniset komplikaatiot. Mutta koska RoninDojon lähdekoodi on avoin, on myös mahdollista ottaa se käyttöön omalla laitteistolla. Tämä vaihtoehto, joka on taloudellisempi, vaatii kuitenkin joitakin lisätoimenpiteitä, joita käsittelemme tässä oppaassa.
+
+> **Huomautus (lokakuu 2026):** RoninDojo ei näytä enää myyvän Tantoa, ja sen verkkokauppa on poissa käytöstä. Katso yhteensopivien laitteiden luettelo: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
+
 RoninDojo on Dojo, joten se mahdollistaa Whirlpool CLI:n helpon integroinnin Bitcoin-noodiisi tarjoten parhaan mahdollisen coinjoin-kokemuksen. Whirlpool CLI:n avulla on mahdollista jatkuvasti sekoittaa bitcoinejasi, 24 tuntia vuorokaudessa, 7 päivää viikossa, ilman että henkilökohtaisen tietokoneesi tarvitsee pysyä päällä.
 
 Whirlpool CLI:n lisäksi RoninDojo sisältää erilaisia työkaluja Dojosi toiminnallisuuksien parantamiseen. Näiden joukossa Boltzmann-laskin analysoi transaktioidesi yksityisyystason, Electrum-palvelin mahdollistaa Bitcoin-lompakkojesi yhdistämisen noodisi kanssa, ja Mempool-palvelin mahdollistaa transaktioidesi paikallisen tarkastelun, ilman tietojen vuotamista.
@@ -43,6 +48,9 @@ Nyt kun olemme hahmotelleet RoninDojon, katsotaan yhdessä, miten tämä noodi p
 
 ## Minkä laitteiston valita RoninDojo v2:n asentamiseen?
 RoninDojo tarjoaa automaattisen asennuksen ohjelmistonsa [RockPro64](https://ronindojo.io/downloads) -laitteistolle. Tämä opas keskittyy kuitenkin manuaaliseen asennusmenetelmään Raspberry Pi 4:lle. Vaikka Raspberry Pi 5 on äskettäin julkaistu, ja tämän oppaan pitäisi teoriassa olla yhteensopiva tämän uuden mallin kanssa, en ole vielä henkilökohtaisesti päässyt testaamaan sitä, enkä ole löytänyt palautetta yhteisöltä. Heti kun hankin Pi 5:n ja yhteensopivat komponentit, päivitän tämän oppaan pitääkseni sinut ajan tasalla. Siihen asti suosittelen priorisoimaan Pi 4:n, sillä se toimii täydellisesti noodilleni.
+
+> **Huomautus (lokakuu 2026):** RoninDojo tarjoaa nyt viralliset RoninOS-levykuvat myös Rock5B+:lle, Raspberry Pi 5:lle ja x86-koneille.
+
 Osa yhteisön jäsenistä on onnistunut saamaan sen toimimaan laitteilla, joissa on vain 4 GB RAM-muistia, mutta en ole itse testannut tätä konfiguraatiota. Pienen hintaeron vuoksi vaikuttaa viisaalta valita 8 GB RAM-muistin versio. Tämä voi myös osoittautua hyödylliseksi, jos suunnittelet Raspberry Pin uudelleenkäyttöä muissa tulevaisuuden projekteissa.
 On tärkeää huomata, että RoninDojo-tiimit ovat raportoineet usein ongelmista, jotka liittyvät kotelo- ja SSD-sovittimeen. Olen kohdannut näitä ongelmia itse. **Siksi on erittäin suositeltavaa välttää koteloita, jotka on varustettu USB-kaapelilla noodisi SSD:lle.** Sen sijaan suosi Raspberry Pi:lle suunniteltua tallennuslaajennuskorttia:
 
@@ -185,6 +193,8 @@ Olet nyt yhteydessä solmuusi SSH-istunnon kautta. Terminaalissasi komentokehote
 `sudo apt update && sudo apt upgrade -y`
 Kun päivitykset on saatu päätökseen, jatka asentamalla *Git* ja *Dialog* komennolla: `sudo apt install git dialog -y`
 
+> **Huomautus (lokakuu 2026):** Alla oleva komento ei enää toimi: Samourain GitLab (code.samourai.io) takavarikoitiin 24. huhtikuuta 2024. RoninDojon koodi on nyt täällä: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Katso nykyinen asennusmenettely: [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
+
 Seuraavaksi, kloonaa `master` haara _RoninOS_ Git-repositoriosta suorittamalla:
 `sudo git clone --branch master https://code.samourai.io/ronindojo/RoninOS.git /opt/RoninOS`
 
@@ -295,7 +305,10 @@ Yhteyden muodostamiseksi sinun tarvitsee vain skannata Dojosi QR-koodi. Pääst�
 Yhdistääksesi Samourai Walletisi Dojoosi, skannaa tämä QR-koodi sovelluksen asennuksen aikana:
 
 ![Samourai Wallet connection](assets/notext/36.webp)
-Jos sinulla oli jo Samourai Wallet ennen Ronin Dojon asentamista, on tarpeen varmuuskopioida lompakkosi, poistaa ja sitten asentaa Samourai Wallet -sovellus uudelleen ennen lompakkosi palauttamista. Käynnistäessäsi uudelleenasennetun sovelluksen, sinulla on mahdollisuus yhdistää uuteen Dojoon. **Ole varovainen, tässä prosessissa on riski menettää bitcoinsisi, jos sitä ei suoriteta oikein!** Varmista, että sinulla on Samourai-lompakkosi varmuuskopio tiedostoissasi ja tarkista tunnuslauseesi pätevyys kohdasta `Asetukset > Vianmääritys > Tunnuslause`. On myös tärkeää, että sinulla on luettavissa oleva varmuuskopio palautuslauseestasi ja tunnuslauseestasi. Tarkemman toiminnan varmistamiseksi on suositeltavaa seurata tätä yksityiskohtaista opasta: [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+Jos sinulla oli jo Samourai Wallet ennen Ronin Dojon asentamista, on tarpeen varmuuskopioida lompakkosi, poistaa ja sitten asentaa Samourai Wallet -sovellus uudelleen ennen lompakkosi palauttamista. Käynnistäessäsi uudelleenasennetun sovelluksen, sinulla on mahdollisuus yhdistää uuteen Dojoon. **Ole varovainen, tässä prosessissa on riski menettää bitcoinsisi, jos sitä ei suoriteta oikein!** Varmista, että sinulla on Samourai-lompakkosi varmuuskopio tiedostoissasi ja tarkista tunnuslauseesi pätevyys kohdasta `Asetukset > Vianmääritys > Tunnuslause`. On myös tärkeää, että sinulla on luettavissa oleva varmuuskopio palautuslauseestasi ja tunnuslauseestasi. Tarkemman toiminnan varmistamiseksi on suositeltavaa seurata tätä yksityiskohtaista opasta: [https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+
+> **Varoitus (lokakuu 2026):** Samourai Walletia ei enää ole: sen palvelimet takavarikoitiin ja sen perustajat pidätettiin 24. huhtikuuta 2024. Yllä oleva linkki vie oppaan arkistoituun kopioon. RoninDojo dokumentoi nyt Ashigarun, joka on Samourai Walletin fork: [docs.ronindojo.io/guides-wallet/ashigaru](https://docs.ronindojo.io/guides-wallet/ashigaru/)
+
 ### Oman Mempool.space-lohkoketjuselaimen käyttö
 Lohkoketjuselain muuttaa Bitcoin-lohkoketjun raakatiedot rakenteelliseen ja helposti luettavaan muotoon. Työkalujen, kuten *Mempool.space*, avulla on mahdollista analysoida transaktioita, etsiä tiettyjä osoitteita tai jopa konsultoida verkon mempoolien keskimääräisiä maksutaksoja reaaliajassa.
 

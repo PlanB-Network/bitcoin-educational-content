@@ -415,7 +415,9 @@ A principal vantagem desta abordagem, em comparação com um wallet de custódia
 
 
 
-A maior parte das carteiras que oferecem este tipo de funcionalidade baseiam-se no [Boltz](https://boltz.exchange/) para a parte técnica da troca.
+A maior parte das carteiras que oferecem este tipo de funcionalidade baseiam-se no Boltz para a parte técnica da troca.
+
+> **Nota (outubro de 2026):** A Boltz suspendeu todos os swaps em 3 de agosto de 2026 e o seu site está offline. As carteiras que dependem da Boltz podem já não oferecer esta funcionalidade.
 
 
 

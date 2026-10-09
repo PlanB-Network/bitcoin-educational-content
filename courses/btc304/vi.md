@@ -701,7 +701,7 @@ Nếu bạn muốn thiết kế một logo mang phong cách tương lai cho bu�
 
 
 
-- [ ] *Yêu cầu: Tạo logo Bitcoin với Cầu Luân Đôn và Tháp Big Ben ở phía sau. Tương lai* - [Liên kết](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *Yêu cầu: Tạo logo Bitcoin với Cầu Luân Đôn và Tháp Big Ben ở phía sau. Tương lai*
 
 
 
@@ -714,7 +714,7 @@ Nếu bốn kết quả đầu tiên không đủ thực tế, hãy tinh chỉnh
 
 
 
-- [ ] *Yêu cầu: Làm cho hình ảnh thứ 4 thực tế hơn nhiều* - [Liên kết](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *Yêu cầu: Làm cho hình ảnh thứ 4 thực tế hơn nhiều*
 
 
 
@@ -732,7 +732,7 @@ Kết quả mới nhất thật tuyệt vời!
 
 
 
-- [ ] *Yêu cầu: Tạo logo cho "Cuộc gặp gỡ Bitcoin ở London" theo phong cách Anh và sạch sẽ* - [Liên kết](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Yêu cầu: Tạo logo cho "Cuộc gặp gỡ Bitcoin ở London" theo phong cách Anh và sạch sẽ*
 
 
 
@@ -1392,7 +1392,7 @@ Bao gồm:
 
 
 - [Btcmap.org](https://btcmap.org/)**, một trang web với hai bản đồ được cập nhật hàng ngày: **[bản đồ thế giới về các doanh nghiệp chấp nhận Bitcoin](https://btcmap.org/map)** và **[bản đồ cộng đồng thế giới](https://btcmap.org/communities/map)**. Nhiều người dùng Bitcoin thường xuyên kiểm tra các bản đồ này, dù họ đang đi du lịch hay đang trong cuộc sống thường ngày, để gặp gỡ những người mới hoặc tìm địa điểm để chi tiêu [Sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap là tài liệu tham khảo toàn cầu, và việc liệt kê cộng đồng của bạn trên đó là điều cần thiết để tăng khả năng hiển thị.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), một trang web do những người dùng bitcoin tạo ra, dành cho những người dùng bitcoin. **Trang web này cho phép bạn đăng các sự kiện sắp tới của cộng đồng**. Tuy nhiên, ở Pháp, trang web này vẫn chưa được sử dụng rộng rãi.
+- BitcoinerEvents, một trang web do những người dùng bitcoin tạo ra, dành cho những người dùng bitcoin. **Trang web này cho phép bạn đăng các sự kiện sắp tới của cộng đồng**. Tuy nhiên, ở Pháp, trang web này vẫn chưa được sử dụng rộng rãi. **Lưu ý (tháng 10 năm 2026):** trang web này hiện không còn truy cập được. [BitcoinOnly Events](https://bitcoinonly.events/) là một lịch sự kiện tương tự vẫn đang hoạt động.
 - Tùy thuộc vào quốc gia của bạn, có thể có những sáng kiến địa phương khác. Ví dụ, tại Pháp, có [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), **liệt kê hàng chục sự kiện Bitcoin mỗi tháng**. Vì vậy, nếu bạn chưa theo dõi họ trên Twitter hoặc liên hệ với họ để chia sẻ thông tin về cộng đồng và các sự kiện của mình, thì bây giờ chính là lúc! **Để giúp cập nhật lịch sự kiện của Pháp, sẽ rất tuyệt nếu tất cả các cộng đồng Bitcoin tại Pháp cùng nhau tạo thói quen:**
     - nhắc đến @bitcoinpointfr trên Twitter cho mọi sự kiện cộng đồng mới
     - ghim thông báo sự kiện mới vào nhóm Telegram của họ.
@@ -1412,7 +1412,7 @@ Tương tự như vậy, **[Orangepillapp](https://www.orangepillapp.com/)** là
 
 Mặc dù hai nền tảng cuối cùng này có thể giúp tăng khả năng hiển thị, nhưng chúng không được khuyến khích sử dụng khi ra mắt cộng đồng, đơn giản vì chúng không miễn phí.
 
-**Bắt đầu bằng việc niêm yết trên [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) và đối với cộng đồng người Pháp, trên [Bitcoin.fr](https://Bitcoin.fr) là quá đủ**.
+**Bắt đầu bằng việc niêm yết trên [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) và đối với cộng đồng người Pháp, trên [Bitcoin.fr](https://Bitcoin.fr) là quá đủ**.
 
 
 Xin chúc mừng! **Cộng đồng của bạn đã được tạo**, **hình ảnh đã sẵn sàng**, **mục tiêu đã được đặt ra**, **kênh truyền thông đã được thiết lập**, **mạng xã hội đã được ra mắt** và **chiến lược hiển thị đã được quyết định**.

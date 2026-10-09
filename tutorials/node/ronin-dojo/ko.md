@@ -5,6 +5,8 @@ description: 로닌도조 Bitcoin 노드 설치 및 사용.
 ---
 ***경고: 4월 24일 사무라이 Wallet의 설립자가 체포되고 서버가 압수된 이후, Whirlpool과 같은 로닌도조의 특정 기능은 더 이상 운영되지 않습니다. 그러나 이러한 도구는 향후 몇 주 내에 복원되거나 다른 방식으로 다시 출시될 수 있습니다. 또한, 로닌도조 코드는 압수된 사무라이의 깃랩에서 호스팅되었기 때문에 현재 원격으로 코드를 다운로드할 수 없습니다. 로닌도조 팀은 코드를 다시 게시하기 위해 노력 중입니다*
 
+> **업데이트(2026년 10월):** RoninDojo는 이후 자체 플랫폼([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin))에 코드를 다시 공개했으며 현재 버전 3입니다. 이 튜토리얼은 이전 버전을 설명하므로 일부 링크와 명령어는 더 이상 작동하지 않습니다. 현재 절차는 공식 문서를 참조하세요: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 
 저희는 이 사건의 전개 상황과 관련 도구의 개발 상황을 면밀히 주시하고 있습니다. 새로운 정보가 입수되는 대로 이 튜토리얼을 업데이트할 예정이니 안심하세요
 
@@ -84,10 +86,12 @@ Dojo는 사무라이 Bitcoin 팀이 개발한 풀 Wallet 노드 서버입니다.
 로닌도장을 호스팅하고 실행하는 머신을 선택하려면 몇 가지 옵션이 있습니다.
 
 
-앞서 설명한 것처럼 가장 간단한 방법은 이 용도로 특별히 설계된 플러그 앤 플레이 기계인 Tanto를 주문하는 것입니다. 주문하려면 여기를 방문하세요: [링크](https://shop.ronindojo.io/product-category/nodes/).
+앞서 설명한 것처럼 가장 간단한 방법은 이 용도로 특별히 설계된 플러그 앤 플레이 기계인 Tanto를 주문하는 것입니다.
+
+> **참고(2026년 10월):** RoninDojo는 더 이상 Tanto를 판매하지 않는 것으로 보이며, 온라인 상점도 운영되지 않습니다. 호환 하드웨어 목록을 참조하세요: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
 
 
-로닌도조 팀은 오픈 소스 코드를 제작하기 때문에 다른 컴퓨터에서도 로닌도조를 구현할 수 있습니다. 이 페이지에서 최신 버전의 설치 마법사를 찾을 수 있습니다: [링크](https://ronindojo.io/downloads), 이 페이지에서 최신 버전의 코드를 확인할 수 있습니다: [링크](https://code.samourai.io/ronindojo/RoninDojo).
+로닌도조 팀은 오픈 소스 코드를 제작하기 때문에 다른 컴퓨터에서도 로닌도조를 구현할 수 있습니다. 이 페이지에서 최신 버전의 설치 마법사를 찾을 수 있습니다: [링크](https://ronindojo.io/downloads), 이 페이지에서 최신 버전의 코드를 확인할 수 있습니다: [링크](https://git.ronindojo.io/Ronin/monorepo).
 
 
 개인적으로 라즈베리 파이 4 8GB에 설치했는데 모든 것이 완벽하게 작동합니다.
@@ -232,6 +236,8 @@ ssh username@192.168.?.?
 
 이제 현재 로닌OS만 설치되어 있는 컴퓨터에 연결되었습니다. 이제 로닌도조를 설치해야 합니다.
 
+
+> **참고(2026년 10월):** 아래 명령어는 더 이상 작동하지 않습니다. Samourai의 GitLab(code.samourai.io)은 2024년 4월 24일에 압수되었습니다. RoninDojo는 이제 코드를 여기에서 호스팅합니다: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). 현재 설치 절차는 [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/) 에서 확인하세요.
 
 다음 명령을 입력하여 최신 버전의 로닌도장을 다운로드하세요:
 

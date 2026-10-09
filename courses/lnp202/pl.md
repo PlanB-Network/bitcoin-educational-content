@@ -415,7 +415,9 @@ Główną zaletą tego podejścia, w porównaniu z konwencjonalnym wallet Lightn
 
 
 
-Większość portfeli oferujących tego typu funkcjonalność opiera się na [Boltz](https://boltz.exchange/) dla technicznej części swapu.
+Większość portfeli oferujących tego typu funkcjonalność opiera się na Boltz dla technicznej części swapu.
+
+> **Uwaga (październik 2026):** Boltz zawiesił wszystkie swapy 3 sierpnia 2026 r., a jego strona internetowa jest niedostępna. Portfele korzystające z Boltz mogą już nie oferować tej funkcji.
 
 
 

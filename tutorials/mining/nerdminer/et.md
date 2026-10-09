@@ -14,7 +14,7 @@ Enne erinevate sammude läbimist loetleme vajaliku varustuse:
 
 - [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - [USB-C toiteallikas](https://amzn.eu/d/gIOot90)
-- 3D korpus: kui teil on 3D printer, saate alla laadida [3D faili](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons), vastasel juhul võite osta ühe [Silexperience veebipoest](https://silexperience.company.site/NerdMiner_V2-p544379757).
+- 3D korpus: kui teil on 3D printer, saate alla laadida [3D faili](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons), vastasel juhul võite osta ühe [Bitronics veebipoest](https://bitronics.store/).
 - PC Chrome brauseriga installitud
 - internetiühendus
 - bitcoin aadress
@@ -66,7 +66,6 @@ NerdMinerite jaoks võite ühenduda ühega neist basseinidest:
 | ----------------- | ----- | -------------------------- | --------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Vaikimisi solo ja avatud lähtekoodiga bassein |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Hooldab CHMEX                           |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Hooldab djerfy                          |
 
 Kui olete oma basseini valinud, peate sisestama oma bitcoini aadressi, et saada preemiat juhul (erandkorras), kui blokk leitakse.
 
@@ -129,4 +128,4 @@ Teades, et kogu hashrate on umbes 450 EH/s (või 4,5 x 10^20 hashi sekundis), v�
 Siin on mõned lingid, kui soovite teemal rohkem lugeda:
 
 - [NerdMiner_v2 projekti leht](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [NerdMinerite täielik dokumentatsioon](https://bitwater.ch/nerd-miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

@@ -14,7 +14,7 @@ Ennen eri vaiheiden läpikäymistä, listataan tarvittavat välineet sen tekemis
 
 - [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - [USB-C virtalähde](https://amzn.eu/d/gIOot90)
-- 3D-kotelo: jos sinulla on 3D-tulostin, voit ladata [3D-tiedoston](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) muussa tapauksessa voit ostaa yhden [Silexperience-verkkokaupasta](https://silexperience.company.site/NerdMiner_V2-p544379757).
+- 3D-kotelo: jos sinulla on 3D-tulostin, voit ladata [3D-tiedoston](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) muussa tapauksessa voit ostaa yhden [Bitronics-verkkokaupasta](https://bitronics.store/).
 - PC, jossa on asennettuna Chrome-selain
 - internet-yhteys
 - bitcoin-osoite
@@ -66,7 +66,6 @@ NerdMinereille voit valita yhdistämisen seuraaviin pooleihin:
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Oletus, solo ja avoimen lähdekoodin louhintapool |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Ylläpitäjänä CHMEX                       |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Ylläpitäjänä djerfy                      |
 
 Kun olet valinnut poolin, sinun täytyy syöttää bitcoin-osoitteesi, jotta voit vastaanottaa palkkion, jos (poikkeuksellisesti) lohko löytyy.
 
@@ -129,4 +128,4 @@ Kun tiedetään, että kokonaishashrate on noin 450 EH/s (tai 4,5 x 10^20 hashea
 Tässä on joitakin linkkejä, jos haluat lukea aiheesta lisää:
 
 - [NerdMiner_v2-projektisivu](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [NerdMinerien kattava dokumentaatio](https://bitwater.ch/nerd-miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

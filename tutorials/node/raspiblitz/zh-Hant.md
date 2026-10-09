@@ -20,7 +20,7 @@ RASPIBLITZ - 如何運行閃電和 Bitcoin Full node by BTC session
 ## Parman's Raspiblitz 設定指南
 
 
-Raspiblitz是一個優秀的系統，用於運行比特幣節點和相關應用。我向大多數用戶推薦它和MyNode節點（理想情況下應有兩個節點以實現冗餘）。一個主要優勢是Raspiblitz節點是「Free Open Source Software」，而MyNode或Umbrel則不是。[為什麼這很重要？Vlad Costa 解釋。](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) 你還可以通過WiFi連接而不是以太網運行Raspiblitz – 這裡有一個[補充指南](https://armantheparman.com/headless-wifi/)供參考。（我還沒有找到在MyNode上實現這一點的方法）。
+Raspiblitz是一個優秀的系統，用於運行比特幣節點和相關應用。我向大多數用戶推薦它和MyNode節點（理想情況下應有兩個節點以實現冗餘）。一個主要優勢是Raspiblitz節點是「Free Open Source Software」，而MyNode或Umbrel則不是。[為什麼這很重要？Vlad Costea 解釋。](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) 你還可以通過WiFi連接而不是以太網運行Raspiblitz – 這裡有一個[補充指南](https://armantheparman.com/headless-wifi/)供參考。（我還沒有找到在MyNode上實現這一點的方法）。
 
 
 您可以購買附有迷你螢幕的現成節點，也可以自己製作（您不需要螢幕）。
@@ -96,7 +96,7 @@ Raspiblitz是一個優秀的系統，用於運行比特幣節點和相關應用�
 對於 Windows，這裡有一個[簡單的教學](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s)。
 
 
-_更新：pgp/gpg 驗證現已可用。您需要 Openoms 的公鑰。[在這裡](http://parman.org/downloadable/openoms.txt)（連結可能需要隱身模式才能運作 – http，而非 https）_
+_更新：pgp/gpg 驗證現已可用。目前的 RaspiBlitz 映像檔由 rootzoll 簽署，而不是 Openoms（金鑰指紋：92A746AE33A3C186D014BF5C1C73060C7C176461）。[官方 FAQ](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download) 提供了金鑰和 `gpg --verify` 指令。_
 Mac/Linux
 
 

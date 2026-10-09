@@ -116,7 +116,7 @@ Nginx를 사용하여 PostgreSQ, LightningTipBot을 펀딩 소스로 사용하�
 [더 많은 설치 시나리오는 여기](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server)를 참조하세요.
 
 
-번들 소프트웨어 노드의 경우, LNbits에 대한 특정 문서를 참조하세요: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+번들 소프트웨어 노드의 경우, LNbits에 대한 특정 문서를 참조하세요: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
 ### LNbits SaaS
@@ -207,12 +207,14 @@ LNbits는 다양한 라이트닝 네트워크 펀딩 소스에서 실행할 수 
 
 #### 라이트닝 팁봇
 
+> **경고 (2026년 10월):** LightningTipBot과 ln.tips는 서비스를 종료했습니다. 종료는 2024년 4월 29일에 발표되었습니다. 직접 봇을 호스팅하지 않는 한 이 자금 출처는 더 이상 작동하지 않습니다.
+
 
 텔레그램에서 [라이트닝 팁봇](https://t.me/LightningTipBot)을 연결하려면, 다음 파라미터를 설정해야 합니다:
 
 
   - `lnbits_backend_wallet_class`: **LnTipsWallet**
-  - lnbits_endpoint`: https://LN.tips
+  - lnbits_endpoint`: `https://LN.tips`
   - `LNBITS_KEY`: 키를 얻으려면, 텔레그램에서 라이트닝팁봇과 비공개 대화에서 /api를 한 번 실행해야 합니다.
 
 
@@ -229,11 +231,13 @@ LNbits는 다양한 라이트닝 네트워크 펀딩 소스에서 실행할 수 
 
 #### LNPay
 
-Invoice 리스너가 작동하려면 LNbits에 공개적으로 액세스할 수 있는 URL이 있어야 하며, "Wallet 수신" 이벤트와 함께 `<귀하의 LNbits 호스트>/Wallet/웹훅`을 가리키는 [LNPay 웹훅](https://dashboard.lnpay.co/webhook/)을 설정하고 비밀을 제공하지 않아야 합니다. 설정 `https://mylnbits/Wallet/webhook`은 결제에 대한 알림을 받는 엔드포인트 URL이 됩니다.
+> **경고 (2026년 10월):** LNPay는 서비스를 중단한 것으로 보입니다. lnpay.co 도메인이 더 이상 응답하지 않습니다. 이 자금 출처는 아마 더 이상 사용할 수 없습니다.
+
+Invoice 리스너가 작동하려면 LNbits에 공개적으로 액세스할 수 있는 URL이 있어야 하며, "Wallet 수신" 이벤트와 함께 `<귀하의 LNbits 호스트>/Wallet/웹훅`을 가리키는 LNPay 웹훅을 설정하고 비밀을 제공하지 않아야 합니다. 설정 `https://mylnbits/Wallet/webhook`은 결제에 대한 알림을 받는 엔드포인트 URL이 됩니다.
 
 
   - `lnbits_backend_wallet_class`: **LNPayWallet**
-  - lnpay_api_endpoint`: https://api.lnpay.co/v1/
+  - lnpay_api_endpoint`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -537,7 +541,9 @@ LNURL-p를 생성하면 기본적으로 댓글 상자가 채워지지 않습니�
 ###### 외부 스왑 서비스를 통해.
 
 
-LNb에 액세스할 수 없는 다른 사용자는 [Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) 또는 [ZigZag](https://zigzag.io/)와 같은 스왑 서비스를 사용할 수 있습니다. 이는 LNbits 인스턴스에서 LNURL/LN 인보이스만 제공하지만, 결제자는 온체인 Sats만 가지고 있어 먼저 해당 Sats을 스왑해야 하는 경우에 유용합니다. 절차는 간단합니다. 사용자가 온체인 비트코인을 스왑 서비스에 전송하고 LNbits의 LNURL/LN Invoice를 스왑 대상자로 제공합니다.
+LNb에 액세스할 수 없는 다른 사용자는 Boltz, [FixedFloat](https://fixedfloat.com/) 또는 [ZigZag](https://zigzag.io/)와 같은 스왑 서비스를 사용할 수 있습니다. 이는 LNbits 인스턴스에서 LNURL/LN 인보이스만 제공하지만, 결제자는 온체인 Sats만 가지고 있어 먼저 해당 Sats을 스왑해야 하는 경우에 유용합니다. 절차는 간단합니다. 사용자가 온체인 비트코인을 스왑 서비스에 전송하고 LNbits의 LNURL/LN Invoice를 스왑 대상자로 제공합니다.
+
+> **경고 (2026년 10월):** Boltz는 여러 취약점이 악용된 후 2026년 8월 3일에 모든 스왑을 중단했으며 웹사이트는 오프라인 상태입니다. 현재 Boltz와 LNbits Boltz 확장 프로그램은 사용할 수 없습니다.
 
 
 ###### 온체인과 볼츠 LNbits 확장 프로그램 사용.

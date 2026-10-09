@@ -519,13 +519,7 @@ I samma meny hittar du också URI:n för din Watchtower-tjänst om du har aktive
 
 
 
-Det finns flera Watchtowers tillgängliga online. Till exempel [LN+ och Voltage erbjuder en altruistisk Watchtower](https://lightningnetwork.plus/Watchtower) som du kan ansluta till:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+Det finns flera Watchtowers tillgängliga online. LN+ och Voltage erbjöd tidigare en altruistisk Watchtower, men den är inte längre tillgänglig (oktober 2026). LN+ erbjuder nu [Watch Swaps](https://lightningnetwork.plus/watch_swaps), där två nodoperatörer bevakar varandras kanaler, och publicerar en [guide till altruistiska Watchtowers](https://lightningnetwork.plus/posts/12).
 
 
 

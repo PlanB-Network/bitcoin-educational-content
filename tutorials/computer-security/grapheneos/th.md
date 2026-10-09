@@ -602,7 +602,6 @@ GrapheneOS เป็นโพรงกระต่ายที่ใคร ๆ �
 - [คู่มือการใช้งาน GrapheneOS อย่างเป็นทางการ](https://grapheneos.org/usage) - เว็บไซต์ทางการ
 - [GrapheneOS Forum](https://discuss.grapheneos.org/) - เว็บไซต์ทางการ
 - [GrapheneOS Settings Masterclass](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - วิดีโอโดย 'The Privacy Wayfinder'
-- [GrapheneOS General Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - พอดแคสต์โดย 'Watchman Privacy'
 
 
 *บทแนะนำนี้เป็นการดัดแปลงเนื้อหาต้นฉบับที่เผยแพร่โดย [BitcoinQnA บน Bitcoiner.Guide ภายใต้ใบอนุญาต MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) ซึ่งเครดิตทั้งหมดเป็นของผู้เขียนต้นฉบับ*

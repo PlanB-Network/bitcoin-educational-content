@@ -408,6 +408,8 @@ liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xh
 
 #### 4.3.1. การดำเนินงาน ข้อจำกัด และประโยชน์
 
+> **หมายเหตุ (ตุลาคม 2026):** Boltz ระงับการ swap ทั้งหมดเมื่อวันที่ 3 สิงหาคม 2026 และเว็บไซต์ออฟไลน์อยู่ การชำระเงิน Lightning ของ Bull Bitcoin Wallet อาศัย Boltz และอาจใช้งานไม่ได้อีกต่อไป
+
 
 
 
@@ -745,6 +747,8 @@ lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8
 
 
 #### 5.4.2 การดำเนินงาน ข้อจำกัด และประโยชน์
+
+> **หมายเหตุ (ตุลาคม 2026):** Boltz ระงับการ swap ทั้งหมดเมื่อวันที่ 3 สิงหาคม 2026 และเว็บไซต์ออฟไลน์อยู่ การชำระเงิน Lightning ของ Bull Bitcoin Wallet อาศัย Boltz และอาจใช้งานไม่ได้อีกต่อไป
 
 
 

@@ -116,7 +116,7 @@ LNbits 可以安裝在任何 Linux 作業系統的機器上。它不需要強大
 [更多安裝方案在此](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server)。
 
 
-對於 bundle 軟體節點，請參閱其有關 LNbits 的特定說明文件：[Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+對於 bundle 軟體節點，請參閱其有關 LNbits 的特定說明文件：[Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
 ### LNbits SaaS
@@ -207,12 +207,14 @@ LNbits 可以運行在許多雷射網路資金來源之上。目前已支援 Cor
 
 #### 閃電提示機器人
 
+> **警告（2026 年 10 月）：** LightningTipBot 和 ln.tips 已停止營運；關閉公告發布於 2024 年 4 月 29 日。除非您自行託管機器人，否則此資金來源已無法使用。
+
 
 要從 Telegram 連接您的 [Lightning Tipbot](https://t.me/LightningTipBot)，您需要設定以下參數：
 
 
   - lnbits_backend_wallet_class`： **LnTipsWallet**
-  - `lnbits_endpoint`: https://LN.tips
+  - `lnbits_endpoint`: `https://LN.tips`
   - LNBITS_KEY`：要取得 Key，您需要在 Telegram 上與 LightningTipbot 私聊一次，執行 /api。
 
 
@@ -229,11 +231,13 @@ LNbits 可以運行在許多雷射網路資金來源之上。目前已支援 Cor
 
 #### LNPay
 
-為了讓 Invoice 監聽器運作，您必須在您的 LNbits 設定一個公開存取的 URL，並設定一個 [LNPay webhook](https://dashboard.lnpay.co/webhook/)，指向 `<您的 LNbits 主機>/Wallet/webhook`，並設定 "Wallet Receive" 事件，且不給予任何秘密。設定 `https://mylnbits/Wallet/webhook` 將會是收到任何付款通知的端點 url。
+> **警告（2026 年 10 月）：** LNPay 似乎已停止營運：lnpay.co 網域已無回應。此資金來源很可能已無法使用。
+
+為了讓 Invoice 監聽器運作，您必須在您的 LNbits 設定一個公開存取的 URL，並設定一個 LNPay webhook，指向 `<您的 LNbits 主機>/Wallet/webhook`，並設定 "Wallet Receive" 事件，且不給予任何秘密。設定 `https://mylnbits/Wallet/webhook` 將會是收到任何付款通知的端點 url。
 
 
   - lnbits_backend_wallet_class`： **LNPayWallet**
-  - `lnpay_api_endpoint`: https://api.lnpay.co/v1/
+  - `lnpay_api_endpoint`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -537,7 +541,9 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ###### 透過外部交換服務。
 
 
-其他無法存取您的 LNb 的使用者可以使用交換服務，例如 [Boltz](https://boltz.Exchange/)、[FixedFloat](https://fixedfloat.com/)、[DiamondHands](https://swap.diamondhands.technology/) 或 [ZigZag](https://zigzag.io/)。如果您在 LNbits 實例中只提供 LNURL/LN 發票，但付款人只有 onchain Sats，因此他們必須先在自己這邊交換這些 Sats，這就很有用了。程序很簡單：用戶發送 onchain btc 到交換服務，並提供來自 LNbits 的 LNURL / LN Invoice 作為交換的目的地。
+其他無法存取您的 LNb 的使用者可以使用交換服務，例如 Boltz、[FixedFloat](https://fixedfloat.com/) 或 [ZigZag](https://zigzag.io/)。如果您在 LNbits 實例中只提供 LNURL/LN 發票，但付款人只有 onchain Sats，因此他們必須先在自己這邊交換這些 Sats，這就很有用了。程序很簡單：用戶發送 onchain btc 到交換服務，並提供來自 LNbits 的 LNURL / LN Invoice 作為交換的目的地。
+
+> **警告（2026 年 10 月）：** 在多個漏洞遭到利用後，Boltz 於 2026 年 8 月 3 日暫停了所有交換，其網站已離線。目前無法使用 Boltz 和 LNbits 的 Boltz 擴充功能。
 
 
 ###### 使用 Onchain 和 Boltz LNbits 延伸。

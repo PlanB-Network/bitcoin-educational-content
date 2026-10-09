@@ -28,7 +28,6 @@ description: Найдите места, где можно провести Sats
 
 
 - iOS через [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
-- Android через [Play Store](https://play.google.com/store/apps/details?id=org.btcmap.app)
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) каталог приложений для android с открытым исходным кодом
 - скачав [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) прямо с github проекта
 - через веб-приложение из браузера (наш сегодняшний взгляд)

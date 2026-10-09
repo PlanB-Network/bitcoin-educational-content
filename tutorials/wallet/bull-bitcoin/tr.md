@@ -106,7 +106,7 @@ Daha derine inmeden önce, yönümüzü bulmak için `Ana Ekran`a bir göz atal�
 - "Satın Almak, Satmak veya Ödemek" için "Bitcoin Bull Exchange "ye erişin (bu, yargı yetkisine bağlıdır ve KYC gerektirebilir).
 - cüzdanlar arasında fonların `Transferi`
 - `Secure Bitcoin` eşittir Onchain Bitcoin Wallet
-- lightning- / Liquid Network üzerinden `Anında ödemeler` *(Not: Bull Bitcoin Wallet, ödemelerin Lightning üzerinden yapılmasını ve alınmasını sağlar. Lightning aracılığıyla alınan fonlar, [*Boltz exchange](https://boltz.exchange/) üzerinden otomatik takas sayesinde [*Liquid network](https://liquid.net/) (Wallet Anında Ödemeler'de) saklanır. Bu, size likidite kanallarını yönetmek zorunda kalmadan Lightning ile etkileşim kurma olanağı sağlarken, kendi kendini saklama özelliğini de korur.)
+- lightning- / Liquid Network üzerinden `Anında ödemeler` *(Not: Bull Bitcoin Wallet, ödemelerin Lightning üzerinden yapılmasını ve alınmasını sağlar. Lightning aracılığıyla alınan fonlar, Boltz exchange üzerinden otomatik takas sayesinde [*Liquid network](https://liquid.net/) (Wallet Anında Ödemeler'de) saklanır. Bu, size likidite kanallarını yönetmek zorunda kalmadan Lightning ile etkileşim kurma olanağı sağlarken, kendi kendini saklama özelliğini de korur.)
 - fonların `Gönderilmesi` ve `Alınması`
 
 
@@ -418,6 +418,8 @@ liquidnetwork:lq1qqdhgs7w537nun55a5sdy4gxkd08pclk3d7v4qz36sy4xp0cq6gvl52fcfv7kdg
 
 
 
+> **Not (Ekim 2026):** Boltz, 3 Ağustos 2026'da tüm swap işlemlerini askıya aldı ve web sitesi çevrimdışı. Bull Bitcoin Wallet'ın Lightning ödemeleri Boltz'a dayanır ve artık çalışmayabilir.
+
 Bull Bitcoin Wallet ayrıca Lightning Network aracılığıyla ödeme göndermenize ve almanıza olanak tanır. Önemli bir özellik, Lightning aracılığıyla alınan fonların otomatik olarak takas edilmesi ve `Anında Ödemeler Wallet` içinde `Liquid Network` üzerinde saklanmasıdır. Bu hizmet `Boltz` tarafından desteklenmektedir. Bu tasarım, likidite kanallarını yönetmenin karmaşıklığı olmadan Lightning'in hızından ve düşük maliyetinden yararlanmanızı sağlarken, fonlarınızın tam öz muhafazasını da korur. Bu hibrit yaklaşım kendi kendini saklar ve kanalları yönetmenin karmaşıklığından kaçınırken, üçüncü taraf bir hizmet (Boltz), küçük bir takas ücreti ve anahtar sahipleri olarak Liquid Network'un görevli federasyonuna güvenir; bu da kendi kanallarınızı yönettiğiniz geleneksel, saklama gerektirmeyen Lightning wallet'den farklıdır. Liquid ve yönetim modeli hakkında daha fazla bilgiyi buradan edinebilirsiniz:
 
 
@@ -508,6 +510,8 @@ Alıcı için tutarı ve isteğe bağlı bir notu ayarlamanıza olanak tanıyan 
 
 *Minimum tutarların ve ücretlerin geçerli olduğunu unutmayın.*
 
+
+> **Not (Ekim 2026):** Boltz, 3 Ağustos 2026'da tüm swap işlemlerini askıya aldı ve web sitesi çevrimdışı. Bull Bitcoin Wallet'ın Lightning ödemeleri Boltz'a dayanır ve artık çalışmayabilir.
 
 Bull Bitcoin Wallet, Lightning ödemelerini `Anında Ödemeler Wallet` (Liquid üzerinde) kanalınızdan para çekerek ve bunları `Boltz` üzerinden takas ederek gönderir. Bu hibrit yaklaşım tamamen kendi kendini yönetir ve özel bir Lightning kanalını yönetmenin yüksek on-chain ücretlerinden kaçınır, ancak bir `takas ücreti` ödemeyi gerektirir. En düşük maliyet için, Bull Bitcoin wallet de kullanıyorlarsa doğrudan alıcının Liquid adresine gönderin.
 

@@ -519,13 +519,7 @@ Katika menyu hiyo hiyo, utapata URI ya huduma yako ya Watchtower ikiwa umeiwasha
 
 
 
-Kuna Mnara wa Mlinzi kadhaa unaopatikana mtandaoni. Kwa mfano, [LN+ na Voltage zinatoa Watchtower](https://lightningnetwork.plus/Watchtower) ambayo unaweza kuunganisha kwayo:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+Kuna Mnara wa Mlinzi kadhaa unaopatikana mtandaoni. LN+ na Voltage zilikuwa zikitoa Watchtower ya bure, lakini haipatikani tena (Oktoba 2026). Sasa LN+ inatoa [Watch Swaps](https://lightningnetwork.plus/watch_swaps), ambapo waendeshaji wawili wa nodi hulinda chaneli za kila mmoja, na imechapisha [mwongozo wa Watchtower za bure](https://lightningnetwork.plus/posts/12).
 
 
 

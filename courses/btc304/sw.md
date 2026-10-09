@@ -701,7 +701,7 @@ Ikiwa ungependa kubuni nembo ya siku zijazo kwa mkutano wa "Bitcoin London", una
 
 
 
-- [ ] *Kidokezo: Unda nembo ya Bitcoin na London Bridge na Big Ben nyuma. Futuristic* - [Kiungo](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b=FORM)?
+- [ ] *Kidokezo: Unda nembo ya Bitcoin na London Bridge na Big Ben nyuma. Futuristic*
 
 
 
@@ -714,7 +714,7 @@ Ikiwa matokeo manne ya kwanza si ya uhalisia vya kutosha, boresha ombi lako:
 
 
 
-- [ ] *Kidokezo: Fanya ya 4 kuwa ya kweli zaidi* - [Kiungo](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea785b830DB4cea7830DB?
+- [ ] *Kidokezo: Fanya ya 4 kuwa ya kweli zaidi*
 
 
 
@@ -732,7 +732,7 @@ Kwa mwonekano safi, kama kibandiko:
 
 
 
-- [ ] *Fahamu: Unda nembo ya "London Bitcoin Meetup" kwa mtindo wa Uingereza na safi* - [Kiungo](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Fahamu: Unda nembo ya "London Bitcoin Meetup" kwa mtindo wa Uingereza na safi*
 
 
 
@@ -1391,7 +1391,7 @@ Hizi ni pamoja na:
 
 
 - [Btcmap.org](https://btcmap.org/)**, tovuti iliyo na ramani mbili zinazosasishwa kila siku: **[ramani ya ulimwengu ya biashara zinazokubali Bitcoin](https://btcmap.org/map)** na **[ramani ya jumuiya za ulimwengu](https://btcmap.org/communities/map)**. Wafanyabiashara wengi wa bitcoin huangalia ramani hizi mara kwa mara, iwe wanasafiri au wanaendelea na maisha yao ya kila siku, kukutana na watu wapya au kutafuta maeneo ya kutumia [Sats](https://planb.academy/resources/glossary/satoshi-sat) yao. Btcmap ndiyo rejeleo la kimataifa, na kuorodhesha jumuiya yako huko ni muhimu kwa mwonekano.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), tovuti iliyoundwa na bitcoiners, kwa bitcoiners. **Inakuwezesha kuchapisha matukio yajayo ya jumuiya yako**. Huko Ufaransa, hata hivyo, bado haitumiki sana.
+- BitcoinerEvents, tovuti iliyoundwa na bitcoiners, kwa bitcoiners. **Inakuwezesha kuchapisha matukio yajayo ya jumuiya yako**. Huko Ufaransa, hata hivyo, bado haitumiki sana. **Kumbuka (Oktoba 2026):** tovuti hii haipatikani tena. [BitcoinOnly Events](https://bitcoinonly.events/) ni kalenda inayofanana ambayo bado inafanya kazi.
 - kulingana na nchi yako, kunaweza kuwa na mipango mingine ya ndani. Nchini Ufaransa, kwa mfano, kuna [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), ambayo **orodhesha makumi ya matukio ya Bitcoin kila mwezi**. Kwa hivyo ikiwa bado hujawafuata kwenye Twitter au kuwasiliana nao ili kushiriki habari kuhusu jumuiya na matukio yako, sasa ndio wakati! **Ili kusaidia kusasisha kalenda ya matukio ya Ufaransa, itakuwa vyema ikiwa jumuiya zote za Kifaransa za Bitcoin zitakuwa na mazoea ya:**
     - kutaja @bitcoinpointfr kwenye Twitter kwa kila tukio jipya la jumuiya
     - kubandika matangazo ya hafla mpya katika kikundi chao cha Telegram.
@@ -1411,7 +1411,7 @@ Vile vile, **[Orangepillapp](https://www.orangepillapp.com/)** ni programu ya si
 
 Ingawa majukwaa haya mawili ya mwisho yanaweza kusaidia kuongeza mwonekano, hayapendekezwi wakati wa kuzindua jumuiya, kwa sababu tu hayana malipo.
 
-**Kuanzia na tangazo kwenye [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) na kwa jumuiya za Kifaransa, kwenye [Bitcoin.fr](https://Bitcoin.fr) inatosha**.
+**Kuanzia na tangazo kwenye [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) na kwa jumuiya za Kifaransa, kwenye [Bitcoin.fr](https://Bitcoin.fr) inatosha**.
 
 
 Hongera! **Jumuiya yako imeundwa**, **vielelezo vyako viko tayari**, **malengo yako yamewekwa**, **njia zako za mawasiliano zipo**, **mitandao yako ya kijamii imezinduliwa** na **mkakati wako wa mwonekano umeamuliwa**.

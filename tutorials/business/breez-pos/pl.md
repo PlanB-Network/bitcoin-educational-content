@@ -5,7 +5,7 @@ description: Breez ułatwia zbieranie płatności bitcoinowych dla Twojej firmy.
 
 ![cover](assets/cover.webp)
 
-
+> **Ostrzeżenie (październik 2026):** W 2026 roku Breez usunął swoją dotychczasową aplikację mobilną (Breez: Lightning Client & POS) ze sklepów z aplikacjami i zamknął kanały użytkowników. Linki do pobrania i kroki opisane w tym poradniku już nie działają. Dawni użytkownicy mogą odzyskać środki za pomocą narzędzia [breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery). Zachowujemy tę stronę w celach informacyjnych do czasu jej aktualizacji.
 
 Od czasu pandemii COVID-19 zbliżeniowe płatności cyfrowe stały się powszechne, nawet w najmniejszych sklepach. W tym okresie wiele firm odkryło praktyczność rozwiązań gotówkowych Bitcoin, umożliwiając im otrzymywanie płatności z całego świata. Jednak rozwiązania te są czasami trudne w użyciu lub nieodpowiednie dla małych firm. W tym samouczku przyjrzymy się terminalowi płatniczemu Breez, rozwiązaniu, które wyróżnia się łatwością obsługi, zapewniając jednocześnie pełną kontrolę nad zarządzaniem bitcoinami.
 
@@ -15,7 +15,7 @@ Od czasu pandemii COVID-19 zbliżeniowe płatności cyfrowe stały się powszech
 
 
 
-Breez POS to usługa samoobsługowa świadczona przez Breez wallet. Użyteczność tej usługi polega na umożliwieniu sprzedawcom zbierania płatności za pośrednictwem Bitcoin przy zachowaniu prostego interfejsu, bardzo podobnego do różnych portfeli Lightning. Breez POS jest dostępny na platformach pobierania [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) i [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS).
+Breez POS to usługa samoobsługowa świadczona przez Breez wallet. Użyteczność tej usługi polega na umożliwieniu sprzedawcom zbierania płatności za pośrednictwem Bitcoin przy zachowaniu prostego interfejsu, bardzo podobnego do różnych portfeli Lightning. Breez POS jest dostępny na platformach pobierania Google Play Store (Android) i App Store (iOS).
 
 
 

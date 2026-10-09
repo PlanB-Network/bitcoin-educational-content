@@ -96,7 +96,7 @@ Raspiblitz یک سیستم عالی برای اجرای یک نود بیت‌ک�
 برای ویندوز، اینجا یک [آموزش ساده](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s) است.
 
 
-_به‌روزرسانی: تأیید pgp/gpg اکنون در دسترس است. شما به کلید عمومی Openoms نیاز دارید. [اینجا](http://parman.org/downloadable/openoms.txt) است (ممکن است برای کارکردن لینک به حالت ناشناس نیاز داشته باشید – http، نه https)_
+_به‌روزرسانی: تأیید pgp/gpg اکنون در دسترس است. ایمیج‌های فعلی RaspiBlitz را rootzoll امضا می‌کند، نه Openoms (اثر انگشت کلید: 92A746AE33A3C186D014BF5C1C73060C7C176461). کلید و دستور `gpg --verify` در [پرسش‌های متداول رسمی](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download) آمده است._
 مک/لینوکس
 
 

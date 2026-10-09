@@ -116,7 +116,7 @@ LNbits को किसी भी Linux OS मशीन पर इंस्ट�
 [अधिक स्थापना परिदृश्य यहां](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
 
-बंडल सॉफ़्टवेयर नोड्स के लिए, कृपया LNbits के बारे में उनके विशिष्ट दस्तावेज़ देखें: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+बंडल सॉफ़्टवेयर नोड्स के लिए, कृपया LNbits के बारे में उनके विशिष्ट दस्तावेज़ देखें: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
 ### एलएनबिट्स सास
@@ -207,12 +207,14 @@ LNbits कई लाइटनिंग-नेटवर्क फंडिंग 
 
 #### लाइटनिंग टिपबॉट
 
+> **चेतावनी (अक्टूबर 2026):** LightningTipBot और ln.tips बंद हो चुके हैं; बंद होने की घोषणा 29 अप्रैल 2024 को की गई थी। यह फंडिंग स्रोत अब काम नहीं करता, जब तक कि आप अपना खुद का बॉट होस्ट न करें।
+
 
 अपने [लाइटनिंग टिपबॉट](https://t.me/LightningTipBot) को टेलीग्राम से कनेक्ट करने के लिए आपको निम्नलिखित पैरामीटर सेट करना होगा:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://LN.tips
+  - `LNBITS_ENDPOINT`: `https://LN.tips`
   - `LNBITS_KEY`: कुंजी प्राप्त करने के लिए आपको टेलीग्राम पर लाइटनिंग टिपबॉट के साथ एक बार निजी चैट में /api चलाना होगा।
 
 
@@ -229,11 +231,13 @@ LNbits कई लाइटनिंग-नेटवर्क फंडिंग 
 
 #### एलएनपे
 
-Invoice श्रोता के काम करने के लिए आपके पास अपने LNbits में एक सार्वजनिक रूप से सुलभ URL होना चाहिए और आपको एक [LNPay webhook](https://dashboard.lnpay.co/webhook/) सेट करना होगा जो `<आपके LNbits होस्ट>/Wallet/webhook` की ओर इशारा करता हो, जिसमें "Wallet रिसीव" इवेंट हो और कोई सीक्रेट न दिया गया हो। `https://mylnbits/Wallet/webhook` सेटिंग वह एंडपॉइंट URL होगा जिस पर किसी भी भुगतान के बारे में सूचना दी जाती है।
+> **चेतावनी (अक्टूबर 2026):** ऐसा लगता है कि LNPay बंद हो चुका है: lnpay.co डोमेन अब जवाब नहीं देता। यह फंडिंग स्रोत संभवतः अब उपयोग योग्य नहीं है।
+
+Invoice श्रोता के काम करने के लिए आपके पास अपने LNbits में एक सार्वजनिक रूप से सुलभ URL होना चाहिए और आपको एक LNPay webhook सेट करना होगा जो `<आपके LNbits होस्ट>/Wallet/webhook` की ओर इशारा करता हो, जिसमें "Wallet रिसीव" इवेंट हो और कोई सीक्रेट न दिया गया हो। `https://mylnbits/Wallet/webhook` सेटिंग वह एंडपॉइंट URL होगा जिस पर किसी भी भुगतान के बारे में सूचना दी जाती है।
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -537,7 +541,9 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ###### बाहरी स्वैप सेवा के माध्यम से.
 
 
-अन्य उपयोगकर्ता जिनके पास आपके LNb तक पहुँच नहीं है, वे [Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) या [ZigZag](https://zigzag.io/) जैसी स्वैप सेवा का उपयोग कर सकते हैं। यह तब उपयोगी होता है जब आप अपने LNbits इंस्टेंस से केवल LNURL/LN चालान प्रदान करते हैं, लेकिन भुगतानकर्ता के पास केवल ऑनचेन Sats है, इसलिए उन्हें पहले अपनी तरफ से उन Sats को स्वैप करना होगा। प्रक्रिया सरल है: उपयोगकर्ता ऑनचेन बीटीसी को स्वैप सेवा में भेजता है और स्वैप के गंतव्य के रूप में LNbits से LNURL / LN Invoice प्रदान करता है।
+अन्य उपयोगकर्ता जिनके पास आपके LNb तक पहुँच नहीं है, वे Boltz, [FixedFloat](https://fixedfloat.com/) या [ZigZag](https://zigzag.io/) जैसी स्वैप सेवा का उपयोग कर सकते हैं। यह तब उपयोगी होता है जब आप अपने LNbits इंस्टेंस से केवल LNURL/LN चालान प्रदान करते हैं, लेकिन भुगतानकर्ता के पास केवल ऑनचेन Sats है, इसलिए उन्हें पहले अपनी तरफ से उन Sats को स्वैप करना होगा। प्रक्रिया सरल है: उपयोगकर्ता ऑनचेन बीटीसी को स्वैप सेवा में भेजता है और स्वैप के गंतव्य के रूप में LNbits से LNURL / LN Invoice प्रदान करता है।
+
+> **चेतावनी (अक्टूबर 2026):** कई कमज़ोरियों का फ़ायदा उठाए जाने के बाद Boltz ने 3 अगस्त 2026 को सभी स्वैप निलंबित कर दिए, और इसकी वेबसाइट ऑफ़लाइन है। फ़िलहाल Boltz और LNbits के Boltz एक्सटेंशन का उपयोग नहीं किया जा सकता।
 
 
 ###### ऑनचेन और बोल्ट्ज़ एलएनबिट्स एक्सटेंशन का उपयोग करना।

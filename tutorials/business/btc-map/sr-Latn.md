@@ -28,7 +28,6 @@ Dostupno na:
 
 
 - iOS putem [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
-- Android putem [Play Store](https://play.google.com/store/apps/details?id=org.btcmap.app)
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) katalog aplikacija otvorenog koda za Android
 - preuzimanjem [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) direktno sa github projekta
 - putem veb aplikacije iz vašeg pregledača (naš pogled danas)

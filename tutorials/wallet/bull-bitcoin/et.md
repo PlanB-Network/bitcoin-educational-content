@@ -106,7 +106,7 @@ Enne kui me sügavamale sukeldume, heidame orienteerumiseks pilgu "Avakuvale":
 - Juurdepääs "Bitcoin Bull Exchange", et "osta, müüa või maksta" (see sõltub jurisdiktsioonist ja võib nõuda KYC-i).
 - raha ülekandmine rahakottide vahel
 - "Turvaline Bitcoin" võrdub "Onchain Bitcoin Wallet"
-- "Pikamaksed" Lightning- / Liquid Network kaudu *(Märkus: Bull Bitcoin Wallet võimaldab makseid teha ja vastu võtta Lightning'i kaudu. Lightning'i kaudu saadud raha salvestatakse [*Liquid võrku](https://liquid.net/) (Wallet Pikamaksed) tänu automaatsele vahetusele [*Boltz vahetuse](https://boltz.exchange/) kaudu. See annab teile võimaluse suhelda Lightninguga, ilma et peaksite likviidsuskanaleid haldama, jäädes samal ajal isehoidjaks)*)
+- "Pikamaksed" Lightning- / Liquid Network kaudu *(Märkus: Bull Bitcoin Wallet võimaldab makseid teha ja vastu võtta Lightning'i kaudu. Lightning'i kaudu saadud raha salvestatakse [*Liquid võrku](https://liquid.net/) (Wallet Pikamaksed) tänu automaatsele vahetusele Boltz vahetuse kaudu. See annab teile võimaluse suhelda Lightninguga, ilma et peaksite likviidsuskanaleid haldama, jäädes samal ajal isehoidjaks)*)
 - vahendite saatmine ja vastuvõtmine
 
 
@@ -418,6 +418,8 @@ Tehingu lõpuleviimiseks esitage saatjale "aadress" või "URI". Võite seda teha
 
 
 
+> **Märkus (oktoober 2026):** Boltz peatas kõik swapid 3. augustil 2026 ja selle veebisait ei ole kättesaadav. Bull Bitcoin Walleti Lightning-maksed tuginevad Boltzile ja ei pruugi enam töötada.
+
 Bull Bitcoin Wallet võimaldab teil saata ja vastu võtta makseid ka Lightning Network kaudu. Oluline omadus on, et Lightning'i kaudu saadud raha vahetatakse automaatselt Liquid Network-sse ja salvestatakse Wallet-sse "Instant Payments". See teenus töötab `Boltz` abil. Selline disain võimaldab teil kasutada Lightning'i kiirust ja madalat hinda ilma likviidsuskanalite haldamise keerukuseta, säilitades samal ajal oma vahendite täieliku iseseisva haldamise. Kuigi see hübriidne lähenemisviis on isehaldatav ja väldib kanalite haldamise keerukust, toob see kaasa kolmanda osapoole teenuse (Boltz), väikese vahetustasu ja sõltuvuse Liquid Network funktsionääride föderatsioonist kui võtmeomanikest, mis erineb traditsioonilisest, mittehaldatavast Lightning wallet-st, kus te ise haldate oma kanaleid. Lisateavet Liquid ja selle haldusmudeli kohta saate siit:
 
 
@@ -508,6 +510,8 @@ Saate kas skaneerida välk Address (nt "runningbitcoin@rizful.com"), mis võimal
 
 *Pange tähele, et kehtivad miinimumsummad ja tasud.*
 
+
+> **Märkus (oktoober 2026):** Boltz peatas kõik swapid 3. augustil 2026 ja selle veebisait ei ole kättesaadav. Bull Bitcoin Walleti Lightning-maksed tuginevad Boltzile ja ei pruugi enam töötada.
 
 Bull Bitcoin Wallet saadab välkmakseid, võttes raha välja teie "Instant Payments Wallet" (Liquid-l) ja vahetades seda "Boltz" kaudu. See hübriidlähenemine on täielikult isemajandav ja väldib spetsiaalse Lightning-kanali haldamisega seotud kõrgeid on-chain tasusid, kuid see nõuab `vahetustasude` maksmist. Madalaima hinna saamiseks saatke otse saaja Liquid aadressile, kui ta kasutab ka Bull Bitcoin wallet.
 

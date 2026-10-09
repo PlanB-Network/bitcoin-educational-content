@@ -701,7 +701,7 @@ Jeśli chcesz zaprojektować futurystyczne logo na spotkanie "Bitcoin London", m
 
 
 
-- [ ] *Prompt: Stwórz logo Bitcoin z London Bridge i Big Benem w tle. Futurystyczny* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *Prompt: Stwórz logo Bitcoin z London Bridge i Big Benem w tle. Futurystyczny*
 
 
 
@@ -714,7 +714,7 @@ Jeśli pierwsze cztery wyniki nie są wystarczająco realistyczne, doprecyzuj sw
 
 
 
-- [ ] *Prompt: Uczyń 4. znacznie bardziej realistycznym* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *Prompt: Uczyń 4. znacznie bardziej realistycznym*
 
 
 
@@ -732,7 +732,7 @@ Dla czystszego wyglądu, jak w przypadku naklejki:
 
 
 
-- [ ] *Prompt: Stwórz logo "London Bitcoin Meetup" w brytyjskim i czystym stylu* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Prompt: Stwórz logo "London Bitcoin Meetup" w brytyjskim i czystym stylu*
 
 
 
@@ -1392,7 +1392,7 @@ Obejmują one:
 
 
 - [Btcmap.org](https://btcmap.org/)**, strona internetowa z dwiema codziennie aktualizowanymi mapami: **[światowa mapa firm akceptujących Bitcoin](https://btcmap.org/map)** i **[światowa mapa społeczności](https://btcmap.org/communities/map)**. Wielu bitcoinerów regularnie sprawdza te mapy, niezależnie od tego, czy podróżują, czy prowadzą codzienne życie, aby poznać nowych ludzi lub znaleźć miejsca, w których mogą wydać swoje [Sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap jest globalnym punktem odniesienia, a umieszczenie tam swojej społeczności jest niezbędne dla widoczności**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), strona stworzona przez bitcoinerów, dla bitcoinerów. **Umożliwia ona publikowanie nadchodzących wydarzeń społeczności**. Jednak we Francji nadal nie jest ona powszechnie używana.
+- BitcoinerEvents, strona stworzona przez bitcoinerów, dla bitcoinerów. **Umożliwia ona publikowanie nadchodzących wydarzeń społeczności**. Jednak we Francji nadal nie jest ona powszechnie używana. **Uwaga (październik 2026):** ta strona jest niedostępna. [BitcoinOnly Events](https://bitcoinonly.events/) to podobny kalendarz, który nadal działa.
 - w zależności od kraju, mogą istnieć inne lokalne inicjatywy. We Francji, na przykład, istnieje strona [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), która co miesiąc **liczy dziesiątki wydarzeń Bitcoin**. Więc jeśli jeszcze nie śledziłeś ich na Twitterze lub nie skontaktowałeś się z nimi, aby podzielić się informacjami o swojej społeczności i wydarzeniach, teraz jest na to czas! **Aby pomóc w aktualizowaniu francuskiego kalendarza wydarzeń, byłoby wspaniale, gdyby wszystkie francuskie społeczności Bitcoin nabrały nawyku:**
     - wspominanie @bitcoinpointfr na Twitterze o każdym nowym wydarzeniu społecznościowym
     - przypinanie nowych ogłoszeń o wydarzeniach w swojej grupie Telegram.
@@ -1412,7 +1412,7 @@ Podobnie, **[Orangepillapp](https://www.orangepillapp.com/)** jest płatną apli
 
 Chociaż te dwie ostatnie platformy mogą pomóc zwiększyć widoczność, nie są zalecane przy uruchamianiu społeczności, po prostu dlatego, że nie są bezpłatne.
 
-**Zaczynając od wpisu na [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) i dla społeczności francuskich, na [Bitcoin.fr](https://Bitcoin.fr) jest więcej niż wystarczające**.
+**Zaczynając od wpisu na [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) i dla społeczności francuskich, na [Bitcoin.fr](https://Bitcoin.fr) jest więcej niż wystarczające**.
 
 
 Gratulacje! Twoja **społeczność jest stworzona**, **wizualizacje są gotowe**, **cele są ustalone**, **kanały komunikacji są na miejscu**, **sieci społecznościowe są uruchomione**, a **strategia widoczności jest ustalona**.

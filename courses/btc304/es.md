@@ -412,13 +412,13 @@ Recientemente han aparecido muchas otras herramientas de IA, por lo que esta lis
 
 Si quieres diseñar un logotipo futurista para una reunión de "Bitcoin Londres", puedes pedírselo a Copilot:
 
-- [ ] *Prompt: Crea un logotipo de Bitcoin con el Puente de Londres y el Big Ben de fondo. Futurista* - [Enlace](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *Prompt: Crea un logotipo de Bitcoin con el Puente de Londres y el Big Ben de fondo. Futurista*
 
 ![image](assets/es/014.webp)
 
 Si los cuatro primeros resultados no son suficientemente realistas, afina tu petición:
 
-- [ ] *Prompt: Hacer la 4ª mucho más realista* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *Prompt: Hacer la 4ª mucho más realista*
 
 ![image](assets/es/015.webp)
 
@@ -428,7 +428,7 @@ El último resultado ha sido estupendo
 
 Para un aspecto más limpio, como para una pegatina:
 
-- [ ] *Prompt: Crear el logo del "London Bitcoin Meetup" con un estilo británico y limpio* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Prompt: Crear el logo del "London Bitcoin Meetup" con un estilo británico y limpio*
 
 ![image](assets/es/016.webp)
 
@@ -832,7 +832,7 @@ Pero no puedes avanzar sin saber que **existen plataformas donde los bitcoiners 
 Entre ellas figuran:
 
 - [Btcmap.org](https://btcmap.org/)**, un sitio web con dos mapas actualizados diariamente: **[el mapa mundial de negocios que aceptan Bitcoin](https://btcmap.org/map)** y **[el mapa mundial de comunidades](https://btcmap.org/communities/map)**. Muchos bitcoiners consultan estos mapas con regularidad, tanto si viajan como si hacen su vida cotidiana, para conocer gente nueva o encontrar lugares donde gastar su [Sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap es la referencia mundial, y listar tu comunidad allí es esencial para la visibilidad.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), un sitio web creado por bitcoiners, para bitcoiners. **Te permite publicar los próximos eventos de tu comunidad**. En Francia, sin embargo, todavía no se utiliza mucho.
+- BitcoinerEvents, un sitio web creado por bitcoiners, para bitcoiners. **Te permite publicar los próximos eventos de tu comunidad**. En Francia, sin embargo, todavía no se utiliza mucho. **Nota (octubre de 2026):** este sitio está fuera de línea. [BitcoinOnly Events](https://bitcoinonly.events/) es un calendario equivalente que sigue en servicio.
 - Según el país, puede haber otras iniciativas locales. En Francia, por ejemplo, existe [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), que **enumera docenas de eventos de Bitcoin cada mes**. Así que si aún no les has seguido en Twitter o no te has puesto en contacto con ellos para compartir información sobre tu comunidad y eventos, ¡ahora es el momento! **Para ayudar a mantener actualizado el calendario francés de eventos, sería estupendo que todas las comunidades francesas de Bitcoin adquirieran el hábito de:**
     - Mencionar @bitcoinpointfr en Twitter para cada nuevo evento comunitario
     - Fijar nuevos anuncios de eventos en su grupo de Telegram.
@@ -847,7 +847,7 @@ Del mismo modo, **[Orangepillapp](https://www.orangepillapp.com/)** es una aplic
 
 Aunque estas dos últimas plataformas pueden ayudar a aumentar la visibilidad, no se recomiendan a la hora de lanzar una comunidad, simplemente porque no son gratuitas.
 
-**Empezar con un listado en [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) y para las comunidades francesas, en [Bitcoin.fr](https://Bitcoin.fr) es más que suficiente**.
+**Empezar con un listado en [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) y para las comunidades francesas, en [Bitcoin.fr](https://Bitcoin.fr) es más que suficiente**.
 
 ¡Enhorabuena! Tu **comunidad está creada**, tus **visuales están listos**, tus **objetivos fijados**, tus **canales de comunicación en marcha**, tus **redes sociales lanzadas** y tu **estrategia de visibilidad decidida**.
 

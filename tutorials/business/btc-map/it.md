@@ -14,7 +14,6 @@ Vai su [btcmap.org](https://btcmap.org/):
 
 L'app è disponibile:
 - Per iOS su [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
-- Per Android su [Play Store](https://play.google.com/store/apps/details?id=org.btcmap.app)
 - Su [F-Droid](https://f-droid.org/en/packages/org.btcmap/) il catalogo di app open-source per Android
 - Scaricando l'[apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) direttamente dal progetto Github
 - Tramite l'applicazione web dal browser (ciò che vedremo oggi).

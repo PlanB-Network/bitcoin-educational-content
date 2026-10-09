@@ -6,6 +6,8 @@ description: RoninDojo Bitcoinノードのインストールと使用方法。
 
 **警告: このチュートリアルはRoninDojo v1のインストールには引き続き使用できますが、ノードをRoninDojo v2にアップグレードすることはできません。したがって、このバージョンは機能していますが、もはや更新されていません。最新の改善と機能を利用するためには、Raspberry Pi上でのRoninDojo v2の直接インストールのための専用チュートリアルを参照することを強くお勧めします:** https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
+> **更新（2026年10月）：** RoninDojoはその後、独自のプラットフォーム（[git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)）でコードを再公開し、現在はバージョン3になっています。このチュートリアルは古いバージョンを説明しているため、一部のリンクやコマンドは動作しません。現在の手順については、公式ドキュメントを参照してください：[docs.ronindojo.io](https://docs.ronindojo.io/)
+
 ---
 
 自分自身のノードを運用し使用することは、Bitcoinネットワークに真に参加するために不可欠です。Bitcoinノードを運用することはユーザーに金銭的な利益をもたらしませんが、プライバシーを保護し、独立して行動し、ネットワークへの信頼を自分でコントロールすることを可能にします。
@@ -50,9 +52,11 @@ RoninDojoについての絵を描くことができたので、このノード�
 
 RoninDojoをホストして実行するマシンを選択するには、いくつかのオプションがあります。
 
-先に説明したように、最も簡単な選択肢は、この目的のために特別に設計されたプラグアンドプレイマシンであるTantoを注文することです。ご注文はこちらから：[リンク](https://shop.ronindojo.io/product-category/nodes/)。
+先に説明したように、最も簡単な選択肢は、この目的のために特別に設計されたプラグアンドプレイマシンであるTantoを注文することです。
 
-RoninDojoチームがオープンソースコードを生産しているため、他のマシンにRoninDojoを実装することも可能です。インストールウィザードの最新バージョンはこのページで見つけることができます：[リンク](https://ronindojo.io/downloads)、コードの最新バージョンはこのページで見つけることができます：[リンク](https://code.samourai.io/ronindojo/RoninDojo)。
+> **注記（2026年10月）：** RoninDojoはTantoの販売を終了したようで、オンラインショップも停止しています。対応ハードウェアの一覧を参照してください：[docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
+
+RoninDojoチームがオープンソースコードを生産しているため、他のマシンにRoninDojoを実装することも可能です。インストールウィザードの最新バージョンはこのページで見つけることができます：[リンク](https://ronindojo.io/downloads)、コードの最新バージョンはこのページで見つけることができます：[リンク](https://git.ronindojo.io/Ronin/monorepo)。
 
 個人的には、Raspberry Pi 4 8GBにインストールし、すべてが完璧に動作しています。
 
@@ -146,6 +150,8 @@ RoninOSの初期設定が完了します。上記のスクリーンショット�
 ![RoninOSへのSSH接続](assets/10.webp)
 
 これで、現在RoninOSのみがインストールされているマシンに接続されました。これからRoninDojoをインストールする必要があります。
+
+> **注記（2026年10月）：** 以下のコマンドは動作しません。SamouraiのGitLab（code.samourai.io）は2024年4月24日に押収されました。RoninDojoは現在、コードをこちらで公開しています：[git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)。現在のインストール手順については [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/) を参照してください。
 
 次のコマンドを入力して、RoninDojoの最新バージョンをダウンロードします：
 
@@ -649,7 +655,7 @@ RoninDojoについてもっと知りたい場合は、以下の外部リソー�
 - https://samouraiwallet.com/dojo
 - https://ronindojo.io/index.html
 - https://wiki.ronindojo.io/en/home
-- https://code.samourai.io/ronindojo/RoninDojo
+- https://git.ronindojo.io/Ronin/monorepo
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/boltzmannを紹介します-85930984a159
 - https://oxt.me/

@@ -415,7 +415,9 @@ Den stora fördelen med detta tillvägagångssätt, jämfört med en konventione
 
 
 
-De flesta portföljer som erbjuder denna typ av funktionalitet förlitar sig på [Boltz](https://boltz.exchange/) för den tekniska delen av swappen.
+De flesta portföljer som erbjuder denna typ av funktionalitet förlitar sig på Boltz för den tekniska delen av swappen.
+
+> **Obs (oktober 2026):** Boltz stoppade alla swappar den 3 augusti 2026 och webbplatsen är offline. Plånböcker som förlitar sig på Boltz erbjuder kanske inte längre denna funktion.
 
 
 

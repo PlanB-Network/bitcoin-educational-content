@@ -701,7 +701,7 @@ Son zamanlarda başka birçok yapay zeka aracı ortaya çıkmıştır, bu nedenl
 
 
 
-- [ ] *İstek: Arka planda Londra Köprüsü ve Big Ben ile bir Bitcoin logosu oluşturun. Fütüristik* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *İstek: Arka planda Londra Köprüsü ve Big Ben ile bir Bitcoin logosu oluşturun. Fütüristik*
 
 
 
@@ -714,7 +714,7 @@ Son zamanlarda başka birçok yapay zeka aracı ortaya çıkmıştır, bu nedenl
 
 
 
-- [ ] *İstek: Dördüncüyü çok daha gerçekçi yapın* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *İstek: Dördüncüyü çok daha gerçekçi yapın*
 
 
 
@@ -732,7 +732,7 @@ Daha temiz bir görünüm için, bir çıkartma gibi:
 
 
 
-- [ ] *İstek: İngiliz ve temiz bir stille "Londra Bitcoin Buluşması" logosunu oluşturun* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *İstek: İngiliz ve temiz bir stille "Londra Bitcoin Buluşması" logosunu oluşturun*
 
 
 
@@ -1392,7 +1392,7 @@ Bunlar şunları içerir:
 
 
 - [Btcmap.org](https://btcmap.org/)**, günlük olarak güncellenen iki haritaya sahip bir web sitesi: **[Bitcoin kabul eden işletmelerin dünya haritası](https://btcmap.org/map)** ve **[dünya toplulukları haritası](https://btcmap.org/communities/map)**. Birçok bitcoin kullanıcısı, seyahat ederken ya da günlük hayatlarına devam ederken, yeni insanlarla tanışmak ya da [Sats](https://planb.academy/resources/glossary/satoshi-sat)'lerini harcayacak yerler bulmak için bu haritaları düzenli olarak kontrol etmektedir. Btcmap küresel bir referanstır ve topluluğunuzu burada listelemek görünürlük için çok önemlidir.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), bitcoinciler tarafından bitcoinciler için oluşturulmuş bir web sitesi. **Topluluğunuzun yaklaşan etkinliklerini yayınlamanızı sağlar**. Ancak Fransa'da hala yaygın olarak kullanılmıyor.
+- BitcoinerEvents, bitcoinciler tarafından bitcoinciler için oluşturulmuş bir web sitesi. **Topluluğunuzun yaklaşan etkinliklerini yayınlamanızı sağlar**. Ancak Fransa'da hala yaygın olarak kullanılmıyor. **Not (Ekim 2026):** bu site artık erişilebilir değil. [BitcoinOnly Events](https://bitcoinonly.events/), hâlâ hizmet veren benzer bir etkinlik takvimidir.
 - ülkenize bağlı olarak, başka yerel girişimler de olabilir. Örneğin Fransa'da, her ay düzinelerce Bitcoin etkinliğini listeleyen [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/) var. Henüz onları Twitter'da takip etmediyseniz veya topluluğunuz ve etkinlikleriniz hakkında bilgi paylaşmak için onlarla iletişime geçmediyseniz, şimdi tam zamanı! **Fransız etkinlik takviminin güncel tutulmasına yardımcı olmak için, tüm Fransız Bitcoin topluluklarının aşağıdakileri alışkanlık haline getirmesi harika olacaktır:**
     - her yeni topluluk etkinliği için Twitter'da @bitcoinpointfr'den bahsetmek
     - telegram gruplarında yeni etkinlik duyurularını sabitlemek.
@@ -1412,7 +1412,7 @@ Benzer şekilde, **[Orangepillapp](https://www.orangepillapp.com/)** bitcoin kul
 
 Bu son iki platform görünürlüğü artırmaya yardımcı olsa da, ücretsiz olmadıkları için bir topluluk başlatırken önerilmezler.
 
-**btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) ve Fransız toplulukları için [Bitcoin.fr](https://Bitcoin.fr) adreslerinde bir listeleme ile başlamak fazlasıyla yeterlidir**.
+**btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) ve Fransız toplulukları için [Bitcoin.fr](https://Bitcoin.fr) adreslerinde bir listeleme ile başlamak fazlasıyla yeterlidir**.
 
 
 Tebrikler! Topluluğunuz oluşturuldu, **görselleriniz hazır**, **hedefleriniz belirlendi**, **iletişim kanallarınız yerinde**, **sosyal ağlarınız başlatıldı** ve **görünürlük stratejinize karar verildi**.

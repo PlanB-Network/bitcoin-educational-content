@@ -6,6 +6,8 @@ description: 在树莓派上安装您的RoninDojo v2比特币节点
 
 **警告：** 继Samourai Wallet创始人于4月24日被捕，其服务器被查封之后，RoninDojo的某些功能，如Whirlpool，已不再可用。然而，这些工具有可能在未来几周内重新启用或以不同方式重新推出。此外，由于RoninDojo的代码托管在同样被查封的Samourai的GitLab上，目前无法远程下载代码。RoninDojo团队很可能正在努力重新发布代码。*
 
+> **更新（2026年10月）：** 此后RoninDojo已在自己的平台（[git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)）上重新发布代码，目前为第3版。本教程介绍的是较旧的版本：其中部分链接和命令已无法使用。当前的操作步骤请参阅官方文档：[docs.ronindojo.io](https://docs.ronindojo.io/)
+
 _我们正在密切关注此案件的发展以及与之相关工具的发展情况。请放心，一旦有新信息，我们将更新本教程。_
 
 _本教程仅供教育和信息目的使用。我们不支持或鼓励使用这些工具进行犯罪活动。每个用户都有责任遵守其管辖区的法律。_
@@ -26,7 +28,10 @@ _本教程仅供教育和信息目的使用。我们不支持或鼓励使用这�
 ## 什么是RoninDojo？
 Dojo最初是一个基于比特币核心的完整比特币节点实现，由Samourai Wallet团队开发。这个解决方案可以安装在任何设备上。与其他核心实现不同，Dojo已经特别优化以与Samourai Wallet的Android应用环境集成。至于RoninDojo，它是一个旨在简化Dojo及各种其他补充工具的安装和管理的实用工具。简而言之，RoninDojo通过整合大量额外的工具，丰富了Dojo的基本实现，同时简化了其安装和管理。
 
-Ronin还提供了一个名为“*Tanto*”的节点盒解决方案，[一个由他们的团队组装的系统上已经安装了RoninDojo的设备](https://ronindojo.io/en/products)。Tanto是一个付费选项，对于那些希望避免技术复杂性的人来说可能很有趣。但由于RoninDojo的源代码是开放的，也可以在您自己的硬件上部署它。这种替代方案更经济，但仍然需要一些额外的操作，我们将在本教程中介绍。
+Ronin还提供了一个名为“*Tanto*”的节点盒解决方案，[一个由他们的团队组装的系统上已经安装了RoninDojo的设备](https://docs.ronindojo.io/hardware/tanto/)。Tanto是一个付费选项，对于那些希望避免技术复杂性的人来说可能很有趣。但由于RoninDojo的源代码是开放的，也可以在您自己的硬件上部署它。这种替代方案更经济，但仍然需要一些额外的操作，我们将在本教程中介绍。
+
+> **注（2026年10月）：** RoninDojo似乎已不再销售Tanto，其在线商店也已下线。请参阅兼容硬件列表：[docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
+
 RoninDojo 是一个道场，因此它允许轻松集成 Whirlpool CLI 到您的比特币节点中，以提供最佳的 coinjoin 体验。有了 Whirlpool CLI，就可以实现 24 小时全天候不间断地混合您的比特币，而无需让您的个人电脑保持开机状态。
 
 除了 Whirlpool CLI，RoninDojo 还包括多种工具来增强您的道场功能。其中，Boltzmann 计算器分析您的交易隐私级别，Electrum 服务器允许将您的比特币钱包连接到您的节点，而 Mempool 服务器则使您能够在本地查看您的交易，而不泄露信息。
@@ -39,6 +44,9 @@ RoninDojo 是一个道场，因此它允许轻松集成 Whirlpool CLI 到您的�
 
 ## 为安装 RoninDojo v2 选择什么硬件？
 RoninDojo 提供了一个用于在 [RockPro64](https://ronindojo.io/downloads) 上自动安装其软件的镜像。然而，我们的教程重点介绍在 Raspberry Pi 4 上的手动安装程序。尽管最近推出了 Raspberry Pi 5，而且这个教程理论上应该与这个新型号兼容，但我还没有机会亲自测试它，也没有从社区得到任何反馈。一旦我获得 Pi 5 和兼容的组件，我将更新这个教程以保持您的信息更新。与此同时，我建议优先选择 Pi 4，因为它完美地适用于我的节点。
+
+> **注（2026年10月）：** RoninDojo现在还为Rock5B+、Raspberry Pi 5和x86机器提供官方RoninOS镜像。
+
 就我个人而言，我在配备 8 GB RAM 的 Raspberry Pi 上运行 RoninDojo。尽管一些社区成员已经成功地在只有 4 GB RAM 的设备上运行它，但我自己没有测试过这种配置。考虑到价格差异不大，选择 8 GB RAM 版本似乎是明智的。如果您计划将来将您的 Raspberry Pi 用于其他用途，这也可能证明是有用的。
 需要注意的是，RoninDojo 团队报告了与机箱和 SSD 适配器相关的频繁问题。我自己也遇到了这些问题。**因此，强烈建议避免为您的节点的 SSD 使用配备 USB 线的机箱。**相反，应该选择专为您的 Raspberry Pi 设计的存储扩展卡：
 
@@ -182,6 +190,8 @@ RoninDojo 提供了一个用于在 [RockPro64](https://ronindojo.io/downloads) �
 `sudo apt update && sudo apt upgrade -y`
 更新完成后，使用以下命令安装 *Git* 和 *Dialog*：`sudo apt install git dialog -y`
 
+> **注（2026年10月）：** 下面的命令已无法使用：Samourai的GitLab（code.samourai.io）已于2024年4月24日被查封。RoninDojo现在将代码托管在这里：[git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)。当前的安装步骤请参阅 [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
+
 接下来，通过执行以下命令克隆 _RoninOS_ Git仓库的 `master` 分支：
 `sudo git clone --branch master https://code.samourai.io/ronindojo/RoninOS.git /opt/RoninOS`
 
@@ -292,7 +302,9 @@ RoninDojo 提供了一个用于在 [RockPro64](https://ronindojo.io/downloads) �
 要将您的Samourai Wallet链接到您的Dojo，只需在应用安装期间扫描此QR码：
 
 ![Samourai Wallet connection](assets/notext/36.webp)
-如果您在设置Ronin Dojo之前已经拥有了Samourai Wallet，那么在恢复您的钱包之前，有必要备份您的钱包，卸载然后重新安装Samourai Wallet应用。重新安装应用后，您将有选项连接到新的Dojo。**请小心，如果操作不正确，这个过程有丢失比特币的风险！**确保您已经将Samourai钱包的备份保存在您的文件中，并通过`设置 > 故障排除 > 密码短语`验证您的密码短语的有效性。同时，拥有恢复短语和密码短语的可读备份也很重要。为了这个操作更精确，建议跟随这个详细教程：[https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai)。
+如果您在设置Ronin Dojo之前已经拥有了Samourai Wallet，那么在恢复您的钱包之前，有必要备份您的钱包，卸载然后重新安装Samourai Wallet应用。重新安装应用后，您将有选项连接到新的Dojo。**请小心，如果操作不正确，这个过程有丢失比特币的风险！**确保您已经将Samourai钱包的备份保存在您的文件中，并通过`设置 > 故障排除 > 密码短语`验证您的密码短语的有效性。同时，拥有恢复短语和密码短语的可读备份也很重要。为了这个操作更精确，建议跟随这个详细教程：[https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai)。
+
+> **警告（2026年10月）：** Samourai Wallet已不复存在：其服务器于2024年4月24日被查封，创始人被捕。上面的链接指向该指南的存档副本。RoninDojo现在提供Ashigaru（Samourai Wallet的分叉）的文档：[docs.ronindojo.io/guides-wallet/ashigaru](https://docs.ronindojo.io/guides-wallet/ashigaru/)
 
 ### 使用您自己的Mempool.space区块浏览器
 区块浏览器将比特币区块链的原始信息转换成结构化且易于阅读的格式。使用像*Mempool.space*这样的工具，可以分析交易，搜索特定地址，甚至实时查询网络的mempool的平均费率。

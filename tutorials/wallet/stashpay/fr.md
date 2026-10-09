@@ -5,6 +5,8 @@ description: Le portefeuille Bitcoin minimaliste pour tous
 
 ![cover](assets/cover.webp)
 
+> **Avertissement (octobre 2026) :** StashPay est arrêté. Son auteur a annoncé la fin le 26 juillet 2026 et l'application a fermé le 31 août 2026 ; le site web est hors ligne ([lire l'annonce](https://blog.onionmill.com/p/sunsetting-stashpay)). Pour retrouver votre portefeuille Liquid, importez votre phrase de récupération dans Blockstream App. Nous conservons cette page pour référence.
+
 L'expérience utilisateur est un facteur déterminant dans l'adoption des solutions Bitcoin tout autour du globe. Proposer une expérience fluide, simple et sans contraintes techniques est la priorité de nombreux portefeuilles et plateformes d'échange. Dans ce sens, StashPay se démarque par son approche très minimaliste tout en montrant la puissance du Lightning Network.
 
 Dans ce tutoriel, nous partons à la découverte de ce portefeuille afin de découvrir comment il fonctionne et comment il est idéal pour les petits commerces ou les solopreneurs.
@@ -13,7 +15,7 @@ Dans ce tutoriel, nous partons à la découverte de ce portefeuille afin de déc
 
 StashPay est un portefeuille self-custodial Lightning reconnu principalement pour son expérience utilisateur minimaliste centrée sur l'utilisateur.  Avec ce portefeuille, vous n'avez pas besoin de connaissances techniques pour recevoir et envoyer vos premiers satoshis.
 
-StashPay est un projet open-source développé en React Native et vise à résoudre le problème des frais de transactions élevés même avec les transactions sur la chaîne principale du protocole Bitcoin. Il est disponible en application mobile sur les plateformes Android et iOS via les liens de téléchargement présents sur le [site web](https://stashpay.me/).
+StashPay est un projet open-source développé en React Native et vise à résoudre le problème des frais de transactions élevés même avec les transactions sur la chaîne principale du protocole Bitcoin. Il est disponible en application mobile sur les plateformes Android et iOS via les liens de téléchargement présents sur le site web.
 
 ![introduce](assets/fr/01.webp)
 

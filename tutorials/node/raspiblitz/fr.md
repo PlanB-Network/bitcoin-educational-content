@@ -15,7 +15,7 @@ RASPIBLITZ - Comment exécuter un nœud Lightning et Bitcoin Full Node par BTC s
 
 ## Guide d'installation de Raspiblitz de Parman
 
-Le Raspiblitz est un excellent système pour exécuter un nœud Bitcoin et des applications associées. Je recommande celui-ci ainsi que le nœud MyNode à la plupart des utilisateurs (idéalement avoir deux nœuds pour la redondance). Un avantage majeur est que le nœud Raspiblitz est un « Free Open Source Software », contrairement à MyNode ou Umbrel. [Pourquoi est-ce important ? Vlad Costa l’explique.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Vous pouvez également exécuter le Raspiblitz avec une connexion WiFi plutôt qu’ethernet – voici un [guide complémentaire](https://armantheparman.com/headless-wifi/) pour cela. (Je n’ai pas trouvé de moyen de le faire avec MyNode).
+Le Raspiblitz est un excellent système pour exécuter un nœud Bitcoin et des applications associées. Je recommande celui-ci ainsi que le nœud MyNode à la plupart des utilisateurs (idéalement avoir deux nœuds pour la redondance). Un avantage majeur est que le nœud Raspiblitz est un « Free Open Source Software », contrairement à MyNode ou Umbrel. [Pourquoi est-ce important ? Vlad Costea l’explique.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Vous pouvez également exécuter le Raspiblitz avec une connexion WiFi plutôt qu’ethernet – voici un [guide complémentaire](https://armantheparman.com/headless-wifi/) pour cela. (Je n’ai pas trouvé de moyen de le faire avec MyNode).
 
 Vous pouvez acheter un nœud préfabriqué avec un écran miniaturisé intégré, ou vous pouvez le construire vous-même (vous n'avez pas besoin d'un écran).
 
@@ -65,7 +65,7 @@ Avant de continuer, si vous ne connaissez pas le système de fichiers en ligne d
 Voici une [vidéo utile pour Linux, mais qui s’applique aussi à Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Pour Windows, voici un [tutoriel simple](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
-_MISE À JOUR : la vérification pgp/gpg est désormais disponible. Vous aurez besoin de la clé publique d’Openoms. [La voici](http://parman.org/downloadable/openoms.txt) (il se peut que vous ayez besoin du mode navigation privée pour que le lien fonctionne – http, pas https)_
+_MISE À JOUR : la vérification pgp/gpg est désormais disponible. Les images RaspiBlitz actuelles sont signées par rootzoll, et non par Openoms (empreinte de la clé : 92A746AE33A3C186D014BF5C1C73060C7C176461). La [FAQ officielle](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download) donne la clé et la commande `gpg --verify`._
 Mac/Linux
 
 Attendez que le téléchargement du fichier soit terminé (important!), puis ouvrez le terminal, accédez à l'endroit où vous avez téléchargé le fichier et tapez la commande suivante...

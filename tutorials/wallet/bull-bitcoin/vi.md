@@ -106,7 +106,7 @@ Trước khi đi sâu hơn, hãy cùng xem qua "Màn hình chính" để làm qu
 - Truy cập `Bitcoin Bull Exchange` để `Mua, Bán hoặc Thanh toán` (tùy thuộc vào khu vực pháp lý và có thể yêu cầu xác minh danh tính khách hàng).
 - Chuyển tiền giữa các ví
 - `Secure Bitcoin` tương đương với Onchain Bitcoin Wallet
-- Thanh toán tức thì qua Lightning- / Liquid Network *(Lưu ý: Bull Bitcoin Wallet cho phép thực hiện và nhận thanh toán qua Lightning. Tiền nhận được qua Lightning được lưu trữ trên mạng [*Liquid](https://liquid.net/) (trong Wallet Thanh toán tức thì) nhờ vào việc hoán đổi tự động qua sàn giao dịch [*Boltz](https://boltz.exchange/). Điều này cho phép bạn tương tác với Lightning mà không cần phải quản lý các kênh thanh khoản, đồng thời vẫn tự quản lý tài sản của mình.)*
+- Thanh toán tức thì qua Lightning- / Liquid Network *(Lưu ý: Bull Bitcoin Wallet cho phép thực hiện và nhận thanh toán qua Lightning. Tiền nhận được qua Lightning được lưu trữ trên mạng [*Liquid](https://liquid.net/) (trong Wallet Thanh toán tức thì) nhờ vào việc hoán đổi tự động qua sàn giao dịch Boltz. Điều này cho phép bạn tương tác với Lightning mà không cần phải quản lý các kênh thanh khoản, đồng thời vẫn tự quản lý tài sản của mình.)*
 - Gửi và nhận tiền
 
 
@@ -418,6 +418,8 @@ liquidnetwork:lq1qqdhgs7w537nun55a5sdy4gxkd08pclk3d7v4qz36sy4xp0cq6gvl52fcfv7kdg
 
 
 
+> **Lưu ý (tháng 10 năm 2026):** Boltz đã tạm ngừng mọi giao dịch swap vào ngày 3 tháng 8 năm 2026 và trang web của họ không còn truy cập được. Các khoản thanh toán Lightning của Bull Bitcoin Wallet dựa vào Boltz và có thể không còn hoạt động.
+
 Bull Bitcoin Wallet cũng cho phép bạn gửi và nhận thanh toán thông qua Lightning Network. Một tính năng quan trọng là tiền nhận được qua Lightning sẽ tự động được hoán đổi và lưu trữ trên `Liquid Network` trong `Thanh toán tức thì Wallet` của bạn. Dịch vụ này được hỗ trợ bởi `Boltz`. Thiết kế này cho phép bạn tận hưởng tốc độ và chi phí thấp của Lightning mà không cần phải quản lý các kênh thanh khoản phức tạp, đồng thời vẫn duy trì quyền tự quản hoàn toàn đối với tiền của mình. Mặc dù phương pháp lai này mang tính tự quản và tránh được sự phức tạp trong việc quản lý các kênh, nhưng nó lại giới thiệu một dịch vụ của bên thứ ba (Boltz), một khoản phí hoán đổi nhỏ và sự phụ thuộc vào liên kết các chức năng của Liquid Network với tư cách là người giữ khóa, điều này khác với Lightning wallet truyền thống, không tự quản lý tiền của bạn. Bạn có thể tìm hiểu thêm về Liquid và mô hình quản trị của nó tại đây:
 
 
@@ -508,6 +510,8 @@ Bạn có thể quét mã Lightning Address (ví dụ: `runningbitcoin@rizful.co
 
 *Lưu ý rằng có áp dụng mức phí và số tiền tối thiểu.*
 
+
+> **Lưu ý (tháng 10 năm 2026):** Boltz đã tạm ngừng mọi giao dịch swap vào ngày 3 tháng 8 năm 2026 và trang web của họ không còn truy cập được. Các khoản thanh toán Lightning của Bull Bitcoin Wallet dựa vào Boltz và có thể không còn hoạt động.
 
 Bull Bitcoin Wallet gửi các khoản thanh toán Lightning bằng cách rút tiền từ `Thanh toán tức thì Wallet` của bạn (trên Liquid) và hoán đổi chúng thông qua `Boltz`. Phương pháp kết hợp này hoàn toàn tự quản lý và tránh được các khoản phí cao của on-chain khi quản lý một kênh Lightning chuyên dụng, nhưng nó yêu cầu phải trả `phí hoán đổi`. Để có chi phí thấp nhất, hãy gửi trực tiếp đến địa chỉ Liquid của người nhận nếu họ cũng sử dụng Bull Bitcoin hoặc wallet.
 

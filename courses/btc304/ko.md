@@ -701,7 +701,7 @@ Canva는 로고, 포스터, 배너, 전단지를 제작할 수 있는 다양한 
 
 
 
-- [ ] * 프롬프트: 런던 브리지와 빅벤을 배경으로 Bitcoin 로고를 만듭니다. 미래형* - [링크](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] * 프롬프트: 런던 브리지와 빅벤을 배경으로 Bitcoin 로고를 만듭니다. 미래형*
 
 
 
@@ -714,7 +714,7 @@ Canva는 로고, 포스터, 배너, 전단지를 제작할 수 있는 다양한 
 
 
 
-- [ ] *프롬프트: 4번째를 훨씬 더 현실적으로 만드세요* - [링크](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *프롬프트: 4번째를 훨씬 더 현실적으로 만드세요*
 
 
 
@@ -732,7 +732,7 @@ Canva는 로고, 포스터, 배너, 전단지를 제작할 수 있는 다양한 
 
 
 
-- [ ] *프롬프트: 영국풍의 깔끔한 스타일*로 '런던 Bitcoin 밋업' 로고 제작 - [링크](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *프롬프트: 영국풍의 깔끔한 스타일*로 '런던 Bitcoin 밋업' 로고 제작
 
 
 
@@ -1392,7 +1392,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 
 
 - 매일 두 개의 지도가 업데이트되는 웹사이트인 [Btcmap.org](https://btcmap.org/): **[Bitcoin을 받는 세계 사업체 지도](https://btcmap.org/map)**와 **[세계 커뮤니티 지도](https://btcmap.org/communities/map)**입니다. 많은 비트코인이 여행 중이거나 일상생활을 하면서 새로운 사람을 만나거나 [Sats](https://planb.academy/resources/glossary/satoshi-sat)을 사용할 장소를 찾기 위해 이 지도를 정기적으로 확인합니다. 비트코인맵은 전 세계적으로 참고할 수 있는 지도이며, 여기에 여러분의 커뮤니티를 등록하는 것은 가시성을 위해 필수적입니다
-- 비트코이너에 의해, 비트코이너를 위해 만들어진 웹사이트인 [비트코이너이벤트](https://www.bitcoinerevents.com/). **커뮤니티의 예정된 이벤트를 게시할 수 있습니다**. 그러나 프랑스에서는 아직 널리 사용되지는 않습니다.
+- 비트코이너에 의해, 비트코이너를 위해 만들어진 웹사이트인 비트코이너이벤트. **커뮤니티의 예정된 이벤트를 게시할 수 있습니다**. 그러나 프랑스에서는 아직 널리 사용되지는 않습니다. **참고(2026년 10월):** 이 사이트는 현재 접속할 수 없습니다. [BitcoinOnly Events](https://bitcoinonly.events/)는 현재도 운영 중인 유사한 이벤트 캘린더입니다.
 - 국가에 따라 다른 지역 이니셔티브가 있을 수 있습니다. 예를 들어, 프랑스에는 [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/)이 있는데, 매달 수십 개의 Bitcoin 이벤트가 열립니다**. 아직 트위터에서 팔로우하거나 연락하여 커뮤니티와 이벤트에 대한 정보를 공유하지 않으셨다면 지금이 바로 그 때입니다! **프랑스 이벤트 캘린더를 최신 상태로 유지하기 위해 모든 프랑스 Bitcoin 커뮤니티가 다음과 같은 습관을 들이면 좋을 것 같습니다
     - 새로운 커뮤니티 이벤트가 있을 때마다 트위터에서 @bitcoinpointfr을 멘션하기
     - 텔레그램 그룹에 새로운 이벤트 공지를 고정합니다.
@@ -1412,7 +1412,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 
 이 두 플랫폼은 가시성을 높이는 데 도움이 될 수 있지만, 무료가 아니기 때문에 커뮤니티를 시작할 때는 권장하지 않습니다.
 
-**btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/), 프랑스 커뮤니티의 경우 [Bitcoin.fr](https://Bitcoin.fr)에 등록하는 것만으로도 충분합니다**.
+**btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/), 프랑스 커뮤니티의 경우 [Bitcoin.fr](https://Bitcoin.fr)에 등록하는 것만으로도 충분합니다**.
 
 
 축하합니다! 커뮤니티가 만들어지고, **비주얼이 준비되고, **목표가 설정되고, **커뮤니케이션 채널이 마련되고, **소셜 네트워크가 시작되고, **비상시성 전략이 결정되었습니다**.

@@ -566,6 +566,8 @@ Bleskové satelity jsou okamžitě k dispozici v wallet.
 
 ## SwapMarket vs Boltz: Jaký je mezi nimi rozdíl?
 
+> **Poznámka (říjen 2026):** Boltz Exchange pozastavil všechny swapy 3. srpna 2026 a jeho web je mimo provoz. Tento poskytovatel již nemusí být na SwapMarketu dostupný.
+
 
 
 ### Boltz: Technologie vs. služby
@@ -649,5 +651,5 @@ Konkurence mezi poskytovateli zvyšuje sazby a rozšiřuje zdroje likvidity. Pro
 
 
 
-- [Boltz Exchange](https://boltz.exchange) - Původní služba výměny atomů
+- Boltz Exchange - Původní služba výměny atomů
 - [ZEUS Swaps](https://zeusln.com) - Poskytovatel bleskových swapů

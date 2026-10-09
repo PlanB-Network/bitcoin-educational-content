@@ -116,7 +116,7 @@ Je kunt ook een video vinden op de [dockerised Setup op een VPS met PostgreSQ, L
 [Meer installatiescenario's hier](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
 
-Raadpleeg voor bundelsoftware nodes hun specifieke documentatie over LNbits: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+Raadpleeg voor bundelsoftware nodes hun specifieke documentatie over LNbits: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
 ### LNbits SaaS
@@ -207,12 +207,14 @@ Om je macaron te versleutelen, voer je `./venv/bin/python lnbits/wallets/macaroo
 
 #### Bliksem TipBot
 
+> **Waarschuwing (oktober 2026):** LightningTipBot en ln.tips zijn gestopt; de sluiting werd aangekondigd op 29 april 2024. Deze financieringsbron werkt niet meer, tenzij je je eigen bot host.
+
 
 Om je [Lightning Tipbot](https://t.me/LightningTipBot) vanuit Telegram te verbinden, moet je de volgende parameter instellen:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://LN.tips
+  - `LNBITS_ENDPOINT`: `https://LN.tips`
   - `LNBITS_KEY`: Om de sleutel te krijgen moet je eenmaal /api uitvoeren in een privéchat met de LightningTipbot op Telegram.
 
 
@@ -229,11 +231,13 @@ Voor meer informatie zie [IBEX API-Documentatie](https://ibexpay-api.readme.io/r
 
 #### LNPay
 
-Om de Invoice listener te laten werken heb je een publiek toegankelijke URL in je LNbits en moet je een [LNPay webhook](https://dashboard.lnpay.co/webhook/) instellen die wijst naar `<je LNbits host>/Wallet/webhook` met de "Wallet ontvangen" gebeurtenis en geen geheim gegeven. De instelling `https://mylnbits/Wallet/webhook` zal de endpoint url zijn die op de hoogte wordt gebracht van een betaling.
+> **Waarschuwing (oktober 2026):** LNPay lijkt te zijn stopgezet: het domein lnpay.co reageert niet meer. Deze financieringsbron is waarschijnlijk niet meer bruikbaar.
+
+Om de Invoice listener te laten werken heb je een publiek toegankelijke URL in je LNbits en moet je een LNPay webhook instellen die wijst naar `<je LNbits host>/Wallet/webhook` met de "Wallet ontvangen" gebeurtenis en geen geheim gegeven. De instelling `https://mylnbits/Wallet/webhook` zal de endpoint url zijn die op de hoogte wordt gebracht van een betaling.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -537,7 +541,9 @@ Er zijn twee manieren om Exchange Sats van onchain BTC naar LN BTC (resp. naar L
 ###### Via een externe swapservice.
 
 
-Andere gebruikers die geen toegang hebben tot jouw LNb its kunnen een swap service gebruiken zoals [Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) of [ZigZag](https://zigzag.io/). Dit is handig als je alleen LNURL/LN facturen verstrekt vanuit je LNbits instantie, maar een betaler heeft alleen onchain Sats, dus ze zullen die Sats eerst aan hun kant moeten omwisselen. De procedure is eenvoudig: gebruiker stuurt onchain btc naar de swap service en geeft de LNURL / LN Invoice van LNbits als bestemming van de swap.
+Andere gebruikers die geen toegang hebben tot jouw LNb its kunnen een swap service gebruiken zoals Boltz, [FixedFloat](https://fixedfloat.com/) of [ZigZag](https://zigzag.io/). Dit is handig als je alleen LNURL/LN facturen verstrekt vanuit je LNbits instantie, maar een betaler heeft alleen onchain Sats, dus ze zullen die Sats eerst aan hun kant moeten omwisselen. De procedure is eenvoudig: gebruiker stuurt onchain btc naar de swap service en geeft de LNURL / LN Invoice van LNbits als bestemming van de swap.
+
+> **Waarschuwing (oktober 2026):** Boltz heeft op 3 augustus 2026 alle swaps opgeschort nadat meerdere kwetsbaarheden waren misbruikt, en de website is offline. Boltz en de Boltz-extensie van LNbits zijn op dit moment niet te gebruiken.
 
 
 ###### Gebruik van de Onchain en Boltz LNbits uitbreiding.

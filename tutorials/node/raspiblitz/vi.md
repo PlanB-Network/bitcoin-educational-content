@@ -14,7 +14,7 @@ RASPIBLITZ - Cách Chạy Một Node Lightning và Bitcoin Full Node bởi BTC s
 
 ## Hướng dẫn Thiết lập Raspiblitz của Parman
 
-Raspiblitz là một hệ thống tuyệt vời để chạy một Nút Bitcoin và các ứng dụng liên quan. Tôi khuyên dùng hệ thống này và nút MyNode cho hầu hết người dùng (lý tưởng là nên có hai nút để dự phòng). Một lợi thế lớn là nút Raspiblitz là “Free Open Source Software”, không giống như MyNode hay Umbrel. [Tại sao điều đó quan trọng? Vlad Costa giải thích.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Bạn cũng có thể chạy Raspiblitz bằng kết nối WiFi thay vì ethernet – đây là [hướng dẫn bổ sung](https://armantheparman.com/headless-wifi/) cho việc đó. (Tôi chưa tìm ra cách làm điều này với MyNode).
+Raspiblitz là một hệ thống tuyệt vời để chạy một Nút Bitcoin và các ứng dụng liên quan. Tôi khuyên dùng hệ thống này và nút MyNode cho hầu hết người dùng (lý tưởng là nên có hai nút để dự phòng). Một lợi thế lớn là nút Raspiblitz là “Free Open Source Software”, không giống như MyNode hay Umbrel. [Tại sao điều đó quan trọng? Vlad Costea giải thích.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Bạn cũng có thể chạy Raspiblitz bằng kết nối WiFi thay vì ethernet – đây là [hướng dẫn bổ sung](https://armantheparman.com/headless-wifi/) cho việc đó. (Tôi chưa tìm ra cách làm điều này với MyNode).
 
 Bạn có thể mua một node đã được làm sẵn với một màn hình mini gắn kèm, hoặc bạn có thể tự xây dựng nó (bạn không cần màn hình).
 
@@ -63,7 +63,7 @@ Trước khi tiếp tục, nếu bạn không biết cách sử dụng hệ th�
 Đây là [một video hữu ích cho Linux, nhưng cũng áp dụng cho Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Đối với Windows, đây là một [hướng dẫn đơn giản](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
-_CẬP NHẬT: Xác minh pgp/gpg hiện đã khả dụng. Bạn sẽ cần khóa công khai của Openoms. [Đây](http://parman.org/downloadable/openoms.txt) là nó (bạn có thể cần chế độ ẩn danh để liên kết hoạt động – http, không phải https)_
+_CẬP NHẬT: Xác minh pgp/gpg hiện đã khả dụng. Các image RaspiBlitz hiện tại do rootzoll ký, không phải Openoms (dấu vân tay của khóa: 92A746AE33A3C186D014BF5C1C73060C7C176461). [FAQ chính thức](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download) cung cấp khóa và lệnh `gpg --verify`._
 Mac/Linux
 
 Chờ tệp tải xuống hoàn tất (quimportant!), sau đó mở terminal, điều hướng đến nơi bạn đã tải tệp xuống, và gõ lệnh sau...

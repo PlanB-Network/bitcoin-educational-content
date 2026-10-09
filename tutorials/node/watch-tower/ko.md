@@ -519,13 +519,7 @@ Interface의 오른쪽 상단에 있는 작은 점 3개를 클릭한 다음 '**�
 
 
 
-온라인에서 사용할 수 있는 여러 감시탑이 있습니다. 예를 들어, [LN+와 Voltage는 이타적인 Watchtower](https://lightningnetwork.plus/Watchtower)에 연결할 수 있는 망루를 제공합니다:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+온라인에서 사용할 수 있는 여러 감시탑이 있습니다. LN+와 Voltage는 이전에 이타적인 Watchtower를 제공했지만, 지금은 이용할 수 없습니다(2026년 10월). 현재 LN+는 두 노드 운영자가 서로의 채널을 감시하는 [Watch Swaps](https://lightningnetwork.plus/watch_swaps)를 제공하며, [이타적인 Watchtower 안내서](https://lightningnetwork.plus/posts/12)도 게시하고 있습니다.
 
 
 

@@ -701,7 +701,7 @@ Bitcoin 是去中心化的，因此任何人自然都可以随心所欲。
 
 
 
-- [ ] *提示：创建一个以伦敦桥和大本钟为背景的 Bitcoin 徽标。未来派* - [链接](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *提示：创建一个以伦敦桥和大本钟为背景的 Bitcoin 徽标。未来派*
 
 
 
@@ -714,7 +714,7 @@ Bitcoin 是去中心化的，因此任何人自然都可以随心所欲。
 
 
 
-- [ ] *提示：让第四个更真实* - [链接](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *提示：让第四个更真实*
 
 
 
@@ -732,7 +732,7 @@ Bitcoin 是去中心化的，因此任何人自然都可以随心所欲。
 
 
 
-- [ ] *提示：创建具有英式简洁风格的 "伦敦 Bitcoin Meetup "徽标* - [链接](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *提示：创建具有英式简洁风格的 "伦敦 Bitcoin Meetup "徽标*
 
 
 
@@ -1392,7 +1392,7 @@ Twitter 非常容易使用，要改善隐私，你需要调整一些设置。
 
 
 - [Btcmap.org](https://btcmap.org/)**，这是一个每天更新两张地图的网站： **[接受 Bitcoin 的企业世界地图](https://btcmap.org/map)** 和**[世界社区地图](https://btcmap.org/communities/map)**。许多比特币使用者都会定期查看这些地图，无论是旅行还是日常生活，以便结识新朋友或找到[Sats](https://planb.academy/resources/glossary/satoshi-sat)的消费场所。Btcmap 是全球参考地图，在这里列出你的社区对提高知名度至关重要**。
-- [BitcoinerEvents](https://www.bitcoinerevents.com/)，一个由比特币玩家为比特币玩家创建的网站。 **它可以让你发布你的社区即将举行的活动**。不过，在法国，这个网站还没有被广泛使用。
+- BitcoinerEvents，一个由比特币玩家为比特币玩家创建的网站。 **它可以让你发布你的社区即将举行的活动**。不过，在法国，这个网站还没有被广泛使用。 **注（2026年10月）：** 该网站目前已无法访问。[BitcoinOnly Events](https://bitcoinonly.events/) 是一个仍在运行的同类活动日历。
 - 根据您所在的国家，当地可能还有其他活动。例如，法国有一个 [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/)，每月**列出数十个 Bitcoin 活动**。因此，如果您还没有在 Twitter 上关注他们或联系他们，分享有关您所在社区和活动的信息，现在正是时候！**为了帮助更新法国的活动日历，如果所有法国的 Bitcoin 社区都能养成以下习惯，那将会非常棒：**
     - 在 Twitter 上提及 @bitcoinpointfr 的每个新社区活动
     - 在 Telegram 群组中钉入新活动公告。
@@ -1412,7 +1412,7 @@ Twitter 非常容易使用，要改善隐私，你需要调整一些设置。
 
 虽然后两个平台有助于提高知名度，但在创建社区时并不推荐使用，因为它们不是免费的。
 
-**首先在 [btcmap.org](https://btcmap.org/)、[BitcoinerEvents](https://www.bitcoinerevents.com/) 以及法国社区的 [Bitcoin.fr](https://Bitcoin.fr) 上列出列表就足够了**。
+**首先在 [btcmap.org](https://btcmap.org/)、[BitcoinOnly Events](https://bitcoinonly.events/) 以及法国社区的 [Bitcoin.fr](https://Bitcoin.fr) 上列出列表就足够了**。
 
 
 恭喜您！您的**社区已经创建**，您的**视觉效果已经准备**，您的**目标已经设定**，您的**沟通渠道已经就位**，您的**社交网络已经启动**，您的**知名度战略已经决定**。

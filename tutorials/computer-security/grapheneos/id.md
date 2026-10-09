@@ -410,7 +410,6 @@ GrapheneOS adalah sebuah "lubang kelinci" (rabbit hole) yang bisa dengan mudah m
 - [Panduan Penggunaan Resmi GrapheneOS](https://grapheneos.org/usage) - Situs Web Resmi
 - [Forum GrapheneOS](https://discuss.grapheneos.org/) - Situs Web Resmi
 - [Kelas Master Pengaturan GrapheneOS](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video oleh 'The Privacy Wayfinder'
-- [Podcast Umum GrapheneOS](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast oleh 'Watchman Privacy'
 
 *Tutorial ini merupakan adaptasi dari konten asli yang diterbitkan oleh [BitcoinQnA di Bitcoiner.Guide di bawah lisensi MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), yang sepenuhnya berhak atas penghargaan untuk penulisan awal.*
 

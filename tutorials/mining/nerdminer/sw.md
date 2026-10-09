@@ -19,7 +19,7 @@ Kabla ya kupitia hatua tofauti, hebu tuorodhe vifaa muhimu vya kuifanya:
 
 - a [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - a [USB-C power Supply](https://amzn.eu/d/gIOot90)
-- kipochi cha 3D: ikiwa una kichapishi cha 3D, unaweza kupakua [faili ya 3D](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) vinginevyo unaweza kuinunua kwenye [Duka la mtandaoni la Silexperience](https://silexperience.company.4747/29/NerdMiner57/29/NerdMiner577).
+- kipochi cha 3D: ikiwa una kichapishi cha 3D, unaweza kupakua [faili ya 3D](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) vinginevyo unaweza kuinunua kwenye [Duka la mtandaoni la Bitronics](https://bitronics.store/).
 - Kompyuta iliyo na Kivinjari cha Chrome kilichosakinishwa
 - muunganisho wa mtandao
 - Bitcoin Address
@@ -95,7 +95,6 @@ Kwa NerdMiners, unaweza kuchagua kuunganisha kwenye moja ya mabwawa haya:
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Default Solo and open-source mining pool |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Maintained by CHMEX                      |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Maintained by djerfy                     |
 
 Mara tu unapochagua bwawa lako la kuogelea, unahitaji kuingiza Bitcoin Address yako ili kupokea zawadi endapo (kipekee) kizuizi kitapatikana.
 
@@ -191,4 +190,4 @@ Hapa kuna baadhi ya viungo kama unataka kusoma zaidi kuhusu somo:
 
 
 - [Ukurasa wa mradi wa NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Kamilisha hati za NerdMiners](https://bitwater.ch/nerd-miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

@@ -3,8 +3,10 @@ name: Boltz
 description: Réalisez des swaps entre les différentes couches de Bitcoin tout en gardant le contrôle.
 ---
 
-
 ![cover](assets/cover.webp)
+
+> **Avertissement (octobre 2026) :** Boltz a suspendu tous ses swaps le 3 août 2026 après l'exploitation de plusieurs failles, et son site est hors ligne. Les liens et les étapes de ce tutoriel ne fonctionnent plus. Nous conservons cette page pour référence jusqu'à sa mise à jour.
+
  
 Depuis son déploiement en 2009, le système de cash électronique pair-à-pair de Bitcoin a connu une croissance exponentielle donnant vie à des solutions qui lui permettent aujourd'hui d'être un système que nous pouvons utiliser instantanément dans nos actions quotidiennes notamment au travers du Lightning Network.
 
@@ -12,7 +14,7 @@ Cependant, un problème majeur subsiste entre les couches du protocole Bitcoin :
  
 ## Qu'est-ce que Boltz ?
  
-[Boltz](https://boltz.exchange) est une plateforme non-custodial idéale pour toute personne qui souhaite faire des transactions entre les différentes couches du protocole Bitcoin :
+Boltz est une plateforme non-custodial idéale pour toute personne qui souhaite faire des transactions entre les différentes couches du protocole Bitcoin :
 - **On Chain** : la chaîne principale de Bitcoin où les transactions sont confirmées toutes les 10 minutes en moyenne, les frais de transaction sont souvent élevés, ce qui ne répond pas nécessairement aux besoins des utilisateurs ;
 - **Lightning Network** : la surcouche de Bitcoin permettant d'effectuer des paiements instantanés à des frais bas permettant d'utiliser le bitcoin pour les paiements quotidiens ;
 - **Liquid Network** : une surcouche de Bitcoin créée par Blockstream permettant de faire des transactions rapides, confidentielles et aussi d'utiliser d'autres instruments financiers sur la base de Bitcoin ;

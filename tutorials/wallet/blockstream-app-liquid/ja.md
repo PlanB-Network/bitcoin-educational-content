@@ -408,7 +408,9 @@ Liquid-ビットコイン（L-BTC）を受け取るには、いくつかの方�
 
 
 
-あるいは、Exchangeであなたのビットコインをオンチェーン、または[Boltzのようなブリッジ](https://boltz.Exchange/)を使用してL-BTCのLightning Networkを経由します。Addressを受け取るLiquidを入力し、お好みの方法で支払いを行い、L-BTCを受け取ります。
+あるいは、Exchangeであなたのビットコインをオンチェーン、またはBoltzのようなブリッジを使用してL-BTCのLightning Networkを経由します。Addressを受け取るLiquidを入力し、お好みの方法で支払いを行い、L-BTCを受け取ります。
+
+> **注記（2026年10月）：** Boltzは2026年8月3日にすべてのスワップを停止し、ウェブサイトはオフラインです。この方法は現在利用できません。
 
 
 

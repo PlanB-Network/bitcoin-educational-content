@@ -116,7 +116,7 @@ LNbits را می‌توان بر روی هر ماشین با سیستم‌عام
 [سناریوهای نصب بیشتر اینجا](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
 
-برای نودهای نرم‌افزاری باندل، لطفاً به مستندات خاص آن‌ها درباره LNbits مراجعه کنید: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+برای نودهای نرم‌افزاری باندل، لطفاً به مستندات خاص آن‌ها درباره LNbits مراجعه کنید: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
 ### LNbits SaaS
@@ -207,12 +207,14 @@ LNbits می‌تواند بر روی بسیاری از منابع تأمین م�
 
 #### لایتنینگ تیپ‌بات
 
+> **هشدار (اکتبر ۲۰۲۶):** LightningTipBot و ln.tips فعالیت خود را متوقف کرده‌اند؛ تعطیلی در ۲۹ آوریل ۲۰۲۴ اعلام شد. این منبع تأمین مالی دیگر کار نمی‌کند، مگر اینکه ربات خودتان را میزبانی کنید.
+
 
 برای اتصال [Lightning Tipbot](https://t.me/LightningTipBot) خود از تلگرام، باید پارامتر زیر را تنظیم کنید:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://LN.tips
+  - `LNBITS_ENDPOINT`: `https://LN.tips`
   - `LNBITS_KEY`: برای دریافت کلید، باید یک بار /api را در یک چت خصوصی با LightningTipbot در تلگرام اجرا کنید.
 
 
@@ -229,11 +231,13 @@ LNbits می‌تواند بر روی بسیاری از منابع تأمین م�
 
 #### LNPay
 
-برای کارکرد شنونده Invoice، شما باید یک URL عمومی در LNbits خود داشته باشید و یک [وب‌هوک LNPay](https://dashboard.lnpay.co/webhook/) تنظیم کنید که به `<your LNbits host>/Wallet/webhook` با رویداد "Wallet Receive" و بدون ارائه رمز اشاره کند. تنظیم `https://mylnbits/Wallet/webhook` به عنوان آدرس پایانی خواهد بود که درباره هر پرداختی اطلاع‌رسانی می‌شود.
+> **هشدار (اکتبر ۲۰۲۶):** به نظر می‌رسد LNPay فعالیت خود را متوقف کرده است: دامنه lnpay.co دیگر پاسخ نمی‌دهد. این منبع تأمین مالی احتمالاً دیگر قابل استفاده نیست.
+
+برای کارکرد شنونده Invoice، شما باید یک URL عمومی در LNbits خود داشته باشید و یک وب‌هوک LNPay تنظیم کنید که به `<your LNbits host>/Wallet/webhook` با رویداد "Wallet Receive" و بدون ارائه رمز اشاره کند. تنظیم `https://mylnbits/Wallet/webhook` به عنوان آدرس پایانی خواهد بود که درباره هر پرداختی اطلاع‌رسانی می‌شود.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -537,7 +541,9 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ###### از طریق یک سرویس مبادله خارجی.
 
 
-کاربران دیگری که به LNb شما دسترسی ندارند می‌توانند از یک سرویس مبادله مانند [Boltz](https://boltz.Exchange/)، [FixedFloat](https://fixedfloat.com/)، [DiamondHands](https://swap.diamondhands.technology/) یا [ZigZag](https://zigzag.io/) استفاده کنند. این مفید است اگر شما فقط فاکتورهای LNURL/LN را از نمونه LNbits خود ارائه دهید، اما پرداخت‌کننده فقط Sats زنجیره‌ای دارد، بنابراین ابتدا باید آن Sats را در سمت خود مبادله کنند. روش ساده است: کاربر بیت‌کوین زنجیره‌ای را به سرویس مبادله ارسال می‌کند و LNURL / LN Invoice از LNbits را به عنوان مقصد مبادله ارائه می‌دهد.
+کاربران دیگری که به LNb شما دسترسی ندارند می‌توانند از یک سرویس مبادله مانند Boltz، [FixedFloat](https://fixedfloat.com/) یا [ZigZag](https://zigzag.io/) استفاده کنند. این مفید است اگر شما فقط فاکتورهای LNURL/LN را از نمونه LNbits خود ارائه دهید، اما پرداخت‌کننده فقط Sats زنجیره‌ای دارد، بنابراین ابتدا باید آن Sats را در سمت خود مبادله کنند. روش ساده است: کاربر بیت‌کوین زنجیره‌ای را به سرویس مبادله ارسال می‌کند و LNURL / LN Invoice از LNbits را به عنوان مقصد مبادله ارائه می‌دهد.
+
+> **هشدار (اکتبر ۲۰۲۶):** Boltz در ۳ اوت ۲۰۲۶ پس از سوءاستفاده از چند آسیب‌پذیری، همه مبادله‌ها را متوقف کرد و وب‌سایت آن از دسترس خارج است. در حال حاضر نمی‌توان از Boltz و افزونه Boltz در LNbits استفاده کرد.
 
 
 ###### استفاده از افزونه Onchain و Boltz LNbits.

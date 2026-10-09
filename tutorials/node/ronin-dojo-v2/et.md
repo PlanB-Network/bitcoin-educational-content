@@ -6,6 +6,8 @@ description: Oma RoninDojo v2 Bitcoin node'i paigaldamine Raspberry Pi'le
 
 **HOIATUS:** Pärast Samourai Walleti asutajate vahistamist ja nende serverite konfiskeerimist 24. aprillil on mõned RoninDojo funktsioonid, nagu Whirlpool, enam mitte töökorras. Siiski on võimalik, et need tööriistad võidakse järgnevatel nädalatel taastada või uuesti käivitada erineval kujul. Kuna RoninDojo kood oli majutatud Samourai GitLabis, mis samuti konfiskeeriti, ei ole hetkel võimalik koodi kaugelt alla laadida. RoninDojo meeskonnad töötavad tõenäoliselt koodi uuesti avaldamise nimel.*
 
+> **Uuendus (oktoober 2026):** RoninDojo on vahepeal oma koodi uuesti avaldanud omaenda platvormil ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) ja on nüüd versioonis 3. See õpetus kirjeldab vanemat versiooni: osa linke ja käske enam ei tööta. Praeguse protseduuri leiate ametlikust dokumentatsioonist: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 _Jälgime selle juhtumi arenguid ning seotud tööriistade arenguid tähelepanelikult. Võite olla kindlad, et uuendame seda õpetust, kui uut teavet saadaval on._
 
 _Seda õpetust pakutakse ainult hariduslikel ja informatiivsetel eesmärkidel. Me ei toeta ega julgusta nende tööriistade kasutamist kuritegelikel eesmärkidel. Iga kasutaja vastutab oma jurisdiktsiooni seadustega kooskõlas olemise eest._
@@ -26,7 +28,10 @@ _Seda õpetust pakutakse ainult hariduslikel ja informatiivsetel eesmärkidel. M
 ## Mis on RoninDojo?
 Dojo on algselt täielik Bitcoin node'i rakendus, mis põhineb Bitcoin Core'il ja on välja töötatud Samourai Walleti meeskondade poolt. Seda lahendust saab paigaldada igale seadmele. Erinevalt teistest Core'i rakendustest on Dojo spetsiaalselt optimeeritud integreerimiseks Samourai Walleti Androidi rakenduskeskkonnaga. RoninDojo on aga tööriist, mis on mõeldud Dojo paigaldamise ja haldamise hõlbustamiseks, samuti mitmesuguste muude täiendavate tööriistade jaoks. Lühidalt, RoninDojo rikastab Dojo baasrakendust, integreerides hulgaliselt lisatööriistu, samal ajal lihtsustades selle paigaldamist ja haldamist.
 
-Ronin pakub ka [node-in-box lahendust, mida nimetatakse "*Tanto*"](https://ronindojo.io/en/products), seadet, millele on RoninDojo juba paigaldatud ja mille on kokku pannud nende meeskond. Tanto on tasuline valik, mis võib olla huvitav neile, kes soovivad vältida tehnilisi komplikatsioone. Kuid kuna RoninDojo lähtekood on avatud, on võimalik seda ka oma riistvarale paigaldada. See alternatiiv, mis on majanduslikult soodsam, nõuab siiski mõningaid lisamanipulatsioone, mida me selles õpetuses käsitleme.
+Ronin pakub ka [node-in-box lahendust, mida nimetatakse "*Tanto*"](https://docs.ronindojo.io/hardware/tanto/), seadet, millele on RoninDojo juba paigaldatud ja mille on kokku pannud nende meeskond. Tanto on tasuline valik, mis võib olla huvitav neile, kes soovivad vältida tehnilisi komplikatsioone. Kuid kuna RoninDojo lähtekood on avatud, on võimalik seda ka oma riistvarale paigaldada. See alternatiiv, mis on majanduslikult soodsam, nõuab siiski mõningaid lisamanipulatsioone, mida me selles õpetuses käsitleme.
+
+> **Märkus (oktoober 2026):** RoninDojo ei paista Tantot enam müüvat ja selle veebipood on maas. Vaadake ühilduva riistvara loendit: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
+
 RoninDojo on Dojo, mis võimaldab Whirlpool CLI lihtsat integreerimist teie Bitcoin'i sõlme, et pakkuda parimat võimalikku coinjoin kogemust. Whirlpool CLI abil muutub võimalikuks teie bitcoinide pidev remiximine 24 tundi päevas, 7 päeva nädalas, ilma et teie isiklik arvuti peaks jääma sisse lülitatuks.
 Peale Whirlpool CLI sisaldab RoninDojo mitmesuguseid tööriistu, et täiustada teie Dojo funktsionaalsusi. Nende hulgas Boltzmanni kalkulaator analüüsib teie tehingute privaatsuse taset, Electrumi server võimaldab teie Bitcoin'i rahakottide ühendamist teie sõlmega ja Mempooli server võimaldab teil kohalikult vaadata oma tehinguid, ilma et lekitaksite informatsiooni.
 
@@ -38,6 +43,9 @@ Nüüd, kui oleme RoninDojo üle vaadanud, vaatame koos, kuidas seda sõlme sead
 
 ## Millist riistvara valida RoninDojo v2 paigaldamiseks?
 RoninDojo pakub oma tarkvara automaatseks paigaldamiseks pilti [RockPro64](https://ronindojo.io/downloads) jaoks. Siiski keskendub meie õpetus käsitsi paigaldamise protseduurile Raspberry Pi 4 peal. Kuigi Raspberry Pi 5 on hiljuti turule lastud ja teoreetiliselt peaks see õpetus olema ühilduv selle uue mudeliga, ei ole mul veel olnud võimalust seda isiklikult testida ja ma pole kogukonnalt tagasisidet leidnud. Niipea kui soetan Pi 5 ja ühilduvad komponendid, uuendan seda õpetust, et teid kursis hoida. Seniks soovitan eelistada Pi 4, kuna see töötab minu sõlme jaoks suurepäraselt.
+
+> **Märkus (oktoober 2026):** RoninDojo pakub nüüd ametlikke RoninOS-i tõmmiseid ka Rock5B+, Raspberry Pi 5 ja x86 masinate jaoks.
+
 Minu osa, ma jooksen RoninDojo Raspberry Pi'l, mis on varustatud 8 GB RAM'iga. Kuigi mõned kogukonna liikmed on suutnud selle tööle saada seadmetel, mis on varustatud ainult 4 GB RAM'iga, ei ole ma seda konfiguratsiooni ise testinud. Väikese hinnavahe tõttu tundub mõistlik valida 8 GB RAM'i versioon. See võib osutuda kasulikuks ka siis, kui plaanite oma Raspberry Pi tulevikus muuks otstarbeks ümber kasutada.
 On oluline märkida, et RoninDojo meeskonnad on teatanud sagedastest probleemidest, mis on seotud korpuse ja SSD adapteriga. Olen ise nende probleemidega silmitsi seisnud. **Seetõttu on tungivalt soovitatav vältida oma sõlme SSD jaoks USB-kaabliga varustatud korpusi.** Eelistage selle asemel spetsiaalselt teie Raspberry Pi jaoks mõeldud salvestuslaienduskaarti:
 
@@ -180,6 +188,8 @@ Nüüd olete oma sõlmega SSH-seansi kaudu ühendatud. Teie terminalis peaks kä
 `sudo apt update && sudo apt upgrade -y`
 Pärast uuenduste lõpetamist jätkake *Git* ja *Dialog* installimist käsu abil: `sudo apt install git dialog -y`
 
+> **Märkus (oktoober 2026):** Allolev käsk enam ei tööta: Samourai GitLab (code.samourai.io) konfiskeeriti 24. aprillil 2024. RoninDojo hoiab oma koodi nüüd siin: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Praeguse paigaldusprotseduuri leiate siit: [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
+
 Järgmisena kloonige _RoninOS_ Git repositooriumi `master` haru, käivitades:
 `sudo git clone --branch master https://code.samourai.io/ronindojo/RoninOS.git /opt/RoninOS`
 
@@ -290,7 +300,10 @@ Alternatiivina Electrs'i kasutamisele võimaldab Dojo ühendada oma ühilduva ta
 Oma Samourai Wallet'i oma Dojoga ühendamiseks skaneerige lihtsalt see QR-kood rakenduse paigaldamise ajal:
 
 ![Samourai Wallet connection](assets/notext/36.webp)
-Kui teil oli juba enne oma Ronin Dojo seadistamist Samourai Wallet, on vajalik teha oma rahakotist varukoopia, desinstallida ja seejärel uuesti installida Samourai Walleti rakendus, enne kui taastate oma rahakoti. Taasinstalleeritud rakenduse käivitamisel on teil võimalus ühenduda uue Dojoga. **Olge ettevaatlik, see protsess kannab endas bitcoine kaotamise riski, kui seda ei teostata korrektselt!** Veenduge, et teil on oma Samourai rahakoti varukoopia failides ja kontrollige oma paroolilause kehtivust `Settings > Troubleshoot > Passphrase` kaudu. On samuti oluline omada loetavat varukoopiat oma taastefraasist ja paroolilausest. Selle toimingu täpsemaks teostamiseks on soovitatav järgida seda detailset õpetust: [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+Kui teil oli juba enne oma Ronin Dojo seadistamist Samourai Wallet, on vajalik teha oma rahakotist varukoopia, desinstallida ja seejärel uuesti installida Samourai Walleti rakendus, enne kui taastate oma rahakoti. Taasinstalleeritud rakenduse käivitamisel on teil võimalus ühenduda uue Dojoga. **Olge ettevaatlik, see protsess kannab endas bitcoine kaotamise riski, kui seda ei teostata korrektselt!** Veenduge, et teil on oma Samourai rahakoti varukoopia failides ja kontrollige oma paroolilause kehtivust `Settings > Troubleshoot > Passphrase` kaudu. On samuti oluline omada loetavat varukoopiat oma taastefraasist ja paroolilausest. Selle toimingu täpsemaks teostamiseks on soovitatav järgida seda detailset õpetust: [https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+
+> **Hoiatus (oktoober 2026):** Samourai Walletit enam ei ole: selle serverid konfiskeeriti ja asutajad vahistati 24. aprillil 2024. Ülalolev link viib juhendi arhiivikoopiale. RoninDojo dokumenteerib nüüd Ashigarut, mis on Samourai Walleti fork: [docs.ronindojo.io/guides-wallet/ashigaru](https://docs.ronindojo.io/guides-wallet/ashigaru/)
+
 ### Oma Mempool.space plokkide uurija kasutamine
 Plokkide uurija muudab Bitcoin'i plokiahela toorandmed struktureeritud ja kergesti loetavaks formaadiks. Tööriistadega nagu *Mempool.space* on võimalik analüüsida tehinguid, otsida konkreetseid aadresse või isegi konsulteerida võrgu mempoolide keskmisi tasumäärasid reaalajas.
 

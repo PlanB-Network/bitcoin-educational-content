@@ -408,7 +408,9 @@ Untuk menerima Liquid-Bitcoin (L-BTC), ada beberapa opsi yang tersedia. Anda bis
 
 
 
-Atau, Exchange bitcoin Anda di blockchain atau melalui Lightning Network untuk L-BTC menggunakan [jembatan seperti Boltz](https://boltz.Exchange/): masukkan Liquid Anda yang menerima Address, lakukan pembayaran sesuai keinginan, dan terima L-BTC Anda.
+Atau, Exchange bitcoin Anda di blockchain atau melalui Lightning Network untuk L-BTC menggunakan jembatan seperti Boltz: masukkan Liquid Anda yang menerima Address, lakukan pembayaran sesuai keinginan, dan terima L-BTC Anda.
+
+> **Catatan (Oktober 2026):** Boltz menangguhkan semua swap pada 3 Agustus 2026 dan situs webnya tidak aktif. Metode ini tidak berfungsi untuk saat ini.
 
 
 

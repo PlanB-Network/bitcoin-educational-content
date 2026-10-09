@@ -5,7 +5,7 @@ description: Giải pháp thanh toán Bitcoin và Lightning dành cho người b
 
 ![cover](assets/cover.webp)
 
-
+> **Cảnh báo (tháng 10 năm 2026):** Lipa for Business đã ngừng hoạt động vào giữa tháng 3 năm 2026, và nhà phát hành của nó, lightning payment services ag, đang trong quá trình thanh lý. Các liên kết và các bước trong hướng dẫn này không còn hoạt động. Chúng tôi giữ trang này để tham khảo cho đến khi nó được cập nhật.
 
 Các nhà bán lẻ hiện nay ngày càng quan tâm đến việc chấp nhận thanh toán Bitcoin thông qua Lightning Network. Không giống như thanh toán bằng thẻ tín dụng truyền thống, vốn có phí cao và thời gian thanh toán lâu, giao dịch Lightning gần như tức thời, không bị hoàn tiền và bảo mật thông tin khách hàng.
 
@@ -267,9 +267,9 @@ Tính chất không giám sát, thân thiện với quyền riêng tư, kết h�
 
 
 
-- [Trang web chính thức của Lipa for Business](https://lipa.swiss/en/for-business)
-- [Trang web bảng điều khiển](https://dashboard.lipa.swiss)
-- [Hỗ trợ Lipa cho doanh nghiệp](https://help.lipa.swiss/business)
-- [Hỗ trợ chung của Lipa](https://help.lipa.swiss/Wallet)
+- Trang web chính thức của Lipa for Business
+- Trang web bảng điều khiển
+- Hỗ trợ Lipa cho doanh nghiệp
+- Hỗ trợ chung của Lipa
 - [LinkedIn Lipa](https://www.linkedin.com/company/getlipa)
 - [Twitter @lipa_btc](https://twitter.com/lipa_btc)

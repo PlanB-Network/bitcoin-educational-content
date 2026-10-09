@@ -84,7 +84,7 @@ Neste tutorial, explicamos como usar o RGB-node para criar um token fungível e 
 
 Francisco Calderón publicado em
 01 de março de 2022
-https://grunch.dev/blog/rgbnode-tutorial/
+https://github.com/grunch/grunch.dev/blob/main/content/blog/rgbnode_tutorial.md
 
 ### Requisitos
 

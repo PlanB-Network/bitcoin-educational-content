@@ -5,6 +5,7 @@ description: Bitcoin and Lightning payment solutions for merchants
 
 ![cover](assets/cover.webp)
 
+> **Warning (October 2026):** Lipa for Business shut down in mid-March 2026, and its publisher, lightning payment services ag, is in liquidation. The links and steps in this tutorial no longer work. We keep this page for reference until it is updated.
 
 Merchants are now increasingly interested in accepting Bitcoin payments via Lightning Network. Unlike traditional credit card payments, which involve high fees and long settlement times, Lightning transactions are virtually instantaneous, are not subject to chargebacks, and preserve customer confidentiality.
 
@@ -203,9 +204,9 @@ Its non-custodial, privacy-friendly nature, combined with professional managemen
 
 
 
-- [Lipa for Business official website](https://lipa.swiss/en/for-business)
-- [Dashboard web](https://dashboard.lipa.swiss)
-- [Lipa Support for Business](https://help.lipa.swiss/business)
-- [Lipa General Support](https://help.lipa.swiss/Wallet)
+- Lipa for Business official website
+- Dashboard web
+- Lipa Support for Business
+- Lipa General Support
 - [LinkedIn Lipa](https://www.linkedin.com/company/getlipa)
 - [Twitter @lipa_btc](https://twitter.com/lipa_btc)

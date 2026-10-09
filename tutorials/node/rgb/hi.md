@@ -106,7 +106,7 @@ RGB के पास Bitcoin खरगोश छेद के भीतर अ�
 
 - 1 https://plan99.net/~mike/Satoshi-emails/thread4.html
 - 2 https://btctransscripts.com/चेनकोड-लैब्स/चेनकोड-रेसिडेंसी/2018-10-22-christian-decker-history-of-lightning/
-- 3 https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2016-जून/012773.html
+- 3 https://gnusha.org/pi/bitcoindev/20160620085649.GA29964@fedora-21-dvm/
 - 4 https://github.com/RGB-WG/RFC/blob/master/RGB-0020.md
 - 5 https://github.com/RGB-WG/RFC/blob/master/RGB-0021.md
 

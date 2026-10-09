@@ -5,6 +5,8 @@ description: Instaliranje i korišćenje vašeg RoninDojo Bitcoin čvora.
 ---
 ***UPOZORENJE:** Nakon hapšenja osnivača Samourai novčanika i zaplene njihovih servera 24. aprila, određene funkcije RoninDojo-a, kao što je Whirlpool, više nisu operativne. Međutim, moguće je da bi ovi alati mogli biti ponovo uspostavljeni ili pokrenuti na drugačiji način u narednim nedeljama. Takođe, pošto je RoninDojo kod bio hostovan na Samourai-ovom GitLab-u, koji je takođe zaplenjen, nije moguće preuzeti kod sa interneta. Timovi RoninDojo-a verovatno rade na ponovnom objavljivanju koda.*
 
+> **Ažuriranje (oktobar 2026):** RoninDojo je u međuvremenu ponovo objavio svoj kod na sopstvenoj platformi ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) i sada je u verziji 3. Ovaj vodič opisuje stariju verziju: neki linkovi i komande više ne rade. Aktuelni postupak potražite u zvaničnoj dokumentaciji: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 
 _Pažljivo pratimo razvoj ovog slučaja kao i razvoj povezanih alata. Budite sigurni da ćemo ažurirati ovaj vodič čim nove informacije budu dostupne._
 
@@ -85,10 +87,12 @@ Sada kada smo uspeli da naslikamo sliku RoninDojo-a, hajde da vidimo kako da zaj
 Da biste izabrali mašinu koja hostuje i pokreće RoninDojo, imate nekoliko opcija.
 
 
-Kao što je ranije objašnjeno, najjednostavniji izbor je naručiti Tanto, plug-and-play mašinu dizajniranu specifično za ovu svrhu. Da naručite svoju, idite ovde: [link](https://shop.ronindojo.io/product-category/nodes/).
+Kao što je ranije objašnjeno, najjednostavniji izbor je naručiti Tanto, plug-and-play mašinu dizajniranu specifično za ovu svrhu.
+
+> **Napomena (oktobar 2026):** Izgleda da RoninDojo više ne prodaje Tanto, a njegova onlajn prodavnica nije dostupna. Pogledajte listu kompatibilnog hardvera: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
 
 
-Pošto timovi RoninDojo proizvode open-source kod, moguće je implementirati RoninDojo i na drugim mašinama. Najnovije verzije instalacionog čarobnjaka možete pronaći na ovoj stranici: [link](https://ronindojo.io/downloads), a najnovije verzije koda na ovoj stranici: [link](https://code.samourai.io/ronindojo/RoninDojo).
+Pošto timovi RoninDojo proizvode open-source kod, moguće je implementirati RoninDojo i na drugim mašinama. Najnovije verzije instalacionog čarobnjaka možete pronaći na ovoj stranici: [link](https://ronindojo.io/downloads), a najnovije verzije koda na ovoj stranici: [link](https://git.ronindojo.io/Ronin/monorepo).
 
 
 Lično, instalirao sam ga na Raspberry Pi 4 8GB i sve radi savršeno.
@@ -233,6 +237,8 @@ U terminalu, izgledaće ovako:
 
 Sada ste povezani sa svojom mašinom, koja trenutno ima samo RoninOS. Sada treba da instalirate RoninDojo na nju.
 
+
+> **Napomena (oktobar 2026):** Komanda ispod više ne radi: Samourai GitLab (code.samourai.io) zaplenjen je 24. aprila 2024. RoninDojo sada čuva svoj kod ovde: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Aktuelni postupak instalacije potražite na [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
 
 Preuzmite najnoviju verziju RoninDojo unosom sledeće komande:
 

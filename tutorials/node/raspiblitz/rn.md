@@ -21,7 +21,7 @@ RASPIBLITZ - Uko wokoresha umuravyo na Bitcoin Full node n'ikiganiro ca BTC
 ## Inyigisho yo gutegura Raspiblitz ya Parman
 
 
-Raspiblitz ni uburyo bwiza cane bwo gukoresha Bitcoin Node n’ibindi bikoresho bijana. Ndasaba iki n’uruzitiro rwa My Node ku bakoresha benshi (Ugire uruzitiro rubiri rwo gukoresha mu buryo bwiza.) Inyungu imwe ikomeye ni uko uruzitiro rwa Raspiblitz ari “Iporogarama y’Isoko Yuguruye y’Ubuntu”, itandukanye na MyNode canke Umbrel. [Kubera iki ivyo bihambaye? Vlad Costa asigura.] Ushobora kandi gukoresha RaspbiBlitz ukoresheje ubuhinga bwa WiFi aho gukoresha ubuhinga bwa ethernet – ng’aha umurongozi](https://armantheparman.com/wifi-itagira umutwe/) ku bw’ivyo. (Nta buryo mbonye bwo kubikora nkoresheje MyNode).
+Raspiblitz ni uburyo bwiza cane bwo gukoresha Bitcoin Node n’ibindi bikoresho bijana. Ndasaba iki n’uruzitiro rwa My Node ku bakoresha benshi (Ugire uruzitiro rubiri rwo gukoresha mu buryo bwiza.) Inyungu imwe ikomeye ni uko uruzitiro rwa Raspiblitz ari “Iporogarama y’Isoko Yuguruye y’Ubuntu”, itandukanye na MyNode canke Umbrel. [Kubera iki ivyo bihambaye? Vlad Costea asigura.] Ushobora kandi gukoresha RaspbiBlitz ukoresheje ubuhinga bwa WiFi aho gukoresha ubuhinga bwa ethernet – ng’aha umurongozi](https://armantheparman.com/wifi-itagira umutwe/) ku bw’ivyo. (Nta buryo mbonye bwo kubikora nkoresheje MyNode).
 
 
 Ushobora kugura node iteguye ifise mini screen ifatanye, canke ushobora kuyiyubaka wewe nyene (ntukeneye screen).
@@ -97,7 +97,7 @@ Aha ni [videwo y’ingirakamaro kuri Linux, ariko ikoreshwa kuri Mac](urutonde r
 Ku madirisha, ng’iyi [inyigisho yoroshe](v=MBBWVgE0ewk&t=1s).
 
 
-_UPDATE: pgp/gpg kugenzura ubu biraboneka. Uzokenera urufunguzo rwa bose rwa Openoms. [Aha](http://parman.org/ushobora gukuraho/openoms.txt) ni (ushobora gukenera uburyo bwo kwihisha kugira ngo urubuga rukore – http, atari https)_
+_UPDATE: pgp/gpg kugenzura ubu biraboneka. Amashusho ya RaspiBlitz yo muri iki gihe asinywa na rootzoll, si Openoms (igikumu c'urufunguzo: 92A746AE33A3C186D014BF5C1C73060C7C176461). [FAQ yemewe](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download) itanga urufunguzo n'itegeko `gpg --verify`._
 
 
 Mac/Linux

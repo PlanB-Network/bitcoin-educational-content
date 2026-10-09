@@ -3,10 +3,9 @@ name: Boltz
 description: Hoán đổi giữa các lớp Bitcoin khác nhau trong khi vẫn duy trì quyền kiểm soát.
 ---
 
-
 ![cover](assets/cover.webp)
 
-
+> **Cảnh báo (tháng 10 năm 2026):** Boltz đã tạm ngừng mọi giao dịch hoán đổi vào ngày 3 tháng 8 năm 2026 sau khi nhiều lỗ hổng bị khai thác, và trang web của Boltz hiện ngoại tuyến. Các liên kết và các bước trong hướng dẫn này không còn hoạt động. Chúng tôi giữ trang này để tham khảo cho đến khi nó được cập nhật.
 
 Kể từ khi triển khai vào năm 2009, hệ thống tiền điện tử ngang hàng Bitcoin đã phát triển theo cấp số nhân, tạo ra các giải pháp hiện nay cho phép chúng ta có thể sử dụng ngay lập tức trong các hoạt động hàng ngày, đặc biệt là thông qua Lightning Network.
 
@@ -20,7 +19,7 @@ Tuy nhiên, vẫn còn một vấn đề lớn giữa các lớp giao thức Bit
 
 
 
-[Boltz](https://boltz.Exchange) là một nền tảng phi lưu ký lý tưởng cho bất kỳ ai muốn giao dịch giữa các lớp khác nhau của giao thức Bitcoin:
+Boltz là một nền tảng phi lưu ký lý tưởng cho bất kỳ ai muốn giao dịch giữa các lớp khác nhau của giao thức Bitcoin:
 
 
 

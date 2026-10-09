@@ -1,3 +1,5 @@
 description: |
   "zk" ve zkSNACKs znamená zero knowledge (nulové znalosti), což znamená, že nemůžeme a ani nesbíráme žádné osobní informace uživatelů v našich produktech.
 
+  zkSNACKs ukončil provoz svého coinjoin koordinátora 1. června 2024 a jeho web je nedostupný. Wasabi Wallet pokračuje jako open-source software.
+

@@ -455,8 +455,10 @@ Let's move on to installing C-Lightning.
 For this lecture, we'll use the latest stable release, e.g., 22.11.1.
 
 ```sh
-wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/clightning-v22.11.1.tar.gz
-sha256sum clightning-v22.11.1.tar.gz
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/clightning-v22.11.1.zip
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/SHA256SUMS
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/SHA256SUMS.asc
+sha256sum clightning-v22.11.1.zip
 # Verify the hash against the provided hash
 ```
 
@@ -465,7 +467,7 @@ Always verify the integrity of the downloaded file with GPG keys.
 
 ```sh
 gpg --recv-keys <developer-key-id>
-gpg --verify clightning-v22.11.1.tar.gz.asc clightning-v22.11.1.tar.gz
+gpg --verify SHA256SUMS.asc SHA256SUMS
 ```
 
 **Install dependencies and compile from source code**
@@ -474,8 +476,8 @@ Install the necessary dependencies and compile C-Lightning from the source.
 ```sh
 sudo apt-get update
 sudo apt-get install -y autoconf automake build-essential git libtool libgmp-dev \
-                        libsqlite3-dev python3 python3-mako net-tools zlib1g-dev
-tar -xzf clightning-v22.11.1.tar.gz
+                        libsqlite3-dev python3 python3-mako net-tools zlib1g-dev unzip
+unzip clightning-v22.11.1.zip
 cd clightning-v22.11.1
 ./configure
 make

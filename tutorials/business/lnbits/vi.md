@@ -116,7 +116,7 @@ Bạn cũng có thể tìm thấy video về [Cài đặt Docker trên VPS với
 [Thêm các kịch bản cài đặt tại đây](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
 
-Đối với các nút phần mềm gói, vui lòng tham khảo tài liệu cụ thể của họ về LNbit: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+Đối với các nút phần mềm gói, vui lòng tham khảo tài liệu cụ thể của họ về LNbit: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
 ### LNbits SaaS
@@ -207,12 +207,14 @@ Bạn cũng có thể sử dụng macaroon được mã hóa AES (thông tin th�
 
 #### Lightning TipBot
 
+> **Cảnh báo (tháng 10 năm 2026):** LightningTipBot và ln.tips đã ngừng hoạt động; việc đóng cửa được thông báo ngày 29 tháng 4 năm 2024. Nguồn tài trợ này không còn hoạt động, trừ khi bạn tự lưu trữ bot của riêng mình.
+
 
 Để kết nối [Lightning Tipbot](https://t.me/LightningTipBot) của bạn từ Telegram, bạn sẽ cần thiết lập tham số sau:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **Ví LnTips**
-  - `LNBITS_ENDPOINT`: https://LN.tips
+  - `LNBITS_ENDPOINT`: `https://LN.tips`
   - `LNBITS_KEY`: Để lấy Khóa, bạn sẽ cần chạy /api trong cuộc trò chuyện riêng với LightningTipbot trên Telegram một lần.
 
 
@@ -229,11 +231,13 @@ Ngoài ra, hãy xem hướng dẫn này để biết cách cài đặt [LNbits v
 
 #### LNPay
 
-Để trình lắng nghe Invoice hoạt động, bạn cần có một URL có thể truy cập công khai trong LNbits của mình và phải thiết lập [webhook LNPay](https://dashboard.lnpay.co/webhook/) trỏ đến `<your LNbits host>/Wallet/webhook` với sự kiện "Wallet Receive" và không có khóa bí mật nào được cung cấp. Thiết lập `https://mylnbits/Wallet/webhook` sẽ là URL điểm cuối được thông báo về bất kỳ khoản thanh toán nào.
+> **Cảnh báo (tháng 10 năm 2026):** LNPay có vẻ đã ngừng hoạt động: tên miền lnpay.co không còn phản hồi. Nguồn tài trợ này có lẽ không còn sử dụng được.
+
+Để trình lắng nghe Invoice hoạt động, bạn cần có một URL có thể truy cập công khai trong LNbits của mình và phải thiết lập webhook LNPay trỏ đến `<your LNbits host>/Wallet/webhook` với sự kiện "Wallet Receive" và không có khóa bí mật nào được cung cấp. Thiết lập `https://mylnbits/Wallet/webhook` sẽ là URL điểm cuối được thông báo về bất kỳ khoản thanh toán nào.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **Ví LNPay**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -537,7 +541,9 @@ Có hai cách để chuyển Exchange Sats từ BTC trên chuỗi sang LN BTC (t
 ###### Thông qua dịch vụ trao đổi bên ngoài.
 
 
-Những người dùng khác không có quyền truy cập vào LNb của bạn có thể sử dụng dịch vụ hoán đổi như [Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) hoặc [ZigZag](https://zigzag.io/). Điều này hữu ích nếu bạn chỉ cung cấp hóa đơn LNURL/LN từ phiên bản LNbits của mình, nhưng người thanh toán chỉ có Sats trên chuỗi nên họ sẽ phải hoán đổi Sats đó trước. Quy trình rất đơn giản: người dùng gửi BTC trên chuỗi đến dịch vụ hoán đổi và cung cấp LNURL/LN Invoice từ LNbits làm đích đến của giao dịch hoán đổi.
+Những người dùng khác không có quyền truy cập vào LNb của bạn có thể sử dụng dịch vụ hoán đổi như Boltz, [FixedFloat](https://fixedfloat.com/) hoặc [ZigZag](https://zigzag.io/). Điều này hữu ích nếu bạn chỉ cung cấp hóa đơn LNURL/LN từ phiên bản LNbits của mình, nhưng người thanh toán chỉ có Sats trên chuỗi nên họ sẽ phải hoán đổi Sats đó trước. Quy trình rất đơn giản: người dùng gửi BTC trên chuỗi đến dịch vụ hoán đổi và cung cấp LNURL/LN Invoice từ LNbits làm đích đến của giao dịch hoán đổi.
+
+> **Cảnh báo (tháng 10 năm 2026):** Boltz đã tạm ngừng mọi giao dịch hoán đổi vào ngày 3 tháng 8 năm 2026 sau khi nhiều lỗ hổng bị khai thác, và trang web của họ đang ngoại tuyến. Hiện không thể sử dụng Boltz và tiện ích mở rộng Boltz của LNbits.
 
 
 ###### Sử dụng tiện ích mở rộng Onchain và Boltz LNbits.

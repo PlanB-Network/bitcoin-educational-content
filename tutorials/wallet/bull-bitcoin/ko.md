@@ -106,7 +106,7 @@ Android 사용자에게는 대체 옵션도 있습니다:
 - '구매, 판매 또는 결제'를 위해 'Bitcoin 황소 Exchange'에 액세스합니다(관할권에 따라 다르며 KYC가 필요할 수 있습니다).
 - 지갑 간 자금 '이체'
 - '보안 Bitcoin'는 온체인 Bitcoin Wallet과 같습니다
-- 라이트닝을 통한 '즉시 결제' / Liquid Network *(참고: Bull Bitcoin Wallet을 사용하면 라이트닝을 통해 결제하고 받을 수 있습니다. 라이트닝을 통해 받은 자금은 [*Liquid 네트워크](https://liquid.net/)를 통한 자동 스왑 덕분에 [*Boltz 거래소](https://boltz.exchange/)에 저장됩니다(Wallet 즉시 결제에서). 이를 통해 유동성 채널을 관리할 필요 없이 라이트닝과 상호 작용할 수 있으며, 자체 수탁을 유지할 수 있습니다.)*
+- 라이트닝을 통한 '즉시 결제' / Liquid Network *(참고: Bull Bitcoin Wallet을 사용하면 라이트닝을 통해 결제하고 받을 수 있습니다. 라이트닝을 통해 받은 자금은 [*Liquid 네트워크](https://liquid.net/)를 통한 자동 스왑 덕분에 Boltz 거래소에 저장됩니다(Wallet 즉시 결제에서). 이를 통해 유동성 채널을 관리할 필요 없이 라이트닝과 상호 작용할 수 있으며, 자체 수탁을 유지할 수 있습니다.)*
 - 자금 '보내기' 및 '받기'
 
 
@@ -418,6 +418,8 @@ liquidnetwork:lq1qqdhgs7w537nun55a5sdy4gxkd08pclk3d7v4qz36sy4xp0cq6gvl52fcfv7kdg
 
 
 
+> **참고 (2026년 10월):** Boltz는 2026년 8월 3일에 모든 스왑을 중단했으며 웹사이트는 오프라인 상태입니다. Bull Bitcoin Wallet의 Lightning 결제는 Boltz에 의존하므로 더 이상 작동하지 않을 수 있습니다.
+
 Bull Bitcoin Wallet을 사용하면 Lightning Network을 통해 결제를 주고받을 수도 있습니다. 주요 기능은 라이트닝을 통해 받은 자금이 자동으로 교환되어 '즉시 결제 Wallet' 내의 'Liquid Network'에 저장된다는 것입니다. 이 서비스는 `Boltz`에 의해 구동됩니다. 이러한 설계를 통해 유동성 채널 관리의 복잡성 없이 라이트닝의 속도와 저렴한 비용을 누리면서도 자금에 대한 완전한 자기관리권을 유지할 수 있습니다. 이 하이브리드 방식은 자체 수탁 방식이며 채널 관리의 복잡성을 피할 수 있지만, 타사 서비스(Boltz), 적은 스왑 수수료, Liquid Network의 기능 연합을 키 홀더로 의존한다는 점에서 자체 채널을 관리하는 기존의 비수탁형 라이트닝 wallet와는 다릅니다. Liquid과 거버넌스 모델에 대한 자세한 내용은 여기에서 확인할 수 있습니다:
 
 
@@ -508,6 +510,8 @@ Liquid 거래의 확인 화면에서 세부 정보를 검토할 수 있습니다
 
 *최소 금액 및 수수료가 적용됩니다*
 
+
+> **참고 (2026년 10월):** Boltz는 2026년 8월 3일에 모든 스왑을 중단했으며 웹사이트는 오프라인 상태입니다. Bull Bitcoin Wallet의 Lightning 결제는 Boltz에 의존하므로 더 이상 작동하지 않을 수 있습니다.
 
 Bull Bitcoin Wallet은 '즉시 결제 Wallet'(Liquid에 있음)에서 자금을 인출하고 'Boltz'을 통해 스왑하여 라이트닝 결제를 전송합니다. 이 하이브리드 방식은 완전한 자체 수탁 방식이며 전용 라이트닝 채널을 관리하는 데 드는 높은 on-chain 수수료를 피할 수 있지만 '스왑 수수료'를 지불해야 합니다. 가장 저렴한 비용으로 수신자가 Bull Bitcoin wallet도 사용하는 경우 수신자의 Liquid 주소로 직접 전송합니다.
 

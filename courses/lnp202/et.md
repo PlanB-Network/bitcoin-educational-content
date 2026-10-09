@@ -415,7 +415,9 @@ Selle lähenemisviisi peamine eelis võrreldes tavapärase välkdepositooriumi w
 
 
 
-Enamik portfelle, mis pakuvad seda tüüpi funktsioone, tuginevad [Boltz](https://boltz.exchange/) vahetuse tehnilise osa jaoks.
+Enamik portfelle, mis pakuvad seda tüüpi funktsioone, tuginevad Boltz vahetuse tehnilise osa jaoks.
+
+> **Märkus (oktoober 2026):** Boltz peatas kõik vahetused 3. augustil 2026 ja selle veebisait on võrgust väljas. Boltzile tuginevad rahakotid ei pruugi seda funktsiooni enam pakkuda.
 
 
 

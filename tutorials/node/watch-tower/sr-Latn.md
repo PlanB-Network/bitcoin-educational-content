@@ -519,13 +519,7 @@ U istom meniju, takođe ćete pronaći URI vaše Watchtower usluge ako ste je ak
 
 
 
-Dostupno je nekoliko Kula stražara na mreži. Na primer, [LN+ i Voltage nude altruistički Watchtower](https://lightningnetwork.plus/Watchtower) na koji se možete povezati:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+Dostupno je nekoliko Kula stražara na mreži. LN+ i Voltage su ranije nudili altruistički Watchtower, ali on više nije dostupan (oktobar 2026). LN+ sada nudi [Watch Swaps](https://lightningnetwork.plus/watch_swaps), gde dva operatera čvorova nadgledaju kanale jedan drugom, i objavljuje [vodič za altruističke Watchtower-e](https://lightningnetwork.plus/posts/12).
 
 
 

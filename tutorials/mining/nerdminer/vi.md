@@ -14,7 +14,7 @@ Trước khi đi qua các bước khác nhau, hãy liệt kê thiết bị cần
 
 - một [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - một [nguồn cấp USB-C](https://amzn.eu/d/gIOot90)
-- một vỏ 3D: nếu bạn có máy in 3D, bạn có thể tải xuống [file 3D](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) nếu không bạn có thể mua một cái trên [cửa hàng trực tuyến Silexperience](https://silexperience.company.site/NerdMiner_V2-p544379757).
+- một vỏ 3D: nếu bạn có máy in 3D, bạn có thể tải xuống [file 3D](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) nếu không bạn có thể mua một cái trên [cửa hàng trực tuyến Bitronics](https://bitronics.store/).
 - một PC với trình duyệt Chrome đã cài đặt
 - một kết nối internet
 - một địa chỉ bitcoin
@@ -66,7 +66,6 @@ Sau đó, bạn có thể chọn hồ bơi khai thác mà bạn muốn tham gia.
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Hồ solo và mã nguồn mở mặc định |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Được duy trì bởi CHMEX                      |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Được duy trì bởi djerfy                     |
 
 Sau khi bạn đã chọn hồ của mình, bạn cần nhập địa chỉ bitcoin của mình để nhận phần thưởng trong trường hợp (nếu có) một khối được tìm thấy.
 
@@ -128,4 +127,4 @@ Biết rằng tổng hashrate khoảng 450 EH/s (hoặc 4.5 x 10^20 hashes mỗi
 Dưới đây là một số liên kết nếu bạn muốn tìm hiểu thêm về chủ đề:
 
 - [Trang dự án NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Tài liệu đầy đủ về NerdMiners](https://bitwater.ch/nerd-miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

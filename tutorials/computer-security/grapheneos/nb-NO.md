@@ -408,7 +408,6 @@ GrapheneOS er et kaninhull enhver kunne lett tilbringe uker på å utforske. Det
 - [GrapheneOS Offisiell Brukerguide](https://grapheneos.org/usage) - Offisiell Nettside
 - [GrapheneOS Forum](https://discuss.grapheneos.org/) - Offisiell Nettside
 - [GrapheneOS Innstillinger Masterclass](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video av 'The Privacy Wayfinder'
-- [GrapheneOS Generell Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast av 'Watchman Privacy'
 
 *Denne veiledningen er en tilpasning av det opprinnelige innholdet publisert av [BitcoinQnA på Bitcoiner.Guide under MIT-lisensen](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), som har all ære for det opprinnelige skrivearbeidet.*
 

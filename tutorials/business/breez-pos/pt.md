@@ -5,7 +5,7 @@ description: O Breez facilita a recolha de pagamentos em bitcoin para a sua empr
 
 ![cover](assets/cover.webp)
 
-
+> **Aviso (outubro de 2026):** A Breez retirou a sua aplicação móvel histórica (Breez: Lightning Client & POS) das lojas de aplicações em 2026 e fechou os canais dos seus utilizadores. Os links de download e os passos deste tutorial já não funcionam. Os antigos utilizadores podem recuperar os seus fundos com a ferramenta [breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery). Mantemos esta página como referência até ser atualizada.
 
 Desde a pandemia de COVID-19, os pagamentos digitais sem contacto generalizaram-se, mesmo nas lojas mais pequenas. Durante este período, muitas empresas descobriram o carácter prático das soluções de bitcoin cash, que lhes permitem receber pagamentos de todo o mundo. No entanto, estas soluções são por vezes difíceis de utilizar ou pouco adaptadas às pequenas empresas. Neste tutorial, vamos analisar o terminal de pagamento Breez, uma solução que se destaca pela sua facilidade de utilização, ao mesmo tempo que lhe dá um controlo total sobre a gestão dos seus bitcoins.
 
@@ -15,7 +15,7 @@ Desde a pandemia de COVID-19, os pagamentos digitais sem contacto generalizaram-
 
 
 
-O Breez POS é um serviço de auto-custódia fornecido pelo Breez wallet. A utilidade deste serviço é permitir que os comerciantes recolham pagamentos através do Bitcoin, mantendo-se numa interface simples, muito semelhante às várias carteiras Lightning. O Breez POS está disponível nas plataformas de transferência [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) e [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS).
+O Breez POS é um serviço de auto-custódia fornecido pelo Breez wallet. A utilidade deste serviço é permitir que os comerciantes recolham pagamentos através do Bitcoin, mantendo-se numa interface simples, muito semelhante às várias carteiras Lightning. O Breez POS está disponível nas plataformas de transferência Google Play Store (Android) e App Store (iOS).
 
 
 

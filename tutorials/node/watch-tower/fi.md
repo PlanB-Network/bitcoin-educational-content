@@ -519,13 +519,7 @@ Samasta valikosta löydät myös Watchtower-palvelun URI:n, jos olet aktivoinut 
 
 
 
-Verkossa on saatavilla useita Vartiotorneja. Esimerkiksi [LN+ ja Voltage tarjoavat altruistisen Watchtower:n](https://lightningnetwork.plus/Watchtower), johon voit muodostaa yhteyden:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+Verkossa on saatavilla useita Vartiotorneja. LN+ ja Voltage tarjosivat aiemmin altruistisen Watchtowerin, mutta se ei ole enää saatavilla (lokakuu 2026). LN+ tarjoaa nyt [Watch Swaps](https://lightningnetwork.plus/watch_swaps) -palvelun, jossa kaksi solmun ylläpitäjää valvoo toistensa kanavia, ja julkaisee [oppaan altruistisista Watchtowereista](https://lightningnetwork.plus/posts/12).
 
 
 

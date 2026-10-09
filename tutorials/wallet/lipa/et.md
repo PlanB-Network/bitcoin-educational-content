@@ -2,7 +2,10 @@
 name: Lipa
 description: Lipa lightning mobiilse rahakoti seadistamine ja kasutamine
 ---
+
 ![cover](assets/cover.webp)
+
+> **Hoiatus (oktoober 2026):** Lipa rahakott suleti 31. detsembril 2025 ja selle väljaandja lightning payment services ag on likvideerimisel. Rakendust ei saa enam alla laadida ja selle juhendi sammud ei tööta enam. Säilitame selle lehe viitena, kuni seda uuendatakse.
 
 Bitcoin Lightning rahakott on mobiilirakendus, mis võimaldab koheseid ja odavaid tehinguid Bitcoini Lightning-võrgus. Erinevalt peamise plokiahelaga (on-chain) tehtavatest tehingutest on Lightning-maksed peaaegu kohesed ja nõuavad minimaalseid tasusid, mistõttu sobivad need eriti hästi väikesteks igapäevasteks makseteks.
 
@@ -31,7 +34,7 @@ Peamised omadused on järgmised:
 Esimene samm on Lipa rakenduse allalaadimine. Hetkel on see saadaval ainult iOS-i jaoks:
 
 
-- [Apple'ile](https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
+- Apple'ile
 
 Androidi versioon on praegu arendamisel ja on peagi saadaval.
 

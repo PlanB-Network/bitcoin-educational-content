@@ -519,13 +519,7 @@ W tym samym menu znajduje się również URI usługi Watchtower, jeśli została
 
 
 
-Istnieje kilka wież strażniczych dostępnych online. Na przykład [LN+ i Voltage oferują altruistyczne Watchtower](https://lightningnetwork.plus/Watchtower), z którymi można się połączyć:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+Istnieje kilka wież strażniczych dostępnych online. LN+ i Voltage oferowały wcześniej altruistyczną Watchtower, ale nie jest już ona dostępna (październik 2026). LN+ oferuje teraz [Watch Swaps](https://lightningnetwork.plus/watch_swaps), w których dwóch operatorów węzłów pilnuje nawzajem swoich kanałów, oraz publikuje [przewodnik po altruistycznych Watchtower](https://lightningnetwork.plus/posts/12).
 
 
 

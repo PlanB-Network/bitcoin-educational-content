@@ -701,7 +701,7 @@ Om du vill designa en futuristisk logotyp för en "Bitcoin London"-träff kan du
 
 
 
-- [ ] *Prompt: Skapa en Bitcoin-logotyp med London Bridge och Big Ben i bakgrunden. Futuristisk* - [Länk](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *Prompt: Skapa en Bitcoin-logotyp med London Bridge och Big Ben i bakgrunden. Futuristisk*
 
 
 
@@ -714,7 +714,7 @@ Om de fyra första resultaten inte är tillräckligt realistiska kan du förfina
 
 
 
-- [ ] *Prompt: Gör den 4:e mycket mer realistisk* - [Länk](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *Prompt: Gör den 4:e mycket mer realistisk*
 
 
 
@@ -732,7 +732,7 @@ För en renare look, som för ett klistermärke:
 
 
 
-- [ ] *Uppmaning: Skapa logotypen för "London Bitcoin Meetup" med en brittisk och ren stil* - [Länk](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Uppmaning: Skapa logotypen för "London Bitcoin Meetup" med en brittisk och ren stil*
 
 
 
@@ -1392,7 +1392,7 @@ Dessa inkluderar:
 
 
 - [Btcmap.org](https://btcmap.org/)**, en webbplats med två kartor som uppdateras dagligen: **[världskartan över företag som accepterar Bitcoin](https://btcmap.org/map)** och **[världskartan över samhällen](https://btcmap.org/communities/map)**. Många bitcoiners kollar dessa kartor regelbundet, oavsett om de reser eller lever sitt dagliga liv, för att träffa nya människor eller hitta platser att spendera sina [Sats](https://planb.academy/resources/glossary/satoshi-sat) på. Btcmap är den globala referensen, och att lista din community där är viktigt för synligheten.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), en webbplats skapad av bitcoiners, för bitcoiners. **Där kan du lägga upp kommande evenemang i ditt community**. I Frankrike används den dock fortfarande inte i någon större utsträckning.
+- BitcoinerEvents, en webbplats skapad av bitcoiners, för bitcoiners. **Där kan du lägga upp kommande evenemang i ditt community**. I Frankrike används den dock fortfarande inte i någon större utsträckning. **Obs (oktober 2026):** den här webbplatsen är inte längre tillgänglig. [BitcoinOnly Events](https://bitcoinonly.events/) är en motsvarande kalender som fortfarande är i drift.
 - beroende på ditt land kan det finnas andra lokala initiativ. I Frankrike finns det till exempel [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), som **listar dussintals Bitcoin-evenemang varje månad**. Så om du ännu inte har följt dem på Twitter eller kontaktat dem för att dela information om ditt samhälle och dina evenemang är det dags nu! **För att hålla den franska evenemangskalendern uppdaterad skulle det vara bra om alla franska Bitcoin-grupper tog för vana att:**
     - nämna @bitcoinpointfr på Twitter för varje nytt gemenskapsevenemang
     - fästa nya evenemangsmeddelanden i deras Telegram-grupp.
@@ -1412,7 +1412,7 @@ På samma sätt är **[Orangepillapp](https://www.orangepillapp.com/)** en betal
 
 Även om de två sistnämnda plattformarna kan bidra till att öka synligheten rekommenderas de inte när man startar en community, helt enkelt för att de inte är gratis.
 
-**Att börja med en listning på [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) och för franska samhällen, på [Bitcoin.fr](https://Bitcoin.fr) är mer än tillräckligt**.
+**Att börja med en listning på [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) och för franska samhällen, på [Bitcoin.fr](https://Bitcoin.fr) är mer än tillräckligt**.
 
 
 Gratulerar, gratulerar, gratulerar! Din **community är skapad**, dina **bilder är klara**, dina **mål är satta**, dina **kommunikationskanaler är på plats**, dina **sociala nätverk är lanserade** och din **synlighetsstrategi är beslutad**.

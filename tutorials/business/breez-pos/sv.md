@@ -5,7 +5,7 @@ description: Breez gör det enkelt att samla in bitcoinbetalningar för ditt fö
 
 ![cover](assets/cover.webp)
 
-
+> **Varning (oktober 2026):** Breez tog bort sin ursprungliga mobilapp (Breez: Lightning Client & POS) från appbutikerna under 2026 och stängde användarnas kanaler. Nedladdningslänkarna och stegen i den här guiden fungerar inte längre. Tidigare användare kan återfå sina medel med verktyget [breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery). Vi behåller sidan som referens tills den uppdateras.
 
 Sedan covid-19-pandemin har kontaktlösa digitala betalningar blivit vanliga, även i de minsta butikerna. Under denna period har många företag upptäckt hur praktiskt det är med bitcoin cash-lösningar som gör det möjligt för dem att ta emot betalningar från hela världen. Dessa lösningar är dock ibland svåra att använda eller olämpliga för små företag. I den här handledningen tittar vi på Breez betalterminal, en lösning som sticker ut för sin användarvänlighet, samtidigt som den ger dig total kontroll över hanteringen av dina bitcoins.
 
@@ -15,7 +15,7 @@ Sedan covid-19-pandemin har kontaktlösa digitala betalningar blivit vanliga, ä
 
 
 
-Breez POS är en självförvaltande tjänst som tillhandahålls av Breez wallet. Syftet med denna tjänst är att göra det möjligt för handlare att samla in betalningar via Bitcoin samtidigt som de behåller ett enkelt gränssnitt, mycket likt de olika Lightning-plånböckerna. Breez POS finns tillgängligt på nedladdningsplattformarna [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) och [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS).
+Breez POS är en självförvaltande tjänst som tillhandahålls av Breez wallet. Syftet med denna tjänst är att göra det möjligt för handlare att samla in betalningar via Bitcoin samtidigt som de behåller ett enkelt gränssnitt, mycket likt de olika Lightning-plånböckerna. Breez POS finns tillgängligt på nedladdningsplattformarna Google Play Store (Android) och App Store (iOS).
 
 
 

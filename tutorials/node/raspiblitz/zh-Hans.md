@@ -14,7 +14,7 @@ RASPIBLITZ - 如何运行一个闪电和比特币全节点，由BTC session提�
 
 ## Parman的Raspiblitz设置指南
 
-Raspiblitz是一个出色的系统，用于运行比特币节点和相关应用。我向大多数用户推荐它和MyNode节点（理想情况下应有两个节点以实现冗余）。一个主要优势是Raspiblitz节点是“Free Open Source Software”，而MyNode或Umbrel则不是。[为什么这很重要？Vlad Costa 解释道。](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) 你还可以通过WiFi连接而不是以太网运行Raspiblitz – 这里有一个[补充指南](https://armantheparman.com/headless-wifi/)供参考。（我还没有找到在MyNode上实现这一点的方法）。
+Raspiblitz是一个出色的系统，用于运行比特币节点和相关应用。我向大多数用户推荐它和MyNode节点（理想情况下应有两个节点以实现冗余）。一个主要优势是Raspiblitz节点是“Free Open Source Software”，而MyNode或Umbrel则不是。[为什么这很重要？Vlad Costea 解释道。](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) 你还可以通过WiFi连接而不是以太网运行Raspiblitz – 这里有一个[补充指南](https://armantheparman.com/headless-wifi/)供参考。（我还没有找到在MyNode上实现这一点的方法）。
 
 你可以购买一个带有小屏幕的现成节点，或者你可以自己构建一个（你不需要屏幕）。
 
@@ -63,7 +63,7 @@ Raspiblitz是一个出色的系统，用于运行比特币节点和相关应用�
 这是一个[对 Linux 有用的视频，但也适用于 Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK)。
 
 对于 Windows，这里有一个[简单的教程](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s)。
-_更新：pgp/gpg 验证现已可用。您需要 Openoms 的公钥。[在这里](http://parman.org/downloadable/openoms.txt)（链接可能需要无痕模式才能工作 – http，不是 https）_
+_更新：pgp/gpg 验证现已可用。目前的 RaspiBlitz 镜像由 rootzoll 签名，而不是 Openoms（密钥指纹：92A746AE33A3C186D014BF5C1C73060C7C176461）。[官方 FAQ](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download) 提供了密钥和 `gpg --verify` 命令。_
 Mac/Linux
 
 等待文件下载完成（很重要！），然后打开终端，导航到你下载文件的位置，并输入以下命令...

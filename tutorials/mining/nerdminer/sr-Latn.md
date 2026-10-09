@@ -19,7 +19,7 @@ Pre nego što pređemo na različite korake, hajde da navedemo potrebnu opremu z
 
 - a [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - a [USB-C power Supply](https://amzn.eu/d/gIOot90)
-- 3D kućište: ako imate 3D štampač, možete preuzeti [3D fajl](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons), u suprotnom možete kupiti jedno u [Silexperience online prodavnici](https://silexperience.company.site/NerdMiner_V2-p544379757).
+- 3D kućište: ako imate 3D štampač, možete preuzeti [3D fajl](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons), u suprotnom možete kupiti jedno u [Bitronics online prodavnici](https://bitronics.store/).
 - računar sa instaliranim Chrome pregledačem
 - internet konekcija
 - a Bitcoin Address
@@ -95,7 +95,6 @@ Za NerdMiners, možete izabrati da se povežete na jedan od ovih pool-ova:
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Default Solo and open-source mining pool |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Maintained by CHMEX                      |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Maintained by djerfy                     |
 
 Jednom kada odaberete svoj bazen, potrebno je da unesete svoj Bitcoin Address kako biste primili nagradu u slučaju da (izuzetno) blok bude pronađen.
 
@@ -191,4 +190,4 @@ Evo nekoliko linkova ako želite dodatno čitati o temi:
 
 
 - [Stranica projekta NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Potpuna dokumentacija za NerdMiners](https://bitwater.ch/nerd-miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

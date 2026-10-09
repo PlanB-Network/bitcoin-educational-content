@@ -44,10 +44,6 @@ Coin Wallet iraboneka ku mbuga zose zikomeye.
 
 
 
-- [Android (Iduka ry'Inyenyeri)](ububiko bw'Inyenyeri.samsung.com/Ibisobanuro/Iduka ry'Inyenyeri.
-
-
-
 - [Android (Ikibanza c'Ibikoresho vya Huawei)](Ikibanza c'Ibikoresho vya Huawei)
 
 

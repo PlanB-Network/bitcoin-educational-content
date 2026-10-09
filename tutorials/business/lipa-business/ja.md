@@ -5,7 +5,7 @@ description: 加盟店向けBitcoinおよびLightning決済ソリューション
 
 ![cover](assets/cover.webp)
 
-
+> **注意（2026年10月）：** Lipa for Businessは2026年3月中旬にサービスを終了し、提供元のlightning payment services agは清算手続き中です。このチュートリアルのリンクと手順は現在機能しません。 このページは、更新されるまで参考として残しています。
 
 加盟店は現在、Lightning Networkを介したBitcoin決済の受け入れに関心を高めている。高額な手数料と長い決済時間を要する従来のクレジットカード決済とは異なり、ライトニング決済は事実上即座に完了し、チャージバックの対象にはならず、顧客の機密性も保持される。
 
@@ -267,9 +267,9 @@ Lipa for Businessは、店舗でBitcoinを受け入れるための完全なソ�
 
 
 
-- [Lipa for Business公式サイト](https://lipa.swiss/en/for-business)
-- [ダッシュボード・ウェブ](https://dashboard.lipa.swiss)
-- [リパ・ビジネスサポート](https://help.lipa.swiss/business)
-- [リパ総合サポート】(https://help.lipa.swiss/Wallet)
+- Lipa for Business公式サイト
+- ダッシュボード・ウェブ
+- リパ・ビジネスサポート
+- リパ総合サポート
 - [リンクトイン・リパ](https://www.linkedin.com/company/getlipa)
 - [ツイッター @lipa_btc](https://twitter.com/lipa_btc)

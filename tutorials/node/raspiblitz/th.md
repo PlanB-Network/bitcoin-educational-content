@@ -21,7 +21,7 @@ RASPIBLITZ - วิธีการรัน Lightning และ Bitcoin Full Nod
 ## คู่มือการตั้งค่า Raspiblitz ของ Parman
 
 
-Raspiblitz เป็นระบบที่ยอดเยี่ยมสำหรับการรัน Bitcoin Node และแอปที่เกี่ยวข้อง ฉันแนะนำสิ่งนี้และ My Node node ให้กับผู้ใช้ส่วนใหญ่ (ควรมีสองโหนดเพื่อความซ้ำซ้อน) ข้อได้เปรียบหลักคือ Raspiblitz node เป็น “Free Open Source Software” ซึ่งแตกต่างจาก MyNode หรือ Umbrel [ทำไมถึงสำคัญ? Vlad Costa อธิบาย](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) คุณยังสามารถรัน RaspbiBlitz ด้วยการเชื่อมต่อ WiFi แทนที่จะเป็นอีเธอร์เน็ต – นี่คือ [คู่มือเสริม](https://armantheparman.com/headless-wifi/) สำหรับสิ่งนั้น (ฉันยังไม่พบวิธีทำเช่นนี้กับ MyNode)
+Raspiblitz เป็นระบบที่ยอดเยี่ยมสำหรับการรัน Bitcoin Node และแอปที่เกี่ยวข้อง ฉันแนะนำสิ่งนี้และ My Node node ให้กับผู้ใช้ส่วนใหญ่ (ควรมีสองโหนดเพื่อความซ้ำซ้อน) ข้อได้เปรียบหลักคือ Raspiblitz node เป็น “Free Open Source Software” ซึ่งแตกต่างจาก MyNode หรือ Umbrel [ทำไมถึงสำคัญ? Vlad Costea อธิบาย](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) คุณยังสามารถรัน RaspbiBlitz ด้วยการเชื่อมต่อ WiFi แทนที่จะเป็นอีเธอร์เน็ต – นี่คือ [คู่มือเสริม](https://armantheparman.com/headless-wifi/) สำหรับสิ่งนั้น (ฉันยังไม่พบวิธีทำเช่นนี้กับ MyNode)
 
 
 คุณสามารถซื้อโหนดสำเร็จรูปที่มาพร้อมกับหน้าจอขนาดเล็ก หรือคุณสามารถสร้างมันเอง (คุณไม่จำเป็นต้องมีหน้าจอ)
@@ -97,7 +97,7 @@ Raspiblitz เป็นระบบที่ยอดเยี่ยมสำห
 สำหรับ Windows นี่คือ [บทแนะนำง่ายๆ](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s)
 
 
-_UPDATE: pgp/gpg verification is now available. You’ll need Openoms’s public key. [Here](http://parman.org/downloadable/openoms.txt) it is (you might need incognito mode for the link to work – http, not https)_
+_UPDATE: pgp/gpg verification is now available. Current RaspiBlitz images are signed by rootzoll, not Openoms (key fingerprint: 92A746AE33A3C186D014BF5C1C73060C7C176461). The [official FAQ](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download) gives the key and the `gpg --verify` command._
 
 
 Mac/Linux

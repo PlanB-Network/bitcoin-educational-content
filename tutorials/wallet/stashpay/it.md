@@ -5,7 +5,7 @@ description: Il Bitcoin Wallet minimalista per tutti
 
 ![cover](assets/cover.webp)
 
-
+> **Avviso (ottobre 2026):** StashPay è stato dismesso. Il suo autore ha annunciato la fine il 26 luglio 2026 e l'applicazione ha chiuso il 31 agosto 2026; il sito web è offline ([leggi l'annuncio](https://blog.onionmill.com/p/sunsetting-stashpay)). Per recuperare il tuo portafoglio Liquid, importa la tua frase di recupero in Blockstream App. Conserviamo questa pagina come riferimento.
 
 L'esperienza dell'utente è un fattore chiave nell'adozione delle soluzioni Bitcoin in tutto il mondo. Fornire un'esperienza fluida, semplice e tecnicamente priva di ostacoli è la priorità per molti portafogli e piattaforme Exchange. A questo proposito, StashPay si distingue per il suo approccio minimalista, dimostrando allo stesso tempo la potenza del Lightning Network.
 
@@ -23,7 +23,7 @@ StashPay è un Wallet auto-custode di Lightning riconosciuto soprattutto per la 
 
 
 
-StashPay è un progetto open-source sviluppato in React Native e mira a risolvere il problema delle elevate commissioni di transazione anche con le transazioni sulla catena principale del protocollo Bitcoin. È disponibile come applicazione mobile su piattaforme Android e iOS tramite i link di download presenti sul [sito web](https://stashpay.me/).
+StashPay è un progetto open-source sviluppato in React Native e mira a risolvere il problema delle elevate commissioni di transazione anche con le transazioni sulla catena principale del protocollo Bitcoin. È disponibile come applicazione mobile su piattaforme Android e iOS tramite i link di download presenti sul sito web.
 
 
 

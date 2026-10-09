@@ -14,7 +14,7 @@ RASPIBLITZ - BTCセッションによるLightningおよびBitcoinフルノード
 
 ## ParmanのRaspiblitzセットアップガイド
 
-Raspiblitzは、ビットコインノードと関連アプリを実行するための優れたシステムです。私はほとんどのユーザーに、これとMyNodeノードを推奨します（理想的には冗長性のために2つのノードを持つべきです）。大きな利点の1つは、RaspiblitzノードがMyNodeやUmbrelとは異なり「Free Open Source Software」であることです。[なぜそれが重要なのか？ Vlad Costaが説明します。](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Raspiblitzは、イーサネットではなくWiFi接続でも実行できます – そのための[補足ガイド](https://armantheparman.com/headless-wifi/)があります。（MyNodeでこれを行う方法は見つかりませんでした）。
+Raspiblitzは、ビットコインノードと関連アプリを実行するための優れたシステムです。私はほとんどのユーザーに、これとMyNodeノードを推奨します（理想的には冗長性のために2つのノードを持つべきです）。大きな利点の1つは、RaspiblitzノードがMyNodeやUmbrelとは異なり「Free Open Source Software」であることです。[なぜそれが重要なのか？ Vlad Costeaが説明します。](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Raspiblitzは、イーサネットではなくWiFi接続でも実行できます – そのための[補足ガイド](https://armantheparman.com/headless-wifi/)があります。（MyNodeでこれを行う方法は見つかりませんでした）。
 
 既製のノードをミニスクリーン付きで購入することも、自分で構築することもできます（スクリーンは必要ありません）。
 
@@ -63,7 +63,7 @@ MyNodeノードを実行するのと全く同じ機材が必要です。一方�
 こちらは[Linux向けの役立つ動画ですが、Macにも適用されます](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK)。
 
 Windows用に、こちらは[簡単なチュートリアル](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s)です。
-_更新: pgp/gpg 検証が利用可能になりました。Openoms の公開鍵が必要です。[こちら](http://parman.org/downloadable/openoms.txt)です（リンクを機能させるにはシークレットモードが必要な場合があります – http、httpsではありません）_
+_更新: pgp/gpg 検証が利用可能になりました。現在の RaspiBlitz イメージは Openoms ではなく rootzoll が署名しています（鍵のフィンガープリント: 92A746AE33A3C186D014BF5C1C73060C7C176461）。鍵と `gpg --verify` コマンドは[公式 FAQ](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download)に記載されています。_
 Mac/Linux
 
 ファイルのダウンロードが完了するのを待ち（重要！）、次にターミナルを開き、ダウンロードしたファイルがある場所に移動し、以下のコマンドを入力してください…

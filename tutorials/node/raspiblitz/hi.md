@@ -96,7 +96,7 @@ Raspiblitz एक उत्कृष्ट प्रणाली है जो �
 विंडोज़ के लिए, यहाँ एक [सरल ट्यूटोरियल](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s) है।
 
 
-_अपडेट: pgp/gpg सत्यापन अब उपलब्ध है। आपको Openoms की सार्वजनिक कुंजी की आवश्यकता होगी। [यहाँ](http://parman.org/downloadable/openoms.txt) यह है (लिंक काम करने के लिए आपको गुप्त मोड की आवश्यकता हो सकती है – http, https नहीं)_
+_अपडेट: pgp/gpg सत्यापन अब उपलब्ध है। RaspiBlitz की मौजूदा इमेज पर rootzoll के हस्ताक्षर होते हैं, Openoms के नहीं (कुंजी का फिंगरप्रिंट: 92A746AE33A3C186D014BF5C1C73060C7C176461)। कुंजी और `gpg --verify` कमांड [आधिकारिक FAQ](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download) में दिए गए हैं।_
 मैक/लिनक्स
 
 

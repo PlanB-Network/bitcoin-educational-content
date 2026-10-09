@@ -519,13 +519,7 @@ Muri iyo menyu nyene, uzosanga kandi URI ya serivisi yawe ya Watchtower nimba wa
 
 
 
-Hariho Iminara y’Inderetsi myinshi iboneka kuri Internet. Nk’akarorero, [LN+ na Voltage bitanga Watchtower y’ubugwaneza](Watchtower) ushobora gufatanya nayo:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+Hariho Iminara y’Inderetsi myinshi iboneka kuri Internet. LN+ na Voltage vyahora bitanga Watchtower y’ubugwaneza, ariko ntikiboneka (Gitugutu 2026). Ubu LN+ itanga [Watch Swaps](https://lightningnetwork.plus/watch_swaps), aho abakoresha inode babiri bacungerana imiyoboro, kandi yasohoye [inyobozo ku Watchtower z’ubugwaneza](https://lightningnetwork.plus/posts/12).
 
 
 

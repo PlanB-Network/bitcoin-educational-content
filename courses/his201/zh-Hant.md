@@ -863,7 +863,7 @@ Bitcoin 的這種經濟引導作用從一開始就隨著挖礦的活動逐漸發
 
 當時，輕量級錢包（稱為「[SPV](https://planb.academy/resources/glossary/spv-node-light-node)」）並不存在，因此中本聰自己認為使用這種類型的軟體是可以接受的，儘管這種使用違反了 Bitcoin 核心的去中介化原則。2010 年 5 月 18 日，他在論壇上[寫道](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149)：
 
-> "與此同時，[vekja.net](http://vekja.net) 和 [www.mybitcoin.com](http://www.mybitcoin.com)等網站一直在嘗試使用基於帳戶的系統。&nbsp;你在一個網站上創建一個帳戶，把你的 Bitcoin 存放在那裡，並將它們轉入和轉出。&nbsp;在網站上創建一個帳戶比安裝軟件和學習使用它容易得多，而且對大多數人來說，這是一種更熟悉的方法。&nbsp;唯一的缺點是您必須信任該網站，但對於用於微額支付和雜項支出的小額金額來說，這也是沒問題的。&nbsp;這是一種很容易上手的方法，如果收到的金額變得更大，您可以轉用實際的 Bitcoin 軟體。
+> "與此同時，vekja.net 和 www.mybitcoin.com等網站一直在嘗試使用基於帳戶的系統。&nbsp;你在一個網站上創建一個帳戶，把你的 Bitcoin 存放在那裡，並將它們轉入和轉出。&nbsp;在網站上創建一個帳戶比安裝軟件和學習使用它容易得多，而且對大多數人來說，這是一種更熟悉的方法。&nbsp;唯一的缺點是您必須信任該網站，但對於用於微額支付和雜項支出的小額金額來說，這也是沒問題的。&nbsp;這是一種很容易上手的方法，如果收到的金額變得更大，您可以轉用實際的 Bitcoin 軟體。
 最後，在 5 月 19 日，一位名叫 Teppy 的使用者開始 [接受](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159) 他所管理的大型多人遊戲 *A Tale in the Desert* 的 Bitcoin。
 
 ### Bitcoin 價值的起源

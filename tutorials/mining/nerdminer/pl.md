@@ -19,7 +19,7 @@ Zanim przejdziemy do poszczególnych kroków, wymieńmy niezbędny sprzęt do je
 
 - a [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - a [USB-C power Supply](https://amzn.eu/d/gIOot90)
-- etui 3D: jeśli masz drukarkę 3D, możesz pobrać [plik 3D](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons), w przeciwnym razie możesz go kupić w [sklepie internetowym Silexperience](https://silexperience.company.site/NerdMiner_V2-p544379757).
+- etui 3D: jeśli masz drukarkę 3D, możesz pobrać [plik 3D](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons), w przeciwnym razie możesz go kupić w [sklepie internetowym Bitronics](https://bitronics.store/).
 - komputer PC z zainstalowaną przeglądarką Chrome
 - połączenie internetowe
 - a Bitcoin Address
@@ -95,7 +95,6 @@ W przypadku NerdMiners można wybrać połączenie z jedną z tych pul:
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Default Solo and open-source mining pool |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Maintained by CHMEX                      |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Maintained by djerfy                     |
 
 Po wybraniu puli należy wprowadzić Bitcoin Address, aby otrzymać nagrodę w przypadku (wyjątkowo) znalezienia bloku.
 
@@ -191,4 +190,4 @@ Oto kilka linków, jeśli chcesz dowiedzieć się więcej na ten temat:
 
 
 - [Strona projektu NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Pełna dokumentacja NerdMiners](https://bitwater.ch/nerd-miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

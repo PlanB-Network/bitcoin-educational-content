@@ -602,7 +602,6 @@ eSIM을 휴대폰 개인정보 보호를 위한 만병통치약으로 간주해�
 - [그래핀OS 공식 사용 가이드](https://grapheneos.org/usage) - 공식 웹사이트
 - [그래핀OS 포럼](https://discuss.grapheneos.org/) - 공식 웹사이트
 - [GrapheneOS 설정 마스터클래스](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - 'The Privacy Wayfinder'의 동영상
-- [그래핀OS 일반 팟캐스트](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - '워치맨 프라이버시'의 팟캐스트
 
 
 *이 튜토리얼은 [MIT 라이선스 하에 Bitcoiner.Guide의 BitcoinQnA](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md)에 게시된 원본 콘텐츠를 각색한 것으로, 최초 작성에 대한 모든 저작권은 해당 게시자에게 있습니다*

@@ -3,10 +3,9 @@ name: Boltz
 description: Prebacivanje između različitih Bitcoin slojeva uz održavanje kontrole.
 ---
 
-
 ![cover](assets/cover.webp)
 
-
+> **Upozorenje (oktobar 2026):** Boltz je obustavio sve zamene 3. avgusta 2026. nakon zloupotrebe više ranjivosti, a njegov sajt je van mreže. Linkovi i koraci u ovom uputstvu više ne rade. Ovu stranicu čuvamo kao referencu dok ne bude ažurirana.
 
 Od svog uvođenja 2009. godine, Bitcoin-ov peer-to-peer elektronski novčani sistem eksponencijalno je rastao, dajući život rešenjima koja danas omogućavaju da bude sistem koji možemo koristiti trenutno u našim svakodnevnim aktivnostima, posebno kroz Lightning Network.
 
@@ -20,7 +19,7 @@ Međutim, veliki problem je ostao između slojeva Bitcoin protokola: fluidna int
 
 
 
-[Boltz](https://boltz.Exchange) je ne-kustodijalna platforma idealna za svakoga ko želi da transakcioniše između različitih slojeva Bitcoin protokola:
+Boltz je ne-kustodijalna platforma idealna za svakoga ko želi da transakcioniše između različitih slojeva Bitcoin protokola:
 
 
 

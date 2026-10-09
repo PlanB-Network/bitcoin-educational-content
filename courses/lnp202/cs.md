@@ -415,7 +415,9 @@ Hlavní výhodou tohoto přístupu ve srovnání s běžným bleskovým depozit�
 
 
 
-Většina portfolií nabízejících tento typ funkcí spoléhá na [Boltz](https://boltz.exchange/) pro technickou část výměny.
+Většina portfolií nabízejících tento typ funkcí spoléhá na Boltz pro technickou část výměny.
+
+> **Poznámka (říjen 2026):** Boltz pozastavil všechny swapy 3. srpna 2026 a jeho web je mimo provoz. Peněženky, které se spoléhají na Boltz, již tuto funkci nemusí nabízet.
 
 
 

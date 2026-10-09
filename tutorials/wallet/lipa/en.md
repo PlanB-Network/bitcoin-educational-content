@@ -2,7 +2,10 @@
 name: Lipa
 description: Setting up and using the Lipa lightning mobile wallet
 ---
+
 ![cover](assets/cover.webp)
+
+> **Warning (October 2026):** The Lipa wallet shut down on 31 December 2025, and its publisher, lightning payment services ag, is in liquidation. The app can no longer be downloaded and the steps in this tutorial no longer work. We keep this page for reference until it is updated.
 
 A Bitcoin Lightning wallet is a mobile application that enables instant, low-cost transactions on Bitcoin's Lightning network. Unlike transactions on the main blockchain (on-chain), Lightning payments are near-instantaneous and require minimal fees, making them particularly suitable for small, everyday payments.
 
@@ -31,7 +34,7 @@ Key features include:
 The first step is to download the Lipa app. For the moment, it is only available on iOS :
 
 
-- [For Apple](https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
+- For Apple
 
 The Android version is currently under development and will be available soon.
 

@@ -408,7 +408,6 @@ GrapheneOS is a rabbit hole anyone could easily spend weeks going down. There's 
 - [GrapheneOS Official Usage Guide](https://grapheneos.org/usage) - Official Website
 - [GrapheneOS Forum](https://discuss.grapheneos.org/) - Official Website
 - [GrapheneOS Settings Masterclass](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video by 'The Privacy Wayfinder'
-- [GrapheneOS General Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast by 'Watchman Privacy'
 
 *This tutorial is an adaptation of the original content published by [BitcoinQnA on Bitcoiner.Guide under MIT license](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), to whom full credit goes for the initial writing.*
 

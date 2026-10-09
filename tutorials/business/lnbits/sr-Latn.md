@@ -116,7 +116,7 @@ Možete pronaći i video o [dockerizovanom podešavanju na VPS-u sa PostgreSQ, L
 [Više scenarija instalacije ovde](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
 
-Za čvorove softverskih paketa, molimo vas da pogledate njihovu specifičnu dokumentaciju o LNbits: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+Za čvorove softverskih paketa, molimo vas da pogledate njihovu specifičnu dokumentaciju o LNbits: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
 ### LNbits SaaS
@@ -207,12 +207,14 @@ Da biste šifrovali svoj macaroon, pokrenite `./venv/bin/python lnbits/wallets/m
 
 #### Lightning TipBot
 
+> **Upozorenje (oktobar 2026):** LightningTipBot i ln.tips su prestali sa radom; gašenje je najavljeno 29. aprila 2024. Ovaj izvor finansiranja više ne radi, osim ako ne hostujete sopstvenog bota.
+
 
 Da povežete svoj [Lightning Tipbot](https://t.me/LightningTipBot) sa Telegramom, potrebno je da postavite sledeći parametar:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://LN.tips
+  - `LNBITS_ENDPOINT`: `https://LN.tips`
   - `LNBITS_KEY`: Da biste dobili ključ, potrebno je da jednom pokrenete /api u privatnom četu sa LightningTipbot-om na Telegramu.
 
 
@@ -229,11 +231,13 @@ Više informacija pogledajte [IBEX API-Documentation](https://ibexpay-api.readme
 
 #### LNPay
 
-Da bi Invoice listener radio, morate imati javno dostupnu URL adresu u vašem LNbits i postaviti [LNPay webhook](https://dashboard.lnpay.co/webhook/) koji pokazuje na `<your LNbits host>/Wallet/webhook` sa događajem "Wallet Receive" i bez datog tajnog ključa. Postavka `https://mylnbits/Wallet/webhook` će biti krajnja URL adresa koja će biti obaveštena o svakoj uplati.
+> **Upozorenje (oktobar 2026):** Čini se da je LNPay prestao sa radom: domen lnpay.co više ne odgovara. Ovaj izvor finansiranja verovatno više nije upotrebljiv.
+
+Da bi Invoice listener radio, morate imati javno dostupnu URL adresu u vašem LNbits i postaviti LNPay webhook koji pokazuje na `<your LNbits host>/Wallet/webhook` sa događajem "Wallet Receive" i bez datog tajnog ključa. Postavka `https://mylnbits/Wallet/webhook` će biti krajnja URL adresa koja će biti obaveštena o svakoj uplati.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -537,7 +541,9 @@ Postoje dva načina za Exchange Sats sa onchain BTC na LN BTC (odnosno na LNbits
 ###### Putem spoljnog servisa za zamenu.
 
 
-Drugi korisnici koji nemaju pristup vašem LNb mogu koristiti uslugu zamene kao što su [Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) ili [ZigZag](https://zigzag.io/). Ovo je korisno ako pružate samo LNURL/LN fakture iz vaše LNbits instance, ali platiša ima samo onchain Sats pa će morati prvo da zamene te Sats na svojoj strani. Procedura je jednostavna: korisnik šalje onchain btc usluzi zamene i pruža LNURL / LN Invoice iz LNbits kao odredište zamene.
+Drugi korisnici koji nemaju pristup vašem LNb mogu koristiti uslugu zamene kao što su Boltz, [FixedFloat](https://fixedfloat.com/) ili [ZigZag](https://zigzag.io/). Ovo je korisno ako pružate samo LNURL/LN fakture iz vaše LNbits instance, ali platiša ima samo onchain Sats pa će morati prvo da zamene te Sats na svojoj strani. Procedura je jednostavna: korisnik šalje onchain btc usluzi zamene i pruža LNURL / LN Invoice iz LNbits kao odredište zamene.
+
+> **Upozorenje (oktobar 2026):** Boltz je 3. avgusta 2026. obustavio sve zamene nakon zloupotrebe više ranjivosti, a njegov sajt je van mreže. Boltz i Boltz ekstenzija za LNbits trenutno se ne mogu koristiti.
 
 
 ###### Korišćenje Onchain i Boltz LNbits ekstenzije.

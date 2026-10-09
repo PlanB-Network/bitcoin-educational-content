@@ -479,8 +479,10 @@ Wacha tuendelee kusakinisha C-Lightning.
 Kwa muhadhara huu, tutatumia toleo la hivi punde thabiti, k.m., 22.11.1.
 
 ```sh
-wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/clightning-v22.11.1.tar.gz
-sha256sum clightning-v22.11.1.tar.gz
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/clightning-v22.11.1.zip
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/SHA256SUMS
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/SHA256SUMS.asc
+sha256sum clightning-v22.11.1.zip
 # Verify the hash against the provided hash
 ```
 
@@ -490,7 +492,7 @@ Thibitisha kila mara uadilifu wa faili iliyopakuliwa na vitufe vya GPG.
 
 ```sh
 gpg --recv-keys <developer-key-id>
-gpg --verify clightning-v22.11.1.tar.gz.asc clightning-v22.11.1.tar.gz
+gpg --verify SHA256SUMS.asc SHA256SUMS
 ```
 
 **Sakinisha Vitegemezi na Unda kutoka kwa Msimbo wa Chanzo**
@@ -500,8 +502,8 @@ Sakinisha vitegemezi vinavyohitajika na uandae C-lightning kutoka kwa chanzo.
 ```sh
 sudo apt-get update
 sudo apt-get install -y autoconf automake build-essential git libtool libgmp-dev \
-libsqlite3-dev python3 python3-mako net-tools zlib1g-dev
-tar -xzf clightning-v22.11.1.tar.gz
+libsqlite3-dev python3 python3-mako net-tools zlib1g-dev unzip
+unzip clightning-v22.11.1.zip
 cd clightning-v22.11.1
 ./configure
 make

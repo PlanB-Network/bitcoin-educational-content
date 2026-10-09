@@ -2,8 +2,10 @@
 name: Lipa
 description: Lipa lightning mobil Wallet'ın kurulumu ve kullanımı
 ---
+
 ![cover](assets/cover.webp)
 
+> **Uyarı (Ekim 2026):** Lipa cüzdanı 31 Aralık 2025'te kapandı ve yayıncısı lightning payment services ag tasfiye sürecinde. Uygulama artık indirilemiyor ve bu rehberdeki adımlar artık çalışmıyor. Bu sayfayı güncellenene kadar başvuru amacıyla saklıyoruz.
 
 Bitcoin Lightning Wallet, Bitcoin'ün Lightning Network'i üzerinde anında, düşük maliyetli işlemler yapılmasını sağlayan bir mobil uygulamadır. Ana Blockchain (On-Chain) üzerindeki işlemlerin aksine, Lightning ödemeleri neredeyse anlıktır ve minimum ücret gerektirir, bu da onları özellikle küçük, günlük ödemeler için uygun hale getirir.
 
@@ -44,7 +46,7 @@ Temel özellikler şunlardır:
 
 
 
-- [Apple için](https://apps.apple.com/app/lipa-Bitcoin-lightning/id1602180066)
+- Apple için
 
 
 Android sürümü şu anda geliştirilme aşamasındadır ve yakında kullanıma sunulacaktır.

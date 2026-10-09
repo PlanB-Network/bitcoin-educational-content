@@ -28,7 +28,6 @@ Bitcoinを投資や投機の道具と考える人はまだ多いが、その生�
 
 
 - iOS経由[AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
-- アンドロイド via [プレイストア](https://play.google.com/store/apps/details?id=org.btcmap.app)
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) アンドロイド・オープンソース・アプリ・カタログ
 - プロジェクトのgithubから[apk android](https://github.com/teambtcmap/btcmap-android/releases/latest)を直接ダウンロードしてください。
 - ブラウザからウェブアプリ経由で（今日の見解）

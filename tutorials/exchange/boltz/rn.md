@@ -3,10 +3,9 @@ name: Boltz
 description: Guhindura hagati y’ibice bitandukanye vya Bitcoin mu gihe uguma ugenzura.
 ---
 
-
 ![cover](assets/cover.webp)
 
-
+> **Imburizi (Gitugutu 2026):** Boltz yarahagaritse uguhinduranya kwose ku wa 3 Myandagaro 2026 inyuma y'aho intege nke nyinshi zayo zikoreshejwe nabi, kandi urubuga rwayo ntirugikora. Amahuza n'intambwe biri muri iyi nyigisho ntibigikora. Uru rupapuro turugumije nk'icitegererezo gushika ruvuguruwe.
 
 Kuva yatangura gukoreshwa mu 2009, ubuhinga bwa Bitcoin bwo gutanga amahera mu buryo bw’ubuhinga bwa none bwarateye imbere cane, bugatanga ubuzima ku mirongo y’inyishu ubu butuma buba uburyo dushobora gukoresha ubwo nyene mu bikorwa vyacu vya misi yose, cane cane biciye kuri Lightning Network.
 
@@ -20,7 +19,7 @@ Ariko rero, hari ingorane ikomeye yasigaye hagati y’ibice vy’amasezerano ya 
 
 
 
-[Boltz](https://boltz.Exchange) ni urubuga rudashobora gukoreshwa n’abantu bose yipfuza gukorana hagati y’ibice bitandukanye vy’amasezerano ya Bitcoin:
+Boltz ni urubuga rudashobora gukoreshwa n’abantu bose yipfuza gukorana hagati y’ibice bitandukanye vy’amasezerano ya Bitcoin:
 
 
 

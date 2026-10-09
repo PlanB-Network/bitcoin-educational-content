@@ -519,13 +519,7 @@ Interface के ऊपरी दाहिनी ओर स्थित ती�
 
 
 
-ऑनलाइन कई वॉचटावर उपलब्ध हैं। उदाहरण के लिए, [LN+ और वोल्टेज एक परोपकारी Watchtower प्रदान करते हैं](https://lightningnetwork.plus/Watchtower) जिससे आप कनेक्ट कर सकते हैं:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+ऑनलाइन कई वॉचटावर उपलब्ध हैं। LN+ और Voltage पहले एक परोपकारी Watchtower प्रदान करते थे, लेकिन अब वह उपलब्ध नहीं है (अक्टूबर 2026)। LN+ अब [Watch Swaps](https://lightningnetwork.plus/watch_swaps) प्रदान करता है, जिसमें दो नोड ऑपरेटर एक-दूसरे के चैनलों की निगरानी करते हैं, और [परोपकारी Watchtowers की एक मार्गदर्शिका](https://lightningnetwork.plus/posts/12) प्रकाशित करता है।
 
 
 

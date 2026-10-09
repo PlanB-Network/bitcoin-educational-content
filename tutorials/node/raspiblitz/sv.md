@@ -20,7 +20,7 @@ RASPIBLITZ - Hur man kör en blixt och Bitcoin Full node av BTC-session
 ## Parman's Raspiblitz installationsguide
 
 
-Raspiblitz är ett utmärkt system för att köra en Bitcoin-node och tillhörande appar. Jag rekommenderar denna och MyNode-noden till de flesta användare (helst två noder för redundans). En stor fördel är att Raspiblitz-noden är "Free Open Source Software", till skillnad från MyNode eller Umbrel. [Varför är det viktigt? Vlad Costa förklarar.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Du kan också köra Raspiblitz med en WiFi-anslutning istället för ethernet – här är en [kompletterande guide](https://armantheparman.com/headless-wifi/) för det. (Jag har inte hittat något sätt att göra detta med MyNode).
+Raspiblitz är ett utmärkt system för att köra en Bitcoin-node och tillhörande appar. Jag rekommenderar denna och MyNode-noden till de flesta användare (helst två noder för redundans). En stor fördel är att Raspiblitz-noden är "Free Open Source Software", till skillnad från MyNode eller Umbrel. [Varför är det viktigt? Vlad Costea förklarar.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Du kan också köra Raspiblitz med en WiFi-anslutning istället för ethernet – här är en [kompletterande guide](https://armantheparman.com/headless-wifi/) för det. (Jag har inte hittat något sätt att göra detta med MyNode).
 
 
 Du kan köpa en färdig nod med en monterad miniskärm, eller så kan du bygga den själv (du behöver ingen skärm).
@@ -96,7 +96,7 @@ Här är en [användbar video för Linux, men den gäller även för Mac](https:
 För Windows, här är en [enkel handledning](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
 
-_UPPDATERING: pgp/gpg-verifiering är nu tillgänglig. Du behöver Openoms offentliga nyckel. [Här](http://parman.org/downloadable/openoms.txt) är den (du kan behöva inkognitoläge för att länken ska fungera – http, inte https)_
+_UPPDATERING: pgp/gpg-verifiering är nu tillgänglig. Dagens RaspiBlitz-avbilder är signerade av rootzoll, inte av Openoms (nyckelns fingeravtryck: 92A746AE33A3C186D014BF5C1C73060C7C176461). [Den officiella FAQ:n](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download) anger nyckeln och kommandot `gpg --verify`._
 Mac/Linux
 
 

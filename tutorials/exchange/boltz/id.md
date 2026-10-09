@@ -3,10 +3,9 @@ name: Boltz
 description: Tukar-menukar di antara lapisan Bitcoin yang berbeda dengan tetap mempertahankan kontrol.
 ---
 
-
 ![cover](assets/cover.webp)
 
-
+> **Peringatan (Oktober 2026):** Boltz menangguhkan semua swap pada 3 Agustus 2026 setelah beberapa kerentanan dieksploitasi, dan situs webnya tidak dapat diakses. Tautan dan langkah dalam tutorial ini tidak lagi berfungsi. Kami menyimpan halaman ini sebagai referensi sampai diperbarui.
 
 Sejak diluncurkan pada tahun 2009, sistem uang elektronik peer-to-peer Bitcoin telah berkembang secara eksponensial, memberikan solusi yang saat ini memungkinkannya menjadi sistem yang dapat kita gunakan secara instan dalam kegiatan sehari-hari, terutama melalui Lightning Network.
 
@@ -20,7 +19,7 @@ Namun, masalah utama tetap ada di antara lapisan protokol Bitcoin: interoperabil
 
 
 
-[Boltz](https://boltz.Exchange) adalah platform non-kustodian yang ideal bagi siapa saja yang ingin bertransaksi di antara berbagai lapisan protokol Bitcoin:
+Boltz adalah platform non-kustodian yang ideal bagi siapa saja yang ingin bertransaksi di antara berbagai lapisan protokol Bitcoin:
 
 
 

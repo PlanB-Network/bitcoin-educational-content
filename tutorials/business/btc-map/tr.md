@@ -28,7 +28,6 @@ Mevcut:
 
 
 - iOS üzerinden [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
-- Android [Play Store](https://play.google.com/store/apps/details?id=org.btcmap.app) aracılığıyla
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) android açık kaynak uygulama kataloğu
 - apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) dosyasını doğrudan projenin github adresinden indirerek
 - tarayıcınızdan web uygulaması aracılığıyla (bugünkü görüşümüz)

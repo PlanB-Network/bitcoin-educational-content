@@ -5,7 +5,7 @@ description: Bitcoin ja Lightning makselahendused kaupmeestele
 
 ![cover](assets/cover.webp)
 
-
+> **Hoiatus (oktoober 2026):** Lipa for Business suleti 2026. aasta märtsi keskel ja selle väljaandja lightning payment services ag on likvideerimisel. Selle juhendi lingid ja sammud ei tööta enam. Säilitame selle lehe viitena, kuni seda uuendatakse.
 
 Kaupmehed on nüüd üha enam huvitatud Bitcoin maksete vastuvõtmisest Lightning Network kaudu. Erinevalt traditsioonilistest krediitkaardimaksetest, millega kaasnevad kõrged tasud ja pikad arveldusajad, on Lightning-tehingud praktiliselt kohesed, nende puhul ei toimu tagasipööramisi ja nende puhul säilib kliendi konfidentsiaalsus.
 
@@ -267,9 +267,9 @@ Selle mittekaitstav ja privaatsussõbralik olemus koos professionaalsete haldusv
 
 
 
-- [Lipa for Business ametlikul kodulehel](https://lipa.swiss/en/for-business)
-- [Dashboard web](https://dashboard.lipa.swiss)
-- [Lipa Support for Business](https://help.lipa.swiss/business)
-- [Lipa General Support](https://help.lipa.swiss/Wallet)
+- Lipa for Business ametlikul kodulehel
+- Dashboard web
+- Lipa Support for Business
+- Lipa General Support
 - [LinkedIn Lipa](https://www.linkedin.com/company/getlipa)
 - [Twitter @lipa_btc](https://twitter.com/lipa_btc)

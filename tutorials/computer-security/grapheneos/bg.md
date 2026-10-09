@@ -602,7 +602,6 @@ GrapheneOS е заешка дупка, в която всеки може да п
 - [Официално ръководство за използване на GrapheneOS](https://grapheneos.org/usage) - Официален уебсайт
 - [GrapheneOS Forum](https://discuss.grapheneos.org/) - Официален уебсайт
 - [Майсторски клас за настройки на GrapheneOS](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Видеоклип от "The Privacy Wayfinder
-- [GrapheneOS Общ подкаст](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Подкаст от 'Watchman Privacy'
 
 
 *Този урок е адаптация на оригиналното съдържание, публикувано от [BitcoinQnA на Bitcoiner.Guide под лиценз MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), на когото се полагат всички заслуги за първоначалното написване.*

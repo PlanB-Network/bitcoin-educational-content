@@ -213,7 +213,9 @@ Le principe est le suivant : vos fonds restent en Bitcoin on-chain ou sur Liquid
 
 L’avantage majeur de cette approche, par rapport à un portefeuille Lightning custodial classique, est que vous restez en possession de vos fonds à 100 % à chaque instant. Les bitcoins sont dans votre portefeuille on-chain ou Liquid, avec votre propre [phrase mnémonique](https://planb.academy/resources/glossary/seed). Même pendant le swap, vous restez en possession de vos fonds, car le swap est atomique. Il repose sur un mécanisme cryptographique qui garantit qu’il n’existe que deux issues possibles : soit le swap réussit entièrement, soit il échoue et le service ne peut pas s’approprier vos fonds.
 
-La plupart des portefeuilles qui proposent ce type de fonctionnalité s’appuient sur [Boltz](https://boltz.exchange/) pour la partie technique du swap.
+La plupart des portefeuilles qui proposent ce type de fonctionnalité s’appuient sur Boltz pour la partie technique du swap.
+
+> **Note (octobre 2026) :** Boltz a suspendu tous ses swaps le 3 août 2026 et son site est hors ligne. Les portefeuilles qui s'appuient sur Boltz peuvent ne plus proposer cette fonctionnalité.
 
 Cette solution présente aussi des avantages intéressants en termes de confidentialité, surtout lorsqu’elle est couplée à Liquid. Pour un débutant, c’est également très simple à mettre en place et à sauvegarder : une phrase mnémonique classique, pas de canaux, pas de liquidité à équilibrer...
 

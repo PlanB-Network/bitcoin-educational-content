@@ -701,7 +701,7 @@ Bitcoin 是分散式的，因此自然任何人都可以隨心所欲。
 
 
 
-- [ ] *提示：製作一個以倫敦大橋和大笨鐘為背景的 Bitcoin 標誌。未來感* - [連結](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *提示：製作一個以倫敦大橋和大笨鐘為背景的 Bitcoin 標誌。未來感*
 
 
 
@@ -714,7 +714,7 @@ Bitcoin 是分散式的，因此自然任何人都可以隨心所欲。
 
 
 
-- [ ] *提示：讓第四個更真實* - [連結](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *提示：讓第四個更真實*
 
 
 
@@ -732,7 +732,7 @@ Bitcoin 是分散式的，因此自然任何人都可以隨心所欲。
 
 
 
-- [ ] *提示：為「倫敦 Bitcoin Meetup」創造英式簡潔風格的標誌* - [連結](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *提示：為「倫敦 Bitcoin Meetup」創造英式簡潔風格的標誌*
 
 
 
@@ -1392,7 +1392,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 
 
 - [Btcmap.org](https://btcmap.org/)，一個每天更新兩張地圖的網站：**[接受Bitcoin的企業世界地圖](https://btcmap.org/map)**和**[世界社區地圖](https://btcmap.org/communities/map)**。許多比特幣玩家會定期查看這些地圖，無論他們是在旅行還是日常生活中，都會去認識新朋友或找地方花他們的[Sats](https://planb.academy/resources/glossary/satoshi-sat)。Btcmap 是全球的參考，在那裡列出您的社群對於能見度是非常重要的。
-- [BitcoinerEvents](https://www.bitcoinerevents.com/)，一個由比特幣玩家為比特幣玩家創建的網站。 **它可以讓你張貼你的社區即將發生的事件**。但是在法國，它仍然沒有被廣泛使用。
+- BitcoinerEvents，一個由比特幣玩家為比特幣玩家創建的網站。 **它可以讓你張貼你的社區即將發生的事件**。但是在法國，它仍然沒有被廣泛使用。 **註（2026年10月）：** 該網站目前已無法存取。[BitcoinOnly Events](https://bitcoinonly.events/) 是一個仍在運作的同類活動行事曆。
 - 依您的國家而定，可能會有其他當地活動。例如在法國，就有 [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/)，每月**列出數十項 Bitcoin 活動**。因此，如果您尚未在 Twitter 上追蹤他們或聯絡他們以分享您的社群與活動資訊，現在正是時候！**為了讓法文活動行事曆保持更新，如果所有法文 Bitcoin 社群都能養成以下習慣，那將會非常棒：**
     - 在Twitter上提及@bitcoinpointfr的每一個新的社區活動
     - 在他們的 Telegram 群組中釘選新的活動公告。
@@ -1412,7 +1412,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 
 雖然最後兩個平台可以幫助提高知名度，但在建立社群時並不建議使用，原因很簡單，因為它們不是免費的。
 
-**在 [btcmap.org](https://btcmap.org/)、[BitcoinerEvents](https://www.bitcoinerevents.com/) 以及法國社群的 [Bitcoin.fr](https://Bitcoin.fr) 上開始列名是綽綽有餘的**。
+**在 [btcmap.org](https://btcmap.org/)、[BitcoinOnly Events](https://bitcoinonly.events/) 以及法國社群的 [Bitcoin.fr](https://Bitcoin.fr) 上開始列名是綽綽有餘的**。
 
 
 恭喜您！您的**社群已建立**，您的**視覺設計已準備就緒**，您的**目標已設定**，您的**溝通管道已就位**，您的**社交網路已啟動**，您的**能見度策略已決定**。

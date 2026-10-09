@@ -519,13 +519,7 @@ ERROR [teosd] Not enough blocks to start the tower (required: 100). Mine at leas
 
 
 
-网上有多个守望先锋。例如，[LN+ 和 Voltage 提供利他的 Watchtower](https://lightningnetwork.plus/Watchtower)，您可以与之连接：
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+网上有多个守望先锋。LN+ 和 Voltage 曾提供一个利他的 Watchtower，但它已不再可用（2026 年 10 月）。LN+ 现在提供 [Watch Swaps](https://lightningnetwork.plus/watch_swaps)，由两位节点运营者互相监视对方的通道，并发布了一份[利他 Watchtower 指南](https://lightningnetwork.plus/posts/12)。
 
 
 

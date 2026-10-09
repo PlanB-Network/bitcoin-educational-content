@@ -5,7 +5,7 @@ description: Breez 让您的企业轻松收取比特币付款。
 
 ![cover](assets/cover.webp)
 
-
+> **警告（2026年10月）：** Breez 已于 2026 年将其旧版移动应用（Breez: Lightning Client & POS）从应用商店下架，并关闭了用户的通道。本教程中的下载链接和操作步骤已不再有效。原有用户可以使用 [breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery) 工具取回资金。 在更新之前，我们保留此页面以供参考。
 
 自 COVID-19 大流行以来，非接触式数字支付已经变得非常普遍，甚至在最小的商店也是如此。在此期间，许多企业发现了比特币现金解决方案的实用性，使他们能够接收来自世界各地的付款。然而，这些解决方案有时很难使用，或者不适合小型企业。在本教程中，我们将介绍 Breez 支付终端，它是一种易于使用的解决方案，能让你完全控制比特币的管理。
 
@@ -15,7 +15,7 @@ description: Breez 让您的企业轻松收取比特币付款。
 
 
 
-Breez POS 是 Breez wallet 提供的一项自我保管服务。这项服务的作用是让商家能够通过 Bitcoin 收款，同时保留一个简单的界面，与各种闪电钱包非常相似。Breez POS 可在 [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) 和 [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS) 下载平台上下载。
+Breez POS 是 Breez wallet 提供的一项自我保管服务。这项服务的作用是让商家能够通过 Bitcoin 收款，同时保留一个简单的界面，与各种闪电钱包非常相似。Breez POS 可在 Google Play Store (Android) 和 App Store (iOS) 下载平台上下载。
 
 
 

@@ -5,7 +5,7 @@ description: Bitcoin og Lightning-betalingsløsninger for selgere
 
 ![cover](assets/cover.webp)
 
-
+> **Advarsel (oktober 2026):** Lipa for Business ble lagt ned i midten av mars 2026, og utgiveren, lightning payment services ag, er under avvikling. Lenkene og trinnene i denne veiledningen fungerer ikke lenger. Vi beholder denne siden som referanse til den blir oppdatert.
 
 Forhandlere er nå i økende grad interessert i å akseptere Bitcoin-betalinger via Lightning Network. I motsetning til tradisjonelle kredittkortbetalinger, som innebærer høye gebyrer og lange oppgjørstider, er Lightning-transaksjoner så å si øyeblikkelige, er ikke gjenstand for tilbakeføringer og ivaretar kundenes konfidensialitet.
 
@@ -267,9 +267,9 @@ Den ikke-frihetsberøvende, personvernvennlige naturen, kombinert med profesjone
 
 
 
-- [Lipa for Business offisielle nettside](https://lipa.swiss/en/for-business)
-- [Dashbord web](https://dashboard.lipa.swiss)
-- [Lipa Support for Business](https://help.lipa.swiss/business)
-- [Lipa General Support](https://help.lipa.swiss/Wallet)
+- Lipa for Business offisielle nettside
+- Dashbord web
+- Lipa Support for Business
+- Lipa General Support
 - [LinkedIn Lipa](https://www.linkedin.com/company/getlipa)
 - [Twitter @lipa_btc](https://twitter.com/lipa_btc)

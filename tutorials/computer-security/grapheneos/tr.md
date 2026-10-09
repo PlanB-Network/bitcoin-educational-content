@@ -601,7 +601,6 @@ GrapheneOS, herkesin kolayca haftalarını harcayabileceği bir tavşan deliğid
 - [GrapheneOS Resmi Kullanım Kılavuzu](https://grapheneos.org/usage) - Resmi Web Sitesi
 - [GrapheneOS Forum](https://discuss.grapheneos.org/) - Resmi Web Sitesi
 - [GrapheneOS Ayarları Masterclass](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - 'The Privacy Wayfinder' tarafından hazırlanan video
-- [GrapheneOS Genel Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - 'Watchman Privacy' tarafından hazırlanan Podcast
 
 
 *Bu eğitim, [BitcoinQnA tarafından Bitcoiner.Guide üzerinde MIT lisansı altında yayınlanan](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) orijinal içeriğin bir uyarlamasıdır ve ilk yazım çalışmasının tüm kredisi ona aittir.*

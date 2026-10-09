@@ -566,6 +566,8 @@ Bitcoin 거래가 첫 번째 확인을 받으면 공급자가 자동으로 라�
 
 ## 스왑마켓과 볼츠: 차이점은 무엇인가요?
 
+> **참고 (2026년 10월):** Boltz Exchange는 2026년 8월 3일에 모든 스왑을 중단했으며, 웹사이트는 오프라인 상태입니다. 이 제공업체는 SwapMarket에서 더 이상 이용하지 못할 수 있습니다.
+
 
 
 ### Boltz: 기술 대 서비스
@@ -649,5 +651,5 @@ https://planb.academy/tutorials/exchange/centralized/zeus-swap-b6732907-b5d8-43e
 
 
 
-- [볼츠 Exchange](https://boltz.exchange) - 오리지널 아토믹 스왑 서비스
+- 볼츠 Exchange - 오리지널 아토믹 스왑 서비스
 - [제우스 스왑](https://zeusln.com) - 라이트닝 스왑 제공자

@@ -519,13 +519,7 @@ ERROR [teosd] Not enough blocks to start the tower (required: 100). Mine at leas
 
 
 
-В интернет има няколко Наблюдателни кули. Например, [LN+ и Voltage предлагат алтруистична Watchtower](https://lightningnetwork.plus/Watchtower), към която можете да се свържете:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+В интернет има няколко Наблюдателни кули. LN+ и Voltage предлагаха алтруистична Watchtower, но тя вече не е достъпна (октомври 2026 г.). Сега LN+ предлага [Watch Swaps](https://lightningnetwork.plus/watch_swaps), при които двама оператори на възли наблюдават взаимно каналите си, и публикува [ръководство за алтруистични Watchtower](https://lightningnetwork.plus/posts/12).
 
 
 

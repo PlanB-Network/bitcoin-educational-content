@@ -5,6 +5,8 @@ description: Memasang dan menggunakan node Bitcoin RoninDojo milikmu.
 ---
 ***PERINGATAN:** Menyusul penangkapan pendiri Samourai Wallet dan penyitaan server mereka pada 24 April, beberapa fitur RoninDojo, seperti Whirlpool, tidak lagi beroperasi. Namun, ada kemungkinan alat-alat ini dapat dipulihkan atau diluncurkan kembali dengan cara yang berbeda dalam beberapa minggu mendatang. Selain itu, karena kode RoninDojo dihosting di GitLab Samourai, yang juga disita, saat ini tidak mungkin untuk mengunduh kode secara remote. Tim RoninDojo kemungkinan sedang bekerja untuk menerbitkan ulang kode tersebut.*
 
+> **Pembaruan (Oktober 2026):** RoninDojo telah menerbitkan ulang kodenya di platform miliknya sendiri ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) dan kini sudah versi 3. Tutorial ini menjelaskan versi yang lebih lama: beberapa tautan dan perintah sudah tidak berfungsi. Untuk prosedur terkini, lihat dokumentasi resmi: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 _Kami mengikuti perkembangan kasus ini serta perkembangan terkait alat-alat yang terkait. Tenang saja, kami akan memperbarui tutorial ini seiring dengan tersedianya informasi baru._
 
 _Tutorial ini disediakan hanya untuk tujuan pendidikan dan informasi. Kami tidak mendukung atau mendorong penggunaan alat-alat ini untuk tujuan kriminal. Tanggung jawab setiap pengguna untuk mematuhi hukum di yurisdiksi mereka._
@@ -57,9 +59,11 @@ Sekarang setelah kita bisa menggambarkan RoninDojo, mari kita lihat bagaimana ca
 
 Untuk memilih mesin yang akan menjadi host dan menjalankan RoninDojo, kamu punya beberapa pilihan.
 
-Seperti yang dijelaskan sebelumnya, pilihan termudah adalah memesan Tanto, mesin plug-and-play yang dirancang khusus untuk tujuan ini. Untuk memesannya, kunjungi di sini: [link](https://shop.ronindojo.io/product-category/nodes/).
+Seperti yang dijelaskan sebelumnya, pilihan termudah adalah memesan Tanto, mesin plug-and-play yang dirancang khusus untuk tujuan ini.
 
-Karena tim RoninDojo memproduksi kode sumber terbuka, kamu juga bisa mengimplementasikan RoninDojo pada mesin lain. Kamu bisa menemukan versi terbaru dari wizard instalasi di halaman ini: [link](https://ronindojo.io/downloads), dan versi terbaru dari kode di halaman ini: [link](https://code.samourai.io/ronindojo/RoninDojo).
+> **Catatan (Oktober 2026):** RoninDojo tampaknya tidak lagi menjual Tanto, dan toko daringnya sudah tidak aktif. Lihat daftar perangkat keras yang kompatibel: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
+
+Karena tim RoninDojo memproduksi kode sumber terbuka, kamu juga bisa mengimplementasikan RoninDojo pada mesin lain. Kamu bisa menemukan versi terbaru dari wizard instalasi di halaman ini: [link](https://ronindojo.io/downloads), dan versi terbaru dari kode di halaman ini: [link](https://git.ronindojo.io/Ronin/monorepo).
 
 Secara pribadi, aku menginstalnya pada Raspberry Pi 4 8GB dan semuanya berfungsi dengan sempurna.
 
@@ -155,6 +159,8 @@ Di terminal, akan terlihat seperti ini:
 ![SSH Connection to RoninOS](assets/10.webp)
 
 Kamu sekarang terhubung ke mesin kamu, yang saat ini hanya memiliki RoninOS. Sekarang kamu perlu menginstal RoninDojo di atasnya.
+
+> **Catatan (Oktober 2026):** Perintah di bawah ini sudah tidak berfungsi: GitLab milik Samourai (code.samourai.io) disita pada 24 April 2024. RoninDojo kini menyimpan kodenya di sini: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Untuk prosedur instalasi terkini, lihat [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
 
 Unduh versi terbaru RoninDojo dengan memasukkan perintah berikut:
 

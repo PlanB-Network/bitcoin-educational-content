@@ -106,7 +106,7 @@ Android 使用者也有其他選擇：
 - 存取「Bitcoin Bull Exchange」以進行「購買、銷售或付款」（這取決於司法管轄區，可能需要 KYC）。
 - 在錢包間轉移資金
 - `Secure Bitcoin` 等於 Onchain Bitcoin Wallet
-- 透過 Lightning- / Liquid Network 進行「即時付款」 *(註：Bull Bitcoin Wallet 可透過 Lightning 進行付款和收款。由於透過 [*Boltz exchange](https://boltz.exchange/) 的自動交換，透過 Lightning 收到的資金會儲存在 [*Liquid network](https://liquid.net/) (Wallet Instant Payments 中)。這使您能夠與 Lightning 進行互動，而無需管理流動資金渠道，同時保持自我託管。)* *
+- 透過 Lightning- / Liquid Network 進行「即時付款」 *(註：Bull Bitcoin Wallet 可透過 Lightning 進行付款和收款。由於透過 Boltz exchange 的自動交換，透過 Lightning 收到的資金會儲存在 [*Liquid network](https://liquid.net/) (Wallet Instant Payments 中)。這使您能夠與 Lightning 進行互動，而無需管理流動資金渠道，同時保持自我託管。)* *
 - 資金的 「發送 」和 "接收
 
 
@@ -418,6 +418,8 @@ liquidnetwork:lq1qqdhgs7w537nun55a5sdy4gxkd08pclk3d7v4qz36sy4xp0cq6gvl52fcfv7kdg
 
 
 
+> **注意（2026年10月）：** Boltz 已於 2026 年 8 月 3 日暫停所有兌換，其網站已下線。Bull Bitcoin Wallet 的 Lightning 支付依賴 Boltz，可能已無法使用。
+
 Bull Bitcoin Wallet 也可讓您透過 Lightning Network 收發付款。其主要特點是透過 Lightning 收到的資金會自動交換並儲存在您的 `Instant Payments Wallet` 內的 `Liquid Network`。這項服務由 `Boltz`提供。這種設計使您能夠享受 Lightning 的速度和低成本，而無需管理流動資金渠道的複雜性，同時保持您資金的完全自我託管。雖然這種混合方法是自我託管，避免了管理渠道的複雜性，但它引入了第三方服務（Boltz），小額的交換費，並依賴Liquid Network的功能聯盟作為關鍵持有人，這與傳統的非託管Lightning wallet不同，您可以管理自己的渠道。您可以在此瞭解更多關於 Liquid 及其管理模式的資訊：
 
 
@@ -508,6 +510,8 @@ Liquid Network`專為快速、保密的交易而設計，費用極低。當您�
 
 *請注意，最低金額和費用適用。
 
+
+> **注意（2026年10月）：** Boltz 已於 2026 年 8 月 3 日暫停所有兌換，其網站已下線。Bull Bitcoin Wallet 的 Lightning 支付依賴 Boltz，可能已無法使用。
 
 Bull Bitcoin Wallet通過從您的`Instant Payments Wallet`（Liquid上）提取資金並通過`Boltz`進行交換來發送閃電付款。這種混合方式可完全自行保管，並避免管理專用 Lightning 通道所需的高昂 on-chain 費用，但需要支付「交換費用」。若要成本最低，可直接發送至收件人的 Liquid 位址，如果他們也使用 Bull Bitcoin wallet。
 

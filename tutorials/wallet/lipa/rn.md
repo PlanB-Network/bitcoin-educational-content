@@ -2,8 +2,10 @@
 name: Lipa
 description: Gushinga no gukoresha telefone ngendanwa y’umuravyo ya Lipa Wallet.
 ---
+
 ![cover](assets/cover.webp)
 
+> **Imburi (Gitugutu 2026):** Lipa Wallet yahagaze ku wa 31 Kigarama 2025, kandi ishirahamwe ryayikoze, lightning payment services ag, ririko rirasenywa. Porogarama ntigishobora gukurwako kandi intambwe zo muri iyi nyigisho ntizigikora. Tugumije uru rupapuro nk'icitegererezo gushika ruvugururwe.
 
 Bitcoin Lightning Wallet ni porogaramu yo kuri telefone ngendanwa ishobora gukoresha ubwo nyene, ku giciro gito kuri Lightning Network ya Bitcoin. Mu buryo butandukanye n’ibikorwa vyo ku Blockchain (On-Chain) nyamukuru, amahera y’umuravyo ari hafi y’aho nyene kandi asaba amahera makeyi, bikaba bituma akwiriye canecane amahera makeyi, y’umusi ku musi.
 
@@ -44,7 +46,7 @@ Intambwe ya mbere ni ugukuraho porogarama ya Lipa. Kugeza ubu, iboneka kuri iOS 
 
 
 
-- [Ku bwa Pome](iporogarama.
+- Ku bwa Pome
 
 
 Verisiyo ya Android ubu iriko irategurwa kandi izoboneka vuba.

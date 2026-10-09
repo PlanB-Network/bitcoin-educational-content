@@ -301,11 +301,7 @@ Dans le même menu, vous trouverez ensuite l’URI de votre service Watchtower s
 
 ![Image](assets/fr/05.webp)
 
-Il existe plusieurs Watchtowers disponibles en ligne. Par exemple, [LN+ et Voltage proposent une Watchtower altruiste](https://lightningnetwork.plus/watchtower) à laquelle vous pouvez vous connecter :
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+Il existe plusieurs Watchtowers disponibles en ligne. LN+ et Voltage proposaient une Watchtower altruiste, mais elle n’est plus disponible (octobre 2026). LN+ propose maintenant les [Watch Swaps](https://lightningnetwork.plus/watch_swaps), où deux opérateurs de nœud surveillent chacun les canaux de l’autre, et publie un [guide des Watchtowers altruistes](https://lightningnetwork.plus/posts/12).
 
 ![Image](assets/fr/06.webp)
 

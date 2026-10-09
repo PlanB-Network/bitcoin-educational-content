@@ -701,7 +701,7 @@ Pokud chcete navrhnout futuristické logo pro setkání "Bitcoin London", může
 
 
 
-- [ ] *Prompt: Vytvořte logo Bitcoin s Londýnským mostem a Big Benem v pozadí. Futuristické* - [Odkaz](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *Prompt: Vytvořte logo Bitcoin s Londýnským mostem a Big Benem v pozadí. Futuristické*
 
 
 
@@ -714,7 +714,7 @@ Pokud první čtyři výsledky nejsou dostatečně realistické, upřesněte sv�
 
 
 
-- [ ] *Prompt: Udělejte čtvrtý mnohem realističtější* - [Odkaz](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *Prompt: Udělejte čtvrtý mnohem realističtější*
 
 
 
@@ -732,7 +732,7 @@ Pro čistší vzhled, například pro nálepku:
 
 
 
-- [ ] *Prompt: Vytvořte logo "London Bitcoin Meetup" v britském a čistém stylu* - [Odkaz](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Prompt: Vytvořte logo "London Bitcoin Meetup" v britském a čistém stylu*
 
 
 
@@ -1392,7 +1392,7 @@ Patří mezi ně:
 
 
 - [Btcmap.org](https://btcmap.org/)**, webové stránky se dvěma denně aktualizovanými mapami: **[světová mapa podniků přijímajících Bitcoin](https://btcmap.org/map)** a **[mapa světových komunit](https://btcmap.org/communities/map)**. Mnoho uživatelů bitcoinů tyto mapy pravidelně kontroluje, ať už cestují nebo se věnují každodennímu životu, aby se seznámili s novými lidmi nebo našli místa, kde mohou utratit své [Sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap je celosvětovou referencí a uvedení vaší komunity na ní je pro její zviditelnění nezbytné**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), webové stránky vytvořené bitcoinery pro bitcoinery. ** Umožňuje zveřejňovat nadcházející události vaší komunity**. Ve Francii však stále není příliš rozšířená.
+- BitcoinerEvents, webové stránky vytvořené bitcoinery pro bitcoinery. ** Umožňuje zveřejňovat nadcházející události vaší komunity**. Ve Francii však stále není příliš rozšířená. **Poznámka (říjen 2026):** tento web je mimo provoz. [BitcoinOnly Events](https://bitcoinonly.events/) je obdobný kalendář, který stále funguje.
 - v závislosti na vaší zemi mohou existovat další místní iniciativy. Například ve Francii existuje stránka [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), která každý měsíc **seznamuje desítky akcí Bitcoin**. Pokud jste je tedy ještě nesledovali na Twitteru nebo je nekontaktovali a nesdíleli s nimi informace o vaší komunitě a akcích, je nejvyšší čas! **Abyste pomohli udržovat francouzský kalendář akcí aktuální, bylo by skvělé, kdyby si všechny francouzské komunity Bitcoin zvykly:**
     - zmínka @bitcoinpointfr na Twitteru pro každou novou událost komunity
     - připínání nových oznámení o událostech ve skupině Telegram.
@@ -1412,7 +1412,7 @@ Podobně **[Orangepillapp](https://www.orangepillapp.com/)** je placená mobiln�
 
 Poslední dvě jmenované platformy sice mohou pomoci zvýšit viditelnost, ale při zakládání komunity se nedoporučují, a to jednoduše proto, že nejsou zdarma.
 
-**Začínáme s výpisem na [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) a pro francouzské komunity na [Bitcoin.fr](https://Bitcoin.fr) je více než dostačující**.
+**Začínáme s výpisem na [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) a pro francouzské komunity na [Bitcoin.fr](https://Bitcoin.fr) je více než dostačující**.
 
 
 Gratulujeme! Vaše **komunita je vytvořena**, vaše **vizuály jsou připraveny**, vaše **cíle jsou stanoveny**, vaše **komunikační kanály jsou zavedeny**, vaše **sociální sítě jsou spuštěny** a vaše **strategie zviditelnění je rozhodnuta**.

@@ -404,7 +404,6 @@ GrapheneOS on kaninkolo, johon kuka tahansa voisi helposti upota viikkoja. On ni
 - [GrapheneOS Virallinen Käyttöopas](https://grapheneos.org/usage) - Virallinen verkkosivusto
 - [GrapheneOS Foorumi](https://discuss.grapheneos.org/) - Virallinen verkkosivusto
 - [GrapheneOS Asetusten Mestarikurssi](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video 'The Privacy Wayfinder' toimesta
-- [GrapheneOS Yleinen Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast 'Watchman Privacy' toimesta
 
 *Tämä opetusmateriaali on mukautus alkuperäisestä sisällöstä, jonka julkaisi [BitcoinQnA Bitcoiner.Guide-sivustolla MIT-lisenssillä](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), jolle kuuluu koko kunnia alkuperäisestä kirjoitustyöstä.*
 

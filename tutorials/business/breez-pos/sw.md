@@ -5,7 +5,7 @@ description: Breez hurahisisha kukusanya malipo ya bitcoin kwa ajili ya biashara
 
 ![cover](assets/cover.webp)
 
-
+> **Onyo (Oktoba 2026):** Breez iliondoa programu yake ya awali ya simu (Breez: Lightning Client & POS) kwenye maduka ya programu mwaka 2026 na kufunga chaneli za watumiaji wake. Viungo vya kupakua na hatua za mafunzo haya havifanyi kazi tena. Watumiaji wa zamani wanaweza kurejesha fedha zao kwa zana ya [breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery). Tunahifadhi ukurasa huu kwa marejeo hadi utakaposasishwa.
 
 Tangu janga la COVID-19, malipo ya kidijitali bila mawasiliano yameenea, hata katika maduka madogo zaidi. Katika kipindi hiki, biashara nyingi zimegundua ufanisi wa ufumbuzi wa fedha za bitcoin, na kuwawezesha kupokea malipo kutoka duniani kote. Walakini, suluhisho hizi wakati mwingine ni ngumu kutumia au hazifai kwa biashara ndogo ndogo. Katika somo hili, tutakuwa tukiangalia kituo cha malipo cha Breez POS, suluhu ambayo inadhihirika kwa urahisi wa matumizi, huku tukikupa udhibiti kamili wa usimamizi wa bitcoin zako.
 
@@ -15,7 +15,7 @@ Tangu janga la COVID-19, malipo ya kidijitali bila mawasiliano yameenea, hata ka
 
 
 
-Breez POS ni huduma ya kujilinda inayotolewa na Breez wallet. Manufaa ya huduma hii ni kuwawezesha wafanyabiashara kukusanya malipo kupitia Bitcoin huku wakibaki kwenye kiolesura rahisi, kinachofanana sana na wallets mbalimbali za Lightning. Breez POS inapatikana kwenye [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) na [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS) mifumo ya upakuaji.
+Breez POS ni huduma ya kujilinda inayotolewa na Breez wallet. Manufaa ya huduma hii ni kuwawezesha wafanyabiashara kukusanya malipo kupitia Bitcoin huku wakibaki kwenye kiolesura rahisi, kinachofanana sana na wallets mbalimbali za Lightning. Breez POS inapatikana kwenye Google Play Store (Android) na App Store (iOS) mifumo ya upakuaji.
 
 
 

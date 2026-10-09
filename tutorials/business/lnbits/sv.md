@@ -116,7 +116,7 @@ Du kan också hitta en video på [dockerised Setup on a VPS with PostgreSQ, Ligh
 [Fler installationsscenarier här](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
 
-För programvarunoder i paket hänvisas till deras specifika dokumentation om LNbits: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+För programvarunoder i paket hänvisas till deras specifika dokumentation om LNbits: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
 ### LNbits SaaS
@@ -207,12 +207,14 @@ För att kryptera din macaroon, kör `./venv/bin/python lnbits/wallets/macaroon/
 
 #### Blixt TipBot
 
+> **Varning (oktober 2026):** LightningTipBot och ln.tips har lagts ned; nedläggningen tillkännagavs den 29 april 2024. Den här finansieringskällan fungerar inte längre, om du inte driver din egen bot.
+
 
 För att ansluta din [Lightning Tipbot](https://t.me/LightningTipBot) från Telegram måste du ställa in följande parameter:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsPlånbok**
-  - `LNBITS_ENDPOINT`: https://LN.tips
+  - `LNBITS_ENDPOINT`: `https://LN.tips`
   - `LNBITS_KEY`: För att få nyckeln måste du köra /api i en privat chatt med LightningTipbot på Telegram en gång.
 
 
@@ -229,11 +231,13 @@ Mer information finns i [IBEX API-Dokumentation](https://ibexpay-api.readme.io/r
 
 #### LNPay
 
-För att Invoice-lyssnaren ska fungera har du en allmänt tillgänglig URL i din LNbits och måste ställa in en [LNPay webhook](https://dashboard.lnpay.co/webhook/) som pekar på `<your LNbits host>/Wallet/webhook` med händelsen "Wallet Receive" och ingen hemlighet angiven. Inställningen `https://mylnbits/Wallet/webhook` kommer att vara slutpunktens url som får meddelande om alla betalningar.
+> **Varning (oktober 2026):** LNPay verkar ha lagts ned: domänen lnpay.co svarar inte längre. Den här finansieringskällan går troligen inte längre att använda.
+
+För att Invoice-lyssnaren ska fungera har du en allmänt tillgänglig URL i din LNbits och måste ställa in en LNPay webhook som pekar på `<your LNbits host>/Wallet/webhook` med händelsen "Wallet Receive" och ingen hemlighet angiven. Inställningen `https://mylnbits/Wallet/webhook` kommer att vara slutpunktens url som får meddelande om alla betalningar.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -537,7 +541,9 @@ Det finns två sätt att Exchange Sats från onchain BTC till LN BTC (respektive
 ###### Via en extern bytestjänst.
 
 
-Andra användare som inte har tillgång till din LNbits-instans kan använda en swapptjänst som [Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) eller [ZigZag](https://zigzag.io/). Detta är användbart om du endast tillhandahåller LNURL/LN-fakturor från din LNbits-instans, men en betalare endast har Sats i kedjan, så de måste byta dessa Sats först på sin sida. Förfarandet är enkelt: användaren skickar onchain btc till swap-tjänsten och tillhandahåller LNURL / LN Invoice från LNbits som destination för swapet.
+Andra användare som inte har tillgång till din LNbits-instans kan använda en swapptjänst som Boltz, [FixedFloat](https://fixedfloat.com/) eller [ZigZag](https://zigzag.io/). Detta är användbart om du endast tillhandahåller LNURL/LN-fakturor från din LNbits-instans, men en betalare endast har Sats i kedjan, så de måste byta dessa Sats först på sin sida. Förfarandet är enkelt: användaren skickar onchain btc till swap-tjänsten och tillhandahåller LNURL / LN Invoice från LNbits som destination för swapet.
+
+> **Varning (oktober 2026):** Boltz stoppade alla swappar den 3 augusti 2026 efter att flera sårbarheter utnyttjats, och webbplatsen är offline. Boltz och LNbits Boltz-tillägg kan inte användas för närvarande.
 
 
 ###### Med hjälp av Onchain och Boltz LNbits-tillägget.

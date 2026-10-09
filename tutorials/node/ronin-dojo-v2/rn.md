@@ -7,6 +7,8 @@ description: Gushiramwo urudodo rwawe rwa RoninDojo v2 Bitcoin kuri Raspberry Pi
 
 **IMBURIZO:** Inyuma y'aho abashinze Samourai Wallet bafashwe, ama server yabo bagafatwa kw'igenekerezo rya 24 Ndamukiza, hari ibintu bimwe bimwe vyo muri RoninDojo, nka Whirlpool, bitagikora. Ariko birashoboka ko ivyo bikoresho vyosubira gukoreshwa canke bikagaruka gukoreshwa mu buryo butandukanye mu ndwi ziza. Ikindi, kubera ko kode ya RoninDojo yari yashizwe kuri GitLab ya Samourai, na yo nyene yafashwe, ubu ntibishoboka ko umuntu ayikura kure. Amashirahamwe ya RoninDojo birashoboka ko ariko arakora ku bijanye no gusubira gusohora iyo kode.*
 
+> **Amakuru mashasha (Gitugutu 2026):** RoninDojo yarasubiye gusohora kode yayo ku rubuga rwayo bwite ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)), kandi ubu igeze kuri verisiyo ya 3. Iyi nyigisho isigura verisiyo ya kera: amahuza amwe n'amategeko amwe ntibigikora. Ku buryo bukoreshwa ubu, raba inyandiko zemewe: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 
 _Turiko turakurikirana cane iterambere ry’uru rubanza hamwe n’iterambere ryerekeye ibikoresho bijana. Nimwizere ko tuzosubiramwo iyi nyigisho uko amakuru mashasha azoboneka._
 
@@ -37,7 +39,9 @@ https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-
 Dojo mu ntango ni ugushirwa mu ngiro kw’inzira yuzuye ya Bitcoin, ishingiye kuri Bitcoin core, kandi yateguwe n’imigwi ya Samourai Wallet. Uwo muti ushobora gushirwa ku bikoresho vyose. Udakunze ibindi bikoresho vy'ishimikiro, Dojo yarahinduwe neza cane kugira ngo ikoreshe n'ibidukikije vy'ibikorwa vya Android vya Samourai Wallet. Naho RoninDojo, ni igikoresho gikoreshwa mu gufasha gushiramwo no gucunga Dojo, hamwe n’ibindi bikoresho bitandukanye vy’inyongera. Muri make, RoninDojo iratunganya ugushirwa mu ngiro kw’ishimikiro kwa Dojo mu gushiramwo ibikoresho vyinshi vy’inyongera, mu gihe yorohereza ugushiraho n’ugucungera kwayo.
 
 
-Ronin kandi itanga [umuti w'urudodo mu gasandugu, witwa "*Tanto*"](https://ronindojo.io/ru/ibikoresho), igikoresho gifise RoninDojo kimaze gushirwa kuri sisitemu yakoranijwe n'umugwi wabo. Tanto ni uburyo bwo kwishura, bushobora gushimisha abakunda kwirinda ingorane z’ubuhinga. Ariko kuko source code ya RoninDojo yuguruye, birashoboka kandi ko uyishira ku bikoresho vyawe bwite. Iyi nzira, ishobora gutuma umuntu agira ubutunzi bwinshi, naho biri ukwo, isaba ko habaho ibindi bikoresho, ivyo tuzobivuga muri iyi nyigisho.
+Ronin kandi itanga [umuti w'urudodo mu gasandugu, witwa "*Tanto*"](https://docs.ronindojo.io/hardware/tanto/), igikoresho gifise RoninDojo kimaze gushirwa kuri sisitemu yakoranijwe n'umugwi wabo. Tanto ni uburyo bwo kwishura, bushobora gushimisha abakunda kwirinda ingorane z’ubuhinga. Ariko kuko source code ya RoninDojo yuguruye, birashoboka kandi ko uyishira ku bikoresho vyawe bwite. Iyi nzira, ishobora gutuma umuntu agira ubutunzi bwinshi, naho biri ukwo, isaba ko habaho ibindi bikoresho, ivyo tuzobivuga muri iyi nyigisho.
+
+> **Icitonderwa (Gitugutu 2026):** Bisa n'uko RoninDojo itakigurisha Tanto, kandi iduka ryayo ryo kuri internet ntirigikora. Raba urutonde rw'ibikoresho bihuye: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
 
 RoninDojo ni Dojo, rero iremesha gushiramwo Whirlpool CLI mu buryo bworoshe mu nzira yawe ya Bitcoin kugira ngo ushireho ubumenyi bwiza cane bwa CoinJoin. Na Whirlpool CLI, birashoboka ko ukomeza gukora remix y’ama bitcoins yawe, amasaha 24 ku musi, imisi 7 ku ndwi, ataco usaba ko mudasobwa yawe bwite iguma ifunguye.
 
@@ -56,7 +60,9 @@ None ko twamaze gutanga urutonde rwa RoninDojo, reka turabe hamwe ingene twoshir
 
 ## Ni ibihe bikoresho wohitamwo kugira ngo ushiremwo RoninDojo v2?
 
-RoninDojo itanga ishusho yo gushiramwo porogarama yayo ku [RockPro64](https://ronindojo.io/ru/gukuraho). Ariko rero, inyigisho yacu yibanze ku buryo bwo gushiramwo n’amaboko kuri Raspberry Pi 4. Naho Raspberry Pi 5 iherutse gusohoka, kandi iyi nyigisho ikwiye kuba ihuye n’iyi modele nshasha, jewe ubwanje sinari bwaronke akaryo ko kuyigerageza, kandi nta n’inyishu nabonye ivuye mu kibano. Nkimara kuronka Pi 5 n’ibice bihuye, nzosubiramwo iyi nyigisho kugira ngo mumenye. Hagati aho, ndabahimiriza gushira imbere Pi 4, kuko ikora neza cane ku nzira yanje.
+RoninDojo itanga ishusho yo gushiramwo porogarama yayo ku [RockPro64](https://ronindojo.io/downloads). Ariko rero, inyigisho yacu yibanze ku buryo bwo gushiramwo n’amaboko kuri Raspberry Pi 4. Naho Raspberry Pi 5 iherutse gusohoka, kandi iyi nyigisho ikwiye kuba ihuye n’iyi modele nshasha, jewe ubwanje sinari bwaronke akaryo ko kuyigerageza, kandi nta n’inyishu nabonye ivuye mu kibano. Nkimara kuronka Pi 5 n’ibice bihuye, nzosubiramwo iyi nyigisho kugira ngo mumenye. Hagati aho, ndabahimiriza gushira imbere Pi 4, kuko ikora neza cane ku nzira yanje.
+
+> **Icitonderwa (Gitugutu 2026):** Ubu RoninDojo iratanga kandi amashusho yemewe ya RoninOS ya Rock5B+, Raspberry Pi 5 n'imashini za x86.
 
 Ku ruhande rwanje, nkoresha RoninDojo kuri Raspberry Pi ifise 8 GB ya RAM. Naho bamwe mu bagize umuryango bashoboye kuyikora ku bikoresho bifise 4 GB gusa ya RAM, jewe ubwanje sinarigeze ngerageza iyo configuration. Kubera ko hariho itandukaniro ritoyi ry’igiciro, bisa n’ibibereye guhitamwo verisiyo ya 8 GB RAM. Ivyo bishobora kandi kuba ngirakamaro nimba utegura gusubira gukoresha Raspberry Pi yawe mu bindi bikoresho muri kazoza.
 
@@ -290,9 +296,11 @@ Ivyo bishasha bimaze kurangira, genda ushiremwo *Git* na *Dialog* ukoresheje ite
 `sudo apt gushiramwo ikiganiro ca git -y`
 
 
+> **Icitonderwa (Gitugutu 2026):** Itegeko riri aha hepfo ntirigikora: GitLab ya Samourai (code.samourai.io) yafashwe ku wa 24 Ndamukiza 2024. Ubu RoninDojo ibika kode yayo aha: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Ku buryo bwo gushiramwo bukoreshwa ubu, raba [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
+
 Ibikurikira, ushireho ishami ry'ububiko bwa _RoninOS_ Git ukoresheje:
 
-`sudo git clone --umukuru w'ishami
+`sudo git clone --branch master https://code.samourai.io/ronindojo/RoninOS.git /opt/RoninOS`
 
 
 Gukoresha inyandiko `guhindura-ishusho.sh` n'itegeko:
@@ -479,7 +487,9 @@ Kugira ngo uhuze Samourai Wallet yawe na Dojo yawe, ushobora gusa gucapura iyi k
 ![Samourai Wallet connection](assets/notext/36.webp)
 
 
-Niba wari usanzwe ufise Samourai Wallet imbere yo gushinga Ronin Dojo yawe, birakenewe ko ukora backup ya Wallet yawe, ukayikuramwo hanyuma ugasubira gushiramwo porogarama ya Samourai Wallet, imbere yo gusubizaho Wallet yawe. Uhejeje gutanguza porogarama yasubiwemwo, uzoba ufise uburenganzira bwo kwifatanya na Dojo nshasha. **Urabe maso, iyi nzira itwara ingorane zo gutakaza amafaranga yawe iyo udakoze neza!** Raba neza ko ufise ububiko bwa Samourai Wallet yawe mu madosiye yawe kandi usuzume ko passphrase yawe ikora biciye ku `Ivyagezwe > Gutorera umuti ingorane > passphrase`. Ni ngombwa kandi kugira ububiko bushobora gusomwa bw'amajambo yawe yo gukira n'igitabu cawe ca passphrase. Kugira ngo ushobore gukora neza muri iki gikorwa, birakenewe ko ukurikiza iyi nyigisho ido n’ido: [https://wiki.ronindojo.io/ru/gutegura/v2_0_0-gusubiramwo/gusubira gufatanya]
+Niba wari usanzwe ufise Samourai Wallet imbere yo gushinga Ronin Dojo yawe, birakenewe ko ukora backup ya Wallet yawe, ukayikuramwo hanyuma ugasubira gushiramwo porogarama ya Samourai Wallet, imbere yo gusubizaho Wallet yawe. Uhejeje gutanguza porogarama yasubiwemwo, uzoba ufise uburenganzira bwo kwifatanya na Dojo nshasha. **Urabe maso, iyi nzira itwara ingorane zo gutakaza amafaranga yawe iyo udakoze neza!** Raba neza ko ufise ububiko bwa Samourai Wallet yawe mu madosiye yawe kandi usuzume ko passphrase yawe ikora biciye ku `Ivyagezwe > Gutorera umuti ingorane > passphrase`. Ni ngombwa kandi kugira ububiko bushobora gusomwa bw'amajambo yawe yo gukira n'igitabu cawe ca passphrase. Kugira ngo ushobore gukora neza muri iki gikorwa, birakenewe ko ukurikiza iyi nyigisho ido n’ido: [https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+
+> **Imburizo (Gitugutu 2026):** Samourai Wallet ntikiriho: ama seriveri yayo yarafashwe, abayishinze na bo barafatwa ku wa 24 Ndamukiza 2024. Ihuza riri aha hejuru rijana kuri kopi yabitswe y'iyo nyigisho. Ubu RoninDojo isigura Ashigaru, ikomoka kuri Samourai Wallet: [docs.ronindojo.io/guides-wallet/ashigaru](https://docs.ronindojo.io/guides-wallet/ashigaru/)
 
 
 ### Ukoresheje Mempool yawe bwite.ikibanza Block explorer
@@ -830,9 +840,9 @@ Aho ni ho ufise! Murakoze gukurikira iyi nyigisho gushika kw’iherezo. Niba war
 **Ibikoresho vyo hanze:**
 
 
-- [urutonde rw'ibintu](urutonde rw'ibintu)
-- [Urupapuro rw'Imana](urupapuro rw'Ivyabona vya Yehova)
-- [Ikiganiro c'Igihugu c'Igihugu c'Igihugu c'Igihugu c'Igihugu c'Igihugu c'Igihugu c'Igihugu c'Igihugu.
-- [Ubumenyeshamakuru/@laurentmt/kumenyesha-boltzmann-85930984a159](ubumenyeshamakuru/@laurentmt/kumenyekanisha-boltzmann-85930984a159)
-- [wiki.ronindojo.io/ru/gutegura/V2_0_0-guhindura-umukaraba](ubutumwa bushasha/gutegura/V2_0_0-guhindura-umukaraba)
+- [https://ronindojo.io/index.html](https://ronindojo.io/index.html)
+- [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
+- [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
+- [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)
 

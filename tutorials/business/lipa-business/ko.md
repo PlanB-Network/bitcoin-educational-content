@@ -5,7 +5,7 @@ description: 판매자를 위한 Bitcoin 및 Lightning 결제 솔루션
 
 ![cover](assets/cover.webp)
 
-
+> **주의 (2026년 10월):** Lipa for Business는 2026년 3월 중순에 서비스를 종료했으며, 운영사인 lightning payment services ag는 청산 절차를 밟고 있습니다. 이 튜토리얼의 링크와 단계는 더 이상 작동하지 않습니다. 이 페이지는 업데이트될 때까지 참고용으로 유지합니다.
 
 이제 판매자들은 Lightning Network을 통한 Bitcoin 결제 수락에 점점 더 많은 관심을 보이고 있습니다. 높은 수수료와 긴 정산 시간이 소요되는 기존 신용카드 결제와 달리, 라이트닝 거래는 거의 즉각적으로 이루어지고 지불 거절이 발생하지 않으며 고객 기밀을 보호합니다.
 
@@ -267,9 +267,9 @@ description: 판매자를 위한 Bitcoin 및 Lightning 결제 솔루션
 
 
 
-- [리파 포 비즈니스 공식 웹사이트](https://lipa.swiss/en/for-business)
-- [대시보드 웹](https://dashboard.lipa.swiss)
-- [비즈니스를 위한 리파 지원](https://help.lipa.swiss/business)
-- [리파 일반 지원](https://help.lipa.swiss/Wallet)
+- 리파 포 비즈니스 공식 웹사이트
+- 대시보드 웹
+- 비즈니스를 위한 리파 지원
+- 리파 일반 지원
 - [링크드인 리파](https://www.linkedin.com/company/getlipa)
 - [트위터 @lipa_btc](https://twitter.com/lipa_btc)

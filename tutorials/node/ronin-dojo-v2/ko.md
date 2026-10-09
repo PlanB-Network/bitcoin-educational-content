@@ -7,6 +7,8 @@ description: 라즈베리파이에 RoninDojo v2 Bitcoin 노드 설치하기
 
 **경고: 4월 24일 사무라이 Wallet의 설립자가 체포되고 서버가 압수된 이후, Whirlpool과 같은 로닌도조의 특정 기능은 더 이상 운영되지 않습니다. 그러나 이러한 도구는 향후 몇 주 내에 복원되거나 다른 방식으로 다시 출시될 수 있습니다. 또한, 로닌도조 코드는 압수된 사무라이의 GitLab에서 호스팅되었기 때문에 현재 원격으로 코드를 다운로드할 수 없습니다. 로닌도조 팀은 코드를 다시 게시하기 위해 노력 중입니다*
 
+> **업데이트(2026년 10월):** RoninDojo는 이후 자체 플랫폼([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin))에 코드를 다시 공개했으며 현재 버전 3입니다. 이 튜토리얼은 이전 버전을 설명하므로 일부 링크와 명령어는 더 이상 작동하지 않습니다. 현재 절차는 공식 문서를 참조하세요: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 
 저희는 이 사건의 전개 상황과 관련 도구의 개발 상황을 면밀히 주시하고 있습니다. 새로운 정보가 입수되는 대로 이 튜토리얼을 업데이트할 예정이니 안심하세요
 
@@ -37,7 +39,9 @@ https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-
 Dojo는 처음에 Bitcoin core를 기반으로 하는 완전한 Bitcoin 노드 구현으로, 사무라이 Wallet 팀에서 개발했습니다. 이 솔루션은 모든 장비에 설치할 수 있습니다. 다른 핵심 구현과 달리 Dojo는 특히 사무라이 Wallet의 안드로이드 애플리케이션 환경과 통합되도록 최적화되었습니다. 도장의 설치와 관리를 용이하게 하기 위해 설계된 유틸리티인 RoninDojo는 다른 다양한 보완 도구와 함께 사용할 수 있습니다. 간단히 말해, RoninDojo는 다양한 추가 도구를 통합하여 도장의 기본 구현을 강화하는 동시에 설치 및 관리를 간소화합니다.
 
 
-로닌은 또한 [*탄토*라고 불리는 노드 인 박스 솔루션](https://ronindojo.io/en/products)을 제공하는데, 이 솔루션은 로닌도조가 이미 설치된 시스템에 로닌도조가 설치되어 있는 장치로, 팀에서 조립한 시스템에 설치됩니다. 탄토는 유료 옵션으로, 기술적 복잡성을 피하고 싶은 분들에게는 흥미로울 수 있습니다. 하지만 로닌도조의 소스 코드가 공개되어 있기 때문에 자체 하드웨어에 배포하는 것도 가능합니다. 이 대안은 더 경제적이지만 몇 가지 추가 조작이 필요하며 이 튜토리얼에서 다룰 것입니다.
+로닌은 또한 [*탄토*라고 불리는 노드 인 박스 솔루션](https://docs.ronindojo.io/hardware/tanto/)을 제공하는데, 이 솔루션은 로닌도조가 이미 설치된 시스템에 로닌도조가 설치되어 있는 장치로, 팀에서 조립한 시스템에 설치됩니다. 탄토는 유료 옵션으로, 기술적 복잡성을 피하고 싶은 분들에게는 흥미로울 수 있습니다. 하지만 로닌도조의 소스 코드가 공개되어 있기 때문에 자체 하드웨어에 배포하는 것도 가능합니다. 이 대안은 더 경제적이지만 몇 가지 추가 조작이 필요하며 이 튜토리얼에서 다룰 것입니다.
+
+> **참고(2026년 10월):** RoninDojo는 더 이상 Tanto를 판매하지 않는 것으로 보이며, 온라인 상점도 운영되지 않습니다. 호환 하드웨어 목록을 참조하세요: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
 
 로닌도장은 도장이기 때문에 Whirlpool CLI을 Bitcoin 노드에 쉽게 통합하여 최상의 CoinJoin 경험을 제공할 수 있습니다. Whirlpool CLI을 사용하면 개인 컴퓨터를 계속 켜두지 않고도 하루 24시간, 일주일 내내 비트코인을 지속적으로 리믹스할 수 있습니다.
 
@@ -57,6 +61,8 @@ Umbrel에서 제공하는 범용 기능이나 Lightning Network과 관련된 기
 ## 로닌도조 v2를 설치하기 위해 어떤 하드웨어를 선택해야 하나요?
 
 로닌도조는 [RockPro64]에 소프트웨어를 자동으로 설치하는 이미지를 제공합니다(https://ronindojo.io/downloads). 하지만 이 튜토리얼은 라즈베리 파이 4의 수동 설치 절차에 중점을 두고 있습니다. 라즈베리 파이 5는 최근에 출시되었고 이론적으로는 이 튜토리얼이 이 새로운 모델과 호환되어야 하지만, 아직 개인적으로 테스트할 기회가 없었고 커뮤니티에서 피드백을 찾지 못했습니다. Pi 5와 호환되는 구성 요소를 확보하는 대로 이 튜토리얼을 업데이트하여 계속 알려드리겠습니다. 그 동안에는 제 노드에 완벽하게 작동하는 Pi 4를 우선적으로 사용하는 것이 좋습니다.
+
+> **참고(2026년 10월):** RoninDojo는 이제 Rock5B+, Raspberry Pi 5, x86 기기용 공식 RoninOS 이미지도 제공합니다.
 
 저는 8GB RAM이 장착된 라즈베리파이에서 로닌도조를 실행하고 있습니다. 일부 커뮤니티 회원은 RAM이 4GB밖에 없는 기기에서도 작동하는 데 성공했지만, 저는 이 구성을 직접 테스트해 보지는 않았습니다. 가격 차이가 크지 않다는 점을 감안할 때 8GB RAM 버전을 선택하는 것이 현명해 보입니다. 이는 향후 다른 용도로 라즈베리 파이의 용도를 변경하려는 경우에도 유용할 수 있습니다.
 
@@ -290,6 +296,8 @@ Bitcoin Blockchain을 저장하려면 선택한 스토리지 확장 카드와 �
 `수도 apt 설치 git 대화 상자 -y`
 
 
+> **참고(2026년 10월):** 아래 명령어는 더 이상 작동하지 않습니다. Samourai의 GitLab(code.samourai.io)은 2024년 4월 24일에 압수되었습니다. RoninDojo는 이제 코드를 여기에서 호스팅합니다: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). 현재 설치 절차는 [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/) 에서 확인하세요.
+
 그런 다음, 실행을 통해 _RoninOS_ Git 저장소의 `master` 브랜치를 복제합니다:
 
 `sudo git clone --branch master https://code.samourai.io/ronindojo/RoninOS.git /opt/RoninOS`
@@ -479,7 +487,9 @@ Dhcpcd.conf` 파일에 도착합니다. 별표가 포함되도록 다음 텍스�
 ![Samourai Wallet connection](assets/notext/36.webp)
 
 
-로닌 도장을 설정하기 전에 이미 사무라이 Wallet를 가지고 있었다면, Wallet를 복원하기 전에 Wallet를 백업하고 사무라이 Wallet 앱을 삭제한 다음 다시 설치해야 합니다. 재설치한 앱을 실행하면 새로운 도장에 연결할 수 있는 옵션이 표시됩니다. **이 과정은 올바르게 실행하지 않으면 비트코인을 잃을 위험이 있으니 주의하세요!** 파일에 사무라이 Wallet의 백업이 있는지 확인하고 '설정 > 문제 해결 > passphrase'을 통해 passphrase의 유효성을 확인하세요. 또한 복구 문구와 passphrase의 읽기 가능한 백업을 확보하는 것이 중요합니다. 이 작업을 보다 정확하게 수행하려면 다음 상세 튜토리얼을 따르는 것이 좋습니다: [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+로닌 도장을 설정하기 전에 이미 사무라이 Wallet를 가지고 있었다면, Wallet를 복원하기 전에 Wallet를 백업하고 사무라이 Wallet 앱을 삭제한 다음 다시 설치해야 합니다. 재설치한 앱을 실행하면 새로운 도장에 연결할 수 있는 옵션이 표시됩니다. **이 과정은 올바르게 실행하지 않으면 비트코인을 잃을 위험이 있으니 주의하세요!** 파일에 사무라이 Wallet의 백업이 있는지 확인하고 '설정 > 문제 해결 > passphrase'을 통해 passphrase의 유효성을 확인하세요. 또한 복구 문구와 passphrase의 읽기 가능한 백업을 확보하는 것이 중요합니다. 이 작업을 보다 정확하게 수행하려면 다음 상세 튜토리얼을 따르는 것이 좋습니다: [https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+
+> **경고(2026년 10월):** Samourai Wallet은 더 이상 존재하지 않습니다. 2024년 4월 24일에 서버가 압수되고 설립자들이 체포되었습니다. 위 링크는 가이드의 보관된 사본으로 연결됩니다. RoninDojo는 이제 Samourai Wallet의 포크인 Ashigaru를 안내합니다: [docs.ronindojo.io/guides-wallet/ashigaru](https://docs.ronindojo.io/guides-wallet/ashigaru/)
 
 
 ### 자체 Mempool.space Block explorer 사용

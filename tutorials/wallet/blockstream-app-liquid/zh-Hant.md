@@ -408,7 +408,9 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 
-另外，Exchange 您的 bitcoins onchain 或透過 Lightning Network 使用 [a bridge such as Boltz](https://boltz.Exchange/) 取得 L-BTC：輸入您的 Liquid 接收 Address，依您的喜好付款，並收到您的 L-BTC。
+另外，Exchange 您的 bitcoins onchain 或透過 Lightning Network 使用 a bridge such as Boltz 取得 L-BTC：輸入您的 Liquid 接收 Address，依您的喜好付款，並收到您的 L-BTC。
+
+> **注意（2026年10月）：** Boltz 已於 2026 年 8 月 3 日暫停所有兌換，其網站已下線。此方法目前無法使用。
 
 
 

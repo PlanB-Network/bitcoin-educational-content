@@ -1193,7 +1193,7 @@ Igikorwa kibanza co kubungabunga Bitcoin na co nyene kiraboneka: MyBitcoin, urub
 Iciyo gihe, ama wallets yoroshe (azwi nka "[SPV](https://planb.academy/resources/glossary/spv-node-light-node)") ntiyariho, ni co gituma Satoshi Nakamoto ubwiwe yabonye ko vyemewe gukoresha ubwo bwoko bwa porogarama, naho nyene iyo nkoresha yari iteye kubiri n'ingingo ngenderwako y'ugutandukanya abantu mu mutima wa Bitcoin. Ku wa 18 Rusama 2010, [yanditse] ku rubuga rw’ihuriro ati:
 
 
-> "Muri ico gihe, imbuga nka [vekja.net](http://vekja.net) na [www.mybitcoin.com](http://www.mybitcoin.com) zariko zigerageza gukoresha ubuhinga bushingiye kuri konti. kandi ni uburyo bumenyerewe cane ku bantu benshi. Intambamyi yonyene ni uko utegerezwa kwizigira urubuga, ariko ivyo ni vyiza ku mahera makeyi agenewe kuriha amafaranga makeyi n'amahera atandukanye.
+> "Muri ico gihe, imbuga nka vekja.net na www.mybitcoin.com zariko zigerageza gukoresha ubuhinga bushingiye kuri konti. kandi ni uburyo bumenyerewe cane ku bantu benshi. Intambamyi yonyene ni uko utegerezwa kwizigira urubuga, ariko ivyo ni vyiza ku mahera makeyi agenewe kuriha amafaranga makeyi n'amahera atandukanye.
 
 Ubwa nyuma, ku wa 19 Rusama, umukoresha yitwa Teppy yatanguye [kwemera] Bitcoin ku rukino rw’abakinyi benshi cane yarongoye, *Inkuru mu bugaragwa(A Tale in the Desert)*.
 
@@ -2019,7 +2019,7 @@ Ikibabaje ni uko iyo nkuru yasubije inyuma igice c’ukwemera kwariho kw’ishir
 Gutyo, ukuzimangana kwa Satoshi kwabaye bukwi na bukwi inyuma y'iterambere ry’umuryango inyuma y’ugutera ivyatsi (slashdotting) kandi ikiruta vyose, bivuye ku kibazo ca WikiLeaks. Uwaremye Bitcoin yashize ububasha bwo gukora uwo mugambi Martti Malmi na Gavin Andresen, abo bagabo babiri bamufashije mu bikorwa vyiwe vyo guteza imbere no gutanga amakuru.
 
 
-Ivyo vyamushikiye inyuma y’aho ntibiramenyekana. Ubutumwa bukeyi bwasohotse mu nkuru ziwe zitandukanye ([Ishirahamwe P2P] [Vistomail](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-My/010238.html)), ariko izo konti zishobora kuba zari zaciwe n’abantu. Ni co gituma akaranga ka Satoshi Nakamoto kaguma katazwi, kuko yashoboye kuguma atamenyekana biciye ku bikorwa vya Tor no ku bikorwa vyubahiriza ubuzima bw'ibanga.
+Ivyo vyamushikiye inyuma y’aho ntibiramenyekana. Ubutumwa bukeyi bwasohotse mu nkuru ziwe zitandukanye ([Ishirahamwe P2P] [Vistomail](https://gnusha.org/pi/bitcoindev/6EC9DDF352DC4838AE9B088AB372428A25E1F42A@DS04/)), ariko izo konti zishobora kuba zari zaciwe n’abantu. Ni co gituma akaranga ka Satoshi Nakamoto kaguma katazwi, kuko yashoboye kuguma atamenyekana biciye ku bikorwa vya Tor no ku bikorwa vyubahiriza ubuzima bw'ibanga.
 
 
 Mu myaka iheze, haratanzwe ibimenyetso vyerekeye we, kandi amazina y’abantu bazwi cane nka Nick Szabo, Hal Finney, Adam Back canke Len Sassaman yaravuzwe. Mu mwaka w’2014, mbere vyemewe ko yari yabonetse mu muntu yitwa Dorian Prentice Satoshi Nakamoto, umuhinga mu vy’itumatumanako, yari umunyamerika afise ubwenegihugu bw’igihugu, akomoka mu Buyapani, akaba na nyina wiwe mu gisagara ca Temple mu gisagara ca Los Angeles. Ariko rero, Satoshi iguma ari [akabanga](0ETcLj5jBy4).
@@ -2123,7 +2123,7 @@ Haciye imisi mikeyi itangujwe, urubuga rwitwa "wiki" ruri kuri paji y'intango ya
 
 Ica gatatu ni ihuriro rya Bitcoin. Martti ni we arayirongora, ariko aca yihuta gutora abayirongora. Umwe muri bo ni Theymos (izina ryiwe ry’ukuri Michael Marquardt), aronka amabanga y’inyongera, cane cane gufasha mu gucunga iyo nama. Iryo huriro rikorera kuri moteri y’ihuriro ry’amamashini yoroshe kandi ntiryahinduye uko rigaragara mu myaka iheze. Ariko rero, URL yayo yarahindutse incuro zibiri. Ubwa mbere, ku wa 17 Rusama, ihuriro [rimuriwe] ku ihuriro.Bitcoin.org. Hanyuma, ku wa 1 Myandagaro, [rijanwa] mu kibanza gishasha co ku rwego rwo hejuru: bitcointalk.org. Mu myaka izoza, izokwitwa BitcoinTalk.
 
-Kubera ko agaciro k’amahera kariyongereye mu ci c’umwaka w’2011, Martti Malmi [yagurishije] igice kinini c’amahera yiwe y’ubuhinga bwa none kugira ngo yigurire inzu nziza hafi y’igisagara ca Helsinki. Hanyuma, [arasiga] akazi kiwe kugira ngo amare amezi makeyi mu Buyapani. Yahevye urubuga n’ihuriro, [aragenda] [bo](bo] mu minwe ya Theymos n’umuntu umwe yitwa Cøbra, [vyasobanuwe](https://forum.Bitcoin.com/ama-mbaze-ikintu cose/ndi-m-martti-malmi-mbere-ya-Bitcoin-kandi-uwashinze-w'intango-amahuriro-y'ama-bitcointalk-org-ama-t2770.h Satoshi." Abo bagabo babiri borongoye hamwe izo nzira zompi mu myaka yakurikiye.
+Kubera ko agaciro k’amahera kariyongereye mu ci c’umwaka w’2011, Martti Malmi [yagurishije] igice kinini c’amahera yiwe y’ubuhinga bwa none kugira ngo yigurire inzu nziza hafi y’igisagara ca Helsinki. Hanyuma, [arasiga] akazi kiwe kugira ngo amare amezi makeyi mu Buyapani. Yahevye urubuga n’ihuriro, [aragenda] [bo](bo] mu minwe ya Theymos n’umuntu umwe yitwa Cøbra, [vyasobanuwe](https://web.archive.org/web/20220821142738/https://forum.bitcoin.com/ama-ask-me-anything/i-m-martti-malmi-early-bitcoin-developer-and-the-original-founder-of-the-bitcointalk-org-forums-ama-t2770.html#p8222) Satoshi." Abo bagabo babiri borongoye hamwe izo nzira zompi mu myaka yakurikiye.
 
 
 ### Inama n'amakoraniro

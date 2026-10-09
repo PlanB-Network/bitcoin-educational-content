@@ -21,7 +21,7 @@ description: 라즈비블리츠 설정 가이드
 ## 파만의 라스피블리츠 설정 가이드
 
 
-라스피블리츠는 Bitcoin 노드와 관련 앱을 실행하기 위한 훌륭한 시스템입니다. 저는 대부분의 사용자에게 이 노드와 마이노드 노드를 추천합니다(이중화를 위해 두 개의 노드를 사용하는 것이 이상적입니다.) 한 가지 큰 장점은 마이노드나 엄브렐과 달리 라스피블리츠 노드는 "무료 오픈 소스 소프트웨어"라는 점입니다. (https://Bitcoin-takeover.com/why-Bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) 이더넷이 아닌 WiFi 연결로도 Raspiblitz를 실행할 수 있으며, 이에 대한 [보충 가이드](https://armantheparman.com/headless-wifi/)가 있습니다. (MyNode에서는 이 방법을 찾지 못했습니다).
+라스피블리츠는 Bitcoin 노드와 관련 앱을 실행하기 위한 훌륭한 시스템입니다. 저는 대부분의 사용자에게 이 노드와 마이노드 노드를 추천합니다(이중화를 위해 두 개의 노드를 사용하는 것이 이상적입니다.) 한 가지 큰 장점은 마이노드나 엄브렐과 달리 라스피블리츠 노드는 "무료 오픈 소스 소프트웨어"라는 점입니다. (https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) 이더넷이 아닌 WiFi 연결로도 Raspiblitz를 실행할 수 있으며, 이에 대한 [보충 가이드](https://armantheparman.com/headless-wifi/)가 있습니다. (MyNode에서는 이 방법을 찾지 못했습니다).
 
 
 미니 스크린이 부착된 기성품 노드를 구입하거나 직접 제작할 수 있습니다(스크린이 필요 없음).
@@ -97,7 +97,7 @@ description: 라즈비블리츠 설정 가이드
 Windows의 경우 [간단한 튜토리얼](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s)을 참조하세요.
 
 
-_업데이트: 이제 PGP/GPG 인증이 가능합니다. Openoms의 공개키가 필요합니다. [여기](http://parman.org/downloadable/openoms.txt)에 있습니다(링크가 작동하려면 시크릿 모드가 필요할 수 있습니다 - https가 아닌 http)_
+_업데이트: 이제 PGP/GPG 인증이 가능합니다. 현재 RaspiBlitz 이미지는 Openoms가 아니라 rootzoll이 서명합니다(키 지문: 92A746AE33A3C186D014BF5C1C73060C7C176461). 키와 `gpg --verify` 명령은 [공식 FAQ](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download)에 나와 있습니다._
 
 
 Mac/Linux

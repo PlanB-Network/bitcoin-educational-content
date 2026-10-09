@@ -519,13 +519,7 @@ Im gleichen Menü finden Sie auch die URI Ihres Watchtower-Dienstes, wenn Sie ih
 
 
 
-Es gibt mehrere online verfügbare Wachtürme. Zum Beispiel bieten [LN+ und Voltage einen altruistischen Watchtower](https://lightningnetwork.plus/Watchtower) an, mit dem Sie sich verbinden können:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+Es gibt mehrere online verfügbare Wachtürme. LN+ und Voltage boten früher einen altruistischen Watchtower an, er ist aber nicht mehr verfügbar (Oktober 2026). LN+ bietet jetzt [Watch Swaps](https://lightningnetwork.plus/watch_swaps) an, bei denen zwei Node-Betreiber gegenseitig ihre Kanäle überwachen, und veröffentlicht einen [Leitfaden zu altruistischen Watchtowers](https://lightningnetwork.plus/posts/12).
 
 
 

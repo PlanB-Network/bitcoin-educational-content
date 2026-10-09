@@ -13,7 +13,7 @@ description: 勝率ほぼ0%のビットコインマイニングを始めてみ�
 
 - [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - [USB-C電源供給](https://amzn.eu/d/gIOot90)
-- 3Dケース：3Dプリンターをお持ちの場合は、[3Dファイル](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) をダウンロードできます。そうでない場合は、[Silexperienceオンラインストア](https://silexperience.company.site/NerdMiner_V2-p544379757) で購入できます。
+- 3Dケース：3Dプリンターをお持ちの場合は、[3Dファイル](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) をダウンロードできます。そうでない場合は、[Bitronicsオンラインストア](https://bitronics.store/) で購入できます。
 - ChromeブラウザがインストールされたPC
 - インターネット接続
 - ビットコインアドレス
@@ -62,7 +62,6 @@ NerdMinerの設定は、スマートフォンまたはコンピューターを�
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | デフォルトのソロおよびオープンソースのマイニングプール |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | CHMEXによって維持されています                      |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | djerfyによって維持されています                     |
 
 プールを選択したら、（例外的に）ブロックが見つかった場合に報酬を受け取るためのビットコインアドレスを入力する必要があります。
 
@@ -125,4 +124,4 @@ LinuxでシリアルポートをChromeが検出するための手順は以下の
 このテーマについてさらに読みたい方は、以下のリンクをどうぞ：
 
 - [NerdMiner_v2 project page](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Complete documentation of NerdMiners](https://bitwater.ch/nerd-miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

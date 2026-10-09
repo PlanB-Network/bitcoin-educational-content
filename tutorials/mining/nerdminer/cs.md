@@ -14,7 +14,7 @@ Než projdeme různými kroky, pojďme si vypsat potřebné vybavení:
 
 - [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - [USB-C napájecí zdroj](https://amzn.eu/d/gIOot90)
-- 3D pouzdro: pokud máte 3D tiskárnu, můžete si stáhnout [3D soubor](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons), jinak si jej můžete koupit v [online obchodě Silexperience](https://silexperience.company.site/NerdMiner_V2-p544379757).
+- 3D pouzdro: pokud máte 3D tiskárnu, můžete si stáhnout [3D soubor](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons), jinak si jej můžete koupit v [online obchodě Bitronics](https://bitronics.store/).
 - PC s nainstalovaným prohlížečem Chrome
 - internetové připojení
 - bitcoinová adresa
@@ -66,7 +66,6 @@ Pro NerdMinery si můžete vybrat připojení k jednomu z těchto poolů:
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Výchozí Solo a open-source těžební pool  |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Udržován CHMEX                           |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Udržován djerfy                          |
 
 Jakmile si vyberete svůj pool, musíte zadat svou bitcoinovou adresu pro příjem odměny v případě (výjimečně) nalezení bloku.
 
@@ -129,4 +128,4 @@ Vědě, že celkový hashrate je přibližně 450 EH/s (nebo 4,5 x 10^20 hashů 
 Zde jsou odkazy, pokud chcete o tématu zjistit více:
 
 - [Stránka projektu NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Kompletní dokumentace NerdMinerů](https://bitwater.ch/nerd-miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

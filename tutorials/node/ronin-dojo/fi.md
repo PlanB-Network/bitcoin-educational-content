@@ -5,6 +5,8 @@ description: RoninDojo Bitcoin-solmun asentaminen ja käyttäminen.
 ---
 ***VAROITUS:** Samourai Walletin perustajien pidätyksen ja heidän palvelimiensa takavarikoinnin jälkeen 24. huhtikuuta, tietyt RoninDojon ominaisuudet, kuten Whirlpool, eivät ole enää toiminnassa. On kuitenkin mahdollista, että nämä työkalut voidaan palauttaa tai käynnistää uudelleen eri tavalla tulevina viikkoina. Lisäksi, koska RoninDojon koodi oli isännöity Samourain GitLabiin, joka myös takavarikoitiin, koodin etälataus ei tällä hetkellä ole mahdollista. RoninDojon tiimit työskentelevät todennäköisesti koodin uudelleenjulkaisemiseksi.*
 
+> **Päivitys (lokakuu 2026):** RoninDojo on sittemmin julkaissut koodinsa uudelleen omalla alustallaan ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) ja on nyt versiossa 3. Tämä opas kuvaa vanhempaa versiota: osa linkeistä ja komennoista ei enää toimi. Katso nykyinen menettely virallisesta dokumentaatiosta: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 _Seuraamme tarkasti tämän tapauksen kehitystä sekä siihen liittyvien työkalujen kehitystä. Voit olla varma, että päivitämme tämän oppaan, kun uutta tietoa tulee saataville._
 
 _Tämä opas on tarkoitettu vain koulutus- ja tiedotustarkoituksiin. Emme tue tai kannusta näiden työkalujen käyttöä rikollisiin tarkoituksiin. Jokaisen käyttäjän on noudatettava oman lainkäyttöalueensa lakeja._
@@ -55,9 +57,11 @@ Nyt kun olemme pystyneet maalaamaan kuvan RoninDojosta, katsotaan, miten asetamm
 
 RoninDojon isännöimiseen ja ajamiseen sopivan koneen valitsemiseksi sinulla on useita vaihtoehtoja.
 
-Kuten aiemmin selitettiin, yksinkertaisin valinta on tilata Tanto, plug-and-play -laite, joka on suunniteltu erityisesti tähän tarkoitukseen. Tilataksesi omasi, mene tänne: [linkki](https://shop.ronindojo.io/product-category/nodes/).
+Kuten aiemmin selitettiin, yksinkertaisin valinta on tilata Tanto, plug-and-play -laite, joka on suunniteltu erityisesti tähän tarkoitukseen.
 
-Koska RoninDojon tiimit tuottavat avoimen lähdekoodin, on myös mahdollista toteuttaa RoninDojo muilla koneilla. Voit löytää asennusvelhon uusimmat versiot tältä sivulta: [linkki](https://ronindojo.io/downloads), ja koodin uusimmat versiot tältä sivulta: [linkki](https://code.samourai.io/ronindojo/RoninDojo).
+> **Huomautus (lokakuu 2026):** RoninDojo ei näytä enää myyvän Tantoa, ja sen verkkokauppa on poissa käytöstä. Katso yhteensopivien laitteiden luettelo: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
+
+Koska RoninDojon tiimit tuottavat avoimen lähdekoodin, on myös mahdollista toteuttaa RoninDojo muilla koneilla. Voit löytää asennusvelhon uusimmat versiot tältä sivulta: [linkki](https://ronindojo.io/downloads), ja koodin uusimmat versiot tältä sivulta: [linkki](https://git.ronindojo.io/Ronin/monorepo).
 
 Henkilökohtaisesti asensin sen Raspberry Pi 4 8GB:lle ja kaikki toimii täydellisesti.
 
@@ -149,6 +153,8 @@ Terminaalissa näyttää tältä:
 ![SSH-yhteys RoninOS:iin](assets/10.webp)
 
 Olet nyt yhteydessä koneeseesi, jossa on tällä hetkellä vain RoninOS. Nyt sinun täytyy asentaa siihen RoninDojo.
+
+> **Huomautus (lokakuu 2026):** Alla oleva komento ei enää toimi: Samourain GitLab (code.samourai.io) takavarikoitiin 24. huhtikuuta 2024. RoninDojon koodi on nyt täällä: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Katso nykyinen asennusmenettely: [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
 
 Lataa RoninDojon uusin versio syöttämällä seuraava komento:
 

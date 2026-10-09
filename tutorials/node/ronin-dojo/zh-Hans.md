@@ -5,6 +5,8 @@ description: 安装和使用您的RoninDojo比特币节点。
 ---
 ***警告：** 继Samourai Wallet创始人于4月24日被捕，其服务器被查封后，RoninDojo的某些功能，如Whirlpool，已不再运行。然而，这些工具有可能在未来几周内被重新启用或以不同方式重新推出。此外，由于RoninDojo的代码托管在同样被查封的Samourai的GitLab上，目前无法远程下载代码。RoninDojo团队很可能正在努力重新发布代码。*
 
+> **更新（2026年10月）：** 此后RoninDojo已在自己的平台（[git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)）上重新发布代码，目前为第3版。本教程介绍的是较旧的版本：其中部分链接和命令已无法使用。当前的操作步骤请参阅官方文档：[docs.ronindojo.io](https://docs.ronindojo.io/)
+
 _我们正在密切关注此案件的发展以及与之相关工具的发展情况。请放心，一旦有新信息，我们将更新本教程。_
 
 _本教程仅供教育和信息目的使用。我们不支持或鼓励使用这些工具进行犯罪活动。每个用户都有责任遵守其管辖区的法律。_
@@ -56,9 +58,11 @@ RoninDojo整合了许多依赖于您的Dojo的其他工具，例如Boltzmann计�
 
 选择托管和运行RoninDojo的机器时，您有几个选项。
 
-如前所述，最简单的选择是订购Tanto，这是一款专为此目的设计的即插即用机器。要订购您的Tanto，请访问此处：[链接](https://shop.ronindojo.io/product-category/nodes/)。
+如前所述，最简单的选择是订购Tanto，这是一款专为此目的设计的即插即用机器。
 
-由于RoninDojo团队生产开源代码，也可以在其他机器上实施RoninDojo。您可以在此页面上找到安装向导的最新版本：[链接](https://ronindojo.io/downloads)，以及此页面上的代码的最新版本：[链接](https://code.samourai.io/ronindojo/RoninDojo)。
+> **注（2026年10月）：** RoninDojo似乎已不再销售Tanto，其在线商店也已下线。请参阅兼容硬件列表：[docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
+
+由于RoninDojo团队生产开源代码，也可以在其他机器上实施RoninDojo。您可以在此页面上找到安装向导的最新版本：[链接](https://ronindojo.io/downloads)，以及此页面上的代码的最新版本：[链接](https://git.ronindojo.io/Ronin/monorepo)。
 
 我个人将其安装在了一个8GB的Raspberry Pi 4上，一切工作得很完美。
 
@@ -150,6 +154,8 @@ RoninOS的初始配置将完成。一旦完成，如上面的截图所示，机�
 ![SSH连接到RoninOS](assets/10.webp)
 
 您现在已连接到您的机器，该机器目前只安装了RoninOS。现在您需要在其上安装RoninDojo。
+
+> **注（2026年10月）：** 下面的命令已无法使用：Samourai的GitLab（code.samourai.io）已于2024年4月24日被查封。RoninDojo现在将代码托管在这里：[git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)。当前的安装步骤请参阅 [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
 
 通过输入以下命令下载最新版本的RoninDojo：
 

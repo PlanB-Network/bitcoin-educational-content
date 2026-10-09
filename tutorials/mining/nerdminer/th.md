@@ -19,7 +19,7 @@ description: เริ่มต้น mining bitcoin ด้วยโอกาส
 
 - [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - [แหล่งจ่ายไฟ USB-C](https://amzn.eu/d/gIOot90)
-- เคส 3D: หากคุณมีเครื่องพิมพ์ 3D คุณสามารถดาวน์โหลด [ไฟล์ 3D](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) ได้ มิฉะนั้นคุณสามารถซื้อได้ที่ [ร้านค้าออนไลน์ Silexperience](https://silexperience.company.site/NerdMiner_V2-p544379757)
+- เคส 3D: หากคุณมีเครื่องพิมพ์ 3D คุณสามารถดาวน์โหลด [ไฟล์ 3D](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) ได้ มิฉะนั้นคุณสามารถซื้อได้ที่ [ร้านค้าออนไลน์ Bitronics](https://bitronics.store/)
 - พีซีที่ติดตั้งเบราว์เซอร์ Chrome
 - การเชื่อมต่ออินเทอร์เน็ต
 - ที่อยู่บิตคอยน์
@@ -95,7 +95,6 @@ description: เริ่มต้น mining bitcoin ด้วยโอกาส
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Default Solo and open-source mining pool |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Maintained by CHMEX                      |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Maintained by djerfy                     |
 
 เมื่อคุณเลือกพูลของคุณแล้ว คุณจำเป็นต้องป้อนที่อยู่บิตคอยน์ของคุณเพื่อรับรางวัลในกรณีที่ (เป็นกรณีพิเศษ) พบบล็อก
 
@@ -191,4 +190,4 @@ description: เริ่มต้น mining bitcoin ด้วยโอกาส
 
 
 - [หน้าของโครงการ NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Complete documentation of NerdMiners](https://bitwater.ch/nerd-miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

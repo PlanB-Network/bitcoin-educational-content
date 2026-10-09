@@ -5,7 +5,7 @@ description: Breez helpottaa bitcoin-maksujen keräämistä yrityksellesi.
 
 ![cover](assets/cover.webp)
 
-
+> **Varoitus (lokakuu 2026):** Breez poisti alkuperäisen mobiilisovelluksensa (Breez: Lightning Client & POS) sovelluskaupoista vuonna 2026 ja sulki käyttäjiensä kanavat. Tämän oppaan latauslinkit ja vaiheet eivät enää toimi. Aiemmat käyttäjät voivat palauttaa varansa työkalulla [breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery). Säilytämme tämän sivun viitteenä, kunnes se päivitetään.
 
 COVID-19-pandemian jälkeen kosketuksettomat digitaaliset maksut ovat levinneet laajalti jopa pienimpiin kauppoihin. Tänä aikana monet yritykset ovat havainneet bitcoin-käteisratkaisujen käytännöllisyyden, minkä ansiosta ne voivat vastaanottaa maksuja kaikkialta maailmasta. Nämä ratkaisut ovat kuitenkin toisinaan vaikeita käyttää tai sopimattomia pienille yrityksille. Tässä opetusohjelmassa tutustumme Breez-maksupäätteeseen, ratkaisuun, joka erottuu edukseen helppokäyttöisyydellään ja antaa sinulle samalla täydellisen hallinnan bitcoinien hallinnasta.
 
@@ -15,7 +15,7 @@ COVID-19-pandemian jälkeen kosketuksettomat digitaaliset maksut ovat levinneet 
 
 
 
-Breez POS on Breez wallet:n tarjoama itsesäilytyspalvelu. Tämän palvelun hyödyllisyys on antaa kauppiaille mahdollisuus kerätä maksuja Bitcoin:n kautta ja pysyä samalla yksinkertaisessa käyttöliittymässä, joka on hyvin samanlainen kuin erilaiset Lightning-lompakot. Breez POS on saatavilla [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) ja [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS) -latausalustoilla.
+Breez POS on Breez wallet:n tarjoama itsesäilytyspalvelu. Tämän palvelun hyödyllisyys on antaa kauppiaille mahdollisuus kerätä maksuja Bitcoin:n kautta ja pysyä samalla yksinkertaisessa käyttöliittymässä, joka on hyvin samanlainen kuin erilaiset Lightning-lompakot. Breez POS on saatavilla Google Play Store (Android) ja App Store (iOS) -latausalustoilla.
 
 
 

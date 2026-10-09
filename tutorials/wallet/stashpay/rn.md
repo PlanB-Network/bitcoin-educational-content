@@ -5,7 +5,7 @@ description: Igikoresho gitoyi Bitcoin Wallet ku muntu wese
 
 ![cover](assets/cover.webp)
 
-
+> **Imburi (Gitugutu 2026):** StashPay yarahagaritswe. Uwayikoze yatangaje iherezo ryayo ku wa 26 Mukakaro 2026, kandi porogaramu yugawe ku wa 31 Myandagaro 2026; urubuga rwayo ntirugikora ([soma itangazo](https://blog.onionmill.com/p/sunsetting-stashpay)). Kugira ngo usubire kuronka wallet yawe ya Liquid, injiza amajambo yawe yo kugarura muri Blockstream App. Uru rupapuro turugumije kugira ngo rukoreshwe nk'icitegererezo.
 
 Ubumenyi bw’abakoresha ni ikintu nyamukuru mu kwemera inyishu za Bitcoin kw’isi yose. Gutanga ubumenyi bubereye, bworoshe kandi butagira umutwaro mu vy’ubuhinga ni co kintu ca mbere ku bikoresho vyinshi vy’amasakoshi n’ibikoresho vya Exchange. Muri ivyo, StashPay igaragara kubera uburyo bwayo bwo gukora ibintu bike, mu gihe nyene yerekana ububasha bwa Lightning Network.
 
@@ -23,7 +23,7 @@ StashPay ni Lightning yizigamira Wallet yemewe cane cane kubera ubumenyi bwayo b
 
 
 
-StashPay ni umugambi w’inkomoko yuguruye wateguwe muri React Native kandi ugamije gutorera umuti ingorane y’amahera menshi y’ugucuruza mbere n’ugucuruza ku ruhererekane nyamukuru rwa porotokole ya Bitcoin. Iraboneka nk’iporogarama yo kuri telefone ngendanwa ku mbuga za Android na iOS biciye ku mahuza yo gukuraho amakuru ari kuri [urubuga](https://stashpay.me/).
+StashPay ni umugambi w’inkomoko yuguruye wateguwe muri React Native kandi ugamije gutorera umuti ingorane y’amahera menshi y’ugucuruza mbere n’ugucuruza ku ruhererekane nyamukuru rwa porotokole ya Bitcoin. Iraboneka nk’iporogarama yo kuri telefone ngendanwa ku mbuga za Android na iOS biciye ku mahuza yo gukuraho amakuru ari kuri urubuga.
 
 
 

@@ -404,7 +404,6 @@ GrapheneOS on küülikuauk, kuhu võiks kergesti kulutada nädalaid. On nii palj
 - [GrapheneOS ametlik kasutusjuhend](https://grapheneos.org/usage) - Ametlik veebisait
 - [GrapheneOS foorum](https://discuss.grapheneos.org/) - Ametlik veebisait
 - [GrapheneOS seadete meistriklass](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video 'The Privacy Wayfinder' poolt
-- [GrapheneOS üldine podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast 'Watchman Privacy' poolt
 
 *See juhend on kohandus algsest sisust, mille avaldas [BitcoinQnA Bitcoiner.Guide’is MIT litsentsi alusel](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), kellele kuulub kogu tunnustus algse kirjutamistöö eest.*
 

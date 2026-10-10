@@ -13,7 +13,7 @@ description: نصب Tails بر روی یک کلید USB
 ## چرا یک کلید USB با Tails نصب شده داشته باشیم؟
 
 
-Tails (https://tails.boum.org/) ساده‌ترین راه برای داشتن یک رایانه امن در اختیار شما در هر زمان است که هیچ ردی روی رایانه‌ای که با آن استفاده می‌کنید، باقی نمی‌گذارد.
+Tails (https://tails.net/) ساده‌ترین راه برای داشتن یک رایانه امن در اختیار شما در هر زمان است که هیچ ردی روی رایانه‌ای که با آن استفاده می‌کنید، باقی نمی‌گذارد.
 
 
 برای استفاده از Tails، کامپیوتری که به آن دسترسی دارید (در خانه والدین، دوستان، یا در یک کافی‌نت...) را خاموش کنید و آن را با کلید USB Tails خود به جای ویندوز، macOS، یا لینوکس راه‌اندازی کنید.
@@ -80,7 +80,7 @@ Tails (https://tails.boum.org/) ساده‌ترین راه برای داشتن �
 ![image](assets/1.webp)
 
 
-🔗 **بخش رسمی Tails:** https://tails.boum.org/install/linux/index.fr.html#download
+🔗 **بخش رسمی Tails:** https://tails.net/install/linux/index.fr.html#download
 
 
 دانلود فایل نصب با پسوند .img ممکن است بسته به سرعت دانلود اینترنت شما مدتی طول بکشد، بنابراین از قبل برنامه‌ریزی کنید. با یک اتصال مدرن و کارآمد، کمتر از 5 دقیقه طول خواهد کشید.
@@ -95,7 +95,7 @@ Tails (https://tails.boum.org/) ساده‌ترین راه برای داشتن �
 ![image](assets/2.webp)
 
 
-🔗 **بخش رسمی Tails:** https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 **بخش رسمی Tails:** https://tails.net/install/linux/index.fr.html#verify
 
 
 تأیید دانلود تضمین می‌کند که توسط توسعه‌دهندگان Tails صادر شده و در طول دانلود خراب یا رهگیری نشده است.
@@ -117,8 +117,8 @@ Tails (https://tails.boum.org/) ساده‌ترین راه برای داشتن �
 
 
 
-- **لینوکس:** https://tails.boum.org/install/linux/index.fr.html#install
-- **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher و https://tails.boum.org/install/mac/index.fr.html#install
+- **لینوکس:** https://tails.net/install/linux/index.fr.html#install
+- **macOS:** https://tails.net/install/mac/index.fr.html#etcher و https://tails.net/install/mac/index.fr.html#install
 
 
 این مرحله از نصب Tails بر روی کلید USB شما، سخت‌ترین مرحله در کل راهنما است، به‌ویژه اگر قبلاً هرگز این کار را انجام نداده‌اید. مهم‌ترین نکته این است که روش صحیح را در بخش رسمی برای سیستم‌عامل خود انتخاب کنید: لینوکس یا macOS.
@@ -136,7 +136,7 @@ Tails (https://tails.boum.org/) ساده‌ترین راه برای داشتن �
 ![image](assets/4.webp)
 
 
-🔗 **بخش رسمی Tails:** https://tails.boum.org/install/linux/index.en.html#restart
+🔗 **بخش رسمی Tails:** https://tails.net/install/linux/index.en.html#restart
 
 
 وقت آن است که یکی از کامپیوترهای خود را با استفاده از فلش USB جدیدتان راه‌اندازی کنید. آن را در یکی از پورت‌های USB وارد کرده و راه‌اندازی مجدد کنید!
@@ -178,7 +178,7 @@ Tails (https://tails.boum.org/) ساده‌ترین راه برای داشتن �
 ![image](assets/6.webp)
 
 
-🔗 **بخش رسمی Tails:** https://tails.boum.org/install/linux/index.en.html#tails
+🔗 **بخش رسمی Tails:** https://tails.net/install/linux/index.en.html#tails
 
 
 یک یا دو دقیقه پس از بوت لودر و صفحه بارگذاری، صفحه خوش‌آمدگویی ظاهر می‌شود.

@@ -38,9 +38,9 @@ Mafunzo haya yanatoa hatua za kina za kusanidi jukwaa, kushughulikia funguo za d
 Funga hazina kwa mashine yako ya karibu:
 
 
-git clone [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 
-[cd](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd) Bitcoin-learning-management-system
+cd bitcoin-learning-management-system
 
 
 ```bash

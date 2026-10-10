@@ -293,7 +293,6 @@ Utilize um marcador público como :
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -682,6 +681,5 @@ Num contexto de crescente escrutínio financeiro, as ferramentas descentralizada
 
 
 
-- [Bookmark Faucet](https://signetfaucet.com) - Teste grátis de Bitcoins
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Alternativa ao Faucet
 - [Mempool.space](https://mempool.space) - Block explorer com análise da privacidade

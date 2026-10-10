@@ -31,7 +31,7 @@ MÄRKUS: kõik rahalised vahendid, mida teie "kliendid" hoiavad oma LNbits panga
 
 ## Demo platvorm
 
-Demo on leitav aadressil [https://legend.lnbits.com](https://legend.lnbits.com). See on täielikult toimiv ja seda saab kasutada Lightning Networki ning LNbits'i ja LNURLi funktsioonide tundmaõppimiseks üldiselt. Kuigi me ei saa seda takistada, palume teil seda mitte kasutada oma tootmisseadistuses. Me mitte ainult ei tööta sageli serverite kallal, et testida uusi funktsioone, vaid soovime ka julgustada teid oma sõlme ja LNbits'i suveräänselt käivitama. Kui te arvate, et oma sõlme käitamine on hetkel liiga palju küsitud, võite ühendada LNbits'i pilves asuva custodian funding sservice'iga nagu Opennode, Luna või Votage või Lightning Tipbot'iga Telegramis, et nimetada vaid mõned.
+Demo on leitav aadressil [https://demo.lnbits.com](https://demo.lnbits.com). See on täielikult toimiv ja seda saab kasutada Lightning Networki ning LNbits'i ja LNURLi funktsioonide tundmaõppimiseks üldiselt. Kuigi me ei saa seda takistada, palume teil seda mitte kasutada oma tootmisseadistuses. Me mitte ainult ei tööta sageli serverite kallal, et testida uusi funktsioone, vaid soovime ka julgustada teid oma sõlme ja LNbits'i suveräänselt käivitama. Kui te arvate, et oma sõlme käitamine on hetkel liiga palju küsitud, võite ühendada LNbits'i pilves asuva custodian funding sservice'iga nagu Opennode, Luna või Votage või Lightning Tipbot'iga Telegramis, et nimetada vaid mõned.
 
 ## LNbits flaier
 
@@ -156,7 +156,7 @@ Makaronide krüpteerimiseks käivitage `./venv/bin/python lnbits/wallets/macaroo
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend Demo Server (!! Ärge kasutage seda mitte tootmises / ärilistel eesmärkidel, vaid ainult testimiseks !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### Välk TipBot
@@ -449,7 +449,7 @@ Kui teil ilmneb viga "toetamata hash-tüüp", kui kasutate ypubi On-chain laiend
 
 ### Tööriistade valmistamine ja ehitamine LNbitsiga
 
-LNbitsil on igasuguseid [avatud APIsid](https://legend.lnbits.com/docs) ja vahendeid, et programmeerida ja ühendada palju erinevaid seadmeid, mis on mõeldud tuhandete eri kasutusviiside jaoks.
+LNbitsil on igasuguseid [avatud APIsid](https://demo.lnbits.com/docs) ja vahendeid, et programmeerida ja ühendada palju erinevaid seadmeid, mis on mõeldud tuhandete eri kasutusviiside jaoks.
 
 Kui te olete uus ehitamine alustada selle [MakerBits esitlused](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) Ben Arc umbes hoone vidinaid põhineb LNbits.
 

@@ -267,7 +267,7 @@ Blockchain, Transaktion, Double-Spend, Byzantine Generals' Problem, Mining, Proo
 Syftet med detta kursblock är att få en allmän förståelse för programvaran BTCPay Server. I en delad miljö rekommenderas det att du följer instruktörens demonstration och hänvisar till BTCPay Server Coursebook för att följa med läraren. Du kommer att lära dig hur du skapar en Wallet genom flera metoder. Exemplen inkluderar Hot Wallet-installationer och hårdvaruplånböcker anslutna via BTCPay Server Vault. Dessa mål inträffar i Demo-miljön, som visas och ges tillgång till av din kursinstruktör.
 
 
-Om du följer den här kursen själv kan du hitta en lista över tredjepartsvärdar för demo-ändamål på https://directory.btcpayserver.org/filter/hosts. Vi avråder starkt från att använda dessa tredjepartsalternativ som produktionsmiljöer; de tjänar dock rätt syfte för att introducera användningen av Bitcoin och BTCPay Server.
+Om du följer den här kursen själv kan du hitta en lista över tredjepartsvärdar för demo-ändamål på https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Vi avråder starkt från att använda dessa tredjepartsalternativ som produktionsmiljöer; de tjänar dock rätt syfte för att introducera användningen av Bitcoin och BTCPay Server.
 
 
 Som BTCPay Server rockstar-trainee kanske du har tidigare erfarenhet av att konfigurera en Bitcoin-nod. Den här kursen är särskilt anpassad till BTCPay Server Software stack.

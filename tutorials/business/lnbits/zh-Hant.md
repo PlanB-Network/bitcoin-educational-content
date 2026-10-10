@@ -43,7 +43,7 @@ LNbits 充當用戶與 Lightning 節點之間的 Interface，提供簡單易用�
 ## 示範平台
 
 
-您可以在 [https://legend.lnbits.com](https://legend.lnbits.com)找到示範。其功能完整，可用來了解 LNbits 和 LNURL 的 Lightning Network 和一般功能。雖然我們無法阻止您使用它，但請您不要將它用於您的生產設定。我們不僅經常在伺服器上測試新功能，也鼓勵您以主權的方式運行自己的節點和 LNbits。如果您認為運行一個節點是太多的要求，你可以在雲端連接 LNbits 到保管人資金服務，如 Opennode、Luna 或 Votage，或到 Telegram 上的 Lightning Tipbot，僅舉幾個例子。
+您可以在 [https://demo.lnbits.com](https://demo.lnbits.com)找到示範。其功能完整，可用來了解 LNbits 和 LNURL 的 Lightning Network 和一般功能。雖然我們無法阻止您使用它，但請您不要將它用於您的生產設定。我們不僅經常在伺服器上測試新功能，也鼓勵您以主權的方式運行自己的節點和 LNbits。如果您認為運行一個節點是太多的要求，你可以在雲端連接 LNbits 到保管人資金服務，如 Opennode、Luna 或 Votage，或到 Telegram 上的 Lightning Tipbot，僅舉幾個例子。
 
 
 ## LNbits 傳單
@@ -202,7 +202,7 @@ LNbits 可以運行在許多雷射網路資金來源之上。目前已支援 Cor
   - LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend 示範伺服器 (!! 請勿將此伺服器用於生產/商業用途，僅用於測試 !!!)
   - lnbits_backend_wallet_class`： **LNbitsWallet**
-  - `lnbits_endpoint`: https://legend.lnbits.com
+  - `lnbits_endpoint`: https://demo.lnbits.com
   - LNBITS_KEY: legend-lnbits-AdminKey
 
 #### 閃電提示機器人
@@ -601,7 +601,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ### 使用 LNbits 製作工具與建置
 
 
-LNbits 擁有各式各樣的 [開放 API](https://legend.lnbits.com/docs)和工具，可針對數千萬種不同的使用情況，編寫程式並連接至許多不同的裝置。
+LNbits 擁有各式各樣的 [開放 API](https://demo.lnbits.com/docs)和工具，可針對數千萬種不同的使用情況，編寫程式並連接至許多不同的裝置。
 
 
 如果你是個新手，可以從 Ben Arc 提供的 [MakerBits 簡報](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) 開始，了解如何根據 LNbits 製作小工具。

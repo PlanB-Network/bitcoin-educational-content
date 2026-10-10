@@ -27,9 +27,9 @@ Denne veiledningen inneholder detaljerte trinn for å sette opp plattformen, hå
 
 Klon depotet til din lokale maskin:
 
-git clone [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 
-[cd](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd) Bitcoin-læringsstyringssystem
+cd bitcoin-learning-management-system
 
 ```bash
 git clone https://github.com/PlanB-Network/bitcoin-learning-management-system

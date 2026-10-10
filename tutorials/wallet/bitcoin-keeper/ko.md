@@ -406,7 +406,7 @@ Bitcoin Keeper는 비트코인을 관리할 수 있는 확장 가능한 솔루�
 
 
 - 공식 웹사이트: [bitcoinkeeper.app](https://bitcoinkeeper.app)
-- 도움말 센터: [help.bitcoinkeeper.app](https://help.bitcoinkeeper.app)
+- 도움말 센터: [bitcoinkeeper.app/ask-keeper](https://www.bitcoinkeeper.app/ask-keeper)
 - 소스 코드: [github.com/bithyve/bitcoin-keeper](https://github.com/bithyve/bitcoin-keeper)
 - Telegram : [t.me/BitcoinKeeper](https://t.me/BitcoinKeeper)
 - 트위터/X: [@bitcoinkeeper_](https://x.com/bitcoinkeeper_)

@@ -406,7 +406,7 @@ Bu eğitim Bitcoin Keeper'ün ücretsiz sürümündeki temel özelliklerini kaps
 
 
 - Resmi web sitesi: [bitcoinkeeper.app](https://bitcoinkeeper.app)
-- Yardım Merkezi: [help.bitcoinkeeper.app](https://help.bitcoinkeeper.app)
+- Yardım Merkezi: [bitcoinkeeper.app/ask-keeper](https://www.bitcoinkeeper.app/ask-keeper)
 - Kaynak kodu: [github.com/bithyve/bitcoin-keeper](https://github.com/bithyve/bitcoin-keeper)
 - Telegram : [t.me/BitcoinKeeper](https://t.me/BitcoinKeeper)
 - Twitter/X: [@bitcoinkeeper_](https://x.com/bitcoinkeeper_)

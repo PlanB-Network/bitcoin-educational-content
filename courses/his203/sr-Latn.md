@@ -1230,7 +1230,7 @@ Početkom marta 2012. godine, Bitcoinica [prihvatio](https://bitcointalk.org/ind
 
 
 
-2011. godine, nedostatak potrebe za autorizacijom kod Bitcoin naveo je članove zajednice da zamisle upotrebe koje su prevazilazile jednostavnu monetarnu razmenu i spekulaciju. Oni su želeli da liberalizuju investicije pružanjem sredstava za izdavanje akcija i obveznica za kompanije u ekosistemu. Cilj je bio zaobići regulative koje nameće *Komisija za hartije od vrednosti i Exchange* u Sjedinjenim Američkim Državama (američki ekvivalent AMF-a), [iskorišćavanjem](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) inovativnog karaktera Bitcoin i pravne nejasnoće koja ga je okruživala. Ideja je bila da se stvori alternativni model klasičnom finansijskom sistemu, koji bi mogao biti samoodrživ prema agorističkom pristupu.
+2011. godine, nedostatak potrebe za autorizacijom kod Bitcoin naveo je članove zajednice da zamisle upotrebe koje su prevazilazile jednostavnu monetarnu razmenu i spekulaciju. Oni su želeli da liberalizuju investicije pružanjem sredstava za izdavanje akcija i obveznica za kompanije u ekosistemu. Cilj je bio zaobići regulative koje nameće *Komisija za hartije od vrednosti i Exchange* u Sjedinjenim Američkim Državama (američki ekvivalent AMF-a), [iskorišćavanjem](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) inovativnog karaktera Bitcoin i pravne nejasnoće koja ga je okruživala. Ideja je bila da se stvori alternativni model klasičnom finansijskom sistemu, koji bi mogao biti samoodrživ prema agorističkom pristupu.
 
 
 
@@ -1298,7 +1298,7 @@ Krajem februara 2012. godine, nastavio je sa [prikupljanjem sredstava](https://w
 
 
 
-Platforma bi postigla određeni stepen uspeha i posebno bi bila domaćin "IPO" SatoshiDICE, online kazina kojim upravlja Erik Voorhees. Vremenom se razvijala, [integrišući](http://trilema.com/2012/futures-on-mpex/) fjučers ugovore u decembru.
+Platforma bi postigla određeni stepen uspeha i posebno bi bila domaćin "IPO" SatoshiDICE, online kazina kojim upravlja Erik Voorhees. Vremenom se razvijala, [integrišući](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) fjučers ugovore u decembru.
 
 
 

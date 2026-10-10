@@ -10,7 +10,7 @@ A portable and amnesic operating system that protects you against surveillance a
 
 ## Why have a USB key with Tails installed?
 
-Tails (https://tails.boum.org/) is the easiest way to have a secure computer at your disposal at all times, which will not leave any trace on the computer you use it with.
+Tails (https://tails.net/) is the easiest way to have a secure computer at your disposal at all times, which will not leave any trace on the computer you use it with.
 
 To use Tails, turn off the computer you have access to (at your parents', at your friends', in an Internet café...) and start it with your Tails USB key instead of Windows, macOS, or Linux.
 
@@ -55,7 +55,7 @@ Prerequisites:
 
 ![image](assets/1.webp)
 
-🔗 **Official Tails section:** https://tails.boum.org/install/linux/index.fr.html#download
+🔗 **Official Tails section:** https://tails.net/install/linux/index.fr.html#download
 
 Downloading the installation file with the .img extension may take some time depending on your Internet download speed, so plan ahead. With a modern and efficient connection, it will take less than 5 minutes.
 
@@ -65,7 +65,7 @@ Save the file in a known folder, such as Downloads, as this will be necessary fo
 
 ![image](assets/2.webp)
 
-🔗 **Official Tails section:** https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 **Official Tails section:** https://tails.net/install/linux/index.fr.html#verify
 
 Verifying the download ensures that it is issued by the Tails developers and has not been corrupted or intercepted during the download.
 
@@ -79,8 +79,8 @@ To verify the file, use the "Select your download..." button provided in the off
 
 🔗 **Official Tails section:**
 
-- **Linux:** https://tails.boum.org/install/linux/index.fr.html#install
-- **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher and https://tails.boum.org/install/mac/index.fr.html#install
+- **Linux:** https://tails.net/install/linux/index.fr.html#install
+- **macOS:** https://tails.net/install/mac/index.fr.html#etcher and https://tails.net/install/mac/index.fr.html#install
 
 This step of installing Tails on your USB key is the most difficult in the entire guide, especially if you have never done it before. The most important point is to choose the correct procedure in the official section for your operating system: Linux or macOS.
 
@@ -92,7 +92,7 @@ Good luck! and see you at step 4.
 
 ![image](assets/4.webp)
 
-🔗 **Official Tails section:** https://tails.boum.org/install/linux/index.en.html#restart
+🔗 **Official Tails section:** https://tails.net/install/linux/index.en.html#restart
 
 It's time to start one of your computers using your new USB stick. Insert it into one of its USB ports and restart!
 
@@ -126,7 +126,7 @@ Once the USB stick is selected, you should see this new boot screen, which is a 
 
 ![image](assets/6.webp)
 
-🔗 **Official Tails section:** https://tails.boum.org/install/linux/index.en.html#tails
+🔗 **Official Tails section:** https://tails.net/install/linux/index.en.html#tails
 
 One or two minutes after the boot loader and loading screen, the Welcome Screen appears.
 

@@ -31,7 +31,7 @@ LNbits 充当用户与闪电节点之间的接口，提供一种简单、用户�
 
 ## 演示平台
 
-该演示可在 [https://legend.lnbits.com](https://legend.lnbits.com)上找到。该演示功能齐全，可用于了解闪电网络以及 LNbits 和 LNURL 的一般功能。虽然我们无法阻止您使用该演示，但我们希望您不要将其用于您的生产设置。我们不仅经常在服务器上测试新功能，而且还鼓励您以主权方式运行自己的节点和 LNbits。如果您认为运行一个节点过于繁琐，您可以将 LNbits 连接到云中的托管资金服务，如 Opennode、Luna 或 Votage，或者连接到 Telegram 上的 Lightning Tipbot。
+该演示可在 [https://demo.lnbits.com](https://demo.lnbits.com)上找到。该演示功能齐全，可用于了解闪电网络以及 LNbits 和 LNURL 的一般功能。虽然我们无法阻止您使用该演示，但我们希望您不要将其用于您的生产设置。我们不仅经常在服务器上测试新功能，而且还鼓励您以主权方式运行自己的节点和 LNbits。如果您认为运行一个节点过于繁琐，您可以将 LNbits 连接到云中的托管资金服务，如 Opennode、Luna 或 Votage，或者连接到 Telegram 上的 Lightning Tipbot。
 
 ## LNbits 传单
 
@@ -156,7 +156,7 @@ LNbits 可在多种闪电网络资金来源之上运行。目前，LNbits 支持
   - LNBITS_KEY： my-lnbits-AdminKey
 - LNbits Legend 演示服务器（切勿将此服务器用于生产/商业用途，仅用于测试！！）。
   - lnbits_backend_wallet_class`： **LNbitsWallet**
-  - `lnbits_endpoint`: https://legend.lnbits.com
+  - `lnbits_endpoint`: https://demo.lnbits.com
   - LNBITS_KEY：legend-lnbits-AdminKey
 
 #### 闪电提示机器人
@@ -449,7 +449,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 
 ### 使用 LNbits 制作工具和构建
 
-LNbits 拥有各种[开放式 API](https://legend.lnbits.com/docs)和工具，可用于编程和连接到各种不同的设备，适用于数以亿计的用例。
+LNbits 拥有各种[开放式 API](https://demo.lnbits.com/docs)和工具，可用于编程和连接到各种不同的设备，适用于数以亿计的用例。
 
 初学制作时，可以从 Ben Arc 提供的有关基于 LNbits 制作小工具的 [MakerBits 演示](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) 开始。
 

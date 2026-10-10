@@ -1230,7 +1230,7 @@ Begin maart 2012 [accepteerde](https://bitcointalk.org/index.php?topic=67521.msg
 
 
 
-In 2011 leidde het feit dat Bitcoin geen autorisatie nodig had ertoe dat leden van de gemeenschap zich toepassingen voorstelden die verder gingen dan eenvoudige monetaire uitwisseling en speculatie. Ze wilden investeringen liberaliseren door de uitgifte van aandelen en obligaties voor bedrijven in het ecosysteem mogelijk te maken. Het doel was om de regelgeving van de *Securities and Exchange Commission* in de Verenigde Staten (het Amerikaanse equivalent van de AMF) te omzeilen, door [voordeel te halen](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) uit het innovatieve karakter van Bitcoin en de juridische vaagheid eromheen. Het idee was om een alternatief model te creëren voor het klassieke financiële systeem, dat volgens de agoristische benadering zichzelf in stand zou kunnen houden.
+In 2011 leidde het feit dat Bitcoin geen autorisatie nodig had ertoe dat leden van de gemeenschap zich toepassingen voorstelden die verder gingen dan eenvoudige monetaire uitwisseling en speculatie. Ze wilden investeringen liberaliseren door de uitgifte van aandelen en obligaties voor bedrijven in het ecosysteem mogelijk te maken. Het doel was om de regelgeving van de *Securities and Exchange Commission* in de Verenigde Staten (het Amerikaanse equivalent van de AMF) te omzeilen, door [voordeel te halen](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) uit het innovatieve karakter van Bitcoin en de juridische vaagheid eromheen. Het idee was om een alternatief model te creëren voor het klassieke financiële systeem, dat volgens de agoristische benadering zichzelf in stand zou kunnen houden.
 
 
 
@@ -1298,7 +1298,7 @@ Eind februari 2012 ging hij verder met een [fondsenwerving](https://web.archive.
 
 
 
-Het platform zou een zekere mate van succes bereiken en zou met name gastheer zijn voor de "IPO" van SatoshiDICE, het online casino dat geëxploiteerd werd door Erik Voorhees. Het evolueerde in de loop der tijd en [integreerde](http://trilema.com/2012/futures-on-mpex/) termijncontracten in december.
+Het platform zou een zekere mate van succes bereiken en zou met name gastheer zijn voor de "IPO" van SatoshiDICE, het online casino dat geëxploiteerd werd door Erik Voorhees. Het evolueerde in de loop der tijd en [integreerde](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) termijncontracten in december.
 
 
 

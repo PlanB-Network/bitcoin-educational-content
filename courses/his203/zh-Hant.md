@@ -1230,7 +1230,7 @@ Bitcoinica 於 2011 年 9 月 8 日 [發佈](https://bitcointalk.org/index.php?t
 
 
 
-2011 年，Bitcoin 不需要授權的特性，讓社群成員開始想像不只是簡單的貨幣交換與投機。他們希望為生態系統中的公司提供發行股票和債券的方式，從而放寬投資。其目的在於[利用](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/)Bitcoin 的創新特性以及圍繞其的法律模糊性，來規避美國*證券與 Exchange 委員會*（相當於美國的 AMF）所施加的法規。我們的想法是要創造一個替代傳統金融體系的模式，而根據agorist的方法，傳統金融體系可能會自我鞏固。
+2011 年，Bitcoin 不需要授權的特性，讓社群成員開始想像不只是簡單的貨幣交換與投機。他們希望為生態系統中的公司提供發行股票和債券的方式，從而放寬投資。其目的在於[利用](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/)Bitcoin 的創新特性以及圍繞其的法律模糊性，來規避美國*證券與 Exchange 委員會*（相當於美國的 AMF）所施加的法規。我們的想法是要創造一個替代傳統金融體系的模式，而根據agorist的方法，傳統金融體系可能會自我鞏固。
 
 
 
@@ -1298,7 +1298,7 @@ MPEx 是稍後出現的另一個專案，由 Mircea Popescu 這位極具爭議�
 
 
 
-該平台將取得一定程度的成功，尤其是 Erik Voorhees 經營的線上賭場 SatoshiDICE 的「首次公開募股」。它隨著時間的推移而發展，[整合](http://trilema.com/2012/futures-on-mpex/) 期貨合約在 12 月。
+該平台將取得一定程度的成功，尤其是 Erik Voorhees 經營的線上賭場 SatoshiDICE 的「首次公開募股」。它隨著時間的推移而發展，[整合](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) 期貨合約在 12 月。
 
 
 

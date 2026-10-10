@@ -30,7 +30,7 @@ NOTE: all funds that your “customers” deposit into their LNbits bank account
 
 ## Demo platform
 
-The demo can be found at [https://legend.lnbits.com](https://legend.lnbits.com). Its fully functional and can be used to learn about the Lightning Network and features of LNbits and LNURL in general. Though we cannot prevent you from it we would like to ask you to not use it for your production setup. Not only are we working on the servers often to test new features but also we would like to encourage you to run your own node and LNbits in a sovereign way. If you think running a node is too much asked for the moment you can connect LNbits to a custodian funding sservice in the cloud like Opennode, Luna or Votage or to the Lightning Tipbot on Telegram just to name some.
+The demo can be found at [https://demo.lnbits.com](https://demo.lnbits.com). Its fully functional and can be used to learn about the Lightning Network and features of LNbits and LNURL in general. Though we cannot prevent you from it we would like to ask you to not use it for your production setup. Not only are we working on the servers often to test new features but also we would like to encourage you to run your own node and LNbits in a sovereign way. If you think running a node is too much asked for the moment you can connect LNbits to a custodian funding sservice in the cloud like Opennode, Luna or Votage or to the Lightning Tipbot on Telegram just to name some.
 
 ## LNbits flyer
 
@@ -141,7 +141,7 @@ To encrypt your macaroon, run `./venv/bin/python lnbits/wallets/macaroon/macaroo
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend Demo Server (!! Do NOT use this one for production / commercial purposes, only for testing !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 #### Lightning TipBot
 
@@ -423,7 +423,7 @@ If you have an Error "unsupported hash type" when using a ypub in On-chain exten
 
 ### Tooling & Building with LNbits
 
-LNbits has all sorts of [open APIs](https://legend.lnbits.com/docs) and tools to program and connect to a lot of different devices for a gazillion of use-cases.
+LNbits has all sorts of [open APIs](https://demo.lnbits.com/docs) and tools to program and connect to a lot of different devices for a gazillion of use-cases.
 
 When you are new to building start with this [MakerBits presentations](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) from Ben Arc about building gadgets based on LNbits.
 

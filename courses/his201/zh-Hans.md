@@ -138,7 +138,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 在他的[基础文章](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf)中，1985 年发表于*Communications of the ACM*的《Security Without Identification: Transaction Systems to Make Big Brother Obsolete》(无需识别的安全性：让大哥哥过时的交易系统）中，他写道：
 > “正在为一个档案社会奠定基础，在这个社会中，计算机可以用来从日常消费者交易中收集的数据推断个人的生活方式、习惯、行踪和关联。对数据能否保持安全不被维护或窃听者滥用的不确定性，可能会产生‘寒蝉效应’，导致人们改变他们的可观察活动。随着计算机化得更加普遍，这些问题的潜力将戏剧性增长。”
 
-这种对隐私保护的执着解释了他对加密学领域的兴趣，他早在 1979 年就对此做出了贡献。1981 年，他描述了通过混合网络实现匿名通信的基础，这将特为电子邮件中继服务（Mixmaster）和 Tor 匿名网络提供服务。1982 年，他参与了在年度 CRYPTO '82 大会上成立国际密码学研究协会（IACR）。同年（这也是我们这里感兴趣的），在一篇题为《Blind Signature for Untraceable Payments》([盲签名](https://planb.academy/resources/glossary/blind-signature)用于不可追踪的支付)的[文章](https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF)中，他发布了盲签名过程，这是他尊重隐私的数字货币模型：eCash 的核心。
+这种对隐私保护的执着解释了他对加密学领域的兴趣，他早在 1979 年就对此做出了贡献。1981 年，他描述了通过混合网络实现匿名通信的基础，这将特为电子邮件中继服务（Mixmaster）和 Tor 匿名网络提供服务。1982 年，他参与了在年度 CRYPTO '82 大会上成立国际密码学研究协会（IACR）。同年（这也是我们这里感兴趣的），在一篇题为《Blind Signature for Untraceable Payments》([盲签名](https://planb.academy/resources/glossary/blind-signature)用于不可追踪的支付)的[文章](https://chaum.com/wp-content/uploads/2022/01/Chaum-blind-signatures.pdf)中，他发布了盲签名过程，这是他尊重隐私的数字货币模型：eCash 的核心。
 
 正如 David Chaum 在 1996 年的一份[新闻稿](https://chaum.com/wp-content/uploads/2022/01/05-07-96-DigiCash_s-Ecash%E2%84%A2-to-be-Issued-by-Deutsche-Bank.pdf)中[解释](https://chaum.com/wp-content/uploads/2022/01/05-07-96-DigiCash_s-Ecash%E2%84%A2-to-be-Issued-by-Deutsche-Bank.pdf)的：
 

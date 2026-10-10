@@ -10,7 +10,7 @@ Un système d'exploitation portable et amnésique qui vous protège contre la su
 
 ## Pourquoi avoir une clé USB avec Tails installé sur soi?
 
-Tails (https://tails.boum.org/) est le moyen le plus facile d'avoir à votre disposition, en tout temps, un ordinateur sécurisé qui ne laissera pas de trace sur l'ordinateur avec lequel vous l'utiliserez.
+Tails (https://tails.net/) est le moyen le plus facile d'avoir à votre disposition, en tout temps, un ordinateur sécurisé qui ne laissera pas de trace sur l'ordinateur avec lequel vous l'utiliserez.
 
 Pour utiliser Tails, éteignez l'ordinateur à votre disposition (chez vos parents, chez vos amis, dans un café Internet...) et démarrez-le sur votre clé USB Tails à la place de Windows, macOS ou Linux.
 
@@ -54,7 +54,7 @@ Prérequis
 
 ![image](assets/1.webp)
 
-> 🔗 Section officielle de Tails: https://tails.boum.org/install/linux/index.fr.html#download
+> 🔗 Section officielle de Tails: https://tails.net/install/linux/index.fr.html#download
 
 Télécharger le fichier d'installation avec l'extension img peut prendre un certain temps en fonction de votre vitesse de téléchargement Internet, prévoyez donc de le faire en avance. Avec une ligne moderne et performante, cela prendra moins de 5 minutes.
 
@@ -64,7 +64,7 @@ Sauver le fichier dans un dossier connu, tels que Téléchargements, cela sera n
 
 ![image](assets/2.webp)
 
-> 🔗 Section officielle de Tails: https://tails.boum.org/install/linux/index.fr.html#verify
+> 🔗 Section officielle de Tails: https://tails.net/install/linux/index.fr.html#verify
 
 Vérifier le téléchargement permet de vous assurer qu'il est émis par les développeurs de Tails et qu'il n'a pas été corrompu ou intercepté au cours du téléchargement.
 
@@ -78,8 +78,8 @@ Pour vérifier le fichier, utilisez donc le bouton "Sélectionner votre téléch
 
 > 🔗 Section officielle de Tails:
 >
-> - Linux: https://tails.boum.org/install/linux/index.fr.html#install
-> - macOS: https://tails.boum.org/install/mac/index.fr.html#etcher et https://tails.boum.org/install/mac/index.fr.html#install
+> - Linux: https://tails.net/install/linux/index.fr.html#install
+> - macOS: https://tails.net/install/mac/index.fr.html#etcher et https://tails.net/install/mac/index.fr.html#install
 
 Cette étape d'installation de Tails sur votre clé USB est la plus difficile de tout le guide, surtout si vous ne l'avez jamais fait avant. Le point le plus important est de bien choisir la procédure dans la section officielle pour votre système d'exploitation: Linux ou macOS.
 
@@ -91,7 +91,7 @@ Bon courage! et rendez-vous à l'étape 4.
 
 ![image](assets/4.webp)
 
-> 🔗 Section officielle de Tails: https://tails.boum.org/install/linux/index.fr.html#restart
+> 🔗 Section officielle de Tails: https://tails.net/install/linux/index.fr.html#restart
 
 Il est temps de démarrer un de vos ordinateurs en utilisant votre nouvelle clé USB. Insérez celle-ci dans un de ses ports USB et redémarrez!
 
@@ -125,7 +125,7 @@ Une fois la clé USB sélectionnée, vous devriez voir ce nouvel écran de déma
 
 ![image](assets/6.webp)
 
-> 🔗 Section officielle de Tails: https://tails.boum.org/install/linux/index.fr.html#tails
+> 🔗 Section officielle de Tails: https://tails.net/install/linux/index.fr.html#tails
 
 Une ou deux minutes après le chargeur d'amorçage et l'écran de chargement, l'Écran de bienvenue apparaît.
 

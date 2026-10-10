@@ -169,7 +169,6 @@ Pour tester Joinstr sur signet, vous avez besoin de bitcoins de test gratuits :
 ![SIGNET FAUCET](assets/fr/06.webp)
 
 Utilisez un faucet signet public comme :
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [signet257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -359,6 +358,5 @@ Dans un contexte de surveillance financière croissante, disposer d'outils déce
 - [Discussion technique sur DelvingBitcoin](https://delvingbitcoin.org/t/who-will-run-the-coinjoin-coordinators/934)
 
 ### Outils complémentaires
-- [Signet Faucet](https://signetfaucet.com) - Bitcoins de test gratuits
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet alternatif
 - [Mempool.space](https://mempool.space) - Explorateur de blocs avec analyse de confidentialité

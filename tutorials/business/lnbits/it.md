@@ -32,7 +32,7 @@ NOTA: tutti i fondi che i tuoi "clienti" depositano nei loro conti bancari LNbit
 
 ## Piattaforma demo
 
-La demo si trova all'indirizzo [https://legend.lnbits.com](https://legend.lnbits.com). È completamente funzionante e può essere utilizzata per conoscere la rete Lightning e le caratteristiche di LNbits e LNURL in generale. Sebbene non possiamo impedirti di utilizzarla, ti chiediamo di non usarla per la tua configurazione di produzione. Non solo lavoriamo spesso sui server per testare nuove funzionalità, ma vorremmo anche incoraggiarti a gestire il tuo nodo e LNbits in modo sovrano. Se pensi che gestire un nodo sia troppo impegnativo per il momento, puoi collegare LNbits a un servizio di finanziamento custodial nel cloud come Opennode, Luna o Votage o al Lightning Tipbot su Telegram, solo per citarne alcuni.
+La demo si trova all'indirizzo [https://demo.lnbits.com](https://demo.lnbits.com). È completamente funzionante e può essere utilizzata per conoscere la rete Lightning e le caratteristiche di LNbits e LNURL in generale. Sebbene non possiamo impedirti di utilizzarla, ti chiediamo di non usarla per la tua configurazione di produzione. Non solo lavoriamo spesso sui server per testare nuove funzionalità, ma vorremmo anche incoraggiarti a gestire il tuo nodo e LNbits in modo sovrano. Se pensi che gestire un nodo sia troppo impegnativo per il momento, puoi collegare LNbits a un servizio di finanziamento custodial nel cloud come Opennode, Luna o Votage o al Lightning Tipbot su Telegram, solo per citarne alcuni.
 
 
 ## Volantino di LNbits
@@ -148,7 +148,7 @@ Per criptare il macaroon, esegui `./venv/bin/python lnbits/wallets/macaroon/maca
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend Demo Server (!NON utilizzare questo server per scopi produttivi/commerciali, ma solo per i test!!!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### Lightning TipBot
@@ -434,7 +434,7 @@ Se verifichi l'errore "tipo di hash non supportato" quando utilizzi un ypub nell
 
 ### Attrezzi e utensili da costruzione con LNbits
 
-LNbits dispone di ogni sorta di [API aperte](https://legend.lnbits.com/docs) e di strumenti per programmare e connettersi a molti dispositivi diversi per una miriade di casi d'uso.
+LNbits dispone di ogni sorta di [API aperte](https://demo.lnbits.com/docs) e di strumenti per programmare e connettersi a molti dispositivi diversi per una miriade di casi d'uso.
 
 Se sei alle prime armi con la creazione di gadget, iniziate con questa [MakerBits presentations](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) di Ben Arc sulla costruzione di gadget basati su LNbits.
 

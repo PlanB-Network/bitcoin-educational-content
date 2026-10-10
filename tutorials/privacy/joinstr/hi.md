@@ -293,7 +293,6 @@ openssl rand -base64 32
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -682,6 +681,5 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- [बुकमार्क Faucet](https://signetfaucet.com) - मुफ़्त बिटकॉइन परीक्षण
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet का विकल्प
 - [Mempool.space](https://mempool.space) - गोपनीयता विश्लेषण के साथ Block explorer

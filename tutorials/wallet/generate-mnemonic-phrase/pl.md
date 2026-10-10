@@ -51,7 +51,7 @@ Do ręcznego utworzenia frazy odzyskiwania potrzebne będą:
 Następnie do obliczenia sumy kontrolnej konieczne będzie użycie komputera z terminalem. Właśnie z tego powodu odradzam ręczne generowanie frazy Mnemonic. Moim zdaniem ingerencja komputera, nawet przy zachowaniu środków ostrożności wspomnianych w tym poradniku, znacznie zwiększa podatność Wallet na ataki.
 
 
-W przypadku eksperymentalnego podejścia dotyczącego "fikcyjnego Wallet" możliwe jest użycie zwykłego komputera i jego terminala. Jednak w przypadku bardziej rygorystycznego podejścia mającego na celu ograniczenie ryzyka naruszenia frazy, idealnym rozwiązaniem byłoby użycie komputera odłączonego od Internetu (najlepiej bez komponentu Wi-Fi lub połączenia przewodowego RJ45), wyposażonego w minimum urządzeń peryferyjnych (z których wszystkie powinny być podłączone kablem, aby uniknąć Bluetooth), a przede wszystkim działającego na amnezyjnej dystrybucji Linuksa, takiej jak [Tails](https://tails.boum.org/index.fr.html), uruchamianej z nośnika wymiennego.
+W przypadku eksperymentalnego podejścia dotyczącego "fikcyjnego Wallet" możliwe jest użycie zwykłego komputera i jego terminala. Jednak w przypadku bardziej rygorystycznego podejścia mającego na celu ograniczenie ryzyka naruszenia frazy, idealnym rozwiązaniem byłoby użycie komputera odłączonego od Internetu (najlepiej bez komponentu Wi-Fi lub połączenia przewodowego RJ45), wyposażonego w minimum urządzeń peryferyjnych (z których wszystkie powinny być podłączone kablem, aby uniknąć Bluetooth), a przede wszystkim działającego na amnezyjnej dystrybucji Linuksa, takiej jak [Tails](https://tails.net/index.fr.html), uruchamianej z nośnika wymiennego.
 
 
 ![mnemonic](assets/notext/2.webp)

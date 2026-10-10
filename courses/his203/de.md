@@ -1227,7 +1227,7 @@ Anfang März 2012 [akzeptierte](https://bitcointalk.org/index.php?topic=67521.ms
 
 
 
-Im Jahr 2011 veranlasste die fehlende Genehmigungspflicht von Bitcoin die Mitglieder der Gemeinschaft dazu, sich Verwendungszwecke vorzustellen, die über den einfachen Geldaustausch und die Spekulation hinausgehen. Sie versuchten, Investitionen zu liberalisieren, indem sie ein Mittel zur Ausgabe von Aktien und Anleihen für Unternehmen im Ökosystem bereitstellten. Ziel war es, die von der *Securities and Exchange Commission* in den Vereinigten Staaten (dem amerikanischen Äquivalent der AMF) auferlegten Vorschriften zu umgehen, indem [man](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) den innovativen Charakter von Bitcoin und die rechtliche Unklarheit, die es umgibt, ausnutzt. Die Idee war, ein alternatives Modell zum klassischen Finanzsystem zu schaffen, das sich nach dem agoristischen Ansatz selbst verstärken könnte.
+Im Jahr 2011 veranlasste die fehlende Genehmigungspflicht von Bitcoin die Mitglieder der Gemeinschaft dazu, sich Verwendungszwecke vorzustellen, die über den einfachen Geldaustausch und die Spekulation hinausgehen. Sie versuchten, Investitionen zu liberalisieren, indem sie ein Mittel zur Ausgabe von Aktien und Anleihen für Unternehmen im Ökosystem bereitstellten. Ziel war es, die von der *Securities and Exchange Commission* in den Vereinigten Staaten (dem amerikanischen Äquivalent der AMF) auferlegten Vorschriften zu umgehen, indem [man](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) den innovativen Charakter von Bitcoin und die rechtliche Unklarheit, die es umgibt, ausnutzt. Die Idee war, ein alternatives Modell zum klassischen Finanzsystem zu schaffen, das sich nach dem agoristischen Ansatz selbst verstärken könnte.
 
 
 
@@ -1295,7 +1295,7 @@ Ende Februar 2012 führte er ein [Fundraising](https://web.archive.org/web/20260
 
 
 
-Die Plattform sollte einen gewissen Erfolg erzielen und insbesondere den "Börsengang" von SatoshiDICE, dem von Erik Voorhees betriebenen Online-Kasino, beherbergen. Sie entwickelte sich im Laufe der Zeit weiter und [integrierte](http://trilema.com/2012/futures-on-mpex/) Terminkontrakte im Dezember.
+Die Plattform sollte einen gewissen Erfolg erzielen und insbesondere den "Börsengang" von SatoshiDICE, dem von Erik Voorhees betriebenen Online-Kasino, beherbergen. Sie entwickelte sich im Laufe der Zeit weiter und [integrierte](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) Terminkontrakte im Dezember.
 
 
 

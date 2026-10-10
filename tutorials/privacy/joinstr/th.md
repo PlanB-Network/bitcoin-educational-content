@@ -293,7 +293,6 @@ wallet ของคุณถูกสร้างขึ้นแล้วแล�
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -682,6 +681,5 @@ Joinstr แสดงถึงโซลูชันความเป็นส่
 
 
 
-- [Bookmark Faucet](https://signetfaucet.com) - รับบิตคอยน์ทดสอบฟรี
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet ทางเลือก
 - [Mempool.space](https://mempool.space) - Block explorer พร้อมการวิเคราะห์ความเป็นส่วนตัว

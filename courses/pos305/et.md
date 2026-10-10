@@ -267,7 +267,7 @@ Blockchain, tehing, topeltkulu, Bütsantsi kindlusprobleem, Mining, Proof of Wor
 Selle kursusebloki eesmärk on saada üldine arusaam BTCPay Serveri tarkvarast. Ühiskeskkonnas on soovitatav jälgida õpetaja demonstratsiooni ja vaadata BTCPay Server kursuseraamatut, et koos õpetajaga kaasa elada. Te saate teada, kuidas luua Wallet mitme meetodi abil. Näidetena võib tuua Hot Wallet seadistused ja BTCPay Server Vault'i kaudu ühendatud riistvaralised rahakotid. Need eesmärgid toimuvad demokeskkonnas, mida kuvab ja millele annab juurdepääsu teie kursuse juhendaja.
 
 
-Kui te järgite seda kursust ise, leiate nimekirja kolmandate osapoolte hostidest demo eesmärgil aadressil https://directory.btcpayserver.org/filter/hosts. Soovitame tungivalt mitte kasutada neid kolmanda osapoole võimalusi tootmiskeskkondadena; need täidavad siiski õiget eesmärki Bitcoin ja BTCPay Serveri kasutamise tutvustamiseks.
+Kui te järgite seda kursust ise, leiate nimekirja kolmandate osapoolte hostidest demo eesmärgil aadressil https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Soovitame tungivalt mitte kasutada neid kolmanda osapoole võimalusi tootmiskeskkondadena; need täidavad siiski õiget eesmärki Bitcoin ja BTCPay Serveri kasutamise tutvustamiseks.
 
 
 BTCPay Server rockstar'i praktikandina võib teil olla eelnev kogemus Bitcoin sõlme seadistamisel. See kursus on spetsiaalselt kohandatud BTCPay Serveri tarkvarapaketi jaoks.

@@ -148,7 +148,7 @@ Ushaka kumenya vyinshi: [Imirongo | Inyandiko za Zewu](inyandiko.zeusln.app/)
 _Igishushanyo c'ibitoke_
 
 
-Ushaka kumenya vyinshi: [Ibitoke](https://bitbanana.com)
+Ushaka kumenya vyinshi: [Ibitoke](https://bitbanana.app)
 
 
 Iyo umurongo wawe umaze gufungurwa, amahera ashobora guca kuri wo ku bandi bari muri iyo nzira. Ivyiyumviro bihindura off-chain, bikaba bituma amafaranga akoreshwa hafi y’aho nyene kandi akagira amahera makeyi.

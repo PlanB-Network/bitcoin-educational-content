@@ -1230,7 +1230,7 @@ Na początku marca 2012 r. Bitcoinica [akceptowała](https://bitcointalk.org/ind
 
 
 
-W 2011 r. brak potrzeby autoryzacji Bitcoin skłonił członków społeczności do wyobrażenia sobie zastosowań wykraczających poza zwykłą wymianę walut i spekulację. Chcieli oni zliberalizować inwestycje poprzez zapewnienie środków emisji akcji i obligacji dla firm w ekosystemie. Celem było obejście przepisów nałożonych przez *Securities and Exchange Commission* w Stanach Zjednoczonych (amerykański odpowiednik AMF), poprzez [wykorzystanie](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) innowacyjnego charakteru Bitcoin i otaczającej go niejasności prawnej. Pomysł polegał na stworzeniu alternatywnego modelu dla klasycznego systemu finansowego, który zgodnie z podejściem agorystycznym mógłby być samowzmacniający się.
+W 2011 r. brak potrzeby autoryzacji Bitcoin skłonił członków społeczności do wyobrażenia sobie zastosowań wykraczających poza zwykłą wymianę walut i spekulację. Chcieli oni zliberalizować inwestycje poprzez zapewnienie środków emisji akcji i obligacji dla firm w ekosystemie. Celem było obejście przepisów nałożonych przez *Securities and Exchange Commission* w Stanach Zjednoczonych (amerykański odpowiednik AMF), poprzez [wykorzystanie](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) innowacyjnego charakteru Bitcoin i otaczającej go niejasności prawnej. Pomysł polegał na stworzeniu alternatywnego modelu dla klasycznego systemu finansowego, który zgodnie z podejściem agorystycznym mógłby być samowzmacniający się.
 
 
 
@@ -1298,7 +1298,7 @@ Pod koniec lutego 2012 r. przystąpił do [zbierania funduszy](https://web.archi
 
 
 
-Platforma osiągnęła pewien stopień sukcesu, a w szczególności była gospodarzem "IPO" SatoshiDICE, kasyna online prowadzonego przez Erika Voorheesa. Z czasem ewoluowała, [integrując](http://trilema.com/2012/futures-on-mpex/) kontrakty futures w grudniu.
+Platforma osiągnęła pewien stopień sukcesu, a w szczególności była gospodarzem "IPO" SatoshiDICE, kasyna online prowadzonego przez Erika Voorheesa. Z czasem ewoluowała, [integrując](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) kontrakty futures w grudniu.
 
 
 

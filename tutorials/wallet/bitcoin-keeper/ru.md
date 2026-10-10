@@ -406,7 +406,7 @@ Bitcoin Keeper - это масштабируемое решение для уп�
 
 
 - Официальный сайт: [bitcoinkeeper.app](https://bitcoinkeeper.app)
-- Центр помощи: [help.bitcoinkeeper.app](https://help.bitcoinkeeper.app)
+- Центр помощи: [bitcoinkeeper.app/ask-keeper](https://www.bitcoinkeeper.app/ask-keeper)
 - Исходный код: [github.com/bithyve/bitcoin-keeper](https://github.com/bithyve/bitcoin-keeper)
 - Telegram : [t.me/BitcoinKeeper](https://t.me/BitcoinKeeper)
 - Twitter/X: [@bitcoinkeeper_](https://x.com/bitcoinkeeper_)

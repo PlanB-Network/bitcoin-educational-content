@@ -51,7 +51,7 @@ Za kreiranje vaše fraze za oporavak ručno, biće vam potrebno:
 Nakon toga, upotreba računara sa terminalom postaje neophodna za izračunavanje kontrolne sume. Upravo iz tog razloga savetujem protiv ručnog generisanja Mnemonic fraze. Po mom mišljenju, intervencija računara, čak i uz mere predostrožnosti navedene u ovom vodiču, značajno povećava ranjivost Wallet.
 
 
-Za eksperimentalni pristup koji se tiče "fiktivnog Wallet", moguće je koristiti vaš uobičajeni računar i njegov terminal. Međutim, za rigorozniji pristup usmeren na ograničavanje rizika kompromitovanja vaše fraze, idealno bi bilo koristiti PC koji nije povezan na internet (po mogućstvu bez wifi komponente ili RJ45 žičane veze), opremljen sa minimalno periferija (sve bi trebalo da budu povezane kablom, kako bi se izbegao Bluetooth), i pre svega, koji radi na amnezičnoj Linux distribuciji kao što je [Tails](https://tails.boum.org/index.fr.html), pokrenutoj sa prenosivog medija.
+Za eksperimentalni pristup koji se tiče "fiktivnog Wallet", moguće je koristiti vaš uobičajeni računar i njegov terminal. Međutim, za rigorozniji pristup usmeren na ograničavanje rizika kompromitovanja vaše fraze, idealno bi bilo koristiti PC koji nije povezan na internet (po mogućstvu bez wifi komponente ili RJ45 žičane veze), opremljen sa minimalno periferija (sve bi trebalo da budu povezane kablom, kako bi se izbegao Bluetooth), i pre svega, koji radi na amnezičnoj Linux distribuciji kao što je [Tails](https://tails.net/index.fr.html), pokrenutoj sa prenosivog medija.
 
 
 ![mnemonic](assets/notext/2.webp)

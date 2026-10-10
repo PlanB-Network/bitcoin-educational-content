@@ -1230,7 +1230,7 @@ Mapema Machi 2012, Bitcoinica [ilikubali](https://bitcointalk.org/index.php?topi
 
 
 
-Mnamo mwaka wa 2011, ukosefu wa uhitaji wa idhini wa Bitcoin uliwafanya wanajamii kufikiria matumizi ambayo yalizidi ubadilishanaji rahisi wa fedha na uvumi. Walikuwa wakitafuta kuhuisha uwekezaji kwa kutoa njia ya kutoa hisa na dhamana kwa makampuni katika mfumo ikolojia. Lengo lilikuwa kukwepa kanuni zilizowekwa na Tume ya *Usalama na Exchange* nchini Marekani (sawa na AMF ya Marekani), kwa [kutumia](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) ya tabia bunifu ya Bitcoin na utata wa kisheria ulioizunguka. Wazo lilikuwa kuunda mfumo mbadala wa mfumo wa kifedha wa kawaida, ambao unaweza kujiimarisha kulingana na mbinu ya agorist.
+Mnamo mwaka wa 2011, ukosefu wa uhitaji wa idhini wa Bitcoin uliwafanya wanajamii kufikiria matumizi ambayo yalizidi ubadilishanaji rahisi wa fedha na uvumi. Walikuwa wakitafuta kuhuisha uwekezaji kwa kutoa njia ya kutoa hisa na dhamana kwa makampuni katika mfumo ikolojia. Lengo lilikuwa kukwepa kanuni zilizowekwa na Tume ya *Usalama na Exchange* nchini Marekani (sawa na AMF ya Marekani), kwa [kutumia](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) ya tabia bunifu ya Bitcoin na utata wa kisheria ulioizunguka. Wazo lilikuwa kuunda mfumo mbadala wa mfumo wa kifedha wa kawaida, ambao unaweza kujiimarisha kulingana na mbinu ya agorist.
 
 
 
@@ -1298,7 +1298,7 @@ Mwishoni mwa Februari 2012, aliendelea na [uchangishaji wa fedha](https://web.ar
 
 
 
-Jukwaa hilo lingeendelea kufikia kiwango fulani cha mafanikio na hasa lingeandaa "IPO" ya SatoshiDICE, kasino ya mtandaoni inayoendeshwa na Erik Voorhees. Ilibadilika baada ya muda, [ikijumuisha](http://trilema.com/2012/futures-on-mpex/) mikataba ya hatima mwezi Desemba.
+Jukwaa hilo lingeendelea kufikia kiwango fulani cha mafanikio na hasa lingeandaa "IPO" ya SatoshiDICE, kasino ya mtandaoni inayoendeshwa na Erik Voorhees. Ilibadilika baada ya muda, [ikijumuisha](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) mikataba ya hatima mwezi Desemba.
 
 
 

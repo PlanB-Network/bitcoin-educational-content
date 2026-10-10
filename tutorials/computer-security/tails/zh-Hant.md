@@ -13,7 +13,7 @@ description: 在 USB 鑰匙上安裝 Tails
 ## 為何要有安裝了 Tails 的 USB 鑰匙？
 
 
-Tails (https://tails.boum.org/) 是讓您隨時擁有安全電腦的最簡單方法，它不會在您使用的電腦上留下任何痕跡。
+Tails (https://tails.net/) 是讓您隨時擁有安全電腦的最簡單方法，它不會在您使用的電腦上留下任何痕跡。
 
 
 要使用 Tails，請關閉您可以存取的電腦 (在父母家、朋友家、網咖...) 並使用 Tails USB 密鑰啟動電腦，而非 Windows、macOS 或 Linux。
@@ -80,7 +80,7 @@ Tails 從不寫入 Hard 磁碟機，只使用電腦的 RAM 來運作。當 Tails
 ![image](assets/1.webp)
 
 
-🔗 **官方尾巴部分:** https://tails.boum.org/install/linux/index.fr.html#download
+🔗 **官方尾巴部分:** https://tails.net/install/linux/index.fr.html#download
 
 
 下載副檔名為 .img 的安裝檔案可能需要一些時間，這取決於您的網際網路下載速度，因此請提前計劃。在現代高效的連線下，下載時間不會超過 5 分鐘。
@@ -95,7 +95,7 @@ Tails 從不寫入 Hard 磁碟機，只使用電腦的 RAM 來運作。當 Tails
 ![image](assets/2.webp)
 
 
-🔗 **官方尾巴部分:** https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 **官方尾巴部分:** https://tails.net/install/linux/index.fr.html#verify
 
 
 驗證下載可確保它是由 Tails 開發人員所發行，並且在下載過程中沒有被損壞或截取。
@@ -117,8 +117,8 @@ Tails 從不寫入 Hard 磁碟機，只使用電腦的 RAM 來運作。當 Tails
 
 
 
-- **Linux:** https://tails.boum.org/install/linux/index.fr.html#install
-- **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher 和 https://tails.boum.org/install/mac/index.fr.html#install
+- **Linux:** https://tails.net/install/linux/index.fr.html#install
+- **macOS:** https://tails.net/install/mac/index.fr.html#etcher 和 https://tails.net/install/mac/index.fr.html#install
 
 
 在 USB key 上安裝 Tails 這一步驟是整份指南中最困難的，尤其是如果您從未執行過這一步驟。最重要的一點是在官方部分選擇適合您作業系統的正確步驟：Linux 或 macOS。
@@ -136,7 +136,7 @@ Tails 從不寫入 Hard 磁碟機，只使用電腦的 RAM 來運作。當 Tails
 ![image](assets/4.webp)
 
 
-🔗 **官方尾巴部分:** https://tails.boum.org/install/linux/index.en.html#restart
+🔗 **官方尾巴部分:** https://tails.net/install/linux/index.en.html#restart
 
 
 是時候使用您的新 USB 隨身碟啟動您的電腦了。將它插入其中一個 USB 連接埠，然後重新啟動！
@@ -178,7 +178,7 @@ Tails 從不寫入 Hard 磁碟機，只使用電腦的 RAM 來運作。當 Tails
 ![image](assets/6.webp)
 
 
-🔗 **官方尾巴部分:** https://tails.boum.org/install/linux/index.en.html#tails
+🔗 **官方尾巴部分:** https://tails.net/install/linux/index.en.html#tails
 
 
 開機載入程式和載入畫面出現一兩分鐘後會出現歡迎畫面。

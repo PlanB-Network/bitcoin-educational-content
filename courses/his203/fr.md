@@ -641,7 +641,7 @@ Début mars 2012, Bitcoinica [accepte](https://bitcointalk.org/index.php?topic=6
 
 ### L'émission de titres financiers avec GLBSE
 
-En 2011, l'absence de besoin d'autorisation de Bitcoin pousse les membres de la communauté à imaginer des utilisations allant plus loin que le simple échange monétaire et la spéculation. Ils envisagent ainsi de libéraliser l'investissement en fournissant un moyen d'émettre des actions et des obligations pour les sociétés de l'écosystème. Il s'agit de contourner des règlementations imposées notamment par la *Securities and Exchange Commission* aux États-Unis (l'équivalent américain de l'AMF), en [profitant](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) du caractère novateur de Bitcoin et du flou juridique qui l'entoure. L'idée est de créer un modèle alternatif au système financier classique, qui pourrait s'autoentrenir selon l'approche agoriste.
+En 2011, l'absence de besoin d'autorisation de Bitcoin pousse les membres de la communauté à imaginer des utilisations allant plus loin que le simple échange monétaire et la spéculation. Ils envisagent ainsi de libéraliser l'investissement en fournissant un moyen d'émettre des actions et des obligations pour les sociétés de l'écosystème. Il s'agit de contourner des règlementations imposées notamment par la *Securities and Exchange Commission* aux États-Unis (l'équivalent américain de l'AMF), en [profitant](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) du caractère novateur de Bitcoin et du flou juridique qui l'entoure. L'idée est de créer un modèle alternatif au système financier classique, qui pourrait s'autoentrenir selon l'approche agoriste.
 
 L'un des individus s'impliquant dans ce mouvement est James McCarthy, qui utilise le pseudonyme Nefario sur le forum de Bitcoin, en référence au personnage du même nom dans le film d'animation *Moi, moche et méchant*. Celui-ci est un Irlandais vivant en Chine, qui occupe un poste de professeur d'anglais dans une université. Il s'intéresse à l'[école autrichienne](https://planb.academy/resources/glossary/austrian-school) et aux idées des cypherpunks, [déclarant](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) lui-même être "en quelque sorte un cypherpunk". Il a [découvert](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) l'existence de Bitcoin au cours de l'année 2010 et en a miné plus d'un millier. Il s'est ensuite impliqué dans plusieurs projets, dont le projet de magazine en ligne Bitcoin Weekly.
 
@@ -675,7 +675,7 @@ En août, Mircea [ouvre](https://bitcointalk.org/index.php?topic=15672.msg444367
 
 *Capture de MPEx, août 2012 (source : [archive](https://web.archive.org/web/20120829092213/http://polimedia.us/bitcoin/mpex.php) de Polymedia.us)*
 
-La plateforme rencontrera un certain succès et hébergera notamment l'"IPO" de SatoshiDICE, le casino en ligne géré par Erik Voorhees. Elle évoluera avec le temps, [intégrant](http://trilema.com/2012/futures-on-mpex/) les contrats à terme en décembre.
+La plateforme rencontrera un certain succès et hébergera notamment l'"IPO" de SatoshiDICE, le casino en ligne géré par Erik Voorhees. Elle évoluera avec le temps, [intégrant](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) les contrats à terme en décembre.
 
 ### Une phase de construction
 

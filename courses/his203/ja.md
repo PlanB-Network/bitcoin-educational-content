@@ -1230,7 +1230,7 @@ Bitcoinicaは2011年9月8日、17歳の中国人少年、周桐（Zhou Tong）�
 
 
 
-2011年、Bitcoinが認可を必要としないことから、コミュニティのメンバーは単純な金銭のやり取りや投機を超えた用途を想像するようになった。彼らは、エコシステム内の企業に株式や債券を発行する手段を提供することで、投資を自由化しようとしていた。その目的は、Bitcoinの革新的な性格とそれを取り巻く法的な曖昧さを[利用する](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/)ことで、アメリカの*Securities and Exchange Commission*（AMFに相当するアメリカ）によって課される規制を回避することだった。アゴリストのアプローチによれば、古典的な金融システムの代替モデルを作ることだった。
+2011年、Bitcoinが認可を必要としないことから、コミュニティのメンバーは単純な金銭のやり取りや投機を超えた用途を想像するようになった。彼らは、エコシステム内の企業に株式や債券を発行する手段を提供することで、投資を自由化しようとしていた。その目的は、Bitcoinの革新的な性格とそれを取り巻く法的な曖昧さを[利用する](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/)ことで、アメリカの*Securities and Exchange Commission*（AMFに相当するアメリカ）によって課される規制を回避することだった。アゴリストのアプローチによれば、古典的な金融システムの代替モデルを作ることだった。
 
 
 
@@ -1298,7 +1298,7 @@ Bitcoinicaは2011年9月8日、17歳の中国人少年、周桐（Zhou Tong）�
 
 
 
-このプラットフォームは一定の成功を収め、特にエリック・ヴォーヒーズが運営するオンラインカジノ、SatoshiDICEの「IPO」を主催することになる。12月には先物契約を[統合](http://trilema.com/2012/futures-on-mpex/)した。
+このプラットフォームは一定の成功を収め、特にエリック・ヴォーヒーズが運営するオンラインカジノ、SatoshiDICEの「IPO」を主催することになる。12月には先物契約を[統合](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/)した。
 
 
 

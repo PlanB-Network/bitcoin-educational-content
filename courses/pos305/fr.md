@@ -267,7 +267,7 @@ Blockchain, transaction, double dépense, problème byzantin des généraux, [Mi
 L'objectif de ce bloc de cours est d'acquérir une compréhension générale du logiciel BTCPay Server. Dans un environnement partagé, il est recommandé de suivre la démonstration de l'instructeur et de se référer au manuel de cours de BTCPay Server pour suivre le professeur. Vous apprendrez à créer une Wallet à l'aide de plusieurs méthodes. Les exemples incluent des configurations Hot Wallet et des [portefeuilles matériels](https://planb.academy/resources/glossary/hardware-wallet) connectés via BTCPay Server Vault. Ces objectifs se déroulent dans l'environnement de démonstration, affiché et accessible par votre instructeur de cours.
 
 
-Si vous suivez ce cours par vous-même, vous pouvez trouver une liste d'hôtes tiers à des fins de démonstration à l'adresse https://directory.btcpayserver.org/filter/hosts. Nous déconseillons fortement d'utiliser ces options tierces comme environnements de production ; cependant, elles servent à introduire l'utilisation de Bitcoin et de BTCPay Server.
+Si vous suivez ce cours par vous-même, vous pouvez trouver une liste d'hôtes tiers à des fins de démonstration à l'adresse https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Nous déconseillons fortement d'utiliser ces options tierces comme environnements de production ; cependant, elles servent à introduire l'utilisation de Bitcoin et de BTCPay Server.
 
 
 En tant que stagiaire de BTCPay Server rockstar, vous avez peut-être déjà eu l'occasion de configurer un nœud Bitcoin. Ce cours est spécifiquement adapté à la pile logicielle de BTCPay Server.

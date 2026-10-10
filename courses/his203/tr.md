@@ -1230,7 +1230,7 @@ Mart 2012'nin başlarında Bitcoinica, doğrudan bitcoin, Liberty Reserve, Perfe
 
 
 
-2011 yılında, Bitcoin'in yetkilendirmeye ihtiyaç duymaması, topluluk üyelerinin basit parasal değişim ve spekülasyonun ötesine geçen kullanımlar hayal etmesine yol açtı. Ekosistemdeki şirketler için hisse senedi ve tahvil çıkarma aracı sağlayarak yatırımı serbestleştirmek istiyorlardı. Amaç, Bitcoin'in yenilikçi karakterinden ve onu çevreleyen yasal belirsizlikten [yararlanarak] (http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) Amerika Birleşik Devletleri'ndeki *Menkul Kıymetler ve Exchange Komisyonu* (AMF'nin Amerikan eşdeğeri) tarafından dayatılan düzenlemeleri atlatmaktı. Buradaki fikir, agorist yaklaşıma göre kendi kendini hapsedebilen klasik finansal sisteme alternatif bir model yaratmaktı.
+2011 yılında, Bitcoin'in yetkilendirmeye ihtiyaç duymaması, topluluk üyelerinin basit parasal değişim ve spekülasyonun ötesine geçen kullanımlar hayal etmesine yol açtı. Ekosistemdeki şirketler için hisse senedi ve tahvil çıkarma aracı sağlayarak yatırımı serbestleştirmek istiyorlardı. Amaç, Bitcoin'in yenilikçi karakterinden ve onu çevreleyen yasal belirsizlikten [yararlanarak] (https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) Amerika Birleşik Devletleri'ndeki *Menkul Kıymetler ve Exchange Komisyonu* (AMF'nin Amerikan eşdeğeri) tarafından dayatılan düzenlemeleri atlatmaktı. Buradaki fikir, agorist yaklaşıma göre kendi kendini hapsedebilen klasik finansal sisteme alternatif bir model yaratmaktı.
 
 
 
@@ -1298,7 +1298,7 @@ Ağustos ayında Mircea, [sunduğu](https://web.archive.org/web/20110824221522/h
 
 
 
-Platform belirli bir başarı elde etmeye devam edecek ve özellikle Erik Voorhees tarafından işletilen çevrimiçi kumarhane SatoshiDICE'ın "halka arzına" ev sahipliği yapacaktı. Zaman içinde gelişti ve Aralık ayında vadeli işlem sözleşmelerini [entegre etti] (http://trilema.com/2012/futures-on-mpex/).
+Platform belirli bir başarı elde etmeye devam edecek ve özellikle Erik Voorhees tarafından işletilen çevrimiçi kumarhane SatoshiDICE'ın "halka arzına" ev sahipliği yapacaktı. Zaman içinde gelişti ve Aralık ayında vadeli işlem sözleşmelerini [entegre etti] (https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/).
 
 
 

@@ -42,7 +42,7 @@ KUMBUKA: pesa zote ambazo "wateja" wako huweka kwenye akaunti zao za benki za LN
 ## Jukwaa la onyesho
 
 
-Onyesho linaweza kupatikana katika [https://legend.lnbits.com](https://legend.lnbits.com). Inafanya kazi kikamilifu na inaweza kutumika kujifunza kuhusu Lightning Network na vipengele vya LNbits na LNURL kwa ujumla. Ingawa hatuwezi kukuzuia, tungependa kukuuliza usiitumie kwa usanidi wako wa uzalishaji. Sio tu kwamba tunafanya kazi kwenye server mara kwa mara ili kujaribu vipengele vipya lakini pia tungependa kukuhimiza kuendesha node yako mwenyewe na LNbits kwa njia huru. Iwapo unafikiri kuwa kuendesha node kunaulizwa sana kwa sasa unaweza kuunganisha LNbits kwa huduma ya ufadhili ya msimamizi katika cloud kama vile Opennode, Luna au Votage au kwa Tipbot ya Lightning kwenye Telegram ili kutaja baadhi tu.
+Onyesho linaweza kupatikana katika [https://demo.lnbits.com](https://demo.lnbits.com). Inafanya kazi kikamilifu na inaweza kutumika kujifunza kuhusu Lightning Network na vipengele vya LNbits na LNURL kwa ujumla. Ingawa hatuwezi kukuzuia, tungependa kukuuliza usiitumie kwa usanidi wako wa uzalishaji. Sio tu kwamba tunafanya kazi kwenye server mara kwa mara ili kujaribu vipengele vipya lakini pia tungependa kukuhimiza kuendesha node yako mwenyewe na LNbits kwa njia huru. Iwapo unafikiri kuwa kuendesha node kunaulizwa sana kwa sasa unaweza kuunganisha LNbits kwa huduma ya ufadhili ya msimamizi katika cloud kama vile Opennode, Luna au Votage au kwa Tipbot ya Lightning kwenye Telegram ili kutaja baadhi tu.
 
 
 ## Kipeperushi cha LNbits
@@ -201,7 +201,7 @@ Ili kusimba macaroon yako, endesha `./venv/bin/python lnbits/wallets/macaroon/ma
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - Server ya Onyesho ya Legend ya LNbits (!! USITUMIE hii kwa madhumuni ya uzalishaji/biashara, kwa majaribio pekee !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### Lightning TipBot
@@ -600,7 +600,7 @@ Iwapo una Hitilafu "aina ya Hash isiyotumika" unapotumia ypub katika kiendelezi 
 ### Vyombo na Ujenzi na LNbits
 
 
-LNbits ina kila aina ya [API zilizofunguliwa](https://legend.lnbits.com/docs) na zana za kupanga na kuunganisha kwenye vifaa vingi tofauti kwa gazilioni ya visa vya utumiaji.
+LNbits ina kila aina ya [API zilizofunguliwa](https://demo.lnbits.com/docs) na zana za kupanga na kuunganisha kwenye vifaa vingi tofauti kwa gazilioni ya visa vya utumiaji.
 
 
 Ukiwa mgeni anza na [Maonyesho ya MakerBits](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) kutoka kwa Ben Arc kuhusu kujenga vifaa kulingana na LNbits.

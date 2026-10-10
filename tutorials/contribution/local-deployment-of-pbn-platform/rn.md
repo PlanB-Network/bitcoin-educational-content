@@ -38,9 +38,9 @@ Iyi nyigisho itanga intambwe zitomoye zo gushinga urubuga, gukoresha imfunguruzo
 Clone ububiko kuri mashini yawe yo mu karere:
 
 
-git clone [Umugambi-B-Uburongozi-bw'Inyigisho-Bitcoin]
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 
-[cd](https://github.com/PlanB-Network/bitcoin-learning-management-system￼cd) Bitcoin-uburyo- bwo-gucunga-inyigisho
+cd bitcoin-learning-management-system
 
 
 ```bash

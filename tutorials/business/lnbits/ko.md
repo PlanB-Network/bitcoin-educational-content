@@ -43,7 +43,7 @@ LNbits를 나만의 은행 재무 관리 소프트웨어라고 생각하세요. 
 ## 데모 플랫폼
 
 
-데모는 [https://legend.lnbits.com](https://legend.lnbits.com)에서 확인할 수 있습니다. 데모는 모든 기능을 갖추고 있으며 Lightning Network와 LNbits 및 LNURL의 기능에 대해 전반적으로 학습하는 데 사용할 수 있습니다. 사용을 막을 수는 없지만 프로덕션 설정에 사용하지 말아 주시기를 부탁드립니다. 저희는 새로운 기능을 테스트하기 위해 서버에서 자주 작업하고 있을 뿐만 아니라, 여러분 자신의 노드와 LNbits를 주권적인 방식으로 실행하도록 권장하고 싶습니다. 노드 운영이 현재로서는 너무 무리라고 생각되신다면, 오픈노드, 루나, 보타지와 같은 클라우드의 커스터디 펀딩 서비스나 텔레그램의 라이트닝 팁봇에 LNbits를 연결할 수 있습니다.
+데모는 [https://demo.lnbits.com](https://demo.lnbits.com)에서 확인할 수 있습니다. 데모는 모든 기능을 갖추고 있으며 Lightning Network와 LNbits 및 LNURL의 기능에 대해 전반적으로 학습하는 데 사용할 수 있습니다. 사용을 막을 수는 없지만 프로덕션 설정에 사용하지 말아 주시기를 부탁드립니다. 저희는 새로운 기능을 테스트하기 위해 서버에서 자주 작업하고 있을 뿐만 아니라, 여러분 자신의 노드와 LNbits를 주권적인 방식으로 실행하도록 권장하고 싶습니다. 노드 운영이 현재로서는 너무 무리라고 생각되신다면, 오픈노드, 루나, 보타지와 같은 클라우드의 커스터디 펀딩 서비스나 텔레그램의 라이트닝 팁봇에 LNbits를 연결할 수 있습니다.
 
 
 ## LNbits 전단지
@@ -202,7 +202,7 @@ LNbits는 다양한 라이트닝 네트워크 펀딩 소스에서 실행할 수 
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits 레전드 데모 서버 (!! 프로덕션/상업용으로 사용하지 마시고, 테스트용으로만 사용하세요 !!)
   - `lnbits_backend_wallet_class`: **엘엔비츠월렛**
-  - lnbits_endpoint`: https://legend.lnbits.com
+  - lnbits_endpoint`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### 라이트닝 팁봇
@@ -601,7 +601,7 @@ On-Chain 확장에서 ypub를 사용할 때 "지원되지 않는 Hash 유형" �
 ### LNbits를 사용한 툴링 및 빌드
 
 
-LNbits는 수많은 사용 사례를 위해 다양한 기기를 프로그래밍하고 연결할 수 있는 모든 종류의 [오픈 API](https://legend.lnbits.com/docs)와 도구를 제공합니다.
+LNbits는 수많은 사용 사례를 위해 다양한 기기를 프로그래밍하고 연결할 수 있는 모든 종류의 [오픈 API](https://demo.lnbits.com/docs)와 도구를 제공합니다.
 
 
 메이커비트를 처음 접하는 분이라면 벤 아크의 [메이커비트 프레젠테이션](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos)을 통해 LNbits를 기반으로 가젯을 제작하는 방법을 알아보세요.

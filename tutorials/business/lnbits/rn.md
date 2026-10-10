@@ -202,7 +202,7 @@ Kugira ngo ushiremwo amakuru y'inyama zawe, koresha `./venv/bin/inyama z'ingurub
   - `URUPFUZO_LNBITS`: Urufunguzo rwanje-lnbits-Umuyobozi
 - LNbits Legend Demo Server (!! NTUKORESHE iyi mu bikorwa vyo gukora / gucuruza, gusa mu kugerageza !!)
   - `LNBITS_INYUMA_IKIGANIRO_IKIGANI`: **Igikapu ca LNbits**
-  - `IMPERUKA_YA_LNBITS`: https://legend.lnbits.com
+  - `IMPERUKA_YA_LNBITS`: https://demo.lnbits.com
   - `URUPFUZO_LNBITS`: inkuru-lnbits-Urufunguzo rw'Umuyobozi
 
 #### Umuravyo TipBot

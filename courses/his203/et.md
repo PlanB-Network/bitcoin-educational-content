@@ -1230,7 +1230,7 @@ Märtsi alguses 2012, Bitcoinica [aktsepteeritud](https://bitcointalk.org/index.
 
 
 
-2011. aastal pani Bitcoin loa puudumise tõttu kogukonna liikmed ette kujutama kasutusviise, mis lähevad kaugemale lihtsast rahavahetusest ja spekulatsioonist. Nad soovisid liberaliseerida investeerimist, pakkudes ökosüsteemi ettevõtetele aktsiate ja võlakirjade emiteerimise võimalust. Eesmärgiks oli hoida kõrvale Ameerika Ühendriikide *Securities and Exchange Commission* (AMF-i Ameerika vaste) kehtestatud regulatsioonidest, kasutades [ära](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) Bitcoin uuenduslikku iseloomu ja seda ümbritsevat õiguslikku ebamäärasust. Idee oli luua klassikalise finantssüsteemi alternatiivne mudel, mis võiks agoristliku lähenemise kohaselt olla isetehtud.
+2011. aastal pani Bitcoin loa puudumise tõttu kogukonna liikmed ette kujutama kasutusviise, mis lähevad kaugemale lihtsast rahavahetusest ja spekulatsioonist. Nad soovisid liberaliseerida investeerimist, pakkudes ökosüsteemi ettevõtetele aktsiate ja võlakirjade emiteerimise võimalust. Eesmärgiks oli hoida kõrvale Ameerika Ühendriikide *Securities and Exchange Commission* (AMF-i Ameerika vaste) kehtestatud regulatsioonidest, kasutades [ära](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) Bitcoin uuenduslikku iseloomu ja seda ümbritsevat õiguslikku ebamäärasust. Idee oli luua klassikalise finantssüsteemi alternatiivne mudel, mis võiks agoristliku lähenemise kohaselt olla isetehtud.
 
 
 
@@ -1298,7 +1298,7 @@ Augustis [avas](https://bitcointalk.org/index.php?topic=15672.msg444367#msg44436
 
 
 
-Platvorm saavutaks teatava edu ja oleks eelkõige Erik Voorhees'i juhitava online-kasiino SatoshiDICE "IPO" võõrustaja. See arenes aja jooksul, [integreerides](http://trilema.com/2012/futures-on-mpex/) futuurilepingud detsembris.
+Platvorm saavutaks teatava edu ja oleks eelkõige Erik Voorhees'i juhitava online-kasiino SatoshiDICE "IPO" võõrustaja. See arenes aja jooksul, [integreerides](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) futuurilepingud detsembris.
 
 
 

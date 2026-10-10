@@ -31,7 +31,7 @@ CATATAN: semua dana yang disetorkan oleh "pelanggan" Anda ke rekening bank LNbit
 
 ## Platform demo
 
-Demo dapat ditemukan di [https://legend.lnbits.com](https://legend.lnbits.com). Demo ini berfungsi penuh dan dapat digunakan untuk mempelajari tentang Lightning Network dan fitur-fitur LNbits dan LNURL secara umum. Meskipun kami tidak dapat mencegah Anda untuk menggunakannya, kami ingin meminta Anda untuk tidak menggunakannya untuk pengaturan produksi Anda. Kami tidak hanya sering bekerja di server untuk menguji fitur-fitur baru, tetapi kami juga ingin mendorong Anda untuk menjalankan node dan LNbits Anda sendiri dengan cara yang berdaulat. Jika Anda merasa menjalankan node terlalu berat untuk saat ini, Anda dapat menghubungkan LNbits ke layanan pendanaan kustodian di cloud seperti Opennode, Luna atau Votage atau ke Lightning Tipbot di Telegram.
+Demo dapat ditemukan di [https://demo.lnbits.com](https://demo.lnbits.com). Demo ini berfungsi penuh dan dapat digunakan untuk mempelajari tentang Lightning Network dan fitur-fitur LNbits dan LNURL secara umum. Meskipun kami tidak dapat mencegah Anda untuk menggunakannya, kami ingin meminta Anda untuk tidak menggunakannya untuk pengaturan produksi Anda. Kami tidak hanya sering bekerja di server untuk menguji fitur-fitur baru, tetapi kami juga ingin mendorong Anda untuk menjalankan node dan LNbits Anda sendiri dengan cara yang berdaulat. Jika Anda merasa menjalankan node terlalu berat untuk saat ini, Anda dapat menghubungkan LNbits ke layanan pendanaan kustodian di cloud seperti Opennode, Luna atau Votage atau ke Lightning Tipbot di Telegram.
 
 ## Selebaran LNbits
 
@@ -156,7 +156,7 @@ Untuk mengenkripsi macaroon Anda, jalankan `./venv/bin/python lnbits/wallets/mac
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend Demo Server (!! JANGAN gunakan yang ini untuk tujuan produksi/komersial, hanya untuk pengujian !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legenda-lnbits-AdminKey
 
 #### TipBot Petir
@@ -449,7 +449,7 @@ Jika Anda mengalami kesalahan "tipe hash tidak didukung" saat menggunakan ypub d
 
 ### Perkakas & Bangunan dengan LNbits
 
-LNbits memiliki berbagai macam [API terbuka](https://legend.lnbits.com/docs) dan alat untuk memprogram dan terhubung ke banyak perangkat yang berbeda untuk bermilyar-milyar kasus penggunaan.
+LNbits memiliki berbagai macam [API terbuka](https://demo.lnbits.com/docs) dan alat untuk memprogram dan terhubung ke banyak perangkat yang berbeda untuk bermilyar-milyar kasus penggunaan.
 
 Jika Anda baru dalam membangun, mulailah dengan [presentasi MakerBits](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) dari Ben Arc tentang membangun gadget berdasarkan LNbits.
 

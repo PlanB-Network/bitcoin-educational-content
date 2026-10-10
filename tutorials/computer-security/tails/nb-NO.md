@@ -10,7 +10,7 @@ Et bærbart og amnestisk operativsystem som beskytter deg mot overvåkning og se
 
 ## Hvorfor ha en USB-nøkkel med Tails installert?
 
-Tails (https://tails.boum.org/) er den enkleste måten å alltid ha en sikker datamaskin tilgjengelig, som ikke vil etterlate noen spor på datamaskinen du bruker den med.
+Tails (https://tails.net/) er den enkleste måten å alltid ha en sikker datamaskin tilgjengelig, som ikke vil etterlate noen spor på datamaskinen du bruker den med.
 
 For å bruke Tails, slå av datamaskinen du har tilgang til (hos foreldrene dine, hos vennene dine, i et internettkafe...) og start den med din Tails USB-nøkkel i stedet for Windows, macOS, eller Linux.
 
@@ -55,7 +55,7 @@ Forutsetninger:
 
 ![bilde](assets/1.webp)
 
-> 🔗 Offisiell Tails-seksjon: https://tails.boum.org/install/linux/index.fr.html#download
+> 🔗 Offisiell Tails-seksjon: https://tails.net/install/linux/index.fr.html#download
 
 Nedlasting av installasjonsfilen med .img-utvidelsen kan ta litt tid avhengig av nedlastingshastigheten på internettet ditt, så planlegg i forveien. Med en moderne og effektiv tilkobling, vil det ta mindre enn 5 minutter.
 
@@ -64,7 +64,7 @@ Lagre filen i en kjent mappe, som Nedlastinger, da dette vil være nødvendig fo
 ## Steg 2: Verifiser nedlastingen din
 
 ![bilde](assets/2.webp)
-> 🔗 Offisiell Tails-seksjon: https://tails.boum.org/install/linux/index.fr.html#verify
+> 🔗 Offisiell Tails-seksjon: https://tails.net/install/linux/index.fr.html#verify
 Å verifisere nedlastingen sikrer at den kommer fra Tails-utviklerne og ikke har blitt korrupt eller avlyttet under nedlastingen.
 
 Det er mulig å manuelt verifisere at filen du nettopp lastet ned er den forventede ved å bruke PGP, men uten avansert kunnskap tilbyr denne verifiseringen samme sikkerhetsnivå som JavaScript-verifiseringen på nedlastingssiden, samtidig som den er mye mer komplisert og utsatt for feil.
@@ -77,8 +77,8 @@ For å verifisere filen, bruk "Velg nedlastingen din..."-knappen som er tilgjeng
 
 > 🔗 Offisiell Tails-seksjon:
 >
-> - Linux: https://tails.boum.org/install/linux/index.fr.html#install
-> - macOS: https://tails.boum.org/install/mac/index.fr.html#etcher og https://tails.boum.org/install/mac/index.fr.html#install
+> - Linux: https://tails.net/install/linux/index.fr.html#install
+> - macOS: https://tails.net/install/mac/index.fr.html#etcher og https://tails.net/install/mac/index.fr.html#install
 
 Dette steget med å installere Tails på din USB-nøkkel er det vanskeligste i hele veiledningen, spesielt hvis du aldri har gjort det før. Det viktigste punktet er å velge riktig prosedyre i den offisielle seksjonen for ditt operativsystem: Linux eller macOS.
 
@@ -90,7 +90,7 @@ Lykke til! og vi ses ved steg 4.
 
 ![bilde](assets/4.webp)
 
-> 🔗 Offisiell Tails-seksjon: https://tails.boum.org/install/linux/index.en.html#restart
+> 🔗 Offisiell Tails-seksjon: https://tails.net/install/linux/index.en.html#restart
 > Det er på tide å starte en av datamaskinene dine ved hjelp av din nye USB-stikk. Sett den inn i en av USB-portene og start på nytt!
 
 > 💡 De fleste datamaskiner starter ikke automatisk fra Tails USB-stikken, men du kan trykke på bootmeny-tasten for å vise en liste over mulige enheter å starte fra.
@@ -123,7 +123,7 @@ Når USB-stikken er valgt, bør du se denne nye oppstartsskjermen, som er et vel
 
 ![bilde](assets/6.webp)
 
-> 🔗 Offisiell Tails-seksjon: https://tails.boum.org/install/linux/index.en.html#tails
+> 🔗 Offisiell Tails-seksjon: https://tails.net/install/linux/index.en.html#tails
 
 Ett eller to minutter etter oppstartslasteren og lasteskjermen, vises velkomstskjermen.
 

@@ -13,7 +13,7 @@ Ett portabelt operativsystem med minnesförlust som skyddar dig mot övervakning
 ## Varför ha ett USB-minne med Tails installerat?
 
 
-Tails (https://tails.boum.org/) är det enklaste sättet att alltid ha en säker dator till hands, som inte lämnar några spår på den dator du använder den med.
+Tails (https://tails.net/) är det enklaste sättet att alltid ha en säker dator till hands, som inte lämnar några spår på den dator du använder den med.
 
 
 För att använda Tails stänger du av den dator du har tillgång till (hos dina föräldrar, hos dina vänner, på ett internetcafé ...) och startar den med din Tails USB-nyckel istället för Windows, macOS eller Linux.
@@ -80,7 +80,7 @@ Förkunskapskrav:
 ![image](assets/1.webp)
 
 
-🔗 **Officiell svanssektion:** https://tails.boum.org/install/linux/index.fr.html#download
+🔗 **Officiell svanssektion:** https://tails.net/install/linux/index.fr.html#download
 
 
 Nedladdning av installationsfilen med tillägget .img kan ta lite tid beroende på din nedladdningshastighet på Internet, så planera i förväg. Med en modern och effektiv anslutning tar det mindre än 5 minuter.
@@ -95,7 +95,7 @@ Spara filen i en känd mapp, t.ex. Downloads, eftersom den kommer att behövas i
 ![image](assets/2.webp)
 
 
-🔗 **Officiell svanssektion:** https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 **Officiell svanssektion:** https://tails.net/install/linux/index.fr.html#verify
 
 
 Genom att verifiera nedladdningen säkerställs att den är utfärdad av Tails-utvecklarna och inte har skadats eller fångats upp under nedladdningen.
@@ -117,8 +117,8 @@ För att verifiera filen, använd knappen "Välj din nedladdning ..." som finns 
 
 
 
-- **Linux:** https://tails.boum.org/install/linux/index.fr.html#install
-- **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher och https://tails.boum.org/install/mac/index.fr.html#install
+- **Linux:** https://tails.net/install/linux/index.fr.html#install
+- **macOS:** https://tails.net/install/mac/index.fr.html#etcher och https://tails.net/install/mac/index.fr.html#install
 
 
 Detta steg för att installera Tails på din USB-nyckel är det svåraste i hela guiden, särskilt om du aldrig har gjort det förut. Den viktigaste punkten är att välja rätt procedur i det officiella avsnittet för ditt operativsystem: Linux eller macOS.
@@ -136,7 +136,7 @@ Lycka till! och vi ses på steg 4.
 ![image](assets/4.webp)
 
 
-🔗 **Officiell svanssektion:** https://tails.boum.org/install/linux/index.en.html#restart
+🔗 **Officiell svanssektion:** https://tails.net/install/linux/index.en.html#restart
 
 
 Nu är det dags att starta en av dina datorer med hjälp av ditt nya USB-minne. Sätt in det i en av dess USB-portar och starta om!
@@ -178,7 +178,7 @@ När USB-minnet har valts bör du se den här nya startskärmen, vilket är ett 
 ![image](assets/6.webp)
 
 
-🔗 **Officiell svanssektion:** https://tails.boum.org/install/linux/index.en.html#tails
+🔗 **Officiell svanssektion:** https://tails.net/install/linux/index.en.html#tails
 
 
 En eller två minuter efter startladdaren och laddningsskärmen visas välkomstskärmen.

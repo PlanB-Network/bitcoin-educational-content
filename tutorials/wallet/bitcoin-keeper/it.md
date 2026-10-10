@@ -406,7 +406,7 @@ Questo tutorial copre le caratteristiche essenziali di Bitcoin Keeper nella sua 
 
 
 - Sito web ufficiale: [bitcoinkeeper.app](https://bitcoinkeeper.app)
-- Centro assistenza: [help.bitcoinkeeper.app](https://help.bitcoinkeeper.app)
+- Centro assistenza: [bitcoinkeeper.app/ask-keeper](https://www.bitcoinkeeper.app/ask-keeper)
 - Codice sorgente: [github.com/bithyve/bitcoin-keeper](https://github.com/bithyve/bitcoin-keeper)
 - Telegram : [t.me/BitcoinKeeper](https://t.me/BitcoinKeeper)
 - Twitter/X: [@bitcoinkeeper_](https://x.com/bitcoinkeeper_)

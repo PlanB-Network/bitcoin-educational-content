@@ -10,7 +10,7 @@ description: USBキーにTailsをインストールする
 
 ## なぜTailsをインストールしたUSBキーを持つべきか？
 
-Tails (https://tails.boum.org/) は、いつでも利用可能なセキュアなコンピュータを持つ最も簡単な方法であり、それを使用するコンピュータに何の痕跡も残しません。
+Tails (https://tails.net/) は、いつでも利用可能なセキュアなコンピュータを持つ最も簡単な方法であり、それを使用するコンピュータに何の痕跡も残しません。
 
 Tailsを使用するには、アクセスできるコンピュータ（両親の家で、友人の家で、インターネットカフェで...）をオフにし、Windows、macOS、Linuxの代わりにTails USBキーで起動します。
 
@@ -55,7 +55,7 @@ Tailsはハードドライブに書き込むことはなく、機能するため
 
 ![image](assets/1.webp)
 
-> 🔗 公式Tailsセクション: https://tails.boum.org/install/linux/index.fr.html#download
+> 🔗 公式Tailsセクション: https://tails.net/install/linux/index.fr.html#download
 
 .img拡張子のインストールファイルをダウンロードするには、インターネットのダウンロード速度に応じて時間がかかる場合があるので、計画を立ててください。現代的で効率的な接続では、5分未満で完了します。
 
@@ -64,7 +64,7 @@ Tailsはハードドライブに書き込むことはなく、機能するため
 ## ステップ2: ダウンロードを検証する
 
 ![image](assets/2.webp)
-🔗 公式Tailsセクション: https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 公式Tailsセクション: https://tails.net/install/linux/index.fr.html#verify
 ダウンロードを検証することで、それがTails開発者によって発行され、ダウンロード中に破損したり傍受されたりしていないことを確認できます。
 
 PGPを使用して、ダウンロードしたばかりのファイルが期待されるものであることを手動で検証することは可能ですが、高度な知識がない場合、この検証はダウンロードページのJavaScript検証と同じレベルのセキュリティを提供しますが、はるかに複雑でエラーが発生しやすいです。
@@ -77,8 +77,8 @@ PGPを使用して、ダウンロードしたばかりのファイルが期待�
 
 > 🔗 公式Tailsセクション:
 >
-> - Linux: https://tails.boum.org/install/linux/index.fr.html#install
-> - macOS: https://tails.boum.org/install/mac/index.fr.html#etcher および https://tails.boum.org/install/mac/index.fr.html#install
+> - Linux: https://tails.net/install/linux/index.fr.html#install
+> - macOS: https://tails.net/install/mac/index.fr.html#etcher および https://tails.net/install/mac/index.fr.html#install
 
 このUSBキーへのTailsのインストールステップは、特に以前に行ったことがない場合、ガイド全体で最も難しいステップです。最も重要な点は、オペレーティングシステム：LinuxまたはmacOSに合わせて公式セクションで正しい手順を選択することです。
 
@@ -90,7 +90,7 @@ PGPを使用して、ダウンロードしたばかりのファイルが期待�
 
 ![image](assets/4.webp)
 
-> 🔗 公式Tailsセクション: https://tails.boum.org/install/linux/index.en.html#restart
+> 🔗 公式Tailsセクション: https://tails.net/install/linux/index.en.html#restart
 > 新しいUSBスティックを使用してコンピュータの1台を起動する時が来ました。USBポートの1つに挿入して、再起動してください！
 
 > 💡 ほとんどのコンピュータは自動的にTails USBスティックから起動しませんが、ブートメニューキーを押すと、起動可能なデバイスのリストが表示されます。
@@ -123,7 +123,7 @@ USBスティックが選択されると、この新しいブート画面が表�
 
 ![image](assets/6.webp)
 
-> 🔗 公式Tailsセクション: https://tails.boum.org/install/linux/index.en.html#tails
+> 🔗 公式Tailsセクション: https://tails.net/install/linux/index.en.html#tails
 
 ブートローダーとローディング画面の1、2分後に、ウェルカムスクリーンが表示されます。
 

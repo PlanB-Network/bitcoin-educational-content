@@ -265,7 +265,7 @@ Blockchain, Transakcija, Dvostruko trošenje, Problem vizantijskog generala, Min
 Cilj ovog poglavlja biće sticanje opšteg razumevanja BTCPay Server softvera. U deljenom okruženju, preporučuje se da pratite demonstraciju instruktora i pratite BTCPay Server priručnik kako biste pratili predavača. Naučićete kako da kreirate novčanik kroz više metoda. Primeri uključuju postavke novčanika povezanog na internet i hardverske novčanike povezane putem BTCPay Server Vault-a. Ovi ciljevi se ostvaruju u Demo okruženju, koje prikazuje i omogućava pristup vaš instruktor kursa.
 
 
-Ako pratite ovaj kurs sami, možete pronaći listu trećih strana domaćina za demo svrhe na https://directory.btcpayserver.org/filter/hosts. Snažno savetujemo protiv korišćenja ovih opcija trećih strana kao produkcionih okruženja, ali one služe pravoj svrsi za uvod u korišćenje Bitcoin i BTCPay Server-a.
+Ako pratite ovaj kurs sami, možete pronaći listu trećih strana domaćina za demo svrhe na https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Snažno savetujemo protiv korišćenja ovih opcija trećih strana kao produkcionih okruženja, ali one služe pravoj svrsi za uvod u korišćenje Bitcoin i BTCPay Server-a.
 
 
 Kao BTCPay Server rockstar pripravnik, možda imate prethodno iskustvo sa postavljanjem Bitcoin čvora. Ovaj kurs je posebno prilagođen softverskom paketu BTCPay Server-a.

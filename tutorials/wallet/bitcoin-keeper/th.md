@@ -406,7 +406,7 @@ Bitcoin Keeper โดดเด่นในฐานะโซลูชันท�
 
 
 - เว็บไซต์ทางการ: [bitcoinkeeper.app](https://bitcoinkeeper.app)
-- ศูนย์ช่วยเหลือ: [help.bitcoinkeeper.app](https://help.bitcoinkeeper.app)
+- ศูนย์ช่วยเหลือ: [bitcoinkeeper.app/ask-keeper](https://www.bitcoinkeeper.app/ask-keeper)
 - ซอร์สโค้ด: [github.com/bithyve/bitcoin-keeper](https://github.com/bithyve/bitcoin-keeper)
 - Telegram : [t.me/BitcoinKeeper](https://t.me/BitcoinKeeper)
 - Twitter/X: [@bitcoinkeeper_](https://x.com/bitcoinkeeper_)

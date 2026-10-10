@@ -1230,7 +1230,7 @@ Maaliskuun 2012 alussa Bitcoinica [hyväksyi](https://bitcointalk.org/index.php?
 
 
 
-Vuonna 2011 Bitcoin:n luvanvaraisuuden puute sai yhteisön jäsenet kuvittelemaan käyttötarkoituksia, jotka menivät pelkkää rahanvaihtoa ja keinottelua pidemmälle. He halusivat vapauttaa investoinnit tarjoamalla ekosysteemiin kuuluville yrityksille keinon laskea liikkeeseen osakkeita ja joukkovelkakirjoja. Tarkoituksena oli kiertää Yhdysvalloissa toimivan *Securities and Exchange Commissionin* (AMF:n amerikkalainen vastine) asettamat määräykset [hyödyntämällä](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) Bitcoin:n innovatiivista luonnetta ja sitä ympäröivää oikeudellista epämääräisyyttä. Ajatuksena oli luoda vaihtoehtoinen malli klassiselle rahoitusjärjestelmälle, joka agoristisen lähestymistavan mukaan voisi olla itseään vahvistava.
+Vuonna 2011 Bitcoin:n luvanvaraisuuden puute sai yhteisön jäsenet kuvittelemaan käyttötarkoituksia, jotka menivät pelkkää rahanvaihtoa ja keinottelua pidemmälle. He halusivat vapauttaa investoinnit tarjoamalla ekosysteemiin kuuluville yrityksille keinon laskea liikkeeseen osakkeita ja joukkovelkakirjoja. Tarkoituksena oli kiertää Yhdysvalloissa toimivan *Securities and Exchange Commissionin* (AMF:n amerikkalainen vastine) asettamat määräykset [hyödyntämällä](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) Bitcoin:n innovatiivista luonnetta ja sitä ympäröivää oikeudellista epämääräisyyttä. Ajatuksena oli luoda vaihtoehtoinen malli klassiselle rahoitusjärjestelmälle, joka agoristisen lähestymistavan mukaan voisi olla itseään vahvistava.
 
 
 
@@ -1298,7 +1298,7 @@ Helmikuun 2012 lopussa hän toteutti [varainhankinnan](https://web.archive.org/w
 
 
 
-Alusta saavutti jonkin verran menestystä, ja se isännöi erityisesti Erik Voorheesin ylläpitämän nettikasinon SatoshiDICE:n listautumista. Se kehittyi ajan myötä, [integroiden](http://trilema.com/2012/futures-on-mpex/) futuurisopimukset joulukuussa.
+Alusta saavutti jonkin verran menestystä, ja se isännöi erityisesti Erik Voorheesin ylläpitämän nettikasinon SatoshiDICE:n listautumista. Se kehittyi ajan myötä, [integroiden](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) futuurisopimukset joulukuussa.
 
 
 

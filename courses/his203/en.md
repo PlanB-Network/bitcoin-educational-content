@@ -931,7 +931,7 @@ In early March 2012, Bitcoinica [accepted](https://bitcointalk.org/index.php?top
 ### Issuing financial securities with GLBSE
 
 
-In 2011, Bitcoin's lack of need for authorization led community members to imagine uses that went beyond simple monetary exchange and speculation. They were looking to liberalize investment by providing a means of issuing shares and bonds for companies in the ecosystem. The aim was to circumvent regulations imposed by the *Securities and Exchange Commission* in the United States (the American equivalent of the AMF), by [taking advantage](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) of Bitcoin's innovative character and the legal vagueness that surrounded it. The idea was to create an alternative model to the classic financial system, which could be self-entrenching according to the agorist approach.
+In 2011, Bitcoin's lack of need for authorization led community members to imagine uses that went beyond simple monetary exchange and speculation. They were looking to liberalize investment by providing a means of issuing shares and bonds for companies in the ecosystem. The aim was to circumvent regulations imposed by the *Securities and Exchange Commission* in the United States (the American equivalent of the AMF), by [taking advantage](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) of Bitcoin's innovative character and the legal vagueness that surrounded it. The idea was to create an alternative model to the classic financial system, which could be self-entrenching according to the agorist approach.
 
 
 One of the individuals involved in this movement was James McCarthy, who used the pseudonym Nefario on the Bitcoin forum, in reference to the character of the same name in the animated film *Despicable Me*. Nefario was an Irishman living in China, with a job as an English professor at a university. He was interested in the [Austrian school](https://planb.academy/resources/glossary/austrian-school) and the ideas of the cypherpunks, [declaring](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) himself to be "something of a cypherpunk". He [discovered](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) the existence of Bitcoin during 2010 and mined over a thousand of them. He then got involved in several projects, including the Bitcoin Weekly online magazine project.
@@ -982,7 +982,7 @@ At the end of February 2012, he proceeded with a [fundraising](https://web.archi
 *Capture of MPEx, August 2012 (source: [archive](https://web.archive.org/web/20120829092213/http://polimedia.us/bitcoin/mpex.php) from Polymedia.us)*
 
 
-The platform would go on to achieve a certain degree of success and would notably host the “IPO” of SatoshiDICE, the online casino operated by Erik Voorhees. It evolved over time, [integrating](http://trilema.com/2012/futures-on-mpex/) futures contracts in December.
+The platform would go on to achieve a certain degree of success and would notably host the “IPO” of SatoshiDICE, the online casino operated by Erik Voorhees. It evolved over time, [integrating](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) futures contracts in December.
 
 
 ### A construction phase

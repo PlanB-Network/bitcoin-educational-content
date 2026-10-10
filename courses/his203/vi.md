@@ -1298,7 +1298,7 @@ Vào cuối tháng 2 năm 2012, ông đã tiến hành [gây quỹ](https://web.
 
 
 
-Nền tảng này đã đạt được một mức độ thành công nhất định và đáng chú ý là đã tổ chức "IPO" của SatoshiDICE, sòng bạc trực tuyến do Erik Voorhees điều hành. Nó đã phát triển theo thời gian, [tích hợp](http://trilema.com/2012/futures-on-mpex/) các hợp đồng tương lai vào tháng 12.
+Nền tảng này đã đạt được một mức độ thành công nhất định và đáng chú ý là đã tổ chức "IPO" của SatoshiDICE, sòng bạc trực tuyến do Erik Voorhees điều hành. Nó đã phát triển theo thời gian, [tích hợp](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) các hợp đồng tương lai vào tháng 12.
 
 
 

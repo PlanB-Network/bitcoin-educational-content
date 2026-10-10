@@ -10,7 +10,7 @@ Přenosný a amnestický operační systém, který vás chrání před sledová
 
 ## Proč mít USB klíč s nainstalovaným Tails?
 
-Tails (https://tails.boum.org/) je nejjednodušší způsob, jak mít kdykoliv k dispozici bezpečný počítač, který po použití na jakémkoliv počítači nezanechá žádné stopy.
+Tails (https://tails.net/) je nejjednodušší způsob, jak mít kdykoliv k dispozici bezpečný počítač, který po použití na jakémkoliv počítači nezanechá žádné stopy.
 
 Chcete-li používat Tails, vypněte počítač, ke kterému máte přístup (u rodičů, u přátel, v internetové kavárně...) a spusťte ho s vaším USB klíčem Tails místo Windows, macOS nebo Linuxu.
 
@@ -55,7 +55,7 @@ Předpoklady:
 
 ![image](assets/1.webp)
 
-> 🔗 Oficiální sekce Tails: https://tails.boum.org/install/linux/index.fr.html#download
+> 🔗 Oficiální sekce Tails: https://tails.net/install/linux/index.fr.html#download
 
 Stažení instalačního souboru s příponou .img může trvat nějaký čas v závislosti na rychlosti vašeho internetového stahování, takže plánujte dopředu. S moderním a efektivním připojením to zabere méně než 5 minut.
 
@@ -64,7 +64,7 @@ Uložte soubor do známé složky, například Stahování, protože to bude nut
 ## Krok 2: Ověřte své stažení
 
 ![image](assets/2.webp)
-🔗 Oficiální sekce Tails: https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 Oficiální sekce Tails: https://tails.net/install/linux/index.fr.html#verify
 Ověření staženého souboru zajišťuje, že pochází od vývojářů Tails a nebyl poškozen nebo zachycen během stahování.
 
 Je možné ručně ověřit, že soubor, který jste právě stáhli, je očekávaný pomocí PGP, ale bez pokročilých znalostí nabízí toto ověření stejnou úroveň bezpečnosti jako ověření pomocí JavaScriptu na stránce ke stažení, přičemž je mnohem složitější a náchylnější k chybám.
@@ -77,8 +77,8 @@ Pro ověření souboru použijte tlačítko "Select your download..." poskytnut�
 
 > 🔗 Oficiální sekce Tails:
 >
-> - Linux: https://tails.boum.org/install/linux/index.fr.html#install
-> - macOS: https://tails.boum.org/install/mac/index.fr.html#etcher a https://tails.boum.org/install/mac/index.fr.html#install
+> - Linux: https://tails.net/install/linux/index.fr.html#install
+> - macOS: https://tails.net/install/mac/index.fr.html#etcher a https://tails.net/install/mac/index.fr.html#install
 
 Tento krok instalace Tails na váš USB klíč je nejtěžší v celém průvodci, zejména pokud jste to nikdy předtím nedělali. Nejdůležitější je vybrat správný postup v oficiální sekci pro váš operační systém: Linux nebo macOS.
 
@@ -90,7 +90,7 @@ Hodně štěstí! a uvidíme se u kroku 4.
 
 ![obrázek](assets/4.webp)
 
-> 🔗 Oficiální sekce Tails: https://tails.boum.org/install/linux/index.en.html#restart
+> 🔗 Oficiální sekce Tails: https://tails.net/install/linux/index.en.html#restart
 > Je čas spustit jeden z vašich počítačů pomocí vašeho nového USB klíčku. Vložte jej do jednoho z jeho USB portů a restartujte!
 
 > 💡 Většina počítačů automaticky nebootuje z USB klíčku Tails, ale můžete stisknout klávesu bootovacího menu, aby se zobrazil seznam možných zařízení, ze kterých lze bootovat.
@@ -123,7 +123,7 @@ Jakmile je USB klíč vybrán, měli byste vidět tento nový bootovací obrazov
 
 ![obrázek](assets/6.webp)
 
-> 🔗 Oficiální sekce Tails: https://tails.boum.org/install/linux/index.en.html#tails
+> 🔗 Oficiální sekce Tails: https://tails.net/install/linux/index.en.html#tails
 
 Jednu nebo dvě minuty po bootovacím načítači a načítací obrazovce se objeví uvítací obrazovka.
 

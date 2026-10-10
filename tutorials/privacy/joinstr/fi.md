@@ -293,7 +293,6 @@ Käytä julkista kirjanmerkkiä, kuten :
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -682,6 +681,5 @@ Taloudellisen valvonnan lisääntyessä hajautetuista työkaluista yksityisyyden
 
 
 
-- [Kirjanmerkki Faucet](https://signetfaucet.com) - Ilmainen testi Bitcoins
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet vaihtoehtoinen vaihtoehto
 - [Mempool.space](https://mempool.space) - Block explorer ja yksityisyyden suojaa koskeva analyysi

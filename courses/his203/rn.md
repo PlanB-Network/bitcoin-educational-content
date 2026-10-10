@@ -1230,7 +1230,7 @@ Mu ntango za Ntwarante 2012, Bitcoinica [yemeye] nk’uburyo burenga cumi na bub
 
 
 
-Mu mwaka w’2011, ukuntu Bitcoin idakeneye uruhusha vyatumye abanyabubasha biyumvira imikoreshereze irenze uguhindura amahera yoroshe n’ugutekereza ku bintu. Bariko barondera kwidegemvya kw’ishoramari mu gutanga uburyo bwo gutanga imigabane n’amabondi ku masosiyete ari mu bidukikije. Intumbero yari iyo gukingira amategeko yashizweho na *Komisiyo y’Ivy’Imigabane n’Ivy’Imigabane* muri Leta Zunze Ubumwe za Amerika (ivyo muri Amerika bingana na AMF), mu [gufata akaryo](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) akaranga n’ubujuju bw’amategeko bwari bukikuje. Iciyumviro cari co kurema ubundi buryo bwo guhindura uburyo bw’ivy’ubutunzi bwa kera, bushobora kwishingira intahe hakurikijwe uburyo bw’abanyagihugu.
+Mu mwaka w’2011, ukuntu Bitcoin idakeneye uruhusha vyatumye abanyabubasha biyumvira imikoreshereze irenze uguhindura amahera yoroshe n’ugutekereza ku bintu. Bariko barondera kwidegemvya kw’ishoramari mu gutanga uburyo bwo gutanga imigabane n’amabondi ku masosiyete ari mu bidukikije. Intumbero yari iyo gukingira amategeko yashizweho na *Komisiyo y’Ivy’Imigabane n’Ivy’Imigabane* muri Leta Zunze Ubumwe za Amerika (ivyo muri Amerika bingana na AMF), mu [gufata akaryo](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) akaranga n’ubujuju bw’amategeko bwari bukikuje. Iciyumviro cari co kurema ubundi buryo bwo guhindura uburyo bw’ivy’ubutunzi bwa kera, bushobora kwishingira intahe hakurikijwe uburyo bw’abanyagihugu.
 
 
 

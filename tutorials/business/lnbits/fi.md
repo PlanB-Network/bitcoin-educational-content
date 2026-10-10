@@ -31,7 +31,7 @@ HUOMAUTUS: kaikki varat, jotka "asiakkaasi" tallettavat LNbits-pankkitileilleen 
 
 ## Demo alusta
 
-Demo löytyy osoitteesta [https://legend.lnbits.com](https://legend.lnbits.com). Se on täysin toimiva, ja sen avulla voi tutustua Lightning-verkkoon sekä LNbitsin ja LNURL:n ominaisuuksiin yleensä. Vaikka emme voi estää sinua käyttämästä sitä, pyydämme kuitenkin, ettet käytä sitä tuotantokäytössäsi. Emme ainoastaan työskentele palvelimilla usein testataksemme uusia ominaisuuksia, vaan haluaisimme myös rohkaista sinua käyttämään omaa solmua ja LNbitsiä suvereenisti. Jos oman solmun pyörittäminen on mielestäsi tällä hetkellä liikaa pyydetty, voit liittää LNbitsin pilvipalveluun, kuten Opennode, Luna tai Votage, tai Telegramin Lightning Tipbotiin vain muutamia mainitakseni.
+Demo löytyy osoitteesta [https://demo.lnbits.com](https://demo.lnbits.com). Se on täysin toimiva, ja sen avulla voi tutustua Lightning-verkkoon sekä LNbitsin ja LNURL:n ominaisuuksiin yleensä. Vaikka emme voi estää sinua käyttämästä sitä, pyydämme kuitenkin, ettet käytä sitä tuotantokäytössäsi. Emme ainoastaan työskentele palvelimilla usein testataksemme uusia ominaisuuksia, vaan haluaisimme myös rohkaista sinua käyttämään omaa solmua ja LNbitsiä suvereenisti. Jos oman solmun pyörittäminen on mielestäsi tällä hetkellä liikaa pyydetty, voit liittää LNbitsin pilvipalveluun, kuten Opennode, Luna tai Votage, tai Telegramin Lightning Tipbotiin vain muutamia mainitakseni.
 
 ## LNbits-esite
 
@@ -156,7 +156,7 @@ Voit salata makaronisi suorittamalla `./venv/bin/python lnbits/wallets/macaroon/
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend Demo Server (!! ÄLÄ käytä tätä tuotantoon / kaupallisiin tarkoituksiin, vain testaukseen !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### Salama TipBot
@@ -449,7 +449,7 @@ Jos sinulla on virhe "unsupported hash type" kun käytät ypubia On-chain-laajen
 
 ### Työkalujen valmistus ja rakentaminen LNbitsin avulla
 
-LNbitsillä on kaikenlaisia [avoimia sovellusrajapintoja](https://legend.lnbits.com/docs) ja työkaluja, joilla voi ohjelmoida ja liittää monia eri laitteita lukemattomiin eri käyttötarkoituksiin.
+LNbitsillä on kaikenlaisia [avoimia sovellusrajapintoja](https://demo.lnbits.com/docs) ja työkaluja, joilla voi ohjelmoida ja liittää monia eri laitteita lukemattomiin eri käyttötarkoituksiin.
 
 Kun olet uusi rakentamaan, aloita tästä [MakerBits-esittelyt](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) Ben Arcilta, joka kertoo LNbitteihin perustuvien vempaimien rakentamisesta.
 

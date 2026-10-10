@@ -148,7 +148,7 @@ Więcej informacji: [Channels | Zeus Documentation](https://docs.zeusln.app/)
 _Zrzut ekranu Bitbanana_
 
 
-Więcej informacji: [BitBanana](https://bitbanana.com)
+Więcej informacji: [BitBanana](https://bitbanana.app)
 
 
 Po otwarciu kanału można za jego pośrednictwem kierować płatności do innych uczestników sieci. Salda dostosowują się do off-chain, dzięki czemu transakcje są niemal natychmiastowe i wiążą się z minimalnymi opłatami.

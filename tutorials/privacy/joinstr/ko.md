@@ -293,7 +293,6 @@ Bitcoin 코어가 처음 시작되면 북마크 블록체인을 다운로드하�
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -682,6 +681,5 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- [북마크 Faucet](https://signetfaucet.com) - 무료 테스트 비트코인
 - [알트 시그넷 Faucet](https://alt.signetfaucet.com) - Faucet 대체품
 - [Mempool.space](https://mempool.space) - 개인정보 분석 기능이 있는 Block explorer

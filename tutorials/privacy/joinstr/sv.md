@@ -293,7 +293,6 @@ Använd ett offentligt bokmärke som :
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bokmärke257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -682,6 +681,5 @@ Mot bakgrund av den ökande finansiella granskningen blir decentraliserade verkt
 
 
 
-- [Bokmärke Faucet](https://signetfaucet.com) - Gratis test Bitcoins
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet alternativ
 - [Mempool.space](https://mempool.space) - Block explorer med integritetsanalys

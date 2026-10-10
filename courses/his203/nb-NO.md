@@ -1230,7 +1230,7 @@ I begynnelsen av mars 2012 aksepterte Bitcoinica [https://bitcointalk.org/index.
 
 
 
-I 2011 førte Bitcoins manglende behov for autorisasjon til at medlemmene i samfunnet så for seg bruksområder som gikk utover enkel pengeutveksling og spekulasjon. De ønsket å liberalisere investeringene ved å gjøre det mulig å utstede aksjer og obligasjoner for selskaper i økosystemet. Målet var å omgå regelverket fra *Securities and Exchange Commission* i USA (det amerikanske motstykket til AMF) ved å [dra nytte](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) av Bitcoins innovative karakter og den juridiske uklarheten som omgir den. Tanken var å skape en alternativ modell til det klassiske finanssystemet, som kunne være selvforsterkende i henhold til den agoristiske tilnærmingen.
+I 2011 førte Bitcoins manglende behov for autorisasjon til at medlemmene i samfunnet så for seg bruksområder som gikk utover enkel pengeutveksling og spekulasjon. De ønsket å liberalisere investeringene ved å gjøre det mulig å utstede aksjer og obligasjoner for selskaper i økosystemet. Målet var å omgå regelverket fra *Securities and Exchange Commission* i USA (det amerikanske motstykket til AMF) ved å [dra nytte](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) av Bitcoins innovative karakter og den juridiske uklarheten som omgir den. Tanken var å skape en alternativ modell til det klassiske finanssystemet, som kunne være selvforsterkende i henhold til den agoristiske tilnærmingen.
 
 
 
@@ -1298,7 +1298,7 @@ I slutten av februar 2012 fortsatte han med en [pengeinnsamling](https://web.arc
 
 
 
-Plattformen skulle komme til å oppnå en viss grad av suksess, og var blant annet vertskap for "børsnoteringen" av SatoshiDICE, nettkasinoet som drives av Erik Voorhees. Den utviklet seg over tid, og [integrerte](http://trilema.com/2012/futures-on-mpex/) futureskontrakter i desember.
+Plattformen skulle komme til å oppnå en viss grad av suksess, og var blant annet vertskap for "børsnoteringen" av SatoshiDICE, nettkasinoet som drives av Erik Voorhees. Den utviklet seg over tid, og [integrerte](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) futureskontrakter i desember.
 
 
 

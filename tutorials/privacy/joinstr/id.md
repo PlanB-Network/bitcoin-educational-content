@@ -280,7 +280,6 @@ Gunakan penanda publik seperti :
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -663,6 +662,5 @@ Dengan latar belakang pengawasan keuangan yang terus meningkat, alat terdesentra
 
 
 
-- [Bookmark Faucet](https://signetfaucet.com) - Uji coba Bitcoin gratis
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - alternatif Faucet
 - [Mempool.space](https://mempool.space) - Block explorer dengan analisis privasi

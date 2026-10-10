@@ -293,7 +293,6 @@ Bitcoinコアが初めて起動すると、ブックマーク・ブロックチ�
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -682,6 +681,5 @@ Joinstrは真に分散型のBitcoinプライバシー・ソリューションで
 
 
 
-- [ブックマーク Faucet](https://signetfaucet.com) - 無料テスト用ビットコイン
 - [アルト・シグネット Faucet](https://alt.signetfaucet.com) - Faucet 代替品
 - [Mempool.space](https://mempool.space) - Block explorer with プライバシー分析

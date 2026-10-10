@@ -10,7 +10,7 @@ Kannettava ja amneesinen käyttöjärjestelmä, joka suojaa sinua valvonnalta ja
 
 ## Miksi asentaa Tails USB-tikulle?
 
-Tails (https://tails.boum.org/) on helpoin tapa pitää aina mukanasi turvallista tietokonetta, joka ei jätä jälkiä käyttämääsi tietokoneeseen.
+Tails (https://tails.net/) on helpoin tapa pitää aina mukanasi turvallista tietokonetta, joka ei jätä jälkiä käyttämääsi tietokoneeseen.
 
 Tailsin käyttämiseksi sammuta käytössäsi oleva tietokone (vanhempiesi luona, ystäväsi luona, internetkahvilassa...) ja käynnistä se Tails USB-tikulla Windowsin, macOS:n tai Linuxin sijaan.
 
@@ -55,7 +55,7 @@ Edellytykset:
 
 ![kuva](assets/1.webp)
 
-> 🔗 Virallinen Tails-osio: https://tails.boum.org/install/linux/index.fr.html#download
+> 🔗 Virallinen Tails-osio: https://tails.net/install/linux/index.fr.html#download
 
 Asennustiedoston .img-päätteisen tiedoston lataaminen saattaa kestää jonkin aikaa riippuen Internet-latausnopeudestasi, joten suunnittele etukäteen. Nykyaikaisella ja tehokkaalla yhteydellä se vie alle 5 minuuttia.
 
@@ -64,7 +64,7 @@ Tallenna tiedosto tunnettuun kansioon, kuten Lataukset, sillä se on tarpeen seu
 ## Vaihe 2: Varmista latauksesi
 
 ![kuva](assets/2.webp)
-> 🔗 Virallinen Tails-osio: https://tails.boum.org/install/linux/index.fr.html#verify
+> 🔗 Virallinen Tails-osio: https://tails.net/install/linux/index.fr.html#verify
 Latauksen tarkistaminen varmistaa, että se on peräisin Tails-kehittäjiltä eikä sitä ole vioittunut tai kaapattu latauksen aikana.
 
 On mahdollista manuaalisesti tarkistaa, että juuri lataamasi tiedosto on odotettu käyttäen PGP:tä, mutta ilman edistyneitä tietoja, tämä tarkistus tarjoaa saman turvallisuustason kuin JavaScript-tarkistus lataussivulla, ollen kuitenkin paljon monimutkaisempi ja virhealttiimpi.
@@ -77,8 +77,8 @@ Tiedoston tarkistamiseen käytä virallisessa osiossa tarjottua "Valitse latauks
 
 > 🔗 Virallinen Tails-osio:
 >
-> - Linux: https://tails.boum.org/install/linux/index.fr.html#install
-> - macOS: https://tails.boum.org/install/mac/index.fr.html#etcher ja https://tails.boum.org/install/mac/index.fr.html#install
+> - Linux: https://tails.net/install/linux/index.fr.html#install
+> - macOS: https://tails.net/install/mac/index.fr.html#etcher ja https://tails.net/install/mac/index.fr.html#install
 
 Tämä Tailsin asentamisen vaihe USB-tikullesi on koko oppaan vaikein, erityisesti jos et ole tehnyt sitä aiemmin. Tärkeintä on valita käyttöjärjestelmäsi mukainen oikea menettely virallisessa osiossa: Linux tai macOS.
 
@@ -90,7 +90,7 @@ Onnea matkaan! ja nähdään vaiheessa 4.
 
 ![kuva](assets/4.webp)
 
-> 🔗 Virallinen Tails-osio: https://tails.boum.org/install/linux/index.en.html#restart
+> 🔗 Virallinen Tails-osio: https://tails.net/install/linux/index.en.html#restart
 > On aika käynnistää yksi tietokoneistasi uudelleen käyttäen uutta USB-tikkua. Työnnä se yhteen sen USB-porteista ja käynnistä uudelleen!
 
 > 💡 Useimmat tietokoneet eivät automaattisesti käynnisty Tails USB-tikulta, mutta voit painaa käynnistysvalikon näppäintä näyttääksesi listan mahdollisista laitteista, joilta voit käynnistää.
@@ -123,7 +123,7 @@ Kun USB-tikku on valittu, sinun pitäisi nähdä tämä uusi käynnistysnäyttö
 
 ![kuva](assets/6.webp)
 
-> 🔗 Virallinen Tails-osio: https://tails.boum.org/install/linux/index.en.html#tails
+> 🔗 Virallinen Tails-osio: https://tails.net/install/linux/index.en.html#tails
 
 Yhden tai kahden minuutin kuluttua käynnistyslataimesta ja latausnäytöstä, Tervetuloa-näyttö ilmestyy.
 

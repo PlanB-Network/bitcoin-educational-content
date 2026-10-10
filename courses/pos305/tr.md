@@ -267,7 +267,7 @@ Blockchain, İşlem, Çift Harcama, Bizans Generalleri Problemi, Mining, Proof o
 Bu kurs bloğunun amacı BTCPay Server yazılımı hakkında genel bir anlayış kazanmaktır. Paylaşılan bir ortamda, eğitmenin gösterimini takip etmeniz ve öğretmenle birlikte takip etmek için BTCPay Server Kurs Kitabına başvurmanız önerilir. Birden fazla yöntemle nasıl Wallet oluşturacağınızı öğreneceksiniz. Örnekler arasında Hot Wallet kurulumları ve BTCPay Server Vault aracılığıyla bağlanan donanım cüzdanları bulunmaktadır. Bu hedefler, kurs eğitmeniniz tarafından görüntülenen ve erişim izni verilen Demo ortamında gerçekleşir.
 
 
-Bu kursu kendi başınıza takip ederseniz, https://directory.btcpayserver.org/filter/hosts adresinde Demo amaçlı üçüncü taraf ana bilgisayarların bir listesini bulabilirsiniz. Bu üçüncü taraf seçeneklerinin üretim ortamları olarak kullanılmamasını şiddetle tavsiye ediyoruz; ancak, Bitcoin ve BTCPay Server'ın kullanımını tanıtmak için doğru amaca hizmet ediyorlar.
+Bu kursu kendi başınıza takip ederseniz, https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/ adresinde Demo amaçlı üçüncü taraf ana bilgisayarların bir listesini bulabilirsiniz. Bu üçüncü taraf seçeneklerinin üretim ortamları olarak kullanılmamasını şiddetle tavsiye ediyoruz; ancak, Bitcoin ve BTCPay Server'ın kullanımını tanıtmak için doğru amaca hizmet ediyorlar.
 
 
 Bir BTCPay Server rockstar stajyeri olarak, daha önce bir Bitcoin düğümü kurma deneyiminiz olabilir. Bu eğitim özellikle BTCPay Server Yazılım yığınına göre uyarlanmıştır.

@@ -43,7 +43,7 @@ UWAGA: wszystkie środki, które Twoi "klienci" wpłacą na swoje konta bankowe 
 ## Platforma demonstracyjna
 
 
-Demo można znaleźć pod adresem [https://legend.lnbits.com](https://legend.lnbits.com). Jest w pełni funkcjonalny i może być używany do zapoznania się z Lightning Network i funkcjami LNbits i LNURL w ogóle. Chociaż nie możemy ci tego zabronić, chcielibyśmy poprosić, abyś nie używał go do konfiguracji produkcyjnej. Nie tylko często pracujemy nad serwerami, aby przetestować nowe funkcje, ale także chcielibyśmy zachęcić do uruchomienia własnego węzła i LNbits w suwerenny sposób. Jeśli uważasz, że prowadzenie węzła jest zbyt wymagające w tej chwili, możesz podłączyć LNbits do usługi finansowania powierniczego w chmurze, takiej jak Opennode, Luna lub Votage, lub do Lightning Tipbot na Telegramie, by wymienić tylko niektóre.
+Demo można znaleźć pod adresem [https://demo.lnbits.com](https://demo.lnbits.com). Jest w pełni funkcjonalny i może być używany do zapoznania się z Lightning Network i funkcjami LNbits i LNURL w ogóle. Chociaż nie możemy ci tego zabronić, chcielibyśmy poprosić, abyś nie używał go do konfiguracji produkcyjnej. Nie tylko często pracujemy nad serwerami, aby przetestować nowe funkcje, ale także chcielibyśmy zachęcić do uruchomienia własnego węzła i LNbits w suwerenny sposób. Jeśli uważasz, że prowadzenie węzła jest zbyt wymagające w tej chwili, możesz podłączyć LNbits do usługi finansowania powierniczego w chmurze, takiej jak Opennode, Luna lub Votage, lub do Lightning Tipbot na Telegramie, by wymienić tylko niektóre.
 
 
 ## Ulotka LNbits
@@ -202,7 +202,7 @@ Aby zaszyfrować macaroon, uruchom `./venv/bin/python lnbits/wallets/macaroon/ma
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - Serwer demonstracyjny LNbits Legend (!! NIE używaj go do celów produkcyjnych / komercyjnych, tylko do testowania !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### Lightning TipBot
@@ -601,7 +601,7 @@ Jeśli masz błąd "nieobsługiwany typ Hash" podczas korzystania z ypub w rozsz
 ### Oprzyrządowanie i tworzenie z LNbits
 
 
-LNbits posiada różnego rodzaju [otwarte interfejsy API](https://legend.lnbits.com/docs) i narzędzia do programowania i łączenia się z wieloma różnymi urządzeniami dla miliarda przypadków użycia.
+LNbits posiada różnego rodzaju [otwarte interfejsy API](https://demo.lnbits.com/docs) i narzędzia do programowania i łączenia się z wieloma różnymi urządzeniami dla miliarda przypadków użycia.
 
 
 Jeśli dopiero zaczynasz budować, zacznij od tego [Prezentacje MakerBits](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) od Bena Arc o budowaniu gadżetów opartych na LNbits.

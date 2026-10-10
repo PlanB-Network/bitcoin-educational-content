@@ -205,7 +205,7 @@ Blockchain, Transaction, Double-Spend, Byzantine Generals’ Problem, Mining, Pr
 
 Madhumuni ya kizuizi hiki cha kozi itakuwa Ni kuwa na uelewa wa jumla wa programu ya BTCPay Server. Katika mazingira ya pamoja, inashauriwa kufuata onyesho la mwalimu na kufuata pamoja na Kitabu cha Kozi cha BTCPay Server ili kumfuata mwalimu. Utajifunza jinsi ya kuunda  Wallet kupitia njia nyingi. Mifano ni pamoja na usanidi wa Hot Wallet na hardware wallet zilizounganishwa kupitia BTCPay Server Vault. Malengo haya hutokea katika mazingira ya Onyesho, yanayoonyeshwa na kupewa ufikiaji na mwalimu wako wa kozi.
 
-Ukifuata kozi hii peke yako, unaweza kupata orodha ya wapangishi wengine kwa madhumuni ya Onyesho kwenye https://directory.btcpayserver.org/filter/hosts. Tunashauri sana dhidi ya kutumia chaguo hili la wahusika wengine kama mazingira ya uzalishaji, lakini zinatumika kwa madhumuni yanayofaa kwa utangulizi wa kutumia Bitcoin na BTCPay Server.
+Ukifuata kozi hii peke yako, unaweza kupata orodha ya wapangishi wengine kwa madhumuni ya Onyesho kwenye https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Tunashauri sana dhidi ya kutumia chaguo hili la wahusika wengine kama mazingira ya uzalishaji, lakini zinatumika kwa madhumuni yanayofaa kwa utangulizi wa kutumia Bitcoin na BTCPay Server.
 
 Kama mwanafunzi wa rockstar wa BTCPay Server, unaweza kuwa na uzoefu wa awali wa kusanidi node ya Bitcoin. Kozi hii itazungumza maalum kwa rafu ya Programu ya BTCPay Server.
 

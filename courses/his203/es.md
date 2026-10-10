@@ -1230,7 +1230,7 @@ A principios de marzo de 2012, Bitcoinica [aceptaba](https://bitcointalk.org/ind
 
 
 
-En 2011, la falta de necesidad de autorización de Bitcoin llevó a los miembros de la comunidad a imaginar usos que iban más allá del simple intercambio monetario y la especulación. Buscaban liberalizar la inversión proporcionando un medio de emisión de acciones y bonos para las empresas del ecosistema. El objetivo era eludir la normativa impuesta por la *Securities and Exchange Commission* de Estados Unidos (el equivalente estadounidense de la AMF), [aprovechando](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) el carácter innovador de la Bitcoin y la vaguedad jurídica que la rodeaba. Se trataba de crear un modelo alternativo al sistema financiero clásico, que podría autoafianzarse según el enfoque agorista.
+En 2011, la falta de necesidad de autorización de Bitcoin llevó a los miembros de la comunidad a imaginar usos que iban más allá del simple intercambio monetario y la especulación. Buscaban liberalizar la inversión proporcionando un medio de emisión de acciones y bonos para las empresas del ecosistema. El objetivo era eludir la normativa impuesta por la *Securities and Exchange Commission* de Estados Unidos (el equivalente estadounidense de la AMF), [aprovechando](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) el carácter innovador de la Bitcoin y la vaguedad jurídica que la rodeaba. Se trataba de crear un modelo alternativo al sistema financiero clásico, que podría autoafianzarse según el enfoque agorista.
 
 
 
@@ -1298,7 +1298,7 @@ A finales de febrero de 2012, procedió a una [recaudación de fondos](https://w
 
 
 
-La plataforma alcanzaría cierto éxito y acogería, en particular, la "salida a bolsa" de SatoshiDICE, el casino en línea operado por Erik Voorhees. Evolucionó con el tiempo, [integrando](http://trilema.com/2012/futures-on-mpex/) contratos de futuros en diciembre.
+La plataforma alcanzaría cierto éxito y acogería, en particular, la "salida a bolsa" de SatoshiDICE, el casino en línea operado por Erik Voorhees. Evolucionó con el tiempo, [integrando](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) contratos de futuros en diciembre.
 
 
 

@@ -267,7 +267,7 @@ Blockchain, Transakce, Dvojité výdaje, Byzantský generálský problém, Minin
 Cílem tohoto bloku kurzu je získat obecné znalosti o softwaru BTCPay Server. Ve sdíleném prostředí se doporučuje sledovat ukázku instruktora a při sledování postupu spolu s učitelem nahlédnout do učebnice BTCPay Server Coursebook. Naučíte se, jak vytvořit Wallet pomocí několika metod. Příklady zahrnují nastavení Hot Wallet a hardwarové peněženky připojené prostřednictvím trezoru BTCPay Server. Tyto cíle se vyskytují v ukázkovém prostředí, které zobrazuje a ke kterému má přístup váš instruktor kurzu.
 
 
-Pokud tento kurz sledujete sami, seznam hostitelů třetích stran pro účely ukázky najdete na adrese https://directory.btcpayserver.org/filter/hosts. Důrazně nedoporučujeme používat tyto možnosti třetích stran jako produkční prostředí; slouží však správnému účelu pro seznámení s používáním Bitcoin a BTCPay Serveru.
+Pokud tento kurz sledujete sami, seznam hostitelů třetích stran pro účely ukázky najdete na adrese https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Důrazně nedoporučujeme používat tyto možnosti třetích stran jako produkční prostředí; slouží však správnému účelu pro seznámení s používáním Bitcoin a BTCPay Serveru.
 
 
 Jako stážista BTCPay Server Rockstar můžete mít předchozí zkušenosti s nastavením uzlu Bitcoin. Tento kurz je speciálně přizpůsoben softwarovému zásobníku BTCPay Server.

@@ -1230,7 +1230,7 @@ Na začátku března 2012 Bitcoinica [akceptovala](https://bitcointalk.org/index
 
 
 
-V roce 2011 vedla absence autorizace Bitcoin členy komunity k představě využití, které přesahuje rámec prosté peněžní směny a spekulace. Chtěli liberalizovat investice tím, že poskytnou prostředky pro vydávání akcií a dluhopisů pro společnosti v ekosystému. Cílem bylo obejít předpisy, které zavedla *Komise pro cenné papíry a Exchange* ve Spojených státech (americká obdoba AMF), a to [využitím](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) inovativního charakteru Bitcoin a právní nejasnosti, která jej obklopuje. Šlo o vytvoření alternativního modelu ke klasickému finančnímu systému, který by mohl být podle agoristického přístupu samospasitelný.
+V roce 2011 vedla absence autorizace Bitcoin členy komunity k představě využití, které přesahuje rámec prosté peněžní směny a spekulace. Chtěli liberalizovat investice tím, že poskytnou prostředky pro vydávání akcií a dluhopisů pro společnosti v ekosystému. Cílem bylo obejít předpisy, které zavedla *Komise pro cenné papíry a Exchange* ve Spojených státech (americká obdoba AMF), a to [využitím](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) inovativního charakteru Bitcoin a právní nejasnosti, která jej obklopuje. Šlo o vytvoření alternativního modelu ke klasickému finančnímu systému, který by mohl být podle agoristického přístupu samospasitelný.
 
 
 
@@ -1298,7 +1298,7 @@ Koncem února 2012 přistoupil k [fundraisingu](https://web.archive.org/web/2026
 
 
 
-Platforma dosáhla určitého úspěchu a zejména se na ní uskutečnilo "IPO" online kasina SatoshiDICE, které provozoval Erik Voorhees. Postupem času se vyvíjela a v prosinci [integrovala](http://trilema.com/2012/futures-on-mpex/) futures kontrakty.
+Platforma dosáhla určitého úspěchu a zejména se na ní uskutečnilo "IPO" online kasina SatoshiDICE, které provozoval Erik Voorhees. Postupem času se vyvíjela a v prosinci [integrovala](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) futures kontrakty.
 
 
 

@@ -293,7 +293,6 @@ Sử dụng dấu trang công khai như:
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -682,6 +681,5 @@ Trong bối cảnh giám sát tài chính ngày càng tăng, các công cụ phi
 
 
 
-- [Đánh dấu Faucet](https://signetfaucet.com) - Dùng thử Bitcoin miễn phí
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Lựa chọn thay thế cho Faucet
 - [Mempool.space](https://mempool.space) - Block explorer với phân tích quyền riêng tư

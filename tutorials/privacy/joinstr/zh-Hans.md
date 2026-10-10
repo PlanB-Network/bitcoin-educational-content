@@ -293,7 +293,6 @@ openssl rand -base64 32
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -682,6 +681,5 @@ Joinstr 代表了真正去中心化的 Bitcoin 隐私解决方案。通过使用
 
 
 
-- [Bookmark Faucet](https://signetfaucet.com) - 免费测试比特币
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet 替代品
 - [Mempool.space](https://mempool.space) - 含隐私分析的 Block explorer

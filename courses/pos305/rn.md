@@ -267,7 +267,7 @@ Blockchain, Ibikorwa, Gukoresha Kabiri, Ikibazo c’Abajenerali b’Abanyabizant
 Intumbero y’iki gice c’amashure ni ukuronka ugutahura rusangi ku bijanye n’ubuhinga bwa BTCPay Server. Mu kibanza rusangi, ni vyiza gukurikira iyerekanwa ry’umwigisha no kuraba igitabu c’inyigisho ca BTCPay Server kugira ngo ukurikize hamwe n’umwigisha. Uzomenya ingene wokora Wallet biciye mu buryo bwinshi. Ingero ni nk’imiterere ya Hot Wallet n’ibikoresho vy’amasakoshi bihujwe biciye ku BTCPay Server Vault. Izo ntumbero ziboneka mu bidukikije vy’Iyerekanwa, zigaragazwa kandi zihabwa uburenganzira bwo kuzironka n’umwigisha wawe w’amashure.
 
 
-Niwakurikiza iyi nyigisho wewe nyene, urashobora kuronka urutonde rw’abashitsi b’abandi ku ntumbero z’Iyerekanwa kuri https://directory.btcpayserver.org/filter/hosts. Turahanura cane kudakoresha izo nzira z’uwundi muntu nk’ibidukikije vyo gukoreramwo; ariko rero, zikora intumbero ibereye yo gutanguza ikoreshwa rya Bitcoin na BTCPay Server.
+Niwakurikiza iyi nyigisho wewe nyene, urashobora kuronka urutonde rw’abashitsi b’abandi ku ntumbero z’Iyerekanwa kuri https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Turahanura cane kudakoresha izo nzira z’uwundi muntu nk’ibidukikije vyo gukoreramwo; ariko rero, zikora intumbero ibereye yo gutanguza ikoreshwa rya Bitcoin na BTCPay Server.
 
 
 Nk’umumenyerezwa w’inyenyeri za BTCPay Server, ushobora kuba ufise ubumenyi bwa kera bwo gushinga urudodo rwa Bitcoin. Iyi nyigisho igenewe canecane porogarama za BTCPay Server.

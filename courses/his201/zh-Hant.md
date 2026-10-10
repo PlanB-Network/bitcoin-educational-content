@@ -148,7 +148,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 他在 1985 年發表於 *Communications of the ACM* 的 [基礎文章](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf)「Security Without Identification：他在 1985 年發表於 *Communications of the ACM* 的「無需識別的安全性：讓老大哥過時的交易系統」一文中寫道：
 
 > 「檔案社會的基礎已經奠基，在這個社會中，電腦可以從一般消費交易中收集的資料，推斷出個人的生活方式、習慣、行蹤和聯繫。不確定資料是否安全，不會被維護或竊取資料的人濫用，可能會造成「寒蟬效應」，導致人們改變他們可察覺的活動。隨著電腦化的日益普遍，這些問題的潛在性將顯著增長。
-對隱私保護的執著解釋了他對密碼學領域的興趣，他早在 1979 年就對該領域有所貢獻。1981 年，他描述了透過混合網路進行匿名通訊的基礎，這主要是為電子郵件中繼服務 (Mixmaster) 和 Tor 匿名網路服務。1982 年，他在 CRYPTO '82 年度會議上參與成立了國際密碼學研究協會 (IACR)。同年（這也是我們在此關心的地方），他在一篇題為「[盲簽名](https://planb.academy/resources/glossary/blind-signature)以進行無法追蹤的支付」的 [文章](https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF) 中發表了盲簽名過程，這也是他尊重隱私的數位貨幣模式：eCash 的核心。
+對隱私保護的執著解釋了他對密碼學領域的興趣，他早在 1979 年就對該領域有所貢獻。1981 年，他描述了透過混合網路進行匿名通訊的基礎，這主要是為電子郵件中繼服務 (Mixmaster) 和 Tor 匿名網路服務。1982 年，他在 CRYPTO '82 年度會議上參與成立了國際密碼學研究協會 (IACR)。同年（這也是我們在此關心的地方），他在一篇題為「[盲簽名](https://planb.academy/resources/glossary/blind-signature)以進行無法追蹤的支付」的 [文章](https://chaum.com/wp-content/uploads/2022/01/Chaum-blind-signatures.pdf) 中發表了盲簽名過程，這也是他尊重隱私的數位貨幣模式：eCash 的核心。
 
 正如 David Chaum [解釋](https://chaum.com/wp-content/uploads/2022/01/05-07-96-DigiCash_s-Ecash%E2%84%A2-to-be-Issued-by-Deutsche-Bank.pdf) 在 1996 年的新聞稿中所說：
 

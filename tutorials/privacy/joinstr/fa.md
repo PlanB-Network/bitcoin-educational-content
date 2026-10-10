@@ -293,7 +293,6 @@ wallet شما اکنون ایجاد شده و آماده دریافت بیت‌�
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -682,6 +681,5 @@ Joinstr یک راه‌حل حریم خصوصی Bitcoin به‌طور واقعی 
 
 
 
-- [نشانک Faucet](https://signetfaucet.com) - بیت‌کوین‌های آزمایشی رایگان
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - جایگزین Faucet
 - [Mempool.space](https://mempool.space) - Block explorer با تحلیل حریم خصوصی

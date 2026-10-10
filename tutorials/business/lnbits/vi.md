@@ -43,7 +43,7 @@ LƯU Ý: tất cả tiền mà "khách hàng" của bạn gửi vào tài khoả
 ## Nền tảng demo
 
 
-Bạn có thể tìm thấy bản demo tại [https://legend.lnbits.com](https://legend.lnbits.com). Bản demo hoạt động đầy đủ và có thể được sử dụng để tìm hiểu về Lightning Network, các tính năng của LNbits và LNURL nói chung. Mặc dù chúng tôi không thể ngăn cản bạn, nhưng chúng tôi muốn bạn không sử dụng nó cho thiết lập sản xuất của mình. Chúng tôi không chỉ thường xuyên làm việc trên các máy chủ để kiểm tra các tính năng mới mà còn khuyến khích bạn tự vận hành node và LNbits của mình một cách độc lập. Nếu bạn cảm thấy việc vận hành một node là quá nhiều vào lúc này, bạn có thể kết nối LNbits với một dịch vụ tài trợ lưu ký trên đám mây như Opennode, Luna hoặc Votage, hoặc với Lightning Tipbot trên Telegram, v.v.
+Bạn có thể tìm thấy bản demo tại [https://demo.lnbits.com](https://demo.lnbits.com). Bản demo hoạt động đầy đủ và có thể được sử dụng để tìm hiểu về Lightning Network, các tính năng của LNbits và LNURL nói chung. Mặc dù chúng tôi không thể ngăn cản bạn, nhưng chúng tôi muốn bạn không sử dụng nó cho thiết lập sản xuất của mình. Chúng tôi không chỉ thường xuyên làm việc trên các máy chủ để kiểm tra các tính năng mới mà còn khuyến khích bạn tự vận hành node và LNbits của mình một cách độc lập. Nếu bạn cảm thấy việc vận hành một node là quá nhiều vào lúc này, bạn có thể kết nối LNbits với một dịch vụ tài trợ lưu ký trên đám mây như Opennode, Luna hoặc Votage, hoặc với Lightning Tipbot trên Telegram, v.v.
 
 
 ## Tờ rơi LNbits
@@ -202,7 +202,7 @@ Bạn cũng có thể sử dụng macaroon được mã hóa AES (thông tin th�
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - Máy chủ demo LNbits Legend (!! KHÔNG sử dụng máy chủ này cho mục đích sản xuất/thương mại, chỉ sử dụng để thử nghiệm !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **Ví LNbit**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: chú thích-lnbits-AdminKey
 
 #### Lightning TipBot
@@ -601,7 +601,7 @@ Nếu bạn gặp lỗi "loại Hash không được hỗ trợ" khi sử dụng
 ### Gia công & Xây dựng với LNbits
 
 
-LNbits có đủ loại [API mở](https://legend.lnbits.com/docs) và các công cụ để lập trình và kết nối với nhiều thiết bị khác nhau cho vô số trường hợp sử dụng.
+LNbits có đủ loại [API mở](https://demo.lnbits.com/docs) và các công cụ để lập trình và kết nối với nhiều thiết bị khác nhau cho vô số trường hợp sử dụng.
 
 
 Khi bạn mới bắt đầu xây dựng, hãy bắt đầu với [bài thuyết trình MakerBits](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) của Ben Arc về việc xây dựng các tiện ích dựa trên LNbit.

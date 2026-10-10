@@ -43,7 +43,7 @@ NOT: "müşterilerinizin" düğümünüzdeki LNbits banka hesaplarına yatırdı
 ## Demo platformu
 
 
-Demo [https://legend.lnbits.com](https://legend.lnbits.com) adresinde bulunabilir. Tamamen işlevseldir ve genel olarak LNbits ve LNURL'ün Lightning Network ve özellikleri hakkında bilgi edinmek için kullanılabilir. Sizi bundan alıkoyamasak da, üretim kurulumunuz için kullanmamanızı rica ediyoruz. Sadece yeni özellikleri test etmek için sunucular üzerinde sık sık çalışmakla kalmıyor, aynı zamanda sizi kendi düğümünüzü ve LNbits'i egemen bir şekilde çalıştırmaya teşvik etmek istiyoruz. Şu an için bir node çalıştırmanın çok fazla talep edildiğini düşünüyorsanız, LNbits'i buluttaki Opennode, Luna veya Votage gibi bir saklama fonu hizmetine veya Telegram'daki Lightning Tipbot'a bağlayabilirsiniz.
+Demo [https://demo.lnbits.com](https://demo.lnbits.com) adresinde bulunabilir. Tamamen işlevseldir ve genel olarak LNbits ve LNURL'ün Lightning Network ve özellikleri hakkında bilgi edinmek için kullanılabilir. Sizi bundan alıkoyamasak da, üretim kurulumunuz için kullanmamanızı rica ediyoruz. Sadece yeni özellikleri test etmek için sunucular üzerinde sık sık çalışmakla kalmıyor, aynı zamanda sizi kendi düğümünüzü ve LNbits'i egemen bir şekilde çalıştırmaya teşvik etmek istiyoruz. Şu an için bir node çalıştırmanın çok fazla talep edildiğini düşünüyorsanız, LNbits'i buluttaki Opennode, Luna veya Votage gibi bir saklama fonu hizmetine veya Telegram'daki Lightning Tipbot'a bağlayabilirsiniz.
 
 
 ## LNbits broşürü
@@ -202,7 +202,7 @@ Makaronunuzu şifrelemek için `./venv/bin/python lnbits/wallets/macaroon/macaro
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend Demo Sunucusu (!! Bunu üretim / ticari amaçlar için KULLANMAYIN, sadece test için !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### Lightning TipBot
@@ -601,7 +601,7 @@ On-Chain uzantısında bir ypub kullanırken "desteklenmeyen Hash türü" hatas�
 ### LNbits ile Takım Oluşturma ve İnşa Etme
 
 
-LNbits her türlü [açık API](https://legend.lnbits.com/docs) ve milyonlarca kullanım durumu için birçok farklı cihazı programlamak ve bunlara bağlanmak için araçlara sahiptir.
+LNbits her türlü [açık API](https://demo.lnbits.com/docs) ve milyonlarca kullanım durumu için birçok farklı cihazı programlamak ve bunlara bağlanmak için araçlara sahiptir.
 
 
 İnşa etmeye yeni başladığınızda, Ben Arc'ın LNbit'lere dayalı araçlar inşa etme hakkındaki bu [MakerBits sunumları](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) ile başlayın.

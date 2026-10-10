@@ -406,7 +406,7 @@ Tutorial ini mencakup fitur-fitur penting Bitcoin Keeper dalam versi gratisnya. 
 
 
 - Situs web resmi: [bitcoinkeeper.app](https://bitcoinkeeper.app)
-- Pusat Bantuan: [help.bitcoinkeeper.app](https://help.bitcoinkeeper.app)
+- Pusat Bantuan: [bitcoinkeeper.app/ask-keeper](https://www.bitcoinkeeper.app/ask-keeper)
 - Kode sumber: [github.com/bithyve/bitcoin-keeper](https://github.com/bithyve/bitcoin-keeper)
 - Telegram : [t.me/BitcoinKeeper](https://t.me/BitcoinKeeper)
 - Twitter/X: [@bitcoinkeeper_](https://x.com/bitcoinkeeper_)

@@ -406,7 +406,7 @@ See õpetus hõlmab Bitcoin Keeper põhifunktsioone selle tasuta versioonis. Rak
 
 
 - Ametlik veebileht: [bitcoinkeeper.app](https://bitcoinkeeper.app)
-- Abikeskus: [help.bitcoinkeeper.app](https://help.bitcoinkeeper.app)
+- Abikeskus: [bitcoinkeeper.app/ask-keeper](https://www.bitcoinkeeper.app/ask-keeper)
 - Allikakood: [github.com/bithyve/bitcoin-keeper](https://github.com/bithyve/bitcoin-keeper)
 - Telegram : [t.me/BitcoinKeeper](https://t.me/BitcoinKeeper)
 - Twitter/X: [@bitcoinkeeper_](https://x.com/bitcoinkeeper_)

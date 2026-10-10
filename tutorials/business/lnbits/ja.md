@@ -31,7 +31,7 @@ LNbitsはあなた自身の銀行財務管理ソフトウェアだと考えて�
 
 ## デモプラットフォーム
 
-デモは[https://legend.lnbits.com](https://legend.lnbits.com)にあります。このデモは完全に機能し、ライトニングネットワークやLNbits、LNURLの特徴について学ぶことができます。私たちは、あなたがこれを使用することを妨げることはできませんが、あなたの本番セットアップには使用しないようお願いします。私たちは新機能をテストするために頻繁にサーバーに取り組んでいるだけでなく、あなた自身のノードとLNbitsを主権的な方法で運用することを奨励したいと思います。LNbitsをOpennode、Luna、Votageのようなクラウド上のカストディアン・ファンディング・サービスに接続することもできますし、Telegram上のLightning Tipbotに接続することもできます。
+デモは[https://demo.lnbits.com](https://demo.lnbits.com)にあります。このデモは完全に機能し、ライトニングネットワークやLNbits、LNURLの特徴について学ぶことができます。私たちは、あなたがこれを使用することを妨げることはできませんが、あなたの本番セットアップには使用しないようお願いします。私たちは新機能をテストするために頻繁にサーバーに取り組んでいるだけでなく、あなた自身のノードとLNbitsを主権的な方法で運用することを奨励したいと思います。LNbitsをOpennode、Luna、Votageのようなクラウド上のカストディアン・ファンディング・サービスに接続することもできますし、Telegram上のLightning Tipbotに接続することもできます。
 
 ## LNbitsチラシ
 
@@ -156,7 +156,7 @@ AESで暗号化されたマカロン（詳細はこちら）を使うことも�
   - LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits レジェンド・デモ・サーバー (!!本番/商用目的には使用しないでください。テスト用のみです!!)
   - lnbits_backend_wallet_class`： **LNbitsWallet**
-  - lnbits_endpoint`: https://legend.lnbits.com
+  - lnbits_endpoint`: https://demo.lnbits.com
   - LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### ライトニング・チップボット
@@ -449,7 +449,7 @@ On-chain拡張でypubを使用する際に "unsupported hash type "というエ�
 
 ### LNbitsでツーリング＆ビルド
 
-LNbitsには、あらゆる種類の[オープンAPI](https://legend.lnbits.com/docs)とツールがあり、膨大な数のユースケースのために、さまざまなデバイスをプログラムし、接続することができる。
+LNbitsには、あらゆる種類の[オープンAPI](https://demo.lnbits.com/docs)とツールがあり、膨大な数のユースケースのために、さまざまなデバイスをプログラムし、接続することができる。
 
 初めて作る場合は、LNbitsをベースにしたガジェットの作り方について、Ben Arcの[MakerBits presentations](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos)から始めましょう。
 

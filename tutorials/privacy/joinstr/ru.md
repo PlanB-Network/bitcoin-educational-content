@@ -293,7 +293,6 @@ openssl rand -base64 32
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -682,6 +681,5 @@ Joinstr представляет собой по-настоящему децен
 
 
 
-- [Закладка Faucet](https://signetfaucet.com) - Бесплатные тестовые биткоины
 - [Альт Сигнет Faucet](https://alt.signetfaucet.com) - альтернатива Faucet
 - [Mempool.space](https://mempool.space) - Block explorer с анализом приватности

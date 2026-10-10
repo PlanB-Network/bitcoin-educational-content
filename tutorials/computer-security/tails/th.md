@@ -13,7 +13,7 @@ description: ติดตั้ง Tails บน USB key
 ## ทำไมต้องมี USB key ที่ติดตั้ง Tails?
 
 
-Tails (https://tails.boum.org/) เป็นวิธีที่ง่ายที่สุดในการมีคอมพิวเตอร์ที่ปลอดภัยไว้ใช้งานตลอดเวลา ซึ่งจะไม่ทิ้งร่องรอยใดๆ บนคอมพิวเตอร์ที่คุณใช้ร่วมด้วย
+Tails (https://tails.net/) เป็นวิธีที่ง่ายที่สุดในการมีคอมพิวเตอร์ที่ปลอดภัยไว้ใช้งานตลอดเวลา ซึ่งจะไม่ทิ้งร่องรอยใดๆ บนคอมพิวเตอร์ที่คุณใช้ร่วมด้วย
 
 
 ในการใช้ Tails ให้ปิดคอมพิวเตอร์ที่คุณสามารถเข้าถึงได้ (ที่บ้านพ่อแม่, ที่บ้านเพื่อน, ในร้านอินเทอร์เน็ต...) และเริ่มต้นด้วย USB key ของ Tails แทนที่จะเป็น Windows, macOS, หรือ Linux
@@ -80,7 +80,7 @@ Tails ไม่เคยเขียนลงในฮาร์ดไดรฟ�
 ![image](assets/1.webp)
 
 
-🔗 **Official Tails section:** https://tails.boum.org/install/linux/index.fr.html#download
+🔗 **Official Tails section:** https://tails.net/install/linux/index.fr.html#download
 
 
 การดาวน์โหลดไฟล์ติดตั้งที่มีนามสกุล .img อาจใช้เวลาสักครู่ ขึ้นอยู่กับความเร็วในการดาวน์โหลดอินเทอร์เน็ตของคุณ ดังนั้นควรวางแผนล่วงหน้า ด้วยการเชื่อมต่อที่ทันสมัยและมีประสิทธิภาพ จะใช้เวลาน้อยกว่า 5 นาที
@@ -95,7 +95,7 @@ Tails ไม่เคยเขียนลงในฮาร์ดไดรฟ�
 ![image](assets/2.webp)
 
 
-🔗 **Official Tails section:** https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 **Official Tails section:** https://tails.net/install/linux/index.fr.html#verify
 
 
 การตรวจสอบการดาวน์โหลดช่วยให้มั่นใจได้ว่ามันถูกออกโดยนักพัฒนา Tails และไม่ได้ถูกทำลายหรือถูกดักฟังระหว่างการดาวน์โหลด
@@ -117,8 +117,8 @@ Tails ไม่เคยเขียนลงในฮาร์ดไดรฟ�
 
 
 
-- Linux:** https://tails.boum.org/install/linux/index.fr.html#install
-- macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher และ https://tails.boum.org/install/mac/index.fr.html#install
+- Linux:** https://tails.net/install/linux/index.fr.html#install
+- macOS:** https://tails.net/install/mac/index.fr.html#etcher และ https://tails.net/install/mac/index.fr.html#install
 
 
 ขั้นตอนการติดตั้ง Tails บน USB key ของคุณเป็นขั้นตอนที่ยากที่สุดในคู่มือทั้งหมด โดยเฉพาะอย่างยิ่งหากคุณไม่เคยทำมาก่อน จุดที่สำคัญที่สุดคือการเลือกขั้นตอนที่ถูกต้องในส่วนทางการสำหรับระบบปฏิบัติการของคุณ: Linux หรือ macOS
@@ -136,7 +136,7 @@ Tails ไม่เคยเขียนลงในฮาร์ดไดรฟ�
 ![image](assets/4.webp)
 
 
-🔗 **Official Tails section:** https://tails.boum.org/install/linux/index.en.html#restart
+🔗 **Official Tails section:** https://tails.net/install/linux/index.en.html#restart
 
 
 ถึงเวลาที่จะเริ่มต้นคอมพิวเตอร์เครื่องหนึ่งของคุณโดยใช้ USB stick ใหม่ของคุณ เสียบมันเข้ากับพอร์ต USB หนึ่งในนั้นและรีสตาร์ท!
@@ -178,7 +178,7 @@ Tails ไม่เคยเขียนลงในฮาร์ดไดรฟ�
 ![image](assets/6.webp)
 
 
-🔗 **Official Tails section:** https://tails.boum.org/install/linux/index.en.html#tails
+🔗 **Official Tails section:** https://tails.net/install/linux/index.en.html#tails
 
 
 หนึ่งหรือสองนาทีหลังจากโปรแกรมบูตโหลดเดอร์และหน้าจอโหลด หน้าจอต้อนรับจะปรากฏขึ้น

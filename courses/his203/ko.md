@@ -1230,7 +1230,7 @@ Bitcoinica는 2011년 9월 8일에 17세 중국 소년 저우 통(본명은 라�
 
 
 
-2011년, Bitcoin의 승인 필요성이 없어지면서 커뮤니티 구성원들은 단순한 화폐 교환과 투기 이상의 용도를 상상하기 시작했습니다. 이들은 생태계 내 기업들에게 주식과 채권을 발행할 수 있는 수단을 제공함으로써 투자를 자유화하고자 했습니다. 목표는 Bitcoin의 혁신적인 성격과 이를 둘러싼 법적 모호성을 [활용](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/)하여 미국의 *증권 및 Exchange 위원회*(미국의 AMF에 해당)가 부과하는 규제를 우회하는 것이었습니다. 이 아이디어는 아고리스트 접근 방식에 따라 자기 고착화될 수 있는 기존 금융 시스템에 대한 대안 모델을 만드는 것이었습니다.
+2011년, Bitcoin의 승인 필요성이 없어지면서 커뮤니티 구성원들은 단순한 화폐 교환과 투기 이상의 용도를 상상하기 시작했습니다. 이들은 생태계 내 기업들에게 주식과 채권을 발행할 수 있는 수단을 제공함으로써 투자를 자유화하고자 했습니다. 목표는 Bitcoin의 혁신적인 성격과 이를 둘러싼 법적 모호성을 [활용](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/)하여 미국의 *증권 및 Exchange 위원회*(미국의 AMF에 해당)가 부과하는 규제를 우회하는 것이었습니다. 이 아이디어는 아고리스트 접근 방식에 따라 자기 고착화될 수 있는 기존 금융 시스템에 대한 대안 모델을 만드는 것이었습니다.
 
 
 
@@ -1298,7 +1298,7 @@ Bitcoinica는 2011년 9월 8일에 17세 중국 소년 저우 통(본명은 라�
 
 
 
-이 플랫폼은 어느 정도 성공을 거뒀고, 특히 Erik Voorhees가 운영하는 온라인 카지노인 SatoshiDICE의 'IPO'를 주최하게 됩니다. 시간이 지남에 따라 발전하여 12월에 선물 계약을 [통합](http://trilema.com/2012/futures-on-mpex/)했습니다.
+이 플랫폼은 어느 정도 성공을 거뒀고, 특히 Erik Voorhees가 운영하는 온라인 카지노인 SatoshiDICE의 'IPO'를 주최하게 됩니다. 시간이 지남에 따라 발전하여 12월에 선물 계약을 [통합](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/)했습니다.
 
 
 

@@ -293,7 +293,6 @@ Verwenden Sie ein öffentliches Lesezeichen wie :
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -682,6 +681,5 @@ Vor dem Hintergrund zunehmender finanzieller Kontrolle werden dezentralisierte I
 
 
 
-- [Lesezeichen Faucet](https://signetfaucet.com) - Bitcoins kostenlos testen
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet Alternative
 - [Mempool.space](https://mempool.space) - Block explorer mit Datenschutzanalyse

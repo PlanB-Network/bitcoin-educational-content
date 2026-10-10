@@ -1230,7 +1230,7 @@ Bitcoinica 于 2011 年 9 月 8 日[推出](https://bitcointalk.org/index.php?to
 
 
 
-2011 年，Bitcoin 无需授权，这促使社区成员开始设想其用途，而不仅仅是简单的货币交换和投机。他们希望通过为生态系统中的公司提供一种发行股票和债券的方式来实现投资自由化。其目的是通过[利用](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/)Bitcoin 的创新性和法律上的模糊性，规避美国证券和 Exchange 委员会（相当于 AMF）的监管。我们的想法是创建一个传统金融体系的替代模式，根据激动主义者的方法，这种模式可能会自我强化。
+2011 年，Bitcoin 无需授权，这促使社区成员开始设想其用途，而不仅仅是简单的货币交换和投机。他们希望通过为生态系统中的公司提供一种发行股票和债券的方式来实现投资自由化。其目的是通过[利用](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/)Bitcoin 的创新性和法律上的模糊性，规避美国证券和 Exchange 委员会（相当于 AMF）的监管。我们的想法是创建一个传统金融体系的替代模式，根据激动主义者的方法，这种模式可能会自我强化。
 
 
 
@@ -1298,7 +1298,7 @@ Bitcoinica 于 2011 年 9 月 8 日[推出](https://bitcointalk.org/index.php?to
 
 
 
-该平台后来取得了一定程度的成功，尤其是 Erik Voorhees 经营的在线赌场 SatoshiDICE 的 "首次公开募股"。随着时间的推移，该平台不断发展，[整合](http://trilema.com/2012/futures-on-mpex/) 12 月份的期货合约。
+该平台后来取得了一定程度的成功，尤其是 Erik Voorhees 经营的在线赌场 SatoshiDICE 的 "首次公开募股"。随着时间的推移，该平台不断发展，[整合](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) 12 月份的期货合约。
 
 
 

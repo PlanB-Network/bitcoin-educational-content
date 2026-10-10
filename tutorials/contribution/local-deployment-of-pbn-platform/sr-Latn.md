@@ -38,9 +38,9 @@ Ovaj vodič pruža detaljne korake za postavljanje platforme, rukovanje lažnim 
 Klonirajte repozitorijum na vašu lokalnu mašinu:
 
 
-git clone [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 
-[cd](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd) Bitcoin-learning-management-system
+cd bitcoin-learning-management-system
 
 
 ```bash

@@ -148,7 +148,7 @@ Daha fazla bilgi için: [Kanallar | Zeus Dokümantasyonu](https://docs.zeusln.ap
 _Bitbanana Ekran Görüntüsü_
 
 
-Daha fazla bilgi için: [BitBanana](https://bitbanana.com)
+Daha fazla bilgi için: [BitBanana](https://bitbanana.app)
 
 
 Kanalınız açıldıktan sonra, ödemeler bu kanal üzerinden ağdaki diğer katılımcılara yönlendirilebilir. Bakiyeler off-chain'i ayarlayarak işlemlerin neredeyse anında gerçekleşmesini ve minimum ücrete tabi olmasını sağlar.

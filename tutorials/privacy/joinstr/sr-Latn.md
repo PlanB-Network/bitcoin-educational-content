@@ -293,7 +293,6 @@ Koristite javnu oznaku kao :
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -682,6 +681,5 @@ U pozadini sve većeg finansijskog nadzora, decentralizovani alati za zaštitu p
 
 
 
-- [Bookmark Faucet](https://signetfaucet.com) - Besplatni testni Bitcoini
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet alternativa
 - [Mempool.space](https://mempool.space) - Block explorer sa analizom privatnosti

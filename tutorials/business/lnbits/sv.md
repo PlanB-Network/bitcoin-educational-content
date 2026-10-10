@@ -43,7 +43,7 @@ OBS: alla medel som dina "kunder" sätter in på sina LNbits-bankkonton på din 
 ## Demo plattform
 
 
-Demot finns på [https://legend.lnbits.com](https://legend.lnbits.com). Den är fullt funktionell och kan användas för att lära sig mer om Lightning Network och funktionerna i LNbits och LNURL i allmänhet. Även om vi inte kan hindra dig från det skulle vi vilja be dig att inte använda det för din produktionsinställning. Vi arbetar inte bara ofta på servrarna för att testa nya funktioner utan vi vill också uppmuntra dig att köra din egen nod och LNbits på ett suveränt sätt. Om du tycker att det är för mycket begärt att köra en nod för tillfället kan du ansluta LNbits till en förvaringsfinansieringstjänst i molnet som Opennode, Luna eller Votage eller till Lightning Tipbot på Telegram för att bara nämna några.
+Demot finns på [https://demo.lnbits.com](https://demo.lnbits.com). Den är fullt funktionell och kan användas för att lära sig mer om Lightning Network och funktionerna i LNbits och LNURL i allmänhet. Även om vi inte kan hindra dig från det skulle vi vilja be dig att inte använda det för din produktionsinställning. Vi arbetar inte bara ofta på servrarna för att testa nya funktioner utan vi vill också uppmuntra dig att köra din egen nod och LNbits på ett suveränt sätt. Om du tycker att det är för mycket begärt att köra en nod för tillfället kan du ansluta LNbits till en förvaringsfinansieringstjänst i molnet som Opennode, Luna eller Votage eller till Lightning Tipbot på Telegram för att bara nämna några.
 
 
 ## LNbits flygblad
@@ -202,7 +202,7 @@ För att kryptera din macaroon, kör `./venv/bin/python lnbits/wallets/macaroon/
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend Demo Server (!! Använd INTE den här för produktion / kommersiella ändamål, endast för testning !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbits plånbok**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### Blixt TipBot
@@ -601,7 +601,7 @@ Om du har ett fel "unsupported Hash type" när du använder en ypub i On-Chain-t
 ### Verktyg och konstruktion med LNbits
 
 
-LNbits har alla möjliga [öppna API:er](https://legend.lnbits.com/docs) och verktyg för att programmera och ansluta till en mängd olika enheter för en miljard olika användningsområden.
+LNbits har alla möjliga [öppna API:er](https://demo.lnbits.com/docs) och verktyg för att programmera och ansluta till en mängd olika enheter för en miljard olika användningsområden.
 
 
 Om du är nybörjare kan du börja med denna [MakerBits-presentationer](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) från Ben Arc om att bygga prylar baserade på LNbits.

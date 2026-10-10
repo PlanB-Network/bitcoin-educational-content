@@ -13,7 +13,7 @@ description: USB 키에 Tails 설치
 ## 테일즈가 설치된 USB 키가 필요한 이유는 무엇인가요?
 
 
-Tails(https://tails.boum.org/)는 사용 중인 컴퓨터에 흔적을 남기지 않는 가장 쉬운 방법으로 항상 컴퓨터를 안전하게 보호할 수 있는 서비스입니다.
+Tails(https://tails.net/)는 사용 중인 컴퓨터에 흔적을 남기지 않는 가장 쉬운 방법으로 항상 컴퓨터를 안전하게 보호할 수 있는 서비스입니다.
 
 
 테일즈를 사용하려면 부모님 집, 친구 집, 인터넷 카페 등에서 액세스할 수 있는 컴퓨터를 끄고 Windows, macOS 또는 Linux 대신 테일즈 USB 키로 시작하세요.
@@ -80,7 +80,7 @@ Tails와 함께 USB 키를 항상 가지고 있으면 어떤 이점이 있는지
 ![image](assets/1.webp)
 
 
-공식 테일즈 섹션:** https://tails.boum.org/install/linux/index.fr.html#download
+공식 테일즈 섹션:** https://tails.net/install/linux/index.fr.html#download
 
 
 확장자가 .img인 설치 파일을 다운로드하는 데는 인터넷 다운로드 속도에 따라 다소 시간이 걸릴 수 있으므로 미리 계획하세요. 최신의 효율적인 연결을 사용하면 5분도 채 걸리지 않습니다.
@@ -95,7 +95,7 @@ Tails와 함께 USB 키를 항상 가지고 있으면 어떤 이점이 있는지
 ![image](assets/2.webp)
 
 
-공식 테일즈 섹션:** https://tails.boum.org/install/linux/index.fr.html#verify
+공식 테일즈 섹션:** https://tails.net/install/linux/index.fr.html#verify
 
 
 다운로드를 확인하면 Tails 개발자가 발행한 것이며 다운로드 중에 손상되거나 가로채지 않았는지 확인할 수 있습니다.
@@ -117,8 +117,8 @@ PGP를 사용하여 방금 다운로드한 파일이 예상한 파일인지 수�
 
 
 
-- Linux:** https://tails.boum.org/install/linux/index.fr.html#install
-- macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher 및 https://tails.boum.org/install/mac/index.fr.html#install
+- Linux:** https://tails.net/install/linux/index.fr.html#install
+- macOS:** https://tails.net/install/mac/index.fr.html#etcher 및 https://tails.net/install/mac/index.fr.html#install
 
 
 USB 키에 Tails를 설치하는 이 단계는 전체 가이드에서 가장 어려운 단계이며, 특히 이전에 한 번도 해본 적이 없는 경우 더욱 그렇습니다. 가장 중요한 점은 운영 체제의 공식 섹션에서 올바른 절차를 선택하는 것입니다: Linux 또는 macOS.
@@ -136,7 +136,7 @@ USB 키에 Tails를 설치하는 이 단계는 전체 가이드에서 가장 어
 ![image](assets/4.webp)
 
 
-공식 테일즈 섹션:** https://tails.boum.org/install/linux/index.en.html#restart
+공식 테일즈 섹션:** https://tails.net/install/linux/index.en.html#restart
 
 
 이제 새 USB 스틱을 사용하여 컴퓨터 중 하나를 시작할 차례입니다. USB 포트 중 하나에 삽입하고 다시 시작하세요!
@@ -178,7 +178,7 @@ USB 스틱을 선택하면 이 새 부팅 화면이 표시되는데, 이는 매�
 ![image](assets/6.webp)
 
 
-공식 테일즈 섹션:** https://tails.boum.org/install/linux/index.en.html#tails
+공식 테일즈 섹션:** https://tails.net/install/linux/index.en.html#tails
 
 
 부팅 로더와 로딩 화면이 끝나고 1~2분 후에 시작 화면이 나타납니다.

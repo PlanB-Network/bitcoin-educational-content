@@ -38,9 +38,9 @@ Deze tutorial geeft gedetailleerde stappen om het platform in te stellen, dummy 
 Kloon het archief naar je lokale machine:
 
 
-git kloon [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 
-[cd](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd) Bitcoin-learning-management-systeem
+cd bitcoin-learning-management-system
 
 
 ```bash

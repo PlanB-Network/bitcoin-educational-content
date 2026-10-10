@@ -38,9 +38,9 @@ description: Как можете да стартирате Академията 
 Клонирайте хранилището на локалната си машина:
 
 
-git clone [https://github.com/PlanB-Network/bitcoin-learning-management-system](https://github.com/PlanB-Network/bitcoin-learning-management-system￼cd)
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 
-[CD](https://github.com/PlanB-Network/bitcoin-learning-management-system￼cd) bitcoin-learning-management-system
+cd bitcoin-learning-management-system
 
 
 ```bash

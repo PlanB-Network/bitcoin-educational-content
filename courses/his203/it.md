@@ -1230,7 +1230,7 @@ All'inizio di marzo 2012, Bitcoinica [accettava](https://bitcointalk.org/index.p
 
 
 
-Nel 2011, la mancanza di autorizzazione di Bitcoin ha portato i membri della comunità a immaginare usi che andassero oltre il semplice scambio monetario e la speculazione. Si trattava di liberalizzare gli investimenti fornendo un mezzo per emettere azioni e obbligazioni per le aziende dell'ecosistema. L'obiettivo era quello di aggirare le normative imposte dalla *Securities and Exchange Commission* degli Stati Uniti (l'equivalente americano dell'AMF), [sfruttando](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) il carattere innovativo di Bitcoin e la vaghezza giuridica che lo circondava. L'idea era quella di creare un modello alternativo al sistema finanziario classico, che secondo l'approccio agorista poteva essere auto-inclusivo.
+Nel 2011, la mancanza di autorizzazione di Bitcoin ha portato i membri della comunità a immaginare usi che andassero oltre il semplice scambio monetario e la speculazione. Si trattava di liberalizzare gli investimenti fornendo un mezzo per emettere azioni e obbligazioni per le aziende dell'ecosistema. L'obiettivo era quello di aggirare le normative imposte dalla *Securities and Exchange Commission* degli Stati Uniti (l'equivalente americano dell'AMF), [sfruttando](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) il carattere innovativo di Bitcoin e la vaghezza giuridica che lo circondava. L'idea era quella di creare un modello alternativo al sistema finanziario classico, che secondo l'approccio agorista poteva essere auto-inclusivo.
 
 
 
@@ -1298,7 +1298,7 @@ Alla fine di febbraio 2012, ha proceduto a una [raccolta fondi](https://web.arch
 
 
 
-La piattaforma avrebbe raggiunto un certo grado di successo e avrebbe ospitato in particolare l'"IPO" di SatoshiDICE, il casinò online gestito da Erik Voorhees. Si è evoluta nel tempo, [integrando](http://trilema.com/2012/futures-on-mpex/) i contratti futures a dicembre.
+La piattaforma avrebbe raggiunto un certo grado di successo e avrebbe ospitato in particolare l'"IPO" di SatoshiDICE, il casinò online gestito da Erik Voorhees. Si è evoluta nel tempo, [integrando](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) i contratti futures a dicembre.
 
 
 

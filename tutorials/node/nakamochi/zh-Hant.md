@@ -148,7 +148,7 @@ _ZEUS 螢幕截圖_
 _Bitbanana 螢幕截圖_
 
 
-更多資訊: [BitBanana](https://bitbanana.com)
+更多資訊: [BitBanana](https://bitbanana.app)
 
 
 一旦您的通道打開，就可以透過它向網路中的其他參與者付款。餘額會以 off-chain 調整，確保交易幾乎是即時的，並產生最少的費用。

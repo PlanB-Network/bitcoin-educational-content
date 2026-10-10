@@ -1230,7 +1230,7 @@ I början av mars 2012 [accepterade] (https://bitcointalk.org/index.php?topic=67
 
 
 
-År 2011 ledde Bitcoin:s avsaknad av auktorisering till att medlemmar i communityt började föreställa sig användningsområden som gick utöver enkel penningväxling och spekulation. De ville liberalisera investeringar genom att tillhandahålla ett sätt att emittera aktier och obligationer för företag i ekosystemet. Målet var att kringgå regler som införts av *Securities and Exchange Commission* i USA (den amerikanska motsvarigheten till AMF) genom att [dra fördel](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) av Bitcoin:s innovativa karaktär och den juridiska vaghet som omgav den. Tanken var att skapa en alternativ modell till det klassiska finansiella systemet, som enligt det agoristiska synsättet kunde vara självförstärkande.
+År 2011 ledde Bitcoin:s avsaknad av auktorisering till att medlemmar i communityt började föreställa sig användningsområden som gick utöver enkel penningväxling och spekulation. De ville liberalisera investeringar genom att tillhandahålla ett sätt att emittera aktier och obligationer för företag i ekosystemet. Målet var att kringgå regler som införts av *Securities and Exchange Commission* i USA (den amerikanska motsvarigheten till AMF) genom att [dra fördel](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) av Bitcoin:s innovativa karaktär och den juridiska vaghet som omgav den. Tanken var att skapa en alternativ modell till det klassiska finansiella systemet, som enligt det agoristiska synsättet kunde vara självförstärkande.
 
 
 
@@ -1298,7 +1298,7 @@ I slutet av februari 2012 genomförde han en [kapitalanskaffning](https://web.ar
 
 
 
-Plattformen skulle komma att uppnå en viss grad av framgång och skulle bland annat vara värd för "börsintroduktionen" av SatoshiDICE, det onlinekasino som drivs av Erik Voorhees. Den utvecklades över tid och [integrerade](http://trilema.com/2012/futures-on-mpex/) terminskontrakt i december.
+Plattformen skulle komma att uppnå en viss grad av framgång och skulle bland annat vara värd för "börsintroduktionen" av SatoshiDICE, det onlinekasino som drivs av Erik Voorhees. Den utvecklades över tid och [integrerade](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) terminskontrakt i december.
 
 
 

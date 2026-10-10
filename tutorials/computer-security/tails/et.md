@@ -10,7 +10,7 @@ Kaasaskantav ja amneesiat tekitav operatsioonisüsteem, mis kaitseb sind jälgim
 
 ## Miks omada USB võtmepulka Tailsiga?
 
-Tails (https://tails.boum.org/) on kõige lihtsam viis alati omada turvalist arvutit, mis ei jäta jälgi arvutisse, millega seda kasutad.
+Tails (https://tails.net/) on kõige lihtsam viis alati omada turvalist arvutit, mis ei jäta jälgi arvutisse, millega seda kasutad.
 
 Tailsi kasutamiseks lülita välja arvuti, millele sul on juurdepääs (vanemate juures, sõprade juures, internetikohvikus...) ja käivita see oma Tails USB võtmepulgaga Windowsi, macOSi või Linuxi asemel.
 
@@ -55,7 +55,7 @@ Eeltingimused:
 
 ![pilt](assets/1.webp)
 
-> 🔗 Ametlik Tailsi jaotis: https://tails.boum.org/install/linux/index.fr.html#download
+> 🔗 Ametlik Tailsi jaotis: https://tails.net/install/linux/index.fr.html#download
 
 Paigaldusfaili .img laiendiga allalaadimine võib võtta aega sõltuvalt sinu Interneti allalaadimiskiirusest, nii et planeeri ette. Kaasaegse ja tõhusa ühenduse korral võtab see vähem kui 5 minutit.
 
@@ -64,7 +64,7 @@ Salvesta fail tuntud kausta, näiteks Allalaadimised, kuna see on vajalik järgm
 ## 2. samm: Kontrolli oma allalaadimist
 
 ![pilt](assets/2.webp)
-🔗 Ametlik Tailsi jaotis: https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 Ametlik Tailsi jaotis: https://tails.net/install/linux/index.fr.html#verify
 Allalaadimise kontrollimine tagab, et see pärineb Tailsi arendajatelt ja ei ole allalaadimise käigus rikutud ega pealtkuulatud.
 
 On võimalik käsitsi kontrollida, kas just allalaaditud fail on oodatud fail, kasutades PGP-d, kuid ilma põhjalike teadmisteta pakub see kontrollimine sama turvatase kui JavaScripti kontrollimine allalaadimislehel, olles samal ajal palju keerulisem ja vigadele altim.
@@ -77,8 +77,8 @@ Faili kontrollimiseks kasutage ametlikus jaotises pakutud "Vali oma allalaadimin
 
 > 🔗 Ametlik Tailsi jaotis:
 >
-> - Linux: https://tails.boum.org/install/linux/index.fr.html#install
-> - macOS: https://tails.boum.org/install/mac/index.fr.html#etcher ja https://tails.boum.org/install/mac/index.fr.html#install
+> - Linux: https://tails.net/install/linux/index.fr.html#install
+> - macOS: https://tails.net/install/mac/index.fr.html#etcher ja https://tails.net/install/mac/index.fr.html#install
 
 See samm, Tailsi installimine oma USB mälupulgale, on kogu juhendi kõige keerulisem, eriti kui sa pole seda varem teinud. Kõige olulisem on valida oma operatsioonisüsteemi jaoks ametlikus jaotises õige protseduur: Linux või macOS.
 
@@ -90,7 +90,7 @@ Edu! ja kohtumiseni 4. sammus.
 
 ![image](assets/4.webp)
 
-> 🔗 Ametlik Tailsi jaotis: https://tails.boum.org/install/linux/index.en.html#restart
+> 🔗 Ametlik Tailsi jaotis: https://tails.net/install/linux/index.en.html#restart
 > On aeg käivitada üks oma arvutitest kasutades sinu uut USB mälupulka. Sisesta see ühte oma USB porti ja taaskäivita!
 
 > 💡 Enamik arvuteid ei käivitu automaatselt Tailsi USB mälupulgalt, kuid saad vajutada käivitusmenüü klahvi, et kuvada nimekiri võimalikest seadmetest, millelt käivitada.
@@ -123,7 +123,7 @@ Kui USB mälupulk on valitud, peaksid nägema seda uut käivitusekraani, mis on 
 
 ![image](assets/6.webp)
 
-> 🔗 Ametlik Tailsi jaotis: https://tails.boum.org/install/linux/index.en.html#tails
+> 🔗 Ametlik Tailsi jaotis: https://tails.net/install/linux/index.en.html#tails
 
 Üks või kaks minutit pärast alglaadurit ja laadimisekraani ilmub tervitusekraan.
 

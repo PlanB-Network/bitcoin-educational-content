@@ -31,7 +31,7 @@ POZNÁMKA: všechny prostředky, které vaši "zákazníci" vloží na své bank
 
 ## Demonstrační platforma
 
-Demo najdete na adrese [https://legend.lnbits.com](https://legend.lnbits.com). Je plně funkční a lze ji použít k seznámení se s Lightning Network a funkcemi LNbits a LNURL obecně. Přestože vám v tom nemůžeme zabránit, rádi bychom vás požádali, abyste ji nepoužívali pro produkční nastavení. Nejenže na serverech často pracujeme, abychom otestovali nové funkce, ale také bychom vás rádi povzbudili k suverénnímu provozování vlastního uzlu a LNbits. Pokud si myslíte, že provozování vlastního uzlu je pro vás v tuto chvíli příliš náročné, můžete LNbits připojit ke službě custodian funding sservice v cloudu, jako je Opennode, Luna nebo Votage, nebo k Lightning Tipbot na Telegramu, abychom jmenovali alespoň některé.
+Demo najdete na adrese [https://demo.lnbits.com](https://demo.lnbits.com). Je plně funkční a lze ji použít k seznámení se s Lightning Network a funkcemi LNbits a LNURL obecně. Přestože vám v tom nemůžeme zabránit, rádi bychom vás požádali, abyste ji nepoužívali pro produkční nastavení. Nejenže na serverech často pracujeme, abychom otestovali nové funkce, ale také bychom vás rádi povzbudili k suverénnímu provozování vlastního uzlu a LNbits. Pokud si myslíte, že provozování vlastního uzlu je pro vás v tuto chvíli příliš náročné, můžete LNbits připojit ke službě custodian funding sservice v cloudu, jako je Opennode, Luna nebo Votage, nebo k Lightning Tipbot na Telegramu, abychom jmenovali alespoň některé.
 
 ## Leták LNbits
 
@@ -156,7 +156,7 @@ Chcete-li zašifrovat svůj macaroon, spusťte `./venv/bin/python lnbits/wallets
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend Demo Server (!! NEPOUŽÍVEJTE jej pro produkční / komerční účely, pouze pro testování !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### Lightning TipBot
@@ -449,7 +449,7 @@ Pokud se vám při použití ypub v rozšíření On-chain objeví chyba "unsupp
 
 ### Tvorba nástrojů a konstrukce pomocí LNbits
 
-LNbits má nejrůznější [otevřené API](https://legend.lnbits.com/docs) a nástroje pro programování a připojení k mnoha různým zařízením pro miliardu případů použití.
+LNbits má nejrůznější [otevřené API](https://demo.lnbits.com/docs) a nástroje pro programování a připojení k mnoha různým zařízením pro miliardu případů použití.
 
 Pokud se stavěním začínáte, začněte s tímto [MakerBits prezentace](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) od Bena Arca o stavbě gadgetů založených na LNbits.
 

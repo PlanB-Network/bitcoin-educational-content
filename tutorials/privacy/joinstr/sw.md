@@ -293,7 +293,6 @@ Tumia alamisho ya umma kama:
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [alama257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -682,6 +681,5 @@ Kutokana na hali ya kuongezeka kwa uchunguzi wa kifedha, zana zilizogatuliwa kul
 
 
 
-- [Alamisho Faucet](https://signetfaucet.com) - Mtihani wa Bitcoin bila malipo
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet mbadala
 - [Mempool.space](https://mempool.space) - Block explorer yenye uchanganuzi wa faragha

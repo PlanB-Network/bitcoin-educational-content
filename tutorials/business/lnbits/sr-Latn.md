@@ -43,7 +43,7 @@ NAPOMENA: sva sredstva koja vaši „kupci“ polože na svoje LNbits bankovne r
 ## Demo platforma
 
 
-Demo se može pronaći na [https://legend.lnbits.com](https://legend.lnbits.com). Potpuno je funkcionalan i može se koristiti za učenje o Lightning Network i funkcijama LNbits i LNURL uopšte. Iako vas ne možemo sprečiti, zamolili bismo vas da ga ne koristite za vašu produkcijsku postavku. Ne samo da često radimo na serverima kako bismo testirali nove funkcije, već bismo vas želeli ohrabriti da pokrenete svoj sopstveni čvor i LNbits na suveren način. Ako mislite da je pokretanje čvora previše za sada, možete povezati LNbits sa uslugom čuvara u oblaku kao što su Opennode, Luna ili Votage ili sa Lightning Tipbot-om na Telegramu, da navedemo neke.
+Demo se može pronaći na [https://demo.lnbits.com](https://demo.lnbits.com). Potpuno je funkcionalan i može se koristiti za učenje o Lightning Network i funkcijama LNbits i LNURL uopšte. Iako vas ne možemo sprečiti, zamolili bismo vas da ga ne koristite za vašu produkcijsku postavku. Ne samo da često radimo na serverima kako bismo testirali nove funkcije, već bismo vas želeli ohrabriti da pokrenete svoj sopstveni čvor i LNbits na suveren način. Ako mislite da je pokretanje čvora previše za sada, možete povezati LNbits sa uslugom čuvara u oblaku kao što su Opennode, Luna ili Votage ili sa Lightning Tipbot-om na Telegramu, da navedemo neke.
 
 
 ## LNbits flajer
@@ -202,7 +202,7 @@ Da biste šifrovali svoj macaroon, pokrenite `./venv/bin/python lnbits/wallets/m
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend Demo Server (!! Ne KORISTITE ovaj za proizvodne / komercijalne svrhe, samo za testiranje !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### Lightning TipBot
@@ -601,7 +601,7 @@ Ako imate grešku "unsupported Hash type" kada koristite ypub u On-Chain ekstenz
 ### Alati i izgradnja sa LNbits
 
 
-LNbits ima sve vrste [otvorenih API-ja](https://legend.lnbits.com/docs) i alata za programiranje i povezivanje sa mnogo različitih uređaja za bezbroj slučajeva upotrebe.
+LNbits ima sve vrste [otvorenih API-ja](https://demo.lnbits.com/docs) i alata za programiranje i povezivanje sa mnogo različitih uređaja za bezbroj slučajeva upotrebe.
 
 
 Kada ste novi u izgradnji, počnite sa ovim [MakerBits prezentacijama](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) od Ben Arc-a o izgradnji gedžeta baziranih na LNbits.

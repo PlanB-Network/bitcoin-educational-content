@@ -31,7 +31,7 @@ NOTA: todos los fondos que tus "clientes" depositen en sus cuentas bancarias de 
 
 ## Plataforma de demostración
 
-La demo se puede encontrar en [https://legend.lnbits.com](https://legend.lnbits.com). Es totalmente funcional y se puede utilizar para aprender acerca de la Lightning Network y las características de LNbits y LNURL en general. Aunque no podemos impedírtelo, nos gustaría pedirte que no lo utilices para tu configuración de producción. No sólo estamos trabajando en los servidores a menudo para probar nuevas características, sino que también nos gustaría animarte a ejecutar tu propio nodo y LNbits de forma soberana. Si crees que gestionar un nodo es demasiado pedir por el momento puedes conectar LNbits a un servicio de custodia de fondos en la nube como Opennode, Luna o Votage o al Lightning Tipbot en Telegram sólo por nombrar algunos.
+La demo se puede encontrar en [https://demo.lnbits.com](https://demo.lnbits.com). Es totalmente funcional y se puede utilizar para aprender acerca de la Lightning Network y las características de LNbits y LNURL en general. Aunque no podemos impedírtelo, nos gustaría pedirte que no lo utilices para tu configuración de producción. No sólo estamos trabajando en los servidores a menudo para probar nuevas características, sino que también nos gustaría animarte a ejecutar tu propio nodo y LNbits de forma soberana. Si crees que gestionar un nodo es demasiado pedir por el momento puedes conectar LNbits a un servicio de custodia de fondos en la nube como Opennode, Luna o Votage o al Lightning Tipbot en Telegram sólo por nombrar algunos.
 
 ## Folleto LNbits
 
@@ -156,7 +156,7 @@ Para cifrar tu macaroon, ejecuta `./venv/bin/python lnbits/wallets/macaroon/maca
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - Servidor de demostración de LNbits Legend (!! ¡¡¡NO utilices éste para producción / fines comerciales, sólo para pruebas!!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### Lightning TipBot
@@ -449,7 +449,7 @@ Si recibes un Error "unsupported hash type" cuando usas ypub en la extensión On
 
 ### Herramientas y construcción con LNbits
 
-LNbits tiene todo tipo de [APIs abiertas](https://legend.lnbits.com/docs) y herramientas para programar y conectarse a un montón de dispositivos diferentes para un gazillion de casos de uso.
+LNbits tiene todo tipo de [APIs abiertas](https://demo.lnbits.com/docs) y herramientas para programar y conectarse a un montón de dispositivos diferentes para un gazillion de casos de uso.
 
 Si eres nuevo en el mundo del desarrollo, empieza con estas [presentaciones MakerBits](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) de Ben Arc sobre el desarrollo de gadgets basados en LNbits.
 

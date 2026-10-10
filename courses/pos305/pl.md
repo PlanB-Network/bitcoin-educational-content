@@ -267,7 +267,7 @@ Blockchain, transakcja, podwójny wydatek, bizantyjski problem generałów, Mini
 Celem tego bloku kursu będzie ogólne zrozumienie oprogramowania BTCPay Server. W środowisku współdzielonym zaleca się śledzenie demonstracji instruktora i podążanie za podręcznikiem BTCPay Server, aby podążać za nauczycielem. Dowiesz się, jak utworzyć Wallet za pomocą wielu metod. Przykłady obejmują konfiguracje Hot Wallet i portfele sprzętowe połączone za pośrednictwem BTCPay Server Vault. Cele te występują w środowisku demonstracyjnym, wyświetlanym i udostępnianym przez instruktora kursu.
 
 
-Jeśli śledzisz ten kurs samodzielnie, możesz znaleźć listę hostów innych firm do celów demonstracyjnych na stronie https://directory.btcpayserver.org/filter/hosts. Zdecydowanie odradzamy korzystanie z tych opcji innych firm jako środowisk produkcyjnych, ale służą one właściwym celom jako wprowadzenie do korzystania z Bitcoin i BTCPay Server.
+Jeśli śledzisz ten kurs samodzielnie, możesz znaleźć listę hostów innych firm do celów demonstracyjnych na stronie https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Zdecydowanie odradzamy korzystanie z tych opcji innych firm jako środowisk produkcyjnych, ale służą one właściwym celom jako wprowadzenie do korzystania z Bitcoin i BTCPay Server.
 
 
 Jako stażysta BTCPay Server Rockstar możesz mieć wcześniejsze doświadczenie w konfigurowaniu węzła Bitcoin. Ten kurs będzie specjalnie dostosowany do stosu oprogramowania BTCPay Server.

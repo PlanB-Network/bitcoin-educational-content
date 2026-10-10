@@ -31,7 +31,7 @@ MERK: Alle midler som "kundene" dine setter inn på LNbits-bankkontoene sine på
 
 ## Demoplattform
 
-Demoen finner du på [https://legend.lnbits.com](https://legend.lnbits.com). Den er fullt funksjonell og kan brukes til å lære om Lightning Network og funksjonene i LNbits og LNURL generelt. Selv om vi ikke kan hindre deg i å bruke den, vil vi be deg om å ikke bruke den til produksjonsoppsettet ditt. Ikke bare jobber vi ofte på serverne for å teste nye funksjoner, men vi vil også oppfordre deg til å kjøre din egen node og LNbits på en suveren måte. Hvis du synes det er for mye å kjøre en node for øyeblikket, kan du koble LNbits til en depotfinansieringstjeneste i skyen som Opennode, Luna eller Votage eller til Lightning Tipbot på Telegram, bare for å nevne noen.
+Demoen finner du på [https://demo.lnbits.com](https://demo.lnbits.com). Den er fullt funksjonell og kan brukes til å lære om Lightning Network og funksjonene i LNbits og LNURL generelt. Selv om vi ikke kan hindre deg i å bruke den, vil vi be deg om å ikke bruke den til produksjonsoppsettet ditt. Ikke bare jobber vi ofte på serverne for å teste nye funksjoner, men vi vil også oppfordre deg til å kjøre din egen node og LNbits på en suveren måte. Hvis du synes det er for mye å kjøre en node for øyeblikket, kan du koble LNbits til en depotfinansieringstjeneste i skyen som Opennode, Luna eller Votage eller til Lightning Tipbot på Telegram, bare for å nevne noen.
 
 ## LNbits-flygeblad
 
@@ -156,7 +156,7 @@ For å kryptere macaroon kjører du `./venv/bin/python lnbits/wallets/macaroon/m
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend Demo Server (!!! Ikke bruk denne til produksjon / kommersielle formål, bare for testing !!!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### Lightning TipBot
@@ -449,7 +449,7 @@ Hvis du har en feil "unsupported hash type" når du bruker en ypub i On-chain ex
 
 ### Verktøy og bygging med LNbits
 
-LNbits har alle slags [åpne API-er](https://legend.lnbits.com/docs) og verktøy for å programmere og koble til mange forskjellige enheter for en mengde ulike bruksområder.
+LNbits har alle slags [åpne API-er](https://demo.lnbits.com/docs) og verktøy for å programmere og koble til mange forskjellige enheter for en mengde ulike bruksområder.
 
 Hvis du er nybegynner, kan du starte med denne [MakerBits-presentasjonen](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) fra Ben Arc om å bygge gadgets basert på LNbits.
 

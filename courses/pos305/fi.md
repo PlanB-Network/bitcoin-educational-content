@@ -267,7 +267,7 @@ Blockchain, transaktio, tuplalaskutus, Bysantin kenraaliongelma, Mining, Proof o
 Tämän kurssikokonaisuuden tavoitteena on saada yleinen ymmärrys BTCPay Server -ohjelmistosta. Jaetussa ympäristössä on suositeltavaa seurata opettajan esittelyä ja tutustua BTCPay Server -kurssikirjaan, jotta voit seurata opettajan mukana. Opit luomaan Wallet:n useiden eri menetelmien avulla. Esimerkkeinä ovat Hot Wallet-asetukset ja BTCPay Server Vaultin kautta yhdistetyt laitteistolompakot. Nämä tavoitteet tapahtuvat demoympäristössä, joka on esillä ja johon kurssin opettajasi antaa pääsyn.
 
 
-Jos seuraat tätä kurssia itse, löydät luettelon kolmannen osapuolen isännistä demotarkoituksiin osoitteesta https://directory.btcpayserver.org/filter/hosts. Emme suosittele käyttämään näitä kolmannen osapuolen vaihtoehtoja tuotantoympäristöinä, mutta ne palvelevat kuitenkin tarkoituksenmukaisesti Bitcoin:n ja BTCPay Serverin käytön esittelyä.
+Jos seuraat tätä kurssia itse, löydät luettelon kolmannen osapuolen isännistä demotarkoituksiin osoitteesta https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Emme suosittele käyttämään näitä kolmannen osapuolen vaihtoehtoja tuotantoympäristöinä, mutta ne palvelevat kuitenkin tarkoituksenmukaisesti Bitcoin:n ja BTCPay Serverin käytön esittelyä.
 
 
 BTCPay Server rockstar -harjoittelijana sinulla saattaa olla aiempaa kokemusta Bitcoin-solmun perustamisesta. Tämä kurssi on räätälöity erityisesti BTCPay Server -ohjelmistopinoa varten.

@@ -142,7 +142,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 > 「ファイル社会の基盤が築かれつつあり、コンピュータを使用して、一般的な消費者取引で収集されたデータから個人の生活様式、習慣、居場所、および関連を推測することができます。データが維持または盗聴されることに対して不正利用から安全であるかどうかについての不確実性は、「冷ややかな効果」をもたらし、人々が観察可能な活動を変更する原因となる可能性があります。コンピュータ化がより普及するにつれて、これらの問題の潜在的な可能性は劇的に増大します。」
 
-プライバシー保護へのこの執着は、彼が1979年から暗号学の分野に興味を持った理由を説明しています。1981年、彼は匿名通信の基礎をミックスネットワークを通じて説明しました。これは、電子メールリレーサービス（Mixmaster）やTor匿名ネットワークに特に役立ちました。1982年、彼は年次CRYPTO '82会議で国際暗号学研究協会（IACR）の設立に参加しました。同年（そしてここで私たちが興味を持っていること）、彼は「Blind Signature for Untraceable Payments」と題された[記事](https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF)で、彼のプライバシーを尊重するデジタル通貨モデルの中心である[ブラインド署名](https://planb.academy/resources/glossary/blind-signature)プロセスを公開しました：eCash
+プライバシー保護へのこの執着は、彼が1979年から暗号学の分野に興味を持った理由を説明しています。1981年、彼は匿名通信の基礎をミックスネットワークを通じて説明しました。これは、電子メールリレーサービス（Mixmaster）やTor匿名ネットワークに特に役立ちました。1982年、彼は年次CRYPTO '82会議で国際暗号学研究協会（IACR）の設立に参加しました。同年（そしてここで私たちが興味を持っていること）、彼は「Blind Signature for Untraceable Payments」と題された[記事](https://chaum.com/wp-content/uploads/2022/01/Chaum-blind-signatures.pdf)で、彼のプライバシーを尊重するデジタル通貨モデルの中心である[ブラインド署名](https://planb.academy/resources/glossary/blind-signature)プロセスを公開しました：eCash
 
 デイビット・チャウムは1996年のプレスリリースで[説明](https://chaum.com/wp-content/uploads/2022/01/05-07-96-DigiCash_s-Ecash%E2%84%A2-to-be-Issued-by-Deutsche-Bank.pdf)しました：
 

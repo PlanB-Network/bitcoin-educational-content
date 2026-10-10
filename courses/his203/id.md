@@ -1195,7 +1195,7 @@ Pada awal Maret 2012, Bitcoinica [diterima] (https://bitcointalk.org/index.php?t
 
 
 
-Pada tahun 2011, kurangnya kebutuhan akan otorisasi Bitcoin membuat anggota komunitas membayangkan penggunaan yang lebih dari sekadar pertukaran moneter dan spekulasi. Mereka ingin meliberalisasi investasi dengan menyediakan sarana untuk menerbitkan saham dan obligasi bagi perusahaan-perusahaan di dalam ekosistem. Tujuannya adalah untuk menghindari peraturan yang diberlakukan oleh Komisi Sekuritas dan Exchange di Amerika Serikat (setara dengan AMF di Amerika), dengan [memanfaatkan] (http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) karakter inovatif Bitcoin dan ketidakjelasan hukum yang melingkupinya. Idenya adalah untuk menciptakan model alternatif untuk sistem keuangan klasik, yang dapat berdiri sendiri sesuai dengan pendekatan agoris.
+Pada tahun 2011, kurangnya kebutuhan akan otorisasi Bitcoin membuat anggota komunitas membayangkan penggunaan yang lebih dari sekadar pertukaran moneter dan spekulasi. Mereka ingin meliberalisasi investasi dengan menyediakan sarana untuk menerbitkan saham dan obligasi bagi perusahaan-perusahaan di dalam ekosistem. Tujuannya adalah untuk menghindari peraturan yang diberlakukan oleh Komisi Sekuritas dan Exchange di Amerika Serikat (setara dengan AMF di Amerika), dengan [memanfaatkan] (https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) karakter inovatif Bitcoin dan ketidakjelasan hukum yang melingkupinya. Idenya adalah untuk menciptakan model alternatif untuk sistem keuangan klasik, yang dapat berdiri sendiri sesuai dengan pendekatan agoris.
 
 
 
@@ -1263,7 +1263,7 @@ Pada akhir Februari 2012, ia melanjutkan dengan [penggalangan dana] (https://web
 
 
 
-Platform ini kemudian mencapai tingkat kesuksesan tertentu dan menjadi tuan rumah "IPO" SatoshiDICE, kasino online yang dioperasikan oleh Erik Voorhees. Platform ini berkembang dari waktu ke waktu, [mengintegrasikan] (http://trilema.com/2012/futures-on-mpex/) kontrak berjangka pada bulan Desember.
+Platform ini kemudian mencapai tingkat kesuksesan tertentu dan menjadi tuan rumah "IPO" SatoshiDICE, kasino online yang dioperasikan oleh Erik Voorhees. Platform ini berkembang dari waktu ke waktu, [mengintegrasikan] (https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) kontrak berjangka pada bulan Desember.
 
 
 

@@ -200,7 +200,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 > "일반적인 소비자 거래에서 수집된 데이터에서 컴퓨터가 개인의 라이프스타일, 습관, 소재지, 연관성을 추론하는 데 사용될 수 있는 서류 사회의 토대가 마련되고 있습니다. 데이터를 관리하거나 활용하는 사람들의 남용으로부터 데이터를 안전하게 보호할 수 있을지에 대한 불확실성은 사람들이 관찰 가능한 활동을 변경하게 만드는 '위축 효과'를 일으킬 수 있습니다. 컴퓨터화가 더욱 널리 보급됨에 따라 이러한 문제의 잠재력은 극적으로 증가할 것입니다."
 
-이러한 프라이버시 보호에 대한 집착은 1979년 초부터 암호학 분야에 대한 그의 관심을 설명해줍니다. 1981년에는 믹스 네트워크를 통한 익명 통신의 기초를 설명했으며, 이는 이메일 중계 서비스(Mixmaster)와 토르 익명 네트워크의 기반이 되었습니다. 1982년에는 연례 CRYPTO '82 컨퍼런스에서 국제암호연구협회(IACR)의 창립에 참여했습니다. 같은 해, 그는 "추적 불가능한 결제를 위한 [블라인드 서명](https://planb.academy/resources/glossary/blind-signature)"(https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF)이라는 제목의 [기사]를 통해 프라이버시 존중 디지털 화폐 모델인 eCash의 핵심인 블라인드 서명 프로세스를 발표했습니다.
+이러한 프라이버시 보호에 대한 집착은 1979년 초부터 암호학 분야에 대한 그의 관심을 설명해줍니다. 1981년에는 믹스 네트워크를 통한 익명 통신의 기초를 설명했으며, 이는 이메일 중계 서비스(Mixmaster)와 토르 익명 네트워크의 기반이 되었습니다. 1982년에는 연례 CRYPTO '82 컨퍼런스에서 국제암호연구협회(IACR)의 창립에 참여했습니다. 같은 해, 그는 "추적 불가능한 결제를 위한 [블라인드 서명](https://planb.academy/resources/glossary/blind-signature)"(https://chaum.com/wp-content/uploads/2022/01/Chaum-blind-signatures.pdf)이라는 제목의 [기사]를 통해 프라이버시 존중 디지털 화폐 모델인 eCash의 핵심인 블라인드 서명 프로세스를 발표했습니다.
 
 
 데이비드 차움이 1996년 보도 자료에서 [설명한](https://chaum.com/wp-content/uploads/2022/01/05-07-96-DigiCash_s-Ecash%E2%84%A2-to-be-Issued-by-Deutsche-Bank.pdf) 것처럼:

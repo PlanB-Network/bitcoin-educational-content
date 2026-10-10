@@ -50,7 +50,7 @@ Ushobora gukura no gushiramwo Bisq mu buryo bworoshe kuri uru rubuga (https://bi
 Ni vyiza kandi kugenzura dosiye yawe y'installer kugira ngo umenye neza ko ataco yinjiyemwo. Raba amavidewo aha kugira ngo ubone amabwirizwa. Ibindi bisobanuro biri muri iyi nkuru ya wiki. (gukuraho_no_gushiramwo)
 
 
-Niba wifuza kwubaka Bisq uhereye ku ntango, ng'aya amabwirizwa (https://github.com/urubuga-bisq/bisq/blob/umukuru/inyandiko/kwubaka.md). Bisq ni porogaramu y’ubuntu/y’ubuntu ushobora gutanga umusanzu. (Urutonde rw'abatanze)
+Niba wifuza kwubaka Bisq uhereye ku ntango, ng'aya amabwirizwa (https://github.com/bisq-network/bisq/blob/master/docs/build.md). Bisq ni porogaramu y’ubuntu/y’ubuntu ushobora gutanga umusanzu. (https://bisq.wiki/Contributor_checklist)
 
 
 ![image](assets/1.webp)

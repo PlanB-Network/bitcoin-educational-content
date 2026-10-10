@@ -7,7 +7,7 @@ description: Nokoresha gute Umucungezi w'Imbuto n'Umucungezi wanje w'Imbuto?
 
 
 
-*Turashimira umugwi wa [Satochip](https://satochip.io/) wemeye gusubira gukoresha [amasanamu yabo] muri iyi nyigisho. Turashimira kandi [Igitabu c'Ivy'Ibanga](https://www.youtube.com/@Igitabu c'Ivy'Ibanga/) kubera fork yayo ya porogarama y'Imbuto, ishoboza gushigikira amakarata y'ubwenge
+*Turashimira umugwi wa [Satochip](https://satochip.io/) wemeye gusubira gukoresha [amasanamu yabo] muri iyi nyigisho. Turashimira kandi [Igitabu c'Ivy'Ibanga](https://www.youtube.com/@CryptoGuide/) kubera fork yayo ya porogarama y'Imbuto, ishoboza gushigikira amakarata y'ubwenge
 
 
 

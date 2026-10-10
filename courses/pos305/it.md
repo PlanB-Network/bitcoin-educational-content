@@ -2364,7 +2364,7 @@ Descrivi alcune delle differenze tra eseguire un'istanza di BTCPay Server su un 
 
 Familiarizzerai con Voltage.cloud come provider di hosting, farai i primi passi per usare il tuo BTCPay Server e capirai come procedere con Lightning Network. Dopo aver seguito tutti i passaggi, potrai gestire un negozio online o una piattaforma di crowdfunding che accetta Bitcoin!
 
-Questo è uno dei tanti modi per distribuire BTCPay Server. Leggi la nostra documentazione per maggiori dettagli, https://docs.btcpayserver.org/Deployment/voltagecloud/
+Questo è uno dei tanti modi per distribuire BTCPay Server. Leggi la nostra documentazione per maggiori dettagli, https://docs.btcpayserver.org
 
 ### Distribuzione di BTCPay Server - Voltage.cloud
 

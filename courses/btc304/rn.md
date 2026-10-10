@@ -685,7 +685,7 @@ Hariho AIs zitari nke ziboneka ku bw’iyo ntumbero. Muri ivyo harimwo .
 
 
 
-- [urugendo rwo hagati](https://inyandiko.urugendo rwo hagati.com/inyandiko/gutangura-vyihuse) (vyishyurwa);
+- [urugendo rwo hagati](https://docs.midjourney.com/docs/quick-start) (vyishyurwa);
 - [Leonardo](ku buntu, konti-ifise aho igarukira);
 - [umudereva](https://copilot.microsoft.com/) (ku buntu, konti-ifise aho igarukira);
 - [DALL-E](ku rubuga rwa interineti) (kwishurwa).

@@ -432,7 +432,7 @@ Razvoj Bitcoin Core-a prati meritokratsku logiku: novi saradnici se podstiču da
 
 
 
-Iako marginalni u smislu usvajanja, postoje i drugi klijenti. Glavni je Bitcoin Knots, koji je razvio Luke Dashjr, koji je [fork](https://planb.academy/en/resources/glossary/fork-git) od Bitcoin Core-a koji uključuje dodatne opcije i konzervativniji pristup razvoju. Ovo uključuje strožija ograničenja na formate transakcija.
+Iako marginalni u smislu usvajanja, postoje i drugi klijenti. Glavni je Bitcoin Knots, koji je razvio Luke Dashjr, koji je fork od Bitcoin Core-a koji uključuje dodatne opcije i konzervativniji pristup razvoju. Ovo uključuje strožija ograničenja na formate transakcija.
 
 
 

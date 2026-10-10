@@ -131,7 +131,7 @@ git push -u origin tuto-green-wallet-loic
 ### 3 - Wongereko inyandiko z'inyigisho
 
 
-***Iciyumviro:*** Ushobora gukoresha intambwe za 3 na 4 ukoresheje [GUI yanje ya Python script] Ikoreshe uhereye kuri dosiye yayo muri clone yawe yo mu karere, hanyuma wuzuze ibikenewe kuri GUI. Kugira ngo umenye vyinshi ku buryo woyishiramwo no kuyikoresha, raba [SOMA](https://github.com/Irezo-ya-PlanB/ibirimwo-ivy’inyigisho-vy’ibice/blob/dev/scripts/ibijanye n’inyigisho/Irema-ry’inyigisho-nshasha/SOMA-INYUMA.md).
+***Iciyumviro:*** Ushobora gukoresha intambwe za 3 na 4 ukoresheje [GUI yanje ya Python script] Ikoreshe uhereye kuri dosiye yayo muri clone yawe yo mu karere, hanyuma wuzuze ibikenewe kuri GUI. Kugira ngo umenye vyinshi ku buryo woyishiramwo no kuyikoresha, raba [SOMA](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md).
 
 
 Niba ushaka kubikora n'amaboko, kurikiza izi ntambwe:

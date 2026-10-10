@@ -461,7 +461,7 @@ Iryo koraniro ryari rifatanije n’inzira ya Silk Road, ryari rihambaye cane mur
 
 
 
-Mark Karpelès yavukiye mu Bufaransa mu 1985. Yari umwana w’ikinege, yarerewe na nyina wiwe yireranye abana. Yaciye yihuta gukunda mudasobwa, imikino ya videwo n’ama manga. Mu myaka yiwe mirongo ibiri, yari umunyabwenge cane (https://web.archive.org/web/20140302234940/20140302234940): mu 2007, yarasohotse mbere mu gitabu kivuga ibijanye n’ivyo binyamakuru vy’igifaransa. ivy’ibinyoma, ubuhinga n’umudasobwa. Mu mwaka w’2009, kubera yari afise icipfuzo co kuva mu Bufaransa aho atari bwigere yumva ko ari i muhira vy’ukuri, yimukiye mu Buyapani [muri Ruheshi 2009]. imico kama. Aho ni ho yashinze Tibanne Co. Ltd (yitiriwe izina ry’akayabu kiwe, Tibane), aca muri yo akora yigenga. Cane cane, yari afise igikorwa co kwakira abashitsi citwa [KalyHost](urubuga rwacu.
+Mark Karpelès yavukiye mu Bufaransa mu 1985. Yari umwana w’ikinege, yarerewe na nyina wiwe yireranye abana. Yaciye yihuta gukunda mudasobwa, imikino ya videwo n’ama manga. Mu myaka yiwe mirongo ibiri, yari umunyabwenge cane (https://web.archive.org/web/20140302234940/http://blog.magicaltux.net/2006/02/12/pensees-nocturnes/): mu 2007, yarasohotse mbere mu gitabu kivuga ibijanye n’ivyo binyamakuru vy’igifaransa. ivy’ibinyoma, ubuhinga n’umudasobwa. Mu mwaka w’2009, kubera yari afise icipfuzo co kuva mu Bufaransa aho atari bwigere yumva ko ari i muhira vy’ukuri, yimukiye mu Buyapani [muri Ruheshi 2009]. imico kama. Aho ni ho yashinze Tibanne Co. Ltd (yitiriwe izina ry’akayabu kiwe, Tibane), aca muri yo akora yigenga. Cane cane, yari afise igikorwa co kwakira abashitsi citwa [KalyHost](https://web.archive.org/web/20101231201212/https://www.kalyhost.com/).
 
 
 
@@ -984,11 +984,11 @@ Muri Nzero 2011, umuhari *Occupy Wall Street* warateye ubwoba ubuzima bwa politi
 
 
 
-Iryo shirahamwe ryari rikeneye kwironsa amahera: abaje mu myiyerekano bari bakeneye ivyokurya, imyambaro idashobora guterwa n’amazi, n’ibindi vyose kugira ngo Internet ishobore gukora iyo myiyerekano. Intumbero yari iyo gutuma abantu baguma aho hantu igihe cose bishoboka. Ariko rero, amahera yari agoye kubera ko iyo myiyerekano yari iteye akaga cane: bimwe mu bikorwa vyayo vyari vy’ukuri bitemewe n’amategeko, nk’uko bigaragazwa n’abantu benshi bafashwe. Ivyo vyatumye uwo muhari ugira ubwoba bwo gucengera ivy’amahera, nk’uko vyerekanwa, nk’akarorero, igihe konti ya PayPal ya \#FeedtheProtest, umugwi w’amakuru utangaza ivyabaye, [yahagarara](https://web.archive.org/web/20110928152351d/1 ata n’umwe abimenyesheje ku wa 26 Nzero.
+Iryo shirahamwe ryari rikeneye kwironsa amahera: abaje mu myiyerekano bari bakeneye ivyokurya, imyambaro idashobora guterwa n’amazi, n’ibindi vyose kugira ngo Internet ishobore gukora iyo myiyerekano. Intumbero yari iyo gutuma abantu baguma aho hantu igihe cose bishoboka. Ariko rero, amahera yari agoye kubera ko iyo myiyerekano yari iteye akaga cane: bimwe mu bikorwa vyayo vyari vy’ukuri bitemewe n’amategeko, nk’uko bigaragazwa n’abantu benshi bafashwe. Ivyo vyatumye uwo muhari ugira ubwoba bwo gucengera ivy’amahera, nk’uko vyerekanwa, nk’akarorero, igihe konti ya PayPal ya \#FeedtheProtest, umugwi w’amakuru utangaza ivyabaye, [yahagarara](https://web.archive.org/web/20110928152351/http://feedtheprotest.com/node/219) ata n’umwe abimenyesheje ku wa 26 Nzero.
 
 
 
-Gutyo, amashirahamwe menshi yo muri uwo muhari yafashe ingingo yo kwemera bitcoin, iyo babona ko ari amafaranga y’ubuhinga bwa none atazwi kandi yari yerekanye agaciro kayo mu kwemerwa na WikiLeaks. Inama rusangi y’abanyagihugu bariko barigaragaza i New York [yaronse] intererano kuva kw’igenekerezo rya 19 Nzero, zikaba zingana na 686 GW-1509 canke zirenga amadolari 3,000. \#FeedtheProtest [yemerewe] (urubuga rwa interineti. Ku ruhande rwabo, abagize umuryango wa Bitcoin [bari bashimishijwe](https://observer.com/2011/10/umuryango-wa-bitcoin-ufata-inyungu-mu-kwigarurira-ibarabara-ry’uruhome/) muri *Occupy Wall Street*, kuko na bo nyene bari barwanya isi y’ivy’ubutunzi ya kera. Baciye rero batera imbere ikoreshwa rya Bitcoin ku muhari (naho vyoba bisobanura kujayo ubwawe, nka [Matt Cropp] (20110929140153) n’umubare w’ibikorwa))
+Gutyo, amashirahamwe menshi yo muri uwo muhari yafashe ingingo yo kwemera bitcoin, iyo babona ko ari amafaranga y’ubuhinga bwa none atazwi kandi yari yerekanye agaciro kayo mu kwemerwa na WikiLeaks. Inama rusangi y’abanyagihugu bariko barigaragaza i New York [yaronse] intererano kuva kw’igenekerezo rya 19 Nzero, zikaba zingana na 686 GW-1509 canke zirenga amadolari 3,000. \#FeedtheProtest [yemerewe](https://web.archive.org/web/20111004164350/http://feedtheprotest.com/node/223). Ku ruhande rwabo, abagize umuryango wa Bitcoin [bari bashimishijwe](https://observer.com/2011/10/bitcoin-community-takes-an-interest-in-occupy-wall-street/) muri *Occupy Wall Street*, kuko na bo nyene bari barwanya isi y’ivy’ubutunzi ya kera. Baciye rero batera imbere ikoreshwa rya Bitcoin ku muhari (naho vyoba bisobanura kujayo ubwawe, nka [Matt Cropp](https://web.archive.org/web/20110929140153/http://btcbusiness.net/?q=node/22) n’umubare w’ibikorwa))
 
 
 
@@ -1230,7 +1230,7 @@ Mu ntango za Ntwarante 2012, Bitcoinica [yemeye] nk’uburyo burenga cumi na bub
 
 
 
-Mu mwaka w’2011, ukuntu Bitcoin idakeneye uruhusha vyatumye abanyabubasha biyumvira imikoreshereze irenze uguhindura amahera yoroshe n’ugutekereza ku bintu. Bariko barondera kwidegemvya kw’ishoramari mu gutanga uburyo bwo gutanga imigabane n’amabondi ku masosiyete ari mu bidukikije. Intumbero yari iyo gukingira amategeko yashizweho na *Komisiyo y’Ivy’Imigabane n’Ivy’Imigabane* muri Leta Zunze Ubumwe za Amerika (ivyo muri Amerika bingana na AMF), mu [gufata akaryo](http://trilema.com/2012/impamvu-zituma-imigabane-ya-bitcoin-idashobora-gutunganirizwa-n’9c) akaranga n’ubujuju bw’amategeko bwari bukikuje. Iciyumviro cari co kurema ubundi buryo bwo guhindura uburyo bw’ivy’ubutunzi bwa kera, bushobora kwishingira intahe hakurikijwe uburyo bw’abanyagihugu.
+Mu mwaka w’2011, ukuntu Bitcoin idakeneye uruhusha vyatumye abanyabubasha biyumvira imikoreshereze irenze uguhindura amahera yoroshe n’ugutekereza ku bintu. Bariko barondera kwidegemvya kw’ishoramari mu gutanga uburyo bwo gutanga imigabane n’amabondi ku masosiyete ari mu bidukikije. Intumbero yari iyo gukingira amategeko yashizweho na *Komisiyo y’Ivy’Imigabane n’Ivy’Imigabane* muri Leta Zunze Ubumwe za Amerika (ivyo muri Amerika bingana na AMF), mu [gufata akaryo](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) akaranga n’ubujuju bw’amategeko bwari bukikuje. Iciyumviro cari co kurema ubundi buryo bwo guhindura uburyo bw’ivy’ubutunzi bwa kera, bushobora kwishingira intahe hakurikijwe uburyo bw’abanyagihugu.
 
 
 
@@ -1836,7 +1836,7 @@ Ukwo kwongerekana kw’ububasha bwo gukoresha ubuhinga bwa none kwatumye *solo m
 
 
 
-Ni muri ivyo bihe, mu kwezi kwa kigarama 2010, Marek Palatinus (azwi cane kw'izina rya Slush) [yatanguje] 3.5% vy’igipimo ca hash c’urubuga mu misi mikeyi gusa. Ivyo vyaroraniwe ntivyatevye kwiganwa, kandi mu mwaka w’2011 harabonetse ugushiraho urugero rw’ikidengeri mining, ivyo bikaba vyerekanywe n’ugufungura [umubare munini](https://ru.bitcoin.it/w/index.php?title=Igereranyo_ry’ibidengeri_vy’ubucukuzi&oldid=21595) vy’ibidengeri vy’amabuye y’agaciro bihiganwa.
+Ni muri ivyo bihe, mu kwezi kwa kigarama 2010, Marek Palatinus (azwi cane kw'izina rya Slush) [yatanguje] 3.5% vy’igipimo ca hash c’urubuga mu misi mikeyi gusa. Ivyo vyaroraniwe ntivyatevye kwiganwa, kandi mu mwaka w’2011 harabonetse ugushiraho urugero rw’ikidengeri mining, ivyo bikaba vyerekanywe n’ugufungura [umubare munini](https://en.bitcoin.it/w/index.php?title=Comparison_of_mining_pools&oldid=21595) vy’ibidengeri vy’amabuye y’agaciro bihiganwa.
 
 
 
@@ -1936,7 +1936,7 @@ Kuva ku wa 5 Myandagaro, Luka-Jr yarakoresheje iki kibanza kidasanzwe kugira ngo
 
 
 
-Haciye indwi zibiri, ayo masengesho yarabonwe n’umwe mu bagize umuryango, aca yandika ubutumwa mu rurimi rwa kera . [ugucuruza](ibikorwa] (ibikorwa] Yagirije Luke ko ari "UMUNTU w'abana", avuga ko "Imana atari iyo ukuri" aca amubwira ngo "Reka guhumanya blockchain n'ubujuju bwawe". Iryo soko rya [sangijwe](https://b.i.2.2011-08-18.html#l-598) mu nyuma y’umusi na Mark Karpelès, bituma haba ikiganiro [ku wa IRC](https://inyubako y'ibiceri.org/index.php?insanganyamatsiko=38007.msg466841#msg46 Umuhinga mu vy’ubuhinga bwa Ozcoin Graeme Tee niwe yanegura cane iyo ngeso, cane cane kuko abagize Eligius batabizi. Yabajije Luka nimba atiyumvira ko “gushiramwo amasengesho bishobora gutuma abantu bamwebamwe bava mu bindi bihugu”, abona ko “btc ari amashengero menshi”, uwo mu sedevacantiste aca amwishura ataco yishisha ati “Abagatolika ntibemera umwidegemvyo wo gusenga”.
+Haciye indwi zibiri, ayo masengesho yarabonwe n’umwe mu bagize umuryango, aca yandika ubutumwa mu rurimi rwa kera . [ugucuruza](https://mempool.space/tx/9740e7d646f5278603c04706a366716e5e87212c57395e0d24761c0ae784b2c6) Yagirije Luke ko ari "UMUNTU w'abana", avuga ko "Imana atari iyo ukuri" aca amubwira ngo "Reka guhumanya blockchain n'ubujuju bwawe". Iryo soko rya [sangijwe](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-598) mu nyuma y’umusi na Mark Karpelès, bituma haba ikiganiro [ku wa IRC](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-851) Umuhinga mu vy’ubuhinga bwa Ozcoin Graeme Tee niwe yanegura cane iyo ngeso, cane cane kuko abagize Eligius batabizi. Yabajije Luka nimba atiyumvira ko “gushiramwo amasengesho bishobora gutuma abantu bamwebamwe bava mu bindi bihugu”, abona ko “btc ari amashengero menshi”, uwo mu sedevacantiste aca amwishura ataco yishisha ati “Abagatolika ntibemera umwidegemvyo wo gusenga”.
 
 
 
@@ -2262,7 +2262,7 @@ Haciye rero hafatwa ingingo yo kwiga ibindi vyiyumviro imbere y’uko hafatwa in
 
 
 
-Ingingo ngenderwako iri inyuma ya `OP_EVAL` ni ukwishura ku script hash no gutanga script ubwayo igihe ufungura amahera. Ku wa 2 Nzero 2012, Gavin Andresen [yaje n’iciyumviro](https://buildingbitcoin.org/02.html#l-760) co gufata iyo ngingo ngenderwako, uretse ko iyo mashini y’ivy’impwemu yomenya uburyo bw’inyandiko. Amir Taaki yavuze ko "ico ciyumviro ari uguhenda" ariko ko "akikunda". Gavin [yifise izina ryiwe) iciyumviro ciwe "pay to script hash", a [igereranyo](iyindi) ku mugambi wa *Pay to Public Key Hash* (P2PKH), ari wo buryo busanzwe bwo kwandika.
+Ingingo ngenderwako iri inyuma ya `OP_EVAL` ni ukwishura ku script hash no gutanga script ubwayo igihe ufungura amahera. Ku wa 2 Nzero 2012, Gavin Andresen [yaje n’iciyumviro](https://buildingbitcoin.org/bitcoin-dev/log-2012-01-02.html#l-760) co gufata iyo ngingo ngenderwako, uretse ko iyo mashini y’ivy’impwemu yomenya uburyo bw’inyandiko. Amir Taaki yavuze ko "ico ciyumviro ari uguhenda" ariko ko "akikunda". Gavin [yifise izina ryiwe](https://gnusha.org/pi/bitcoindev/CABsx9T3gNNmPen=WtCpG8RCChSwpJ73r7WU2Kz_fP31wAQ+jQg@mail.gmail.com/) iciyumviro ciwe "pay to script hash", a [igereranyo](https://buildingbitcoin.org/bitcoin-dev/log-2011-12-17.html#l-715) ku mugambi wa *Pay to Public Key Hash* (P2PKH), ari wo buryo busanzwe bwo kwandika.
 
 
 
@@ -2282,7 +2282,7 @@ Gavin yashaka kwiruka vyihuta, vyihuta cane, ivyo bikaba vyatuma ata kabuza haba
 
 
 
-Ico gikoresho cari kirongowe n’umuhinga mu vyo gutegura ibintu Luke-Jr. Mu nama ya IRC yo ku wa 3 Mukakaro 2012, yararwanije P2SH, abona ko "OP_EVAL yari nziza cane kuruta iki kintu kibi". Ku wa 13, [yararemye](https://web.archive.org/web/20130307042411/20130307042411) urudodo ku BitcoinTalk, aho yasavye ko habaho igikorwa co kurwanya GW26-5. kuba "bibi cane" kurusha `OP_EVAL` kuko "isubirira uburyo bwo kwandika Bitcoin yubatsweko n'ikigereranyo kimwe kidasanzwe". Ikindi kandi, yerekanye ko "Gavin ariko arahatira umuntu wese akoresha kode nshasha ya Bitcoin gutora BIP 16", kandi [arema](https://github.com/bitcoin/bitcoin/pull/755) bituma *ugusaba gukura* kugira ngo ivyo bimenyekane. Ubwa nyuma, yasavye ko haba amatora y'abanyagihugu, ataco akora ku nama, ayo matora yatsinzwe cane na P2SH.
+Ico gikoresho cari kirongowe n’umuhinga mu vyo gutegura ibintu Luke-Jr. Mu nama ya IRC yo ku wa 3 Mukakaro 2012, yararwanije P2SH, abona ko "OP_EVAL yari nziza cane kuruta iki kintu kibi". Ku wa 13, [yararemye](https://web.archive.org/web/20130307042411/https://bitcointalk.org/index.php?topic=58579.0) urudodo ku BitcoinTalk, aho yasavye ko habaho igikorwa co kurwanya GW26-5. kuba "bibi cane" kurusha `OP_EVAL` kuko "isubirira uburyo bwo kwandika Bitcoin yubatsweko n'ikigereranyo kimwe kidasanzwe". Ikindi kandi, yerekanye ko "Gavin ariko arahatira umuntu wese akoresha kode nshasha ya Bitcoin gutora BIP 16", kandi [arema](https://github.com/bitcoin/bitcoin/pull/755) bituma *ugusaba gukura* kugira ngo ivyo bimenyekane. Ubwa nyuma, yasavye ko haba amatora y'abanyagihugu, ataco akora ku nama, ayo matora yatsinzwe cane na P2SH.
 
 
 
@@ -2316,7 +2316,7 @@ Ku wa 29 Mukakaro, Amir [yasohoye] ingingo ndende ku bijanye na Bitcoin n'Itanga
 
 > Ico ngira ubwoba ni uko bitcoin umusi umwe izoca yononekara. Abategura: mubone iyo nsuzuma y’inyongera nk’akaryo ko kwubaka umuco wo gufungura. Si bibi na gato.
 
-Ariko rero, ivyo si vyo Gavin Andresen yiyumvira, uwahisemwo gutorera umuti iyo mpari ashigikira BIP 16, rero P2SH. Yarumvise ko hariho ibiganiro bihagije, kandi ntiyashaka ko abahinguzi babandanya guharira ku bintu vyinshi, nka "[ibara ry'ibarabara ry'amagare](https://ru.wikipedia.org/wiki/Itegeko_ry'ubusa)". Ku wa 30 Mukakaro, yatangaje kuri IRC ati: "Narangije gutakaza umwanya kuri BIP 17".
+Ariko rero, ivyo si vyo Gavin Andresen yiyumvira, uwahisemwo gutorera umuti iyo mpari ashigikira BIP 16, rero P2SH. Yarumvise ko hariho ibiganiro bihagije, kandi ntiyashaka ko abahinguzi babandanya guharira ku bintu vyinshi, nka "[ibara ry'ibarabara ry'amagare](https://en.wikipedia.org/wiki/Law_of_triviality)". Ku wa 30 Mukakaro, yatangaje kuri IRC ati: "Narangije gutakaza umwanya kuri BIP 17".
 
 
 
@@ -2474,7 +2474,7 @@ Mu mpera z’umwaka w’2010, haciye haza iciyumviro co gukoresha kode ya Bitcoi
 
 
 
-Ikintu catumye habaho amafaranga y’imbere y’ibindi ni ingorane y’izina ry’itongo, ikibazo gihambaye cane ku bari bafise uruhara muri Bitcoin ico gihe. Uburyo bw’amazina y’urubuga, ni ukuvuga imirongo y’inyuguti zifatwa mu mutwe mu buryo bworoshe nka `apple.com` canke `bitcoin.org`, bushizwe hagati mu minwe ya ICANN, *Ishirahamwe ry’Internet ry’Amazina n’Imibare*, ishirahamwe ritagira inyungu ryashinzwe hakurikijwe itegeko rya California. Nk’inyishu, ayo mazina ari [insiguro](https://web.archive.org/web/20110617160904/http://btlj.org/2011/02/23/ibice-bine-vy’izina-ry’itongo-ry’urubura-rifata-n’ibijanye-n’ivyo-bitera-ibiganiro. ikibazo ku bashigikiye umwidegemvyo, [bariko] barondera inyishu zidashobora gucengera cane.
+Ikintu catumye habaho amafaranga y’imbere y’ibindi ni ingorane y’izina ry’itongo, ikibazo gihambaye cane ku bari bafise uruhara muri Bitcoin ico gihe. Uburyo bw’amazina y’urubuga, ni ukuvuga imirongo y’inyuguti zifatwa mu mutwe mu buryo bworoshe nka `apple.com` canke `bitcoin.org`, bushizwe hagati mu minwe ya ICANN, *Ishirahamwe ry’Internet ry’Amazina n’Imibare*, ishirahamwe ritagira inyungu ryashinzwe hakurikijwe itegeko rya California. Nk’inyishu, ayo mazina ari [insiguro](https://web.archive.org/web/20110617160904/http://btlj.org/2011/02/23/four-rounds-of-ice-domain-name-seizures-and-related-controversies-and-opposition/). ikibazo ku bashigikiye umwidegemvyo, [bariko] barondera inyishu zidashobora gucengera cane.
 
 
 
@@ -2530,7 +2530,7 @@ Ariko Namecoin siyo nzira yonyene itandukanye yatangujwe muri uwo mwaka. Nkako, 
 
 
 
-Bimwe muri ivyo bikorwa vyari vy’igerageza cane, nk’ama bitcoins ku rubuga rw’igerageza, kandi vyari gushobora gusubirwamwo igihe cose. Ingero zari zirimwo "[Ibimenyetso vy'Ibinyobwa](urubuga.ububiko.org/urubuga/20110703101435/http://uguhindura.ibimenyetso.ibinyobwa.amakuru/)" na "[Ivyatsi bibi]" vyaremwe hakoreshejwe [MultiCoin] ya Scott Carlson. Ariko rero, abandi bari bafise akaryo gusa, abahinguzi babo bipfuza gukoresha neza igishika cari gifise ku bijanye na Bitcoin, canecane biciye ku vyo bita imbere ya mining.
+Bimwe muri ivyo bikorwa vyari vy’igerageza cane, nk’ama bitcoins ku rubuga rw’igerageza, kandi vyari gushobora gusubirwamwo igihe cose. Ingero zari zirimwo "[Ibimenyetso vy'Ibinyobwa](https://web.archive.org/web/20110703101435/http://exchange.beertokens.info/)" na "[Ivyatsi bibi]" vyaremwe hakoreshejwe [MultiCoin] ya Scott Carlson. Ariko rero, abandi bari bafise akaryo gusa, abahinguzi babo bipfuza gukoresha neza igishika cari gifise ku bijanye na Bitcoin, canecane biciye ku vyo bita imbere ya mining.
 
 
 

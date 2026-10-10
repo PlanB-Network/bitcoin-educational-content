@@ -401,7 +401,7 @@ Coin Wallet ishira imbere ukworohereza n’umutekano - yama ifise, izokwama ifis
 https://coin.space/
 
 
-https://gushigikira.igiceri.ikibanza/hc/ru-du
+https://support.coin.space/hc/en-us
 
 
 113

@@ -383,7 +383,7 @@ Nk’uko Jameson Lopp abivuga:
  - [Titan](ibicuruzwa/amadisiki-ya-seed-y'inyongera-titan-Wallet)
 - Ivyo gumesa + umugozi + igisandugu co gukingira** (ku bikoresho vyo gumesa)
  - [Titan](uburyo bwo gukora/ibicuruzwa/titan-Wallet-vy'agaciro-vy'icuma-Wallet-ivy'inyuma? umuhinduzi=50022696419664)
- - [Ivyuma](https://pleb.uburyo/fr-fr/ibicuruzwa/ivyuma-Wallet-uburyo-bwo-acier-ububiko)
+ - [Ivyuma](https://pleb.style/fr-fr/products/terrasteel-wallet-plebstyle-acier-backup)
 - Gutera ibipfunsi
  - [Umuco wa Pleb](https://uburyo bwa Pleb/fr/ibicuruzwa/Igikoresho c'Ikigereranyo-a-z-0-9-3mm)
 - Ishingiro ryo kwandika**
@@ -391,11 +391,11 @@ Nk’uko Jameson Lopp abivuga:
 - Igikoresho co gukorako** (uburongozi)
  - [Ivyuma vy'Ivu](Ivyuma vy'Igihugu/Ivyuma vy'Igihugu?
 - Igikoresho co gukingira
- - [Igikapu gikingijwe](https://pleb.style/fr/ibicuruzwa/zubehor-5x-uburyo-buteye igomwe-bushobora-guhindurwa-bugaragara)
- - [Ibipande vyo gukingira](https://pleb.style/fr/ibicuruzwa/zubehor-5x-siegel-ubwoya-bw'ibara-seed-ububiko)
+ - [Igikapu gikingijwe](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
+ - [Ibipande vyo gukingira](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
 - Ibikoresho vyuzuye**
  - [Titan](b r_prod_strat=e5_ibisobanuro&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=imwe)
- - [Ivyuma vy'Ivu](https://pleb.style/fr-fr/ibicuruzwa/Ivyuma-vy'Ivu-Wallet-Igikoresho co Gutangura)
+ - [Ivyuma vy'Ivu](https://pleb.style/fr-fr/products/kopie-von-terrasteel-wallet-starter-kit)
 
 
 
@@ -414,7 +414,7 @@ Gahunda B ntishobora gufatwa nk’iyifise uruhara ku makosa, uguhinduka kw’ibi
 
 
 
-https://uburyo.bwa bose/fr/
+https://pleb.style/fr/
 
 
 1463155802345193475

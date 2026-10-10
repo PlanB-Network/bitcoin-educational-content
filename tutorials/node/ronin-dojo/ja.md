@@ -652,7 +652,6 @@ RoninDojoについてもっと知りたい場合は、以下の外部リソー�
 
 ### 外部リソース：
 
-- https://samouraiwallet.com/dojo
 - https://ronindojo.io/index.html
 - https://wiki.ronindojo.io/en/home
 - https://git.ronindojo.io/Ronin/monorepo

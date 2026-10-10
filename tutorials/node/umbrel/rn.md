@@ -321,7 +321,7 @@ Kugira ngo ushireho uzokenera :
 
 
 - Ku gikoresho gihuye n'urubuga rumwe, fungura umucukumbuzi wawe
-- Ushobora gushika ku rubuga rwa Umbrel Interface kuri: `http://umutaka.aho hantu`
+- Ushobora gushika ku rubuga rwa Umbrel Interface kuri: `http://umbrel.local`
 
 
 

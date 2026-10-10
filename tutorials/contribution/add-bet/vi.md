@@ -193,7 +193,7 @@ https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/reso
 - Thêm phần tiền tố (base URL) sau đây vào trước đoạn mã trên để có được đường dẫn chính xác:
 
 ```url
-https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev
+https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev
 ```
 
 - Đường dẫn cuối cùng của bạn sẽ trông như thế này:

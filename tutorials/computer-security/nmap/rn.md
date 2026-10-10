@@ -2607,7 +2607,7 @@ Ku mburabuzi, Nmap itanga ivyerekanwa vy’ido n’ido vy’ivyavuye mu bipimo n
 
 
 
-Kugira ngo ibintu vyorohe, [Nmap](https://www.it-connect.fr/cours/nmap-ikarita-y’ugupima-ibishobora guhungabana/) ituma vyoroha cane kubika umusaruro wayo muri dosiye y’inyandiko. Ivyo bishobora kuba ngirakamaro mu gushiramwo ububiko, kugereranya n’ibindi bigeragezo, ariko kandi no gusesangura iki gisohoka hakoreshejwe ibikoresho vyihariye vyo gutunganya amajambo canke indimi zo kwandika, nk’umwandiko wa Sublime, [PowerShell] kubika igisohoka ca Nmap muri dosiye y'inyandiko, dushobora gukoresha `-oN <izina rya dosiye>` ("N" muri "ibisanzwe"):
+Kugira ngo ibintu vyorohe, [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) ituma vyoroha cane kubika umusaruro wayo muri dosiye y’inyandiko. Ivyo bishobora kuba ngirakamaro mu gushiramwo ububiko, kugereranya n’ibindi bigeragezo, ariko kandi no gusesangura iki gisohoka hakoreshejwe ibikoresho vyihariye vyo gutunganya amajambo canke indimi zo kwandika, nk’umwandiko wa Sublime, [PowerShell] kubika igisohoka ca Nmap muri dosiye y'inyandiko, dushobora gukoresha `-oN <izina rya dosiye>` ("N" muri "ibisanzwe"):
 
 
 

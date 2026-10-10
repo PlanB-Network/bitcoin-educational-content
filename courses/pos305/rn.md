@@ -1007,7 +1007,7 @@ Ushobora kandi gukurikirana n'uburongozi bwa videwo ku bijanye no gufatanya Hard
 Kuvanaho Ububiko bwa Serveri ya BTCPay: https://github.com/btcpayserver/BTCPayServer.Vault/releases
 
 
-Raba neza ko ukuraho amadosiye akwiye kuri sisitemu yawe yihariye. Abakoresha Windows bakwiye gukuraho [BTCPayServerVault-2.0.5-setup.exe] [BCPayServerVault-osx-x64-2.0.5.dmg](https://github.com/btcnupayserver/BTCPayServer.Vault/ibisohoka/gukuraho/Vault%2Fv2.0.5/BTCPpayServerVault-osx-x00.0.5 bikwiye gukuraho n'ibindi. [BTCPayServerVult-Linux-2.0.5.tar.gz](https://github.com/btcpayserver/BTCPpayServer.Ububiko/ibisohoka/gukuraho/Ububiko%2Fv2.0.5/BTCPayServerVault-Linux-2.0.5.
+Raba neza ko ukuraho amadosiye akwiye kuri sisitemu yawe yihariye. Abakoresha Windows bakwiye gukuraho [BTCPayServerVault-2.0.5-setup.exe] [BCPayServerVault-osx-x64-2.0.5.dmg](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-osx-x64-2.0.5.dmg) bikwiye gukuraho n'ibindi. [BTCPayServerVult-Linux-2.0.5.tar.gz](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-Linux-2.0.5.tar.gz)
 
 
 Uhejeje gushiramwo BTCPay Server Vault, tangura porogarama ukanda ku kimenyetso kiri ku biro vyawe. Igihe BTCPay Server Vault ishizweho neza kandi itanguye ku ncuro ya mbere, izosaba uruhusha rwo gukoreshwa n’Ibikoresho vyo ku Rubuga. Bizosaba kwemera uburenganzira bwo gukoresha Server ya BTCPay ukorana. Wemere ivyo bintu bisabwa. BTCPay Server Vault ubu izorondera igikoresho c'ibikoresho. Igihe igikoresho kibonetse, BTCPay Server izomenya ko Vault iriko irakora kandi ko yazanye igikoresho cawe.

@@ -22,7 +22,7 @@ Niba utigeze ukoresha Bitcoin Lightning Network, imbere y’uko utangura, [ndagu
 
 
 
-- Blixt iriko irakoresha LND (aezeed) nk’inyuma ya Wallet, rero ntugerageze kwinjizamwo ubundi bwoko bw’amasakoshi ya Bitcoin. [Aha mwasiguye ubwoko bw’imbuto za Wallet Mnemonic](https://coldbit.com/ni-ubwoko-bw’imbuto-za-Mnemonic-zikoreshwa-mu-Bitcoin/). Kandi ng’uru [urutonde rwagutse rw’ubwoko bwose bw’amasakoshi](https://amasakoshi.org/). Rero nimba wari ufise mbere urudodo rwa LND, urashobora kwinjiza urudodo rwa seed n’imirongo y’inyuma muri Blixt, [nk’uko bisigurwa muri iyi nsiguro]
+- Blixt iriko irakoresha LND (aezeed) nk’inyuma ya Wallet, rero ntugerageze kwinjizamwo ubundi bwoko bw’amasakoshi ya Bitcoin. [Aha mwasiguye ubwoko bw’imbuto za Wallet Mnemonic](https://coldbit.com/what-types-of-mnemonic-seeds-are-used-in-bitcoin/). Kandi ng’uru [urutonde rwagutse rw’ubwoko bwose bw’amasakoshi](https://walletsrecovery.org/). Rero nimba wari ufise mbere urudodo rwa LND, urashobora kwinjiza urudodo rwa seed n’imirongo y’inyuma muri Blixt, [nk’uko bisigurwa muri iyi nsiguro]
 
 
 

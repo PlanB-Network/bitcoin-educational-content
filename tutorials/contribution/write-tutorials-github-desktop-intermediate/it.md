@@ -117,7 +117,7 @@ Avvia quindi il software con il comando:
 python3 main.py
 ```
 
-Si aprirà un'interfaccia grafica [(GUI)](https://planb.academy/resources/glossary/gui). La prima volta sarà necessario inserire tutte le informazioni necessarie, ma negli utilizzi successivi lo script ricorderà le informazioni personali, per cui non sarà necessario inserirle di nuovo.
+Si aprirà un'interfaccia grafica (GUI). La prima volta sarà necessario inserire tutte le informazioni necessarie, ma negli utilizzi successivi lo script ricorderà le informazioni personali, per cui non sarà necessario inserirle di nuovo.
 
 ![DATA-CREATOR-PY](assets/fr/37.webp)
 

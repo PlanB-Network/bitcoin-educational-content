@@ -344,7 +344,7 @@ Iryo sesangura ryerekana ukutamenya neza agaciro k’inyongera n’ubufatanye n�
 ### Impinduka y'inganda iri mu bibazo
 
 
-Nkako, isesengura ry’aba Marxiste rigoranya ukuri kw’amateka y’Impinduka y’Inganda. Ludwig von Mises yaratomoye neza ico kibazo mu gitabu ciwe c’ubutunzi [_Ibikorwa vy’umuntu_](raba canecane igice citwa [Isobanuro ry’abantu benshi ry’ivy’inganda . Impinduka](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) hamwe n’uruhererekane rw’inyigisho zasohowe zifise umutwe uvuga ngo: [_Itegeko ry’ubutunzi: Ivyiyumviro vy’uyu musi n’ejo_](http://herve.dequengo.free/DMPEht.Mises/). (Ivyo birabereye gusoma, Ivyiyumviro birwanya ubucapitaliste [hano](aha] (aha] n’igitabu [hano]
+Nkako, isesengura ry’aba Marxiste rigoranya ukuri kw’amateka y’Impinduka y’Inganda. Ludwig von Mises yaratomoye neza ico kibazo mu gitabu ciwe c’ubutunzi [_Ibikorwa vy’umuntu_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (raba canecane igice citwa [Isobanuro ry’abantu benshi ry’ivy’inganda . Impinduka](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) hamwe n’uruhererekane rw’inyigisho zasohowe zifise umutwe uvuga ngo: [_Itegeko ry’ubutunzi: Ivyiyumviro vy’uyu musi n’ejo_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Ivyo birabereye gusoma, Ivyiyumviro birwanya ubucapitaliste [hano](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) n’igitabu [hano]
 
 ![image](assets/rn/014.webp)
 

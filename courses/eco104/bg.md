@@ -2024,7 +2024,7 @@ Bitcoin избира да даде приоритет на децентрали�
 Едно [проучване](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf), проведено от бившия заместник-директор на ЦРУ, установи, че "широките обобщения за използването на Bitcoin за незаконно финансиране са значително преувеличени" Всъщност от 2016 г. насам по-малко от 1% от общия обем на транзакциите с Bitcoin е използван за незаконна дейност. За сравнение, "според някои данни сивата икономика възлиза на 11-12% от брутния вътрешен [продукт](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp) на САЩ", като по-голямата част от нея се улеснява с използването на щатски долари.
 
 
-А според доклад на Chainalysis от 2020 г. незаконната дейност съставлява само около [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/EuropolSpotlight-Cryptocurrencies-Tracingtheevolutionofcriminalfinances.pdf) от всички трансакции с Bitcoin.
+А според доклад на Chainalysis от 2020 г. незаконната дейност съставлява само около [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf) от всички трансакции с Bitcoin.
 
 
 Въпреки това, дори и при наличието на тези доказателства, управляващите продължават да правят подвеждащи изявления, като например министърът на финансите на САЩ Джанет Йелън [твърди](https://home.treasury.gov/news/press-releases/jy0023): "Криптовалутите са били използвани за изпиране на печалбите на онлайн трафиканти на наркотици; те са били инструмент за финансиране на тероризма."

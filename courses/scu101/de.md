@@ -54,7 +54,7 @@ Wenn du fortgeschrittene Fähigkeiten zu diesem Thema erwerben möchtest, stehen
 - Kapitel 1 - Online-Surfen
 - Kapitel 2 - Sicheres Surfen im Internet
 
-Zum Einstieg werden wir über die Bedeutung der Auswahl deines Web-Browsers und deren Auswirkungen auf die Sicherheit sprechen. Anschließend werden wir uns mit einigen Besonderheiten von Browsern befassen, insbesondere in Bezug auf die Verwaltung von Cookies. Wir werden auch sehen, wie man durch Tools wie [TOR](https://planb.academy/resources/glossary/tor-the-onion-router) sicherer und anonymer surfen kann. Danach werden wir uns auf die Verwendung von VPNs zum Schutz deiner Daten konzentrieren. Schließlich werden wir dir Empfehlungen zur sicheren Nutzung von WLAN-Verbindungen geben.
+Zum Einstieg werden wir über die Bedeutung der Auswahl deines Web-Browsers und deren Auswirkungen auf die Sicherheit sprechen. Anschließend werden wir uns mit einigen Besonderheiten von Browsern befassen, insbesondere in Bezug auf die Verwaltung von Cookies. Wir werden auch sehen, wie man durch Tools wie TOR sicherer und anonymer surfen kann. Danach werden wir uns auf die Verwendung von VPNs zum Schutz deiner Daten konzentrieren. Schließlich werden wir dir Empfehlungen zur sicheren Nutzung von WLAN-Verbindungen geben.
 
 ![image](assets/de/001.webp)
 

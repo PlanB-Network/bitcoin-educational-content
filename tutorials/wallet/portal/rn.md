@@ -14,7 +14,7 @@ Igitandukanya Portal n’izindi nkoko ziri ku isoko ni uko zikorana n’amatelef
 ![Image](assets/fr/01.webp)
 
 
-Urubuga rwose rufunguye, rushingiye kuri porogarama yanditswe mu rurimi rwa Rust kandi rukoresha ururimi rwa BDK (Bitcoin Dev Kit) mu gucunga urufunguzo n’ibikorwa. Igurishwa ku €89 [ku rubuga rwemewe](https://iduka.makumyabiri n’ibiri.xyz/ibicuruzwa/ibikoresho-vy’urubuga-Wallet).
+Urubuga rwose rufunguye, rushingiye kuri porogarama yanditswe mu rurimi rwa Rust kandi rukoresha ururimi rwa BDK (Bitcoin Dev Kit) mu gucunga urufunguzo n’ibikorwa. Igurishwa ku €89 [ku rubuga rwemewe](https://store.twenty-two.xyz/products/portal-hardware-wallet).
 
 
 Mu gihe c’ukwandika, Urubuga rurahuye n’ibikorwa vya Nunchuk na Bitcoin Keeper. Muri iyi nyigisho, tuzoba turiko turayitunganya dukoresheje Nunchuk.

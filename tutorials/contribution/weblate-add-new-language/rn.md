@@ -24,7 +24,7 @@ Kugira turabe ko ururimi rwawe rusanzwe ruri muvyo turiko turakora.
 
 
 
-- Genda kuri [urubuga rwacu rwa Weblate](https://urubuga.planb.urubuga/imigambi/urubuga-rw'urubuga/):
+- Genda kuri [urubuga rwacu rwa Weblate](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 

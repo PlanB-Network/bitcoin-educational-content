@@ -259,7 +259,7 @@ Niwakoresha [Umutaka](https://getumbrel.com), gushiramwo RTL biroroshe cane:
 
 
 
-- Ushobora gushika ku mutaka Interface (kenshi uciye kuri `http://umutaka.aho hantu`)
+- Ushobora gushika ku mutaka Interface (kenshi uciye kuri `http://umbrel.local`)
 - Genda kuri **Iduka ry'amaporogarama**
 - Rondera "Gera ku Muravyo"
 

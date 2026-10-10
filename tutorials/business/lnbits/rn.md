@@ -198,11 +198,11 @@ Kugira ngo ushiremwo amakuru y'inyama zawe, koresha `./venv/bin/inyama z'ingurub
 
 - LNbits instance yakiriwe kuri server y'igicu canke kuri server yawe yo muhira
   - `LNBITS_INYUMA_IKIGANIRO_IKIGANI`: **Igikapu ca LNbits**
-  - `IBIMENYETSO_IMPERUKA`: https://lnbits.itongo ryanje.com
+  - `IBIMENYETSO_IMPERUKA`: https://lnbits.mydomain.com
   - `URUPFUZO_LNBITS`: Urufunguzo rwanje-lnbits-Umuyobozi
 - LNbits Legend Demo Server (!! NTUKORESHE iyi mu bikorwa vyo gukora / gucuruza, gusa mu kugerageza !!)
   - `LNBITS_INYUMA_IKIGANIRO_IKIGANI`: **Igikapu ca LNbits**
-  - `IMPERUKA_YA_LNBITS`: https://inkuru.nbits.com
+  - `IMPERUKA_YA_LNBITS`: https://legend.lnbits.com
   - `URUPFUZO_LNBITS`: inkuru-lnbits-Urufunguzo rw'Umuyobozi
 
 #### Umuravyo TipBot
@@ -214,7 +214,7 @@ Kugira ngo uhuze [Impanuro y'Umuravyo](https://t.me/Impanuro y'Umuravyo) yawe ku
 
 
   - `LNBITS_INYUMA_IKIGANIRO_IKIGO`: **Igikapu c'Impanuro za Ln**
-  - `IMPERUKA_YA LNBITS`: `https://LN.impanuro`
+  - `IMPERUKA_YA LNBITS`: `https://ln.tips`
   - `LNBITS_KEY`: Kugira ngo ubone Urufunguzo uzokenera gukoresha /api mu kiganiro c'ibanga na Tipbot y'Umuravyo kuri Telegram rimwe.
 
 

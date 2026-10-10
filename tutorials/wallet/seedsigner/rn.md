@@ -174,7 +174,7 @@ Niba vyose ari ukuri, igisohoka gikwiye gusoma `Umukono mwiza`. Ivyo bisigura ko
 
 
 
-Kugira ngo ubikore, gereranya inyuguti 16 za nyuma z’urutoke rwerekanwa n’izo ziboneka kuri [Keybase.io/SeedSigner](https://keybase.io/seedsigner]), kuri [Twitter yabo yemewe](https. [Imbuto.com](https://imbuto.com/urufunguzo.txt). Nimba ivyo bimenyetso bihuye neza na neza, urashobora kwemera udakeka ko urufunguruzo ari urw’umugambi vy’ukuri. Niba ugira amakenga, uhagarare ubwo nyene usabe umuryango w’abamenyeshamakuru b’imbuto (Telegram, X, GitHub...) ngo bagufashe.
+Kugira ngo ubikore, gereranya inyuguti 16 za nyuma z’urutoke rwerekanwa n’izo ziboneka kuri [Keybase.io/SeedSigner](https://keybase.io/seedsigner), kuri [Twitter yabo yemewe](https://twitter.com/SeedSigner/status/1530555252373704707). [Imbuto.com](https://seedsigner.com/keybase.txt). Nimba ivyo bimenyetso bihuye neza na neza, urashobora kwemera udakeka ko urufunguruzo ari urw’umugambi vy’ukuri. Niba ugira amakenga, uhagarare ubwo nyene usabe umuryango w’abamenyeshamakuru b’imbuto (Telegram, X, GitHub...) ngo bagufashe.
 
 
 
@@ -239,7 +239,7 @@ Niba vyose ari ukuri, igisohoka gikwiye gusoma `Umukono mwiza`. Ivyo bisigura ko
 
 
 
-Kugira ngo ubikore, gereranya inyuguti 16 za nyuma z’urutoke rwerekanwa n’izo ziboneka kuri [Keybase.io/SeedSigner](https://keybase.io/seedsigner]), kuri [Twitter yabo yemewe](https. [Imbuto.com](https://imbuto.com/urufunguzo.txt). Nimba ivyo bimenyetso bihuye neza na neza, urashobora kwemera udakeka ko urufunguruzo ari urw’umugambi vy’ukuri. Niba ugira amakenga, uhagarare ubwo nyene usabe umuryango w’abamenyeshamakuru b’imbuto (Telegram, X, GitHub...) ngo bagufashe.
+Kugira ngo ubikore, gereranya inyuguti 16 za nyuma z’urutoke rwerekanwa n’izo ziboneka kuri [Keybase.io/SeedSigner](https://keybase.io/seedsigner), kuri [Twitter yabo yemewe](https://twitter.com/SeedSigner/status/1530555252373704707). [Imbuto.com](https://seedsigner.com/keybase.txt). Nimba ivyo bimenyetso bihuye neza na neza, urashobora kwemera udakeka ko urufunguruzo ari urw’umugambi vy’ukuri. Niba ugira amakenga, uhagarare ubwo nyene usabe umuryango w’abamenyeshamakuru b’imbuto (Telegram, X, GitHub...) ngo bagufashe.
 
 
 

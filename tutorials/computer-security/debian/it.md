@@ -45,8 +45,8 @@ Prima di iniziare l'installazione, accertati di disporre delle seguenti apparecc
 
 La scelta dell'immagine Debian dipende dall'architettura del processore:
 
-- **AMD64**: scarica l'edizione "*live hybrid*" dall'elenco [download](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-13.2.0-amd64-DVD-1.iso).
-- **ARM64**: ottieni l'immagine del DVD dal sito ufficiale [Debian]([https://debian.obspm.fr/debian-cd/current/arm64/iso-dvd/](https://cdimage.debian.org/debian-cd/current/arm64/iso-dvd/debian-13.2.0-arm64-DVD-1.iso)).
+- **AMD64**: scarica l'edizione "*live hybrid*" dall'elenco [download](https://debian.obspm.fr/debian-cd/current-live/amd64/iso-hybrid/).
+- **ARM64**: ottieni l'immagine del DVD dal sito ufficiale [Debian](https://debian.obspm.fr/debian-cd/current/arm64/iso-dvd/).
 - **Altre architetture**: trova l'ISO corrispondente alla tua architettura [qui](https://www.debian.org/CD/http-ftp/#stable).
 
 ![download](assets/fr/01.webp)

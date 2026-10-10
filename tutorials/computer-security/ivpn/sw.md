@@ -78,7 +78,7 @@ Mara usakinishaji ukamilika, utahitaji kuingiza kitambulisho cha akaunti yako. T
 ## Jinsi ya kufunga IPP kwenye smartphone?
 
 
-Pakua IVPN kutoka duka lako la programu, iwe ni [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) kwa watumiaji wa iOS, [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn) ya Android,auclick. [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Ikiwa unatumia Android, pia una chaguo la kupakua faili ya `.apk` moja kwa moja kutoka [tovuti ya IVPN](https://www.ivpn.net/en/apps-android/).
+Pakua IVPN kutoka duka lako la programu, iwe ni [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) kwa watumiaji wa iOS, [Google Play Store](https://www.ivpn.net/en/apps-android/) ya Android,auclick. [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Ikiwa unatumia Android, pia una chaguo la kupakua faili ya `.apk` moja kwa moja kutoka [tovuti ya IVPN](https://www.ivpn.net/en/apps-android/).
 
 ![IVPN](assets/notext/05.webp)
 

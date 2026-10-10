@@ -40,7 +40,7 @@ Clone ububiko kuri mashini yawe yo mu karere:
 
 git clone [Umugambi-B-Uburongozi-bw'Inyigisho-Bitcoin]
 
-[cd](https://github.com/Irezo-ya-PlanB/Bitcoin-uburyo- bwo-gucunga-inyigisho￼cd) Bitcoin-uburyo- bwo-gucunga-inyigisho
+[cd](https://github.com/PlanB-Network/bitcoin-learning-management-system￼cd) Bitcoin-uburyo- bwo-gucunga-inyigisho
 
 
 ```bash

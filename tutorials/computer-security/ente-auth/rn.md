@@ -123,7 +123,7 @@ Shiraho Ente Auth uhereye kuri Apple App Store mu kurondera izina rya porogarama
 ### Mudasobwa (amadirisha, macOS, Linux)
 
 
-Ente Auth itanga ibikorwa vy'ibiro vy'akavukire. Sura [ente.io/gukuraho](https://ente.io/gukuraho) canke [Igice ca GitHub]
+Ente Auth itanga ibikorwa vy'ibiro vy'akavukire. Sura [ente.io/gukuraho](https://ente.io/download) canke [Igice ca GitHub]
 
 
 

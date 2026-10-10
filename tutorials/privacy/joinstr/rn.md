@@ -293,7 +293,7 @@ Koresha ikimenyetso ca bose nka :
 
 
 
-- [ikinyamakuru.com](https://ikinyamakuru.com)
+- [ikinyamakuru.com](https://signetfaucet.com)
 - [iyindi.ikimenyetso.com](https://alt.signetfaucet.com)
 - [ikimenyetso c'igitabu257.igisagara cacu](ikimenyetso257.ikinyamakuru.org)
 

@@ -20,7 +20,7 @@ Ivyigwa bibiri nyamukuru vyo ku rubuga rwacu ni amashure n’inyigisho. Amashure
 Ivyigwa birareha kandi biratunganijwe neza kuruta inyigisho. Bakwiye gutohoza ingingo yihariye ijanye na Bitcoin canke ibidukikije vyayo mu buryo bwimbitse, mu buryo bubereye no mu buryo burambuye.
 
 
-[Tora amashure ya Plan ₿ Academy](https://planb.urubuga/amashure)
+[Tora amashure ya Plan ₿ Academy](https://planb.academy/courses)
 
 
 ![TUTO](assets/fr/37.webp)

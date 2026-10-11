@@ -10,21 +10,20 @@ description: Langkah pertama menuju keamanan, cold wallet dengan Electrum
 
 
 
-Dalam tutorial ini saya akan menjelaskan cara membuat perangkat penandatanganan airgap pertama Anda, yang terputus dari Internet, bahkan tanpa memiliki Hardware Wallet khusus. Yang Anda perlukan hanyalah memiliki dua komputer:
+Dalam tutorial ini aku akan menjelaskan cara membuat perangkat penandatanganan air-gapped pertama kamu, yang terputus dari Internet, bahkan tanpa memiliki Hardware Wallet khusus. Yang kamu perlukan hanyalah dua komputer:
+
+
+- perangkat lama yang selamanya dicegah untuk tersambung ke Internet  
+- komputer yang kamu gunakan sehari-hari
 
 
 
-
-- perangkat lama untuk selamanya dicegah agar tidak tersambung ke Internet;
-- komputer yang Anda gunakan sehari-hari.
+Konfigurasi ini memberikan tingkat keamanan lebih tinggi dibanding `Hot Wallet` klasik: komputer lama tanpa koneksi jaringan menjadi penjaga kunci pribadi kamu, yang tidak pernah terekspos ke Internet, tetapi disimpan secara offline ("air-gapped" atau "Cold").
 
 
 
-Konfigurasi ini memungkinkan tingkat keamanan yang lebih tinggi daripada `Hot Wallet` klasik: komputer lama - tanpa koneksi jaringan - adalah penjaga kunci pribadi Anda, yang tidak pernah diekspos di Internet, tetapi disimpan secara offline ("airgap" atau "Cold").
+Sebagai gantinya, kamu akan memasang layar Wallet ("watch-only") di komputer harian kamu, yang tersambung ke jaringan dan bisa digunakan untuk, misalnya, memeriksa saldo dan menyiapkan transaksi penerimaan.
 
-
-
-Sebagai gantinya, Anda akan memasang layar Wallet ("watch-only") di komputer harian Anda, yang terhubung ke jaringan dan dapat digunakan untuk, misalnya, memeriksa saldo dan menyiapkan transaksi penerimaan.
 
 
 
@@ -32,17 +31,17 @@ Sebagai gantinya, Anda akan memasang layar Wallet ("watch-only") di komputer har
 
 
 
-Dengan melakukan langkah-langkah dalam panduan ini, kita akan menginstal dua Software Wallet Electrum pada dua komputer yang berbeda dan akhirnya membuat dua Dompet dengan kunci yang berbeda: airgap Wallet akan menggunakan seluruh hirarki Wallet HD, sedangkan tampilan Wallet akan dibuat dengan kunci publik utama.
+Dengan mengikuti langkah-langkah di panduan ini, kita akan menginstal dua Software Wallet Electrum pada dua komputer berbeda dan akhirnya membuat dua Dompet dengan kunci yang berbeda: air-gapped Wallet akan menggunakan seluruh hirarki Wallet HD, sedangkan tampilan Wallet dibuat dengan kunci publik utama.
 
 
 
-Kedua Dompet ini, dalam segala hal, akan sangat berbeda satu sama lain. Satu-satunya kesamaan dari keduanya, seperti yang akan kita lihat, adalah alamatnya:
+Kedua Dompet ini, dalam segala hal, akan sangat berbeda satu sama lain. Satu-satunya kesamaan keduanya, seperti yang akan kita lihat, adalah alamatnya:
 
 
 
+- gW-13 di komputer air-gapped hanya bisa menandatangani transaksi, tetapi karena terputus dari jaringan, tidak mengetahui saldo atau alamat yang digunakan  
+- gW-12 di komputer harian hanya bisa mempersiapkan dan menyebarkan transaksi, tanpa bisa membuang pengeluaran, karena tidak memiliki kunci pribadi
 
-- gW-13 pada komputer airgap hanya dapat menandatangani tetapi, jika terputus dari jaringan, tidak mengetahui saldo dan alamat yang digunakan;
-- gW-12 pada komputer harian hanya akan dapat mempersiapkan dan menyebarkan transaksi, tanpa dapat membuang pengeluaran, tanpa adanya kunci pribadi.
 
 
 
@@ -50,13 +49,13 @@ Kedua Dompet ini, dalam segala hal, akan sangat berbeda satu sama lain. Satu-sat
 
 
 
-Untuk mengunduh Electrum, saya sarankan Anda mengikuti langkah pertama dalam tutorial ini:
+Untuk mengunduh Electrum, kku menyarankanmu mengikuti langkah pertama dalam tutorial ini:
 
 
 
 https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
-Setelah mengunduh, selalu verifikasi rilis sebelum menginstalnya, kemudian lanjutkan ke konfigurasi "One Server", seperti yang akan Anda temukan di bagian bantuan, di bawah `Mulai dengan Dummy Wallet`.
+Setelah mengunduh, selalu verifikasi rilis sebelum menginstalnya, kemudian lanjutkan ke konfigurasi "One Server", seperti yang akan kamu temukan di bagian bantuan, di bawah `Mulai dengan Dummy Wallet`.
 
 
 
@@ -72,11 +71,11 @@ Pengoperasian berikut ini melibatkan latihan pada dua komputer (dan Dompet) yang
 
 
 
-Setelah mengunduh dan memverifikasi unduhan Electrum, ambil salinan file yang dapat dieksekusi dan bawa ke komputer Anda secara offline. Kemudian jalankan dan instal Electrum.
+Setelah mengunduh dan memverifikasi unduhan Electrum, ambil salinan file yang dapat dieksekusi dan bawa ke komputer kamu secara offline. Kemudian jalankan dan instal Electrum.
 
 
 
-Klik dua kali untuk memulai Electrum: komputer tempat Anda akan menggunakan Wallet ini dalam keadaan offline, abaikan pengaturan jaringan dan lanjutkan ke pembuatan Wallet yang, dalam panduan ini, akan kita sebut sebagai `airgap`.
+Klik dua kali untuk memulai Electrum: komputer tempat kamu akan menggunakan Wallet ini dalam keadaan offline, abaikan pengaturan jaringan dan lanjutkan ke pembuatan Wallet yang, dalam panduan ini, akan kita sebut sebagai `airgap`.
 
 
 
@@ -112,7 +111,7 @@ Transkripsikan 12 kata generate dari Electrum secara akurat ke dalam kertas dan 
 
 
 
-Setelah pembuatan Wallet selesai, tetapkan kata sandi yang rumit (`Strong`) untuk mengenkripsi file Wallet pada perangkat airgap. Langkah ini sangat rumit dan penting, karena kata sandi yang dipilih sekarang, mencegah akses ke Wallet yang memiliki kekuatan dispositif, dapat menghabiskan dana menandatangani transaksi.
+Setelah pembuatan Wallet selesai, tetapkan kata sandi yang rumit (`Strong`) untuk mengenkripsi file Wallet di perangkat air-gapped. Langkah ini sangat penting, karena kata sandi yang kamu pilih sekarang akan mencegah akses ke Wallet. Wallet yang terlindungi kata sandi inilah yang nantinya akan digunakan untuk menandatangani transaksi.
 
 
 
@@ -132,7 +131,7 @@ Dengan mengklik _Finish_, Wallet akan ditetapkan dan muncul di layar. Tentu saja
 
 
 
-Sekarang setelah Wallet Anda memiliki private key offline, Anda perlu mengatur tampilan Wallet, atau `watch-only`, yang akan memungkinkan Anda untuk melihat saldo, serta menyiapkan transaksi penerimaan untuk terus mengakumulasi Sats dengan aman.
+Sekarang setelah Wallet kamu memiliki private key offline, kamu perlu mengatur tampilan Wallet, atau `watch-only`, yang akan memungkinkan kamu untuk melihat saldo, serta menyiapkan transaksi penerimaan untuk terus mengakumulasi Sats dengan aman.
 
 
 
@@ -144,7 +143,7 @@ Dari Wallet yang terletak di perangkat offline, pilih menu _Wallet_ -> _Informat
 
 
 
-Jendela yang berisi semua informasi Wallet Anda akan muncul, di mana Anda dapat memeriksa `derivation path` dan `master fingerprint`, misalnya untuk menandainya di samping kata-kata dalam kalimat Mnemonic (sangat disarankan).
+Jendela yang berisi semua informasi Wallet kamu akan muncul, di mana Anda dapat memeriksa `derivation path` dan `master fingerprint`, misalnya untuk menandainya di samping kata-kata dalam kalimat Mnemonic (sangat disarankan).
 
 
 
@@ -152,11 +151,11 @@ Jendela yang berisi semua informasi Wallet Anda akan muncul, di mana Anda dapat 
 
 
 
-Ingatlah bahwa Anda mengambil data ini dari komputer yang tidak terhubung, jadi Anda harus menyalin/menempelkan `zpub` ke sebuah file teks dan menyimpannya ke sebuah stik USB.
+Ingatlah bahwa kamu mengambil data ini dari komputer yang tidak terhubung, jadi kamu harus menyalin/menempelkan `zpub` ke sebuah file teks dan menyimpannya ke sebuah stik USB.
 
 
 
-Sekarang Anda dapat berpindah ke komputer yang terhubung ke Internet, untuk meluncurkan Electrum dan membuat Wallet baru.
+Sekarang kamu dapat berpindah ke komputer yang terhubung ke Internet, untuk meluncurkan Electrum dan membuat Wallet baru.
 
 
 
@@ -192,7 +191,7 @@ Dalam memilih `Keystore`, berhati-hatilah: untuk membuat tampilan Wallet pilih _
 
 
 
-Rekatkan di sini `zpub` yang disalin dari Wallet secara offline dan yang Anda bawa ke komputer ini melalui media USB.
+Rekatkan di sini `zpub` yang disalin dari Wallet secara offline dan yang kamu bawa ke komputer ini melalui media USB.
 
 
 
@@ -200,15 +199,15 @@ Rekatkan di sini `zpub` yang disalin dari Wallet secara offline dan yang Anda ba
 
 
 
-Akhiri dengan menetapkan kata sandi yang kuat untuk Wallet ini juga, mungkin berbeda dari yang dipilih untuk Cold yang sesuai.
+Akhiri dengan menetapkan kata sandi yang kuat untuk Wallet ini juga, mungkin berbeda dari yang kamu pilih untuk Cold Wallet.
 
 
 
-Anda akan melihat tampilan Wallet muncul, dengan sebuah peringatan. Pesan ini mengingatkan Anda bahwa ini adalah Wallet yang hanya untuk tampilan dan Anda tidak dapat menggunakan dana yang terkait.
+Kamu akan melihat tampilan Wallet muncul, dengan sebuah peringatan. Pesan ini mengingatkan kamu bahwa ini adalah Wallet hanya untuk tampilan dan kamu tidak bisa menggunakan dana yang terkait.
 
 
 
-**Catat dengan baik**: **Anda harus selalu memiliki private key untuk membuang UTXO dari Wallet ini**. Dengan sistem pencadangan yang baik, tidak akan sulit bagi Anda untuk tetap memiliki Bitcoin Anda sepenuhnya.
+**Catat dengan baik**: **kamu harus selalu memiliki private key untuk membuang UTXO dari Wallet ini**. Dengan sistem pencadangan yang baik, tidak akan sulit untuk tetap memiliki Bitcoin kamu sepenuhnya.
 
 
 
@@ -216,7 +215,7 @@ Anda akan melihat tampilan Wallet muncul, dengan sebuah peringatan. Pesan ini me
 
 
 
-Peringatan ini akan muncul setiap kali Anda membuka Wallet ini. Klik _Ok_ dan mari kita lanjutkan ke langkah verifikasi.
+Peringatan ini akan muncul setiap kali kamu membuka Wallet ini. Klik _Ok_ dan mari kita lanjutkan ke langkah verifikasi.
 
 
 
@@ -224,11 +223,11 @@ Peringatan ini akan muncul setiap kali Anda membuka Wallet ini. Klik _Ok_ dan ma
 
 
 
-Seperti yang kita pelajari di awal panduan ini, airgap Wallet dan display Wallet adalah dua portofolio yang memiliki fakultas yang berbeda, tetapi **memiliki alamat yang sama**.
+Seperti yang kita pelajari di awal panduan ini, air-gapped Wallet dan display Wallet adalah dua portofolio dengan fungsi yang berbeda, tetapi **memiliki alamat yang sama**.
 
 
 
-Jika kita melihat kedua Dompet berdampingan, secara visual kita melihat bahwa pada airgap Wallet terdapat simbol "seed", sedangkan pada jam tangan tidak ada. Bahkan detail ini akan membantu Anda mengingat bahwa tampilan Wallet Wallet tidak memiliki kunci pribadi.
+Jika kita melihat kedua Dompet berdampingan, secara visual terlihat bahwa di air-gapped Wallet ada simbol "seed", sedangkan di display Wallet tidak ada. Detail ini akan membantu kamu mengingat bahwa display Wallet tidak memiliki kunci pribadi.
 
 
 
@@ -244,19 +243,19 @@ Namun, untuk melakukan pemeriksaan pertama yang akurat, pilihlah menu `Alamat` d
 
 
 
-⚠️ **PERHATIAN**: **tidak boleh ada jalan tengah; alamatnya harus sama. Jika berbeda, Anda harus menghapus semua pekerjaan yang telah dilakukan sejauh ini dan memulai dari awal**.
+⚠️ **PERHATIAN**: **tidak boleh ada jalan tengah; alamatnya harus sama. Jika berbeda, kamu harus menghapus semua pekerjaan yang telah dilakukan sejauh ini dan memulai dari awal**.
 
 
 
-Sekarang Anda dapat melanjutkan untuk melakukan dua pemeriksaan yang berbeda. Pertama, coba hapus dua Dompet dan pulihkan dari awal, masing-masing pada komputer yang sesuai. Apabila Anda melanjutkan untuk melakukan verifikasi ini, prosedur untuk tampilan Wallet identik dengan yang ditetapkan di atas.
+Sekarang kamu dapat melanjutkan untuk melakukan dua pemeriksaan berbeda. Pertama, coba hapus kedua Dompet dan pulihkan dari awal, masing-masing di komputer yang sesuai. Jika kamu melanjutkan verifikasi ini, prosedur untuk display Wallet identik dengan yang dijelaskan di atas.
 
 
 
-Namun, untuk airgap Wallet, pada layar `keystore` Anda harus memilih _Saya sudah memiliki seed_ dan memasukkan kata-kata dengan menyalinnya dari cadangan kertas Anda.
+Namun, untuk air-gapped Wallet, pada layar `keystore` kamu harus memilih _Saya sudah memiliki seed_ dan memasukkan kata-kata dengan menyalinnya dari cadangan kertas kamu.
 
 
 
-Setelah uji coba "tanpa beban" selesai, Anda dapat mencoba melakukan transaksi dalam jumlah kecil dan langsung membelanjakannya.
+Setelah uji coba "tanpa beban" selesai, kamu bisa mencoba melakukan transaksi dalam jumlah kecil dan langsung membelanjakannya.
 
 
 
@@ -264,19 +263,20 @@ Setelah uji coba "tanpa beban" selesai, Anda dapat mencoba melakukan transaksi d
 
 
 
-Untuk mulai menggunakan airgap Electrum Anda, Anda dapat melakukan transaksi penerimaan dengan jumlah kecil, kemudian membelanjakannya untuk membeli Address milik Anda sendiri. Anda kemudian dapat membiasakan diri dengan prosedurnya, memverifikasi bahwa Anda memiliki kendali penuh atas dana tersebut.
+Untuk mulai menggunakan air-gapped Electrum kamu, kamu bisa melakukan transaksi penerimaan dengan jumlah kecil, kemudian membelanjakannya untuk membeli Address milik kamu sendiri. Kamu kemudian bisa membiasakan diri dengan prosedurnya dan memverifikasi bahwa kamu memiliki kendali penuh atas dana tersebut.
 
 
 
-**Catatan**: Saya tidak menyarankan Anda untuk menyetor dana dalam jumlah besar pada Wallet sebelum Anda yakin bahwa Anda dapat melakukan semua operasi dengan lancar.
+**Catatan**: Aku tidak menyarankan kamu menyetor dana dalam jumlah besar ke Wallet sebelum yakin bahwa kamu bisa melakukan semua operasi dengan lancar.
 
 
 
-Langkah-langkah yang dijelaskan di bawah ini mungkin, sekilas tampak rumit. Jangan biarkan hal ini membuat Anda kecewa: setelah Anda mencobanya untuk pertama kali, Anda akan mendapati bahwa langkah-langkah ini hanya membutuhkan waktu beberapa menit saja.
+Langkah-langkah yang dijelaskan di bawah ini mungkin sekilas tampak rumit. Jangan biarkan hal ini membuat kamu kecewa: setelah mencobanya untuk pertama kali, kamu akan melihat bahwa langkah-langkah ini hanya membutuhkan waktu beberapa menit saja.
 
 
 
-Untuk menerima dana, Anda harus menggunakan tampilan Wallet yang terletak di komputer Anda yang terhubung ke Internet. Dari menu `Terima`, klik pada `Buat permintaan` untuk meminta Electrum generate sebagai Address pertama yang tersedia dan menggunakannya untuk mengirimkan beberapa Satss.
+Untuk menerima dana, kamu harus menggunakan display Wallet yang ada di komputer yang tersambung ke Internet. Dari menu `Terima`, klik `Buat permintaan` untuk meminta Electrum menghasilkan Address pertama yang tersedia dan menggunakannya untuk mengirimkan beberapa Sats.
+
 
 
 
@@ -288,7 +288,7 @@ Untuk menerima dana, Anda harus menggunakan tampilan Wallet yang terletak di kom
 
 
 
-Setelah transaksi disebarkan, Anda sudah dapat melihat bahwa-seperti yang sudah sewajarnya- transaksi tersebut hanya terlihat di layar Wallet dan bukan di airgap Wallet.
+Setelah transaksi disebarkan, kamu sudah dapat melihat bahwa-seperti yang sudah sewajarnya- transaksi tersebut hanya terlihat di layar Wallet dan bukan di airgap Wallet.
 
 
 
@@ -296,7 +296,7 @@ Setelah transaksi disebarkan, Anda sudah dapat melihat bahwa-seperti yang sudah 
 
 
 
-Setelah transaksi Anda menerima konfirmasi, Anda dapat menyiapkan biaya dan kemudian mencoba prosedur penandatanganan dari Wallet di luar jaringan. Kemudian siapkan transaksi pada watch-only dan tekan _Preview_ untuk memeriksanya
+Setelah transaksi kamu menerima konfirmasi, kamu bisa menyiapkan biaya dan kemudian mencoba prosedur penandatanganan dari Wallet di luar jaringan. Selanjutnya, siapkan transaksi di watch-only dan tekan _Preview_ untuk memeriksanya.
 
 
 
@@ -304,7 +304,7 @@ Setelah transaksi Anda menerima konfirmasi, Anda dapat menyiapkan biaya dan kemu
 
 
 
-Anda akan mendapatkan jendela transaksi lanjutan di mana Anda dapat melihatnya:
+Kamu akan mendapatkan jendela transaksi lanjutan di mana Anda bisa melihatnya:
 
 
 
@@ -314,11 +314,11 @@ Anda akan mendapatkan jendela transaksi lanjutan di mana Anda dapat melihatnya:
 
 
 
-Satu-satunya hal yang dapat Anda lakukan adalah mengekspor transaksi apa adanya, membawanya ke celah udara Wallet dan menandatanganinya.
+Satu-satunya hal yang dapat kamu lakukan adalah mengekspor transaksi apa adanya, membawanya ke celah udara Wallet dan menandatanganinya.
 
 
 
-Masukkan USB flash drive ke komputer Anda dan, dari menu di bagian kiri bawah, pilih _Share_.
+Masukkan USB flash drive ke komputer kamu dan, dari menu di bagian kiri bawah, pilih _Share_.
 
 
 
@@ -362,7 +362,7 @@ Dengan pengelola file, pilih `.PSBT` dari lokasinya.
 
 
 
-Perangkat lunak komputer di luar jaringan akan secara otomatis membuka jendela transaksi lanjutan, sepenuhnya identik dengan yang Anda lihat pada layar Wallet. Statusnya adalah `Tidak Ditandatangani`, tetapi perbedaannya adalah perintah `Tanda tangani` di sini aktif. Dan itulah yang harus Anda jalankan.
+Perangkat lunak komputer di luar jaringan akan secara otomatis membuka jendela transaksi lanjutan, sepenuhnya identik dengan yang kamu lihat di layar Wallet. Statusnya adalah `Tidak Ditandatangani`, tetapi perbedaannya adalah perintah `Tanda tangani` di sini aktif. Inilah yang harus kamu jalankan.
 
 
 
@@ -374,15 +374,16 @@ Perangkat lunak komputer di luar jaringan akan secara otomatis membuka jendela t
 
 
 
-Setelah transaksi ditandatangani, ingatlah bahwa Wallet Anda berada pada mesin offline. Oleh karena itu, meskipun Anda melihat perintah `Broadcast` aktif, Wallet Anda tidak akan dapat menyebarkan transaksi ke jaringan Bitcoin.
+Setelah transaksi ditandatangani, ingat bahwa Wallet kamu berada di mesin offline. Jadi, meskipun kamu melihat perintah `Broadcast` aktif, Wallet tidak akan bisa menyebarkan transaksi ke jaringan Bitcoin.
 
 
 
-Yang perlu Anda lakukan sekarang adalah mengulangi operasi mengekspor transaksi yang telah ditandatangani ke stik usb, sehingga Anda bisa mengimpornya ke komputer yang terhubung ke Internet dan menyebarkannya.
+Yang perlu kamu lakukan sekarang adalah mengekspor transaksi yang sudah ditandatangani ke stik USB, sehingga kamu bisa mengimpornya ke komputer yang tersambung ke Internet dan menyebarkannya.
 
 
 
-Dari menu kiri bawah, pilih _Berbagi_ lagi dan kemudian _Simpan ke file_.
+Dari menu kiri bawah, pilih _Berbagi_ lagi lalu _Simpan ke file_.
+
 
 
 
@@ -410,11 +411,11 @@ Dari watch-only, ulangi prosedur impor, yaitu dari menu _Tools_ pilih _Load tran
 
 
 
-Electrum akan membuka jendela transaksi untuk Anda, yang sangat berbeda dari yang ditunjukkan sebelumnya pada Wallet ini, karena sekarang sudah ditandatangani (`Status: Signed`) dan perintah `Broadcast` dapat diakses.
+Electrum akan membuka jendela transaksi untuk kamu, yang sangat berbeda dari yang ditunjukkan sebelumnya pada Wallet ini, karena sekarang sudah ditandatangani (`Status: Signed`) dan perintah `Broadcast` dapat diakses.
 
 
 
-Operasi terakhir yang perlu Anda lakukan hanyalah itu:
+Operasi terakhir yang perlu kamu lakukan hanyalah itu:
 
 
 
@@ -426,14 +427,14 @@ Operasi terakhir yang perlu Anda lakukan hanyalah itu:
 
 
 
-Pengujian Anda sekarang sudah selesai. Jika Anda mengikuti panduan ini dan mendapatkan hasil yang sama, Anda telah membuat Wallet Cold dengan Electrum, di dua komputer yang berbeda, yang dapat Anda gunakan untuk menyimpan Bitcoin Anda.
+Pengujian sekarang sudah selesai. Jika kamu mengikuti panduan ini dan mendapatkan hasil yang sama, kamu telah membuat Wallet Cold dengan Electrum, di dua komputer yang berbeda, yang dapat kamu gunakan untuk menyimpan Bitcoin milikmu.
 
 
 
 Satu-satunya hal yang harus Anda perhatikan adalah dua hal:
 
 
-1) **Jangan pernah menggunakan airgap Wallet ke alamat penerima generate**. Karena ini offline, maka akan selalu menawarkan Address pertama, yang sama dengan Address yang baru saja Anda gunakan untuk melakukan transaksi uji coba;
+1) **Jangan pernah menggunakan airgap Wallet ke alamat penerima generate**. Karena ini offline, maka akan selalu menawarkan Address pertama, yang sama dengan Address yang baru saja kamu gunakan untuk melakukan transaksi uji coba;
 
 
 
@@ -441,8 +442,8 @@ Satu-satunya hal yang harus Anda perhatikan adalah dua hal:
 
 
 
-seperti yang dapat Anda lihat dari gambar di atas, Wallet offline tidak mengetahui sejarah Address-nya sendiri. Ia benar-benar buta dalam hal ini. **Satu-satunya tugas yang dapat dilakukannya untuk Anda adalah menyimpan kunci offline Anda dan menandatangani transaksi Anda**_.
+Seperti yang bisa kamu lihat dari gambar di atas, Wallet offline tidak mengetahui riwayat Address-nya sendiri. Ia benar-benar buta dalam hal ini. **Satu-satunya tugas yang bisa dilakukannya untuk kamu adalah menyimpan kunci offline dan menandatangani transaksi kamu**.
 
 
 
-2) Gunakan USB flash drive yang didedikasikan hanya untuk tujuan ini, **jangan gunakan media yang sering Anda gunakan**. Alat sehari-hari lebih mungkin diserang cyber, dan secara tidak sengaja, Anda dapat menyerang komputer yang Anda jaga agar tetap terputus dari jaringan. Stik USB yang Anda gunakan hanya untuk tujuan ini memiliki peluang yang sangat kecil untuk melakukan kontak dengan PC Anda secara online, terutama jika Anda adalah penjaja yang tidak perlu mengeluarkan uang, sehingga mengurangi kemungkinan menerima dan kemudian mengirimkan virus, malware, dll.
+2) Gunakan USB flash drive yang didedikasikan hanya untuk tujuan ini, **jangan gunakan media yang sering kamu pakai**. Alat sehari-hari lebih mungkin terinfeksi cyber, dan secara tidak sengaja, kamu bisa menyerang komputer yang kamu jaga tetap terputus dari jaringan. Stik USB yang kamu gunakan hanya untuk tujuan ini memiliki peluang sangat kecil untuk bersentuhan dengan PC online kamu, sehingga mengurangi kemungkinan terkena virus, malware, dan sejenisnya.

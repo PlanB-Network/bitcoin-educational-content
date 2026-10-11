@@ -1,6 +1,6 @@
 ---
 name: Frostsnap
-description: Sistem keamanan multi-tanda tangan yang canggih menggunakan protokol FROST
+description: Sistem keamanan multi signature tangan yang canggih menggunakan protokol FROST
 ---
 
 ![cover](assets/cover.webp)

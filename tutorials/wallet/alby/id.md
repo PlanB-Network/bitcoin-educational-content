@@ -9,7 +9,8 @@ description: Ekstensi browser untuk Bitcoin dan Lightning Network
 
 
 
-Melakukan pembayaran yang semakin mudah dengan bitcoin adalah tantangan yang dihadapi banyak perusahaan di sektor ini. Alby menonjol dari yang lain dengan ekstensi Alby wallet untuk peramban. Ekstensi ini bertujuan untuk menyiapkan kerangka kerja yang lancar yang secara otomatis mendeteksi alamat dan memungkinkan Anda untuk melakukan pembayaran bitcoin tanpa gesekan. Dalam tutorial ini, kita akan mempelajari ekstensi Alby dan menguji bagaimana ekstensi ini memfasilitasi pembayaran dari browser.
+Melakukan pembayaran yang semakin mudah dengan bitcoin adalah tantangan yang dihadapi banyak perusahaan di sektor ini. Alby menonjol dari yang lain lewat ekstensi wallet Alby untuk peramban. Ekstensi ini bertujuan menyiapkan kerangka kerja yang lancar dengan secara otomatis mendeteksi alamat dan memungkinkan kamu melakukan pembayaran bitcoin tanpa gesekan. Dalam tutorial ini, kita akan mempelajari ekstensi Alby dan menguji bagaimana ekstensi ini memfasilitasi pembayaran langsung dari browser.
+
 
 
 
@@ -23,14 +24,14 @@ Melakukan pembayaran yang semakin mudah dengan bitcoin adalah tantangan yang dih
 
 
 
-Ekstensi Alby adalah alat yang memungkinkan peramban web Anda berinteraksi dengan mudah dan aman dengan jaringan Bitcoin dan lapisan Lightning Network. Hal ini ditandai dengan tiga aspek:
+Ekstensi Alby adalah alat yang memungkinkan peramban web kamu berinteraksi dengan mudah dan aman dengan jaringan Bitcoin dan lapisan Lightning Network. Hal ini ditandai oleh tiga aspek:
 
 
 
 
-- Lightning Network wallet: Tautkan node atau akun Alby Anda untuk mengirim dan menerima bitcoin dengan cepat dan murah melalui lapisan Lightning Network.
-- Pembayaran lancar melalui Web: Ini menghilangkan kebutuhan untuk memindai kode QR atau beralih di antara aplikasi untuk pembayaran bitcoin di situs web yang mendukung Lightning. Ini memungkinkan transaksi yang lancar dengan satu klik, atau tanpa konfirmasi jika Anda telah menetapkan anggaran.
-- Manajer Nostr: Ekstensi ini mengelola kunci Nostr Anda, membuatnya mudah untuk terhubung dan berinteraksi dengan aplikasi Nostr yang bertindak sebagai penandatangan yang aman tanpa mengekspos kunci pribadi Anda ke setiap platform.
+- Lightning Network wallet: Tautkan node atau akun Alby kamu untuk mengirim dan menerima Bitcoin dengan cepat dan murah melalui lapisan Lightning Network.
+- Pembayaran lancar melalui web: Ini menghilangkan kebutuhan untuk memindai kode QR atau berpindah antar aplikasi saat melakukan pembayaran Bitcoin di situs web yang mendukung Lightning. Kamu bisa melakukan transaksi dengan lancar hanya dengan satu klik, atau bahkan tanpa konfirmasi jika kamu sudah menetapkan anggaran.
+- Manajer Nostr: Ekstensi ini mengelola kunci Nostr kamu, sehingga memudahkan kamu untuk terhubung dan berinteraksi dengan aplikasi Nostr. Ekstensi ini bertindak sebagai penandatangan yang aman tanpa mengekspos kunci privat kamu ke setiap platform.
 
 
 
@@ -42,11 +43,12 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-Dalam tutorial ini, kita akan menggunakan ekstensi Alby di peramban Firefox dalam sistem operasi Ubuntu. Namun, ekstensi ini juga tersedia di Windows dan peramban seperti Chrome.
+Dalam tutorial ini, kita akan menggunakan ekstensi Alby di peramban Firefox pada sistem operasi Ubuntu. Namun, ekstensi ini juga tersedia di Windows dan peramban lain seperti Chrome.
 
 
 
-Anda dapat menambahkan ekstensi Alby ke browser Anda dengan mengunjungi toko ekstensi [Firefox](https://addons.mozilla.org/fr/firefox/addon/alby/) atau toko ekstensi [Chrome](https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
+Kamu dapat menambahkan ekstensi Alby ke browser kamu dengan mengunjungi toko ekstensi.
+ [Firefox](https://addons.mozilla.org/fr/firefox/addon/alby/) atau toko ekstensi [Chrome](https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
 
 
 
@@ -58,14 +60,12 @@ Anda dapat menambahkan ekstensi Alby ke browser Anda dengan mengunjungi toko eks
 
 
 
-ℹ️ Sangat penting untuk memeriksa bahwa pembuat ekstensi tersebut adalah akun resmi Alby, untuk menghindari segala bentuk pembajakan atau pencurian bitcoin Anda.
+ℹ️ Sangat penting untuk memastikan bahwa pembuat ekstensi tersebut adalah akun resmi Alby, guna menghindari segala bentuk pembajakan atau pencurian bitcoin kamu.
 
+Tambahkan ekstensi ke browser kamu dengan mengeklik tombol di sebelah kanan.
 
+Berikan izin yang diperlukan untuk menginstal dan menggunakan ekstensi, lalu sematkan ekstensi ke bilah alat agar mudah diakses.
 
-Tambahkan ekstensi ke browser Anda dengan mengeklik tombol di sebelah kanan.
-
-
-Berikan izin yang diperlukan untuk menginstal dan menggunakan ekstensi, lalu sematkan ekstensi ke bilah alat agar mudah diambil.
 
 
 
@@ -73,11 +73,9 @@ Berikan izin yang diperlukan untuk menginstal dan menggunakan ekstensi, lalu sem
 
 
 
-Anda juga harus menentukan kode pembuka kunci (sangat penting), yang akan menjamin akses yang aman ke Lightning wallet dari browser Anda. Kami sarankan Anda menetapkan kata sandi alfanumerik yang kuat.
+Kamu juga harus menentukan kode pembuka kunci (sangat penting), yang akan menjamin akses yang aman ke Lightning wallet dari browser kamu. Kami menyarankan kamu menetapkan kata sandi alfanumerik yang kuat.
 
-
-
-ℹ️ Simpan kata sandi ini di tempat yang aman agar Anda dapat mengaksesnya jika lupa, karena kata sandi ini dapat diubah tetapi tidak dapat diambil kembali.
+ℹ️ Simpan kata sandi ini di tempat yang aman agar kamu dapat mengaksesnya jika lupa, karena kata sandi ini dapat diubah tetapi tidak dapat dipulihkan.
 
 
 
@@ -87,13 +85,11 @@ https://planb.academy/tutorials/computer-security/authentication/seedkeeper-pass
 
 
 
-Alby menunjukkan kemampuannya beradaptasi dengan menawarkan dua pilihan kepada Anda:
+Alby menunjukkan fleksibilitasnya dengan menawarkan dua pilihan kepada kamu:
 
+- Lanjutkan dengan akun Alby jika kamu ingin menggunakan aplikasi ini sambil tetap mengontrol bitcoin kamu.
+- Hubungkan wallet atau Lightning node milikmu sendiri jika kamu sudah memilikinya dan wallet tersebut didukung oleh ekstensi ini.
 
-
-
-- Lanjutkan dengan akun Alby jika Anda ingin menikmati aplikasi sambil tetap mengontrol bitcoin Anda.
-- Hubungkan wallet atau Lightning node Anda sendiri jika Anda sudah memilikinya dan didukung oleh ekstensi.
 
 
 
@@ -120,11 +116,11 @@ Masuk ke akun Alby Anda, atau buat akun jika Anda belum memilikinya.
 
 
 
-## Melakukan pembayaran pertama Anda
+## Melakukan pembayaran pertama
 
 
 
-Setelah masuk, Anda bisa mengklik ekstensi Alby di toolbar untuk mengakses portofolio Anda.
+Setelah masuk, kamu bisa mengklik ekstensi Alby di toolbar untuk mengakses portofolio kamu.
 
 
 
@@ -132,7 +128,7 @@ Setelah masuk, Anda bisa mengklik ekstensi Alby di toolbar untuk mengakses porto
 
 
 
-Setelah Anda membuat akun Alby, Anda harus menghubungkannya ke wallet untuk membelanjakan satoshi. Untuk menghubungkan bitcoin wallet ke akun Alby Anda, kami sarankan Anda menggunakan node Alby Hub, yang bisa Anda siapkan di komputer Anda atau berlangganan paket yang ditawarkan oleh Alby.
+Setelah kamu membuat akun Alby, kamu perlu menghubungkannya ke wallet agar bisa membelanjakan satoshi. Untuk menghubungkan bitcoin wallet ke akun Alby kamu, kami menyarankan kamu menggunakan node Alby Hub, yang bisa kamu siapkan di komputer kamu sendiri atau dengan berlangganan paket yang ditawarkan oleh Alby.
 
 
 
@@ -143,14 +139,13 @@ Setelah Anda membuat akun Alby, Anda harus menghubungkannya ke wallet untuk memb
 
 Dalam tutorial ini, akun Alby kami didukung oleh instalasi lokal pada mesin kami.
 
-
-Untuk membuat node Alby Anda sendiri, kami merekomendasikan tutorial Alby Hub.
+Untuk membuat node Alby kamu sendiri, kami merekomendasikan tutorial Alby Hub.
 
 
 
 https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-Node ini memungkinkan Anda membuat portofolio Lightning kustodian mandiri dan mengelola saluran Lightning secara efisien untuk mengirim dan menerima satoshi.
+Node ini memungkinkan kamu membuat portofolio Lightning kustodian mandiri dan mengelola saluran Lightning secara efisien untuk mengirim dan menerima satoshi.
 
 
 
@@ -158,15 +153,14 @@ Node ini memungkinkan Anda membuat portofolio Lightning kustodian mandiri dan me
 
 
 
-Buka saluran penerimaan yang menentukan jumlah total satoshi yang dapat Anda terima.
+Buka saluran penerimaan yang menentukan total jumlah satoshi yang dapat kamu terima.
 
 
 
 ![receivechanal](assets/fr/15.webp)
 
 
-
-Buka saluran pengiriman dengan memblokir satoshi pada alamat onchain bitcoin. Satoshi yang Anda blokir menentukan total satoshi yang dapat Anda belanjakan.
+Buka saluran pengiriman dengan mengunci satoshi pada alamat on-chain Bitcoin. Satoshi yang kamu kunci menentukan total satoshi yang dapat kamu belanjakan.
 
 
 
@@ -174,7 +168,7 @@ Buka saluran pengiriman dengan memblokir satoshi pada alamat onchain bitcoin. Sa
 
 
 
-Anda sekarang dapat mengirim dan menerima satoshi melalui ekstensi Alby.
+Kamu sekarang dapat mengirim dan menerima satoshi melalui ekstensi Alby.
 
 
 
@@ -182,7 +176,7 @@ Anda sekarang dapat mengirim dan menerima satoshi melalui ekstensi Alby.
 
 
 
-Mulai saat ini dan seterusnya, ekstensi Alby dapat mendeteksi alamat dan faktur Lightning yang tersedia di halaman web yang Anda kunjungi, dan akan menyarankan agar Anda membayarnya dengan bitcoin atau Lightning langsung dari ekstensi Anda.
+Mulai saat ini, ekstensi Alby dapat mendeteksi alamat dan invoice Lightning yang tersedia di halaman web yang kamu kunjungi, lalu menyarankan kamu untuk membayarnya dengan Bitcoin atau Lightning langsung dari ekstensi kamu.
 
 
 
@@ -199,7 +193,8 @@ Mulai saat ini dan seterusnya, ekstensi Alby dapat mendeteksi alamat dan faktur 
 
 
 
-Kunci utama yang ditawarkan oleh ekstensi Alby bertindak sebagai lapisan pelindung yang memungkinkan Anda untuk berkomunikasi secara aman dengan lapisan jaringan utama Bitcoin (Onchain), sistem Nostr dan memungkinkan Anda untuk mengaktifkan koneksi Lightning dengan aplikasi Nostr.
+Kunci utama yang ditawarkan oleh ekstensi Alby bertindak sebagai lapisan pelindung yang memungkinkan kamu berkomunikasi secara aman dengan lapisan jaringan utama Bitcoin (on-chain), sistem Nostr, serta mengaktifkan koneksi Lightning dengan aplikasi Nostr.
+
 
 
 
@@ -207,7 +202,7 @@ Kunci utama yang ditawarkan oleh ekstensi Alby bertindak sebagai lapisan pelindu
 
 
 
-Kunci utama ini berbentuk 12 kata yang mirip dengan frasa pemulihan Anda. Oleh karena itu, kami menyarankan agar Anda menyimpannya menggunakan metode yang aman untuk memastikan bahwa kunci tersebut dapat diakses kapan saja.
+Kunci utama ini berbentuk 12 kata yang mirip dengan seedphrase kamu. Oleh karena itu, kami menyarankan kamu menyimpannya menggunakan metode yang aman agar kunci tersebut dapat diakses kapan saja.
 
 
 
@@ -218,7 +213,7 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-Sekarang Anda dapat merasakan pembayaran bitcoin dan Lightning tanpa gesekan dengan ekstensi Alby. Jika Anda menikmati tutorial ini, kami merekomendasikan tutorial Alby Hub kami untuk menyiapkan node Alby Anda sendiri dan mengontrol semua aspek dompet Alby Anda dari antarmuka yang halus dan kuat.
+Sekarang kamu dapat merasakan pembayaran Bitcoin dan Lightning tanpa gesekan dengan ekstensi Alby. Jika kamu menikmati tutorial ini, kami merekomendasikan tutorial Alby Hub untuk menyiapkan node Alby kamu sendiri dan mengontrol semua aspek wallet Alby kamu dari antarmuka yang halus dan kuat.
 
 
 

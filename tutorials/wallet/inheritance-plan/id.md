@@ -1,17 +1,17 @@
 ---
 name: Rencana warisan Bitcoin
-description: Cara mentransfer bitcoin ke orang yang Anda cintai
+description: Cara mentransfer bitcoin ke orang yang kamu cintai
 ---
 
 ![cover](assets/cover.webp)
 
 
 
-Pengiriman bitcoin merupakan tantangan teknis utama yang diabaikan oleh banyak pemegangnya. Tidak seperti aset perbankan tradisional, di mana lembaga keuangan dapat mengirimkan dana kepada pemilik yang sah, Bitcoin bekerja tanpa perantara. Orang yang Anda cintai tidak akan pernah bisa mengakses dana Anda tanpa informasi teknis yang diperlukan, terlepas dari keabsahan hukumnya.
+Pengiriman bitcoin adalah tantangan teknis utama yang sering diabaikan banyak pemegangnya. Tidak seperti aset perbankan tradisional, di mana lembaga keuangan bisa mengirimkan dana kepada pemilik yang sah, Bitcoin beroperasi tanpa perantara. Orang yang kamu cintai tidak akan pernah bisa mengakses dana kamu tanpa informasi teknis yang diperlukan, terlepas dari keabsahan hukumnya.
 
 
 
-Tutorial ini memandu Anda dalam membuat rencana warisan teknis. Anda akan mempelajari cara kerja mekanisme on-chain untuk transmisi otomatis, cara mendokumentasikan konfigurasi Anda, dan cara memilih solusi yang tepat untuk memastikan bahwa warisan Bitcoin Anda tetap dapat diakses oleh orang yang Anda cintai.
+Tutorial ini memandu kamu untuk membuat rencana warisan teknis. Kamu akan mempelajari bagaimana mekanisme on-chain bekerja untuk transmisi otomatis, bagaimana mendokumentasikan konfigurasi kamu, dan bagaimana memilih solusi yang tepat agar warisan Bitcoin kamu tetap bisa diakses oleh orang yang kamu cintai.
 
 
 
@@ -19,15 +19,16 @@ Tutorial ini memandu Anda dalam membuat rencana warisan teknis. Anda akan mempel
 
 
 
-Bitcoin didasarkan pada prinsip kriptografi yang mendasar: siapapun yang memegang kunci pribadi akan mengontrol dana. Kedaulatan ini menjadi kerentanan utama ketika pemegangnya menghilang tanpa mengirimkan informasi yang diperlukan.
+Bitcoin didasarkan pada prinsip kriptografi yang mendasar: siapa pun yang memegang kunci privat mengendalikan dana. Kedaulatan ini justru menjadi kerentanan utama ketika pemegangnya menghilang tanpa mewariskan informasi yang diperlukan.
 
 
 
-Rencana warisan Bitcoin harus memenuhi dua tujuan yang tampaknya bertentangan: mengizinkan orang yang Anda cintai untuk mengakses dana Anda ketika saatnya tiba, sambil mencegah orang lain mengaksesnya sebelum waktunya. Keseimbangan yang rumit ini bergantung pada kemampuan pemrograman asli Bitcoin.
+Rencana warisan Bitcoin harus memenuhi dua tujuan yang tampak bertentangan: memungkinkan orang yang kamu cintai mengakses dana kamu pada waktunya, sambil mencegah pihak lain mengaksesnya sebelum waktunya. Keseimbangan yang rumit ini bergantung pada kemampuan pemrograman bawaan Bitcoin.
 
 
 
-Kompleksitas teknis menambah lapisan kesulitan ekstra. Ahli waris Anda harus memanipulasi konsep-konsep seperti frasa pemulihan, deskriptor portofolio, atau jalur turunan. Tanpa persiapan yang memadai, bahkan ahli waris yang berniat baik pun berisiko melakukan kesalahan yang tidak dapat diubah.
+Kompleksitas teknis menambah lapisan kesulitan tersendiri. Ahli waris kamu harus memahami konsep seperti seedphrase, deskriptor wallet, atau jalur derivasi. Tanpa persiapan yang memadai, bahkan ahli waris yang berniat baik pun berisiko melakukan kesalahan yang tidak bisa dibatalkan.
+
 
 
 
@@ -43,15 +44,15 @@ Bitcoin menggunakan bahasa skripnya untuk mengkodekan kondisi pengeluaran secara
 
 
 
-Timelock adalah mekanisme dasar dari pewarisan Bitcoin. Mekanisme ini memungkinkan dana dikunci hingga kondisi waktu tertentu terpenuhi.
+Timelock adalah mekanisme dasar dalam pewarisan Bitcoin. Mekanisme ini memungkinkan dana dikunci sampai kondisi waktu tertentu terpenuhi.
 
 
 
-**CLTV (CheckLockTimeVerify)**: Pengunci waktu absolut ini memeriksa bahwa waktu tertentu (tanggal atau tinggi blok) telah tercapai sebelum mengesahkan pengeluaran. Sebagai contoh, "dana ini hanya dapat dibelanjakan setelah blok 900000" atau "setelah 1 Januari 2026". Keuntungan dari CLTV adalah memungkinkan penundaan yang lama (beberapa tahun), tetapi tanggalnya tetap dan berlaku sama untuk semua UTXO dalam portofolio. Untuk mempertahankan kendali atas dana Anda, Anda harus membuat portofolio baru secara berkala dengan tanggal kedaluwarsa yang diperpanjang dan mentransfer dana Anda ke portofolio tersebut.
+**CLTV (CheckLockTimeVerify)**: Timelock absolut ini memeriksa bahwa waktu tertentu, baik berupa tanggal maupun tinggi blok, sudah tercapai sebelum pengeluaran disahkan. Contohnya, "dana ini hanya bisa dibelanjakan setelah blok 900000" atau "setelah 1 Januari 2026". Keunggulan CLTV adalah memungkinkan penundaan jangka panjang hingga beberapa tahun, tetapi tanggalnya bersifat tetap dan berlaku sama untuk semua UTXO dalam wallet. Untuk tetap mempertahankan kendali atas dana kamu, kamu perlu membuat wallet baru secara berkala dengan tanggal kedaluwarsa yang diperpanjang lalu memindahkan dana ke wallet tersebut.
 
 
 
-**CSV (CheckSequenceVerify)**: Pengunci waktu relatif ini memverifikasi bahwa sejumlah blok telah berlalu sejak UTXO dibuat. Sebagai contoh, "dana ini hanya dapat digunakan 52560 blok (~1 tahun) setelah diterima". Keuntungan dari CSV adalah setiap UTXO memiliki penghitungnya sendiri-sendiri. Setiap kali Anda melakukan transaksi, UTXO yang baru dibuat akan mengatur ulang batas waktunya sendiri. Namun, batas teknis 65535 blok (maksimum ~15 bulan) membatasi jangka waktu yang memungkinkan. Pendekatan ini lebih alami untuk penggunaan sehari-hari, karena aktivitas normal Anda secara otomatis memundurkan tenggat waktu.
+**CSV (CheckSequenceVerify)**: Timelock relatif ini memverifikasi bahwa sejumlah blok telah berlalu sejak UTXO dibuat. Contohnya, "dana ini hanya bisa digunakan 52560 blok sekitar 1 tahun setelah diterima". Keunggulan CSV adalah setiap UTXO memiliki penghitungnya sendiri. Setiap kali kamu melakukan transaksi, UTXO baru yang tercipta akan mengatur ulang batas waktunya. Namun, batas teknis 65535 blok dengan maksimum sekitar 15 bulan membatasi jangka waktu yang bisa diterapkan. Pendekatan ini terasa lebih alami untuk penggunaan sehari-hari, karena aktivitas normal kamu secara otomatis memundurkan tenggat waktu.
 
 
 
@@ -78,23 +79,22 @@ Setiap transaksi yang dilakukan oleh pemilik akan "menyegarkan" UTXO, menciptaka
 
 
 
-**Miniscript** adalah bahasa terstruktur yang dikembangkan oleh Andrew Poelstra, Pieter Wuille, dan Sanket Kanjalkar yang memudahkan untuk menulis dan menganalisis skrip Bitcoin yang kompleks. Bahasa ini memungkinkan Anda untuk membuat kondisi pengeluaran yang dapat dibaca dan diverifikasi, yang sangat penting untuk konfigurasi pewarisan yang melibatkan beberapa kunci dan pengatur waktu.
+**Miniscript** adalah bahasa terstruktur yang dikembangkan oleh Andrew Poelstra, Pieter Wuille, dan Sanket Kanjalkar untuk mempermudah penulisan dan analisis skrip Bitcoin yang kompleks. Bahasa ini memungkinkan kamu membuat kondisi pengeluaran yang mudah dibaca dan diverifikasi, yang sangat penting untuk konfigurasi pewarisan yang melibatkan beberapa kunci dan timelock.
 
 
 
-**Taproot** (diaktifkan pada November 2021) secara signifikan meningkatkan pewarisan on-chain. Berkat struktur pohonnya (MAST), hanya kondisi pembelanjaan yang digunakan yang terungkap di blockchain. Jika pemilik membelanjakan dananya secara normal, kondisi pewarisan tetap tidak terlihat. Kerahasiaan ini juga mengurangi biaya transaksi untuk jalur yang kompleks.
-
+**Taproot** (diaktifkan pada November 2021) secara signifikan meningkatkan mekanisme pewarisan on-chain. Berkat struktur pohonnya yang dikenal sebagai MAST, hanya kondisi pembelanjaan yang benar-benar digunakan yang akan terungkap di blockchain. Jika pemilik membelanjakan dananya secara normal, kondisi pewarisan tetap tersembunyi. Privasi ini juga membantu mengurangi biaya transaksi untuk jalur skrip yang kompleks.
 
 
 ## Pentingnya deskriptor secara kritis
 
 
 
-Untuk portofolio lama, frasa pemulihan (seed) tidak cukup untuk memulihkan akses ke dana. Deskripsi **deskriptor** menjadi elemen penting.
+Untuk wallet modern, seedphrase saja tidak cukup untuk memulihkan akses ke dana. **Deskriptor** menjadi elemen yang sangat penting.
 
 
 
-Deskriptor adalah sebuah string yang secara lengkap menjelaskan struktur portofolio: public key yang terlibat, kondisi pengeluaran, jalur derivasi, dan timelock yang dikonfigurasi. Berikut adalah contoh yang disederhanakan:
+Deskriptor adalah sebuah string yang sepenuhnya menjelaskan struktur wallet: public key yang terlibat, kondisi pengeluaran, jalur derivasi, serta timelock yang dikonfigurasi. Berikut contoh yang disederhanakan:
 
 
 
@@ -121,7 +121,7 @@ Mari kita bongkar contoh ini:
 
 
 
-**Tanpa deskriptor, bahkan dengan semua frasa pemulihan, ahli waris Anda tidak akan dapat membangun kembali portofolio.** Portofolio standar hanya dapat dipulihkan dari seed karena mengikuti jalur penurunan standar (BIP44, BIP84). Portofolio lama, di sisi lain, menggunakan skrip khusus yang tidak dapat ditebak. Cadangan deskriptor (atau file konfigurasi yang diekspor oleh perangkat lunak Anda) harus menyertai frasa pemulihan dalam rencana warisan Anda.
+**Tanpa deskriptor, bahkan dengan semua seedphrase, ahli waris kamu tidak akan bisa membangun kembali wallet tersebut.** Wallet standar bisa dipulihkan hanya dari seedphrase karena mengikuti jalur derivasi standar seperti BIP44 atau BIP84. Wallet lama, sebaliknya, menggunakan skrip khusus yang tidak bisa ditebak begitu saja. Cadangan deskriptor, atau file konfigurasi yang diekspor dari software kamu, harus disertakan bersama seedphrase dalam rencana warisan kamu.
 
 
 
@@ -137,36 +137,34 @@ Di luar mekanisme teknis, rencana warisan yang efektif bertumpu pada tiga pilar 
 
 
 
-Surat pribadi ini merupakan pintu masuk ke rencana Anda. Ditulis untuk ahli waris Anda, surat ini menjelaskan konteks dan tindakan pencegahan yang harus diambil.
+Surat pribadi ini menjadi pintu masuk ke rencana kamu. Ditujukan untuk ahli waris kamu, surat ini menjelaskan konteks serta langkah-langkah pencegahan yang harus diperhatikan.
 
 
 
-Surat Anda harus menyertakan aturan keselamatan secara eksplisit:
-
+Surat kamu harus secara eksplisit memuat aturan keselamatan berikut:
 
 
 
 - Jangan terburu-buru, luangkan waktu untuk belajar sebelum memindahkan dana
-- Jangan pernah menyampaikan frasa pemulihan yang lengkap kepada satu orang saja
-- Jangan pernah memasukkan frasa pemulihan ke dalam program perangkat lunak atau komputer yang tidak diverifikasi
-- Waspadai penipuan dan orang yang menawarkan bantuan yang tidak diminta
-- Mintalah saran dari setidaknya dua orang yang Anda percayai sebelum mengambil keputusan apa pun
+- Jangan pernah memberikan seedphrase lengkap kepada satu orang saja
+- Jangan pernah memasukkan seedphrase ke dalam software atau komputer yang tidak terverifikasi
+- Waspadai penipuan dan orang yang menawarkan bantuan tanpa diminta
+- Mintalah saran dari setidaknya dua orang yang kamu percaya sebelum mengambil keputusan apa pun
 
 
 
-Surat ini juga berisi detail kontak notaris Anda dan lokasi surat wasiat Anda. Surat ini tidak boleh berisi frasa atau kata sandi pemulihan.
-
+Surat ini juga memuat detail kontak notaris kamu dan lokasi surat wasiat kamu. Surat ini tidak boleh berisi seedphrase atau kata sandi apa pun.
 
 
 ### Direktori kontak tepercaya
 
 
 
-Tidak ada ahli waris yang harus menghadapi pemulihan bitcoin sendirian. Direktori ini berisi daftar orang-orang yang dapat memberikan bantuan teknis atau hukum.
+Tidak ada ahli waris yang seharusnya menghadapi proses pemulihan bitcoin sendirian. Direktori ini berisi daftar orang-orang yang bisa memberikan bantuan teknis atau hukum.
 
 
 
-Untuk setiap kontak, catatlah: nama lengkap, hubungan dengan Anda, peran dalam rencana tersebut, tingkat kepercayaan, keahlian Bitcoin, dan detail kontak lengkap. Aturan dasarnya: ahli waris Anda harus selalu berkonsultasi dengan setidaknya dua orang yang berbeda sebelum mengambil keputusan penting.
+Untuk setiap kontak, catat: nama lengkap, hubungan dengan kamu, peran dalam rencana tersebut, tingkat kepercayaan, keahlian di bidang Bitcoin, serta detail kontak lengkap. Aturan dasarnya: ahli waris kamu harus selalu berkonsultasi dengan setidaknya dua orang yang berbeda sebelum mengambil keputusan penting.
 
 
 
@@ -174,7 +172,7 @@ Untuk setiap kontak, catatlah: nama lengkap, hubungan dengan Anda, peran dalam r
 
 
 
-Bagian ini memetakan semua bitcoin Anda dengan informasi teknis yang diperlukan untuk memulihkannya.
+Bagian ini memetakan semua bitcoin kamu dengan informasi teknis yang diperlukan untuk memulihkannya.
 
 
 
@@ -186,7 +184,7 @@ Untuk setiap portofolio, dokumentasikan :
 - Jenis portofolio**: perangkat keras, perangkat lunak, konfigurasi (single-sig, multisig, warisan)
 - Lokasi perangkat**: lokasi fisik perangkat keras wallet
 - Descriptor/lokasi file konfigurasi**: penting untuk portofolio tingkat lanjut
-- Lokasi frasa pemulihan**: terpisah dari deskriptor
+- Lokasi backup phrase**: terpisah dari deskriptor
 - Kode akses**: tempat penyimpanan PIN dan kata sandi
 - Penundaan yang dikonfigurasi**: saat jalur pemulihan diaktifkan
 
@@ -204,19 +202,19 @@ Beberapa paket perangkat lunak mengimplementasikan mekanisme pewarisan on-chain.
 
 
 
-Liana adalah perangkat lunak desktop (Linux, macOS, Windows) yang menggunakan Miniscript untuk membuat portofolio dengan jalur pemulihan berjangka waktu. Proyek ini dikembangkan oleh Wizardsardine, yang didirikan bersama oleh Antoine Poinsot (kontributor Bitcoin Core).
+Liana adalah software desktop untuk Linux, macOS, dan Windows yang menggunakan Miniscript untuk membuat wallet dengan jalur pemulihan berbasis waktu. Proyek ini dikembangkan oleh Wizardsardine, yang didirikan bersama oleh Antoine Poinsot, seorang kontributor Bitcoin Core.
 
 
 
-**Arsitektur teknis**: Liana membuat portofolio P2WSH (asli SegWit) secara default, dengan dukungan Taproot yang tersedia tergantung pada kompatibilitas perangkat keras wallet Anda. Arsitektur ini didasarkan pada jalur utama dan satu atau lebih jalur pemulihan. Deskriptor yang dihasilkan mengkodekan semua kondisi dan harus disimpan.
+**Arsitektur teknis**: Secara default, Liana membuat wallet P2WSH asli SegWit, dengan dukungan Taproot yang tersedia tergantung pada kompatibilitas hardware wallet kamu. Arsitekturnya didasarkan pada satu jalur utama dan satu atau lebih jalur pemulihan. Deskriptor yang dihasilkan mengodekan seluruh kondisi tersebut dan wajib disimpan dengan aman.
 
 
 
-**Kunci waktu yang digunakan**: Liana menggunakan penguncian waktu relatif (CSV), terbatas pada 65535 blok (~15 bulan). Untuk mempertahankan kontrol, Anda harus melakukan transaksi penyegaran sebelum kunci waktu berakhir.
+**Timelock yang digunakan**: Liana menggunakan timelock relatif CSV, yang dibatasi hingga 65535 blok sekitar 15 bulan. Untuk tetap mempertahankan kontrol, kamu harus melakukan transaksi penyegaran sebelum batas waktu ini berakhir.
 
 
 
-**Integrasi perangkat keras wallet**: BitBox02, Blockstream Jade, Coldcard, Ledger, Specter DIY, dan perangkat lain kompatibel untuk menandatangani transaksi.
+**Integrasi hardware wallet**: BitBox02, Blockstream Jade, Coldcard, Ledger, Specter DIY, serta perangkat lain kompatibel untuk menandatangani transaksi.
 
 
 
@@ -226,15 +224,15 @@ https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 
 
-Bitcoin Keeper adalah aplikasi seluler (iOS, Android) yang menggabungkan multisig dan kunci waktu melalui "Brankas yang Disempurnakan". Pendekatan seluler dengan panduan terintegrasi membuatnya dapat diakses oleh pengguna yang kurang teknis.
+Bitcoin Keeper adalah aplikasi seluler untuk iOS dan Android yang menggabungkan multisig dan timelock melalui fitur "Brankas yang Disempurnakan". Pendekatan berbasis mobile dengan panduan terintegrasi membuatnya lebih mudah diakses oleh pengguna yang kurang teknis.
 
 
 
-**Arsitektur teknis**: Enhanced Vaults menggunakan Miniscript untuk membuat konfigurasi multisig di mana kunci tambahan diaktifkan setelah penundaan yang ditentukan. Kunci Warisan menambah kuorum yang ada, sedangkan Kunci Darurat dapat melewati multisig sepenuhnya.
+**Arsitektur teknis**: Enhanced Vaults menggunakan Miniscript untuk membuat konfigurasi multisig di mana kunci tambahan akan aktif setelah penundaan yang ditentukan. Kunci Warisan menambah kuorum yang sudah ada, sementara Kunci Darurat bisa melewati multisig sepenuhnya.
 
 
 
-**Kunci waktu yang digunakan**: Bitcoin Keeper menggunakan penguncian waktu absolut (CLTV), yang memungkinkan waktu tunggu lebih dari 15 bulan. Tanggal aktivasi ditetapkan pada saat pembuatan wallet dan berlaku untuk semua UTXO. Aplikasi ini menggabungkan fungsi "revaulting" yang secara otomatis mengelola penyegaran: pengguna cukup mengikuti langkah-langkah yang dipandu, tanpa harus membuat wallet baru secara manual.
+**Timelock yang digunakan**: Bitcoin Keeper menggunakan timelock absolut CLTV, yang memungkinkan masa tunggu lebih dari 15 bulan. Tanggal aktivasi ditetapkan saat wallet dibuat dan berlaku untuk semua UTXO. Aplikasi ini juga menyertakan fungsi "revaulting" yang secara otomatis mengelola penyegaran: kamu cukup mengikuti langkah-langkah yang dipandu tanpa perlu membuat wallet baru secara manual.
 
 
 
@@ -250,15 +248,15 @@ https://planb.academy/tutorials/wallet/backup/bitcoin-keeper-inheritance-c656a20
 
 
 
-Heritage adalah sebuah aplikasi desktop yang menggunakan skrip Taproot untuk mengkodekan kondisi warisan. Penggunaan Taproot menawarkan kerahasiaan yang lebih baik, karena jalur yang tidak digunakan tetap tidak terlihat di blockchain.
+Heritage adalah aplikasi desktop yang menggunakan skrip Taproot untuk mengodekan kondisi pewarisan. Penggunaan Taproot memberikan privasi yang lebih baik, karena jalur yang tidak digunakan tetap tersembunyi di blockchain.
 
 
 
-**Arsitektur teknis**: Setiap alamat Warisan mengintegrasikan jalur utama dan jalur alternatif untuk setiap ahli waris, dengan jangka waktu yang progresif. Struktur hirarkis memungkinkan untuk menentukan cadangan pribadi pada 6 bulan dan ahli waris keluarga pada 12-15 bulan.
+**Arsitektur teknis**: Setiap alamat Heritage mengintegrasikan jalur utama dan jalur alternatif untuk masing-masing ahli waris, dengan jangka waktu yang progresif. Struktur hierarkis ini memungkinkan kamu menetapkan cadangan pribadi pada 6 bulan dan ahli waris keluarga pada 12 hingga 15 bulan.
 
 
 
-**Mode penggunaan**: Versi yang berdiri sendiri dengan node Anda sendiri (gratis) atau layanan terkelola yang menambahkan pengingat dan pemberitahuan kepada ahli waris (0,05%/tahun).
+**Mode penggunaan**: Tersedia versi mandiri dengan node kamu sendiri yang gratis, atau layanan terkelola yang menambahkan pengingat serta notifikasi kepada ahli waris dengan biaya 0,05% per tahun.
 
 
 
@@ -268,7 +266,7 @@ https://planb.academy/tutorials/wallet/desktop/heritage-0549701f-2619-4037-ad05-
 
 
 
-Memahami proses pemulihan akan membantu Anda menyiapkan rencana yang efektif. Berikut adalah langkah-langkah teknis yang perlu diikuti oleh ahli waris.
+Memahami proses pemulihan akan membantu kamu menyiapkan rencana yang efektif. Berikut adalah langkah-langkah teknis yang perlu diikuti oleh ahli waris.
 
 
 
@@ -331,10 +329,11 @@ Ahli waris harus memberi perhatian khusus pada :
 
 
 
-- Memeriksa keaslian perangkat lunak yang diunduh** (checksum, tanda tangan)
-- Jangan pernah membagikan frasa pemulihan Anda** dengan siapa pun yang menawarkan bantuan
-- Konsultasikan dengan setidaknya dua orang yang Anda percayai** sebelum melakukan pemulihan
-- Mentransfer dana ke portofolio sederhana** yang ia kendalikan sepenuhnya setelah pemulihan
+- Memeriksa keaslian software yang diunduh** (checksum, tanda tangan)
+- Jangan pernah membagikan seedphrase kamu** kepada siapa pun yang menawarkan bantuan
+- Berkonsultasi dengan setidaknya dua orang yang kamu percaya** sebelum melakukan pemulihan
+- Memindahkan dana ke wallet sederhana** yang sepenuhnya dia kendalikan setelah pemulihan
+
 
 
 
@@ -354,7 +353,7 @@ Jangan pernah menyimpan semua informasi di satu tempat. Deskriptor harus dipisah
 
 
 
-Sebelum menyetorkan dana yang signifikan, uji seluruh proses pemulihan dengan jumlah yang kecil. Pastikan Anda dapat memulihkan portofolio dari deskriptor dan frasa pemulihan pada perangkat kosong. Dokumentasikan langkah-langkah tersebut untuk ahli waris Anda.
+Sebelum menyetorkan dana yang signifikan, uji seluruh proses pemulihan dengan jumlah yang kecil. Pastikan kamu dapat memulihkan portofolio dari deskriptor dan frasa pemulihan pada perangkat kosong. Dokumentasikan langkah-langkah tersebut untuk ahli waris.
 
 
 
@@ -362,7 +361,7 @@ Sebelum menyetorkan dana yang signifikan, uji seluruh proses pemulihan dengan ju
 
 
 
-Rencanakan untuk menyegarkan timelock Anda sebelum masa berlakunya habis. Untuk timelock 12 bulan, lakukan transaksi setiap 9-10 bulan. Perangkat lunak biasanya menawarkan pengingat atau fungsi penyegaran otomatis.
+Rencanakan untuk menyegarkan timelock kamu sebelum masa berlakunya habis. Untuk timelock 12 bulan, lakukan transaksi setiap 9-10 bulan. Perangkat lunak biasanya menawarkan pengingat atau fungsi penyegaran otomatis.
 
 
 
@@ -370,7 +369,7 @@ Rencanakan untuk menyegarkan timelock Anda sebelum masa berlakunya habis. Untuk 
 
 
 
-Konfigurasi Bitcoin Anda berkembang. Setiap perubahan signifikan (portofolio baru, modifikasi tenggat waktu, penambahan pewaris) harus tercermin dalam dokumentasi Anda. Tetapkan rutinitas tinjauan tahunan.
+Konfigurasi Bitcoin kamu akan terus berkembang. Setiap perubahan signifikan seperti wallet baru, perubahan tenggat waktu, atau penambahan ahli waris harus tercermin dalam dokumentasi kamu. Tetapkan rutinitas peninjauan tahunan.
 
 
 
@@ -378,23 +377,23 @@ Konfigurasi Bitcoin Anda berkembang. Setiap perubahan signifikan (portofolio bar
 
 
 
-Pilihan di antara berbagai solusi yang berbeda tergantung pada profil teknis dan kebutuhan spesifik Anda.
+Pilihan di antara berbagai solusi ini bergantung pada profil teknis dan kebutuhan spesifik kamu.
 
 
 
-**Liana** cocok untuk pengguna desktop yang lebih memilih perangkat lunak open source dengan kontrol penuh melalui node mereka sendiri. Konfigurasi tetap dapat diakses berkat antarmuka yang dipandu. Penguncian waktu relatif (CSV) menyederhanakan pemeliharaan, karena aktivitas normal Anda secara otomatis memundurkan tenggat waktu. Batasan: penundaan maksimum sekitar 15 bulan (65535 blok).
+**Liana** cocok untuk pengguna desktop yang lebih memilih software open source dengan kontrol penuh melalui node mereka sendiri. Konfigurasinya tetap mudah diakses berkat antarmuka yang dipandu. Timelock relatif CSV menyederhanakan pemeliharaan, karena aktivitas normal kamu secara otomatis memundurkan tenggat waktu. Batasannya adalah penundaan maksimum sekitar 15 bulan dengan 65535 blok.
 
 
 
-**Bitcoin Keeper** menargetkan pengguna seluler yang mencari antarmuka yang intuitif dengan dokumen penyerta yang terintegrasi. Aplikasi ini menawarkan dua jenis kunci khusus: Kunci Warisan (yang menambah kuorum) dan Kunci Darurat (yang melewatinya sepenuhnya). Penguncian waktu absolut (CLTV) memungkinkan waktu tunggu lebih dari 15 bulan, dengan fungsi penyegaran ulang yang menyederhanakan penyegaran. Paket Diamond Hands membuka fitur-fitur lama yang canggih.
+**Bitcoin Keeper** ditujukan bagi pengguna seluler yang mencari antarmuka intuitif dengan dokumentasi pendamping yang terintegrasi. Aplikasi ini menawarkan dua jenis kunci khusus: Kunci Warisan yang menambah kuorum dan Kunci Darurat yang dapat melewatinya sepenuhnya. Timelock absolut CLTV memungkinkan masa tunggu lebih dari 15 bulan, dengan fungsi penyegaran ulang yang mempermudah proses refresh. Paket Diamond Hands membuka fitur vault tingkat lanjut.
 
 
 
-**Warisan** ditujukan untuk pengguna teknis yang menghargai kerahasiaan Taproot dan pewarisan hirarkis dengan penundaan progresif. Struktur pohon Taproot menyembunyikan kondisi pewarisan selama transaksi normal, hanya mengungkapkan kondisi yang digunakan selama pemulihan.
+**Heritage** dirancang untuk pengguna teknis yang menghargai privasi Taproot dan pewarisan hierarkis dengan penundaan progresif. Struktur pohon Taproot menyembunyikan kondisi pewarisan selama transaksi normal, dan hanya mengungkapkan kondisi yang benar-benar digunakan saat pemulihan.
 
 
 
-Ketiga solusi tersebut memiliki satu kesamaan: mereka memerlukan penyegaran secara berkala untuk mencegah aktivasi jalur pemulihan yang terlalu dini. Kendala ini adalah harga dan jaminan dari warisan on-chain yang tidak terpercaya. Jadwalkan pengingat rutin dan jadikan pemeliharaan ini sebagai bagian dari rutinitas manajemen Bitcoin Anda.
+Ketiga solusi ini memiliki satu kesamaan: semuanya memerlukan penyegaran berkala untuk mencegah aktivasi jalur pemulihan terlalu cepat. Konsekuensi ini adalah harga sekaligus jaminan dari mekanisme pewarisan on-chain tanpa pihak ketiga tepercaya. Jadwalkan pengingat rutin dan jadikan pemeliharaan ini sebagai bagian dari rutinitas manajemen Bitc
 
 
 
@@ -402,15 +401,15 @@ Ketiga solusi tersebut memiliki satu kesamaan: mereka memerlukan penyegaran seca
 
 
 
-Paket warisan Bitcoin teknis menggabungkan mekanisme kriptografi (kunci waktu, Miniscript, Taproot) dengan dokumentasi yang ketat. Dompet tingkat lanjut memungkinkan Anda untuk mengirimkan bitcoin Anda secara otomatis setelah periode tidak aktif, tanpa campur tangan pihak ketiga.
+Paket warisan Bitcoin yang bersifat teknis menggabungkan mekanisme kriptografi seperti timelock, Miniscript, dan Taproot dengan dokumentasi yang disiplin. Wallet tingkat lanjut memungkinkan kamu mewariskan bitcoin secara otomatis setelah periode tidak aktif, tanpa campur tangan pihak ketiga.
 
 
 
-Elemen-elemen penting yang harus diwariskan kepada ahli waris Anda adalah: deskriptor atau file konfigurasi, frasa pemulihannya, instruksi pemulihan yang mendetail, dan rincian kontak orang yang kompeten yang dapat membantu mereka.
+Elemen penting yang harus diwariskan kepada ahli waris kamu meliputi: deskriptor atau file konfigurasi, seedphrase, instruksi pemulihan yang rinci, serta detail kontak orang yang kompeten untuk membantu mereka.
 
 
 
-Mulailah dengan memilih solusi teknis yang sesuai dengan profil Anda, mengujinya dengan jumlah yang kecil, kemudian mendokumentasikan keseluruhannya dalam rencana yang terstruktur. Kompleksitas awal menjamin bahwa aset Bitcoin Anda akan diteruskan dengan penuh keyakinan.
+Mulailah dengan memilih solusi teknis yang sesuai dengan profil kamu, uji dengan jumlah kecil, lalu dokumentasikan seluruhnya dalam rencana yang terstruktur. Kompleksitas di awal menjadi jaminan bahwa aset Bitcoin kamu bisa diwariskan dengan penuh keyakinan.
 
 
 

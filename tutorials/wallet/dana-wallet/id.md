@@ -1,21 +1,20 @@
 ---
 name: Dana Wallet
-description: Portofolio minimalis untuk Pembayaran Diam (BIP-352)
+description: Portofolio minimalis untuk Pembayaran Tersembunyi (BIP-352)
 ---
 
 ![cover](assets/cover.webp)
 
 
 
-Penggunaan kembali alamat Bitcoin adalah salah satu ancaman paling langsung terhadap kerahasiaan pengguna. Ketika seorang penerima berbagi satu alamat untuk menerima banyak pembayaran, pengamat mana pun dapat melacak semua transaksi yang terkait dan merekonstruksi riwayat keuangan mereka. Masalah ini terutama mempengaruhi pembuat konten, badan amal atau aktivis yang ingin menampilkan alamat donasi kepada publik tanpa mengorbankan privasi mereka atau para donatur.
+Penggunaan kembali alamat Bitcoin adalah salah satu ancaman paling langsung terhadap kerahasiaan pengguna. Ketika seorang penerima membagikan satu alamat untuk menerima banyak pembayaran, siapa pun dapat melacak semua transaksi yang terkait dan merekonstruksi riwayat keuangan mereka. Masalah ini terutama memengaruhi pembuat konten, badan amal, atau aktivis yang ingin menampilkan alamat donasi kepada publik tanpa mengorbankan privasi mereka maupun para donatur.
 
 
-
-Dana Wallet menjawab masalah ini dengan solusi yang elegan: Pembayaran Senyap. wallet yang minimalis dan bersumber terbuka, diluncurkan pada tahun 2024, menghasilkan alamat statis yang dapat digunakan kembali sambil menjamin bahwa setiap pembayaran yang diterima berakhir di alamat yang terpisah di blockchain. Pengirim tidak perlu berinteraksi dengan penerima, dan tidak ada pengamat eksternal yang dapat menghubungkan setiap transaksi secara bersamaan. Pada blockchain, pembayaran ini terlihat seperti transaksi Taproot biasa.
-
+Dana Wallet menjawab masalah ini dengan solusi yang elegan: Pembayaran Senyap. Wallet yang minimalis dan bersumber terbuka ini, diluncurkan pada tahun 2024, menghasilkan alamat statis yang dapat digunakan kembali sambil menjamin bahwa setiap pembayaran yang diterima berakhir di alamat terpisah di blockchain. Pengirim tidak perlu berinteraksi dengan penerima, dan tidak ada pengamat eksternal yang dapat mengaitkan setiap transaksi satu sama lain. Di blockchain, pembayaran ini terlihat seperti transaksi Taproot biasa.
 
 
-Dana Wallet tersedia di Mainnet dan Signet, tetapi para pengembang masih menganggapnya sebagai eksperimental dan merekomendasikan untuk tidak mendepositkan dana yang Anda tidak siap untuk kehilangannya. Dalam tutorial ini, kita akan menggunakan versi Signet untuk menemukan Pembayaran Diam tanpa mempertaruhkan dana sungguhan.
+Dana Wallet tersedia di Mainnet dan Signet, tetapi para pengembangnya masih menganggapnya sebagai eksperimental dan menyarankan agar kamu tidak mendepositkan dana yang tidak siap untuk kamu kehilangan. Dalam tutorial ini, kita akan menggunakan versi Signet untuk mencoba Pembayaran Senyap tanpa mempertaruhkan dana sungguhan.
+
 
 
 
@@ -26,12 +25,12 @@ Dana Wallet tersedia di Mainnet dan Signet, tetapi para pengembang masih mengang
 ### Filosofi dan tujuan
 
 
-
-Dana Wallet mengadopsi pendekatan "SP-first": wallet menghasilkan alamat Pembayaran Diam secara eksklusif, dan hanya menerima jenis pembayaran ini. Anda tidak akan dapat membuat alamat Bitcoin klasik (standar lama, SegWit atau Taproot) dengan aplikasi ini. Pembatasan yang disengaja ini memungkinkan Anda untuk berkonsentrasi penuh dalam mempelajari protokol BIP-352 tanpa terganggu oleh fitur lain. Antarmuka yang tidak berantakan dengan sengaja mengutamakan kemudahan penggunaan daripada opsi yang banyak, membuat alat ini dapat diakses bahkan oleh pengguna yang baru mengenal konsep kerahasiaan on-chain.
-
+Dana Wallet mengadopsi pendekatan "SP-first": wallet ini menghasilkan alamat Pembayaran Senyap secara eksklusif, dan hanya menerima jenis pembayaran tersebut. Kamu tidak akan bisa membuat alamat Bitcoin klasik (standar lama, SegWit, atau Taproot) dengan aplikasi ini. Pembatasan yang disengaja ini memungkinkan kamu untuk fokus penuh mempelajari protokol BIP-352 tanpa terganggu oleh fitur lain. Antarmuka yang sederhana sengaja mengutamakan kemudahan penggunaan daripada opsi yang banyak, sehingga alat ini dapat diakses bahkan oleh pengguna yang baru mengenal konsep kerahasiaan on-chain.
 
 
-Proyek ini sepenuhnya bersifat open-source, dikembangkan dengan Flutter untuk antarmuka seluler dan Rust untuk logika kriptografi internal. Arsitektur ini menggabungkan pengalaman pengguna yang lancar dengan kinerja optimal untuk operasi pemindaian intensif.
+
+Proyek ini sepenuhnya bersifat open-source, dikembangkan dengan Flutter untuk antarmuka seluler dan Rust untuk logika kriptografi internal. Arsitektur ini menggabungkan pengalaman pengguna yang lancar dengan kinerja optimal untuk operasi pemindaian yang intensif.
+
 
 
 
@@ -39,15 +38,15 @@ Proyek ini sepenuhnya bersifat open-source, dikembangkan dengan Flutter untuk an
 
 
 
-Pembayaran Senyap (BIP-352) didasarkan pada mekanisme kriptografi yang canggih dengan menggunakan Elliptic Curve Diffie-Hellman Key Exchange (ECDH). Penerima menghasilkan alamat statis (dimulai dengan `sp1...` pada mainnet atau `tsp1...` pada Signet) yang terdiri dari dua kunci publik yang berbeda: kunci pemindaian ($B_{scan}$) untuk mendeteksi pembayaran yang masuk, dan kunci pengeluaran ($B_{spend}$) untuk membelanjakan dana yang diterima. Pemisahan ini memungkinkan untuk menyimpan kunci pengeluaran pada perangkat keras wallet sementara menggunakan kunci pemindaian pada perangkat yang terhubung.
+Pembayaran Tersembunyi (BIP-352) didasarkan pada mekanisme kriptografi canggih menggunakan Elliptic Curve Diffie-Hellman Key Exchange (ECDH). Penerima menghasilkan alamat statis (dimulai dengan `sp1...` di mainnet atau `tsp1...` di Signet) yang terdiri dari dua kunci publik berbeda: kunci pemindaian ($B_{scan}$) untuk mendeteksi pembayaran yang masuk, dan kunci pengeluaran ($B_{spend}$) untuk membelanjakan dana yang diterima. Pemisahan ini memungkinkan kamu menyimpan kunci pengeluaran di perangkat keras wallet sementara kunci pemindaian digunakan di perangkat yang terhubung.
 
 
 
-Ketika pengirim ingin melakukan pembayaran, wallet-nya menggabungkan jumlah dari kunci privat masukannya dengan kunci pemindaian publik penerima untuk menghitung rahasia ECDH bersama. Rahasia ini menghasilkan "tweak" kriptografi yang, ditambahkan ke kunci pengeluaran penerima, menciptakan alamat Taproot yang unik untuk transaksi tersebut.
+Ketika pengirim ingin melakukan pembayaran, wallet-nya menggabungkan jumlah dari kunci privat masukannya dengan kunci pemindaian publik penerima untuk menghitung rahasia ECDH bersama. Rahasia ini menghasilkan "tweak" kriptografi yang, ketika ditambahkan ke kunci pengeluaran penerima, menciptakan alamat Taproot unik untuk transaksi tersebut.
 
 
 
-Penerima dapat mereproduksi perhitungan ini dengan menggunakan kunci pemindaian pribadinya dan kunci publik yang terlihat dalam transaksi (properti matematika Diffie-Hellman). Hal ini memungkinkannya untuk mendeteksi dan membelanjakan dana tanpa interaksi dengan pengirim.
+Penerima dapat mereproduksi perhitungan ini dengan menggunakan kunci pemindaian pribadinya dan kunci publik yang terlihat dalam transaksi (berkat properti matematika Diffie-Hellman). Hal ini memungkinkan penerima untuk mendeteksi dan membelanjakan dana tanpa perlu berinteraksi dengan pengirim.
 
 
 
@@ -56,10 +55,10 @@ Pendekatan ini menawarkan beberapa keuntungan:
 
 
 
-- Kerahasiaan penerima**: setiap pembayaran berakhir di alamat yang berbeda
-- Kerahasiaan pengirim**: tidak ada pengenal persisten yang menghubungkan pembayaran
-- Tidak ada server pihak ketiga**: protokol beroperasi secara mandiri
-- Transaksi yang tidak dapat dibedakan**: Pembayaran Diam terlihat seperti transaksi Taproot biasa
+- **Kerahasiaan penerima**: setiap pembayaran berakhir di alamat yang berbeda  
+- **Kerahasiaan pengirim**: tidak ada pengenal persisten yang menghubungkan pembayaran  
+- **Tidak ada server pihak ketiga**: protokol beroperasi secara mandiri  
+- **Transaksi yang tidak dapat dibedakan**: Pembayaran Senyap terlihat seperti transaksi Taproot biasa  
 
 
 
@@ -67,7 +66,8 @@ Kelemahan utamanya adalah biaya pemindaian: penerima harus menganalisis setiap t
 
 
 
-Jika Anda ingin mempelajari lebih lanjut mengenai pengoperasian teknis Pembayaran Senyap, kami merekomendasikan kursus BTC204 tentang kerahasiaan di Bitcoin, yang mencakup satu bab yang didedikasikan untuk Pembayaran Senyap:
+Jika kamu ingin mempelajari lebih lanjut mengenai pengoperasian teknis Pembayaran Senyap, kami merekomendasikan kursus BTC204 tentang kerahasiaan di Bitcoin, yang mencakup satu bab khusus untuk Pembayaran Tersembunyi.
+
 
 
 
@@ -76,12 +76,12 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ## Platform yang didukung
 
 
-
 Dana Wallet tersedia sebagai aplikasi Android. APK dapat diunduh melalui repositori F-Droid khusus yang disediakan oleh pengembang, melalui Obtainium, atau langsung dari GitHub. Untuk pengguna Linux, secara teknis memungkinkan untuk mengkompilasi aplikasi Flutter untuk desktop.
 
 
 
-Aplikasi ini tidak tersedia di iOS atau melalui toko resmi (Google Play, App Store), yang mencerminkan status eksperimental dan fokusnya pada audiens teknis.
+Aplikasi ini tidak tersedia di iOS atau melalui toko resmi (Google Play, App Store), yang mencerminkan status eksperimental dan fokusnya pada pengguna dengan latar belakang teknis.
+
 
 
 
@@ -93,7 +93,7 @@ Aplikasi ini tidak tersedia di iOS atau melalui toko resmi (Google Play, App Sto
 
 
 
-Untuk menginstal Dana Wallet di Android, Anda membutuhkan perangkat Android dengan opsi "Sumber tidak dikenal" yang diaktifkan di pengaturan keamanan. Tidak diperlukan akun atau pendaftaran.
+Untuk menginstal Dana Wallet di Android, kamu membutuhkan perangkat Android dengan opsi "Sumber tidak dikenal" yang diaktifkan di pengaturan keamanan. Tidak diperlukan akun atau pendaftaran.
 
 
 
@@ -133,14 +133,14 @@ Saat pertama kali diluncurkan, Dana Wallet menampilkan layar selamat datang yang
 
 
 
-
-- Donasi yang mudah**: mulai menerima donasi dalam hitungan detik
-- Privasi secara default**: tidak perlu server atau infrastruktur yang rumit
-- Pengalaman seperti email**: mengirim dan menerima bitcoin semudah email
-
+- **Donasi yang mudah**: mulai menerima donasi dalam hitungan detik  
+- **Privasi secara default**: tidak perlu server atau infrastruktur yang rumit  
+- **Pengalaman seperti email**: mengirim dan menerima Bitcoin semudah email  
 
 
-Anda dapat memilih antara "Restore" untuk memulihkan portofolio yang sudah ada atau "Create new wallet" untuk membuat portofolio baru. Tekan "Buat wallet baru".
+
+Kamu dapat memilih antara "Restore" untuk memulihkan wallet yang sudah ada atau "Create new wallet" untuk membuat wallet baru. Tekan "Buat wallet baru".
+
 
 
 
@@ -156,23 +156,20 @@ Aplikasi ini kemudian menghasilkan frasa pemulihan, yang harus Anda catat dengan
 
 
 
-Setelah portofolio dibuat, Anda akan dibawa ke antarmuka utama, yang dibagi menjadi dua tab: "Bertransaksi" dan "Pengaturan".
+Setelah wallet dibuat, kamu akan dibawa ke antarmuka utama, yang dibagi menjadi dua tab: "Bertransaksi" dan "Pengaturan".
 
 
 
-Tab **Transaksi** menampilkan saldo bitcoin Anda (dan konversinya ke dolar), daftar transaksi terbaru, dan dua tombol aksi: "Bayar" untuk mengirim dana, dan tombol terima (ikon unduh).
+Tab **Transaksi** menampilkan saldo Bitcoin kamu (dan konversinya ke dolar), daftar transaksi terbaru, dan dua tombol aksi: "Bayar" untuk mengirim dana, dan tombol terima (ikon unduh).
 
 
 
 Tab **Pengaturan** menawarkan empat opsi:
 
-
-
-
-- Tampilkan frasa seed**: menampilkan frasa pemulihan Anda untuk disimpan
-- Ubah mata uang fiat**: mengubah mata uang tampilan (USD secara default)
-- Atur url backend**: konfigurasikan URL server Blindbit (lihat bagian selanjutnya)
-- Bersihkan wallet**: menghapus sepenuhnya wallet dari perangkat
+- **Tampilkan seedphrase**: menampilkan frasa pemulihan kamu untuk disimpan  
+- **Ubah mata uang fiat**: mengubah mata uang tampilan (USD secara default)  
+- **Atur URL backend**: konfigurasikan URL server Blindbit (lihat bagian selanjutnya)  
+- **Bersihkan wallet**: menghapus sepenuhnya wallet dari perangkat
 
 
 
@@ -184,7 +181,7 @@ Tab **Pengaturan** menawarkan empat opsi:
 
 
 
-Dana Wallet menggunakan server pengindeksan yang disebut **Blindbit** untuk mendeteksi Pembayaran Diam Anda. Memahami cara kerjanya penting untuk mengevaluasi model kepercayaan aplikasi.
+Dana Wallet menggunakan server pengindeksan yang disebut **Blindbit** untuk mendeteksi Pembayaran Tersembunyi kamu. Memahami cara kerjanya penting untuk mengevaluasi model kepercayaan aplikasi.
 
 
 
@@ -192,11 +189,12 @@ Dana Wallet menggunakan server pengindeksan yang disebut **Blindbit** untuk mend
 
 
 
-Untuk mendeteksi Pembayaran Senyap, wallet Anda secara teoritis harus memindai semua transaksi Taproot di setiap blok dan melakukan penghitungan kriptografi (ECDH) untuk setiap transaksi. Pada ponsel, operasi ini akan terlalu banyak menggunakan komputasi dan bandwidth.
+Untuk mendeteksi Pembayaran Senyap, wallet kamu secara teori harus memindai semua transaksi Taproot di setiap blok dan melakukan perhitungan kriptografi (ECDH) untuk setiap transaksi. Di ponsel, operasi ini akan terlalu banyak memakan sumber daya komputasi dan bandwidth.
 
 
 
-Server Blindbit memecahkan masalah ini dengan melakukan pra-perhitungan data perantara (disebut "tweak") untuk semua transaksi Taproot. wallet Anda kemudian mengunduh tweak ini (33 byte per transaksi) dan melakukan penghitungan akhir **secara lokal** untuk memeriksa apakah pembayaran adalah milik Anda.
+Server Blindbit memecahkan masalah ini dengan melakukan pra-perhitungan data perantara (disebut "tweak") untuk semua transaksi Taproot. Wallet kamu kemudian mengunduh tweak ini (33 byte per transaksi) dan melakukan perhitungan akhir **secara lokal** untuk memeriksa apakah pembayaran tersebut milik kamu.
+
 
 
 
@@ -204,7 +202,7 @@ Server Blindbit memecahkan masalah ini dengan melakukan pra-perhitungan data per
 
 
 
-Tidak seperti server Electrum konvensional di mana Anda mengungkapkan alamat Anda, server Blindbit tidak mengetahui pembayaran mana yang menjadi milik Anda. Server ini menyediakan data yang sama untuk semua pengguna, dan ponsel Anda yang melakukan verifikasi akhir. Oleh karena itu, kerahasiaan Anda tetap terjaga terhadap server.
+Tidak seperti server Electrum konvensional di mana kamu mengungkapkan alamat kamu, server Blindbit tidak mengetahui pembayaran mana yang milik kamu. Server ini menyediakan data yang sama untuk semua pengguna, dan ponsel kamu melakukan verifikasi akhir. Dengan begitu, kerahasiaan kamu tetap terjaga terhadap server.
 
 
 
@@ -212,7 +210,7 @@ Tidak seperti server Electrum konvensional di mana Anda mengungkapkan alamat And
 
 
 
-Dana Wallet menggunakan server publik `silentpayments.dev/blindbit/signet` (untuk Signet) atau `silentpayments.dev/blindbit/mainnet` (untuk Mainnet). Anda dapat mengubah URL ini di pengaturan jika Anda meng-host server Anda sendiri.
+Dana Wallet menggunakan server publik `silentpayments.dev/blindbit/signet` (untuk Signet) atau `silentpayments.dev/blindbit/mainnet` (untuk Mainnet). Kamu dapat mengubah URL ini di pengaturan jika kamu meng-host server sendiri.
 
 
 
@@ -244,18 +242,17 @@ Belum ada aplikasi paket yang tersedia untuk Umbrel atau Start9. Instalasi tetap
 
 
 
-Untuk menerima bitcoin, tekan tombol terima (ikon unduh) dari layar utama. Dana Wallet kemudian menampilkan alamat lengkap Pembayaran Diam Anda dalam format `tsp1q...` pada Bookmark. Antarmuka menawarkan beberapa opsi:
+Untuk menerima Bitcoin, tekan tombol terima (ikon unduh) dari layar utama. Dana Wallet kemudian menampilkan alamat lengkap Pembayaran Senyap kamu dalam format `tsp1q...` pada Bookmark. Antarmuka menawarkan beberapa opsi:
 
 
 
-
-- Tampilkan kode QR**: menampilkan kode QR alamat Anda untuk memudahkan pemindaian
-- Bagikan**: bagikan alamat melalui aplikasi ponsel Anda
-- Salin**: menyalin alamat ke papan klip
-
+- **Tampilkan kode QR**: menampilkan kode QR alamat kamu untuk memudahkan pemindaian  
+- **Bagikan**: bagikan alamat melalui aplikasi ponsel kamu  
+- **Salin**: menyalin alamat ke papan klip  
 
 
-Seperti yang ditunjukkan di layar, Anda dapat membagikan alamat ini secara publik di jejaring sosial Anda tanpa mengorbankan privasi Anda.
+
+Seperti yang ditunjukkan di layar, kamu dapat membagikan alamat ini secara publik di jejaring sosial tanpa mengorbankan privasi kamu.
 
 
 
@@ -263,7 +260,7 @@ Seperti yang ditunjukkan di layar, Anda dapat membagikan alamat ini secara publi
 
 
 
-Untuk mendapatkan dana uji coba pertama Anda di Signet, gunakan faucet khusus Silent Payments yang dapat diakses di `silentpayments.dev/faucet/signet`. Salin alamat Anda `tsp1...`, tempelkan di kolom yang tersedia di faucet, lalu validasi permintaan. Tunggu hingga blok ditambang (sekitar 10 menit di Signet).
+Untuk mendapatkan dana uji coba pertama kamu di Signet, gunakan faucet khusus Silent Payments yang dapat diakses di `silentpayments.dev/faucet/signet`. Salin alamat Anda `tsp1...`, tempelkan di kolom yang tersedia di faucet, lalu validasi permintaan. Tunggu hingga blok ditambang (sekitar 10 menit di Signet).
 
 
 
@@ -282,7 +279,7 @@ Untuk mengirim dana, tekan tombol "Bayar" dari layar utama. Layar "Pilih penerim
 
 
 
-Setelah alamat penerima divalidasi, layar "Masukkan jumlah" memungkinkan Anda memasukkan jumlah yang akan dikirim dalam satoshi. Saldo Anda yang tersedia akan ditampilkan sebagai referensi. Tekan "Lanjutkan ke pemilihan biaya" untuk melanjutkan.
+Setelah alamat penerima divalidasi, layar "Masukkan jumlah" memungkinkanmu memasukkan jumlah yang akan dikirim dalam satoshi. Saldo yang tersedia akan ditampilkan sebagai referensi. Tekan "Lanjutkan ke pemilihan biaya" untuk melanjutkan.
 
 
 
@@ -294,18 +291,17 @@ Layar berikutnya menunjukkan tiga tingkat biaya, tergantung pada urgensi yang di
 
 
 
-
-- Cepat** (10-30 menit): biaya lebih tinggi untuk konfirmasi cepat
-- Normal** (30-60 menit): biaya sedang
-- Lambat** (1+ jam): biaya minimum untuk transaksi yang tidak mendesak
-
-
-
-Setelah memilih tingkat biaya, layar konfirmasi "Siap mengirim?" akan merangkum semua rincian: alamat tujuan, jumlah, perkiraan waktu dan biaya transaksi. Periksa informasi ini dengan cermat, lalu tekan "Kirim" untuk mengirim transaksi.
+- **Cepat** (10-30 menit): biaya lebih tinggi untuk konfirmasi cepat  
+- **Normal** (30-60 menit): biaya sedang  
+- **Lambat** (1+ jam): biaya minimum untuk transaksi yang tidak mendesak  
 
 
 
-Setelah terkirim, transaksi akan muncul di riwayat transaksi Anda dengan status "Belum Dikonfirmasi" hingga transaksi tersebut dimasukkan ke dalam blokir. Saldo Anda akan diperbarui.
+Setelah memilih tingkat biaya, layar konfirmasi "Siap mengirim?" akan merangkum semua rincian: alamat tujuan, jumlah, perkiraan waktu, dan biaya transaksi. Periksa informasi ini dengan cermat, lalu tekan "Kirim" untuk menyelesaikan transaksi.
+
+
+
+Setelah terkirim, transaksi akan muncul di riwayat transaksi kamu dengan status "Belum Dikonfirmasi" hingga transaksi tersebut dimasukkan ke dalam blok. Saldo kamu akan diperbarui.
 
 
 
@@ -323,11 +319,11 @@ Setelah terkirim, transaksi akan muncul di riwayat transaksi Anda dengan status 
 
 
 
-- Pedagogis**: antarmuka yang disederhanakan yang berfokus pada pembelajaran Pembayaran Diam
-- Dua arah**: mendukung pengiriman dan penerimaan, tidak seperti portofolio lainnya
-- Sumber terbuka**: kode yang dapat diaudit sepenuhnya di GitHub
-- Faucet khusus**: memudahkan untuk mendapatkan pendanaan pengujian
-- Tanpa akun**: tidak perlu registrasi atau data pribadi
+- **Pedagogis**: antarmuka yang disederhanakan yang berfokus pada pembelajaran Pembayaran Senyap  
+- **Dua arah**: mendukung pengiriman dan penerimaan, tidak seperti wallet lainnya  
+- **Open-source**: kode yang dapat diaudit sepenuhnya di GitHub  
+- **Faucet khusus**: memudahkan untuk mendapatkan dana pengujian  
+- **Tanpa akun**: tidak perlu registrasi atau data pribadi
 
 
 
@@ -337,10 +333,10 @@ Setelah terkirim, transaksi akan muncul di riwayat transaksi Anda dengan status 
 
 
 
-- Eksperimental**: perangkat lunak yang belum diaudit, gunakan dengan hati-hati pada Mainnet
-- Platform terbatas**: terutama Android, tidak ada versi iOS
-- Fungsionalitas yang dikurangi**: tidak ada kontrol koin, tidak ada sub-akun, tidak ada Lightning
-- Pemindaian intensif**: deteksi pembayaran menghabiskan sumber daya yang signifikan
+- **Eksperimental**: perangkat lunak yang belum diaudit, gunakan dengan hati-hati di Mainnet  
+- **Platform terbatas**: terutama Android, tidak ada versi iOS  
+- **Fungsionalitas yang dikurangi**: tidak ada kontrol koin, tidak ada sub-wallet, tidak mendukung Lightning  
+- **Pemindaian intensif**: deteksi pembayaran menghabiskan sumber daya yang signifikan
 
 
 
@@ -352,7 +348,7 @@ Setelah terkirim, transaksi akan muncul di riwayat transaksi Anda dengan status 
 
 
 
-Bahkan untuk tes Signet dengan latar belakang yang tidak berarti, perlakukan frasa pemulihan Anda dengan serius. Gunakan opsi "Tampilkan frasa seed" dalam pengaturan untuk menuliskannya dengan hati-hati. Sebagai praktik yang baik, simpanlah wallet yang benar-benar terpisah untuk Signet dan Mainnet: jangan pernah menggunakan seed yang dibuat untuk pengujian pada wallet yang dimaksudkan untuk menerima dana sungguhan.
+Bahkan untuk tes Signet dengan latar belakang yang tidak berarti, perlakukan seedphrase kamu dengan serius. Gunakan opsi "Tampilkan seedphrase" di pengaturan untuk menuliskannya dengan hati-hati. Sebagai praktik yang baik, simpan wallet yang benar-benar terpisah untuk Signet dan Mainnet: jangan pernah menggunakan seed yang dibuat untuk pengujian pada wallet yang dimaksudkan untuk menerima dana sungguhan.
 
 
 
@@ -360,7 +356,7 @@ Bahkan untuk tes Signet dengan latar belakang yang tidak berarti, perlakukan fra
 
 
 
-Dana Wallet masih dianggap eksperimental oleh pengembangnya. Seperti yang mereka nyatakan dengan jelas: "Jangan gunakan dana yang Anda tidak rela kehilangannya". Untuk tujuan pembelajaran, pilihlah versi Signet. Jika Anda menggunakan versi Mainnet, batasi diri Anda pada jumlah token.
+Dana Wallet masih dianggap eksperimental oleh pengembangnya. Seperti yang mereka nyatakan dengan jelas: "Jangan gunakan dana yang kamu tidak rela kehilangannya". Untuk tujuan pembelajaran, pilihlah versi Signet. Jika kamu menggunakan versi Mainnet, batasi diri pada jumlah token.
 
 
 
@@ -368,7 +364,7 @@ Dana Wallet masih dianggap eksperimental oleh pengembangnya. Seperti yang mereka
 
 
 
-Pemulihan dana Silent Payments membutuhkan wallet yang kompatibel dengan protokol BIP-352. wallet standar tidak dapat memindai blockchain untuk mengambil Silent Payments UTXO Anda. Tetap pasang Dana Wallet atau gunakan opsi "Pulihkan" pada saat pertama kali diluncurkan untuk memulihkan wallet yang sudah ada.
+Pemulihan dana Pembayaran Senyap membutuhkan wallet yang kompatibel dengan protokol BIP-352. Wallet standar tidak dapat memindai blockchain untuk mengambil UTXO Pembayaran Senyap kamu. Pastikan tetap memasang Dana Wallet atau gunakan opsi "Pulihkan" saat pertama kali diluncurkan untuk memulihkan wallet yang sudah ada.
 
 
 
@@ -392,11 +388,12 @@ Pembayaran Senyap menghilangkan transaksi notifikasi BIP-47 dengan biaya peminda
 
 
 
-Dana Wallet adalah alat pendidikan yang berharga untuk belajar tentang Pembayaran Senyap dalam lingkungan yang bebas risiko. Pendekatannya yang minimalis memungkinkan Anda untuk memahami mekanisme fundamental protokol BIP-352 tanpa terganggu oleh fitur-fitur sekunder. Dengan bereksperimen dengan Signet, Anda akan mengembangkan pemahaman praktis tentang teknologi yang menjanjikan untuk kerahasiaan transaksi Bitcoin ini.
+Dana Wallet adalah alat pendidikan yang berharga untuk belajar tentang Pembayaran Senyap dalam lingkungan yang bebas risiko. Pendekatannya yang minimalis memungkinkan kamu memahami mekanisme fundamental protokol BIP-352 tanpa terganggu oleh fitur-fitur tambahan. Dengan bereksperimen di Signet, kamu akan mengembangkan pemahaman praktis tentang teknologi yang menjanjikan untuk kerahasiaan transaksi Bitcoin ini.
 
 
 
-Silent Payments merupakan sebuah langkah maju yang signifikan dalam mendamaikan kemudahan penggunaan dan penghormatan terhadap privasi. Antusiasme komunitas dan integrasi pertama ke berbagai dompet (Cake Wallet, BitBox02, BlueWallet untuk pengiriman) menunjukkan masa depan di mana mempublikasikan alamat donasi tidak lagi membahayakan privasi keuangan pemiliknya.
+Pembayaran Senyap merupakan langkah maju yang signifikan dalam mendamaikan kemudahan penggunaan dan penghormatan terhadap privasi. Antusiasme komunitas dan integrasi pertama ke berbagai wallet (Cake Wallet, BitBox02, BlueWallet untuk pengiriman) menunjukkan masa depan di mana mempublikasikan alamat donasi tidak lagi membahayakan privasi keuangan pemiliknya.
+
 
 
 

@@ -1,50 +1,55 @@
 ---
 name: Frase Mnemonik - Lemparan Dadu
-description: Bagaimana cara menghasilkan frase pemulihan Anda sendiri dengan dadu?
+description: Bagaimana cara menghasilkan frase pemulihan kamu sendiri dengan dadu?
 ---
 
 ![cover](assets/cover.webp)
 
-Dalam tutorial ini, Anda akan belajar bagaimana cara membuat frase pemulihan untuk dompet Bitcoin secara manual menggunakan lemparan dadu.
+Dalam tutorial ini, kamu akan belajar bagaimana cara membuat seed phrase untuk dompet Bitcoin secara manual menggunakan lemparan dadu.
 
-**PERINGATAN:** Menghasilkan frase mnemonik secara aman memerlukan tidak meninggalkan jejak digital selama pembuatannya, yang hampir mustahil. Jika tidak, dompet tersebut akan menampilkan permukaan serangan yang terlalu besar, secara signifikan meningkatkan risiko bitcoin Anda dicuri. **Oleh karena itu, sangat disarankan untuk tidak mentransfer dana ke dompet yang bergantung pada frase pemulihan yang Anda hasilkan sendiri.** Meskipun Anda mengikuti tutorial ini dengan tepat, masih ada risiko bahwa frase pemulihan bisa dikompromikan. **Oleh karena itu, tutorial ini seharusnya tidak diterapkan untuk pembuatan dompet nyata.** Menggunakan dompet perangkat keras untuk tugas ini jauh lebih aman, karena menghasilkan frase secara offline, dan kriptografer sebenarnya telah mempertimbangkan penggunaan sumber entropi kualitatif.
+**PERINGATAN:** Menghasilkan seed phrase secara aman mengharuskan kamu tidak meninggalkan jejak digital selama proses pembuatannya, yang hampir mustahil dilakukan. Jika tidak, dompet tersebut akan memiliki permukaan serangan yang terlalu besar, sehingga secara signifikan meningkatkan risiko bitcoin kamu dicuri. **Oleh karena itu, sangat disarankan untuk tidak mentransfer dana ke dompet yang bergantung pada seed phrase yang kamu hasilkan sendiri.** Meskipun kamu mengikuti tutorial ini dengan tepat, tetap ada risiko bahwa seed phrase bisa dikompromikan. **Karena itu, tutorial ini tidak boleh diterapkan untuk pembuatan dompet nyata.** Menggunakan hardware wallet untuk tugas ini jauh lebih aman, karena perangkat tersebut menghasilkan seed phrase secara offline, dan para kriptografer telah mempertimbangkan penggunaan sumber entropi yang andal.
 
-Tutorial ini hanya dapat diikuti untuk tujuan eksperimental saja untuk pembuatan dompet fiktif, tanpa niat menggunakan itu dengan bitcoin nyata. Namun, pengalaman ini menawarkan dua manfaat:
+Tutorial ini hanya boleh diikuti untuk tujuan eksperimental dalam pembuatan dompet fiktif, tanpa niat menggunakannya dengan bitcoin nyata. Namun, pengalaman ini menawarkan dua manfaat:
 
-- Pertama, ini memungkinkan Anda untuk lebih memahami mekanisme dasar dompet Bitcoin Anda;
-- Kedua, ini memungkinkan Anda untuk tahu bagaimana melakukannya. Saya tidak mengatakan ini akan berguna suatu hari, tapi mungkin!
+- Pertama, ini memungkinkan kamu untuk lebih memahami mekanisme dasar dompet Bitcoin kamu;
+- Kedua, ini membuat kamu tahu bagaimana melakukannya. Aku tidak mengatakan ini pasti akan berguna suatu hari nanti, tapi siapa tahu!
 
 ## Apa itu frase mnemonik?
 
-Frase pemulihan, juga terkadang disebut "mnemonik," "frase benih," atau "frase rahasia," adalah urutan yang biasanya terdiri dari 12 atau 24 kata, yang dihasilkan secara pseudo-acak dari sumber entropi. Urutan pseudo-acak selalu dilengkapi dengan checksum.
+Seed phrase, yang juga terkadang disebut "mnemonik," "seedphrase," atau "frase rahasia," adalah urutan yang biasanya terdiri dari 12 atau 24 kata, yang dihasilkan secara pseudo-acak dari sumber entropi. Urutan pseudo-acak ini selalu dilengkapi dengan checksum.
 
-Frase mnemonik, bersama dengan passphrase opsional, digunakan untuk menurunkan semua kunci yang terkait dengan dompet HD (Hierarchical Deterministic) secara deterministik. Ini berarti bahwa dari frase ini, dimungkinkan untuk menghasilkan dan merekreasi semua kunci privat dan publik dari dompet Bitcoin, dan akibatnya, mengakses dana yang terkait dengannya.
+Frase mnemonik, bersama dengan passphrase opsional, digunakan untuk menurunkan semua kunci yang terkait dengan dompet HD (Hierarchical Deterministic) secara deterministik. Artinya, dari frasa ini kamu bisa menghasilkan dan merekonstruksi semua kunci privat dan publik dari dompet Bitcoin, dan pada akhirnya mengakses dana yang terkait dengannya.
+
 ![mnemonic](assets/notext/1.webp)
-Tujuan dari kalimat ini adalah untuk menyediakan sarana cadangan dan pemulihan bitcoin yang mudah digunakan. Sangat penting untuk menjaga frase mnemonik di tempat yang aman dan terlindungi, karena siapa pun yang memiliki frase ini akan memiliki akses ke dana dari dompet yang sesuai. Jika digunakan dalam konteks dompet tradisional, dan tanpa passphrase opsional, seringkali merupakan SPOF (Single Point Of Failure).
-Biasanya, frase ini diberikan langsung kepada Anda saat membuat dompet, oleh perangkat lunak atau dompet perangkat keras yang digunakan. Namun, juga mungkin untuk menghasilkan frase ini sendiri, dan kemudian memasukkannya pada dukungan yang dipilih untuk menurunkan kunci dompet. Inilah yang akan kita pelajari untuk dilakukan dalam tutorial ini.
+Tujuan dari frasa ini adalah untuk menyediakan cara pencadangan dan pemulihan bitcoin yang mudah digunakan. Sangat penting untuk menyimpan frase mnemonik di tempat yang aman dan terlindungi, karena siapa pun yang memiliki frasa ini akan memiliki akses ke dana dari dompet yang terkait. Jika digunakan dalam konteks dompet tradisional, dan tanpa passphrase opsional, frasa ini sering kali menjadi SPOF (Single Point Of Failure).
+
+Biasanya, frasa ini diberikan langsung kepadamu saat membuat dompet, baik oleh perangkat lunak maupun hardware wallet yang digunakan. Namun, kamu juga bisa menghasilkan frasa ini sendiri, lalu memasukkannya ke media yang kamu pilih untuk menurunkan kunci dompet. Itulah yang akan kita pelajari dalam tutorial ini.
 
 ## Persiapan bahan yang diperlukan
 
-Untuk pembuatan frase pemulihan Anda secara manual, Anda akan memerlukan:
+Untuk membuat seed phrase secara manual, kamu akan membutuhkan:
 
 - Selembar kertas;
-- Sebuah pena atau pensil, idealnya dengan warna yang berbeda untuk memudahkan organisasi;
+- Pena atau pensil, idealnya dengan warna berbeda agar lebih mudah diatur;
 - Beberapa dadu, untuk meminimalkan risiko bias yang terkait dengan dadu yang tidak seimbang;
+
 - [Daftar 2048 kata BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/wallet/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf) yang dicetak.
 
-Selanjutnya, penggunaan komputer dengan terminal akan menjadi perlu untuk perhitungan checksum. Ini adalah alasan tepat mengapa saya menyarankan terhadap generasi manual frase mnemonik. Menurut saya, intervensi komputer, bahkan di bawah tindakan pencegahan yang disebutkan dalam tutorial ini, secara signifikan meningkatkan kerentanan dompet.
-Untuk pendekatan eksperimental mengenai "dompet fiktif", Anda dapat menggunakan komputer biasa dan terminalnya. Namun, untuk pendekatan yang lebih ketat yang bertujuan untuk membatasi risiko kompromi frasa Anda, idealnya adalah menggunakan PC yang terputus dari internet (lebih disukai tanpa komponen wifi atau koneksi kabel RJ45), dilengkapi dengan minimum periferal (semua harus terhubung melalui kabel, untuk menghindari Bluetooth), dan yang terpenting, berjalan pada distribusi Linux amnesik seperti [Tails](https://tails.boum.org/index.fr.html), yang dimulai dari media yang dapat dilepas.
+Selanjutnya, kamu perlu menggunakan komputer dengan terminal untuk menghitung checksum. Inilah alasan utama kenapa aku tidak menyarankan pembuatan seed phrase secara manual. Menurutku, keterlibatan komputer, bahkan dengan langkah pencegahan yang disebutkan dalam tutorial ini, secara signifikan meningkatkan kerentanan dompet. Untuk pendekatan eksperimental dalam membuat "dompet fiktif", kamu bisa menggunakan komputer biasa beserta terminalnya. Namun, untuk pendekatan yang lebih ketat dengan tujuan membatasi risiko kompromi pada frasamu, idealnya gunakan PC yang terputus dari internet, lebih baik lagi tanpa komponen WiFi atau koneksi kabel RJ45, dan hanya dilengkapi periferal minimum (semua harus terhubung melalui kabel, untuk menghindari Bluetooth), dan yang terpenting, berjalan pada distribusi Linux amnesik seperti [Tails](https://tails.boum.org/index.fr.html), yang dimulai dari media yang dapat dilepas.
 ![mnemonic](assets/notext/2.webp)
 
-Dalam konteks nyata, akan sangat penting untuk memastikan kerahasiaan ruang kerja Anda dengan memilih lokasi yang jauh dari pandangan orang lain, tanpa lalu lintas orang, dan bebas dari kamera (webcam, telepon...).
-Disarankan untuk menggunakan jumlah dadu yang banyak untuk mengurangi dampak dadu yang mungkin tidak seimbang terhadap entropi. Sebelum penggunaannya, memeriksa dadu disarankan: ini dapat dicapai dengan menguji mereka dalam mangkuk air garam jenuh, memungkinkan dadu untuk mengapung. Kemudian lanjutkan untuk menggulirkan setiap dadu sekitar dua puluh kali dalam air garam, mengamati hasilnya. Jika satu atau dua sisi muncul secara tidak proporsional dibandingkan dengan yang lain, perluas tes dengan lebih banyak gulungan. Hasil yang terdistribusi secara merata menunjukkan bahwa dadu tersebut dapat diandalkan. Namun, jika satu atau dua sisi secara teratur mendominasi, dadu tersebut harus disisihkan, karena mereka dapat mengkompromikan entropi dari frasa mnemonik Anda dan, akibatnya, keamanan dompet Anda.
-Dalam kondisi nyata, setelah melakukan pemeriksaan ini, Anda akan siap untuk menghasilkan entropi yang diperlukan. Untuk dompet fiktif eksperimental yang dibuat sebagai bagian dari tutorial ini, Anda secara alami dapat melewatkan persiapan ini.
+Dalam konteks nyata, sangat penting untuk memastikan kerahasiaan ruang kerja kamu dengan memilih lokasi yang jauh dari pandangan orang lain, tanpa lalu lalang, dan bebas dari kamera, baik webcam maupun ponsel.
+
+Disarankan untuk menggunakan beberapa dadu sekaligus guna mengurangi dampak dadu yang mungkin tidak seimbang terhadap entropi. Sebelum digunakan, sebaiknya dadu diperiksa terlebih dahulu. Kamu bisa melakukannya dengan menguji dadu dalam mangkuk berisi air garam jenuh hingga dadu mengapung. Lalu gulirkan setiap dadu sekitar dua puluh kali di dalam air tersebut sambil mengamati hasilnya. Jika satu atau dua sisi muncul secara tidak proporsional dibanding sisi lainnya, lanjutkan pengujian dengan lebih banyak lemparan. Jika hasilnya terdistribusi merata, dadu tersebut bisa dianggap andal. Namun, jika satu atau dua sisi secara konsisten mendominasi, dadu itu sebaiknya disisihkan karena dapat mengompromikan entropi seed phrase kamu dan, pada akhirnya, keamanan dompet kamu.
+
+Dalam kondisi nyata, setelah melakukan pemeriksaan ini, kamu siap untuk menghasilkan entropi yang diperlukan. Untuk dompet fiktif eksperimental yang dibuat sebagai bagian dari tutorial ini, tentu saja kamu bisa melewati tahap persiapan ini.
 
 ## Beberapa Pengingat tentang Frasa Pemulihan
 
-Untuk memulai, kita akan mengulas dasar-dasar pembuatan frasa mnemonik menurut BIP39. Seperti yang telah dijelaskan sebelumnya, frasa tersebut berasal dari informasi pseudo-acak berukuran tertentu, yang kemudian ditambahkan checksum untuk memastikan integritasnya.
+Sebagai awal, kita akan meninjau kembali dasar pembuatan frasa mnemonik menurut BIP39. Seperti yang sudah dijelaskan sebelumnya, frasa ini berasal dari informasi pseudo-acak dengan ukuran tertentu, lalu ditambahkan checksum untuk memastikan integritasnya.
 
-Ukuran informasi awal ini, sering disebut sebagai "entropi," ditentukan oleh jumlah kata yang Anda inginkan dalam frasa pemulihan. Format yang paling umum adalah frasa dari 12 dan 24 kata, yang masing-masing berasal dari entropi 128 bit dan 256 bit. Berikut adalah tabel yang menunjukkan ukuran entropi yang berbeda menurut BIP39:
+Ukuran informasi awal ini, yang sering disebut sebagai "entropi", ditentukan oleh jumlah kata yang kamu inginkan dalam seed phrase. Format yang paling umum adalah frasa 12 kata dan 24 kata, yang masing-masing berasal dari entropi 128 bit dan 256 bit. Berikut adalah tabel yang menunjukkan berbagai ukuran entropi menurut BIP39:
+
 
 | Frasa (kata) | Entropi (bit) | Checksum (bit) | Entropi + Checksum (bit) |
 | ------------ | ------------- | -------------- | ------------------------ |
@@ -54,11 +59,10 @@ Ukuran informasi awal ini, sering disebut sebagai "entropi," ditentukan oleh jum
 | 21           | 224           | 7              | 231                      |
 | 24           | 256           | 8              | 264                      |
 
-Entropi adalah sebuah angka acak antara 128 dan 256 bit. Dalam tutorial ini, kita akan mengambil contoh frasa 12 kata, di mana entropinya adalah 128 bit, yang berarti kita akan menghasilkan urutan acak dari 128 `0` atau `1`. Ini mewakili sebuah angka yang terdiri dari 128 digit dalam basis 2 (biner).
-Berdasarkan entropi ini, checksum akan dihasilkan. Checksum adalah nilai yang dihitung dari sekumpulan data, digunakan untuk memverifikasi integritas dan validitas data tersebut selama transmisi atau penyimpanannya. Algoritma checksum dirancang untuk mendeteksi kesalahan atau perubahan kecelakaan dalam data.
-Dalam kasus frasa mnemonik kita, fungsi dari checksum adalah untuk mendeteksi kesalahan input saat memasukkan frasa ke dalam perangkat lunak dompet. Sebuah checksum yang tidak valid menandakan adanya kesalahan dalam frasa tersebut. Sebaliknya, checksum yang valid menunjukkan bahwa frasa tersebut kemungkinan besar benar.
+Entropi adalah angka acak dengan panjang antara 128 hingga 256 bit. Dalam tutorial ini, kita akan menggunakan contoh frasa 12 kata, di mana entropinya berukuran 128 bit. Artinya, kita akan menghasilkan urutan acak yang terdiri dari 128 `0` atau `1`. Ini merepresentasikan sebuah angka dengan 128 digit dalam basis 2, atau biner. Berdasarkan entropi ini, checksum akan dihasilkan. Checksum adalah nilai yang dihitung dari sekumpulan data dan digunakan untuk memverifikasi integritas serta validitas data tersebut saat ditransmisikan atau disimpan. Algoritma checksum dirancang untuk mendeteksi kesalahan atau perubahan yang tidak disengaja dalam data. Dalam kasus frasa mnemonik, fungsi checksum adalah untuk mendeteksi kesalahan input saat kamu memasukkan frasa ke dalam perangkat lunak dompet. Checksum yang tidak valid menandakan adanya kesalahan dalam frasa tersebut. Sebaliknya, checksum yang valid menunjukkan bahwa frasa tersebut kemungkinan besar benar.
 
-Untuk mendapatkan checksum ini, entropi dijalankan melalui fungsi hash SHA256. Operasi ini menghasilkan sebuah urutan 256-bit sebagai output, di mana hanya `N` bit pertama yang akan dipertahankan, `N` tergantung pada panjang frasa pemulihan yang diinginkan (lihat tabel di atas). Jadi, untuk frasa 12 kata, 4 bit pertama dari hash akan dipertahankan.
+Untuk mendapatkan checksum ini, entropi dijalankan melalui fungsi hash SHA256. Operasi ini menghasilkan output berupa urutan 256 bit, di mana hanya `N` bit pertama yang akan diambil, dengan `N` bergantung pada panjang seed phrase yang diinginkan, seperti yang ditunjukkan pada tabel di atas. Jadi, untuk frasa 12 kata, 4 bit pertama dari hash akan digunakan.
+
 
 ![mnemonic](assets/en/3.webp)
 
@@ -74,36 +78,36 @@ Akhirnya, angka dalam desimal memberitahu kita posisi kata yang sesuai dalam [da
 
 ![mnemonic](assets/notext/6.webp)
 
-Sekarang, mari kita lanjutkan ke praktik! Kita akan menghasilkan frasa pemulihan 12 kata. Namun, operasi ini tetap identik dalam kasus frasa 24 kata, kecuali itu akan memerlukan 256 bit entropi dan checksum 8-bit, seperti yang ditunjukkan dalam tabel kesetaraan yang terletak di awal bagian ini.
+Sekarang, mari kita lanjut ke praktik. Kita akan menghasilkan seed phrase 12 kata. Prosesnya tetap sama untuk frasa 24 kata, hanya saja kamu akan membutuhkan 256 bit entropi dan checksum 8 bit, seperti yang ditunjukkan pada tabel kesetaraan di awal bagian ini.
 
 ## Langkah 1: Menghasilkan Entropi
 
 Siapkan lembaran kertas Anda, pena Anda, dan dadu Anda. Untuk memulai, kita perlu menghasilkan 128 bit secara acak, yaitu, sebuah urutan dari 128 `0` dan `1` berturut-turut. Untuk melakukan ini, kita akan menggunakan dadu.
 ![mnemonic](assets/notext/7.webp)
 
-Dadu memiliki 6 sisi, semuanya dengan kemungkinan yang sama untuk dilempar. Namun, tujuan kita adalah menghasilkan hasil biner, yang berarti dua kemungkinan hasil. Oleh karena itu, kita akan menetapkan nilai `0` untuk setiap lemparan yang mendarat pada angka genap, dan `1` untuk setiap angka ganjil. Sebagai hasilnya, kita akan melakukan 128 lemparan untuk menciptakan entropi 128-bit kita. Jika dadu menunjukkan `2`, `4`, atau `6`, kita akan menuliskan `0`; untuk `1`, `3`, atau `5`, itu akan menjadi `1`. Setiap hasil akan dicatat secara berurutan, dari kiri ke kanan dan dari atas ke bawah.
+Dadu memiliki 6 sisi, masing-masing dengan peluang yang sama untuk muncul saat dilempar. Namun, tujuan kita adalah menghasilkan keluaran biner, yang berarti hanya ada dua kemungkinan hasil. Karena itu, kita akan menetapkan nilai `0` untuk setiap lemparan yang menghasilkan angka genap, dan `1` untuk setiap angka ganjil. Dengan begitu, kita perlu melakukan 128 lemparan untuk menghasilkan entropi 128 bit. Jika dadu menunjukkan `2`, `4`, atau `6`, kamu tulis `0`; jika menunjukkan `1`, `3`, atau `5`, tulis `1`. Setiap hasil dicatat secara berurutan, dari kiri ke kanan dan dari atas ke bawah.
 
-Untuk memudahkan langkah selanjutnya, kita akan mengelompokkan bit-bit tersebut menjadi paket-paket empat dan tiga, seperti yang ditunjukkan pada gambar di bawah ini. Setiap baris harus memiliki 11 bit: 2 paket dari 4 bit dan satu paket dari 3 bit.
+Untuk mempermudah langkah berikutnya, kita akan mengelompokkan bit-bit tersebut ke dalam paket berisi empat dan tiga bit, seperti yang ditunjukkan pada gambar di bawah. Setiap baris harus terdiri dari 11 bit: dua paket 4 bit dan satu paket 3 bit.
 
 ![mnemonic](assets/notext/8.webp)
-Seperti yang Anda lihat dalam contoh saya, kata kedua belas saat ini hanya terdiri dari 7 bit. Ini akan dilengkapi dengan 4 bit dari checksum pada langkah selanjutnya untuk membentuk 11 bit.
+Seperti yang kamu lihat dalam contohku, kata kedua belas saat ini hanya terdiri dari 7 bit. Ini akan dilengkapi dengan 4 bit dari checksum pada langkah selanjutnya untuk membentuk 11 bit.
 ![mnemonic](assets/notext/9.webp)
 
 ## Langkah 2: Menghitung checksum
 
-Langkah ini adalah yang paling kritis dalam pembuatan frasa mnemonic secara manual, karena memerlukan penggunaan komputer. Seperti yang disebutkan sebelumnya, checksum sesuai dengan awal dari hash SHA256 yang dihasilkan dari entropi. Meskipun secara teoritis mungkin untuk menghitung SHA256 dengan tangan untuk input 128 atau 256 bit, tugas ini bisa memakan waktu seluruh minggu. Lebih lagi, kesalahan apa pun dalam perhitungan manual hanya akan teridentifikasi di akhir proses, memaksa Anda untuk memulai dari awal lagi. Oleh karena itu, tidak dapat dibayangkan untuk melakukan langkah ini hanya dengan selembar kertas dan sebuah pena. Komputer hampir wajib digunakan. Jika Anda masih ingin belajar cara melakukan SHA256 dengan tangan, kami menjelaskan cara melakukannya di [kursus CRYPTO301](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
+Langkah ini adalah yang paling krusial dalam pembuatan frasa mnemonic secara manual, karena mengharuskan penggunaan komputer. Seperti yang sudah disebutkan sebelumnya, checksum diambil dari bagian awal hash SHA256 yang dihasilkan dari entropi. Secara teori, memang mungkin menghitung SHA256 dengan tangan untuk input 128 atau 256 bit, tetapi proses ini bisa memakan waktu hingga berminggu-minggu. Selain itu, kesalahan sekecil apa pun dalam perhitungan manual kemungkinan besar baru akan terdeteksi di akhir proses, sehingga kamu harus mengulang semuanya dari awal. Karena itu, hampir mustahil melakukan langkah ini hanya dengan kertas dan pena. Penggunaan komputer pada praktiknya hampir tidak terhindarkan. Jika kamu tetap ingin belajar cara menghitung SHA256 secara manual, kami juga menjelaskan caranya di [kursus CRYPTO301](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
 
-Untuk alasan ini, saya sangat menyarankan agar tidak membuat frasa manual untuk dompet aktual. Menurut saya, menggunakan komputer pada tahap ini, bahkan dengan semua tindakan pencegahan yang diperlukan, tidak masuk akal meningkatkan permukaan serangan dari dompet.
-Untuk menghitung checksum sambil meninggalkan sedikit jejak sebisa mungkin, kami akan menggunakan distribusi Linux amnesik dari drive yang dapat dilepas bernama **Tails**. Sistem operasi ini boot dari USB stick dan beroperasi sepenuhnya pada RAM komputer, tanpa berinteraksi dengan hard drive. Dengan demikian, secara teori, tidak meninggalkan jejak apa pun pada komputer setelah dimatikan. Harap dicatat bahwa Tails hanya kompatibel dengan prosesor tipe x86_64, dan tidak dengan prosesor tipe ARM.
-Untuk memulai, dari komputer biasa Anda, [unduh gambar Tails dari situs web resminya](https://tails.net/install/index.fr.html). Pastikan keaslian unduhan Anda dengan menggunakan tanda tangan pengembang atau alat verifikasi yang ditawarkan oleh situs tersebut.
+Karena alasan ini, aku sangat menyarankan untuk tidak membuat seed phrase secara manual untuk dompet yang benar-benar akan digunakan. Menurutku, menggunakan komputer pada tahap ini, bahkan dengan semua langkah pencegahan yang diperlukan, tetap secara tidak masuk akal memperbesar permukaan serangan dompet. Untuk menghitung checksum sambil meminimalkan jejak sebisa mungkin, kita akan menggunakan distribusi Linux amnesik dari media yang dapat dilepas bernama **Tails**. Sistem operasi ini dijalankan dari USB flash drive dan beroperasi sepenuhnya di RAM komputer, tanpa berinteraksi dengan hard drive. Dengan begitu, secara teori, tidak ada jejak yang tertinggal di komputer setelah dimatikan. Perlu dicatat bahwa Tails hanya kompatibel dengan prosesor tipe x86_64, dan tidak dengan prosesor tipe ARM.
+
+Untuk memulai, dari komputer biasa milikmu, [unduh gambar Tails dari situs web resminya](https://tails.net/install/index.fr.html). Pastikan keaslian unduhan dengan menggunakan tanda tangan pengembang atau alat verifikasi yang ditawarkan oleh situs tersebut.
 ![mnemonic](assets/notext/10.webp)
-Pertama, lanjutkan untuk memformat USB stick Anda, kemudian instal Tails menggunakan alat seperti [Balena Etcher](https://etcher.balena.io/).
+Pertama, lanjutkan untuk memformat USB stick kamu, kemudian instal Tails menggunakan alat seperti [Balena Etcher](https://etcher.balena.io/).
 ![mnemonic](assets/notext/11.webp)
-Setelah memastikan bahwa flashing berhasil, matikan komputer Anda. Kemudian lanjutkan untuk memutus sambungan catu daya dan lepaskan hard drive dari motherboard PC Anda. Dalam kasus di mana kartu WiFi ada, sebaiknya dicabut. Demikian pula, lepaskan kabel Ethernet RJ45. Untuk meminimalkan risiko kebocoran data, disarankan untuk mencabut kotak internet Anda dan mematikan ponsel Anda. Selain itu, pastikan untuk mencabut periferal yang tidak perlu dari komputer Anda, seperti mikrofon, webcam, speaker, atau headset, dan periksa bahwa periferal lain hanya terhubung melalui kabel. Semua langkah persiapan PC ini tidak esensial, tetapi mereka hanya membantu untuk mengurangi permukaan serangan sebanyak mungkin dalam konteks nyata.
+Setelah memastikan proses flashing berhasil, matikan komputer kamu. Lalu putuskan sambungan catu daya dan lepaskan hard drive dari motherboard PC. Jika ada kartu WiFi, sebaiknya ikut dilepas. Begitu juga dengan kabel Ethernet RJ45. Untuk meminimalkan risiko kebocoran data, disarankan mencabut router internet dan mematikan ponsel kamu. Selain itu, pastikan semua periferal yang tidak perlu, seperti mikrofon, webcam, speaker, atau headset, sudah dilepas, dan pastikan periferal lain hanya terhubung melalui kabel. Semua langkah persiapan ini sebenarnya tidak wajib, tetapi membantu mengurangi permukaan serangan semaksimal mungkin dalam konteks nyata.
 
-Periksa apakah BIOS Anda dikonfigurasi untuk mengizinkan booting dari perangkat eksternal. Jika tidak, ubah pengaturan ini, kemudian restart mesin Anda. Setelah Anda mengamankan lingkungan komputer, restart komputer dari USB stick dengan OS Tails.
+Pastikan BIOS kamu dikonfigurasi agar mengizinkan boot dari perangkat eksternal. Jika belum, ubah pengaturannya lalu restart komputer. Setelah lingkungan komputer kamu aman, jalankan ulang komputer dan boot dari USB flash drive yang berisi OS Tails.
 
-Di layar sambutan Tails, pilih bahasa pilihan Anda, kemudian luncurkan sistem dengan mengklik `Start Tails`.
+Di layar sambutan Tails, pilih bahasa pilihan kamu, kemudian luncurkan sistem dengan mengklik `Start Tails`.
 
 ![mnemonic](assets/notext/12.webp)
 
@@ -119,7 +123,7 @@ Dan akhirnya, klik pada aplikasi `Terminal`.
 Anda akan sampai pada terminal perintah baru yang kosong.
 
 ![mnemonic](assets/notext/16.webp)
-Ketik perintah `echo`, diikuti oleh entropi yang sebelumnya Anda hasilkan, pastikan untuk memasukkan spasi antara `echo` dan urutan digit biner Anda.
+Ketik perintah `echo`, diikuti oleh entropi yang sebelumnya kamu hasilkan, pastikan untuk memasukkan spasi antara `echo` dan urutan digit biner kamu.
 ![mnemonic](assets/notext/17.webp)
 
 Tambahkan spasi tambahan, lalu masukkan perintah berikut, menggunakan _pipe_ (`|`):
@@ -130,7 +134,7 @@ Tambahkan spasi tambahan, lalu masukkan perintah berikut, menggunakan _pipe_ (`|
 
 ![mnemonic](assets/notext/18.webp)
 
-Dalam contoh dengan entropi saya, total perintahnya adalah sebagai berikut:
+Dalam contoh dengan entropi milikku, total perintahnya adalah sebagai berikut:
 
 ```plaintext
 echo 11010111000110111011000011000010011000100111000001000000001001011011001010111111001010011111110001010100000101110010010011011010 | shasum -a 256 -0
@@ -145,7 +149,7 @@ Dalam perintah ini:
 - `256` menunjukkan bahwa algoritma SHA256 digunakan;
 - `-0` memungkinkan input diinterpretasikan sebagai angka biner.
 
-Setelah memeriksa dengan teliti bahwa urutan biner Anda tidak mengandung kesalahan ketik, tekan tombol `Enter` untuk menjalankan perintah. Terminal kemudian akan menampilkan hash SHA256 dari entropi Anda.
+Setelah memeriksa dengan teliti bahwa urutan biner kamu tidak mengandung kesalahan ketik, tekan tombol `Enter` untuk menjalankan perintah. Terminal kemudian akan menampilkan hash SHA256 dari entropi kamu.
 
 ![mnemonic](assets/notext/19.webp)
 
@@ -155,7 +159,7 @@ Untuk saat ini, hash dinyatakan dalam format heksadesimal (basis 16). Sebagai co
 a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 ```
 
-Untuk menyelesaikan frasa mnemonik kita, kita hanya memerlukan 4 bit pertama dari hash, yang merupakan checksum. Dalam format heksadesimal, setiap karakter mewakili 4 bit. Dengan demikian, kita hanya akan menyimpan karakter pertama dari hash. Untuk frasa 24 kata, akan diperlukan untuk mempertimbangkan dua karakter pertama. Dalam contoh saya, ini sesuai dengan huruf: `a`. Catat karakter ini dengan hati-hati di suatu tempat di lembaran Anda, lalu matikan komputer Anda.
+Untuk menyelesaikan frasa mnemonik kita, kita hanya membutuhkan 4 bit pertama dari hash, yaitu checksum. Dalam format heksadesimal, setiap karakter merepresentasikan 4 bit. Jadi, kita cukup mengambil karakter pertama dari hash tersebut. Untuk frasa 24 kata, kamu perlu mengambil dua karakter pertama. Dalam contohku, karakter yang diperoleh adalah: `a`. Catat karakter ini dengan hati-hati di lembar kertas kamu, lalu matikan komputer.
 
 Langkah selanjutnya adalah mengonversi karakter heksadesimal ini (basis 16) menjadi nilai biner (basis 2), karena frasa kita dibangun dalam format ini. Untuk melakukan ini, Anda dapat menggunakan tabel konversi berikut:
 
@@ -171,15 +175,15 @@ Langkah selanjutnya adalah mengonversi karakter heksadesimal ini (basis 16) menj
 | 7                  | 7                       | 0111            |
 | 8                  | 8                       | 1000            |
 
-Dalam contoh saya, huruf `a` sesuai dengan angka biner `1010`. Keempat bit ini membentuk checksum dari frasa pemulihan kita. Anda sekarang dapat menambahkannya ke entropi yang sudah Anda catat di lembaran kertas Anda, menempatkannya di akhir kata terakhir.
+Dalam contoh saya, huruf `a` sesuai dengan angka biner `1010`. Keempat bit ini membentuk checksum dari frasa pemulihan kita. Kamu sekarang dapat menambahkannya ke entropi yang sudah kamu catat di lembaran kertas, menempatkannya di akhir kata terakhir.
 
 ![mnemonic](assets/notext/20.webp)
 
-Frasa mnemonik Anda sekarang lengkap, tetapi dalam format biner. Langkah selanjutnya adalah mengonversinya ke dalam sistem desimal sehingga Anda kemudian dapat mengaitkan setiap angka dengan kata yang sesuai dalam daftar BIP39.
+Seed phrase kamu sekarang sudah lengkap, tetapi masih dalam format biner. Langkah berikutnya adalah mengonversinya ke sistem desimal agar setiap angka bisa dipasangkan dengan kata yang sesuai dalam daftar BIP39.
 
 ## Langkah 3: Mengonversi Kata-kata ke Desimal
 
-Untuk mengonversi setiap baris biner menjadi angka desimal, kita akan menggunakan metode yang memudahkan perhitungan manual. Saat ini, Anda memiliki dua belas baris di kertas Anda, masing-masing terdiri dari 11 digit biner `0` atau `1`. Untuk melanjutkan konversi ke desimal, tetapkan pada setiap digit pertama nilai `1024` jika itu adalah `1`, jika tidak `0`. Untuk digit kedua, nilai `512` akan ditetapkan jika itu adalah `1`, jika tidak `0`, dan seterusnya hingga digit kesebelas. Korespondensinya adalah sebagai berikut:
+Untuk mengonversi setiap baris biner menjadi angka desimal, kita akan memakai metode yang memudahkan perhitungan manual. Saat ini, kamu memiliki dua belas baris di kertas, masing-masing terdiri dari 11 digit biner `0` atau `1`. Untuk mulai konversi ke desimal, beri nilai pada digit pertama sebesar `1024` jika bernilai `1`, jika tidak maka `0`. Untuk digit kedua, beri nilai `512` jika bernilai `1`, jika tidak `0`, dan lanjutkan dengan pola yang sama hingga digit kesebelas. Korespondensinya adalah sebagai berikut:
 
 - Bit pertama: `1024`;
 - Bit kedua: `512`;
@@ -218,7 +222,7 @@ Kemudian, cukup jumlahkan semua angka yang divalidasi oleh `1` untuk mendapatkan
 Dengan angka desimal yang diperoleh, kita sekarang dapat menemukan kata-kata yang sesuai dalam daftar untuk menyusun frasa mnemonik. Namun, penomoran dari 2048 kata dalam daftar BIP39 berkisar dari `1` hingga `2048`. Tetapi, hasil biner yang dihitung berkisar dari `0` hingga `2047`. Oleh karena itu, ada pergeseran satu unit yang perlu diperbaiki. Untuk memperbaiki pergeseran ini, cukup tambahkan `1` ke dua belas angka desimal yang sebelumnya dihitung.
 
 ![mnemonic](assets/notext/24.webp)
-Setelah penyesuaian ini, Anda memiliki peringkat setiap kata dalam daftar. Yang tersisa hanyalah mengidentifikasi setiap kata berdasarkan nomornya. Jelas, seperti semua langkah lainnya, Anda tidak boleh menggunakan komputer Anda untuk melakukan konversi ini. Oleh karena itu, pastikan Anda telah mencetak daftar tersebut sebelumnya.
+Setelah penyesuaian ini, kamu sekarang memiliki indeks setiap kata dalam daftar. Langkah terakhir tinggal mengidentifikasi masing-masing kata berdasarkan nomornya. Tentu saja, seperti semua langkah sebelumnya, kamu tidak boleh menggunakan komputer untuk melakukan konversi ini. Karena itu, pastikan kamu sudah mencetak daftar tersebut sebelumnya.
 [**-> Cetak daftar BIP39 dalam format A4.**](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/wallet/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
 Sebagai contoh, jika nomor yang diperoleh dari baris pertama adalah 1721, kata yang sesuai akan menjadi kata ke-1721 dalam daftar:
@@ -238,18 +242,19 @@ Pada titik ini, yang tersisa hanyalah mengimpor frasa mnemonik kita ke dalam per
 
 ![mnemonic](assets/notext/27.webp)
 
-Hanya saat impor, Anda dapat memverifikasi validitas checksum Anda. Jika perangkat lunak menampilkan pesan seperti `Invalid Checksum`, itu berarti kesalahan telah merayap ke dalam proses pembuatan Anda. Umumnya, kesalahan ini berasal baik dari kesalahan perhitungan selama konversi dan penambahan manual, atau dari kesalahan ketik saat memasukkan entropi Anda di terminal pada Tails. Akan diperlukan untuk memulai proses dari awal untuk memperbaiki kesalahan ini.
+Baru saat proses impor kamu bisa memverifikasi apakah checksum yang kamu hasilkan valid. Jika perangkat lunak menampilkan pesan seperti `Invalid Checksum`, itu berarti ada kesalahan yang terjadi selama proses pembuatan. Biasanya, kesalahan ini berasal dari perhitungan yang keliru saat konversi dan penjumlahan manual, atau dari salah ketik ketika memasukkan entropi ke terminal di Tails. Untuk memperbaikinya, kamu perlu mengulang seluruh proses dari awal.
 
 ![mnemonic](assets/notext/28.webp)
-Setelah membuat dompet Anda, jangan lupa untuk mencadangkan frasa pemulihan Anda pada media fisik, seperti kertas atau logam, dan hancurkan spreadsheet yang digunakan selama generasinya untuk mencegah kebocoran informasi.
+Setelah membuat dompet kamu, jangan lupa untuk mencadangkan seed phrase di media fisik, seperti kertas atau logam, lalu hancurkan lembar kerja yang digunakan selama proses pembuatannya untuk mencegah kebocoran informasi.
 
 ## Kasus Spesifik Opsi Dice Roll pada Coldcards
 
-Dompet hardware dari keluarga Coldcard menawarkan [fitur yang dinamakan _Dice Roll_](https://youtu.be/Rc29d9m92xg?si=OeFW2iCGRvxexhK7), untuk menghasilkan frasa pemulihan dompet Anda dengan dadu. Metode ini sangat baik karena memberi Anda kontrol langsung atas pembuatan entropi, tanpa memerlukan penggunaan perangkat eksternal untuk menghitung checksum seperti dalam tutorial kami.
+Dompet hardware dari keluarga Coldcard menawarkan [fitur yang dinamakan _Dice Roll_](https://youtu.be/Rc29d9m92xg?si=OeFW2iCGRvxexhK7), untuk menghasilkan frasa pemulihan dompet kamu dengan dadu. Metode ini sangat menarik karena memberi kamu kendali langsung atas proses pembuatan entropi, tanpa perlu menggunakan perangkat eksternal untuk menghitung checksum seperti pada pendekatan lain di tutorial ini.
 
-Namun, insiden pencurian bitcoin telah dilaporkan baru-baru ini karena penggunaan fitur ini yang tidak tepat. Memang, jumlah lemparan dadu yang terlalu terbatas dapat menyebabkan entropi yang tidak cukup, secara teoritis memungkinkan untuk brute force frasa mnemonik dan mencuri bitcoin yang terkait. Untuk menghindari risiko ini, disarankan untuk melakukan setidaknya 99 lemparan dadu pada Coldcard, yang memastikan entropi yang cukup.
+Namun, beberapa insiden pencurian bitcoin pernah dilaporkan akibat penggunaan fitur ini yang kurang tepat. Jumlah lemparan dadu yang terlalu sedikit dapat menghasilkan entropi yang tidak memadai, sehingga secara teoretis memungkinkan seed phrase di-brute force dan bitcoin yang terkait dicuri. Untuk menghindari risiko ini, disarankan melakukan setidaknya 99 lemparan dadu pada Coldcard, agar entropi yang dihasilkan cukup kuat.
 
-Metode interpretasi hasil yang diusulkan oleh Coldcard berbeda dari yang disajikan dalam tutorial ini. Sementara kami merekomendasikan 128 lemparan untuk mencapai 128 bit keamanan dalam tutorial, Coldcard menyarankan 99 lemparan untuk mencapai 256 bit keamanan. Memang, dalam pendekatan kami, hanya dua hasil yang mungkin untuk setiap lemparan dadu: genap (`0`) atau ganjil (`1`). Oleh karena itu, entropi yang dihasilkan oleh setiap lemparan sama dengan `log2(2)`. Dalam kasus Coldcard, yang memperhitungkan enam sisi dadu yang mungkin (dari `1` sampai `6`), entropi per lemparan sama dengan `log2(6)`. Inilah sebabnya mengapa dalam tutorial kami, kita perlu melakukan lebih banyak lemparan untuk mencapai tingkat entropi yang sama.
+Metode interpretasi hasil yang diusulkan oleh Coldcard berbeda dari yang disajikan dalam tutorial ini. Dalam tutorial ini, kita merekomendasikan 128 lemparan untuk mencapai 128 bit keamanan. Sementara itu, Coldcard menyarankan 99 lemparan untuk mencapai 256 bit keamanan. Perbedaannya terletak pada cara hasil dadu diolah. Dalam pendekatan kita, setiap lemparan hanya memiliki dua kemungkinan hasil: genap (`0`) atau ganjil (`1`). Karena itu, entropi per lemparan adalah `log2(2)`. Pada pendekatan Coldcard, keenam sisi dadu, dari `1` sampai `6`, dimanfaatkan sepenuhnya. Dengan demikian, entropi per lemparan adalah `log2(6)`. Inilah alasan mengapa dalam tutorial ini kita membutuhkan lebih banyak lemparan untuk mencapai tingkat entropi yang setara.
+
 Entropi = jumlah lemparan \* log2(jumlah kemungkinan hasil pada dadu)
 Coldcard :
 

@@ -7,28 +7,22 @@ description: fork dari Samourai Wallet untuk mengamankan, mengelola, dan mencamp
 
 
 
-Ashigaru adalah aplikasi Bitcoin mobile wallet yang merupakan kelanjutan dari proyek Samourai Wallet, tetapi dalam bentuk yang baru. Perangkat lunak ini lahir dalam konteks tertentu: pada bulan April 2024, para pendiri Samourai Wallet ditangkap oleh pihak berwenang Amerika, dan server mereka disita. Meskipun aplikasi Samurai itu sendiri masih dapat digunakan, namun saat ini tidak lagi dipertahankan. Ashigaru adalah versi fork gratis dari Samurai Wallet, yang dikelola oleh tim anonim untuk menjamin kelangsungan fungsionalitas Samurai dan menjaga filosofi aslinya: untuk mempertahankan privasi dan kedaulatan pengguna Bitcoin.
+Ashigaru adalah aplikasi mobile Bitcoin wallet yang merupakan kelanjutan dari proyek Samourai Wallet, tetapi dalam bentuk baru. Perangkat lunak ini lahir dalam konteks tertentu: pada April 2024, para pendiri Samourai Wallet ditangkap oleh pihak berwenang Amerika dan server mereka disita. Meskipun aplikasi Samourai itu sendiri masih bisa digunakan, saat ini sudah tidak lagi dipertahankan. Ashigaru adalah versi fork gratis dari Samourai Wallet, yang dikelola oleh tim anonim untuk menjamin keberlanjutan fungsionalitas Samourai dan menjaga filosofi aslinya: mempertahankan privasi dan kedaulatan pengguna Bitcoin.
 
+Ashigaru mengambil banyak DNA dari Samourai: antarmuka yang mirip, pendekatan yang jelas bersifat mandiri, open source, dan fokus kuat pada privasi. Kode didistribusikan di bawah lisensi GNU GPLv3, yang memastikan siapa pun dapat mengaudit, memodifikasi, atau mendistribusikan ulang perangkat lunak ini.
 
+Aplikasi Ashigaru mengintegrasikan seperangkat alat canggih untuk kerahasiaan dan pengelolaan UTXO kamu:
 
-Ashigaru mengambil banyak DNA dari Samourai: antarmuka yang mirip, pendekatan yang jelas-jelas bersifat mandiri, sumber terbuka dan fokus pada privasi. Kode didistribusikan di bawah lisensi GNU GPLv3, yang memastikan bahwa siapa pun dapat mengaudit, memodifikasi, atau mendistribusikan ulang perangkat lunak.
-
-
-
-Aplikasi Ashigaru mengintegrasikan seperangkat alat canggih untuk kerahasiaan dan pengelolaan UTXO Anda:
-
-
-
-
-- Whirlpool**, protokol coinjoin berdasarkan Zerolink, memungkinkan Anda untuk memutus hubungan deterministik antara entri dan keluar transaksi, tanpa kehilangan kedaulatan atas dana Anda.
-- PayNym**, yang mengimplementasikan kode pembayaran yang dapat digunakan kembali (BIP47), sekarang diwakili melalui sistem avatar "*Pepehash*".
-- Ricochet**, sebuah fitur yang menambahkan lompatan perantara pada transaksi agar lebih sulit dilacak.
-- Dan tentu saja ***Coin Control*** untuk memilih, membekukan dan melabeli UTXO Anda secara tepat.
+- Whirlpool**, protokol coinjoin berbasis Zerolink, memungkinkan kamu memutus hubungan deterministik antara input dan output transaksi tanpa kehilangan kedaulatan atas dana kamu.
+- PayNym**, yang mengimplementasikan payment code yang dapat digunakan kembali (BIP47), kini direpresentasikan melalui sistem avatar "*Pepehash*".
+- Ricochet**, fitur yang menambahkan lompatan perantara pada transaksi agar lebih sulit dilacak.
+- Dan tentu saja ***Coin Control*** untuk memilih, membekukan, dan memberi label pada UTXO kamu secara presisi.
 - Batch Spending***, untuk mengurangi biaya dengan mengelompokkan beberapa pembayaran ke dalam satu transaksi.
-- Mode **Stealth**, yang menyembunyikan aplikasi pada ponsel Anda di balik peluncur tiruan agar tidak terlihat selama pemeriksaan fisik ponsel Anda.
-- Alat pengeluaran tingkat lanjut untuk mengoptimalkan kerahasiaan Anda (payjoin, stonewall...).
-- Sistem pemulihan yang dioptimalkan menggunakan Passphrase BIP39.
-- Sistem untuk mengoptimalkan pilihan biaya transaksi secara otomatis.
+- Mode **Stealth**, yang menyembunyikan aplikasi di ponsel kamu di balik launcher tiruan agar tidak terlihat saat pemeriksaan fisik perangkat.
+- Alat pengeluaran tingkat lanjut untuk mengoptimalkan kerahasiaan kamu (payjoin, stonewall...).
+- Sistem pemulihan yang dioptimalkan menggunakan BIP39 Passphrase.
+- Sistem untuk mengoptimalkan pemilihan biaya transaksi secara otomatis.
+
 
 
 
@@ -36,11 +30,10 @@ Aplikasi Ashigaru mengintegrasikan seperangkat alat canggih untuk kerahasiaan da
 
 
 
-Oleh karena itu, Ashigaru ditujukan untuk pengguna yang menyadari masalah seputar keterlacakan transaksi pada Bitcoin. Baik Anda pengguna yang sadar akan privasi, pengguna bitcoin berpengalaman yang berkomitmen untuk menjaga keamanan, atau seseorang yang terpapar risiko peningkatan pengawasan, aplikasi wallet ini memberi Anda alat yang Anda butuhkan untuk mendapatkan kembali kendali atas aktivitas Anda di Bitcoin.
+Oleh karena itu, Ashigaru ditujukan untuk pengguna yang menyadari masalah seputar keterlacakan transaksi pada Bitcoin. Baik kamu pengguna yang sadar akan privasi, pengguna Bitcoin berpengalaman yang berkomitmen menjaga keamanan, atau seseorang yang terpapar risiko peningkatan pengawasan, aplikasi wallet ini memberi kamu alat yang dibutuhkan untuk mendapatkan kembali kendali atas aktivitas di Bitcoin.
 
+Ashigaru tersedia dalam versi seluler melalui aplikasinya, yang akan kita bahas dalam tutorial ini. Namun, aplikasi ini juga bisa digunakan di PC melalui ***Ashigaru Terminal***, yang akan diperkenalkan dalam tutorial mendatang.
 
-
-Ashigaru tersedia dalam versi seluler melalui aplikasinya, yang akan kita bahas dalam tutorial ini. Tetapi, aplikasi ini juga bisa digunakan di PC dengan ***Ashigaru Terminal***, yang akan kami perkenalkan dalam tutorial mendatang.
 
 
 
@@ -48,7 +41,7 @@ Ashigaru tersedia dalam versi seluler melalui aplikasinya, yang akan kita bahas 
 
 
 
-Dalam tutorial ini, saya ingin memperkenalkan Anda pada penggunaan dasar Ashigaru: instalasi, koneksi ke Dojo, pencadangan, menerima dan mengirim bitcoin. Alat-alat tingkat lanjut akan disajikan dalam tutorial khusus lainnya.
+Dalam tutorial ini, aku ingin memperkenalkan kamu pada penggunaan dasar Ashigaru: instalasi, koneksi ke Dojo, pencadangan, serta menerima dan mengirim Bitcoin. Alat-alat tingkat lanjut akan disajikan dalam tutorial khusus lainnya.
 
 
 
@@ -56,11 +49,11 @@ Dalam tutorial ini, saya ingin memperkenalkan Anda pada penggunaan dasar Ashigar
 
 
 
-Aplikasi ini memerlukan beberapa prasyarat untuk dapat berfungsi dengan baik. Pertama-tama, ini bukan aplikasi yang tersedia di toko-toko klasik seperti Google Play Store atau App Store. Aplikasi ini dipasang secara manual di ponsel Anda hanya dari file `.apk`, yang dapat diunduh melalui jaringan Tor. Jadi, jika Anda menggunakan iPhone, metode ini tidak akan berhasil: Anda memerlukan perangkat Android.
+Aplikasi ini memerlukan beberapa prasyarat agar dapat berfungsi dengan baik. Pertama, ini bukan aplikasi yang tersedia di toko klasik seperti Google Play Store atau App Store. Aplikasi ini dipasang secara manual di ponsel kamu hanya dari file `.apk`, yang bisa diunduh melalui jaringan Tor. Jadi, jika kamu menggunakan iPhone, metode ini tidak akan berhasil: kamu memerlukan perangkat Android.
 
 
 
-Untuk mengunduh berkas `.apk` melalui Tor, Anda memerlukan peramban yang mampu mengakses situs-situs `.onion`. Cara termudah adalah memasang aplikasi Tor Browser pada ponsel Anda, tersedia dari [Google Play Store](https://play.google.com/store/apps/details?id=org.torproject.torbrowser) atau secara langsung [melalui file `.apk`](https://www.torproject.org/download/#android).
+Untuk mengunduh berkas `.apk` melalui Tor, kamu memerlukan peramban yang mampu mengakses situs-situs `.onion`. Cara termudah adalah memasang aplikasi Tor Browser pada ponsel kamu, tersedia dari [Google Play Store](https://play.google.com/store/apps/details?id=org.torproject.torbrowser) atau secara langsung [melalui file `.apk`](https://www.torproject.org/download/#android).
 
 
 
@@ -68,25 +61,25 @@ Untuk mengunduh berkas `.apk` melalui Tor, Anda memerlukan peramban yang mampu m
 
 
 
-Sebagian besar ponsel pintar terbaru memblokir instalasi aplikasi dari sumber yang tidak dikenal secara default. Anda harus mengaktifkan sementara opsi ini untuk Tor Browser di pengaturan perangkat Anda untuk mengizinkan penginstalan. Setelah aplikasi terinstal, ingatlah untuk menonaktifkan fungsi ini untuk memperkuat keamanan ponsel Anda.
+Sebagian besar ponsel pintar terbaru memblokir instalasi aplikasi dari sumber yang tidak dikenal secara default. Kamu harus sementara mengaktifkan opsi ini untuk Tor Browser di pengaturan perangkat agar penginstalan dapat dilakukan. Setelah aplikasi terinstal, ingat untuk menonaktifkan kembali fungsi ini guna memperkuat keamanan ponsel kamu.
 
 
 
-Prasyarat penting lainnya untuk menggunakan Ashigaru adalah node Bitcoin Dojo. Untuk alasan keamanan dan kedaulatan, tim Ashigaru tidak mengelola server terpusat untuk menghubungkan aplikasi Anda. Jadi, Anda harus menjalankan instance Dojo Anda sendiri, atau terhubung ke Dojo yang tepercaya.
+Prasyarat penting lainnya untuk menggunakan Ashigaru adalah node Bitcoin Dojo. Demi alasan keamanan dan kedaulatan, tim Ashigaru tidak mengelola server terpusat untuk menghubungkan aplikasi kamu. Jadi, kamu harus menjalankan instance Dojo sendiri, atau terhubung ke Dojo yang tepercaya.
 
 
 
-Dojo memungkinkan aplikasi Ashigaru Anda untuk berkonsultasi dengan informasi blockchain, melihat saldo alamat Anda, dan menyiarkan transaksi Anda di jaringan Bitcoin.
+Dojo memungkinkan aplikasi Ashigaru kamu untuk berkonsultasi dengan informasi blockchain, melihat saldo alamat, dan menyiarkan transaksi di jaringan Bitcoin.
 
 
 
-Untuk mengetahui lebih lanjut tentang Dojo dan mempelajari cara menginstalnya, saya mengundang Anda untuk mengikuti tutorial khusus ini:
+Untuk mempelajari lebih lanjut tentang Dojo dan cara menginstalnya, aku mengundang kamu untuk mengikuti tutorial khusus ini:
 
 
 
 https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
-Jika Anda benar-benar tidak mampu menjalankan Dojo Anda sendiri, Anda dapat menemukan orang yang bersedia membagikan instance mereka secara gratis di [dojobay.pw](https://www.dojobay.pw/mainnet/). Ini mungkin merupakan solusi sementara, tetapi dalam jangka panjang, saya sarankan Anda menggunakan Dojo Anda sendiri untuk menjamin kedaulatan dan kerahasiaan Anda.
+Kalau kamu benar-benar tidak mampu menjalankan Dojo kamu sendiri, kamu dapat menemukan orang yang bersedia membagikan instance mereka secara gratis di [dojobay.pw](https://www.dojobay.pw/mainnet/). Ini mungkin merupakan solusi sementara, tetapi dalam jangka panjang, aku menyarankanmu menggunakan Dojo sendiri untuk menjamin kedaulatan dan kerahasiaan kamu.
 
 
 
@@ -98,7 +91,7 @@ Jika Anda benar-benar tidak mampu menjalankan Dojo Anda sendiri, Anda dapat mene
 
 
 
-Pada ponsel Anda, buka Tor Browser dan buka [situs web resmi Ashigaru](https://ashigaru.rs/download/), di bagian `Unduh`. Kemudian klik pada tombol `Unduh untuk Android` untuk mengunduh berkas instalasi.
+Pada ponsel kamu, buka Tor Browser dan buka [situs web resmi Ashigaru](https://ashigaru.rs/download/), di bagian `Unduh`. Kemudian klik pada tombol `Unduh untuk Android` untuk mengunduh berkas instalasi.
 
 
 
@@ -106,7 +99,7 @@ Pada ponsel Anda, buka Tor Browser dan buka [situs web resmi Ashigaru](https://a
 
 
 
-Sebelum menginstal aplikasi pada perangkat Anda, kami akan memeriksa keaslian dan integritasnya. Ini adalah langkah yang sangat penting, terutama ketika menginstal aplikasi langsung dari file `.apk'.
+Sebelum menginstal aplikasi di perangkat kamu, kita akan memeriksa keaslian dan integritasnya. Ini adalah langkah yang sangat penting, terutama saat menginstal aplikasi langsung dari file `.apk`.
 
 
 
@@ -122,7 +115,7 @@ Kembali ke [situs web resmi Ashigaru](https://ashigaru.rs/download/) di bagian `
 
 
 
-Masih pada ponsel Anda, buka tab baru pada Tor Browser dan masuk ke [alat verifikasi Keybase](https://keybase.io/verify). Rekatkan pesan yang baru saja Anda salin ke dalam bidang yang disediakan, lalu klik tombol `Verify`.
+Masih pada ponsel kamu, buka tab baru pada Tor Browser dan masuk ke [alat verifikasi Keybase](https://keybase.io/verify). Rekatkan pesan yang baru saja kamu salin ke dalam bidang yang disediakan, lalu klik tombol `Verify`.
 
 
 
@@ -130,7 +123,7 @@ Masih pada ponsel Anda, buka tab baru pada Tor Browser dan masuk ke [alat verifi
 
 
 
-Jika tanda tangan tersebut asli, Keybase akan menampilkan pesan yang mengonfirmasi bahwa file tersebut telah ditandatangani oleh pengembang Ashigaru. Anda juga dapat mengklik profil `ashigarudev` yang ditunjukkan oleh Keybase dan memeriksa apakah sidik jarinya sama persis dengan sidik jari : `A138 06B1 FA2A 676B`.
+Jika tanda tangan tersebut asli, Keybase akan menampilkan pesan yang mengonfirmasi bahwa file tersebut telah ditandatangani oleh pengembang Ashigaru. Kamu juga dapat mengklik profil `ashigarudev` yang ditunjukkan oleh Keybase dan memeriksa apakah sidik jarinya sama persis dengan sidik jari : `A138 06B1 FA2A 676B`.
 
 
 
@@ -142,7 +135,7 @@ Namun, jika muncul kesalahan pada tahap ini, berarti tanda tangan tersebut tidak
 
 
 
-Keybase telah memberikan Anda hash dari aplikasi tersebut. Sekarang kita akan memeriksa apakah hash dari file `.apk` yang telah Anda unduh sesuai dengan yang diverifikasi di Keybase. Untuk melakukannya, buka [HASH FILE ONLINE](https://hash-file.online/).
+Keybase telah memberikan kamu hash dari aplikasi tersebut. Sekarang kita akan memeriksa apakah hash dari file `.apk` yang telah kamu unduh sesuai dengan yang diverifikasi di Keybase. Untuk melakukannya, buka [HASH FILE ONLINE](https://hash-file.online/).
 
 
 
@@ -153,7 +146,7 @@ Keybase telah memberikan Anda hash dari aplikasi tersebut. Sekarang kita akan me
 Klik tombol `BROWSE... ` dan pilih file `.apk` yang telah diunduh pada langkah 2.1.
 
 
-Kemudian pilih fungsi hash `SHA-256`, dan klik `HITUNG HASH` untuk menghitung hash file Anda.
+Kemudian pilih fungsi hash `SHA-256`, dan klik `HITUNG HASH` untuk menghitung hash file kamu.
 
 
 
@@ -161,7 +154,7 @@ Kemudian pilih fungsi hash `SHA-256`, dan klik `HITUNG HASH` untuk menghitung ha
 
 
 
-Situs ini akan menampilkan hash file `.apk` Anda. Bandingkan dengan hash yang Anda verifikasi di Keybase.io. Jika kedua hash tersebut identik, pemeriksaan keaslian dan integritas telah berhasil. Anda sekarang dapat melanjutkan untuk menginstal aplikasi.
+Situs ini akan menampilkan hash file `.apk` kamu. Bandingkan dengan hash yang kamu verifikasi di Keybase.io. Jika kedua hash tersebut identik, pemeriksaan keaslian dan integritas telah berhasil. Kamu sekarang dapat melanjutkan untuk menginstal aplikasi.
 
 
 
@@ -173,7 +166,7 @@ Situs ini akan menampilkan hash file `.apk` Anda. Bandingkan dengan hash yang An
 
 
 
-Untuk menginstal aplikasi, buka manajer file ponsel Anda dan buka folder unduhan. Kemudian klik file `.apk` yang baru saja Anda periksa, dan konfirmasikan penginstalan ketika diminta.
+Untuk menginstal aplikasi, buka manajer file ponsel kamu dan buka folder unduhan. Kemudian klik file `.apk` yang baru saja kamu periksa, dan konfirmasikan penginstalan ketika diminta.
 
 
 
@@ -181,7 +174,7 @@ Untuk menginstal aplikasi, buka manajer file ponsel Anda dan buka folder unduhan
 
 
 
-Ashigaru sekarang sudah terinstal di ponsel Anda.
+Ashigaru sekarang sudah terinstal di ponsel kamu.
 
 
 
@@ -213,19 +206,19 @@ Sekarang kita akan membuat portofolio Bitcoin yang baru. Tekan tombol `Buat wall
 
 
 
-### 3.1. membuat portofolio Bitcoin
+### 3.1. Membuat portofolio Bitcoin
 
 
 
-Ashigaru membutuhkan passphrase BIP39. Pilih passphrase Anda dan masukkan di kolom yang sesuai. Ini harus sepanjang dan seacak mungkin untuk menahan serangan brute force.
+Ashigaru membutuhkan BIP39 passphrase. Pilih passphrase kamu dan masukkan di kolom yang sesuai. Passphrase ini harus panjang dan seacak mungkin agar tahan terhadap serangan brute force.
 
 
 
-Buatlah cadangan fisik dari passphrase ini dengan segera. Ini adalah langkah yang sangat penting: jika Anda kehilangan ponsel Anda, **jika Anda tidak lagi memiliki passphrase ini, Anda tidak lagi dapat mengakses bitcoin Anda** yang tersimpan di Ashigaru wallet Anda. passphrase yang sama ini juga digunakan untuk mengenkripsi file pemulihan wallet.
+Segera buat cadangan fisik dari passphrase ini. Ini langkah yang sangat penting: jika kamu kehilangan ponsel, **jika kamu tidak lagi memiliki passphrase ini, kamu tidak akan bisa mengakses Bitcoin yang tersimpan di Ashigaru wallet kamu**. Passphrase yang sama juga digunakan untuk mengenkripsi file pemulihan wallet.
 
 
 
-Jika Anda tidak tahu apa itu passphrase, atau tidak sepenuhnya memahami cara kerjanya, saya sangat menyarankan Anda untuk membaca tutorial tambahan ini. Ini penting, karena passphrase adalah elemen penting dalam keamanan Anda: kesalahpahaman dalam penggunaannya dapat mengakibatkan hilangnya dana Anda secara permanen.
+Jika kamu belum tahu apa itu passphrase, atau belum sepenuhnya memahami cara kerjanya, aku sangat menyarankan kamu membaca tutorial tambahan ini. Ini penting karena passphrase adalah elemen krusial dalam keamanan: kesalahan penggunaan dapat mengakibatkan hilangnya dana secara permanen.
 
 
 
@@ -239,11 +232,12 @@ Setelah Anda memasukkan passphrase Anda, klik `NEXT`.
 
 
 
-Kemudian pilih kode PIN. Kode ini akan digunakan untuk membuka kunci Ashigaru wallet Anda, melindunginya dari akses fisik yang tidak sah. Kode ini tidak terlibat dalam derivasi kriptografi kunci wallet Anda. Ini berarti, bahkan tanpa mengetahui kode PIN, siapapun yang memiliki frasa mnemonik dan passphrase Anda akan dapat memperoleh kembali akses ke bitcoin Anda.
+Kemudian pilih kode PIN. Kode ini akan digunakan untuk membuka kunci Ashigaru wallet kamu, melindunginya dari akses fisik yang tidak sah. Kode ini tidak terlibat dalam derivasi kriptografi kunci wallet kamu. Artinya, bahkan tanpa mengetahui kode PIN, siapa pun yang memiliki frasa mnemonik dan passphrase kamu tetap bisa memperoleh kembali akses ke Bitcoin kamu.
 
 
 
-Pilihlah kode PIN yang panjang dan acak. Ingatlah untuk menyimpan salinan cadangan di lokasi yang terpisah dari ponsel Anda, untuk mencegah keduanya dibobol secara bersamaan.
+Pilih kode PIN yang panjang dan acak. Ingat untuk menyimpan salinan cadangannya di lokasi terpisah dari ponsel, agar keduanya tidak bisa dibobol sekaligus.
+
 
 
 
@@ -251,15 +245,15 @@ Pilihlah kode PIN yang panjang dan acak. Ingatlah untuk menyimpan salinan cadang
 
 
 
-Setelah kode PIN dibuat, Ashigaru akan menampilkan frasa mnemonik wallet Anda. Peringatan: frasa ini, digabungkan dengan passphrase Anda, memberikan akses penuh ke bitcoin Anda. Siapa pun yang memegangnya dapat mengambil dana Anda, meskipun mereka tidak memiliki akses ke ponsel Anda. Urutan 12 kata ini dapat digunakan untuk mengembalikan wallet Anda jika ponsel Anda hilang, dicuri, atau rusak. Oleh karena itu, penting untuk menyimpannya dengan sangat hati-hati pada media fisik (kertas atau logam).
+Setelah kode PIN dibuat, Ashigaru akan menampilkan frasa mnemonik wallet kamu. Peringatan: frasa ini, digabung dengan passphrase kamu, memberikan akses penuh ke Bitcoin kamu. Siapa pun yang memegangnya dapat mengambil dana kamu, meskipun mereka tidak memiliki akses ke ponsel. Urutan 12 kata ini bisa digunakan untuk mengembalikan wallet jika ponsel hilang, dicuri, atau rusak. Oleh karena itu, penting untuk menyimpannya dengan sangat hati-hati pada media fisik (kertas atau logam).
 
 
 
-Jangan pernah menyimpan frasa ini dalam bentuk digital, atau Anda berisiko mengekspos dana Anda pada pencurian. Tergantung pada strategi keamanan Anda, Anda bisa membuat beberapa salinan fisik, namun jangan pernah membaginya. Simpanlah kata-kata tersebut sesuai dengan urutannya, dan pastikan kata-kata tersebut diberi nomor.
+Jangan pernah menyimpan frasa ini dalam bentuk digital, karena kamu berisiko mengekspos dana pada pencurian. Tergantung strategi keamanan, kamu bisa membuat beberapa salinan fisik, tetapi jangan pernah membaginya. Simpan kata-kata sesuai urutannya, dan pastikan diberi nomor.
 
 
 
-Terakhir, jangan pernah menyimpan mnemonic dan passphrase di tempat yang sama. Jika keduanya disusupi secara bersamaan, penyerang bisa mendapatkan akses ke wallet Anda.
+Terakhir, jangan pernah menyimpan mnemonic dan passphrase di tempat yang sama. Jika keduanya disusupi sekaligus, penyerang bisa mendapatkan akses ke wallet kamu.
 
 
 
@@ -267,13 +261,13 @@ Terakhir, jangan pernah menyimpan mnemonic dan passphrase di tempat yang sama. J
 
 
 
-Untuk mempelajari lebih lanjut mengenai cara mengamankan frasa mnemonik Anda, silakan baca tutorial pelengkap ini:
+Untuk mempelajari lebih lanjut mengenai cara mengamankan frasa mnemonik kamu, silakan baca tutorial pelengkap ini:
 
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Ashigaru kemudian meminta Anda untuk mengonfirmasi ulang passphrase Anda. Gunakan kesempatan ini untuk memeriksa apakah cadangan fisik Anda sudah benar.
+Ashigaru kemudian meminta kamu untuk mengonfirmasi ulang passphrase. Gunakan kesempatan ini untuk memeriksa apakah cadangan fisik kamu sudah benar.
 
 
 
@@ -285,7 +279,7 @@ Ashigaru kemudian meminta Anda untuk mengonfirmasi ulang passphrase Anda. Gunaka
 
 
 
-Berikutnya adalah langkah menghubungkan ke Dojo Anda. Seperti yang telah dijelaskan di bagian pendahuluan, Ashigaru harus terhubung ke Dojo agar dapat berinteraksi dengan jaringan Bitcoin.
+Berikutnya adalah langkah menghubungkan ke Dojo milikmu. Seperti yang telah dijelaskan di bagian pendahuluan, Ashigaru harus terhubung ke Dojo agar dapat berinteraksi dengan jaringan Bitcoin.
 
 
 
@@ -297,7 +291,7 @@ Masuk ke "Alat Pemeliharaan" Dojo Anda dan buka menu `PAIRING`.
 
 
 
-Pada Ashigaru, tekan tombol `Pindai QR`, lalu pindai kode QR koneksi yang ditampilkan oleh DMT Anda. Kemudian klik `Lanjutkan` untuk mengonfirmasi.
+Pada Ashigaru, tekan tombol `Pindai QR`, lalu pindai kode QR koneksi yang ditampilkan oleh DMT kamu. Kemudian klik `Lanjutkan` untuk mengonfirmasi.
 
 
 
@@ -305,7 +299,7 @@ Pada Ashigaru, tekan tombol `Pindai QR`, lalu pindai kode QR koneksi yang ditamp
 
 
 
-Masukkan kode PIN Anda untuk membuka kunci wallet. Ini akan membawa Anda ke halaman sinkronisasi. Kesalahan *PayNym* pada tahap ini merupakan hal yang wajar, karena wallet masih baru. Cukup klik `Lanjutkan`.
+Masukkan kode PIN untuk membuka kunci wallet. Ini akan membawa Anda ke halaman sinkronisasi. Kesalahan *PayNym* pada tahap ini merupakan hal yang wajar, karena wallet masih baru. Cukup klik `Lanjutkan`.
 
 
 
@@ -313,7 +307,7 @@ Masukkan kode PIN Anda untuk membuka kunci wallet. Ini akan membawa Anda ke hala
 
 
 
-Anda kemudian akan dibawa ke halaman beranda portofolio Anda.
+Kemudian kamu akan dibawa ke halaman beranda portofolio milikmu.
 
 
 
@@ -321,7 +315,7 @@ Anda kemudian akan dibawa ke halaman beranda portofolio Anda.
 
 
 
-Sebelum melangkah lebih jauh, saya sarankan Anda untuk melakukan uji coba pemulihan ketika wallet masih belum berisi bitcoin. Hal ini akan memungkinkan Anda untuk memeriksa apakah cadangan kertas Anda berfungsi dengan baik. Untuk mengetahui caranya, ikuti tutorial ini:
+Sebelum melangkah lebih jauh, aku sarankan kamu melakukan uji coba pemulihan saat wallet masih kosong dari Bitcoin. Ini memungkinkan kamu memeriksa apakah cadangan kertas kamu berfungsi dengan baik. Untuk mengetahui caranya, ikuti tutorial ini:
 
 
 
@@ -339,11 +333,12 @@ Untuk mengakses pengaturan aplikasi, klik gambar *PayNym* Anda di sudut kiri ata
 
 
 
-Di sini Anda akan menemukan beberapa opsi untuk menyesuaikan pengoperasian Ashigaru dengan kebutuhan Anda. Namun demikian, saya sangat menyarankan agar Anda mengaktifkan 2 parameter penting sejak awal.
+Di sini kamu akan menemukan beberapa opsi untuk menyesuaikan cara kerja Ashigaru sesuai kebutuhan. Meski begitu, aku sangat menyarankan agar kamu mengaktifkan 2 parameter penting sejak awal.
 
 
 
-Mulailah dengan membuka menu `Keamanan > Mode siluman`, lalu aktifkan fitur ini jika Anda membutuhkannya. Fitur ini menyembunyikan aplikasi Ashigaru di balik nama, logo, dan antarmuka aplikasi biasa yang terpasang di ponsel Anda. Tujuannya adalah untuk mencegah siapa pun mengidentifikasi Ashigaru jika terjadi pemeriksaan fisik pada ponsel Anda.
+Mulailah dengan membuka menu `Keamanan > Mode siluman`, lalu aktifkan fitur ini jika kamu membutuhkannya. Fitur ini menyembunyikan aplikasi Ashigaru di balik nama, logo, dan antarmuka aplikasi biasa yang terpasang di ponsel kamu. Tujuannya untuk mencegah siapa pun mengidentifikasi Ashigaru jika terjadi pemeriksaan fisik pada ponsel kamu.
+
 
 
 
@@ -351,11 +346,11 @@ Mulailah dengan membuka menu `Keamanan > Mode siluman`, lalu aktifkan fitur ini 
 
 
 
-Setiap aplikasi palsu yang ditawarkan memiliki metode khusus untuk membuka antarmuka Ashigaru yang asli. Sebagai contoh, jika Anda memilih kalkulator, aplikasi Ashigaru akan menghilang dari layar beranda dan digantikan oleh kalkulator palsu. Ketika Anda membukanya, Anda akan melihat antarmuka kalkulator klasik yang berfungsi, tetapi untuk mengakses Ashigaru, yang harus Anda lakukan adalah mengetuk simbol `=` lima kali dengan cepat.
+Setiap aplikasi palsu yang ditawarkan memiliki metode khusus untuk membuka antarmuka Ashigaru yang asli. Sebagai contoh, jika kamu memilih kalkulator, aplikasi Ashigaru akan menghilang dari layar beranda dan digantikan oleh kalkulator palsu. Saat kamu membukanya, kamu akan melihat antarmuka kalkulator klasik yang berfungsi normal, tetapi untuk mengakses Ashigaru, yang perlu kamu lakukan hanyalah mengetuk simbol `=` lima kali dengan cepat.
 
 
 
-Parameter penting kedua yang harus diaktifkan adalah [**RBF** (*Replace-by-Fee*)](https://planb.academy/resources/glossary/rbf-replacebyfee). Opsi ini memungkinkan Anda untuk meningkatkan biaya transaksi jika terjebak dalam mempool karena biayanya terlalu rendah. Anda dapat mengaktifkannya melalui menu `Transactions > Spend using RBF`.
+Parameter penting kedua yang harus diaktifkan adalah [**RBF** (*Replace-by-Fee*)](https://planb.academy/resources/glossary/rbf-replacebyfee). Opsi ini memungkinkanmu untuk meningkatkan biaya transaksi jika terjebak dalam mempool karena biayanya terlalu rendah. Kamu dapat mengaktifkannya melalui menu `Transactions > Spend using RBF`.
 
 
 
@@ -363,7 +358,7 @@ Parameter penting kedua yang harus diaktifkan adalah [**RBF** (*Replace-by-Fee*)
 
 
 
-Tips: Anda dapat mengubah unit tampilan portofolio Anda dari `BTC` ke `sat` hanya dengan mengklik total saldo yang ditampilkan di halaman beranda.
+Tips: kamu dapat mengubah unit tampilan portofolio kamu dari `BTC` ke `sat` hanya dengan mengklik total saldo yang ditampilkan di halaman beranda.
 
 
 
@@ -371,7 +366,7 @@ Tips: Anda dapat mengubah unit tampilan portofolio Anda dari `BTC` ke `sat` hany
 
 
 
-Sekarang, setelah portofolio Anda beroperasi, Anda dapat menerima satss. Untuk melakukannya, tekan tombol `+` di bagian kanan bawah antarmuka, lalu tombol `Terima` berwarna hijau.
+Sekarang, setelah portofolio kamu beroperasi, kamu dapat menerima satss. Untuk melakukannya, tekan tombol `+` di bagian kanan bawah antarmuka, lalu tombol `Terima` berwarna hijau.
 
 
 
@@ -379,7 +374,7 @@ Sekarang, setelah portofolio Anda beroperasi, Anda dapat menerima satss. Untuk m
 
 
 
-Ashigaru kemudian menunjukkan kepada Anda alamat penerima pertama yang tidak digunakan dalam wallet Anda, untuk mencegah penggunaan ulang alamat (penggunaan ulang alamat merupakan praktik yang sangat buruk bagi privasi Anda). Anda kemudian dapat meneruskan alamat ini kepada orang atau layanan yang perlu mengirimkan bitcoin kepada Anda.
+Ashigaru kemudian menampilkan alamat penerima pertama yang belum digunakan di wallet kamu, untuk mencegah penggunaan ulang alamat, karena praktik ini sangat buruk bagi privasi. Kamu kemudian bisa meneruskan alamat ini kepada orang atau layanan yang perlu mengirimkan Bitcoin kepada kamu.
 
 
 
@@ -399,7 +394,7 @@ Setelah transaksi disiarkan di jaringan, transaksi akan secara otomatis muncul d
 
 
 
-Sekarang setelah Anda memiliki bitcoin di Ashigaru wallet, Anda juga bisa mengirimkannya. Untuk melakukannya, tekan tombol `+` di kanan bawah, lalu pilih tombol `Kirim` berwarna merah.
+Sekarang setelah kamu memiliki bitcoin di Ashigaru wallet, kamu juga bisa mengirimkannya. Untuk melakukannya, tekan tombol `+` di kanan bawah, lalu pilih tombol `Kirim` berwarna merah.
 
 
 
@@ -407,7 +402,7 @@ Sekarang setelah Anda memiliki bitcoin di Ashigaru wallet, Anda juga bisa mengir
 
 
 
-Kemudian pilih akun dari mana Anda ingin melakukan pengeluaran. Untuk saat ini, kita belum membahas akun `Postmix`, yang disediakan untuk koin bersama, yang akan kita bahas di tutorial selanjutnya. Jadi kita akan mengirim dana dari akun deposit utama.
+Kemudian pilih akun dari mana kamu ingin melakukan pengeluaran. Untuk saat ini, kita belum membahas akun `Postmix`, yang disediakan untuk koin bersama, yang akan kita bahas di tutorial selanjutnya. Jadi kita akan mengirim dana dari akun deposit utama.
 
 
 
@@ -415,7 +410,7 @@ Kemudian pilih akun dari mana Anda ingin melakukan pengeluaran. Untuk saat ini, 
 
 
 
-Masukkan detail transaksi Anda: jumlah yang akan dikirim dan alamat Bitcoin penerima.
+Masukkan detail transaksi kamu: jumlah yang akan dikirim dan alamat Bitcoin penerima.
 
 
 
@@ -423,7 +418,7 @@ Masukkan detail transaksi Anda: jumlah yang akan dikirim dan alamat Bitcoin pene
 
 
 
-Dengan mengklik tiga titik kecil di sudut kanan atas, kemudian pada `Show unspent outputs`, Anda juga dapat memilih dengan tepat UTXO mana yang ingin Anda keluarkan, untuk meningkatkan privasi Anda.
+Dengan mengklik tiga titik kecil di sudut kanan atas, kemudian pada `Show unspent outputs`, kamu juga dapat memilih dengan tepat UTXO mana yang ingin Anda keluarkan, untuk meningkatkan privasi kamu.
 
 
 
@@ -431,26 +426,27 @@ Dengan mengklik tiga titik kecil di sudut kanan atas, kemudian pada `Show unspen
 
 
 
-Setelah Anda mengisi semua detail, klik panah putih di bagian bawah antarmuka untuk melanjutkan.
+Setelah kamu mengisi semua detail, klik panah putih di bagian bawah antarmuka untuk melanjutkan.
 
 
 
-Anda kemudian akan dibawa ke halaman ringkasan yang menampilkan semua detail transaksi Anda. Beberapa elemen penting ditampilkan:
+Kamu kemudian akan dibawa ke halaman ringkasan yang menampilkan semua detail transaksi kamu. Beberapa elemen penting ditampilkan:
 
 
 
 
-- Di blok `Tujuan`, periksa untuk terakhir kalinya bahwa alamat penerima dan jumlah yang dikirim sudah benar;
-- Pada blok `Biaya`, Anda dapat melihat tarif biaya yang dipilih secara otomatis oleh Ashigaru dan, jika perlu, memodifikasinya dengan mengeklik `MANAGE`;
-- Blok `Transaksi` menunjukkan jenis transaksi yang akan Anda lakukan. Di sini, kita berbicara tentang transaksi sederhana, tetapi Ashigaru juga mendukung jenis transaksi yang dioptimalkan untuk privasi, yang akan kita bahas secara rinci dalam tutorial mendatang;
-- Blok merah `Peringatan Transaksi` memperingatkan Anda jika transaksi Anda menunjukkan pola yang dapat dikenali oleh alat analisis rantai, dan dapat membahayakan privasi Anda. Dengan mengkliknya, Anda bisa melihat detailnya. Sebagai contoh, dalam kasus saya, Ashigaru memberi tahu saya bahwa jumlah yang dikirim adalah bulat (`3000 sats`), sehingga saya dapat menyimpulkan hasil mana yang sesuai dengan pengeluaran dan mana yang merupakan pertukaran. Untuk mengetahui lebih lanjut tentang heuristik analisis rantai ini, saya mengundang Anda untuk mengikuti pelatihan BTC 204 saya di Plan ₿ Academy;
-- Terakhir, Anda dapat menambahkan label pada transaksi Anda untuk mencatat tujuannya.
+- Di blok `Tujuan`, periksa terakhir kali bahwa alamat penerima dan jumlah yang dikirim sudah benar.  
+- Pada blok `Biaya`, kamu bisa melihat tarif biaya yang dipilih secara otomatis oleh Ashigaru dan, jika perlu, memodifikasinya dengan mengeklik `MANAGE`.  
+- Blok `Transaksi` menunjukkan jenis transaksi yang akan dilakukan. Di sini, kita berbicara tentang transaksi sederhana, tetapi Ashigaru juga mendukung jenis transaksi yang dioptimalkan untuk privasi, yang akan dibahas secara rinci dalam tutorial mendatang.  
+- Blok merah `Peringatan Transaksi` memperingatkan kamu jika transaksi menunjukkan pola yang dapat dikenali oleh alat analisis rantai, yang bisa membahayakan privasi. Dengan mengekliknya, kamu bisa melihat detailnya. Sebagai contoh, dalam kasusku, Ashigaru memberi tahu bahwa jumlah yang dikirim adalah bulat (`3000 sats`), sehingga aku bisa menyimpulkan hasil mana yang sesuai dengan pengeluaran dan mana yang merupakan pertukaran. Untuk mempelajari lebih lanjut tentang heuristik analisis rantai ini, aku mengundang kamu mengikuti pelatihan BTC 204 di Plan ₿ Academy.  
+- Terakhir, kamu bisa menambahkan label pada transaksi untuk mencatat tujuannya.
+
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Setelah Anda memeriksa semua informasi, gunakan tanda panah hijau untuk mengirim bitcoin. Tahan panah, lalu seret ke kanan untuk mengonfirmasi pengiriman.
+Setelah kamu memeriksa semua informasi, gunakan tanda panah hijau untuk mengirim bitcoin. Tahan panah, lalu seret ke kanan untuk mengonfirmasi pengiriman.
 
 
 
@@ -458,7 +454,7 @@ Setelah Anda memeriksa semua informasi, gunakan tanda panah hijau untuk mengirim
 
 
 
-Transaksi Anda telah disiarkan di jaringan Bitcoin.
+Transaksi kamu telah disiarkan di jaringan Bitcoin.
 
 
 
@@ -466,19 +462,20 @@ Transaksi Anda telah disiarkan di jaringan Bitcoin.
 
 
 
-## 7. Memulihkan Ashigaru wallet Anda
+## 7. Memulihkan Ashigaru wallet kamu
 
 
 
-Pemulihan Ashigaru wallet sedikit berbeda dengan Bitcoin wallet klasik, karena aplikasi ini menggunakan metode yang sama dengan Samurai Wallet. Jika Anda kehilangan akses ke wallet Anda (entah karena lupa PIN, menghapus instalasinya, atau kehilangan ponsel), ada beberapa cara untuk memulihkan bitcoin Anda.
+Pemulihan Ashigaru wallet sedikit berbeda dari Bitcoin wallet klasik, karena aplikasi ini menggunakan metode yang sama dengan Samourai Wallet. Jika kamu kehilangan akses ke wallet (entah karena lupa PIN, menghapus instalasinya, atau kehilangan ponsel), ada beberapa cara untuk memulihkan Bitcoin kamu.
 
 
 
-Jika Anda masih memiliki akses ke ponsel Anda, atau jika Anda telah membuat cadangan file ini, metode yang paling sederhana adalah dengan menggunakan file cadangan `ashigaru.txt`. File ini berisi semua informasi yang anda perlukan untuk memulihkan portofolio anda pada contoh baru Ashigaru (atau pada Sparrow Wallet), tetapi file ini dienkripsi dengan passphrase yang telah anda tetapkan pada langkah 3.1 tutorial ini. Oleh karena itu, Anda harus memiliki file `ashigaru.txt` dan passphrase Anda untuk menggunakan metode ini.
+Jika kamu masih memiliki akses ke ponsel, atau telah membuat cadangan file ini, metode paling sederhana adalah menggunakan file cadangan `ashigaru.txt`. File ini berisi semua informasi yang diperlukan untuk memulihkan portofolio pada instance baru Ashigaru (atau pada Sparrow Wallet), tetapi file ini dienkripsi dengan passphrase yang telah kamu tetapkan pada langkah 3.1 tutorial ini. Oleh karena itu, kamu harus memiliki file `ashigaru.txt` dan passphrase untuk menggunakan metode ini.
 
 
 
-Dengan kedua elemen ini, Anda dapat, misalnya, memulihkan portofolio Anda pada Sparrow Wallet.
+Dengan kedua elemen ini, kamu bisa, misalnya, memulihkan portofolio pada Sparrow Wallet.
+
 
 
 
@@ -486,17 +483,17 @@ Dengan kedua elemen ini, Anda dapat, misalnya, memulihkan portofolio Anda pada S
 
 
 
-Jika Anda tidak memiliki akses ke file `ashigaru.txt`, Anda masih dapat memperoleh kembali akses ke dana Anda dengan menggunakan frasa mnemonik passphrase, sama seperti yang Anda lakukan untuk portofolio Bitcoin lainnya. Saya sarankan Anda melakukan pemulihan ini pada instance Ashigaru yang baru, atau langsung pada Sparrow Wallet, untuk dengan mudah memulihkan jalur bypass dari Whirlpool jika Anda menggunakannya. Atau, Anda dapat mengimpor informasi ini ke dalam perangkat lunak lain yang kompatibel dengan BIP39 dengan memasukkan jalur turunan secara manual.
+Jika kamu tidak memiliki akses ke file `ashigaru.txt`, kamu masih bisa mendapatkan kembali akses ke dana dengan menggunakan frasa mnemonik dan passphrase, sama seperti untuk portofolio Bitcoin lainnya. Aku sarankan melakukan pemulihan ini pada instance Ashigaru yang baru, atau langsung pada Sparrow Wallet, agar lebih mudah memulihkan jalur bypass dari Whirlpool jika kamu menggunakannya. Atau, kamu bisa mengimpor informasi ini ke perangkat lunak lain yang kompatibel dengan BIP39 dengan memasukkan jalur turunan secara manual.
 
 
 
-Untuk informasi lebih lanjut mengenai proses ini, silakan baca tutorial lengkap yang sudah saya tulis mengenai cara memulihkan Samurai Wallet dan wallet. Karena Ashigaru adalah fork, maka prosedurnya pun sama:
+Untuk informasi lebih lanjut tentang proses ini, silakan baca tutorial lengkap yang sudah aku tulis mengenai cara memulihkan Samourai Wallet dan wallet lainnya. Karena Ashigaru adalah fork, prosedurnya pun sama:
 
 
 
 https://planb.academy/tutorials/wallet/backup/samourai-recover-23bb6221-ea3e-42e6-a5b7-e6dbef5073c3
 
-Seperti yang Anda lihat, apa pun metode pemulihan yang Anda gunakan, passphrase sangat diperlukan. Jadi, pastikan untuk mencadangkannya dengan hati-hati. Anda juga bisa membuat beberapa salinan, tergantung pada strategi keamanan Anda.
+Seperti yang kamu lihat, apa pun metode pemulihan yang digunakan, passphrase sangat diperlukan. Jadi, pastikan untuk mencadangkannya dengan hati-hati. Kamu juga bisa membuat beberapa salinan, tergantung strategi keamanan kamu.
 
 
 
@@ -504,11 +501,12 @@ Seperti yang Anda lihat, apa pun metode pemulihan yang Anda gunakan, passphrase 
 
 
 
-Untuk memperbarui aplikasi Ashigaru, karena Anda menginstalnya dari file `.apk` dan bukan melalui Play Store seperti aplikasi biasa, Anda harus mengunduh file `.apk` baru yang sesuai dengan versi yang diperbarui, lalu menginstalnya secara manual.
+Untuk memperbarui aplikasi Ashigaru, karena kamu menginstalnya dari file `.apk` dan bukan melalui Play Store seperti aplikasi biasa, kamu harus mengunduh file `.apk` baru yang sesuai dengan versi terbaru, lalu menginstalnya secara manual.
 
 
 
-Ulangi langkah-langkah yang dijelaskan di bagian 2 tutorial ini, kecuali ketika Anda mengklik file `.apk` untuk meluncurkan penginstalan, **ponsel Android Anda akan menawarkan opsi `Update`, bukan `Install`.
+Ulangi langkah-langkah yang dijelaskan di bagian 2 tutorial ini, kecuali saat kamu mengklik file `.apk` untuk memulai penginstalan, **ponsel Android akan menawarkan opsi `Update`, bukan `Install`.
+
 
 
 
@@ -516,7 +514,7 @@ Ulangi langkah-langkah yang dijelaskan di bagian 2 tutorial ini, kecuali ketika 
 
 
 
-Ini adalah poin yang sangat penting: jika Android menampilkan `Install` dan bukannya `Update`, Anda mungkin menginstal versi yang salah. Dalam hal ini, segera hentikan prosedur instalasi.
+Ini adalah poin yang sangat penting: jika Android menampilkan `Install` dan bukannya `Update`, kamu mungkin menginstal versi yang salah. Dalam hal ini, segera hentikan prosedur instalasi.
 
 
 
@@ -524,7 +522,7 @@ Seperti instalasi pertama, periksa keaslian dan integritas file `.apk` sebelum m
 
 
 
-Untuk mengetahui kapan versi baru tersedia, periksa situs web resmi Ashigaru dari waktu ke waktu. Tenang saja, Ashigaru adalah aplikasi yang stabil dan matang, yang diwarisi dari Samourai Wallet, dan pembaruannya relatif jarang dibandingkan dengan perangkat lunak yang lebih muda.
+Untuk mengetahui kapan versi baru tersedia, periksa situs web resmi Ashigaru dari waktu ke waktu. Tenang aja, Ashigaru adalah aplikasi yang stabil dan matang, yang diwarisi dari Samourai Wallet, dan pembaruannya relatif jarang dibandingkan dengan perangkat lunak yang lebih muda.
 
 
 
@@ -532,7 +530,7 @@ Untuk mengetahui kapan versi baru tersedia, periksa situs web resmi Ashigaru dar
 
 
 
-Ashigaru adalah proyek sumber terbuka. Jika Anda ingin mendukung pengembangannya, Anda dapat memberikan donasi langsung dari aplikasi melalui PayNym.
+Ashigaru adalah proyek sumber terbuka. Jika Anda ingin mendukung pengembangannya, kamu dapat memberikan donasi langsung dari aplikasi melalui PayNym.
 
 
 
@@ -570,7 +568,7 @@ https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 
 
-Setelah transaksi notifikasi dikonfirmasi, Anda dapat mengirimkan donasi Anda ke proyek dengan mengklik panah putih kecil di sudut kanan atas antarmuka.
+Setelah transaksi notifikasi dikonfirmasi, kamu dapat mengirimkan donasi ke proyek dengan mengklik panah putih kecil di sudut kanan atas antarmuka.
 
 
 
@@ -578,5 +576,5 @@ Setelah transaksi notifikasi dikonfirmasi, Anda dapat mengirimkan donasi Anda ke
 
 
 
-Anda sekarang tahu bagaimana cara menggunakan fitur-fitur dasar aplikasi Ashigaru. Dalam tutorial selanjutnya, kita akan melihat cara memanfaatkan transaksi pembelanjaan tingkat lanjut, serta Whirlpool, implementasi coinjoin yang diwarisi dari Samurai Wallet.
+Sekarang kamu tahu bagaimana cara menggunakan fitur-fitur dasar aplikasi Ashigaru. Dalam tutorial selanjutnya, kita akan melihat cara memanfaatkan transaksi pembelanjaan tingkat lanjut, serta Whirlpool, implementasi coinjoin yang diwarisi dari Samurai Wallet.
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

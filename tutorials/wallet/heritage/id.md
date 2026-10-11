@@ -7,36 +7,25 @@ description: Portofolio Bitcoin dengan mekanisme pewarisan terintegrasi melalui 
 
 
 
-Mewariskan bitcoin jika terjadi kematian atau ketidakmampuan merupakan tantangan besar bagi pemegang aset kripto. Tanpa rencana warisan yang sesuai, aset-aset ini menjadi tidak dapat dikembalikan kepada orang yang Anda cintai.
+Mewariskan bitcoin jika terjadi kematian atau ketidakmampuan adalah tantangan besar bagi pemegang aset kripto. Tanpa rencana warisan yang tepat, aset-aset ini bisa menjadi tidak dapat dipulihkan dan tidak sampai ke orang yang kamu cintai.
+
+
+Heritage memberikan solusi yang elegan dengan mengimplementasikan mekanisme peralihan kematian langsung di blockchain Bitcoin. Wallet sumber terbuka ini memungkinkan kondisi suksesi on-chain untuk dikonfigurasikan: jika pemilik tidak melakukan transaksi lagi selama periode yang ditentukan, kunci alternatif yang sudah ditetapkan sebelumnya dapat melepaskan dana.
 
 
 
-Heritage memberikan jawaban yang elegan dengan mengimplementasikan mekanisme peralihan orang mati secara langsung pada blockchain Bitcoin. wallet sumber terbuka ini memungkinkan kondisi suksesi on-chain untuk dikonfigurasikan: jika pemilik tidak melakukan transaksi lebih lanjut selama periode yang ditentukan, kunci alternatif yang telah ditentukan sebelumnya dapat melepaskan dana.
-
-
-
-## Apa yang dimaksud dengan Warisan?
+## Apa yang dimaksud dengan Heritage?
 
 
 
 Heritage adalah portofolio Bitcoin yang secara native mengintegrasikan mekanisme pewarisan melalui skrip Taproot. Dikembangkan di bawah lisensi MIT oleh Jérémie Rodon, perangkat lunak sumber terbuka ini menjamin transparansi dan daya tahan.
 
-
-
 Heritage menggunakan skrip Taproot yang dikodekan dalam alamat Bitcoin. Setiap UTXO mengintegrasikan dua jenis kondisi pengeluaran:
 
-
-
-
-
-- Jalur utama** : Pemilik dapat membelanjakan bitcoinnya kapan saja dengan kunci primernya
-- Jalur alternatif**: Untuk setiap ahli waris yang ditunjuk, skrip menggabungkan kunci publiknya dengan kunci waktu
-
-
+- **Jalur utama** : Pemilik dapat membelanjakan bitcoinnya kapan saja dengan kunci primernya
+- **Jalur alternatif**: Untuk setiap ahli waris yang ditunjuk, skrip menggabungkan kunci publiknya dengan kunci waktu
 
 Setiap transaksi pemilik secara otomatis menunda tanggal aktivasi klausul warisan. Jika terjadi ketidakaktifan yang berkepanjangan (kematian, ketidakmampuan), kondisi tersebut secara otomatis dipicu.
-
-
 
 ## Layanan warisan (opsional)
 
@@ -44,37 +33,26 @@ Setiap transaksi pemilik secara otomatis menunda tanggal aktivasi klausul warisa
 
 Heritage menawarkan dua opsi penggunaan:
 
-
-
-**Lakukan sendiri (gratis)**: Aplikasi sumber terbuka saja. Anda mengelola semuanya secara mandiri dengan node Anda sendiri. Opsi ini menawarkan akses cadangan bawaan, warisan bawaan, dan kontrol eksklusif atas bitcoin Anda. Namun, Anda perlu membuat peringatan Anda sendiri (kalender, pengingat) agar Anda tidak lupa untuk memperbarui kunci waktu Anda, dan tidak ada pemberitahuan otomatis untuk ahli waris Anda.
-
-
+**Lakukan sendiri (gratis)**: Aplikasi sumber terbuka saja. Kamu mengelola semuanya secara mandiri dengan node kamu sendiri. Opsi ini menawarkan akses cadangan bawaan, warisan bawaan, dan kontrol eksklusif atas bitcoin kamu. Namun, kamu perlu membuat pengingat sendiri (kalender, notifikasi) agar tidak lupa memperbarui kunci waktu, dan tidak ada pemberitahuan otomatis untuk ahli waris kamu.
 
 **Gunakan layanan ini (0,05% per tahun)**: Layanan btc-heritage.com menambahkan fitur untuk menyederhanakan manajemen:
 
-
-
-
-- Pengingat otomatis sebelum tenggat waktu Anda berakhir
+- Pengingat otomatis sebelum tenggat waktu kamu berakhir
 - Pemberitahuan otomatis kepada ahli waris untuk memandu mereka melalui proses pemulihan
 - Dukungan prioritas
 - Manajemen deskriptor yang disederhanakan
 
-
-
 Biaya: 0,05% dari jumlah yang dikelola per tahun, minimum 0,5 mBTC/tahun. Tahun pertama gratis.
 
-
-
-Layanan ini tetap non-kustodian: kunci pribadi Anda tidak pernah meninggalkan perangkat Anda. Warisan tidak dapat mengakses dana Anda.
-
-
-
-## Warisan CLI
+Layanan ini tetap non-kustodian: kunci pribadi kamu tidak pernah meninggalkan perangkat. Heritage tidak dapat mengakses dana kamu.
 
 
 
-Bagi pengguna tingkat lanjut yang lebih menyukai terminal, Heritage menawarkan alat bantu baris perintah (CLI) untuk kontrol granular dan pengoperasian alat berat dengan celah udara.
+## Heritage CLI
+
+
+
+Bagi pengguna tingkat lanjut yang lebih menyukai terminal, Heritage menawarkan alat bantu baris perintah (CLI) untuk kontrol granular dan pengoperasian alat berat dengan air gapped.
 
 
 
@@ -82,7 +60,7 @@ Bagi pengguna tingkat lanjut yang lebih menyukai terminal, Heritage menawarkan a
 
 
 
-Dokumentasi lengkap CLI tersedia di [btc-heritage.com/heritage-cli](https://btc-heritage.com/heritage-cli). Di sini Anda akan menemukan instruksi untuk mengunduh, menghubungkan ke layanan, membuat dompet (dengan Ledger atau kunci lokal), mengelola ahli waris dan transaksi.
+Dokumentasi lengkap CLI tersedia di [btc-heritage.com/heritage-cli](https://btc-heritage.com/heritage-cli). Di sini kamu akan menemukan instruksi untuk mengunduh, menghubungkan ke layanan, membuat dompet (dengan Ledger atau kunci lokal), mengelola ahli waris dan transaksi.
 
 
 
@@ -122,7 +100,7 @@ Pilih versi yang sesuai dengan sistem operasi Anda (Linux 64bit atau Windows 64b
 
 
 
-Di Linux, aplikasi ini didistribusikan dalam format AppImage. Sebelum Anda dapat menjalankannya, Anda harus menginstal ketergantungan `libfuse2`:
+Di Linux, aplikasi ini didistribusikan dalam format AppImage. Sebelum kamu dapat menjalankannya, kamu harus menginstal *dependency* `libfuse2`:
 
 
 
@@ -167,7 +145,7 @@ Saat pertama kali diluncurkan, wizard orientasi menawarkan tiga pilihan:
 
 
 
-Pilih "Siapkan Wallet Warisan" untuk membuat wallet pertama Anda.
+Pilih "Siapkan Wallet Warisan" untuk membuat wallet pertama kamu.
 
 
 
@@ -186,7 +164,7 @@ Pilih cara menyambung ke jaringan Bitcoin:
 
 
 - Menggunakan Layanan Warisan**: Infrastruktur yang terkelola, lebih mudah bagi ahli waris
-- Menggunakan node saya sendiri**: Hubungkan ke Bitcoin Core atau node Electrum Anda sendiri
+- Menggunakan node sendiri**: Hubungkan ke Bitcoin Core atau node Electrum milikmu sendiri
 
 
 
@@ -208,20 +186,15 @@ Pilih cara mengelola kunci pribadi Anda:
 
 
 
-- Dengan Perangkat Keras Ledger**: Keamanan maksimum dengan perangkat keras wallet (disarankan)
+- Dengan Perangkat Keras Ledger**: Keamanan maksimum dengan hardware wallet (disarankan)
 - Penyimpanan lokal dengan kata sandi**: Kunci yang disimpan secara lokal dengan perlindungan kata sandi
 - Memulihkan wallet yang sudah ada**: Memulihkan dari seed yang sudah ada
 
 
 
-### Konfigurasi simpul
+### Konfigurasi node
 
-
-
-Jika Anda menggunakan node Anda sendiri, aplikasi akan memandu Anda melalui konfigurasinya. Pastikan node Bitcoin atau Electrum Anda adalah :
-
-
-
+Jika kamu menggunakan node kamu sendiri, aplikasi akan memandu kamu melalui konfigurasinya. Pastikan node Bitcoin atau Electrum kamu:
 
 - Terinstal dan berjalan
 - Disinkronkan dengan jaringan Bitcoin
@@ -233,7 +206,7 @@ Jika Anda menggunakan node Anda sendiri, aplikasi akan memandu Anda melalui konf
 
 
 
-Klik "Node Bitcoin saya sudah aktif dan berjalan" ketika node Anda sudah siap.
+Klik "Node Bitcoin saya sudah aktif dan berjalan" ketika node kamu sudah siap.
 
 
 
@@ -249,7 +222,7 @@ Klik "Status" di sudut kanan atas, lalu "Buka Konfigurasi" untuk mengakses param
 
 
 
-Tetapkan URL server Electrum Anda (misal: `umbrel.local:50001` jika Anda menggunakan Umbrel).
+Tetapkan URL server Electrum kamu (misal: `umbrel.local:50001` jika Anda menggunakan Umbrel).
 
 
 
@@ -277,7 +250,7 @@ Munculan yang menjelaskan arsitektur terpisah dari Heritage :
 
 
 
-1. **Penyedia Kunci (Offline)**: Mengelola kunci pribadi Anda dan menandatangani transaksi. Dapat berupa perangkat lunak Ledger atau wallet.
+1. **Penyedia Kunci (Offline)**: Mengelola kunci pribadi kamu dan menandatangani transaksi. Dapat berupa perangkat lunak Ledger atau wallet.
 
 
 2. **Online Wallet**: Menangani sinkronisasi dengan jaringan Bitcoin, pembuatan alamat, dan penyiaran transaksi.
@@ -294,10 +267,10 @@ Isi formulir pembuatan :
 
 
 
-- Nama Wallet**: Nama unik untuk mengidentifikasi wallet Anda
-- Penyedia Kunci**: Pilih Penyimpanan Kunci Lokal untuk tutorial ini
-- Baru/Pemulihan**: Pilih "Baru" untuk membuat generate menjadi seed yang baru
-- Jumlah Kata**: direkomendasikan 24 kata untuk keamanan maksimum
+- **Nama Wallet**: Nama unik untuk mengidentifikasi wallet kamu
+- **Penyedia Kunci**: Pilih Penyimpanan Kunci Lokal untuk tutorial ini
+- **Baru/Pemulihan**: Pilih "Baru" untuk membuat seed yang baru
+- **Jumlah Kata**: direkomendasikan 24 kata untuk keamanan maksimum
 
 
 
@@ -311,8 +284,8 @@ Masukkan kata sandi yang kuat dan pilih opsi untuk Online Wallet :
 
 
 
-- Simpul Lokal**: Menggunakan node Electrum atau Bitcoin Core Anda sendiri
-- Layanan Warisan**: Menggunakan layanan Warisan (disarankan untuk fungsi pemberitahuan)
+- Node Lokal**: Menggunakan node Electrum atau Bitcoin Core kamu sendiri
+- Layanan Warisan**: Menggunakan layanan Heritage (disarankan untuk fungsi pemberitahuan)
 
 
 
@@ -324,7 +297,7 @@ Klik "Buat Wallet" untuk menyelesaikan pembuatan.
 
 
 
-wallet Anda sekarang sudah dibuat. Antarmuka ditampilkan :
+wallet kamu sekarang sudah dibuat. Antarmuka ditampilkan :
 
 
 
@@ -360,8 +333,8 @@ Popup informasi menjelaskan:
 
 
 - Ahli waris adalah kunci publik Bitcoin yang terkait dengan individu
-- Setiap ahli waris memiliki frasa mnemoniknya sendiri
-- Pewaris pertama harus menjadi "Cadangan" untuk diri Anda sendiri (jika kehilangan wallet utama Anda)
+- Setiap ahli waris memiliki seedphrase-nya sendiri
+- Pewaris pertama harus menjadi "Cadangan" untuk diri kamu sendiri (jika kehilangan wallet utama kamu)
 
 
 
@@ -377,14 +350,11 @@ Klik "Buat Ahli Waris" dan beri nama "Cadangan".
 
 
 
-Popup menjelaskan mengapa kalimat 12 kata tanpa passphrase aman bagi ahli waris:
-
+Popup menjelaskan mengapa seedphrase 12 kata tanpa passphrase aman bagi ahli waris:
 
 1. **Tidak ada akses langsung**: Ahli waris tidak dapat mengakses dana hingga timelock kedaluwarsa
 
-
-2. **Deteksi kompromi**: Jika seseorang mengakses frasa tersebut, Anda dapat memperbarui konfigurasi Warisan
-
+2. **Deteksi kompromi**: Jika seseorang mengakses seedphrase tersebut, kamu dapat memperbarui konfigurasi Warisan
 
 3. **Aksesibilitas jangka panjang**: passphrase bisa dilupakan setelah bertahun-tahun
 
@@ -453,7 +423,7 @@ Klik pada Pewaris cadangan dan kemudian pada "Tampilkan Mnemonic" :
 
 
 
-Setelah Anda menuliskan frasa, akses parameter pewaris (ikon roda gigi):
+Setelah kamu menuliskan frasa, akses parameter pewaris (ikon roda gigi):
 
 
 
@@ -461,7 +431,7 @@ Setelah Anda menuliskan frasa, akses parameter pewaris (ikon roda gigi):
 
 
 
-Gunakan "Strip Heir Seed" untuk menghapus kunci pribadi dari aplikasi. Konfirmasikan bahwa Anda telah menyimpan frasa tersebut.
+Gunakan "Strip Heir Seed" untuk menghapus kunci pribadi dari aplikasi. Konfirmasikan bahwa kamu telah menyimpan seedphrase tersebut.
 
 
 
@@ -477,7 +447,7 @@ Ini adalah langkah keamanan: hanya kunci publik yang tersisa di aplikasi, cukup 
 
 
 
-Ulangi proses ini untuk membuat ahli waris kedua (misalnya "Satoshi"). Anda sekarang akan memiliki dua ahli waris:
+Ulangi proses ini untuk membuat ahli waris kedua (misalnya "Satoshi"). Kamu sekarang akan memiliki dua ahli waris:
 
 
 
@@ -566,7 +536,7 @@ Ini menampilkan kedua ahli waris dengan tenggat waktu dan tanggal kedaluwarsa ma
 
 
 
-**Penting**: Simpan deskriptor wallet Anda. Tanpa mereka, bahkan dengan frasa mnemonik, pemulihan dana tidak mungkin dilakukan.
+**Penting**: Simpan deskriptor wallet kamu. Tanpa mereka, bahkan dengan frasa mnemonik, pemulihan dana tidak mungkin dilakukan.
 
 
 
@@ -578,7 +548,7 @@ Klik "Deskriptor Cadangan" :
 
 
 
-Simpan file JSON yang berisi deskriptor Bitcoin Anda:
+Simpan file JSON yang berisi deskriptor Bitcoin kamu:
 
 
 
@@ -586,7 +556,7 @@ Simpan file JSON yang berisi deskriptor Bitcoin Anda:
 
 
 
-File ini harus diwariskan kepada ahli waris Anda, bersama dengan frasa mnemonik masing-masing.
+File ini harus diwariskan kepada ahli waris kamu, bersama dengan frasa mnemonik masing-masing.
 
 
 
@@ -602,11 +572,11 @@ Klik "TERIMA" untuk mendapatkan alamat penerimaan generate:
 
 
 
-Selamat! Heritage Wallet Anda siap menerima bitcoin. Setiap alamat yang dibuat secara otomatis menggabungkan kondisi Heritage Anda.
+Selamat! Heritage Wallet kamu siap menerima bitcoin. Setiap alamat yang dibuat secara otomatis menggabungkan kondisi Heritage kamu.
 
 
 
-Setelah menerima transaksi, saldo Anda akan diperbarui:
+Setelah menerima transaksi, saldo kamu akan diperbarui:
 
 
 
@@ -646,7 +616,7 @@ Ahli waris membutuhkan :
 
 
 
-Pada tab "INHERITANSI", sebuah popup akan mengingatkan Anda tentang prasyarat ini:
+Pada tab "INHERITANSI", sebuah popup akan mengingatkanmu tentang prasyarat ini:
 
 
 
@@ -750,7 +720,7 @@ Ketika tanggal jatuh tempo tercapai, tombol "Habiskan" akan mentransfer bitcoin 
 
 
 
-Deskriptor wallet sangat penting untuk merekonstruksi alamat Warisan Anda. **Tanpa deskriptor, bahkan dengan frasa mnemonik Anda, Anda tidak akan dapat menemukan dana Anda.
+Deskriptor wallet sangat penting untuk merekonstruksi alamat Warisan kamu. **Tanpa deskriptor, bahkan dengan seedphrase kamu, kamu tidak akan dapat menemukan dana kamu.**
 
 
 
@@ -761,16 +731,16 @@ Deskriptor wallet sangat penting untuk merekonstruksi alamat Warisan Anda. **Tan
 
 
 - Gunakan Ledger untuk kunci utama jika memungkinkan
-- Jangan pernah menyimpan kalimat ahli waris di tempat yang sama dengan kalimat Anda sendiri
-- Menyebarkan informasi di berbagai media dan lokasi
+- Jangan pernah menyimpan seedphrase ahli waris di tempat yang sama dengan seedphrase kamu sendiri
+- Sebarkan informasi di berbagai media dan lokasi
 
 
 
-### Dokumentasi untuk orang yang Anda cintai
+### Dokumentasi untuk orang yang kamu cintai
 
 
 
-Tuliskan instruksi yang jelas yang menjelaskan setiap langkah proses pemulihan. Ahli waris Anda mungkin tidak terbiasa dengan Bitcoin pada saat-saat kritis.
+Tuliskan instruksi yang jelas yang menjelaskan setiap langkah proses pemulihan. Ahli waris kamu mungkin tidak terbiasa dengan Bitcoin pada saat-saat kritis.
 
 
 
@@ -778,7 +748,7 @@ Tuliskan instruksi yang jelas yang menjelaskan setiap langkah proses pemulihan. 
 
 
 
-Ada solusi lain untuk mengelola pengiriman bitcoin Anda, termasuk Liana dan Bitcoin Keeper. Anda akan menemukan tutorial kami di bawah ini:
+Ada solusi lain untuk mengelola pengiriman bitcoin kamu, termasuk Liana dan Bitcoin Keeper. Kamu akan menemukan tutorial kami di bawah ini:
 
 
 
@@ -790,14 +760,14 @@ https://planb.academy/tutorials/wallet/backup/bitcoin-keeper-inheritance-c656a20
 
 
 
-Heritage memungkinkan Anda untuk merencanakan suksesi Bitcoin Anda dengan cara yang berdaulat melalui aplikasi Desktop. Implementasi memerlukan pertimbangan yang cermat mengenai kerangka waktu yang tepat dan pengamanan rahasia. Jangan lupa untuk mewariskan kepada ahli waris Anda:
+Heritage memungkinkan kamu untuk merencanakan suksesi Bitcoin kamu dengan cara yang berdaulat melalui aplikasi Desktop. Implementasi memerlukan pertimbangan yang cermat mengenai kerangka waktu yang tepat dan pengamanan rahasia. Jangan lupa untuk mewariskan kepada ahli waris kamu:
 
 
 
-
-- Frasa mnemonik 12 kata mereka
+- Seedphrase 12 kata mereka
 - File cadangan deskriptor
 - Petunjuk pemulihan
+
 
 
 

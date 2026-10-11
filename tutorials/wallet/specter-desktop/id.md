@@ -1,47 +1,40 @@
 ---
 name: Specter Desktop
-description: Kelola portofolio Bitcoin multi-tanda tangan Anda dalam kedaulatan total dengan node Anda sendiri
+description: Kelola portofolio Bitcoin multi-tanda tangan dalam kedaulatan total dengan node kamu sendiri
 ---
 
 ![cover](assets/cover.webp)
 
 
 
-Specter Desktop adalah sebuah aplikasi open source (lisensi MIT) yang dikembangkan oleh Cryptoadvance sejak tahun 2019 yang memfasilitasi pengelolaan dompet Bitcoin dengan dompet perangkat keras Anda (Ledger, Trezor, Coldcard, BitBox02, Passport, dll.) dan infrastruktur Bitcoin Anda sendiri (Bitcoin Core node atau Electrum server). Aplikasi ini unggul terutama dalam konfigurasi multi-tanda tangan, memungkinkan Anda untuk mengamankan jumlah besar dengan mendistribusikan kekuatan penandatanganan di antara beberapa dompet perangkat keras independen.
+Specter Desktop adalah aplikasi open-source (lisensi MIT) yang dikembangkan oleh Cryptoadvance sejak 2019, yang memudahkan pengelolaan dompet Bitcoin dengan hardware wallet kamu (Ledger, Trezor, Coldcard, BitBox02, Passport, dll.) dan infrastruktur Bitcoin milikmu sendiri (Bitcoin Core node atau Electrum server). Aplikasi ini unggul terutama dalam konfigurasi multisignature, memungkinkan kamu mengamankan jumlah besar dengan mendistribusikan kekuatan penandatanganan di antara beberapa hardware wallet independen.
 
 
 
-**Dalam tutorial ini, Anda akan mempelajari cara untuk:**
+**Dalam tutorial ini, kamu akan mempelajari cara untuk:**
 
 
 
 
-- Instal dan konfigurasikan Specter Desktop di komputer Anda (Windows, macOS, atau Linux)
-- Hubungkan Specter ke server Electrum (kita akan menggunakan Umbrel dalam contoh ini)
-- Membuat wallet sederhana dengan perangkat keras wallet (Coldcard)
-- Menerima dan mengirim bitcoin dengan kedaulatan penuh
-- Menyiapkan wallet multisignature 2-on-3 dengan beberapa dompet perangkat keras
-- Instal Specter pada server Umbrel (bonus lanjutan)
+- Instal dan konfigurasikan Specter Desktop di komputer kamu (Windows, macOS, atau Linux)  
+- Hubungkan Specter ke server Electrum (dalam contoh ini kita akan menggunakan Umbrel)  
+- Buat wallet sederhana dengan hardware wallet (Coldcard)  
+- Terima dan kirim bitcoin dengan kedaulatan penuh  
+- Siapkan wallet multisignature 2-of-3 dengan beberapa hardware wallet  
+- Instal Specter pada server Umbrel (bonus lanjutan)  
 
-
-
-Semua transaksi Anda akan divalidasi secara lokal melalui infrastruktur Anda sendiri, tanpa mengirimkan informasi apa pun ke server eksternal, menjamin kerahasiaan dan kedaulatan keuangan Anda. Selalu periksa transaksi pada layar perangkat keras wallet Anda sebelum menandatangani.
-
-
+Semua transaksi kamu akan divalidasi secara lokal melalui infrastruktur milikmu sendiri, tanpa mengirim informasi apa pun ke server eksternal, sehingga kerahasiaan dan kedaulatan keuangan tetap terjaga. Selalu periksa transaksi di layar hardware wallet sebelum menandatangani.
 
 ## Unduh dan pemasangan
 
-
-
 Kunjungi situs web resmi Specter Desktop untuk mengunduh aplikasi ini.
-
 
 
 ![Page d'accueil Specter](assets/fr/01.webp)
 
 
 
-Pada halaman pengunduhan, pilih versi yang sesuai dengan sistem operasi Anda: macOS, Windows, atau Linux.
+Pada halaman pengunduhan, pilih versi yang sesuai dengan sistem operasi: macOS, Windows, atau Linux.
 
 
 
@@ -49,15 +42,11 @@ Pada halaman pengunduhan, pilih versi yang sesuai dengan sistem operasi Anda: ma
 
 
 
-Setelah diunduh, instal aplikasi sesuai dengan petunjuk yang biasa diberikan oleh sistem operasi Anda. Untuk macOS, seret ikon ke dalam Aplikasi. Untuk Windows, jalankan penginstal. Untuk Linux, ikuti petunjuk paket.
-
-
+Setelah diunduh, instal aplikasi sesuai petunjuk yang biasanya diberikan oleh sistem operasi kamu. Untuk macOS, seret ikon ke folder Aplikasi. Untuk Windows, jalankan penginstal. Untuk Linux, ikuti petunjuk paket.
 
 ## Konfigurasi awal
 
-
-
-Pada saat pertama kali diluncurkan, Specter Desktop meminta Anda untuk memilih jenis koneksi. Anda dapat menyambung ke server Electrum atau ke node Bitcoin Core Anda sendiri.
+Saat pertama kali diluncurkan, Specter Desktop akan meminta kamu memilih jenis koneksi. Kamu bisa menyambung ke server Electrum atau ke Bitcoin Core node milikmu sendiri.
 
 
 
@@ -75,11 +64,9 @@ Untuk informasi lebih lanjut, silakan lihat tutorial Umbrel kami:
 
 https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
-Opsi ini menawarkan sinkronisasi yang lebih cepat daripada Bitcoin Core. Jika Anda lebih suka, Anda dapat memilih "Bitcoin Core" dan mengonfigurasi koneksi ke node lokal Anda. Langkah-langkah berikut ini tetap sama, apa pun pilihan Anda.
+Opsi ini menawarkan sinkronisasi lebih cepat dibandingkan Bitcoin Core. Jika kamu mau, kamu bisa memilih "Bitcoin Core" dan mengonfigurasi koneksi ke node lokal milikmu. Langkah-langkah berikut tetap sama, apa pun pilihanmu.
 
-
-
-Pilih "Koneksi Electrum" lalu pilih "Masukkan milik saya" untuk mengonfigurasi server Electrum Anda sendiri.
+Pilih "Koneksi Electrum" lalu pilih "Masukkan milik saya" untuk mengonfigurasi server Electrum milikmu sendiri.
 
 
 
@@ -87,12 +74,9 @@ Pilih "Koneksi Electrum" lalu pilih "Masukkan milik saya" untuk mengonfigurasi s
 
 
 
-Masukkan alamat server Electrum Anda. Dalam kasus kami dengan Umbrel, alamatnya adalah `umbrel.local` dengan port `50001`. Klik pada "Connect" untuk membuat koneksi.
+Masukkan alamat server Electrum kamu. Dalam contoh kami dengan Umbrel, alamatnya adalah `umbrel.local` dengan port `50001`. Klik "Connect" untuk membuat koneksi.
 
-
-
-Setelah terhubung, layar selamat datang akan muncul, dengan daftar periksa untuk membantu Anda memulai. Anda sekarang perlu menambahkan dompet perangkat keras Anda.
-
+Setelah terhubung, layar selamat datang akan muncul, lengkap dengan daftar periksa untuk membantumu memulai. Sekarang kamu perlu menambahkan hardware wallet kamu.
 
 
 ![Écran d'accueil](assets/fr/05.webp)
@@ -103,33 +87,25 @@ Setelah terhubung, layar selamat datang akan muncul, dengan daftar periksa untuk
 
 
 
-Pada menu sebelah kiri, klik "Tambah perangkat" untuk menambahkan perangkat keras wallet Anda.
+Di menu sebelah kiri, klik "Tambah perangkat" untuk menambahkan hardware wallet kamu.
 
+Specter Desktop mendukung berbagai hardware wallet: Trezor, Ledger, BitBox02, Coldcard, KeepKey, Keystone, Cobo Vault, dan masih banyak lagi.
 
-
-Specter Desktop mendukung banyak dompet perangkat keras: Trezor, Ledger, BitBox02, Coldcard, KeepKey, Keystone, Cobo Vault, dan masih banyak lagi.
-
-
-
-Jika Anda ingin mempelajari lebih lanjut, lihatlah tutorial perangkat keras wallet kami.
-
-
+Jika kamu ingin mempelajari lebih lanjut, lihat tutorial hardware wallet kami.
 
 ![Sélection du type de hardware wallet](assets/fr/06.webp)
 
 
 
-Pilih perangkat keras wallet Anda. Dalam contoh ini, kami menggunakan Coldcard MK4.
+Pilih hardware wallet kamu. Dalam contoh ini, kita menggunakan Coldcard MK4.
 
-
-
-Di bawah ini Anda akan menemukan tutorial kami untuk perangkat keras wallet ini:
+Di bawah ini kamu akan menemukan tutorial kami untuk hardware wallet ini:
 
 
 
 https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
-Untuk Coldcard, Anda perlu mengekspor kunci publik dari perangkat keras wallet baik melalui koneksi USB atau kartu microSD.
+Untuk Coldcard, kamu perlu mengekspor kunci publik dari perangkat keras wallet baik melalui koneksi USB atau kartu microSD.
 
 
 
@@ -137,7 +113,7 @@ Untuk Coldcard, Anda perlu mengekspor kunci publik dari perangkat keras wallet b
 
 
 
-Ikuti instruksi yang ditampilkan untuk mengekspor kunci dari Coldcard Anda. Beri nama perangkat keras wallet Anda (di sini "MK4 Tuto"). Setelah kunci diimpor, Anda bisa membuat wallet dengan satu kunci, atau menambahkan dompet perangkat keras lain untuk wallet multi-tanda tangan.
+Ikuti instruksi yang ditampilkan untuk mengekspor kunci dari Coldcard kamu. Beri nama hardware wallet kamu (di sini "MK4 Tuto"). Setelah kunci diimpor, kamu bisa membuat wallet dengan satu kunci, atau menambahkan hardware wallet lain untuk membuat wallet multisignature.
 
 
 
@@ -149,19 +125,14 @@ Ikuti instruksi yang ditampilkan untuk mengekspor kunci dari Coldcard Anda. Beri
 
 
 
-Setelah menambahkan perangkat keras wallet Anda, klik "Buat wallet kunci tunggal" untuk membuat wallet dengan tanda tangan tunggal.
+Setelah menambahkan hardware wallet kamu, klik "Buat wallet kunci tunggal" untuk membuat wallet dengan tanda tangan tunggal.
 
-
-
-Beri nama portofolio Anda (misalnya "Wallet untuk tuto") dan pilih jenis alamat. Pilih "Segwit" untuk menggunakan alamat bech32 asli yang mengoptimalkan biaya transaksi.
-
-
+Beri nama portofolio kamu (misalnya "Wallet untuk tuto") dan pilih jenis alamat. Pilih "Segwit" untuk menggunakan alamat bech32 asli yang mengoptimalkan biaya transaksi.
 
 ![Configuration du portefeuille](assets/fr/09.webp)
 
 
-
-Setelah portofolio Anda dibuat, Specter menawarkan untuk menyimpan file PDF cadangan yang berisi semua informasi publik yang diperlukan untuk memulihkan portofolio Anda (deskriptor, kunci publik yang diperluas). File ini tidak berisi kunci pribadi Anda.
+Setelah portofolio kamu dibuat, Specter menawarkan untuk menyimpan file PDF cadangan yang berisi semua informasi publik yang diperlukan untuk memulihkan portofolio kamu (descriptor, kunci publik yang diperluas). File ini tidak berisi kunci privat kamu.
 
 
 
@@ -173,7 +144,7 @@ Setelah portofolio Anda dibuat, Specter menawarkan untuk menyimpan file PDF cada
 
 
 
-Untuk menerima bitcoin, pilih wallet Anda di menu sebelah kiri, lalu klik tab "Terima".
+Untuk menerima bitcoin, pilih wallet kamu di menu sebelah kiri, lalu klik tab "Terima".
 
 
 
@@ -185,15 +156,11 @@ Spectre secara otomatis menghasilkan alamat penerimaan baru dengan kode QR.
 
 
 
-Anda dapat menyalin alamat atau memindai kode QR. Selalu periksa alamat pada layar perangkat keras wallet Anda sebelum memberikannya kepada siapa pun.
-
-
+Kamu dapat menyalin alamat atau memindai kode QR. Selalu periksa alamat di layar hardware wallet sebelum memberikannya kepada siapa pun.
 
 ## Melihat riwayat dan alamat
 
-
-
-Setelah Anda menerima bitcoin, Anda bisa melihat transaksi Anda di tab "Transaksi".
+Setelah kamu menerima bitcoin, kamu bisa melihat transaksi di tab "Transaksi".
 
 
 
@@ -201,7 +168,7 @@ Setelah Anda menerima bitcoin, Anda bisa melihat transaksi Anda di tab "Transaks
 
 
 
-Tab "Alamat" memungkinkan Anda melihat semua alamat yang dihasilkan oleh portofolio Anda, dengan status penggunaan dan jumlah yang terkait.
+Tab "Alamat" memungkinkanmu melihat semua alamat yang dihasilkan oleh portofolio kamu, dengan status penggunaan dan jumlah yang terkait.
 
 
 
@@ -212,16 +179,13 @@ Tab "Alamat" memungkinkan Anda melihat semua alamat yang dihasilkan oleh portofo
 ## Kirim bitcoin
 
 
-
-Untuk mengirim bitcoin, klik tab "Kirim". Masukkan alamat penerima, jumlah yang akan dikirim, dan centang opsi lanjutan jika Anda ingin memilih UTXO (kontrol koin) secara manual.
-
-
+Untuk mengirim bitcoin, klik tab "Kirim". Masukkan alamat penerima, jumlah yang ingin dikirim, dan centang opsi lanjutan jika kamu ingin memilih UTXO (coin control) secara manual.
 
 ![Création d'une transaction](assets/fr/14.webp)
 
 
 
-Klik pada "Buat Transaksi yang Tidak Ditandatangani" untuk membuat transaksi. Specter kemudian akan meminta Anda untuk menandatangani transaksi dengan perangkat keras wallet Anda.
+Klik pada "Buat Transaksi yang Tidak Ditandatangani" untuk membuat transaksi. Specter kemudian akan meminta kamu untuk menandatangani transaksi dengan perangkat keras wallet kamu.
 
 
 
@@ -229,11 +193,9 @@ Klik pada "Buat Transaksi yang Tidak Ditandatangani" untuk membuat transaksi. Sp
 
 
 
-Jika Anda menggunakan Coldcard, Anda akan memiliki pilihan untuk menandatangani melalui USB atau menggunakan kartu microSD (celah udara). Konfirmasikan transaksi pada layar perangkat keras wallet Anda, dengan memeriksa alamat tujuan dan jumlahnya dengan cermat.
+Jika kamu menggunakan Coldcard, kamu bisa memilih untuk menandatangani melalui USB atau menggunakan kartu microSD (air-gapped). Konfirmasikan transaksi di layar hardware wallet kamu, periksa alamat tujuan dan jumlahnya dengan cermat.
 
-
-
-Setelah transaksi ditandatangani, Anda dapat menyiarkannya di jaringan Bitcoin.
+Setelah transaksi ditandatangani, kamu bisa menyiarkannya ke jaringan Bitcoin.
 
 
 
@@ -241,7 +203,7 @@ Setelah transaksi ditandatangani, Anda dapat menyiarkannya di jaringan Bitcoin.
 
 
 
-Klik "Kirim transaksi" untuk mengirim transaksi. Specter akan mengonfirmasi bahwa transaksi Anda telah terkirim, dan Anda bisa melacak statusnya di tab Transaksi.
+Klik "Kirim transaksi" untuk mengirim transaksi. Specter akan mengonfirmasi bahwa transaksi kamu telah terkirim, dan kamu bisa melacak statusnya di tab Transaksi.
 
 
 
@@ -252,14 +214,9 @@ Klik "Kirim transaksi" untuk mengirim transaksi. Specter akan mengonfirmasi bahw
 ## Membuat dan menggunakan portofolio multi-tanda tangan
 
 
+Salah satu kekuatan utama Specter Desktop adalah kemampuannya menyederhanakan pengelolaan portofolio multisignature. Multisig wallet membutuhkan beberapa tanda tangan untuk mengesahkan transaksi, sehingga menghilangkan satu titik kegagalan. Konfigurasi 2-of-3, misalnya, memerlukan dua tanda tangan dari tiga hardware wallet yang terpisah untuk memvalidasi setiap pengeluaran.
 
-Salah satu aset utama Specter Desktop adalah kemampuannya untuk menyederhanakan pengelolaan portofolio multi-tanda tangan. Multisig wallet membutuhkan beberapa tanda tangan untuk mengesahkan sebuah transaksi, sehingga menghilangkan satu titik kegagalan. Konfigurasi 2-on-3, misalnya, membutuhkan dua tanda tangan dari tiga dompet perangkat keras yang terpisah untuk memvalidasi pengeluaran apa pun.
-
-
-
-Untuk membuat multisig wallet, mulailah dengan menambahkan semua dompet perangkat keras penandatanganan melalui "Tambah perangkat". Pada contoh ini, kita akan menggunakan tiga dompet perangkat keras yang berbeda: Coldcard MK4 (sudah ditambahkan sebelumnya), Passport, dan Ledger. Diversifikasi produsen ini memperkuat keamanan dengan menghindari ketergantungan pada satu rantai pasokan atau firmware.
-
-
+Untuk membuat multisig wallet, mulai dengan menambahkan semua hardware wallet penandatangan melalui "Tambah perangkat". Dalam contoh ini, kita akan menggunakan tiga hardware wallet berbeda: Coldcard MK4 (sudah ditambahkan sebelumnya), Passport, dan Ledger. Diversifikasi produsen ini memperkuat keamanan dengan menghindari ketergantungan pada satu rantai pasokan atau firmware.
 
 Berikut ini tautan ke tutorial Ledger dan Passport:
 
@@ -285,7 +242,7 @@ Kemudian tambahkan Ledger dengan menghubungkannya melalui USB dan membuka aplika
 
 
 
-Setelah Anda mendaftarkan tiga dompet perangkat keras Anda di Specter, klik "Add wallet" dan pilih opsi "Multiple Signature" untuk membuat wallet dengan banyak tanda tangan.
+Setelah kamu mendaftarkan tiga dompet perangkat keras kamu di Specter, klik "Add wallet" dan pilih opsi "Multiple Signature" untuk membuat wallet dengan banyak tanda tangan.
 
 
 
@@ -293,7 +250,7 @@ Setelah Anda mendaftarkan tiga dompet perangkat keras Anda di Specter, klik "Add
 
 
 
-Pilih tiga dompet perangkat keras yang ingin Anda sertakan dalam kuorum multisignature Anda: MK4 Tuto, Paspor multi dan buku besar multi. Klik "Lanjutkan" untuk melanjutkan ke langkah berikutnya.
+Pilih tiga dompet perangkat keras yang ingin kamu sertakan dalam kuorum multisignature: MK4 Tuto, Paspor multi dan buku besar multi. Klik "Lanjutkan" untuk melanjutkan ke langkah berikutnya.
 
 
 
@@ -301,7 +258,7 @@ Pilih tiga dompet perangkat keras yang ingin Anda sertakan dalam kuorum multisig
 
 
 
-Pilih konfigurasi multi-tanda tangan Anda. Pilih "Segwit" sebagai jenis alamat untuk mendapatkan manfaat dari biaya yang dioptimalkan. Parameter "Tanda Tangan yang Dibutuhkan untuk Mengesahkan Transaksi (m dari 3)" memungkinkan Anda menentukan ambang batas: untuk konfigurasi 2 lawan 3, 2 tanda tangan diperlukan. Setiap perangkat keras wallet menampilkan kunci multisig yang sesuai. Klik "Buat wallet" untuk menyelesaikan pembuatan.
+Pilih konfigurasi multisignature kamu. Pilih "Segwit" sebagai jenis alamat untuk mendapatkan manfaat dari biaya yang dioptimalkan. Parameter "Tanda Tangan yang Dibutuhkan untuk Mengesahkan Transaksi (m dari 3)" memungkinkan kamu menentukan ambang batas: untuk konfigurasi 2-of-3, 2 tanda tangan diperlukan. Setiap hardware wallet menampilkan kunci multisig yang sesuai. Klik "Buat wallet" untuk menyelesaikan pembuatan.
 
 
 
@@ -309,7 +266,7 @@ Pilih konfigurasi multi-tanda tangan Anda. Pilih "Segwit" sebagai jenis alamat u
 
 
 
-Portofolio multisignature "Multi tuto" Anda sekarang telah dibuat. Specter segera merekomendasikan agar Anda menyimpan file PDF cadangan yang berisi deskriptor portofolio. Klik "Simpan PDF Cadangan" untuk mengunduh file penting ini.
+Portofolio multisignature "Multi tuto" kamu sekarang telah dibuat. Specter segera merekomendasikan agar kamu menyimpan file PDF cadangan yang berisi deskriptor portofolio. Klik "Simpan PDF Cadangan" untuk mengunduh file penting ini.
 
 
 
@@ -317,15 +274,11 @@ Portofolio multisignature "Multi tuto" Anda sekarang telah dibuat. Specter seger
 
 
 
-Specter juga memungkinkan Anda mengekspor informasi wallet ke setiap dompet perangkat keras Anda melalui kode QR atau file. Hal ini memungkinkan dompet perangkat keras tertentu (seperti Coldcard atau Passport) untuk menyimpan konfigurasi multisig secara langsung di dalam memorinya.
+Specter juga memungkinkan kamu mengekspor informasi wallet ke setiap hardware wallet melalui kode QR atau file. Ini memungkinkan hardware wallet tertentu (seperti Coldcard atau Passport) untuk menyimpan konfigurasi multisig langsung di memorinya.
 
+Untuk Passport, buka perangkat kamu lalu masuk ke "Kelola Akun" > "Hubungkan Wallet" > "Specter" > "Multisig" > "Kode QR", lalu pindai kode QR yang dihasilkan oleh Specter. Passport kemudian akan meminta kamu untuk memindai alamat penerima dari wallet untuk memvalidasi konfigurasi multisig.
 
-
-Untuk Passport, buka kunci perangkat Anda kemudian buka "Kelola Akun" > "Hubungkan Wallet" > "Spectre" > "Multisig" > "Kode QR", lalu pindai kode QR yang dihasilkan oleh Spectre. Passport Anda kemudian akan meminta Anda untuk memindai alamat penerima dari wallet untuk memvalidasi konfigurasi multisig.
-
-
-
-Untuk MK4, colokkan ke PC Anda dan buka kuncinya. Kemudian klik "Simpan file Tuto MK4" dan simpan file tersebut ke MK4 Anda. Saat berikutnya Anda memasukkan perangkat keras wallet Anda, MK4 akan menggunakan file ini untuk menyelesaikan konfigurasi multisig.
+Untuk MK4, colokkan ke PC kamu dan buka kuncinya. Kemudian klik "Simpan file Tuto MK4" dan simpan file tersebut ke MK4 kamu. Saat berikutnya kamu memasukkan hardware wallet, MK4 akan menggunakan file ini untuk menyelesaikan konfigurasi multisig.
 
 
 
@@ -333,7 +286,7 @@ Untuk MK4, colokkan ke PC Anda dan buka kuncinya. Kemudian klik "Simpan file Tut
 
 
 
-Sebagai informasi, Anda dapat mengakses cadangan kapan saja dari tab "Pengaturan" pada portofolio Anda, lalu "Ekspor":
+Sebagai informasi, kamu dapat mengakses cadangan kapan saja dari tab "Pengaturan" pada portofolio, lalu "Ekspor":
 
 
 
@@ -341,7 +294,7 @@ Sebagai informasi, Anda dapat mengakses cadangan kapan saja dari tab "Pengaturan
 
 
 
-Penggunaan sehari-hari tetap serupa dengan wallet sederhana: Anda menerima alamat penerima seperti biasa. Untuk mengirim bitcoin, buka tab "Kirim", masukkan alamat penerima dan jumlahnya, lalu klik "Buat Transaksi Tidak Ditandatangani".
+Penggunaan sehari-hari tetap serupa dengan wallet sederhana: kamu menerima alamat penerima seperti biasa. Untuk mengirim bitcoin, buka tab "Kirim", masukkan alamat penerima dan jumlahnya, lalu klik "Buat Transaksi Tidak Ditandatangani".
 
 
 
@@ -349,95 +302,56 @@ Penggunaan sehari-hari tetap serupa dengan wallet sederhana: Anda menerima alama
 
 
 
-Specter membuat PSBT (Partially Signed Bitcoin Transaction) dan menampilkan "Mendapatkan 0 dari 2 tanda tangan". Sekarang Anda harus menandatangani dengan setidaknya dua dari tiga dompet perangkat keras Anda. Klik pada perangkat keras wallet pertama (misalnya "MK4 Tuto") untuk menandatangani dengan Coldcard Anda, kemudian pada perangkat keras kedua (misalnya "Passport multi") untuk mendapatkan tanda tangan kedua yang diperlukan.
-
-
+Specter membuat PSBT (Partially Signed Bitcoin Transaction) dan menampilkan "Mendapatkan 0 dari 2 tanda tangan". Sekarang kamu harus menandatangani dengan setidaknya dua dari tiga hardware wallet kamu. Klik pada hardware wallet pertama (misalnya "MK4 Tuto") untuk menandatangani dengan Coldcard kamu, lalu klik hardware wallet kedua (misalnya "Passport multi") untuk mendapatkan tanda tangan kedua yang diperlukan.
 
 ![Signature de la transaction](assets/fr/32.webp)
 
 
 
-Setelah Anda mendapatkan 2 tanda tangan yang diperlukan (antarmuka menampilkan "Mendapatkan 2 dari 2 tanda tangan" dan "Transaksi siap dikirim"), klik "Kirim Transaksi" untuk menyiarkan transaksi di jaringan Bitcoin.
+Setelah kamu mendapatkan 2 tanda tangan yang diperlukan (antarmuka menampilkan "Mendapatkan 2 dari 2 tanda tangan" dan "Transaksi siap dikirim"), klik "Kirim Transaksi" untuk menyiarkan transaksi ke jaringan Bitcoin.
 
 
 
 ![Transaction prête à être diffusée](assets/fr/33.webp)
 
 
-
 Pendekatan multi-tanda tangan ini sangat cocok untuk perusahaan (beberapa manajer perlu menyetujui pengeluaran), keluarga (perlindungan warisan multi-generasi), atau individu yang mengelola dana dalam jumlah besar (distribusi geografis dompet perangkat keras untuk menahan bencana lokal).
-
-
 
 ### Pentingnya pencadangan multisignature
 
+**Harap diperhatikan**: mencadangkan portofolio multisig pada dasarnya berbeda dengan mencadangkan portofolio tunggal. Frasa seed Anda saja tidak cukup untuk memulihkan portofolio multisig. Kamu juga harus mencadangkan **output descriptor** (output descriptor), yang berisi informasi konfigurasi untuk portofolio multisig kamu.
 
+output descriptor memiliki data penting: kunci publik yang diperluas (xpubs) dari setiap penandatangan bersama, ambang batas tanda tangan (2-on-3 pada contoh kita), jenis skrip yang digunakan (asli, bersarang, atau Segwit lama), dan jalur pintas untuk setiap perangkat keras wallet. Tanpa deskriptor ini, bahkan jika kamu memiliki dua dari tiga frasa seed, kamu tidak akan dapat membangun kembali wallet atau mengakses bitcoin kamu. Deskriptor ini memungkinkan perangkat lunak kamu untuk mengetahui bagaimana cara menggabungkan kunci publik ke alamat generate dan Bitcoin yang sesuai dengan dana kamu.
 
-**Harap diperhatikan**: mencadangkan portofolio multisig pada dasarnya berbeda dengan mencadangkan portofolio tunggal. Frasa pemulihan Anda (frasa seed) saja tidak cukup untuk memulihkan portofolio multisig. Anda juga harus mencadangkan **output descriptor** (output descriptor), yang berisi informasi konfigurasi untuk portofolio multisig Anda.
+Specter Desktop secara otomatis menghasilkan file PDF cadangan saat kamu membuat portofolio multisig. PDF ini berisi deskriptor lengkap, sidik jari setiap perangkat keras wallet, dan semua informasi publik yang diperlukan untuk pemulihan. **File ini tidak berisi kunci pribadi kamu** dan oleh karena itu tidak dengan sendirinya memungkinkan kamu untuk membelanjakan bitcoin, tetapi memungkinkan siapa pun yang mengaksesnya untuk melihat riwayat transaksi dan saldo lengkap kamu.
 
+Untuk mencadangkan konfigurasi multisignature dengan benar, ikuti prosedur berikut: setelah membuat portofolio kamu, klik tab "Pengaturan", lalu "Ekspor" dan pilih "Simpan Cadangan PDF". Buat beberapa salinan PDF ini: cetak setidaknya dua salinan di atas kertas, dan juga simpan salinan digital terenkripsi. Simpan satu salinan PDF dengan setiap frasa seed kamu, di lokasi yang terpisah secara geografis.
 
-
-output descriptor memiliki data penting: kunci publik yang diperluas (xpubs) dari setiap penandatangan bersama, ambang batas tanda tangan (2-on-3 pada contoh kita), jenis skrip yang digunakan (asli, bersarang, atau Segwit lama), dan jalur pintas untuk setiap perangkat keras wallet. Tanpa deskriptor ini, bahkan jika Anda memiliki dua dari tiga frasa pemulihan, Anda tidak akan dapat membangun kembali wallet atau mengakses bitcoin Anda. Deskriptor ini memungkinkan perangkat lunak Anda untuk mengetahui bagaimana cara menggabungkan kunci publik ke alamat generate dan Bitcoin yang sesuai dengan dana Anda.
-
-
-
-Specter Desktop secara otomatis menghasilkan file PDF cadangan saat Anda membuat portofolio multisig. PDF ini berisi deskriptor lengkap, sidik jari setiap perangkat keras wallet, dan semua informasi publik yang diperlukan untuk pemulihan. **File ini tidak berisi kunci pribadi Anda** dan oleh karena itu tidak dengan sendirinya memungkinkan Anda untuk membelanjakan bitcoin Anda, tetapi memungkinkan siapa pun yang mengaksesnya untuk melihat riwayat transaksi dan saldo lengkap Anda.
-
-
-
-Untuk mencadangkan konfigurasi multisignature Anda dengan benar, ikuti prosedur berikut: setelah membuat portofolio Anda, klik tab "Pengaturan", lalu "Ekspor" dan pilih "Simpan Cadangan PDF". Buat beberapa salinan PDF ini: cetak setidaknya dua salinan di atas kertas, dan juga simpan salinan digital terenkripsi. Simpan satu salinan PDF dengan setiap frasa pemulihan Anda, di lokasi yang terpisah secara geografis.
-
-
-
-Ukirlah frasa pemulihan Anda pada pelat logam yang tahan api dan tahan air untuk menjamin umurnya yang panjang. Jangan pernah meremehkan pentingnya cadangan ini: jika Anda kehilangan folder `~/.specter` di komputer DAN Anda kehilangan salah satu dompet perangkat keras tanpa cadangan deskriptor, semua dana Anda akan hilang secara permanen, bahkan dengan konfigurasi 2-on-3. Redundansi multi-tanda tangan melindungi dari kehilangan perangkat keras wallet, namun hanya jika anda sudah membuat cadangan deskriptor wallet anda dengan benar.
-
-
+Ukirlah frasa seed kamu pada pelat logam yang tahan api dan tahan air untuk menjamin umurnya yang panjang. Jangan pernah meremehkan pentingnya cadangan ini: jika kamu kehilangan folder `~/.specter` di komputer DAN kamu kehilangan salah satu dompet perangkat keras tanpa cadangan deskriptor, semua dana kamu akan hilang secara permanen, bahkan dengan konfigurasi 2-on-3. Redundansi multi-tanda tangan melindungi dari kehilangan perangkat keras wallet, namun hanya jika kamu sudah membuat cadangan deskriptor wallet kamu dengan benar.
 
 ## Keuntungan dan keterbatasan Specter Desktop
 
-
-
-**Manfaat**: Kerahasiaan yang optimal dengan validasi lokal yang lengkap tanpa server pihak ketiga. Fleksibilitas multisignature untuk konfigurasi tingkat lanjut (perusahaan, keluarga, perorangan). Dukungan perangkat keras wallet yang luas dengan interoperabilitas penuh (USB dan celah udara).
-
-
+**Manfaat**: Kerahasiaan yang optimal dengan validasi lokal yang lengkap tanpa server pihak ketiga. Fleksibilitas multisignature untuk konfigurasi tingkat lanjut (perusahaan, keluarga, perorangan). Dukungan perangkat keras wallet yang luas dengan interoperabilitas penuh (USB dan air-gapped).
 
 **Keterbatasan**: Kurva pembelajaran yang signifikan pada konsep Bitcoin tingkat lanjut (UTXO, deskriptor, jalur derivasi).
 
-
-
 ## Praktik terbaik
 
+Selalu periksa alamat dan jumlah pada layar perangkat keras wallet kamu sebelum validasi, untuk melindungi diri dari malware.
 
+Pisahkan cadangan PDF dari berkas kamu. Deskriptor publik ini dapat disimpan di brankas bank atau cloud terenkripsi, sehingga memudahkan pemulihan tanpa mengekspos kunci pribadi kamu.
 
-Selalu periksa alamat dan jumlah pada layar perangkat keras wallet Anda sebelum validasi, untuk melindungi diri Anda dari malware.
+Uji pemulihan pada jumlah token sebelum menggunakan portofolio dengan dana besar. Buat, uji, hapus, dan pulihkan untuk memvalidasi prosedur kamu.
 
-
-
-Pisahkan cadangan PDF dari berkas Anda. Deskriptor publik ini dapat disimpan di brankas bank atau cloud terenkripsi, sehingga memudahkan pemulihan tanpa mengekspos kunci pribadi Anda.
-
-
-
-Uji pemulihan pada jumlah token sebelum menggunakan portofolio Anda dengan dana besar. Buat, uji, hapus, dan pulihkan untuk memvalidasi prosedur Anda.
-
-
-
-Selalu perbarui Specter dan firmware Anda. Mendistribusikan penandatangan bersama multi-tanda tangan Anda secara geografis (rumah/kantor/dekatnya) untuk menahan bencana lokal. Gunakan label deskriptif untuk memfasilitasi akuntansi dan pengembalian pajak.
-
-
+Selalu perbarui Specter dan firmware kamu. Mendistribusikan penandatangan bersama multi-tanda tangan secara geografis (rumah/kantor/dekatnya) untuk menahan bencana lokal. Gunakan label deskriptif untuk memudahkan akuntansi dan pengembalian pajak.
 
 ## Bonus: Instalasi pada server Bitcoin (Umbrel, RaspiBlitz, Start9)
 
-
-
-Jika Anda sudah memiliki server Bitcoin seperti Umbrel, RaspiBlitz, MyNode atau Start9, Anda bisa menginstal Specter Desktop langsung dari toko aplikasi mereka. Pendekatan ini menawarkan beberapa keuntungan yang signifikan: aplikasi secara otomatis mengkonfigurasi dirinya sendiri dengan node Bitcoin Core lokal Anda, tetap dapat diakses 24/7 melalui antarmuka web dari perangkat apa pun di jaringan Anda, dan Anda bahkan dapat mengaksesnya dengan aman dari jarak jauh melalui Tor. Seluruh infrastruktur Bitcoin Anda terpusat pada satu server khusus, menyederhanakan manajemen dan memperkuat kedaulatan Anda.
-
-
+Jika kamu sudah memiliki server Bitcoin seperti Umbrel, RaspiBlitz, MyNode atau Start9, kamu bisa menginstal Specter Desktop langsung dari toko aplikasi mereka. Pendekatan ini menawarkan beberapa keuntungan yang signifikan: aplikasi secara otomatis mengkonfigurasi dirinya sendiri dengan node Bitcoin Core lokal kamu, tetap dapat diakses 24/7 melalui antarmuka web dari perangkat apa pun di jaringan kamu, dan kamu bahkan dapat mengaksesnya dengan aman dari jarak jauh melalui Tor. Seluruh infrastruktur Bitcoin kamu terpusat pada satu server khusus, menyederhanakan manajemen dan memperkuat kedaulatan kamu.
 
 ### Instalasi dari Toko Aplikasi Umbrel
 
-
-
-Dari antarmuka Umbrel Anda, buka App Store dan cari Specter Desktop. Klik "Instal" untuk meluncurkan instalasi.
+Dari antarmuka Umbrel kamu, buka App Store dan cari Specter Desktop. Klik "Instal" untuk meluncurkan instalasi.
 
 
 
@@ -445,7 +359,7 @@ Dari antarmuka Umbrel Anda, buka App Store dan cari Specter Desktop. Klik "Insta
 
 
 
-Setelah instalasi selesai, buka Specter Desktop pada Umbrel Anda. Layar selamat datang akan meminta Anda untuk memilih jenis koneksi Anda. Jika Anda menggunakan Specter pada Umbrel Anda, klik "Perbarui pengaturan" untuk mengonfigurasi koneksi.
+Setelah instalasi selesai, buka Specter Desktop pada Umbrel kamu. Layar selamat datang akan meminta kamu untuk memilih jenis koneksi. Jika kamu menggunakan Specter pada Umbrel kamu, klik "Perbarui pengaturan" untuk mengonfigurasi koneksi.
 
 
 
@@ -453,7 +367,7 @@ Setelah instalasi selesai, buka Specter Desktop pada Umbrel Anda. Layar selamat 
 
 
 
-Pilih "Remote Specter USB connection" untuk mengaktifkan penggunaan dompet perangkat keras USB yang terhubung ke komputer lokal Anda ketika menggunakan Specter pada server Umbrel jarak jauh.
+Pilih "Remote Specter USB connection" untuk mengaktifkan penggunaan dompet perangkat keras USB yang terhubung ke komputer lokal kamu ketika menggunakan Specter pada server Umbrel jarak jauh.
 
 
 
@@ -461,7 +375,7 @@ Pilih "Remote Specter USB connection" untuk mengaktifkan penggunaan dompet peran
 
 
 
-Ikuti petunjuk yang ditampilkan untuk mengonfigurasi HWI Bridge. Anda perlu mengakses pengaturan jembatan perangkat dan menambahkan domain `http://umbrel.local:25441` ke daftar putih. Klik "Update" untuk menyimpan konfigurasi.
+Ikuti petunjuk yang ditampilkan untuk mengonfigurasi HWI Bridge. Kamu perlu mengakses pengaturan jembatan perangkat dan menambahkan domain `http://umbrel.local:25441` ke daftar putih. Klik "Update" untuk menyimpan konfigurasi.
 
 
 
@@ -469,7 +383,7 @@ Ikuti petunjuk yang ditampilkan untuk mengonfigurasi HWI Bridge. Anda perlu meng
 
 
 
-Jika Anda juga ingin menggunakan dompet perangkat keras USB dari komputer lokal Anda, unduh aplikasi Specter Desktop ke komputer Anda dan atur ke "Ya, saya menjalankan Specter dari jarak jauh". Klik "Simpan" untuk menyelesaikan konfigurasi.
+Jika kamu juga ingin menggunakan dompet perangkat keras USB dari komputer lokal kamu, unduh aplikasi Specter Desktop ke komputer kamu dan atur ke "Ya, saya menjalankan Specter dari jarak jauh". Klik "Simpan" untuk menyelesaikan konfigurasi.
 
 
 
@@ -481,11 +395,9 @@ Jika Anda juga ingin menggunakan dompet perangkat keras USB dari komputer lokal 
 
 
 
-Specter Desktop mendemokratisasi konfigurasi Bitcoin tingkat lanjut, membuat multisignature dapat diakses tanpa mengorbankan kedaulatan atau kerahasiaan Anda. Bagi pengguna yang mengelola sejumlah besar uang, ini mengubah praktik institusional menjadi solusi yang dapat digunakan oleh perorangan.
+Specter Desktop mendemokratisasi konfigurasi Bitcoin tingkat lanjut, membuat multisignature dapat diakses tanpa mengorbankan kedaulatan atau kerahasiaan kamu. Bagi pengguna yang mengelola sejumlah besar uang, ini mengubah praktik institusional menjadi solusi yang dapat digunakan oleh perorangan.
 
-
-
-Meskipun aplikasi ini membutuhkan investasi awal dalam infrastruktur dan pembelajaran, aplikasi ini menawarkan kedaulatan penuh: kendali atas infrastruktur validasi, kepemilikan fisik atas kunci, dan transaksi yang bebas dari pengawasan pihak ketiga. Baik Anda seorang individu yang mengamankan tabungan Anda, keluarga yang membuat brankas multi-generasi, atau perusahaan yang mengelola arus kas, Specter Desktop adalah alat referensi untuk merekonsiliasi keamanan maksimum dan kedaulatan mutlak.
+Meskipun aplikasi ini membutuhkan investasi awal dalam infrastruktur dan pembelajaran, aplikasi ini menawarkan kedaulatan penuh: kendali atas infrastruktur validasi, kepemilikan fisik atas kunci, dan transaksi yang bebas dari pengawasan pihak ketiga. Baik kamu seorang individu yang mengamankan tabunganmu, keluarga yang membuat brankas multi-generasi, atau perusahaan yang mengelola arus kas, Specter Desktop adalah alat referensi untuk merekonsiliasi keamanan maksimum dan kedaulatan mutlak.
 
 
 

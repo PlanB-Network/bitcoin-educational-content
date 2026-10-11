@@ -14,20 +14,19 @@ description: Cara mengonfigurasi Aplikasi Blockstream dan menggunakan Liquid Net
 
 
 
-- Tutorial ini menjelaskan cara menggunakan aplikasi seluler **Blockstream App** untuk mengelola portofolio **Bitcoin Liquid**, yaitu transaksi yang dicatat secara langsung pada rantai samping Bitcoin "Liquid".
-- Ini mencakup instalasi, konfigurasi awal, pembuatan Software Wallet, dan operasi untuk menerima dan mengirim bitcoin pada Liquid.
-- Catatan: Tutorial lain dalam Lampiran mencakup Onchain, Watch-Only, dan versi desktop.
+- Tutorial ini menjelaskan cara menggunakan aplikasi seluler **Blockstream App** untuk mengelola portofolio **Bitcoin Liquid**, yaitu transaksi yang dicatat langsung pada rantai samping Bitcoin *Liquid*.
+- Tutorial ini mencakup instalasi, konfigurasi awal, pembuatan Software Wallet, serta cara menerima dan mengirim bitcoin di Liquid.
+- Catatan: Tutorial lain dalam Lampiran membahas Onchain, Watch-Only, dan versi desktop.
+
 
 
 
 ### 1.2 Target audiens
 
 
+- **Pemula**: Pengguna yang ingin mengelola bitcoin mereka lewat aplikasi seluler yang intuitif dan terintegrasi dengan Liquid Network.
+- **Pengguna tingkat menengah**: Orang-orang yang ingin memahami fungsi onchain serta opsi privasi seperti Tor atau SPV.
 
-
-
-- **Pemula**: Pengguna yang ingin mengelola bitcoin mereka dengan aplikasi seluler yang intuitif, yang mengintegrasikan Liquid Network.
-- **Pengguna tingkat menengah**: Orang-orang yang ingin memahami fungsi onchain dan opsi privasi seperti Tor atau SPV.
 
 
 
@@ -173,7 +172,7 @@ Liquid bergantung pada **federasi** peserta tepercaya (bursa, perusahaan Bitcoin
 
 
 
-- **Menyesuaikan pengaturan**: Klik "Pengaturan aplikasi", sesuaikan opsi di bawah ini, klik "Simpan", mulai ulang aplikasi dan buat portofolio Anda.
+- **Menyesuaikan pengaturan**: Klik "Pengaturan aplikasi", sesuaikan opsi di bawah ini, klik "Simpan", mulai ulang aplikasi dan buat portofolio kamu.
 
 
 
@@ -188,7 +187,7 @@ Liquid bergantung pada **federasi** peserta tepercaya (bursa, perusahaan Bitcoin
 
 
 - **Fungsi**: Menonaktifkan tangkapan layar, menyembunyikan pratinjau aplikasi di pengelola tugas, dan mengunci akses saat ponsel terkunci.
-- Mengapa? Melindungi data Anda dari akses fisik yang tidak sah atau malware penangkap layar.
+- Mengapa? Melindungi data kamu dari akses fisik yang tidak sah atau malware penangkap layar.
 
 
 
@@ -198,10 +197,11 @@ Liquid bergantung pada **federasi** peserta tepercaya (bursa, perusahaan Bitcoin
 
 
 
-- **Fungsi**: Merutekan lalu lintas jaringan melalui **Tor**, sebuah jaringan anonim yang mengenkripsi koneksi Anda.
-- Mengapa? Menyembunyikan IP Address Anda dan melindungi privasi Anda, ideal jika Anda tidak mempercayai jaringan Anda (Wi-Fi publik, misalnya).
-- **Kerugian**: Dapat memperlambat aplikasi karena enkripsi.
-- **Rekomendasi**: Aktifkan Tor jika kerahasiaan adalah prioritas, tetapi uji kecepatan koneksi.
+- **Fungsi**: Merutekan lalu lintas jaringan melalui **Tor**, jaringan anonim yang mengenkripsi koneksi kamu.
+- Mengapa? Menyembunyikan IP Address dan melindungi privasi kamu, ideal jika kamu tidak mempercayai jaringan yang digunakan (misal Wi-Fi publik).
+- **Kerugian**: Bisa memperlambat aplikasi karena proses enkripsi.
+- **Rekomendasi**: Aktifkan Tor jika privasi adalah prioritas, tapi tetap uji kecepatan koneksi.
+
 
 
 
@@ -211,7 +211,7 @@ Liquid bergantung pada **federasi** peserta tepercaya (bursa, perusahaan Bitcoin
 
 
 
-- **Fungsi**: Menghubungkan aplikasi ke **node Bitcoin lengkap** milik Anda sendiri melalui **server Elektrum**.
+- **Fungsi**: Menghubungkan aplikasi ke **node Bitcoin lengkap** milikmu sendiri melalui **server Elektrum**.
 - Mengapa? Memberikan kontrol penuh atas data Blockchain, menghilangkan ketergantungan pada server Blockstream.
 - **Prasyarat**: Node Bitcoin yang telah dikonfigurasi.
 - **Rekomendasi**: Pengguna tingkat lanjut yang menginginkan kedaulatan maksimum.
@@ -227,7 +227,7 @@ Liquid bergantung pada **federasi** peserta tepercaya (bursa, perusahaan Bitcoin
 - **Fungsi**: Menggunakan **Verifikasi Pembayaran Sederhana (SPV)** untuk memverifikasi secara langsung data Blockchain tertentu tanpa mengunduh seluruh rantai.
 - Mengapa? Mengurangi ketergantungan pada node default Blockstream, namun tetap ringan untuk perangkat seluler.
 - **Kerugian**: Kurang aman dibandingkan Full node, karena bergantung pada node pihak ketiga untuk beberapa informasi.
-- **Rekomendasi**: Aktifkan SPV jika Anda tidak dapat menggunakan simpul pribadi, tetapi lebih memilih Full node untuk keamanan optimal.
+- **Rekomendasi**: Aktifkan SPV jika Anda tidak dapat menggunakan node pribadi, tetapi lebih memilih Full node untuk keamanan optimal.
 
 
 
@@ -243,7 +243,7 @@ Liquid bergantung pada **federasi** peserta tepercaya (bursa, perusahaan Bitcoin
 
 
 
-- **Perhatian**: Siapkan portofolio Anda di lingkungan pribadi, tanpa kamera atau pengamat.
+- **Perhatian**: Siapkan portofolio kamu di lingkungan pribadi, tanpa kamera atau pengamat.
 - Dari layar beranda, klik "Memulai" :
 
 
@@ -254,7 +254,7 @@ Liquid bergantung pada **federasi** peserta tepercaya (bursa, perusahaan Bitcoin
 
 
 
-- Jika Anda ingin mengelola **Cold Wallet** (Wallet offline): klik **"Hubungkan Jade "** untuk menggunakan Hardware Wallet Blockstream Jade atau dompet Cold lainnya yang kompatibel.
+- Jika kamu ingin mengelola **Cold Wallet** (Wallet offline): klik **"Hubungkan Jade "** untuk menggunakan Hardware Wallet Blockstream Jade atau dompet Cold lainnya yang kompatibel.
 
 
 
@@ -277,15 +277,16 @@ Liquid bergantung pada **federasi** peserta tepercaya (bursa, perusahaan Bitcoin
 
 
 - (1) **"Setup Mobile Wallet"**: Membuat Hot Wallet baru (Hot Wallet).
-- (2) **"Pulihkan dari Cadangan "**: Mengimpor portofolio yang sudah ada dengan menggunakan frasa Mnemonic (12 atau 24 kata). Peringatan: Jangan mengimpor frasa dari Cold Wallet, karena frasa tersebut akan terekspos pada perangkat yang terhubung, dan membatalkan keamanannya.
-- (3) **"Hanya-Baca "**: Mengimpor portofolio hanya-baca yang sudah ada, untuk melihat saldo (mis. dari Cold Wallet Anda) tanpa mengekspos frasa Mnemonic. Lihat tutorial "Watch Only" di lampiran.
+- (2) **"Pulihkan dari Cadangan"**: Mengimpor portofolio yang sudah ada dengan menggunakan seedphrase (12 atau 24 kata). Peringatan: Jangan mengimpor seedphrase dari Cold Wallet, karena kata-kata itu akan terekspos pada perangkat yang terhubung dan mengurangi keamanannya.
+- (3) **"Hanya-Baca"**: Mengimpor portofolio hanya-baca yang sudah ada, untuk melihat saldo (misal dari Cold Wallet kamu) tanpa mengekspos seedphrase. Lihat tutorial "Watch Only" di lampiran.
+
 
 
 
 **Dalam tutorial ini**: Klik **"Setup Mobile Wallet"** untuk membuat Hot Wallet.
 
 
-Wallet Anda secara otomatis dibuat dan halaman beranda Wallet, di sini disebut "My Wallet 5", ditampilkan:
+Wallet kamu secara otomatis dibuat dan halaman beranda Wallet, di sini disebut "My Wallet 5", ditampilkan:
 
 
 
@@ -293,7 +294,7 @@ Wallet Anda secara otomatis dibuat dan halaman beranda Wallet, di sini disebut "
 
 
 
-**Penting**: Aplikasi Blockstream telah menyederhanakan pembuatan Wallet dengan tidak secara otomatis menampilkan frasa seed yang terdiri dari 12 kata. *Meskipun portofolio sekarang dibuat dalam satu klik, Anda berisiko kehilangan akses ke dana Anda jika Anda tidak menyimpan frasa seed Anda*.
+**Penting**: Aplikasi Blockstream telah menyederhanakan pembuatan Wallet dengan tidak secara otomatis menampilkan frasa seed yang terdiri dari 12 kata. *Meskipun portofolio sekarang dibuat dalam satu klik, kamu berisiko kehilangan akses ke dana Anda jika kamu tidak menyimpan frasa seed kamu*.
 
 
 
@@ -317,11 +318,12 @@ Frasa 12 kata seed akan ditampilkan untuk Anda simpan.
 
 
 
-- Tuliskan frasa pemulihan Anda dengan sangat hati-hati. Tuliskan di atas kertas atau logam dan simpan di tempat yang aman (lokasi yang aman dan offline). Frasa ini merupakan satu-satunya cara Anda untuk mengakses bitcoin jika perangkat Anda hilang atau aplikasi dihapus.
-- Penting juga untuk diperhatikan bahwa siapa pun yang memiliki frasa ini dapat mencuri semua bitcoin Anda. Jangan pernah menyimpannya secara digital:
- - Tidak ada tangkapan layar
- - Tidak ada cadangan awan, email, atau pesan
- - Tidak ada salin/tempel (risiko menyimpan ke clipboard)
+- Tuliskan seedphrase kamu dengan sangat hati-hati. Catat di kertas atau logam dan simpan di tempat yang aman (lokasi yang aman dan offline). Seedphrase ini adalah satu-satunya cara untuk mengakses bitcoin kamu jika perangkat hilang atau aplikasi dihapus.
+- Penting juga untuk diingat bahwa siapa pun yang memiliki seedphrase ini dapat mencuri seluruh bitcoin kamu. Jangan pernah menyimpannya secara digital:
+  - Tidak ada tangkapan layar
+  - Tidak ada cadangan awan, email, atau pesan
+  - Tidak ada salin/tempel (berisiko tersimpan di clipboard)
+
 
 
 
@@ -336,11 +338,10 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ### 4.3. Periksa kalimat seed
 
 
+Sebelum mengirim dana ke Address yang terkait dengan seedphrase ini, kamu harus menguji cadangan 12 kata kamu.
 
-Sebelum mengirim dana ke Address yang terkait dengan frasa seed ini, Anda harus menguji cadangan 12 kata Anda.
+Untuk melakukannya, kita akan mencatat referensi, menghapus Wallet, memulihkannya menggunakan cadangan, lalu memastikan bahwa referensi tersebut tidak berubah.
 
-
-Untuk melakukan ini, kita akan menuliskan referensi, menghapus Wallet, mengembalikannya dengan cadangan, dan memeriksa bahwa referensi tidak berubah.
 
 
 
@@ -354,19 +355,16 @@ Untuk melakukan ini, kita akan menuliskan referensi, menghapus Wallet, mengembal
 
 
 
-Catatan: zpub Address dapat diimpor ke dalam aplikasi Blockstream Anda untuk fungsi "Watch Only" (lihat Lampiran).
+Catatan: zpub Address dapat diimpor ke dalam aplikasi Blockstream kamu untuk fungsi "Watch Only" (lihat Lampiran).
 
 
 
-
-
-- Hapus aplikasi, lalu pulihkan Wallet melalui **"Pulihkan dari Cadangan "** dengan memasukkan frasa Mnemonic, dan periksa apakah zpub tidak berubah. Jika ya, maka cadangan Anda sudah benar, dan Anda dapat mengirim dana ke Wallet.
-
-
+- Hapus aplikasi, lalu pulihkan Wallet melalui **"Pulihkan dari Cadangan"** dengan memasukkan seedphrase, dan periksa apakah zpub tetap sama. Jika ya, maka cadangan kamu sudah benar, dan kamu bisa mengirim dana ke Wallet.
 
 
 
 - Untuk mempelajari lebih lanjut tentang cara melakukan tes pemulihan, berikut ini adalah tutorial khusus:
+
 
 
 
@@ -404,11 +402,11 @@ Mengunci akses ke aplikasi dengan kode PIN yang kuat:
 
 
 
-Untuk menerima Liquid-Bitcoin (L-BTC), ada beberapa opsi yang tersedia. Anda bisa meminta seseorang untuk mengirimkannya secara langsung dengan cara membagikan Liquid dan menerima Address, yang akan dijelaskan di bawah ini.
+Untuk menerima Liquid-Bitcoin (L-BTC), ada beberapa opsi yang tersedia. Kamu bisa meminta seseorang untuk mengirimkannya secara langsung dengan cara membagikan Liquid dan menerima Address, yang akan dijelaskan di bawah ini.
 
 
 
-Atau, Exchange bitcoin Anda di blockchain atau melalui Lightning Network untuk L-BTC menggunakan [jembatan seperti Boltz](https://boltz.Exchange/): masukkan Liquid Anda yang menerima Address, lakukan pembayaran sesuai keinginan, dan terima L-BTC Anda.
+Atau, Exchange bitcoin kamu di blockchain atau melalui Lightning Network untuk L-BTC menggunakan [jembatan seperti Boltz](https://boltz.Exchange/): masukkan Liquid kamu yang menerima Address, lakukan pembayaran sesuai keinginan, dan terima L-BTC.
 
 
 
@@ -434,10 +432,11 @@ Atau, Exchange bitcoin Anda di blockchain atau melalui Lightning Network untuk L
 
 
 
-- **Opsi** :
- - (1) Klik tanda panah untuk memilih Address baru lainnya yang terkait dengan kalimat seed ini.
-    - (2) Anda juga dapat memilih Address dari antara yang sudah digunakan/ditampilkan, dengan mengeklik tiga titik di kanan atas dan kemudian pada "Daftar Alamat"
-    - (3) Untuk meminta jumlah tertentu, klik pada tiga titik di kanan atas, pilih "Minta jumlah", dan masukkan jumlah yang diinginkan. QR akan diperbarui, dan Address akan diganti dengan URI pembayaran Bitcoin.
+- **Opsi**:
+  - (1) Klik tanda panah untuk memilih Address baru yang terkait dengan seedphrase ini.
+  - (2) Kamu juga bisa memilih Address dari daftar yang sudah digunakan/ditampilkan dengan mengeklik tiga titik di kanan atas, lalu pilih "Daftar Alamat".
+  - (3) Untuk meminta jumlah tertentu, klik tiga titik di kanan atas, pilih "Minta jumlah", lalu masukkan jumlah yang diinginkan. QR akan diperbarui dan Address diganti dengan URI pembayaran Bitcoin.
+
 
 
 
@@ -471,7 +470,7 @@ Atau, Exchange bitcoin Anda di blockchain atau melalui Lightning Network untuk L
 - Masukkan **detail**:
     - (1) Masukkan **Address penerima** dengan menempelkannya atau memindai kode QR.
     - (2) Periksa aset dan rekening tujuan pengiriman dana.
-    - (3) Tunjukkan **jumlah** yang akan dikirim. Anda dapat memilih unit: L-BTC, L-satoshi, USD, ...
+    - (3) Tunjukkan **jumlah** yang akan dikirim. Kamu dapat memilih unit: L-BTC, L-satoshi, USD, ...
 
 
 
@@ -541,7 +540,7 @@ https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-Untuk menggunakan **Aplikasi Blockstream** dengan aman dan efisien, ikuti rekomendasi berikut ini. Rekomendasi ini akan membantu Anda melindungi dana, mengoptimalkan transaksi, dan menjaga kerahasiaan Anda di jaringan **Bitcoin (onchain)**, **Liquid**, dan **Lightning**.
+Untuk menggunakan **Aplikasi Blockstream** dengan aman dan efisien, ikuti rekomendasi berikut ini. Rekomendasi ini akan membantumu melindungi dana, mengoptimalkan transaksi, dan menjaga kerahasiaan kamu di jaringan **Bitcoin (onchain)**, **Liquid**, dan **Lightning**.
 
 
 
@@ -561,7 +560,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 - **Gunakan autentikasi yang aman** :
  - Aktifkan **PIN yang kuat** atau **otentikasi biometrik** (sidik jari atau pengenalan wajah) untuk melindungi akses ke aplikasi.
- - Jangan pernah membagikan PIN atau data biometrik Anda.
+ - Jangan pernah membagikan PIN atau data biometrik kamu.
 
 
 
@@ -570,7 +569,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 - **Lindungi privasi Anda** :
  - generate sebuah Address baru untuk setiap penerimaan onchain atau Liquid untuk membatasi penelusuran pada Blockchain.
  - Aktifkan fungsi "Privasi yang Ditingkatkan", "Tor", dan "SPV".
- - Untuk kerahasiaan maksimum, sambungkan Wallet Anda ke node Bitcoin Anda sendiri melalui server Electrum alih-alih menggunakan node publik
+ - Untuk kerahasiaan maksimum, sambungkan Wallet Anda ke node Bitcoin kamu sendiri melalui server Electrum alih-alih menggunakan node publik
 
 
 
@@ -630,7 +629,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - **Pembelajaran dan tutorial:** [Plan ₿ Academy](https://planb.academy/) :
- - Mengamankan frasa pemulihan Anda
+ - Mengamankan frasa pemulihan milikmu
 
 
 

@@ -1,29 +1,28 @@
 ---
 name: BitBanana
-description: Manajer seluler untuk simpul Lightning Anda
+description: Manajer seluler untuk node Lightning kamu
 ---
 
 ![cover](assets/cover.webp)
 
 
 
-Dalam tutorial ini, Anda akan mempelajari cara menginstal dan mengonfigurasi BitBanana di Android untuk mengontrol node Lightning Anda dari ponsel cerdas Anda. Kita akan melihat cara menghubungkan aplikasi ke infrastruktur Anda yang sudah ada (Umbrel, RaspiBlitz, myNode, atau node LND/Core Lightning apa pun), melakukan pembayaran Lightning, mengelola saluran Anda dari jarak jauh, melihat pendapatan perutean, dan mencadangkan konfigurasi Anda. Anda juga akan belajar tentang praktik keamanan terbaik untuk melindungi akses ke node Anda, dan bagaimana perbandingannya dengan Zeus, sebuah alternatif yang populer.
+Dalam tutorial ini, kamu akan mempelajari cara menginstal dan mengonfigurasi BitBanana di Android untuk mengontrol node Lightning kamu dari ponsel cerdas. Kita akan melihat cara menghubungkan aplikasi ke infrastruktur yang sudah kamu miliki (Umbrel, RaspiBlitz, myNode, atau node LND atau Core Lightning apa pun), melakukan pembayaran Lightning, mengelola channel kamu dari jarak jauh, melihat pendapatan routing, dan mencadangkan konfigurasi kamu. Kamu juga akan belajar tentang praktik keamanan terbaik untuk melindungi akses ke node kamu, serta bagaimana perbandingannya dengan Zeus, sebuah alternatif yang populer.
 
 
 
 ## Memperkenalkan BitBanana
 
-
-
-BitBanana adalah sebuah aplikasi mobile Android open source yang mengubah ponsel Anda menjadi sebuah dasbor lengkap untuk kendali jarak jauh dari node Lightning Anda. Tidak seperti dompet Lightning, yang menyematkan node lokal pada ponsel, BitBanana mengadopsi filosofi kendali jarak jauh 100%: aplikasi ini tidak memiliki satoshi dan hanya terhubung ke infrastruktur yang ada.
-
-
-
-Dikembangkan oleh Michael Wünsch di bawah lisensi MIT, aplikasi ini menjamin transparansi total tanpa pengumpulan data pribadi dan build yang dapat direproduksi dan diverifikasi. BitBanana secara native mendukung LND dan Core Lightning melalui URI standar (`lndconnect://` dan `clngrpc://`), yang secara drastis menyederhanakan konfigurasi awal. Aplikasi ini juga mengenali LndHub dan Nostr Wallet Connect untuk pengguna tanpa node pribadi, meskipun mode ini beroperasi secara kustodian dengan fungsionalitas yang terbatas.
+BitBanana adalah aplikasi mobile Android open source yang mengubah ponsel kamu menjadi dashboard lengkap untuk kendali jarak jauh node Lightning kamu. Berbeda dengan dompet Lightning yang menyematkan node lokal di ponsel, BitBanana mengadopsi filosofi kendali jarak jauh 100%: aplikasi ini tidak menyimpan satoshi dan hanya terhubung ke infrastruktur yang sudah ada.
 
 
 
-Antarmuka menawarkan akses penuh ke semua fungsi penting node Anda: mengirim dan menerima pembayaran (BOLT11, Lightning Address, LNURL, BOLT12, Keysend), manajemen saluran Lightning (pembukaan, penutupan, penyesuaian biaya, penyeimbangan kembali), kontrol koin tingkat lanjut, dan manajemen menara pengawas. BitBanana juga mengimplementasikan beberapa lapisan keamanan yang kuat: penguncian biometrik, mode siluman, PIN Darurat, dan dukungan Tor asli untuk menganonimkan koneksi.
+Dikembangkan oleh Michael Wünsch di bawah lisensi MIT, aplikasi ini menjamin transparansi penuh tanpa pengumpulan data pribadi serta build yang dapat direproduksi dan diverifikasi. BitBanana secara native mendukung LND dan Core Lightning melalui URI standar (`lndconnect://` dan `clngrpc://`), yang secara signifikan menyederhanakan konfigurasi awal. Aplikasi ini juga mengenali LndHub dan Nostr Wallet Connect untuk pengguna tanpa node pribadi, meskipun mode ini berjalan secara kustodian dengan fungsionalitas yang terbatas.
+
+
+
+Antarmukanya memberikan akses penuh ke semua fungsi penting node kamu: mengirim dan menerima pembayaran (BOLT11, Lightning Address, LNURL, BOLT12, Keysend), manajemen channel Lightning (pembukaan, penutupan, penyesuaian biaya, penyeimbangan ulang), kontrol koin tingkat lanjut, dan manajemen watchtower. BitBanana juga mengimplementasikan beberapa lapisan keamanan yang kuat: penguncian biometrik, mode siluman, PIN darurat, serta dukungan Tor native untuk menganonimkan koneksi.
+
 
 
 
@@ -35,15 +34,15 @@ Antarmuka menawarkan akses penuh ke semua fungsi penting node Anda: mengirim dan
 
 
 
-BitBanana tersedia secara eksklusif untuk Android 8.0 atau lebih tinggi. Aplikasi ini tidak ada di iOS, dan tidak ada versi yang direncanakan. Keterbatasan ini dijelaskan oleh sejarah proyek ini: BitBanana adalah penerus langsung dari Zap Android, yang awalnya dikembangkan oleh Michael Wünsch, yang memutuskan untuk melanjutkan karyanya dengan mereknya sendiri. Zap adalah sebuah keluarga aplikasi yang terpisah (Zap Android, Zap iOS, Zap Desktop) yang dikembangkan oleh kontributor yang berbeda dengan basis kode yang terpisah. BitBanana hanya mengejar cabang Android.
+BitBanana tersedia secara eksklusif untuk Android 8.0 atau versi yang lebih tinggi. Aplikasi ini tidak tersedia di iOS, dan tidak ada versi yang direncanakan. Keterbatasan ini dapat dijelaskan dari sejarah proyeknya: BitBanana adalah penerus langsung dari Zap Android, yang awalnya dikembangkan oleh Michael Wünsch, lalu dilanjutkan secara independen dengan merek sendiri. Zap sendiri merupakan keluarga aplikasi yang terpisah (Zap Android, Zap iOS, Zap Desktop) yang dikembangkan oleh kontributor berbeda dengan basis kode yang juga terpisah. BitBanana hanya melanjutkan pengembangan pada cabang Android.
 
 
 
-Selain itu, ekosistem iOS menghadirkan kendala regulasi dan teknis yang signifikan untuk aplikasi Lightning non-kustodian. Pada tahun 2023, Apple menolak pembaruan Zeus karena "pelanggaran lisensi", dan pada tahun 2024, Phoenix Wallet meninggalkan App Store AS karena ketidakpastian peraturan mengenai penyedia layanan Lightning. Hambatan-hambatan ini menjelaskan mengapa banyak pengembang Lightning lebih memilih Android, yang menawarkan kebijakan yang lebih terbuka untuk aplikasi non-kustodian.
+Selain itu, ekosistem iOS menghadirkan kendala regulasi dan teknis yang signifikan untuk aplikasi Lightning non-kustodian. Pada tahun 2023, Apple menolak pembaruan Zeus dengan alasan "pelanggaran lisensi", dan pada tahun 2024, Phoenix Wallet meninggalkan App Store AS karena ketidakpastian regulasi terkait penyedia layanan Lightning. Hambatan-hambatan ini menjelaskan mengapa banyak pengembang Lightning lebih memilih Android, yang menawarkan kebijakan lebih terbuka untuk aplikasi non-kustodian.
 
 
 
-Tersedia tiga metode instalasi untuk Android: Google Play Store (5000+ instalasi, pembaruan otomatis), F-Droid (build yang dapat direproduksi, verifikasi kode sumber), atau APK manual dari GitHub.
+Tersedia tiga metode instalasi di Android: Google Play Store (5000+ instalasi, pembaruan otomatis), F-Droid (build yang dapat direproduksi, verifikasi kode sumber), atau APK manual yang diunduh langsung dari GitHub.
 
 
 
@@ -51,11 +50,11 @@ Tersedia tiga metode instalasi untuk Android: Google Play Store (5000+ instalasi
 
 
 
-Situs web resmi bitbanana.app (kiri) membanggakan "100% Kustodian Mandiri dengan pengumpulan data NOL". Layar tengah menunjukkan tiga opsi pengunduhan: F-Droid (disarankan), Google Play, dan APK. Layar di sebelah kanan menunjukkan izin pemberitahuan untuk peringatan pembayaran.
+Situs web resmi bitbanana.app (kiri) menonjolkan klaim "100% Kustodian Mandiri dengan pengumpulan data NOL". Layar di tengah menampilkan tiga opsi unduhan: F-Droid (direkomendasikan), Google Play, dan APK. Layar di sebelah kanan memperlihatkan permintaan izin notifikasi untuk peringatan pembayaran.
 
 
 
-Aplikasi ini meminta izin: jaringan (koneksi simpul), kamera (kode QR), NFC (LNURL), layanan latar belakang (pemberitahuan), biometrik (keamanan), dan WireGuard VPN. Tanpa pelacak, tanpa pengumpulan data. Aktifkan kata sandi atau penguncian biometrik untuk mengamankan akses.
+Aplikasi ini meminta beberapa izin: jaringan (koneksi node), kamera (kode QR), NFC (LNURL), layanan latar belakang (notifikasi), biometrik (keamanan), dan WireGuard VPN. Tanpa pelacak dan tanpa pengumpulan data. Aktifkan kata sandi atau penguncian biometrik untuk mengamankan akses.
 
 
 
@@ -67,7 +66,7 @@ Aplikasi ini meminta izin: jaringan (koneksi simpul), kamera (kode QR), NFC (LNU
 
 
 
-Untuk menghubungkan BitBanana ke node LND Anda (Umbrel, RaspiBlitz, myNode), dapatkan URI `lndconnect` atau kode QR yang berisi alamat, sertifikat TLS, dan makaroni otentikasi.
+Untuk menghubungkan BitBanana ke node LND (Umbrel, RaspiBlitz, myNode), dapatkan URI `lndconnect` atau kode QR yang berisi alamat, sertifikat TLS, dan makaroni otentikasi.
 
 
 
@@ -104,18 +103,15 @@ Di BitBanana, tekan "HUBUNGKAN NODE", pindai kode QR atau tempelkan URI. Otorisa
 
 *koneksi *Core Lightning**
 
-
-
-Jika Anda menggunakan Core Lightning (CLN) dan bukan LND, prosesnya tetap sama, dengan URI `clngrpc://` yang berisi sertifikat TLS bersama. Core Lightning secara native mendukung BOLT12 (penawaran), memungkinkan faktur yang dapat digunakan kembali dan pembayaran berulang yang tidak tersedia pada LND.
-
-
-
-**Koneksi tanpa simpul pribadi (LNbits/hosted)**
+Jika kamu menggunakan Core Lightning (CLN) dan bukan LND, prosesnya tetap sama, dengan URI `clngrpc://` yang berisi sertifikat TLS bersama. Core Lightning secara native mendukung BOLT12 (penawaran), yang memungkinkan invoice yang dapat digunakan kembali serta pembayaran berulang yang tidak tersedia di LND.
 
 
 
-Jika Anda tidak memiliki node Lightning, BitBanana dapat terhubung ke layanan yang dihosting melalui LndHub (protokol yang digunakan oleh BlueWallet dan LNbits) atau Nostr Wallet Connect (NWC). Harap diperhatikan: mode-mode ini beroperasi dalam mode kustodian (layanan menyimpan dana Anda) dengan fungsionalitas yang terbatas. Anda tidak akan dapat mengelola saluran atau mengonfigurasi biaya perutean, dan hanya dapat mengirim dan menerima pembayaran Lightning.
+**Koneksi tanpa node pribadi (LNbits atau hosted)**
 
+
+
+Jika kamu tidak memiliki node Lightning, BitBanana dapat terhubung ke layanan yang dihosting melalui LndHub (protokol yang digunakan oleh BlueWallet dan LNbits) atau Nostr Wallet Connect (NWC). Perlu diperhatikan: mode-mode ini berjalan secara kustodian, artinya layanan menyimpan dana kamu, dengan fungsionalitas yang terbatas. Kamu tidak akan dapat mengelola channel atau mengonfigurasi biaya routing, dan hanya bisa mengirim serta menerima pembayaran Lightning.
 
 
 Untuk detail lebih lanjut tentang LNbits atau Nostr Wallet Connect, silakan baca berbagai tutorial kami:
@@ -134,7 +130,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-Layar beranda menampilkan saldo Lightning Anda, dengan menu di kiri atas yang memberikan akses ke bagian berikut: Saluran, Perutean, Tanda tangani/Verifikasi, Simpul, Kontak, Pengaturan, Cadangan. Ikon jam (kanan atas) membuka riwayat transaksi. Tombol "Kirim" dan "Terima" di bagian bawah memungkinkan Anda untuk mengirim dan menerima satoshi.
+Layar beranda menampilkan saldo Lightning kamu, dengan menu di kiri atas yang memberikan akses ke bagian berikut: Channel, Routing, Tanda tangani atau Verifikasi, Node, Kontak, Pengaturan, dan Cadangan. Ikon jam di kanan atas membuka riwayat transaksi. Tombol "Kirim" dan "Terima" di bagian bawah memungkinkan kamu untuk mengirim dan menerima satoshi.
 
 
 
@@ -149,20 +145,20 @@ Layar beranda menampilkan saldo Lightning Anda, dengan menu di kiri atas yang me
 ![BitBanana](assets/fr/10.webp)
 
 
-
-**Mengirim pembayaran:** Tekan tombol "Kirim" dari layar beranda. Layar pembayaran (kiri) menawarkan Anda untuk menempelkan alamat atau data pembayaran ke dalam bidang "Address atau data pembayaran", dengan pemindai QR di kanan atas untuk memindai kode. Anda juga dapat memilih kontak yang disimpan di bagian Kontak agar tidak perlu memindai setiap kali.
-
-
-
-BitBanana dengan cerdas mengenali semua format pembayaran: faktur Lightning klasik (string karakter yang dimulai dengan `lnbc`), Lightning Address (format email seperti `utilisateur@domaine.com`), kode LNURL-pay untuk pembayaran dinamis, LNURL-withdraw untuk menarik dana, dan bahkan pembayaran Keysend langsung ke kunci publik Lightning tanpa faktur sebelumnya. Aplikasi ini secara otomatis melakukan resolusi LNURL yang diperlukan di latar belakang.
+**Mengirim pembayaran:** Tekan tombol "Kirim" dari layar beranda. Layar pembayaran (kiri) memungkinkan kamu menempelkan alamat atau data pembayaran ke dalam kolom "Address atau data pembayaran", dengan pemindai QR di kanan atas untuk memindai kode. Kamu juga bisa memilih kontak yang tersimpan di bagian Kontak agar tidak perlu memindai setiap kali.
 
 
 
-Setelah faktur dimuat, BitBanana akan menampilkan detail lengkap: jumlah yang tepat, perkiraan biaya routing, deskripsi pembayaran (jika disediakan oleh penerima), dan tanggal kedaluwarsa faktur. Setelah konfirmasi, pembayaran akan dirutekan melalui saluran Lightning Anda. Anda kemudian dapat melihat rute yang diambil langkah demi langkah dan biaya yang sebenarnya dibayarkan dalam detail transaksi.
+BitBanana secara cerdas mengenali semua format pembayaran: invoice Lightning klasik (string karakter yang dimulai dengan `lnbc`), Lightning Address (format mirip email seperti `user@domain.com`), kode LNURL-pay untuk pembayaran dinamis, LNURL-withdraw untuk menarik dana, serta pembayaran Keysend langsung ke public key Lightning tanpa invoice sebelumnya. Aplikasi ini secara otomatis melakukan resolusi LNURL yang diperlukan di latar belakang.
 
 
 
-**Menerima pembayaran:** Tekan tombol "Terima". Sebuah pemilih (layar kanan) memungkinkan Anda memilih antara Lightning (pembayaran instan melalui saluran Anda) dan On-Chain. Untuk tanda terima Lightning, masukkan jumlah yang diinginkan dalam satoshi (atau biarkan di angka 0 untuk membuat faktur tanpa jumlah yang pasti untuk diisi oleh pembayar), dan tambahkan deskripsi opsional untuk ditampilkan pada faktur. BitBanana secara instan membuat faktur Lightning dengan kode QR untuk pemindaian. Anda juga bisa menyalin faktur sebagai teks dan mengirimkannya melalui email. Segera setelah pembayaran diterima, sebuah notifikasi push akan memberitahukan Anda dan transaksi akan langsung muncul di riwayat dengan semua detailnya.
+Setelah invoice dimuat, BitBanana akan menampilkan detail lengkap: jumlah yang tepat, perkiraan biaya routing, deskripsi pembayaran (jika disediakan oleh penerima), dan tanggal kedaluwarsa invoice. Setelah dikonfirmasi, pembayaran akan dirutekan melalui channel Lightning kamu. Kamu kemudian dapat melihat rute yang dilalui langkah demi langkah serta biaya aktual yang dibayarkan di detail transaksi.
+
+
+
+**Menerima pembayaran:** Tekan tombol "Terima". Sebuah pemilih (layar kanan) memungkinkan kamu memilih antara Lightning (pembayaran instan melalui channel kamu) dan On-Chain. Untuk tanda terima Lightning, masukkan jumlah yang diinginkan dalam satoshi, atau biarkan bernilai 0 untuk membuat invoice tanpa jumlah tetap yang dapat diisi oleh pembayar, lalu tambahkan deskripsi opsional yang akan ditampilkan pada invoice. BitBanana akan langsung membuat invoice Lightning lengkap dengan kode QR untuk dipindai. Kamu juga dapat menyalin invoice dalam bentuk teks dan mengirimkannya melalui email. Begitu pembayaran diterima, notifikasi push akan memberi tahu kamu dan transaksi akan langsung muncul di riwayat dengan seluruh detailnya.
+
 
 
 
@@ -174,19 +170,20 @@ Setelah faktur dimuat, BitBanana akan menampilkan detail lengkap: jumlah yang te
 
 
 
-Bagian "Saluran" menampilkan kemampuan kirim/terima Anda dan daftar saluran Anda dengan avatar unik. Setiap saluran menunjukkan pembagian likuiditasnya antara saldo lokal dan jarak jauh. Sentuh sebuah saluran untuk mengetahui detail lengkap dan tindakan (menutup, mengubah biaya perutean). Tiga titik di kanan atas memberikan akses ke opsi "Rebalance" untuk menyeimbangkan kembali likuiditas saluran Anda. Tombol "+" membuka saluran baru.
+Bagian "Channel" menampilkan kemampuan kirim dan terima kamu serta daftar channel dengan avatar unik. Setiap channel menunjukkan pembagian likuiditas antara saldo lokal dan remote. Sentuh sebuah channel untuk melihat detail lengkap serta tindakan yang tersedia, seperti menutup channel atau mengubah biaya routing. Ikon tiga titik di kanan atas memberikan akses ke opsi "Rebalance" untuk menyeimbangkan kembali likuiditas channel kamu. Tombol "+" digunakan untuk membuka channel baru.
 
 
 
-Bagian Routing (layar tengah) menampilkan pendapatan penerusan berdasarkan periode (1D, 1W, 1M, 3M, 6M, 1Y) dengan riwayat penerusan yang mendetail untuk mengoptimalkan strategi Anda.
+Bagian Routing (layar tengah) menampilkan pendapatan forwarding berdasarkan periode waktu (1D, 1W, 1M, 3M, 6M, 1Y), lengkap dengan riwayat forwarding yang detail untuk membantu kamu mengoptimalkan strategi routing.
 
 
 
-Sign/Verify (layar kanan) memungkinkan Anda untuk menandatangani/memverifikasi pesan secara kriptografis untuk membuktikan kontrol node.
+Sign atau Verify (layar kanan) memungkinkan kamu menandatangani atau memverifikasi pesan secara kriptografis untuk membuktikan bahwa kamu mengontrol node tersebut.
 
 
 
-### Multi-simpul dan parameter
+
+### Multi-node dan parameter
 
 
 
@@ -194,11 +191,11 @@ Sign/Verify (layar kanan) memungkinkan Anda untuk menandatangani/memverifikasi p
 
 
 
-**Manage Nodes**: daftar node Anda, dengan tombol untuk menambahkan secara manual, memindai QR, atau beralih di antara node. Secara khusus, Anda dapat mengatur berbagai jenis koneksi ke node yang sama: LAN, VPN atau Tor.
+**Manage Nodes**: daftar node kamu, dengan tombol untuk menambahkan secara manual, memindai QR, atau beralih di antara node. Secara khusus, kamu dapat mengatur berbagai jenis koneksi ke node yang sama: LAN, VPN atau Tor.
 
 
 
-**Kelola Kontak**: menyimpan kontak Lightning Anda untuk pembayaran cepat.
+**Kelola Kontak**: menyimpan kontak Lightning kamu untuk pembayaran cepat.
 
 
 
@@ -215,7 +212,7 @@ Sign/Verify (layar kanan) memungkinkan Anda untuk menandatangani/memverifikasi p
 
 
 
-- Mobilitas total: kendalikan simpul Lightning Anda dari mana saja
+- Mobilitas total: kendalikan simpul Lightning kamu dari mana saja
 - Fungsionalitas penuh: pembayaran (LNURL, Lightning Address, BOLT 12), manajemen saluran, kontrol koin, menara pengawas, multi-simpul
 - Keamanan PIN/biometrik, mode siluman, PIN Darurat, Tor asli, pemblokiran tangkapan layar
 - Gratis, sumber terbuka (MIT), tanpa komisi, tanpa pengumpulan data
@@ -244,7 +241,7 @@ Sign/Verify (layar kanan) memungkinkan Anda untuk menandatangani/memverifikasi p
 
 - Aktifkan PIN/kunci biometrik (mencegah akses tidak sah ke node)
 - Mengatur PIN Darurat (menghapus data sensitif jika terjadi pemaksaan)
-- Jangan pernah membagikan URI atau maket login Anda
+- Jangan pernah membagikan URI atau maket login kamu
 - Mode siluman di lingkungan yang tidak bersahabat
 
 
@@ -264,7 +261,7 @@ Sign/Verify (layar kanan) memungkinkan Anda untuk menandatangani/memverifikasi p
 
 
 
-Terakhir, ada menu "Backup", yang memungkinkan Anda menyimpan konfigurasi untuk migrasi telepon atau instalasi ulang.
+Terakhir, ada menu "Backup", yang memungkinkan kamu menyimpan konfigurasi untuk migrasi telepon atau instalasi ulang.
 
 
 
@@ -272,7 +269,7 @@ Terakhir, ada menu "Backup", yang memungkinkan Anda menyimpan konfigurasi untuk 
 
 
 
-**Penting:** Cadangan TIDAK berisi seed atau cadangan saluran (yang akan dilakukan pada node). Cadangan ini berisi: konfigurasi node (alamat, sertifikat, maket), label, kontak, parameter. Tombol Pulihkan memungkinkan Anda untuk mengimpor cadangan yang ada. Konfirmasi diperlukan sebelum menyimpan.
+**Penting:** Cadangan TIDAK berisi seed atau cadangan saluran (yang akan dilakukan pada node). Cadangan ini berisi: konfigurasi node (alamat, sertifikat, maket), label, kontak, parameter. Tombol Pulihkan memungkinkan kamu untuk mengimpor cadangan yang ada. Konfirmasi diperlukan sebelum menyimpan.
 
 
 
@@ -292,19 +289,20 @@ Masukkan kata sandi enkripsi (layar kanan). Sistem akan membuka pemilih file (la
 
 
 
-Jika Anda menjelajahi aplikasi seluler untuk mengelola simpul Lightning, Anda mungkin akan menemukan Zeus, sebuah alternatif populer untuk BitBanana. Tidak seperti BitBanana, yang berfokus secara eksklusif pada kendali jarak jauh dari node yang sudah ada, Zeus mengambil pendekatan yang lebih komprehensif, menawarkan dua mode operasi: node Lightning yang tertanam langsung di aplikasi (mode tertanam dengan LND terintegrasi) dan koneksi jarak jauh ke node eksternal, seperti BitBanana.
+Jika kamu sedang menjelajahi aplikasi mobile untuk mengelola node Lightning, kamu mungkin akan menemukan Zeus, sebuah alternatif populer dari BitBanana. Berbeda dengan BitBanana yang fokus sepenuhnya pada kendali jarak jauh node yang sudah ada, Zeus mengambil pendekatan yang lebih menyeluruh dengan menawarkan dua mode operasi: node Lightning yang tertanam langsung di aplikasi (mode embedded dengan LND terintegrasi) serta koneksi jarak jauh ke node eksternal, seperti yang dilakukan BitBanana.
 
 
 
-Fungsi ganda ini membuat Zeus sangat menarik bagi para pemula yang ingin bereksperimen dengan Lightning tanpa infrastruktur sebelumnya. Mode tertanam memungkinkan start-up langsung dengan mobile node yang lengkap, sementara pengguna tingkat lanjut dapat beralih ke koneksi jarak jauh setelah node pribadi mereka dikonfigurasi. Zeus juga mendukung LND dan Core Lightning untuk koneksi jarak jauh, seperti BitBanana.
+Pendekatan ganda ini membuat Zeus sangat menarik bagi pemula yang ingin mencoba Lightning tanpa perlu menyiapkan infrastruktur terlebih dahulu. Mode embedded memungkinkan kamu langsung memulai dengan node mobile yang lengkap, sementara pengguna yang lebih berpengalaman dapat beralih ke koneksi jarak jauh setelah node pribadi mereka siap. Zeus juga mendukung LND dan Core Lightning untuk koneksi jarak jauh, sama seperti BitBanana.
 
 
 
-Keuntungan utama lain dari Zeus adalah ketersediaan lintas platform (iOS dan Android), sedangkan BitBanana tetap berbasis Android secara eksklusif. Zeus juga menggabungkan infrastruktur LSP Olympus untuk memfasilitasi penerimaan pembayaran Lightning melalui saluran just-in-time, sistem Point of Sale untuk pedagang, dan fungsionalitas swap yang terintegrasi untuk mengelola likuiditas.
+Keunggulan lain dari Zeus adalah ketersediaannya lintas platform di iOS dan Android, sementara BitBanana tetap eksklusif di Android. Zeus juga mengintegrasikan infrastruktur LSP Olympus untuk mempermudah penerimaan pembayaran Lightning melalui channel just-in-time, menyediakan sistem Point of Sale untuk pedagang, serta fitur swap terintegrasi untuk pengelolaan likuiditas.
 
 
 
-Namun, BitBanana mempertahankan kekuatan spesifiknya: antarmuka yang lebih sederhana, lebih ramping, pengalaman pengguna yang lebih baik (UX) berkat fokus eksklusifnya pada kendali jarak jauh, dan pendekatan edukatif dengan penjelasan kontekstual. Zeus menawarkan lebih banyak fungsionalitas, tetapi dengan mengorbankan antarmuka yang lebih kompleks. Aplikasi ini tetap sangat cocok untuk pengguna yang ingin mengontrol node secara eksklusif dari jarak jauh, tanpa fungsi kustodian.
+Namun, BitBanana tetap memiliki keunggulan tersendiri: antarmuka yang lebih sederhana dan ringan, pengalaman pengguna yang lebih nyaman berkat fokus eksklusif pada kendali jarak jauh, serta pendekatan edukatif melalui penjelasan kontekstual. Zeus memang menawarkan lebih banyak fitur, tetapi dengan konsekuensi antarmuka yang lebih kompleks. BitBanana tetap sangat cocok untuk kamu yang ingin mengontrol node secara murni dari jarak jauh, tanpa fungsi kustodian.
+
 
 
 
@@ -319,16 +317,16 @@ https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-50
 ## Kesimpulan
 
 
-
-BitBanana mengubah ponsel pintar Android Anda menjadi dasbor Lightning yang lengkap, menawarkan mobilitas yang belum pernah ada sebelumnya untuk operator node. Aplikasi ini mencakup semua fungsi: pembayaran (semua format), manajemen saluran, kontrol koin, menara pengawas, multi-node, dengan keamanan yang ditingkatkan (PIN / biometrik, Tor, PIN Darurat).
-
-
-
-Sepenuhnya berdaulat, BitBanana tidak mengumpulkan data dan tidak mengorbankan kerahasiaan maupun kontrol dana Anda. Kode sumber terbuka (MIT) menjamin transparansi.
+BitBanana mengubah ponsel pintar Android kamu menjadi dashboard Lightning yang lengkap, menghadirkan mobilitas yang belum pernah ada sebelumnya bagi operator node. Aplikasi ini mencakup semua fungsi penting: pembayaran dalam semua format, manajemen channel, kontrol koin, watchtower, dukungan multi-node, serta keamanan yang ditingkatkan melalui PIN atau biometrik, Tor, dan PIN Darurat.
 
 
 
-## Sumber daya
+Sepenuhnya berdaulat, BitBanana tidak mengumpulkan data dan tidak mengorbankan privasi maupun kendali atas dana kamu. Kode sumbernya yang open source di bawah lisensi MIT menjamin transparansi penuh.
+
+
+
+
+## Sumber 
 
 
 

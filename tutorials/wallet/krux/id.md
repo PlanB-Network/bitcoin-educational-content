@@ -9,7 +9,7 @@ description: menyiapkan perangkat penandatanganan perangkat keras Krux DIY Bitco
 ## Pendahuluan
 
 
-Dalam video tutorial ini, Anda akan belajar:
+Dalam video tutorial ini, kamu akan belajar:
 
 
 - Mengunduh dan mem-flash firmware Krux

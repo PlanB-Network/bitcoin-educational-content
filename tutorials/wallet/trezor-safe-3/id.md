@@ -10,23 +10,18 @@ description: Mengkonfigurasi dan menggunakan Hardware Wallet Safe 3
 
 
 
-Trezor Safe 3 adalah Hardware Wallet yang dirancang oleh SatoshiLabs dan dibuat pada tahun 2023. Ini adalah model yang sangat ringkas dan ringan (14 gram) yang dirancang untuk pengguna pemula dan menengah. Ini adalah penerus Model One yang terkenal, dengan tambahan yang signifikan, dengan tetap mempertahankan pendekatan sumber terbuka merek yang membedakannya dari pesaing utamanya, Ledger. Safe 3 dibanderol dengan harga €79. Oleh karena itu, Safe 3 diposisikan di segmen Hardware Wallet kelas menengah, bersaing langsung dengan Ledger Nano S Plus.
+Trezor Safe 3 adalah hardware wallet yang dirancang oleh SatoshiLabs dan dirilis pada tahun 2023. Ini adalah model yang sangat ringkas dan ringan, hanya 14 gram, dan ditujukan untuk pengguna pemula hingga menengah. Perangkat ini merupakan penerus Model One yang terkenal, dengan peningkatan yang signifikan, sambil tetap mempertahankan pendekatan open source yang menjadi ciri khas merek ini dan membedakannya dari pesaing utamanya, Ledger. Safe 3 dibanderol dengan harga €79, sehingga diposisikan di segmen hardware wallet kelas menengah dan bersaing langsung dengan Ledger Nano S Plus.
 
-
-
-Safe 3 tidak memiliki baterai dan beroperasi secara eksklusif melalui koneksi USB-C, yang digunakan untuk daya dan komunikasi. Dilengkapi dengan layar OLED monokrom 0,96 inci dan dua tombol fisik.
-
+Safe 3 tidak memiliki baterai dan hanya beroperasi melalui koneksi USB-C yang digunakan untuk daya sekaligus komunikasi. Perangkat ini dilengkapi layar OLED monokrom 0,96 inci dan dua tombol fisik.
 
 
 ![Image](assets/fr/01.webp)
 
 
 
-Safe 3 menawarkan semua fitur penting yang diharapkan dari sebuah Hardware Wallet yang baik, termasuk integrasi yang sangat baik dari passphrase BIP39. Namun, belum mendukung Miniscript.
+Safe 3 menawarkan semua fitur penting yang diharapkan dari hardware wallet yang baik, termasuk integrasi passphrase BIP39 yang sangat solid. Namun, perangkat ini belum mendukung Miniscript.
 
-
-
-Model ini khususnya cocok untuk pemula, dan bahkan mungkin Hardware Wallet yang saya rekomendasikan kepada pengguna baru. Kamera ini juga cocok untuk pengguna tingkat menengah. Di sisi lain, ini mungkin tidak memenuhi semua harapan pengguna tingkat lanjut yang mencari fitur yang lebih spesifik, yang tersedia pada perangkat seperti Coldcard. Namun demikian, jika Anda tidak memerlukan opsi tingkat lanjut ini, Trezor Safe 3 mungkin merupakan pilihan yang sangat baik.
+Model ini sangat cocok untuk pemula, dan bahkan mungkin jadi hardware wallet yang paling sering aku rekomendasikan ke pengguna baru. Perangkat ini juga tetap relevan untuk pengguna tingkat menengah. Tapi untuk pengguna tingkat lanjut yang mencari fitur lebih spesifik, seperti yang tersedia di perangkat seperti Coldcard, Safe 3 mungkin belum memenuhi semua kebutuhan tersebut. Meski begitu, kalau kamu tidak butuh fitur tingkat lanjut itu, Trezor Safe 3 bisa jadi pilihan yang sangat bagus.
 
 
 
@@ -34,46 +29,30 @@ Model ini khususnya cocok untuk pemula, dan bahkan mungkin Hardware Wallet yang 
 
 
 
-Trezor Safe 3 kini dilengkapi dengan **Secure Element** bersertifikasi EAL6+, sebuah kemajuan yang signifikan dari model sebelumnya seperti Model One dan Model T. Ini adalah chip OPTIGA Trust M V3, yang tidak secara langsung menyimpan seed, tetapi bertindak sebagai komponen kriptografi untuk mengamankan akses ke seed. Secure Element menyimpan rahasia yang hanya dapat diakses setelah pengguna memasukkan PIN dengan benar. Rahasia ini kemudian digunakan untuk mendekripsi seed, yang disimpan secara terenkripsi dalam memori utama perangkat.
+Trezor Safe 3 sekarang dilengkapi dengan **Secure Element** bersertifikasi EAL6+, sebuah peningkatan besar dibanding model sebelumnya seperti Model One dan Model T. Perangkat ini memakai chip OPTIGA Trust M V3, yang tidak langsung menyimpan seed, tetapi berfungsi sebagai komponen kriptografi untuk mengamankan akses ke seed. Secure Element menyimpan rahasia yang hanya bisa diakses setelah kamu memasukkan PIN dengan benar. Rahasia ini kemudian dipakai untuk mendekripsi seed, yang disimpan dalam keadaan terenkripsi di memori utama perangkat.
 
+Sistem keamanan hibrida ini memberikan perlindungan fisik yang jauh lebih baik, terutama terhadap serangan ekstraksi atau analisis invasif, yang sebelumnya jadi titik lemah pada Model One, khususnya dalam pengelolaan PIN. Kerentanan ini kini bisa diminimalkan berkat penggunaan Secure Element. Model ini juga tetap mempertahankan arsitektur perangkat lunak open source: kode yang mengelola pembuatan dan penggunaan private key tetap bisa diakses dan diverifikasi sepenuhnya. Chip OPTIGA hanya menangani PIN, yaitu elemen yang berada di luar manajemen kunci Bitcoin wallet. Chip ini hanya mengeluarkan rahasia yang digunakan untuk mendekripsi seed. Selain itu, OPTIGA Trust M V3 memiliki lisensi yang relatif terbuka, sehingga SatoshiLabs bisa mempublikasikan potensi kerentanan secara bebas.
 
+Menurutku, model keamanan ini adalah salah satu kompromi terbaik yang tersedia saat ini. Pendekatan ini menggabungkan keunggulan Secure Element dengan transparansi perangkat lunak open source. Sebelumnya, pengguna harus memilih antara perlindungan fisik ekstra lewat chip khusus atau transparansi penuh lewat open source. Dengan Trezor Safe 3, kamu bisa mendapatkan keduanya.
 
-Sistem keamanan hibrida ini menawarkan perlindungan fisik yang lebih baik, terutama terhadap serangan ekstraksi atau analisis invasif, masalah yang rentan terjadi pada Model One, terutama dalam manajemen PIN. Kerentanan ini sekarang dapat diatasi berkat penggunaan Secure Element. Model ini juga mempertahankan arsitektur perangkat lunak sumber terbuka: kode yang mengelola pembuatan dan penggunaan kunci privat tetap dapat diakses dan diverifikasi sepenuhnya. Chip OPTIGA hanya mengelola kode PIN, sebuah elemen di luar manajemen kunci Bitcoin Wallet. Chip ini hanya mengeluarkan rahasia yang dapat digunakan untuk mendekripsi seed. Selain itu, chip OPTIGA Trust M V3 mendapatkan keuntungan dari lisensi yang relatif gratis, yang memberikan wewenang kepada SatoshiLabs untuk secara bebas mempublikasikan potensi kerentanan.
+Dalam tutorial ini, kita akan bahas cara mengatur dan menggunakan Trezor Safe 3 dengan aman.
 
+## Membuka Kotak Trezor Safe 3
 
-
-Model keamanan ini, menurut pendapat saya, merupakan salah satu kompromi terbaik yang tersedia di pasaran saat ini. Model ini menggabungkan keunggulan Secure Element dengan manajemen perangkat lunak sumber terbuka. Sebelumnya, pengguna harus memilih antara keamanan fisik yang ditingkatkan dengan sebuah chip dan transparansi dengan sumber terbuka; dengan Trezor Safe 3, pengguna bisa mendapatkan keuntungan dari keduanya.
-
-
-
-Dalam tutorial ini, kami akan menunjukkan kepada Anda cara mengatur dan menggunakan Trezor Safe 3 Anda dengan aman.
-
-
-
-## Membongkar Kotak Brankas Trezor 3
-
-
-
-Ketika Anda menerima Safe 3, pastikan kotak dan Seal dalam keadaan utuh untuk mengonfirmasi bahwa paket tersebut belum dibuka. Verifikasi perangkat lunak terhadap keaslian dan integritas perangkat juga akan dilakukan saat perangkat ini dipasang nanti.
-
-
+Saat kamu menerima Safe 3, pastikan kotak dan segelnya masih utuh untuk memastikan paket belum pernah dibuka. Verifikasi perangkat lunak untuk keaslian dan integritas perangkat juga akan dilakukan saat proses setup nanti.
 
 Isi kotak termasuk:
 
-
-
-
 - Trezor Safe 3;
-- Kantung yang berisi stok kartu untuk mencatat frasa, stiker, dan instruksi Mnemonic Anda;
+- Amplop berisi kartu kosong untuk mencatat seedphrase, stiker, dan instruksi mnemonic;
 - Kabel USB-C ke USB-C.
-
 
 
 ![Image](assets/fr/02.webp)
 
 
 
-Ketika dibuka, Trezor Safe 3 Anda harus dilindungi oleh plastik pelindung dan port USB-C harus diamankan dengan Seal hologram. Pastikan itu ada di sana.
+Ketika dibuka, Trezor Safe 3 harus dilindungi oleh plastik pelindung dan port USB-C harus diamankan dengan Seal hologram. Pastikan itu ada di sana.
 
 
 
@@ -93,13 +72,13 @@ Navigasi pada perangkat ini sangat mudah: gunakan tombol kanan untuk menggulir k
 
 
 
-Untuk tutorial ini, saya akan menunjukkan kepada Anda bagaimana cara menggunakan Trezor Safe 3 dengan [perangkat lunak manajemen portofolio Sparrow Wallet](https://sparrowwallet.com/download/). Jika Anda belum menginstal perangkat lunak ini, silakan lakukan sekarang. Jika Anda membutuhkan bantuan, kami juga memiliki tutorial terperinci tentang cara mengonfigurasi Sparrow Wallet:
+Untuk tutorial ini, aku akan menunjukkan ke kamu bagaimana cara menggunakan Trezor Safe 3 dengan [perangkat lunak manajemen portofolio Sparrow Wallet](https://sparrowwallet.com/download/). Jika kamu belum menginstal perangkat lunak ini, silakan lakukan sekarang. Jika Anda membutuhkan bantuan, kami juga memiliki tutorial terperinci tentang cara mengonfigurasi Sparrow Wallet:
 
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-Anda juga memerlukan perangkat lunak Trezor Suite untuk mengonfigurasi Safe 3, memeriksa keasliannya, dan menginstal firmware. Kami hanya akan menggunakan perangkat lunak ini untuk itu saja, dan setelah itu hanya diperlukan untuk pembaruan firmware. Untuk pengelolaan Wallet sehari-hari, kita akan menggunakan Sparrow Wallet secara eksklusif, karena dioptimalkan untuk Bitcoin dan mudah digunakan, bahkan untuk pemula (Sparrow hanya mendukung Bitcoin, bukan altcoin).
+Kamu juga butuh perangkat lunak Trezor Suite untuk mengonfigurasi Safe 3, memeriksa keasliannya, dan menginstal firmware. Kita hanya akan memakai software ini untuk proses tersebut, dan setelah itu hanya diperlukan lagi saat ada pembaruan firmware. Untuk pengelolaan wallet sehari-hari, kita akan menggunakan Sparrow Wallet saja, karena memang dioptimalkan untuk Bitcoin dan mudah dipakai, bahkan untuk pemula (Sparrow hanya mendukung Bitcoin, bukan altcoin).
 
 
 
@@ -111,8 +90,7 @@ Anda juga memerlukan perangkat lunak Trezor Suite untuk mengonfigurasi Safe 3, m
 
 
 
-Untuk kedua program ini, saya sangat menyarankan agar Anda memeriksa keasliannya (dengan GnuPG) dan integritasnya (melalui Hash) sebelum menginstalnya di komputer Anda. Jika Anda tidak tahu cara melakukannya, Anda dapat mengikuti tutorial lain ini:
-
+Untuk kedua program ini, aku sangat menyarankan kamu memeriksa keasliannya dengan GnuPG dan integritasnya lewat hash sebelum menginstalnya di komputer. Kalau kamu belum tahu caranya, kamu bisa mengikuti tutorial ini:
 
 
 https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
@@ -121,7 +99,7 @@ https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21
 
 
 
-Sambungkan Safe 3 Anda ke komputer yang sudah terinstal Trezor Suite dan Sparrow Wallet.
+Sambungkan Safe 3 milikmu ke komputer yang sudah terinstal Trezor Suite dan Sparrow Wallet.
 
 
 
@@ -145,8 +123,7 @@ Pilih "*Firmware khusus Bitcoin*", lalu klik "*Instal Bitcoin saja*".
 
 
 
-Trezor Suite kemudian akan menginstal firmware pada Brankas 3 Anda. Mohon tunggu selama proses instalasi.
-
+Trezor Suite kemudian akan menginstal firmware di Safe 3 kamu. Tunggu sampai proses instalasinya selesai.
 
 
 ![Image](assets/fr/09.webp)
@@ -161,7 +138,7 @@ Klik "*Lanjutkan*".
 
 
 
-Kemudian lanjutkan ke uji keaslian untuk memastikan Hardware Wallet Anda tidak palsu atau disusupi.
+Kemudian lanjutkan ke uji keaslian untuk memastikan Hardware Wallet kamu tidak palsu atau disusupi.
 
 
 
@@ -169,7 +146,7 @@ Kemudian lanjutkan ke uji keaslian untuk memastikan Hardware Wallet Anda tidak p
 
 
 
-Pada Safe 3 Anda, tekan tombol kanan untuk mengonfirmasi.
+Pada Safe 3 kamu, tekan tombol kanan untuk mengonfirmasi.
 
 
 
@@ -177,7 +154,7 @@ Pada Safe 3 Anda, tekan tombol kanan untuk mengonfirmasi.
 
 
 
-Jika Trezor Anda asli, pesan konfirmasi akan muncul di Trezor Suite.
+Jika Trezor kamu asli, pesan konfirmasi akan muncul di Trezor Suite.
 
 
 
@@ -185,7 +162,7 @@ Jika Trezor Anda asli, pesan konfirmasi akan muncul di Trezor Suite.
 
 
 
-Anda kemudian dapat melewati jendela dengan petunjuk pengoperasian dasar.
+Kamu kemudian dapat melewati jendela dengan petunjuk pengoperasian dasar.
 
 
 
@@ -205,13 +182,9 @@ Pada Trezor Suite, klik tombol "*Buat Wallet baru*".
 
 
 
-Untuk portofolio standar, Anda bisa memilih jenis cadangan default. Ini akan menciptakan portofolio tanda tangan tunggal klasik dengan frasa Mnemonic sebanyak 12 kata. Klik "*Buat Wallet*".
+Untuk portofolio standar, kamu bisa pilih jenis cadangan default. Ini akan membuat wallet single-signature klasik dengan mnemonic 12 kata. Klik "*Buat Wallet*".
 
-
-
-Jika Anda ingin mempelajari lebih lanjut tentang opsi pencadangan lain yang tersedia di Trezor, termasuk *Cadangan Multi-Bagi*, saya sarankan Anda juga membaca tutorial ini:
-
-
+Kalau kamu ingin tahu lebih lanjut tentang opsi cadangan lain yang tersedia di Trezor, termasuk *Cadangan Multi-Bagi*, aku sarankan kamu juga baca tutorial ini:
 
 https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
@@ -243,23 +216,15 @@ Di Trezor Suite, klik "*Lanjutkan pencadangan*".
 
 
 
-Perangkat lunak ini memberikan petunjuk tentang cara mengelola frasa Mnemonic Anda.
+Perangkat lunak ini akan memberi kamu panduan tentang cara mengelola mnemonic.
 
+Mnemonic ini memberi kamu akses penuh dan tanpa batas ke semua bitcoin kamu. Siapa pun yang punya frasa ini bisa mencuri dana kamu, bahkan tanpa akses fisik ke Trezor Safe 3.
 
+Frasa 12 kata ini memungkinkan kamu memulihkan akses ke bitcoin kalau terjadi kehilangan, pencurian, atau kerusakan pada hardware wallet. Karena itu, sangat penting untuk menyimpannya dengan hati-hati dan menaruhnya di tempat yang aman.
 
-Mnemonic ini memberikan Anda akses penuh dan tidak terbatas ke semua bitcoin Anda. Siapa pun yang memiliki frasa ini dapat mencuri dana Anda, bahkan tanpa akses fisik ke Trezor Safe 3 Anda.
+Kamu bisa menuliskannya di kartu karton yang ada di dalam kotak, atau untuk keamanan tambahan, aku sarankan mengukirnya di plat baja tahan karat supaya terlindung dari kebakaran, banjir, atau kerusakan fisik lainnya.
 
-
-
-Frasa 12 kata ini mengembalikan akses ke bitcoin Anda jika terjadi kehilangan, pencurian, atau kerusakan pada Hardware Wallet Anda. Oleh karena itu, sangat penting untuk menyimpannya dengan hati-hati dan menyimpannya di tempat yang aman.
-
-
-
-Anda bisa menuliskannya pada karton yang disertakan dalam kotak, atau untuk keamanan tambahan, saya sarankan untuk mengukirnya pada dasar baja tahan karat untuk melindunginya dari kebakaran, banjir atau keruntuhan.
-
-
-
-Konfirmasikan petunjuknya, kemudian klik tombol "*Buat cadangan Wallet*".
+Konfirmasi petunjuknya, lalu klik tombol "*Buat cadangan Wallet*".
 
 
 
@@ -267,16 +232,11 @@ Konfirmasikan petunjuknya, kemudian klik tombol "*Buat cadangan Wallet*".
 
 
 
-Safe 3 akan membuat frasa Mnemonic Anda menggunakan generator angka acak. Pastikan Anda tidak diawasi selama operasi ini. Tuliskan kata-kata yang disediakan di layar pada media fisik pilihan Anda. Tergantung pada strategi keamanan Anda, Anda bisa mempertimbangkan untuk membuat beberapa salinan fisik lengkap dari frasa tersebut (tetapi yang terpenting, jangan membaginya). Sangat penting untuk membuat kata-kata tersebut bernomor dan berurutan.
+Safe 3 akan membuat mnemonic menggunakan generator angka acak. Pastikan kamu tidak diawasi selama proses ini. Tuliskan kata-kata yang muncul di layar ke media fisik pilihan kamu. Tergantung strategi keamanan kamu, kamu bisa mempertimbangkan membuat beberapa salinan fisik lengkap dari frasa tersebut, tapi yang paling penting, jangan pernah membagikannya. Sangat penting untuk menuliskan kata-kata itu secara bernomor dan berurutan.
 
+**Tentu saja, kamu tidak boleh membagikan kata-kata ini di internet, seperti yang aku lakukan di tutorial ini. Contoh wallet ini hanya akan digunakan di testnet dan akan dihapus di akhir tutorial.**
 
-
-**Tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Contoh Wallet ini hanya akan digunakan pada Testnet dan akan dihapus pada akhir tutorial**
-
-
-
-Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengelola frasa Mnemonic Anda, saya sangat merekomendasikan untuk mengikuti tutorial lainnya, khususnya jika Anda seorang pemula:
-
+Untuk info lebih lanjut tentang cara menyimpan dan mengelola mnemonic dengan benar, aku sangat merekomendasikan kamu mengikuti tutorial lain ini, terutama kalau kamu masih pemula:
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
@@ -285,16 +245,14 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-Untuk beralih ke kata berikutnya, klik kanan. Anda dapat mundur dengan mengklik tombol kiri. Setelah Anda menuliskan semua kata, tahan tombol kanan untuk melanjutkan ke langkah berikutnya.
-
+Untuk pindah ke kata berikutnya, tekan tombol kanan. Kamu bisa kembali ke kata sebelumnya dengan menekan tombol kiri. Setelah semua kata selesai kamu tulis, tahan tombol kanan untuk lanjut ke langkah berikutnya.
 
 
 ![Image](assets/fr/22.webp)
 
 
 
-Pilih kata-kata dalam frasa Mnemonic Anda sesuai dengan urutannya untuk mengonfirmasi bahwa Anda telah menuliskannya dengan benar. Gunakan tombol kiri dan kanan untuk menavigasi di antara proposal, lalu pilih kata yang benar dengan mengklik 2 tombol secara bersamaan.
-
+Pilih kata-kata dalam mnemonic sesuai urutannya untuk memastikan kamu sudah menuliskannya dengan benar. Gunakan tombol kiri dan kanan untuk berpindah di antara pilihan, lalu pilih kata yang tepat dengan menekan kedua tombol secara bersamaan.
 
 
 ![Image](assets/fr/23.webp)
@@ -313,11 +271,9 @@ Setelah prosedur verifikasi ini selesai, klik tombol di sebelah kanan.
 
 
 
-Berikutnya adalah langkah kode PIN. Kode PIN akan membuka kunci Trezor anda. Oleh karena itu, kode ini memberikan perlindungan terhadap akses fisik yang tidak sah. Kode PIN ini tidak terlibat dalam penurunan kunci kriptografi Wallet anda. Jadi, bahkan tanpa akses ke kode PIN, kepemilikan frasa Mnemonic 12 kata Anda akan memungkinkan Anda untuk mendapatkan kembali akses ke bitcoin Anda.
+Berikutnya adalah langkah untuk membuat PIN. PIN ini akan membuka kunci Trezor kamu. Karena itu, PIN memberi perlindungan terhadap akses fisik yang tidak sah. PIN tidak terlibat dalam proses derivasi kunci kriptografi wallet kamu. Jadi, meskipun tanpa akses ke PIN, kalau kamu masih punya mnemonic 12 kata, kamu tetap bisa memulihkan akses ke bitcoin kamu.
 
-
-
-Pada Trezor Suite, klik "*Lanjutkan ke PIN*", lalu pada tombol "*Setel PIN*".
+Di Trezor Suite, klik "*Lanjutkan ke PIN*", lalu klik tombol "*Setel PIN*".
 
 
 
@@ -333,19 +289,16 @@ Konfirmasikan dengan Safe 3.
 
 
 
-Kami menyarankan untuk memilih kode PIN yang seacak mungkin. Pastikan untuk menyimpan kode ini di lokasi yang terpisah dari tempat penyimpanan Trezor anda (contoh: di dalam pengelola kata sandi). Anda dapat menentukan kode PIN antara 8 hingga 50 digit. Saya sarankan anda untuk memilih kode PIN sepanjang mungkin untuk meningkatkan keamanan.
+Kami menyarankan kamu memilih PIN yang seacak mungkin. Simpan PIN ini di tempat yang terpisah dari Trezor kamu, misalnya di dalam password manager. Kamu bisa membuat PIN antara 8 sampai 50 digit. Aku sarankan pilih PIN sepanjang mungkin untuk meningkatkan keamanan.
 
-
-
-Gunakan tombol kiri dan kanan untuk memilih setiap digit. Untuk mengonfirmasi pilihan Anda dan beralih ke digit berikutnya, tekan kedua tombol secara bersamaan.
-
+Gunakan tombol kiri dan kanan untuk memilih setiap digit. Untuk mengonfirmasi pilihan dan lanjut ke digit berikutnya, tekan kedua tombol secara bersamaan.
 
 
 ![Image](assets/fr/27.webp)
 
 
 
-Setelah selesai, klik tanda centang "*ENTER*" di awal angka, lalu konfirmasikan PIN Anda untuk kedua kalinya.
+Setelah selesai, klik tanda centang "*ENTER*" di awal angka, lalu konfirmasikan PIN untuk kedua kalinya.
 
 
 
@@ -353,7 +306,7 @@ Setelah selesai, klik tanda centang "*ENTER*" di awal angka, lalu konfirmasikan 
 
 
 
-Kode PIN Anda telah terdaftar.
+Kode PIN kamu telah terdaftar.
 
 
 
@@ -369,15 +322,14 @@ Pada Trezor Suite, klik tombol "*Selesaikan pengaturan*".
 
 
 
-Konfigurasi Safe 3 Anda sekarang sudah selesai. Jika mau, Anda bisa mengubah nama dan halaman beranda Hardware Wallet Anda.
-
+Konfigurasi Safe 3 kamu sekarang sudah selesai. Kalau mau, kamu bisa mengubah nama dan tampilan beranda hardware wallet kamu.
 
 
 ![Image](assets/fr/31.webp)
 
 
 
-Kita tidak akan memerlukan perangkat lunak Trezor Suite lagi, kecuali untuk melakukan pembaruan firmware secara berkala pada Hardware Wallet, atau jika Anda ingin menjalankan tes pemulihan. Sekarang kita akan menggunakan Sparrow untuk mengelola portofolio, karena perangkat lunak ini sangat cocok untuk penggunaan Bitcoin saja.
+Kita tidak akan memerlukan Trezor Suite lagi, kecuali untuk melakukan pembaruan firmware secara berkala pada hardware wallet atau kalau kamu ingin menjalankan tes pemulihan. Sekarang kita akan memakai Sparrow untuk mengelola portofolio, karena software ini memang sangat cocok untuk penggunaan Bitcoin saja.
 
 
 
@@ -385,12 +337,11 @@ Kita tidak akan memerlukan perangkat lunak Trezor Suite lagi, kecuali untuk mela
 
 
 
-Mulailah dengan mengunduh dan menginstal Sparrow Wallet [dari situs web resmi](https://sparrowwallet.com/) di komputer Anda, jika Anda belum melakukannya.
+Mulailah dengan mengunduh dan menginstal Sparrow Wallet [dari situs web resmi](https://sparrowwallet.com/) di komputer kamu, jika kamu belum melakukannya.
 
 
 
-Setelah Anda membuka Sparrow Wallet, pastikan perangkat lunak ini terhubung ke node Bitcoin, yang ditandai dengan tanda centang di sudut kanan bawah Interface. Jika Anda mengalami masalah dalam menghubungkan Sparrow, saya sarankan Anda membaca bagian awal tutorial ini:
-
+Setelah kamu membuka Sparrow Wallet, pastikan software ini terhubung ke node Bitcoin, yang ditandai dengan tanda centang di sudut kanan bawah antarmuka. Kalau kamu mengalami masalah saat menghubungkan Sparrow, aku sarankan kamu membaca bagian awal tutorial ini:
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
@@ -403,7 +354,7 @@ Klik pada tab "*File*", kemudian pada "*New Wallet*".
 
 
 
-Beri nama portofolio Anda, lalu klik "*Buat Wallet*".
+Beri nama portofolio kamu, lalu klik "*Buat Wallet*".
 
 
 
@@ -411,7 +362,7 @@ Beri nama portofolio Anda, lalu klik "*Buat Wallet*".
 
 
 
-Pada menu drop-down "*Jenis Skrip*", pilih jenis skrip yang akan digunakan untuk mengamankan bitcoin Anda. Saya merekomendasikan "*Taproot*", atau jika tidak ada, "*Native SegWit*".
+Pada menu drop-down "*Jenis Skrip*", pilih jenis skrip yang akan digunakan untuk mengamankan bitcoin. Aku merekomendasikan "*Taproot*", atau jika tidak ada, "*Native SegWit*".
 
 
 
@@ -419,7 +370,7 @@ Pada menu drop-down "*Jenis Skrip*", pilih jenis skrip yang akan digunakan untuk
 
 
 
-Klik pada tombol "*Terhubung dengan Hardware Wallet*". Brankas 3 Anda tentu saja harus terhubung ke komputer dan tidak terkunci.
+Klik pada tombol "*Terhubung dengan Hardware Wallet*". Safe 3 kamu tentu saja harus terhubung ke komputer dan tidak terkunci.
 
 
 
@@ -427,7 +378,7 @@ Klik pada tombol "*Terhubung dengan Hardware Wallet*". Brankas 3 Anda tentu saja
 
 
 
-Klik pada tombol "*Pindai*". Brankas 3 Anda akan muncul. Klik "*Import Keystore*".
+Klik pada tombol "*Pindai*". Safe 3 akan muncul. Klik "*Import Keystore*".
 
 
 
@@ -435,40 +386,32 @@ Klik pada tombol "*Pindai*". Brankas 3 Anda akan muncul. Klik "*Import Keystore*
 
 
 
-Anda sekarang dapat melihat detail Wallet Anda, termasuk kunci publik yang diperpanjang dari akun pertama Anda. Klik pada tombol "*Apply*" untuk menyelesaikan pembuatan Wallet.
-
+Sekarang kamu bisa melihat detail wallet kamu, termasuk extended public key dari akun pertama. Klik tombol "*Apply*" untuk menyelesaikan pembuatan wallet.
 
 
 ![Image](assets/fr/37.webp)
 
 
 
-Pilih kata sandi yang kuat untuk mengamankan akses ke Sparrow Wallet. Kata sandi ini akan memastikan akses yang aman ke data Sparrow Wallet Anda, melindungi kunci publik, alamat, label, dan riwayat transaksi Anda dari akses yang tidak sah.
+Pilih kata sandi yang kuat untuk mengamankan akses ke Sparrow Wallet. Kata sandi ini akan memastikan data Sparrow kamu tetap aman, termasuk kunci publik, alamat, label, dan riwayat transaksi, agar tidak bisa diakses oleh pihak yang tidak berwenang.
 
-
-
-Saya menyarankan Anda untuk menyimpan kata sandi ini dalam sebuah pengelola kata sandi agar Anda tidak lupa.
-
+Aku sarankan kamu menyimpan kata sandi ini di password manager supaya tidak lupa.
 
 
 ![Image](assets/fr/38.webp)
 
 
 
-Dan sekarang, portofolio Anda sudah diimpor ke dalam Sparrow Wallet!
+Dan sekarang, portofolio kamu sudah diimpor ke dalam Sparrow Wallet!
 
 
 
 ![Image](assets/fr/39.webp)
 
 
+Sebelum kamu menerima bitcoin pertama di wallet, **aku sangat menyarankan kamu melakukan tes pemulihan kosong dulu**. Catat beberapa informasi referensi, seperti xpub kamu, lalu reset Trezor Safe 3 saat wallet masih kosong. Setelah itu, coba pulihkan wallet di Trezor menggunakan cadangan kertas kamu. Periksa apakah xpub yang dihasilkan setelah pemulihan sama dengan yang sudah kamu catat sebelumnya. Kalau cocok, berarti cadangan kertas kamu bisa diandalkan.
 
-Sebelum anda menerima bitcoin pertama anda di dalam Wallet, **Saya sangat menyarankan anda untuk melakukan tes pemulihan kosong**. Tuliskan beberapa informasi referensi, seperti xpub Anda, kemudian setel ulang Trezor Safe 3 Anda ketika Wallet masih kosong. Kemudian cobalah untuk memulihkan Wallet anda pada Trezor menggunakan cadangan kertas anda. Periksa apakah xpub yang dihasilkan setelah pemulihan sesuai dengan yang anda tulis sebelumnya. Jika sesuai, Anda dapat yakin bahwa cadangan kertas Anda dapat diandalkan.
-
-
-
-Untuk mempelajari lebih lanjut tentang cara melakukan tes pemulihan, saya sarankan Anda membaca tutorial lain ini:
-
+Untuk tahu lebih lanjut tentang cara melakukan tes pemulihan, aku sarankan kamu membaca tutorial ini:
 
 
 https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
@@ -485,12 +428,9 @@ Pada Sparrow, klik tab "*Receive*".
 
 
 
-Sebelum menggunakan Address yang diusulkan oleh Sparrow Wallet, periksa di layar Trezor Anda. Praktik ini memungkinkan Anda untuk mengonfirmasi bahwa Address yang ditampilkan di Sparrow tidak palsu, dan bahwa Hardware Wallet memang menyimpan private key yang diperlukan untuk membelanjakan bitcoin yang diamankan dengan Address ini. Hal ini membantu Anda untuk menghindari beberapa jenis serangan.
+Sebelum kamu menggunakan alamat yang diusulkan Sparrow Wallet, periksa dulu di layar Trezor kamu. Langkah ini memastikan bahwa alamat yang ditampilkan di Sparrow bukan palsu, dan bahwa hardware wallet memang menyimpan private key yang diperlukan untuk membelanjakan bitcoin yang diamankan dengan alamat tersebut. Ini membantu kamu menghindari beberapa jenis serangan.
 
-
-
-Untuk melakukan pemeriksaan ini, klik tombol "*Display Address*".
-
+Untuk melakukan pengecekan ini, klik tombol "*Display Address*".
 
 
 ![Image](assets/fr/41.webp)
@@ -505,7 +445,7 @@ Periksa apakah Address yang ditampilkan di Trezor Anda sesuai dengan yang ada di
 
 
 
-Anda kemudian dapat menambahkan "*Label*" untuk mendeskripsikan sumber bitcoin yang akan diamankan dengan Address ini. Ini adalah praktik yang baik yang memungkinkan Anda untuk mengelola UTXO dengan lebih baik.
+Kemudian kamu dapat menambahkan "*Label*" untuk mendeskripsikan sumber bitcoin yang akan diamankan dengan Address ini. Ini adalah praktik yang baik yang memungkinkanmu untuk mengelola UTXO dengan lebih baik.
 
 
 
@@ -513,7 +453,7 @@ Anda kemudian dapat menambahkan "*Label*" untuk mendeskripsikan sumber bitcoin y
 
 
 
-Anda kemudian dapat menggunakan Address ini untuk menerima bitcoin.
+Kamu kemudian dapat menggunakan Address ini untuk menerima bitcoin.
 
 
 
@@ -525,7 +465,7 @@ Anda kemudian dapat menggunakan Address ini untuk menerima bitcoin.
 
 
 
-Sekarang setelah Anda menerima Satss pertama Anda di Brankas 3-aman Wallet, Anda dapat membelanjakannya juga! Hubungkan Trezor Anda ke komputer, buka kuncinya menggunakan kode PIN, luncurkan Sparrow Wallet, lalu buka tab "*Kirim*" untuk membuat transaksi baru.
+Setelah kamu menerima Sats pertama di Safe 3-aman Wallet, kamu dapat membelanjakannya juga! Hubungkan Trezor milikmu ke komputer, buka kuncinya menggunakan kode PIN, luncurkan Sparrow Wallet, lalu buka tab "*Kirim*" untuk membuat transaksi baru.
 
 
 
@@ -533,15 +473,14 @@ Sekarang setelah Anda menerima Satss pertama Anda di Brankas 3-aman Wallet, Anda
 
 
 
-Jika Anda ingin *Coin Control*, yaitu memilih secara spesifik UTXO mana yang akan digunakan dalam transaksi, buka tab "*UTXOs*". Pilih UTXO yang ingin Anda gunakan, lalu klik "*Kirim Terpilih*". Anda akan diarahkan ke layar yang sama pada tab "*Kirim*", tetapi dengan UTXO yang sudah dipilih untuk transaksi.
-
+Jika kamu ingin *Coin Control*, yaitu memilih secara spesifik UTXO mana yang akan digunakan dalam transaksi, buka tab "*UTXOs*". Pilih UTXO yang ingin kamu gunakan, lalu klik "*Kirim Terpilih*". Kamu akan diarahkan ke layar yang sama pada tab "*Kirim*", tetapi dengan UTXO yang sudah dipilih untuk transaksi.
 
 
 ![Image](assets/fr/46.webp)
 
 
 
-Masukkan Address tujuan. Anda juga dapat memasukkan beberapa alamat dengan mengeklik tombol "*+ Tambah*".
+Masukkan Address tujuan. Kamu juga dapat memasukkan beberapa alamat dengan mengeklik tombol "*+ Tambah*".
 
 
 
@@ -565,11 +504,11 @@ Pilih jumlah yang akan dikirim ke Address ini.
 
 
 
-Sesuaikan tarif biaya transaksi Anda sesuai dengan pasar saat ini. Sebagai contoh, Anda dapat menggunakan [Mempool.space](https://Mempool.space/) untuk memilih tarif biaya yang sesuai.
+Sesuaikan tarif biaya transaksi kamu sesuai dengan pasar saat ini. Sebagai contoh, kamu dapat menggunakan [Mempool.space](https://Mempool.space/) untuk memilih tarif biaya yang sesuai.
 
 
 
-Pastikan semua parameter transaksi Anda sudah benar, lalu klik "*Buat Transaksi*".
+Pastikan semua parameter transaksi kamu sudah benar, lalu klik "*Buat Transaksi*".
 
 
 
@@ -577,7 +516,7 @@ Pastikan semua parameter transaksi Anda sudah benar, lalu klik "*Buat Transaksi*
 
 
 
-Jika semuanya sudah sesuai dengan keinginan Anda, klik "*Finalisasi Transaksi untuk Penandatanganan*".
+Jika semuanya sudah sesuai dengan keinginan, klik "*Finalisasi Transaksi untuk Penandatanganan*".
 
 
 
@@ -593,7 +532,7 @@ Klik "*Tanda Tangan*".
 
 
 
-Klik "*Sign*" di sebelah Trezor Safe 3 Anda.
+Klik "*Sign*" di sebelah Trezor Safe 3.
 
 
 
@@ -601,23 +540,21 @@ Klik "*Sign*" di sebelah Trezor Safe 3 Anda.
 
 
 
-Periksa parameter transaksi pada layar Hardware Wallet Anda, termasuk penerima yang menerima Address, jumlah yang dikirim, dan biaya. Setelah transaksi diverifikasi di Trezor, klik kedua tombol secara bersamaan untuk menandatanganinya.
-
+Periksa parameter transaksi pada layar hardware wallet kamu, termasuk address penerima, jumlah yang dikirim, dan biaya. Setelah transaksi diverifikasi di Trezor, klik kedua tombol secara bersamaan untuk menandatanganinya.
 
 
 ![Image](assets/fr/54.webp)
 
 
 
-Transaksi Anda sekarang sudah ditandatangani. Periksa untuk terakhir kalinya apakah semuanya baik-baik saja, lalu klik "*Broadcast Transaction*" untuk menyiarkannya di jaringan Bitcoin.
-
+Transaksi kamu sekarang sudah ditandatangani. Periksa sekali lagi apakah semuanya sudah benar, lalu klik "*Broadcast Transaction*" untuk menyiarkannya ke jaringan Bitcoin.
 
 
 ![Image](assets/fr/55.webp)
 
 
 
-Anda bisa menemukannya di tab "*Transactions*" pada Sparrow Wallet.
+Kamu bisa menemukannya di tab "*Transactions*" pada Sparrow Wallet.
 
 
 
@@ -625,10 +562,10 @@ Anda bisa menemukannya di tab "*Transactions*" pada Sparrow Wallet.
 
 
 
-Selamat, Anda sekarang sudah menguasai penggunaan dasar Trezor Safe 3 dengan Sparrow Wallet! Untuk melangkah lebih jauh, saya merekomendasikan tutorial komprehensif tentang penggunaan Trezor Hardware Wallet dengan passphrase BIP39 untuk meningkatkan keamanan Anda:
+Selamat, kamu sudah menguasai penggunaan dasar Trezor Safe 3 dengan Sparrow Wallet! Untuk melangkah lebih jauh, aku merekomendasikan tutorial komprehensif tentang penggunaan Trezor Hardware Wallet dengan passphrase BIP39 untuk meningkatkan keamananmu:
 
 
 
 https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
-Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika Anda mau memberikan jempol Green di bawah ini. Jangan ragu untuk membagikan artikel ini di jejaring sosial Anda. Terima kasih banyak!
+Kalau kamu merasa tutorial ini bermanfaat, aku akan sangat berterima kasih jika kamu mau memberikan jempol Green di bawah ini. Jangan ragu untuk membagikan artikel ini di jejaring sosial kamu. Terima kasih banyak!

@@ -12,10 +12,10 @@ tutorial ini ditulis oleh_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 ## Sats.Mobi
 
-SatsMobi adalah Wallet yang beroperasi di Telegram, menampilkan semua fungsi Lightning Network (kustodian) Wallet, ditambah serangkaian fitur yang sangat menghibur. SatsMobi berasal dari Fork LightningTipBot yang sekarang sudah tidak diproduksi lagi, mewarisi semua fiturnya sambil menambahkan fitur-fitur terbaru, sehingga membuatnya lebih modern. Seperti LNTipBot, Sats.Mobi juga menganut filosofi sumber terbuka. Wallet dapat dikonfigurasi dan dikelola secara independen dengan mengkloningnya dari [repositori] ini (https://github.com/massmux/SatsMobiBot).
+SatsMobi adalah Wallet yang beroperasi di Telegram, menghadirkan semua fungsi Lightning Network (kustodian) Wallet, ditambah serangkaian fitur yang sangat menghibur. SatsMobi berasal dari fork LightningTipBot yang sekarang sudah tidak lagi dikembangkan, mewarisi semua fiturnya sambil menambahkan fitur-fitur terbaru, sehingga membuatnya lebih modern. Seperti LNTipBot, SatsMobi juga menganut filosofi sumber terbuka. Wallet dapat dikonfigurasi dan dikelola secara independen dengan mengkloningnya dari [repositori](https://github.com/massmux/SatsMobiBot) ini.
 
 
-Jika Anda lebih suka menggunakannya secara sederhana, memulai obrolan di Telegram akan mengungkapkan bahwa itu adalah bot.
+Jika kamu lebih suka menggunakannya secara sederhana, memulai obrolan di Telegram akan mengungkapkan bahwa itu adalah bot.
 
 
 ## Pengaturan
@@ -23,19 +23,19 @@ Jika Anda lebih suka menggunakannya secara sederhana, memulai obrolan di Telegra
 Dari bilah pencarian Telegram, cari "satsmobi" dan tautan ke [bot](@SatsMobiBot) akan muncul.
 
 
-**Perhatian**: Jika Anda tidak yakin tentang pencarian melalui Telegram, akses bot dengan aman menggunakan [tautan] berikut ini (https://t.me/SatsMobiBot)
+**Perhatian**: Jika kamu tidak yakin tentang pencarian melalui Telegram, akses bot dengan aman menggunakan [tautan] berikut ini (https://t.me/SatsMobiBot)
 
 
 ![image](assets/it/01.webp)
 
 
-Yang perlu Anda lakukan untuk memulai adalah menekan _MULAI_
+Yang perlu kamu lakukan untuk memulai adalah menekan _MULAI_
 
 
 ![image](assets/it/02.webp)
 
 
-Untuk menjelajahi Wallet, Anda dapat memilih _Menu_ di bagian kiri bawah.
+Untuk menjelajahi Wallet, kamu dapat memilih _Menu_ di bagian kiri bawah.
 
 
 ![image](assets/it/03.webp)
@@ -47,7 +47,7 @@ Sekarang pilihlah _/help_ di antara perintah-perintah utama.
 ![image](assets/it/04.webp)
 
 
-Sats.Mobi menyambut kami dengan menampilkan sebuah pesan, berisi daftar semua fungsi utama. Pada saat startup, bot juga membuat LN Address, yang ditautkan ke pegangan yang dipilih di Telegram (yang unik secara default). Perintah untuk mengirim dan menerima Sats dengan Wallet ini terlihat, serta fungsi-fungsi lain yang akan kita lihat nanti. Menarik juga untuk melihat menu _/advanced_
+SatsMobi menyambut kita dengan menampilkan sebuah pesan yang berisi daftar semua fungsi utama. Saat pertama kali dijalankan, bot juga membuat LN Address yang ditautkan ke username Telegram yang kamu pakai (unik secara default). Perintah untuk mengirim dan menerima Sats dengan Wallet ini langsung terlihat, begitu juga fungsi-fungsi lain yang akan kita bahas nanti. Menarik juga untuk melihat menu _/advanced_
 
 
 ![image](assets/it/05.webp)
@@ -67,7 +67,7 @@ Perintah ini menampilkan daftar transaksi terakhir, dalam hal ini sama dengan no
 
 ## Menerima Sats
 
-Perintah untuk membuat Invoice dan menerima Sats adalah _/invoice_. Sats.Mobi beroperasi secara eksklusif di Satoshi, unit terkecil dari Bitcoin; oleh karena itu, untuk membuat Invoice, Anda perlu menulis jumlah dalam Sats di bilah pesan dan kemudian mengirimkannya dalam obrolan dengan bot.
+Perintah untuk membuat Invoice dan menerima Sats adalah _/invoice_. SatsMobi beroperasi secara eksklusif dalam Satoshi, unit terkecil dari Bitcoin; jadi untuk membuat Invoice, kamu cukup menuliskan jumlah dalam Sats di kolom pesan lalu mengirimkannya di obrolan dengan bot.
 
 ![image](assets/it/08.webp)
 
@@ -111,10 +111,9 @@ Sats.Mobi dapat mengandalkan node Lightning yang efisien dan terhubung dengan ba
 ### Membayar dengan nyaman dari ponsel
 
 
-Menjelajah di Telegram, Sats.Mobi juga tersedia di ponsel. Fungsi yang paling nyaman untuk membayar dengan ponsel adalah memindai kode QR, tetapi Wallet ini tidak memiliki fungsi tersebut, karena Wallet bukanlah aplikasi yang berdiri sendiri, melainkan terdapat dalam jejaring sosial. Oleh karena itu, Sats.Mobi diprogram untuk memfasilitasi pengalaman seluler semaksimal mungkin: aplikasi ini memang dapat memecahkan kode gambar, seperti foto yang diambil dari kode QR Invoice yang ingin Anda bayar.
+Saat digunakan di Telegram, SatsMobi juga bisa diakses lewat ponsel. Fungsi paling nyaman untuk membayar lewat ponsel biasanya adalah memindai kode QR, tetapi Wallet ini tidak memiliki fitur tersebut karena bukan aplikasi yang berdiri sendiri, melainkan berjalan di dalam jejaring sosial. Karena itu, SatsMobi diprogram untuk memaksimalkan pengalaman seluler: Wallet ini bisa membaca dan mendekode gambar, seperti foto kode QR Invoice yang ingin kamu bayar.
 
-
-Misalnya, Anda ingin membayar Invoice sebesar 50 Sats.
+Misalnya, kamu ingin membayar Invoice sebesar 50 Sats.
 
 
 ![image](assets/it/20.webp)
@@ -137,7 +136,7 @@ Setelah dipilih, kami mengirimkannya ke bot:
 
 ![image](assets/it/23.webp)
 
-Sats.Mobi menerjemahkan foto dan **segera menampilkan permintaan pembayaran**, dengan deskripsi yang benar. Obrolan akan meminta konfirmasi, untuk melanjutkan, Anda harus menekan _/bayar_
+Sats.Mobi menerjemahkan foto dan **segera menampilkan permintaan pembayaran**, dengan deskripsi yang benar. Obrolan akan meminta konfirmasi, untuk melanjutkan, kamu harus menekan _/bayar_
 
 ![image](assets/it/24.webp)
 
@@ -157,33 +156,32 @@ Invoice seharga 50 Sats telah dibayar, hasil yang dicapai tanpa menggunakan kame
 ![image](assets/it/27.webp)
 
 
-Di antara fitur-fitur yang membuat LNTipBot terkenal dan yang dibawa oleh Sats.Mobi ke Telegram, adalah fitur yang membuat pengalaman menjadi menyenangkan dan interaktif bagi para anggota di dalam grup.
+Di antara fitur yang membuat LNTipBot terkenal dan kini dibawa oleh SatsMobi ke Telegram adalah fitur yang membuat pengalaman jadi seru dan interaktif bagi para anggota grup.
 
-Pemilik dapat mengundang bot untuk bergabung dengan obrolan grup dan kemudian menominasikan Sats.Mobi sebagai admin. Sejak saat itu, kesenangan dimulai, karena anggota dapat mulai memberi penghargaan kepada pengguna lain atas kontribusi mereka ke grup.
+Pemilik grup bisa mengundang bot ke dalam obrolan lalu menetapkan SatsMobi sebagai admin. Sejak saat itu, keseruannya dimulai, karena para anggota bisa mulai memberi tip kepada pengguna lain atas kontribusi mereka di grup.
 
 
 - _/tip_ menambahkan tip dengan membalas pesan;
-- _/send_ mengirim dana dengan menentukan LN Address atau pegangan Telegram sebagai penerima;
-- _/faucet_ (di menu _/advanced_) memungkinkan pembuatan serangkaian kiat yang dapat dikumpulkan oleh anggota tercepat dalam grup dengan mengeklik _/collect_;
-- _/tipjar_ (di menu _/advanced_) membuat jenis distribusi lain yang dapat dikirim ke pengguna dalam grup.
+- _/send_ mengirim dana dengan menentukan LN Address atau username Telegram sebagai penerima;
+- _/faucet_ (di menu _/advanced_) memungkinkan pembuatan serangkaian tip yang bisa diklaim oleh anggota tercepat di grup dengan mengeklik _/collect_;
+- _/tipjar_ (di menu _/advanced_) membuat jenis distribusi lain yang bisa dikirim ke pengguna dalam grup.
 
 
-Masing-masing perintah ini memiliki sintaks, yang dijelaskan dalam menu perintah utama.
+Masing-masing perintah ini memiliki sintaks tersendiri yang dijelaskan di menu perintah utama.
 
-
-Dan jika kita bukan pemilik grup? Tidak masalah: cukup minta pendiri grup untuk mengundang Sats.Mobi, tambahkan sebagai admin grup, dan Anda sudah siap!
+Dan kalau kamu bukan pemilik grup? Tidak masalah: cukup minta pendiri grup untuk mengundang SatsMobi, tambahkan sebagai admin grup, dan kamu sudah siap!
 
 
 ## Tempat Penjualan (POS)
 
 
-Ketika Sats.Mobi diluncurkan untuk pertama kalinya, bot juga menciptakan fitur lain untuk pengguna: **POS**. "Perangkat" ini diaktifkan oleh pengguna dengan perintah _/pos_ atau dengan mengklik tombol terkait dari konsol di kanan bawah. Faktanya, POS adalah aplikasi web, yang terbuka sebagai pop-up di obrolan Telegram
+Saat SatsMobi pertama kali diluncurkan, bot ini juga menghadirkan fitur lain untuk para pengguna: **POS**. "Perangkat" ini diaktifkan dengan perintah _/pos_ atau dengan mengeklik tombol terkait di konsol kanan bawah. Pada dasarnya, POS adalah aplikasi web yang terbuka sebagai pop-up di dalam obrolan Telegram.
 
 
 ![image](assets/it/14.webp)
 
 
-Interface menampilkan pegangan Telegram pribadi pengguna di kiri atas dan digunakan dengan cara yang sama seperti semua POS: dengan mengetikkan jumlah pada keypad. Anggaplah sekarang kita ingin mengumpulkan 21 sen euro untuk sebuah layanan. Mengetahui bahwa Sats.Mobi hanya mengelola Sats secara native, tidak mudah untuk melakukan konversi di kepala Anda. Sebaliknya, POS menampilkan euro sebagai unit akun, yang sekaligus menunjukkan padanannya dalam Satoshi.
+Interface menampilkan username Telegram pribadimu di kiri atas dan digunakan dengan cara yang sama seperti POS pada umumnya: cukup ketik jumlahnya di keypad. Misalnya sekarang kamu ingin menagih 21 sen euro untuk sebuah layanan. Karena SatsMobi hanya mengelola Sats secara native, tidak mudah menghitung konversinya di kepala. Untuk mempermudah, POS menampilkan euro sebagai unit akun sekaligus menunjukkan padanannya dalam Satoshi.
 
 
 ![image](assets/it/15.webp)
@@ -210,22 +208,21 @@ Ini juga ditampilkan dengan baik pada layar ponsel:
 ## Fitur Tambahan
 
 
-Ada fitur lain yang melengkapi penawaran Sats.Mobi Wallet, yang, seperti yang telah kita lihat, memperluas konsep Wallet di luar operasi penerimaan dan pengiriman pembayaran:
+Ada fitur lain yang melengkapi penawaran SatsMobi Wallet yang, seperti sudah kita lihat, memperluas konsep Wallet ini melampaui sekadar menerima dan mengirim pembayaran:
 
 
-- _/nostr_: untuk menghubungkan Wallet ke pengguna Nostr Anda sendiri untuk menerima zaps;
-- _/cashback_: menunjukkan kode yang dapat ditunjukkan kepada pedagang untuk mendapatkan cashback atas pembelian;
-- _/buy_: memulai prosedur yang dipandu di dalam bot, yang memungkinkan pembelian Sats dengan harga euro;
-- _/activatecard_: untuk meminta aktivasi kartu debit NFC, yang dapat diisi ulang melalui Sats.Mobi Wallet dan yang dapat diaktifkan notifikasinya;
-- _/link_: membuat tautan untuk Zeus atau Blue Wallet Anda sendiri, yang dapat digunakan sebagai remote control untuk Wallet ini.
+- _/nostr_: untuk menghubungkan Wallet ke akun Nostr kamu sendiri agar bisa menerima zap;
+- _/cashback_: menampilkan kode yang bisa kamu tunjukkan ke pedagang untuk mendapatkan cashback atas pembelian;
+- _/buy_: memulai prosedur terpandu di dalam bot yang memungkinkan kamu membeli Sats dengan harga euro;
+- _/activatecard_: untuk meminta aktivasi kartu debit NFC yang bisa diisi ulang lewat SatsMobi Wallet dan notifikasinya bisa diaktifkan;
+- _/link_: membuat tautan untuk Zeus atau BlueWallet milikmu sendiri yang bisa digunakan sebagai remote control untuk Wallet ini.
 
 
 ## Kesimpulan
 
-Sats.Mobi merupakan Wallet yang menyenangkan dan menyenangkan untuk digunakan, yang membawa kembali pengalaman menggunakan LNTipBot dengan menggunakan fungsi yang lebih canggih dari LNBits. Namun, penting untuk diingat bahwa **ini adalah layanan kustodian**. Oleh karena itu, layanan ini sebaiknya digunakan untuk menyimpan sedikit Sats, bukan sebagai Wallet utama untuk dana Lightning Network Anda. Ada juga batas kapasitas intrinsik, yaitu 500.000 Sats, batas yang disarankan untuk tidak dilampaui.
+SatsMobi adalah Wallet yang seru dan nyaman digunakan, menghidupkan kembali pengalaman LNTipBot dengan memanfaatkan fungsi yang lebih canggih dari LNBits. Namun, penting untuk diingat bahwa **ini adalah layanan kustodian**. Karena itu, sebaiknya kamu hanya menyimpan sedikit Sats di sini, bukan menjadikannya Wallet utama untuk dana Lightning Network kamu. Ada juga batas kapasitas bawaan sebesar 500.000 Sats, dan sebaiknya tidak melewati batas tersebut.
 
-
-Jika Anda mencari dompet Lightning Network non-kustodian, sangat disarankan untuk melihat produk lain.
+Kalau kamu mencari Lightning Network Wallet non-kustodian, sangat disarankan untuk mempertimbangkan produk lain.
 
 
 ---

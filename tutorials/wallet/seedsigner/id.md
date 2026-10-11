@@ -1,56 +1,41 @@
 ---
 name: SeedSigner
-description: Perangkat keras wallet yang dibuat sendiri, tanpa status, terjangkau, dan sepenuhnya memiliki celah udara
+description: Perangkat keras wallet yang dibuat sendiri, tanpa status, terjangkau, dan sepenuhnya air gapped
 ---
 
 ![cover](assets/cover.webp)
 
 
 
-SeedSigner adalah perangkat keras wallet Bitcoin sumber terbuka yang dapat dibuat sendiri oleh siapa saja dengan menggunakan komponen elektronik serba guna yang murah. Tidak seperti produk komersial seperti Ledger, Coldcard atau Trezor, ini bukanlah perangkat siap pakai yang diproduksi oleh perusahaan: ini adalah proyek komunitas yang memungkinkan siapa pun untuk membuat perangkat mereka sendiri, mengendalikan setiap langkah.
+SeedSigner adalah hardware wallet Bitcoin sumber terbuka yang bisa kamu rakit sendiri menggunakan komponen elektronik umum yang murah. Berbeda dengan produk komersial seperti Ledger, Coldcard atau Trezor, ini bukan perangkat siap pakai yang diproduksi perusahaan: ini adalah proyek komunitas yang memungkinkan siapa pun merakit perangkatnya sendiri dan mengendalikan setiap tahapannya.
 
-
-
-SeedSigner dirancang untuk menjadi 100% ***air-gapped***: tidak pernah terhubung ke Internet, tidak memiliki Wi-Fi atau Bluetooth (dalam kasus Raspberry Pi Zero v1.3) dan tidak pernah terhubung ke komputer untuk bertukar data. Komunikasi secara eksklusif melalui sistem pertukaran kode QR. Secara konkret, perangkat lunak manajemen portofolio Anda (seperti Sparrow Wallet) menampilkan transaksi yang akan ditandatangani dalam bentuk kode QR; Anda memindainya dengan kamera SeedSigner, kemudian perangkat menandatangani transaksi menggunakan kunci pribadi Anda yang disimpan sementara di RAM-nya. Terakhir, alat ini menghasilkan kode QR yang berisi transaksi yang telah ditandatangani, yang Anda pindai dengan perangkat lunak Anda untuk mengirimkannya ke jaringan Bitcoin.
-
+SeedSigner dirancang agar 100% ***air-gapped***: tidak pernah terhubung ke internet, tidak memiliki Wi-Fi atau Bluetooth (pada Raspberry Pi Zero v1.3), dan tidak pernah tersambung ke komputer untuk bertukar data. Komunikasi dilakukan sepenuhnya melalui pertukaran kode QR. Secara praktis, software manajemen wallet kamu, seperti Sparrow Wallet, menampilkan transaksi yang akan ditandatangani dalam bentuk kode QR; kamu memindainya dengan kamera SeedSigner, lalu perangkat menandatangani transaksi menggunakan private key yang disimpan sementara di RAM. Terakhir, perangkat ini menghasilkan kode QR berisi transaksi yang sudah ditandatangani, lalu kamu memindainya dengan software untuk menyiarkannya ke jaringan Bitcoin.
 
 
 ![Image](assets/fr/001.webp)
 
 
 
-SeedSigner juga tidak memiliki status. Dengan kata lain, ia tidak menyimpan seed atau kunci pribadi Anda secara permanen, tidak seperti dompet perangkat keras lainnya. Setiap kali Anda melakukan reboot, memorinya benar-benar kosong, kecuali jika Anda mengonfigurasi perangkat untuk menyimpan pengaturan Anda pada kartu microSD. Oleh karena itu, Anda harus memasukkan kembali seed Anda setiap kali Anda menggunakannya, metode yang paling praktis adalah menyimpannya dalam bentuk kode QR, yang akan dipindai pada saat memulai menggunakan kamera SeedSigner. Mode operasi ini sangat mengurangi permukaan serangan: bahkan jika pencuri mencuri perangkat Anda, dia tidak akan menemukan informasi apa pun di dalamnya, karena selalu kosong secara default.
+SeedSigner juga tidak memiliki status. Artinya, perangkat ini tidak menyimpan seed atau private key kamu secara permanen, berbeda dengan hardware wallet lain. Setiap kali kamu me-reboot, memorinya benar-benar kosong, kecuali kalau kamu mengatur perangkat untuk menyimpan preferensi di kartu microSD. Jadi, kamu perlu memasukkan kembali seed setiap kali menggunakannya. Cara paling praktis adalah menyimpannya dalam bentuk kode QR yang bisa kamu pindai saat boot menggunakan kamera SeedSigner. Model operasi ini sangat mengurangi permukaan serangan: bahkan jika pencuri mengambil perangkat kamu, dia tidak akan menemukan informasi apa pun di dalamnya karena secara default selalu kosong.
 
-
-
-Pilihan lain untuk menyimpan seed Anda dan menggunakannya dengan SeedSigner adalah dengan menggunakan kartu pintar *SeedKeeper* bersama dengan pembaca yang kompatibel. Hal ini memberikan Anda sebuah *Secure Element* yang sangat kuat untuk menyimpan seed Anda, sambil menggunakan layar SeedSigner untuk menandatangani transaksi. Tetapi konfigurasi khusus ini adalah subjek dari tutorial khusus lainnya. Di sini, kita akan berkonsentrasi pada penggunaan dasar SeedSigner:
-
-
+Opsi lain untuk menyimpan seed dan menggunakannya dengan SeedSigner adalah memakai kartu pintar *SeedKeeper* bersama pembaca yang kompatibel. Ini memberimu *Secure Element* yang kuat untuk menyimpan seed, sambil tetap menggunakan layar SeedSigner untuk menandatangani transaksi. Namun konfigurasi khusus ini dibahas dalam tutorial terpisah. Di sini, kita fokus pada penggunaan dasar SeedSigner:
 
 https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
 
-Proyek SeedSigner menempati tempat yang penting dalam ekosistem Bitcoin, karena menawarkan kepada semua orang, di mana pun di dunia, kemungkinan untuk mendapatkan keuntungan dari keamanan tingkat lanjut untuk melindungi bitcoin mereka. Keuntungan utamanya terletak pada aksesibilitasnya: perangkat keras yang dibutuhkan dapat dibeli dengan harga kurang dari $50. Terlebih lagi, ini memungkinkan orang-orang yang tinggal di negara-negara terbatas untuk membangun perangkat keras wallet mereka sendiri dari komponen komputer standar, yang mudah ditemukan dan tidak terlalu tunduk pada batasan peraturan.
+Proyek SeedSigner punya posisi penting dalam ekosistem Bitcoin karena memberi siapa pun, di mana pun, akses ke keamanan tingkat lanjut untuk melindungi bitcoin mereka. Keunggulan utamanya ada pada aksesibilitas: hardware yang dibutuhkan bisa dibeli dengan harga kurang dari $50. Selain itu, orang yang tinggal di negara dengan pembatasan ketat tetap bisa merakit hardware wallet sendiri dari komponen komputer standar yang mudah ditemukan dan umumnya tidak terlalu terdampak regulasi.
 
-
-
-Tetapi bahkan di luar konteks khusus ini, SeedSigner dapat menjadi opsi yang menarik untuk Anda: ini adalah sumber terbuka, bekerja tanpa batas negara dan tanpa celah udara, dan mengurangi vektor serangan yang terkait dengan rantai pasokan perangkat keras wallet Anda.
-
-
+Bahkan di luar konteks tersebut, SeedSigner tetap menarik: proyek ini bersifat sumber terbuka, bekerja tanpa batas negara dan sepenuhnya ***air-gapped***, serta mengurangi vektor serangan yang berkaitan dengan rantai pasokan hardware wallet kamu.
 
 ## 1. Peralatan yang diperlukan
 
-
-
-Untuk membangun SeedSigner Anda, Anda memerlukan komponen-komponen berikut ini:
-
-
+Untuk merakit SeedSigner, kamu memerlukan komponen berikut:
 
 
 
 - Raspberry Pi Nol
     - Versi 1.3 direkomendasikan, karena tidak memiliki Wi-Fi maupun Bluetooth, sehingga memastikan isolasi yang lengkap.
- - Versi W dan v2 juga kompatibel, tetapi menyertakan chip Wi-Fi/Bluetooth. Oleh karena itu, disarankan untuk menonaktifkannya secara fisik dengan melepaskan modul radio dari kartu. Pengoperasiannya relatif sederhana, tetapi membutuhkan ketelitian (tang halus cukup untuk Zero W, sedangkan untuk v2 diperlukan pena panas untuk melepaskan pelat logam yang menyembunyikan modul). Saya tidak akan membahas secara rinci dalam tutorial ini, tetapi Anda akan menemukan semua instruksi dalam dokumen ini: *[Menonaktifkan WiFi/Bluetooth dengan perangkat keras](https://github.com/DesobedienteTecnologico/rpi_disable_wifi_and_bt_by_hardware)*.
- - Harap diperhatikan: beberapa model Raspberry Pi Zero dijual tanpa pin GPIO yang sudah disolder. Anda bisa membeli versi dengan pin terintegrasi secara langsung (solusi paling sederhana), atau membeli pin secara terpisah dan menyoldernya sendiri (solusi yang lebih kompleks).
+ - Versi W dan v2 juga kompatibel, tetapi menyertakan chip Wi-Fi/Bluetooth. Oleh karena itu, disarankan untuk menonaktifkannya secara fisik dengan melepaskan modul radio dari kartu. Pengoperasiannya relatif sederhana, tetapi membutuhkan ketelitian (tang halus cukup untuk Zero W, sedangkan untuk v2 diperlukan pena panas untuk melepaskan pelat logam yang menyembunyikan modul). Aku tidak akan membahas secara rinci dalam tutorial ini, tetapi kamu akan menemukan semua instruksi dalam dokumen ini: *[Menonaktifkan WiFi/Bluetooth dengan perangkat keras](https://github.com/DesobedienteTecnologico/rpi_disable_wifi_and_bt_by_hardware)*.
+ - Harap diperhatikan: beberapa model Raspberry Pi Zero dijual tanpa pin GPIO yang sudah disolder. Kamu bisa membeli versi dengan pin terintegrasi secara langsung (solusi paling sederhana), atau membeli pin secara terpisah dan menyoldernya sendiri (solusi yang lebih kompleks).
  - Jangan lupa menyertakan catu daya micro-USB.
 
 
@@ -74,7 +59,7 @@ Untuk membangun SeedSigner Anda, Anda memerlukan komponen-komponen berikut ini:
 
 
 - Kamera yang kompatibel dengan Raspberry Pi Zero**
-    - Opsi 1: kamera standar dengan alas emas lebar (periksa kompatibilitasnya dengan housing Anda).
+    - Opsi 1: kamera standar dengan alas emas lebar (periksa kompatibilitasnya dengan housing kamu).
     - Opsi 2: kamera "*Zero*" yang lebih ringkas, yang didesain khusus untuk Pi Zero.
 
 
@@ -103,7 +88,7 @@ Untuk membangun SeedSigner Anda, Anda memerlukan komponen-komponen berikut ini:
 
 
 
-Anda bisa membeli komponen-komponen ini secara terpisah atau, untuk lebih mudahnya, pilihlah paket yang sudah jadi yang sudah termasuk semua perangkat keras yang diperlukan. Secara pribadi, saya memesan paket saya [di situs Perancis ini](https://bitcoinbazar.fr/), tetapi Anda juga akan menemukan daftar vendor untuk setiap wilayah di dunia pada [halaman perangkat keras proyek SeedSigner](https://seedsigner.com/hardware/). Jika Anda lebih suka membeli komponen secara terpisah, komponen-komponen tersebut tersedia di platform e-commerce utama atau di toko-toko spesialis.
+Kamu bisa membeli komponen-komponen ini secara terpisah atau, untuk lebih mudahnya, pilihlah paket yang sudah jadi yang sudah termasuk semua perangkat keras yang diperlukan. Secara pribadi, aku memesan paket saya [di situs Perancis ini](https://bitcoinbazar.fr/), tetapi Anda juga akan menemukan daftar vendor untuk setiap wilayah di dunia pada [halaman perangkat keras proyek SeedSigner](https://seedsigner.com/hardware/). Jika kamu lebih suka membeli komponen secara terpisah, komponen-komponen tersebut tersedia di platform e-commerce utama atau di toko-toko spesialis.
 
 
 
@@ -111,7 +96,7 @@ Anda bisa membeli komponen-komponen ini secara terpisah atau, untuk lebih mudahn
 
 
 
-Setelah Anda menyiapkan perangkat keras, Anda perlu menyiapkan kartu microSD dengan menginstal sistem SeedSigner di dalamnya. Untuk melakukan ini, buka komputer pribadi Anda sehari-hari, dan colokkan microSD yang ditujukan untuk SeedSigner.
+Setelah menyiapkan perangkat keras, kamu perlu menyiapkan kartu microSD dengan menginstal sistem SeedSigner di dalamnya. Untuk melakukan ini, buka komputer pribadi kamu sehari-hari, dan colokkan microSD yang ditujukan untuk SeedSigner.
 
 
 
@@ -156,7 +141,7 @@ gpg --fetch-keys https://keybase.io/seedsigner/pgp_keys.asc
 
 
 
-Terminal akan memberitahukan Anda bahwa sebuah kunci telah diimpor atau diperbarui. Selanjutnya, jalankan perintah verifikasi pada file tanda tangan (ingatlah untuk memodifikasi perintah sesuai dengan versi Anda, di sini `0.8.6.`):
+Terminal akan memberitahukan kamu bahwa sebuah kunci telah diimpor atau diperbarui. Selanjutnya, jalankan perintah verifikasi pada file tanda tangan (ingatlah untuk memodifikasi perintah sesuai dengan versi Anda, di sini `0.8.6.`):
 
 
 
@@ -170,15 +155,15 @@ gpg --verify seedsigner.0.8.6.sha256.txt.sig
 
 
 
-Jika semuanya sudah benar, keluarannya akan berbunyi `Tanda tangan yang baik`. Ini berarti bahwa file `.sha256.txt` telah ditandatangani oleh kunci yang baru saja Anda impor, dan tanda tangan tersebut valid. Abaikan pesan peringatan `WARNING: This key is not certified with a trusted signature`: ini normal, karena sekarang terserah Anda untuk memeriksa apakah kunci yang digunakan adalah milik proyek SeedSigner.
+Jika semuanya sudah benar, keluarannya akan menampilkan `Good signature`. Artinya, file `.sha256.txt` memang ditandatangani oleh key yang baru saja kamu impor dan tanda tangannya valid. Abaikan pesan peringatan `WARNING: This key is not certified with a trusted signature`: ini normal, karena sekarang tanggung jawab ada di kamu untuk memastikan bahwa key tersebut benar milik proyek SeedSigner.
 
 
 
-Untuk melakukan hal ini, bandingkan 16 karakter terakhir dari sidik jari yang ditampilkan dengan yang tersedia di [Keybase.io/SeedSigner](https://keybase.io/seedsigner), di [Twitter resmi](https://twitter.com/SeedSigner/status/1530555252373704707), atau di file yang dipublikasikan di [SeedSigner.com](https://seedsigner.com/keybase.txt). Jika pengidentifikasi ini sama persis, Anda dapat yakin bahwa kuncinya memang berasal dari proyek tersebut. Jika ragu, segera hentikan dan mintalah bantuan kepada komunitas SeedSigner (Telegram, X, GitHub...).
+Untuk melakukan hal ini, bandingkan 16 karakter terakhir dari sidik jari yang ditampilkan dengan yang tersedia di [Keybase.io/SeedSigner](https://keybase.io/seedsigner), di [Twitter resmi](https://twitter.com/SeedSigner/status/1530555252373704707), atau di file yang dipublikasikan di [SeedSigner.com](https://seedsigner.com/keybase.txt). Jika pengidentifikasi ini sama persis, kamu dapat yakin bahwa kuncinya memang berasal dari proyek tersebut. Jika ragu, segera hentikan dan mintalah bantuan kepada komunitas SeedSigner (Telegram, X, GitHub...).
 
 
 
-Ketika kunci telah divalidasi, Anda dapat memeriksa bahwa gambar yang diunduh belum dimodifikasi (ingatlah untuk memodifikasi perintah sesuai dengan versi Anda, di sini `0.8.6.`):
+Ketika kunci telah divalidasi, kamu dapat memeriksa bahwa gambar yang diunduh belum dimodifikasi (ingatlah untuk memodifikasi perintah sesuai dengan versi kamu, di sini `0.8.6.`):
 
 
 
@@ -194,20 +179,15 @@ shasum -a 256 --ignore-missing --check seedsigner.0.8.6.sha256.txt
 
 
 
-- Pada Linux, perintah ini sudah tersedia secara bawaan.
-- Peringatan: versi macOS sebelum `Big Sur (11)` tidak mengenali opsi `--abaikan-kehilangan`. Dalam kasus ini, hapus dan abaikan peringatan tentang file yang hilang.
+- Di Linux, perintah ini sudah tersedia secara bawaan.
+- Peringatan: versi macOS sebelum `Big Sur (11)` tidak mengenali opsi `--ignore-missing`. Dalam kasus ini, hapus opsi tersebut dan abaikan peringatan tentang file yang hilang.
 
-
-
-Hasil yang diharapkan adalah `OK` di samping file `.img`. Ini mengonfirmasi bahwa gambar yang diunggah identik dengan gambar yang diterbitkan oleh proyek dan belum dimodifikasi.
-
-
+Hasil yang diharapkan adalah `OK` di samping file `.img`. Ini memastikan bahwa image yang kamu unduh identik dengan yang dipublikasikan oleh proyek dan belum dimodifikasi.
 
 ### 2.3 Verifikasi Windows
 
+Di Windows, prosedurnya mirip tetapi perintahnya berbeda. Mulai dengan menginstal [Gpg4win](https://www.gpg4win.org/) lalu buka aplikasi *Kleopatra*. Impor public key proyek SeedSigner dari URL Keybase berikut:
 
-
-Pada Windows, prosedurnya serupa tetapi perintahnya berbeda. Mulailah dengan menginstal [Gpg4win](https://www.gpg4win.org/) dan buka aplikasi *Kleopatra*. Impor kunci publik dari proyek SeedSigner dari URL Keybase :
 
 
 
@@ -221,7 +201,7 @@ https://keybase.io/seedsigner/pgp_keys.asc
 
 
 
-Selanjutnya, buka PowerShell di folder tempat file yang telah diunduh berada (`Shift` + klik kanan > `Buka PowerShell di sini`). Jalankan perintah berikut untuk memeriksa tanda tangan manifes (ingatlah untuk memodifikasi perintah sesuai dengan versi Anda, di sini `0.8.6.`):
+Selanjutnya, buka PowerShell di folder tempat file yang telah diunduh berada (`Shift` + klik kanan > `Buka PowerShell di sini`). Jalankan perintah berikut untuk memeriksa tanda tangan manifes (ingatlah untuk memodifikasi perintah sesuai dengan versi kamu, di sini `0.8.6.`):
 
 
 
@@ -235,15 +215,15 @@ gpg --verify seedsigner.0.8.6.sha256.txt.sig
 
 
 
-Jika semuanya sudah benar, keluarannya akan berbunyi `Tanda tangan yang baik`. Ini berarti bahwa file `.sha256.txt` telah ditandatangani oleh kunci yang baru saja Anda impor, dan tanda tangan tersebut valid. Abaikan pesan peringatan `WARNING: This key is not certified with a trusted signature`: ini normal, karena sekarang terserah Anda untuk memeriksa apakah kunci yang digunakan adalah milik proyek SeedSigner.
+Jika semuanya sudah benar, keluarannya akan berbunyi `Tanda tangan yang baik`. Ini berarti bahwa file `.sha256.txt` telah ditandatangani oleh kunci yang baru saja kamu impor, dan tanda tangan tersebut valid. Abaikan pesan peringatan `WARNING: This key is not certified with a trusted signature`: ini normal, karena sekarang terserah kamu untuk memeriksa apakah kunci yang digunakan adalah milik proyek SeedSigner.
 
 
 
-Untuk melakukan hal ini, bandingkan 16 karakter terakhir dari sidik jari yang ditampilkan dengan yang tersedia di [Keybase.io/SeedSigner](https://keybase.io/seedsigner), di [Twitter resmi](https://twitter.com/SeedSigner/status/1530555252373704707), atau di file yang dipublikasikan di [SeedSigner.com](https://seedsigner.com/keybase.txt). Jika pengidentifikasi ini sama persis, Anda dapat yakin bahwa kuncinya memang berasal dari proyek tersebut. Jika ragu, segera hentikan dan mintalah bantuan kepada komunitas SeedSigner (Telegram, X, GitHub...).
+Untuk melakukan hal ini, bandingkan 16 karakter terakhir dari sidik jari yang ditampilkan dengan yang tersedia di [Keybase.io/SeedSigner](https://keybase.io/seedsigner), di [Twitter resmi](https://twitter.com/SeedSigner/status/1530555252373704707), atau di file yang dipublikasikan di [SeedSigner.com](https://seedsigner.com/keybase.txt). Jika pengidentifikasi ini sama persis, kamu dapat yakin bahwa kuncinya memang berasal dari proyek tersebut. Jika ragu, segera hentikan dan mintalah bantuan kepada komunitas SeedSigner (Telegram, X, GitHub...).
 
 
 
-Setelah kunci divalidasi, Anda perlu memeriksa bahwa file gambar belum rusak. Untuk melakukan hal ini, gunakan perintah berikut ini di PowerShell:
+Setelah kunci divalidasi, kamu perlu memeriksa bahwa file gambar belum rusak. Untuk melakukan hal ini, gunakan perintah berikut ini di PowerShell:
 
 
 
@@ -253,7 +233,7 @@ CertUtil -hashfile seedsigner_os.0.8.6.[your-Pi-model].img SHA256
 
 
 
-Contoh untuk Raspberry Pi Zero 2 (ingatlah untuk memodifikasi perintah sesuai dengan versi Anda, di sini `0.8.6.`):
+Contoh untuk Raspberry Pi Zero 2 (ingatlah untuk memodifikasi perintah sesuai dengan versi kamu, di sini `0.8.6.`):
 
 
 
@@ -267,12 +247,12 @@ CertUtil -hashfile seedsigner_os.0.8.6.pi02w.img SHA256
 
 
 
-PowerShell kemudian menghitung hash SHA256 dari file gambar Anda. Bandingkan hash ini dengan nilai yang sesuai di `seedsigner.0.8.6.sha256.txt`.
+PowerShell kemudian menghitung hash SHA256 dari file gambar kamu. Bandingkan hash ini dengan nilai yang sesuai di `seedsigner.0.8.6.sha256.txt`.
 
 
 
 
-- Jika kedua nilai tersebut sama persis, pemeriksaan berhasil dan Anda dapat melanjutkan.
+- Jika kedua nilai tersebut sama persis, pemeriksaan berhasil dan kamu dapat melanjutkan.
 - Jika berbeda, berarti file tersebut rusak atau rusak. Jangan gunakan file tersebut, dan mulai mengunduh lagi.
 
 
@@ -281,7 +261,7 @@ PowerShell kemudian menghitung hash SHA256 dari file gambar Anda. Bandingkan has
 
 
 
-Verifikasi yang berhasil menjamin bahwa berkas `.img` Anda adalah asli (ditandatangani oleh SeedSigner) dan tidak diubah (tidak dimodifikasi). Anda dapat melanjutkan ke langkah berikutnya dengan aman.
+Verifikasi yang berhasil menjamin bahwa berkas `.img` Anda adalah asli (ditandatangani oleh SeedSigner) dan tidak diubah (tidak dimodifikasi). kamu dapat melanjutkan ke langkah berikutnya dengan aman.
 
 
 
@@ -289,12 +269,12 @@ Verifikasi yang berhasil menjamin bahwa berkas `.img` Anda adalah asli (ditandat
 
 
 
-Jika Anda belum memilikinya, unduh perangkat lunak [Balena Etcher](https://etcher.balena.io/), kemudian :
+Jika kamu belum memilikinya, unduh perangkat lunak [Balena Etcher](https://etcher.balena.io/), kemudian :
 
 
 
 
-- Masukkan kartu microSD ke dalam komputer Anda.
+- Masukkan kartu microSD ke dalam komputer kamu.
 - Luncurkan Etcher.
 - Pilih file `.img` yang telah diunduh dan diverifikasi.
 - Pilih kartu microSD sebagai target.
@@ -306,40 +286,23 @@ Jika Anda belum memilikinya, unduh perangkat lunak [Balena Etcher](https://etche
 
 
 
-Tunggu sampai proses selesai: microSD Anda siap digunakan. Sekarang saatnya untuk perakitan!
-
-
+Tunggu sampai proses selesai: kartu microSD kamu sekarang siap digunakan. Saatnya masuk ke tahap perakitan!
 
 ## 3. Perakitan SeedSigner
 
+Setelah kartu microSD siap dan sudah di-flash dengan software SeedSigner, kamu bisa lanjut ke perakitan akhir. Kerjakan dengan pelan dan hati-hati, karena beberapa bagiannya cukup rapuh, terutama layar, kamera, dan pin GPIO.
 
+### 3.1 Mempersiapkan casing
 
-Setelah kartu microSD Anda disiapkan dan di-flash dengan perangkat lunak SeedSigner, Anda dapat melanjutkan dengan perakitan akhir. Luangkan waktu Anda, karena beberapa bagiannya rapuh (terutama taplak meja, kamera dan pin GPIO).
+Pertama, buka casing. Pastikan casing bersih dan tidak ada sisa cetakan 3D yang menghalangi pengunci internal. Perhatikan:
 
-
-
-### 3.1 Mempersiapkan rumah
-
-
-
-Pertama-tama, buka casing Anda. Pastikan casing bersih dan tidak ada sisa plastik cetak 3D yang menghalangi pengencang internal. Perhatikan :
-
-
-
-
-- Lokasi kamera (lubang melingkar kecil di depan).
+- Posisi kamera, yaitu lubang kecil berbentuk lingkaran di bagian depan.
 - Bukaan untuk layar.
-- Potongan untuk port micro-USB dan slot microSD Raspberry Pi Zero.
+- Celah untuk port micro-USB dan slot microSD pada Raspberry Pi Zero.
 
+### 3.2 Memasang kamera
 
-
-### 3.2 Pemasangan kamera
-
-
-
-Temukan konektor pita kamera pada Raspberry Pi Zero: ini adalah strip hitam tipis di sisi papan, yang dapat diangkat sedikit untuk membuka. Angkatlah dengan hati-hati, tanpa memaksanya: hanya perlu dimiringkan beberapa milimeter.
-
-
+Cari konektor pita kamera pada Raspberry Pi Zero. Letaknya berupa strip hitam tipis di sisi board yang bisa diangkat sedikit untuk membukanya. Angkat dengan hati-hati tanpa dipaksa, cukup dimiringkan beberapa milimeter saja.
 
 ![Image](assets/fr/015.webp)
 
@@ -353,7 +316,7 @@ Masukkan penutup kamera. Bagian berwarna cokelat/tembaga harus menghadap ke bawa
 
 
 
-Tutup bilah hitam untuk mengunci taplak meja (Anda akan mendengar bunyi klik). Periksa dengan hati-hati, apakah taplak meja tetap di tempatnya dan tidak bergerak.
+Tutup bilah hitam untuk mengunci taplak meja (kamu akan mendengar bunyi klik). Periksa dengan hati-hati, apakah taplak meja tetap di tempatnya dan tidak bergerak.
 
 
 
@@ -361,27 +324,20 @@ Tutup bilah hitam untuk mengunci taplak meja (Anda akan mendengar bunyi klik). P
 
 
 
-Kemudian, tempatkan modul kamera di lubang yang sesuai pada housing. Tergantung pada modelnya, modul ini bisa langsung terpasang atau memerlukan strip perekat kecil untuk menahannya di tempatnya. Lensa harus disejajarkan secara sempurna, menghadap ke luar.
+Selanjutnya, pasang modul kamera ke lubang yang sesuai pada casing. Tergantung model casing yang kamu pakai, modul ini bisa langsung terpasang atau perlu sedikit perekat agar tetap di tempatnya. Pastikan lensa benar-benar sejajar dan menghadap ke luar.
 
+### 3.3 Menginstal Raspberry Pi Zero
 
+Jika kamu menggunakan casing, masukkan board Raspberry Pi Zero ke dalamnya. Sejajarkan port dengan hati-hati ke lubang yang tersedia.
 
-### 3.3 Menginstalasi Raspberry Pi Zero
-
-
-
-Jika Anda menggunakan casing, masukkan papan Raspberry Pi Zero ke dalamnya. Sejajarkan port dengan hati-hati dengan lubang yang tersedia.
-
-
-
-Kemudian posisikan layar Waveshare di atas Raspberry Pi Zero. Pin GPIO Pi harus sejajar dengan konektor perempuan layar. Tekan layar secara perlahan ke pin, berikan tekanan yang sama pada setiap sisi untuk menghindari pembengkokan.
-
+Lalu letakkan layar Waveshare di atas Raspberry Pi Zero. Pin GPIO pada Pi harus sejajar dengan konektor female di layar. Tekan layar secara perlahan ke pin dengan tekanan merata di setiap sisi agar pin tidak bengkok.
 
 
 ![Image](assets/fr/018.webp)
 
 
 
-Jika Anda memiliki casing, selesaikan perakitan dengan menambahkan panel depan dan joystick.
+Jika kamu memiliki casing, selesaikan perakitan dengan menambahkan panel depan dan joystick.
 
 
 
@@ -421,7 +377,7 @@ Uji semua tombol dan pastikan tombol-tombol tersebut merespons dengan benar. Kem
 
 
 
-Tergantung pada cara Anda memasang SeedSigner, kamera mungkin menampilkan gambar yang terbalik. Untuk mengoreksi hal ini, buka `Pengaturan > Tingkat Lanjut > Rotasi kamera` dan pilih rotasi 180° jika perlu.
+Tergantung pada cara kamu memasang SeedSigner, kamera mungkin menampilkan gambar yang terbalik. Untuk mengoreksi hal ini, buka `Pengaturan > Tingkat Lanjut > Rotasi kamera` dan pilih rotasi 180° jika perlu.
 
 
 
@@ -429,8 +385,7 @@ Tergantung pada cara Anda memasang SeedSigner, kamera mungkin menampilkan gambar
 
 
 
-Jika Anda telah mengubah orientasi kamera atau ingin mengubah pengaturan lain (seperti bahasa antarmuka) di kemudian hari, Anda harus mengaktifkan persistensi pengaturan pada microSD. Jika tidak, pengaturan Anda akan kembali ke default setiap kali Anda melakukan boot ulang, karena Raspberry Pi Zero tidak memiliki memori persisten.
-
+Jika nanti kamu mengubah orientasi kamera atau ingin menyesuaikan pengaturan lain, seperti bahasa antarmuka, kamu perlu mengaktifkan persistensi pengaturan di microSD. Kalau tidak, semua pengaturan akan kembali ke default setiap kali kamu reboot, karena Raspberry Pi Zero tidak memiliki memori persisten.
 
 
 Untuk melakukannya, buka menu `Settings > Persistent settings (Pengaturan > Pengaturan persisten), lalu pilih `Enabled (Diaktifkan).
@@ -441,24 +396,15 @@ Untuk melakukannya, buka menu `Settings > Persistent settings (Pengaturan > Peng
 
 
 
-Jika semuanya sudah berfungsi, SeedSigner Anda sekarang siap digunakan!
-
-
+Jika semuanya sudah berfungsi dengan baik, SeedSigner kamu sekarang siap digunakan!
 
 ## 4. Pengaturan SeedSigner
 
+Sebelum membuat Bitcoin wallet, kita konfigurasikan dulu SeedSigner. Karena berjalan di Raspberry Pi Zero tanpa memori persisten, pengaturannya tidak akan tersimpan otomatis kecuali kamu menyimpannya di kartu microSD. Jadi pastikan opsi ini sudah kamu aktifkan, kalau tidak semua pengaturan akan hilang saat reboot, lihat langkah 3.5.
 
+### 4.1 Akses menu pengaturan
 
-Sebelum membuat Bitcoin wallet Anda, mari kita konfigurasikan SeedSigner. Karena berjalan pada Raspberry Pi Zero tanpa memori persisten, pengaturannya tidak tersimpan secara otomatis kecuali Anda menyimpannya pada kartu microSD. Jadi pastikan Anda telah mengaktifkan opsi ini, jika tidak, pengaturan ini akan hilang saat reboot (lihat langkah 3.5).
-
-
-
-### 4.1 Akses menu parameter
-
-
-
-Jalankan SeedSigner Anda dan tunggu hingga layar beranda muncul. Dengan menggunakan joystick, navigasikan ke opsi `Pengaturan`, lalu validasi dengan menekan tombol tengah. Anda sekarang masuk ke menu pengaturan utama.
-
+Nyalakan SeedSigner dan tunggu sampai layar utama muncul. Gunakan joystick untuk masuk ke opsi `Settings`, lalu konfirmasi dengan menekan tombol tengah. Sekarang kamu berada di menu pengaturan utama.
 
 
 ![Image](assets/fr/024.webp)
@@ -477,21 +423,15 @@ Kemudian akses menu `Perangkat lunak koordinator`.
 
 
 
-"Koordinator" mengacu pada perangkat lunak manajemen portofolio yang akan digunakan oleh SeedSigner Anda untuk berkomunikasi melalui kode QR. Perangkat lunak ini diinstal di komputer atau ponsel pintar Anda. Perangkat lunak ini akan memungkinkan Anda untuk mengelola bitcoin Anda, tetapi tanpa memiliki akses ke kunci pribadi Anda. SeedSigner tetap menjadi satu-satunya perangkat yang mampu menandatangani transaksi Anda.
+`Koordinator` mengacu pada software manajemen wallet yang akan digunakan SeedSigner untuk berkomunikasi melalui kode QR. Software ini terpasang di komputer atau smartphone kamu. Fungsinya untuk mengelola bitcoin kamu, tetapi tanpa pernah memiliki akses ke private key. SeedSigner tetap menjadi satu-satunya perangkat yang bisa menandatangani transaksi.
 
+Versi firmware saat ini mendukung beberapa software: Sparrow, Specter, BlueWallet, Nunchuk, dan Keeper. Dalam contoh ini, aku menggunakan **Sparrow Wallet**, yang sangat aku rekomendasikan karena sederhana dan fiturnya lengkap.
 
-
-Versi firmware saat ini mendukung beberapa program: Sparrow, Specter, BlueWallet, Nunchuk dan Keeper. Dalam kasus saya, saya menggunakan **Sparrow Wallet**, yang secara khusus saya rekomendasikan karena kesederhanaan dan fungsionalitasnya yang kaya.
-
-
-
-Jika Anda tidak tahu cara menginstalnya, Anda dapat mengikuti tutorial ini:
-
-
+Kalau kamu belum tahu cara menginstalnya, kamu bisa mengikuti tutorial berikut:
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-Cukup pilih perangkat lunak pilihan Anda dari menu.
+Tinggal pilih software yang kamu gunakan dari menu.
 
 
 
@@ -503,7 +443,7 @@ Cukup pilih perangkat lunak pilihan Anda dari menu.
 
 
 
-Dalam menu `Denomination Display`, Anda dapat memilih unit yang digunakan untuk menampilkan jumlah:
+Dalam menu `Denomination Display`, kamu dapat memilih unit yang digunakan untuk menampilkan jumlah:
 
 
 
@@ -532,9 +472,9 @@ Sekarang masuk ke menu `Advanced`. Di sini Anda akan menemukan beberapa opsi yan
 
 
 - jaringan gW-17`: untuk dimodifikasi hanya jika Anda ingin menggunakan SeedSigner pada Testnet.
-- qR code density`: menyesuaikan jumlah informasi yang terkandung dalam setiap kode QR. Anda dapat membiarkan nilai default, kecuali jika Anda merasa kesulitan untuk membaca saat memindai.
+- qR code density`: menyesuaikan jumlah informasi yang terkandung dalam setiap kode QR. Anda dapat membiarkan nilai default, kecuali jika kamu merasa kesulitan untuk membaca saat memindai.
 - ekspor `Xpub`: mengaktifkan atau menonaktifkan ekspor kunci publik yang diperluas (`xpub`, `ypub`, `zpub`) ke perangkat lunak manajemen portofolio melalui kode QR (fungsi yang akan kita gunakan nanti, jadi biarkan diaktifkan untuk saat ini).
-- `Jenis skrip`: mendefinisikan jenis skrip yang diperbolehkan untuk mengunci bitcoin Anda. Anda tidak perlu memodifikasi parameter ini, karena tipe skrip akan disetel secara langsung ke Sparrow. Di sini, hanya skrip yang diizinkan untuk dimanipulasi oleh SeedSigner yang diperhatikan.
+- `Jenis skrip`: mendefinisikan jenis skrip yang diperbolehkan untuk mengunci bitcoin. Kamu tidak perlu memodifikasi parameter ini, karena tipe skrip akan disetel secara langsung ke Sparrow. Di sini, hanya skrip yang diizinkan untuk dimanipulasi oleh SeedSigner yang diperhatikan.
 
 
 
@@ -542,7 +482,7 @@ Sekarang masuk ke menu `Advanced`. Di sini Anda akan menemukan beberapa opsi yan
 
 
 
-Terakhir, dalam menu `Language`, Anda dapat mengubah bahasa antarmuka sesuai preferensi Anda.
+Terakhir, dalam menu `Language`, kamu dapat mengubah bahasa antarmuka sesuai preferensi Anda.
 
 
 
@@ -554,19 +494,13 @@ Terakhir, dalam menu `Language`, Anda dapat mengubah bahasa antarmuka sesuai pre
 
 
 
-seed (atau frasa mnemonik) menjadi dasar portofolio Bitcoin Anda. Ia digunakan untuk mendapatkan private key dan alamat Anda, dan menyediakan akses ke dana Anda. SeedSigner menawarkan beberapa metode untuk membuatnya, yang akan kita bahas di bagian ini.
+Seed atau seedphrase menjadi fondasi wallet Bitcoin kamu. Dari sinilah private key dan alamat diturunkan, sekaligus menjadi akses ke dana kamu. SeedSigner menyediakan beberapa metode untuk membuatnya, yang akan kita bahas di bagian ini.
 
+Sebelum mulai, ada beberapa hal penting yang perlu kamu ingat:
 
-
-Sebelum kita mulai, ada beberapa pengingat penting:
-
-
-
-
-- Frasa ini memberikan akses penuh dan tidak terbatas ke semua bitcoin Anda.** Siapa pun yang memiliki frasa ini dapat mencuri dana Anda, bahkan tanpa akses fisik ke SeedSigner Anda;
-- Biasanya, frasa 12 kata digunakan untuk memulihkan wallet jika terjadi kehilangan atau pencurian perangkat keras wallet. Tetapi karena SeedSigner adalah perangkat *stateless*, ia tidak pernah mendaftarkan seed Anda. Jadi, cadangan fisik Anda bukan hanya salinan cadangan, tetapi **satu-satunya cara untuk menggunakan wallet Anda**. Jika Anda kehilangan cadangan ini, bitcoin Anda akan hilang secara permanen. Jadi, buatlah cadangan dengan hati-hati, di beberapa media dan di tempat yang aman;
-- Jika Anda baru memulai, saya sangat menyarankan Anda untuk membaca tutorial ini untuk mendapatkan pemahaman yang mendetail mengenai risiko yang terlibat dalam mengelola frasa mnemonik:
-
+- Frasa ini memberi akses penuh dan tanpa batas ke semua bitcoin kamu. Siapa pun yang memilikinya bisa mencuri dana kamu, bahkan tanpa akses fisik ke SeedSigner;
+- Biasanya, frasa 12 kata digunakan untuk memulihkan wallet jika hardware wallet hilang atau dicuri. Namun karena SeedSigner adalah perangkat *stateless*, ia tidak pernah menyimpan seed kamu. Jadi cadangan fisik bukan sekadar backup, tetapi **satu-satunya cara untuk menggunakan wallet kamu**. Jika cadangan ini hilang, bitcoin kamu juga hilang permanen. Karena itu, buat cadangan dengan sangat hati-hati, di beberapa media dan simpan di tempat yang aman;
+- Jika kamu masih baru, aku sangat menyarankan kamu membaca tutorial berikut agar benar-benar paham risiko dalam mengelola seedphrase:
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
@@ -583,32 +517,20 @@ Dari layar beranda SeedSigner, buka menu `Tools`.
 
 
 
-Sekarang Anda akan mendapatkan generate dan seed. seed adalah sebuah angka acak yang besar. Semakin acak angka tersebut dihasilkan, semakin aman. SeedSigner menawarkan dua cara untuk melakukan ini:
+Sekarang kamu akan membuat seed. Seed adalah angka acak berukuran besar. Semakin acak proses pembuatannya, semakin tinggi tingkat keamanannya. SeedSigner menawarkan dua metode untuk melakukannya:
 
-
-
-
-- kamera": seed dihasilkan dari noise visual foto. Anda mengambil gambar lingkungan acak (objek, lanskap, wajah, dll.) yang variasi pikselnya digunakan untuk entropi generate. Ini adalah metode yang cepat, tetapi tidak dapat direproduksi.
-- "lemparan dadu": Anda melempar dadu untuk menciptakan entropi yang diperlukan. Metode ini lebih memakan waktu, tetapi dapat direproduksi dan oleh karena itu dapat diverifikasi. Jika Anda memilih metode ini, ikuti saran dalam tutorial ini (tidak perlu menghitung checksum di sini, SeedSigner yang akan melakukannya):
-
-
+- `Camera`: seed dihasilkan dari noise visual sebuah foto. Kamu mengambil gambar lingkungan acak, seperti objek, lanskap, wajah, dan variasi pikselnya digunakan sebagai entropi untuk generate seed. Metode ini cepat, tetapi tidak bisa direproduksi.
+- `Dice Rolls`: kamu melempar dadu untuk menghasilkan entropi yang dibutuhkan. Metode ini lebih lama, tetapi bisa direproduksi dan diverifikasi. Jika kamu memilih metode ini, ikuti panduan di tutorial berikut, tidak perlu menghitung checksum karena SeedSigner akan melakukannya:
 
 https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
-### 5.2 Menciptakan seed dengan foto
+### 5.2 Membuat seed dengan foto
 
-
-
-Jika Anda memilih metode foto, klik `New seed` (dengan ikon kamera), ambil gambar dan validasi. Kemudian pilih panjang kalimat Anda (12 atau 24 kata), yang akan muncul di layar untuk disimpan. Langkah-langkah berikut ini sama dengan bagian 5.3.
-
-
+Jika kamu memilih metode foto, klik `New seed` dengan ikon kamera, ambil gambar lalu konfirmasi. Setelah itu pilih panjang seedphrase kamu, 12 atau 24 kata, yang akan ditampilkan di layar untuk kamu simpan. Langkah berikutnya sama seperti di bagian 5.3.
 
 ### 5.3 Membuat seed dengan dadu
 
-
-
-Dalam tutorial ini, kami menggunakan metode **Dice Rolls**. Klik `New seed` (dengan ikon dadu).
-
+Dalam tutorial ini, kita menggunakan metode **Dice Rolls**. Klik `New seed` dengan ikon dadu.
 
 
 ![Image](assets/fr/030.webp)
@@ -623,15 +545,14 @@ Kemudian pilih panjang frasa mnemonik Anda. 12 kata sudah menawarkan tingkat kea
 
 
 
-Lempar dadu Anda dan masukkan angka yang dihasilkan dengan menggunakan kursor. Tekan tombol tengah untuk memvalidasi setiap entri. Jika Anda membuat kesalahan, Anda dapat kembali. Gunakan beberapa dadu yang berbeda untuk mengurangi pengaruh dadu yang tidak seimbang. Pastikan Anda tidak diawasi selama operasi ini.
-
+Lempar dadu kamu lalu masukkan angka yang muncul menggunakan kursor. Tekan tombol tengah untuk mengonfirmasi setiap input. Jika kamu salah memasukkan angka, kamu bisa kembali dan memperbaikinya. Gunakan beberapa dadu berbeda untuk mengurangi risiko dadu yang tidak seimbang. Pastikan tidak ada yang mengawasi kamu selama proses ini.
 
 
 ![Image](assets/fr/032.webp)
 
 
 
-Setelah Anda memasukkan 50 lemparan, SeedSigner akan menghasilkan kalimat Anda. **Ikuti instruksi dalam tutorial ini dengan seksama jika Anda baru memulai:**
+Setelah kamu memasukkan 50 lemparan, SeedSigner akan menghasilkan kalimat Anda. **Ikuti instruksi dalam tutorial ini dengan seksama jika Anda baru memulai:**
 
 
 
@@ -641,7 +562,7 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-Tuliskan kata-kata frasa mnemonik Anda dengan hati-hati pada penyangga fisik yang sesuai (kertas atau logam).
+Tuliskan kata-kata seedphrase kamu dengan hati-hati pada penyangga fisik yang sesuai (kertas atau logam).
 
 
 
@@ -653,7 +574,7 @@ Tuliskan kata-kata frasa mnemonik Anda dengan hati-hati pada penyangga fisik yan
 
 
 
-Untuk menghindari kesalahan pencadangan, SeedSigner meminta Anda untuk memverifikasi pencadangan Anda. Klik pada `Verifikasi`.
+Untuk menghindari kesalahan pencadangan, SeedSigner meminta kamu untuk memverifikasi pencadangan Anda. Klik pada `Verifikasi`.
 
 
 
@@ -661,7 +582,7 @@ Untuk menghindari kesalahan pencadangan, SeedSigner meminta Anda untuk memverifi
 
 
 
-Kemudian masukkan kata yang diminta sesuai dengan urutannya dalam kalimat. Sebagai contoh, di sini saya harus memilih kata ketiga dalam kalimat saya.
+Kemudian masukkan kata yang diminta sesuai dengan urutannya dalam kalimat. Sebagai contoh, di sini kamu harus memilih kata ketiga dalam kalimat saya.
 
 
 
@@ -669,7 +590,7 @@ Kemudian masukkan kata yang diminta sesuai dengan urutannya dalam kalimat. Sebag
 
 
 
-Jika Anda membuat kesalahan, SeedSigner akan memberi tahu Anda, dan Anda harus memulai dari awal lagi, pastikan untuk mencatat frasa mnemonik Anda ketika diberikan kepada Anda. Langkah verifikasi ini memastikan bahwa cadangan Anda sudah benar dan lengkap. Setelah divalidasi, layar akan menampilkan `Backup Verified`.
+Kalau kamu membuat kesalahan, SeedSigner akan memberi tahu kamu dan kamu harus mulai lagi dari awal. Pastikan kamu mencatat seedphrase kamu saat sudah ditampilkan. Langkah verifikasi ini memastikan bahwa cadangan kamu benar dan lengkap. Setelah berhasil divalidasi, layar akan menampilkan `Backup Verified`.
 
 
 
@@ -677,60 +598,40 @@ Jika Anda membuat kesalahan, SeedSigner akan memberi tahu Anda, dan Anda harus m
 
 
 
-Untuk tes pemulihan yang lebih lengkap, ikuti tutorial ini:
-
-
+Untuk uji pemulihan yang lebih lengkap, kamu bisa mengikuti tutorial berikut:
 
 https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-### 5.6 Memahami konsep "perangkat tanpa kewarganegaraan
+### 5.6 Memahami konsep “perangkat tanpa status”
 
+SeedSigner adalah perangkat tanpa memori permanen. Artinya, seed kamu tidak pernah disimpan di perangkat (berbeda dengan Ledger, Trezor, atau Coldcard). Saat kamu mematikan perangkat, seed langsung hilang dari RAM. Ketika dinyalakan lagi, SeedSigner kembali dalam kondisi kosong: kamu harus memasukkan seed lagi untuk bisa menandatangani transaksi.
 
+Model ini memberi perlindungan penting. Walaupun SeedSigner berbasis Raspberry Pi Zero yang tidak punya perlindungan fisik seperti *Secure Element*, tidak ada data sensitif yang tersimpan. Jadi meskipun perangkat secara fisik dikompromikan, penyerang tidak bisa mengekstrak private key atau mengakses bitcoin kamu.
 
-SeedSigner adalah sebuah perangkat tanpa memori permanen. Ini berarti seed Anda tidak pernah disimpan di dalam perangkat (tidak seperti Ledger, Trezor, atau Coldcard, misalnya). Segera setelah Anda mematikan daya, seed akan menghilang sepenuhnya dari RAM. Ketika Anda menyalakannya kembali, SeedSigner kembali ke kondisi kosong: Anda harus memberikan seed Anda lagi, agar dapat menandatangani transaksi Anda.
+Di sisi lain, arsitektur ini berarti kamu punya tanggung jawab lebih besar: tanpa cadangan, dana kamu pasti hilang. Karena itu aku sarankan **cadangan ganda**. Kamu sudah punya frasa pemulihan sebagai cadangan utama jangka panjang yang disimpan di tempat aman. Sekarang kita buat salinannya dalam bentuk **kode QR**.
 
+Setiap kali kamu memakai SeedSigner, kamu memindai kode QR itu dengan kamera perangkat agar seed kamu dimuat sementara ke memori saat menandatangani transaksi. Cadangan kedua ini untuk penggunaan sehari-hari, tapi tetap harus dijaga dengan hati-hati: siapa pun yang punya kode QR itu bisa mengakses bitcoin kamu.
 
+Aku juga menyarankan menyimpan kode QR dan seedphrase di dua lokasi terpisah supaya tidak hilang bersamaan kalau terjadi sesuatu.
 
-Hal ini memberikan perlindungan yang penting. Tidak seperti dompet perangkat keras lainnya, SeedSigner didasarkan pada Raspberry Pi Zero, yang tidak memiliki perlindungan fisik, termasuk *Secure Element*. Tetapi karena tidak ada data sensitif yang disimpan, bahkan perangkat yang disusupi secara fisik tidak akan mengizinkan penyerang untuk mengekstrak kunci pribadi Anda atau membelanjakan bitcoin Anda.
-
-
-
-Di sisi lain, arsitektur ini menyiratkan tanggung jawab tambahan: tanpa cadangan, dana Anda pasti hilang. Itulah mengapa saya merekomendasikan **cadangan ganda**. Anda sudah memiliki frasa pemulihan Anda: ini adalah cadangan jangka panjang utama Anda, untuk disimpan di tempat yang aman. Sekarang kita akan membuat salinan frasa ini dalam bentuk **kode QR**.
-
-
-
-Setiap kali Anda menggunakan SeedSigner, Anda memindai kode QR ini dengan kamera perangkat sehingga perangkat ini akan memuat seed Anda untuk sementara waktu ke dalam memorinya saat Anda menandatangani transaksi Anda. Cadangan kedua ini, yang ditujukan untuk penggunaan sehari-hari, juga harus disimpan dengan sangat hati-hati: siapa pun yang memiliki kode QR ini memiliki akses penuh ke bitcoin Anda.
-
-
-Saya juga menyarankan Anda untuk menyimpan kode QR dan frasa mnemonik Anda di dua lokasi terpisah, untuk menghindari kehilangan semuanya jika terjadi klaim.
-
-
-
-Terakhir, alternatif yang lebih canggih dan aman adalah dengan menggunakan SeedSigner dengan **SeedKeeper**, yang menyimpan seed di dalam secure element. Untuk mengetahui lebih lanjut, lihat tutorial ini:
-
-
+Alternatif yang lebih canggih dan aman adalah memakai SeedSigner bersama **SeedKeeper**, yang menyimpan seed di dalam secure element. Untuk detailnya, lihat tutorial ini:
 
 https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
 
-### 5.7 Tulis sidik jari kunci master
+### 5.7 Menulis fingerprint master key
 
-
-
-Setelah verifikasi selesai, SeedSigner menampilkan sidik jari dari kunci utama wallet Anda. Sidik jari ini mengidentifikasi wallet Anda dan memastikan bahwa Anda menggunakan frasa pemulihan yang benar di masa mendatang. Sidik jari ini tidak mengungkapkan informasi apapun mengenai kunci pribadi Anda, sehingga Anda dapat menyimpannya dengan aman pada media digital. Pastikan Anda menyimpan salinan yang dapat diakses dan tidak pernah kehilangannya.
-
+Setelah verifikasi selesai, SeedSigner akan menampilkan fingerprint dari master key wallet kamu. Fingerprint ini mengidentifikasi wallet kamu dan memastikan kamu memakai seed yang benar di masa depan. Fingerprint ini tidak mengungkap apa pun tentang private key, jadi aman disimpan secara digital. Pastikan kamu menyimpan salinannya dan jangan sampai hilang.
 
 
 ![Image](assets/fr/037.webp)
 
 
 
-Pada tahap ini Anda juga dapat menambahkan **passphrase BIP39** untuk memperkuat keamanan wallet Anda. Bergantung pada strategi pencadangan Anda, opsi ini mungkin bermanfaat, tetapi juga memiliki risiko: jika Anda kehilangan passphrase, akses ke bitcoin Anda akan hilang secara permanen.
-
-
+Pada tahap ini kamu juga bisa menambahkan **passphrase BIP39** untuk memperkuat keamanan wallet kamu. Bergantung pada strategi pencadangan yang kamu pakai, opsi ini bisa bermanfaat, tetapi juga punya risiko: kalau kamu kehilangan passphrase, akses ke bitcoin kamu juga hilang permanen.
 
 https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
 
-Jika Anda belum terbiasa dengan konsep passphrase, saya mengundang Anda untuk membaca tutorial komprehensif tentang subjek ini:
+Kalau kamu belum familiar dengan konsep passphrase, aku sarankan membaca tutorial lengkap tentang topik ini:
 
 
 
@@ -744,12 +645,9 @@ https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 
 
-SeedSigner memungkinkan Anda mengonversi seed Anda menjadi kode QR kertas, yang disebut *SeedQR*. Metode ini menyederhanakan pemuatan ulang wallet Anda, karena menghindari pengetikan ulang setiap kata secara manual.
+SeedSigner memungkinkan kamu mengonversi seed menjadi kode QR kertas yang disebut *SeedQR*. Metode ini mempermudah pemuatan ulang wallet karena kamu tidak perlu mengetik ulang setiap kata secara manual.
 
-
-
-Untuk melakukan ini, Anda memerlukan kertas kosong atau kode QR logam yang sesuai dengan panjang frasa mnemonik Anda. Jika Anda telah membeli paket lengkap untuk SeedSigner Anda, template biasanya disertakan. Jika tidak, Anda dapat mengunduh dan mencetaknya (atau mereproduksinya dengan tangan) di sini:
-
+Untuk melakukannya, kamu butuh kertas kosong atau media QR logam yang sesuai dengan panjang seedphrase kamu. Kalau kamu membeli paket lengkap SeedSigner, biasanya template sudah disertakan. Kalau tidak, kamu bisa mengunduh dan mencetaknya, atau menyalinnya dengan tangan, melalui tautan berikut:
 
 
 
@@ -760,7 +658,7 @@ Untuk melakukan ini, Anda memerlukan kertas kosong atau kode QR logam yang sesua
 
 
 
-Dari layar seed Anda, pilih `Backup Seed`.
+Dari layar seed, pilih `Backup Seed`.
 
 
 
@@ -792,7 +690,7 @@ Klik `Mulai` untuk mulai membuat *SeedQR*. SeedSigner kemudian akan menampilkan 
 
 
 
-Dengan hati-hati mereproduksi setiap titik hitam pada lembar penyimpanan Anda, lalu gunakan joystick untuk beralih ke blok berikutnya. Luangkan waktu Anda: ketidaksejajaran yang sederhana dapat membuat kode QR tidak dapat digunakan.
+Dengan hati-hati mereproduksi setiap titik hitam pada lembar penyimpanan, lalu gunakan joystick untuk beralih ke blok berikutnya. Luangkan waktu Anda: ketidaksejajaran yang sederhana dapat membuat kode QR tidak dapat digunakan.
 
 
 
@@ -801,8 +699,8 @@ Beberapa tips:
 
 
 
-- Mulailah dengan pensil agar Anda bisa memperbaiki kesalahan, kemudian kembali menggunakan pena hitam yang halus setelah Anda selesai;
-- Satu titik yang terpusat dengan baik di tengah-tengah kotak, itulah yang Anda perlukan, tidak perlu mengisinya secara penuh.
+- Mulailah dengan pensil agar kamu bisa memperbaiki kesalahan, kemudian kembali menggunakan pena hitam yang halus setelah Anda selesai;
+- Satu titik yang terpusat dengan baik di tengah-tengah kotak, itulah yang kamu perlukan, tidak perlu mengisinya secara penuh.
 
 
 
@@ -810,7 +708,7 @@ Beberapa tips:
 
 
 
-Kemudian klik `Konfirmasi SeedQR`, dan pindai kode QR Anda untuk memeriksa apakah kode tersebut berfungsi dengan benar.
+Kemudian klik `Konfirmasi SeedQR`, dan pindai kode QR kamu untuk memeriksa apakah kode tersebut berfungsi dengan benar.
 
 
 
@@ -818,7 +716,7 @@ Kemudian klik `Konfirmasi SeedQR`, dan pindai kode QR Anda untuk memeriksa apaka
 
 
 
-Jika pesan `Sukses` ditampilkan, *SeedQR* Anda valid: Anda dapat melanjutkan ke langkah berikutnya.
+Jika pesan `Sukses` ditampilkan, *SeedQR* kamu valid: Anda dapat melanjutkan ke langkah berikutnya.
 
 
 
@@ -826,35 +724,24 @@ Jika pesan `Sukses` ditampilkan, *SeedQR* Anda valid: Anda dapat melanjutkan ke 
 
 
 
-**Simpanlah lembar ini seketat frasa pemulihan Anda. Siapapun yang memiliki kode QR ini dapat merekonstruksi kunci pribadi Anda dan mencuri bitcoin Anda.**
+**Simpan lembar ini sama ketatnya seperti kamu menyimpan seedphrase. Siapa pun yang punya kode QR ini bisa merekonstruksi private key kamu dan mencuri bitcoin kamu.**
 
-
-
-Selamat, portofolio Bitcoin Anda sekarang sudah aktif dan berjalan! Sekarang kita akan mengimpor komponen publiknya ke **Sparrow Wallet** untuk mengelolanya dengan mudah.
-
-
+Selamat, wallet Bitcoin kamu sekarang sudah aktif! Sekarang kita impor komponen publiknya ke **Sparrow Wallet** supaya lebih mudah dikelola.
 
 ## 6. Impor wallet ke Sparrow
 
+Setelah SeedSigner kamu siap dan seed sudah dibuat serta disimpan dengan benar, langkah berikutnya adalah menghubungkan wallet ini ke software manajemen seperti Sparrow Wallet. Seed kamu akan tetap offline, karena yang dikirim ke Sparrow hanya bagian publiknya saja. Ini memungkinkan software menampilkan alamat, transaksi, dan membuat transaksi baru tanpa bisa mengakses dana secara langsung. Untuk membelanjakan bitcoin, SeedSigner tetap harus menandatangani transaksi yang sudah disiapkan oleh Sparrow.
 
+### 6.1 Mempersiapkan penandatangan seed
 
-Setelah SeedSigner Anda disiapkan dan seed Anda dibuat dan disimpan dengan benar, langkah selanjutnya adalah menautkan portofolio ini ke perangkat lunak manajemen seperti Sparrow Wallet. seed Anda akan selalu offline, karena hanya bagian publik dari portofolio Anda yang akan dikirimkan ke Sparrow. Hal ini akan memungkinkan perangkat lunak untuk menampilkan alamat, transaksi, dan membuat transaksi baru, tanpa perlu membelanjakan bitcoin Anda. Untuk membelanjakan bitcoin Anda, SeedSigner Anda harus selalu menandatangani transaksi yang disiapkan oleh Sparrow.
-
-
-
-### 6.1 Mempersiapkan Penandatangan Benih
-
-
-
-Masukkan microSD yang berisi sistem operasi, nyalakan SeedSigner Anda, lalu muat seed yang baru saja Anda buat dari kode QR cadangan. Pada layar Utama, pilih `Pindai`, lalu pindai SeedQR Anda dengan SeedSigner.
-
+Masukkan microSD yang berisi sistem operasi, nyalakan SeedSigner, lalu muat seed yang sudah kamu buat dari kode QR cadangan. Di layar utama, pilih `Scan`, lalu pindai SeedQR kamu dengan kamera SeedSigner.
 
 
 ![Image](assets/fr/046.webp)
 
 
 
-Periksa apakah sidik jari pada kunci utama Anda cocok dengan sidik jari pada wallet Anda. Jika Anda menggunakan passphrase, masukkan sidik jari pada tahap ini.
+Periksa apakah sidik jari pada kunci utama kamu cocok dengan sidik jari pada wallet. Jika kamu menggunakan passphrase, masukkan sidik jari pada tahap ini.
 
 
 
@@ -862,7 +749,7 @@ Periksa apakah sidik jari pada kunci utama Anda cocok dengan sidik jari pada wal
 
 
 
-Ini akan membawa Anda ke menu untuk portofolio Anda, dalam kasus saya, bernama `d4149b27`. Jika Anda kembali ke layar beranda, pilih `Seeds`, lalu pilih cetakan yang sesuai dengan portofolio Anda. Kemudian klik `Export Xpub`.
+Ini akan membawa kamu ke menu untuk portofolio, dalam kasusku, bernama `d4149b27`. Jika kamu kembali ke layar beranda, pilih `Seeds`, lalu pilih cetakan yang sesuai dengan portofolio kamu. Kemudian klik `Export Xpub`.
 
 
 
@@ -878,7 +765,7 @@ Pilih jenis portofolio. Dalam kasus kami, ini adalah portofolio tunggal: pilih `
 
 
 
-Berikutnya adalah pilihan standar skrip. Yang terbaru dan paling ekonomis dari segi biaya transaksi adalah `Taproot`. Oleh karena itu, saya menyarankan Anda untuk memilih standar ini.
+Berikutnya adalah pilihan standar skrip. Yang terbaru dan paling ekonomis dari segi biaya transaksi adalah `Taproot`. Oleh karena itu, aku menyarankanmu untuk memilih standar ini.
 
 
 
@@ -886,45 +773,32 @@ Berikutnya adalah pilihan standar skrip. Yang terbaru dan paling ekonomis dari s
 
 
 
-Sebuah pesan peringatan akan muncul. Ini adalah hal yang normal: kunci publik yang diperluas (`xpub`) ini memungkinkan Anda untuk melihat semua alamat yang berasal dari seed Anda (pada akun pertama). Kunci ini tidak mengizinkan Anda untuk membelanjakan dana Anda, tetapi kunci ini mengungkapkan struktur portofolio Anda. Jika bocor, maka akan menjadi masalah bagi privasi Anda, tetapi tidak bagi keamanan bitcoin Anda: kunci ini memungkinkan Anda untuk melihatnya, tetapi tidak untuk membelanjakannya.
+Sebuah pesan peringatan akan muncul. Ini normal: extended public key (`xpub`) ini memungkinkan kamu melihat semua alamat yang diturunkan dari seed kamu (di akun pertama). Key ini tidak memberi izin untuk membelanjakan dana, tetapi mengungkap struktur wallet kamu. Kalau bocor, dampaknya ke privasi, bukan ke keamanan dana: orang bisa melihat aktivitas kamu, tapi tidak bisa membelanjakan bitcoin kamu.
 
+Klik `I Understand`, lalu `Export Xpub` jika kamu sudah yakin dengan informasi yang ditampilkan.
 
-
-Klik `Saya Mengerti`, lalu `Ekspor Xpub` jika Anda puas dengan informasi yang ditampilkan.
-
-
-
-SeedSigner kemudian menghasilkan xpub Anda dalam bentuk kode QR dinamis yang berisi semua data yang Anda perlukan untuk mengelola portofolio Anda di Sparrow Wallet.
-
+SeedSigner kemudian akan menghasilkan xpub dalam bentuk kode QR dinamis yang berisi semua data yang diperlukan untuk mengelola wallet kamu di Sparrow Wallet.
 
 
 ![Image](assets/fr/051.webp)
 
 
 
-Anda dapat menggunakan joystick untuk menyesuaikan kecerahan layar agar pemindaian kode QR lebih mudah.
+Kamu bisa menggunakan joystick untuk mengatur kecerahan layar supaya kode QR lebih mudah dipindai.
 
+### 6.2 Mengimpor wallet baru ke Sparrow Wallet
 
-
-### 6.2 Mengimpor portofolio baru ke dalam Sparrow Wallet
-
-
-
-Pastikan Anda sudah menginstal perangkat lunak Sparrow Wallet di komputer Anda. Jika Anda tidak tahu cara mengunduh, memeriksa, dan menginstalnya dengan benar, lihat tutorial lengkap kami tentang masalah ini:
-
-
+Pastikan kamu sudah menginstal Sparrow Wallet di komputer kamu. Kalau belum tahu cara mengunduh, memverifikasi, dan menginstalnya dengan benar, kamu bisa lihat tutorial lengkap berikut:
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-Pada komputer Anda, buka Sparrow Wallet, kemudian pada bilah menu, klik `File → Import Wallet`.
-
-
+Di komputer, buka Sparrow Wallet lalu pada menu bar klik `File → Import Wallet`.
 
 ![Image](assets/fr/052.webp)
 
 
 
-Gulir ke bawah ke `SeedSigner`, lalu pilih `Scan...`. Webcam Anda akan terbuka: pindai kode QR dinamis yang ditampilkan pada layar SeedSigner Anda.
+Gulir ke bawah ke `SeedSigner`, lalu pilih `Scan...`. Webcam kamu akan terbuka: pindai kode QR dinamis yang ditampilkan pada layar SeedSigner Anda.
 
 
 
@@ -932,19 +806,18 @@ Gulir ke bawah ke `SeedSigner`, lalu pilih `Scan...`. Webcam Anda akan terbuka: 
 
 
 
-Tetapkan nama untuk portofolio Anda, lalu klik `Buat Wallet`. Sparrow kemudian akan meminta Anda untuk mengatur kata sandi untuk mengunci akses lokal ke wallet ini. Pilih kata sandi yang kuat: kata sandi ini akan melindungi akses ke data portofolio Anda di Sparrow (kunci publik, alamat, label, dan riwayat transaksi). Kata sandi ini tidak diperlukan untuk memulihkan portofolio di kemudian hari: hanya frasa mnemonik Anda (dan mungkin passphrase Anda) yang diperlukan untuk tujuan ini.
+Beri nama wallet kamu, lalu klik `Create Wallet`. Sparrow kemudian akan meminta kamu membuat password untuk mengunci akses lokal ke wallet ini.
 
+Pilih password yang kuat, karena password ini melindungi akses ke data wallet kamu di Sparrow, seperti public key, alamat, label, dan riwayat transaksi. Password ini tidak diperlukan untuk memulihkan wallet di kemudian hari: yang kamu butuhkan hanyalah seedphrase kamu dan, kalau ada, passphrase kamu.
 
-
-Saya sarankan Anda menyimpan kata sandi ini dalam pengelola kata sandi untuk menghindari kehilangannya.
-
+Aku sarankan kamu menyimpan password ini di password manager supaya tidak hilang.
 
 
 ![Image](assets/fr/054.webp)
 
 
 
-Keystore Anda sekarang telah berhasil diimpor.
+Sekarang keystore kamu telah berhasil diimpor.
 
 
 
@@ -952,19 +825,16 @@ Keystore Anda sekarang telah berhasil diimpor.
 
 
 
-Kemudian periksa apakah `sidik jari master` yang ditampilkan di Sparrow cocok dengan yang sebelumnya dicatat di SeedSigner Anda.
+Lalu periksa apakah `master fingerprint` yang ditampilkan di Sparrow cocok dengan yang sudah kamu catat sebelumnya di SeedSigner.
 
-
-
-SeedSigner dan Sparrow Wallet Anda sekarang terhubung dengan aman. Sparrow bertindak sebagai antarmuka manajemen yang lengkap, sementara SeedSigner tetap menjadi satu-satunya perangkat yang mampu menandatangani transaksi Anda. Anda sekarang siap untuk menerima dan mengirim bitcoin dalam konfigurasi yang benar-benar tanpa celah.
-
+Kalau sudah cocok, berarti SeedSigner dan Sparrow Wallet kamu sudah terhubung dengan aman. Sparrow berfungsi sebagai antarmuka untuk mengelola wallet, sementara SeedSigner tetap menjadi satu-satunya perangkat yang bisa menandatangani transaksi. Sekarang kamu sudah siap menerima dan mengirim bitcoin dengan konfigurasi yang benar-benar tetap offline.
 
 
 ## 7. Menerima dan mengirim bitcoin
 
 
 
-SeedSigner dan Sparrow Wallet Anda sekarang telah dikonfigurasikan untuk bekerja bersama. Pada bagian terakhir ini, kita akan melihat bagaimana cara menerima dan mengirim bitcoin menggunakan konfigurasi ini.
+SeedSigner dan Sparrow Wallet kamu sekarang telah dikonfigurasikan untuk bekerja bersama. Pada bagian terakhir ini, kita akan melihat bagaimana cara menerima dan mengirim bitcoin menggunakan konfigurasi ini.
 
 
 
@@ -976,7 +846,7 @@ SeedSigner dan Sparrow Wallet Anda sekarang telah dikonfigurasikan untuk bekerja
 
 
 
-Pada komputer Anda, buka Sparrow Wallet dan buka kunci SeedSigner wallet menggunakan kata sandi Anda. Pastikan perangkat lunak terhubung ke server (lekukan di kanan bawah). Pada bilah sisi, klik pada `Terima`.
+Pada komputer kamu, buka Sparrow Wallet dan buka kunci SeedSigner wallet menggunakan kata sandi. Pastikan perangkat lunak terhubung ke server (lekukan di kanan bawah). Pada bilah sisi, klik pada `Terima`.
 
 
 
@@ -984,18 +854,13 @@ Pada komputer Anda, buka Sparrow Wallet dan buka kunci SeedSigner wallet menggun
 
 
 
-Alamat Bitcoin baru ditampilkan. Anda akan melihat :
+Alamat Bitcoin baru sekarang ditampilkan. Kamu akan melihat:
 
-
-
-
-- Alamat teks (dimulai dengan `bc1p... ` jika Anda menggunakan P2TR seperti yang saya gunakan),
+- Alamat dalam bentuk teks (biasanya dimulai dengan `bc1p...` kalau kamu pakai P2TR seperti yang aku contohkan),
 - Kode QR yang sesuai,
-- Kolom `Label` untuk melacak transaksi Anda.
+- Kolom `Label` untuk melacak transaksi kamu.
 
-
-
-Saya sangat menyarankan agar Anda menambahkan label pada setiap tanda terima bitcoin pada wallet Anda. Hal ini akan memudahkan Anda untuk mengidentifikasi asal usul setiap UTXO dan meningkatkan manajemen privasi Anda. Untuk mempelajari lebih dalam tentang topik penting ini, Anda bisa melihat pelatihan khusus di Plan ₿ Academy:
+Aku sangat menyarankan kamu menambahkan label pada setiap penerimaan bitcoin di wallet kamu. Ini memudahkan kamu mengidentifikasi asal setiap UTXO dan membantu menjaga privasi dengan lebih baik. Untuk belajar lebih dalam soal topik penting ini, kamu bisa lihat pelatihan khusus di Plan ₿ Academy:
 
 
 
@@ -1015,7 +880,7 @@ Label : Sale of the Raspberry Pi Zero
 
 
 
-Alamat Anda sekarang dikaitkan dengan label ini di semua bagian Sparrow.
+Alamat kamu sekarang dikaitkan dengan label ini di semua bagian Sparrow.
 
 
 
@@ -1026,10 +891,9 @@ Alamat Anda sekarang dikaitkan dengan label ini di semua bagian Sparrow.
 #### 7.1.2 Verifikasi Address pada SeedSigner
 
 
+Sebelum kamu membagikan alamat penerima, pastikan dulu bahwa alamat itu memang berasal dari seed kamu. Langkah ini memastikan SeedSigner tetap bisa menandatangani transaksi yang terkait dengan alamat tersebut. Ini juga melindungi kamu dari potensi serangan ketika Sparrow menampilkan alamat palsu.
 
-Sebelum membagikan alamat penerima Anda, sangat penting untuk memeriksa bahwa alamat tersebut adalah milik seed Anda. Langkah ini memastikan bahwa SeedSigner Anda akan dapat menandatangani transaksi yang terkait dengan alamat ini. Langkah ini juga melindungi dari kemungkinan serangan dimana Sparrow menampilkan alamat palsu. Ingatlah bahwa Sparrow berjalan pada lingkungan yang tidak aman (komputer Anda), yang memiliki permukaan serangan yang jauh lebih besar dibandingkan dengan SeedSigner Anda, yang benar-benar terisolasi. Oleh karena itu, jangan pernah percaya begitu saja dengan alamat penerima yang ditampilkan di Sparrow sampai Anda memverifikasinya dengan perangkat keras wallet Anda.
-
-
+Ingat, Sparrow berjalan di komputer yang bukan lingkungan aman dan punya permukaan serangan lebih besar dibandingkan SeedSigner yang benar-benar terisolasi. Jadi jangan langsung percaya alamat yang muncul di Sparrow sebelum kamu memverifikasinya lewat hardware wallet kamu sendiri.
 
 Pada Sparrow, klik pada kode QR alamat untuk memperbesarnya: kode tersebut akan ditampilkan dalam layar penuh.
 
@@ -1039,7 +903,7 @@ Pada Sparrow, klik pada kode QR alamat untuk memperbesarnya: kode tersebut akan 
 
 
 
-Pada SeedSigner Anda, dari menu utama, pilih `Pindai`. Pindai kode QR yang ditampilkan di layar komputer Anda, lalu pilih seed yang sesuai dengan wallet Anda (dalam kasus saya, sidik jari `d4149b27`).
+Pada SeedSigner kamu, dari menu utama, pilih `Pindai`. Pindai kode QR yang ditampilkan di layar komputer, lalu pilih seed yang sesuai dengan wallet kamu (dalam kasus saya, sidik jari `d4149b27`).
 
 
 
@@ -1047,7 +911,7 @@ Pada SeedSigner Anda, dari menu utama, pilih `Pindai`. Pindai kode QR yang ditam
 
 
 
-Jika alamat yang dipindai cocok dengan alamat yang berasal dari seed Anda, layar SeedSigner akan menampilkan pesan: `Address Terverifikasi`.
+Jika alamat yang dipindai cocok dengan alamat yang berasal dari seed kamu, layar SeedSigner akan menampilkan pesan: `Address Terverifikasi`.
 
 
 
@@ -1055,7 +919,7 @@ Jika alamat yang dipindai cocok dengan alamat yang berasal dari seed Anda, layar
 
 
 
-Hal ini mengonfirmasi bahwa alamat tersebut adalah milik wallet Anda dan Anda bisa menerima bitcoin darinya.
+Hal ini mengonfirmasi bahwa alamat tersebut adalah milik wallet dan kamu bisa menerima bitcoin darinya.
 
 
 
@@ -1063,7 +927,7 @@ Hal ini mengonfirmasi bahwa alamat tersebut adalah milik wallet Anda dan Anda bi
 
 
 
-Sekarang Anda dapat menyampaikan alamat ini (dalam bentuk teks atau kode QR) kepada orang atau departemen yang perlu mengirimi Anda satss. Setelah transaksi disiarkan di jaringan, transaksi tersebut akan muncul di tab `Transactions` pada Sparrow Wallet.
+Sekarang kamu dapat menyampaikan alamat ini (dalam bentuk teks atau kode QR) kepada orang atau departemen yang perlu mengirimi kamu satss. Setelah transaksi disiarkan di jaringan, transaksi tersebut akan muncul di tab `Transactions` pada Sparrow Wallet.
 
 
 
@@ -1094,7 +958,7 @@ Semua pertukaran antara kedua perangkat dilakukan secara eksklusif menggunakan k
 
 
 
-Pada Sparrow Wallet, Anda dapat mengklik tab `Send` pada bilah sisi kiri. Namun demikian, saya lebih suka menggunakan tab `UTXOs`, yang memungkinkan Anda mempraktikkan "*Coin Control*". Metode ini memberi Anda kendali yang tepat atas UTXO yang digunakan, sehingga Anda bisa mengendalikan informasi yang Anda ungkapkan selama transaksi.
+Pada Sparrow Wallet, kamu dapat mengklik tab `Send` pada bilah sisi kiri. Namun demikian, saya lebih suka menggunakan tab `UTXOs`, yang memungkinkan kamu mempraktikkan "*Coin Control*". Metode ini memberi kamu kendali yang tepat atas UTXO yang digunakan, sehingga kamu bisa mengendalikan informasi yang kamu ungkapkan selama transaksi.
 
 
 
@@ -1146,15 +1010,14 @@ Transaksi sekarang sudah siap, tetapi belum ditandatangani. Untuk menampilkan [P
 
 
 
-Nyalakan SeedSigner Anda dan pindai SeedQR Anda untuk mengakses portofolio Anda, seperti biasa. Dari layar beranda, pilih `Pindai`, lalu pindai kode QR yang ditampilkan pada Sparrow.
-
+Nyalakan SeedSigner kamu dan pindai SeedQR untuk membuka wallet kamu, seperti biasa. Dari layar utama, pilih `Scan`, lalu pindai kode QR yang ditampilkan di Sparrow.
 
 
 ![Image](assets/fr/066.webp)
 
 
 
-Kemudian pilih seed yang sesuai dengan portofolio Anda.
+Kemudian pilih seed yang sesuai dengan portofolio kamu.
 
 
 
@@ -1221,7 +1084,7 @@ Tunjukkan kode QR yang ditampilkan oleh SeedSigner Anda (kode dari transaksi yan
 
 
 
-Transaksi Anda sekarang telah dikirim ke jaringan Bitcoin. Anda dapat mengikuti perkembangannya di tab `Transaksi` pada Sparrow Wallet.
+Transaksi kamu sekarang telah dikirim ke jaringan Bitcoin. Kamu dapat mengikuti perkembangannya di tab `Transaksi` pada Sparrow Wallet.
 
 
 
@@ -1229,13 +1092,14 @@ Transaksi Anda sekarang telah dikirim ke jaringan Bitcoin. Anda dapat mengikuti 
 
 
 
-Anda sekarang telah menguasai dasar-dasar penggunaan SeedSigner. Untuk memperdalam pengetahuan Anda dan menjelajahi penggunaan yang lebih lanjut, saya mengundang Anda untuk membaca tutorial berikut ini:
+Sekarang kamu telah menguasai dasar-dasar penggunaan SeedSigner. Untuk memperdalam pengetahuan kamu dan menjelajahi penggunaan yang lebih lanjut, aku mengajakmu untuk membaca tutorial berikut ini:
 
 
 
 https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
 
 **[Anda juga dapat mendukung pengembangan proyek sumber terbuka SeedSigner dengan memberikan donasi dalam bentuk bitcoin!](https://seedsigner.com/donate/)**
+
 
 
 

@@ -6,4 +6,4 @@ wrong_answers:
   - Nhận bằng một khóa công khai (P2PK) và nhận bằng một kịch bản (P2SH)
 explanation: |
   Đây là hai loại được sử dụng kể từ khi Bitcoin bắt đầu. Loại P2MS được chấp nhận là chuẩn vào tháng 3 năm 2012. Loại P2SH được thêm vào giao thức vào tháng 4 năm 2012.
-reviewed: false
+reviewed: true

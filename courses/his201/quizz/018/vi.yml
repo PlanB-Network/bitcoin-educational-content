@@ -6,3 +6,4 @@ wrong_answers:
   - Người dùng giữ các ghi chú số của các mệnh giá cụ thể thay vì tài khoản
 explanation: |
   Nó sử dụng bằng chứng công việc giống như b-money và bit gold. Không có sự bảo đảm nào như trong bit gold. Giống như eCash (và sau này là Bitcoin), RPOW cho phép giữ các ghi chú số cá nhân, thay vì một tài khoản, và trong phạm vi này, nó tương đối kín đáo.
+reviewed: true

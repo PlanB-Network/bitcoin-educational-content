@@ -6,4 +6,4 @@ wrong_answers:
   - 8 MB
 explanation: |
   Tham số MAX_BLOCK_SIZE đã được thêm vào vào tháng 7, sau đó giới hạn này được áp dụng trên tất cả các nút mạng bắt đầu từ ngày 12 tháng 9.
-reviewed: false
+reviewed: true

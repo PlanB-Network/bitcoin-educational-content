@@ -6,4 +6,4 @@ wrong_answers:
   - Các mã OP_NOP
 explanation: |
   Hệ thống cảnh báo hiệu quả này cho phép ông, với việc sử dụng một khóa riêng, cảnh báo các nút mạng trong trường hợp có vấn đề kỹ thuật và tạm dừng một số lệnh API.
-reviewed: false
+reviewed: true

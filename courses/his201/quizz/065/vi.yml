@@ -6,3 +6,4 @@ wrong_answers:
   - Pieter Wuille (sipa)
 explanation: |
   Bitcoin Block Explorer này cho phép người dùng xem thông tin chi tiết về các khối, địa chỉ và giao dịch thông qua một trình duyệt web.
+reviewed: true

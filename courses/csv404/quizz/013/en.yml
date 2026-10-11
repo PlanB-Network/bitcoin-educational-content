@@ -1,0 +1,9 @@
+question: "How does a Sparse Merkle Tree prove that an asset does not exist?"
+answer: "By showing that the leaf position determined by the SHA-256 digest of the asset data is empty"
+wrong_answers:
+  - "By providing a signed attestation from the asset issuer confirming the asset was never created"
+  - "By scanning every leaf in the tree and confirming the asset is absent from all positions"
+  - "By verifying that the Merkle root hash does not match any known asset commitment"
+explanation: >-
+  In a Sparse Merkle Tree, each object is stored at a leaf position determined by the SHA-256 digest of its data, creating a deterministic placement. To prove an asset does not exist, you simply demonstrate that the expected leaf position is empty (contains a null hash). This is far more efficient than scanning the entire tree, as the sparse nature means most leaves are empty by default.
+reviewed: false

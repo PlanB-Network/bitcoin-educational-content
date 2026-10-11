@@ -1,0 +1,9 @@
+question: "What happens to the proof chain if a UTXO containing Taproot assets is spent without a valid new MS-SMT commitment?"
+answer: "The proof is invalidated, breaking the whole chain of ownership back to the genesis output"
+wrong_answers:
+  - "The assets are automatically returned to the previous owner via a timelock"
+  - "The protocol creates a temporary proof placeholder until a valid commitment is submitted"
+  - "The assets remain valid but become locked until a new MS-SMT commitment is broadcast"
+explanation: >-
+  Every asset transfer generates a cryptographic proof, and these proofs form a chain tracing the asset's ownership history back to its genesis output. If a UTXO is spent without a valid new MS-SMT commitment, the proof is invalidated entirely. This means the assets are effectively destroyed, as no valid proof chain can be constructed to demonstrate ownership.
+reviewed: false

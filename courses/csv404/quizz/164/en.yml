@@ -1,0 +1,12 @@
+question: What dependencies does Stage 3 install before compiling LitD from source?
+answer: Go, Node.js, and Yarn tooling
+wrong_answers:
+  - Rust, Python, and pip
+  - Go, Docker, and Make
+  - Clang, CMake, and Protobuf
+explanation: >-
+  Stage 3 specifically installs Go, Node.js, and Yarn as the required dependencies before running
+  make install to compile LitD. Go is the primary language LitD is written in, while Node.js and
+  Yarn are needed for the web-based UI components bundled with Lightning Terminal. The compilation
+  process typically takes 5 to 10 minutes.
+reviewed: false

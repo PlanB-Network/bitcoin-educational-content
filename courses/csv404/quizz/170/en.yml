@@ -1,0 +1,12 @@
+question: What is an edge node in the context of Taproot Assets Lightning payments?
+answer: A Lightning node that maintains channels in at least two different asset types to bridge cross-asset payments
+wrong_answers:
+  - A lightweight node that only validates Taproot Asset proofs without participating in payment routing at all
+  - A node positioned at the network periphery that caches asset metadata for faster proof verification lookups
+  - A specialized mining node that produces blocks containing both Bitcoin and Taproot Asset transactions directly
+explanation: >-
+  An edge node holds channels denominated in at least two different asset types, such as a stablecoin
+  channel on one side and a Bitcoin channel on the other. This positioning allows it to absorb one
+  asset and release another, acting as a bridge that enables cross-asset payments without requiring
+  both sender and receiver to hold the same asset.
+reviewed: false

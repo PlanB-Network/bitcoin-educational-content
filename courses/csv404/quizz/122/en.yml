@@ -1,0 +1,9 @@
+question: "How is the TAP address extracted from the address generation API response?"
+answer: "From the 'encoded' field in the JSON response returned by the API"
+wrong_answers:
+  - "From the 'address' field in the HTTP response headers, not the body"
+  - "From the 'tap_address' field within the JSON response body itself"
+  - "From the 'result.destination' nested field in the JSON response"
+explanation: >-
+  After posting to the /v1/taproot-assets/addrs endpoint, the TAP address is retrieved from the encoded field of the JSON response using addr_response.json()["encoded"]. This encoded string contains all the information the sender needs to construct a valid transfer, including asset ID, amount, and destination key.
+reviewed: false

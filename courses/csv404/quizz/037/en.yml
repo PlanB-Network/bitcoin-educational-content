@@ -1,0 +1,9 @@
+question: "On which default ports does the TAPD daemon listen for gRPC and REST connections respectively?"
+answer: "gRPC on port 10029 and REST on port 8089"
+wrong_answers:
+  - "gRPC on port 8080 and REST on port 443"
+  - "gRPC on port 10009 and REST on port 8080"
+  - "gRPC on port 9735 and REST on port 10029"
+explanation: >-
+  The TAPD daemon listens on two default ports: port 10029 for gRPC connections and port 8089 for REST connections. These are separate from LND's own default ports (10009 for gRPC and 8080 for REST). The gRPC interface provides full programmatic access, while the REST interface offers a more accessible HTTP-based API.
+reviewed: false

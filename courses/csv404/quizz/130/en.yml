@@ -1,0 +1,9 @@
+question: "What is the purpose of burning assets in the Taproot Assets lifecycle?"
+answer: "To permanently destroy assets and remove them from circulation forever"
+wrong_answers:
+  - "To temporarily lock assets in a time-locked smart contract for later retrieval"
+  - "To transfer assets to the protocol treasury for redistribution to validators"
+  - "To convert Taproot Assets into native on-chain Bitcoin satoshis directly"
+explanation: >-
+  Burning is the permanent destruction of assets, removing them from circulation forever. It is the third core operation in the Taproot Assets lifecycle alongside minting and sending. Once burned and confirmed on-chain, assets cannot be recovered by any means, making it fundamentally different from locking or transferring.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What was the Taproot Assets Protocol (TAP) originally known as?"
+answer: "Taproot Asset Representation Overlay (Taro)"
+wrong_answers:
+  - "Taproot Asset Registration Overlay Network (Taro)"
+  - "Taproot Asset Routing Overlay Protocol (Taro)"
+  - "Taproot Asset Replication Overlay Layer (Taro)"
+explanation: >-
+  TAP was originally called the Taproot Asset Representation Overlay, abbreviated as Taro. The protocol was later renamed to the Taproot Assets Protocol to better reflect its expanded scope. The key word is "Representation," indicating the protocol's role in representing arbitrary assets on Bitcoin's blockchain.
+reviewed: false

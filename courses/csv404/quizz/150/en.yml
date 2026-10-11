@@ -1,0 +1,9 @@
+question: "What is the absolute rule when updating TAPD, regardless of the installation method used?"
+answer: "Never delete your data directories (.tapd, .lnd, .bitcoin) during an update"
+wrong_answers:
+  - "Always perform the update on a separate test machine before applying to production"
+  - "Always downgrade to the previous version first before installing the new release"
+  - "Always disconnect all Lightning channels before beginning the update process"
+explanation: >-
+  The chapter states this rule as absolute: never delete your data directories (.tapd, .lnd, .bitcoin) during an update. These folders contain your wallet, channel state, asset proofs, and blockchain data. The binaries are replaceable, but the data is not. Losing these directories means losing access to your assets and channels permanently.
+reviewed: false

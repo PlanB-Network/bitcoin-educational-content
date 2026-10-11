@@ -1,0 +1,9 @@
+question: "How does the TAPTweak process embed the Merkle forest into a Bitcoin transaction?"
+answer: "TAPD computes a single root hash from the Merkle forest and embeds it into a Bitcoin output via taptweak"
+wrong_answers:
+  - "TAPD serializes the entire Merkle forest into OP_RETURN data fields across multiple transaction outputs"
+  - "TAPD encodes each tree layer as a separate witness element in the transaction's segregated witness data"
+  - "TAPD stores the Merkle forest in a sidechain and writes a cross-chain reference into the Bitcoin transaction"
+explanation: >-
+  The TAPTweak process sums the entire Merkle forest up to a single root hash. That root hash is then embedded into a Bitcoin address using the taptweak formula Q = P + H(P || c) * G. The result is a standard-looking Bitcoin Taproot output that appears as an ordinary transaction to anyone examining the blockchain. Only parties possessing the asset proofs can verify that assets are embedded within it.
+reviewed: false

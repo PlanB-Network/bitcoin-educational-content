@@ -1,0 +1,9 @@
+question: "In LitD's lit.conf for a testnet Bitcoin Core backend, which ZMQ endpoints must be configured?"
+answer: "zmqpubrawblock and zmqpubrawtx, both pointing to the local Bitcoin Core instance"
+wrong_answers:
+  - "zmqpubhashblock and zmqpubhashtx, both pointing to the local Bitcoin Core instance"
+  - "zmqpubrawblock only, since LitD derives transaction data from raw blocks internally"
+  - "zmqpubrawblock, zmqpubrawtx, and zmqpubsequence for proper chain state tracking"
+explanation: >-
+  The lit.conf configuration requires two ZMQ endpoints: bitcoind.zmqpubrawblock for raw block notifications and bitcoind.zmqpubrawtx for raw transaction notifications. These are the standard ZMQ topics that LND (bundled within LitD) uses to receive real-time blockchain data from Bitcoin Core. The hash-based variants (hashblock/hashtx) are different ZMQ topics and would not provide the full data LND requires.
+reviewed: false

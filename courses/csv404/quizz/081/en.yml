@@ -1,0 +1,9 @@
+question: "What is a federation in the context of Taproot Assets universes?"
+answer: "A node's collection of trusted universe connections used to access and sync asset data from other sources"
+wrong_answers:
+  - "A governance structure where multiple network nodes vote collectively on which assets are valid within the protocol"
+  - "A group of nodes that collectively sign every asset minting transaction using a shared multisig scheme"
+  - "A centralized registry that assigns unique identifiers to all Taproot Assets across the entire network"
+explanation: >-
+  A federation refers to a node's collection of trusted universe connections. When nodes connect their universes to share data with each other, they form a federation. This allows nodes to discover, verify, and access asset proof data from multiple sources rather than relying solely on their own local universe store.
+reviewed: false

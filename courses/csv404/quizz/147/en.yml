@@ -1,0 +1,9 @@
+question: "In the API burn request, the asset_id field expects a hex-encoded value. What TLS-related parameters are also required for the API call to reach the TAPD node?"
+answer: "Authentication headers and a TLS certificate path for verification"
+wrong_answers:
+  - "A macaroon cookie and an SSH tunnel endpoint for encrypted transport"
+  - "An API key query parameter and a self-signed certificate fingerprint hash"
+  - "An OAuth bearer token and a mutual TLS client certificate for bidirectional auth"
+explanation: >-
+  The code examples show that API calls require both `headers` (for authentication, typically containing macaroon-based credentials) and a `verify=cert_path` parameter pointing to the TLS certificate. These are standard TAPD API security requirements that ensure the connection is both authenticated and encrypted, protecting sensitive operations like burns from unauthorized access.
+reviewed: false

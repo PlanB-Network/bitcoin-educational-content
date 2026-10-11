@@ -1,0 +1,9 @@
+question: "Where does LitD read its configuration file from by default?"
+answer: "~/.lit/lit.conf"
+wrong_answers:
+  - "~/.lnd/litd.conf"
+  - "/etc/litd/lit.conf"
+  - "~/.tapd/lit.conf"
+explanation: >-
+  LitD reads its configuration from ~/.lit/lit.conf. This is a dedicated directory for LitD configuration, separate from the directories used by standalone LND (~/.lnd) or TAPD (~/.tapd). The directory must be created before writing the configuration file using 'mkdir -p ~/.lit'.
+reviewed: false

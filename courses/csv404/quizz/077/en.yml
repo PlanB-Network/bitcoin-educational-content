@@ -1,0 +1,9 @@
+question: "How can automatic wallet unlocking be enabled in a production LitD deployment?"
+answer: "By storing the wallet password in a secure file and referencing it via lnd.wallet-unlock-password-file"
+wrong_answers:
+  - "By passing the wallet password as a plaintext command-line argument when starting the litd binary directly"
+  - "By setting the LND_WALLET_PASSWORD environment variable before starting the LitD process each time"
+  - "By configuring the systemd unit file with an Environment directive containing the raw wallet password"
+explanation: >-
+  For production environments, LitD supports automatic wallet unlocking by referencing a password file in the configuration. The setting lnd.wallet-unlock-password-file=/path/to/password.txt in lit.conf allows LitD to unlock the LND wallet automatically on startup without manual intervention. This avoids storing passwords in environment variables or command-line arguments, which would be visible in process listings.
+reviewed: false

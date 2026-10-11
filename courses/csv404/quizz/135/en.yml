@@ -1,0 +1,9 @@
+question: "In automated environments, how can the CLI burn confirmation prompt be handled?"
+answer: "It can be bypassed with a flag, though this should be treated with extreme caution"
+wrong_answers:
+  - "It cannot be bypassed and always requires manual input regardless of environment"
+  - "It is replaced by a mandatory email notification to the node administrator for approval"
+  - "It is automatically skipped when TAPD detects it is running inside a container runtime"
+explanation: >-
+  For automated environments, the interactive confirmation prompt can be bypassed with a flag. However, the chapter emphasizes that this should be treated with extreme caution, because removing the safety prompt increases the risk of accidentally burning assets in a pipeline or script where human review is absent.
+reviewed: false

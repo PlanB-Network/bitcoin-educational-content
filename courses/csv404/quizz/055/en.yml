@@ -1,0 +1,12 @@
+question: What are the default listening ports for TAPD's gRPC and REST interfaces?
+answer: gRPC on port 10029 and REST on port 8089
+wrong_answers:
+  - gRPC on port 10009 and REST on port 8080
+  - gRPC on port 9735 and REST on port 8443
+  - gRPC on port 50051 and REST on port 3000
+explanation: >-
+  By default, TAPD listens on port 10029 for gRPC connections and port 8089
+  for REST connections. These are distinct from LND's default ports (10009
+  for gRPC). Knowing these ports is essential for configuring firewall rules
+  and for connecting client applications to the TAPD instance.
+reviewed: false

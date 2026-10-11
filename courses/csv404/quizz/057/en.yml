@@ -1,0 +1,12 @@
+question: Which LND version is required to support the latest TAPD releases, and what is the minimum version for TAPD v0.3?
+answer: LND v0.20 or later is required for the latest TAPD releases, and LND v0.17 or greater is the minimum for TAPD v0.3
+wrong_answers:
+  - LND v0.18 or later is required for the latest TAPD releases, and LND v0.15 or greater is the minimum for TAPD v0.3
+  - LND v0.21 or later is required for the latest TAPD releases, and LND v0.19 or greater is the minimum for TAPD v0.3
+  - LND v0.17 or later is required for both the latest TAPD releases and TAPD v0.3, with no version distinction
+explanation: >-
+  The course specifies that LND version 0.17 or greater is the minimum required
+  to support TAPD v0.3. However, for running the latest TAPD releases, LND v0.20
+  or later is required. This version distinction is important because using an
+  incompatible LND version will prevent TAPD from functioning correctly.
+reviewed: false

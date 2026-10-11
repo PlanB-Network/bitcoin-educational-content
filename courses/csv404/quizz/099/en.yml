@@ -1,0 +1,9 @@
+question: "What flag can be used to skip the batch system and mint an asset immediately?"
+answer: "--skip_batch"
+wrong_answers:
+  - "--force_mint"
+  - "--skip_queue"
+  - "--finalize"
+explanation: >-
+  The '--skip_batch' flag can be appended to the 'tapcli assets mint' command to skip the batch system and finalize the minting transaction immediately. Without this flag, the minting request is placed into a pending batch that must be explicitly finalized later with 'tapcli assets mint finalize'. The skip_batch flag is a convenience for when you only want to mint a single asset.
+reviewed: false

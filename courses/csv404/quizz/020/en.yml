@@ -1,0 +1,9 @@
+question: "What three properties must the Merkle Sum Sparse Merkle Tree prove for a Taproot asset?"
+answer: "Ownership, non-inflation, and transfer"
+wrong_answers:
+  - "Confidentiality, integrity, and availability"
+  - "Authentication, authorization, and accounting"
+  - "Issuance, routing, and settlement finality"
+explanation: >-
+  The MS-SMT must prove three things: ownership (that you hold the asset), non-inflation (that you have not created more units than declared), and transfer (that when you send assets, you can prove you no longer own what you sent). These three properties are elegantly solved by the combined sparse and sum components of the tree structure.
+reviewed: false

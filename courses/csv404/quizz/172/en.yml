@@ -1,0 +1,13 @@
+question: What is the correct sequence of steps in the RFQ (Request for Quote) system?
+answer: Alice's node recognizes it needs bitcoin, sends an RFQ to the edge node, which consults its price oracle, returns a quote, and Alice's node accepts or rejects it
+wrong_answers:
+  - Alice's node broadcasts a price request to every connected peer on the network, collects all competing quotes, selects the single best available rate, and initiates the payment
+  - The edge node periodically publishes exchange rates to the entire peer-to-peer network, and Alice's node uses the most recently cached rate for the payment
+  - Alice's node queries a global on-chain price feed smart contract, calculates the conversion locally, and sends the exact stablecoin amount required
+explanation: >-
+  The RFQ system follows a specific five-step flow: Alice's node receives Bob's invoice and
+  recognizes it only holds stablecoins, sends an RFQ request to the edge node, the edge node
+  consults its price oracle for the current rate, returns a quote with the exact stablecoin amount,
+  and Alice's node evaluates and accepts or rejects it. This entire negotiation happens in
+  milliseconds before the payment is routed.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What does minting a Taproot asset accomplish?"
+answer: "It creates a brand-new asset by embedding asset data into a Bitcoin Taproot transaction"
+wrong_answers:
+  - "It transfers an existing asset from one wallet to another through a Lightning payment"
+  - "It burns Bitcoin to produce a new token on a separate sidechain anchored to Bitcoin"
+  - "It registers an asset name in a global decentralized registry without any on-chain transaction"
+explanation: >-
+  Minting is the act of creating brand-new assets on the Bitcoin blockchain. When you mint a Taproot asset, you embed asset data into a Bitcoin Taproot transaction, defining the asset's name, total supply, and whether additional units can be created. The result is a digital asset anchored to Bitcoin's proof-of-work security.
+reviewed: false

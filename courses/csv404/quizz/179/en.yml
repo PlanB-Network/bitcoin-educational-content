@@ -1,0 +1,13 @@
+question: How can the accuracy of a price oracle's conversion be independently verified after a cross-asset payment?
+answer: By checking oracle logs for the exact Bitcoin price used and cross-checking the conversion math in a spreadsheet
+wrong_answers:
+  - By querying the full on-chain transaction directly and comparing the input and output values in a block explorer
+  - By running tapcli oracle verify with the payment hash to trigger an automated audit of the full conversion
+  - By comparing the payment preimage against the oracle's signed rate commitment stored in the channel state data
+explanation: >-
+  The chapter describes two verification methods: examining oracle logs (which show the exact Bitcoin
+  price used, timestamps, and calculations) and performing spreadsheet verification (entering the
+  reported price, asset amounts, and decimal display to independently calculate the expected
+  conversion and compare with actual channel balance changes). This dual approach provides both
+  operational and mathematical confirmation of oracle accuracy.
+reviewed: false

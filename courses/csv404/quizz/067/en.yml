@@ -1,0 +1,13 @@
+question: Why does everything learned in Polar translate directly to production environments?
+answer: Because Polar uses the same software that runs on mainnet (Bitcoin Core, LND, TAPD), just in a local Docker environment
+wrong_answers:
+  - Because Polar connects directly to the Bitcoin testnet, which uses identical consensus rules and network parameters as mainnet
+  - Because Polar simulates mainnet network conditions by introducing artificial latency and realistic fee market dynamics
+  - Because Polar's custom TAPD fork is deliberately designed to behave identically to the production version in all edge cases
+explanation: >-
+  Polar runs the exact same Bitcoin Core, LND, and TAPD software that operates on
+  mainnet, packaged as Docker containers in a local environment. This means the
+  APIs, configuration, and behavior are identical to production. The only differences
+  are the local network context, on-demand block generation, and the absence of
+  real economic value.
+reviewed: false

@@ -1,0 +1,16 @@
+id: db9c545e-797b-4175-adf5-2ceb842a3516
+name: Bitcoin-Safe
+category: wallet
+links:
+  website: https://bitcoin-safe.org/
+  twitter: https://x.com/BitcoinSafeOrg
+  github: https://github.com/andreasgriffin/bitcoin-safe
+  nostr: https://njump.to/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: '2026-04-30'
+    urgency: 1
+    contributor_names:
+      - Bitcoin-Safe
+    reward: 0

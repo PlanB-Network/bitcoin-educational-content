@@ -5,5 +5,5 @@ wrong_answers:
   - "cargo run --locked --path ."
   - "cargo deploy --debug --path ."
 explanation: |
-  "Usakinishaji wa mizigo --locked --debug --path ." amri inakusanya na kusakinisha "RGB-lightning-nodi" binary.
-reviewed: false
+  "cargo install --locked --debug --path ." amri inakusanya na kusakinisha "RGB-lightning-node" binary.
+reviewed: true

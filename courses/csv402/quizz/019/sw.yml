@@ -5,5 +5,5 @@ wrong_answers:
   - Toa Interface ya umma kwa miamala yote ya Bitcoin
   - Kurahisisha utekelezaji wa tokeni za ERC-20 kwenye Bitcoin
 explanation: |
-  Mikataba mahiri ya RGB huwezesha uwekaji wa mikataba kiotomatiki huku ikiepuka utumiaji wa rejista za kati, zikitegemea Bitcoin kwa nanga za siri.
-reviewed: false
+  Mikataba mahiri ya RGB huwezesha uwekaji wa mikataba kiotomatiki huku ikiepuka utumiaji wa rejista za kati, zikitegemea Bitcoin kwa Anchor za siri.
+reviewed: true

@@ -1,9 +1,9 @@
 question: Ninawezaje kusakinisha zana ya RGB kupitia Cargo?
 answer: cargo installs RGB-contracts --all-features
 wrong_answers:
-  - cargo install RGB --features zote
-  - kusakinisha mizigo RGB-Bitcoin --yote
-  - shehena kujenga RGB-umeme --kutolewa
+  - cargo install RGB --features all
+  - kusakinisha mizigo RGB-Bitcoin ----all
+  - cargo build RGB-RGB-lightning --release
 explanation: |
   Ufungaji unafanywa kwa amri ya "cargo installs RGB-contracts --all-features", crate inayoitwa "RGB-contracts", ambayo inasakinisha chombo cha RGB.
 reviewed: false

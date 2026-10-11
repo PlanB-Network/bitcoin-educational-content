@@ -6,4 +6,4 @@ wrong_answers:
   - Tawi la DAG la historia ya State Transition
 explanation: |
   "Seal Definition" inaunganisha UTXO na sehemu maalum ya Contract State, ikihakikisha ugawaji sahihi wa haki au mali.
-reviewed: false
+reviewed: true

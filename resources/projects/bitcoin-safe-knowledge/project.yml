@@ -1,0 +1,16 @@
+id: 8d5b7189-dd24-430b-9726-d68ce3549b93
+name: Bitcoin Safe Knowledge
+category: education
+links:
+  website: https://bitcoin-safe.org/en/knowledge/
+  twitter: https://x.com/BitcoinSafeOrg
+  github: https://github.com/andreasgriffin/bitcoin-safe
+  nostr: https://njump.to/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: '2026-04-30'
+    urgency: 1
+    contributor_names:
+      - Bitcoin-Safe
+    reward: 0

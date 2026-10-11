@@ -1,0 +1,9 @@
+question: "Why do state services tend to become inefficient?"
+answer: "The state operates as a monopoly, without the competition that forces quality up and costs down."
+wrong_answers:
+  - "Because civil servants are less intelligent than private employees."
+  - "Because state services are forbidden from using technology."
+  - "Because taxes are too low to fund them properly."
+explanation: |
+  Companies must permanently keep quality high and costs low or lose customers. A monopoly faces no such pressure — hence growing bureaucracy, a rule from which no country fully escapes.
+reviewed: false

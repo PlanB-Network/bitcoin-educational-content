@@ -1,0 +1,9 @@
+question: "According to \u00c9tienne de La Bo\u00e9tie, what does all power ultimately rest on?"
+answer: "Public opinion \u2014 the majority's consent to be ruled."
+wrong_answers:
+  - "Military force."
+  - "Divine right."
+  - "Economic wealth."
+explanation: |
+  In the Discourse on Voluntary Servitude, La Boétie observed that the tyrant 'is defeated by himself if the country does not consent to servitude'. Even dictators must heed opinion; elected leaders even more so.
+reviewed: false

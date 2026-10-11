@@ -1,0 +1,9 @@
+question: "Why did representative democracy emerge in the first place?"
+answer: "Because direct democracy proved impractical at the scale of modern nations."
+wrong_answers:
+  - "Because Athens collapsed and discredited the direct model."
+  - "Because the people demanded professional politicians."
+  - "Because kings voluntarily created parliaments to represent the people."
+explanation: |
+  As Rousseau noted, the people cannot remain incessantly assembled. Representation was a workaround for size and communications — not an ideal.
+reviewed: false

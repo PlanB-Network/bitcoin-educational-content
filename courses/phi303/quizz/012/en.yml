@@ -1,0 +1,9 @@
+question: "Who established the foundations of Athenian democracy by creating ten tribes based on residence?"
+answer: "Cleisthenes."
+wrong_answers:
+  - "Pericles."
+  - "Solon."
+  - "Aristotle."
+explanation: |
+  Solon's earlier reforms reduced aristocratic power, but it was Cleisthenes who reorganized the political system around residence rather than aristocratic family ties, creating the council and the ten tribes.
+reviewed: false

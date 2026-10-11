@@ -1,0 +1,9 @@
+question: "In what sense is the voter's indifference to politics 'rational'?"
+answer: "Mastering politics costs enormous effort while one vote is a drop in an ocean of ballots \u2014 effort without visible reward."
+wrong_answers:
+  - "Indifferent voters are secretly paid to abstain."
+  - "Politics has no effect whatsoever on individual lives."
+  - "The indifferent voter follows the advice of experts, which is more efficient."
+explanation: |
+  The causality between national politics and one's own life is real but tenuous and delayed. Humans put effort where there is a clear reward — and voting offers none. This very indifference is an implicit admission that voters do not rule.
+reviewed: false

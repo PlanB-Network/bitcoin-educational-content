@@ -1,0 +1,9 @@
+question: "What does the course say about small states?"
+answer: "All else being equal, smaller countries tend to be freer, wealthier and happier than larger ones."
+wrong_answers:
+  - "Small states are always poorer because of trade barriers."
+  - "Small states cannot survive without joining empires."
+  - "Size has no relationship with freedom or wealth."
+explanation: |
+  Centuries of prosperous small German and Italian states, and today's Portugal, Nordics or Luxembourg versus the giants, support the claim — along with subsidiarity: laws as local as possible.
+reviewed: false

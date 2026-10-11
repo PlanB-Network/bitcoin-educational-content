@@ -1,0 +1,9 @@
+question: "According to the Machiavellians, which societies are ruled by a minority?"
+answer: "All organized societies, whatever their political form \u2014 including democracies."
+wrong_answers:
+  - "Only dictatorships and monarchies."
+  - "Only primitive societies without institutions."
+  - "Only societies without written constitutions."
+explanation: |
+  Burnham: the existence of a minority ruling class is a universal feature of all organized societies of which we have any record — no matter the constitutions, laws, professions or beliefs.
+reviewed: false

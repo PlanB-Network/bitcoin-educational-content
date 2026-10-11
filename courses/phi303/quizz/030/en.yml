@@ -1,0 +1,9 @@
+question: "According to Carl Schmitt, what does representative democracy require to avoid sliding into authoritarianism?"
+answer: "Openness, transparency and discussion in the public sphere."
+wrong_answers:
+  - "A strong executive unbound by parliament."
+  - "The abolition of political parties."
+  - "Compulsory voting for all citizens."
+explanation: |
+  Free speech, free press and public debate are the conditions of a successful democracy — which is precisely why their erosion is the leading symptom of democratic failure.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What is John Stuart Mill's 'tyranny of the majority'?"
+answer: "Conventional majority opinion imposing itself on minority views through social and peer pressure."
+wrong_answers:
+  - "The rule that 51% of voters can execute the other 49%."
+  - "The domination of parliament by the largest party."
+  - "The obligation to vote under penalty of fine."
+explanation: |
+  Not the Machiavellian ruling-minority split: here the 'minority' means outliers with unconventional ideas. The pressure to conform pushes politics toward centrism and narrows real choice.
+reviewed: false

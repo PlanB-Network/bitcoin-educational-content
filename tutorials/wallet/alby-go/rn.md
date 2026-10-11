@@ -16,7 +16,7 @@ description: Inyobora ya porogaramu ya Alby Go kuri telefone ngendanwa
 
 
 
-- [Ikigo ca Alby](ubutumwa bw'ikigo ca Alby/)** *(vyiza)*
+- [Ikigo ca Alby](https://albyhub.com/)** *(vyiza)*
 - Umutaka**, **Itanguriro9**, **Igitero** (biciye kuri **Ikibanza ca Alby**)
 - Ibiceri** *(ntivyageragejwe)*
 - Ivya mbere** *(ntivyageragejwe)*
@@ -33,8 +33,8 @@ Biboneka ku mbuga zikomeye:
 
 
 
-- iOS:** [Uyikure mu iduka ry'amaporogarama]
-- Android:** [Kuvana kuri Google Play](ububiko/amaporogarama/ibisobanuro?id=com.getalby.mobile)
+- iOS:** [Uyikure mu iduka ry'amaporogarama](https://apps.apple.com/us/app/alby-go/id6471335774)
+- Android:** [Kuvana kuri Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
 - Zap Ububiko**
 
 

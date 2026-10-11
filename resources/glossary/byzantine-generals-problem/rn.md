@@ -3,7 +3,7 @@ term: Ikibazo c'abasirikare bakuru ba Byzantine
 definition: Ikibazo cerekana intamyi zo guhuza muri sisitemu ikwiragijwe aho abayigize badashobora kwizigirana.
 ---
 
-Ico kibazo cabanje gutegurwa na Leslie Lamport, Robert Shostak, na Marshall Pease mu kinyamakuru kidasanzwe *ACM Transactions on Programming Langues and Systems, umuzingo wa 4, n° 3* ["Ikibazo c'abajenerali b'Abanyabizantine"](https://lamport.azurewebsites.net/pubs) yerekana ingorane zo gufata ingingo mu buryo busanzwe aho ata muntu n’umwe ashobora kwizigirwa bimwe bishitse.
+Ico kibazo cabanje gutegurwa na Leslie Lamport, Robert Shostak, na Marshall Pease mu kinyamakuru kidasanzwe *ACM Transactions on Programming Langues and Systems, umuzingo wa 4, n° 3* ["Ikibazo c'abajenerali b'Abanyabizantine"](https://lamport.azurewebsites.net/pubs/byz.pdf) yerekana ingorane zo gufata ingingo mu buryo busanzwe aho ata muntu n’umwe ashobora kwizigirwa bimwe bishitse.
 
 
 Muri iyo mvugo ngereranyo, umugwi w’abajenerali b’Abanyabizantine n’ingabo zabo barakambitse bakikuje igisagara bategura gutera canke gugota. Abajenerali baratandukanye n’abandi mu bijanye n’aho baba kandi bategerezwa guhanahana amakuru biciye ku ntumwa kugira ngo bahuze ingamba zabo. Bahitamwo gutera canke gusubira inyuma ntaco bimaze, igihe cose bose bazoba bashitse ku ciyumviro kimwe.

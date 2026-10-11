@@ -3,7 +3,7 @@ term: DER
 definition: Uburyo busanzwe bwa binary encoding bukoreshwa ku mikono ya ECDSA kuri Bitcoin.
 ---
 
-Inyuguti y'inyongera y'ikirundi *Amategeko y'Ikode Atandukanye*. Ni igice gikomeye c’amategeko yo gushiramwo amakuru ASN.1 asobanuwe mu vyo gusobanura [ITU-T X.690, 2002.](https://www.itu.int. DER ikoreshwa cane cane mu bikorwa vyihariye, nk’ubuhinga bwo gukingira amakuru, aho amakuru ategerezwa gushirwa mu buryo busanzwe, bushobora gutegekanirwa.
+Inyuguti y'inyongera y'ikirundi *Amategeko y'Ikode Atandukanye*. Ni igice gikomeye c’amategeko yo gushiramwo amakuru ASN.1 asobanuwe mu vyo gusobanura [ITU-T X.690, 2002.](https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf). DER ikoreshwa cane cane mu bikorwa vyihariye, nk’ubuhinga bwo gukingira amakuru, aho amakuru ategerezwa gushirwa mu buryo busanzwe, bushobora gutegekanirwa.
 
 
 Ku Bitcoin, imikono ya ECDSA ishirwa mu buryo bwa DER. Bigizwe n'imibare ibiri ifise amabayiti 32 (`r`,`s`). Uburyo bw'umukono bugizwe n'ibi bikurikira Elements (71 bytes):

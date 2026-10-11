@@ -65,7 +65,7 @@ Signal iraboneka ku mbuga zose. Ushobora gukuraho iyo porogaramu mu bubiko bwa p
 
 
 
-Ku bijanye na Android, birashoboka kandi [gushiramwo biciye kuri APK].
+Ku bijanye na Android, birashoboka kandi [gushiramwo biciye kuri APK](https://github.com/signalapp/Signal-Android/releases).
 
 
 

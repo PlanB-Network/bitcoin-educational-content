@@ -70,7 +70,7 @@ Aha hepfo hariho ibimenyetso vya USA nk’akarorero:
 
 
 
-Kugira ngo ubikore, genda kuri [urubuga rwabo](https://isosiyete y’amahera.com/).
+Kugira ngo ubikore, genda kuri [urubuga rwabo](https://thebitcoincompany.com/).
 
 
 

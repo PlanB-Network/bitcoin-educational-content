@@ -415,13 +415,13 @@ Ibindi bikoresho biri mu Migereka.
 
 
 
-- [BEEP](urubuga/ibikoresho/insobanuro y'amajambo/BIP)
-- [BIP-32](urubuga rw'umugambi/ibikoresho/insobanuro y'amajambo/bip0032)
-- [BIP-39](urubuga rw'umugambi/ibikoresho/insobanuro y'amajambo/bip0039)
-- [BIP-85](urubuga rw'umugambi/ibikoresho/insobanuro y'amajambo/bip0085)
+- [BEEP](https://planb.academy/resources/glossary/bip)
+- [BIP-32](https://planb.academy/resources/glossary/bip0032)
+- [BIP-39](https://planb.academy/resources/glossary/bip0039)
+- [BIP-85](https://planb.academy/resources/glossary/bip0085)
 - [Ijambo seed](https://planb.academy/resources/glossary/recovery-phrase)
-- [passphrase](urubuga rw'umugambi/ibikoresho/insobanuro y'amajambo/passphrase-bip39)
-- [Multisig](urubuga/ibikoresho/insobanuro y'amajambo/Multisig)
+- [passphrase](https://planb.academy/resources/glossary/passphrase-bip39)
+- [Multisig](https://planb.academy/resources/glossary/multisig)
 
 
 

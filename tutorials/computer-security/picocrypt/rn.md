@@ -10,7 +10,7 @@ ___
 
 
 
-*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Florian BURNEL vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](ku rubuga rwacu/uruhusha/ku-NC/4.0/). Hariho ibintu vyahinduwe ku vyo mu ntango.*
+*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Florian BURNEL vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Hariho ibintu vyahinduwe ku vyo mu ntango.*
 
 
 
@@ -74,7 +74,7 @@ Kugira ngo ukurikize umugambi wa Picocrypt, hariho Address imwe gusa:
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Inkomoko: [Github.com](imbuga ngurukanabumenyi)
+Inkomoko: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 

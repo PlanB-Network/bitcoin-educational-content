@@ -60,7 +60,7 @@ Iryo koraniro risaba ibintu bikeyi kugira ngo rikore neza. Mbere na mbere, si po
 
 
 
-Kugira ngo ubone dosiye `.apk` biciye kuri Tor, uzokenera umucukumbuzi ashobora gushika ku mbuga za `.onion`. Uburyo bworoshe ni ugushiramwo porogarama ya Tor Browser kuri telefone yawe, ushobora kuyibona muri [Google Play Store] canke uyironka [biciye kuri `.apk`] yayo.
+Kugira ngo ubone dosiye `.apk` biciye kuri Tor, uzokenera umucukumbuzi ashobora gushika ku mbuga za `.onion`. Uburyo bworoshe ni ugushiramwo porogarama ya Tor Browser kuri telefone yawe, ushobora kuyibona muri [Google Play Store](https://play.google.com/store/apps/details?id=org.torproject.torbrowser) canke uyironka [biciye kuri `.apk`](https://www.torproject.org/download/#android) yayo.
 
 
 
@@ -122,7 +122,7 @@ Subira ku [urubuga rwemewe rwa Ashigaru](https://ashigaru.rs/download/) mu gice 
 
 
 
-Naho uri kuri telefone yawe, fungura urupapuro rushasha muri Tor Browser maze uje kuri [igikoresho co kugenzura urufatiro rw’urufunguzo](https://urufatiro rw’urufunguzo.io/verify). Nishire ubutumwa uherutse gukopa mu kibanza catanzwe, hanyuma ukande kuri buto ya `Suzuma`.
+Naho uri kuri telefone yawe, fungura urupapuro rushasha muri Tor Browser maze uje kuri [igikoresho co kugenzura urufatiro rw’urufunguzo](https://keybase.io/verify). Nishire ubutumwa uherutse gukopa mu kibanza catanzwe, hanyuma ukande kuri buto ya `Suzuma`.
 
 
 
@@ -142,7 +142,7 @@ Ariko iyo habaye ikosa muri iyo ntambwe, bisigura ko iyo sinyatire idafise akama
 
 
 
-Keybase yaguhaye hash y’ikoreshwa. Ubu tuzosuzuma ko hash ya dosiye `.apk` mwakuye ihuye n'iyo yagenzuwe kuri Keybase. Kugira ngo ubikore, genda kuri [DOSIYE YA HASH KU RUBUGA](https://dosiye-ya hash.ku rubuga/).
+Keybase yaguhaye hash y’ikoreshwa. Ubu tuzosuzuma ko hash ya dosiye `.apk` mwakuye ihuye n'iyo yagenzuwe kuri Keybase. Kugira ngo ubikore, genda kuri [DOSIYE YA HASH KU RUBUGA](https://hash-file.online/).
 
 
 

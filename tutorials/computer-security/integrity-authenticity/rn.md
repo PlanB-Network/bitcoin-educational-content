@@ -70,7 +70,7 @@ Kugira ngo dutangure, tuzokenera ivyangombwa bitandukanye. Sura urubuga rwemewe 
 ![GnuPG](assets/notext/02.webp)
 
 
-Ushobora kandi kuja [mu bubiko bwa GitHub bw'umugambi](ibisohoka).
+Ushobora kandi kuja [mu bubiko bwa GitHub bw'umugambi](https://github.com/sparrowwallet/sparrow/releases).
 
 
 ![GnuPG](assets/notext/03.webp)

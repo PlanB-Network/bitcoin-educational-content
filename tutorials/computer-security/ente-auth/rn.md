@@ -123,7 +123,7 @@ Shiraho Ente Auth uhereye kuri Apple App Store mu kurondera izina rya porogarama
 ### Mudasobwa (amadirisha, macOS, Linux)
 
 
-Ente Auth itanga ibikorwa vy'ibiro vy'akavukire. Sura [ente.io/gukuraho](https://ente.io/download) canke [Igice ca GitHub]
+Ente Auth itanga ibikorwa vy'ibiro vy'akavukire. Sura [ente.io/gukuraho](https://ente.io/download) canke [Igice ca GitHub](https://github.com/ente-io/auth/releases)
 
 
 
@@ -660,7 +660,7 @@ Waba uri umuntu ku giti ciwe arondera gucungera amakonti yawe bwite, canke umugw
 
 
 
-- Urubuga rwemewe**: [ente.io/uburenganzira]
+- Urubuga rwemewe**: [ente.io/uburenganzira](https://ente.io/auth)
 - Ikigo c'imfashanyo**: [imfashanyo.ente.io/ukwemeza](https://help.ente.io/auth)
 - Urubuga rw'ubuhinga**: [ente.io/urubuga](https://ente.io/blog)
 
@@ -671,7 +671,7 @@ Waba uri umuntu ku giti ciwe arondera gucungera amakonti yawe bwite, canke umugw
 
 
 
-- GitHub**: [github.com/injira-io/uburenganzira](ubutumwa bw'ibanga/uburenganzira)
+- GitHub**: [github.com/injira-io/uburenganzira](https://github.com/ente-io/auth)
 - Igenzura ry'ububiko**: [ente.io/urubuga/igenzura ry'ububiko](https://ente.io/blog/cryptography-audit)
 
 
@@ -682,4 +682,4 @@ Waba uri umuntu ku giti ciwe arondera gucungera amakonti yawe bwite, canke umugw
 
 
 - Ugutahura**: [ugutahura.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
-- Reddit **: [Ikiganiro](Ikiganiro)
+- Reddit **: [Ikiganiro](https://reddit.com/r/enteio)

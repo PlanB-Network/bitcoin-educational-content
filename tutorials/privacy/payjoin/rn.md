@@ -14,7 +14,7 @@ description: PayJoin kuri Bitcoin ni iki?
 PayJoin ni umubumbe wihariye w’ugucuruza kwa Bitcoin kwongereza ubuzima bwite bw’ukoresha mu gihe c’ukwishura mu gukorana n’uwuronka ukwishyura.
 
 
-Mu mwaka w’2015, [LaurentMT](https://twitter.com/LaurentMT) yaravuze ubwa mbere ubwo buryo nk’“ibikorwa vy’ubuhinga bwa none” mu nyandiko ishobora gushikwako . [hano](aha] (inyandiko y'ivyo bikoresho). Ubu buhinga bwaje kwemerwa n’ishirahamwe Samourai Wallet, ryabaye umukiriya wa mbere yabushize mu ngiro n’igikoresho ca Stowaway mu 2018. Iciyumviro ca PayJoin kiraboneka kandi muri [BIP79](Https. [BIP78](Ubuhinga bwa none). Amajambo menshi arakoreshwa mu kwerekeza kuri PayJoin:
+Mu mwaka w’2015, [LaurentMT](https://twitter.com/LaurentMT) yaravuze ubwa mbere ubwo buryo nk’“ibikorwa vy’ubuhinga bwa none” mu nyandiko ishobora gushikwako . [hano](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt) (inyandiko y'ivyo bikoresho). Ubu buhinga bwaje kwemerwa n’ishirahamwe Samourai Wallet, ryabaye umukiriya wa mbere yabushize mu ngiro n’igikoresho ca Stowaway mu 2018. Iciyumviro ca PayJoin kiraboneka kandi muri [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki). [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Amajambo menshi arakoreshwa mu kwerekeza kuri PayJoin:
 
 
 - PayJoin

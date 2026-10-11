@@ -10,7 +10,7 @@ ___
 
 
 
-*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Florian BURNEL vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](ku rubuga rwacu/uruhusha/ku-NC/4.0/). Hariho amahinduka akomeye yagizwe mu nyandiko y’intango y’umwanditsi kugira ngo inyigisho igere ku gihe.*
+*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Florian BURNEL vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Hariho amahinduka akomeye yagizwe mu nyandiko y’intango y’umwanditsi kugira ngo inyigisho igere ku gihe.*
 
 
 
@@ -69,7 +69,7 @@ Verisiyo nshasha ya pfSense, igihe nandika iyi nyigisho, ni 2.8 (yasohotse muri 
 
 
 
-- [Kuvanaho pfSense](ku rubuga/)
+- [Kuvanaho pfSense](https://www.pfsense.org/download/)
 
 
 

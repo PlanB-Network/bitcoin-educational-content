@@ -20,7 +20,7 @@ Ku Plan ₿ Academy, dushira umukono ku vyemezo n’amadiplome mu buryo bw’ubu
 
 1. Umukono wa GPG kuri dosiye y'inyandiko ihuriza hamwe ivyo washitseko
 
-2. Gushirako ikidodo c’igihe c’iyo dosiye nyene yashizweko umukono biciye ku [ibimenyetso vy’igihe co gufungura](https://ibimenyetso vy’igihe co gufungura.org/).
+2. Gushirako ikidodo c’igihe c’iyo dosiye nyene yashizweko umukono biciye ku [ibimenyetso vy’igihe co gufungura](https://opentimestamps.org/).
 
 
 Igikorwa ya mbere kigufasha kwemeza uwaguhaye icemeza (canke icemeza), mu gihe igikorwa ca kabiri kigufasha kugenzura itariki catanzweko.
@@ -176,7 +176,7 @@ Niwabona ubutumwa nk'ubu bukurikira, Timestamp irafise akamaro:
 ICIBUKIRO: ubu buryo **buzosaba urudodo rwa Bitcoin rwo mu karere ruriko rurakora**
 
 
-1. Shiraho umukiriya wa OpenTimestamps avuye mu [bubiko] buzwi (https://github.com/opentimestamps/opentimestamps-client vy'igihe/umukiriya w'igihe-gufungura) ukoresheje itegeko rikurikira:
+1. Shiraho umukiriya wa OpenTimestamps avuye mu [bubiko](https://github.com/opentimestamps/opentimestamps-client) buzwi (https://github.com/opentimestamps/opentimestamps-client vy'igihe/umukiriya w'igihe-gufungura) ukoresheje itegeko rikurikira:
 
 
 ```

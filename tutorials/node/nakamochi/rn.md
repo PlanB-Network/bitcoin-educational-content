@@ -28,7 +28,7 @@ Nakamochi, umuntu wese arashobora gushinga no gukoresha node ari i muhira, bikab
 Nakamochi ni Full node ikoreshwa na Bitcoin gusa ifasha mu gukoresha imirongo ya Bitcoin n’iya Lightning. Harimwo Bitcoin na Lightning Wallet zihuriweko, zituma abakoresha bashobora gukoresha uruzitiro rwa Bitcoin rutekanye kandi rwigenga mu gihe bungukirwa n’umuvuduko wa Lightning Network n’ibiciro bito vy’ugucuruza.
 
 
-Igikoresho cawe ca Nakamochi gicungirwa biciye ku rubuga rwa telefone ngendanwa, [BitBanana (Android)](iOS) na [Zeus (iOS)](iOS), bikagufasha kugicungera neza uri aho hose. Izo porogaramu zikora nk’igenzura ry’inyuma ry’uruzitiro rwawe, zigufasha kwishura ataco ukoresheje Bitcoin canke Lightning, gucunga amafaranga, gufungura canke gufunga imihora, kugenzura amafaranga, no kugenzura ingene uruzitiro rwawe rukora, vyose bitagoranye.
+Igikoresho cawe ca Nakamochi gicungirwa biciye ku rubuga rwa telefone ngendanwa, [BitBanana (Android)](https://bitbanana.app) na [Zeus (iOS)](https://bitbanana.app), bikagufasha kugicungera neza uri aho hose. Izo porogaramu zikora nk’igenzura ry’inyuma ry’uruzitiro rwawe, zigufasha kwishura ataco ukoresheje Bitcoin canke Lightning, gucunga amafaranga, gufungura canke gufunga imihora, kugenzura amafaranga, no kugenzura ingene uruzitiro rwawe rukora, vyose bitagoranye.
 
 
 
@@ -126,7 +126,7 @@ Igihe Nakamochi yawe imaze gushirwaho kandi ihuye n’iporogarama yo gucunga nod
 _Igishushanyo ca ZEUS_
 
 
-Ushaka kumenya vyinshi: [Imirongo | Inyandiko za Zewu](inyandiko.zeusln.app/)
+Ushaka kumenya vyinshi: [Imirongo | Inyandiko za Zewu](https://docs.zeusln.app/)
 
 
 ### Gufungura imirongo kuri BitBanana (Android):
@@ -163,5 +163,5 @@ Muri rusangi, turahimiriza gusiga imihora yuguruye kugira ngo ugabanye ibiciro n
 
 
 
-- [Ivyerekeye Nakamochi]
-- [Iyandikishe kuri Nakamochi Ikete ry'amakuru] yNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDVMCRMCS0)
+- [Ivyerekeye Nakamochi](https://nakamochi.io/)
+- [Iyandikishe kuri Nakamochi Ikete ry'amakuru](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E) yNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDVMCRMCS0)

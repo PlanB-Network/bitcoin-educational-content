@@ -20,7 +20,7 @@ Niba wipfuza gusubirana amahera kuri Liana Wallet iriho, soma ikiganiro kiri aha
 ## Kuzana porogaramu ya Liana
 
 
-Liana ni porogarama yuguruye yagenewe kurema no gucunga amasakoshi ateye imbere, cane cane nk’igice c’uburyo bwo kuragwa bwikoresha canke uburyo bukomeye bwo gucungera. Uwo mugambi wateguwe kuva mu mwaka w’2022 n’ishirahamwe ryitwa Wizardsardine, ryashinzwe na Kévin Loaec na Antoine Poinsot. Ku rubuga rwemewe, Liana yerekanwa nk'"Wallet yoroshe yo kwivura, ifise ubushobozi bwo gukira no kuragwa". Iyi porogaramu ikoreshwa kuri mudasobwa -- Linux, MacOS, Windows -- kandi kode yayo (ifunguye) iraboneka [kuri GitHub].
+Liana ni porogarama yuguruye yagenewe kurema no gucunga amasakoshi ateye imbere, cane cane nk’igice c’uburyo bwo kuragwa bwikoresha canke uburyo bukomeye bwo gucungera. Uwo mugambi wateguwe kuva mu mwaka w’2022 n’ishirahamwe ryitwa Wizardsardine, ryashinzwe na Kévin Loaec na Antoine Poinsot. Ku rubuga rwemewe, Liana yerekanwa nk'"Wallet yoroshe yo kwivura, ifise ubushobozi bwo gukira no kuragwa". Iyi porogaramu ikoreshwa kuri mudasobwa -- Linux, MacOS, Windows -- kandi kode yayo (ifunguye) iraboneka [kuri GitHub](https://github.com/wizardsardine/liana).
 
 
 Liana yubakiye ku bushobozi bwa Bitcoin kugira ngo ireme Wallet iteye imbere. Cane cane, rikoresha uburyo bwo gufunga igihe (*timelocks*), butuma amahera akoreshwa rimwe gusa igihe kanaka kirangiye, kandi bufise uruhara mu kugarura amafaranga y’ama Bitcoins. Liana Wallet rero igizwe n’inzira nyinshi zo gukoresha amahera:

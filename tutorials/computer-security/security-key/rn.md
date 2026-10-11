@@ -52,7 +52,7 @@ Ushobora kandi guhitamwo urufunguzo ushingiye ku bwoko bw’ibikoresho biri kuri
 Ushobora kandi kugereranya ibikoresho bishingiye ku bintu vy’inyongera bifise nk’amazi n’ubushobozi bwo guhangana na Dust, hamwe n’imiterere n’ubunini bw’urufunguzo.
 
 
-Ku bijanye n’ibimenyetso vy’urufunguzo rw’umutekano, Yubico ni yo izwi cane n’ibikoresho vyayo [vy’urufunguzo rwa YubiKey](https://www.yubico.com/), ivyo jewe ubwanje nkoresha kandi ndabihanura. Google kandi itanga igikoresho gifise [Urufunguzo_rw’umutekano rwa Titan](https://store.google.com/fr/product/titan_security_key). Ku bijanye n’ubundi buryo bwo gukoresha ubuhinga bufunguye, [SoloKeys](bitari OTP) na [NitroKey](nitrokey) ni uburyo bushimishije, ariko sinigeze ngira amahirwe yo kubigerageza.
+Ku bijanye n’ibimenyetso vy’urufunguzo rw’umutekano, Yubico ni yo izwi cane n’ibikoresho vyayo [vy’urufunguzo rwa YubiKey](https://www.yubico.com/), ivyo jewe ubwanje nkoresha kandi ndabihanura. Google kandi itanga igikoresho gifise [Urufunguzo_rw’umutekano rwa Titan](https://store.google.com/fr/product/titan_security_key). Ku bijanye n’ubundi buryo bwo gukoresha ubuhinga bufunguye, [SoloKeys](https://solokeys.com/)(bitari OTP) na [NitroKey](https://www.nitrokey.com/products/nitrokeys) ni uburyo bushimishije, ariko sinigeze ngira amahirwe yo kubigerageza.
 
 
 ## Ni gute twokoresha urufunguruzo rw’umutekano w’umubiri?

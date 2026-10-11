@@ -521,6 +521,6 @@ Izo porotokole ubu ziriko zirategurwa kandi zizogenda zishirwa muri Bisq 2, zihe
 
 
 - Urubuga rwemewe: [bisq.urubuga](https://bisq.network)
-- Inyandiko: [Wiki ya Bisq](wiki ya Bisq)
+- Inyandiko: [Wiki ya Bisq](https://bisq.wiki)
 - Infashanyo: [Ihuriro rya Bisq](https://bisq.community)
-- Kode y'inkomoko : [GitHub](urubuga rwa bisq)
+- Kode y'inkomoko : [GitHub](https://github.com/bisq-network)

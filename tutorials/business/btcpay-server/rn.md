@@ -94,7 +94,7 @@ BTCPay Server ishobora gushirwa mu buryo butandukanye. Bivanye n’ivyo ukeneye 
 
 
 - BTCPay Server yakiriwe n’uwundi muntu**: ukoresha urubuga rukwakira iyo serivisi. Biroroshe, ariko kenshi si ubuntu.
-- Server ya BTCPay yitunganije kuri server y’igicu** (nk’akarorero biciye ku [mutanga amafaranga](https://umutanga amafaranga.com/), [abantu ba Bitcoin](http://abantu ba bitcoin.it/) canke uwundi mutanga amafaranga wese). Uwo ni wo muti usabwa ku bacuruzi benshi bashasha.
+- Server ya BTCPay yitunganije kuri server y’igicu** (nk’akarorero biciye ku [mutanga amafaranga](https://btcpayprovider.com/), [abantu ba Bitcoin](http://bitcoinpeople.it/) canke uwundi mutanga amafaranga wese). Uwo ni wo muti usabwa ku bacuruzi benshi bashasha.
 - BTCPay Server ishizwe ku bikoresho vyawe bwite (mu karere)** : kuri mudasobwa, mini-PC canke Umbrel. Ubwo buryo burarushiriza kuba ubuhinga, ariko buratanga ubwigenge bwose.
 
 

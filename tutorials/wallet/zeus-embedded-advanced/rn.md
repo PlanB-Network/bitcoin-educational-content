@@ -27,12 +27,12 @@ Abacuruzi bakoresha [BTCPay](https://btcpayserver.org/) canke [LNBits](https://g
 ### Ivyiza bihambaye vya Zewu:
 
 
-- Urubuga rwemewe rwa Zewu - [urupapuro rwa zeusln/]
-- Inyandiko za Zewu - [inyandiko.zeusln.porogarama/](inyandiko.zeusln.porogarama/)
-- [Ububiko bwa Zewu Github](Zewu LN/zewu)
-- [Itsinda ry'abafasha Zewu Telegaramu](ZeusLN)
-- [Zewu kuri NOSTR](iris.ku/zewu@zewu.app)
-- [Itangazo ry'urubuga rwa Zewu](urubuga rwa Zeusln.com)
+- Urubuga rwemewe rwa Zewu - [urupapuro rwa zeusln/](https://zeusln.app/)
+- Inyandiko za Zewu - [inyandiko.zeusln.porogarama/](https://docs.zeusln.app/)
+- [Ububiko bwa Zewu Github](https://github.com/ZeusLN/zeus)
+- [Itsinda ry'abafasha Zewu Telegaramu](https://t.me/ZeusLN)
+- [Zewu kuri NOSTR](https://iris.to/zeus@zeusln.app)
+- [Itangazo ry'urubuga rwa Zewu](https://blog.zeusln.com)
 
 
 ### Ibirango vya Zewu
@@ -71,11 +71,11 @@ Kugira ngo ushobore gukoresha Zeus no gucunga imihora y'umuravyo, amafaranga, am
 #### Indongozi:
 
 
-- [Inyandiko za LND - Lightning Network Daemon](inyandiko.umuravyo.ubuhinga/)
+- [Inyandiko za LND - Lightning Network Daemon](https://docs.lightning.engineering/)
 - [CLN - Inyandiko z'umuravyo nyamukuru](https://lightning.readthedocs.io/index.html)
 - [Igitabu c'umuravyo c'abatanguje](https://bitcoiner.guide/lightning/) – na Bitcoin Ibibazo n'Inyishu
 - [Uburongozi bw'Imirongo y'Umuravyo](https://www.lightningnode.info/) – na openoms
-- [Ikigereranyo c’ikibuga c’indege ca Lightning Network n’ikibuga c’indege]
+- [Ikigereranyo c’ikibuga c’indege ca Lightning Network n’ikibuga c’indege](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
 - [Gucungera amafaranga y'umuravyo](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
 - [Ugucungera umuravyo](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
@@ -167,7 +167,7 @@ Aha niho hari ibikorwa bibiri vya LSP:
 - _Saba imirongo imbere y'igihe_ - ​​ushobora kugura imirongo yinjira muri Olympus LSP ataco uhinduye muri app ufise amahitamwo menshi n'amahera (y'injira n'isohoka).
 
 
-LSP ifasha guhuza abakoresha na Lightning Network mu gufungura inzira zo kwishura ku nzira zabo. [Soma ibindi ku vyerekeye LSP hano](https://ubuhinga-bw’umuyaga/gushushanya-lsps-mu-butunzi-bw’umuravyo-832b45871992). ZEUS ifise LSP nshasha yinjijwe muri yo yitwa [OLYMPUS na ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581) ni uwushobora gukoresha bose. n'urudodo rushasha rwinjijwe.
+LSP ifasha guhuza abakoresha na Lightning Network mu gufungura inzira zo kwishura ku nzira zabo. [Soma ibindi ku vyerekeye LSP hano](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS ifise LSP nshasha yinjijwe muri yo yitwa [OLYMPUS na ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581) ni uwushobora gukoresha bose. n'urudodo rushasha rwinjijwe.
 
 
 Muri iki gice, ku buryo busanzwe ni LSP ya Olympus (https://flow.zeuslsp.com), ariko vuba ushobora no gushinga iyindi LSP 0conf ishigikira iyi porotokole.
@@ -215,7 +215,7 @@ Muri iki gice hariho uburyo bumwe bumwe bwo gutanga amafagitire ya generate:
 - Gushinga inyandiko isanzwe izogaragazwa muri Invoice wewe generate
 - Igihe co guhera mu masegonda, mu gihe woba ushaka igihe kinaka, kirekire canke kigufi kugira ngo Invoice yawe irishwe
 - Nimushiremwo impanuro z’inzira - mutange amakuru yo kuronka imihora itamenyekanishijwe, canke y’ibanga. Ivyo bituma amafaranga yishurwa arungikwa ku bice bitaboneka ku mugaragaro ku rubuga. Impanuro y'inzira itanga inzira y'igice hagati y'uruzitiro rw'ibanga rw'uwakira n'uruzitiro rwa bose. Ico ciyumviro c’inzira gica gishirwa muri Invoice ivugwa n’uwuyironka maze igahabwa uwuyitanga. Ndasaba ko yoshobora gukoreshwa ku buryo busanzwe, ahandi ho amahera yinjira yoshobora kunanirwa (nta nzira yabonetse).
-- AMP Invoice - Ivyishyurwa vy’inzira nyinshi vy’atome ni ubwoko bushasha bw’ivyishyurwa vy’umuravyo bishirwa mu ngiro na LND bishobora gutuma umuntu ashobora kwakira Sats ata Invoice yihariye, akoresheje [Keysend] Ni mu vy’ukuri kode y’ukwishura idahinduka. [Soma ibindi hano](https://docs.lightning.engineering/lightning-network-tools/lnd/amp).
+- AMP Invoice - Ivyishyurwa vy’inzira nyinshi vy’atome ni ubwoko bushasha bw’ivyishyurwa vy’umuravyo bishirwa mu ngiro na LND bishobora gutuma umuntu ashobora kwakira Sats ata Invoice yihariye, akoresheje [Keysend](https://docs.lightning.engineering/lightning-network-tools/lnd/send-messages-with-keysend) Ni mu vy’ukuri kode y’ukwishura idahinduka. [Soma ibindi hano](https://docs.lightning.engineering/lightning-network-tools/lnd/amp).
 - Erekana umwanya w'ishusho y'imbere - koresha iyi nzira gusa mu bihe vyihariye iyo ushaka vy'ukuri gukoresha umwanya w'ishusho y'imbere. [Soma ibindi hano](https://bitcoin.stackexchange.com/questions/90797/how-can-i-generate-preimage-for-lightning-network-invoice-should-i).
 
 
@@ -400,7 +400,7 @@ ZEUS PAY ikoresha amashusho y'imbere y'igihe, amafagitire ya HODL, n'umugambi wo
 Iyo ukoresheje “uburyo buhoraho” amahera yose wishura kuri LN Address yawe azoca aronka ubwo nyene.
 
 
-Menya ivyerekeye ingene [Zaplocker](ingene-bikora) vyishyurwa bikora n’ibindi vyerekeye [Amahera ya ZeusPay hano](amahera).
+Menya ivyerekeye ingene [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) vyishyurwa bikora n’ibindi vyerekeye [Amahera ya ZeusPay hano](https://docs.zeusln.app/lightning-address/zaplocker).
 
 
 **G - Amaderesi y'uruzitiro**
@@ -466,7 +466,7 @@ Muri iki gice ca nyuma uzosangamwo amahuza kuri paji y’inyandiko za Zeus, ibib
 Ibuka, Zewu ahanini izokoreshwa nk’i LN Wallet, kugira ngo umuntu yishure vyoroshe kandi vyihuta kuruta LN. Nkako, irimwo kandi onchain Wallet, ariko iyo ikwiye gukoreshwa gusa mu gufungura / gufunga imirongo ya LN atari mu kwishura ikawa.
 
 
-Ndagusavye usome iyindi nzira yanje yerekeye [ingene woba banki yawe bwite ukoresheje ingero 3 za Stash]
+Ndagusavye usome iyindi nzira yanje yerekeye [ingene woba banki yawe bwite ukoresheje ingero 3 za Stash](https://darth-coin.github.io/beginner/be-your-own-bank-en.html)
 
 
 Muri iki gihe uwukoresha afise uburyo 2 bwo gutangura gukoresha Zeus:
@@ -501,7 +501,7 @@ Igitabo ca Invoice wewe generate kizoba [kizingiwe](https://docs.zeusln.app/lsp/
 Kugira ngo ubone umurongo wa LN uva kuri LSP n’amahera ushaka kuronka ubwa mbere, uwo Invoice utegerezwa kwishurwa ku wundi LN Wallet maze urindire umwanya mutoyi gushika LSP iriko irafungura umurongo yerekeza kuri node yawe ya Zeus, ugakurako amafaranga y’amahera y’ivyo usigaye.
 
 
-Ico ubwirizwa gukora n’ukwishura Invoice yakugenewe muri ZEUS n’iyindi miravyo Wallet, maze umurongo wawe uzofunguka ubwo nyene. [Urasabwe kuraba amafaranga y’i Zeus LSP](amafaranga).
+Ico ubwirizwa gukora n’ukwishura Invoice yakugenewe muri ZEUS n’iyindi miravyo Wallet, maze umurongo wawe uzofunguka ubwo nyene. [Urasabwe kuraba amafaranga y’i Zeus LSP](https://docs.zeusln.app/lsp/fees).
 
 
 Ikindi ciza co kwishura umurongo ni zero fee routing. Ivyo bisigura ko iyo uriko uratanga amahera, urugendo rwa mbere rwo guca muri OLYMPUS na ZEUS nta mahera y’inzira utanga. Iyumvire, ko hops zirenga OLYMPUS za ZEUS zizoguma ziguhemba.
@@ -577,7 +577,7 @@ ICIBUTSA:
 - uhitemwo neza abo mu runganwe rwawe, vyiza uba LSPs nziza, routing nodes nziza, atari random pleb nodes zishobora gufunga imihora yawe kandi zidashobora gutanga liquidity nziza. [Aha nanditse uburongozi bwihariye](https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) ku bijanye n’ubutunzi n’akarorero k’uturongo.
 
 
-Niwafyonda ku buto “Fungurira umurongo kuri Olympus” uzoheza ukazuza ahantu hakenewe kugira ngo ufungure umurongo kuri [OLYMPUS ku . ZEUS](Mempool.ikirere/umuravyo/urudodo/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581).
+Niwafyonda ku buto “Fungurira umurongo kuri Olympus” uzoheza ukazuza ahantu hakenewe kugira ngo ufungure umurongo kuri [OLYMPUS ku . ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581).
 
 
 Udakunze imirongo ya LSP yishurwa, umurongo wawe uzosaba kwemezwa na On-Chain, ukoresheje amahera yawe yo kuri onchain (ushobora guhitamwo mu UTXO zawe mu kubona umurongo wuguruye); ntizoca yuguruka ubwo nyene. Turagusavye ubanze urabe amahera nyayo ya Mempool maze uyahindure bivanye n’ingene ushaka gufungura uwo muhora vyihuta.
@@ -601,7 +601,7 @@ Kandi vyarangiye, gusa ukande kuri buto “Open Channel”, urindire ko tx yemez
 Zirikana ko izo nzira zizoba zifise amahera yose asigaye ku ruhande RWAWE, rero ntuzogira amahera yinjira. Nk’uko nabivuze mbere, swap out canke ukoreshe Sats ugura ibintu hejuru ya LN kugira ngo “ubone umwanya mwinshi” wo kwakira.
 
 
-Iyumvire imirongo yawe ya LN nk’ikirahuri c’amazi. Usuka amazi (Sats) mu kirahuri ata co kirimwo (umuyoboro wawe) gushika uwuzuze. Ntushobora gusuka amazi menshi gushika unyweye (gukoresha / guhindura). Igihe ikirahuri kiri hafi guhera, usukemwo amazi menshi (Sats) ukoresheje igikoresho co guhindura [Soma ibindi ku bijanye n’ibikorwa vyo guhindura hanze hano]
+Iyumvire imirongo yawe ya LN nk’ikirahuri c’amazi. Usuka amazi (Sats) mu kirahuri ata co kirimwo (umuyoboro wawe) gushika uwuzuze. Ntushobora gusuka amazi menshi gushika unyweye (gukoresha / guhindura). Igihe ikirahuri kiri hafi guhera, usukemwo amazi menshi (Sats) ukoresheje igikoresho co guhindura [Soma ibindi ku bijanye n’ibikorwa vyo guhindura hanze hano](https://darth-coin.github.io/nodes/lightning-submarine-swaps-en.html)
 
 
 Hariho kandi n’izindi serivisi za LSP nk’ukugurisha imihora yinjira: LNBig canke Bitrefill. Ngira ngo hariho n’ibindi bikorwa nk’ibi ariko ntashobora kubibuka ubu.

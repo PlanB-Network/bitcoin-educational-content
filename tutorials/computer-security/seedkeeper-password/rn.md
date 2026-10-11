@@ -47,7 +47,7 @@ https://planb.academy/tutorials/wallet/backup/seedkeeper-906dfff8-1826-4837-92d1
 
 
 
-Hari uburyo bubiri nyamukuru bwo kuronka Umucungezi wawe w’Imbuto. Ushobora [kuyigura ataco uhinduye mu iduka ryemewe rya Satochip](https://satochip.io/product/seedkeeper/) canke ku mucuruzi yemerewe. Ariko kuko [applet ya Seedkeeper ari inkomoko yuguruye](https://github.com/Toporin/Seedkeeper-Applet), urafise kandi uburenganzira bwo kuyishiramwo wewe nyene ku [ikarita y’ubwenge idafise ikintu]
+Hari uburyo bubiri nyamukuru bwo kuronka Umucungezi wawe w’Imbuto. Ushobora [kuyigura ataco uhinduye mu iduka ryemewe rya Satochip](https://satochip.io/product/seedkeeper/) canke ku mucuruzi yemerewe. Ariko kuko [applet ya Seedkeeper ari inkomoko yuguruye](https://github.com/Toporin/Seedkeeper-Applet), urafise kandi uburenganzira bwo kuyishiramwo wewe nyene ku [ikarita y’ubwenge idafise ikintu](https://satochip.io/product/blank-javacard-for-diy-project/)
 
 
 
@@ -59,7 +59,7 @@ Niba wipfuza gukoresha ubuhinga bwo gucungera amakuru bwa Seedkeeper, biragaraga
 
 
 
-Intambwe ya mbere ni ugushira iyo porogarama kuri mudasobwa yawe canke kuri telefone yawe. Kuri PC, uzokenera [gukuraho verisiyo nshasha ya Satochip-Utils](ibisohoka). Ku bikoresho vy’amatelefone ngendanwa, porogarama ya Seedkeeper iraboneka ku [Iduka rya Google Play] no ku [Iduka ry’Imbuto rya Apple](Iduka ry’Imbuto ry’Imbuto).
+Intambwe ya mbere ni ugushira iyo porogarama kuri mudasobwa yawe canke kuri telefone yawe. Kuri PC, uzokenera [gukuraho verisiyo nshasha ya Satochip-Utils](https://github.com/Toporin/Satochip-Utils/releases). Ku bikoresho vy’amatelefone ngendanwa, porogarama ya Seedkeeper iraboneka ku [Iduka rya Google Play](https://play.google.com/store/apps/details?id=org.satochip.seedkeeper) no ku [Iduka ry’Imbuto rya Apple](https://apps.apple.com/be/app/seedkeeper/id6502836060).
 
 
 

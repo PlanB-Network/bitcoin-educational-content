@@ -82,7 +82,7 @@ Ku bakoresha bateye imbere bakunda terminal, Heritage itanga igikoresho c’umur
 
 
 
-Ivyanditswe vyose vya CLI biraboneka kuri [btc-iragi.com/iragi-cli](https://iragi.com/iragi-cli). Aha uzosanga amabwirizwa yo gukura, gufatanya na serivisi, gukora ama wallet (afise Ledger canke imfunguruzo zo mu karere), gucunga abazungu n’ibikorwa.
+Ivyanditswe vyose vya CLI biraboneka kuri [btc-iragi.com/iragi-cli](https://btc-heritage.com/heritage-cli). Aha uzosanga amabwirizwa yo gukura, gufatanya na serivisi, gukora ama wallet (afise Ledger canke imfunguruzo zo mu karere), gucunga abazungu n’ibikorwa.
 
 
 
@@ -808,6 +808,6 @@ Heritage iraguha uburenganzira bwo gutegura urukurikirane rwawe rwa Bitcoin mu b
 
 
 - [Urubuga rwemewe rw'iragi](https://btc-heritage.com)
-- [Inyandiko CLI](btc-iragi.com/iragi-cli)
-- [Iragi rya GitHub CLI](urubuga rwa github.com/isi7/iragi-cli)
-- [Igikoresho c'iragi rya GitHub](github.com/isi7y'ibanga/iragi-gui)
+- [Inyandiko CLI](https://btc-heritage.com/heritage-cli)
+- [Iragi rya GitHub CLI](https://github.com/crypto7world/heritage-cli)
+- [Igikoresho c'iragi rya GitHub](https://github.com/crypto7world/heritage-gui)

@@ -25,7 +25,7 @@ Inyungu nyamukuru:
 - Yibanze ku ntumbero nyamukuru - kubika neza amafaranga y'ibanga, ata bintu bidakenewe
 - Gushigikira imbuga zitandukanye: telefone ngendanwa (iOS na Android), mudasobwa, urubuga
 - RBF (Gusubiriza-N'amafaranga) gufasha - kwihutisha amafaranga afashe igihe cose
-- Ivyuma 2FA bifise [Urufunguzo rwa Yubi](bikorana-na-urufunguzo rwa Yubi/urutonde/igiceri-wallet/) / Urufunguzo rwa FIDO2
+- Ivyuma 2FA bifise [Urufunguzo rwa Yubi](https://www.yubico.com/works-with-yubikey/catalog/coin-wallet/) / Urufunguzo rwa FIDO2
 - Infashanyo ya Tor yubatswemwo – inzira y'uruja n'uruza rwose biciye ku rubuga rwa Tor kugira ngo ubone ubuzima bwite
 
 
@@ -36,23 +36,23 @@ Coin Wallet iraboneka ku mbuga zose zikomeye.
 
 
 
-- [Iduka ry'amaporogarama ya iOS](iporogarama.
+- [Iduka ry'amaporogarama ya iOS](https://apps.apple.com/app/coin-wallet-bitcoin-crypto/id980719434).
 
 
 
-- [Urukino rwa Google](urukino.google.com/ububiko/porogaramu/ibisobanuro?id=com.ikibanza c'amafaranga.porogaramu)
+- [Urukino rwa Google](https://play.google.com/store/apps/details?id=com.coinspace.app)
 
 
 
-- [Android (Ikibanza c'Ibikoresho vya Huawei)](Ikibanza c'Ibikoresho vya Huawei)
+- [Android (Ikibanza c'Ibikoresho vya Huawei)](https://appgallery.huawei.com/app/C112183767)
 
 
 
-- [Android (Ugushika Hasi)](Igiceri-wallet.ru.Gushika Hasi.com/Android)
+- [Android (Ugushika Hasi)](https://coin-wallet.en.uptodown.com/android)
 
 
 
-- [APK ya android](ibiceri.ikibanza/api/v3/gukuraho/apk-ya android/ikintu cose)
+- [APK ya android](https://coin.space/api/v3/download/android-apk/any)
 
 
 
@@ -68,7 +68,7 @@ Ishobora kandi gukoreshwa kuri mudasobwa (Windows, Linux, macOS), nk’urubuga r
 ## 2️⃣ Gukora Wallet no gushinga PIN
 
 
-wallet iremwa hakoreshejwe passphrase – urutonde rw’amajambo 12 atandukanijwe n’ibibanza, ruvuye mu [urutonde rw’amajambo 2048]
+wallet iremwa hakoreshejwe passphrase – urutonde rw’amajambo 12 atandukanijwe n’ibibanza, ruvuye mu [urutonde rw’amajambo 2048](https://github.com/paulmillr/scure-bip39/blob/main/src/wordlists/english.ts)
 
 Coin Wallet ifasha amajambo y’ibanga y’amajambo 12, 15, 18, 21 canke 24 yashizwe mu bindi bikoresho.
 
@@ -285,7 +285,7 @@ Aderesi zitari ubusa ni zo zonyene ziboneka.
 Ntukigere ubika urufunguzo rw’ibanga mu buryo bwa digitale mu nyandiko rusangi. Amaze gukubura, arashobora gukurwaho ata nkomanzi.
 
 
-Kugira ngo ubone ubuyobozi bushitse ku mfunguruzo z’ibanga n’inzira z’ugukomokako: [Uko wokorana n’imfunguruzo z’ibanga: Inyobora y’iherezo](https://coin.space/ingene-wokorana-n’imfunguruzo-z’ibanga-uburongozi-bw’iherezo/)
+Kugira ngo ubone ubuyobozi bushitse ku mfunguruzo z’ibanga n’inzira z’ugukomokako: [Uko wokorana n’imfunguruzo z’ibanga: Inyobora y’iherezo](https://coin.space/how-to-work-with-private-keys-the-ultimate-guide/)
 
 
 
@@ -341,7 +341,7 @@ Tor ihisha aderesi yawe nyayo ya IP ku bihimba vya Bitcoin, ku bindi bice, n’a
 
 Ivyo vyose bigenda (amafaranga, amafaranga, amahinduka) bica ku rubuga rwa Tor - nta n’amahuza ataco akora, nta IP ivuza.
 
-Ivyo bishirwa mu ngiro mu buryo butaziguye muri kode y’inkomoko y’iporogarama (raba [.env]
+Ivyo bishirwa mu ngiro mu buryo butaziguye muri kode y’inkomoko y’iporogarama (raba [.env](https://github.com/CoinSpace/CoinSpace/blob/master/web/.env#L31)
 
 
 Coin Wallet ifise aderesi .onion yihishije kandi, kuva v6.6.3 (Ukuboza 2024), **infashanyo ya Tor yubatswemwo ataco ihinduye muri porogarama ya telefone ngendanwa**.
@@ -353,8 +353,8 @@ Coin Wallet ifise aderesi .onion yihishije kandi, kuva v6.6.3 (Ukuboza 2024), **
 1. **Shiraho Orbot** - porogaramu yemewe y'umugambi wa Tor (ku buntu)
 
 
-   - Android → [Ikiganiro ca Google](ibisobanuro? ID=ishirahamwe.torproject.android) / [F-Droid]
-   - iPhone / iPad → [Iduka rya porogaramu](iporogaramu.
+   - Android → [Ikiganiro ca Google](https://play.google.com/store/apps/details?id=org.torproject.android) / [F-Droid](https://orbot.app/en/)
+   - iPhone / iPad → [Iduka rya porogaramu](https://apps.apple.com/us/app/orbot/id1609461599).
 
 
 2. **Gufungura Orbot → ushireko Tangira**

@@ -10,7 +10,7 @@ ___
 
 
 
-*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Florian BURNEL vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](ku rubuga rwacu/uruhusha/ku-NC/4.0/). Birashoboka ko hari ivyo bahinduye mu canditswe c’intango.*
+*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Florian BURNEL vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Birashoboka ko hari ivyo bahinduye mu canditswe c’intango.*
 
 
 
@@ -58,7 +58,7 @@ Ushobora gukuraho verisiyo nshasha ya Angry IP Scanner ku rubuga rwemewe rw’iy
 
 
 
-- [Igikoresho co gupima IP gishavuye GitHub](ibara ry'agahama/ipscan/ibisohoka/ivya nyuma)
+- [Igikoresho co gupima IP gishavuye GitHub](https://github.com/angryip/ipscan/releases/latest)
 
 
 

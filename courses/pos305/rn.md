@@ -158,7 +158,7 @@ Abaguzi bagura ikintu mw’iduka bafise Bitcoin.
 
 
 - Gushinga:
-  - Raba ibishushanyo/ibisobanuro biri mu gishushanyo - [Igishushanyo c'Ibikorwa](Igishushanyo c'Ibikorwa](Igishushanyo c'Ibikorwa] (Umusi-wa-1-Ibikorwa-Vyo-Ishure?ubwoko=ikibaho cera&node-id=0-1&t=KR31of5SULX-0-1&t=KR361ofMaJ).
+  - Raba ibishushanyo/ibisobanuro biri mu gishushanyo - [Igishushanyo c'Ibikorwa](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) c'Ibikorwa](Igishushanyo c'Ibikorwa] (Umusi-wa-1-Ibikorwa-Vyo-Ishure?ubwoko=ikibaho cera&node-id=0-1&t=KR31of5SULX-0-1&t=KR361ofMaJ).
   - Uronke abanyeshure batatu b’intahemuka kugira ngo bagire uruhara rw’Umukiriya (Alice), Umucuruzi (Bob), n’Umubanki.
 - Gukina urutonde rw'ibintu vyabaye:
   - Umukiriya- agendagenda mw’iduka kuri Internet akabona ikintu c’amadolari 25, ico ashaka, akamenyesha Umucuruzi yipfuza kugura
@@ -180,7 +180,7 @@ Abaguzi bagura ikintu mw’iduka bafise Bitcoin.
 
 
 - Gushinga:
-  - Raba ibishushanyo/ibisobanuro biri mu gicapo - [Igishushanyo c'Ibikorwa](Igishushanyo c'Ibikorwa](Igishushanyo c'Ibikorwa]
+  - Raba ibishushanyo/ibisobanuro biri mu gicapo - [Igishushanyo c'Ibikorwa](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) c'Ibikorwa](Igishushanyo c'Ibikorwa]
   - Gusubiriza Banki abanyeshure icenda bazogira uruhara rwa Mudasobwa (Bitcoin Nodes/Miners) mu rubuga rwo gusubirira Banki.
 - Imwe muri izo mudasobwa 9 irafise inyandiko yuzuye y’amateka y’ibikorwa vyose vya kera vyigeze gukorwa (gutyo ni uburinganire butagiramwo uburyarya), hamwe n’amategeko:
   - Genzura ko ubucuruzi bwashizweko umukono neza (urufunguzo rujanye n'urufunguzo)
@@ -440,9 +440,9 @@ Hashingiwe ku buhinga bwa telefone yawe ngendanwa (Android canke iOS), abakoresh
 1. Gukuraho igikoresho co kwemeza ko umuntu ari we afise ibintu bibiri.
 
 
-   - Uburenganzira bwa [Android](ibisobanuro?id=com.uburenganzira) canke [iOS](iOS]
-   - Igikoresho co kwemeza ivy'ukuri ca Microsoft kuri [Android](ibisobanuro?id=com.azure.igikoresho co kwemeza ivy'ukuri) canke [iOS]
-   - Igikoresho co kwemeza ivy'ukuri ca Google kuri [Android](ibisobanuro? id=com.google.iporogaramu.
+   - Uburenganzira bwa [Android](https://play.google.com/store/apps/details?id=com.authy.authy) canke [iOS](https://apps.apple.com/us/app/authy/id494168017)
+   - Igikoresho co kwemeza ivy'ukuri ca Microsoft kuri [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator) canke [iOS](https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
+   - Igikoresho co kwemeza ivy'ukuri ca Google kuri [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) id=com.google.iporogaramu.
 
 2. Uhejeje gukuraho no gushiramwo App y’Ivyemezo.
 
@@ -843,7 +843,7 @@ Igikoresho co gusubira gupima gishingiye kuri “Scantxoutset” ya Bitcoin core
 
 1. Ikibazo c’umupaka w’ibihengeri - Ama wallet menshi y’abandi ni ama wallet yoroshe asangira node hagati y’abakoresha benshi. Ivyuma vy’umuco n’ivy’i Full node bigabanya umubare (mu bisanzwe 20) w’amaderesi ata n’umubare bikurikirana kuri Blockchain kugira ngo ntihagire ibibazo vy’ibikorwa. Serveri ya BTCPay itanga Address nshasha kuri Invoice yose. Dufise ivyo bivugwa haruguru mu muzirikanyi, inyuma y’aho BTCPay Server isohoye amafagitire 20 akurikiranye atarishwe, Wallet yo hanze irahagarika gutora amafaranga, yiyumvira ko ata mafaranga mashasha yabaye. Wallet yawe yo hanze ntizovyerekana iyo amafagitire amaze kwishurwa ku wa 21, 22, n’ibindi. Ku rundi ruhande, imbere, BTCPay Server Wallet ikurikirana Address iyo ari yo yose itanga, hamwe n’urugero rw’agahenge rwo hejuru cane. Ntiyizigira uwundi muntu kandi irashobora kwama yerekana uburinganire bubereye.
 
-2. Umuti w’imipaka y’ikinogo - Nimba [Wallet yawe yo hanze/iriho](https://docs.btcpayserver.org/WalletSetup/#koresha-Wallet-iriho) yemera gutunganya ikinogo, igisubizo coroshe ni ukuyigwiza. Ariko rero, ama wallet menshi ntavyemera. Amasakoshi yonyene ubu ashigikira imiterere y'imipaka y'ibihengeri tuzi ni Electrum, Wasabi, na Sparrow wallet. Ikibabaje, birashoboka ko wohura n’ingorane n’izindi nkweto nyinshi. Kugira ngo ubone ubumenyi bwiza bw’abakoresha n’ubuzima bwite, niwiyumvire gukoresha Wallet yo mu mutima ya BTCPay Server aho gukoresha amasakoshi yo hanze.
+2. Umuti w’imipaka y’ikinogo - Nimba [Wallet yawe yo hanze/iriho](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-wallet) yemera gutunganya ikinogo, igisubizo coroshe ni ukuyigwiza. Ariko rero, ama wallet menshi ntavyemera. Amasakoshi yonyene ubu ashigikira imiterere y'imipaka y'ibihengeri tuzi ni Electrum, Wasabi, na Sparrow wallet. Ikibabaje, birashoboka ko wohura n’ingorane n’izindi nkweto nyinshi. Kugira ngo ubone ubumenyi bwiza bw’abakoresha n’ubuzima bwite, niwiyumvire gukoresha Wallet yo mu mutima ya BTCPay Server aho gukoresha amasakoshi yo hanze.
 
 
 #### Serveri ya BTCPay ikoresha "ivyo vyose = 1"
@@ -1007,7 +1007,7 @@ Ushobora kandi gukurikirana n'uburongozi bwa videwo ku bijanye no gufatanya Hard
 Kuvanaho Ububiko bwa Serveri ya BTCPay: https://github.com/btcpayserver/BTCPayServer.Vault/releases
 
 
-Raba neza ko ukuraho amadosiye akwiye kuri sisitemu yawe yihariye. Abakoresha Windows bakwiye gukuraho [BTCPayServerVault-2.0.5-setup.exe] [BCPayServerVault-osx-x64-2.0.5.dmg](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-osx-x64-2.0.5.dmg) bikwiye gukuraho n'ibindi. [BTCPayServerVult-Linux-2.0.5.tar.gz](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-Linux-2.0.5.tar.gz)
+Raba neza ko ukuraho amadosiye akwiye kuri sisitemu yawe yihariye. Abakoresha Windows bakwiye gukuraho [BTCPayServerVault-2.0.5-setup.exe](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-2.0.5-setup.exe) [BCPayServerVault-osx-x64-2.0.5.dmg](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-osx-x64-2.0.5.dmg) bikwiye gukuraho n'ibindi. [BTCPayServerVult-Linux-2.0.5.tar.gz](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-Linux-2.0.5.tar.gz)
 
 
 Uhejeje gushiramwo BTCPay Server Vault, tangura porogarama ukanda ku kimenyetso kiri ku biro vyawe. Igihe BTCPay Server Vault ishizweho neza kandi itanguye ku ncuro ya mbere, izosaba uruhusha rwo gukoreshwa n’Ibikoresho vyo ku Rubuga. Bizosaba kwemera uburenganzira bwo gukoresha Server ya BTCPay ukorana. Wemere ivyo bintu bisabwa. BTCPay Server Vault ubu izorondera igikoresho c'ibikoresho. Igihe igikoresho kibonetse, BTCPay Server izomenya ko Vault iriko irakora kandi ko yazanye igikoresho cawe.
@@ -2089,7 +2089,7 @@ Abarongozi ba server barashobora gufungura ibindi kugira ngo babone.
 #### LND (IRUHUKO)
 
 
-BTCPay igaragaza igikorwa ca LND’s REST kugira ngo abantu bakoreshe hanze; uzosanga amakuru y’ihuriro [hano]((https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); ama wallets ahuye n’ivyo biri [aha](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Mu bikoresho bihuye n’ivyo bikoresho harimwo Joule, Alby na ZeusLN. BTCPay Server itanga kode ya QR yo guhuza, ishobora gucapurwa no gukoreshwa muri Wallet ihuye.
+BTCPay igaragaza igikorwa ca LND’s REST kugira ngo abantu bakoreshe hanze; uzosanga amakuru y’ihuriro [hano](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); ama wallets ahuye n’ivyo biri [aha](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Mu bikoresho bihuye n’ivyo bikoresho harimwo Joule, Alby na ZeusLN. BTCPay Server itanga kode ya QR yo guhuza, ishobora gucapurwa no gukoreshwa muri Wallet ihuye.
 
 
 
@@ -2380,7 +2380,7 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin Inyandiko z'urudodo
 
 
-Uretse [kuraba ibitabo](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) vy’igikoresho cawe ca bitcoind, urashobora kandi gukoresha [bitcoin-cli] iyo ari yo yose. amabwirizwa] (umuhinguzi.Bitcoin.org/ibisobanuro/RPC/urutonde.html)
+Uretse [kuraba ibitabo](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) vy’igikoresho cawe ca bitcoind, urashobora kandi gukoresha [bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html) iyo ari yo yose. amabwirizwa] (umuhinguzi.Bitcoin.org/ibisobanuro/RPC/urutonde.html)
 
 
 [(ifungura idirisha rishasha)](https://developer.bitcoin.org/reference/rpc/index.html) kugira ngo uronke amakuru avuye ku nzira yawe ya Bitcoin. BTCPay irimwo inyandiko izogufasha kuvugana n’uruzitiro rwawe rwa Bitcoin mu buryo bworoshe.

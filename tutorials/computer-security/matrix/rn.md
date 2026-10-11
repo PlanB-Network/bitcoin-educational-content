@@ -803,4 +803,4 @@ Matrix iserukira umuti w’ubuhinga bwa none, wuguruye kandi utekanye wo guhanah
 Kugira ngo umenye vyinshi no kumenya ibintu vyose bitangwa na Matrix, ushobora kuraba inyandiko zizwi ziboneka hano :
 
 
-[inyandiko/](inyandiko/)
+[inyandiko/](https://matrix.org/docs/)

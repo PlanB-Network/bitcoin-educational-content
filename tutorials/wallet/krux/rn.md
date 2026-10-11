@@ -25,4 +25,4 @@ Muri iyi nyigisho ya videwo uzokwiga:
 Mu mpera z’iyi videwo, uzoba ufise ibikoresho vyose vyo gukoresha Krux nk’uburyo butekanye, bwo kwibungabunga.
 
 
-**Iciyumviro:** Iyi nyigisho ni umugambi gusa wo mu congereza gusa, turacariko turasaba umuntu yandika uburongozi bwagutse kuri iyo nkuru. Nimba uri uwo, turagusavye utwandikire kuri [Telegaramu] yacu (https://t.me/Ibirimwo-vy’Umugambi/325) canke kuri [GitHub](https://github.com/PlanB-Network/bitcoin-educational-content)
+**Iciyumviro:** Iyi nyigisho ni umugambi gusa wo mu congereza gusa, turacariko turasaba umuntu yandika uburongozi bwagutse kuri iyo nkuru. Nimba uri uwo, turagusavye utwandikire kuri [Telegaramu](https://t.me/PlanBNetwork_ContentBuilder/325) yacu (https://t.me/Ibirimwo-vy’Umugambi/325) canke kuri [GitHub](https://github.com/PlanB-Network/bitcoin-educational-content)

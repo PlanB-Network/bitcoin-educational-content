@@ -23,7 +23,7 @@ Uburyo bworoshe bwo gukora urutonde rw’umwigisha wawe kuri Plan ₿ Academy ni
 ### 1 - Gutunganya ibidukikije vyawe
 
 
-Utegerezwa kuba ufise Fork yawe bwite iva [ububiko bwa Plan ₿ Academy kuri GitHub]
+Utegerezwa kuba ufise Fork yawe bwite iva [ububiko bwa Plan ₿ Academy kuri GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)
 
 
 Guhuza ishami ry'ingenzi (`dev`) rya Fork yawe n'ububiko bw'inkomoko.

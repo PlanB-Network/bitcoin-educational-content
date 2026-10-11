@@ -64,9 +64,9 @@ Threema iraboneka ku mbuga zose. Ushobora gukuraho iyo porogaramu mu bubiko bwa 
 
 
 - [Ikiganiro ca Google](https://play.google.com/store/apps/details?id=ch.threema.app);
-- [F-Cold](ubutumwa butari butatu/);
-- [Ikibanza c'Ibikoresho vya Huawei](Ikibanza c'Ibikoresho vya Huawei/#/Ibikoresho/C103713829);
-- [Iduka ry'amaporogarama](https://amaporogarama.
+- [F-Cold](https://f-droid.org/en/packages/ch.threema.app.libre/);
+- [Ikibanza c'Ibikoresho vya Huawei](https://appgallery.huawei.com/#/app/C103713829);
+- [Iduka ry'amaporogarama](https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578).
 
 
 
@@ -74,7 +74,7 @@ Kuri Android, birashoboka kandi [gushiramwo biciye kuri APK](https://shop.threem
 
 
 
-Hariho kandi [amaverisiyo ya mudasobwa](MacOS, Linux na Windows). Iyi nyigisho izokwereka ingene wobihuza.
+Hariho kandi [amaverisiyo ya mudasobwa](https://threema.ch/download)(MacOS, Linux na Windows). Iyi nyigisho izokwereka ingene wobihuza.
 
 
 

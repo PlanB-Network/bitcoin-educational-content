@@ -344,7 +344,7 @@ Hanyuma ukurikize intambwe ya 3 na 4 mu gice ca macOS.
 
 
 
-Mbere na mbere ushiremwo Rust biciye kuri [rustup.rs](https/rustup.rs/), hanyuma ukoreshe PowerShell :
+Mbere na mbere ushiremwo Rust biciye kuri [rustup.rs](https://rustup.rs/), hanyuma ukoreshe PowerShell :
 
 
 
@@ -368,7 +368,7 @@ Itunganywa rimwe: kopira `.env-sample` kuri `.env` maze wuzuze amaparametere yaw
 
 
 
-**Intambwe ya 1**: Genda kuri [paji y’ibisohoka vya GitHub] maze ushireko dosiye **app-release.apk** (nk’ibilometero 65).
+**Intambwe ya 1**: Genda kuri [paji y’ibisohoka vya GitHub](https://github.com/MostroP2P/mobile/releases) maze ushireko dosiye **app-release.apk** (nk’ibilometero 65).
 
 
 
@@ -950,9 +950,9 @@ Ku ba bitcoiners bakunda kwigenga n’ibanga, Mostro ni uburyo bushoboka bukwiye
 
 
 
-- [Urubuga rwemewe rwa Mostro](urubuga rwa Mostro)
+- [Urubuga rwemewe rwa Mostro](https://mostro.network)
 - [Inyandiko z'ubuhinga](https://mostro.network/docs-english/index.html)
-- [Ishirahamwe rya Mostro](https://ishirahamwe rya Mostro)
+- [Ishirahamwe rya Mostro](https://mostro.foundation)
 
 
 
@@ -961,9 +961,9 @@ Ku ba bitcoiners bakunda kwigenga n’ibanga, Mostro ni uburyo bushoboka bukwiye
 
 
 
-- [Ububiko nyamukuru bwa GitHub](imbuga ngurukanabumenyi)
-- [Umukiriya w'urubuga](github.com/MostroP2P/urubuga-mostro)
-- [Umukiriya CLI](imbuga ngurukanabumenyi)
+- [Ububiko nyamukuru bwa GitHub](https://github.com/MostroP2P/mostro)
+- [Umukiriya w'urubuga](https://github.com/MostroP2P/app)
+- [Umukiriya CLI](https://github.com/MostroP2P/mostro-cli)
 
 
 
@@ -972,5 +972,5 @@ Ku ba bitcoiners bakunda kwigenga n’ibanga, Mostro ni uburyo bushoboka bukwiye
 
 
 
-- [Itegeko rya Nostr](urubuga rwa nostr.com)
+- [Itegeko rya Nostr](https://nostr.com)
 - [Inyigisho za Lightning Network](https://lightning.network)

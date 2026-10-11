@@ -13,7 +13,7 @@ Iyi nkuru iratohoza [**Cake Wallet**](https://cakewallet.com/): wallet y’amahe
 
 
 
-- [**Ivyishyurwa bicereje (BIP-352)**](https://bips.dev/352/) gutera imbere [amakode y’ukwishyura] ya kera (https://ivyishyurwa bicereje.xyz/docs/kugereranya-ivyifuzo/bip47/) navyo vyitwa "PayN us Iyo uwurungitse akoresheje aderesi yawe yo kwishura mu gacerere, wallet yabo ironka aderesi yihariye y’igihe kimwe ikoresheje imfunguruzo zitandukanye zizohurizwa hamwe zibe aderesi yihariye y’igihe kimwe ya Taproot. Ivyo bitabo vyerekana amafaranga adafitaniye isano, bikabuza guhuza amafaranga yinjira. Ukwishura mu gacerere bitanga inyungu zitandukanye, harimwo:
+- [**Ivyishyurwa bicereje (BIP-352)**](https://bips.dev/352/) gutera imbere [amakode y’ukwishyura](https://silentpayments.xyz/docs/comparing-proposals/bip47/) ya kera (https://ivyishyurwa bicereje.xyz/docs/kugereranya-ivyifuzo/bip47/) navyo vyitwa "PayN us Iyo uwurungitse akoresheje aderesi yawe yo kwishura mu gacerere, wallet yabo ironka aderesi yihariye y’igihe kimwe ikoresheje imfunguruzo zitandukanye zizohurizwa hamwe zibe aderesi yihariye y’igihe kimwe ya Taproot. Ivyo bitabo vyerekana amafaranga adafitaniye isano, bikabuza guhuza amafaranga yinjira. Ukwishura mu gacerere bitanga inyungu zitandukanye, harimwo:
     - Aderesi zishobora gusubirwamwo: Ntibikenewe ko ukoresha generate aderesi nshasha ku bijanye n’ugucuruza kwose, bikaba bituma umuntu ashobora gukoresha neza kandi akagira ubuzima bwiwe bwite
     - Zero igiciro co kwongerekana: Ukwishura mu gacerere ntikwongera ubunini canke igiciro c’ibikorwa.
     - Ugutahura: Abarorerezi bo hanze ntibashobora guhuza amafaranga n’aderesi y’Ukwishura mu gacerere.
@@ -148,7 +148,7 @@ Kugira ngo tuzigame wallet yacu, turashobora gukora backup mu gukurikiza ivyo du
 ![image](assets/en/08.webp)
 
 
-**Iciyumviro**: Kuva muri Nzero 2025, kwemeza ko umuntu afise urutoke ku bikoresho vya Android birakenewe kugira ngo bikore n’imiburiburi ubuhinga bwo gupima urutoke bwo mu rwego rwa 2, ku bindi bisobanuro raba [hano](https://source.android.com/docs/security/features/biometric/measure#biometric-). Ariko rero, ico kintu gishobora guhinduka muri kazoza.
+**Iciyumviro**: Kuva muri Nzero 2025, kwemeza ko umuntu afise urutoke ku bikoresho vya Android birakenewe kugira ngo bikore n’imiburiburi ubuhinga bwo gupima urutoke bwo mu rwego rwa 2, ku bindi bisobanuro raba [hano](https://source.android.com/docs/security/features/biometric/measure#biometric-classes). Ariko rero, ico kintu gishobora guhinduka muri kazoza.
 
 
 ### D - Amagenamiterere y'ubuzima bwite 🔒
@@ -227,7 +227,7 @@ Uhejeje kohereza iyo nkuru, uzobazwa nimba woshima kwongerako uwo muntu mu gitab
 ## 5️⃣ PayJoin
 
 
-Reka dusuzume ico PayJoin ari co [ku vyerekeye](inyandiko.
+Reka dusuzume ico PayJoin ari co [ku vyerekeye](https://docs.cakewallet.com/cryptos/bitcoin/#payjoin).
 
 
 _Payjoin v2 ni uburyo bwo kuzigama ubuzima bwite no kuzigama amafaranga muri Bitcoin butuma uwurungitse n’uwuronka amafaranga bakorana kugira ngo bashireho amafaranga amwe. Iryo soko rifise inyishu zivuye kuri *uwurungitse* n'uwuronka, bica ku buhinga bwo gucungera Bitcoin busanzwe kandi bikaba bituma habaho ugupima neza no kuzigama amafaranga mu bihe bimwebimwe._
@@ -290,10 +290,10 @@ https://github.com/cake-tech/cake_wallet
 https://blog.cakewallet.com/
 
 
-[https://ukwishyura mu gacerere.xyz/](https://ukwishyura mu gacerere.xyz/)
+[https://ukwishyura mu gacerere.xyz/](https://silentpayments.xyz/)
 
 
-[Ikiganiro/352/](Ikiganiro/352/)
+[Ikiganiro/352/](https://bips.dev/352/)
 
 
 https://payjoin.org/

@@ -56,7 +56,7 @@ Kanda **Gukuraho** kugira ngo ubone verisiyo ibereye mudasobwa yawe (Windows / M
 
 
 
-Iyindi nzira ni ukuja kuri [GitHub] y’umugambi (https://github.com/Ibanga ry’Igikoko/Igikoko c’Igikoko/Ibisohoka) kugira ngo uwukureho.
+Iyindi nzira ni ukuja kuri [GitHub](https://github.com/GingerPrivacy/GingerWallet/releases) y’umugambi (https://github.com/Ibanga ry’Igikoko/Igikoko c’Igikoko/Ibisohoka) kugira ngo uwukureho.
 
 
 

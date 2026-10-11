@@ -684,7 +684,7 @@ Kugira ngo umenye vyinshi :
 
 - Urubuga rwemewe rwa RTL: https://www.ridethelightning.info/ y'umuravyo/
 - GitHub RTL: gutwara-umuravyo/RTL
-- Reddit r/umuravyo**: [r/umuravyo](https://www.reddit.com/r/umuravyo) - Ibiganiro vy'ubuhinga, amatangazo y'umugambi, inyishu n'ibikoresho vy'inyigisho
+- Reddit r/umuravyo**: [r/umuravyo](https://www.reddit.com/r/lightningnetwork) - Ibiganiro vy'ubuhinga, amatangazo y'umugambi, inyishu n'ibikoresho vy'inyigisho
 - Ihuriro ry'abanyagihugu ry'Umutaka**: [abanyagihugu.
 - Lightning Network Abahinguzi**: [github.com/umuravyo](https://github.com/lightning) - Ububiko buzwi bwa GitHub bwo gukurikirana iterambere no gutanga kode y'inkomoko
 - - Ibibazo n'inyishu vy'ubuhinga n'abahinguzi n'abakoresha bateye imbere

@@ -31,7 +31,7 @@ Twifatanye natwe maze uhindure ubumenyi bwawe bube ubuhinga nyabwo bwo gukora!
 ___
 
 
-Iyi nyigisho ya NET 302 ni uguhindura ivyigwa *Ivy’ishimikiro ku rubuga: TCP/IP, IPv4 na IPv6*, vyanditswe mu gifaransa na Philippe Pierre kandi vyasohowe kuri [IT-Connect](it-connect.fr/cours/les-bases-du-reseau-tcpip6/ Uruhusha mpuzamakungu rwo gutanga-Uruhusha-Rutari urw’ubudandaji 4.0 ([CC BY-NC 4.0]
+Iyi nyigisho ya NET 302 ni uguhindura ivyigwa *Ivy’ishimikiro ku rubuga: TCP/IP, IPv4 na IPv6*, vyanditswe mu gifaransa na Philippe Pierre kandi vyasohowe kuri [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/) Uruhusha mpuzamakungu rwo gutanga-Uruhusha-Rutari urw’ubudandaji 4.0 ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
 
 

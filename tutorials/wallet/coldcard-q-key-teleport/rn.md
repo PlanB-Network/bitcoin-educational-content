@@ -35,14 +35,14 @@ Ibi bishobora gukoreshwa mu kwimurira:
 
 
 
-- gW-0 amajambo** (umukuru wa seed wa ColdCard Q canke amabanga abitswe mu [seed Vault] ya ColdCardQ.
+- gW-0 amajambo** (umukuru wa seed wa ColdCard Q canke amabanga abitswe mu [seed Vault](https://coldcard.com/docs/temporary-seeds/#seed-vault) ya ColdCardQ.
 - amajambo y’ibanga n’amajambo y’ibanga**: ivyo bishobora kuba ibanga iryo ari ryo ryose canke ububiko bwose [Ivyanditswe n’amajambo y’ibanga](https://coldcard.com/docs/secure_notes/) kuri ColdCardQ yawe.
 - ububiko bwa **ColdCardQ** yawe yose: ColdCardQ yakira ubu bubiko ntitegerezwa kuba ifise Umukuru wa seed kugira ngo ivyo bikore.
 - gW-3 (*Ibikorwa vya Bitcoin vyasinywe igice*) nk’igice c’**umugambi w’imikono myinshi**.
 
 
 
-Ivyo bisaba ko uba waravuguruye [porogarama y’igikoresho cawe kugira ngo ibe verisiyo v1.3.2Q] canke irengeye.
+Ivyo bisaba ko uba waravuguruye [porogarama y’igikoresho cawe kugira ngo ibe verisiyo v1.3.2Q](https://coldcard.com/docs/upgrade/) canke irengeye.
 
 
 
@@ -328,4 +328,4 @@ Niba ubuhinga bwa ColdCardQ yawe bwa "Push Tx" bukora, ushobora gusa gushiramwo 
 
 
 
-*Isoko: [Urubuga rwemewe rwa ColdCard]*
+*Isoko: [Urubuga rwemewe rwa ColdCard](https://coldcard.com/)*

@@ -6,7 +6,7 @@ description: Amajambo y'ugusangira rimwe n'ugusangira kenshi Mnemonic kuri Trezo
 
 
 
-*Ishusho: [Trezor.io]*
+*Ishusho: [Trezor.io](https://trezor.io/)*
 
 
 
@@ -285,6 +285,6 @@ Niwaba wabonye iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu rwa 
 
 
 
-- [Igitabu-0039: Ibanga rya Shamir ryo gusangira amakode ya Mnemonic]
+- [Igitabu-0039: Ibanga rya Shamir ryo gusangira amakode ya Mnemonic](https://github.com/satoshilabs/slips/blob/master/slip-0039.md)
 - [Ivyiyumviro vy’ugusangira vyinshi kuri Trezor](https://trezor.io/learn/a/multi-share-backup-on-trezor);
-- [Wikipedia: Ugusangira ibanga rya Shamir](ibanga rya Shamir).
+- [Wikipedia: Ugusangira ibanga rya Shamir](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).

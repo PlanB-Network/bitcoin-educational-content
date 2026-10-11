@@ -14,7 +14,7 @@ Muri iyi nyigisho, tuzomenya ingene twoshiramwo Windows 11 ubwayo dukoresheje ub
 Ikintu ca mbere uzokenera ni dosiye yo gushiramwo. Ahantu heza kandi ho kwizigirwa ho kuyikura ni ku rubuga rwemewe rwa Microsoft.
 
 
-Sura gusa urubuga rwatanzwe aha hepfo maze ukurikize amabwirizwa kugira ngo ubone [dosiye ISO ya Windows 11]
+Sura gusa urubuga rwatanzwe aha hepfo maze ukurikize amabwirizwa kugira ngo ubone [dosiye ISO ya Windows 11](https://www.microsoft.com/en-us/software-download/windows11)
 
 
 ![Image](assets/en/02.webp)
@@ -237,7 +237,7 @@ Ubwanyuma, umaze gukoresha amategeko wipfuza, dosiye ya XML yavutse irashobora g
 Mu gufyonda kuri Gukuraho Dosiye ya XML, dosiye autounattend.xml irakurwako. Kugira ngo ukoreshe iyo dosiye, ushobora gusa gushiramwo ISO yakuwe kuri USB, ugashira dosiye autounattend.xml mu bubiko bw’imizi, hanyuma ugakomeza gushiramwo Windows.
 
 
-Kimwe mu bikoresho biriho vyo gukora USB drive ishobora gufunguka ni Rufus. Rufus ashobora gukora flash drive yo gushiramwo Windows, ifise dosiye ISO y’ugushiramwo Windows. Ni vyihuta kandi vyoroshe, ushobora kubikura [hano](https://rufus.ie/ru/#kubikura)
+Kimwe mu bikoresho biriho vyo gukora USB drive ishobora gufunguka ni Rufus. Rufus ashobora gukora flash drive yo gushiramwo Windows, ifise dosiye ISO y’ugushiramwo Windows. Ni vyihuta kandi vyoroshe, ushobora kubikura [hano](https://rufus.ie/en/#download)
 
 
 ![Image](assets/en/21.webp)

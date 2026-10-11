@@ -35,7 +35,7 @@ description: Uko wotunganya App ya Blockstream no gukoresha Liquid Network.
 
 
 
-**Liquid** ni **Sidechain** ya Bitcoin, yateguwe na **[Blockstream](https://blockstream]**, yateguwe gutanga Confidential Transactions yihuta, myinshi n'imikorere iteye imbere, mu gihe iguma ifatanye na Blockchain Bitcoin nyamukuru.
+**Liquid** ni **Sidechain** ya Bitcoin, yateguwe na **[Blockstream](https://blockstream.com/liquid/), yateguwe gutanga Confidential Transactions yihuta, myinshi n'imikorere iteye imbere, mu gihe iguma ifatanye na Blockchain Bitcoin nyamukuru.
 
 
 
@@ -124,7 +124,7 @@ Liquid yizigiye **ishirahamwe** ry’abaje mu nama bizigira (amashirahamwe, amas
 
 
 
-- Blockstream App** ni porogaramu yo kuri telefone ngendanwa (iOS, Android) no kuri mudasobwa yo gucunga amasakoshi n’itunga rya Bitcoin kuri Liquid Network. Yaronswe na [Blockstream] mu mwaka w’2016, mbere yari yitwa *Green Address* hanyuma yitwa *Blockstream Green*.
+- Blockstream App** ni porogaramu yo kuri telefone ngendanwa (iOS, Android) no kuri mudasobwa yo gucunga amasakoshi n’itunga rya Bitcoin kuri Liquid Network. Yaronswe na [Blockstream](https://blockstream.com/) mu mwaka w’2016, mbere yari yitwa *Green Address* hanyuma yitwa *Blockstream Green*.
 - Ibirango vy'ingenzi**:
 - Ku ruzitiro** ubucuruzi kuri Blockchain Bitcoin.
     - Ivy’ugucuruza ku rubuga rwa **Liquid** (Sidechain ku bijanye n’uguhanahana amakuru vyihuta kandi vy’ibanga).
@@ -150,9 +150,9 @@ Liquid yizigiye **ishirahamwe** ry’abaje mu nama bizigira (amashirahamwe, amas
 
 - Ku **Androyidi**:
     - Gukuraho [Iporogarama yo guhagarika](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet y'icatsi kibisi.
-    - Iyindi nzira: Shiraho biciye ku dosiye ya APK iri kuri [GitHub yemewe ya Blockstream]
+    - Iyindi nzira: Shiraho biciye ku dosiye ya APK iri kuri [GitHub yemewe ya Blockstream](https://github.com/Blockstream/green_android)
 - Ku **iOS**:
-    - Gukuraho [Iporogarama y’Ikigo c’Igihugu](Iporogarama y’Igihugu y’Igihugu) mu Bubiko bw’Iporogarama.
+    - Gukuraho [Iporogarama y’Ikigo c’Igihugu](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) mu Bubiko bw’Iporogarama.
 - Iciyumviro**: Urabe ko ushobora gukura amakuru mu bibanza vyemewe kugira ngo wirinde amaporogarama y’ubuhendanyi.
 
 
@@ -346,7 +346,7 @@ Kugira ngo ivyo tubishikeko, tuzokwandika igisomwa, dufute Wallet, tuyigarure ha
 
 
 
-- Ku rubuga rw'intango rwa Wallet, fyonda ku rubuga "Ivyagezwe", hanyuma kuri "Ibisobanuro vya Wallet", hanyuma ukope zPub ([urufunguzo rwa bose rwagutse]
+- Ku rubuga rw'intango rwa Wallet, fyonda ku rubuga "Ivyagezwe", hanyuma kuri "Ibisobanuro vya Wallet", hanyuma ukope zPub ([urufunguzo rwa bose rwagutse](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
 
 
 
@@ -615,8 +615,8 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 - Amahuza yemewe:**
 - [Urubuga rwemewe](https://blockstream.com/)
-- [Ishigikiro ry'iporogarama yo kuri telefone ngendanwa](https://imfashanyo.
-- [GitHub](imbuga z'ububiko/ibara ry'icatsi kibisi)
+- [Ishigikiro ry'iporogarama yo kuri telefone ngendanwa](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/).
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
@@ -624,14 +624,14 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 - Abagenzuzi b'Ibarabara:**
  - 139: **[Ikibanza-140.ikibanza/)**
- - Liquid : **[Amakuru y'uruzi](amakuru y'uruzi/Liquid)**
- - Umuravyo: **[1ML (Lightning Network)]**
+ - Liquid : **[Amakuru y'uruzi](https://blockstream.info/Liquid)**
+ - Umuravyo: **[1ML (Lightning Network)](https://1ml.com/)**
 
 
 
 
 
-- Ivyigwa n'inyigisho:** **[Plan ₿ Academy]
+- Ivyigwa n'inyigisho:** **[Plan ₿ Academy](https://planb.academy/)
  - Gucungera ijambo ryawe ryo gukira
 
 

@@ -16,7 +16,7 @@ Usanzwe ufise:
 
 
 - Hitamwo insiguro y’inyigisho yawe;
-- Yashikirije ikigo ca Plan ₿ Academy biciye kuri [umugwi wa Telegaramu](https://t.me/Umuhinguzi w'Ibirimwo) canke paolo@planb.network ;
+- Yashikirije ikigo ca Plan ₿ Academy biciye kuri [umugwi wa Telegaramu](https://t.me/PlanBNetwork_ContentBuilder) canke paolo@planb.network ;
 - Hitamwo ibikoresho vyawe vy’intererano.
 
 
@@ -44,9 +44,9 @@ Ibisabwa mbere yo gutangura inyigisho:
 
 
 
-- Ufise [konti ya GitHub](https/github.com/kwiyandikisha);
+- Ufise [konti ya GitHub](https://github.com/signup);
 - Kugira Fork y’[ububiko bw’inkomoko ya Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content);
-- Ugire [urutonde rw’umwigisha kuri Plan ₿ Academy](https://planb.academy/abaporofeseri) (iyo gusa utanga inyigisho yuzuye).
+- Ugire [urutonde rw’umwigisha kuri Plan ₿ Academy](https://planb.academy/professors) (iyo gusa utanga inyigisho yuzuye).
 
 
 Niba ukeneye gufashwa kuronka ivyo bisabwa, izindi nyigisho zanje zizogufasha:
@@ -193,7 +193,7 @@ Akira ahantu hakenewe:
 
 
 
-- id**: UUID (_Ikimenyetso kidasanzwe co kw'isi yose_) kigaragaza inyigisho mu buryo bwihariye. Ushobora kuyigira generate ukoresheje [igikoresho co kuri Internet] Igisabwa conyene ni uko iyo UUID iba random kugira ngo ntihagire amakimbirane n’iyindi UUID iri kuri platform;
+- id**: UUID (_Ikimenyetso kidasanzwe co kw'isi yose_) kigaragaza inyigisho mu buryo bwihariye. Ushobora kuyigira generate ukoresheje [igikoresho co kuri Internet](https://www.uuidgenerator.net/version4) Igisabwa conyene ni uko iyo UUID iba random kugira ngo ntihagire amakimbirane n’iyindi UUID iri kuri platform;
 
 
 
@@ -201,7 +201,7 @@ Akira ahantu hakenewe:
 
 
 
-- tags**: amajambo 2 canke 3 y’ingenzi ajanye n’ibirimwo mu nyigisho, yatowe gusa [ku rutonde rw’amajambo ya Plan ₿ Academy]
+- tags**: amajambo 2 canke 3 y’ingenzi ajanye n’ibirimwo mu nyigisho, yatowe gusa [ku rutonde rw’amajambo ya Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
 
 
 
@@ -479,7 +479,7 @@ Niba wipfuza kwikorera ibishushanyo, urabe ko ukurikiza amabwirizwa y’ibishush
 
 
 
-- Imyandikire**: Koresha [IBM Plex Sans](IBM+Plex+Sans);
+- Imyandikire**: Koresha [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Amabara**:
  - Umutuku: #FF5C00
  - Umwirabura: #000000

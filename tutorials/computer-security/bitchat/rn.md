@@ -27,7 +27,7 @@ Muri iyi nyigisho, tuzokwereka ingene Bitchat ikora n’ingene ushobora kuyikore
 ## 🚀 Ibirango vy'ingenzi
 
 
-Bitchat ishoboza ubutumwa butari ku murongo biciye muri ibi [biranga]
+Bitchat ishoboza ubutumwa butari ku murongo biciye muri ibi [biranga](https://github.com/permissionlesstech/bitchat-android?tab=readme-ov-file#features)
 
 
 
@@ -67,8 +67,8 @@ Ushobora gushiramwo Bitchat biciye muri:
 
 
 
-- [Iduka ry'amaporogarama ya Apple](ku bikoresho vya iOS)
-- [Iduka ry'imikino ya Google](iduka ry'imikino ya Google](ibikoresho vya Android)
+- [Iduka ry'amaporogarama ya Apple](https://apps.apple.com/us/app/bitchat-mesh/id6748219622)(ku bikoresho vya iOS)
+- [Iduka ry'imikino ya Google](https://play.google.com/store/apps/details?id=com.bitchat.droid) ry'imikino ya Google](ibikoresho vya Android)
 
 
 Abakoresha Android na bo nyene barafise ubundi buryo:
@@ -76,7 +76,7 @@ Abakoresha Android na bo nyene barafise ubundi buryo:
 
 
 - Gukuraho APK kuri [Ivyasohotse kuri GitHub](https://github.com/permissionlesstech/bitchat-android/releases) kuri paji canke
-- Gushiramwo biciye ku Nostr-ihuye [Iduka rya Zap](Iduka ry'Ivyaduka.
+- Gushiramwo biciye ku Nostr-ihuye [Iduka rya Zap](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqgkxmmd9e3xjarrdpshgtnywfhkjeqxtfkcr) ry'Ivyaduka.
 
 
 ![image](assets/en/01.webp)
@@ -340,4 +340,4 @@ Iyi app iracari mu ntango z’iterambere, ariko iramaze kwerekana umuhango. Abak
 ## 📚 Ibikoresho vya Bitchat
 
 
-[Github](ubuhinga butagira uruhusha) | [Urubuga ](htts://bitchat.ubuntu/)| [Urupapuro rwera](https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md)
+[Github](https://github.com/permissionlesstech) | [Urubuga ](https://bitchat.free/)| [Urupapuro rwera](https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md)

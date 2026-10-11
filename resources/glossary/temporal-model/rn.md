@@ -12,4 +12,4 @@ Ica mbere, isesengura ry’igihe rimwe na rimwe rirashobora kugaragaza kamere y�
 Uretse kamere y’ikintu cihwejwe, urugero rw’igihe rurashobora kandi kwerekana hafi aho uwukoresha ari biciye mu bice vy’amasaha. Ivyo bituma dushobora guhuza ibindi bikorwa, no gukoresha Timestamp y’ivyo nk’inyongera y’ubuhinga bushobora gushirwa mu gusesangura uruhererekane.
 
 
-Mu gitabu gitandukanye, ni ubwo bwoko bw’isesengura ry’igihe bwatumye habaho iciyumviro c’uko Satoshi Nakamoto itariko irakora ivuye mu Buyapani, ariko vy’ukuri ivuye muri Leta Zunze Ubumwe za Amerika: [_The Time Zones of Satoshi]. Nakamoto_](ivyo-bice-vy'amasaha-vya-Satoshi-nakamoto-aa40f035178f).
+Mu gitabu gitandukanye, ni ubwo bwoko bw’isesengura ry’igihe bwatumye habaho iciyumviro c’uko Satoshi Nakamoto itariko irakora ivuye mu Buyapani, ariko vy’ukuri ivuye muri Leta Zunze Ubumwe za Amerika: [_The Time Zones of Satoshi](https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f). Nakamoto_](ivyo-bice-vy'amasaha-vya-Satoshi-nakamoto-aa40f035178f).

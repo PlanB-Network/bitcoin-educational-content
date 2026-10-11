@@ -95,7 +95,7 @@ Niba utarafise porogarama ya TestFlight ku gikoresho cawe, rondera "TestFlight" 
 
 
 
-Igihe TestFlight imaze gushirwaho, kurikiza iyi nzira y’ubutumire kuri iPhone canke iPad yawe: [injira muri RMU6PaRu]
+Igihe TestFlight imaze gushirwaho, kurikiza iyi nzira y’ubutumire kuri iPhone canke iPad yawe: [injira muri RMU6PaRu](https://testflight.apple.com/join/RMU6PaRu)
 
 
 
@@ -325,8 +325,8 @@ Icogereranyo co kubungabunga gisaba ko umuntu aba maso kandi akagira ingendo nzi
 
 
 
-- Urubuga rwemewe: [amafaranga y'amafaranga](https://amafaranga y'amafaranga)
-- Ibibazo vy'amakara: [amafaranga y'amakara/ibibazo](https://amafaranga y'amakara/ibibazo)
+- Urubuga rwemewe: [amafaranga y'amafaranga](https://macadamia.cash)
+- Ibibazo vy'amakara: [amafaranga y'amakara/ibibazo](https://macadamia.cash/faq)
 - Kode y'inkomoko ya GitHub:
 
 
@@ -337,7 +337,7 @@ Icogereranyo co kubungabunga gisaba ko umuntu aba maso kandi akagira ingendo nzi
 
 
 - Ivyandiko vy'ubuhinga: [inyandiko.cashu.umwanya](https://docs.cashu.space)
-- Urutonde rw'amafaranga y'abantu bose: [amafaranga y'amafaranga.com](https://amafaranga y'amafaranga.com)
+- Urutonde rw'amafaranga y'abantu bose: [amafaranga y'amafaranga.com](https://cashumints.space/)
 - Urubuga rwemewe rw'amasezerano: [amahera.ikibanza](https://cashu.space)
 
 
@@ -347,4 +347,4 @@ Icogereranyo co kubungabunga gisaba ko umuntu aba maso kandi akagira ingendo nzi
 
 
 
-- Itsinda ry'amahera y'itelegaramu: [t.me/amahera_y'amahera](https://t.me/amahera_y'amahera)
+- Itsinda ry'amahera y'itelegaramu: [t.me/amahera_y'amahera](https://t.me/cashu_ecash)

@@ -47,7 +47,7 @@ Izina ry'iki kimenyetso ni "ugusubira inyuma" canke "ibipimo vy'inyuma". Mu gifa
 
 ![backward anonset](assets/en/6.webp)
 
-Kugira ngo umenye vyinshi ku buryo bwo kubara ivyo bimenyetso, ndagusavye gusoma [urudodo rwanje rwa Twitter](20) kuri iyi nkuru. Turategura kandi ingingo irushirije kuba nziza ku bijanye n’Ihuriro rya PlanB.
+Kugira ngo umenye vyinshi ku buryo bwo kubara ivyo bimenyetso, ndagusavye gusoma [urudodo rwanje rwa Twitter](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) kuri iyi nkuru. Turategura kandi ingingo irushirije kuba nziza ku bijanye n’Ihuriro rya PlanB.
 
 
 Ndazi ko inyishu yatanzwe ishobora gusa n’iyidashimishije nk’uko mwari mwizigiye umubare wihariye w’ama remix, kandi ndabayobora ku nyandiko. Impamvu y’ivyo ni uko umubare w’ama remix ari ikimenyetso kitari co co gusuzuma ukutamenyekana kwaronswe mu nzinguzingu za CoinJoin. Ntibishoboka rero gusobanura umubare udahinduka w’ibisubizo nk’urugero rw’umutekano rwuzuye kandi rw’isi yose.

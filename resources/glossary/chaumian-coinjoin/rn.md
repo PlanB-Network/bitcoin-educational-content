@@ -15,7 +15,7 @@ Kugira ngo ivyo bishoboke, abakoresha bararungika ivyo bashizeko be n’inyandik
 Ubwo buryo buratuma umuhuzabikorwa adashobora guhungabanya amazina y’abaje mu nama canke ngo yibe ama bitcoins mu kiringo cose c’igikorwa ca CoinJoin.
 
 
-Biragoye kumenya neza uwabanje gushiramwo iciyumviro ca CoinJoin kuri Bitcoin, n’uwagize iciyumviro co gukoresha imikono ya David Chaum y’impumyi muri ivyo. Kenshi vyiyumvirwa ko Gregory Maxwell ari we yabanjirije kubivuga muri [ubutumwa bwashizwe kuri BitcoinTalk mu 2013](279249.0):
+Biragoye kumenya neza uwabanje gushiramwo iciyumviro ca CoinJoin kuri Bitcoin, n’uwagize iciyumviro co gukoresha imikono ya David Chaum y’impumyi muri ivyo. Kenshi vyiyumvirwa ko Gregory Maxwell ari we yabanjirije kubivuga muri [ubutumwa bwashizwe kuri BitcoinTalk mu 2013](https://bitcointalk.org/index.php?topic=279249.0):
 
 
 > *"Mu gukoresha imikono y'impumyi ya Chaum: Abakoresha barahuza kandi bagatanga ivyinjizwa (no guhindura amaderesi) hamwe n'uburyo bw'ibanga bwa blinded bwa Address bipfuza koherezako amafaranga yabo bwite; ibisohoka vyose vyashizweko umukono na we kandi ko, rero, ibisohoka vyose biva ku bari muri iyo nama bafise uburenganzira Mu nyuma, abantu barasubira guhura bagashirako umukono."*

@@ -101,7 +101,7 @@ Igitigiri: Ivyicaro 50 vy’igihe kimwe. Ni vyiza gutangura ubucuruzi bushingiye
 
 
 
-Genda kuri [isoko.com](https://isoko.com) hanyuma ukande kuri "Gufungura porogarama".
+Genda kuri [isoko.com](https://lnmarkets.com) hanyuma ukande kuri "Gufungura porogarama".
 
 
 
@@ -299,7 +299,7 @@ Bitcoin na Synthetic USD zifise amateka y’ibiziga, gukura, gutanga, guhindura,
 
 
 
-LN Markets itanga API REST yuzuye (V2 na V3) kugira ngo ubucuruzi bwawe bube bwite biciye ku nyandiko canke ku bikoresho vy’ubuhinga bwa none. Ushobora kurema imfunguruzo za API zifise uruhusha rwo guhindura (gusoma gusa, gucuruza, gukura) uhereye ku nzira. TypeScript yemewe na Python SDKs ziraboneka kugira ngo zishiremwo vyoroshe. Ivyanditswe vyose vya API V3 biraboneka kuri [api.lnmarkets.com/v3].
+LN Markets itanga API REST yuzuye (V2 na V3) kugira ngo ubucuruzi bwawe bube bwite biciye ku nyandiko canke ku bikoresho vy’ubuhinga bwa none. Ushobora kurema imfunguruzo za API zifise uruhusha rwo guhindura (gusoma gusa, gucuruza, gukura) uhereye ku nzira. TypeScript yemewe na Python SDKs ziraboneka kugira ngo zishiremwo vyoroshe. Ivyanditswe vyose vya API V3 biraboneka kuri [api.lnmarkets.com/v3](https://api.lnmarkets.com/v3).
 
 
 
@@ -678,5 +678,5 @@ Tangana n’ibintu bitobito, ugerageze n’ibihumbi bikeyi vy’ama sats, hanyum
 
 
 
-- [Urubuga rwemewe rwa LN Markets]
+- [Urubuga rwemewe rwa LN Markets](https://lnmarkets.com)
 - [Inyandiko](https://docs.lnmarkets.com)

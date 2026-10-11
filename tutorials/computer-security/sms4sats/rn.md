@@ -345,6 +345,6 @@ Ariko rero, uzirikane aho igarukira: iyo serivisi ntiyizera ko umuntu atazomenye
 
 
 
-- [Urubuga rwemewe rwa SMS4Sats]
-- [Ibibazo vy'Ibikorwa](ibibazo)
-- [Aderesi ya Tor](http://sms4sat6y7lkq4vscloomatwyj33cfeddukkvujo
+- [Urubuga rwemewe rwa SMS4Sats](https://sms4sats.com)
+- [Ibibazo vy'Ibikorwa](https://sms4sats.com/faq)
+- [Aderesi ya Tor](http://sms4sat6y7lkq4vscloomatwyj33cfeddukkvujo2hkdqtmyi465spid.onion)

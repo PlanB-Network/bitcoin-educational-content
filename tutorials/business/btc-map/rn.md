@@ -27,7 +27,7 @@ Biboneka kuri:
 
 
 
-- iOS biciye kuri [Iduka ry'Iporogaramu](iporogaramu.
+- iOS biciye kuri [Iduka ry'Iporogaramu](https://apps.apple.com/app/btc-world-map/id6443604345).
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) urutonde rwa porogaramu y'inkomoko yuguruye ya android
 - mu gukuraho [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) ataco bimaze kuri github y'umugambi
 - biciye ku rubuga rwa porogaramu kuva ku mucukumbuzi wawe (ivyo tubona uno musi)

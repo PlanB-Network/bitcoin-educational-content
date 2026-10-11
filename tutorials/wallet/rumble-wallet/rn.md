@@ -27,7 +27,7 @@ Kubera ubufatanye na MoonPay, birashoboka kandi kugura no kugurisha Bitcoin n’
 ## 2. Ni gute umuntu yoshiramwo Rumble Wallet?
 
 
-Iryo koraniro rishobora gushirwa kuri [Android] no kuri iOS biciye mu maduka yabo yemewe.
+Iryo koraniro rishobora gushirwa kuri [Android](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet) no kuri iOS biciye mu maduka yabo yemewe.
 
 
 ![Image](assets/fr/01.webp)

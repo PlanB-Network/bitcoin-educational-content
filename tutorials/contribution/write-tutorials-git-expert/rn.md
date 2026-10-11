@@ -15,7 +15,7 @@ Usanzwe ufise:
 
 
 - Hitamwo insiguro y’inyigisho yawe;
-- Yashikirije ikigo ca Plan ₿ Academy biciye ku [umugwi wa Telegram](https://t.me/Uwukora_Ibirimwo) canke paolo@planb.network ;
+- Yashikirije ikigo ca Plan ₿ Academy biciye ku [umugwi wa Telegram](https://t.me/PlanBNetwork_ContentBuilder) canke paolo@planb.network ;
 - Hitamwo ibikoresho vyawe vy’intererano.
 
 
@@ -80,7 +80,7 @@ Kugira ngo ureme ibishushanyo n'ibishushanyo:
 
 
 
-- Utegerezwa kuba ufise fork yawe bwite y’[ububiko bwa Plan ₿ Academy kuri GitHub]
+- Utegerezwa kuba ufise fork yawe bwite y’[ububiko bwa Plan ₿ Academy kuri GitHub](https://github.com/PlanB-Network/bitcoin-educational-content)
 - Guhuza ishami ry'ingenzi (`dev`) rya fork yawe n'ububiko bw'inkomoko.
 - Vugurura clone yawe yo mu karere.
 
@@ -131,7 +131,7 @@ git push -u origin tuto-green-wallet-loic
 ### 3 - Wongereko inyandiko z'inyigisho
 
 
-***Iciyumviro:*** Ushobora gukoresha intambwe za 3 na 4 ukoresheje [GUI yanje ya Python script] Ikoreshe uhereye kuri dosiye yayo muri clone yawe yo mu karere, hanyuma wuzuze ibikenewe kuri GUI. Kugira ngo umenye vyinshi ku buryo woyishiramwo no kuyikoresha, raba [SOMA](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md).
+***Iciyumviro:*** Ushobora gukoresha intambwe za 3 na 4 ukoresheje [GUI yanje ya Python script](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/data-creator) Ikoreshe uhereye kuri dosiye yayo muri clone yawe yo mu karere, hanyuma wuzuze ibikenewe kuri GUI. Kugira ngo umenye vyinshi ku buryo woyishiramwo no kuyikoresha, raba [SOMA](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md).
 
 
 Niba ushaka kubikora n'amaboko, kurikiza izi ntambwe:
@@ -209,7 +209,7 @@ Akira ahantu hakenewe:
 
 
 
-- id**: UUID (_Ikimenyetso kidasanzwe co kw'isi yose_) kigaragaza inyigisho mu buryo bwihariye. Ushobora kuyihingura ukoresheje [igikoresho co kuri Internet](https://www. Igisabwa conyene ni uko iyo UUID iba random kugira ngo ntihagire amakimbirane n’iyindi UUID iri kuri platform;
+- id**: UUID (_Ikimenyetso kidasanzwe co kw'isi yose_) kigaragaza inyigisho mu buryo bwihariye. Ushobora kuyihingura ukoresheje [igikoresho co kuri Internet](https://www.uuidgenerator.net/version4). Igisabwa conyene ni uko iyo UUID iba random kugira ngo ntihagire amakimbirane n’iyindi UUID iri kuri platform;
 
 
 
@@ -217,7 +217,7 @@ Akira ahantu hakenewe:
 
 
 
-- tags**: amajambo y’ingenzi 2 canke 3 ajanye n’ibirimwo mu nyigisho, yatowe gusa [ku rutonde rw’amajambo ya Plan ₿ Academy]
+- tags**: amajambo y’ingenzi 2 canke 3 ajanye n’ibirimwo mu nyigisho, yatowe gusa [ku rutonde rw’amajambo ya Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
 
 
 
@@ -381,7 +381,7 @@ print("Hello, Bitcoin!")
     - Koresha gusa amashusho wiremye canke ataco utanga.
     - Raba neza ko zifise akamaro kandi zifise akamaro kanini.
 - Igitabo c'ibishushanyo**:
-    - Imyandikire: [IBM Plex Sans] (IBM+Plex+Sans).
+    - Imyandikire: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) (IBM+Plex+Sans).
     - Amabara Plan ₿ Academy:
         - Umutuku: `#FF5C00`
         - Ikirabura: `#000000`

@@ -64,7 +64,7 @@ Ni vyiza ko ukora backup y’amakuru yawe imbere yo kuyashira kuri PC isanzweho.
 
 
 
-- Genda kuri [kali.org/kuronka-kali](www.kali.org/kuronka-kali/#ibibanza-vya-kali)
+- Genda kuri [kali.org/kuronka-kali](https://www.kali.org/get-kali/#kali-platforms)
 - Hitamwo ishusho ya ISO y'ikoreshwa ryawe:
   - Gushiramwo Ishusho** : ku gushiramwo PC.
   - Ishusho y'ukuri**: gushiramwo Kali kuri VirtualBox canke VMware.

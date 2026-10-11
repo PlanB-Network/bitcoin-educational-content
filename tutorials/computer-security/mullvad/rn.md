@@ -68,7 +68,7 @@ Iyo installation irangiye, uzokenera kwinjiza ID ya konti yawe. Ivyo tuzobibona 
 ## Ni gute woshira Mullvad VPN kuri telefone ngendanwa?
 
 
-Gukuraho Mullvad VPN mu iduka ryawe ry'amaporogarama, yaba ari [Iduka ry'amaporogarama] ku bakoresha iOS, [Google Play Iduka](id=net.mullvad.mullvadvpn) ku bijanye na Android, canke [F-Droid](its. Niba ukoresha Android, urafise kandi uburenganzira bwo gukura dosiye `.apk` uyikuye kuri [urubuga rwa Mullvad](https://mullvad.net/en/download/vpn/android).
+Gukuraho Mullvad VPN mu iduka ryawe ry'amaporogarama, yaba ari [Iduka ry'amaporogarama](https://apps.apple.com/us/app/mullvad-vpn/id1488466513) ku bakoresha iOS, [Google Play Iduka](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) ku bijanye na Android, canke [F-Droid](https://f-droid.org/packages/net.mullvad.mullvadvpn/). Niba ukoresha Android, urafise kandi uburenganzira bwo gukura dosiye `.apk` uyikuye kuri [urubuga rwa Mullvad](https://mullvad.net/en/download/vpn/android).
 
 ![MULLVAD VPN](assets/notext/07.webp)
 

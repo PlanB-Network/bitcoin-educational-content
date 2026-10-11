@@ -33,7 +33,7 @@ Muri iyi nyigisho, turaza kuraba uburyo 3 bwo gukoresha **Watchtower** :
 
 
 
-*Iyi nyigisho yakuwe muri [inyandiko zizwi za LND] Hari ivyo bishobora kuba vyahinduwe kuri verisiyo y'intango .
+*Iyi nyigisho yakuwe muri [inyandiko zizwi za LND](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md) Hari ivyo bishobora kuba vyahinduwe kuri verisiyo y'intango .
 
 
 
@@ -331,7 +331,7 @@ OPTIONS:
 
 
 
-Ijisho rya Satoshi ([Rust-TEOS]) ni umuravyo Watchtower udafise ububiko, uhuye n’[Bolt]. 13](blog.com/sr-gi/bolt13/blob/master/13-iminara y'abacungera. Gigizwe n’ibice bibiri nyamukuru:
+Ijisho rya Satoshi ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)) ni umuravyo Watchtower udafise ububiko, uhuye n’[Bolt](https://github.com/sr-gi/bolt13/blob/master/13-watchtowers.md?ref=blog.summerofbitcoin.org). 13](blog.com/sr-gi/bolt13/blob/master/13-iminara y'abacungera. Gigizwe n’ibice bibiri nyamukuru:
 
 
 

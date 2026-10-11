@@ -152,7 +152,7 @@ Hanyuma rero, ushireko gusa kode ya QR iri kuri Interface yawe ukoresheje igikor
 
 ![SWISS BITCOIN PAY](assets/notext/18.webp)
 
-Niba ushaka kugira PoS mu buryo bw’ikoreshwa, genda ku iduka ryawe ry’iporogarama [Iduka rya Google Play](id=ch.swissbitcoinpay.checkout) canke [Iporogarama Iduka](iyi Swiss Bitcoin-pay/id6444370155) hanyuma ushiremwo Swiss Bitcoin Pay. Iryo koraniro riraboneka kandi mu buryo bwa `.apk` ku rubuga rwabo, canke kuri [iduka rya F-Droid](https://f-droid.org/packages/ch.swissbitcoinpay.checkout/).
+Niba ushaka kugira PoS mu buryo bw’ikoreshwa, genda ku iduka ryawe ry’iporogarama [Iduka rya Google Play](https://play.google.com/store/apps/details?id=ch.swissbitcoinpay.checkout) canke [Iporogarama Iduka](https://apps.apple.com/us/app/swiss-bitcoin-pay/id6444370155) hanyuma ushiremwo Swiss Bitcoin Pay. Iryo koraniro riraboneka kandi mu buryo bwa `.apk` ku rubuga rwabo, canke kuri [iduka rya F-Droid](https://f-droid.org/packages/ch.swissbitcoinpay.checkout/).
 
 ![SWISS BITCOIN PAY](assets/notext/19.webp)
 
@@ -224,4 +224,4 @@ Fyonda hejuru iburyo bw'ibarabara ku buto bwa "*Dashboard*", hanyuma winjize ema
 
 Ubwa nyuma, mu gice ca "*Settings*", urafise uburenganzira bwo guhindura amakuru watanze mu gihe c'iyandikisha, harimwo uburyo bwo kuyakura n'ugusangira hagati ya Bitcoin na fiat. ![UBUSUSISI Bitcoin BURIHA](itunga/inyandiko/50.urubuga)
 
-Urakoze cane! Ubu warashizeho uburyo bwo kwishura kugira ngo wemere Bitcoin mu bucuruzi bwawe. Niba kandi ushaka gutohoza BTCPay Server, umuti uteye imbere kandi ugoranye, ndagusavye gukurikira inyigisho zacu zose zigenewe cane cane iyi porogarama: [BTC305]
+Urakoze cane! Ubu warashizeho uburyo bwo kwishura kugira ngo wemere Bitcoin mu bucuruzi bwawe. Niba kandi ushaka gutohoza BTCPay Server, umuti uteye imbere kandi ugoranye, ndagusavye gukurikira inyigisho zacu zose zigenewe cane cane iyi porogarama: [BTC305](https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1)

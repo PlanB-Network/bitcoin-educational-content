@@ -64,7 +64,7 @@ Ishingiye kuri Ubuntu LTS, Zorin OS ihuriza hamwe ubuhinga buhambaye bwo gukores
 
 
 
-- Sura urubuga rwemewe: [https://zorin.com/os]
+- Sura urubuga rwemewe: [https://zorin.com/os](https://zorin.com/os)
 
 
 

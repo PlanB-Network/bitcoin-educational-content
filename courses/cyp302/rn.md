@@ -70,7 +70,7 @@ Nimba vy’ukuri uriko urashikirwa n’ingorane z’ibintu vy’ido n’ido biri
 Igitabo cakoze cane mu guhingura iki ni igitabu ca Jonathan Katz na Yehuda Lindell, Ikinyamakuru CRC (Boca Raton, FL), 2015.
 
 
-Amasoko nyamukuru y’inyongera yafashije mu kurema icegeranyo kiri muri iki gitabu ni Simon Singh, _Igitabo c’Itegeko_, Igihugu ca kane (Londres, 1999); Christof Paar na Jan Pelzl, _Gutahura ubuhinga bwo gupfuka amakuru_, Springer (Heidelberg, 2010) na [inyigisho ishingiye ku gitabu ca Paar citwa “Intango y’ubuhinga bwo gupfuka amakuru”] na Bruce Schneier, Ivy’Ikoranabuhanga ry’Ivy’Imibano, Igitabo ca 2, 2015 (Indianapolis, IN: John Wiley n’Abahungu Biwe).
+Amasoko nyamukuru y’inyongera yafashije mu kurema icegeranyo kiri muri iki gitabu ni Simon Singh, _Igitabo c’Itegeko_, Igihugu ca kane (Londres, 1999); Christof Paar na Jan Pelzl, _Gutahura ubuhinga bwo gupfuka amakuru_, Springer (Heidelberg, 2010) na [inyigisho ishingiye ku gitabu ca Paar citwa “Intango y’ubuhinga bwo gupfuka amakuru”](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg) na Bruce Schneier, Ivy’Ikoranabuhanga ry’Ivy’Imibano, Igitabo ca 2, 2015 (Indianapolis, IN: John Wiley n’Abahungu Biwe).
 
 
 Nzovuga gusa amakuru yihariye cane n’ivyavuyemwo nkura muri izo nzira, ariko nshaka kwemera umwenda rusangi mfise kuri zo hano.
@@ -296,7 +296,7 @@ Ku bw’ivyo, iciyumviro co kugumiza ibanga ry’ivy’uguhanahana amakuru mu ku
 **Ivyiyumviro:**
 
 
-[7] Raba nk’akarorero, Olga Khazan, “Ikintu giteye ubwoba, kimaze igihe kirekire co gutera intsinga zo mu mazi”, *The Atlantic*, 16 Nyakanga 2013 (uboneka kuri [The Atlantic](umugenzo-uteye ubwoba-wamaze igihe kirekire-wo-gutera-insinga-zi-mu-kiyaga/277855/)).
+[7] Raba nk’akarorero, Olga Khazan, “Ikintu giteye ubwoba, kimaze igihe kirekire co gutera intsinga zo mu mazi”, *The Atlantic*, 16 Nyakanga 2013 (uboneka kuri [The Atlantic](https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)).
 
 
 
@@ -1329,10 +1329,10 @@ Kugira ngo uronke ibindi biganiro ku vyerekeye inyigisho y’imibare yo muri iki
 **Ivyiyumviro:**
 
 
-[3] Raba [Ividewo yo kuri YouTube](v=NOMUnMuxDZY&feature=youtu.be)
+[3] Raba [Ividewo yo kuri YouTube](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
 
-[4] Socratique, [Igitabu c'Aligebra](https://www.socratique.com/ikiganiro/igitabu-c'Aligebra)
+[4] Socratique, [Igitabu c'Aligebra](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 
 [5] Katz na Lindell, *Intango y’Ivy’Ubuhinga bwo Gukingira Amakuru*, igitabu ca 2, 2015 (Ikinyamakuru ca CRC: Boca Raton, FL). Paar na Pelzl, *Gutahura ubuhinga bwo gukingira amakuru*, 2010 (Igitabu c’i Berlin).

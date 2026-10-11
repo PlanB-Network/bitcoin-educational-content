@@ -227,7 +227,7 @@ Ico twokwirinda ni ukugenzura ko Alias ​​Vault ikora. Nkako, iyo porogarama 
 
 
 
-Cokimwe n’ibindi bikoresho vyose vyubaha vy’ubwo bwoko, Alias ​​Vault irafise verisiyo y’ibikoresho vy’amaboko, mu bidukikije vya Android na iOS. Ku bijanye na Android, ushobora gukura iyo porogarama kuri [F-Droid].
+Cokimwe n’ibindi bikoresho vyose vyubaha vy’ubwo bwoko, Alias ​​Vault irafise verisiyo y’ibikoresho vy’amaboko, mu bidukikije vya Android na iOS. Ku bijanye na Android, ushobora gukura iyo porogarama kuri [F-Droid](https://f-droid.org/packages/net.aliasvault.app/).
 
 
 
@@ -287,7 +287,7 @@ Akaryo ni akadasanzwe: **hagarika kwizigira abatanga serivisi bo hanze canke ibi
 
 
 
-Igihe kirageze co guhindukira kuri [inyandiko](https://inyandiko.aliasvault.net/gushiraho/), kugira ngo umenye ingene woja ku kwiyakira Alias ​​Vault.
+Igihe kirageze co guhindukira kuri [inyandiko](https://docs.aliasvault.net/installation/), kugira ngo umenye ingene woja ku kwiyakira Alias ​​Vault.
 
 
 

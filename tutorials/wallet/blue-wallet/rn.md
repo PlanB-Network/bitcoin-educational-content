@@ -11,7 +11,7 @@ Gutangura gukoresha Bitcoin bisa n’ibigoranye cane ku bantu bakekeranya ku bij
 
 
 
-Muri iyi nyigisho tuzoba turiko turaraba Blue Wallet, Bitcoin Wallet yoroshe ariko ikora neza cane ishobora kugufasha gucunga amafaranga yawe bwite kandi no gushinga amakoperative y’uburongozi ashingiye kuri [Multisig]
+Muri iyi nyigisho tuzoba turiko turaraba Blue Wallet, Bitcoin Wallet yoroshe ariko ikora neza cane ishobora kugufasha gucunga amafaranga yawe bwite kandi no gushinga amakoperative y’uburongozi ashingiye kuri [Multisig](https://planb.academy/resources/glossary/multisig)
 
 
 

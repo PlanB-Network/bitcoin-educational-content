@@ -78,7 +78,7 @@ Iyo installation irangiye, uzokenera kwinjiza ID ya konti yawe. Turabona ingene 
 ## Ni gute woshira IVPN kuri telefone ngendanwa?
 
 
-Gukuraho IVPN mu iduka ryawe ry'amaporogarama, yaba ari [Iduka ry'amaporogarama](id1193122683) ku bakoresha iOS, [Google Play Iduka](id=net.ivpn.client) kuri Android, canke [F-Droid](its/f-droid.org/ru/amapaki/net.ivpn.client). Niba ukoresha Android, urafise kandi uburenganzira bwo gukura dosiye `.apk` uyikuye kuri [urubuga rwa IVPN](https://www.ivpn.net/en/apps-android/).
+Gukuraho IVPN mu iduka ryawe ry'amaporogarama, yaba ari [Iduka ry'amaporogarama](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) ku bakoresha iOS, [Google Play Iduka](https://www.ivpn.net/en/apps-android/) kuri Android, canke [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Niba ukoresha Android, urafise kandi uburenganzira bwo gukura dosiye `.apk` uyikuye kuri [urubuga rwa IVPN](https://www.ivpn.net/en/apps-android/).
 
 ![IVPN](assets/notext/05.webp)
 

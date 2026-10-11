@@ -271,5 +271,5 @@ Kubera ko idashobora kubikwa, ikaba ishobora gukingira ubuzima bwite, ifatanijwe
 - Urubuga rw'ibikoresho
 - Lipa Ifasha Ubucuruzi
 - Infashanyo rusangi ya Lipa
-- [Ihuye n'i Lipa](urubuga rwo guhuza.com/isosiyete/getlipa)
-- [Twitter @lipa_btc](ku rubuga rwa Twitter)
+- [Ihuye n'i Lipa](https://www.linkedin.com/company/getlipa)
+- [Twitter @lipa_btc](https://twitter.com/lipa_btc)

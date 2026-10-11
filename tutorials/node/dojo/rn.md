@@ -1386,7 +1386,7 @@ Ubu rero warahuye na Dojo yawe.
 
 
 
-Dojo ihita ishiramwo Block explorer, [BTC-RPC Explorer](BTC-RPC-explorer), ikoresha amakuru ava ku nzira yawe bwite ya Bitcoin. Igikoresho co gutohoza kigufasha kuronka amakuru atagiramwo ivyatsi ava kuri Blockchain na Mempool yawe biciye ku rubuga rwa Interface rworoshe gutahura. Ushobora rero, nk’akarorero, kumenya uko igikorwa kiriko kirategerezwa, kuraba umubare w’amahera y’i Address canke gusuzuma igihimba c’ibarabara bitagoranye.
+Dojo ihita ishiramwo Block explorer, [BTC-RPC Explorer](https://github.com/janoside/btc-RPC-explorer), ikoresha amakuru ava ku nzira yawe bwite ya Bitcoin. Igikoresho co gutohoza kigufasha kuronka amakuru atagiramwo ivyatsi ava kuri Blockchain na Mempool yawe biciye ku rubuga rwa Interface rworoshe gutahura. Ushobora rero, nk’akarorero, kumenya uko igikorwa kiriko kirategerezwa, kuraba umubare w’amahera y’i Address canke gusuzuma igihimba c’ibarabara bitagoranye.
 
 
 

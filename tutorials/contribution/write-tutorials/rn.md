@@ -96,7 +96,7 @@ Uko wohitamwo kwose, ndagusavye wibuke ko ibirimwo vyose vyasohowe kuri Plan ₿
 ## 2 - Baza ikipe ya Plan ₿ Academy
 
 
-Umaze guhitamwo insanganyamatsiko y’inyigisho yawe, intambwe ikurikira ni ukutumenyesha umugambi wawe wo kwongerako ibi birimwo ku rubuga. Uburyo bworoshe, nimba ufise konti ya Telegram, ni [kwinjira mu mugwi wacu](https://t.me/Umuhinguzi w'Ibirimwo).
+Umaze guhitamwo insanganyamatsiko y’inyigisho yawe, intambwe ikurikira ni ukutumenyesha umugambi wawe wo kwongerako ibi birimwo ku rubuga. Uburyo bworoshe, nimba ufise konti ya Telegram, ni [kwinjira mu mugwi wacu](https://t.me/PlanBNetwork_ContentBuilder).
 
 
 ![TUTO](assets/fr/39.webp)

@@ -837,7 +837,7 @@ Kubera ko Bitcoin ikora nk’umurongo wo woguhana hana amahera, birashoboka ko u
 Ivyo birimwo kuronka impembo mu gukoresha imashini za Mining bita mururimi rwicongere "minières"( mudasobwa). Ku nganda ztagiramwo ubuhinga bwihariye, ivyo biguma ari bike cane. Ushobora kugira uruhara biciye ku bahuza bazogurisha canke bagukodeshe compute, network n’ugutunganya. Nimba ari wewe ufise ayo mashini, urashobora kuyabara nk’ibintu bishobora gusenyuka. Mukiringo kinini, uzokenera guharura neza inyungu y’ishoramari kuko isoko rifise amahiganwa menshi kandi risaba kwitega neza ibiciro, cane cane umuyaga nkuba.
 
 
-Kugira ngo umenye vyinshi ku buryo bwa Mining, urashobora [kuraba igice ca "Mining" mu nyigisho zacu](https://planb.academy/inyigisho/mining).
+Kugira ngo umenye vyinshi ku buryo bwa Mining, urashobora [kuraba igice ca "Mining" mu nyigisho zacu](https://planb.academy/tutorials/mining).
 
 
 
@@ -853,7 +853,7 @@ https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-
 
 https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Kugira ngo umenye vyinshi ku buryo bwo kuronka amafaranga y'ibiceri biciye ku Exchange canke ku nzira y'urunganwe, urashobora [kuraba igice ca "Exchange" mu nyigisho zacu](https://planb.academy/inyigisho/exchange).
+Kugira ngo umenye vyinshi ku buryo bwo kuronka amafaranga y'ibiceri biciye ku Exchange canke ku nzira y'urunganwe, urashobora [kuraba igice ca "Exchange" mu nyigisho zacu](https://planb.academy/tutorials/exchange).
 
 
 ![BIZ101](assets/rn/012.webp)
@@ -894,7 +894,7 @@ Inganda zikora amazu zisubiramwo kenshi ko “ari igihe ciza co kugura,” zikib
 
 ![BIZ101](assets/rn/013.webp)
 
-*Ivyiza: [Ibiro vya Bitcoin](ibiro vya Bitcoin.gob.sv/)*
+*Ivyiza: [Ibiro vya Bitcoin](https://bitcoin.gob.sv/)*
 
 
 ### Ni mu buryo ubuhe bwo kugura? (Uburyo bwo kubungabunga)
@@ -1307,7 +1307,7 @@ Ku bijanye nuburorero bihuriranye, fata akaroreror k'iduka ry’ubudandaji ry’
 ![BIZ101-profiles](assets/rn/028.webp)
 
 
-*[Ikigereranyo: Iduka rya Bitcoin Bazar i Paris mu Bufaransa.]*
+*[Ikigereranyo: Iduka rya Bitcoin Bazar i Paris mu Bufaransa.](https://bitcoinbazar.fr/)*
 
 
 Kugira ngo umenye neza ivyerekeye ugushirwa mu ngiro no kumenya uko BTCPay Server itunganywa, raba inyigisho ikurikira:
@@ -1410,7 +1410,7 @@ Inyubako zishasha ziremerwa kubera ko zikora neza cane, kandi abazikoresha ubwam
 
 ![BIZ101-profiles](assets/rn/029.webp)
 
-*[Isoko: Ikarata ya BTC](ku rubuga rwa BTC/)*
+*[Isoko: Ikarata ya BTC](https://btcmap.org/)*
 
 
 
@@ -1646,7 +1646,7 @@ Inganda zitegerezwa kumenya neza ko ibikoresho vyose **vyokwishura** bakoresha b
 <chapterId>e7b31be5-1176-4835-944e-3cba1b7040fa</chapterId>
 
 
-Iyo ishirahamwe rifashe ingingo yo kwinjiza Bitcoin mu vy’ubuhinga bwo guharura amafaranga, ibikoresho bitandukanye be n’amaporogarama yihariye biratuma kwegeranya no gutunganya amakuru vyoroha. Mu bisubizo bizwi cane harimwo [CoinTracker], [Waltio], [Cryptio], [Koinly](Koinly](https://coinly.io/]), [Hentax. [Igitabo ca Zen](https://igitabo ca Zen.io/). Izo nzira zishimika canecane ku bintu bine:
+Iyo ishirahamwe rifashe ingingo yo kwinjiza Bitcoin mu vy’ubuhinga bwo guharura amafaranga, ibikoresho bitandukanye be n’amaporogarama yihariye biratuma kwegeranya no gutunganya amakuru vyoroha. Mu bisubizo bizwi cane harimwo [CoinTracker](https://www.cointracker.io/), [Waltio](https://www.waltio.com/), [Cryptio](https://cryptio.co/), [Koinly](https://koinly.io/), [Hentax. [Igitabo ca Zen](https://igitabo ca Zen.io/). Izo nzira zishimika canecane ku bintu bine:
 
 
 - gukusanya amakuru , iki gikorwa kirikora conyene;

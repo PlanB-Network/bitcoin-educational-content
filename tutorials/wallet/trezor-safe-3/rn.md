@@ -6,7 +6,7 @@ description: Gutegura no gukoresha Hardware Wallet Safe 3
 
 
 
-*Ishusho: [Trezor.io]*
+*Ishusho: [Trezor.io](https://trezor.io/)*
 
 
 
@@ -103,7 +103,7 @@ Uzokenera kandi porogarama ya Trezor Suite kugira ngo ushobore gutunganya Safe 3
 
 
 
-[Kura urubuga rwa Trezor Suite ku rubuga rwemewe]
+[Kura urubuga rwa Trezor Suite ku rubuga rwemewe](https://trezor.io/trezor-suite)
 
 
 

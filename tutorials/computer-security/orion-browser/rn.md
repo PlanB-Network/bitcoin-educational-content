@@ -338,7 +338,7 @@ Ushobora gushika ku vyo ukunda biciye ku **Orion → Ivyo ukunda** (canke ⌘,):
 
 
 
-**Impanuro: Sura [Irutonde rw'Iyunguruzo.com](https://urutonde rw'Iyunguruzo.com) kugira ngo ubone ibihumbi vy'urutonde rw'ibintu vy'umwihariko vyiteguye gukoreshwa.**
+**Impanuro: Sura [Irutonde rw'Iyunguruzo.com](https://filterlists.com) kugira ngo ubone ibihumbi vy'urutonde rw'ibintu vy'umwihariko vyiteguye gukoreshwa.**
 
 
 
@@ -377,7 +377,7 @@ Gushiramwo a:
 
 
 
-- Sura [chrome.google.com/iduka ry'urubuga](https://chrome.google.com/webstore) canke [ivyongeweko.mozilla.org](ivyongeweko.mozilla.org)
+- Sura [chrome.google.com/iduka ry'urubuga](https://chrome.google.com/webstore) canke [ivyongeweko.mozilla.org](https://addons.mozilla.org)
 - Fyonda kuri "Ongera kuri Chrome/Firefox"
 - Orion izofata maze ishireho iyo extension ubwayo
 
@@ -645,7 +645,7 @@ Ibuka: kurinda ubuzima bwite bwawe ntibivana gusa n’umucukumbuzi wawe. Gufatan
 - Urubuga rwemewe**: [kagi.com/orion/)
 - Ibibazo vyuzuye**: [umucukumbuzi.kagi.com/ibibazo](https://help.kagi.com/orion/faq/faq.html)
 - Ihuriro ry'abanyagihugu**: [abanyagihugu.kagi.com](https://help.kagi.com/orion/support-and-community/)
-- Gukurikirana ibikoko**: [ibisubizo vya orion.org](https://ibisubizo vya orion.org)
+- Gukurikirana ibikoko**: [ibisubizo vya orion.org](https://orionfeedback.org)
 - GitHub Orion**: [github.com/Umucukumbuzi wa Orion](https://github.com/OrionBrowser) - Ibice vy'inkomoko yuguruye
 - Urubuga rwa Kagi**: [urubuga.kagi.com](https://blog.kagi.com) - Amakuru n'ibindi bishasha
 
@@ -660,9 +660,9 @@ Inyuma yo gutunganya, gerageza gutunganya kwawe:
 
 
 
-- [Fuka Imirongo Yawe (EFF)](https://pfuka imirongo yawe.eff.org/) - Igerageza ry'ibimenyetso vy'urutoke
-- [Igerageza ry'Ukuvuza kwa DNS](igerageza ry'Ubuvuzi bwa DNS.com/) - Suzuma ko DNS ivuza
-- [Ivyasohotse mu mucukumbuzi](https://ivyasohotse mu mucukumbuzi.com/) - Ivyiyumviro vyuzuye vy'ibigeragezo vy'ubuzima bwite
+- [Fuka Imirongo Yawe (EFF)](https://coveryourtracks.eff.org/) - Igerageza ry'ibimenyetso vy'urutoke
+- [Igerageza ry'Ukuvuza kwa DNS](https://www.dnsleaktest.com/) - Suzuma ko DNS ivuza
+- [Ivyasohotse mu mucukumbuzi](https://browserleaks.com/) - Ivyiyumviro vyuzuye vy'ibigeragezo vy'ubuzima bwite
 
 
 

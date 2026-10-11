@@ -115,7 +115,7 @@ Niba ushaka gukoresha COLDCARD yawe utayihuje na mudasobwa (air-gap), shiramwo a
 ![CCQ](assets/fr/005.webp)
 
 
-Kuri iyi nyigisho, uzokenera kandi Sparrow wallet kugira ngo ushobore gucunga Bitcoin Wallet yawe kuri mudasobwa yawe. Ushobora gukuraho [Sparrow wallet](https/gukuraho/) ku rubuga rwemewe. Ndaguhanura cane ko wosuzuma ukuri kwayo (na GnuPG) n’ubutungane bwayo (biciye kuri Hash) imbere yo gukomeza gushiramwo. Niba utazi uko wobikora, kurikiza iyi nyigisho:
+Kuri iyi nyigisho, uzokenera kandi Sparrow wallet kugira ngo ushobore gucunga Bitcoin Wallet yawe kuri mudasobwa yawe. Ushobora gukuraho [Sparrow wallet](https://sparrowwallet.com/download/) ku rubuga rwemewe. Ndaguhanura cane ko wosuzuma ukuri kwayo (na GnuPG) n’ubutungane bwayo (biciye kuri Hash) imbere yo gukomeza gushiramwo. Niba utazi uko wobikora, kurikiza iyi nyigisho:
 
 
 https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc

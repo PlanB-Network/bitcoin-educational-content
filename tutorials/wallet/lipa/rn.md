@@ -231,5 +231,5 @@ Lipa ni ihitamwo ryiza cane ryo gutangura gukoresha Lightning Network, cane cane
 
 
 
-- [Urubuga rwemewe rwa Lipa]
-- [Infashanyo ya Lipa](kuronka Lipa.atlassian.net/ibiro vy'ubufasha/umukiriya/urubuga/1)
+- [Urubuga rwemewe rwa Lipa](https://lipa.swiss/)
+- [Infashanyo ya Lipa](https://getlipa.atlassian.net/servicedesk/customer/portal/1)

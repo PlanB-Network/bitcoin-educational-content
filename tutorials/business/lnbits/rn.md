@@ -43,7 +43,7 @@ ICIBUKIRO: amahera yose “abakiriya” bawe bashira muri konti zabo za banki za
 ## Urubuga rw'iyerekanwa
 
 
-Ivyo bimenyetso ushobora kubisanga kuri [https://inkuru.lnbits.com](inkuru.inkuru.com). Ikora neza kandi ishobora gukoreshwa mu kwiga ivyerekeye Lightning Network n’ibiranga LNbits na LNURL muri rusangi. Naho tutashobora kubibuza turashaka kubasaba ko mutabikoresha mu gutegura ibikorwa vyanyu. Si uko gusa turiko turakora ku ma server kenshi kugira ngo tugerageze ibintu bishasha ariko kandi turashaka kubaremesha gukoresha node yanyu bwite na LNbits mu buryo bw’ubusegaba. Niba wibaza ko gukoresha node ari vyinshi cane bisabwa muri iki gihe ushobora gufatanya LNbits n’umucungezi w’amahera sservice mu gicu nka Opennode, Luna canke Votage canke na Lightning Tipbot kuri Telegram kugira ngo tuvuge bimwe.
+Ivyo bimenyetso ushobora kubisanga kuri [https://inkuru.lnbits.com](https://demo.lnbits.com). Ikora neza kandi ishobora gukoreshwa mu kwiga ivyerekeye Lightning Network n’ibiranga LNbits na LNURL muri rusangi. Naho tutashobora kubibuza turashaka kubasaba ko mutabikoresha mu gutegura ibikorwa vyanyu. Si uko gusa turiko turakora ku ma server kenshi kugira ngo tugerageze ibintu bishasha ariko kandi turashaka kubaremesha gukoresha node yanyu bwite na LNbits mu buryo bw’ubusegaba. Niba wibaza ko gukoresha node ari vyinshi cane bisabwa muri iki gihe ushobora gufatanya LNbits n’umucungezi w’amahera sservice mu gicu nka Opennode, Luna canke Votage canke na Lightning Tipbot kuri Telegram kugira ngo tuvuge bimwe.
 
 
 ## LNbits
@@ -69,9 +69,9 @@ Imbere yo gushiramwo LNbits urabe neza ko warasomye kandi ugatahura uburongozi r
 
 
 - [Igitabu ca LND](https://docs.lightning.engineering/) | Gushiramwo LND
-- [Urugero rw'Imiterere ya LND](Urugero rw'Imiravyo/LND/Igikoresho/Umukuru/Urugero-LND.conf) | LND Amagenamiterere
+- [Urugero rw'Imiterere ya LND](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | LND Amagenamiterere
 - [Inyigisho ya CLN](https://docs.corelightning.org/docs/installation) | Gushiramwo CLN
-- [Ivyiyumviro](Ivyiyumviro) Ivyerekeye LNURL | [Ivyiyumviro](imbuga ngurukanabumenyi)
+- [Ivyiyumviro](https://github.com/lnurl/luds) Ivyerekeye LNURL | [Ivyiyumviro](https://github.com/nostr-protocol/nips)
 - [Gukoresha Watchtower](https://docs.lightning.engineering/lightning-network-tools/lnd/watchtower) | Ni ivy’agaciro cane!
 
 
@@ -79,13 +79,13 @@ Ibindi vyiyumviro vy'ido n'ido bikoresha LNbits mu bihe vy'ikoreshwa vyihariye h
 
 
 
-- [Gutangura n'ama LNbits](https/gutangura-ama-lnbits) | Inyobora y'ikirundo
-- [ToDos kubera umutekano wawe n'ibice vya LN] Amasanamu yo kuri Youtube
-- [Amabanki yigenga kuri Lightning Network](Bitcoin-amabanki-yigenga-ku-muravyo) | Uburongozi bw'ikirundo
+- [Gutangura n'ama LNbits](https://darthcoin.substack.com/p/getting-started-lnbits) | Inyobora y'ikirundo
+- [ToDos kubera umutekano wawe n'ibice vya LN](https://youtu.be/i5FQf96e6zg) Amasanamu yo kuri Youtube
+- [Amabanki yigenga kuri Lightning Network](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | Uburongozi bw'ikirundo
 - [Gukoresha amasakoshi y’ababikira abagenzi bawe n’umuryango wawe](https://darthcoin.substack.com/p/the-bank-of-lnbits) | Uburongozi bw'ikirundo
-- [Ibiciro vy’iresitora / hoteli ntoyi](Ibiciro vy’abacuruzi batobato) | Uburongozi bw'ikirundo
-- [Ukoresheje umudereva w'umudereva wa LNbits](https://darthcoin. Inyobora y'ikirundo
-- [Tangira Isoko ryawe rya NOSTR n'ibice vy'agaciro](Isoko ry'ibice vy'agaciro) | Uburongozi bw'ikirundo
+- [Ibiciro vy’iresitora / hoteli ntoyi](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | Uburongozi bw'ikirundo
+- [Ukoresheje umudereva w'umudereva wa LNbits](https://darthcoin.substack.com/p/lnbits-streamer-copilot). Inyobora y'ikirundo
+- [Tangira Isoko ryawe rya NOSTR n'ibice vy'agaciro](https://darthcoin.substack.com/p/lnbits-nostr-market) | Uburongozi bw'ikirundo
 - [Gukoresha LNbits ku migambi y'amashure canke ibirori vy'ibirori](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools) Inyobora
 
 
@@ -105,18 +105,18 @@ Ushobora guhitamwo hagati y’abarongozi b’amapaki basanzwe nk’imivugo na ni
 Ku muntu wese mushasha muri ivyo, uzosanga ubuyobozi burambuye bw'intambwe ku yindi bwo gutuma LNbits zawe zikora mu bidukikije vyihariye:
 
 
-- [Ibice vya LN ku rubuga rutomoye](https: umurongo w'imbere.
-- [Ibice vya LN kuri VPS](ibice vya LN) na Hannes
-- [Ibice vya LN ku gicu](Ibice vy'Ivyigwa) vyanditswe na Leo
+- [Ibice vya LN ku rubuga rutomoye](https://ereignishorizont.xyz/lnbits-server/en/): umurongo w'imbere.
+- [Ibice vya LN kuri VPS](https://github.com/TrezorHannes/vps-lnbits) na Hannes
+- [Ibice vya LN ku gicu](https://www.nodeacademy.org/lnbits) vyanditswe na Leo
 
 
-Ushobora kandi kubona videwo ku [gutegura kuri VPS ikoresheje PostgreSQ, LightningTipBot nk’inkomoko y’amahera ukoresheje nginx](ingene woheza-ugutegura-vps/).
+Ushobora kandi kubona videwo ku [gutegura kuri VPS ikoresheje PostgreSQ, LightningTipBot nk’inkomoko y’amahera ukoresheje nginx](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/).
 
 
-[Ibindi bimenyetso vyo gushiramwo hano](https:
+[Ibindi bimenyetso vyo gushiramwo hano](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server):
 
 
-Ku bijanye n'ibice vy'amaporogarama, usabwe kuraba inyandiko zabo zidasanzwe ku bijanye na LNbits: [Umutaka](https://umbrel.com) | [Igikoresho canje](https://igikoresho canje.com) | [Ikinyamakuru c'Igihugu](Igitabu c'Igihugu c'Igihugu/) | [Igikoresho c'Igikoresho]( https://Igikoresho c'Igikoresho.org)
+Ku bijanye n'ibice vy'amaporogarama, usabwe kuraba inyandiko zabo zidasanzwe ku bijanye na LNbits: [Umutaka](https://umbrel.com) | [Igikoresho canje](https://mynodebtc.com) | [Ikinyamakuru c'Igihugu](https://raspiblitz.org/) | [Igikoresho c'Igikoresho](https://raspibolt.org)
 
 
 ### LNibice SaaS
@@ -210,7 +210,7 @@ Kugira ngo ushiremwo amakuru y'inyama zawe, koresha `./venv/bin/inyama z'ingurub
 > **Imburi (Gitugutu 2026):** LightningTipBot na ln.tips vyarahagaze; ihagarikwa ryatangajwe ku wa 29 Ndamukiza 2024. Iyi nzira y'amahera ntigikora, kiretse wiyakiriye bot yawe bwite.
 
 
-Kugira ngo uhuze [Impanuro y'Umuravyo](https://t.me/Impanuro y'Umuravyo) yawe kuri Telegram uzokenera gushinga ibi bikurikira:
+Kugira ngo uhuze [Impanuro y'Umuravyo](https://t.me/LightningTipBot) yawe kuri Telegram uzokenera gushinga ibi bikurikira:
 
 
   - `LNBITS_INYUMA_IKIGANIRO_IKIGO`: **Igikapu c'Impanuro za Ln**
@@ -218,7 +218,7 @@ Kugira ngo uhuze [Impanuro y'Umuravyo](https://t.me/Impanuro y'Umuravyo) yawe ku
   - `LNBITS_KEY`: Kugira ngo ubone Urufunguzo uzokenera gukoresha /api mu kiganiro c'ibanga na Tipbot y'Umuravyo kuri Telegram rimwe.
 
 
-Raba kandi iyi nyigisho ingene woshiramwo [LNbits na LightningTipBot biciye kuri vps](ingene woheza-gushinga-vps/)
+Raba kandi iyi nyigisho ingene woshiramwo [LNbits na LightningTipBot biciye kuri vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
 
 
 #### IKIBANZA C'IBEX
@@ -226,7 +226,7 @@ Raba kandi iyi nyigisho ingene woshiramwo [LNbits na LightningTipBot biciye kuri
 
 Iyandikishe [hano](https://ibexpay.ibexmercado.com/onboard) hanyuma ubone imfunguruzo zawe/ibimenyetso vyawe uhereye ng’aho, iherezo ni https://ibexpay-api.
 
-Ibindi bisobanuro raba [IBEX API-Inyandiko](https://ibexpay-api.soma.io/ishingiro/gutangura-na-api-yawe).
+Ibindi bisobanuro raba [IBEX API-Inyandiko](https://ibexpay-api.readme.io/reference/getting-started-with-your-api).
 
 
 #### LNPishura
@@ -480,7 +480,7 @@ Igihe cose ubike kopi ya Wallet-URL yawe, Export2phone-QR canke LNDhub kugira ng
 
 #### Wallet ku nzira yawe y'amahera
 
-Igihe cose ubike kopi ya Wallet-URL yawe, Export2phone-QR canke LNDhub kugira ngo ukoreshe amasakoshi yawe bwite ahantu hatagira inkomanzi. Ushobora kubona abakoresha bose ba LNbits na Wallet-IDs mu nzira yawe y'umuyobozi w'abakoresha ba LNbits canke mu rutonde rwawe rwa sqlite. Kugira ngo uhindure canke usome urutonde rw’amakuru rwa LNbits, genda muri dosiye ya LNbits /data maze urondere dosiye yitwa sqlite.db. Ushobora kuyifungura no kuyihindura ukoresheje excel canke ukoresheje SQL-Editor yihariye nka [umucukumbuzi wa SQLite](https://mucukumbuzi wa SQLite.org/).
+Igihe cose ubike kopi ya Wallet-URL yawe, Export2phone-QR canke LNDhub kugira ngo ukoreshe amasakoshi yawe bwite ahantu hatagira inkomanzi. Ushobora kubona abakoresha bose ba LNbits na Wallet-IDs mu nzira yawe y'umuyobozi w'abakoresha ba LNbits canke mu rutonde rwawe rwa sqlite. Kugira ngo uhindure canke usome urutonde rw’amakuru rwa LNbits, genda muri dosiye ya LNbits /data maze urondere dosiye yitwa sqlite.db. Ushobora kuyifungura no kuyihindura ukoresheje excel canke ukoresheje SQL-Editor yihariye nka [umucukumbuzi wa SQLite](https://sqlitebrowser.org/).
 
 
 Kandi ushobora gutera ama wallets biciye kuri CLI maze ukabona Wallet yose iri mu rutonde rwawe.
@@ -518,7 +518,7 @@ Aho usubiriza f8a43fc363ea428db5c53b3559935f1f n'agaciro kaza imbere y'izina (mu
 ##### LNURL ku muravyo-Address ibihushanye n'ivyo
 
 
-Gerageza iki [codecoder](https://lnurl-codec.netlify.app/) kivuye kuri fiatjaf canke [iki](https://icodecoder y'umuravyo.com/). Kugira ngo wishyure canke usuzume LNURLp ushobora gukoresha [LNurlpay](https://www.lnurlpay.com/). Ishobora kuvuga HTTPS ATARI HTTP.
+Gerageza iki [codecoder](https://lnurl-codec.netlify.app/) kivuye kuri fiatjaf canke [iki](https://lightningdecoder.com/). Kugira ngo wishyure canke usuzume LNURLp ushobora gukoresha [LNurlpay](https://www.lnurlpay.com/). Ishobora kuvuga HTTPS ATARI HTTP.
 
 
 
@@ -576,7 +576,7 @@ Mu nsiguro y’ibikorwa vyawe uzosangamwo umwampi mutoyi wa Green ku bijanye n�
 Niwafyonda kuri iyo myampi, ubutumwa burasohoka bugaragara hamwe n'izina ry'uwaburungitse iyo ryatanzwe.
 
 
-Kugira ngo utunganye izina kugira ngo riboneka mu kwishura, muri LNbits ivyo ubu ntibishoboka gukorwa - ariko kwakira. Ivyo bishoboka gusa iyo LN Wallet y’uwurungitse ishigikiye [LUD-18](izinaDesc) nka [OBW, Blixt, Alby, ZBD, BitBanana](inyandiko z'inyandiko).
+Kugira ngo utunganye izina kugira ngo riboneka mu kwishura, muri LNbits ivyo ubu ntibishoboka gukorwa - ariko kwakira. Ivyo bishoboka gusa iyo LN Wallet y’uwurungitse ishigikiye [LUD-18](https://github.com/lnurl/luds/blob/luds/18.md)(izinaDesc) nka [OBW, Blixt, Alby, ZBD, BitBanana](https://github.com/lnurl/luds?tab=readme-ov-file#lnurl-documents).
 
 
 Uzoca ubona izina ry’uruyeri/izina ry’uruyeri mu gice c’ibisobanuro vy’ibikorwa vyawe vya LNbits (kanda imyampi). Zirikana ko ushobora gutanga izina iryo ari ryo ryose kandi rishobora kuba ridafitaniye isano n ́izina ry ́uwo ryarungitse iyo uronse iryo zina.
@@ -588,13 +588,13 @@ Uzoca ubona izina ry’uruyeri/izina ry’uruyeri mu gice c’ibisobanuro vy’i
 Kugira ngo ushiremwo konti yawe ya LNbits muri app ya Wallet, fungura LNbits yawe ufise konti / Wallet ushaka gukoresha, uje kuri "gucungera ama extensions" hanyuma ukoreshe extension ya LNDHUB. Ugurure extension ya LNDHUB, uhitemwo Wallet ushaka gukoresha hanyuma ukore scanner "admin" canke "Invoice gusa" QR, bivanye n'urugero rw'umutekano ushaka kuri iyo Wallet.
 
 
-Ushobora gukoresha [Zeus](Zeus]() canke [Bluewallet](Bluewallet]() nk'amaporogarama ya Wallet kuri konti ya lndhub aho BW ishigikira Wallet zirenga imwe.
+Ushobora gukoresha [Zeus](https://zeusln.app/) canke [Bluewallet](https://bluewallet.io/) nk'amaporogarama ya Wallet kuri konti ya lndhub aho BW ishigikira Wallet zirenga imwe.
 
 
 Igihe ukora ivyo turagusavye gushinga URI y'urubuga rwa LN ku rwego rwawe bwite. Niba instance yawe ya LNbits ari Tor gusa, ubwirizwa kandi gukoresha izo porogaramu zifise Tor ikoreshwa. Kandi muri iki gihe ukeneye gufungura urupapuro rwa LNbits biciye kuri Tor .onion Address yawe.
 
 
-Niba ufise Ikosa "ubwoko bwa Hash butashigikiwe" igihe ukoresha ypub mu kwagura On-Chain, suzuma nimba instance yawe ya LNbits ikoresha python 3.10 yoshobora gushikirwa na [iki ikibazo](ibibazo/72409563/bidashigikiwe-Hash-ubwoko-ripemd160-n'hashlib-mu-pithon). Guhindura openssl.cnf nk'uko vyavuzwe mu nyishu ya stackoverflow hanyuma wongere utangure LNbits zawe.
+Niba ufise Ikosa "ubwoko bwa Hash butashigikiwe" igihe ukoresha ypub mu kwagura On-Chain, suzuma nimba instance yawe ya LNbits ikoresha python 3.10 yoshobora gushikirwa na [iki ikibazo](https://stackoverflow.com/questions/72409563/unsupported-hash-type-ripemd160-with-hashlib-in-python). Guhindura openssl.cnf nk'uko vyavuzwe mu nyishu ya stackoverflow hanyuma wongere utangure LNbits zawe.
 
 
 
@@ -604,7 +604,7 @@ Niba ufise Ikosa "ubwoko bwa Hash butashigikiwe" igihe ukoresha ypub mu kwagura 
 LNbits ifise ubwoko bwose bw'ibikoresho vyo gukora porogarama no gufatanya n'ibikoresho vyinshi bitandukanye ku bikorwa vyinshi.
 
 
-Igihe uri mushasha mu kwubaka tangura n’ibi [ibiganiro vya MakerBits](amasanamu) bivuye kuri Ben Arc ku bijanye no kwubaka ibikoresho bishingiye kuri LNbits.
+Igihe uri mushasha mu kwubaka tangura n’ibi [ibiganiro vya MakerBits](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) bivuye kuri Ben Arc ku bijanye no kwubaka ibikoresho bishingiye kuri LNbits.
 
 
 #### BIHAMBAYE:
@@ -633,24 +633,24 @@ Aha hariho ivyiciro vy'imigambi ushobora kwubaka ukoresheje LNbits:
 
 
 
-- [Igikoresho co Gusinya Nostr](Igikoresho-n'Inyubako-n'Igikoresho co Gusinya Nostr)
-- [Imashini y'Ivy'Imikino](Igikoresho-n'Inyubako-n'Ivy'Imikino#imashini-y'Ivy'Imikino)
-- [Gerty](Ibikoresho-n'Inyubako-n'Ibice#gerty)
-- [Itara rya Nostr Zap](Ibikoresho-n'Inyubako-n'Itara rya Zap)
-- [BTC/LN ATM](Ibikoresho-n'Inyubako-n'Ibice #atm)
-- [LNPoS](Ibikoresho-n'Inyubako-n'Ibice-LNpos#Iherezo-lnpos)
-- [Ingurube y'umuravyo](https://github.com/ibice/ibice/wiki/Ibikoresho-n'Inyubako-n'ibice-vy'umuravyo#ingurube-y'umuravyo)
-- [Hardware Wallet](Ibikoresho-n'Inyubako-n'Ibice-Wallet)
-- [Bitcoin Ihindura](Ibikoresho-n'Inyubako-n'Ibice-Bitcoin-Ihindura)
-- [Imashini yo kugurisha](Ibikoresho-n'Inyubako-n'Imashini yo Gucuruza)
-- [Igipfukisho](Ibikoresho-n'Inyubako-n'Ibice-Ibice#Igikoresho)
-- [Umucukuzi w'Ibikoresho](Umucukuzi w'Ibikoresho-n'Inyubako-n'Umucukuzi w'Ibikoresho)
-- [Ikimenyetso ca Bitcoin](Igikoresho-n'Inyubako-n'Ikimenyetso ca Bitcoin)
-- [Isaha ya BTC](Igikoresho-n'Inyubako-n'Isaha ya Bt)
-- [Lora na Mesh Urubuga](Ibikoresho-n'Inyubako-n'Ibice#lora)
+- [Igikoresho co Gusinya Nostr](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#nostr-signing-device)
+- [Imashini y'Ivy'Imikino](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#arcade-machine)
+- [Gerty](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#gerty)
+- [Itara rya Nostr Zap](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#zap-lamp)
+- [BTC/LN ATM](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#atm)
+- [LNPoS](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lnpos-terminal)
+- [Ingurube y'umuravyo](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lightning-piggy)
+- [Hardware Wallet](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#hardware-wallet)
+- [Bitcoin Ihindura](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bitcoin-switch)
+- [Imashini yo kugurisha](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#vending-machine)
+- [Igipfukisho](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bolty)
+- [Umucukuzi w'Ibikoresho](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#Nerdminer)
+- [Ikimenyetso ca Bitcoin](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bitcoin-ticker)
+- [Isaha ya BTC](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#btclock)
+- [Lora na Mesh Urubuga](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lora)
 
 
 
 - [ABAFASHA N'IBIKORESHO](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#resources)
-- [Ibindi bigereranyo vy'imigambi "Ikoreshwa n'ibice vy'umubiri" hano](https://github.com/ibice vy'umubiri/wiki/Ikoreshwa n'ibice vy'umubiri).
-- [Koresha ibibazo ku bice vya LN](https://github.com/ibice/ibice/wiki/Ikoreshwa-ry'ibice-vy'ibice)
+- [Ibindi bigereranyo vy'imigambi "Ikoreshwa n'ibice vy'umubiri" hano](https://github.com/lnbits/lnbits/wiki/Powered-by-LNbits).
+- [Koresha ibibazo ku bice vya LN](https://github.com/lnbits/lnbits/wiki/Use-Cases-of-LNbits)

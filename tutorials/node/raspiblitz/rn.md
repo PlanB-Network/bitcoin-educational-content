@@ -91,10 +91,10 @@ Sha-256 Hash y’iyo dosiye yavanwe iraboneka ku rubuga. Bizohinduka uko bigenda
 Imbere yo gukomeza, nimba utazi inzira yawe yo gukikuza dosiye ku murongo w’amabwirizwa, biroroshe kwiga, kandi ukwiye kubimenya.
 
 
-Aha ni [videwo y’ingirakamaro kuri Linux, ariko ikoreshwa kuri Mac](urutonde rw’ibintu) na yo nyene.
+Aha ni [videwo y’ingirakamaro kuri Linux, ariko ikoreshwa kuri Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK) na yo nyene.
 
 
-Ku madirisha, ng’iyi [inyigisho yoroshe](v=MBBWVgE0ewk&t=1s).
+Ku madirisha, ng’iyi [inyigisho yoroshe](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
 
 _UPDATE: pgp/gpg kugenzura ubu biraboneka. Amashusho ya RaspiBlitz yo muri iki gihe asinywa na rootzoll, si Openoms (igikumu c'urufunguzo: 92A746AE33A3C186D014BF5C1C73060C7C176461). [FAQ yemewe](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download) itanga urufunguzo n'itegeko `gpg --verify`._
@@ -135,7 +135,7 @@ Iyo orodinateri irazirikana amasegonda 20 canke arenga. Suzuma ko hashfile y’i
 ### Intambwe ya 4: Flash ikarita SD
 
 
-Ushobora gukoresha igikoresho ca Balena kugira ngo ubikore. [Uyikure hano](ku rubuga rwa interineti).
+Ushobora gukoresha igikoresho ca Balena kugira ngo ubikore. [Uyikure hano](https://www.balena.io/etcher/).
 
 
 Etcher ni umuntu yisigura gukoresha. Injira ikarita yawe ya micro SD hanyuma ushireko porogarama ya Raspiblitz (dosiye .img) kuri iyo karita.

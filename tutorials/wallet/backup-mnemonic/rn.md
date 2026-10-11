@@ -62,13 +62,13 @@ Kugira ngo uzigame ijambo ryawe ryo gukira, urakeneye kurindika ku kintu kigarag
 Naho kwandika amajambo yawe ku mpapuro yoroshe ari akamenyero keza, guhitamwo ikintu co gufatako ivyuma, nk’icuma kitagira ibara, biratuma urushiriza kugira umutekano. Ubwo bwoko bw’igikoresho burakingira ijambo ryawe rya Mnemonic ingorane z’umuriro, umwuzure canke ugusenyuka bishobora gutuma aho ubika.
 
 
-Ku barondera uburyo bwo gushigikira ijambo ryabo ku cuma, [uburyo bwo kwikorera bwite bwa "*SAFU Ninja*"] Ico ukeneye gukora n’ugugura ibikoresho vyo gusukura ivyuma, umugozi n’umugozi mu maduka. Hanyuma ugacapura amajambo y’interuro yawe ku gikoresho cose co gusukura, ukamenya neza ko uyaha inomero, hanyuma ukayateranya ku gipfukisho gifise iyo nkoko. Ubwo buryo butazimvye burasanzwe butanga ubushobozi bwo kurwanya neza.
+Ku barondera uburyo bwo gushigikira ijambo ryabo ku cuma, [uburyo bwo kwikorera bwite bwa "*SAFU Ninja*"](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) Ico ukeneye gukora n’ugugura ibikoresho vyo gusukura ivyuma, umugozi n’umugozi mu maduka. Hanyuma ugacapura amajambo y’interuro yawe ku gikoresho cose co gusukura, ukamenya neza ko uyaha inomero, hanyuma ukayateranya ku gipfukisho gifise iyo nkoko. Ubwo buryo butazimvye burasanzwe butanga ubushobozi bwo kurwanya neza.
 
 
 ![SEED](assets/fr/01.webp)
 
 
-Igishushanyo: [*Isuzuma rya SAFU Ninja*, Jameson Lopp]
+Igishushanyo: [*Isuzuma rya SAFU Ninja*, Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/)
 
 
 Niba ushaka gushiramwo amahera mu gikoresho co gucungera ivyuma vyuzuye, ndagusavye ko woraba [ibipimo vy’ubudahangarwa vya Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/), bisuzuma inyishu nyinshi ziboneka ku isoko. Naguhanura ngo uhitemwo ibifatanya n’ibindi, nk’isahani y’icuma yo gucapura, gutera ikidodo canke gutera ibipfunsi. Ivyo bikoresho muri rusangi biratanga ubushobozi bwo guhangana n’ibintu vyinshi cane kuruta ubuhinga bukoresha amajambo yigenga kugira ngo akoranirizwe hamwe.

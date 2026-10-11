@@ -383,7 +383,7 @@ Mu vyiyumviro, Bitcoin core ntiserukira umurongo wa Bitcoin; ahubwo ni ugushirwa
 
 
 
-Dushingiye ku [amakuru yashizwe hamwe muri Myandagaro 2025 na Luke Dashjr](umuhinga mu bijanye n’ugutegura ibintu azwi cane mu bijanye n’ibidukikije), ugukwiragira kw’ibikorwa hagati y’ibice vya bose vy’urubuga ni nk’uko bikurikira:
+Dushingiye ku [amakuru yashizwe hamwe muri Myandagaro 2025 na Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html)(umuhinga mu bijanye n’ugutegura ibintu azwi cane mu bijanye n’ibidukikije), ugukwiragira kw’ibikorwa hagati y’ibice vya bose vy’urubuga ni nk’uko bikurikira:
 
 
 
@@ -853,7 +853,7 @@ Ubu ni bwo buryo bufise ubusegaba kandi bushobora guhinduka: urazi neza ibiriko 
 
 
 
-[Bitcoin core ni umukiriya w’urubuga rw’abantu benshi cane] Ikura, yemeza, kandi ikabungabunga Blockchain, itanga [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST APIs, kandi ishobora gushiramwo Wallet. Niba ukunda ibikoresho bisanzwe kandi wumva ushobora kwongerako ibikorwa wewe nyene (nk’umukozi wa Electrum, explorer, na LND), urashobora gukoresha Core uko iri.
+[Bitcoin core ni umukiriya w’urubuga rw’abantu benshi cane](https://bitcoincore.org/) Ikura, yemeza, kandi ikabungabunga Blockchain, itanga [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST APIs, kandi ishobora gushiramwo Wallet. Niba ukunda ibikoresho bisanzwe kandi wumva ushobora kwongerako ibikorwa wewe nyene (nk’umukozi wa Electrum, explorer, na LND), urashobora gukoresha Core uko iri.
 
 
 
@@ -873,7 +873,7 @@ https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e
 
 
 
-[Bitcoin Knots ni Fork ya Bitcoin core], icungiwe na Luka Dashjr. Ni umukiriya nyamukuru w’ubundi buryo bwo gushitsa amasezerano ya Bitcoin. Ihuye neza n’ibindi bice vy’urubuga (ntabwo ari Hard Fork nka Bitcoin Cash), naho biri ukwo itanga ibindi bintu, harimwo n’amahitamwo y’ingingo ngenderwako y’ugutanga amakuru ataboneka muri Core, canke ikoreshwa cane cane ku buryo busanzwe kugira ngo igabanye ivyo bamwe babona ko ari spam.
+[Bitcoin Knots ni Fork ya Bitcoin core](https://bitcoinknots.org/), icungiwe na Luka Dashjr. Ni umukiriya nyamukuru w’ubundi buryo bwo gushitsa amasezerano ya Bitcoin. Ihuye neza n’ibindi bice vy’urubuga (ntabwo ari Hard Fork nka Bitcoin Cash), naho biri ukwo itanga ibindi bintu, harimwo n’amahitamwo y’ingingo ngenderwako y’ugutanga amakuru ataboneka muri Core, canke ikoreshwa cane cane ku buryo busanzwe kugira ngo igabanye ivyo bamwe babona ko ari spam.
 
 
 
@@ -992,7 +992,7 @@ https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 
 
-[RaspiBlitz ni umugambi w’inkomoko yuguruye 100%](uruhusha rwa MIT) rwo gushiramwo urudodo rwa Bitcoin n’urudodo rwa Lightning kuri Raspberry Pi. Gusa n’uwukureho ishusho, uyifungure, hanyuma ukurikire umupfumu kugira ngo ugire urudodo rukora-mu-gasanduku kuri Raspberry Pi yawe. Ivyo bikoresho vy’imbere y’igihe na vyo nyene biraboneka ku bandi, akenshi bikaba biri hagati y’amadolari 300 n’amadolari 400, bivanye n’ibikoresho. RaspiBlitz kandi itanga urutonde rw’ibindi bikoresho vy’inyongera, vyoroshe gushiramwo.
+[RaspiBlitz ni umugambi w’inkomoko yuguruye 100%](https://docs.raspiblitz.org/)(uruhusha rwa MIT) rwo gushiramwo urudodo rwa Bitcoin n’urudodo rwa Lightning kuri Raspberry Pi. Gusa n’uwukureho ishusho, uyifungure, hanyuma ukurikire umupfumu kugira ngo ugire urudodo rukora-mu-gasanduku kuri Raspberry Pi yawe. Ivyo bikoresho vy’imbere y’igihe na vyo nyene biraboneka ku bandi, akenshi bikaba biri hagati y’amadolari 300 n’amadolari 400, bivanye n’ibikoresho. RaspiBlitz kandi itanga urutonde rw’ibindi bikoresho vy’inyongera, vyoroshe gushiramwo.
 
 
 
@@ -1447,7 +1447,7 @@ Umbrel itanga uburyo bubiri butandukanye:
 
 
 
-- [**umbrelOS**](https://umbrelOS**](https://umbrel.com/umbrelos): iyi ni yo nzira yo gukoresha ushobora kwishiramwo wewe nyene ku bikoresho vyawe bwite (mini-PC, NUC, umunara, laptop yihariye...). Ufise Interface imwe n’iyi App Store nk’iyo uri ku nzu y’umutaka.
+- [**umbrelOS**](https://umbrel.com/umbrelos): iyi ni yo nzira yo gukoresha ushobora kwishiramwo wewe nyene ku bikoresho vyawe bwite (mini-PC, NUC, umunara, laptop yihariye...). Ufise Interface imwe n’iyi App Store nk’iyo uri ku nzu y’umutaka.
 
 
 
@@ -1619,7 +1619,7 @@ Imbere yo gushiramwo UmbrelOS ku mashine yawe, uzokenera gukora urufunguzo rwa U
 
 
 
-Genda kuri [urubuga rwemewe rwa Umbrel kugira ngo ubone ishusho ya ISO](https://gukuraho. Raba neza ko uhisemwo verisiyo ihuye n'ubwubatsi bwa x86_64 (dosiye yitwa `umbrelos-amd64-usb-installer.iso`). Gukuraho ishusho bishobora gutwara umwanya, kuko ishusho ari nini cane.
+Genda kuri [urubuga rwemewe rwa Umbrel kugira ngo ubone ishusho ya ISO](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso). Raba neza ko uhisemwo verisiyo ihuye n'ubwubatsi bwa x86_64 (dosiye yitwa `umbrelos-amd64-usb-installer.iso`). Gukuraho ishusho bishobora gutwara umwanya, kuko ishusho ari nini cane.
 
 
 
@@ -2042,7 +2042,7 @@ Urabe maso kugira ngo ntuhe agaciro kanini cane ku mashine yawe. Iyo RAM iriho k
 
 
 
-Kugira ngo umenye vyinshi ku ngaruka z’umurongo wa `dbcache` ku guhuza kwa mbere, ndagusavye gukora iyi nseguro yakozwe na Jameson Lopp: [*Ingaruka z’Ingano ya DBcache ku Muvuduko wo Guhuza Node ya Bitcoin*]
+Kugira ngo umenye vyinshi ku ngaruka z’umurongo wa `dbcache` ku guhuza kwa mbere, ndagusavye gukora iyi nseguro yakozwe na Jameson Lopp: [*Ingaruka z’Ingano ya DBcache ku Muvuduko wo Guhuza Node ya Bitcoin*](https://blog.lopp.net/effects-dbcache-size-Bitcoin-node-sync-speed/)
 
 
 

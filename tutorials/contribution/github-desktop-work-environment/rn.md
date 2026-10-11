@@ -77,7 +77,7 @@ Hariho porogarama nyinshi cane zijanye n’uguhindura amadosiye ya Markdown, nka
 
 
 
-- Genda ku bubiko bw'amakuru y'urubuga rwa PlanB kuri Address ikurikira: [https://github.com/urubuga rwa PlanB/Bitcoin-ibirimwo-inyigisho]
+- Genda ku bubiko bw'amakuru y'urubuga rwa PlanB kuri Address ikurikira: [https://github.com/urubuga rwa PlanB/Bitcoin-ibirimwo-inyigisho](https://github.com/PlanB-Network/bitcoin-educational-content)
 - Kuva kuri iyi paji, kanda kuri buto `Fork` iri hejuru iburyo bw'idirisha: ![github-desktop](itunga/11.webp)
 - Mu nzira y'irema, ushobora gusiga ivyashizweho mburabuzi. Raba neza ko `Kopa ishami ry'iterambere gusa` akazu kagenzuwe, hanyuma ukande ku buto `Rema Fork`: ![github-desktop](itunga/12.webp)
 - Uzoca ushika kuri Fork yawe bwite y'ububiko bw'urubuga rwa PlanB: ![github-desktop](itunga/13.webp)

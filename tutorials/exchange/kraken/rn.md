@@ -28,7 +28,7 @@ https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a
 
 
 
-Genda kuri [urubuga rwemewe rwa Kraken](www.kraken.com/). Ku rupapuro rw'intango, rondera maze ukande kuri "Sign Up" iri hejuru iburyo kugira ngo utangure gukora konti yawe.
+Genda kuri [urubuga rwemewe rwa Kraken](https://www.kraken.com/). Ku rupapuro rw'intango, rondera maze ukande kuri "Sign Up" iri hejuru iburyo kugira ngo utangure gukora konti yawe.
 
 
 

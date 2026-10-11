@@ -10,7 +10,7 @@ description: Wallet yoroshe cane yo gucungera kugira ngo utangure
 
 ---
 
-_Iyi nyigisho yanditswe na_ [Ishure ryisumbuye rya Bitcoin]
+_Iyi nyigisho yanditswe na_ [Ishure ryisumbuye rya Bitcoin](https://linktr.ee/bitcoincampus_)
 
 
 ## Gukuraho, Gushiraho no Gukoresha Wallet ya Satoshi.
@@ -18,7 +18,7 @@ _Iyi nyigisho yanditswe na_ [Ishure ryisumbuye rya Bitcoin]
 
 Wallet ya Satoshi ni Lightning Network Wallet, ishobora kubikwa, kandi yoroshe cane gukoresha.
 
-Kubera intumbero z’amashure [BTC105 - Kuronka Ubu], rikoreshwa ku mpapuro z’amahera za Redeem Lightning Network.
+Kubera intumbero z’amashure [BTC105 - Kuronka Ubu](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), rikoreshwa ku mpapuro z’amahera za Redeem Lightning Network.
 
 
 **Imisi yose wibuke**: _si imfunguruzo zawe, si ibiceri vyawe_

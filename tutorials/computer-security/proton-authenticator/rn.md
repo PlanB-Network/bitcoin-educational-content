@@ -597,7 +597,7 @@ Inyuma yo gutunganya, gerageza gutunganya kwawe:
 
 - - Umuryango wemewe wa Proton
 - Ihuriro ry'Inyigisho z'Ibanga**: [kuganira.Inyigisho z'Ibanga.net](https://discuss.privacyguides.net) - Ibiganiro vy'ubuhinga ku bibazo vy'ubuzima bwite
-- Reddit r/ubuzima bwite**: [reddit.com/r/ubuzima bwite](https://reddit.com/r/ubuzima bwite) - Impanuro rusangi ku vyerekeye ubuzima bwite
+- Reddit r/ubuzima bwite**: [reddit.com/r/ubuzima bwite](https://reddit.com/r/privacy) - Impanuro rusangi ku vyerekeye ubuzima bwite
 
 
 

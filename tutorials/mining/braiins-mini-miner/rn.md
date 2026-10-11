@@ -168,7 +168,7 @@ kandi dukeneye gukanda kuri buto y'umuyugubwe iri iburyo ivuga ngo "Huza abakozi
 
 
 
-Aha niho haje idirisha rifise amakuru dukeneye kugira ngo duhuze mini Miner yacu n’ikidengeri. Aha ihinduka rimwe gusa dushobora gukora ni uguhitamwo Stratum V2. Kugira umenye ico Stratum v2 ari co raba iyi nkuru iri muri [urutonde rw’amajambo](https://planb.academy/ru/ibikoresho/urutonde rw’amajambo/urugero-v2).
+Aha niho haje idirisha rifise amakuru dukeneye kugira ngo duhuze mini Miner yacu n’ikidengeri. Aha ihinduka rimwe gusa dushobora gukora ni uguhitamwo Stratum V2. Kugira umenye ico Stratum v2 ari co raba iyi nkuru iri muri [urutonde rw’amajambo](https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 

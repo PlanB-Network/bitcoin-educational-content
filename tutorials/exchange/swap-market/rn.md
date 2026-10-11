@@ -639,10 +639,10 @@ Guhiganwa hagati y’abatanga ubuvuzi biratuma ibiciro bitera imbere kandi bikag
 
 
 
-- [Isoko ry'Impinduka - Ubukoresho bw'Urubuga](https://isoko ry'Impinduro.github.io)
-- [Isoko ry'Ibihindurwa rya GitHub](Isoko ry'Ibihindurwa/Isoko ry'Ibihindurwa.github.io)
+- [Isoko ry'Impinduka - Ubukoresho bw'Urubuga](https://swapmarket.github.io)
+- [Isoko ry'Ibihindurwa rya GitHub](https://github.com/SwapMarket/swapmarket.github.io)
 - [Inyandiko z'ubuhinga](https://github.com/BoltzExchange/boltz-backend)
-- [Iyobora ry'ukwiyakira](https://github.com/Isoko ry'Impinduka/Isoko ry'Impinduka.github.io/blob/ikuru/README.md)
+- [Iyobora ry'ukwiyakira](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 
 

@@ -31,7 +31,7 @@ QR codes ni uburyo busanzwe Spectre ikoresha kugira ngo ivugane n’uwayikiriye.
 Ku bijanye n’ububiko bw’amabanga dushigikira uburyo bw’ububiko bw’amabanga (wallet yibagirwa amabanga yose iyo izimye), uburyo bw’ububiko bw’amabanga (ububiko bw’amabanga mu flash y’umugenzuzi w’ikoreshwa) n’ugushiramwo secure element biriko biraza vuba.
 
 
-Ico twibandako cane ni ugushiraho amasinya menshi n’ibindi bikoresho, ariko wallet irashobora kandi gukora nk’umusinya umwe. Turagerageza kubigira bihuye na Bitcoin Core aho dushobora - PSBT ku bikorwa bitagira umukono, wallet ibisobanuro ku kwinjiza/gusohora ama wallets multisig. Kugira ngo tuvugane na Bitcoin Core mu buryo bworoshe turiko turakora kandi kuri [app ya Specter Desktop] - umukozi mutoyi w’ibara ry’agahama avugana n’urudodo rwawe rwa Bitcoin Core.
+Ico twibandako cane ni ugushiraho amasinya menshi n’ibindi bikoresho, ariko wallet irashobora kandi gukora nk’umusinya umwe. Turagerageza kubigira bihuye na Bitcoin Core aho dushobora - PSBT ku bikorwa bitagira umukono, wallet ibisobanuro ku kwinjiza/gusohora ama wallets multisig. Kugira ngo tuvugane na Bitcoin Core mu buryo bworoshe turiko turakora kandi kuri [app ya Specter Desktop](https://github.com/cryptoadvance/specter-desktop) - umukozi mutoyi w’ibara ry’agahama avugana n’urudodo rwawe rwa Bitcoin Core.
 
 
 Ivyinshi muri firmware vyanditswe muri MicroPython bituma code yoroha gusuzuma no guhindura. Dukoresha ububiko bw’ibitabu buva kuri Bitcoin Core ku bijanye n’imibare y’imirongo y’uruzitiro n’ububiko bw’ibitabu [LittlevGL](https://lvgl.io/) ku bijanye n’ubuhinga bwa GUI.
@@ -59,7 +59,7 @@ Igice nyamukuru c'igikoresho ni urubaho rw'abahinguzi:
 
 
 
-- Igikoresho co gutegura STM32F469I-DISCO (ni ukuvuga kuva kuri [Imbeba](Ibisobanuro vy'Ibicuruzwa/STMicroElectronics/STM32F469I-DISCO?qs=kWQV1gtkNndotCjy2DKZ4w==) canke [Ikifunguzo c'Igikoresho](Igikoresho-c'Igikoresho/Igikoresho c'Ivy'Ikoranabuhanga/STM32F469I-DISCO/497-15990-ND/5428811))
+- Igikoresho co gutegura STM32F469I-DISCO (ni ukuvuga kuva kuri [Imbeba](https://eu.mouser.com/ProductDetail/STMicroelectronics/STM32F469I-DISCO?qs=kWQV1gtkNndotCjy2DKZ4w==) canke [Ikifunguzo c'Igikoresho](https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F469I-DISCO/497-15990-ND/5428811))
 - Umugozi muto**USB
 - Umugozi wa MicroUSB usanzwe wo kuvugana kuri USB
 
@@ -67,7 +67,7 @@ Igice nyamukuru c'igikoresho ni urubaho rw'abahinguzi:
 Ni ubusabe ariko ni vyiza:
 
 
-- [Igikoresho co gupima kode ya QR ya Waveshare](httm) gifise imitwe miremire y'ibipimo nk'ivyo [ivyo](ivyo] canke [ivyo](ivyo] kugira ngo bihuze igikoresho co gupima n’urubaho (imitwe 4 y’amapin irakenewe).
+- [Igikoresho co gupima kode ya QR ya Waveshare](https://www.waveshare.com/barcode-scanner-module.htm) gifise imitwe miremire y'ibipimo nk'ivyo [ivyo](https://eu.mouser.com/ProductDetail/Samtec/DW-02-10-T-S-571?qs=sGAEpiMZZMvlX3nhDDO4AE5PKXAQeC6NPk%2FcLBS9yKI%3D) canke [ivyo](https://www.amazon.com/gp/product/B015KA0RRU/) kugira ngo bihuze igikoresho co gupima n’urubaho (imitwe 4 y’amapin irakenewe).
 
 
 Ubu turiko turakora ku rubaho rwo kwagura rurimwo ahantu ho gushiramwo ikarita y’ubwenge, igikoresho co gupima kode ya QR, bateri n’igikapu co gucapura 3d, ariko nta gice nyamukuru kirimwo — urubaho rwo kuvumbura ukeneye gusaba ukwaco. Ubwo buryo igitero c’uruhererekane rw’ibikoresho n’ubu ntikiri ikibazo kuko ibihimba bihambaye vy’umutekano bigurishwa mu maduka y’ubuhinga bwa none.
@@ -138,7 +138,7 @@ Ehe ingene ufatanya scanner n'urubaho:
 ![image](assets/fr/02.webp)
 
 
-Kugira ngo bigufashe ushobora kugura ingabo ya Arduino Protype no kuyishirako vyose (i.e. [iyi](i.e. [iyi])
+Kugira ngo bigufashe ushobora kugura ingabo ya Arduino Protype no kuyishirako vyose (i.e. [iyi](https://www.digikey.com/catalog/en/partgroup/proto-shield-rev3-uno-size/79347)
 
 
 ### Uburongozi bw'inguvu
@@ -181,7 +181,7 @@ Na bootloader itekanye, gushiramwo mbere y’ivyo bikoresho biratandukanye gatoy
 
 
 - Niba uriko urasubiramwo uhereye ku verisiyo ziri munsi ya `1.4.0` canke uriko urashiramwo porogaramu nkuru ku ncuro ya mbere, koresha `porogaramu_y'intango_<verisiyo>.bin` kuva kuri [ibisohotse](https://github.com/cryptoadvance/specter-diy/releases) kuri paji.
- - Genzura umukono wa dosiye `sha256.signed.txt` ku [urufunguzo rwa PGP rwa Stepan]
+ - Genzura umukono wa dosiye `sha256.signed.txt` ku [urufunguzo rwa PGP rwa Stepan](https://stepansnigirev.com/ss-specter-release.asc)
  - Genzura hash ya `intango_ya porogaramu_<verisiyo>.bin` ku hash ibitswe muri `sha256.signed.txt`
 - Niba uriko urasubiramwo uhereye ku gikoresho co gufungura ubusa canke ubona ubutumwa bw'ikosa ry'igikoresho co gufungura ko porogarama idakora, raba igice gikurikira - Igikoresho ca Spectre gifise umukono.
 - Raba neza ko umusimbuzi w'ububasha bw'urubaho rwawe rwo kuvumbura ari ku kibanza ca STLK
@@ -296,7 +296,7 @@ Amategeko akurikira arakora ku bikorwa wallet izoshirako umukono:
 
 
 
-- iyo habonetse ibintu bivanze biva mu bikoresho bitandukanye, uwubikoresha aragabishwa ([igitero](https://blog.trezor.io/ibisobanuro-vy’ikibazo-co-guhindura-aderesi-n’ingene-bigabanywa-6370ad73ed2a))
+- iyo habonetse ibintu bivanze biva mu bikoresho bitandukanye, uwubikoresha aragabishwa ([igitero](https://blog.trezor.io/details-of-the-multisig-change-address-issue-and-its-mitigation-6370ad73ed2a))
 - guhindura ibisohoka vyerekana izina rya wallet boherezwa kuri
 - kugira ngo ukoreshe multisig canke miniscript ubanza kwinjiza wallet mu kwongerako igisobanuro ca wallet (ku QR, USB canke SD card)
 

@@ -12,7 +12,7 @@ Ikaze muri iyi nyigisho yerekeye **amabwirizwa yo gukurikiza igihe usoma ibirimw
 Mbere na mbere, gutanga umusanzu muri Plan ₿ Academy [ububiko bwa bose](https://github.com/PlanB-Network/bitcoin-educational-content) biguha amahirwe yo kwandika inyigisho, gukosora ibirimwo, canke mbere gusaba ko hongerwa ururimi rushasha ku rubuga. Kugira ngo umenye vyinshi, banza winjire muri [Itsinda rya Telegaramu](https://t.me/PlanBNetwork_ContentBuilder) ryacu, maze wandike ikiganiro kigufi ku bijanye nawe n’indimi ushobora kuvuga.
 
 
-Iyi nyigisho igenewe abatanga intererano bashaka gukosora ibirimwo. Benshi muri bo ntibazi vyinshi ku vyerekeye [Github] canke [Markdown ururimi](https://www.markdownguide.org/basic-syntax/) dukoresha imbere mu bubiko, rero birahambaye ko dusangira ubumenyi bumwe bumwe ku bintu nyamukuru biri muri iki gikorwa.
+Iyi nyigisho igenewe abatanga intererano bashaka gukosora ibirimwo. Benshi muri bo ntibazi vyinshi ku vyerekeye [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) canke [Markdown ururimi](https://www.markdownguide.org/basic-syntax/) dukoresha imbere mu bubiko, rero birahambaye ko dusangira ubumenyi bumwe bumwe ku bintu nyamukuru biri muri iki gikorwa.
 
 
 Aha musi, nakoranije hamwe ibibazo bikunze guhura navyo abakosora. Ntutinye gutanga ibindi, kuko bishobora gufasha abandi gutera imbere.
@@ -44,7 +44,7 @@ Muri iyo nsiguro, abatanga intererano bose kuri Plan ₿ Academy ni abigisha!
 ## Intambwe za mbere imbere yo gukosora ku mugambi ₿ Academy
 
 
-Imbere yo gutangura igikorwa gishasha co gukosora, kimenyeshe mu [mugwi wa Telegram](https://t.me/PlanBNetwork_ContentBuilder) canke umenyeshe umuhuzabikorwa wawe w’Ishure ry’Itegeko ₿, azogufungurira [ikinyamakuru] kigenewe (https://github.com/orgs/PlanB-Network/projects/3). Iyo ubonye urubuga rw'ikibazo, **vuze gusa ko uriko uratangura** igikorwa co gukosora ivyo birimwo.
+Imbere yo gutangura igikorwa gishasha co gukosora, kimenyeshe mu [mugwi wa Telegram](https://t.me/PlanBNetwork_ContentBuilder) canke umenyeshe umuhuzabikorwa wawe w’Ishure ry’Itegeko ₿, azogufungurira [ikinyamakuru](https://github.com/orgs/PlanB-Network/projects/3) kigenewe (https://github.com/orgs/PlanB-Network/projects/3). Iyo ubonye urubuga rw'ikibazo, **vuze gusa ko uriko uratangura** igikorwa co gukosora ivyo birimwo.
 
 
 Uwo murongo ufasha umuhuzabikorwa kumenya ingene ibintu bigenda imbere muri iyo repo, kandi utuma ibirimwo "bivugwa" n'umukosozi, bikabuza utwigoro twisubirwamwo n'uwundi muntu.
@@ -60,7 +60,7 @@ Mbere na mbere, **WAME wibuka gukora SYNC repo yawe, ku ishami rya "dev"**. Muri
 
 
 
-Uhejeje gukorana neza, urashobora gushika ku birimwo vy’inyungu maze ugafata ishami rishasha, nk’uko vyerekanwa muri iyi [nyigisho](https://planb.academy/inyigisho/intererano/ibirimwo/ugukosora-isubiramwo-inyigisho-28236c98-23b2-4efd-97156). Ahandi ho, ushobora gufungura ishami rishasha aho uzokorera, ukanda kuri "Amashami", nk'uko vyerekanwa aha hepfo.
+Uhejeje gukorana neza, urashobora gushika ku birimwo vy’inyungu maze ugafata ishami rishasha, nk’uko vyerekanwa muri iyi [nyigisho](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Ahandi ho, ushobora gufungura ishami rishasha aho uzokorera, ukanda kuri "Amashami", nk'uko vyerekanwa aha hepfo.
 
 
 
@@ -115,7 +115,7 @@ Muri iki gihe ca kabiri, **wame ukora ubushakashatsi kugira ngo urabe nimba hari
 
 
 
-- Ikindi ciyumviro ciza ni ugukomeza ijambo/invugo y’umwimerere y’ikirundi, hanyuma **ugakora uruja n’uruza** ruja ku [rutonde rw’amajambo](https://planb.academy/ru/ibikoresho/urutonde rw’amajambo) kuri planb.network. Kugira ngo ubikore, ukeneye kwinjiza ijambo/invugo imbere mu bifunga, n'ihuriro mu bifunga bizunguruka, nk'uko ushobora kubibona mu karorero kari aha hepfo:
+- Ikindi ciyumviro ciza ni ugukomeza ijambo/invugo y’umwimerere y’ikirundi, hanyuma **ugakora uruja n’uruza** ruja ku [rutonde rw’amajambo](https://planb.academy/en/resources/glossary) kuri planb.network. Kugira ngo ubikore, ukeneye kwinjiza ijambo/invugo imbere mu bifunga, n'ihuriro mu bifunga bizunguruka, nk'uko ushobora kubibona mu karorero kari aha hepfo:
 
 
 ```
@@ -368,7 +368,7 @@ Iyo wohereje PR yawe, vyoba bitangaje iyo uyiha izina ukoresheje ubu buryo: [GUS
 
 Ikindi, mu **gice c'ibitekerezo ca PR**, urashobora kwandika "closes" + umubare w'ikinyamakuru umuhuzabikorwa yakurungikiye igihe watangura igikorwa co gukosora, ubanza kwandika ``#``.
 
-Nk'akarorero, iyo wohereje PR n'ugukosora kw'ibibazo vya cyp201 +, ushobora kwandika ngo "bifunga [#2934]
+Nk'akarorero, iyo wohereje PR n'ugukosora kw'ibibazo vya cyp201 +, ushobora kwandika ngo "bifunga [#2934](https://github.com/PlanB-Network/bitcoin-educational-content/issues/2934)
 
 
 Uko ni ko PR n’ikibazo bizohuzwa, kandi uwuzosoma ububiko bwa Github bwa bose azoshobora kuronka amakuru bitamugoye.

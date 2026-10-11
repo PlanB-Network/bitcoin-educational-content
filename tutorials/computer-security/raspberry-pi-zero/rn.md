@@ -492,7 +492,7 @@ Naho ubushobozi busa n’ubuke (ku mpapuro no kugereranywa n’ububasha bw’ama
 
 - Ushobora "kwemera" iki gikoresho kitari ku murongo kugira ngo ubike inyandiko zitandukanye z'ibanga, zizoguma ziboneka igihe bikenewe, ata na rimwe ziboneka kuri Internet.
 - Ushobora gukoresha iyi ntunganyo kugira ngo generate imfunguruzo zawe za GPG ata nkomanzi.
-- Woshobora mbere gukoresha ako "agakinisho gatoyi" gashasha nk'igikoresho co gusinya ku nzira y'ikirere, [mu gukurikiza impanuro za Arman The . Parman](ingene-woshinga-umuyagankuba-pi-utagira-umuyaga-ukoresha-verisiyo-nshasha-y'umuyagankuba-Wallet-85e59ecaddc0).
+- Woshobora mbere gukoresha ako "agakinisho gatoyi" gashasha nk'igikoresho co gusinya ku nzira y'ikirere, [mu gukurikiza impanuro za Arman The . Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
 
 

@@ -132,7 +132,7 @@ Uyu musi, tuzoba turiko turacapura firmware yabo ku hardware y’amadolari 15 ah
 
 
 
-- 16MB n’igikoko, ikigereranyo ca K164)** — [Ushobora gusaba ataco uhinduye kuri LilyGO] Iyi board ya ESP32 itanga ikigaragaza, amabuto, n’ikigaragaza USB kigaragaza Jade Plus ya Blockstream. ESP32 iri mu bwato na yo nyene irimwo amaradiyo ya Wi-Fi na Bluetooth; tuzorungika firmware ituma ziguma zidakora, ariko zihingura uburyo bwawe bwo gutera ubwoba kuko kode mbi yoshobora kuzisubiza zikora.
+- 16MB n’igikoko, ikigereranyo ca K164)** — [Ushobora gusaba ataco uhinduye kuri LilyGO](https://lilygo.cc/products/t-display?srsltid=AfmBOornob5U3FzZifuSwBBOdeXKcdPDqkYEnAVYKBLdzl0BPyNglGBR) Iyi board ya ESP32 itanga ikigaragaza, amabuto, n’ikigaragaza USB kigaragaza Jade Plus ya Blockstream. ESP32 iri mu bwato na yo nyene irimwo amaradiyo ya Wi-Fi na Bluetooth; tuzorungika firmware ituma ziguma zidakora, ariko zihingura uburyo bwawe bwo gutera ubwoba kuko kode mbi yoshobora kuzisubiza zikora.
 - USB-C cable** — Zana umugozi ushobora gukoresha amakuru kugira ngo ushobore gucapura firmware no gutanga ubushobozi ku rubaho uhereye kuri laptop yawe (ni vyiza cane ku gukoresha mw’ishure).
 
 
@@ -153,7 +153,7 @@ Uyu musi, tuzoba turiko turacapura firmware yabo ku hardware y’amadolari 15 ah
 ### Tegura ikibazo cawe
 
 
-Ufise uburyo bubiri bwo gushiramwo urubaho rwawe rwa LilyGO T-Display: igikapu gicapwe mu buryo bwa 3D canke uruzitiro rwa LilyGO rwemewe. Igikapu gicapuwe gishobora kuronswa no gucapwa muri [iki kigereranyo](https://www. Itanga igipfukisho c’uburemere buke kandi gishobora guhindurwa ku gikoresho cawe.
+Ufise uburyo bubiri bwo gushiramwo urubaho rwawe rwa LilyGO T-Display: igikapu gicapwe mu buryo bwa 3D canke uruzitiro rwa LilyGO rwemewe. Igikapu gicapuwe gishobora kuronswa no gucapwa muri [iki kigereranyo](https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure). Itanga igipfukisho c’uburemere buke kandi gishobora guhindurwa ku gikoresho cawe.
 
 
 ![image](assets/fr/04.webp)
@@ -365,7 +365,7 @@ Sparrow Wallet ni porogaramu ikomeye yo kuri mudasobwa iguha ububasha bwo kugenz
 
 
 
-- Gukuraho Sparrow Wallet ku rubuga rwemewe: [Ikinyamakuru.com]
+- Gukuraho Sparrow Wallet ku rubuga rwemewe: [Ikinyamakuru.com](https://sparrowwallet.com)
 - Suzuma umukono wo gukuraho (raba inyandiko za Sparrow kugira ngo umenye vyinshi)
 - Shiraho kandi utangure porogaramu
 

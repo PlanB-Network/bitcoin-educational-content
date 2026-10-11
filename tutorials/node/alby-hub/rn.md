@@ -37,7 +37,7 @@ Ivyiza ku bashasha, iyi nzira ya mbere ni uburyo bw’igicu ca Alby. Ishobora ku
 Inyungu nini y’iyi nzira ni uko uronka node ya Lightning ikora 24/7, utabwirizwa gucungera hosting wewe nyene. Ikindi, ama backups y’uruzitiro rwawe rwa Lightning yoroshe kandi yikora, ugereranyije n’amahitamwo yikorera aho utegerezwa gucungera ama backups y’imirongo wewe nyene.
 
 
-Alby Cloud ni igikorwa cishurwa [Suzuma igiciro cabo](https://albyhub.com/#igiciro) kugira ngo umenye vyinshi. Amahera aca akurwa kuri Wallet yawe biciye ku Lightning Invoice isohowe na Alby. Ivyo bikorwa biciye ku nzira ya NWC itunganya node yawe kugira ngo yishure amafagitire ya Alby ajanye n’ukwiyandikisha kwawe.
+Alby Cloud ni igikorwa cishurwa [Suzuma igiciro cabo](https://albyhub.com/#pricing) kugira ngo umenye vyinshi. Amahera aca akurwa kuri Wallet yawe biciye ku Lightning Invoice isohowe na Alby. Ivyo bikorwa biciye ku nzira ya NWC itunganya node yawe kugira ngo yishure amafagitire ya Alby ajanye n’ukwiyandikisha kwawe.
 
 
 
@@ -62,7 +62,7 @@ Birashoboka kandi gushiramwo Alby Hub kuri PC yawe, naho iyo nzira idakora cane,
 - Alby Hub kuri server y'umuntu ku giti ciwe :**
 
 
-Ku bakoresha bateye imbere, Alby Hub ishobora gukoreshwa kuri server y’umuntu ku giti ciwe n’itegeko ryoroshe. Iyi nzira ntivugwa muri iyi nyigisho, ariko ushobora kubona amabwirizwa yihariye [ku GitHub ya Alby](https://github.com/getAlby/hub?tab=soma-ov-dosiye#docker).
+Ku bakoresha bateye imbere, Alby Hub ishobora gukoreshwa kuri server y’umuntu ku giti ciwe n’itegeko ryoroshe. Iyi nzira ntivugwa muri iyi nyigisho, ariko ushobora kubona amabwirizwa yihariye [ku GitHub ya Alby](https://github.com/getAlby/hub?tab=readme-ov-file#docker).
 
 
 Iyi nyigisho yibanda canecane kuri Interface, izoba ari imwe ataco ushizeko. Turaba kandi ingene twokoresha Alby Hub n’uburyo bwo gukoresha igicu c’amahera, hanyuma dukoresheje uburyo bwo gukoresha node-in-box (Umbrel canke Start9).
@@ -405,14 +405,14 @@ Kugira ngo ushiremwo Alby Go, genda ku bubiko bw'ibikoresho vy'igikoresho cawe:
 
 
 
-- [Ku bijanye na Android](ibisobanuro?id=com.getalby.mobile);
-- [Ku bwa Apple](iporogarama.iporogarama.
+- [Ku bijanye na Android](https://play.google.com/store/apps/details?id=com.getalby.mobile);
+- [Ku bwa Apple](https://apps.apple.com/us/app/alby-go/id6471335774).
 
 
 ![ALBY HUB](assets/fr/44.webp)
 
 
-Abakoresha Android barashobora kandi gushiramwo iyo porogarama biciye ku dosiye `.apk` [iboneka kuri GitHub ya Alby].
+Abakoresha Android barashobora kandi gushiramwo iyo porogarama biciye ku dosiye `.apk` [iboneka kuri GitHub ya Alby](https://github.com/getAlby/go/releases).
 
 
 ![ALBY HUB](assets/fr/45.webp)

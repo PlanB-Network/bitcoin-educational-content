@@ -498,7 +498,7 @@ Naho iyo porogarama isaba ishoramari ry’intango mu bikorwa remezo no mu kwiga,
 
 
 
-- [Urubuga rwemewe rwa Spectre Desktop](https://ibisubizo/ibikoresho/)
+- [Urubuga rwemewe rwa Spectre Desktop](https://specter.solutions/desktop/)
 - [Kode y'inkomoko ya GitHub](https://github.com/cryptoadvance/specter-desktop)
 - [Inyandiko zuzuye](https://docs.specter.solutions/)
 
@@ -509,6 +509,6 @@ Naho iyo porogarama isaba ishoramari ry’intango mu bikorwa remezo no mu kwiga,
 
 
 
-- [Itsinda ry'abanyagihugu ry'Itelegaramu](https://t.me/infashanyo y'ibikoko)
-- [Ihuriro ry'ibiganiro rya Reddit](ihuriro ry'ibiganiro ry'i Reddit/)
+- [Itsinda ry'abanyagihugu ry'Itelegaramu](https://t.me/spectersupport)
+- [Ihuriro ry'ibiganiro rya Reddit](https://reddit.com/r/specterdesktop/)
 - [Iraporo z'ibibazo vya GitHub](https://github.com/cryptoadvance/specter-desktop/issues)

@@ -6,7 +6,7 @@ description: Gutegura no gukoresha Hardware Wallet Safe 5
 
 
 
-*Ishusho: [Trezor.io]*
+*Ishusho: [Trezor.io](https://trezor.io/)*
 
 
 ![video](https://youtu.be/LI_EMXn6_Ss)
@@ -112,7 +112,7 @@ Uzokenera kandi porogarama ya Trezor Suite kugira ngo ushobore gutunganya Safe 5
 
 
 
-[Kura urubuga rwa Trezor Suite ku rubuga rwemewe]
+[Kura urubuga rwa Trezor Suite ku rubuga rwemewe](https://trezor.io/trezor-suite)
 
 
 

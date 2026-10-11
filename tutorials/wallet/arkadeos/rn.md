@@ -267,7 +267,7 @@ Suzuma ido n'ido ku mugaragaro wa "Gushira umukono ku giciro", hanyuma wemeze uk
 
 
 
-**Ibanga ry’isohoka rya on-chain**: Akarorero kari aha hepfo kerekana [Igikorwa c’isohoka ry’ubwato ku mempool.space] Turabona injiza igabanywa ku bisohoka 4 bitandukanye, nka CoinJoin. Ku muntu yihweza hanze, ntibishoboka kumenya umubare w’amahera ari uw’uwukoresha.
+**Ibanga ry’isohoka rya on-chain**: Akarorero kari aha hepfo kerekana [Igikorwa c’isohoka ry’ubwato ku mempool.space](https://mempool.space/fr/tx/153a70384d1c8a183c0e408e29b0a11820fd71a8bd5b4b00b12bc9b7f9decacb) Turabona injiza igabanywa ku bisohoka 4 bitandukanye, nka CoinJoin. Ku muntu yihweza hanze, ntibishoboka kumenya umubare w’amahera ari uw’uwukoresha.
 
 
 
@@ -473,7 +473,7 @@ Kugira ngo umenye vyinshi, raba ibitabu vyemewe:
 
 
 
-- Urubuga rwa Arkade**: [ibibanza vy'imikino.com]
+- Urubuga rwa Arkade**: [ibibanza vy'imikino.com](https://arkadeos.com)
 - Ivyanditswe**: [inyandiko.amashure.com](https://docs.arkadeos.com)
-- Amasezerano ya Ark**: [amasezerano y'ubwato.org](https://amasezerano y'ubwato.org)
-- Kode y'inkomoko** : [Igikoresho ca GitHub]
+- Amasezerano ya Ark**: [amasezerano y'ubwato.org](https://ark-protocol.org)
+- Kode y'inkomoko** : [Igikoresho ca GitHub](https://github.com/arkade-os)

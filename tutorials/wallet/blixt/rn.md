@@ -8,10 +8,10 @@ description: Ni gute wotangura gukoresha node ikomeye ya LN kuri telefone yawe n
 Iyi nkuru igenewe abo bose bashasha bakoresha bipfuza gutangura gukoresha Bitcoin Lightning Network (LN) mu buryo bw’UBUNTU, BUZUYE BUTARIMWO UBURINGO.
 
 
-Ukoresheje [Blixt Wallet], urudodo rwuzuye rwa LN kuri telefone yawe ngendanwa, aho uri hose.
+Ukoresheje [Blixt Wallet](https://blixtwallet.com/), urudodo rwuzuye rwa LN kuri telefone yawe ngendanwa, aho uri hose.
 
 
-Niba utigeze ukoresha Bitcoin Lightning Network, imbere y’uko utangura, [ndagusavye usome iki kigereranyo c’insobanuro yoroshe ku bijanye na Lightning Network (LN)](
+Niba utigeze ukoresha Bitcoin Lightning Network, imbere y’uko utangura, [ndagusavye usome iki kigereranyo c’insobanuro yoroshe ku bijanye na Lightning Network (LN)](https://darth-coin.github.io/beginner/ln-airport-analogy-en.html)
 
 
 ## IMICE IHAMBAYE:
@@ -22,7 +22,7 @@ Niba utigeze ukoresha Bitcoin Lightning Network, imbere y’uko utangura, [ndagu
 
 
 
-- Blixt iriko irakoresha LND (aezeed) nk’inyuma ya Wallet, rero ntugerageze kwinjizamwo ubundi bwoko bw’amasakoshi ya Bitcoin. [Aha mwasiguye ubwoko bw’imbuto za Wallet Mnemonic](https://coldbit.com/what-types-of-mnemonic-seeds-are-used-in-bitcoin/). Kandi ng’uru [urutonde rwagutse rw’ubwoko bwose bw’amasakoshi](https://walletsrecovery.org/). Rero nimba wari ufise mbere urudodo rwa LND, urashobora kwinjiza urudodo rwa seed n’imirongo y’inyuma muri Blixt, [nk’uko bisigurwa muri iyi nsiguro]
+- Blixt iriko irakoresha LND (aezeed) nk’inyuma ya Wallet, rero ntugerageze kwinjizamwo ubundi bwoko bw’amasakoshi ya Bitcoin. [Aha mwasiguye ubwoko bw’imbuto za Wallet Mnemonic](https://coldbit.com/what-types-of-mnemonic-seeds-are-used-in-bitcoin/). Kandi ng’uru [urutonde rwagutse rw’ubwoko bwose bw’amasakoshi](https://walletsrecovery.org/). Rero nimba wari ufise mbere urudodo rwa LND, urashobora kwinjiza urudodo rwa seed n’imirongo y’inyuma muri Blixt, [nk’uko bisigurwa muri iyi nsiguro](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html)
 
 
 
@@ -47,7 +47,7 @@ Rero... Mama wa Darth yaciye afata ingingo yo gutangura gukoresha LN na Blixt. H
 Darth abwira nyina wiwe:
 
 
-"*Mama, niwatangura gukoresha Blixt LN Node, uzokenera mbere kumenya ico ari co Lightning Network n'ingene ikora, n'imiburiburi ku rugero rw'ishimikiro. [Aha ndashize hamwe urutonde rworoshe rw'ibikoresho vyerekeye Lightning Network]
+"*Mama, niwatangura gukoresha Blixt LN Node, uzokenera mbere kumenya ico ari co Lightning Network n'ingene ikora, n'imiburiburi ku rugero rw'ishimikiro. [Aha ndashize hamwe urutonde rworoshe rw'ibikoresho vyerekeye Lightning Network](https://blixtwallet.github.io/faq#what-is-ln)
 
 
 Darth’s Mom yarasomye ivyo bikoresho maze akora intambwe yiwe ya mbere: ashira Blixt ku gikoresho ciwe gishasha ca Android. Blixt iraboneka kandi kuri iOS na macOS (ku biro). Ariko ivyo si ivya Darth’s Mom... Naho biri ukwo, birakenewe ko ukoresha verisiyo nshasha ya Android, nibura 9 canke 10 kugira ngo ushobore gukorana neza n’ubumenyi. Gukoresha node yuzuye ya LN ku gikoresho gikoreshwa n’amaboko si igikorwa coroshe kandi coshobora gutwara umwanya (min 600MB) n’ubuhinga bwo kwibuka.
@@ -134,7 +134,7 @@ Address n’ubutumwa bwo kwakira abashitsi bwagaragajwe bizozimangana. Nta kindi
 Ni igihe co gutera intambwe, kugerageza ibindi bintu n’uburyo bwo gufungura imirongo ya LN.
 
 
-None, reka dufungure uwundi murongo n’uwundi mugenzi w’uruzitiro. Umuryango wa Blixt warashize hamwe [urutonde rw'ibihimba vyiza vyo gutangura gukoresha na Blixt](1033).
+None, reka dufungure uwundi murongo n’uwundi mugenzi w’uruzitiro. Umuryango wa Blixt warashize hamwe [urutonde rw'ibihimba vyiza vyo gutangura gukoresha na Blixt](https://github.com/hsjoberg/blixt-wallet/issues/1033).
 
 
 **Uburyo bwo gufungura umurongo wa LN muri Blixt**
@@ -206,7 +206,7 @@ None ni amahitamwo ayahe ufise, nimba ushaka kwakira Sats nyinshi kuruta LN?
 
 
 
-- Gufungura umurongo wa Dunder, n'urudodo rwa Blixt canke uwundi mutanga LSP wa Dunder. Umurongo wa Dunder ni uburyo bworoshe bwo kuronka amahera INBOUND, ariko muri ico gihe nyene ushiramwo Sats muri uwo murongo. Ni vyiza kandi kuko izofungura umurongo ukoresheje [UTXO](UTXO) itavuye kuri Blixt Wallet yawe. Ivyo birongereza ubuzima bwite. Ni vyiza kandi kuko, iyo udafise Sats mu onchain Wallet, kugira ngo ufungure umurongo usanzwe wa LN, ariko ukaba ufise mu wundi LN Wallet, ushobora gusa kwishura kuri uwo wundi Wallet biciye kuri LN ugufungura n’ugushiramwo (ku ruhande rwawe) uwo muhora wa Dunder. [Ibindi bisobanuro vy'ingene Dunder ikora n'ingene wokoresha server yawe bwite hano](https://github.com/hsjoberg/dunder-lsp).
+- Gufungura umurongo wa Dunder, n'urudodo rwa Blixt canke uwundi mutanga LSP wa Dunder. Umurongo wa Dunder ni uburyo bworoshe bwo kuronka amahera INBOUND, ariko muri ico gihe nyene ushiramwo Sats muri uwo murongo. Ni vyiza kandi kuko izofungura umurongo ukoresheje [UTXO](https://en.bitcoin.it/wiki/UTXO) itavuye kuri Blixt Wallet yawe. Ivyo birongereza ubuzima bwite. Ni vyiza kandi kuko, iyo udafise Sats mu onchain Wallet, kugira ngo ufungure umurongo usanzwe wa LN, ariko ukaba ufise mu wundi LN Wallet, ushobora gusa kwishura kuri uwo wundi Wallet biciye kuri LN ugufungura n’ugushiramwo (ku ruhande rwawe) uwo muhora wa Dunder. [Ibindi bisobanuro vy'ingene Dunder ikora n'ingene wokoresha server yawe bwite hano](https://github.com/hsjoberg/dunder-lsp).
 
 
 ![blixt](assets/en/11.webp)
@@ -217,7 +217,7 @@ Dore intambwe zo gufungura umurongo wa Dunder:
 
 
 - Genda kuri Settings, mu gice ca “Ivyageragejwe” ushireho akazu ka “Gushoboza Dunder LSP”.
-- Ivyo umaze kubikora, subira hejuru ku gice ca “Lightning Network” uzobona ko habonetse uburyo bwo guhitamwo “Set Dunder LSP Server”. Aho, ku buryo busanzwe hariho “https://dunder.blixtwallet.com” ariko ushobora kuyihindura n’uwundi mutanga LSP wa Dunder Address. [Aha ni urutonde rw’abanyamuryango b’i Blixt] n’ibihimba bishobora gutanga imirongo ya Dudner LSP ya Blixt yawe.
+- Ivyo umaze kubikora, subira hejuru ku gice ca “Lightning Network” uzobona ko habonetse uburyo bwo guhitamwo “Set Dunder LSP Server”. Aho, ku buryo busanzwe hariho “https://dunder.blixtwallet.com” ariko ushobora kuyihindura n’uwundi mutanga LSP wa Dunder Address. [Aha ni urutonde rw’abanyamuryango b’i Blixt](https://github.com/hsjoberg/blixt-wallet/issues/1033) n’ibihimba bishobora gutanga imirongo ya Dudner LSP ya Blixt yawe.
 - Ubu ushobora kuja kuri screen main ugafyonda kuri buto ya “Receive”. Hanyuma ukurikize ubu buryo [busobanuwe muri iyi nsiguro](https://blixtwallet.github.io/guides#guide-lsp).
 
 
@@ -241,7 +241,7 @@ MUGIRE UMURYABO Bitcoin MWIZA!
 Ibuka ko mu kigabane ca mbere “Umuntu wa mbere” hariho uburyo 2 bwo guhitamwo ku rubuga rw’Ukwakira:
 
 
-- [Ihitamwo A](gutangura-Wallet-ru.html#ihitamwo-a) - Rema Wallet nshasha
+- [Ihitamwo A](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#option-a) - Rema Wallet nshasha
 - Ihitamwo B - Gusubizaho Wallet
 
 
@@ -328,7 +328,7 @@ Ubu ushobora kuja kuri Magic Drawer (hejuru ibubamfu) - Imirongo y'umuravyo, kan
 ![blixt](assets/en/18.webp)
 
 
-Iyo nomero y'ibarabara 764272 ni igihe amahera azokoreshwa muri Bitcoin yawe ku ruzitiro rwa Address. Kandi bishobora gutwara ama blocs ashika kuri 144 kuva ku block ya mbere y’ukwemeza gushika arekuwe. [Rero ivyo ubisuzume mu Mempool](Igitabu-114.ikibanza/).
+Iyo nomero y'ibarabara 764272 ni igihe amahera azokoreshwa muri Bitcoin yawe ku ruzitiro rwa Address. Kandi bishobora gutwara ama blocs ashika kuri 144 kuva ku block ya mbere y’ukwemeza gushika arekuwe. [Rero ivyo ubisuzume mu Mempool](https://mempool.space/).
 
 
 Kandi ni vyo. Rindira gusa wihanganye gushika imihora yose ifunze maze amahera agasubira mu nzira yawe ya Wallet.
@@ -348,7 +348,7 @@ Mu gihe woba ukeneye kwimurira node yawe ya Blixt iriho (ikora) ku kindi gikores
 - Ku gikoresho ca kera, genda kuri "Imiterere" - igice co gukosora - "Urutonde rw'amakuru rwa LND". Iyi ntambwe ni ubusabe ariko ni ngirakamaro nimba ushaka ubunini buto bwa dosiye channel.db. Kenshi na kenshi ni nini cane, bivanye n’igikorwa cawe c’urudodo. Ivyo bizotuma Blixt isubira gutangura kandi bishire ubunini bwa dosiye ya db.
 - Uhejeje gusubira gutangura, genda kuri "Ivyagezwe" maze uhindure izina ryawe ry'uruyeri ribe "Hampus". Ivyo bizotuma amahitamwo yihishije akora, ku bakoresha bateye imbere gusa.
 - Manuka ku gice ca "Debug" uzobona uburyo bushasha "Gusohora dosiye ya channel.db". IMBURI! Uhejeje gukora ivyo vyoherezwa hanze, urudodo rwa Blixt LN ruriho ruzozimwa kuri iki gikoresho ca kera kandi ruzorungika hanze urutonde rw’amakuru rwose rw’urudodo (channel.db) rwiteguye kwinjizwa mu gikoresho gishasha.
-- Iyi dosiye ya db izobikwa muri dosiye yagenewe ku gikoresho cawe ca kera (Inyandiko canke Ivyakuweko) hanyuma uhereye ng’aho uzobwirizwa kuyijana uko iri ku gikoresho cawe gishasha. Ushobora gukoresha nk'akarorero [Iporogarama ya FOSS yo mu karere](https://github.com/ivyo mu karere/ivyo mu karere) kugira ngo urungike dosiye hagati y'ibikoresho.
+- Iyi dosiye ya db izobikwa muri dosiye yagenewe ku gikoresho cawe ca kera (Inyandiko canke Ivyakuweko) hanyuma uhereye ng’aho uzobwirizwa kuyijana uko iri ku gikoresho cawe gishasha. Ushobora gukoresha nk'akarorero [Iporogarama ya FOSS yo mu karere](https://github.com/localsend/localsend) kugira ngo urungike dosiye hagati y'ibikoresho.
 - Muri iki gihe Blixt yawe ya kera ITEGEREZWA kuguma yugaye. NTUZOSUBIRE KUYUGURURA!
 - Uhejeje kwimurira dosiye channel.db ku gikoresho gishasha, tangura gushiramwo Blixt nshasha hanyuma uhitemwo "Restore Wallet" ku gicapo ca mbere.
 - Ku buto aho handitse ngo "Hitamwo dosiye ya SCB" kanda igihe kirekire (NTIKONDERA vyoroshe!) hanyuma uzobona uburyo bwo guhitamwo dosiye ya channel.db aho uyibika mu karere mu gikoresho gishasha. Iyo ukanda gusa kuri iyo buto izokoresha dosiye ya SCB (ifise imirongo yo gufunga), ntibikora ku mirongo y’ubuzima yuzuye.
@@ -403,7 +403,7 @@ Uyu ni uwundi murongo wo kohereza ku yindi porogaramu ya Wallet ishigikira NameD
 ### B - Agasanduku k'umuravyo
 
 
-Guhera ku nkuru nshasha ya v0.6.9-420 [iherutse gutangazwa], Blixt yashizeho ikintu gishasha gikomeye ca Lightning Address muri Blixt.
+Guhera ku nkuru nshasha ya v0.6.9-420 [iherutse gutangazwa](https://github.com/hsjoberg/blixt-wallet/releases/tag/v0.6.9-420), Blixt yashizeho ikintu gishasha gikomeye ca Lightning Address muri Blixt.
 
 
 Iyi nzira nshasha ni uguhitamwo kwinjira, ntabwo ari ON ku buryo busanzwe!
@@ -418,7 +418,7 @@ Ubu, umukozi wa Blixt ariko ararungika gusa amafaranga yoherejwe kuri LN kuri ad
 Raba mu nyandiko z’isohoka videwo yerekana ingene woshiraho LN Address yawe muri Blixt.
 
 
-Iyi LN Address yashizwe mu ngiro muri Blixt Wallet app, ni nk’ikiganiro kuri LN, gica gica kandi giteye umunezero, kandi gishigikira [LUD-18](kwongera izina ry’ibanga ry’ukwishyura). Ushobora kwongera ku rutonde rw’abantu ushobora guhamagara amaderesi yawe yose ya LN ukoresha kenshi kandi ukayagira hafi kugira ngo uganire. None Blixt ishobora gufatwa nk'app y'uguhanahana amakuru yuzuye ya LN 😂😂.
+Iyi LN Address yashizwe mu ngiro muri Blixt Wallet app, ni nk’ikiganiro kuri LN, gica gica kandi giteye umunezero, kandi gishigikira [LUD-18](https://github.com/lnurl/luds/blob/luds/18.md)(kwongera izina ry’ibanga ry’ukwishyura). Ushobora kwongera ku rutonde rw’abantu ushobora guhamagara amaderesi yawe yose ya LN ukoresha kenshi kandi ukayagira hafi kugira ngo uganire. None Blixt ishobora gufatwa nk'app y'uguhanahana amakuru yuzuye ya LN 😂😂.
 
 
 Ikindi kintu ngirakamaro ni ugushigikira LUD-18 (ivyo na vyo nyene [Stacker.News](https://stacker.news/r/DarthCoin) n’abandi bariko barayishigikira).
@@ -430,7 +430,7 @@ Ikindi kintu ngirakamaro ni ugushigikira LUD-18 (ivyo na vyo nyene [Stacker.News
 Nk’uko mushobora kubibona ku gicapo kiri hejuru, kohereza kuri konti ya Stacker News, yerekanye neza ikimenyetso + LN Address + ubutumwa. Uburyo bumwe burakora ku kohereza uvuye kuri Blixt, ushobora gufatanya Blixt LN Address yawe canke ukongerako izina ry’ibanga (ryari ryashizweho mbere mu mitunganyirize ya Blixt) canke mbere vyose bibiri.
 
 
-Iyi nzira iva kuri LUD-18 yoshobora kuba ngirakamaro no ku bikorwa vy’ukwiyandikisha, aho umukoresha ashobora kohereza izina ry’ibanga ry’urudodo rwawe canke izina ryawe ry’ukuri!) kandi bishingiye kuri ivyo woshobora kwandikishwa canke ugasubira kwakira ubutumwa bwihariye canke ikindi cose. Gufatanya izina ry'ibanga ([LUD-18]([LUD-18]([LUD-18]))+ igitekerezo ([LUD-12]([LUD-12]([LUD-12](Https.com/lnurl/luds/blob/luds/12.md)) ku gikorwa co kwishura gishobora gukoresha vyinshi GW-4!
+Iyi nzira iva kuri LUD-18 yoshobora kuba ngirakamaro no ku bikorwa vy’ukwiyandikisha, aho umukoresha ashobora kohereza izina ry’ibanga ry’urudodo rwawe canke izina ryawe ry’ukuri!) kandi bishingiye kuri ivyo woshobora kwandikishwa canke ugasubira kwakira ubutumwa bwihariye canke ikindi cose. Gufatanya izina ry'ibanga ([LUD-18](https://github.com/lnurl/luds/blob/luds/18.md)+ igitekerezo ([LUD-12]([LUD-12]([LUD-12](Https.com/lnurl/luds/blob/luds/12.md)) ku gikorwa co kwishura gishobora gukoresha vyinshi GW-4!
 
 
 Aha niho hari kode ya [Isanduku y’umuravyo](https://github.com/hsjoberg/lightning-box) iyo uyikoresha wewe nyene, umuryango wawe n’abagenzi bawe, ku nzira yawe bwite.
@@ -488,9 +488,9 @@ Ivyo bibazo vyose bitangura kubera ko IGIKORESHO CAWE NTIKIRIKO KIRIKO KIRIKO KI
 
 
 
-- Aha niho hari insobanuro y’ubuhinga bukeyi ivuye muri [Ikinyamakuru Bitcoin](https://ikinyamakuru ca Bitcoin.
-- Aha hariho ibindi bikoresho vy’ubuhinga bivuye kuri [Bitcoin Optech]
-- Ehe ingene ushobora gukoresha Neutrino ku nzira yawe yo mu nzu maze ugakoresha amayunguruzo y’amabuye ku nzira yawe yo mu ntoke, kuva kuri [Inyandiko z’Ivyuma vy’Imiravyo](https://inyandiko.
+- Aha niho hari insobanuro y’ubuhinga bukeyi ivuye muri [Ikinyamakuru Bitcoin](https://bitcoinmagazine.com/technical/why-bitcoin-wallets-need-block-filters) ca Bitcoin.
+- Aha hariho ibindi bikoresho vy’ubuhinga bivuye kuri [Bitcoin Optech](https://bitcoinops.org/en/topics/compact-block-filters/)
+- Ehe ingene ushobora gukoresha Neutrino ku nzira yawe yo mu nzu maze ugakoresha amayunguruzo y’amabuye ku nzira yawe yo mu ntoke, kuva kuri [Inyandiko z’Ivyuma vy’Imiravyo](https://docs.lightning.engineering/lightning-network-tools/lnd/enable-neutrino-mode-in-bitcoin-core).
 
 
 ICIBUTSWA: Gukoresha Neutrino kuri clearnet biratekanye rwose, IP yawe canke xpub yawe ntibivuza. Uriko urasoma gusa amabuye avuye mu nzira iri kure cane ifise neutrino. Ivyo nivyo vyose. Ibindi vyose bikorwa ku gikoresho cawe co mu karere.
@@ -543,7 +543,7 @@ asia.blixtwallet.com
 ```
 
 
-Ubundi buryo ni uguhitamwo imwe muri uru rutonde rw'ibihimba bimenyesha "ibiyunguruzo bikomeye" (BIP157 / neutrino) - [Ibiyunguruzo vy'ibihimba vy'umubiri](https://bitnodes.io/nodes/?q=IBIYUNGURO_BIKOMEYE). Hitamwo imwe iri hafi y’aho uba.
+Ubundi buryo ni uguhitamwo imwe muri uru rutonde rw'ibihimba bimenyesha "ibiyunguruzo bikomeye" (BIP157 / neutrino) - [Ibiyunguruzo vy'ibihimba vy'umubiri](https://bitnodes.io/nodes/?q=NODE_COMPACT_FILTERS). Hitamwo imwe iri hafi y’aho uba.
 
 
 Ubundi buryo (uburyo bwiza) ni ugufatanya n’umurongo w’abanyagihugu wo mu karere, urongowe n’umugenzi canke umugwi uzi, kandi uriko uratanga ubufatanye bwa neutrino. [Ehe amabwirizwa y’ingene wobikora.](https://docs.lightning.engineering/lightning-network-tools/lnd/enable-neutrino-mode-in-bitcoin-core) Node yabo ntizogira ico ikoze mu buryo na bumwe, bakeneye gusa uruja n’uruza ruhamye kandi rwa bose.
@@ -623,7 +623,7 @@ Nk’uko nabivuze muri [paje y’uburongozi bwa Blixt](https://blixtwallet.githu
 
 
 
-- gufungura n'ibice vya LSP bizwi cane be n'abagenzi bawe bashigikiwe n'abanyagihugu. [Raba hano urutonde](ibibazo/1033)
+- gufungura n'ibice vya LSP bizwi cane be n'abagenzi bawe bashigikiwe n'abanyagihugu. [Raba hano urutonde](https://github.com/hsjoberg/blixt-wallet/issues/1033)
 - ntufungure n'ibihimba vya Tor gusa. Ivyo ntaco bimaze kandi uzoronka gusa ibibazo vyo kudashobora gukora ama payments. Naho umugenzi wawe "the node runner" yoba mwiza gute afise node ya Tor shity mw'ishamba, ntazokwigera aguha inzira nziza cane z'node y'ibanga igendagenda. Ntufungura ama channels n’umuntu kuko ni umugenzi wawe. Iyi si Facebook! Ufungura umurongo w’: inzira nziza, amafaranga make, ukuboneka.
 - ntaco bimaze gufungura tonne y'imirongo mito mito, 2-3 canke max 4, ariko n'umubare mwiza wa Sats. Ntimufungure imirongo mito mito, nta co imaze rwose. Ivyo bitoyi kuruta 200k kuri mobile ntibikoreshwa cane.
 - muzirikane ama LSP atanga imirongo y’imbere n’imirongo ya JIT (just in time). Ivyo ni ngirakamaro cane kuko ntukeneye gukoresha n’imwe muri UTXO zawe, ushobora kwishura umurongo wo gufungura n’amahera usanzwe ufise mu zindi nkweto za LN, ukazirundanya no kuzitegura kugira ngo umurongo munini ufungure. Ukwiye gukoresha izo nzira za JIT mu neza yawe. [Narasiguye muri iyi nsiguro](https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) ubundi buryo bwo guhitamwo ku bagenzi ku node z’ibanga nka Blixt. Kandi [hano muri iyi nkuru yashizwe kuri SN](https://stacker.news/items/679242/r/DarthCoin) narasiguye ingene wocungera amafaranga y’amanode y’abantu ku giti cabo.
@@ -650,19 +650,19 @@ Hagati aho, ng’ibi amahuzu yose yerekeye iyi nzira itangaje ya Bitcoin Lightni
 
 
 
-- [Urupapuro rwemewe rwa Blixt]
-- [Urupapuro rwa Github rwa Blixt](Urupapuro rwa Github.
+- [Urupapuro rwemewe rwa Blixt](https://blixtwallet.com/)
+- [Urupapuro rwa Github rwa Blixt](https://github.com/hsjoberg/blixt-wallet/) rwa Github.
 - [Urupapuro rw'Ibiranga Blixt](https://blixtwallet.github.io/features) - gusigura kimwe kimwe ikintu cose n'imikorere yaco.
 - - Urutonde rw'ibibazo n'inyishu n'ugutorera umuti ingorane za Blixt
 - [Urupapuro rw'uburongozi rwa Blixt](https://blixtwallet.github.io/guides) - ivyerekanwa, inyigisho za videwo, uburongozi bw'inyongera n'ingene Blixt ikoreshwa
-- Gukuraho: [Iduka ry'Imikino ya Android](iduka ry'Imikino/Ibisobanuro?id=com.blixtwallet) | [iOS](igerageza ry'indege.ipome.com/ifatanye/EXvGhRzS) | [APK ishobora gukurwako](ibisohoka)
+- Gukuraho: [Iduka ry'Imikino ya Android](https://play.google.com/store/apps/details?id=com.blixtwallet) | [iOS](https://testflight.apple.com/join/EXvGhRzS) | [APK ishobora gukurwako](https://github.com/hsjoberg/blixt-wallet/releases)
 - [Itsinda ry'itelegaramu ryo gufasha ataco rihinduye](https://t.me/blixtwallet)
-- [Twitter](ku rubuga rwa Twitter/BlixtWallet)
+- [Twitter](https://twitter.com/BlixtWallet)
 - [Urupapuro rw'amahera y'abantu benshi rwa Geyser](https://geyser.fund/project/blixt) - tanga Sats uko ukunda gushigikira umugambi
 - [LNURL Ikiganiro Blixt](https://chat.blixtwallet.com/) - ikiganiro c'amazina LN
-- [Ikiganiro ca Blixt - amasanamu y'iterambere](https://videwo y'umuravyo/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
-- [Ikirangamisi c'abakobwa ca Blixt] - videwo y'iterambere (ushobora kugerageza gukoresha kwawe kwa mbere kwa G-91)
-- [Igitabo co gucapura mu rurimi rwa A4 gifise intambwe za mbere hakoreshejwe Blixt, mu ndimi zitandukanye]
+- [Ikiganiro ca Blixt - amasanamu y'iterambere](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
+- [Ikirangamisi c'abakobwa ca Blixt](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - videwo y'iterambere (ushobora kugerageza gukoresha kwawe kwa mbere kwa G-91)
+- [Igitabo co gucapura mu rurimi rwa A4 gifise intambwe za mbere hakoreshejwe Blixt, mu ndimi zitandukanye](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer)
 - [Blixt kandi itanga ikigereranyo c’ibikorwa vyuzuye](https://blixtwallet.github.io/) ku rubuga rwayo canke ku rubuga rwa verisiyo yihariye, kugira ngo ugire ikigeragezo c’ubumenyi bushitse, imbere yo gutangura gukoresha mw’isi nyakuri.
 
 

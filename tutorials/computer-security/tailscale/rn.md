@@ -181,7 +181,7 @@ Iyi nyandiko izokwongerako ububiko bwa Tailscale buzwi maze ishiremwo iyo packag
 
 
 
-- Ku iOS na Android: Tailscale itanga **ivyemewe** ibikoresho vyo kuri telefone ngendanwa. Gusa shiramwo *Tailscale* mu [Iduka ry'Iporogarama](iOS) canke [Iduka ry'Imikino](Iduka ry'Imikino](id.
+- Ku iOS na Android: Tailscale itanga **ivyemewe** ibikoresho vyo kuri telefone ngendanwa. Gusa shiramwo *Tailscale* mu [Iduka ry'Iporogarama](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1)(iOS) canke [Iduka ry'Imikino](https://play.google.com/store/apps/details?id=com.tailscale.ipn) ry'Imikino](id.
 
 
 
@@ -607,8 +607,8 @@ Tailscale ni igikoresho gihambaye co kwiyakira, bivuye ku kworoha kwaco n’ubus
 
 
 
-- Ivyigwa vya Homelab**: [Ivyigwa vyo mu nzu] - Ivyigwa vyihariye vyo kwiyakira.
-- Gutegura Igikoresho co Gusohoka**: [Igikoresho co Gusohoka](https://Igikoresho co Gusohoka) - Inyobora ido n'ido yo gutunganya Igikoresho co Gusohoka.
+- Ivyigwa vya Homelab**: [Ivyigwa vyo mu nzu](https://tailscale.com/kb/1310/homelab) - Ivyigwa vyihariye vyo kwiyakira.
+- Gutegura Igikoresho co Gusohoka**: [Igikoresho co Gusohoka](https://tailscale.com/kb/1103/exit-nodes) - Inyobora ido n'ido yo gutunganya Igikoresho co Gusohoka.
 - Koresha **Taildrop**: [umurizo.com/kb/1106/umurizo](https://tailscale.com/kb/1106/taildrop) - Kwimurira amadosiye hagati y'ibikoresho vya Tailscale.
 
 
@@ -629,7 +629,7 @@ Tailscale ni igikoresho gihambaye co kwiyakira, bivuye ku kworoha kwaco n’ubus
 
 
 
-- Reddit**: [r/Ikigereranyo c'Umurizo](https://www.reddit.com/r/Ikigereranyo c'Umurizo/) - Ibiganiro, ibibazo n'ibisubizo.
+- Reddit**: [r/Ikigereranyo c'Umurizo](https://www.reddit.com/r/tailscale/) - Ibiganiro, ibibazo n'ibisubizo.
 - GitHub**: [github.com/umurizo/umurizo](https://github.com/tailscale/tailscale) - Kode y'inkomoko y'umukiriya, aho wokurikirana iterambere no gutanga raporo y'ingorane.
 - Discord**: [amatati.gg/umurongo w'umurizo](https://discord.gg/tailscale) - Umuryango w'abakoresha n'abategura.
 

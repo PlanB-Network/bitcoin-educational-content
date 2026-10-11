@@ -435,7 +435,7 @@ Tangana uhitemwo umuti w’ubuhinga ubereye ubuzima bwawe, uwugerageze n’agace
 
 
 - [BIP-65 : OP_CHECKLOCKTIMEVERIFY](Ibisobanuro vy'igihe c'ugufunga (CLTV)
-- [BIP-112 : OP_CHECKSEQUENCEVERIFY](Ibisobanuro vy'igihe gifitaniye isano (CSV)
+- [BIP-112 : OP_CHECKSEQUENCEVERIFY](https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki) vy'igihe gifitaniye isano (CSV)
 - [Inyandiko ntoya](https://bitcoin.sipa.be/miniscript/) - Inyandiko ntoya yemewe yanditswe na Pieter Wuille
 
 
@@ -446,6 +446,6 @@ Tangana uhitemwo umuti w’ubuhinga ubereye ubuzima bwawe, uwugerageze n’agace
 
 
 
-- [Liana Wallet](ubutumwa bw'umupfumu.com/liana/) - Umupfumu
-- [Bitcoin Keeper](Umucungezi w'amafaranga. app/) - Bithyve
-- [Iragi Wallet](btc-iragi.com/) - Crypto7.
+- [Liana Wallet](https://wizardsardine.com/liana/) - Umupfumu
+- [Bitcoin Keeper](https://bitcoinkeeper.app/) - Bithyve
+- [Iragi Wallet](https://btc-heritage.com/) - Crypto7.

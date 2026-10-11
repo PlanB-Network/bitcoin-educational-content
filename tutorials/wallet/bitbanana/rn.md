@@ -337,9 +337,9 @@ BitBanana igira ubusegaba bwose, nta makuru yegeranya kandi ntiyigera ihungabany
 
 
 
-- [Urubuga rwa BitBanana](urubuga rwa BitBanana.app)
-- [Inyandiko zuzuye](inyandiko.bitbanana.app)
-- [Kode y'inkomoko ya GitHub]
+- [Urubuga rwa BitBanana](https://bitbanana.app)
+- [Inyandiko zuzuye](https://docs.bitbanana.app)
+- [Kode y'inkomoko ya GitHub](https://github.com/michaelWuensch/BitBanana)
 
 
 
@@ -348,5 +348,5 @@ BitBanana igira ubusegaba bwose, nta makuru yegeranya kandi ntiyigera ihungabany
 
 
 
-- [Iduka ry'imikino ya Google](ububiko/porogaramu/ibisobanuro?id=porogaramu.michaelwuensch.bitbanana)
-- [F-Cold](imbuga z'ibitoke)
+- [Iduka ry'imikino ya Google](https://play.google.com/store/apps/details?id=app.michaelwuensch.bitbanana)
+- [F-Cold](https://f-droid.org/packages/app.michaelwuensch.bitbanana)

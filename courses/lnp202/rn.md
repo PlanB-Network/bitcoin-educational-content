@@ -1404,9 +1404,9 @@ Mu porogarama zizwi cane harimwo:
 
 
 
-- [Alby Hub](ku rubuga rwacu);
+- [Alby Hub](https://albyhub.com/);
 - [Gutwara Umuravyo](https://www.ridethelightning.info/);
-- [ThunderHub](ku rubuga rw'inkuba).
+- [ThunderHub](https://thunderhub.io/).
 
 
 
@@ -2052,7 +2052,7 @@ Niba utavyemera n’ihuriro rya Tailscale, canke nimba gucunga VPN ibiri bisa n�
 
 
 
-Ku bijanye n’akarorero, tuzoba turiko turakoresha porogarama yo kuri telefone yitwa Alby Go, ikaba yateguwe neza cane kandi cane cane yoroshe kwiga. Ivyo bivuzwe, urashobora kandi gukoresha Zeus canke iyindi porogarama iyo ari yo yose ihuye na NWC. Uzosanga urutonde rw'ibikorwa bihuye kuri [ububiko bwa GitHub `buteye ubwoba-nwc`]
+Ku bijanye n’akarorero, tuzoba turiko turakoresha porogarama yo kuri telefone yitwa Alby Go, ikaba yateguwe neza cane kandi cane cane yoroshe kwiga. Ivyo bivuzwe, urashobora kandi gukoresha Zeus canke iyindi porogarama iyo ari yo yose ihuye na NWC. Uzosanga urutonde rw'ibikorwa bihuye kuri [ububiko bwa GitHub `buteye ubwoba-nwc`](https://github.com/getAlby/awesome-nwc)
 
 
 
@@ -2143,9 +2143,9 @@ Kuri telefone yawe, shiramwo porogarama Alby Go:
 
 
 
-- [Iduka ry'imikino ya Google](https://imikino.com/iduka/amaporogarama/ibisobanuro?id=com.getalby.mobile);
-- [Iduka ry'amaporogarama y'ipome](iporogarama y'ipome
-- [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq3jhml5fvklgnq9fxpete767txn9zfzqdkc0sxfptmnchfrexje7qqfxxmmd9enk2jxpd3).
+- [Iduka ry'imikino ya Google](https://play.google.com/store/apps/details?id=com.getalby.mobile);
+- [Iduka ry'amaporogarama y'ipome](https://apps.apple.com/us/app/alby-go/id6471335774) y'ipome
+- [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq3jhml5fvklgnq9fxpete767txn9zfzqdkc0sxfptmnchfrexje7qqfxxmmd9enk2arpd338jtndda3xjmr9pzj5tk).
 
 
 

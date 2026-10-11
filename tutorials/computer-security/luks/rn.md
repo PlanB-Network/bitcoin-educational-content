@@ -10,7 +10,7 @@ ___
 
 
 
-*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Mickael Dorigny vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](ku rubuga rwacu/uruhusha/ku-NC/4.0/). Birashoboka ko hari ivyo bahinduye mu canditswe c’intango.*
+*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Mickael Dorigny vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Birashoboka ko hari ivyo bahinduye mu canditswe c’intango.*
 
 
 
@@ -26,7 +26,7 @@ Gushiramwo amakuru yawe y’agaciro kuri USB ni uburyo bwiza bwo kurinda amakuru
 
 
 
-[**LUKS**](*Itegeko ry'urufunguzo rwa Linux*) ni urugero rwo gushiramwo amakuru y'urufunguzo rwa disiki rukoreshwa cane cane kuri sisitemu za Linux. Ikingira amakuru mu gupfuka ibice vya disiki bikoresheje ubuhinga bukomeye. Infashanyo yayo ku mirongo ya Linux yorosha gucunga imfunguruzo n’amajambo y’ibanga, itanga Interface igezweho n’uguhuza n’ibikoresho bitandukanye vyo gucunga.
+[**LUKS**](https://fr.wikipedia.org/wiki/LUKS)(*Itegeko ry'urufunguzo rwa Linux*) ni urugero rwo gushiramwo amakuru y'urufunguzo rwa disiki rukoreshwa cane cane kuri sisitemu za Linux. Ikingira amakuru mu gupfuka ibice vya disiki bikoresheje ubuhinga bukomeye. Infashanyo yayo ku mirongo ya Linux yorosha gucunga imfunguruzo n’amajambo y’ibanga, itanga Interface igezweho n’uguhuza n’ibikoresho bitandukanye vyo gucunga.
 
 
 

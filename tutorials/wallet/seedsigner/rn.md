@@ -207,7 +207,7 @@ Igisubizo citezwe ni `OK` iruhande ya dosiye `.img`. Ivyo vyemeza ko ishusho yas
 
 
 
-Kuri Windows, uburyo bwo kubikora burasa ariko amabwirizwa aratandukanye. Tangana n’ugushiramwo [Gpg4win]() hanyuma ufungure porogarama ya *Kleopatra*. Injira urufunguzo rwa bose rw'umugambi wa SeedSigner kuva ku rubuga rwa URL :
+Kuri Windows, uburyo bwo kubikora burasa ariko amabwirizwa aratandukanye. Tangana n’ugushiramwo [Gpg4win](https://www.gpg4win.org/) hanyuma ufungure porogarama ya *Kleopatra*. Injira urufunguzo rwa bose rw'umugambi wa SeedSigner kuva ku rubuga rwa URL :
 
 
 
@@ -1134,7 +1134,7 @@ Suzuma amakuru y'ibikorwa kugira ngo umenye neza ko vyose ari ukuri, hanyuma uka
 
 
 
-Ivyo bikoresho ubu birateguwe, ariko ntibirashirwako umukono. Kugira ngo ugaragaze [PSBT (*Partially Signed Bitcoin Transaction*)](PSBT) nk'ikode ya QR, kanda kuri `Kwerekana QR`.
+Ivyo bikoresho ubu birateguwe, ariko ntibirashirwako umukono. Kugira ngo ugaragaze [PSBT (*Partially Signed Bitcoin Transaction*)](https://planb.academy/en/resources/glossary/psbt) nk'ikode ya QR, kanda kuri `Kwerekana QR`.
 
 
 
@@ -1239,4 +1239,4 @@ https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1
 
 
 
-*Iciyumviro: amwe mu mashusho ari muri iyi nyigisho ava ku [urubuga rwemewe rw’umugambi wa SeedSigner](https://umusinyi w’imbuto.com/) no ku [bubiko bwa GitHub](https://github.com/SeedSigner/seedsigner).*
+*Iciyumviro: amwe mu mashusho ari muri iyi nyigisho ava ku [urubuga rwemewe rw’umugambi wa SeedSigner](https://seedsigner.com/) no ku [bubiko bwa GitHub](https://github.com/SeedSigner/seedsigner).*

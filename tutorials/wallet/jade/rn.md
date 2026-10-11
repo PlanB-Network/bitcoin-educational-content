@@ -57,7 +57,7 @@ Jade yawe imaze kuboneka muri Green, hindura Jade ukanda Suzuma ko hariho ibintu
 Uhejeje guhindura porogarama ya Jade, hitamwo Setup Jade ku rubuga n’ingingo ngenderwako y’umutekano wipfuza gukoresha.
 
 
-**Impanuro:** Itegeko ry'umutekano riri munsi y'Ubwoko ku rubuga rwo kwinjira rwerekanwa aha hepfo. Niba utazi neza nimba wohitamwo Singlesig canke Multisig Shield, usabwe gusubiramwo uburongozi bwacu [hano](https/imfashanyo.
+**Impanuro:** Itegeko ry'umutekano riri munsi y'Ubwoko ku rubuga rwo kwinjira rwerekanwa aha hepfo. Niba utazi neza nimba wohitamwo Singlesig canke Multisig Shield, usabwe gusubiramwo uburongozi bwacu [hano](https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained).
 
 
 ![image](assets/3.webp)

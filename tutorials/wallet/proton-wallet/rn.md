@@ -25,7 +25,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 ## Huza na porotoni Wallet
 
 
-Genda kuri [urubuga rwa Proton Wallet] maze ukande kuri buto "*Ronka Proton Wallet*".
+Genda kuri [urubuga rwa Proton Wallet](https://proton.me/wallet) maze ukande kuri buto "*Ronka Proton Wallet*".
 
 
 ![Image](assets/fr/01.webp)
@@ -214,8 +214,8 @@ Gukuraho Proton Wallet mu bubiko bwawe bw'ibikoresho:
 
 
 
-- [Ku iduka ry’amaporogarama](porotoni-Wallet-itekanye-btc/id6479609548);
-- [Ku bubiko bwa Google](ububiko/porogarama/ibisobanuro?id=me.proton.Wallet.android).
+- [Ku iduka ry’amaporogarama](https://apps.apple.com/us/app/proton-wallet-secure-btc/id6479609548);
+- [Ku bubiko bwa Google](https://play.google.com/store/apps/details?id=me.proton.wallet.android).
 
 
 ![Image](assets/fr/26.webp)

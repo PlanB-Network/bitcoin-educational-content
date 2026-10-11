@@ -10,7 +10,7 @@ Rondera aha hepfo amasoko makeyi y'insobanuro ya Electrum:
 
 
 
-- [X](ku rubuga rwa Twitter/Igikapu c'umuyagankuba)
+- [X](https://twitter.com/ElectrumWallet)
 - [Urubuga rw'amashanyarazi](https://electrum.org/)
 - [Inyandiko z'umuyagankuba](https://electrum.readthedocs.io/)
 

@@ -45,7 +45,7 @@ Igikoresho giteye imbere gatoyi ni ugukoresha Wallet y’ikintu ca Satoshi co ku
 ![image](assets/en/01.webp)
 
 
-Ubu ni bumwe mu buryo bubiri bwo gushika ku kibanza c’Ikibanza c’Ugurisha. Ubundi buryo ni ubwo gukoresha [Wallet ya Satoshi PoS app] yihariye.
+Ubu ni bumwe mu buryo bubiri bwo gushika ku kibanza c’Ikibanza c’Ugurisha. Ubundi buryo ni ubwo gukoresha [Wallet ya Satoshi PoS app](https://www.walletofsatoshi.com/pos.) yihariye.
 
 
 Inyungu zo gukoresha ikintu co kugurisha ni zitatu:

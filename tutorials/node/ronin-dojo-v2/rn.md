@@ -252,7 +252,7 @@ Hanyuma ushire Raspberry Pi yawe kuri router yawe ukoresheje umugozi wa Ethernet
 
 ### Intambwe ya 3: Gushinga uruja n'uruza rwa SSH n'uruzitiro
 
-Ubwa mbere, ni ngombwa kurondera IP Address y’urudodo rwawe. Ufise uburenganzira bwo gukoresha igikoresho nka _[Igikoresho co gupima IP](https://www.ip-scanner.com/)_ canke _[Igikoresho co gupima IP giteye imbere](https://angryip.org/)_, canke ugasuzuma ubuyobozi Interface bwa router yawe. IP Address ikwiye kuba iri mu rupapuro `192.168.1.??`. **Ku mategeko yose akurikira, subiriza `[IP]` IP nyayo Address y'uruzitiro rwawe**, (ukuraho ibifunga).
+Ubwa mbere, ni ngombwa kurondera IP Address y’urudodo rwawe. Ufise uburenganzira bwo gukoresha igikoresho nka _[Igikoresho co gupima IP](https://www.advanced-ip-scanner.com/)_ canke _[Igikoresho co gupima IP giteye imbere](https://angryip.org/)_, canke ugasuzuma ubuyobozi Interface bwa router yawe. IP Address ikwiye kuba iri mu rupapuro `192.168.1.??`. **Ku mategeko yose akurikira, subiriza `[IP]` IP nyayo Address y'uruzitiro rwawe**, (ukuraho ibifunga).
 
 
 Gutanguza igisagara.
@@ -341,7 +341,7 @@ Ushitse kuri paji y'intango ya RoninUI, uzosabwa gutangura gutegura. Kugira ngo 
 ![lets start](assets/notext/25.webp)
 
 
-Kuri iyi ntambwe, RoninUI iraguha ijambobanga ryawe `umuzi`. Ni ngombwa ko tuyizigama neza. Ushobora guhitamwo ububiko bw’umubiri, ku mpapuro, canke ukabubika mu [mucungerezi w’ijambobanga]
+Kuri iyi ntambwe, RoninUI iraguha ijambobanga ryawe `umuzi`. Ni ngombwa ko tuyizigama neza. Ushobora guhitamwo ububiko bw’umubiri, ku mpapuro, canke ukabubika mu [mucungerezi w’ijambobanga](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f)
 
 
 ![root password](assets/notext/26.webp)

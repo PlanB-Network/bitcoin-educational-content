@@ -1454,7 +1454,7 @@ Ku rundi ruhande, ku wugurisha, igikorwa kirarushiriza kugorana. Kugira ngo bash
 
 
 
-- **Gugura imirongo**: Ibikorwa vyo gukodesha imirongo y'umuravyo navyo nyene birahari kugira ngo umuntu aronke amahera yinjira, nka [Bitrefill Thor] Nk'akarorero, Alice irashobora kugura umurongo w'amasatoshi miliyoni imwe yerekeza ku nzira yiwe kugira ngo ishobore kwakira amahera.
+- **Gugura imirongo**: Ibikorwa vyo gukodesha imirongo y'umuravyo navyo nyene birahari kugira ngo umuntu aronke amahera yinjira, nka [Bitrefill Thor](https://www.bitrefill.com/thor-lightning-network-channels/) Nk'akarorero, Alice irashobora kugura umurongo w'amasatoshi miliyoni imwe yerekeza ku nzira yiwe kugira ngo ishobore kwakira amahera.
 
 
 ![LNP201](assets/en/074.webp)

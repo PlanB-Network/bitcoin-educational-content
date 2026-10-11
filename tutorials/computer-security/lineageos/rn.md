@@ -176,7 +176,7 @@ Dushingiye ku mibare yemewe, ibikoresho bikoreshwa cane birimwo ibikoresho bitan
 
 
 
-**Ibikoresho vya ADB na Fastboot:** Kurikiza [uburongozi buzwi bwa LineageOS](uburongozi_burongoye_gufungura-adb-n'ugufungura vuba) kugira ngo ushiremwo Ibikoresho vy'Ikibanza ca Android SDK. Genzura gushirwaho na `verisiyo ya adb` na `verisiyo ya fastboot`.
+**Ibikoresho vya ADB na Fastboot:** Kurikiza [uburongozi buzwi bwa LineageOS](https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) kugira ngo ushiremwo Ibikoresho vy'Ikibanza ca Android SDK. Genzura gushirwaho na `verisiyo ya adb` na `verisiyo ya fastboot`.
 
 
 
@@ -723,7 +723,7 @@ LineageOS itanga uburyo bukomeye bwo gusubira kugenzura telefone yawe ngendanwa 
 
 
 
-- [Urubuga rwemewe rwa LineageOS](https://umuryango.org)
+- [Urubuga rwemewe rwa LineageOS](https://lineageos.org)
 - [UmurongoOS Wiki](https://wiki.lineageos.org) - Uburongozi bwo gushiramwo hakurikijwe urugero
 - [UmurongoOS wa microG](https://lineage.microg.org) - Verisiyo ifise microG yunze ubumwe
 
@@ -734,8 +734,8 @@ LineageOS itanga uburyo bukomeye bwo gusubira kugenzura telefone yawe ngendanwa 
 
 
 
-- [Uruvyaro rw'Igihugu](Uruvyaro rw'Igihugu)
-- [Ikonti ya Mastodon @UmuryangoOS](urubuga rwa Mastodon.org/@UmuryangoOS)
+- [Uruvyaro rw'Igihugu](https://reddit.com/r/LineageOS)
+- [Ikonti ya Mastodon @UmuryangoOS](https://fosstodon.org/@LineageOS)
 
 
 

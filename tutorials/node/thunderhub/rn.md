@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Dosiye y'imiterere nyamukuru:** Rema dosiye `.env.local` ku muzi wa dosiye ya ThunderHub kugira ngo uhindure imiterere (ivyo bizokubuza imiterere yawe kwandikwako mu gihe c'ivugurura). Ibihinduka nyamukuru nk'uko [inyandiko zo gutegura](https://inyandiko.thunderhub.io/gutegura):
+**1. Dosiye y'imiterere nyamukuru:** Rema dosiye `.env.local` ku muzi wa dosiye ya ThunderHub kugira ngo uhindure imiterere (ivyo bizokubuza imiterere yawe kwandikwako mu gihe c'ivugurura). Ibihinduka nyamukuru nk'uko [inyandiko zo gutegura](https://docs.thunderhub.io/configure):
 
 
 

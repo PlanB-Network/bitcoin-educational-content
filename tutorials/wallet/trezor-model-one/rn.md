@@ -6,7 +6,7 @@ description: Gushinga no gukoresha Hardware Wallet Model One
 
 
 
-*Ishusho: [Trezor.io]*
+*Ishusho: [Trezor.io](https://trezor.io/)*
 
 
 
@@ -77,7 +77,7 @@ Gukoresha igikoresho biroroshe cane:
 
 
 
-Ku bw’iyi nyigisho, ngiye kukwereka ingene wokoresha Trezor Model One n’[porogarama yo gucunga Sparrow wallet Wallet](https/sparrowwallet.com/gukuraho/). Niba utarashiramwo iyi porogaramu, ndagusavye uyikore ubu. Niba ukeneye gufashwa, turafise kandi inyigisho ido n'ido ku bijanye no gutunganya Sparrow wallet :
+Ku bw’iyi nyigisho, ngiye kukwereka ingene wokoresha Trezor Model One n’[porogarama yo gucunga Sparrow wallet Wallet](https://sparrowwallet.com/download/). Niba utarashiramwo iyi porogaramu, ndagusavye uyikore ubu. Niba ukeneye gufashwa, turafise kandi inyigisho ido n'ido ku bijanye no gutunganya Sparrow wallet :
 
 
 
@@ -87,7 +87,7 @@ Uzokenera kandi porogarama ya Trezor Suite kugira ngo ushobore gutunganya Model 
 
 
 
-[Kura urubuga rwa Trezor Suite ku rubuga rwemewe]
+[Kura urubuga rwa Trezor Suite ku rubuga rwemewe](https://trezor.io/trezor-suite)
 
 
 

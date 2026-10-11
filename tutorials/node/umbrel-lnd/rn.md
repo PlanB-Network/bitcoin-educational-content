@@ -221,7 +221,7 @@ LND imaze gukora, urashobora gufungura umurongo wawe wa mbere wa Lightning. Kugi
 
 
 
-Nk’akarorero, [urudodo rwa ACINQ](urudodo rwa ACINQ) ni urudodo rwemewe rw’imibare n’ubushobozi bwo gukoresha amahera.
+Nk’akarorero, [urudodo rwa ACINQ](https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) ni urudodo rwemewe rw’imibare n’ubushobozi bwo gukoresha amahera.
 
 
 
@@ -229,7 +229,7 @@ Nk’akarorero, [urudodo rwa ACINQ](urudodo rwa ACINQ) ni urudodo rwemewe rw’i
 
 
 
-Ku bw’iyi nyigisho, tuzofungura umurongo ufise [Swiss Bitcoin Pay]( Amakuru asabwa kugira ngo umuntu ashobore gukorana (pubkey@ip:port) aratangwa kuri paji yabo ya Amboss.
+Ku bw’iyi nyigisho, tuzofungura umurongo ufise [Swiss Bitcoin Pay](https://amboss.space/node/03c181e13a09a649c13f60ea3ddbeefc66123c43280da8eebc19f54445f35173ca) Amakuru asabwa kugira ngo umuntu ashobore gukorana (pubkey@ip:port) aratangwa kuri paji yabo ya Amboss.
 
 
 
@@ -455,7 +455,7 @@ Ivyo bihitamwo si ngombwa, kandi umuti wa Tor + Zeus urakora neza kenshi.
 
 > **Ibikoresho vy'ingirakamaro:**
 > - [Inyandiko za Zewu - Ihuza ry'umutaka](https://community.umbrel.com/t/zeus-ln-mobile/7619) - Inyobora yemewe yo guhuza Zewu n'umutaka
-> - [Zewu GitHub](Zewu LN/Zewu) - Umugambi wa Zewu w'inkomoko yuguruye
+> - [Zewu GitHub](https://github.com/ZeusLN/zeus) - Umugambi wa Zewu w'inkomoko yuguruye
 > - [Umuryango w'Umutaka - Guhuza Zewu biciye ku Murizo](https://community.umbrel.com/t/how-to-use-tailscale-with-umbrel/6782) - Inyobora yo guhuza Zewu n'Umutaka ukoresheje Umurizo
 
 ## 5. Umutekano n’ingene wobikora neza

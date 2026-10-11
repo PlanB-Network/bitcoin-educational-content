@@ -64,8 +64,8 @@ SimpleX Chat iraboneka ku mbuga zose. Ushobora gukura iyo porogaramu mu bubiko b
 
 
 - [Ikiganiro ca Google](https://play.google.com/store/apps/details?id=chat.simplex.app);
-- [Iduka ry'amaporogarama](itps://amaporogarama.com/us/porogarama/intumwa-yoroshe-y'uguhanahana amakuru/id1605771084);
-- [F-Droid](ubutumwa bworoshe/fdroid/).
+- [Iduka ry'amaporogarama](https://apps.apple.com/us/app/simplex-chat-secure-messenger/id1605771084);
+- [F-Droid](https://simplex.chat/fdroid/).
 
 
 

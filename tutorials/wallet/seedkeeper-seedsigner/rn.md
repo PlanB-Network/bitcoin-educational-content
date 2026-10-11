@@ -7,7 +7,7 @@ description: Nokoresha gute Umucungezi w'Imbuto n'Umucungezi wanje w'Imbuto?
 
 
 
-*Turashimira umugwi wa [Satochip](https://satochip.io/) wemeye gusubira gukoresha [amasanamu yabo] muri iyi nyigisho. Turashimira kandi [Igitabu c'Ivy'Ibanga](https://www.youtube.com/@CryptoGuide/) kubera fork yayo ya porogarama y'Imbuto, ishoboza gushigikira amakarata y'ubwenge
+*Turashimira umugwi wa [Satochip](https://satochip.io/) wemeye gusubira gukoresha [amasanamu yabo](https://www.youtube.com/@satochip/videos) muri iyi nyigisho. Turashimira kandi [Igitabu c'Ivy'Ibanga](https://www.youtube.com/@CryptoGuide/) kubera fork yayo ya porogarama y'Imbuto, ishoboza gushigikira amakarata y'ubwenge
 
 
 
@@ -56,7 +56,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-Kugira ngo ukoreshe SeedSigner yawe n’Umucungezi w’Imbuto, ukeneye gushiramwo iyindi porogarama, itandukanye n’iya SeedSigner y’intango, kugira ngo ushobore gufasha gusoma ikarita y’ubwenge. Ku bw'ivyo, [ndabahimiriza gukoresha fork ivuye muri "*Isubiramwo rya 3*"](https://github.com/3rdIteration/seedsigner). Gukuraho [verisiyo nshasha y'ishusho](`.zip`) ihuye n'akarorero ka Raspberry Pi uriko urakoresha.
+Kugira ngo ukoreshe SeedSigner yawe n’Umucungezi w’Imbuto, ukeneye gushiramwo iyindi porogarama, itandukanye n’iya SeedSigner y’intango, kugira ngo ushobore gufasha gusoma ikarita y’ubwenge. Ku bw'ivyo, [ndabahimiriza gukoresha fork ivuye muri "*Isubiramwo rya 3*"](https://github.com/3rdIteration/seedsigner). Gukuraho [verisiyo nshasha y'ishusho](https://github.com/3rdIteration/seedsigner/releases)(`.zip`) ihuye n'akarorero ka Raspberry Pi uriko urakoresha.
 
 
 
@@ -506,5 +506,5 @@ Niba iyi setup yakwemeje, ntukekeranye gushigikira imigambi ituma bishoboka:
 
 
 - Mu kugura ibikoresho vyawe ataco ukoresheje [ku rubuga rwa Satochip](https://satochip.io/shop/);
-- Mu gutanga [intererano ku mugambi w’Umushingantahe w’Imbuto](https://umushingantahe w’imbuto.com/intererano/);
+- Mu gutanga [intererano ku mugambi w’Umushingantahe w’Imbuto](https://seedsigner.com/donate/);
 - Mu kwiyandikisha kuri [umurongo wa YouTube wa Crypto Guide](https://www.youtube.com/@CryptoGuide/), urongowe n’umuntu abungabunga ububiko bwa GitHub bufise porogarama yahinduwe.

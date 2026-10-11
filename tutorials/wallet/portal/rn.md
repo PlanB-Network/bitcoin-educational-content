@@ -5,7 +5,7 @@ description: Gutegura no gukoresha urubuga rwa Hardware Wallet rw'ibikoresho mir
 ![cover](assets/cover.webp)
 
 
-Portal ni Bitcoin Hardware Wallet yakozwe na TwentyTwo Devices, ishirahamwe ry’abahinga mu guhingura amasakoshi y’ibikoresho vy’ubuhinga bwa none vy’abakoresha amafaranga y’amahera. Yashinzwe na Alekos Filini, umuremyi w’umugambi w’ubupfumu Bitcoin ([kuva ubu witwa BDK]([https://github.com/bitcoindevkit)) kandi amaze gukorera Blockstream na BHB Network, ibikoresho vya TwentyTwo bifise intumbero yo kwibanda ku kwigenga kw’abakoresha, ku kworoha no ku mutekano.
+Portal ni Bitcoin Hardware Wallet yakozwe na TwentyTwo Devices, ishirahamwe ry’abahinga mu guhingura amasakoshi y’ibikoresho vy’ubuhinga bwa none vy’abakoresha amafaranga y’amahera. Yashinzwe na Alekos Filini, umuremyi w’umugambi w’ubupfumu Bitcoin ([kuva ubu witwa BDK](https://github.com/bitcoindevkit)) kandi amaze gukorera Blockstream na BHB Network, ibikoresho vya TwentyTwo bifise intumbero yo kwibanda ku kwigenga kw’abakoresha, ku kworoha no ku mutekano.
 
 
 Igitandukanya Portal n’izindi nkoko ziri ku isoko ni uko zikorana n’amatelefone ngendanwa. Ikora ata nsinga canke amabateri. Ikoresha ubuhinga bwa NFC kugira ngo yihe ubushobozi kandi ivugane n’itelefone yose ihuye na Wallet. Igishushanyo caco giteye umunezero cagenewe gukoreshwa mu buryo bubereye. Ico gice c’uruziga gishirwa inyuma ya telefone ngendanwa kugira ngo kigaragaze igicapo aho ushobora gusuzuma amakuru y’ivyo ukoresha imbere y’uko ubishirako umukono ukoresheje buto yihariye.

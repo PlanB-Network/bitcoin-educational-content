@@ -730,7 +730,7 @@ Ku ba bitcoiners n’abakoresha ubuhinga baha agaciro umusaruro n’ubuzima bwit
 
 - [Urubuga rwemewe rwa Zen](https://zen-browser.app)
 - [Inyandiko zuzuye](https://docs.zen-browser.app)
-- [Kode y'inkomoko ya GitHub](github.com/umucukumbuzi-zen/ibiro)
+- [Kode y'inkomoko ya GitHub](https://github.com/zen-browser/desktop)
 - [Kuvanaho urupapuro](https://zen-browser.app/download)
 
 
@@ -740,5 +740,5 @@ Ku ba bitcoiners n’abakoresha ubuhinga baha agaciro umusaruro n’ubuzima bwit
 
 
 - [Ugutahura kwemewe](https://discord.gg/zen-browser)
-- [Reddit r/zen_umucukumbuzi](https://reddit.com/r/umucukumbuzi_zen)
-- [Ikibanza ca Zen Mods](https://umucukumbuzi wa Zen.app/ibihindurwa)
+- [Reddit r/zen_umucukumbuzi](https://reddit.com/r/zen_browser)
+- [Ikibanza ca Zen Mods](https://zen-browser.app/mods)

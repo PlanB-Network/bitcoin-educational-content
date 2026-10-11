@@ -48,12 +48,12 @@ Ku bijanye n’ibikoresho vy’umuntu ku giti ciwe, vyose birakora mu buryo busa
 
 Ivyiyumviro vyavuzwe kuri Twitter vyerekanye ko ubuzima bwite butangwa n’ugucuruza kwa Stonewall ubu bushobora kugabanywa. Agaciro kongerewe k’isoko rya Stonewall riri mu kuba ridashobora gutandukanywa n’isoko rya Stonewall x2 mu bijanye n’imiterere. Iyo umusesanguzi ahuye n’ico kigereranyo kidasanzwe, ntashobora kumenya nimba ari Stonewall isanzwe ifise umukoresha umwe canke Stonewall x2 ikoresha abakoresha babiri. Ariko nk’uko tuzobibona mu ngingo zikurikira, gukora ibikorwa vya Stonewall x2 vyaciye bigorana cane kubera Soroban itaboneka. Bamwe rero biyumvira ko umuhinga mu vy’ugusesangura yoshobora ubu kwiyumvira yuko igikorwa cose co gukorana n’ico gice ari uruhome rw’amabuye rusanzwe. Ku bwanje, ivyo vyiyumviro ntabisangiye. Naho amafaranga y’ubudandaji ya Stonewall x2 ashobora kuba ari make (kandi nibwira ko yari asanzwe ariho imbere y’iki kintu), kuba agishoboka birashobora gutuma isesengura ryose rishingiye ku ciyumviro c’uko atari ryo ritagira akamaro.
 
-**[-> Menya vyinshi ku bijanye n'amafaranga y'uruhome rw'amabuye.]
+**[-> Menya vyinshi ku bijanye n'amafaranga y'uruhome rw'amabuye.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 Ku bijanye na Ricochet, sinari nshoboye kumenya nimba iyo serivisi ikiriko irakora, kubera ko ntagira Dojo kuri Testnet, kandi ndahitamwo kutagira ingorane zo gukoresha `100 000 Sats` ku Wallet yoshobora kugenzurwa n’ubutegetsi. Niba wararonse akaryo ko kugerageza iki gikoresho vuba, ndagutumiye ngo unyandikire kugira ngo dushobore guhindura iyi nkuru.
 
 
-Niba ukeneye gukoresha Ricochet, menya neza ko ushobora kwama ukora iyo nzira n’amaboko ukoresheje porogarama iyo ari yo yose ya Wallet. Kugira ngo umenye ingene wokora neza n’amaboko ama hops atandukanye, ndagusavye kuraba iyi yindi ngingo: [**RICOCHET**]
+Niba ukeneye gukoresha Ricochet, menya neza ko ushobora kwama ukora iyo nzira n’amaboko ukoresheje porogarama iyo ari yo yose ya Wallet. Kugira ngo umenye ingene wokora neza n’amaboko ama hops atandukanye, ndagusavye kuraba iyi yindi ngingo: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
 
 
 Ico gikoresho ca JoinBot ntikigikora, kuko cari gishingiye ku ruhara rw’indege Wallet irongowe na Samourai.
@@ -75,10 +75,10 @@ Inyuma y’ibipimo vyinshi, bisa n’uko Soroban atagikora. Kugira ngo ivyo biko
 - Niba uri kure y’uwo mukorana, urashobora Exchange PSBTs biciye ku nzira y’itumanaho yo hanze ku gikorwa. Ariko rero, urabe maso, kuko amakuru ari muri izo PSBT ari ay’agaciro ku bijanye n’ubuzima bwite. Ndabahimiriza gukoresha ubutumwa bufise amabanga kugira ngo Exchange ibe ibanga.
 
 
-**[-> Menya vyinshi ku bijanye n'ibikorwa vya Stonewall x2.]**
+**[-> Menya vyinshi ku bijanye n'ibikorwa vya Stonewall x2.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
 
-**[-> Menya vyinshi ku bijanye n'ibikorwa vya Stowaway.]
+**[-> Menya vyinshi ku bijanye n'ibikorwa vya Stowaway.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab)
 
 
 Naho Whirlpool, iyo protocole isa n’itagikora, mbere no ku bakoresha bafise Dojo yabo. Nariko ndakurikirana RoninDojo yanje muri iyi misi iheze kandi ngerageza gukora ibintu bimwe bimwe vy’ishimikiro, ariko Whirlpool CLI ntiyashoboye kwifatanya kuva server ihagarara.
@@ -240,7 +240,7 @@ Niba ukoresha porogarama itandukanye na Sparrow, nka Electrum, kugira ngo ugarur
 - Ivangura: `m/84'/0'/2147483646'`
 
 
-Ubu urashobora kuronka amafaranga yawe kuri Sparrow. Niba ukeneye gufashwa ukoresheje Sparrow wallet, urashobora kandi kuraba [inyigisho yacu yihariye](https://planb.academy/inyigisho/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Ubu urashobora kuronka amafaranga yawe kuri Sparrow. Niba ukeneye gufashwa ukoresheje Sparrow wallet, urashobora kandi kuraba [inyigisho yacu yihariye](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 
 Ndabagira inama kandi yo kwinjiza mu gihugu n’amaboko amabara mwari mufatanije n’ama UTXO yanyu kuri Samourai. Ivyo bizokuronsa uburenganzira bwo gukora neza ubugenzuzi bwa Coin kuri Sparrow mu nyuma.

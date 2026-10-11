@@ -20,7 +20,7 @@ Mu gihe c’ubuhinga bwa none co gukusanya amakuru, ubuzima bwite bwo kuri Inter
 
 https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Hashingiwe kuri iyo ngingo, [Mozilla VPN](ibicuruzwa) ni igikorwa ca VPN gifise inkomoko yuguruye categuwe mu 2020 n’ishirahamwe Mozilla Foundation. Iraboneka kuri:
+Hashingiwe kuri iyo ngingo, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) ni igikorwa ca VPN gifise inkomoko yuguruye categuwe mu 2020 n’ishirahamwe Mozilla Foundation. Iraboneka kuri:
 
 
 
@@ -71,7 +71,7 @@ Iboneka mu bihugu birenga 30 kandi ifise abakozi barenga 500 bajejwe gupfuka IP 
 
 
 
-Ushobora gukuraho [Mozilla VPN](ibicuruzwa/vpn/gukuraho/) bivanye n’uko ukoresha ubuhinga bwawe. Muri iyi nyigisho, tuzoba turiko turaraba Mozilla VPN iri munsi ya sisitemu ikoresha Windows.
+Ushobora gukuraho [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) bivanye n’uko ukoresha ubuhinga bwawe. Muri iyi nyigisho, tuzoba turiko turaraba Mozilla VPN iri munsi ya sisitemu ikoresha Windows.
 
 
 

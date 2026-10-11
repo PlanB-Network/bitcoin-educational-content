@@ -140,9 +140,9 @@ Turagufasha ivyo ukeneye waba uri umuntu ku giti ciwe canke ishirahamwe. Ivyo bi
 Turaguhimiriza cane kwinjira mu muryango wacu no kuguma umenye amakuru mashasha:
 
 
-- [Ihuye](ihuriro/isosiyete/bitcoinvn)
-- [Igitabo ca Facebook](imbuga ngurukanabumenyi)
-- [X](uw'imbere) (uwahoze ari Twitter)
-- [TikTok](imbuga ngurukanabumenyi)
-- [Nostr](iris.to/npub1j4lp9hmzd3rqlcw7mml09uwvwap0g5wx2qm2lzt9wcqt925jvqf4wzaa)
-- [Amakuru ya nyuma](amakuru y'ivya bitcoinvn.io/)
+- [Ihuye](https://vn.linkedin.com/company/bitcoinvn)
+- [Igitabo ca Facebook](https://www.facebook.com/www.bitcoinvn.io)
+- [X](https://x.com/Bitcoin_Vietnam) (uwahoze ari Twitter)
+- [TikTok](https://www.tiktok.com/@bitcoinvn.io)
+- [Nostr](https://iris.to/npub1j4lp9hmzd3rqlcw7mml09uwvwap0g5u5wx2qm2lzt9wcqt925jvqf4wzaa)
+- [Amakuru ya nyuma](https://bitcoinvn.io/news/)

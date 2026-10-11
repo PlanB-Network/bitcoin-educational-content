@@ -33,8 +33,8 @@ Kuri telefone yawe, genda ku bubiko bwa porogarama (ububiko bwa Google Play cank
 
 
 
-- [Ipome](iporogaramu.ipome.com/twebwe/iporogaramu/uburenganzira bwa twilio/id494168017)
-- [Android](ububiko/amaporogarama/ibisobanuro?id=com.uburenganzira.uburenganzira)
+- [Ipome](https://apps.apple.com/us/app/twilio-authy/id494168017)
+- [Android](https://play.google.com/store/apps/details?id=com.authy.authy)
 
 ![AUTHY 2FA](assets/notext/02.webp)
 

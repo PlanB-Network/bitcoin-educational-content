@@ -91,7 +91,7 @@ Munsi y’iki gice c’ido n’ido, turabona amafaranga yose akoreshwa muri iki 
 
 
 
-Igikoresho ca mbere nyene mu gice citwa **isoko coinbase**. Ikoreshwa mu gutanga impembo y’umucukuzi w’amabuye y’agaciro mining (amahera yose ajanye n’ibikorwa biri muri block n’infashanyo ya block). Ivyo bikoresho vy’ubuhinga bwa none (bitcoins) vyaremwe n’iyi nzira bishobora gukoreshwa gusa iyo haciye hacukurwa ibindi bice 100 bikurikiranye. Mu yandi majambo, kugira ngo ashobore kubikoresha, umucukuzi azobwirizwa kurindira ko hakorwa block **919430**. Ivyo bizwi kw'izina rya [*"igihe co gukura "*](https://planb.academy/fr/ibikoresho/urutonde rw'amajambo/igihe-co gukura).
+Igikoresho ca mbere nyene mu gice citwa **isoko coinbase**. Ikoreshwa mu gutanga impembo y’umucukuzi w’amabuye y’agaciro mining (amahera yose ajanye n’ibikorwa biri muri block n’infashanyo ya block). Ivyo bikoresho vy’ubuhinga bwa none (bitcoins) vyaremwe n’iyi nzira bishobora gukoreshwa gusa iyo haciye hacukurwa ibindi bice 100 bikurikiranye. Mu yandi majambo, kugira ngo ashobore kubikoresha, umucukuzi azobwirizwa kurindira ko hakorwa block **919430**. Ivyo bizwi kw'izina rya [*"igihe co gukura "*](https://planb.academy/fr/resources/glossary/maturity-period).
 
 
 
@@ -142,7 +142,7 @@ Kuri iyi paji, urashobora kumenya block iyo transaction yashizwemwo.Bivanye n’
 
 
 
-Liquid Network ni [*uruhererekane rw'inyuma*](https://planb.academy/ru/ibikoresho/urutonde rw'amajambo/uruhererekane rw'inyuma) n'umuti w'urugero rwa 2 rw'inkomoko yuguruye ku bijanye n'umurongo wa Bitcoin. Cane cane, bishoboza gukoresha amafaranga yihuta kandi y’ibanga.
+Liquid Network ni [*uruhererekane rw'inyuma*](https://planb.academy/en/resources/glossary/sidechain) n'umuti w'urugero rwa 2 rw'inkomoko yuguruye ku bijanye n'umurongo wa Bitcoin. Cane cane, bishoboza gukoresha amafaranga yihuta kandi y’ibanga.
 
 
 

@@ -74,7 +74,7 @@ Aha hepfo hariho urubuga rwo kuronka inyigisho y'iyi Wallet:
 https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 
-- [Fenikisi](ku rubuga rwacu) :
+- [Fenikisi](https://phoenix.acinq.co) :
   - Biroroshe kandi vyizewe
   - Gutunganya umurongo wihuta
   - Infashanyo y'imvukira ku mafagitire ya BOLT11
@@ -88,7 +88,7 @@ Aha hepfo hariho urubuga rwo kuronka inyigisho y'iyi Wallet:
 https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-- [Ikinyamakuru](imbuga y'ikinyamakuru.github.io) :
+- [Ikinyamakuru](https://blixtwallet.github.io) :
   - Ivy'ubuhinga vyinshi ariko vyuzuye cane
   - Amahitamwo y'imiterere ateye imbere
   - Ni vyiza ku bakoresha bazi utuntu n'utundi
@@ -143,8 +143,8 @@ https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 
 
-- Injira mu muhora nyamukuru: [@p2umuravyo](https://t.me/p2umuravyo)
-- Infashanyo: [@lnp2pbotIfashanyo](https://t.me/lnp2pbotIfashanyo)
+- Injira mu muhora nyamukuru: [@p2umuravyo](https://t.me/p2plightning)
+- Infashanyo: [@lnp2pbotIfashanyo](https://t.me/lnp2pbotHelp)
 
 
 ## Gugura no kugurisha ama Bitcoins
@@ -380,4 +380,4 @@ Mu kugereranya, inyishu nka Bisq zitanga amahera menshi n’ikoreshwa ry’ibiro
 - Urubuga rwemewe: https://pbot.com/
 - Ivyanditswe: https://lnp2pbot.com/learn/
 - GitHub: https://github.com/lnp2pBot/bot
-- Infashanyo: [@lnp2pbotIfashanyo](https://t.me/lnp2pbotIfashanyo)
+- Infashanyo: [@lnp2pbotIfashanyo](https://t.me/lnp2pbotHelp)

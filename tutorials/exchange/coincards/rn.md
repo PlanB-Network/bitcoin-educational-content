@@ -67,7 +67,7 @@ Iryo ni akaryo ko kwibutsa abashaka kwishura amakarata yabo y’ingabirano muri 
 
 
 
-Ivyigwa vyatoranijwe ku bikoresho nyamukuru vy’umuravyo (Phoenix, Breez, BitKit, Zeus...) ushobora kubisanga hano: [Plan ₿ Academy - Wallet]
+Ivyigwa vyatoranijwe ku bikoresho nyamukuru vy’umuravyo (Phoenix, Breez, BitKit, Zeus...) ushobora kubisanga hano: [Plan ₿ Academy - Wallet](https://planb.academy/tutorials/wallet)
 
 
 
@@ -93,7 +93,7 @@ Reka dutangure mu kwerekana ingene umuntu agura ataco akora, hanyuma tuzogaruka 
 
 
 
-Sura [Ikarata y'Ibiceri.com](https://Ikarata y'Ibiceri.com/).
+Sura [Ikarata y'Ibiceri.com](https://coincards.com/).
 
 
 

@@ -615,7 +615,7 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-- [Uburinzi bwo gukurikirana bwongerewe](https://support.mozilla.org/kb/uburinzi bwo gukurikirana-bwongerewe-firefox-desktop): Inyobora yemewe y'uburinzi bwo gukurikirana bwongerewe
+- [Uburinzi bwo gukurikirana bwongerewe](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Inyobora yemewe y'uburinzi bwo gukurikirana bwongerewe
 - [Ugucapura kwa Leta](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Inyandiko z'ubuhinga ku gucapura kwa Leta
 - [Umutekano w'urubuga rwa MDN](https://developer.mozilla.org/docs/Web/Security): Ivyerekeye umutekano w'urubuga
 
@@ -626,7 +626,7 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-- [Wiki n'ubuyobozi bwo gushiramwo](wiki): Inyandiko z'umugambi wa Arkenfox zishitse
+- [Wiki n'ubuyobozi bwo gushiramwo](https://github.com/arkenfox/user.js/wiki): Inyandiko z'umugambi wa Arkenfox zishitse
 - [Ibiziga n'ibisohoka](https://github.com/arkenfox/user.js): Gukuraho dosiye y'user.js maze ukurikirane ivyagezwe
 
 
@@ -647,9 +647,9 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-- [Funga Ivyanditswe Vyawe (EFF)](https://pfuka Ivyanditswe Vyawe.eff.org/): Gufata urutoke mu buryo bwa digitale n'ubushobozi bwo kurwanya gukurikirana
+- [Funga Ivyanditswe Vyawe (EFF)](https://coveryourtracks.eff.org/): Gufata urutoke mu buryo bwa digitale n'ubushobozi bwo kurwanya gukurikirana
 - [Igerageza ry'ugusohoka kwa DNS](https://www.dnsleaktest.com/): Igerageza ry'ugusohoka kwa DNS n'ubushobozi bwa DoH
-- [Ivyasohotse mu mucukumbuzi](https://ivyasohotse mu mucukumbuzi.com/): Ivyagezwe vyuzuye (WebRTC, Igitambaro, Imyandikire, n'ibindi)
+- [Ivyasohotse mu mucukumbuzi](https://browserleaks.com/): Ivyagezwe vyuzuye (WebRTC, Igitambaro, Imyandikire, n'ibindi)
 - [BadSSL]( https://badssl.com/): Igerageza ryo kwemeza icemezo ca SSL/TLS
-- [CreepJS](https: Abrahamjuliot.github.io/creepjs/): Isesengura ry'imbere ry'ibimenyetso vy'intoke 50+
-- [Igerageza rya DNS ry'Igicu](https://1.1.1.1/imfashanyo): Kugenzura ko DoH y'Igicu ikora neza
+- [CreepJS](https://abrahamjuliot.github.io/creepjs/): Isesengura ry'imbere ry'ibimenyetso vy'intoke 50+
+- [Igerageza rya DNS ry'Igicu](https://1.1.1.1/help): Kugenzura ko DoH y'Igicu ikora neza

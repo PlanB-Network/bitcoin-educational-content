@@ -1647,7 +1647,7 @@ Amadosiye y'ubuhinduzi ari muri JSON. Urashobora:
 Ihuza n'amadosiye y'umwimerere:
 
 
-[ubuhinduzi](ubuhinduzi](ubuhinduzi]
+[ubuhinduzi](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
 
 
 

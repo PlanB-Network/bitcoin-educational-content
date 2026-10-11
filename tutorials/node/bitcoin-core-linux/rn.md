@@ -216,9 +216,9 @@ Kugira ngo ubone inyandiko z'urudodo rwawe rwa Bitcoin rwerekeye cane cane imige
 **Impanuro💡:** ng'aya ama links aryoshe cane:
 
 
-- [Urupapuro rwa Wiki rusobanura Tor n'isano rifise na Bitcoin]
-- [Igikoresho co guhingura dosiye ya Bitcoin core cakozwe na Jameson Lopp]
-- [Igitabu c'imiterere ya Tor cakozwe na Jon Atack]
+- [Urupapuro rwa Wiki rusobanura Tor n'isano rifise na Bitcoin](https://en.bitcoin.it/wiki/Tor)
+- [Igikoresho co guhingura dosiye ya Bitcoin core cakozwe na Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/)
+- [Igitabu c'imiterere ya Tor cakozwe na Jon Atack](https://github.com/bitcoin/bitcoin/blob/master/doc/tor.md)
 
 
 Nk'uko bisanzwe, nimba ufise ikibazo, ntutinye kugisangiza umuryango wa Agora256. Twigira hamwe kuba beza ejo kurusha uko turi uno musi!

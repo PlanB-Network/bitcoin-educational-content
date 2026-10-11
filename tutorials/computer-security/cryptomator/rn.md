@@ -10,7 +10,7 @@ ___
 
 
 
-*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Florian BURNEL vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](ku rubuga rwacu/uruhusha/ku-NC/4.0/). Birashoboka ko hari ivyo bahinduye mu canditswe c’intango.*
+*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Florian BURNEL vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Birashoboka ko hari ivyo bahinduye mu canditswe c’intango.*
 
 
 
@@ -60,13 +60,13 @@ Ku mashini yawe, **Cryptomator izokora dosiye muri yo izokora safe**. Mu nzu y�
 
 
 
-Kugira ngo utangure, ukeneye **gukuraho** no **gushiramwo** **Cryptomator**. Iyo umaze gukuraho, gukanda bikeyi ni vyo vyonyene bisaba kugira ngo urangize gushiramwo. Nka [Rclone](Rclone](rclone-iyi-gukoresha-ubuntu-gusuka-gukoresha-igicu-), Cryptomator izokwizigira WinFsp kugira ngo **ishireko umuduga w'ivyuma ku mashine yawe ya Windows**.
+Kugira ngo utangure, ukeneye **gukuraho** no **gushiramwo** **Cryptomator**. Iyo umaze gukuraho, gukanda bikeyi ni vyo vyonyene bisaba kugira ngo urangize gushiramwo. Nka [Rclone](https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/), Cryptomator izokwizigira WinFsp kugira ngo **ishireko umuduga w'ivyuma ku mashine yawe ya Windows**.
 
 
 
 
 
-- [Ukureho Cryptomator ku rubuga rwemewe](https://ikurwako/)
+- [Ukureho Cryptomator ku rubuga rwemewe](https://cryptomator.org/downloads/)
 
 
 

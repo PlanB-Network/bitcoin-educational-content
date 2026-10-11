@@ -86,8 +86,8 @@ Genda kuri app store yawe kugira ngo ubone Envoy :
 
 
 - Ku [Iduka ry’Imikino ya Google](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
-- Ku [Iduka ry’Iporogarama](Iduka ry’Iporogarama.
-- Ku [F-Cold](umushinge.xyz/fdroid/).
+- Ku [Iduka ry’Iporogarama](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818) ry’Iporogarama.
+- Ku [F-Cold](https://foundation.xyz/fdroid/).
 
 
 ![Image](assets/fr/50.webp)

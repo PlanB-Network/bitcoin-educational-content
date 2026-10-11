@@ -363,9 +363,9 @@ Waba uriko urakora ubucuruzi, umugambi mushasha canke uriko uragerageza gusa, BT
 
 
 
-- [Urubuga rwemewe rwa Serveri ya BTCPay](https://serveri ya BTCPay.org)
+- [Urubuga rwemewe rwa Serveri ya BTCPay](https://btcpayserver.org)
 - [Inyandiko z'umukozi wa BTCPay](https://docs.btcpayserver.org)
-- [GitHub BTCPay Serveri](https://github.com/umukozi w'amahera/umukozi w'amahera)
+- [GitHub BTCPay Serveri](https://github.com/btcpayserver/btcpayserver)
 - [Inyandiko z'umurizo](https://tailscale.com/kb)
 
 
@@ -376,4 +376,4 @@ Waba uriko urakora ubucuruzi, umugambi mushasha canke uriko uragerageza gusa, BT
 
 - [Ihuriro rya BTCPay Server](https://chat.btcpayserver.org)
 - [Umutaka w'ihuriro](https://community.getumbrel.com)
-- [Igikoresho co kwishura kuri BTCP]
+- [Igikoresho co kwishura kuri BTCP](https://reddit.com/r/BTCPayServer)

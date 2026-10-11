@@ -333,7 +333,7 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-Uretse porogarama yo kuri telefone ngendanwa, Speed ​​Wallet iratanga kandi [urubuga rwa Chrome] ushobora kwongerako kuri mudasobwa yawe.
+Uretse porogarama yo kuri telefone ngendanwa, Speed ​​Wallet iratanga kandi [urubuga rwa Chrome](https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) ushobora kwongerako kuri mudasobwa yawe.
 
 
 

@@ -297,7 +297,7 @@ Ivyo vyose bimaze guhindurwa, nusuzume amakuru y’ivyo ugurisha, hanyuma ubirek
 
 
 
-[Ivyo bicuruzwa vyasohowe] Intunganyo yayo ni iyi:
+[Ivyo bicuruzwa vyasohowe](https://mempool.space/testnet4/tx/9082f3d989728aacd290535a1ac374ab8c04a241a1d798b378db626dabea7a24) Intunganyo yayo ni iyi:
 
 
 

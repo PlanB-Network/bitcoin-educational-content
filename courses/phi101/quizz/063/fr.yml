@@ -1,9 +1,9 @@
-question: Quelle était l'attitude de l'Église médiévale vis-à-vis du prêt à intérêt ?
-answer: Elle l'interdisait.
+question: Quel était le principal argument de Nicolas Oresme contre les altérations monétaires ?
+answer: Elles profitent aux dirigeants aux dépens de la communauté.
 wrong_answers:
-  - Elle l'encourageait.
-  - Elle le tolérait dans certains cas.
-  - Elle n'avait pas d'opinion sur la question.
+  - Elles empêchent le commerce international.
+  - Elles violent la loi divine telle qu'énoncée dans les Écritures.
+  - Elles sont trop complexes techniquement pour les ateliers monétaires médiévaux.
 explanation: |
-  L'Église médiévale interdisait le prêt à intérêt, considérant cette pratique comme un péché d'usure, car elle jugeait immoral de tirer profit d'un prêt en exigeant plus que le montant initial.
-reviewed: true 
+  Nicolas Oresme soutenait que les altérations monétaires profitent principalement au prince aux dépens de la communauté, constituant une forme injuste d'appropriation. Il soulignait que ces manipulations entraînent des pénuries, des marchés noirs et une instabilité économique.
+reviewed: true

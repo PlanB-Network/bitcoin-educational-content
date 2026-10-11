@@ -1,9 +1,9 @@
 question: What is the dominant view of power in Western philosophy and historiography?
-answer: Power is a corrupting force that leads to oppression
+answer: Power is necessary for the progress and prosperity of humanity
 wrong_answers:
-  - Power is necessary for the progress and prosperity of humanity
-  - Power is a neutral tool that can be used for good or evil
-  - All of the above
+  - Power is a corrupting force that leads to oppression
+  - Power is a neutral tool that can be used for either good or evil
+  - Power is an illegitimate usurpation that society should abolish
 explanation: |
-  In Western philosophy and historiography, power is often seen as a corrupting force, likely to lead to oppression and abuse, highlighting the dangers of authority concentration and the negative impacts on individual freedom.
+  According to the course, the cultural prejudice dominating Western philosophy and historiography is that we owe everything to power: freedom, health, education, security, and prosperity, with humanity seen as "inert matter" shaped by the legislator. Bastiat challenges this dominant view, arguing that the reality of power is in fact oppression.
 reviewed: true

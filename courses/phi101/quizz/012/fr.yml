@@ -1,9 +1,9 @@
 question: Selon Acton, quel rôle l'Église catholique a-t-elle joué dans l'essor de la liberté en Europe ?
-answer: Toutes les réponses ci-dessus.
+answer: Elle a favorisé la séparation des pouvoirs et l'équilibre des forces.
 wrong_answers:
-  - Elle a promu la séparation des pouvoirs et l'équilibre des forces.
   - Elle a défendu les droits individuels et la liberté de conscience.
+  - Elle a établi des institutions démocratiques pour remplacer le pouvoir monarchique.
   - Elle a encouragé l'esprit critique et la remise en question de l'autorité.
 explanation: |
-  Selon Acton, l'Église catholique a joué un rôle crucial dans l'essor de la liberté en Europe en promouvant la séparation des pouvoirs, défendant les droits individuels et encourageant un esprit critique, contribuant ainsi à la formation d'une société plus libre.
-reviewed: true 
+  Selon Acton, l'Église catholique était la seule force capable de contester l'autorité des seigneurs féodaux, des monarques et des empereurs, créant une lutte de pouvoir qui a empêché la concentration du pouvoir absolu et s'est avérée cruciale pour l'essor de la liberté.
+reviewed: true

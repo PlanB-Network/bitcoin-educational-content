@@ -23,6 +23,8 @@ Desde a Antiguidade até o Iluminismo, a liberdade ascendeu à medida que as soc
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
+### Introdução ao Curso
+
 Bem-vindo ao curso PHI101!
 
 Este curso convida você a explorar a evolução da liberdade ao longo da história, analisando as principais correntes de pensamento que a moldaram. Você descobrirá como o conceito de liberdade foi construído ao longo dos séculos, seja em oposição ou em colaboração com o poder, através de uma jornada histórica que vai da Antiguidade aos debates contemporâneos.
@@ -57,9 +59,11 @@ Pronto para embarcar nesta jornada filosófica única em busca da liberdade? Vam
 
 :::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
+### Por Que Estudar a História da Liberdade?
+
 Por que intitular este curso: uma história da liberdade? Porque precisamos entender a relação entre ideias e eventos, para melhor julgar nossa era e agir com discernimento. É no passado que encontramos os elementos para uma melhor compreensão do que é a liberdade e as razões pelas quais devemos valorizá-la.
 
-> Quando o passado não ilumina mais o futuro, o espírito caminha na escuridão (Alexis de Tocqueville - _Democracia na América_.)
+> Quando o passado não ilumina mais o futuro, o espírito caminha na escuridão (Alexis de Tocqueville - _[Democracia na América](https://planb.academy/resources/books/de-la-democratie-en-amerique)_.)
 
 ![image](assets/pt/001.webp)
 
@@ -104,7 +108,7 @@ Para Turgot e Say, discípulos de Quesnay, existe uma lei natural, independente 
 A segunda filosofia é encontrada entre autores como Rousseau, Robespierre ou Kant, que encarnam a tradição republicana para a qual a soberania da vontade geral é a verdadeira fonte do direito. Contemporâneo de Quesnay, Rousseau é um anti-fisiocrata. Para ele, o legislador deve organizar a sociedade, como um mecânico que inventa uma máquina a partir da matéria inerte.
 ![image](assets/pt/007.webp)
 
-> "Aquele que se atreve a empreender o estabelecimento de um povo", diz Rousseau, "deve se sentir capaz de mudar, por assim dizer, a natureza humana, de transformar cada indivíduo que, por si só, é um todo perfeito e solitário, em parte de um todo maior do qual este indivíduo recebe, de certa forma, sua vida e ser." (_Contrato Social_)
+> "Aquele que se atreve a empreender o estabelecimento de um povo", diz Rousseau, "deve se sentir capaz de mudar, por assim dizer, a natureza humana, de transformar cada indivíduo que, por si só, é um todo perfeito e solitário, em parte de um todo maior do qual este indivíduo recebe, de certa forma, sua vida e ser." (_[Contrato Social](https://planb.academy/resources/books/the-social-contract)_)
 
 Dessa perspectiva, a missão do legislador é organizar, modificar, até mesmo abolir a propriedade se ele considerar bom. Para Rousseau, a propriedade não é natural, mas convencional, como a própria sociedade. Por sua vez, Robespierre estabelece o princípio de que "A propriedade é o direito de todo cidadão de desfrutar e dispor da porção de bens garantida a ele por lei." Não existe direito natural à propriedade; existem apenas um número indefinido de arranjos possíveis e contingentes.
 
@@ -113,6 +117,8 @@ Dessa perspectiva, a missão do legislador é organizar, modificar, até mesmo a
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
 :::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
+
+### O Mito do Legislador Providencial
 
 Quando se abre os livros didáticos, Bastiat observou, aprende-se que a humanidade estaria condenada ao nada sem a intervenção do poder:
 
@@ -171,6 +177,8 @@ Poucos dias antes de sua morte em Roma em 1850, Bastiat confidenciou ao seu amig
 
 :::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
 
+### A História Escrita pelos Vencedores
+
 É sabido, a história é escrita pelos vencedores. A atenção é frequentemente focada na conquista do poder, nas vidas dos líderes no poder e nos conflitos que os opõem àqueles que desejam tomar seu lugar.
 
 ![image](assets/pt/010.webp)
@@ -213,6 +221,8 @@ Esta tese também é encontrada em uma obra monumental datada de 1983: _Direito 
 
 :::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
+### A Visão Socialista da História
+
 No entanto, existe outra perspectiva sobre a história. Ela foi bastante bem-sucedida e por muito tempo contou com o apoio de intelectuais ocidentais e representantes do Sul Global. Esta é a visão socialista e marxista da história.
 ![imagem](assets/pt/013.webp)
 
@@ -231,7 +241,7 @@ Esta análise reflete um mal-entendido sobre o valor excedente e a natureza coop
 
 ### A Revolução Industrial em Questão
 
-Na verdade, a análise marxista distorce a realidade histórica da Revolução Industrial. Ludwig von Mises esclareceu essa questão em seu tratado de economia [_Ação Humana_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (veja especialmente o capítulo intitulado [Interpretação Popular da Revolução Industrial](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)), bem como em uma série de palestras publicadas sob o título: [_Política Econômica: Pensamentos para Hoje e Amanhã_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Também vale a pena ler, A Mentalidade Anticapitalista [aqui](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) e [aqui](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+Na verdade, a análise marxista distorce a realidade histórica da Revolução Industrial. Ludwig von Mises esclareceu essa questão em seu tratado de economia [_Ação Humana_](https://planb.academy/resources/books/human-action) (veja especialmente o capítulo intitulado [Interpretação Popular da Revolução Industrial](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)), bem como em uma série de palestras publicadas sob o título: [_Política Econômica: Pensamentos para Hoje e Amanhã_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Também vale a pena ler, A Mentalidade Anticapitalista [aqui](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) e [aqui](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 ![imagem](assets/pt/014.webp)
 
 Mises explica que os empregos nas fábricas, embora miseráveis pelos nossos padrões, representavam a melhor oportunidade possível para os trabalhadores da época.
@@ -277,7 +287,9 @@ Em outras palavras, o grande "não-evento" que dominou o destino da Europa foi a
 
 :::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
 
-No último capítulo de _Anatomy of the State_ (traduzido para o francês como _L’anatomie de l’État_, pelas edições Résurgence), Murray Rothbard propõe uma teoria da história. Este capítulo muito curto é intitulado: História, uma corrida entre o poder do estado e o poder social. Segundo Rothbard, a história pode ser entendida como um conflito perpétuo entre dois princípios fundamentais:
+### Poder do Estado versus Poder Social
+
+No último capítulo de _[Anatomy of the State](https://planb.academy/resources/books/anatomy-of-the-state)_ (traduzido para o francês como _L’anatomie de l’État_, pelas edições Résurgence), Murray Rothbard propõe uma teoria da história. Este capítulo muito curto é intitulado: História, uma corrida entre o poder do estado e o poder social. Segundo Rothbard, a história pode ser entendida como um conflito perpétuo entre dois princípios fundamentais:
 
 ![image](assets/pt/017.webp)
 
@@ -312,7 +324,7 @@ De acordo com Rothbard, a história não é um processo linear, mas sim uma osci
 Do século 17 ao século 19, em muitos países ocidentais, houve períodos de aceleração do poder social e um aumento correspondente na liberdade, paz e bem-estar material. Mas Rothbard nos lembra que o século 20 foi marcado por um ressurgimento do poder do Estado, com consequências terríveis: um aumento na escravidão, guerra e destruição:
 
 > Durante este século, a raça humana enfrenta, mais uma vez, o reinado virulento do Estado; o Estado agora armado com o poder criativo do homem, confiscado e pervertido para seus próprios fins.
-> O que é, afinal, uma sociedade livre? É uma sociedade sem monopólio. Em sua obra de filosofia política, _Ética da Liberdade_ (1982), Rothbard responde: "uma sociedade na qual não há possibilidade legal de agressão coercitiva contra a pessoa ou propriedade de um indivíduo." É por isso que, segundo ele, a filosofia política, que deve definir os princípios de uma sociedade justa, se resume a uma única pergunta: "Quem possui legitimamente o quê?"
+> O que é, afinal, uma sociedade livre? É uma sociedade sem monopólio. Em sua obra de filosofia política, _[Ética da Liberdade](https://planb.academy/resources/books/the-ethics-of-liberty)_ (1982), Rothbard responde: "uma sociedade na qual não há possibilidade legal de agressão coercitiva contra a pessoa ou propriedade de um indivíduo." É por isso que, segundo ele, a filosofia política, que deve definir os princípios de uma sociedade justa, se resume a uma única pergunta: "Quem possui legitimamente o quê?"
 > ![imagem](assets/pt/019.webp)
 
 Para Rothbard, a ordem social pode prevalecer se for o produto da generalização de procedimentos contratuais para a livre troca de direitos de propriedade, privatizando todas as atividades econômicas e até funções soberanas (banco central, tribunais) e recorrendo à competição entre agências de proteção.
@@ -332,6 +344,8 @@ E ele acrescenta:
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
 
 :::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
+
+### O Legado da Democracia Ateniense
 
 A experiência da democracia ateniense deixou uma marca duradoura na história do pensamento político e continua a inspirar ideais de democracia e participação cidadã no mundo de hoje.
 ![image](assets/pt/020.webp)
@@ -423,6 +437,8 @@ O único meio que temos para nos aproximar da verdade são a crítica e a discus
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
 
 :::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
+
+### Um Império Cosmopolita
 
 O Império Romano era uma vasta entidade cosmopolita. No seu auge, por volta de 117 d.C., era um imenso estado multiétnico e multilíngue:
 
@@ -525,6 +541,8 @@ Ao afirmar que a lei não pode ser reduzida apenas aos estatutos promulgados pel
 
 :::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
 
+### Declínio e Colapso
+
 Por que Roma declinou e, finalmente, caiu? Muitos gostam de pensar que o Império Romano colapsou subitamente, sob o impacto das invasões bárbaras. No entanto, as causas do colapso do Império Romano devem ser encontradas muito antes, no imperialismo e no dirigismo econômico e monetário.
 
 
@@ -598,6 +616,8 @@ E ele acrescenta:
 
 :::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
 
+### As Raízes Cristãs da Liberdade Individual
+
 A ideia cristã de liberdade desenvolveu-se na teologia medieval de Santo Agostinho no século 4, até São Tomás de Aquino no século 13. Qual é essa ideia?
 
 ![imagem](assets/pt/037.webp)
@@ -650,6 +670,8 @@ Segundo Santo Tomás:
 
 :::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
 
+### A Autonomia da Razão
+
 Na Idade Média, razão e fé competem pelo acesso à verdade. Seguindo Abélard e Alberto Magno, Tomás de Aquino, no século XIII, optou por defender os direitos da razão e sua autonomia em relação à fé.
 
 ![image](assets/pt/040.webp)
@@ -687,6 +709,8 @@ A partir de então, o racionalismo religioso prevaleceria definitivamente sobre 
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 
 :::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
+
+### O Sistema Teológico-Político
 
 Na Idade Média, a Igreja e as monarquias cristãs herdaram um modelo político do Império Romano, que os historiadores chamam de sistema teológico-político, significando um sistema onde o poder é sagrado, ou seja, onde o líder político é também um líder religioso.
 É por isso que as sociedades medievais são caracterizadas pelo unanimismo político-religioso. As bases do poder político fundamentam sua legitimidade, autoridade e unidade na fé Cristã (ou Muçulmana). Considera-se guardião da ortodoxia cultural e religiosa e trata como párias aqueles que se desviam dessa unanimidade. Neste contexto, mesmo que uma certa tolerância pudesse ser concedida àqueles que se desligam da visão cultural comum (como os Judeus), nenhum direito ao pluralismo poderia ser reconhecido para eles. Não foi até o final da Idade Média, com a conquista da América, que o problema das liberdades civis se tornou crucial para a Igreja e viu o surgimento de uma primeira filosofia do direito que afirmava e protegia as liberdades individuais, legitimava o pluralismo e condenava a coerção estatal.
@@ -726,6 +750,8 @@ A tentação teocrática da Igreja também se choca com a teoria do "direito div
 
 :::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
 
+### O Homem Criado à Imagem de Deus
+
 O pensamento antigo subordinava o homem a um cosmos divino, isto é, a um universo perfeito do qual ele era apenas uma parte. O monoteísmo, por outro lado, afirma o valor infinitamente superior do homem sobre a natureza, na medida em que o homem é criado à imagem de Deus. Este ponto crucial está na origem de uma verdadeira revolução ética. A Bíblia afirma o valor sagrado e infinito de cada ser humano.
 É por isso que a ética bíblica muda nossa relação com o mal. Ela traz uma sensibilidade aguda e sem precedentes ao sofrimento humano. Portanto, nos encoraja a considerar como anormais e insuportáveis males que a humanidade até então havia encontrado perfeitamente suportáveis, especialmente o mal feito aos outros, aos fracos, aos inocentes.
 
@@ -762,6 +788,8 @@ A ideia de humanidade progride. Efetivamente passou a ser considerado que existe
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
 
 :::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
+
+### O Cristianismo e a Economia Livre
 
 Vimos que o Cristianismo impõe um dever moral às pessoas de trabalhar para a melhoria do mundo. Deus quer que o homem seja feliz, mas não quer alcançar seu bem em seu lugar. Portanto, cabe ao cristão combater o mal moral, amar o próximo, ajudar as vítimas, em suma, trabalhar por um mundo mais justo e humano. O capitalismo, ou seja, a economia livre baseada na propriedade privada e na liberdade de contratos, é compatível com o dever cristão?
 
@@ -831,6 +859,8 @@ Além disso, se duas moedas diferentes se beneficiam de curso legal, os agentes 
 
 :::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
 
+### As Guerras Religiosas e o Iluminismo
+
 A partir do Renascimento, a Europa seria devastada por guerras religiosas. A tolerância, portanto, tornou-se uma das grandes batalhas do Iluminismo.
 ![image](assets/pt/050.webp)
 
@@ -867,7 +897,7 @@ Na _Décima Carta_, "Sobre o Comércio", Voltaire descreve a mentalidade frances
 
 ### A Verdade Requer Liberdade
 
-No entanto, a França não carecia de grandes mentes. É pouco conhecido, mas Anne Robert Jacques Turgot, Barão de Laulne foi antes de tudo um pensador líder antes de se tornar o Controlador Geral das Finanças sob Luís XVI. Ele foi o autor de um tratado magistral sobre economia política, _Reflexões sobre a Formação e Distribuição da Riqueza_ (1766), antecedendo _A Riqueza das Nações_ de Adam Smith (1776).
+No entanto, a França não carecia de grandes mentes. É pouco conhecido, mas Anne Robert Jacques Turgot, Barão de Laulne foi antes de tudo um pensador líder antes de se tornar o Controlador Geral das Finanças sob Luís XVI. Ele foi o autor de um tratado magistral sobre economia política, _Reflexões sobre a Formação e Distribuição da Riqueza_ (1766), antecedendo _[A Riqueza das Nações](https://planb.academy/resources/books/the-wealth-of-nations)_ de Adam Smith (1776).
 
 ![image](assets/pt/052.webp)
 Seus primeiros escritos refletem seu compromisso com a filosofia do Iluminismo. Em 1754, ele publicou suas _Cartas sobre a Tolerância Civil_ e em 1757, vários artigos escritos para _A Enciclopédia_ de Diderot e d'Alembert.
@@ -884,6 +914,8 @@ Em outras palavras, ser tolerante não significa ser hostil à religião. Signif
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
 
 :::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
+
+### As Origens do Liberalismo Econômico
 
 O liberalismo econômico é frequentemente associado a uma tradição anglo-saxônica que vem de Adam Smith, contrastado com o "liberalismo político", que se diz originar do Iluminismo continental, particularmente na França. Esta visão é incorreta.
 
@@ -950,6 +982,8 @@ Em resumo, se todos podem livremente perseguir seu interesse privado em respeito
 
 :::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
+### Três Eventos Que Mudaram a História
+
 1776 é um ano que muitas vezes passa despercebido nos livros de história. Mas em três países, França, Escócia e América do Norte, vários eventos deixarão uma marca indelével na história da liberdade.
 
 ### A Desgraça de Turgot
@@ -992,7 +1026,7 @@ Também é um tratado sobre filosofia, pois demonstra como a troca livre e volun
 
 ### Um Manifesto pela Liberdade na América
 
-Em 1776, um inglês chamado Thomas Paine publicou na América um panfleto virulento criticando a monarquia inglesa e defendendo a independência dos colonos americanos: _Common Sense_ (Senso Comum).
+Em 1776, um inglês chamado Thomas Paine publicou na América um panfleto virulento criticando a monarquia inglesa e defendendo a independência dos colonos americanos: _[Common Sense](https://planb.academy/resources/books/common-sense)_ (Senso Comum).
 
 ![image](assets/pt/059.webp)
 
@@ -1051,6 +1085,8 @@ Esta ideia de ordem espontânea se tornaria um conceito chave no trabalho de Fri
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
 :::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
+
+### Secularização e Sociedade Moderna
 
 A grande novidade deste período moderno na história ocidental é o surgimento de uma sociedade que se organiza fora da dependência religiosa. Isso não significa o desaparecimento da crença religiosa ou a morte de Deus. Mas Deus se torna uma questão privada, não mais misturada com os assuntos políticos. Não há desaparecimento da religião, mas um destronamento de seu papel orientador. Torna-se um sistema de crenças individuais.
 
@@ -1130,7 +1166,7 @@ Na América, não havia dirigismo econômico, nem uma falência monetária como 
 
 Com Rousseau e Robespierre, os franceses queriam acreditar que a Nação ou a vontade geral tinha poder ilimitado e justificava tudo. Do fato de o povo governar, concluía-se que eles tinham todos os direitos. Havia claramente uma contradição entre os grandes princípios da Revolução e os meios empregados para fazê-los triunfar.
 
-Isso é, aliás, o sentido da observação de Friedrich Hayek em seu livro _A Constituição da Liberdade_:
+Isso é, aliás, o sentido da observação de Friedrich Hayek em seu livro _[A Constituição da Liberdade](https://planb.academy/resources/books/the-constitution-of-liberty)_:
 
 > O fator decisivo que tornou vãos os esforços da Revolução em favor da promoção da liberdade individual foi que ela criou a ilusão de que, na medida em que todo o poder havia sido entregue ao povo, todas as precauções contra o abuso desse poder haviam se tornado desnecessárias.
 
@@ -1144,6 +1180,8 @@ Isso é, aliás, o sentido da observação de Friedrich Hayek em seu livro _A Co
 
 :::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
 
+### A Liberdade Antiga versus a Liberdade Moderna
+
 Segundo Benjamin Constant, a liberdade, em nossas sociedades modernas, não pode mais ser entendida à maneira das sociedades da Antiguidade como participação direta nos assuntos da cidade.
 
 ![image](assets/pt/070.webp)
@@ -1151,14 +1189,14 @@ Segundo Benjamin Constant, a liberdade, em nossas sociedades modernas, não pode
 ### Liberdade na Vida Privada
 
 Na antiguidade, o indivíduo era soberano nos assuntos públicos, mas escravizado em todas as suas relações privadas. O sacrifício da liberdade individual era compensado pelo uso dos direitos políticos: o direito de exercer diretamente várias partes da soberania, de deliberar na praça pública, de votar em leis, de pronunciar julgamentos, de avaliar e julgar magistrados. É uma liberdade política e coletiva:
-A liberdade dos Antigos consistia em uma participação ativa e constante no poder coletivo. Nossa liberdade, por outro lado, deve consistir no gozo pacífico da independência privada; segue-se que devemos ser muito mais apegados do que os antigos à nossa independência individual. (_Sobre a Liberdade dos Antigos Comparada com a dos Modernos_ (1819))
+A liberdade dos Antigos consistia em uma participação ativa e constante no poder coletivo. Nossa liberdade, por outro lado, deve consistir no gozo pacífico da independência privada; segue-se que devemos ser muito mais apegados do que os antigos à nossa independência individual. (_[Sobre a Liberdade dos Antigos Comparada com a dos Modernos](https://planb.academy/resources/books/benjamin-constant-de-la-liberte-des-anciens-compar)_ (1819))
 ![image](assets/pt/071.webp)
 
 A liberdade moderna é a liberdade civil, que inclui a liberdade econômica e baseia-se no direito à privacidade. É o direito de não ser submetido a qualquer arbitrariedade, o direito à expressão, à reunião, ao movimento, ao culto e à indústria. Não há liberdade sem a possibilidade de escolher o próprio estilo de vida e valores, portanto, não há liberdade sem a possibilidade de se retirar da comunidade e, consequentemente, não há liberdade sem uma limitação do Estado para permitir a existência desse espaço privado. É uma liberdade que corresponde ao que os americanos chamam de direitos civis.
 
 Esta definição de liberdade é encontrada em John Stuart Mill:
 
-> A única liberdade que merece esse nome, é a de buscar nosso próprio bem à nossa maneira, desde que não tentemos privar os outros do deles ou impedir seus esforços para obtê-lo. (...) A humanidade ganha mais permitindo que cada pessoa viva como achar melhor do que obrigando-as a viver como parece bom para os outros. (_Sobre a Liberdade_, 1859)
+> A única liberdade que merece esse nome, é a de buscar nosso próprio bem à nossa maneira, desde que não tentemos privar os outros do deles ou impedir seus esforços para obtê-lo. (...) A humanidade ganha mais permitindo que cada pessoa viva como achar melhor do que obrigando-as a viver como parece bom para os outros. (_[Sobre a Liberdade](https://planb.academy/resources/books/on-liberty)_, 1859)
 
 ![image](assets/pt/072.webp)
 
@@ -1193,6 +1231,8 @@ Em outras palavras, em uma sociedade livre, é necessário estabelecer um limite
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
 
 :::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
+
+### Tocqueville e o Individualismo Democrático
 
 Alexis de Tocqueville foi um observador atento da democracia e um crítico do individualismo democrático.
 
@@ -1267,6 +1307,8 @@ Olhe para o globo. Quais são os povos mais felizes, mais morais e mais pacífic
 
 :::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
 
+### A Crítica do Século XIX
+
 Foi durante o século 19 que a crítica ao capitalismo, e em particular a crítica marxista, emergiu.
 
 ![image](assets/pt/078.webp)
@@ -1294,6 +1336,8 @@ A revolução política é, portanto, uma ilusão, segundo ele, enquanto não fo
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
 
 :::video id=0c740114-faff-400a-9359-d4b81766f246:::
+
+### A Resposta da Escola Austríaca
 
 A Escola Austríaca de Economia, fundada por Carl Menger no final do século 19, se opôs às teorias de Karl Marx desde o início.
 
@@ -1345,7 +1389,7 @@ Os marxistas acreditam que o socialismo, um sistema econômico no qual os meios 
 
 ![image](assets/pt/085.webp)
 
-Já em 1922, em seu livro _Socialismo_, Ludwig von Mises demonstrou que o socialismo levaria a escassez generalizada, pois os planejadores centrais não seriam capazes de fazer cálculos econômicos precisos sem o sistema de preços fornecido pelo mercado.
+Já em 1922, em seu livro _[Socialismo](https://planb.academy/resources/books/socialism-mises)_, Ludwig von Mises demonstrou que o socialismo levaria a escassez generalizada, pois os planejadores centrais não seriam capazes de fazer cálculos econômicos precisos sem o sistema de preços fornecido pelo mercado.
 
 ## O Caminho para a Servidão
 
@@ -1353,7 +1397,9 @@ Já em 1922, em seu livro _Socialismo_, Ludwig von Mises demonstrou que o social
 
 :::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
 
-Alarmado com o aumento do intervencionismo governamental nas economias das democracias ocidentais, Hayek escreveu _O Caminho para a Servidão_ como uma crítica filosófica ao coletivismo, seja da direita ou da esquerda. Publicado em vários milhões de cópias, graças ao _Reader’s Digest_, este livro contribuiu grandemente para a fama de Hayek nos Estados Unidos.
+### O Alerta de Hayek Contra o Coletivismo
+
+Alarmado com o aumento do intervencionismo governamental nas economias das democracias ocidentais, Hayek escreveu _[O Caminho para a Servidão](https://planb.academy/resources/books/the-road-to-serfdom)_ como uma crítica filosófica ao coletivismo, seja da direita ou da esquerda. Publicado em vários milhões de cópias, graças ao _Reader’s Digest_, este livro contribuiu grandemente para a fama de Hayek nos Estados Unidos.
 
 ![image](assets/pt/086.webp)
 
@@ -1396,13 +1442,15 @@ Em conclusão, Hayek apela aos seus contemporâneos para que se afastem da "louc
 
 :::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
+### A Revolução Keynesiana
+
 O capitalismo é frequentemente acusado de ser a fonte da injunção: "devemos sempre produzir mais", ou da fórmula: "consumir é bom para o crescimento". No entanto, essas ideias não se originam do capitalismo tradicional, mas do Keynesianismo, que dominou o campo da ciência econômica e a classe política desde a década de 1930.
 
 ![image](assets/pt/088.webp)
 
 ### A Análise da Crise de 1929
 
-Publicado em 1936, o livro de John Maynard Keynes: _The General Theory of Employment, Interest, and Money_ (A Teoria Geral do Emprego, do Juro e da Moeda), varreu tudo em seu caminho. Questionando as causas da Grande Depressão e os meios para emergir dela, ele descreve um novo paradigma econômico, que converteria gerações de economistas e políticos.
+Publicado em 1936, o livro de John Maynard Keynes: _[The General Theory of Employment, Interest, and Money](https://planb.academy/resources/books/the-general-theory)_ (A Teoria Geral do Emprego, do Juro e da Moeda), varreu tudo em seu caminho. Questionando as causas da Grande Depressão e os meios para emergir dela, ele descreve um novo paradigma econômico, que converteria gerações de economistas e políticos.
 
 ![image](assets/pt/089.webp)
 
@@ -1440,7 +1488,7 @@ A partir de 1958, uma política para retificar a economia francesa, inspirada po
 
 ![image](assets/pt/094.webp)
 
-Em _O Pecado Monetário do Ocidente_, em 1971, Rueff escreve:
+Em _[O Pecado Monetário do Ocidente](https://planb.academy/resources/books/the-monetary-sin-of-the-west)_, em 1971, Rueff escreve:
 
 > É através do déficit orçamentário que os homens perdem sua liberdade.
 
@@ -1456,6 +1504,8 @@ Nenhuma religião se espalhou pelo mundo tão rapidamente quanto a do emprego. I
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
 
 :::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
+
+### Dinheiro e Civilização
 
 O dinheiro é uma ferramenta que permitiu aos humanos ir além do escambo, poupar e coordenar em grande escala através do mercado. Tornou possível a especialização do trabalho, vantagens comparativas, ganhos comerciais, cálculo econômico. Sem dinheiro, não há civilização moderna.
 
@@ -1502,7 +1552,7 @@ Em fevereiro de 1965, durante uma coletiva de imprensa televisionada, o General 
 
 ### Um mercado monetário sem monopólio estatal é possível
 
-Em 1976, Hayek propôs uma alternativa ao monopólio estatal sobre a criação de moeda: a concorrência entre moedas. Em seu livro, _Pour une vraie concurrence des monnaies_ (_A Desnacionalização do Dinheiro_), ele imaginou um mercado monetário sem monopólio estatal no qual várias moedas privadas existiriam. A criação e gestão de diferentes moedas por entidades privadas permitiria aos indivíduos escolher a moeda mais estável e confiável, incentivando assim a concorrência e a disciplina entre os emissores.
+Em 1976, Hayek propôs uma alternativa ao monopólio estatal sobre a criação de moeda: a concorrência entre moedas. Em seu livro, _Pour une vraie concurrence des monnaies_ (_[A Desnacionalização do Dinheiro](https://planb.academy/resources/books/the-denationalization-of-money)_), ele imaginou um mercado monetário sem monopólio estatal no qual várias moedas privadas existiriam. A criação e gestão de diferentes moedas por entidades privadas permitiria aos indivíduos escolher a moeda mais estável e confiável, incentivando assim a concorrência e a disciplina entre os emissores.
 
 ![image](assets/pt/100.webp)
 

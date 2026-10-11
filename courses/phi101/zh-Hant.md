@@ -23,6 +23,8 @@ objectives:
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
+### 課程介紹
+
 歡迎來到 PHI101！
 
 本課程邀請您透過分析塑造自由的主要思想流派來探索自由在歷史上的演變。透過從古代到當代辯論的歷史歷程，您將發現自由的概念在幾個世紀中是如何建構的，無論是反對權力還是與權力合作。
@@ -57,9 +59,11 @@ objectives:
 
 :::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
+### 為什麼要研究自由的歷史？
+
 為什麼要將這門課程命名為：自由史？因為我們需要瞭解思想與事件之間的關係，以便更好地判斷我們的時代，並明智地行事。正是在過去，我們找到了Elements，從而更好地理解什麼是自由，以及我們必須珍惜自由的原因。
 
-> 當過去不再照亮未來，精神就會在黑暗中前行（Alexis de Tocqueville - _Democracy in America_）。
+> 當過去不再照亮未來，精神就會在黑暗中前行（Alexis de Tocqueville - _[Democracy in America](https://planb.academy/resources/books/de-la-democratie-en-amerique)_）。
 ![image](assets/zh-Hant/001.webp)
 
 同時，Auguste Comte說：「只有了解了一門科學的歷史，才能充分了解它」。這個真理可以套用在自由的概念上。
@@ -113,7 +117,7 @@ objectives:
 
 ![image](assets/zh-Hant/007.webp)
 
-> "盧梭說：「膽敢承諾建立一個民族的人，必須覺得自己有能力改變人類的本性，有能力把每一個本身就是一個完美而孤獨的整體的個人，變成一個更大整體的一部分，而這個個人的生命和存在，在某種程度上，就來自這個更大的整體。(《社會契約》)
+> "盧梭說：「膽敢承諾建立一個民族的人，必須覺得自己有能力改變人類的本性，有能力把每一個本身就是一個完美而孤獨的整體的個人，變成一個更大整體的一部分，而這個個人的生命和存在，在某種程度上，就來自這個更大的整體。(《[社會契約](https://planb.academy/resources/books/the-social-contract)》)
 從這個角度來看，立法者的任務是組織、修改、甚至廢除財產，如果他認為財產是好的。對盧梭而言，財產不是自然的，而是傳統的，就像社會本身一樣。反過來，羅伯斯庇爾確立了這樣的原則：「財產是每個公民享有和處置法律保證給他的那部分物品的權利」。沒有自然的財產權；只有不定數目的可能與或然安排。
 
 ## Frédéric Bastiat：生產與剝奪
@@ -121,6 +125,8 @@ objectives:
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
 :::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
+
+### 天意立法者的迷思
 
 Bastiat 指出，當人們打開教科書，就會發現如果沒有權力的介入，人類注定會湮滅於無形：
 
@@ -179,6 +185,8 @@ Bastiat 告訴我們，合法的掠奪仍有兩種形式：
 
 :::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
 
+### 由勝利者書寫的歷史
+
 眾所周知，歷史是由勝利者書寫的。人們的注意力往往集中在權力的奪取、當權領導人的生活，以及與希望取而代之者對立的衝突上。
 
 ![image](assets/zh-Hant/010.webp)
@@ -223,6 +231,8 @@ Bastiat 告訴我們，合法的掠奪仍有兩種形式：
 
 :::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
+### 社會主義的歷史觀
+
 然而，另一種歷史觀點確實存在。這種觀點相當成功，長期受到西方知識份子和全球南方代表的支持。這就是社會主義和馬克思主義的歷史觀。
 
 ![image](assets/zh-Hant/013.webp)
@@ -243,7 +253,7 @@ Bastiat 告訴我們，合法的掠奪仍有兩種形式：
 
 ### 工業革命的問題
 
-事實上，馬克思主義的分析扭曲了工業革命的歷史現實。路德維希‧馮‧米塞斯（Ludwig von Mises）在他的經濟學論文[_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm)中澄清了這個問題（請特別參閱標題為[Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)的章節），以及在以[_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm)為題出版的一系列演講中。(另外值得一讀的《反資本主義心態》[這裡](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) 和 [這裡](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm))。
+事實上，馬克思主義的分析扭曲了工業革命的歷史現實。路德維希‧馮‧米塞斯（Ludwig von Mises）在他的經濟學論文[_Human Action_](https://planb.academy/resources/books/human-action)中澄清了這個問題（請特別參閱標題為[Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)的章節），以及在以[_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm)為題出版的一系列演講中。(另外值得一讀的《反資本主義心態》[這裡](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) 和 [這裡](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm))。
 
 ![image](assets/zh-Hant/014.webp)
 
@@ -292,7 +302,9 @@ Mises 補充說，人類境況的改善因此得以實現，是因為資本的�
 
 :::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
 
-Murray Rothbard 在《國家解剖學》(法文譯名《L'anatomie de l'Etat》，由 Résurgence editions 出版)的最後一章中，提出了一種歷史理論。這一章很短，標題是：歷史，國家權力與社會權力之間的競賽。根據 Rothbard，歷史可以被理解為兩個基本原則之間的永恆衝突：
+### 國家權力與社會權力
+
+Murray Rothbard 在《[國家解剖學](https://planb.academy/resources/books/anatomy-of-the-state)》(法文譯名《L'anatomie de l'Etat》，由 Résurgence editions 出版)的最後一章中，提出了一種歷史理論。這一章很短，標題是：歷史，國家權力與社會權力之間的競賽。根據 Rothbard，歷史可以被理解為兩個基本原則之間的永恆衝突：
 
 ![image](assets/zh-Hant/017.webp)
 
@@ -332,7 +344,7 @@ Rothbard 認為，歷史不是一個線性的過程，而是在社會權力的�
 從17世紀到19世紀，在許多西方國家，都有社會權力加速發展的時期，也有自由、和平與物質福祉相應增加的時期。但羅斯巴德提醒我們，20世紀的標誌是國家權力的復甦，帶來了可怕的後果：奴役、戰爭和破壞的增加：
 
 > 在這個世紀，人類再次面臨國家的惡毒統治；國家現在擁有了人類的創造力，但卻為了自己的目的而被沒收和變質。
-> 畢竟什麼是自由社會？它是一個沒有壟斷的社會。在他的政治哲學著作_Ethics of Liberty_（1982年）中，Rothbard回答道：「一個在法律上不可能對個人的人身或財產進行強制侵略的社會」。這就是為什麼，根據他的看法，政治哲學必須定義公正社會的原則，而政治哲學可以歸結為一個問題：「誰合法擁有什麼？」
+> 畢竟什麼是自由社會？它是一個沒有壟斷的社會。在他的政治哲學著作_[Ethics of Liberty](https://planb.academy/resources/books/the-ethics-of-liberty)_（1982年）中，Rothbard回答道：「一個在法律上不可能對個人的人身或財產進行強制侵略的社會」。這就是為什麼，根據他的看法，政治哲學必須定義公正社會的原則，而政治哲學可以歸結為一個問題：「誰合法擁有什麼？」
 > ![image](assets/zh-Hant/019.webp)
 對 Rothbard 來說，如果社會秩序是自由 Exchange 產權的契約程序普遍化的產物，藉由私有化所有經濟活動，甚至主權功能 (中央銀行、法院)，並訴諸保護機構之間的競爭，社會秩序就能普遍存在。
 
@@ -351,6 +363,8 @@ Rothbard 認為，歷史不是一個線性的過程，而是在社會權力的�
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
 
 :::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
+
+### 雅典民主的遺產
 
 雅典民主的經驗在政治思想史上留下了永恆的印記，並在今日世界繼續激勵著民主和公民參與的理想。
 
@@ -449,6 +463,8 @@ Jean-Pierre Vernant 則補充說：
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
 
 :::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
+
+### 世界性的帝國
 
 羅馬帝國是一個龐大的世界性實體。在公元 117 年左右的巔峰時期，它是一個巨大的多種族、多語言國家：
 
@@ -557,6 +573,8 @@ Cicero 生於公元前 1 世紀，被認為是羅馬帝國時期拉丁語系最�
 
 :::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
 
+### 衰落與崩潰
+
 羅馬為何會衰落並最終滅亡？許多人認為羅馬帝國是在野蠻人入侵的衝擊下突然崩潰的。然而，羅馬帝國崩潰的原因可以在更早之前的帝國主義、經濟和貨幣政策中找到。
 
 
@@ -634,6 +652,8 @@ Philippe Fabry 總結：
 
 :::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
 
+### 個人自由的基督教根源
+
 基督教的自由思想是在中世紀神學中發展起來的，從 4 世紀的聖奧古斯丁（Saint Augustine）到 13 世紀的聖托馬斯阿奎那（Saint Thomas Aquinas）。這個觀念是什麼？
 
 ![image](assets/zh-Hant/037.webp)
@@ -686,6 +706,8 @@ Philippe Fabry 總結：
 
 :::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
 
+### 理性的自主
+
 在中世紀，理性與信仰為了獲得真理而競爭。繼阿貝拉爾德 (Abélard) 與艾伯特大帝 (Albert the Great)之後，托馬斯-阿奎那 (Thomas Aquinas) 在 13 世紀選擇捍衛理性的權利及其相對於信仰的自主性。
 
 ![image](assets/zh-Hant/040.webp)
@@ -730,6 +752,8 @@ Philippe Fabry 總結：
 
 :::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
 
+### 神學政治體系
+
 在中世紀，教會和基督教君主國承襲了羅馬帝國的政治模式，歷史學家稱之為神學政治體系，意指權力神聖的體系，也就是政治領袖同時也是宗教領袖。
 
 這就是為什麼中世紀社會的特點是政治宗教一致。政治權力以基督教（或穆斯林）信仰為其合法性、權威性和統一性的基礎。它認為自己是文化與宗教正統的守護者，並將偏離這種一致性的人視為賤民。在此背景下，即使對於那些脫離共同文化視野的人（如猶太人）可以給予一定的寬容，但對於他們來說，多元化的權利是不可能被承認的。直到中世紀末期，隨著美洲被征服，公民自由的問題才成為教會的關鍵，並出現了第一種法律哲學，它肯定並保護個人自由，使多元化合法化，並譴責國家強迫。
@@ -771,6 +795,8 @@ Philippe Fabry 總結：
 
 :::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
 
+### 依神的形象所造的人
+
 古代思想將人從屬於一個神聖的宇宙，也就是一個完美的宇宙，而人只是其中的一部分。另一方面，一神教主張人的價值無限優越於自然，因為人是按照神的形象被創造的。這個關鍵點是真正倫理革命的起源。聖經》肯定了每個人神聖且無限的價值。
 
 這就是為什麼聖經倫理改變了我們與邪惡的關係。它對人類的苦難帶來了前所未有的敏銳度。因此，它鼓勵我們把人類在此之前認為完全可以忍受的惡行，特別是對他人、弱者、無辜者所做的惡行，視為不正常和無法忍受的。
@@ -810,6 +836,8 @@ Philippe Fabry 總結：
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
 
 :::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
+
+### 基督教與自由經濟
 
 我們已經看到，基督教規定人們有道德責任為改善世界而努力。上帝希望人幸福，但不希望在人的位置上實現人的美好。因此，基督徒有責任與道德上的惡行作鬥爭、愛他們的鄰居、幫助受害者，簡而言之，就是為一個更公正、更人道的世界而努力。資本主義，也就是以私有財產與契約自由為基礎的自由經濟，是否與基督徒的責任相容？
 
@@ -878,6 +906,8 @@ Oresme 強調，貨幣變更並不是簡單的重新分配遊戲，而是以犧�
 
 :::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
 
+### 宗教戰爭與啟蒙運動
+
 從文藝復興時期開始，歐洲就受到宗教戰爭的蹂躪。因此，寬容成為啟蒙運動中最重要的戰役之一。
 
 ![image](assets/zh-Hant/050.webp)
@@ -918,7 +948,7 @@ Oresme 強調，貨幣變更並不是簡單的重新分配遊戲，而是以犧�
 
 ### 真理需要自由
 
-然而，法國並不缺乏偉大的思想家。安-羅伯特-雅克-杜爾戈（Anne Robert Jacques Turgot），羅納男爵（Baron de Laulne）在成為路易十六時期的財政總監前，首先是一位著名的思想家。他是政治經濟學名著_Reflections on the Formation and Distribution of Wealth_ (1766)的作者，比亞當史密斯的_The Wealth of Nations_ (1776)還早。
+然而，法國並不缺乏偉大的思想家。安-羅伯特-雅克-杜爾戈（Anne Robert Jacques Turgot），羅納男爵（Baron de Laulne）在成為路易十六時期的財政總監前，首先是一位著名的思想家。他是政治經濟學名著_Reflections on the Formation and Distribution of Wealth_ (1766)的作者，比亞當史密斯的_[The Wealth of Nations](https://planb.academy/resources/books/the-wealth-of-nations)_ (1776)還早。
 
 ![image](assets/zh-Hant/052.webp)
 
@@ -939,6 +969,8 @@ Turgot 在他的信中提出了容忍的定義。容忍的意思是拒絕對錯�
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
 
 :::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
+
+### 經濟自由主義的起源
 
 經濟自由主義通常與源自亞當‧斯密的盎格魯-撒克遜傳統相聯繫，與「政治自由主義」形成對比，後者據說源自歐洲大陸的啟蒙運動，尤其是在法國。這種觀點是不正確的。
 
@@ -1007,6 +1039,8 @@ Turgot 在他的信中提出了容忍的定義。容忍的意思是拒絕對錯�
 
 :::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
+### 改變歷史的三個事件
+
 1776 年是歷史教科書上經常被忽略的一年。但在法國、蘇格蘭和北美這三個國家，有幾件事會在自由的歷史上留下不可磨滅的印記。
 
 ### 圖爾戈的恥辱
@@ -1049,7 +1083,7 @@ _Commerce and Government_ 包含了後來被稱為價值主觀性的理論，這
 
 ### 美國自由宣言
 
-1776 年，一位名叫 Thomas Paine 的英國人在美國出版了一本惡毒的小冊子，批判英國君主制度，並鼓勵美國殖民者獨立：常識》。
+1776 年，一位名叫 Thomas Paine 的英國人在美國出版了一本惡毒的小冊子，批判英國君主制度，並鼓勵美國殖民者獨立：[常識](https://planb.academy/resources/books/common-sense)》。
 
 ![image](assets/zh-Hant/059.webp)
 
@@ -1113,6 +1147,8 @@ Thomas Paine 透過他的小冊子，在美國革命和激發自由與民主的�
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
 :::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
+
+### 世俗化與現代社會
 
 西方歷史上這個現代時期最大的新奇之處，就是出現了一個在宗教依賴之外組織自己的社會。這並不意味著宗教信仰的消失或上帝的死亡。但上帝變成了私事，不再與政治事務混為一談。宗教並沒有消失，只是貶低了它的指導角色。它變成了個人信仰的系統。
 
@@ -1199,7 +1235,7 @@ Abbé Sieyès (1748-1836) 被認為是法國大革命之父。他是 _What is th
 
 隨著盧梭和羅伯斯庇爾(Robespierre)的出現﹐法國人希望相信﹐國家或一般意願擁有無限的權力﹐並使一切合理化。由 於 人 民 實 行 管 治 ﹐ 因 而 得 出 了 人 民 擁 有 所 有 權 利 的 結 論 。大 革 命 的 偉 大 原 則 與 使 其 取 得 勝 利 的 方 法 之 間 明 顯 存 在 矛 盾 。
 
-此外，這也是海耶克（Friedrich Hayek）在其《自由憲法》（The Constitution of Liberty）一書中所說的意思：
+此外，這也是海耶克（Friedrich Hayek）在其《[自由憲法](https://planb.academy/resources/books/the-constitution-of-liberty)》（The Constitution of Liberty）一書中所說的意思：
 
 > 使大革命在促進個人自由方面的努力徒勞無功的決定性因素是，大革命造成了一種錯覺，以為只要把所有權力都交給了人民，所有防止濫用權力的預防措施都變得沒有必要了。
 # 遠景與衰退：從十九世紀到二十世紀
@@ -1212,6 +1248,8 @@ Abbé Sieyès (1748-1836) 被認為是法國大革命之父。他是 _What is th
 
 :::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
 
+### 古代自由與現代自由
+
 Benjamin Constant 認為，在現代社會中，自由不再能像古代社會一樣被理解為直接參與城市事務。
 
 ![image](assets/zh-Hant/070.webp)
@@ -1220,14 +1258,14 @@ Benjamin Constant 認為，在現代社會中，自由不再能像古代社會�
 
 在古代，個人在公共事務上享有主權，但在所有私人關係上卻受到奴役。個人自由的犧牲是以使用政治權利來補償：直接行使主權的各個部分、在公共場合商議、投票通過法律、宣佈判決、評估和審判地方官的權利。這是一種政治和集體自由：
 
-> 古人的自由是積極而持續地參與集體權力。另一方面，我們的自由必須包括和平地享有私人的獨立性；由此推論，我們必須比古人更重視個人的獨立性。(_On the Liberty of the Ancients Compared with that of the Moderns_(1819))。
+> 古人的自由是積極而持續地參與集體權力。另一方面，我們的自由必須包括和平地享有私人的獨立性；由此推論，我們必須比古人更重視個人的獨立性。(_[On the Liberty of the Ancients Compared with that of the Moderns](https://planb.academy/resources/books/benjamin-constant-de-la-liberte-des-anciens-compar)_(1819))。
 ![image](assets/zh-Hant/071.webp)
 
 現代自由是公民自由，其中包括經濟自由，並且以隱私權為基礎。它是不受任何任意支配的權利，是表達、集會、行動、崇拜和工業的權利。沒有選擇個人生活方式和價值觀的可能性就沒有自由，因此沒有退出社會的可能性就沒有自由，因此沒有國家允許這種私人空間存在的限制就沒有自由。這種自由與美國人所說的民權是相對應的。
 
 John Stuart Mill（約翰‧斯圖亞特‧米爾）中有這個自由的定義：
 
-> 唯一值得稱讚的自由，就是以我們自己的方式追求我們自己的美好，只要我們不試圖剝奪他人的美好，或阻礙他人為獲得美好所做的努力。(......)讓每個人過自己認為合適的生活，比強迫他們過別人認為好的生活，更能讓人類獲益。(《論自由》，1859 年)
+> 唯一值得稱讚的自由，就是以我們自己的方式追求我們自己的美好，只要我們不試圖剝奪他人的美好，或阻礙他人為獲得美好所做的努力。(......)讓每個人過自己認為合適的生活，比強迫他們過別人認為好的生活，更能讓人類獲益。(《[論自由](https://planb.academy/resources/books/on-liberty)》，1859 年)
 
 ![image](assets/zh-Hant/072.webp)
 
@@ -1263,6 +1301,8 @@ Benjamin Constant 認為，沒有其他自由的政治自由只是一種幻覺�
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
 
 :::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
+
+### 托克維爾與民主的個人主義
 
 Alexis de Tocqueville 是一位敏銳的民主觀察家，也是民主個人主義的批判者。
 
@@ -1339,6 +1379,8 @@ Bastiat 的結論：
 
 :::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
 
+### 十九世紀的批判
+
 對資本主義的批判，尤其是馬克思主義的批判，正是在 19 世紀出現的。
 
 ![image](assets/zh-Hant/078.webp)
@@ -1370,6 +1412,8 @@ Bastiat 的結論：
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
 
 :::video id=0c740114-faff-400a-9359-d4b81766f246:::
+
+### 奧地利學派的回應
 
 奧地利經濟學派 (Austrian School of Economics) 由 Carl Menger 於 19 世紀末創立，一開始就反對卡爾‧馬克思 (Karl Marx) 的理論。
 
@@ -1429,7 +1473,7 @@ Mises 創造了「polylogism」一詞來解釋這種詭辯。"Poly 「是多的�
 
 ![image](assets/zh-Hant/085.webp)
 
-早在 1922 年，路德維希‧馮‧米塞斯 (Ludwig von Mises) 就在他的著作《社會主義》(_Socialism)中指出，社會主義會導致廣泛的短缺，因為沒有市場提供的價格系統，中央計畫者就無法進行精確的經濟計算。
+早在 1922 年，路德維希‧馮‧米塞斯 (Ludwig von Mises) 就在他的著作《[社會主義](https://planb.academy/resources/books/socialism-mises)》(_Socialism)中指出，社會主義會導致廣泛的短缺，因為沒有市場提供的價格系統，中央計畫者就無法進行精確的經濟計算。
 
 ## 通往奴役之路
 
@@ -1437,7 +1481,9 @@ Mises 創造了「polylogism」一詞來解釋這種詭辯。"Poly 「是多的�
 
 :::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
 
-由於對西方民主國家經濟中政府干預主義的興起感到震驚，哈耶克寫了《通往奴役之路》(The Road to Serfdom_)一書，作為對集體主義的哲學批判，不論是來自右翼還是左翼。由於《讀者文摘》(Reader's Digest)出版了幾百萬冊，這本書大大提高了哈耶克在美國的知名度。
+### 哈耶克對集體主義的警告
+
+由於對西方民主國家經濟中政府干預主義的興起感到震驚，哈耶克寫了《[通往奴役之路](https://planb.academy/resources/books/the-road-to-serfdom)》(The Road to Serfdom_)一書，作為對集體主義的哲學批判，不論是來自右翼還是左翼。由於《讀者文摘》(Reader's Digest)出版了幾百萬冊，這本書大大提高了哈耶克在美國的知名度。
 
 ![image](assets/zh-Hant/086.webp)
 
@@ -1480,13 +1526,15 @@ Mises 創造了「polylogism」一詞來解釋這種詭辯。"Poly 「是多的�
 
 :::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
+### 凱恩斯革命
+
 資本主義經常被指責為：「我們必須總是生產更多」 或者是這樣的公式：「消費有利於增長」然而，這些想法並非源自傳統的資本主義，而是自 1930 年代以來主宰經濟科學領域與政治階層的凱恩斯主義。
 
 ![image](assets/zh-Hant/088.webp)
 
 ### 1929 年危機的分析
 
-約翰‧梅納德‧凱恩斯 (John Maynard Keynes) 的著作《就業、利息與貨幣通論》(The General Theory of Employment, Interest, and Money)於 1936 年出版，風靡全球。凱恩斯質疑大蕭條的成因以及擺脫蕭條的方法，他描述了一個新的經濟範例，這將會改變幾代經濟學家和政治家。
+約翰‧梅納德‧凱恩斯 (John Maynard Keynes) 的著作《[就業、利息與貨幣通論](https://planb.academy/resources/books/the-general-theory)》(The General Theory of Employment, Interest, and Money)於 1936 年出版，風靡全球。凱恩斯質疑大蕭條的成因以及擺脫蕭條的方法，他描述了一個新的經濟範例，這將會改變幾代經濟學家和政治家。
 
 ![image](assets/zh-Hant/089.webp)
 
@@ -1530,7 +1578,7 @@ Rueff 於 1919 年畢業於École Polytechnique，他的職業生涯是高級公
 
 ![image](assets/zh-Hant/094.webp)
 
-在 1971 年的 _The Monetary Sin of the West_ 一書中，Rueff 這樣寫道：
+在 1971 年的 _[The Monetary Sin of the West](https://planb.academy/resources/books/the-monetary-sin-of-the-west)_ 一書中，Rueff 這樣寫道：
 
 > 正是由於預算赤字，人們失去了自由。
 他補充說：「通貨膨脹就是用不存在的錢來補貼沒有任何收益的支出」。他說：「觀察國際貨幣體系的演變，人們會認為西方正在應用列寧的建議，根據列寧的建議：要摧毀資產階級政權，只要摧毀它的貨幣就夠了。
@@ -1546,6 +1594,8 @@ Rueff 於 1919 年畢業於École Polytechnique，他的職業生涯是高級公
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
 
 :::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
+
+### 貨幣與文明
 
 貨幣是一種工具，讓人類得以超越以物易物、儲蓄，並透過市場進行大規模的協調。它使勞動的專業化、比較優勢、貿易收益、經濟計算成為可能。沒有金錢，就沒有現代文明。
 
@@ -1589,7 +1639,7 @@ Rueff 於 1919 年畢業於École Polytechnique，他的職業生涯是高級公
 > 黃金，不會改變其本質，沒有國籍之分，永恆而普遍地被視為不可改變的卓越價值。
 ### 沒有國家壟斷的貨幣市場是可能的
 
-1976 年，哈耶克提出了一個替代國家壟斷貨幣創造的方案：貨幣之間的競爭。在他的著作_Pour une vraie concurrence des monnaies_ (貨幣非國有化_)中，他構思了一個沒有國家壟斷的貨幣市場，在這個市場中會存在幾種私人貨幣。由私人實體創造和管理不同的貨幣，將允許個人選擇最穩定和可靠的貨幣，從而鼓勵發行者之間的競爭和紀律。
+1976 年，哈耶克提出了一個替代國家壟斷貨幣創造的方案：貨幣之間的競爭。在他的著作_Pour une vraie concurrence des monnaies_ ([貨幣非國有化](https://planb.academy/resources/books/the-denationalization-of-money)_)中，他構思了一個沒有國家壟斷的貨幣市場，在這個市場中會存在幾種私人貨幣。由私人實體創造和管理不同的貨幣，將允許個人選擇最穩定和可靠的貨幣，從而鼓勵發行者之間的競爭和紀律。
 
 ![image](assets/zh-Hant/100.webp)
 

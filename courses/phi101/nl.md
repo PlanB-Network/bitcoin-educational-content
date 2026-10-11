@@ -26,6 +26,7 @@ Vanaf de Oudheid tot de Verlichting steeg de vrijheid op naarmate samenlevingen 
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
+### Inleiding tot de cursus
 
 Welkom bij PHI101!
 
@@ -79,11 +80,12 @@ Klaar om te beginnen aan deze unieke filosofische reis op zoek naar vrijheid? La
 
 :::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
+### Waarom de geschiedenis van vrijheid bestuderen?
 
 Waarom de titel van deze cursus: Een geschiedenis van vrijheid? Omdat we de relatie tussen ideeën en gebeurtenissen moeten begrijpen om ons tijdperk beter te kunnen beoordelen en met onderscheidingsvermogen te kunnen handelen. In het verleden vinden we de Elements voor een beter begrip van wat vrijheid is en de redenen waarom we het moeten koesteren.
 
 
-> Wanneer het verleden de toekomst niet langer verlicht, wandelt de geest in duisternis (Alexis de Tocqueville - _Democratie in Amerika_).
+> Wanneer het verleden de toekomst niet langer verlicht, wandelt de geest in duisternis (Alexis de Tocqueville - _[Democratie in Amerika](https://planb.academy/resources/books/de-la-democratie-en-amerique)_).
 
 ![image](assets/nl/001.webp)
 
@@ -159,7 +161,7 @@ De tweede filosofie is te vinden bij auteurs als Rousseau, Robespierre of Kant, 
 ![image](assets/nl/007.webp)
 
 
-> "Hij die de oprichting van een volk op zich durft te nemen," zegt Rousseau, "moet zich in staat voelen om, om zo te zeggen, de menselijke natuur te veranderen, om elk individu dat op zichzelf een volmaakt en eenzaam geheel is, om te vormen tot een deel van een groter geheel waaruit dit individu in zekere zin zijn leven en zijn ontvangt." (_Sociaal contract_)
+> "Hij die de oprichting van een volk op zich durft te nemen," zegt Rousseau, "moet zich in staat voelen om, om zo te zeggen, de menselijke natuur te veranderen, om elk individu dat op zichzelf een volmaakt en eenzaam geheel is, om te vormen tot een deel van een groter geheel waaruit dit individu in zekere zin zijn leven en zijn ontvangt." (_[Sociaal contract](https://planb.academy/resources/books/the-social-contract)_)
 
 Vanuit dit perspectief is het de taak van de wetgever om eigendom te organiseren, aan te passen of zelfs af te schaffen als dat nodig wordt geacht. Voor Rousseau is eigendom niet natuurlijk maar conventioneel, net als de maatschappij zelf. Robespierre stelt op zijn beurt het principe vast dat "Eigendom het recht is van iedere burger om te genieten van en te beschikken over het deel van de goederen dat hem door de wet is gegarandeerd" Er bestaat geen natuurlijk recht op eigendom; er zijn slechts een onbepaald aantal mogelijke en voorwaardelijke regelingen.
 
@@ -171,6 +173,7 @@ Vanuit dit perspectief is het de taak van de wetgever om eigendom te organiseren
 
 :::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
 
+### De mythe van de voorzienige wetgever
 
 Wanneer je schoolboeken openslaat, merkte Bastiat op, leer je dat de mensheid gedoemd zou zijn tot niets zonder de tussenkomst van de macht:
 
@@ -253,6 +256,7 @@ Een paar dagen voordat hij in 1850 in Rome stierf, nam Bastiat zijn vriend Prosp
 
 :::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
 
+### Geschiedenis geschreven door de overwinnaars
 
 Het is bekend dat de overwinnaars geschiedenis schrijven. De aandacht gaat vaak uit naar de verovering van de macht, naar het leven van de leiders die aan de macht zijn en naar de conflicten die zich verzetten tegen degenen die hun plaats willen innemen.
 
@@ -316,6 +320,8 @@ Deze stelling is ook te vinden in een monumentaal werk uit 1983: _Wet en revolut
 
 :::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
+### De socialistische kijk op de geschiedenis
+
 Er bestaat echter een ander perspectief op geschiedenis. Het is behoorlijk succesvol en geniet al lange tijd de steun van westerse intellectuelen en vertegenwoordigers van het Mondiale Zuiden. Dit is de socialistische en marxistische kijk op de geschiedenis.
 
 ![image](assets/nl/013.webp)
@@ -344,7 +350,7 @@ Deze analyse weerspiegelt een verkeerd begrip van meerwaarde en de coöperatieve
 ### De industriële revolutie in vraag
 
 
-In feite verdraait de marxistische analyse de historische realiteit van de Industriële Revolutie. Ludwig von Mises verduidelijkte deze kwestie in zijn economische verhandeling [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (zie vooral het hoofdstuk getiteld [Populaire interpretatie van de industriële revolutie](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) en in een reeks lezingen gepubliceerd onder de titel: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Ook het lezen waard, De anti-kapitalistische mentaliteit [hier](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) en [hier](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+In feite verdraait de marxistische analyse de historische realiteit van de Industriële Revolutie. Ludwig von Mises verduidelijkte deze kwestie in zijn economische verhandeling [_Human Action_](https://planb.academy/resources/books/human-action) (zie vooral het hoofdstuk getiteld [Populaire interpretatie van de industriële revolutie](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) en in een reeks lezingen gepubliceerd onder de titel: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Ook het lezen waard, De anti-kapitalistische mentaliteit [hier](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) en [hier](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![image](assets/nl/014.webp)
 
@@ -414,8 +420,9 @@ Tot slot van dit hoofdstuk: de economische en culturele opkomst van Europa was n
 
 :::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
 
+### Staatsmacht versus sociale macht
 
-In het laatste hoofdstuk van _Anatomy of the State_ (in het Frans vertaald als _L'anatomie de l'Etat_, door Résurgence editions) stelt Murray Rothbard een theorie van de geschiedenis voor. Dit zeer korte hoofdstuk is getiteld 'Geschiedenis: Een wedloop tussen staatsmacht en sociale macht' Volgens Rothbard kan de geschiedenis worden begrepen als een eeuwigdurend conflict tussen twee fundamentele principes:
+In het laatste hoofdstuk van _[Anatomy of the State](https://planb.academy/resources/books/anatomy-of-the-state)_ (in het Frans vertaald als _L'anatomie de l'Etat_, door Résurgence editions) stelt Murray Rothbard een theorie van de geschiedenis voor. Dit zeer korte hoofdstuk is getiteld 'Geschiedenis: Een wedloop tussen staatsmacht en sociale macht' Volgens Rothbard kan de geschiedenis worden begrepen als een eeuwigdurend conflict tussen twee fundamentele principes:
 
 
 ![image](assets/nl/017.webp)
@@ -472,7 +479,7 @@ Tussen de 17e en de 19e eeuw waren er in veel westerse landen perioden van versn
 
 > In deze eeuw wordt het menselijk ras opnieuw geconfronteerd met de virulente heerschappij van de staat; de staat die nu gewapend is met de scheppende kracht van de mens, geconfisqueerd en misbruikt voor zijn eigen doeleinden.
 
-Wat is een vrije samenleving eigenlijk? Het is een samenleving zonder monopolie. In zijn werk over politieke filosofie, _Ethics of Liberty_ (1982), antwoordt Rothbard: "een samenleving waarin er geen wettelijke mogelijkheid is tot dwangmatige agressie tegen de persoon of het eigendom van een individu." Daarom komt volgens hem de politieke filosofie, die de principes van een rechtvaardige samenleving moet definiëren, neer op één enkele vraag: "Wie bezit legitiem wat?"
+Wat is een vrije samenleving eigenlijk? Het is een samenleving zonder monopolie. In zijn werk over politieke filosofie, _[Ethics of Liberty](https://planb.academy/resources/books/the-ethics-of-liberty)_ (1982), antwoordt Rothbard: "een samenleving waarin er geen wettelijke mogelijkheid is tot dwangmatige agressie tegen de persoon of het eigendom van een individu." Daarom komt volgens hem de politieke filosofie, die de principes van een rechtvaardige samenleving moet definiëren, neer op één enkele vraag: "Wie bezit legitiem wat?"
 
 ![image](assets/nl/019.webp)
 
@@ -500,6 +507,7 @@ En hij voegt eraan toe:
 
 :::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
 
+### De erfenis van de Atheense democratie
 
 De ervaring van de Atheense democratie heeft een blijvende stempel gedrukt op de geschiedenis van het politieke denken en inspireert nog steeds de idealen van democratie en burgerparticipatie in de wereld van vandaag.
 
@@ -640,6 +648,7 @@ De enige middelen die we hebben om de waarheid te benaderen zijn kritiek en disc
 
 :::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
+### Een kosmopolitisch rijk
 
 Het Romeinse Rijk was een uitgestrekte, kosmopolitische entiteit. Op zijn hoogtepunt, rond 117 na Christus, was het een immense multi-etnische en meertalige staat:
 
@@ -794,6 +803,7 @@ Cicero beweerde dat het recht niet gereduceerd kan worden tot alleen de wetten d
 
 :::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
 
+### Neergang en ineenstorting
 
 Waarom ging Rome ten onder en viel het uiteindelijk? Velen denken graag dat het Romeinse Rijk plotseling instortte, onder invloed van invasies van barbaren. De oorzaken van de ineenstorting van het Romeinse Rijk zijn echter veel eerder te vinden, in imperialisme en economisch en monetair dirigisme.
 
@@ -906,6 +916,7 @@ En hij voegt eraan toe:
 
 :::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
 
+### Christelijke wortels van individuele vrijheid
 
 Het christelijke concept van vrijheid ontwikkelde zich in de middeleeuwse theologie, van de heilige Augustinus in de 4e eeuw tot de heilige Thomas van Aquino in de 13e eeuw. Wat is dit idee?
 
@@ -983,6 +994,7 @@ Volgens Sint Thomas:
 
 :::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
 
+### De autonomie van de rede
 
 In de Middeleeuwen streden rede en geloof om toegang tot de waarheid. In navolging van Abélard en Albert de Grote koos Thomas van Aquino er in de 13e eeuw voor om de autonomie van de rede ten opzichte van het geloof te verdedigen.
 
@@ -1044,6 +1056,7 @@ Vanaf dat moment zou het religieuze rationalisme het definitief winnen van het m
 
 :::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
 
+### Het theologisch-politieke systeem
 
 In de Middeleeuwen erfden de kerk en christelijke monarchieën een politiek model van het Romeinse Rijk dat bekend staat als het theologisch-politieke systeem - een systeem waarin macht als heilig wordt beschouwd, wat betekent dat de politieke leider ook een religieuze leider is.
 
@@ -1102,6 +1115,7 @@ De theocratische verleiding van de kerk botst ook met de theorie van "goddelijk 
 
 :::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
 
+### De mens geschapen naar het beeld van God
 
 Het oude denken maakte de mens ondergeschikt aan een goddelijke kosmos, dat wil zeggen aan een volmaakt universum waarvan hij slechts een deel was. Het monotheïsme daarentegen bevestigt de oneindig superieure waarde van de mens boven de natuur, voor zover de mens geschapen is naar het beeld van God. Dit cruciale punt ligt aan de oorsprong van een ware ethische revolutie. De Bijbel bevestigt de heilige en oneindige waarde van elk menselijk wezen.
 
@@ -1158,6 +1172,7 @@ Het idee van menselijkheid ontwikkelt zich. Men is er inderdaad van uitgegaan da
 
 :::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
 
+### Het christendom en de vrije economie
 
 We hebben gezien dat het christendom mensen de morele plicht oplegt om te werken aan het verbeteren van de wereld. God wil dat de mens gelukkig is, maar wil zijn goed niet in zijn plaats bereiken. Daarom is het aan de christen om het morele kwaad te bestrijden, zijn naaste lief te hebben, de slachtoffers te helpen, kortom, te werken aan een rechtvaardiger en menselijker wereld. Is het kapitalisme, dat wil zeggen de vrije economie gebaseerd op privébezit en contractvrijheid, verenigbaar met de christelijke plicht?
 
@@ -1253,6 +1268,7 @@ Bovendien, als twee verschillende munteenheden profiteren van een wettig betaalm
 
 :::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
 
+### Godsdienstoorlogen en de Verlichting
 
 Vanaf de Renaissance werd Europa geteisterd door godsdienstoorlogen. Tolerantie werd daarom een van de grote veldslagen van de Verlichting.
 
@@ -1311,7 +1327,7 @@ In de _Tiende Brief_, "Over de handel", beschrijft Voltaire de Franse mentalitei
 ### Waarheid vereist vrijheid
 
 
-Toch ontbrak het Frankrijk niet aan grote geesten. Het is weinig bekend, maar Anne Robert Jacques Turgot, Baron de Laulne, was in de eerste plaats een vooraanstaand denker voordat hij de controleur-generaal van financiën onder Lodewijk XVI werd. Hij was de auteur van een meesterlijke verhandeling over politieke economie, _Reflections on the Formation and Distribution of Wealth_ (1766), die dateert van vóór Adam Smiths _The Wealth of Nations_ (1776).
+Toch ontbrak het Frankrijk niet aan grote geesten. Het is weinig bekend, maar Anne Robert Jacques Turgot, Baron de Laulne, was in de eerste plaats een vooraanstaand denker voordat hij de controleur-generaal van financiën onder Lodewijk XVI werd. Hij was de auteur van een meesterlijke verhandeling over politieke economie, _Reflections on the Formation and Distribution of Wealth_ (1766), die dateert van vóór Adam Smiths _[The Wealth of Nations](https://planb.academy/resources/books/the-wealth-of-nations)_ (1776).
 
 
 ![image](assets/nl/052.webp)
@@ -1339,6 +1355,8 @@ Met andere woorden, tolerant zijn betekent niet vijandig staan tegenover religie
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
 
 :::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
+
+### De oorsprong van het economisch liberalisme
 
 Economisch liberalisme wordt vaak geassocieerd met een Angelsaksische traditie, afkomstig van Adam Smith. Het wordt gecontrasteerd met "politiek liberalisme", waarvan wordt gezegd dat het voortkomt uit de continentale Verlichting, vooral in Frankrijk. Deze opvatting is onjuist.
 
@@ -1437,6 +1455,7 @@ Kortom, als iedereen in vrijheid zijn privé-belangen kan nastreven met respect 
 
 :::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
+### Drie gebeurtenissen die de geschiedenis veranderden
 
 1776 is een jaar dat vaak onopgemerkt blijft in geschiedenisboeken. Maar in drie landen - Frankrijk, Schotland en Noord-Amerika - zullen verschillende gebeurtenissen een onuitwisbare stempel drukken op de geschiedenis van de vrijheid.
 
@@ -1497,7 +1516,7 @@ Het is ook een verhandeling over filosofie omdat het laat zien hoe vrij en vrijw
 ### Een manifest voor vrijheid in Amerika
 
 
-In 1776 publiceerde de Engelsman Thomas Paine in Amerika een venijnig pamflet met de titel _Common Sense_, waarin hij de Engelse monarchie bekritiseerde en pleitte voor de onafhankelijkheid van de Amerikaanse kolonisten.
+In 1776 publiceerde de Engelsman Thomas Paine in Amerika een venijnig pamflet met de titel _[Common Sense](https://planb.academy/resources/books/common-sense)_, waarin hij de Engelse monarchie bekritiseerde en pleitte voor de onafhankelijkheid van de Amerikaanse kolonisten.
 
 
 ![image](assets/nl/059.webp)
@@ -1585,6 +1604,7 @@ Het concept van spontane orde werd een sleutelidee in het werk van Friedrich Hay
 
 :::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
 
+### Secularisatie en de moderne samenleving
 
 De grote nieuwigheid van deze moderne periode in de Westerse geschiedenis is de opkomst van een samenleving die zichzelf buiten religieuze afhankelijkheid organiseert. Dit betekent niet het verdwijnen van religieus geloof of de dood van God. Maar God wordt een privéaangelegenheid, niet langer vermengd met politieke zaken. Er is geen verdwijning van religie maar een onttroning van haar sturende rol. Het wordt een systeem van individuele overtuigingen.
 
@@ -1710,7 +1730,7 @@ In Amerika was er geen economisch dirigisme, noch een monetair faillissement zoa
 Met Rousseau en Robespierre wilden de Fransen geloven dat de Natie of de algemene wil onbeperkte macht had en alle acties rechtvaardigde. Uit het feit dat het volk regeerde, werd geconcludeerd dat het alle rechten had. Er was duidelijk een tegenstelling tussen de grote principes van de Revolutie en de middelen die gebruikt werden om ze te laten zegevieren.
 
 
-Dit is bovendien de betekenis van de opmerking van Friedrich Hayek in zijn boek _The Constitution of Liberty_:
+Dit is bovendien de betekenis van de opmerking van Friedrich Hayek in zijn boek _[The Constitution of Liberty](https://planb.academy/resources/books/the-constitution-of-liberty)_:
 
 
 > De beslissende factor die de inspanningen van de Revolutie ten gunste van de bevordering van de individuele vrijheid vruchteloos maakte, was dat ze de illusie creëerde dat, voor zover alle macht was overgedragen aan het volk, alle voorzorgsmaatregelen tegen het misbruik van deze macht overbodig waren geworden.
@@ -1728,6 +1748,7 @@ Dit is bovendien de betekenis van de opmerking van Friedrich Hayek in zijn boek 
 
 :::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
 
+### Antieke versus moderne vrijheid
 
 Volgens Benjamin Constant kan vrijheid in moderne samenlevingen niet langer worden begrepen op de manier van oude culturen, als directe deelname aan de aangelegenheden van de stad.
 
@@ -1741,7 +1762,7 @@ Volgens Benjamin Constant kan vrijheid in moderne samenlevingen niet langer word
 In de oudheid waren individuen soeverein in openbare zaken maar slaven in al hun privérelaties. Het gebruik van politieke rechten compenseerde het offer van individuele vrijheid: het recht om verschillende aspecten van soevereiniteit direct uit te oefenen, om te beraadslagen op het publieke plein, om te stemmen over wetten, om vonnissen uit te spreken en om magistraten te beoordelen en te veroordelen. Het is een politieke en collectieve vrijheid:
 
 
-> De vrijheid van de Ouden bestond uit actieve en voortdurende deelname aan de collectieve macht. Onze vrijheid daarentegen moet bestaan uit het vreedzaam genieten van privé-onafhankelijkheid; hieruit volgt dat we veel meer dan de Ouden gehecht moeten zijn aan onze onafhankelijkheid. (_On the Liberty of the Ancients Compared with that of the Moderns_ (1819))
+> De vrijheid van de Ouden bestond uit actieve en voortdurende deelname aan de collectieve macht. Onze vrijheid daarentegen moet bestaan uit het vreedzaam genieten van privé-onafhankelijkheid; hieruit volgt dat we veel meer dan de Ouden gehecht moeten zijn aan onze onafhankelijkheid. (_[On the Liberty of the Ancients Compared with that of the Moderns](https://planb.academy/resources/books/benjamin-constant-de-la-liberte-des-anciens-compar)_ (1819))
 
 ![image](assets/nl/071.webp)
 
@@ -1752,7 +1773,7 @@ Moderne vrijheid omvat burgerlijke vrijheden, waaronder economische vrijheid en 
 Deze definitie van vrijheid is te vinden bij John Stuart Mill:
 
 
-> De enige vrijheid die deze naam verdient is die van het nastreven van ons eigen goed op onze manier, zolang we niet proberen anderen hun goed te ontnemen of hun inspanningen om het te verkrijgen te belemmeren. (...) De mensheid wint meer door ieder mens te laten leven zoals het hem goeddunkt dan door hem te dwingen te leven zoals anderen dat goed achten. (_Op Vrijheid_, 1859)
+> De enige vrijheid die deze naam verdient is die van het nastreven van ons eigen goed op onze manier, zolang we niet proberen anderen hun goed te ontnemen of hun inspanningen om het te verkrijgen te belemmeren. (...) De mensheid wint meer door ieder mens te laten leven zoals het hem goeddunkt dan door hem te dwingen te leven zoals anderen dat goed achten. (_[Op Vrijheid](https://planb.academy/resources/books/on-liberty)_, 1859)
 
 ![image](assets/nl/072.webp)
 
@@ -1802,6 +1823,7 @@ Met andere woorden, in een vrije samenleving is het noodzakelijk om een strikte 
 
 :::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
 
+### Tocqueville en het democratisch individualisme
 
 Alexis de Tocqueville was een scherp waarnemer van democratie en een criticus van democratisch individualisme.
 
@@ -1913,6 +1935,7 @@ Kijk eens naar de wereldbol. Wat zijn de gelukkigste, meest morele en meest vree
 
 :::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
 
+### De kritiek van de 19e eeuw
 
 In de 19e eeuw ontstond de kritiek op het kapitalisme, met name de marxistische kritiek.
 
@@ -1959,6 +1982,7 @@ Politieke revolutie is daarom volgens hem een illusie zolang ze niet gepaard gaa
 
 :::video id=0c740114-faff-400a-9359-d4b81766f246:::
 
+### Het antwoord van de Oostenrijkse School
 
 De Oostenrijkse School voor Economie, opgericht door Carl Menger aan het einde van de 19e eeuw, verzette zich vanaf het begin tegen de theorieën van Karl Marx.
 
@@ -2042,7 +2066,7 @@ Marxisten geloven dat socialisme, een economisch systeem waarin de productiemidd
 ![image](assets/nl/085.webp)
 
 
-Al in 1922 toonde Ludwig von Mises in zijn boek _Socialisme,_ aan dat het socialisme tot wijdverspreide tekorten zou leiden, omdat centrale planners niet in staat zouden zijn om nauwkeurige economische berekeningen te maken zonder het prijssysteem dat de markt biedt.
+Al in 1922 toonde Ludwig von Mises in zijn boek _[Socialisme](https://planb.academy/resources/books/socialism-mises),_ aan dat het socialisme tot wijdverspreide tekorten zou leiden, omdat centrale planners niet in staat zouden zijn om nauwkeurige economische berekeningen te maken zonder het prijssysteem dat de markt biedt.
 
 
 ## De weg naar slavernij
@@ -2052,8 +2076,9 @@ Al in 1922 toonde Ludwig von Mises in zijn boek _Socialisme,_ aan dat het social
 
 :::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
 
+### Hayeks waarschuwing tegen het collectivisme
 
-Hayek was gealarmeerd door de opkomst van overheidsinterventie in de economieën van westerse democratieën en schreef _The Road to Serfdom_ als een filosofische kritiek op collectivisme, zowel van rechts als van links. Gepubliceerd in miljoenen exemplaren, dankzij de _Reader's Digest_, heeft dit boek sterk bijgedragen aan de bekendheid van Hayek in de Verenigde Staten.
+Hayek was gealarmeerd door de opkomst van overheidsinterventie in de economieën van westerse democratieën en schreef _[The Road to Serfdom](https://planb.academy/resources/books/the-road-to-serfdom)_ als een filosofische kritiek op collectivisme, zowel van rechts als van links. Gepubliceerd in miljoenen exemplaren, dankzij de _Reader's Digest_, heeft dit boek sterk bijgedragen aan de bekendheid van Hayek in de Verenigde Staten.
 
 
 ![image](assets/nl/086.webp)
@@ -2115,6 +2140,7 @@ Tot slot roept Hayek zijn tijdgenoten op om de "waanzin" en het "hedendaagse obs
 
 :::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
+### De Keynesiaanse revolutie
 
 Het kapitalisme wordt er vaak van beschuldigd de bron te zijn van het bevel: "we moeten altijd meer produceren," of van de formule: "consumeren is goed voor de groei." Deze ideeën komen echter niet voort uit het traditionele kapitalisme, maar uit het Keynesianisme, dat sinds de jaren 1930 het veld van de economische wetenschap en de politieke klasse heeft gedomineerd.
 
@@ -2125,7 +2151,7 @@ Het kapitalisme wordt er vaak van beschuldigd de bron te zijn van het bevel: "we
 ### De analyse van de crisis van 1929
 
 
-Het boek van John Maynard Keynes, _The General Theory of Employment, Interest, and Money_, dat in 1936 werd gepubliceerd, veegde alles op zijn pad. Hij stelde vragen over de oorzaken van de Grote Depressie en de middelen om daaruit te komen en beschreef een nieuw economisch paradigma dat generaties economen en politici zou bekeren.
+Het boek van John Maynard Keynes, _[The General Theory of Employment, Interest, and Money](https://planb.academy/resources/books/the-general-theory)_, dat in 1936 werd gepubliceerd, veegde alles op zijn pad. Hij stelde vragen over de oorzaken van de Grote Depressie en de middelen om daaruit te komen en beschreef een nieuw economisch paradigma dat generaties economen en politici zou bekeren.
 
 
 ![image](assets/nl/089.webp)
@@ -2187,7 +2213,7 @@ Vanaf 1958 werd onder het gezag van Generaal de Gaulle een beleid gevoerd om de 
 ![image](assets/nl/094.webp)
 
 
-In _De monetaire zonde van het Westen_, in 1971, schrijft Rueff:
+In _[De monetaire zonde van het Westen](https://planb.academy/resources/books/the-monetary-sin-of-the-west)_, in 1971, schrijft Rueff:
 
 
 > Door het begrotingstekort verliezen mensen hun vrijheid.
@@ -2210,6 +2236,7 @@ Geen enkele religie heeft zich zo snel over de wereld verspreid als die van de w
 
 :::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
 
+### Geld en beschaving
 
 Geld is een instrument dat mensen in staat heeft gesteld om verder te gaan dan ruilhandel, te sparen en op grote schaal te coördineren via de markt. Het heeft specialisatie van arbeid, comparatief voordeel, winst uit handel en economische berekening mogelijk gemaakt. Zonder geld zou er geen moderne beschaving zijn.
 
@@ -2272,7 +2299,7 @@ In februari 1965 stelde generaal de Gaulle, rechtstreeks geïnspireerd door Ruef
 ### Een monetaire markt zonder staatsmonopolie is mogelijk
 
 
-In 1976 stelde Hayek een alternatief voor het staatsmonopolie op de creatie van valuta voor: concurrentie tussen valuta. In zijn boek _Pour une vraie concurrence des monnaies_ (_De denationalisatie van het geld_) stelde hij zich een monetaire markt voor zonder staatsmonopolie waarin verschillende privévaluta naast elkaar zouden bestaan. De creatie en het beheer van verschillende munteenheden door particuliere entiteiten zou individuen in staat stellen om de meest stabiele en betrouwbare munt te kiezen, waardoor concurrentie en discipline tussen emittenten zou worden aangemoedigd.
+In 1976 stelde Hayek een alternatief voor het staatsmonopolie op de creatie van valuta voor: concurrentie tussen valuta. In zijn boek _Pour une vraie concurrence des monnaies_ (_[De denationalisatie van het geld](https://planb.academy/resources/books/the-denationalization-of-money)_) stelde hij zich een monetaire markt voor zonder staatsmonopolie waarin verschillende privévaluta naast elkaar zouden bestaan. De creatie en het beheer van verschillende munteenheden door particuliere entiteiten zou individuen in staat stellen om de meest stabiele en betrouwbare munt te kiezen, waardoor concurrentie en discipline tussen emittenten zou worden aangemoedigd.
 
 
 ![image](assets/nl/100.webp)

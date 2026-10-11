@@ -23,6 +23,8 @@ Von der Antike bis zur Aufklärung stieg die Freiheit auf, als Gesellschaften To
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
+### Einführung in den Kurs
+
 Willkommen im Kurs PHI101!
 
 Diese Ausbildung lädt Sie ein, die Entwicklung der Freiheit im Laufe der Geschichte zu erkunden, indem Sie die großen Denkrichtungen analysieren, die sie geprägt haben. Sie werden entdecken, wie sich der Begriff der Freiheit im Laufe der Jahrhunderte entwickelt hat, entweder im Widerstand gegen oder in Zusammenarbeit mit der Macht, auf einer historischen Reise von der Antike bis zu zeitgenössischen Debatten.
@@ -57,9 +59,11 @@ Bereit, in diese einzigartige philosophische Reise auf der Suche nach Freiheit e
 
 :::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
+### Warum die Geschichte der Freiheit studieren?
+
 Warum diesen Kurs betiteln als: eine Geschichte der Freiheit? Weil wir die Beziehung zwischen Ideen und Ereignissen verstehen müssen, um unsere Ära besser zu beurteilen und mit Unterscheidungsvermögen zu handeln. Es ist in der Vergangenheit, dass wir die Elemente für ein besseres Verständnis dessen finden, was Freiheit ist und die Gründe, warum wir sie schätzen müssen.
 
-> Wenn die Vergangenheit die Zukunft nicht mehr erleuchtet, wandelt der Geist in Dunkelheit (Alexis de Tocqueville - _Demokratie in Amerika_.)
+> Wenn die Vergangenheit die Zukunft nicht mehr erleuchtet, wandelt der Geist in Dunkelheit (Alexis de Tocqueville - _[Demokratie in Amerika](https://planb.academy/resources/books/de-la-democratie-en-amerique)_.)
 
 ![image](assets/de/001.webp)
 
@@ -105,7 +109,7 @@ Für Turgot und Say, Schüler von Quesnay, existiert ein natürliches Gesetz, un
 Die zweite Philosophie findet sich bei Autoren wie Rousseau, Robespierre oder Kant, die die republikanische Tradition verkörpern, für die die Souveränität des allgemeinen Willens die wahre Quelle des Rechts ist. Ein Zeitgenosse von Quesnay, Rousseau, ist ein Anti-Physiokrat. Für ihn muss der Gesetzgeber die Gesellschaft organisieren, wie ein Mechaniker, der eine Maschine aus toter Materie erfindet.
 ![image](assets/de/007.webp)
 
-> "Wer es wagt, die Gründung eines Volkes zu unternehmen", sagt Rousseau, "muss sich fähig fühlen, sozusagen die menschliche Natur zu ändern, jeden Einzelnen, der für sich ein vollkommenes und einsames Ganzes ist, in einen Teil eines größeren Ganzen zu verwandeln, von dem dieser Einzelne gewissermaßen sein Leben und Sein erhält." (_Gesellschaftsvertrag_)
+> "Wer es wagt, die Gründung eines Volkes zu unternehmen", sagt Rousseau, "muss sich fähig fühlen, sozusagen die menschliche Natur zu ändern, jeden Einzelnen, der für sich ein vollkommenes und einsames Ganzes ist, in einen Teil eines größeren Ganzen zu verwandeln, von dem dieser Einzelne gewissermaßen sein Leben und Sein erhält." (_[Gesellschaftsvertrag](https://planb.academy/resources/books/the-social-contract)_)
 
 Aus dieser Perspektive ist es die Aufgabe des Gesetzgebers, zu organisieren, zu verändern, sogar Eigentum abzuschaffen, wenn er es für gut hält. Für Rousseau ist Eigentum nicht natürlich, sondern konventionell, wie die Gesellschaft selbst. Robespierre wiederum etabliert das Prinzip, dass "Eigentum das Recht jedes Bürgers ist, den ihm durch das Gesetz garantierten Teil der Güter zu genießen und darüber zu verfügen." Es gibt kein natürliches Recht auf Eigentum; es gibt nur eine unbestimmte Anzahl von möglichen und kontingenten Arrangements.
 
@@ -114,6 +118,8 @@ Aus dieser Perspektive ist es die Aufgabe des Gesetzgebers, zu organisieren, zu 
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
 :::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
+
+### Der Mythos vom vorsehenden Gesetzgeber
 
 Wenn man Lehrbücher öffnet, stellte Bastiat fest, lernt man, dass die Menschheit ohne das Eingreifen der Macht dem Nichts verdammt wäre:
 
@@ -172,6 +178,8 @@ Ein paar Tage vor seinem Tod in Rom im Jahr 1850 vertraute Bastiat seinem Freund
 
 :::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
 
+### Die von den Siegern geschriebene Geschichte
+
 Es ist bekannt, Geschichte wird von den Siegern geschrieben. Die Aufmerksamkeit konzentriert sich oft auf die Eroberung der Macht, auf das Leben der Machthaber und auf die Konflikte, die sie mit denen haben, die ihren Platz einnehmen möchten.
 
 ![image](assets/de/010.webp)
@@ -214,6 +222,8 @@ Diese These findet sich auch in einem monumentalen Werk aus dem Jahr 1983: _Rech
 
 :::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
+### Die sozialistische Sicht der Geschichte
+
 Es gibt jedoch auch eine andere Perspektive auf die Geschichte. Sie war recht erfolgreich und genoss lange Zeit die Unterstützung westlicher Intellektueller und Vertreter des Globalen Südens. Dies ist die sozialistische und marxistische Sicht der Geschichte.
 ![image](assets/de/013.webp)
 
@@ -232,7 +242,7 @@ Diese Analyse spiegelt ein Missverständnis des Mehrwerts und der kooperativen s
 
 ### Die Industrielle Revolution in Frage gestellt
 
-In der Tat verzerrt die marxistische Analyse die historische Realität der Industriellen Revolution. Ludwig von Mises klärte diese Frage in seinem wirtschaftswissenschaftlichen Traktat [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (siehe insbesondere das Kapitel mit dem Titel [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) sowie in einer Reihe von Vorlesungen, die unter dem Titel: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm) veröffentlicht wurden. (Ebenfalls lesenswert, The Anti-Capitalistic Mentality [hier](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) und [hier](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+In der Tat verzerrt die marxistische Analyse die historische Realität der Industriellen Revolution. Ludwig von Mises klärte diese Frage in seinem wirtschaftswissenschaftlichen Traktat [_Human Action_](https://planb.academy/resources/books/human-action) (siehe insbesondere das Kapitel mit dem Titel [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) sowie in einer Reihe von Vorlesungen, die unter dem Titel: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm) veröffentlicht wurden. (Ebenfalls lesenswert, The Anti-Capitalistic Mentality [hier](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) und [hier](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![image](assets/de/014.webp)
 
@@ -281,7 +291,9 @@ Es ist dieses radikal dezentralisierte Europa, das Parlamente, Landtage und Gene
 
 :::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
 
-Im letzten Kapitel von _Anatomy of the State_ (übersetzt ins Französische als _L’anatomie de l’Etat_, von den Résurgence-Editionen), schlägt Murray Rothbard eine Theorie der Geschichte vor. Dieses sehr kurze Kapitel trägt den Titel: Geschichte, ein Rennen zwischen Staatsmacht und sozialer Macht. Laut Rothbard kann die Geschichte als ein ewiger Konflikt zwischen zwei grundlegenden Prinzipien verstanden werden:
+### Staatsmacht versus soziale Macht
+
+Im letzten Kapitel von _[Anatomy of the State](https://planb.academy/resources/books/anatomy-of-the-state)_ (übersetzt ins Französische als _L’anatomie de l’Etat_, von den Résurgence-Editionen), schlägt Murray Rothbard eine Theorie der Geschichte vor. Dieses sehr kurze Kapitel trägt den Titel: Geschichte, ein Rennen zwischen Staatsmacht und sozialer Macht. Laut Rothbard kann die Geschichte als ein ewiger Konflikt zwischen zwei grundlegenden Prinzipien verstanden werden:
 
 ![image](assets/de/017.webp)
 
@@ -316,7 +328,7 @@ Laut Rothbard ist die Geschichte kein linearer Prozess, sondern vielmehr eine Os
 Vom 17. Jahrhundert bis zum 19. Jahrhundert gab es in vielen westlichen Ländern Perioden der Beschleunigung sozialer Macht und eines entsprechenden Anstiegs von Freiheit, Frieden und materiellem Wohlergehen. Aber Rothbard erinnert uns daran, dass das 20. Jahrhundert von einem Wiederaufleben der Staatsmacht geprägt war, mit schlimmen Folgen: einem Anstieg von Sklaverei, Krieg und Zerstörung:
 
 > In diesem Jahrhundert sieht sich die Menschheit erneut der virulenten Herrschaft des Staates gegenüber; der Staat nun bewaffnet mit der schöpferischen Kraft des Menschen, konfisziert und für seine eigenen Zwecke pervertiert.
-> Was ist überhaupt eine freie Gesellschaft? Es ist eine Gesellschaft ohne Monopol. In seinem Werk der politischen Philosophie, _Ethik der Freiheit_ (1982), antwortet Rothbard: "eine Gesellschaft, in der es keine rechtliche Möglichkeit der zwanghaften Aggression gegen die Person oder das Eigentum eines Individuums gibt." Deshalb, so sagt er, reduziert sich die politische Philosophie, die die Prinzipien einer gerechten Gesellschaft definieren muss, auf eine einzige Frage: "Wer besitzt legitim was?"
+> Was ist überhaupt eine freie Gesellschaft? Es ist eine Gesellschaft ohne Monopol. In seinem Werk der politischen Philosophie, _[Ethik der Freiheit](https://planb.academy/resources/books/the-ethics-of-liberty)_ (1982), antwortet Rothbard: "eine Gesellschaft, in der es keine rechtliche Möglichkeit der zwanghaften Aggression gegen die Person oder das Eigentum eines Individuums gibt." Deshalb, so sagt er, reduziert sich die politische Philosophie, die die Prinzipien einer gerechten Gesellschaft definieren muss, auf eine einzige Frage: "Wer besitzt legitim was?"
 > ![image](assets/de/019.webp)
 
 Für Rothbard kann die soziale Ordnung vorherrschen, wenn sie das Produkt der Verallgemeinerung vertraglicher Verfahren für den freien Austausch von Eigentumsrechten ist, indem alle wirtschaftlichen Aktivitäten und sogar souveräne Funktionen (Zentralbank, Gerichte) privatisiert werden und indem auf Wettbewerb unter Schutzagenturen zurückgegriffen wird.
@@ -336,6 +348,8 @@ Und er fügt hinzu:
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
 
 :::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
+
+### Das Erbe der athenischen Demokratie
 
 Die Erfahrung der athenischen Demokratie hat einen bleibenden Eindruck in der Geschichte des politischen Denkens hinterlassen und inspiriert auch heute noch Ideale der Demokratie und der Bürgerbeteiligung.
 
@@ -428,6 +442,8 @@ Das einzige Mittel, das wir haben, um uns der Wahrheit zu nähern, sind Kritik u
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
 
 :::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
+
+### Ein kosmopolitisches Reich
 
 Das Römische Reich war eine riesige kosmopolitische Entität. Auf seinem Höhepunkt, um 117 n. Chr., war es ein immenser multiethnischer und mehrsprachiger Staat:
 
@@ -530,6 +546,8 @@ Indem er behauptete, dass das Gesetz nicht auf bloße vom Gesetzgeber erlassene 
 
 :::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
 
+### Niedergang und Zusammenbruch
+
 Warum ging Rom unter und fiel letztendlich? Viele glauben gerne, dass das Römische Reich plötzlich unter dem Einfluss barbarischer Invasionen zusammenbrach. Die Ursachen für den Zusammenbruch des Römischen Reiches sind jedoch viel früher zu finden, im Imperialismus und in wirtschaftlichem und monetärem Dirigismus.
 
 
@@ -603,6 +621,8 @@ Und er fügt hinzu:
 
 :::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
 
+### Christliche Wurzeln der individuellen Freiheit
+
 Die christliche Idee der Freiheit entwickelte sich in der mittelalterlichen Theologie des Heiligen Augustinus im 4. Jahrhundert bis zu Thomas von Aquin im 13. Jahrhundert. Was ist diese Idee?
 
 ![image](assets/de/037.webp)
@@ -655,6 +675,8 @@ Laut Thomas von Aquin:
 
 :::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
 
+### Die Autonomie der Vernunft
+
 Im Mittelalter konkurrieren Vernunft und Glaube um den Zugang zur Wahrheit. In der Nachfolge von Abélard und Albertus Magnus verteidigte Thomas von Aquin im 13. Jahrhundert die Rechte der Vernunft und ihre Autonomie in Bezug auf den Glauben.
 
 ![image](assets/de/040.webp)
@@ -692,6 +714,8 @@ Von da an würde der religiöse Rationalismus endgültig über den Mystizismus s
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 
 :::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
+
+### Das theologisch-politische System
 
 Im Mittelalter erbten die Kirche und die christlichen Monarchien ein politisches Modell vom Römischen Reich, das Historiker das theologisch-politische System nennen, was bedeutet, dass es ein System ist, in dem die Macht heilig ist, d.h., wo der politische Führer auch ein religiöser Führer ist.
 
@@ -734,6 +758,8 @@ Die theokratische Versuchung der Kirche stößt auch auf die Theorie des "Gottes
 
 :::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
 
+### Der Mensch als Ebenbild Gottes
+
 Das antike Denken unterordnete den Menschen einem göttlichen Kosmos, das heißt, einem perfekten Universum, von dem er lediglich ein Teil war. Der Monotheismus hingegen betont den unendlich überlegenen Wert des Menschen gegenüber der Natur, insofern der Mensch nach dem Bild Gottes geschaffen ist. Dieser entscheidende Punkt ist der Ursprung einer wahren ethischen Revolution. Die Bibel bekräftigt den heiligen und unendlichen Wert jedes einzelnen Menschen.
 Deshalb verändert die biblische Ethik unsere Beziehung zum Bösen. Sie bringt eine scharfe und beispiellose Sensibilität für menschliches Leiden mit sich. Sie ermutigt uns daher, als abnormal und unerträglich anzusehen, was die Menschheit bis dahin als vollkommen erträglich empfunden hatte, insbesondere das Böse, das anderen, den Schwachen, den Unschuldigen angetan wird.
 
@@ -767,6 +793,8 @@ Die Idee der Menschlichkeit macht Fortschritte. Es kam tatsächlich dazu, dass n
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
 
 :::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
+
+### Das Christentum und die freie Wirtschaft
 
 Wir haben gesehen, dass das Christentum den Menschen eine moralische Pflicht auferlegt, an der Verbesserung der Welt zu arbeiten. Gott möchte, dass der Mensch glücklich ist, aber er möchte sein Gutes nicht an seiner Stelle erreichen. Es liegt also am Christen, das moralische Übel zu bekämpfen, seinen Nächsten zu lieben, den Opfern zu helfen, kurz gesagt, für eine gerechtere und humanere Welt zu arbeiten. Ist der Kapitalismus, das heißt die freie Wirtschaft, die auf Privateigentum und Vertragsfreiheit basiert, mit der christlichen Pflicht vereinbar?
 
@@ -834,6 +862,8 @@ Außerdem, wenn zwei verschiedene Währungen gesetzliches Zahlungsmittel genieß
 
 :::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
 
+### Religionskriege und die Aufklärung
+
 Von der Renaissance an sollte Europa von Religionskriegen verwüstet werden. Toleranz wurde daher zu einer der großen Schlachten der Aufklärung.
 ![image](assets/de/050.webp)
 
@@ -870,7 +900,7 @@ Im _Zehnten Brief_, "Über den Handel", beschreibt Voltaire die französische Me
 
 ### Wahrheit erfordert Freiheit
 
-Doch Frankreich mangelte es nicht an großen Geistern. Es ist wenig bekannt, aber Anne Robert Jacques Turgot, Baron de Laulne, war zuallererst ein führender Denker, bevor er unter Ludwig XVI. zum Generalcontroller der Finanzen wurde. Er war der Autor einer meisterhaften Abhandlung über politische Ökonomie, _Reflexionen über die Bildung und Verteilung des Reichtums_ (1766), die _Der Wohlstand der Nationen_ von Adam Smith (1776) voranging.
+Doch Frankreich mangelte es nicht an großen Geistern. Es ist wenig bekannt, aber Anne Robert Jacques Turgot, Baron de Laulne, war zuallererst ein führender Denker, bevor er unter Ludwig XVI. zum Generalcontroller der Finanzen wurde. Er war der Autor einer meisterhaften Abhandlung über politische Ökonomie, _Reflexionen über die Bildung und Verteilung des Reichtums_ (1766), die _[Der Wohlstand der Nationen](https://planb.academy/resources/books/the-wealth-of-nations)_ von Adam Smith (1776) voranging.
 
 ![image](assets/de/052.webp)
 Seine frühen Schriften spiegeln sein Engagement für die Philosophie der Aufklärung wider. Im Jahr 1754 veröffentlichte er seine _Briefe über bürgerliche Toleranz_ und 1757 mehrere Artikel, die für _Die Enzyklopädie_ von Diderot und d'Alembert geschrieben wurden.
@@ -887,6 +917,8 @@ Mit anderen Worten, tolerant zu sein bedeutet nicht, feindselig gegenüber Relig
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
 
 :::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
+
+### Die Ursprünge des Wirtschaftsliberalismus
 
 Wirtschaftsliberalismus wird oft mit einer angelsächsischen Tradition in Verbindung gebracht, die von Adam Smith stammt, im Gegensatz zum "politischen Liberalismus", der angeblich aus der kontinentalen Aufklärung, insbesondere in Frankreich, stammt. Diese Ansicht ist falsch.
 
@@ -951,6 +983,8 @@ Kurz gesagt, wenn jeder sein privates Interesse im Respekt vor dem Naturgesetz f
 
 :::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
+### Drei Ereignisse, die die Geschichte veränderten
+
 1776 ist ein Jahr, das in Geschichtsbüchern oft übersehen wird. Aber in drei Ländern, Frankreich, Schottland und Nordamerika, werden mehrere Ereignisse eine unauslöschliche Spur in der Geschichte der Freiheit hinterlassen.
 
 ### Die Schande von Turgot
@@ -992,7 +1026,7 @@ Es handelt sich auch um eine Abhandlung über Philosophie, da sie zeigt, wie fre
 
 ### Ein Manifest für Freiheit in Amerika
 
-1776 veröffentlichte ein Engländer namens Thomas Paine in Amerika eine scharfe Broschüre, die die englische Monarchie kritisierte und für die Unabhängigkeit der amerikanischen Kolonisten eintrat: _Common Sense_.
+1776 veröffentlichte ein Engländer namens Thomas Paine in Amerika eine scharfe Broschüre, die die englische Monarchie kritisierte und für die Unabhängigkeit der amerikanischen Kolonisten eintrat: _[Common Sense](https://planb.academy/resources/books/common-sense)_.
 
 ![image](assets/de/059.webp)
 
@@ -1051,6 +1085,8 @@ Diese Idee der spontanen Ordnung würde zu einem Schlüsselkonzept in der Arbeit
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
 :::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
+
+### Säkularisierung und moderne Gesellschaft
 
 Die große Neuheit dieser modernen Periode in der westlichen Geschichte ist das Aufkommen einer Gesellschaft, die sich außerhalb religiöser Abhängigkeit organisiert. Dies bedeutet nicht das Verschwinden religiösen Glaubens oder den Tod Gottes. Aber Gott wird zu einer privaten Angelegenheit, nicht mehr vermischt mit politischen Angelegenheiten. Es gibt kein Verschwinden der Religion, sondern eine Entthronung ihrer leitenden Rolle. Es wird zu einem System individueller Überzeugungen.
 
@@ -1130,7 +1166,7 @@ In Amerika gab es keinen wirtschaftlichen Dirigismus, noch eine monetäre Bankro
 
 Mit Rousseau und Robespierre wollten die Franzosen glauben, dass die Nation oder der allgemeine Wille unbegrenzte Macht hatte und alles rechtfertigte. Aus der Tatsache, dass das Volk regierte, wurde geschlossen, dass es alle Rechte hatte. Es gab offensichtlich einen Widerspruch zwischen den großen Prinzipien der Revolution und den Mitteln, die eingesetzt wurden, um sie triumphieren zu lassen.
 
-Dies ist übrigens der Sinn der Bemerkung von Friedrich Hayek in seinem Buch _Die Verfassung der Freiheit_:
+Dies ist übrigens der Sinn der Bemerkung von Friedrich Hayek in seinem Buch _[Die Verfassung der Freiheit](https://planb.academy/resources/books/the-constitution-of-liberty)_:
 
 > Der entscheidende Faktor, der die Bemühungen der Revolution zugunsten der Förderung der individuellen Freiheit zunichte machte, war, dass sie die Illusion schuf, insofern alle Macht dem Volk übergeben worden war, seien alle Vorsichtsmaßnahmen gegen den Missbrauch dieser Macht unnötig geworden.
 
@@ -1144,6 +1180,8 @@ Dies ist übrigens der Sinn der Bemerkung von Friedrich Hayek in seinem Buch _Di
 
 :::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
 
+### Antike versus moderne Freiheit
+
 Laut Benjamin Constant kann Freiheit in unseren modernen Gesellschaften nicht mehr so verstanden werden wie in den Gesellschaften der Antike als direkte Teilnahme an den Angelegenheiten der Stadt.
 
 ![image](assets/de/070.webp)
@@ -1151,14 +1189,14 @@ Laut Benjamin Constant kann Freiheit in unseren modernen Gesellschaften nicht me
 ### Freiheit im Privatleben
 
 In der Antike war das Individuum in öffentlichen Angelegenheiten souverän, aber in all seinen privaten Beziehungen versklavt. Das Opfer der individuellen Freiheit wurde durch die Nutzung politischer Rechte kompensiert: das Recht, verschiedene Teile der Souveränität direkt auszuüben, in der öffentlichen Versammlung zu beraten, über Gesetze abzustimmen, Urteile zu fällen, Magistrate zu bewerten und zu beurteilen. Es handelt sich um eine politische und kollektive Freiheit:
-Die Freiheit der Alten bestand aus aktiver und ständiger Teilnahme an der kollektiven Macht. Unsere Freiheit hingegen muss aus dem friedlichen Genuss privater Unabhängigkeit bestehen; daraus folgt, dass wir viel stärker als die Alten an unserer individuellen Unabhängigkeit hängen müssen. (_Über die Freiheit der Alten im Vergleich zu der der Modernen_ (1819))
+Die Freiheit der Alten bestand aus aktiver und ständiger Teilnahme an der kollektiven Macht. Unsere Freiheit hingegen muss aus dem friedlichen Genuss privater Unabhängigkeit bestehen; daraus folgt, dass wir viel stärker als die Alten an unserer individuellen Unabhängigkeit hängen müssen. (_[Über die Freiheit der Alten im Vergleich zu der der Modernen](https://planb.academy/resources/books/benjamin-constant-de-la-liberte-des-anciens-compar)_ (1819))
 ![image](assets/de/071.webp)
 
 Moderne Freiheit ist bürgerliche Freiheit, die wirtschaftliche Freiheit einschließt und auf dem Recht auf Privatsphäre basiert. Es ist das Recht, keiner Willkür ausgesetzt zu sein, das Recht auf Meinungsäußerung, Versammlung, Bewegung, Glaubensfreiheit und Industrie. Es gibt keine Freiheit ohne die Möglichkeit, den eigenen Lebensstil und die eigenen Werte zu wählen, also keine Freiheit ohne die Möglichkeit, sich von der Gemeinschaft zurückzuziehen und folglich keine Freiheit ohne eine Begrenzung des Staates, um die Existenz dieses privaten Raumes zu ermöglichen. Es ist eine Freiheit, die dem entspricht, was Amerikaner als Bürgerrechte bezeichnen.
 
 Diese Definition von Freiheit findet sich bei John Stuart Mill:
 
-> Die einzige Freiheit, die diesen Namen verdient, ist die, unser eigenes Gutes auf unsere eigene Weise zu verfolgen, solange wir nicht versuchen, anderen das ihre zu nehmen oder ihre Bemühungen, es zu erlangen, zu behindern. (...) Die Menschheit gewinnt mehr, indem sie jeder Person erlaubt, so zu leben, wie sie es für richtig hält, als indem sie sie zwingt, so zu leben, wie es anderen gut erscheint. (_Über die Freiheit_, 1859)
+> Die einzige Freiheit, die diesen Namen verdient, ist die, unser eigenes Gutes auf unsere eigene Weise zu verfolgen, solange wir nicht versuchen, anderen das ihre zu nehmen oder ihre Bemühungen, es zu erlangen, zu behindern. (...) Die Menschheit gewinnt mehr, indem sie jeder Person erlaubt, so zu leben, wie sie es für richtig hält, als indem sie sie zwingt, so zu leben, wie es anderen gut erscheint. (_[Über die Freiheit](https://planb.academy/resources/books/on-liberty)_, 1859)
 
 ![image](assets/de/072.webp)
 
@@ -1193,6 +1231,8 @@ Mit anderen Worten, in einer freien Gesellschaft ist es notwendig, eine strenge 
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
 
 :::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
+
+### Tocqueville und der demokratische Individualismus
 
 Alexis de Tocqueville war ein scharfer Beobachter der Demokratie und ein Kritiker des demokratischen Individualismus.
 
@@ -1269,6 +1309,8 @@ Betrachten Sie den Globus. Welches sind die glücklichsten, moralischsten und fr
 
 :::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
 
+### Die Kritik des 19. Jahrhunderts
+
 Es war im 19. Jahrhundert, dass die Kritik am Kapitalismus, insbesondere die marxistische Kritik, entstand.
 
 ![image](assets/de/078.webp)
@@ -1300,6 +1342,8 @@ Politische Revolution ist daher eine Illusion, so seine Ansicht, solange sie nic
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
 
 :::video id=0c740114-faff-400a-9359-d4b81766f246:::
+
+### Die Antwort der Österreichischen Schule
 
 Die Österreichische Schule der Nationalökonomie, gegründet von Carl Menger am Ende des 19. Jahrhunderts, stand von Anfang an den Theorien von Karl Marx entgegen.
 
@@ -1354,7 +1398,7 @@ Marxisten glauben, dass der Sozialismus, ein Wirtschaftssystem, in dem die Produ
 
 ![image](assets/de/085.webp)
 
-Bereits 1922 demonstrierte Ludwig von Mises in seinem Buch _Sozialismus_, dass der Sozialismus zu weit verbreiteten Knappheiten führen würde, da zentrale Planer ohne das durch den Markt bereitgestellte Preissystem keine genauen wirtschaftlichen Kalkulationen anstellen könnten.
+Bereits 1922 demonstrierte Ludwig von Mises in seinem Buch _[Sozialismus](https://planb.academy/resources/books/socialism-mises)_, dass der Sozialismus zu weit verbreiteten Knappheiten führen würde, da zentrale Planer ohne das durch den Markt bereitgestellte Preissystem keine genauen wirtschaftlichen Kalkulationen anstellen könnten.
 
 ## Der Weg zur Knechtschaft
 
@@ -1362,7 +1406,9 @@ Bereits 1922 demonstrierte Ludwig von Mises in seinem Buch _Sozialismus_, dass d
 
 :::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
 
-Alarmiert durch den Aufstieg des staatlichen Interventionismus in den Wirtschaften der westlichen Demokratien schrieb Hayek _Der Weg zur Knechtschaft_ als philosophische Kritik am Kollektivismus, sei es von rechts oder links. Dank des _Reader’s Digest_ in mehreren Millionen Exemplaren veröffentlicht, hat dieses Buch wesentlich zu Hayeks Ruhm in den Vereinigten Staaten beigetragen.
+### Hayeks Warnung vor dem Kollektivismus
+
+Alarmiert durch den Aufstieg des staatlichen Interventionismus in den Wirtschaften der westlichen Demokratien schrieb Hayek _[Der Weg zur Knechtschaft](https://planb.academy/resources/books/the-road-to-serfdom)_ als philosophische Kritik am Kollektivismus, sei es von rechts oder links. Dank des _Reader’s Digest_ in mehreren Millionen Exemplaren veröffentlicht, hat dieses Buch wesentlich zu Hayeks Ruhm in den Vereinigten Staaten beigetragen.
 
 ![image](assets/de/086.webp)
 
@@ -1405,13 +1451,15 @@ Zum Schluss fordert Hayek seine Zeitgenossen auf, sich von dem "Wahnsinn" und de
 
 :::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
+### Die keynesianische Revolution
+
 Der Kapitalismus wird oft beschuldigt, die Quelle der Aufforderung zu sein: "wir müssen immer mehr produzieren", oder der Formel: "Konsum ist gut für das Wachstum." Diese Ideen stammen jedoch nicht aus dem traditionellen Kapitalismus, sondern aus dem Keynesianismus, der seit den 1930er Jahren die Wirtschaftswissenschaft und die politische Klasse dominiert hat.
 
 ![image](assets/de/088.webp)
 
 ### Die Analyse der Krise von 1929
 
-Veröffentlicht im Jahr 1936, fegte das Buch von John Maynard Keynes: _The General Theory of Employment, Interest, and Money_, alles auf seinem Weg hinweg. Indem er die Ursachen der Großen Depression und die Mittel zu deren Überwindung hinterfragt, beschreibt er ein neues wirtschaftliches Paradigma, das Generationen von Ökonomen und Politikern umwandeln würde.
+Veröffentlicht im Jahr 1936, fegte das Buch von John Maynard Keynes: _[The General Theory of Employment, Interest, and Money](https://planb.academy/resources/books/the-general-theory)_, alles auf seinem Weg hinweg. Indem er die Ursachen der Großen Depression und die Mittel zu deren Überwindung hinterfragt, beschreibt er ein neues wirtschaftliches Paradigma, das Generationen von Ökonomen und Politikern umwandeln würde.
 
 ![image](assets/de/089.webp)
 
@@ -1449,7 +1497,7 @@ Ab 1958 wird unter der Autorität von General de Gaulle eine Politik zur Korrekt
 
 ![image](assets/de/094.webp)
 
-In _The Monetary Sin of the West_ (Die monetäre Sünde des Westens) schreibt Rueff 1971:
+In _[The Monetary Sin of the West](https://planb.academy/resources/books/the-monetary-sin-of-the-west)_ (Die monetäre Sünde des Westens) schreibt Rueff 1971:
 
 > Es ist durch das Haushaltsdefizit, dass die Menschen ihre Freiheit verlieren.
 
@@ -1465,6 +1513,8 @@ Keine Religion hat sich so schnell auf der ganzen Welt verbreitet wie die der Be
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
 
 :::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
+
+### Geld und Zivilisation
 
 Geld ist ein Werkzeug, das es Menschen ermöglicht hat, über den Tauschhandel hinauszugehen, zu sparen und in großem Maßstab durch den Markt zu koordinieren. Es hat die Spezialisierung der Arbeit, komparative Vorteile, Handelsgewinne, wirtschaftliche Berechnung ermöglicht. Ohne Geld gibt es keine moderne Zivilisation.
 
@@ -1509,7 +1559,7 @@ Im Februar 1965 hatte General de Gaulle, direkt inspiriert von Rueff, während e
 
 ### Ein Geldmarkt ohne Staatsmonopol ist möglich
 
-1976 schlug Hayek eine Alternative zum Monopol des Staates auf die Währungsschöpfung vor: Wettbewerb zwischen Währungen. In seinem Buch, _Pour une vraie concurrence des monnaies_ (_Die Entnationalisierung des Geldes_), stellte er sich einen Geldmarkt ohne Staatsmonopol vor, in dem mehrere private Währungen existieren würden. Die Schaffung und Verwaltung verschiedener Währungen durch private Einheiten würde es den Individuen ermöglichen, die stabilste und zuverlässigste Währung zu wählen, was den Wettbewerb und die Disziplin unter den Emittenten fördern würde.
+1976 schlug Hayek eine Alternative zum Monopol des Staates auf die Währungsschöpfung vor: Wettbewerb zwischen Währungen. In seinem Buch, _Pour une vraie concurrence des monnaies_ (_[Die Entnationalisierung des Geldes](https://planb.academy/resources/books/the-denationalization-of-money)_), stellte er sich einen Geldmarkt ohne Staatsmonopol vor, in dem mehrere private Währungen existieren würden. Die Schaffung und Verwaltung verschiedener Währungen durch private Einheiten würde es den Individuen ermöglichen, die stabilste und zuverlässigste Währung zu wählen, was den Wettbewerb und die Disziplin unter den Emittenten fördern würde.
 
 ![image](assets/de/100.webp)
 

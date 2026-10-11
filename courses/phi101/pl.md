@@ -27,6 +27,8 @@ Od starożytności przez oświecenie wolność wzrastała, gdy społeczeństwa p
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
 
+### Wprowadzenie do kursu
+
 Witamy w PHI101!
 
 
@@ -80,10 +82,12 @@ Gotowy, by wyruszyć w tę wyjątkową filozoficzną podróż w poszukiwaniu wol
 :::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
 
+### Dlaczego warto studiować historię wolności?
+
 Dlaczego warto zatytułować ten kurs: historia wolności? Ponieważ musimy zrozumieć związek między ideami i wydarzeniami, aby lepiej oceniać naszą epokę i działać z rozeznaniem. To właśnie w przeszłości znajdujemy Elements, aby lepiej zrozumieć, czym jest wolność i dlaczego musimy ją pielęgnować.
 
 
-> Kiedy przeszłość nie oświetla już przyszłości, duch kroczy w ciemności (Alexis de Tocqueville - _Demokracja w Ameryce_)
+> Kiedy przeszłość nie oświetla już przyszłości, duch kroczy w ciemności (Alexis de Tocqueville - _[Demokracja w Ameryce](https://planb.academy/resources/books/de-la-democratie-en-amerique)_)
 
 ![image](assets/pl/001.webp)
 
@@ -159,7 +163,7 @@ Drugą filozofię można znaleźć wśród autorów takich jak Rousseau, Robespi
 ![image](assets/pl/007.webp)
 
 
-> "Ten, kto odważy się założyć naród", mówi Rousseau, "musi czuć się zdolny do zmiany, by tak rzec, ludzkiej natury, do przekształcenia każdej jednostki, która sama w sobie jest doskonałą i samotną całością, w część większej całości, z której jednostka ta otrzymuje w pewnym sensie swoje życie i byt" (_Umowa społeczna_)
+> "Ten, kto odważy się założyć naród", mówi Rousseau, "musi czuć się zdolny do zmiany, by tak rzec, ludzkiej natury, do przekształcenia każdej jednostki, która sama w sobie jest doskonałą i samotną całością, w część większej całości, z której jednostka ta otrzymuje w pewnym sensie swoje życie i byt" (_[Umowa społeczna](https://planb.academy/resources/books/the-social-contract)_)
 
 Z tej perspektywy misją prawodawcy jest organizowanie, modyfikowanie, a nawet znoszenie własności, jeśli uzna ją za dobrą. Dla Rousseau własność nie jest czymś naturalnym, lecz konwencjonalnym, podobnie jak samo społeczeństwo. Z kolei Robespierre ustanawia zasadę, że "własność jest prawem każdego obywatela do korzystania i dysponowania częścią dóbr zagwarantowanych mu przez prawo" Nie ma naturalnego prawa do własności; istnieje tylko nieokreślona liczba możliwych i warunkowych ustaleń.
 
@@ -171,6 +175,8 @@ Z tej perspektywy misją prawodawcy jest organizowanie, modyfikowanie, a nawet z
 
 :::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
 
+
+### Mit opatrznościowego prawodawcy
 
 Jak zauważył Bastiat, kiedy otwiera się podręczniki, dowiadujemy się, że ludzkość byłaby skazana na nicość bez interwencji władzy:
 
@@ -254,6 +260,8 @@ Kilka dni przed śmiercią w Rzymie w 1850 r. Bastiat zwierzył się swojemu prz
 :::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
 
 
+### Historia pisana przez zwycięzców
+
 Jak wiadomo, historię piszą zwycięzcy. Uwaga często skupia się na zdobyciu władzy, na życiu przywódców u władzy i na konfliktach, które przeciwstawiają ich tym, którzy chcą zająć ich miejsce.
 
 
@@ -316,6 +324,8 @@ Teza ta znajduje się również w monumentalnym dziele z 1983 roku: _Law and Rev
 
 :::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
+### Socjalistyczna wizja historii
+
 Istnieje jednak inne spojrzenie na historię. Odniosła ona spory sukces i od dawna cieszy się poparciem zachodnich intelektualistów i przedstawicieli globalnego Południa. Jest to socjalistyczny i marksistowski pogląd na historię.
 
 ![image](assets/pl/013.webp)
@@ -352,7 +362,7 @@ W rzeczywistości marksistowska analiza zniekształca historyczną rzeczywistoś
 Mises wyjaśnia, że praca w fabrykach, choć nędzna według naszych standardów, stanowiła najlepszą możliwą okazję dla ówczesnych pracowników.
 
 
-Przeczytajmy fragment książki _Human Action_:
+Przeczytajmy fragment książki _[Human Action](https://planb.academy/resources/books/human-action)_:
 
 
 > W pierwszych dziesięcioleciach rewolucji przemysłowej standardy życia robotników fabrycznych były skandalicznie niskie w porównaniu z warunkami ich rówieśników z wyższych klas, a także w porównaniu z obecną sytuacją tłumów przemysłowych. Godziny pracy były długie, a warunki sanitarne w warsztatach opłakane. Zdolność do pracy jednostek szybko się wyczerpywała. Ale faktem pozostaje, że dla nadwyżki ludności, którą zawłaszczenie gminnych pastwisk (zagród) sprowadziło do najgorszej nędzy i dla której dosłownie nie było miejsca w ramach panującego systemu produkcji, praca w fabryce była zbawieniem. Ludzie ci tłumnie przybywali do warsztatów tylko dlatego, że bezwzględnie potrzebowali poprawy standardu życia.
@@ -415,7 +425,9 @@ Podsumowując ten rozdział, gospodarczy i kulturowy start Europy nie wynikał z
 :::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
 
 
-W ostatnim rozdziale książki _Anatomy of the State_ (przetłumaczonej na francuski jako _L'anatomie de l'Etat_ przez Résurgence editions) Murray Rothbard proponuje teorię historii. Ten bardzo krótki rozdział nosi tytuł: Historia, wyścig między władzą państwową a władzą społeczną. Według Rothbarda historię można rozumieć jako nieustanny konflikt między dwiema fundamentalnymi zasadami:
+### Władza państwowa kontra władza społeczna
+
+W ostatnim rozdziale książki _[Anatomy of the State](https://planb.academy/resources/books/anatomy-of-the-state)_ (przetłumaczonej na francuski jako _L'anatomie de l'Etat_ przez Résurgence editions) Murray Rothbard proponuje teorię historii. Ten bardzo krótki rozdział nosi tytuł: Historia, wyścig między władzą państwową a władzą społeczną. Według Rothbarda historię można rozumieć jako nieustanny konflikt między dwiema fundamentalnymi zasadami:
 
 
 ![image](assets/pl/017.webp)
@@ -471,7 +483,7 @@ Od XVII do XIX wieku w wielu krajach zachodnich miały miejsce okresy przyspiesz
 
 
 > W tym stuleciu rasa ludzka po raz kolejny stanęła w obliczu zjadliwego panowania państwa; państwa uzbrojonego teraz w twórczą moc człowieka, skonfiskowaną i wypaczoną dla własnych celów.
-> Czym w końcu jest wolne społeczeństwo? To społeczeństwo bez monopolu. W swoim dziele filozofii politycznej, _Ethics of Liberty_ (1982), Rothbard odpowiada: "społeczeństwo, w którym nie ma prawnej możliwości przymusowej agresji przeciwko osobie lub własności jednostki" To dlatego, według niego, filozofia polityczna, która musi zdefiniować zasady sprawiedliwego społeczeństwa, sprowadza się do jednego pytania: "Kto jest prawowitym właścicielem czego?"
+> Czym w końcu jest wolne społeczeństwo? To społeczeństwo bez monopolu. W swoim dziele filozofii politycznej, _[Ethics of Liberty](https://planb.academy/resources/books/the-ethics-of-liberty)_ (1982), Rothbard odpowiada: "społeczeństwo, w którym nie ma prawnej możliwości przymusowej agresji przeciwko osobie lub własności jednostki" To dlatego, według niego, filozofia polityczna, która musi zdefiniować zasady sprawiedliwego społeczeństwa, sprowadza się do jednego pytania: "Kto jest prawowitym właścicielem czego?"
 > ![image](assets/pl/019.webp)
 
 Dla Rothbarda porządek społeczny może zapanować, jeśli jest produktem uogólnienia procedur umownych dla swobodnego Exchange praw własności, poprzez prywatyzację wszystkich działań gospodarczych, a nawet funkcji suwerennych (bank centralny, sądy) i poprzez uciekanie się do konkurencji między agencjami ochrony.
@@ -498,6 +510,8 @@ I dodaje:
 
 :::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
 
+
+### Dziedzictwo demokracji ateńskiej
 
 Doświadczenie demokracji ateńskiej pozostawiło trwały ślad w historii myśli politycznej i nadal inspiruje ideały demokracji i uczestnictwa obywateli w dzisiejszym świecie.
 
@@ -638,6 +652,8 @@ Jedynymi środkami, jakie mamy, aby zbliżyć się do prawdy, są krytyka i dysk
 
 :::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
+
+### Kosmopolityczne imperium
 
 Imperium Rzymskie było rozległą, kosmopolityczną jednostką. W szczytowym okresie, około 117 r. n.e., było to ogromne wieloetniczne i wielojęzyczne państwo:
 
@@ -793,6 +809,8 @@ Twierdząc, że prawa nie można zredukować jedynie do ustaw uchwalonych przez 
 :::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
 
 
+### Schyłek i upadek
+
 Dlaczego Rzym podupadł i ostatecznie upadł? Wielu lubi myśleć, że Imperium Rzymskie upadło nagle, pod wpływem najazdów barbarzyńców. Przyczyny upadku Imperium Rzymskiego można jednak znaleźć znacznie wcześniej, w imperializmie oraz zarządzaniu gospodarczym i monetarnym.
 
 
@@ -905,6 +923,8 @@ I dodaje:
 :::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
 
 
+### Chrześcijańskie korzenie wolności jednostki
+
 Chrześcijańska idea wolności rozwinęła się w średniowiecznej teologii od świętego Augustyna w IV wieku do świętego Tomasza z Akwinu w XIII wieku. Czym jest ta idea?
 
 
@@ -982,6 +1002,8 @@ Według świętego Tomasza:
 :::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
 
 
+### Autonomia rozumu
+
 W średniowieczu rozum i wiara rywalizowały o dostęp do prawdy. Podążając za Abélardem i Albertem Wielkim, Tomasz z Akwinu w XIII wieku postanowił bronić praw rozumu i jego autonomii w stosunku do wiary.
 
 
@@ -1043,6 +1065,8 @@ Od tego momentu religijny racjonalizm ostatecznie zwyciężył nad mistycyzmem.
 :::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
 
 
+### System teologiczno-polityczny
+
 W średniowieczu Kościół i monarchie chrześcijańskie odziedziczyły model polityczny po Imperium Rzymskim, który historycy nazywają systemem teologiczno-politycznym, co oznacza system, w którym władza jest święta, tj. w którym przywódca polityczny jest również przywódcą religijnym.
 
 
@@ -1101,6 +1125,8 @@ Teokratyczna pokusa Kościoła kłóci się również z teorią "boskiego prawa"
 :::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
 
 
+### Człowiek stworzony na obraz Boga
+
 Starożytna myśl podporządkowywała człowieka boskiemu kosmosowi, czyli doskonałemu wszechświatowi, którego był jedynie częścią. Z drugiej strony monoteizm zapewnia nieskończenie wyższą wartość człowieka nad naturą, o ile człowiek został stworzony na obraz Boga. Ten kluczowy punkt jest źródłem prawdziwej rewolucji etycznej. Biblia potwierdza świętą i nieskończoną wartość każdej istoty ludzkiej.
 
 
@@ -1156,6 +1182,8 @@ Idea ludzkości rozwija się. Skutecznie zaczęto uważać, że istnieje tylko j
 
 :::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
 
+
+### Chrześcijaństwo i wolna gospodarka
 
 Widzieliśmy, że chrześcijaństwo nakłada na ludzi moralny obowiązek pracy na rzecz poprawy świata. Bóg chce, aby człowiek był szczęśliwy, ale nie chce, aby jego dobro zostało osiągnięte na jego miejscu. Do chrześcijanina należy zatem walka ze złem moralnym, miłość bliźniego, pomoc ofiarom, krótko mówiąc, praca na rzecz bardziej sprawiedliwego i humanitarnego świata. Czy kapitalizm, czyli wolna gospodarka oparta na własności prywatnej i swobodzie zawierania umów, jest zgodny z chrześcijańskim obowiązkiem?
 
@@ -1252,6 +1280,8 @@ Co więcej, jeśli dwie różne waluty korzystają z legalnego środka płatnicz
 :::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
 
 
+### Wojny religijne i oświecenie
+
 Od czasów renesansu Europę miały pustoszyć wojny religijne. Tolerancja stała się zatem jedną z wielkich bitew Oświecenia.
 
 ![image](assets/pl/050.webp)
@@ -1309,7 +1339,7 @@ W _Dziesiątym liście_, "O handlu", Voltaire opisuje francuską mentalność w 
 ### Prawda wymaga wolności
 
 
-We Francji nie brakowało jednak wielkich umysłów. Mało kto wie, że Anne Robert Jacques Turgot, baron de Laulne, zanim został generalnym kontrolerem finansów za panowania Ludwika XVI, był przede wszystkim czołowym myślicielem. Był autorem mistrzowskiego traktatu o ekonomii politycznej, _Reflections on the Formation and Distribution of Wealth_ (1766), poprzedzającego _The Wealth of Nations_ Adama Smitha (1776).
+We Francji nie brakowało jednak wielkich umysłów. Mało kto wie, że Anne Robert Jacques Turgot, baron de Laulne, zanim został generalnym kontrolerem finansów za panowania Ludwika XVI, był przede wszystkim czołowym myślicielem. Był autorem mistrzowskiego traktatu o ekonomii politycznej, _Reflections on the Formation and Distribution of Wealth_ (1766), poprzedzającego _[The Wealth of Nations](https://planb.academy/resources/books/the-wealth-of-nations)_ Adama Smitha (1776).
 
 
 ![image](assets/pl/052.webp)
@@ -1337,6 +1367,8 @@ Innymi słowy, bycie tolerancyjnym nie oznacza wrogości wobec religii. Oznacza 
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
 
 :::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
+
+### Początki liberalizmu gospodarczego
 
 Liberalizm gospodarczy jest często kojarzony z tradycją anglosaską wywodzącą się od Adama Smitha, przeciwstawianą "liberalizmowi politycznemu", o którym mówi się, że wywodzi się z kontynentalnego Oświecenia, zwłaszcza we Francji. Pogląd ten jest błędny.
 
@@ -1435,6 +1467,8 @@ Krótko mówiąc, jeśli każdy może swobodnie realizować swoje prywatne inter
 :::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
 
+### Trzy wydarzenia, które zmieniły historię
+
 1776 to rok, który często pozostaje niezauważony w podręcznikach historii. Jednak w trzech krajach, Francji, Szkocji i Ameryce Północnej, kilka wydarzeń pozostawi niezatarty ślad w historii wolności.
 
 
@@ -1494,7 +1528,7 @@ Jest to również traktat filozoficzny, który pokazuje, w jaki sposób wolny i 
 ### Manifest na rzecz wolności w Ameryce
 
 
-W 1776 roku Anglik Thomas Paine opublikował w Ameryce zjadliwy pamflet krytykujący angielską monarchię i opowiadający się za niepodległością amerykańskich kolonistów: _Common Sense_.
+W 1776 roku Anglik Thomas Paine opublikował w Ameryce zjadliwy pamflet krytykujący angielską monarchię i opowiadający się za niepodległością amerykańskich kolonistów: _[Common Sense](https://planb.academy/resources/books/common-sense)_.
 
 
 ![image](assets/pl/059.webp)
@@ -1582,6 +1616,8 @@ Idea spontanicznego porządku stanie się kluczową koncepcją w pracach Friedri
 
 :::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
 
+
+### Sekularyzacja i społeczeństwo nowoczesne
 
 Wielką nowością tego nowoczesnego okresu w historii Zachodu jest pojawienie się społeczeństwa, które organizuje się poza religijną zależnością. Nie oznacza to zaniku wiary religijnej czy śmierci Boga. Ale Bóg staje się sprawą prywatną, nie miesza się już ze sprawami politycznymi. Nie ma zaniku religii, ale detronizacja jej przewodniej roli. Staje się ona systemem indywidualnych przekonań.
 
@@ -1707,7 +1743,7 @@ W Ameryce nie było ekonomicznego dirigisme, ani monetarnego bankructwa podobneg
 Dzięki Rousseau i Robespierre'owi Francuzi chcieli wierzyć, że naród lub powszechna wola ma nieograniczoną władzę i usprawiedliwia wszystko. Z faktu, że ludzie rządzili, wywnioskowano, że mieli wszelkie prawa. Istniała wyraźna sprzeczność między wielkimi zasadami rewolucji a środkami zastosowanymi do ich zwycięstwa.
 
 
-Takie jest zresztą znaczenie uwagi Friedricha Hayeka w jego książce _The Constitution of Liberty_:
+Takie jest zresztą znaczenie uwagi Friedricha Hayeka w jego książce _[The Constitution of Liberty](https://planb.academy/resources/books/the-constitution-of-liberty)_:
 
 
 > Decydującym czynnikiem, który sprawił, że wysiłki rewolucji na rzecz promowania indywidualnej wolności okazały się daremne, było stworzenie iluzji, że skoro cała władza została przekazana ludziom, wszelkie środki ostrożności przeciwko nadużywaniu tej władzy stały się zbędne.
@@ -1726,6 +1762,8 @@ Takie jest zresztą znaczenie uwagi Friedricha Hayeka w jego książce _The Cons
 :::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
 
 
+### Wolność starożytnych a wolność nowożytnych
+
 Według Benjamina Constanta wolność w naszych współczesnych społeczeństwach nie może być już rozumiana w taki sposób, jak w społeczeństwach starożytnych, jako bezpośredni udział w sprawach miasta.
 
 
@@ -1738,7 +1776,7 @@ Według Benjamina Constanta wolność w naszych współczesnych społeczeństwac
 W starożytności jednostka była suwerenna w sprawach publicznych, ale zniewolona we wszystkich swoich prywatnych relacjach. Poświęcenie indywidualnej wolności zostało zrekompensowane przez wykorzystanie praw politycznych: prawa do bezpośredniego korzystania z różnych części suwerenności, do obradowania na placu publicznym, do głosowania nad ustawami, do wydawania wyroków, do oceniania i osądzania sędziów. Jest to wolność polityczna i zbiorowa:
 
 
-> Wolność starożytnych polegała na aktywnym i stałym uczestnictwie w zbiorowej władzy. Nasza wolność, z drugiej strony, musi polegać na spokojnym korzystaniu z prywatnej niezależności; wynika z tego, że musimy być znacznie bardziej przywiązani do naszej indywidualnej niezależności niż starożytni. (_On the Liberty of the Ancients Compared with that of the Moderns_ (1819))
+> Wolność starożytnych polegała na aktywnym i stałym uczestnictwie w zbiorowej władzy. Nasza wolność, z drugiej strony, musi polegać na spokojnym korzystaniu z prywatnej niezależności; wynika z tego, że musimy być znacznie bardziej przywiązani do naszej indywidualnej niezależności niż starożytni. (_[On the Liberty of the Ancients Compared with that of the Moderns](https://planb.academy/resources/books/benjamin-constant-de-la-liberte-des-anciens-compar)_ (1819))
 
 ![image](assets/pl/071.webp)
 
@@ -1749,7 +1787,7 @@ Nowoczesna wolność to wolność obywatelska, która obejmuje wolność gospoda
 Tę definicję wolności można znaleźć u Johna Stuarta Milla:
 
 
-> Jedyną wolnością, która zasługuje na to miano, jest ta polegająca na dążeniu do własnego dobra na swój własny sposób, o ile nie próbujemy pozbawiać innych ich dobra lub utrudniać im wysiłków zmierzających do jego osiągnięcia. (...) Ludzkość zyskuje więcej, pozwalając każdemu żyć tak, jak uważa za stosowne, niż zmuszając go do życia tak, jak wydaje się to dobre dla innych. (_On Liberty_, 1859)
+> Jedyną wolnością, która zasługuje na to miano, jest ta polegająca na dążeniu do własnego dobra na swój własny sposób, o ile nie próbujemy pozbawiać innych ich dobra lub utrudniać im wysiłków zmierzających do jego osiągnięcia. (...) Ludzkość zyskuje więcej, pozwalając każdemu żyć tak, jak uważa za stosowne, niż zmuszając go do życia tak, jak wydaje się to dobre dla innych. (_[On Liberty](https://planb.academy/resources/books/on-liberty)_, 1859)
 
 ![image](assets/pl/072.webp)
 
@@ -1799,6 +1837,8 @@ Innymi słowy, w wolnym społeczeństwie konieczne jest ustanowienie ścisłej g
 
 :::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
 
+
+### Tocqueville i demokratyczny indywidualizm
 
 Alexis de Tocqueville był wnikliwym obserwatorem demokracji i krytykiem demokratycznego indywidualizmu.
 
@@ -1911,6 +1951,8 @@ Spójrzmy na cały świat. Które narody są najszczęśliwsze, najbardziej mora
 :::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
 
 
+### Krytyka XIX wieku
+
 To właśnie w XIX wieku pojawiła się krytyka kapitalizmu, a w szczególności krytyka marksistowska.
 
 
@@ -1956,6 +1998,8 @@ Rewolucja polityczna jest zatem według niego iluzją, o ile nie towarzyszy jej 
 
 :::video id=0c740114-faff-400a-9359-d4b81766f246:::
 
+
+### Odpowiedź szkoły austriackiej
 
 Austriacka Szkoła Ekonomii, założona przez Carla Mengera pod koniec XIX wieku, od początku sprzeciwiała się teoriom Karola Marksa.
 
@@ -2039,7 +2083,7 @@ Marksiści uważają, że socjalizm, system gospodarczy, w którym środki produ
 ![image](assets/pl/085.webp)
 
 
-Już w 1922 roku, w swojej książce _Socialism_ Ludwig von Mises wykazał, że socjalizm doprowadziłby do powszechnych niedoborów, ponieważ centralni planiści nie byliby w stanie dokonywać dokładnych obliczeń ekonomicznych bez systemu cen zapewnianego przez rynek.
+Już w 1922 roku, w swojej książce _[Socialism](https://planb.academy/resources/books/socialism-mises)_ Ludwig von Mises wykazał, że socjalizm doprowadziłby do powszechnych niedoborów, ponieważ centralni planiści nie byliby w stanie dokonywać dokładnych obliczeń ekonomicznych bez systemu cen zapewnianego przez rynek.
 
 
 ## Droga do poddaństwa
@@ -2050,7 +2094,9 @@ Już w 1922 roku, w swojej książce _Socialism_ Ludwig von Mises wykazał, że 
 :::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
 
 
-Zaniepokojony wzrostem rządowego interwencjonizmu w gospodarkach zachodnich demokracji, Hayek napisał _Drogę do poddaństwa_ jako filozoficzną krytykę kolektywizmu, czy to z prawej, czy z lewej strony. Opublikowana w kilku milionach egzemplarzy, dzięki _Reader's Digest_, książka ta w znacznym stopniu przyczyniła się do sławy Hayeka w Stanach Zjednoczonych.
+### Ostrzeżenie Hayeka przed kolektywizmem
+
+Zaniepokojony wzrostem rządowego interwencjonizmu w gospodarkach zachodnich demokracji, Hayek napisał _[Drogę do poddaństwa](https://planb.academy/resources/books/the-road-to-serfdom)_ jako filozoficzną krytykę kolektywizmu, czy to z prawej, czy z lewej strony. Opublikowana w kilku milionach egzemplarzy, dzięki _Reader's Digest_, książka ta w znacznym stopniu przyczyniła się do sławy Hayeka w Stanach Zjednoczonych.
 
 
 ![image](assets/pl/086.webp)
@@ -2113,6 +2159,8 @@ Podsumowując, Hayek wzywa swoich współczesnych do odwrócenia się od "szale�
 :::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
 
+### Rewolucja keynesowska
+
 Kapitalizm jest często oskarżany o bycie źródłem nakazu: "musimy zawsze produkować więcej" lub formuły: "konsumowanie jest dobre dla wzrostu" Jednak idee te nie wywodzą się z tradycyjnego kapitalizmu, ale z keynesizmu, który zdominował dziedzinę nauk ekonomicznych i klasę polityczną od lat trzydziestych XX wieku.
 
 
@@ -2122,7 +2170,7 @@ Kapitalizm jest często oskarżany o bycie źródłem nakazu: "musimy zawsze pro
 ### Analiza kryzysu z 1929 r
 
 
-Opublikowana w 1936 roku książka Johna Maynarda Keynesa: _The General Theory of Employment, Interest, and Money_, zmiotła wszystko na swojej drodze. Kwestionując przyczyny Wielkiego Kryzysu i sposoby wyjścia z niego, opisał nowy paradygmat ekonomiczny, który przekształcił pokolenia ekonomistów i polityków.
+Opublikowana w 1936 roku książka Johna Maynarda Keynesa: _[The General Theory of Employment, Interest, and Money](https://planb.academy/resources/books/the-general-theory)_, zmiotła wszystko na swojej drodze. Kwestionując przyczyny Wielkiego Kryzysu i sposoby wyjścia z niego, opisał nowy paradygmat ekonomiczny, który przekształcił pokolenia ekonomistów i polityków.
 
 
 ![image](assets/pl/089.webp)
@@ -2184,7 +2232,7 @@ Począwszy od 1958 roku, polityka naprawy francuskiej gospodarki, zainspirowana 
 ![image](assets/pl/094.webp)
 
 
-W _The Monetary Sin of the West_ z 1971 roku Rueff pisze:
+W _[The Monetary Sin of the West](https://planb.academy/resources/books/the-monetary-sin-of-the-west)_ z 1971 roku Rueff pisze:
 
 
 > To przez deficyt budżetowy ludzie tracą swoją wolność.
@@ -2207,6 +2255,8 @@ W 1976 r. po raz ostatni zaatakował keynesizm w artykule dla gazety _Le Monde_.
 
 :::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
 
+
+### Pieniądz i cywilizacja
 
 Pieniądz jest narzędziem, które pozwoliło ludziom wyjść poza barter, oszczędzać i koordynować działania na dużą skalę za pośrednictwem rynku. Umożliwił specjalizację pracy, przewagę komparatywną, zyski z handlu, kalkulację ekonomiczną. Bez pieniądza nie ma nowoczesnej cywilizacji.
 
@@ -2269,7 +2319,7 @@ W lutym 1965 r., podczas telewizyjnej konferencji prasowej, generał de Gaulle, 
 ### Rynek pieniężny bez monopolu państwa jest możliwy
 
 
-W 1976 r. Hayek zaproponował alternatywę dla monopolu państwa na tworzenie walut: konkurencję między walutami. W swojej książce, _Pour une vraie concurrence des monnaies_ (_Denacjonalizacja pieniądza_), wyobraził sobie rynek monetarny bez monopolu państwa, na którym istniałoby kilka prywatnych walut. Tworzenie i zarządzanie różnymi walutami przez podmioty prywatne pozwoliłoby jednostkom wybrać najbardziej stabilną i niezawodną walutę, zachęcając w ten sposób do konkurencji i dyscypliny wśród emitentów.
+W 1976 r. Hayek zaproponował alternatywę dla monopolu państwa na tworzenie walut: konkurencję między walutami. W swojej książce, _Pour une vraie concurrence des monnaies_ (_[Denacjonalizacja pieniądza](https://planb.academy/resources/books/the-denationalization-of-money)_), wyobraził sobie rynek monetarny bez monopolu państwa, na którym istniałoby kilka prywatnych walut. Tworzenie i zarządzanie różnymi walutami przez podmioty prywatne pozwoliłoby jednostkom wybrać najbardziej stabilną i niezawodną walutę, zachęcając w ten sposób do konkurencji i dyscypliny wśród emitentów.
 
 
 ![image](assets/pl/100.webp)

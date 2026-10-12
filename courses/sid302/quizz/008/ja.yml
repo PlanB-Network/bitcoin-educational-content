@@ -1,8 +1,8 @@
-question: ある開発者は、外部依存やブロック確認を待つことなく、Elementsで資産発行をテストしたいと考えています。
-answer: chain=elementsregtestを設定すると、即座にブロックが生成されるローカルテスト環境が作成される。
+question: ある開発者が、外部に依存せず、ブロックの承認も待たずに、Elementsでアセット発行をテストしたいと考えています。どの設定を使うべきですか？
+answer: chain=elementsregtestを設定し、ブロックを即座に生成できるローカルのテスト環境を作る
 wrong_answers:
-  - メインLiquidネットワークに接続するため、chain=liquidv1に設定する。
-  - issueasset RPCコマンドを-testmodeフラグ付きで使用する。
-  - "Bitcoinのテスト環境でElementsの機能にアクセスするためにchain=bitcoin-regtestを設定する"
+  - chain=liquidv1を設定し、Liquidのメインネットワークに接続してすぐにテストする
+  - issueasset RPCコマンドに--testmodeフラグを付けて、隔離された環境で開発する
+  - "chain=bitcoin-regtestを設定し、Bitcoinのテスト環境でElementsの機能を使う"
 explanation: |
-  elementsregtestコンフィギュレーションは、開発者がgenerateblockのようなコマンドを使用して即座にgenerateブロックを使用できるローカルのリグレッションテスト環境を作成し、ネットワークの確認を待ったり、外部ノードに依存したりすることなく、アセット発行やその他の機能をテストできるようにします。chain=liquidv1を設定すると、1分のブロック時間と外部依存性を持つ本番Liquidネットワークに接続します。issueasset コマンドには --testmode フラグがなく、bitcoin-regtest は Elements の機能ではなく Bitcoin Core のためのものである。
+  elementsregtestを設定すると、ローカルの回帰テスト（regtest）環境が作られます。この環境では、generateblockなどのコマンドでブロックを即座に生成できるため、ネットワークの承認を待ったり外部のノードに依存したりすることなく、アセット発行などの機能をテストできます。chain=liquidv1を設定すると、ブロック間隔が1分で外部への依存もある本番のLiquidネットワークに接続されます。issueassetコマンドに--testmodeフラグは存在せず、bitcoin-regtestはBitcoin Core用であって、Elementsの機能のためのものではありません。

@@ -1,8 +1,8 @@
-question: ElementsとLiquid Networkの関係は？
-answer: Liquidは、Elementsサイドチェーンの特定のインスタンスで、プロダクション用に設定されている。
+question: ElementsとLiquid Networkはどのような関係にありますか？
+answer: Liquidは、本番運用向けに設定されたElementsサイドチェーンの特定のインスタンスである
 wrong_answers:
-  - Elementsは、テスト用に設定されたLiquid Networkの特定のインスタンスである。
-  - LiquidとElementsは、コードベースが異なる2つの競合ブロックチェーン・プラットフォームである。
-  - "Elementsは、Liquid Networkのブロック検証を支えるコンセンサスメカニズムである"
+  - Elementsは、テスト用に設定されたLiquid Networkの特定のインスタンスである
+  - LiquidとElementsは、コードベースの異なる2つの競合するブロックチェーン・プラットフォームである
+  - "Elementsは、Liquid Networkのブロック検証を担うコンセンサスメカニズムである"
 explanation: |
-  Elementsはオープンソースのブロックチェーンプラットフォームソフトウェアであり、LiquidはElementsのサイドチェーンの特定の実装または「インスタンス」である。Elementsは基礎となるテクノロジーのフレームワークであり、Liquidはそのフレームワークを使って構築された特定のネットワークである。これは、Bitcoin CoreがBitcoinネットワークを動かすソフトウェアであり、ElementsがLiquidや他のカスタムサイドチェーンを動かすソフトウェアエンジンであるのと似ている。
+  Elementsはオープンソースのブロックチェーン・プラットフォームのソフトウェアで、Liquidは、フェデレーテッド・コンセンサスモデルで本番運用できるように設定された、Elementsサイドチェーンの特定の実装、つまり「インスタンス」です。Elementsが土台となる技術フレームワークで、Liquidはそのフレームワークで構築された1つのネットワークだと考えるとわかりやすいでしょう。Bitcoin CoreがBitcoinネットワークを動かすソフトウェアであるのと同じように、ElementsはLiquidやその他のカスタムサイドチェーンを動かすソフトウェアエンジンです。

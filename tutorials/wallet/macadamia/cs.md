@@ -337,7 +337,7 @@ Model opatrovnictví vyžaduje ostražitost a správné bezpečnostní postupy. 
 
 
 - Technická dokumentace: [docs.cashu.space](https://docs.cashu.space)
-- Seznam veřejných mincoven: [bitcoinmints.com](https://bitcoinmints.com)
+- Seznam veřejných mincoven: [bitcoinmints.com](https://cashumints.space/)
 - Oficiální webové stránky protokolu: [cashu.space](https://cashu.space)
 
 

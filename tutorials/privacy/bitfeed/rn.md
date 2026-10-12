@@ -163,7 +163,7 @@ Igicuruzwa gifata umwanya munini rero si co gicuruzwa gifise igiciro kinini c’
 
 
 
-Niwakurikiza urugero ruri mu rutonde rwa **Info**, igikorwa gifise igiciro kinini c'igicuruzwa ni ic'umutuku. Iyi ni yo nzira [bfd81fdd02055cé809419b4fae094576bc4384a1d044441d04441d04444c3ba052eya0999a35](https://bito 809419b4fae094576bc4384a1d0444c723b3ba052e99a35) n’igipimo c’igiciro c’ugucuruza `147,49 sats/vBytes`.
+Niwakurikiza urugero ruri mu rutonde rwa **Info**, igikorwa gifise igiciro kinini c'igicuruzwa ni ic'umutuku. Iyi ni yo nzira [bfd81fdd02055cé809419b4fae094576bc4384a1d044441d04441d04444c3ba052eya0999a35](https://bitfeed.live/tx/bfd81fdde02055ced809419b4fae094576bc4384a1d0444c723b3ba052e99a35) n’igipimo c’igiciro c’ugucuruza `147,49 sats/vBytes`.
 
 
 

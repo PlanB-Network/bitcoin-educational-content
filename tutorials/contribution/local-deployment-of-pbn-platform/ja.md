@@ -27,9 +27,9 @@ description: Plan ₿ Networkでのコンテンツ投稿や教育コンテンツ
 
 リポジトリをローカルマシンにクローンします：
 
-git clone [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system࿼cd)
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 
-[cd](https://github.com/PlanB-Network/Bitcoin-learning-management-system࿼cd) Bitcoin-学習管理システム
+cd bitcoin-learning-management-system
 
 ```bash
 git clone https://github.com/PlanB-Network/bitcoin-learning-management-system

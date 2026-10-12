@@ -320,7 +320,7 @@ Co se myslí pod pojmem Trustless? Pieter Wuille vysvětluje tento široce použ
 Stručně řečeno, slovo *Trustless* odkazuje na vlastnost protokolu Bitcoin, díky níž může logicky fungovat bez "jakýchkoli důvěryhodných stran". To se liší od důvěry, kterou nevyhnutelně musíte vložit do provozovaného softwaru nebo hardwaru. O tomto druhém aspektu důvěryhodnosti bude pojednáno dále v této kapitole.
 
 
-V centralizovaných systémech se spoléháme na reputaci centrálního aktéra, abychom si byli jisti, že se postará o bezpečnost nebo se v případě problémů vrátí zpět, a také na právní systém, který bude sankcionovat případné porušení. Tyto požadavky na důvěru jsou v pseudonymních decentralizovaných systémech problematické - neexistuje zde žádná možnost odvolání, takže o důvěře vlastně nemůže být řeč. V úvodu [bílé knihy Bitcoin](https://Bitcoin.org/Bitcoin.pdf) popisuje tento problém Satoshi Nakamoto:
+V centralizovaných systémech se spoléháme na reputaci centrálního aktéra, abychom si byli jisti, že se postará o bezpečnost nebo se v případě problémů vrátí zpět, a také na právní systém, který bude sankcionovat případné porušení. Tyto požadavky na důvěru jsou v pseudonymních decentralizovaných systémech problematické - neexistuje zde žádná možnost odvolání, takže o důvěře vlastně nemůže být řeč. V úvodu [bílé knihy Bitcoin](https://bitcoin.org/bitcoin.pdf) popisuje tento problém Satoshi Nakamoto:
 
 
 > Obchodování na internetu se téměř výhradně spoléhá na finanční instituce, které slouží jako důvěryhodné třetí strany pro zpracování elektronických plateb.
@@ -333,7 +333,7 @@ Zdá se, že nemůžeme mít decentralizovaný systém založený na důvěře, 
 Chcete-li používat Bitcoin způsobem Trustless, musíte spustit plně ověřující uzel Bitcoin. Pouze tak budete moci ověřit, že bloky, které dostáváte od ostatních, dodržují pravidla konsensu; například že je dodržován plán vydávání mincí a že na Blockchain nedochází k dvojímu utrácení. Pokud neprovozujete uzel Full node, zadáváte ověřování bloků Bitcoin někomu jinému a věříte, že vám řekne pravdu, což znamená, že nepoužíváte Bitcoin bez důvěry.
 
 
-David Harding je autorem [článku na webových stránkách Bitcoin.org](https://Bitcoin.org/en/Bitcoin-core/features/validation), který vysvětluje, jak vám provozování Full node - nebo používání Bitcoin bez důvěry - skutečně pomáhá:
+David Harding je autorem [článku na webových stránkách Bitcoin.org](https://bitcoin.org/en/bitcoin-core/features/validation), který vysvětluje, jak vám provozování Full node - nebo používání Bitcoin bez důvěry - skutečně pomáhá:
 
 
 > Měna Bitcoin funguje pouze tehdy, když lidé přijímají bitcoiny v Exchange za jiné cenné věci. To znamená, že jsou to lidé, kteří přijímají bitcoiny, kdo jim dává hodnotu a kdo rozhoduje o tom, jak má Bitcoin fungovat.
@@ -522,7 +522,7 @@ Použitím adres nebo veřejných klíčů dosáhneme důležitých cílů, jako
 Ochrana osobních údajů Blockchain se týká informací, které sdělujete při transakcích na Blockchain. Vztahuje se na všechny transakce, jak ty, které odesíláte, tak ty, které přijímáte.
 
 
-Satoshi Nakamoto se zamýšlí nad soukromím On-Chain v části 7 své [Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf):
+Satoshi Nakamoto se zamýšlí nad soukromím On-Chain v části 7 své [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf):
 
 
 > Jako další brána firewall by se měl pro každou transakci použít nový pár klíčů, aby se zabránilo jejich propojení se společným vlastníkem. Určitému propojení se přesto nelze vyhnout u transakcí s více vstupy, které nutně odhalí, že jejich vstupy vlastnil stejný vlastník. Riziko spočívá v tom, že pokud je vlastník klíče odhalen, propojení by mohlo odhalit další transakce, které patřily stejnému vlastníkovi.
@@ -755,7 +755,7 @@ To se nedá říct, ale pár věcí víme:
 - S nulovou blokovou dotací a prázdným nebo téměř prázdným Mempool se situace může kvůli poplatkům za odstřelování otřást.
 
 
-Vzhledem k tomu, že přechod na systém Block reward založený pouze na poplatcích je v tak vzdálené budoucnosti, bylo by rozumné nedělat ukvapené závěry a snažit se vyřešit potenciální problémy, dokud to jde. Například Peter Todd se domnívá, že existuje skutečné riziko, že bezpečnostní rozpočet Bitcoin nebude v budoucnu stačit, a v důsledku toho argumentuje malou věčnou inflací v Bitcoin. Zároveň si však myslí, že v současné době není dobré o takové otázce diskutovat, jak [řekl v podcastu What Bitcoin Did](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
+Vzhledem k tomu, že přechod na systém Block reward založený pouze na poplatcích je v tak vzdálené budoucnosti, bylo by rozumné nedělat ukvapené závěry a snažit se vyřešit potenciální problémy, dokud to jde. Například Peter Todd se domnívá, že existuje skutečné riziko, že bezpečnostní rozpočet Bitcoin nebude v budoucnu stačit, a v důsledku toho argumentuje malou věčnou inflací v Bitcoin. Zároveň si však myslí, že v současné době není dobré o takové otázce diskutovat, jak [řekl v podcastu What Bitcoin Did](https://www.youtube.com/watch?v=8yah3N9n84k):
 
 
 > Ale to je riziko tak na 10, 20 let dopředu. To je velmi dlouhá doba. A kdo do té doby ví, jaká jsou rizika?
@@ -817,7 +817,7 @@ A naopak, [zpětná kompatibilita](https://en.wikipedia.org/wiki/Backward_compat
 O změně pravidel konsensu Bitcoin se říká, že je *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)*, pokud je plně kompatibilní. Jedná se o nejčastější způsob aktualizace Bitcoin, a to z řady důvodů, o kterých budeme hovořit dále v této kapitole. Pokud je změna pravidel konsensu Bitcoin zpětně kompatibilní, ale není kompatibilní dopředu, nazývá se *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)*.
 
 
-Technický přehled vidlic Soft a Hard naleznete v [kapitole 11 knihy Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Vysvětluje tyto pojmy a věnuje se také mechanismům aktualizace. Doporučujeme, i když to není nezbytně nutné, abyste se s tím seznámili, než budete pokračovat ve čtení.
+Technický přehled vidlic Soft a Hard naleznete v [kapitole 11 knihy Grokking Bitcoin](https://rosenbaum.se/book/grokking-bitcoin-11.html). Vysvětluje tyto pojmy a věnuje se také mechanismům aktualizace. Doporučujeme, i když to není nezbytně nutné, abyste se s tím seznámili, než budete pokračovat ve čtení.
 
 
 ### Historické modernizace
@@ -851,7 +851,7 @@ Aaron van Wirdum popisuje tuto klikatou cestu ve svém článku v časopise Bitc
 
 > Shaolinfry navrhl alternativu: uživatelsky aktivovaný Soft Fork (UASF). Namísto aktivace výkonu Hash by uživatelsky aktivovaný Soft Fork měl "'aktivaci příznakového dne', kdy uzly začnou vynucovat výkon v předem stanoveném čase v budoucnosti" Pokud je takový UASF vynucován ekonomickou většinou, mělo by to většinu těžařů donutit k dodržování (nebo aktivaci) Soft Fork.
 
-Mimo jiné cituje Shaolinfryho e-mail do konference Bitcoin-dev. Při té příležitosti Shaolinfry [argumentoval proti vidličkám Miner aktivovaným Soft](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html) a vyjmenoval řadu jejich problémů:
+Mimo jiné cituje Shaolinfryho e-mail do konference Bitcoin-dev. Při té příležitosti Shaolinfry [argumentoval proti vidličkám Miner aktivovaným Soft](https://gnusha.org/pi/bitcoindev/jo5-7HCZX7tgdMpIQgK85HCPP14FWxvOIbjV_oerIfc-HOP1GbK3SxFX82Ls23yU1L7y95QsFFggddMNdo5Sxy7YhTJhRFN1f8d6PaA8b7s=@protonmail.ch/) a vyjmenoval řadu jejich problémů:
 
 
 > Za prvé, vyžaduje důvěru v to, že se po aktivaci potvrdí napájení Hash.  BIP66 Soft Fork byl případ, kdy 95 % Hashrate signalizovalo připravenost, ale ve skutečnosti asi polovina ve skutečnosti nevalidovala vylepšená pravidla a omylem těžila na neplatném bloku.
@@ -884,7 +884,7 @@ Po nasazení systému SegWit se rozvinula diskuse o mechanismech nasazení. Jak 
 
 > V určitém okamžiku budeme pravděpodobně chtít do protokolu Bitcoin přidat další funkce. To je velká filozofická otázka, kterou si klademe. Uděláme UASF pro další? Co třeba hybridní přístup? Miner aktivovaný sám o sobě byl vyloučen. bip9 už nebudeme používat.
 
-V lednu 2020 poslal Matt Corallo [e-mail](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html) do poštovní konference Bitcoin-dev, která zahájila diskusi o budoucích mechanismech nasazení Soft Fork. Uvedl pět cílů, které považoval za zásadní při aktualizaci. David Harding [je shrnul ve zpravodaji Bitcoin Optech](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) takto:
+V lednu 2020 poslal Matt Corallo [e-mail](https://gnusha.org/pi/bitcoindev/4a132f8a-22e3-8e31-e338-bed9ef46d2ef@mattcorallo.com/) do poštovní konference Bitcoin-dev, která zahájila diskusi o budoucích mechanismech nasazení Soft Fork. Uvedl pět cílů, které považoval za zásadní při aktualizaci. David Harding [je shrnul ve zpravodaji Bitcoin Optech](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) takto:
 
 
 > Možnost přerušit jednání, pokud se vyskytne závažná námitka proti navrhovaným změnám pravidel konsensu . Vyčlenění dostatečného času po vydání aktualizovaného softwaru, aby bylo zajištěno, že většina ekonomických uzlů bude aktualizována tak, aby tato pravidla prosazovala . Očekávání, že rychlost sítě Hash bude zhruba stejná před změnou i po ní, stejně jako během případného přechodu . Co největší prevence vytváření bloků, které jsou podle nových pravidel neplatné, což by mohlo vést k falešným potvrzením v neaktualizovaných uzlech a klientech SPV . Zajištění, že mechanismy přerušení nemohou být zneužity griefery nebo partyzány k zadržení široce žádané aktualizace bez známých problémů
@@ -956,7 +956,7 @@ Během těchto sedmi měsíců probíhala diskuse a zdálo se, že se nepodařil
 
 Zdálo se, že přístup "uvidíme, co se stane" konečně lidem docvakl. Tento proces byl později kvůli krátké době signalizace označen jako "rychlý proces". David Harding vysvětluje tuto myšlenku širší komunitě v knize
 
-[e-mail do konference Bitcoin-dev](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-March/018583.html):
+[e-mail do konference Bitcoin-dev](https://gnusha.org/pi/bitcoindev/20210306034343.fhwrxmq6gbb2os5m@ganymede/):
 
 > Dřívější verze tohoto návrhu byla zdokumentována před více než 200 dny a základní kód Taproot byl začleněn do jádra Bitcoin před více než 140 dny.Kdybychom zahájili Speedy Trial v době, kdy byl Taproot začleněn (což je trochu nereálné), buď bychom byli méně než dva měsíce před Taproot, nebo bychom přešli k dalšímu pokusu o aktivaci před více než měsícem.
 >
@@ -1260,7 +1260,7 @@ Mnoho vývojářů volí tuto možnost tak, že vystupují pod pseudonymem a sna
 články a mou práci na Bitcoin a Lightning Network.
 
 
-V jeho případě je třeba důvod použití pseudonymu posuzovat podle jeho zásluh, a nikoli podle toho, kdo je či jsou osoba či osoby, které se za pseudonymem skrývají. Zajímavé je, že v [článku na serveru CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) prozradil, že pseudonym byl vytvořen z jiného důvodu.
+V jeho případě je třeba důvod použití pseudonymu posuzovat podle jeho zásluh, a nikoli podle toho, kdo je či jsou osoba či osoby, které se za pseudonymem skrývají. Zajímavé je, že v [článku na serveru CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) prozradil, že pseudonym byl vytvořen z jiného důvodu.
 
 
 > Mým původním důvodem [pro použití pseudonymu] byla jednoduše obava, že se dopustím obrovské chyby; ZmnSCPxj byl tedy původně zamýšlen jako jednorázový pseudonym, který by bylo možné v takovém případě opustit. Zdá se však, že si získal převážně pozitivní pověst, a tak jsem si ho ponechal
@@ -1335,7 +1335,7 @@ Na cestě ke konečnému přijetí prochází nápad obvykle několika fázemi d
 V každé z těchto fází lidé s různými názory a zkušenostmi přezkoumávají dostupné informace, ať už se jedná o zdrojový kód, BIP nebo jen volně popsanou myšlenku. Jednotlivé fáze obvykle neprobíhají nijak striktně shora dolů, skutečně může probíhat více fází současně a někdy se mezi nimi přechází tam a zpět. Během různých fází mohou také poskytovat zpětnou vazbu různí lidé.
 
 
-Jedním z nejplodnějších recenzentů kódu v Bitcoin Core je Jon Atack. Napsal [příspěvek na blogu](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) o tom, jak revidovat žádosti o stažení v Bitcoin Core. Zdůrazňuje, že dobrý recenzent kódu se zaměřuje na to, jak co nejlépe přidat hodnotu.
+Jedním z nejplodnějších recenzentů kódu v Bitcoin Core je Jon Atack. Napsal [příspěvek na blogu](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core) o tom, jak revidovat žádosti o stažení v Bitcoin Core. Zdůrazňuje, že dobrý recenzent kódu se zaměřuje na to, jak co nejlépe přidat hodnotu.
 
 
 > Cílem nováčka je snažit se přidat hodnotu, být přátelský a pokorný a zároveň se co nejvíce naučit.
@@ -1380,7 +1380,7 @@ Společnosti, jednotlivci a organizace, které mají zájem na dalším úspěch
 Lidé někdy nabývají dojmu, že mezi vývojáři Bitcoin panuje spousta bojů a nekonečných vášnivých debat a že nejsou schopni přijímat rozhodnutí.
 
 
-Například o mechanismu nasazení Taproot se diskutovalo dlouhou dobu, během níž se vytvořily dva "tábory". Jeden chtěl "propadnout" vylepšení, pokud by [těžaři](https://planb.academy/resources/glossary/miner) po určitém okamžiku drtivou většinou nehlasovali pro nová pravidla, zatímco druhý chtěl pravidla po tomto okamžiku prosadit bez ohledu na cokoli. Michael Folkson shrnul argumenty obou táborů v [e-mailu](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) do poštovní konference Bitcoin-dev.
+Například o mechanismu nasazení Taproot se diskutovalo dlouhou dobu, během níž se vytvořily dva "tábory". Jeden chtěl "propadnout" vylepšení, pokud by [těžaři](https://planb.academy/resources/glossary/miner) po určitém okamžiku drtivou většinou nehlasovali pro nová pravidla, zatímco druhý chtěl pravidla po tomto okamžiku prosadit bez ohledu na cokoli. Michael Folkson shrnul argumenty obou táborů v [e-mailu](https://gnusha.org/pi/bitcoindev/CAFvNmHSnd4OM+c0_L8fFXRNrxo23WdQpNdBjTJjhmGuHumgLDA@mail.gmail.com/) do poštovní konference Bitcoin-dev.
 
 
 Debata trvala zdánlivě věčně a bylo opravdu Hard vidět, že by se v blízké době mohl vytvořit nějaký konsenzus. To lidi frustrovalo a v důsledku toho se horko zintenzivnilo. Gregory Maxwell (jako uživatel nullc) se [na Redditu](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) obával, že zdlouhavé diskuse způsobí, že upgrade bude méně bezpečný:
@@ -1468,7 +1468,7 @@ Brzy se budeme věnovat různým přístupům ke škálování, ale začněme st
 > Satoshi Nakamoto napsal:
 >
 
-> "Pracuji na novém systému elektronických peněz, který je plně peer-to-peer, bez důvěryhodné třetí strany.  Dokument je k dispozici na adrese http://www.Bitcoin.org/Bitcoin.pdf"
+> "Pracuji na novém systému elektronických peněz, který je plně peer-to-peer, bez důvěryhodné třetí strany.  Dokument je k dispozici na adrese http://www.bitcoin.org/bitcoin.pdf"
 >
 
 > Takový systém velmi, velmi potřebujeme, ale jak jsem pochopil váš návrh, nezdá se, že by se dal škálovat na požadovanou velikost.
@@ -1482,7 +1482,7 @@ Diskuse o škálování dosáhly vrcholu zájmu v letech 2015-2017, kdy se objev
 V roce 2015 se v Montrealu konala konference s názvem [Scaling Bitcoin](https://scalingbitcoin.org/), o půl roku později následovala konference v Hongkongu a poté na řadě dalších míst po celém světě. Zaměřila se právě na způsoby škálování Address. Na těchto konferencích se sešlo mnoho vývojářů Bitcoin a dalších nadšenců, kteří diskutovali o různých otázkách a návrzích na škálování. Většina těchto diskusí se netočila kolem zvětšování velikosti bloků, ale kolem dlouhodobějších řešení.
 
 
-Po konferenci v Hongkongu v prosinci 2015 Gregory Maxwell [shrnul svůj pohled](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) na mnoho diskutovaných otázek a začal obecnou filozofií škálování:
+Po konferenci v Hongkongu v prosinci 2015 Gregory Maxwell [shrnul svůj pohled](https://gnusha.org/pi/bitcoindev/CAAS2fgQyVs1fAEj+vqp8E2=FRnqsgs7VUKqALNBHNxRMDsHdVg@mail.gmail.com/) na mnoho diskutovaných otázek a začal obecnou filozofií škálování:
 
 
 > S dostupnou technologií existují zásadní kompromisy mezi rozsahem a decentralizací. Pokud je systém příliš nákladný, lidé budou nuceni důvěřovat třetím stranám, místo aby nezávisle prosazovali pravidla systému. Pokud bude využití zdrojů systému Bitcoin Blockchain vzhledem k dostupné technologii příliš velké, ztratí systém Bitcoin konkurenční výhodu oproti starším systémům, protože ověřování bude příliš nákladné (vyřadí mnoho uživatelů), což si vynutí návrat důvěry do systému.  Pokud je kapacita příliš nízká a naše metody transakcí příliš neefektivní, bude přístup k řetězci pro řešení sporů příliš nákladný, což opět vytlačí důvěru zpět do systému.
@@ -1551,7 +1551,7 @@ Druhý bod má negativní vliv na decentralizaci Miner, protože pooly s nejlep�
 Horizontální škálování se týká technik, které rozdělují pracovní zátěž mezi více strojů. Zatímco mezi populárními webovými stránkami a databázemi se jedná o rozšířený přístup škálování, v Bitcoin to není snadné.
 
 
-Mnoho lidí tento přístup škálování Bitcoin označuje jako *sharding*. V podstatě spočívá v tom, že každý Full node ověřuje pouze část Blockchain. Peter Todd věnoval konceptu shardingu mnoho pozornosti. Napsal [blogový příspěvek](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard), ve kterém sharding obecně vysvětluje a také představuje svou vlastní myšlenku nazvanou *treechains*. Článek je náročný na čtení, ale Todd uvádí některé body, které jsou docela stravitelné:
+Mnoho lidí tento přístup škálování Bitcoin označuje jako *sharding*. V podstatě spočívá v tom, že každý Full node ověřuje pouze část Blockchain. Peter Todd věnoval konceptu shardingu mnoho pozornosti. Napsal [blogový příspěvek](https://petertodd.org/2015/why-scaling-bitcoin-with-sharding-is-very-hard), ve kterém sharding obecně vysvětluje a také představuje svou vlastní myšlenku nazvanou *treechains*. Článek je náročný na čtení, ale Todd uvádí některé body, které jsou docela stravitelné:
 
 
 > Ve střepových systémech "obrana Full node" nefunguje, alespoň ne přímo. Celá pointa spočívá v tom, že ne každý má všechna data, takže musíte rozhodnout, co se stane, když nejsou k dispozici.
@@ -1730,7 +1730,7 @@ zranitelnosti. Hackeři a odborníci na počítačovou bezpečnost zastávají n
 To znamená, že pokud zjistíte bezpečnostní problém, měli byste jej nahlásit týmu odpovědnému za systém. Co to však znamená v kontextu systému Bitcoin? Systém Bitcoin nikdo neřídí, ale v současné době existuje ústřední bod pro vývoj systému Bitcoin, a to repozitář [Bitcoin Core Github](https://github.com/Bitcoin/Bitcoin). Správci uvedeného úložiště jsou zodpovědní za kód v něm obsažený, ale nejsou zodpovědní za systém jako celek - nikdo není. Přesto je obecným osvědčeným postupem poslat e-mail na adresu security@bitcoincore.org.
 
 
-V [e-mailovém vlákně](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) s názvem "Responsible disclosure of bugs" z roku 2017 se Anthony Towns pokusil shrnout, jaké jsou podle něj současné osvědčené postupy. Shromáždil podněty z několika zdrojů a od různých lidí, aby získal informace o svém pohledu na toto téma.
+V [e-mailovém vlákně](https://gnusha.org/pi/bitcoindev/20170914052740.GA2674@erisian.com.au/) s názvem "Responsible disclosure of bugs" z roku 2017 se Anthony Towns pokusil shrnout, jaké jsou podle něj současné osvědčené postupy. Shromáždil podněty z několika zdrojů a od různých lidí, aby získal informace o svém pohledu na toto téma.
 
 
 
@@ -1753,12 +1753,12 @@ V [e-mailovém vlákně](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev
 Tento seznam ukazuje, jak opatrní je třeba být při publikování záplat pro Bitcoin, protože samotná záplata může zranitelnost prozradit. Čtvrtá odrážka je obzvláště zajímavá, protože vysvětluje, jak otestovat, zda byla záplata dostatečně dobře zamaskována. Pokud totiž několik opravdu zkušených vývojářů nedokáže zranitelnost odhalit, i když ví, že záplata nějakou opravuje, bude pro ostatní pravděpodobně opravdu Hard objevit.
 
 
-Vlákno, které vedlo k tomuto e-mailu, diskutovalo o tom, zda, kdy a jak zveřejnit zranitelnosti altcoinů a dalších implementací Bitcoin. Zde není jasná odpověď. "Pomáhat dobrým lidem" se zdá být rozumné, ale kdo rozhoduje o tom, kdo to je, a kde je hranice? Bryan Bishop [tvrdil](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html), že pomáhat altcoinům a dokonce i scamcoinům bránit se proti bezpečnostním exploitům je morální povinností:
+Vlákno, které vedlo k tomuto e-mailu, diskutovalo o tom, zda, kdy a jak zveřejnit zranitelnosti altcoinů a dalších implementací Bitcoin. Zde není jasná odpověď. "Pomáhat dobrým lidem" se zdá být rozumné, ale kdo rozhoduje o tom, kdo to je, a kde je hranice? Bryan Bishop [tvrdil](https://gnusha.org/pi/bitcoindev/CABaSBawaN8GTES96yZBKa574A0TiDAHvukipYH9MGk0Euev6PA@mail.gmail.com/), že pomáhat altcoinům a dokonce i scamcoinům bránit se proti bezpečnostním exploitům je morální povinností:
 
 
 > Nestačí bránit Bitcoin a jeho uživatele před aktivními hrozbami, je zde obecnější odpovědnost bránit všechny druhy uživatelů a různý software před mnoha druhy hrozeb v jakékoli podobě, i když lidé používají hloupý a nezabezpečený software, který vy osobně neudržujete, nepřispíváte na něj ani ho neobhajujete. Nakládání s poznatky o zranitelnosti je choulostivá záležitost a může se stát, že získáte poznatky s vážnějším přímým nebo nepřímým dopadem, než bylo původně popsáno.
 
-K výše uvedenému Townovu e-mailu vedl také [příspěvek](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) Gregoryho Maxwella, v němž tvrdil, že bezpečnostní chyby mohou být závažnější, než se zdá:
+K výše uvedenému Townovu e-mailu vedl také [příspěvek](https://gnusha.org/pi/bitcoindev/CAAS2fgRD_poPjFaG6QD3L7R1GYKEO5LikrzXz+niBFBPbLCRQg@mail.gmail.com/) Gregoryho Maxwella, v němž tvrdil, že bezpečnostní chyby mohou být závažnější, než se zdá:
 
 
 > Už jsem několikrát viděl Hard využít problém se ukáže být triviální, když najdete ten správný trik, nebo menší problém dos obrátit naše mnohem vážnější.
@@ -2031,7 +2031,7 @@ BIP byl aktivován 4. července 2015. Výše uvedené je sice pravda, nicméně 
 
 Úplné odhalení této problematiky zveřejnil Pieter Wuille 28. července 2015 v časopise
 
-[e-mail do konference Bitcoin-dev](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
+[e-mail do konference Bitcoin-dev](https://gnusha.org/pi/bitcoindev/55B79146.70309@gmail.com/):
 
 
 > Dobrý den všem,
@@ -2066,7 +2066,7 @@ V e-mailu jsou dále uvedeny podrobnosti o tom, jak byl problém objeven a co p�
 Aniž by o tomto problému kdokoli věděl, mohl být vyřešen dnes již široce staženým BIP62, což byl návrh na omezení možností malátnosti transakcí. Mezi navrhované změny v BIP62 patřilo zpřísnění pravidel konsensu pro kódování podpisů neboli "striktní kódování [DER](https://planb.academy/resources/glossary/der)". Pieter Wuille v červenci 2014 navrhl několik úprav BIP, které by tento problém vyřešily:
 
 
-> 2014-červenec-18: Aby pravidla pro kódování podpisů v Bitcoin nebyla závislá na specifickém parseru OpenSSL, upravil jsem návrh BIP62 tak, aby se jeho striktní požadavek na podpisy DER vztahoval i na transakce verze 1. V té době se již do bloků nedolovaly žádné podpisy jiné než DER, takže se předpokládalo, že to nebude mít žádný dopad. Viz https://github.com/Bitcoin/bips/pull/90 a http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. V té době neznámé, ale v případě nasazení by to zranitelnost vyřešilo.
+> 2014-červenec-18: Aby pravidla pro kódování podpisů v Bitcoin nebyla závislá na specifickém parseru OpenSSL, upravil jsem návrh BIP62 tak, aby se jeho striktní požadavek na podpisy DER vztahoval i na transakce verze 1. V té době se již do bloků nedolovaly žádné podpisy jiné než DER, takže se předpokládalo, že to nebude mít žádný dopad. Viz https://github.com/Bitcoin/bips/pull/90 a https://gnusha.org/pi/bitcoindev/CAPg+sBiTURdRAZbyk3guF5YzAAQebo8yY_TuXHUKYDEdLjDUdQ@mail.gmail.com/. V té době neznámé, ale v případě nasazení by to zranitelnost vyřešilo.
 
 Vzhledem k rozsáhlosti tohoto BIP, který zahrnoval podstatně více než jen "striktní kódování DER", se neustále měnil a nikdy se nepřiblížil nasazení. Později byl tento BIP stažen, protože Segregated Witness, BIP141, řešil poddajnost transakcí jiným a úplnějším způsobem.
 
@@ -2075,7 +2075,7 @@ Vzhledem k rozsáhlosti tohoto BIP, který zahrnoval podstatně více než jen "
 
 
 
-Společnost OpenSSL vydala nové verze svého softwaru s opravami, které by při použití v Bitcoin od počátku problém vyřešily. Použití jakékoli nové verze OpenSSL pouze v nové verzi jádra Bitcoin by však situaci ještě zhoršilo. Gregory Maxwell to vysvětluje v jiném [e-mailovém vlákně](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) z ledna 2015:
+Společnost OpenSSL vydala nové verze svého softwaru s opravami, které by při použití v Bitcoin od počátku problém vyřešily. Použití jakékoli nové verze OpenSSL pouze v nové verzi jádra Bitcoin by však situaci ještě zhoršilo. Gregory Maxwell to vysvětluje v jiném [e-mailovém vlákně](https://gnusha.org/pi/bitcoindev/CAAS2fgR2a+3wb+He611pxy_Ypur0gq+o7SRjUHa4-R+xHLLnyA@mail.gmail.com/) z ledna 2015:
 
 
 > Zatímco u většiny aplikací je obecně přijatelné některé podpisy horlivě odmítnout, Bitcoin je konsensuální systém, kde se všichni účastníci musí obecně shodnout na přesné platnosti nebo neplatnosti vstupních dat.  V jistém smyslu je konzistence důležitější než "správnost".
@@ -2101,7 +2101,7 @@ Klíčovým závěrem je, že BIP by měly být víceméně *atomické*, což zn
 
 
 
-Bohužel tím příběh BIP66 neskončil. Když byl BIP66 aktivován, ukázalo se, že je docela chaotický, protože někteří těžaři neověřili bloky, které se snažili rozšířit. Tomu se říká Mining bez ověření platnosti, neboli SPV-Mining (jako Simplified Payment Verification). Uzlům Bitcoin byla rozeslána výstražná zpráva s odkazem na [webovou stránku popisující tento problém](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
+Bohužel tím příběh BIP66 neskončil. Když byl BIP66 aktivován, ukázalo se, že je docela chaotický, protože někteří těžaři neověřili bloky, které se snažili rozšířit. Tomu se říká Mining bez ověření platnosti, neboli SPV-Mining (jako Simplified Payment Verification). Uzlům Bitcoin byla rozeslána výstražná zpráva s odkazem na [webovou stránku popisující tento problém](https://bitcoin.org/en/alert/2015-07-04-spv-mining):
 
 
 > Dne 4. července 2015 brzy ráno bylo dosaženo hranice 950/1000 (95 %). Krátce poté vytěžila malá jednotka Miner (součást nepokračující těžby 5 %) neplatný blok - což byl očekávaný jev. Bohužel se ukázalo, že zhruba polovina síťové sazby Hash byla Mining bez plně validních bloků (tzv. SPV Mining) a na tomto neplatném bloku postavila nové bloky.

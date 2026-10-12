@@ -3,10 +3,9 @@ name: Boltz
 description: Přepínání mezi různými vrstvami Bitcoin při zachování kontroly.
 ---
 
-
 ![cover](assets/cover.webp)
 
-
+> **Upozornění (říjen 2026):** Boltz pozastavil všechny swapy 3. srpna 2026 poté, co bylo zneužito několik zranitelností, a jeho web je mimo provoz. Odkazy a kroky v tomto návodu již nefungují. Tuto stránku ponecháváme pro referenci, dokud nebude aktualizována.
 
 Od svého nasazení v roce 2009 se elektronický peněžní systém peer-to-peer Bitcoin exponenciálně rozrostl a dal život řešením, která dnes umožňují, aby se stal systémem, který můžeme okamžitě používat při našich každodenních činnostech, zejména prostřednictvím Lightning Network.
 
@@ -20,7 +19,7 @@ Mezi vrstvami protokolu Bitcoin však přetrvával zásadní problém: interoper
 
 
 
-[Boltz](https://boltz.Exchange) je platforma, která není určena pro všechny, kdo chtějí provádět transakce mezi různými vrstvami protokolu Bitcoin:
+Boltz je platforma, která není určena pro všechny, kdo chtějí provádět transakce mezi různými vrstvami protokolu Bitcoin:
 
 
 

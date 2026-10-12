@@ -32,7 +32,7 @@ Uwo murongo ni ngirakamaro cane cane mu kugura ibintu vy’umubiri ukoresheje am
 ## Ni gute umuntu yogura Satscard?
 
 
-Igitabu ca Satscard kiraboneka ku kiguzi [ku rubuga rwemewe rwa Coinkite](https://iduka.coinkite.com/iduka/urutonde/satscard). Kugira ngo uyigure mu iduka ry’umubiri, urashobora kandi kubona [urutonde rw’abagurisha bemerewe](https://coinkite.com/abagurisha) ku rubuga.
+Igitabu ca Satscard kiraboneka ku kiguzi [ku rubuga rwemewe rwa Coinkite](https://store.coinkite.com/store/category/satscard). Kugira ngo uyigure mu iduka ry’umubiri, urashobora kandi kubona [urutonde rw’abagurisha bemerewe](https://coinkite.com/resellers) ku rubuga.
 
 Uzokenera kandi telefone ihuye n’ivy’itumanaho rya NFC, canke igikoresho ca USB co gusoma amakarata ya NFC ku nkuru isanzwe ya 13.56 MHz.
 
@@ -42,7 +42,7 @@ Uzokenera kandi telefone ihuye n’ivy’itumanaho rya NFC, canke igikoresho ca 
 Uhejeje kwakira Satscard yawe, intambwe ya mbere ni ukugenzura ivyo ipfutse kugira ngo umenye neza ko itafunguwe. Iyo iyo paquete yononekaye, vyoshobora kwerekana ko iyo karata yashizwe mu kaga kandi ko yoshobora kuba atari iyo ukuri.
 
 
-Kugira ngo ducunge Satscard, tuzokoresha porogarama yo kuri telefone ngendanwa **Nunchuk Wallet**. Raba neza ko telefone yawe y’ubuhinga bwa none ihuye na NFC, hanyuma ushire Nunchuk kuri [Iduka rya Google Play], [Iduka ry’Iporogarama](Iduka ry’Iporogarama] (Iduka ry’Iporogarama] biciye ku dosiye yayo [`.apk`](ibisohoka).
+Kugira ngo ducunge Satscard, tuzokoresha porogarama yo kuri telefone ngendanwa **Nunchuk Wallet**. Raba neza ko telefone yawe y’ubuhinga bwa none ihuye na NFC, hanyuma ushire Nunchuk kuri [Iduka rya Google Play](https://play.google.com/store/apps/details?id=io.nunchuk.android), [Iduka ry’Iporogarama](https://apps.apple.com/us/app/nunchuk-bitcoin-wallet/id1563190073) ry’Iporogarama] (Iduka ry’Iporogarama] biciye ku dosiye yayo [`.apk`](https://github.com/nunchuk-io/nunchuk-android/releases).
 
 
 ![SATSCARD](assets/notext/02.webp)

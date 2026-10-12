@@ -406,7 +406,7 @@ Tämä opetusohjelma kattaa Bitcoin Keeper:n keskeiset ominaisuudet sen ilmaisve
 
 
 - Virallinen verkkosivusto: [bitcoinkeeper.app](https://bitcoinkeeper.app)
-- Ohjekeskus: [help.bitcoinkeeper.app](https://help.bitcoinkeeper.app)
+- Ohjekeskus: [bitcoinkeeper.app/ask-keeper](https://www.bitcoinkeeper.app/ask-keeper)
 - Lähdekoodi: [github.com/bithyve/bitcoin-keeper](https://github.com/bithyve/bitcoin-keeper)
 - Telegram : [t.me/BitcoinKeeper](https://t.me/BitcoinKeeper)
 - Twitter/X: [@bitcoinkeeper_](https://x.com/bitcoinkeeper_)

@@ -20,7 +20,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Отидете в [хранилището на PlanB в GitHub, посветено на данните](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) в раздела `resources/conference/`:
+- Отидете в [хранилището на PlanB в GitHub, посветено на данните](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conferences) в раздела `resources/conference/`:
 
 ![event](assets/02.webp)
 

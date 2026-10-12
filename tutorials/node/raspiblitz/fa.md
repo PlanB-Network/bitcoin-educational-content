@@ -20,7 +20,7 @@ RASPIBLITZ - نحوه اجرای لایتنینگ و Bitcoin Full node توسط 
 ## راهنمای راه‌اندازی Raspiblitz پارمن
 
 
-Raspiblitz یک سیستم عالی برای اجرای یک نود بیت‌کوین و برنامه‌های مرتبط است. من این و همچنین نود MyNode را به بیشتر کاربران توصیه می‌کنم (بهتر است دو نود برای افزونگی داشته باشید). یکی از مزایای اصلی این است که نود Raspiblitz یک «Free Open Source Software» است، برخلاف MyNode یا Umbrel. [چرا این مهم است؟ ولاد کاستا توضیح می‌دهد.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) همچنین می‌توانید Raspiblitz را با اتصال WiFi به جای اترنت اجرا کنید – در اینجا یک [راهنمای تکمیلی](https://armantheparman.com/headless-wifi/) برای آن وجود دارد. (من راهی برای انجام این کار با MyNode پیدا نکرده‌ام).
+Raspiblitz یک سیستم عالی برای اجرای یک نود بیت‌کوین و برنامه‌های مرتبط است. من این و همچنین نود MyNode را به بیشتر کاربران توصیه می‌کنم (بهتر است دو نود برای افزونگی داشته باشید). یکی از مزایای اصلی این است که نود Raspiblitz یک «Free Open Source Software» است، برخلاف MyNode یا Umbrel. [چرا این مهم است؟ ولاد کاستا توضیح می‌دهد.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) همچنین می‌توانید Raspiblitz را با اتصال WiFi به جای اترنت اجرا کنید – در اینجا یک [راهنمای تکمیلی](https://armantheparman.com/headless-wifi/) برای آن وجود دارد. (من راهی برای انجام این کار با MyNode پیدا نکرده‌ام).
 
 
 می‌توانید یک نود آماده با یک صفحه نمایش کوچک متصل خریداری کنید، یا می‌توانید خودتان آن را بسازید (نیازی به صفحه نمایش ندارید).
@@ -96,7 +96,7 @@ Raspiblitz یک سیستم عالی برای اجرای یک نود بیت‌ک�
 برای ویندوز، اینجا یک [آموزش ساده](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s) است.
 
 
-_به‌روزرسانی: تأیید pgp/gpg اکنون در دسترس است. شما به کلید عمومی Openoms نیاز دارید. [اینجا](http://parman.org/downloadable/openoms.txt) است (ممکن است برای کارکردن لینک به حالت ناشناس نیاز داشته باشید – http، نه https)_
+_به‌روزرسانی: تأیید pgp/gpg اکنون در دسترس است. ایمیج‌های فعلی RaspiBlitz را rootzoll امضا می‌کند، نه Openoms (اثر انگشت کلید: 92A746AE33A3C186D014BF5C1C73060C7C176461). کلید و دستور `gpg --verify` در [پرسش‌های متداول رسمی](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download) آمده است._
 مک/لینوکس
 
 

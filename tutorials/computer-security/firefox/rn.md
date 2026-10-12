@@ -18,7 +18,7 @@ Twese tumara amasaha menshi kuri Internet, kenshi tutazi ivyo umucukumbuzi wacu 
 ![Statistiques navigateurs 2024](assets/fr/01.webp)
 
 
-*Isoko ry’umucukumbuzi w’urubuga: Chrome ni yo ihambaye n’ibice 65% vy’isoko, ikurikirwa na Safari na Edge. Inkomoko: [gs.igiharuro c'imibare.com](https://gs.igiharuro c'imibare.com/umucukumbuzi-isoko-ry'ugusangira)*
+*Isoko ry’umucukumbuzi w’urubuga: Chrome ni yo ihambaye n’ibice 65% vy’isoko, ikurikirwa na Safari na Edge. Inkomoko: [gs.igiharuro c'imibare.com](https://gs.statcounter.com/browser-market-share)*
 
 
 
@@ -63,7 +63,7 @@ Ariko guhitamwo Firefox ni intambwe ya mbere gusa. Ku mburabuzi, mbere na Firefo
 
 
 
-**Ivyo gukuraho ku mugaragaro:** Genda kuri [firefox.com/ibikoresho/ibikoresho](https://www.firefox.com/ru-US/ibikoresho/ibikoresho/). Kuri iyi paji, hitamwo ubuhinga bwawe bwo gukoresha (Windows, macOS, Linux) kugira ngo ushikire urupapuro rwo gukuraho rubereye rufise amabwirizwa yihariye yo gushiramwo.
+**Ivyo gukuraho ku mugaragaro:** Genda kuri [firefox.com/ibikoresho/ibikoresho](https://www.firefox.com/en-US/browsers/desktop/). Kuri iyi paji, hitamwo ubuhinga bwawe bwo gukoresha (Windows, macOS, Linux) kugira ngo ushikire urupapuro rwo gukuraho rubereye rufise amabwirizwa yihariye yo gushiramwo.
 
 
 
@@ -248,7 +248,7 @@ Aha niho hari ingero zitandukanye z'umutekano wa ETP:
 - uBlock Inkomoko**: ibuza amatangazo n’ugukurikirana ubu, iraremereye.
 - Ibanga Badger**: yiga guhagarika ivyo bigukurikira; yohereza Ntukurikirane / GPC.
 - Gukuraho URLs** (Ihitamwo): Firefox (ETP Ikomeye) na uBO biramaze gusukura vyinshi; uyigumye nimba ukibona ama URL "ahumanye" (utm, fbclid).
-- Ibikoresho vya Firefox vy'amakonti menshi**: **bitandukanya amakuru/ibiganiro n'ububiko ku gikoresho; amakonti menshi ahuye; n’ugukurikirana kw’imbuga nke**. Ukwaguka kwemewe: `https://inyongera.mozilla.org/fr/firefox/inyongera/ibikoresho-vy'amakonti menshi/`.
+- Ibikoresho vya Firefox vy'amakonti menshi**: **bitandukanya amakuru/ibiganiro n'ububiko ku gikoresho; amakonti menshi ahuye; n’ugukurikirana kw’imbuga nke**. Ukwaguka kwemewe: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/ menshi/`.
 
 
 
@@ -295,7 +295,7 @@ Intumbero: gucapura ibikorwa no kugabanya ukuvuza kw’urubuga.
 
 
 
-- Ivyuma vy’amakonti menshi**: guhingura ibibanza (ivy’umuntu ku giti ciwe, ivy’akazi, ivy’amahera, ivy’imigenderanire, ivy’ugugura, ivy’ugukoresha rimwe). Gutunganya **"Igihe cose ufungure muri iki gikoresho"** ku mbuga zawe zisubiramwo. Ukwaguka kwemewe: `https://inyongera.mozilla.org/fr/firefox/inyongera/ibikoresho-vy'amakonti menshi/`.
+- Ivyuma vy’amakonti menshi**: guhingura ibibanza (ivy’umuntu ku giti ciwe, ivy’akazi, ivy’amahera, ivy’imigenderanire, ivy’ugugura, ivy’ugukoresha rimwe). Gutunganya **"Igihe cose ufungure muri iki gikoresho"** ku mbuga zawe zisubiramwo. Ukwaguka kwemewe: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/ menshi/`.
 - Ni kubera iki twobikoresha?
 - Ukwitandukanya gukomeye** kw'ibifungurwa/ibiganiro/ububiko ku kibanza.
 - Gukurikirana urubuga rwabo bike**: gufunga ibihangange (Facebook, Google).
@@ -615,9 +615,9 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-- [Uburinzi bwo gukurikirana bwongerewe](https://support.mozilla.org/kb/uburinzi bwo gukurikirana-bwongerewe-firefox-desktop): Inyobora yemewe y'uburinzi bwo gukurikirana bwongerewe
-- [Ugucapura kwa Leta](https://umuhinguzi.mozilla.org/docs/Mozilla/Firefox/Ubuzima bwite/Ugucapura kwa Leta): Inyandiko z'ubuhinga ku gucapura kwa Leta
-- [Umutekano w'urubuga rwa MDN](https://umuhinguzi.mozilla.org/docs/Urubuga/Umutekano): Ivyerekeye umutekano w'urubuga
+- [Uburinzi bwo gukurikirana bwongerewe](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Inyobora yemewe y'uburinzi bwo gukurikirana bwongerewe
+- [Ugucapura kwa Leta](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Inyandiko z'ubuhinga ku gucapura kwa Leta
+- [Umutekano w'urubuga rwa MDN](https://developer.mozilla.org/docs/Web/Security): Ivyerekeye umutekano w'urubuga
 
 
 
@@ -626,7 +626,7 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-- [Wiki n'ubuyobozi bwo gushiramwo](wiki): Inyandiko z'umugambi wa Arkenfox zishitse
+- [Wiki n'ubuyobozi bwo gushiramwo](https://github.com/arkenfox/user.js/wiki): Inyandiko z'umugambi wa Arkenfox zishitse
 - [Ibiziga n'ibisohoka](https://github.com/arkenfox/user.js): Gukuraho dosiye y'user.js maze ukurikirane ivyagezwe
 
 
@@ -636,7 +636,7 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-- [Ivyigwa vy'ubuzima bwite - Ivyuma vy'ibanga](https://www.ivy'ubuzima bwite.org/ru/ivy'ibiro/): Impanuro z'ivy'umucukumbuzi n'ibigereranyo
+- [Ivyigwa vy'ubuzima bwite - Ivyuma vy'ibanga](https://www.privacyguides.org/en/desktop-browsers/): Impanuro z'ivy'umucukumbuzi n'ibigereranyo
 - Reddit**: r/firefox, r/ubuzima bwite ku vyiyumviro n'ugushigikira
 - Ihuriro ry'uburongozi bw'ubuzima bwite**: ibiganiro vy'ubuhinga vyimbitse
 
@@ -647,9 +647,9 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-- [Funga Ivyanditswe Vyawe (EFF)](https://pfuka Ivyanditswe Vyawe.eff.org/): Gufata urutoke mu buryo bwa digitale n'ubushobozi bwo kurwanya gukurikirana
+- [Funga Ivyanditswe Vyawe (EFF)](https://coveryourtracks.eff.org/): Gufata urutoke mu buryo bwa digitale n'ubushobozi bwo kurwanya gukurikirana
 - [Igerageza ry'ugusohoka kwa DNS](https://www.dnsleaktest.com/): Igerageza ry'ugusohoka kwa DNS n'ubushobozi bwa DoH
-- [Ivyasohotse mu mucukumbuzi](https://ivyasohotse mu mucukumbuzi.com/): Ivyagezwe vyuzuye (WebRTC, Igitambaro, Imyandikire, n'ibindi)
+- [Ivyasohotse mu mucukumbuzi](https://browserleaks.com/): Ivyagezwe vyuzuye (WebRTC, Igitambaro, Imyandikire, n'ibindi)
 - [BadSSL]( https://badssl.com/): Igerageza ryo kwemeza icemezo ca SSL/TLS
-- [CreepJS](https: Abrahamjuliot.github.io/creepjs/): Isesengura ry'imbere ry'ibimenyetso vy'intoke 50+
-- [Igerageza rya DNS ry'Igicu](https://1.1.1.1/imfashanyo): Kugenzura ko DoH y'Igicu ikora neza
+- [CreepJS](https://abrahamjuliot.github.io/creepjs/): Isesengura ry'imbere ry'ibimenyetso vy'intoke 50+
+- [Igerageza rya DNS ry'Igicu](https://1.1.1.1/help): Kugenzura ko DoH y'Igicu ikora neza

@@ -337,7 +337,7 @@ Model powierniczy wymaga czujności i dobrych praktyk bezpieczeństwa. Prawidło
 
 
 - Dokumentacja techniczna: [docs.cashu.space](https://docs.cashu.space)
-- Lista publicznych mennic: [bitcoinmints.com](https://bitcoinmints.com)
+- Lista publicznych mennic: [bitcoinmints.com](https://cashumints.space/)
 - Oficjalna strona protokołu: [cashu.space](https://cashu.space)
 
 

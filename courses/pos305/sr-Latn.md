@@ -265,7 +265,7 @@ Blockchain, Transakcija, Dvostruko trošenje, Problem vizantijskog generala, Min
 Cilj ovog poglavlja biće sticanje opšteg razumevanja BTCPay Server softvera. U deljenom okruženju, preporučuje se da pratite demonstraciju instruktora i pratite BTCPay Server priručnik kako biste pratili predavača. Naučićete kako da kreirate novčanik kroz više metoda. Primeri uključuju postavke novčanika povezanog na internet i hardverske novčanike povezane putem BTCPay Server Vault-a. Ovi ciljevi se ostvaruju u Demo okruženju, koje prikazuje i omogućava pristup vaš instruktor kursa.
 
 
-Ako pratite ovaj kurs sami, možete pronaći listu trećih strana domaćina za demo svrhe na https://directory.btcpayserver.org/filter/hosts. Snažno savetujemo protiv korišćenja ovih opcija trećih strana kao produkcionih okruženja, ali one služe pravoj svrsi za uvod u korišćenje Bitcoin i BTCPay Server-a.
+Ako pratite ovaj kurs sami, možete pronaći listu trećih strana domaćina za demo svrhe na https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Snažno savetujemo protiv korišćenja ovih opcija trećih strana kao produkcionih okruženja, ali one služe pravoj svrsi za uvod u korišćenje Bitcoin i BTCPay Server-a.
 
 
 Kao BTCPay Server rockstar pripravnik, možda imate prethodno iskustvo sa postavljanjem Bitcoin čvora. Ovaj kurs je posebno prilagođen softverskom paketu BTCPay Server-a.
@@ -2378,10 +2378,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin Node logovi
 
 
-Pored [pregleda logova](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) vašeg bitcoind kontejnera, možete koristiti i bilo koju od [bitcoin-cli komandi](https://developer.Bitcoin.org/reference/RPC/index.html)
+Pored [pregleda logova](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) vašeg bitcoind kontejnera, možete koristiti i bilo koju od [bitcoin-cli komandi](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(otvara se novi prozor)](https://developer.Bitcoin.org/reference/RPC/index.html) da biste dobili informacije sa vašeg Bitcoin čvora. BTCPay uključuje skriptu koja vam omogućava da lako komunicirate sa vašim Bitcoin čvorom.
+[(otvara se novi prozor)](https://developer.bitcoin.org/reference/rpc/index.html) da biste dobili informacije sa vašeg Bitcoin čvora. BTCPay uključuje skriptu koja vam omogućava da lako komunicirate sa vašim Bitcoin čvorom.
 
 
 Unutar btcpayserver-docker fascikle, dobijte informacije o Blockchain-u koristeći svoj čvor:

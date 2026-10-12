@@ -38,9 +38,9 @@ Iyi nyigisho itanga intambwe zitomoye zo gushinga urubuga, gukoresha imfunguruzo
 Clone ububiko kuri mashini yawe yo mu karere:
 
 
-git clone [Umugambi-B-Uburongozi-bw'Inyigisho-Bitcoin]
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 
-[cd](https://github.com/Irezo-ya-PlanB/Bitcoin-uburyo- bwo-gucunga-inyigisho￼cd) Bitcoin-uburyo- bwo-gucunga-inyigisho
+cd bitcoin-learning-management-system
 
 
 ```bash
@@ -94,7 +94,7 @@ SENDGRID_KEY=dummySendgridKey
 
 
 
-Kugira ngo ushiremwo nodejs, rondera amabwirizwa [hano](https://nodejs.org/ru/gukuraho/umucungerezi-w'amapaki); nk'akarorero ushobora guhitamwo gukoresha uburyo bwo gushiramwo `nvm`.
+Kugira ngo ushiremwo nodejs, rondera amabwirizwa [hano](https://nodejs.org/en/download/package-manager); nk'akarorero ushobora guhitamwo gukoresha uburyo bwo gushiramwo `nvm`.
 
 
 ---

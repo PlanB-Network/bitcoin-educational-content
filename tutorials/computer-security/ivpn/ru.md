@@ -48,7 +48,7 @@ IVPN исключительно использует собственные се
 ![IVPN](assets/notext/04.webp)
 ## Как установить IVPN на смартфон?
 
-Скачайте IVPN из вашего магазина приложений, будь то [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) для пользователей iOS, [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) для Android, или [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Если вы используете Android, у вас также есть возможность скачать файл `.apk` напрямую с [сайта IVPN](https://www.ivpn.net/en/apps-android/).
+Скачайте IVPN из вашего магазина приложений, будь то [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) для пользователей iOS, [Google Play Store](https://www.ivpn.net/en/apps-android/) для Android, или [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Если вы используете Android, у вас также есть возможность скачать файл `.apk` напрямую с [сайта IVPN](https://www.ivpn.net/en/apps-android/).
 ![IVPN](assets/notext/05.webp)
 При первом использовании приложения вы будете выведены из системы. Вам нужно будет ввести ваш идентификатор учетной записи, чтобы активировать сервис.
 ![IVPN](assets/notext/06.webp)

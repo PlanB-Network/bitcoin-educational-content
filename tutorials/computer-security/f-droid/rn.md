@@ -167,7 +167,7 @@ Utegerezwa rero gutegura dosiye ya YAML (amakuru y’imbere) adondora igikorwa c
 
 
 
-Mu gice ca **Abahinguzi** c'[inyandiko](https://f-droid.org/ru/docs/), uzosangamwo ibikoresho vyose ukeneye kugira ngo usohore no kubungabunga porogaramu zawe kuri F-Droid.
+Mu gice ca **Abahinguzi** c'[inyandiko](https://f-droid.org/en/docs/), uzosangamwo ibikoresho vyose ukeneye kugira ngo usohore no kubungabunga porogaramu zawe kuri F-Droid.
 
 
 

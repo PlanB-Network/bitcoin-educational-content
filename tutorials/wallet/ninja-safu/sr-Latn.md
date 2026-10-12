@@ -36,7 +36,7 @@ Ninja SAFU pristup nudi nekoliko prednosti:
 
 
 
-- **Pouzdanost**: Testirana od 2020. godine, metodu su isprobali i testirali stručnjaci za bezbednost kao što je [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), koji su je podvrgli rigoroznim stres testovima (ekstremna toplota, korozija, mehanički pritisak).
+- **Pouzdanost**: Testirana od 2020. godine, metodu su isprobali i testirali stručnjaci za bezbednost kao što je [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/), koji su je podvrgli rigoroznim stres testovima (ekstremna toplota, korozija, mehanički pritisak).
 
 
 
@@ -354,13 +354,13 @@ Prema Jamesonu Loppu:
 
 
 
-- [Izveštaj](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) o Ninja SAFU metodi
+- [Izveštaj](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) o Ninja SAFU metodi
 
 
 
 
 
-- Tabela poređenja [kompletna](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Tabela poređenja [kompletna](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 

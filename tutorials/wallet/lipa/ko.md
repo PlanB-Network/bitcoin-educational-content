@@ -2,8 +2,10 @@
 name: Lipa
 description: 리파 라이트닝 모바일 Wallet 설정 및 사용법
 ---
+
 ![cover](assets/cover.webp)
 
+> **주의 (2026년 10월):** Lipa 지갑은 2025년 12월 31일에 서비스를 종료했으며, 운영사인 lightning payment services ag는 청산 절차를 밟고 있습니다. 앱은 더 이상 다운로드할 수 없으며 이 튜토리얼의 단계는 더 이상 작동하지 않습니다. 이 페이지는 업데이트될 때까지 참고용으로 유지합니다.
 
 Bitcoin 라이트닝 Wallet는 Bitcoin의 Lightning Network에서 즉시 저렴한 비용으로 거래할 수 있는 모바일 애플리케이션입니다. 기본 Blockchain(On-Chain)에서의 거래와 달리, 라이트닝 결제는 거의 즉각적으로 이루어지며 최소한의 수수료만 요구하므로 일상적인 소액 결제에 특히 적합합니다.
 
@@ -44,7 +46,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-- [Apple용](https://apps.apple.com/app/lipa-Bitcoin-lightning/id1602180066)
+- Apple용
 
 
 Android 버전은 현재 개발 중이며 곧 출시될 예정입니다.

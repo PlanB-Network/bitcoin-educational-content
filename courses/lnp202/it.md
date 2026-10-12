@@ -415,7 +415,9 @@ Il vantaggio principale di questo approccio, rispetto a un tradizionale Lightnin
 
 
 
-La maggior parte dei wallet che offrono questo tipo di funzionalità si affidano a [Boltz](https://boltz.exchange/) per la parte tecnica dello scambio.
+La maggior parte dei wallet che offrono questo tipo di funzionalità si affidano a Boltz per la parte tecnica dello scambio.
+
+> **Nota (ottobre 2026):** Boltz ha sospeso tutti gli swap il 3 agosto 2026 e il suo sito è offline. I wallet che si affidano a Boltz potrebbero non offrire più questa funzionalità.
 
 
 

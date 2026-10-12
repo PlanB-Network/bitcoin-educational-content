@@ -643,8 +643,8 @@ Zapamtite: zaštita vaše privatnosti ne zavisi samo od vašeg pregledača. Komb
 
 
 - **Zvanična veb stranica**: [kagi.com/orion](https://kagi.com/orion/)
-- **Full FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **Zajednički forum**: [community.kagi.com](https://community.kagi.com)
+- **Full FAQ**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **Zajednički forum**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **Praćenje grešaka**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Komponente otvorenog koda
 - **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Vesti i ažuriranja

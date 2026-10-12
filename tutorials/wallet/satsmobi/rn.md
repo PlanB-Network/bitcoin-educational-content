@@ -7,7 +7,7 @@ description: Ikete ry’ububiko ry’itelegaramu Wallet.
 ![cover](assets/cover.webp)
 
 
-_Iyi nyigisho yanditswe na_ [Ishure ryisumbuye rya Bitcoin]
+_Iyi nyigisho yanditswe na_ [Ishure ryisumbuye rya Bitcoin](https://linktr.ee/bitcoincampus_)
 
 
 ## Sats.Mobi
@@ -23,7 +23,7 @@ Niba ushaka kuyikoresha mu buryo bworoshe, gutangura kuganira kuri Telegram bizo
 Mu murongo w'ubushakashatsi wa Telegaramu, urondere "satsmobi" hanyuma uruja n'uruza rwo kuri [bot](@SatsMobiBot) ruzoboneka.
 
 
-**Iciyumviro**: Niba utazi neza ivy'ugushaka kuri Telegram, genda kuri bot ata nkomanzi ukoresheje [ihuriro] rikurikira(https://t.me/SatsMobiBot)
+**Iciyumviro**: Niba utazi neza ivy'ugushaka kuri Telegram, genda kuri bot ata nkomanzi ukoresheje [ihuriro](https://t.me/SatsMobiBot) rikurikira(https://t.me/SatsMobiBot)
 
 
 ![image](assets/it/01.webp)
@@ -232,5 +232,5 @@ Niba uriko urarondera ama wallet Lightning Network atagira ububiko, ni vyiza can
 ### Inyandiko
 
 
-- [Github](imbuga ngurukanabumenyi/imbuga ngurukanabumenyi)
+- [Github](https://github.com/massmux/SatsMobiBot)
 - Urutonde rw'amasanamu (ibisubizo? ubushakashatsi=Sats.mobi) demo

@@ -309,7 +309,7 @@ Saint-Pierre'i abbé väitis, et Louis XIV valitsusaeg oma luksusliku õukonna j
 
 Majandusmõtlemises rakendas ta järjekindlalt kasulikkuse põhimõtet, sarnaselt sellega, mida Jeremy Bentham tegi hiljem, ja pakkus sageli häid tähelepanekuid. Aususe huvides mõjutasid teda endiselt merkantilistlikud ideed, millest keegi polnud sel ajal täielikult vabanenud.
 
-Ometi tegi Saint-Pierre'i abbé majanduse kohta mõne täpse tähelepaneku. Juba enne *Condillac'i*, kellele seda ideed sageli omistatakse, ütles ta selgelt, et igas vahetuses võidavad mõlemad pooled. Seda võib leida tema 1733. aasta ["Projektist Prantsusmaa kaubanduse parandamiseks"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), kus ta kirjutas:
+Ometi tegi Saint-Pierre'i abbé majanduse kohta mõne täpse tähelepaneku. Juba enne *Condillac'i*, kellele seda ideed sageli omistatakse, ütles ta selgelt, et igas vahetuses võidavad mõlemad pooled. Seda võib leida tema 1733. aasta ["Projektist Prantsusmaa kaubanduse parandamiseks"](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), kus ta kirjutas:
 
 > Kui kaupmeeste vahel tehakse müük, võidab müüja ja võidab ka ostja; sest kui mõlemal poolel ei oleks mingit tegelikku või tajutud kasu, ei müüks müüja sellise hinnaga ega ostaks ostja omalt poolt sellise hinnaga.
 
@@ -469,7 +469,7 @@ Gournay ringi intellektuaalne toodang avaldas ideede ajaloole suurt mõju. Selle
 
 ![Uurimus majanduskirjastamisest Prantsusmaal, 1566-1789.](assets/en/035.webp)
 
-Et levitada prantsuse rahva seas huvi majandusarutelude vastu, töötasid Gournay ja tema sõbrad selle nimel, et muuta need romaanide kaudu kättesaadavaks. Pärast *Memuaari ametite kohta*, mis kritiseeris gilde, aitasid Gournay ja Cliquot-Blervache Gabriel-François Coyer'l kirjutada lühikese satiirilise romaani Chinki: [Košinhiina lugu, mida saab rakendada teistele rahvastele](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Et levitada prantsuse rahva seas huvi majandusarutelude vastu, töötasid Gournay ja tema sõbrad selle nimel, et muuta need romaanide kaudu kättesaadavaks. Pärast *Memuaari ametite kohta*, mis kritiseeris gilde, aitasid Gournay ja Cliquot-Blervache Gabriel-François Coyer'l kirjutada lühikese satiirilise romaani Chinki: [Košinhiina lugu, mida saab rakendada teistele rahvastele](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Abbé Gabriel-François Coyer, “Chinki”](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ Oma varem tsiteeritud *Maksiimides* ütleb Quesnay:
 
 Füsiokraadid olid näinud kahju, mida põhjustas valitsuse sekkumine, eriti teraviljakaubanduses. Tuleb tunnistada, ütlevad nad, et võim ei suuda kunagi juhtida kaubandust sama hästi kui üksikisikud, sest see peaks vastama igale vajadusele ja reageerima igale nõudluse või pakkumise muutusele. Kõik see ületab kaugelt isegi kõige targema ettekujutatava valitsuse võimed. Seetõttu on vaja lasta asjadel olla ja lasta neil voolata.
 
-Loomult kasulik kaubandus peab olema täielikult ja täiuslikult vaba. Üks nende liikmetest, Le Trosne, kirjutas koguni pamfleti pealkirjaga [*Teraviljakaubanduse vabadus: alati kasulik, mitte kunagi kahjulik*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Loomult kasulik kaubandus peab olema täielikult ja täiuslikult vaba. Üks nende liikmetest, Le Trosne, kirjutas koguni pamfleti pealkirjaga [*Teraviljakaubanduse vabadus: alati kasulik, mitte kunagi kahjulik*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/).
 
 ### Viies põhimõte: kõik inimesed on vennad
 

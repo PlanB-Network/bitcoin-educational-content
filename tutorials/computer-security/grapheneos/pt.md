@@ -99,7 +99,7 @@ Agora que você está configurado, pode notar como o GrapheneOS parece básico a
 
 Aplicativos padrão
 Os únicos dois termos com os quais você pode não estar familiarizado são 'Auditor' e 'Vanadium'.
-- 'O [aplicativo Auditor](https://play.google.com/store/apps/details?id=app.attestation.auditor) usa recursos de segurança baseados em hardware para validar a identidade de um dispositivo, juntamente com a autenticidade e integridade do sistema operacional. Ele verificará se o dispositivo está executando o sistema operacional original com o bootloader bloqueado e se nenhuma adulteração do sistema operacional ocorreu.'
+- 'O [aplicativo Auditor](https://play.google.com/store/apps/details?id=app.attestation.auditor.play) usa recursos de segurança baseados em hardware para validar a identidade de um dispositivo, juntamente com a autenticidade e integridade do sistema operacional. Ele verificará se o dispositivo está executando o sistema operacional original com o bootloader bloqueado e se nenhuma adulteração do sistema operacional ocorreu.'
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) é uma variante do navegador da web Chromium com privacidade e segurança reforçadas.
 
 ## Personalização
@@ -265,7 +265,7 @@ Direita: Proton Calendar
 
 ### Segurança/Privacidade
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) oferece uma solução gratuita e com criptografia de ponta a ponta para gerenciamento de senhas em todas as suas dispositivos. O serviço pago permite integrar códigos de autenticação de dois fatores (2FA) ao aplicativo. O servidor do Bitwarden pode ser hospedado por você mesmo e o aplicativo para Android está disponível no F-Droid.
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo) oferece uma solução gratuita e com criptografia de ponta a ponta para gerenciamento de senhas em todas as suas dispositivos. O serviço pago permite integrar códigos de autenticação de dois fatores (2FA) ao aplicativo. O servidor do Bitwarden pode ser hospedado por você mesmo e o aplicativo para Android está disponível no F-Droid.
 - [Proton Pass](https://proton.me/pass/download) oferece um serviço gratuito semelhante ao Bitwarden, mas os clientes do [Proton Unlimited](https://proton.me/pricing) têm acesso a recursos avançados adicionais. O Proton Pass está disponível como APK ou via Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) é um aplicativo de autenticação de dois fatores para sistemas que utilizam protocolos de senha única. Os tokens podem ser adicionados facilmente escaneando um código QR. O FreeOTP está disponível no F-Droid.
 - [Aegis](https://f-droid.org/pt/packages/com.beemdevelopment.aegis/) é um aplicativo gratuito, seguro e de código aberto para Android que permite gerenciar seus tokens de verificação em duas etapas para seus serviços online. Aegis está disponível através do F-Droid.
@@ -379,7 +379,6 @@ O GrapheneOS é um buraco de coelho em que qualquer pessoa poderia facilmente pa
 - [Guia Oficial de Uso do GrapheneOS](https://grapheneos.org/usage) - Site Oficial
 - [Fórum do GrapheneOS](https://discuss.grapheneos.org/) - Site Oficial
 - [Aula Master de Configurações do GrapheneOS](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Vídeo por 'The Privacy Wayfinder'
-- [Podcast Geral do GrapheneOS](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast por 'Watchman Privacy'
 
 *Este tutorial é uma adaptação do conteúdo original publicado por [BitcoinQnA no Bitcoiner.Guide sob licença MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), a quem cabe todo o crédito pelo trabalho de redação inicial.*
 

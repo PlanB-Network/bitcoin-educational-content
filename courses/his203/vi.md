@@ -608,7 +608,7 @@ Vào ngày 6 tháng 6, Bitcoin Consultancy đã ra mắt một nền tảng giao
 
 
 
-Tại Đông Âu, nền tảng Bitomat, có trụ sở tại Ba Lan, đã được [ra mắt](https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871) vào ngày 4 tháng 4. Giao diện khá đơn giản, nhưng cho phép người dùng Ba Lan đổi đồng zloty của họ lấy bitcoin. Cũng đáng nhắc đến là Cavirtex, [mở cửa](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) vào ngày 2 tháng 7, hoạt động tại Canada.
+Tại Đông Âu, nền tảng Bitomat, có trụ sở tại Ba Lan, đã được [ra mắt](https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166) vào ngày 4 tháng 4. Giao diện khá đơn giản, nhưng cho phép người dùng Ba Lan đổi đồng zloty của họ lấy bitcoin. Cũng đáng nhắc đến là Cavirtex, [mở cửa](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) vào ngày 2 tháng 7, hoạt động tại Canada.
 
 
 
@@ -1270,7 +1270,7 @@ Mặc dù vậy, GLBSE vẫn tiếp tục hoạt động. Đến đầu mùa thu
 
 
 
-Một dự án khác xuất hiện một thời gian sau đó là MPEx, do một nhân vật gây tranh cãi tên là Mircea Popescu sáng lập. Là người Romania, gốc Transylvania, ông là một nhà văn viết rất nhiều trên blog [Trilema](http://trilema.com/archives-categories/): ông viết về mọi chủ đề (triết học, chính trị, tình dục), với phong cách cố tình khiêu khích, ban đầu bằng tiếng Romania. Ông bắt đầu quan tâm đến Bitcoin vào mùa hè năm 2011 và bắt đầu [thảo luận](http://trilema.com/2011/ce-este-bitcoin/) về nó trên blog của mình.
+Một dự án khác xuất hiện một thời gian sau đó là MPEx, do một nhân vật gây tranh cãi tên là Mircea Popescu sáng lập. Là người Romania, gốc Transylvania, ông là một nhà văn viết rất nhiều trên blog [Trilema](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/): ông viết về mọi chủ đề (triết học, chính trị, tình dục), với phong cách cố tình khiêu khích, ban đầu bằng tiếng Romania. Ông bắt đầu quan tâm đến Bitcoin vào mùa hè năm 2011 và bắt đầu [thảo luận](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/) về nó trên blog của mình.
 
 
 
@@ -1286,7 +1286,7 @@ Vào tháng 8, Mircea đã [mở](https://bitcointalk.org/index.php?topic=15672.
 
 
 
-Vào cuối tháng 2 năm 2012, ông đã tiến hành [gây quỹ](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) bằng cách phát hành cổ phiếu và trái phiếu, huy động được hơn 3.200 bitcoin, tương đương khoảng 16.000 đô la vào thời điểm đó. Vào ngày 11 tháng 4, sau giai đoạn thử nghiệm beta, nền tảng này [cuối cùng đã trở thành](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) một sàn giao dịch bitcoin cho phép phát hành và giao dịch nhiều loại cổ phiếu khác nhau, và được đổi tên thành MPEx (viết tắt của "Mircea Popescu's Exchange").
+Vào cuối tháng 2 năm 2012, ông đã tiến hành [gây quỹ](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) bằng cách phát hành cổ phiếu và trái phiếu, huy động được hơn 3.200 bitcoin, tương đương khoảng 16.000 đô la vào thời điểm đó. Vào ngày 11 tháng 4, sau giai đoạn thử nghiệm beta, nền tảng này [cuối cùng đã trở thành](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) một sàn giao dịch bitcoin cho phép phát hành và giao dịch nhiều loại cổ phiếu khác nhau, và được đổi tên thành MPEx (viết tắt của "Mircea Popescu's Exchange").
 
 
 
@@ -1298,7 +1298,7 @@ Vào cuối tháng 2 năm 2012, ông đã tiến hành [gây quỹ](http://trile
 
 
 
-Nền tảng này đã đạt được một mức độ thành công nhất định và đáng chú ý là đã tổ chức "IPO" của SatoshiDICE, sòng bạc trực tuyến do Erik Voorhees điều hành. Nó đã phát triển theo thời gian, [tích hợp](http://trilema.com/2012/futures-on-mpex/) các hợp đồng tương lai vào tháng 12.
+Nền tảng này đã đạt được một mức độ thành công nhất định và đáng chú ý là đã tổ chức "IPO" của SatoshiDICE, sòng bạc trực tuyến do Erik Voorhees điều hành. Nó đã phát triển theo thời gian, [tích hợp](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) các hợp đồng tương lai vào tháng 12.
 
 
 
@@ -1484,7 +1484,7 @@ Các thuật toán wallet xác định phần lớn là sản phẩm trí tuệ 
 
 
 
-*Gregory Maxwell năm 2006 (nguồn: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*Gregory Maxwell năm 2006 (nguồn: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 
@@ -1724,7 +1724,7 @@ Vào ngày 19 tháng 8, Casascius đã công khai [chia sẻ](https://bitcointal
 
 
 
-*Những đồng Bitcoin đầu tiên của Casascius vào năm 2011 (nguồn: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*Những đồng Bitcoin đầu tiên của Casascius vào năm 2011 (nguồn: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -1908,7 +1908,7 @@ Luke [đã biết](https://www.youtube.com/watch?v=3sXei0Iwf4Q) về Bitcoin và
 
 
 
-*Hình đại diện được Luke-Jr sử dụng từ năm 2013 (nguồn: [Gravatar](https://secure.graveatar.com/avatar/30aa55ee8573680ee4bbb556dae3160c?s=400))*
+*Hình đại diện được Luke-Jr sử dụng từ năm 2013 (nguồn: [Gravatar](https://secure.gravatar.com/avatar/30aa55ee8573680ee4bbb556dae3160c?s=400))*
 
 
 
@@ -2004,7 +2004,7 @@ Mô hình này dựa trên "chuỗi chia sẻ" (sharechain), được duy trì b
 
 
 
-*Hình ảnh trực quan về Sharechain (nguồn: Gregory Maxwell cho [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Hình ảnh trực quan về Sharechain (nguồn: Gregory Maxwell cho [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 
@@ -2106,7 +2106,7 @@ Sau khi phát hành phiên bản 0.4 của phần mềm vào ngày 23 tháng 9, 
 
 
 
-*Chụp Bitcoin-Qt 0.5.2 vào tháng 2 năm 2012 (nguồn: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) cho Wikimedia)*
+*Chụp Bitcoin-Qt 0.5.2 vào tháng 2 năm 2012 (nguồn: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) cho Wikimedia)*
 
 
 

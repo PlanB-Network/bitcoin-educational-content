@@ -27,7 +27,7 @@ Díky partnerství s MoonPay je možné přímo z aplikace nakupovat a prodávat
 ## 2. Jak nainstalovat Rumble Wallet?
 
 
-Aplikaci lze nainstalovat do systémů [Android](https://play.google.com/store/apps/details?id=com.wallet.rumble) i iOS prostřednictvím jejich oficiálních obchodů.
+Aplikaci lze nainstalovat do systémů [Android](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet) i iOS prostřednictvím jejich oficiálních obchodů.
 
 
 ![Image](assets/fr/01.webp)

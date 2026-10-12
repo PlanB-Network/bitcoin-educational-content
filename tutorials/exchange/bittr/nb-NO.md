@@ -21,7 +21,7 @@ La oss gå gjennom hvor enkelt det er å begynne å stable Sats med Bittr.
 ## Kom i gang med Bittr
 
 
-- Gå til [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) på nett eller mobil, og klikk på "Buy Bitcoin"
+- Gå til [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) på nett eller mobil, og klikk på "Buy Bitcoin"
 
 
 

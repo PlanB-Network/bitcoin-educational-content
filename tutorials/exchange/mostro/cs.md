@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - Soukromý klíč Nostr** (formát `nsec1...`)
- - Vytvoření speciálního obchodního klíče na [nostrkeygen.com](https://nostrkeygen.com/)
+ - Vytvoření speciálního obchodního klíče na [nostrkeygen.com](https://nostrtool.com/)
  - Důležité**: Nikdy nepoužívejte svůj hlavní osobní klíč Nostr
  - Uchovávejte svůj soukromý klíč na bezpečném místě (správce hesel)
 
@@ -962,7 +962,7 @@ Pro bitcoinery, kteří dávají přednost autonomii a důvěrnosti, je Mostro �
 
 
 - [Hlavní repozitář GitHub](https://github.com/MostroP2P/mostro)
-- [Webový klient](https://github.com/MostroP2P/mostro-web)
+- [Webový klient](https://github.com/MostroP2P/app)
 - [Zákazník CLI](https://github.com/MostroP2P/mostro-cli)
 
 

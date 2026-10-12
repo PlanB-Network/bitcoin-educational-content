@@ -11,7 +11,7 @@ description: 如何開始在手機上使用功能強大的 LN 節點？
 使用 [Blixt Wallet](https://blixtwallet.com/)，無論您身在何處，手機上都有完整的 LN 節點。
 
 
-如果您從未使用過 Bitcoin Lightning Network，在您開始之前，[請閱讀這篇關於 Lightning Network (LN) 的簡單解釋類比](https://darth-coin.github.io/beginner/LN-airport-analogy-en.html)。
+如果您從未使用過 Bitcoin Lightning Network，在您開始之前，[請閱讀這篇關於 Lightning Network (LN) 的簡單解釋類比](https://darth-coin.github.io/beginner/ln-airport-analogy-en.html)。
 
 
 ## 重要方面：
@@ -22,11 +22,11 @@ description: 如何開始在手機上使用功能強大的 LN 節點？
 
 
 
-- Blixt 使用 LND (aezeed) 作為 Wallet 的後端，所以不要嘗試匯入其他類型的 Bitcoin 錢包。[Here you have explained the types of Wallet Mnemonic seeds](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/).而這裡是 [所有類型的錢包的更廣泛列表](https://walletsrecovery.org/)。因此，如果您之前有一個 LND 節點，您可以將 seed 和 backup.channels 匯入 Blixt，[在本指南中有說明](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html)。
+- Blixt 使用 LND (aezeed) 作為 Wallet 的後端，所以不要嘗試匯入其他類型的 Bitcoin 錢包。[Here you have explained the types of Wallet Mnemonic seeds](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/).而這裡是 [所有類型的錢包的更廣泛列表](https://walletsrecovery.org/)。因此，如果您之前有一個 LND 節點，您可以將 seed 和 backup.channels 匯入 Blixt，[在本指南中有說明](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html)。
 
 
 
-- 在本指南的最後，您會發現一個特別的章節[「技巧與訣竅」](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
+- 在本指南的最後，您會發現一個特別的章節[「技巧與訣竅」](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#tips)
 
 
 
@@ -65,7 +65,7 @@ description: 如何開始在手機上使用功能強大的 LN 節點？
 
 - "啟用 Tor」- 使用者可以開始使用 Tor 網路，特別是當想要回復舊的 LND 節點時，因為舊的 LND 節點只與 Tor 對等。
 - "Set Bitcoin node" - 如果使用者想要直接連接到自己的節點，透過 Neutrino 同步區塊，可以直接在歡迎畫面完成。如果您的網路連線或 Tor 並不穩定，無法連線到預設的 Bitcoin 節點 (node.blixtwallet.com)，這個選項也是很好的選擇。
-- 不久之後將會在那裡加入語言，因此使用者可以直接從舒服的語言開始。如果您想為這個開放原始碼專案貢獻其他語言的翻譯，[請在此加入](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/)。
+- 不久之後將會在那裡加入語言，因此使用者可以直接從舒服的語言開始。如果您想為這個開放原始碼專案貢獻其他語言的翻譯，[請在此加入](https://explore.transifex.com/blixt-wallet/blixt-wallet/)。
 
 
 ### 方案 A - 建立新的 Wallet
@@ -241,7 +241,7 @@ Address 和顯示的歡迎訊息將會消失。現在不再需要開啟自動頻
 請記住，在第一章「第一次接觸」中，歡迎畫面有兩個選項：
 
 
-- [選項 A](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - 建立新的 Wallet
+- [選項 A](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#option-a) - 建立新的 Wallet
 - 方案 B - 恢復 Wallet
 
 
@@ -251,7 +251,7 @@ Address 和顯示的歡迎訊息將會消失。現在不再需要開啟自動頻
 ### 方案 B - 恢復 Wallet
 
 
-過去我寫過一篇關於 [如何還原崩潰的 Umbrel 節點] 的專門指南(https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html)，其中也提到使用 Blixt 作為快速還原程序的方法，使用 Umbrel 的 seed + channel.backup 檔案。
+過去我寫過一篇關於 [如何還原崩潰的 Umbrel 節點] 的專門指南(https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html)，其中也提到使用 Blixt 作為快速還原程序的方法，使用 Umbrel 的 seed + channel.backup 檔案。
 
 
 我也寫了一份指南，說明如何還原您的 Blixt 節點或將您的 Blixt 遷移到其他裝置，[這裡](https://blixtwallet.github.io/faq#blixt-restore)。
@@ -663,7 +663,7 @@ Blixt 這個行動 LN 節點是許多使用者手中非常強大的工具，只�
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Blixt Girls Calendar](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - 宣傳影片 (您可以測試第 1 次使用 LN)
 - [Printable A4 flyer with first steps using Blixt, in various languages](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer)。
-- [Blixt 也提供功能完整的試用版](https://blixt-Wallet-git-master-hsjoberg.vercel.app/)，可直接在其網站上或專屬版本網頁上進行測試，讓您在實際使用前有完整的體驗。
+- [Blixt 也提供功能完整的試用版](https://blixtwallet.github.io/)，可直接在其網站上或專屬版本網頁上進行測試，讓您在實際使用前有完整的體驗。
 
 
 ---

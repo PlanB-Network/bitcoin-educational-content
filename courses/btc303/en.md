@@ -524,7 +524,7 @@ It's impossible to say, but we do know a few things:
 - If an overwhelming economic majority finds it necessary to change the rules and introduce for example a perpetual annual 0.1% or 1% monetary inflation, the supply of bitcoin will no longer be finite.
 - With zero block subsidy and an empty or nearly empty mempool, things can become shaky due to fee sniping.
 
-Since the transition to a fee-only block reward is so far in the future, it might be wise not to jump to conclusions and try to fix the potential issues while we can. For example, Peter Todd thinks there's an actual risk that Bitcoin's security budget won't be enough in the future, and consequently argues for a small perpetual inflation in Bitcoin. However, he also thinks it's not a good idea to discuss such an issue at this time, as [he said on the What Bitcoin Did podcast](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-bitcoin):
+Since the transition to a fee-only block reward is so far in the future, it might be wise not to jump to conclusions and try to fix the potential issues while we can. For example, Peter Todd thinks there's an actual risk that Bitcoin's security budget won't be enough in the future, and consequently argues for a small perpetual inflation in Bitcoin. However, he also thinks it's not a good idea to discuss such an issue at this time, as [he said on the What Bitcoin Did podcast](https://www.youtube.com/watch?v=8yah3N9n84k):
 
 > But, that’s a risk like 10, 20 years in the future. That is a very long time. And, by then, who the hell knows what the risks are?
 

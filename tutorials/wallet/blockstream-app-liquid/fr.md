@@ -204,7 +204,9 @@ Verrouillez l'accès à l'application par un code PIN robuste :
 
 Pour recevoir des Liquid-Bitcoins (L-BTC), plusieurs options sont disponibles. Vous pouvez demander à quelqu’un de vous en envoyer directement en partageant une adresse de réception Liquid, ce qui est détaillé ci-dessous.
 
-Alternativement, échangez vos bitcoins onchain ou via le réseau Lightning contre des L-BTC en utilisant [un bridge tel que Boltz](https://boltz.exchange/) : entrez votre adresse de réception Liquid, effectuez le paiement selon votre préférence, et recevez vos L-BTC.
+Alternativement, échangez vos bitcoins onchain ou via le réseau Lightning contre des L-BTC en utilisant un bridge tel que Boltz : entrez votre adresse de réception Liquid, effectuez le paiement selon votre préférence, et recevez vos L-BTC.
+
+> **Note (octobre 2026) :** Boltz a suspendu tous ses swaps le 3 août 2026 et son site web est hors ligne. Cette méthode ne fonctionne pas pour le moment.
 
 - Depuis l’écran d’accueil du portefeuille, cliquez sur '"**Transact**" puis **"Recevoir"**.
 

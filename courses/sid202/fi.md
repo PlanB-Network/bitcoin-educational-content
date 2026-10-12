@@ -61,7 +61,7 @@ Elements on avoimen lähdekoodin, sivuketjuihin soveltuva [lohkoketjualusta](htt
 
 Elements on pohjimmiltaan protokolla, joka mahdollistaa [konsensuksen](https://planb.academy/resources/glossary/consensus) muodostamisen transaktiohistoriasta ja säännöistä, jotka ohjaavat hajautettuun lohkoketjuun tallennettujen varojen siirtoa ja luomista.
 
-Lisää taustatietoa Elementsistä löytyy helposti Elements-projektin verkkosivuilta (https://elementsproject.org/), virallisesta Liquid-blogista (https://blog.liquid.net/) ja kehittäjäportaalista (https://liquid.net/devs).
+Lisää taustatietoa Elementsistä löytyy helposti Elements-projektin verkkosivuilta (https://elementsproject.org/), virallisesta Liquid-blogista (https://blog.liquid.net/) ja kehittäjäportaalista (https://liquid.net/developers).
 
 ### Elementit
 

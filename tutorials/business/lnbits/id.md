@@ -31,7 +31,7 @@ CATATAN: semua dana yang disetorkan oleh "pelanggan" Anda ke rekening bank LNbit
 
 ## Platform demo
 
-Demo dapat ditemukan di [https://legend.lnbits.com](https://legend.lnbits.com). Demo ini berfungsi penuh dan dapat digunakan untuk mempelajari tentang Lightning Network dan fitur-fitur LNbits dan LNURL secara umum. Meskipun kami tidak dapat mencegah Anda untuk menggunakannya, kami ingin meminta Anda untuk tidak menggunakannya untuk pengaturan produksi Anda. Kami tidak hanya sering bekerja di server untuk menguji fitur-fitur baru, tetapi kami juga ingin mendorong Anda untuk menjalankan node dan LNbits Anda sendiri dengan cara yang berdaulat. Jika Anda merasa menjalankan node terlalu berat untuk saat ini, Anda dapat menghubungkan LNbits ke layanan pendanaan kustodian di cloud seperti Opennode, Luna atau Votage atau ke Lightning Tipbot di Telegram.
+Demo dapat ditemukan di [https://demo.lnbits.com](https://demo.lnbits.com). Demo ini berfungsi penuh dan dapat digunakan untuk mempelajari tentang Lightning Network dan fitur-fitur LNbits dan LNURL secara umum. Meskipun kami tidak dapat mencegah Anda untuk menggunakannya, kami ingin meminta Anda untuk tidak menggunakannya untuk pengaturan produksi Anda. Kami tidak hanya sering bekerja di server untuk menguji fitur-fitur baru, tetapi kami juga ingin mendorong Anda untuk menjalankan node dan LNbits Anda sendiri dengan cara yang berdaulat. Jika Anda merasa menjalankan node terlalu berat untuk saat ini, Anda dapat menghubungkan LNbits ke layanan pendanaan kustodian di cloud seperti Opennode, Luna atau Votage atau ke Lightning Tipbot di Telegram.
 
 ## Selebaran LNbits
 
@@ -85,7 +85,7 @@ Anda juga dapat menemukan video tentang [Pengaturan dockerised pada VPS dengan P
 
 [Skenario instalasi lebih lanjut di sini](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
-Untuk node perangkat lunak bundel, silakan merujuk ke dokumentasi khusus tentang LNbits: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+Untuk node perangkat lunak bundel, silakan merujuk ke dokumentasi khusus tentang LNbits: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 ### LNbits SaaS
 
@@ -156,16 +156,18 @@ Untuk mengenkripsi macaroon Anda, jalankan `./venv/bin/python lnbits/wallets/mac
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend Demo Server (!! JANGAN gunakan yang ini untuk tujuan produksi/komersial, hanya untuk pengujian !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legenda-lnbits-AdminKey
 
 #### TipBot Petir
+
+> **Peringatan (Oktober 2026):** LightningTipBot dan ln.tips telah berhenti beroperasi; penutupannya diumumkan pada 29 April 2024. Sumber pendanaan ini tidak lagi berfungsi, kecuali Anda meng-host bot sendiri.
 
 Untuk menghubungkan [Lightning Tipbot](https://t.me/LightningTipBot) Anda dari Telegram, Anda perlu mengatur parameter berikut:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: ** LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://ln.tips
+  - `LNBITS_ENDPOINT`: `https://ln.tips`
   - `LNBITS_KEY`: Untuk mendapatkan Key, Anda harus menjalankan /api dalam obrolan pribadi dengan LightningTipbot di Telegram satu kali.
 
 Lihat juga tutorial ini cara menginstal [LNbits dengan LightningTipBot melalui vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
@@ -178,11 +180,13 @@ Info lebih lanjut lihat [IBEX API-Documentation](https://ibexpay-api.readme.io/r
 
 #### LNPay
 
-Agar pendengar faktur dapat berfungsi, Anda harus memiliki URL yang dapat diakses publik di LNbits Anda dan harus menyiapkan [LNPay webhook](https://dashboard.lnpay.co/webhook/) yang mengarah ke `<host LNbits Anda>/wallet/webhook` dengan event "Wallet Receive" dan tidak ada rahasia yang diberikan. Pengaturan `https://mylnbits/wallet/webhook` akan menjadi url titik akhir yang akan diberitahukan tentang pembayaran apa pun.
+> **Peringatan (Oktober 2026):** LNPay tampaknya telah dihentikan: domain lnpay.co tidak lagi merespons. Sumber pendanaan ini kemungkinan tidak dapat digunakan lagi.
+
+Agar pendengar faktur dapat berfungsi, Anda harus memiliki URL yang dapat diakses publik di LNbits Anda dan harus menyiapkan LNPay webhook yang mengarah ke `<host LNbits Anda>/wallet/webhook` dengan event "Wallet Receive" dan tidak ada rahasia yang diberikan. Pengaturan `https://mylnbits/wallet/webhook` akan menjadi url titik akhir yang akan diberitahukan tentang pembayaran apa pun.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -387,7 +391,7 @@ Di mana Anda mengganti f8a43fc363ea428db5c53b3559935f1f dengan nilai yang muncul
 
 ##### LNURL untuk alamat kilat dan sebaliknya
 
-Cobalah [encoder](https://lnurl-codec.netlify.app/) dari fiatjaf atau [yang ini](https://lightningdecoder.com/). Untuk membayar atau memeriksa LNURLp, Anda juga dapat menggunakan [LNurlpay](https://wwww.lnurlpay.com/). Ini harus menyatakan HTTPS BUKAN HTTP.
+Cobalah [encoder](https://lnurl-codec.netlify.app/) dari fiatjaf atau [yang ini](https://lightningdecoder.com/). Untuk membayar atau memeriksa LNURLp, Anda juga dapat menggunakan [LNurlpay](https://www.lnurlpay.com/). Ini harus menyatakan HTTPS BUKAN HTTP.
 
 ##### Mengonfigurasi komentar yang dilihat orang saat membayar ke QR LNURLp saya
 
@@ -403,7 +407,9 @@ Ada dua cara untuk menukar satoshi dari onchain BTC ke LN BTC (resp. ke LNbits).
 
 ###### Melalui layanan swap eksternal.
 
-Pengguna lain yang tidak memiliki akses ke LNbits Anda dapat menggunakan layanan swap seperti [Boltz](https://boltz.exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/), atau [ZigZag](https://zigzag.io/). Ini berguna jika Anda hanya menyediakan faktur LNURL/LN dari instance LNbits Anda, tetapi pembayar hanya memiliki satelite sehingga mereka harus menukar satelite tersebut terlebih dahulu di sisi mereka. Prosedurnya sederhana: pengguna mengirimkan btc onchain ke layanan swap dan memberikan faktur LNURL/LN dari LNbits sebagai tujuan swap.
+Pengguna lain yang tidak memiliki akses ke LNbits Anda dapat menggunakan layanan swap seperti Boltz, [FixedFloat](https://fixedfloat.com/), atau [ZigZag](https://zigzag.io/). Ini berguna jika Anda hanya menyediakan faktur LNURL/LN dari instance LNbits Anda, tetapi pembayar hanya memiliki satelite sehingga mereka harus menukar satelite tersebut terlebih dahulu di sisi mereka. Prosedurnya sederhana: pengguna mengirimkan btc onchain ke layanan swap dan memberikan faktur LNURL/LN dari LNbits sebagai tujuan swap.
+
+> **Peringatan (Oktober 2026):** Boltz menangguhkan semua swap pada 3 Agustus 2026 setelah beberapa kerentanan dieksploitasi, dan situs webnya offline. Boltz dan ekstensi Boltz LNbits saat ini tidak dapat digunakan.
 
 ###### Menggunakan ekstensi Onchain dan Boltz LNbits.
 
@@ -443,7 +449,7 @@ Jika Anda mengalami kesalahan "tipe hash tidak didukung" saat menggunakan ypub d
 
 ### Perkakas & Bangunan dengan LNbits
 
-LNbits memiliki berbagai macam [API terbuka](https://legend.lnbits.com/docs) dan alat untuk memprogram dan terhubung ke banyak perangkat yang berbeda untuk bermilyar-milyar kasus penggunaan.
+LNbits memiliki berbagai macam [API terbuka](https://demo.lnbits.com/docs) dan alat untuk memprogram dan terhubung ke banyak perangkat yang berbeda untuk bermilyar-milyar kasus penggunaan.
 
 Jika Anda baru dalam membangun, mulailah dengan [presentasi MakerBits](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) dari Ben Arc tentang membangun gadget berdasarkan LNbits.
 

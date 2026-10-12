@@ -547,7 +547,7 @@ Mullvad 브라우저는 Mullvad DNS-over-HTTPS를 자동으로 통합합니다. 
 
 - [멀바드 브라우저 공식 웹사이트](https://mullvad.net/fr/browser)
 - [멀바드 브라우저 다운로드 페이지](https://mullvad.net/en/download/browser)
-- [상세 기술 사양](https://mullvad.net/en/browser/Hard-facts)
+- [상세 기술 사양](https://mullvad.net/en/browser/hard-facts)
 - [멀바드 브라우저 확장 프로그램](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

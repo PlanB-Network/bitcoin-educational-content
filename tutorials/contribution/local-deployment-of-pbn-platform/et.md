@@ -27,9 +27,9 @@ Selles õpetuses on esitatud üksikasjalikud sammud platvormi seadistamiseks, v�
 
 Kloonige repositoorium oma kohalikku masinasse:
 
-git clone [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 
-[cd](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd) Bitcoin-õppejuhtimissüsteem
+cd bitcoin-learning-management-system
 
 ```bash
 git clone https://github.com/PlanB-Network/bitcoin-learning-management-system

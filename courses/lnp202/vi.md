@@ -415,7 +415,9 @@ Nguyên tắc rất đơn giản: tiền của bạn được lưu trữ trong B
 
 
 
-Hầu hết các danh mục đầu tư cung cấp loại chức năng này đều dựa vào [Boltz](https://boltz.exchange/) cho phần kỹ thuật của giao dịch hoán đổi.
+Hầu hết các danh mục đầu tư cung cấp loại chức năng này đều dựa vào Boltz cho phần kỹ thuật của giao dịch hoán đổi.
+
+> **Lưu ý (tháng 10 năm 2026):** Boltz đã tạm ngừng mọi giao dịch hoán đổi vào ngày 3 tháng 8 năm 2026 và trang web của Boltz hiện ngoại tuyến. Các ví dựa vào Boltz có thể không còn cung cấp tính năng này.
 
 
 

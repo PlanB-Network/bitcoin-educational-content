@@ -294,7 +294,7 @@ PIN 코드를 입력합니다.
 ![Image](assets/fr/15.webp)
 
 
-제이드 플러스 상자에 제공된 QR코드 베이스를 사용할 수 있습니다. 12단어 또는 24단어 문장을 선택했는지 여부에 따라 적절한 상자를 선택합니다. 블록스트림 웹사이트(https://help.blockstream.com/hc/article_attachments/41928319071769)에서 템플릿을 인쇄할 수도 있습니다.
+제이드 플러스 상자에 제공된 QR코드 베이스를 사용할 수 있습니다. 12단어 또는 24단어 문장을 선택했는지 여부에 따라 적절한 상자를 선택합니다. 블록스트림 웹사이트(https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase)에서 템플릿을 인쇄할 수도 있습니다.
 
 
 제이드 플러스에 QR 코드의 각 영역이 표시됩니다.

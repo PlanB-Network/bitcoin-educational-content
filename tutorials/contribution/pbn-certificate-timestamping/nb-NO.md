@@ -29,7 +29,7 @@ GPG-signaturen oppnås med bruk av en åpen kildekode-programvare kalt GNU Priva
 
 På den annen side, hvis noen ønsker å verifisere ektheten av en signert fil, kan de bruke GPG for å importere utstederens offentlige nøkkel og verifisere. I den andre delen av veiledningen vil vi se hvordan man gjør dette med en terminal.
 
-For de som er nysgjerrige og ønsker å lære mer om denne fantastiske programvaren, kan dere referere til ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
+For de som er nysgjerrige og ønsker å lære mer om denne fantastiske programvaren, kan dere referere til ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual.html#AEN136)
 
 ### Hvordan fungerer tidsstempling?
 

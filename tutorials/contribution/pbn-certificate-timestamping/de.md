@@ -29,7 +29,7 @@ Die GPG-Signatur wird mit der Verwendung einer Open-Source-Software namens GNU P
 
 Andererseits kann jemand, der die Authentizität einer signierten Datei überprüfen möchte, GPG verwenden, um den öffentlichen Schlüssel des Ausstellers zu importieren und zu überprüfen. Im zweiten Teil des Tutorials werden wir sehen, wie man dies mit einem Terminal macht.
 
-Für diejenigen, die neugierig sind und mehr über diese fantastische Software erfahren möchten, können Sie sich auf ["Das GNU Privacy Handbuch"](https://www.gnupg.org/gph/en/manual/x135.html) beziehen.
+Für diejenigen, die neugierig sind und mehr über diese fantastische Software erfahren möchten, können Sie sich auf ["Das GNU Privacy Handbuch"](https://www.gnupg.org/gph/en/manual.html#AEN136) beziehen.
 
 ### Wie funktioniert das Zeitstempeln?
 

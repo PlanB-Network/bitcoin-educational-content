@@ -1332,7 +1332,7 @@ Voor verdere discussie over moderne getaltheorie kun je veel geavanceerde discus
 [3] Bekijk [YouTube Video](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
 
-[4] Socratica, [Abstracte Algebra](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Abstracte Algebra](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 
 [5] Katz en Lindell, *Introduction to Modern Cryptography*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar en Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlijn).
@@ -2715,7 +2715,7 @@ Van een Hash functie $H$ wordt gezegd dat deze **collision-resistant** is als he
 Botsingsbestendige Hash functies zijn bijvoorbeeld belangrijk bij de verificatie van software. Stel dat je de Windows versie van Bitcoin Core 0.21.0 (een servertoepassing voor het verwerken van Bitcoin netwerkverkeer) wilde downloaden. De belangrijkste stappen die je zou moeten nemen om de legitimiteit van de software te verifiëren, zijn de volgende:
 
 
-1.	Je moet eerst de publieke sleutels van één of meer bijdragers Bitcoin Core downloaden en importeren in software die digitale handtekeningen kan verifiëren (bijv. Kleopetra). Je kunt deze publieke sleutels [hier] vinden (https://github.com/Bitcoin/Bitcoin/blob/master/contrib/builder-keys/keys.txt). Het wordt aanbevolen om de Bitcoin Core software te verifiëren met de publieke sleutels van meerdere bijdragers.
+1.	Je moet eerst de publieke sleutels van één of meer bijdragers Bitcoin Core downloaden en importeren in software die digitale handtekeningen kan verifiëren (bijv. Kleopetra). Je kunt deze publieke sleutels [hier] vinden (https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys). Het wordt aanbevolen om de Bitcoin Core software te verifiëren met de publieke sleutels van meerdere bijdragers.
 
 2.	Vervolgens moet je de publieke sleutels die je hebt geïmporteerd verifiëren. Ten minste één stap die je moet nemen is controleren of de publieke sleutels die je gevonden hebt dezelfde zijn als die gepubliceerd zijn op verschillende andere locaties. Je zou bijvoorbeeld de persoonlijke webpagina's, Twitter-pagina's of Github-pagina's kunnen raadplegen van de mensen van wie je de publieke sleutels hebt geïmporteerd. Meestal wordt deze vergelijking van publieke sleutels gedaan door een korte Hash van de publieke sleutel te vergelijken, ook wel bekend als een vingerafdruk.
 

@@ -77,9 +77,9 @@ Debian 이미지의 선택은 프로세서 아키텍처에 따라 다릅니다:
 
 
 
-- AMD64**: [다운로드] 목록(https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/)에서 "라이브 하이브리드" 에디션을 다운로드하세요.
-- ARM64**: 공식 [Debian] 웹사이트(https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/)에서 DVD 이미지를 다운로드합니다.
-- 기타 아키텍처**: 사용 중인 아키텍처에 해당하는 ISO를 [여기](https://debian.obspm.fr/debian-cd/12.11.0/)에서 찾아보세요.
+- AMD64**: [다운로드] 목록(https://debian.obspm.fr/debian-cd/current-live/amd64/iso-hybrid/)에서 "라이브 하이브리드" 에디션을 다운로드하세요.
+- ARM64**: 공식 [Debian] 웹사이트(https://debian.obspm.fr/debian-cd/current/arm64/iso-dvd/)에서 DVD 이미지를 다운로드합니다.
+- 기타 아키텍처**: 사용 중인 아키텍처에 해당하는 ISO를 [여기](https://debian.obspm.fr/debian-cd/current/)에서 찾아보세요.
 
 
 

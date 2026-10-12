@@ -62,19 +62,19 @@ Mnemonic 문구 백업의 물리적 도난을 방지하려면 안전한 장소�
 간단한 종이에 문구를 적는 것도 좋은 방법이지만 스테인리스 스틸과 같은 금속 홀더를 선택하면 더욱 안전하게 보관할 수 있습니다. 이러한 유형의 홀더는 보관 장소에 영향을 줄 수 있는 화재, 홍수 또는 붕괴의 위험으로부터 Mnemonic 문구를 보호합니다.
 
 
-금속에 문구를 백업할 수 있는 경제적인 옵션을 찾는 분들에게는 [*SAFU 닌자*](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/)의 DIY 방법이 훌륭한 해결책이 될 수 있습니다. 상점에서 금속 와셔, 나사, 너트를 구입하기만 하면 됩니다. 그런 다음 각 와셔에 문장의 단어를 새기고 번호를 매기고 너트로 나사에 조립합니다. 이 저렴한 방법은 이미 좋은 저항력을 제공합니다.
+금속에 문구를 백업할 수 있는 경제적인 옵션을 찾는 분들에게는 [*SAFU 닌자*](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/)의 DIY 방법이 훌륭한 해결책이 될 수 있습니다. 상점에서 금속 와셔, 나사, 너트를 구입하기만 하면 됩니다. 그런 다음 각 와셔에 문장의 단어를 새기고 번호를 매기고 너트로 나사에 조립합니다. 이 저렴한 방법은 이미 좋은 저항력을 제공합니다.
 
 
 ![SEED](assets/fr/01.webp)
 
 
-이미지 출처: [*SAFU 닌자 리뷰*, 제임슨 롭](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/).
+이미지 출처: [*SAFU 닌자 리뷰*, 제임슨 롭](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/).
 
 
-완전한 금속 백업 장치에 투자하고 싶다면 시중에서 판매되는 대부분의 솔루션을 평가하는 [Jameson Lopp의 저항 테스트](https://jlopp.github.io/metal-Bitcoin-storage-reviews/)를 살펴보는 것이 좋습니다. 조각, 스탬핑 또는 펀칭을 위한 금속판과 같은 일체형 브래킷을 선택하는 것이 좋습니다. 이러한 장치는 일반적으로 독립적인 글자를 사용하여 조립하는 시스템보다 훨씬 더 큰 저항력을 제공합니다.
+완전한 금속 백업 장치에 투자하고 싶다면 시중에서 판매되는 대부분의 솔루션을 평가하는 [Jameson Lopp의 저항 테스트](https://jlopp.github.io/metal-bitcoin-storage-reviews/)를 살펴보는 것이 좋습니다. 조각, 스탬핑 또는 펀칭을 위한 금속판과 같은 일체형 브래킷을 선택하는 것이 좋습니다. 이러한 장치는 일반적으로 독립적인 글자를 사용하여 조립하는 시스템보다 훨씬 더 큰 저항력을 제공합니다.
 
 
-종이 Wallet를 선택하는 경우 간단한 빈 종이, Hardware Wallet와 함께 제공되는 판지 Wallet 또는 [여기를 클릭하여](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf) 인쇄할 수 있는 다운로드 가능한 템플릿 등 여러 가지 옵션이 있습니다.
+종이 Wallet를 선택하는 경우 간단한 빈 종이, Hardware Wallet와 함께 제공되는 판지 Wallet 또는 [여기를 클릭하여](https://github.com/planb-network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf) 인쇄할 수 있는 다운로드 가능한 템플릿 등 여러 가지 옵션이 있습니다.
 
 
 ![SEED](assets/fr/02.webp)

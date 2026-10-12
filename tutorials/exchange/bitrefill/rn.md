@@ -8,7 +8,7 @@ description: Ni gute wogura ibintu n’ibikorwa ukoresheje BTC ukoresheje Bitref
 Naho Bitcoin ibonwa canecane nk’uburyo bwo kuzigama muri iki gihe, iguma ari ifaranga ry’agaciro kari mu bushobozi bwaryo bwo guca mu kiganza kuva ku kuboko kuja ku kindi. Nimba abacuruzi bari hafi yawe bemeye Bitcoin nk’uburyo bwo kwishura, urafise uburenganzira bwo kuyikoresha ataco uhinduye. Ikibabaje ni uko uwo mugenzo utarakwiragira, kandi benshi mu bacuruzi ntibarakira BTC mu buryo bw’akavukire.
 
 
-Umuti mwiza usigaye ni "orange pill" abacuruzi bo mu karere kugira ngo bemere Bitcoin, mu kubasigurira ivyiza vy'iyi nzira. Ushobora gukoresha inyigisho ziboneka mu gice ca ["*abacuruzi*"](https://planb.academy/inyigisho/umucuruzi) co ku rubuga rwacu nk'infashanyo. Iryo tegeko rishobora gukora neza ku bacuruzi batobato bigenga, ariko rigaragara ko rigoye cane ku minyororo minini y’igihugu, kuko muri rusangi abo bahuriye ku kibanza atari bo bafata ingingo ku bijanye n’uburyo bwo kwishura.
+Umuti mwiza usigaye ni "orange pill" abacuruzi bo mu karere kugira ngo bemere Bitcoin, mu kubasigurira ivyiza vy'iyi nzira. Ushobora gukoresha inyigisho ziboneka mu gice ca ["*abacuruzi*"](https://planb.academy/tutorials/merchant) co ku rubuga rwacu nk'infashanyo. Iryo tegeko rishobora gukora neza ku bacuruzi batobato bigenga, ariko rigaragara ko rigoye cane ku minyororo minini y’igihugu, kuko muri rusangi abo bahuriye ku kibanza atari bo bafata ingingo ku bijanye n’uburyo bwo kwishura.
 
 
 Mu gihe urindiriye ko abantu benshi bavyemera n’izo nzira, urashobora gukoresha amahera yawe ukoresheje uburyo bwo kwishura: amakarata y’ingabirano. Kandi ivyo nivyo nyene Bitrefill itanga kugira ngo ikuronse.
@@ -149,7 +149,7 @@ Ushobora kuronka amakarata yawe yose y'ingabirano ukanda ku rubuga rwawe ruri he
 
 ![BITREFILL](assets/notext/28.webp)
 
-Ndabagira inama kandi yo gukuraho porogarama ya Bitrefill, iboneka ku [Iduka rya Google Play] no kuri [Iduka ry’Iporogarama](id16000000000000000) ku musi ku musi mu maduka y’umubiri.
+Ndabagira inama kandi yo gukuraho porogarama ya Bitrefill, iboneka ku [Iduka rya Google Play](https://play.google.com/store/apps/details?id=com.bitrefill.app) no kuri [Iduka ry’Iporogarama](https://apps.apple.com/in/app/bitrefill/id1378102623) ku musi ku musi mu maduka y’umubiri.
 
 
 Kandi aho urafise, ubu urazi gukoresha ama bitcoins yawe ata KYC ku maduka akomeye kubera amafaranga yawe ya misi yose. Ku bwanje, mbona ko ubu buryo ari umuti w’igihe gito gushika abacuruzi benshi bashizemwo Bitcoin mu buryo bw’akavukire ku bibanza vyabo vy’ugurisha. Ariko rero, riguma ari uburyo bwiza cane kugeza ubu.

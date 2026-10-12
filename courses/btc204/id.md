@@ -1915,7 +1915,7 @@ Salah satu kelemahan utama JoinMarket adalah kerumitan penggunaannya, yang membu
 
 ![BTC204](assets/id/137.webp)
 
-Sumber : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Sumber : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 Namun, hambatan teknis tetap menjadi kendala utama. Dalam ekosistem coinjoin, di mana kerahasiaan diperkuat oleh jumlah partisipan, batasan apa pun yang mengurangi aksesibilitas secara langsung memengaruhi likuiditas yang tersedia, yang merupakan faktor penting dalam efisiensi campuran. Bitcoin, yang sudah menjadi ceruk dalam transaksi keuangan, melihat penggunaan coinjoin sebagai sub-ceruk, dan JoinMarket mewakili bagian yang lebih khusus lagi, yang oleh karena itu membatasi potensinya untuk meningkatkan anonset penggunanya.
 

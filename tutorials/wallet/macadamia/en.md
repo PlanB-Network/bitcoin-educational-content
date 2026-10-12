@@ -254,7 +254,7 @@ The custodial model demands vigilance and good security practices. Used correctl
 
 
 - Technical documentation: [docs.cashu.space](https://docs.cashu.space)
-- List of public mints: [bitcoinmints.com](https://bitcoinmints.com)
+- List of public mints: [bitcoinmints.com](https://cashumints.space/)
 - Official protocol website: [cashu.space](https://cashu.space)
 
 

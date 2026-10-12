@@ -415,7 +415,9 @@ Den største fordelen med denne tilnærmingen, sammenlignet med en konvensjonell
 
 
 
-De fleste porteføljer som tilbyr denne typen funksjonalitet, er avhengige av [Boltz](https://boltz.exchange/) for den tekniske delen av byttehandelen.
+De fleste porteføljer som tilbyr denne typen funksjonalitet, er avhengige av Boltz for den tekniske delen av byttehandelen.
+
+> **Merk (oktober 2026):** Boltz stanset alle swapper 3. august 2026, og nettstedet er frakoblet. Lommebøker som er avhengige av Boltz, tilbyr kanskje ikke lenger denne funksjonen.
 
 
 

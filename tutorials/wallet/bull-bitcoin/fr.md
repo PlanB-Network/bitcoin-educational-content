@@ -106,7 +106,7 @@ Avant d'aller plus loin, jetons un coup d'œil à l'écran d'accueil pour nous o
 - Accédez à `Bull Bitcoin Exchange` pour acheter, vendre ou payer (cela dépend de la juridiction et peut nécessiter un KYC).
 - Transfert de fonds entre portefeuilles.
 - `Bitcoin sécurisé` équivaut au portefeuille on-chain.
-- `Paiements instantanés` via Liquid et le Lightning Network. *(Note : BULL Wallet permet d'effectuer et de recevoir des paiements via Lightning. Les fonds reçus via le LN sont stockés sur [Liquid](https://liquid.net/) (dans le portefeuille Paiements instantanés) grâce à un échange automatique via [Boltz exchange](https://boltz.exchange/). Cela vous permet d'interagir avec Lightning sans avoir à gérer des canaux de liquidité, tout en restant en self-custody.)*
+- `Paiements instantanés` via Liquid et le Lightning Network. *(Note : BULL Wallet permet d'effectuer et de recevoir des paiements via Lightning. Les fonds reçus via le LN sont stockés sur [Liquid](https://liquid.net/) (dans le portefeuille Paiements instantanés) grâce à un échange automatique via Boltz exchange. Cela vous permet d'interagir avec Lightning sans avoir à gérer des canaux de liquidité, tout en restant en self-custody.)*
 - Envoi et réception de fonds.
 
 
@@ -420,6 +420,8 @@ Pour terminer la transaction, fournissez à l'expéditeur l'adresse ou l'IRU. Vo
 
 
 
+> **Note (octobre 2026) :** Boltz a suspendu tous ses swaps le 3 août 2026 et son site web est hors ligne. Les paiements Lightning de BULL Wallet reposent sur Boltz et peuvent ne plus fonctionner.
+
 BULL Wallet vous permet également d'envoyer et de recevoir des paiements via le Lightning Network. Une caractéristique clé est que les fonds reçus via Lightning sont automatiquement échangés et stockés sur `Liquid` au sein de votre portefeuille `Paiements instantanés`. Ce service est alimenté par `Boltz`. 
 
 Cette conception vous permet de profiter de la vitesse et du faible coût du Lightning sans la complexité de la gestion des canaux de liquidité, tout en maintenant la self-custody complète de vos fonds. Bien que cette approche hybride soit auto-dépositaire et évite la complexité de la gestion des canaux, elle introduit un service tiers (Boltz), une petite commission de swap et une dépendance à la fédération de fonctionnaires Liquid Network en tant que détenteurs de clés, ce qui est différent d'un portefeuille Lightning traditionnel, non-dépositaire, où vous gérez vos propres canaux. Pour en savoir plus sur Liquid et son modèle de gouvernance, cliquez ici :
@@ -512,6 +514,8 @@ Vous pouvez soit envoyer à une adresse Lightning (par exemple `runningbitcoin@r
 
 *Des montants minimums et des frais s'appliquent.*
 
+
+> **Note (octobre 2026) :** Boltz a suspendu tous ses swaps le 3 août 2026 et son site web est hors ligne. Les paiements Lightning de BULL Wallet reposent sur Boltz et peuvent ne plus fonctionner.
 
 BULL Wallet envoie des paiements Lightning en retirant des fonds de votre portefeuille `Paiements instantanés` (sur Liquid) et en les échangeant via `Boltz`. Cette approche hybride est entièrement autonome et évite les frais élevés de gestion d'un canal Lightning dédié, mais elle nécessite de payer des "frais d'échange". Pour le coût le plus bas, envoyez directement à l'adresse Liquid d'un destinataire s'il utilise également un BULL Wallet.
 

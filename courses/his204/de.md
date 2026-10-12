@@ -309,7 +309,7 @@ Der Abbé de Saint-Pierre argumentierte, dass die Herrschaft Ludwigs XIV., mit i
 
 Was das Wirtschaftsdenken betrifft, wandte er konsequent das Nützlichkeitsprinzip an, ganz wie es später Jeremy Bentham tun sollte, und äußerte oft treffende Einsichten. Um fair zu sein, war er noch von merkantilistischen Vorstellungen geprägt, von denen sich zu jener Zeit noch niemand ganz gelöst hatte.
 
-Dennoch machte der Abbé de Saint-Pierre einige zutreffende Beobachtungen zur Wirtschaft. Schon vor *Condillac*, dem diese Idee oft zugeschrieben wird, stellte er unmissverständlich fest, dass bei jedem Tausch beide Parteien profitieren. Dies findet sich in seinem 1733 erschienenen ["Projekt zur Verbesserung des französischen Handels"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), wo er schrieb:
+Dennoch machte der Abbé de Saint-Pierre einige zutreffende Beobachtungen zur Wirtschaft. Schon vor *Condillac*, dem diese Idee oft zugeschrieben wird, stellte er unmissverständlich fest, dass bei jedem Tausch beide Parteien profitieren. Dies findet sich in seinem 1733 erschienenen ["Projekt zur Verbesserung des französischen Handels"](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), wo er schrieb:
 
 > Wenn ein Verkauf zwischen Kaufleuten zustande kommt, gewinnt der Verkäufer, und ebenso der Käufer; denn gäbe es nicht auf beiden Seiten einen realen oder empfundenen Vorteil, würde weder der Verkäufer zu diesem oder jenem Preis verkaufen, noch der Käufer seinerseits zu diesem Preis kaufen.
 
@@ -469,7 +469,7 @@ Das geistige Schaffen des Gournay-Kreises hatte einen bedeutenden Einfluss auf d
 
 ![Studie über das Wirtschaftsschrifttum in Frankreich, 1566-1789.](assets/en/035.webp)
 
-Um bei der französischen Bevölkerung Geschmack an wirtschaftlichen Diskussionen zu wecken, arbeiteten Gournay und seine Freunde daran, diese durch Romane zugänglich zu machen. Nach der *Denkschrift über die Gewerbe*, die die Zünfte kritisierte, halfen Gournay und Cliquot-Blervache Gabriel-François Coyer, einen kurzen satirischen Roman namens Chinki zu schreiben: [Eine cochinchinesische Geschichte, anwendbar auf andere Nationen](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Um bei der französischen Bevölkerung Geschmack an wirtschaftlichen Diskussionen zu wecken, arbeiteten Gournay und seine Freunde daran, diese durch Romane zugänglich zu machen. Nach der *Denkschrift über die Gewerbe*, die die Zünfte kritisierte, halfen Gournay und Cliquot-Blervache Gabriel-François Coyer, einen kurzen satirischen Roman namens Chinki zu schreiben: [Eine cochinchinesische Geschichte, anwendbar auf andere Nationen](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Abbé Gabriel-François Coyer, "Chinki"](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ In seinen zuvor zitierten *Maximes* erklärt Quesnay:
 
 Die Physiokraten hatten den Schaden gesehen, den staatliche Eingriffe verursachten, insbesondere im Getreidehandel. Man müsse anerkennen, so sagen sie, dass die Obrigkeit den Handel niemals so gut verwalten könne wie die Einzelnen, weil sie auf jedes Bedürfnis reagieren und auf jede Veränderung von Angebot oder Nachfrage eingehen müsste. All dies übersteige die Fähigkeiten selbst der klügsten denkbaren Regierung bei weitem. Deshalb sei es notwendig, die Dinge sich selbst zu überlassen und laufen zu lassen.
 
-Von Natur aus vorteilhaft, muss der Handel vollständig und vollkommen frei sein. Eines ihrer Mitglieder, Le Trosne, verfasste sogar ein Pamphlet mit dem Titel [*Die Freiheit des Getreidehandels: immer nützlich, niemals schädlich*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Von Natur aus vorteilhaft, muss der Handel vollständig und vollkommen frei sein. Eines ihrer Mitglieder, Le Trosne, verfasste sogar ein Pamphlet mit dem Titel [*Die Freiheit des Getreidehandels: immer nützlich, niemals schädlich*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/).
 
 ### Fünftes Prinzip: Alle Menschen sind Brüder
 

@@ -541,7 +541,7 @@ De två första heuristikerna för kedjeanalys upptäcktes av Satoshi Nakamoto s
 ![BTC204](assets/sv/031.webp)
 
 
-Källa: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
+Källa: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 Vilka de är får vi se i de kommande kapitlen, men det är redan nu intressant att notera att dessa två heuristiker fortfarande har en framträdande roll i kedjeanalysen.
@@ -938,7 +938,7 @@ Som förklarades i inledningen till del 3 upptäcktes denna heuristik av Satoshi
 ![BTC204](assets/sv/055.webp)
 
 
-Källa: S. Nakamoto: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
+Källa: S. Nakamoto: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 Här är till exempel en Address som återanvänds i flera transaktioner:
@@ -1605,7 +1605,7 @@ Eftersom Blockchain är offentlig är det lätt att se vilka adresser som låser
 ![BTC204](assets/sv/070.webp)
 
 
-Källa: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
+Källa: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 Satoshi:s avsikt med denna mening var att skapa en extra brandvägg i händelse av en koppling mellan en användares identitet och ett nyckelpar på Bitcoin, för att förhindra att hela hans aktivitet offentligt kopplas till hans identitet. Idag, med den stora spridningen av Blockchain-analysföretag och KYC-regler, är användningen av unika adresser inte längre en "extra brandvägg", utan en oumbärlig praxis för alla som vill bevara ett minimum av integritet.
@@ -2739,7 +2739,7 @@ En av JoinMarkets största nackdelar är dess komplexa användning, som kräver 
 ![BTC204](assets/sv/137.webp)
 
 
-Källa : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Källa : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 
 Den tekniska barriären är dock fortfarande ett stort hinder. I CoinJoin-ekosystemet, där sekretessen förstärks av antalet deltagare, påverkar varje begränsning som minskar tillgängligheten direkt den tillgängliga likviditeten, vilket är en avgörande faktor för mixens effektivitet. Bitcoin, som redan är en nisch inom finansiella transaktioner, ser sin användning av coinjoins som en subnisch, och JoinMarket representerar en ännu mer specialiserad del av den, vilket därför begränsar dess potential att öka användarnas anonsets.
@@ -3619,7 +3619,7 @@ Det skulle dock vara intressant att ha transaktionsstrukturer som gör det möjl
 PayJoin är en specifik Bitcoin-transaktionsstruktur som förbättrar användarnas integritet när de spenderar genom att samarbeta med betalningsmottagaren.
 
 
-Det var 2015 som LaurentMT först diskuterade den här metoden under namnet "*steganografiska transaktioner*", enligt ett dokument som finns tillgängligt [här](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Denna teknik antogs senare av Samourai Wallet, som 2018 blev den första klienten som implementerade den med hjälp av Stowaway-verktyget. Konceptet med PayJoin återfinns också i [BIP79](https://github.com/Bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/Bitcoin/bips/blob/master/bip-0078.mediawiki) och [BIP77](https://PayJoin.org/docs/how-it-works/PayJoin-v2-bip-77/). Flera termer används därför för att referera till en PayJoin:
+Det var 2015 som LaurentMT först diskuterade den här metoden under namnet "*steganografiska transaktioner*", enligt ett dokument som finns tillgängligt [här](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Denna teknik antogs senare av Samourai Wallet, som 2018 blev den första klienten som implementerade den med hjälp av Stowaway-verktyget. Konceptet med PayJoin återfinns också i [BIP79](https://github.com/Bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/Bitcoin/bips/blob/master/bip-0078.mediawiki) och [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/). Flera termer används därför för att referera till en PayJoin:
 
 
 

@@ -2311,7 +2311,7 @@ V závislosti na datu konzultace tohoto kurzu mohou být tato rozhraní samozře
 
 #### Příklad rozhraní
 
-Tento úryvek kódu v jazyce Rust zobrazuje rozhraní [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) (zaměnitelné aktivum). Tento kód je převzat ze souboru `rgb20.rs` ve standardní knihovně RGB. Podívejme se na něj, abychom pochopili strukturu rozhraní a to, jak poskytuje most mezi obchodní logikou (definovanou ve schématu) na jedné straně a funkcemi vystavenými peněženkám a uživatelům na straně druhé.
+Tento úryvek kódu v jazyce Rust zobrazuje rozhraní [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) (zaměnitelné aktivum). Tento kód je převzat ze souboru `rgb20.rs` ve standardní knihovně RGB. Podívejme se na něj, abychom pochopili strukturu rozhraní a to, jak poskytuje most mezi obchodní logikou (definovanou ve schématu) na jedné straně a funkcemi vystavenými peněženkám a uživatelům na straně druhé.
 
 ```rust
 // ...

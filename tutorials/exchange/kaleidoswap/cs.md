@@ -296,7 +296,7 @@ Vývojáři, kteří staví nad aplikací KaleidoSwap, mají k dispozici aplikac
 - WebSocket**: Pro odběry tržních dat v reálném čase.
 
 
-Úplné koncové body a specifikace naleznete v [Dokumentaci API](https://docs.kaleidoswap.com/api/introduction).
+Úplné koncové body a specifikace naleznete v [Dokumentaci API](https://docs.kaleidoswap.com/api-reference/introduction).
 
 
 ## Závěr

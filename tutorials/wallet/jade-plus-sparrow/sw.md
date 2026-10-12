@@ -294,7 +294,7 @@ Bonyeza "* Anza *".
 ![Image](assets/fr/15.webp)
 
 
-Unaweza kutumia msingi wa msimbo wa QR uliotolewa kwenye kisanduku cha Jade Plus. Chagua kisanduku kinachofaa kulingana na ikiwa umechagua sentensi ya maneno 12 au 24. Unaweza pia [kuchapisha kiolezo kutoka kwa tovuti ya Blockstream](https://help.blockstream.com/hc/article_attachments/41928319071769).
+Unaweza kutumia msingi wa msimbo wa QR uliotolewa kwenye kisanduku cha Jade Plus. Chagua kisanduku kinachofaa kulingana na ikiwa umechagua sentensi ya maneno 12 au 24. Unaweza pia [kuchapisha kiolezo kutoka kwa tovuti ya Blockstream](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase).
 
 
 Jade Plus yako itaonyesha kila eneo la msimbo wako wa QR.

@@ -405,7 +405,7 @@ Antminer S9矿机由以下部件组成：
 
 用一句话总结这个指南：**"不要信任，要验证。"**
 
-[您也可以求助于矿机再生领域的专业人士，比如我们的合作伙伴21energy。他们提供经过测试的S9机器，已清洁并安装了BraiiinOS+软件。使用合作伙伴代码"decouvre"，您将在购买S9时获得10%的折扣，同时支持Attakai项目。](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[您也可以求助于矿机再生领域的专业人士，比如我们的合作伙伴21energy。他们提供经过测试的S9机器，已清洁并安装了BraiiinOS+软件。使用合作伙伴代码"decouvre"，您将在购买S9时获得10%的折扣，同时支持Attakai项目。](https://21energy.com/products/bitmain-antminer-s9)
 
 ## 购买S9硬件改造指南
 

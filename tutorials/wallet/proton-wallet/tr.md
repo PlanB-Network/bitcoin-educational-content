@@ -25,7 +25,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 ## Proton Wallet'e bağlanın
 
 
-Proton Wallet web sitesine] (https://proton.me/Wallet) gidin ve "*Get Proton Wallet*" düğmesine tıklayın.
+Proton Wallet web sitesine] (https://proton.me/wallet) gidin ve "*Get Proton Wallet*" düğmesine tıklayın.
 
 
 ![Image](assets/fr/01.webp)
@@ -215,7 +215,7 @@ Proton Wallet'yi uygulama mağazanızdan indirin:
 
 
 - [App Store'da](https://apps.apple.com/us/app/proton-Wallet-secure-btc/id6479609548);
-- [Google Play Store'da](https://play.google.com/store/apps/details?id=me.proton.Wallet.android).
+- [Google Play Store'da](https://play.google.com/store/apps/details?id=me.proton.wallet.android).
 
 
 ![Image](assets/fr/26.webp)

@@ -27,7 +27,7 @@ Rumble Wallet是一款移动wallet，主要针对 "创作者经济 "设计，即
 ## 2.如何安装 Rumble Wallet？
 
 
-该应用程序可通过 [Android](https://play.google.com/store/apps/details?id=com.wallet.rumble) 和 iOS 的官方商店安装。
+该应用程序可通过 [Android](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet) 和 iOS 的官方商店安装。
 
 
 ![Image](assets/fr/01.webp)

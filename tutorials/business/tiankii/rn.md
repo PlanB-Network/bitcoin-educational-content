@@ -127,7 +127,7 @@ Gukoresha Tiankii ntibisaba ibintu bikomeye vy’ubuhinga. Ivyo bikoresho bikore
 
 
 
-**Ku bakoresha b’ibanga (IBI App)**: Nta n’umuravyo wa wallet usabwa imbere. Iyo uremye konti yawe, Tiankii ihita itunganya umuravyo ukora Address biciye ku [Breez SDK Liquid](https://sdk-doc-liquid. Ushobora guca ukira no kohereza amahera ata n’imwe mu nzira z’ubuhinga. Uwo muti worosha cane kuronka ku batangura, mu gihe baguma bariko barizigama.
+**Ku bakoresha b’ibanga (IBI App)**: Nta n’umuravyo wa wallet usabwa imbere. Iyo uremye konti yawe, Tiankii ihita itunganya umuravyo ukora Address biciye ku [Breez SDK Liquid](https://sdk-doc-liquid.breez.technology/guide/about_breez_sdk_liquid.html). Ushobora guca ukira no kohereza amahera ata n’imwe mu nzira z’ubuhinga. Uwo muti worosha cane kuronka ku batangura, mu gihe baguma bariko barizigama.
 
 
 
@@ -429,11 +429,11 @@ Naho kwemera cane Bitcoin biguma ari ingorane isaba inyigisho n’igihe, ibikorw
 
 
 
-- [Urubuga rwemewe rwa Tiankii]
-- [Ikigo c'imfashanyo ca Tiankii](https://imfashanyo.
-- [Ibisabwa vya IBI](ku rubuga rwa IBI)
-- [Urupapuro rw'abacuruzi](https://kwishura.tiankii.com)
-- [Ikigo c'Itegeko](imbuga ngurukanabumenyi)
+- [Urubuga rwemewe rwa Tiankii](https://tiankii.com)
+- [Ikigo c'imfashanyo ca Tiankii](https://help.tiankii.com).
+- [Ibisabwa vya IBI](https://go.ibi.me)
+- [Urupapuro rw'abacuruzi](https://pay.tiankii.com)
+- [Ikigo c'Itegeko](https://cc.ibi.me)
 
 
 
@@ -442,10 +442,10 @@ Naho kwemera cane Bitcoin biguma ari ingorane isaba inyigisho n’igihe, ibikorw
 
 
 
-- [Huza LNbits](https://imfashanyo.tiankii.com/urubuga/ru/kb/ingingo/huza-lnbits-zawe-wallet)
-- [Huza igikapu c'ubururu (LNDHub)](https://imfashanyo.tiankii.com/urubuga/ru/kb/ingingo/huza-igikapu-cawe c'ubururu)
-- [Huza Alby Wallet](ubufasha.tiankii.com/urubuga/ru/kb/ingingo/huza-alby-wallet-yawe)
-- [Ihuza Igitero Wallet](ku rubuga/es/kb/ingingo/Igitero-wallet)
+- [Huza LNbits](https://help.tiankii.com/portal/en/kb/articles/connect-your-lnbits-wallet)
+- [Huza igikapu c'ubururu (LNDHub)](https://help.tiankii.com/portal/en/kb/articles/connect-your-lndhub-bluewallet)
+- [Huza Alby Wallet](https://help.tiankii.com/portal/en/kb/articles/connect-your-alby-wallet)
+- [Ihuza Igitero Wallet](https://help.tiankii.com/portal/es/kb/articles/como-vincular-strike-wallet)
 
 
 
@@ -454,8 +454,8 @@ Naho kwemera cane Bitcoin biguma ari ingorane isaba inyigisho n’igihe, ibikorw
 
 
 
-- [Lightning Network Plus](https://urubuga rw'umuravyo.plus) - Igikoresho c'inyigisho c'umuravyo
-- [Bitcoin Inkengera y'ikiyaga] - Umugambi w'ubutunzi buzunguruka bwa Salvador Bitcoin
+- [Lightning Network Plus](https://lightningnetwork.plus) - Igikoresho c'inyigisho c'umuravyo
+- [Bitcoin Inkengera y'ikiyaga](https://www.bitcoinbeach.com) - Umugambi w'ubutunzi buzunguruka bwa Salvador Bitcoin
 
 
 
@@ -464,6 +464,6 @@ Naho kwemera cane Bitcoin biguma ari ingorane isaba inyigisho n’igihe, ibikorw
 
 
 
-- [Umuco Wallet](https://umuco.sv) - Wallet ihuye n'umuravyo iraremeshwa
-- [Ibice](Ibice) - Umuti wallet wiyakira
+- [Umuco Wallet](https://blink.sv) - Wallet ihuye n'umuravyo iraremeshwa
+- [Ibice](https://lnbits.com) - Umuti wallet wiyakira
 - [Ikarata Bolt isanzwe](https://github.com/boltcard) - Ivyerekeye ubuhinga bw'amakarata ya NFC

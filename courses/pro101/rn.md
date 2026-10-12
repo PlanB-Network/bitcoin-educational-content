@@ -533,7 +533,7 @@ Ubwa mbere, fungura Bitcoin core iherutse gusohoka maze usuzume ama hashes ya do
 
 
 ```sh
-wget https://bitcoin.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
+wget https://bitcoincore.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
 sha256sum bitcoin-22.0-x86_64-linux-gnu.tar.gz
 # Compare the output hash with the official hash
 ```
@@ -644,8 +644,10 @@ Kuri iyi nyigisho, tuzokoresha isohoka rishasha, nk'akarorero, 22.11.1.
 
 
 ```sh
-wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/clightning-v22.11.1.tar.gz
-sha256sum clightning-v22.11.1.tar.gz
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/clightning-v22.11.1.zip
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/SHA256SUMS
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/SHA256SUMS.asc
+sha256sum clightning-v22.11.1.zip
 # Verify the hash against the provided hash
 ```
 
@@ -657,7 +659,7 @@ Igihe cose suzuma ubutungane bwa dosiye yakuweho ukoresheje imfunguruzo za GPG.
 
 ```sh
 gpg --recv-keys <developer-key-id>
-gpg --verify clightning-v22.11.1.tar.gz.asc clightning-v22.11.1.tar.gz
+gpg --verify SHA256SUMS.asc SHA256SUMS
 ```
 
 
@@ -669,8 +671,8 @@ Shiraho ibikenewe bishingiyeko maze ushire hamwe C-Lightning kuva ku nkomoko.
 ```sh
 sudo apt-get update
 sudo apt-get install -y autoconf automake build-essential git libtool libgmp-dev \
-libsqlite3-dev python3 python3-mako net-tools zlib1g-dev
-tar -xzf clightning-v22.11.1.tar.gz
+libsqlite3-dev python3 python3-mako net-tools zlib1g-dev unzip
+unzip clightning-v22.11.1.zip
 cd clightning-v22.11.1
 ./configure
 make
@@ -2085,7 +2087,7 @@ Ikoreshwa ry’ibice bikomeye ubu rikoreshwa mu kwongerera ubushobozi bwo gutang
 #### Gukoresha amasomero asanzweho
 
 
-Ku bikorwa bihambaye vy'uguhurizako, birakenewe gukoresha amasomero asanzweho kugira ngo wirinde ibikoko kandi ubone umutekano nka [Rust-Bitcoin](https://docs.rs/Bitcoin/latest/Bitcoin/) canke [Igikoresho co gutegura Bitcoin](Ivyanditswe/BDK/ivya nyuma/BDK/). Gushira mu ngiro parser yawe bwite birashobora kuba inyigisho ariko kandi bishobora gutera ingorane mu bidukikije vy’ubuhinga.
+Ku bikorwa bihambaye vy'uguhurizako, birakenewe gukoresha amasomero asanzweho kugira ngo wirinde ibikoko kandi ubone umutekano nka [Rust-Bitcoin](https://docs.rs/Bitcoin/latest/Bitcoin/) canke [Igikoresho co gutegura Bitcoin](https://docs.rs/bdk/latest/bdk/). Gushira mu ngiro parser yawe bwite birashobora kuba inyigisho ariko kandi bishobora gutera ingorane mu bidukikije vy’ubuhinga.
 
 
 ![libraries](assets/en/035.webp)
@@ -2200,7 +2202,7 @@ Kugira umuntu aronke ubumenyi bujanye n’ibikorwa vya Bitcoin core, arashobora 
 
 
 
-- Gukoranya codebase kugira ngo ureme verisiyo ishobora gukorwa. [Bitcoin github](Bitcoin) gushika ku doc/build-\*.md kugira ngo ubone amabwirizwa.
+- Gukoranya codebase kugira ngo ureme verisiyo ishobora gukorwa. [Bitcoin github](https://github.com/bitcoin/bitcoin) gushika ku doc/build-\*.md kugira ngo ubone amabwirizwa.
 
 
 ```Bash
@@ -2212,7 +2214,7 @@ make install # optional
 
 
 
-- Gukora ibizame kugira ngo vyose bikore neza. Amabwirizwa ashobora kuyaboneka [hano]
+- Gukora ibizame kugira ngo vyose bikore neza. Amabwirizwa ashobora kuyaboneka [hano](https://github.com/bitcoin/bitcoin/blob/master/test/README.md)
 
 
 ```Bash
@@ -2227,7 +2229,7 @@ test/functional/test_runner.py
 
 
 
-- Guhingura no gushitsa ikigeragezo muri Python kugira ngo wemeze imikorere yihariye. Dosiye [akarorero.py](https://github.com/Bitcoin/Bitcoin/blob/master/ikigeragezo/ibikorwa/akarorero_ikigeragezo.py) ni akarorero kavuzwe cane k'ikibazo c'ikigeragezo gikoresha interfaces zompi RPC na P2P.
+- Guhingura no gushitsa ikigeragezo muri Python kugira ngo wemeze imikorere yihariye. Dosiye [akarorero.py](https://github.com/bitcoin/bitcoin/blob/master/test/functional/example_test.py) ni akarorero kavuzwe cane k'ikibazo c'ikigeragezo gikoresha interfaces zompi RPC na P2P.
 
 
 #### Ubundi buryo bwo gushirwa mu ngiro

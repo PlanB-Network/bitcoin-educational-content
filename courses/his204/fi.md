@@ -309,7 +309,7 @@ Saint-Pierren apotti väitti, että Ludvig XIV:n hallituskausi ylellisen hovinsa
 
 Taloudellisessa ajattelussa hän sovelsi johdonmukaisesti hyödyn periaatetta, aivan kuten Jeremy Bentham tekisi myöhemmin, ja tarjosi usein osuvia oivalluksia. Rehellisyyden nimissä hän oli edelleen merkantilististen ajatusten vaikutuspiirissä, joista kukaan ei ollut tuohon aikaan täysin irtautunut.
 
-Silti Saint-Pierren apotti teki muutamia paikkansapitäviä havaintoja taloudesta. Jo ennen *Condillacia*, jonka ansioksi tämä ajatus usein luetaan, hän totesi suoraan, että kaikessa vaihdossa molemmat osapuolet hyötyvät. Tämä löytyy hänen vuoden 1733 teoksestaan ["Hanke Ranskan kaupan parantamiseksi"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), jossa hän kirjoitti:
+Silti Saint-Pierren apotti teki muutamia paikkansapitäviä havaintoja taloudesta. Jo ennen *Condillacia*, jonka ansioksi tämä ajatus usein luetaan, hän totesi suoraan, että kaikessa vaihdossa molemmat osapuolet hyötyvät. Tämä löytyy hänen vuoden 1733 teoksestaan ["Hanke Ranskan kaupan parantamiseksi"](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), jossa hän kirjoitti:
 
 > Kun kauppiaiden välillä tehdään myynti, myyjä hyötyy, ja niin hyötyy ostajakin; sillä jos molemmin puolin ei olisi jotakin todellista tai kuviteltua etua, myyjä ei myisi sillä ja sillä hinnalla eikä ostaja puolestaan ostaisi sellaisella hinnalla.
 
@@ -469,7 +469,7 @@ Gournayn piirin älyllisellä tuotannolla oli suuri vaikutus aatehistoriaan. Tä
 
 ![Tutkimus taloudellisesta julkaisutoiminnasta Ranskassa 1566-1789.](assets/en/035.webp)
 
-Levittääkseen makua taloudellisiin keskusteluihin ranskalaisen väestön keskuudessa Gournay ja hänen ystävänsä pyrkivät tekemään niistä helpommin lähestyttäviä romaanien avulla. *Muistio ammattikunnista* -teoksen jälkeen, joka arvosteli ammattikuntia, Gournay ja Cliquot-Blervache auttoivat Gabriel-François Coyeria kirjoittamaan lyhyen satiirisen romaanin nimeltä Chinki: [kokinkiinalainen tarina, joka soveltuu muihinkin kansakuntiin](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Levittääkseen makua taloudellisiin keskusteluihin ranskalaisen väestön keskuudessa Gournay ja hänen ystävänsä pyrkivät tekemään niistä helpommin lähestyttäviä romaanien avulla. *Muistio ammattikunnista* -teoksen jälkeen, joka arvosteli ammattikuntia, Gournay ja Cliquot-Blervache auttoivat Gabriel-François Coyeria kirjoittamaan lyhyen satiirisen romaanin nimeltä Chinki: [kokinkiinalainen tarina, joka soveltuu muihinkin kansakuntiin](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Apotti Gabriel-François Coyer, “Chinki”](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ Aiemmin lainatuissa *Opinkappaleissaan* Quesnay toteaa:
 
 Fysiokraatit olivat nähneet hallituksen sekaantumisen aiheuttaman vahingon, erityisesti viljakaupassa. On myönnettävä, he sanovat, ettei viranomainen kykene koskaan hoitamaan kauppaa yhtä hyvin kuin yksilöt, koska sen olisi vastattava jokaiseen tarpeeseen ja reagoitava jokaiseen kysynnän tai tarjonnan muutokseen. Kaikki tämä on kauan yli senkin viisaimman hallituksen kykyjen, joka voidaan kuvitella. Siksi on välttämätöntä antaa asioiden olla ja antaa niiden virrata.
 
-Luonnostaan hyödyllisen kaupan on oltava täysin ja täydellisesti vapaata. Yksi heidän jäsenistään, Le Trosne, kirjoitti jopa pamfletin nimeltä [*Viljakaupan vapaus: aina hyödyllinen, ei koskaan vahingollinen*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Luonnostaan hyödyllisen kaupan on oltava täysin ja täydellisesti vapaata. Yksi heidän jäsenistään, Le Trosne, kirjoitti jopa pamfletin nimeltä [*Viljakaupan vapaus: aina hyödyllinen, ei koskaan vahingollinen*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/).
 
 ### Viides periaate: kaikki ihmiset ovat veljiä
 

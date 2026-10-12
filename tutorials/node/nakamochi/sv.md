@@ -148,7 +148,7 @@ För mer information: [Kanaler | Zeus-dokumentation](https://docs.zeusln.app/)
 _Bitbanana skärmdump_ _Bitbanana skärmdump
 
 
-För mer information: [BitBanana](https://bitbanana.com)
+För mer information: [BitBanana](https://bitbanana.app)
 
 
 När din kanal är öppen kan betalningar dirigeras genom den till andra deltagare i nätverket. Saldon justeras off-chain, vilket säkerställer att transaktioner är nästan omedelbara och medför minimala avgifter.

@@ -38,9 +38,9 @@ description: คุณจะเรียกใช้ Plan ₿ Academy ในส�
 คัดลอกที่เก็บไปยังเครื่องของคุณ:
 
 
-git clone [https://github.com/PlanB-Network/bitcoin-learning-management-system](https://github.com/PlanB-Network/bitcoin-learning-management-system￼cd)
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 
-[cd](https://github.com/PlanB-Network/bitcoin-learning-management-system￼cd) bitcoin-learning-management-system
+cd bitcoin-learning-management-system
 
 
 ```bash

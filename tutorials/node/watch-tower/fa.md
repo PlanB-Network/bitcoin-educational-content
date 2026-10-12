@@ -33,7 +33,7 @@ description: درک و استفاده از Watchtower در نود لایتنین
 
 
 
-*این آموزش از [مستندات رسمی LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md) گرفته شده است. ممکن است برخی تغییرات در نسخه اصلی اعمال شده باشد.
+*این آموزش از [مستندات رسمی LND](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md) گرفته شده است. ممکن است برخی تغییرات در نسخه اصلی اعمال شده باشد.
 
 
 
@@ -519,13 +519,7 @@ ERROR [teosd] Not enough blocks to start the tower (required: 100). Mine at leas
 
 
 
-برج‌های مراقبت متعددی به صورت آنلاین در دسترس هستند. به عنوان مثال، [LN+ و Voltage یک Watchtower نوع‌دوستانه](https://lightningnetwork.plus/Watchtower) ارائه می‌دهند که می‌توانید به آن متصل شوید:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+برج‌های مراقبت متعددی به صورت آنلاین در دسترس هستند. LN+ و Voltage پیش‌تر یک Watchtower نوع‌دوستانه ارائه می‌دادند، اما این سرویس دیگر در دسترس نیست (اکتبر ۲۰۲۶). اکنون LN+ سرویس [Watch Swaps](https://lightningnetwork.plus/watch_swaps) را ارائه می‌دهد که در آن دو گرداننده‌ی گره از کانال‌های یکدیگر مراقبت می‌کنند، و یک [راهنمای Watchtowerهای نوع‌دوستانه](https://lightningnetwork.plus/posts/12) نیز منتشر کرده است.
 
 
 

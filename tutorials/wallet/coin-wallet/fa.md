@@ -44,10 +44,6 @@ Coin Wallet در تمامی پلتفرم‌های اصلی در دسترس اس�
 
 
 
-- [اندروید (فروشگاه گلکسی)](https://galaxystore.samsung.com/detail/com.coinspace.app)
-
-
-
 - [اندروید (Huawei AppGallery)](https://appgallery.huawei.com/app/C112183767)
 
 

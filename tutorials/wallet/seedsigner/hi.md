@@ -94,7 +94,7 @@ https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1
 
 - आवास (वैकल्पिक लेकिन अनुशंसित)** (वैकल्पिक लेकिन अनुशंसित)** (वैकल्पिक लेकिन अनुशंसित)** (वैकल्पिक लेकिन अनुशंसित)**)
     - डिवाइस की सुरक्षा करता है और इसे उपयोग में आसान बनाता है।
-    - सबसे लोकप्रिय मॉडल "*ऑरेंज पिल केस** है, जिसके लिए [3D प्रिंटिंग के लिए ओपन-सोर्स STL फ़ाइलें उपलब्ध हैं](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures)।
+    - सबसे लोकप्रिय मॉडल "*ऑरेंज पिल केस** है, जिसके लिए [3D प्रिंटिंग के लिए ओपन-सोर्स STL फ़ाइलें उपलब्ध हैं](https://github.com/SeedSigner/seedsigner/tree/dev/enclosures)।
     - बक्से [परियोजना से जुड़े स्वतंत्र पुनर्विक्रेताओं](https://seedsigner.com/hardware/) से भी उपलब्ध हैं।
 
 

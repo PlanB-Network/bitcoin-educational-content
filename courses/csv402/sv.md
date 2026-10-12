@@ -3295,7 +3295,7 @@ Beroende på vilket datum du läser den här kursen kan dessa gränssnitt naturl
 #### Interface exempel
 
 
-Denna Rust-kodsnutt visar en [RGB20](https://github.com/RGB-WG/RGB-std/blob/master/src/Interface/rgb20.rs) Interface (fungibel tillgång). Den här koden är hämtad från filen `rgb20.rs` i standardbiblioteket RGB. Låt oss ta en titt på den för att förstå strukturen hos en Interface och hur den utgör en bro mellan, å ena sidan, Business Logic (definierad i Schema) och, å andra sidan, de funktioner som exponeras för plånböcker och användare.
+Denna Rust-kodsnutt visar en [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) Interface (fungibel tillgång). Den här koden är hämtad från filen `rgb20.rs` i standardbiblioteket RGB. Låt oss ta en titt på den för att förstå strukturen hos en Interface och hur den utgör en bro mellan, å ena sidan, Business Logic (definierad i Schema) och, å andra sidan, de funktioner som exponeras för plånböcker och användare.
 
 
 ```rust

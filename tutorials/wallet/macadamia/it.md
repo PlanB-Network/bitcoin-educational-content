@@ -337,7 +337,7 @@ Il modello custodiale richiede vigilanza e buone pratiche di sicurezza. Se usato
 
 
 - Documentazione tecnica: [docs.cashu.space](https://docs.cashu.space)
-- Elenco delle zecche pubbliche: [bitcoinmints.com](https://bitcoinmints.com)
+- Elenco delle zecche pubbliche: [bitcoinmints.com](https://cashumints.space/)
 - Sito ufficiale del protocollo: [cashu.space](https://cashu.space)
 
 

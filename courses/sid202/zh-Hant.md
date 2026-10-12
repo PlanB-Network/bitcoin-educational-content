@@ -46,7 +46,7 @@ Elements 是一個開放原始碼、具備 Sidechain 功能的 [Blockchain](http
 
 Elements 的核心是一個協定，它能夠圍繞[交易](https://planb.academy/resources/glossary/transaction-tx)歷史和規則形成[共識](https://planb.academy/resources/glossary/consensus)，這些交易歷史和規則管理著分佈式 Blockchain Ledger 中儲存的資產的轉移和創建。
 
-有關 Elements 的更多背景資訊，可隨時瀏覽 Elements 計畫網站 (https://elementsproject.org/)、Liquid 官方部落格 (https://blog.Liquid.net/) 及開發人員入口網站(https://Liquid.net/devs)。
+有關 Elements 的更多背景資訊，可隨時瀏覽 Elements 計畫網站 (https://elementsproject.org/)、Liquid 官方部落格 (https://blog.Liquid.net/) 及開發人員入口網站(https://liquid.net/developers)。
 
 ### Elements
 

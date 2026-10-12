@@ -48,7 +48,7 @@ Uma vez que a instalação esteja completa, você precisará inserir seu ID de c
 ![IVPN](assets/notext/04.webp)
 ## Como instalar a IVPN em um smartphone?
 
-Baixe a IVPN da sua loja de aplicativos, seja a [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) para usuários de iOS, a [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) para Android, ou [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Se você estiver usando Android, também tem a opção de baixar o arquivo `.apk` diretamente do [site da IVPN](https://www.ivpn.net/en/apps-android/).
+Baixe a IVPN da sua loja de aplicativos, seja a [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) para usuários de iOS, a [Google Play Store](https://www.ivpn.net/en/apps-android/) para Android, ou [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Se você estiver usando Android, também tem a opção de baixar o arquivo `.apk` diretamente do [site da IVPN](https://www.ivpn.net/en/apps-android/).
 ![IVPN](assets/notext/05.webp)
 Na primeira utilização do aplicativo, você será deslogado. Você precisará inserir seu ID de conta para ativar o serviço.
 ![IVPN](assets/notext/06.webp)

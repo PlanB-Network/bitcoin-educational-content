@@ -296,7 +296,7 @@ Kwa watengenezaji wanaojenga juu ya KaleidoSwap, programu hii inaonyesha API ina
 - WebSocket**: Kwa usajili wa data ya soko kwa wakati halisi.
 
 
-Rejelea [Nyaraka za API](https://docs.kaleidoswap.com/api/introduction) kwa vidokezo kamili na vipimo.
+Rejelea [Nyaraka za API](https://docs.kaleidoswap.com/api-reference/introduction) kwa vidokezo kamili na vipimo.
 
 
 ## Hitimisho

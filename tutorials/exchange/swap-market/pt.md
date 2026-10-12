@@ -566,6 +566,8 @@ Os seus satoshis relâmpago estão imediatamente disponíveis no seu wallet.
 
 ## SwapMarket vs Boltz: Qual é a diferença?
 
+> **Nota (outubro de 2026):** A Boltz Exchange suspendeu todos os swaps em 3 de agosto de 2026 e o seu site está offline. Este fornecedor pode já não estar disponível no SwapMarket.
+
 
 
 ### Boltz: Tecnologia vs. Serviço
@@ -639,7 +641,7 @@ A concorrência entre fornecedores melhora as taxas e multiplica as fontes de li
 
 - [SwapMarket - Aplicação Web](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Documentação técnica](https://docs.boltz.exchange/)
+- [Documentação técnica](https://github.com/BoltzExchange/boltz-backend)
 - [Guia de auto-hospedagem](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 
@@ -649,5 +651,5 @@ A concorrência entre fornecedores melhora as taxas e multiplica as fontes de li
 
 
 
-- [Boltz Exchange](https://boltz.exchange) - Serviço de troca atómica original
+- Boltz Exchange - Serviço de troca atómica original
 - [ZEUS Swaps](https://zeusln.com) - Fornecedor de swaps relâmpago

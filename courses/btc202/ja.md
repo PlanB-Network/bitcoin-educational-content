@@ -383,7 +383,7 @@ BTC 202の最終回となる今回は、皆さんの知識を深めることを�
 
 
 
-[Luke Dash Jr.](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html)(エコシステムで有名な開発者)が2025年8月に収集したデータによると、ネットワークの公開ノードにおける実装の分布は以下の通りである：
+[Luke Dash Jr.](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html)(エコシステムで有名な開発者)が2025年8月に収集したデータによると、ネットワークの公開ノードにおける実装の分布は以下の通りである：
 
 
 
@@ -1521,7 +1521,7 @@ Umbrelの競合他社に対する主な利点の1つは、その広大で非常�
 
 
 
-umbrelのコードは公開されています（閲覧、フォーク、改変が可能です）が、真のオープンソースライセンスではありません。実際、umbrelOSは[*PolyForm Noncommercial 1.0*]ライセンス(https://polyformproject.org/licenses/noncommercial/1.0.0/)の下で配布されていますが、いくつかの関連開発ツールはMITライセンスの下で利用可能です。
+umbrelのコードは公開されています（閲覧、フォーク、改変が可能です）が、真のオープンソースライセンスではありません。実際、umbrelOSは[*PolyForm Noncommercial 1.0*]ライセンス(https://polyformproject.org/licenses/noncommercial/1.0.0)の下で配布されていますが、いくつかの関連開発ツールはMITライセンスの下で利用可能です。
 
 
 
@@ -3884,7 +3884,7 @@ bitcoin.conf`で変更できる、メンプールの管理と未確認トラン�
 
 
 
-これでほとんどのコンフィギュレーション・パラメーターのリストアップが終わった。この`Bitcoin.conf`ファイルはあなたのノードの本当のダッシュボードを構成する。ネットワークの設定、メンプールの管理、ディスクとメモリの使用状況、インデックスの作成、一般的な管理などを定義する。このファイルについてもっと知りたい、自分のニーズに合わせたものを作りたいという方は、[Jameson Loppのジェネレーター](https://jlopp.github.io/Bitcoin-core-config-generator/)を使うことをお勧めする。
+これでほとんどのコンフィギュレーション・パラメーターのリストアップが終わった。この`Bitcoin.conf`ファイルはあなたのノードの本当のダッシュボードを構成する。ネットワークの設定、メンプールの管理、ディスクとメモリの使用状況、インデックスの作成、一般的な管理などを定義する。このファイルについてもっと知りたい、自分のニーズに合わせたものを作りたいという方は、[Jameson Loppのジェネレーター](https://jlopp.github.io/bitcoin-core-config-generator/)を使うことをお勧めする。
 
 
 

@@ -17,9 +17,9 @@ Imbere yo guca mu ntambwe zitandukanye, reka dushire ku rutonde ibikoresho biken
 
 
 
-- a [Iyerekanwa rya Lilygo S3](https://lilygo.cc/ibicuruzwa/iyerekanwa-t-s3)
-- a [Ububasha bwa USB-C Supply]
-- a 3D case: nimba ufise icapa rya 3D, urashobora gukuraho [dosiye ya 3D](dosiye y’ibicapo 3D] ahandi ho ushobora kuyigura kuri [Silexperience kuri interineti ububiko](urubuga rw'ubumenyi bw'ivy'ubuhinga bwa none/NerdMiner_V2-urupapuro rwa 544379757).
+- a [Iyerekanwa rya Lilygo S3](https://lilygo.cc/products/t-display-s3)
+- a [Ububasha bwa USB-C Supply](https://amzn.eu/d/gIOot90)
+- a 3D case: nimba ufise icapa rya 3D, urashobora gukuraho [dosiye ya 3D](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) y’ibicapo 3D] ahandi ho ushobora kuyigura kuri [Bitronics kuri interineti ububiko](https://bitronics.store/).
 - PC ifise umucukumbuzi wa Chrome
 - ihuriro rya interineti
 - a Bitcoin Address.
@@ -30,7 +30,7 @@ Ushobora kandi kugura ikintu ca NerdMiner cakozwe imbere y’igihe ku baguzi ben
 
 
 - [Ibikoresho/ibicuruzwa/umunyabwenge-Miner?_pos=1&_psq=umunyabwenge&_ss=e&_v=1.0)
-- [Umuhinguzi w'ibice](https: iduka ry'ibice/)
+- [Umuhinguzi w'ibice](https://bitronics.store/shop/)
 
 
 Mbere, turabona ingene twoca flash iyo software kuri ESP-32 S3, hanyuma turabe ingene twoyisubiramwo kugira ngo duhindure urubuga rwa wifi. Izo ntambwe ni iz'abakoresha Windows, nimba ukoresha Linux OS, usabwe gukora [intambwe z'intango](#etapes-intango-gusuka-abakoresha-linux) kugira ngo wemerere kwemerwa na ESP-32 S3 na sisitemu yawe.
@@ -42,7 +42,7 @@ Mbere, turabona ingene twoca flash iyo software kuri ESP-32 S3, hanyuma turabe i
 ## Intambwe ya 1: Gutegura Webflasher
 
 
-Ubwa mbere, ukeneye kuja ku [muco wo kuri interineti wa NM2](https).
+Ubwa mbere, ukeneye kuja ku [muco wo kuri interineti wa NM2](https://bitmaker-hub.github.io/diyflasher/).
 
 
 Hanyuma uhitemwo porogarama ihuye na ESP-32 yawe. Akenshi ni yo isanzwe: T-Display S3. Hanyuma ukande kuri "Flash".
@@ -95,7 +95,6 @@ Ku ba NerdMiners, ushobora guhitamwo kwifatanya na kimwe muri ibi bidengeri:
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Default Solo and open-source mining pool |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Maintained by CHMEX                      |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Maintained by djerfy                     |
 
 Umaze guhitamwo ikidengeri cawe, ukeneye kwinjira muri Bitcoin Address yawe kugira ngo uronke impembo mu gihe (mu buryo budasanzwe) hoba hariho ivyuma.
 
@@ -190,5 +189,5 @@ Aha hariho amahuza nimba ushaka gusoma vyinshi ku bijanye n’ico kibazo:
 
 
 
-- [Umucukuzi_v2 urupapuro rw'umugambi](http://github.com/Ikigo/Umucukuzi_v2)
-- [Inyandiko zuzuye z'abacukuzi b'amabuye y'agaciro](inyandiko.
+- [Umucukuzi_v2 urupapuro rw'umugambi](http://github.com/BitMaker-hub/NerdMiner_v2)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

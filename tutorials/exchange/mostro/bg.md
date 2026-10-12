@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - Частен ключ на Nostr** (формат `nsec1...`)
- - Създаване на специален ключ за търговия в [nostrkeygen.com](https://nostrkeygen.com/)
+ - Създаване на специален ключ за търговия в [nostrkeygen.com](https://nostrtool.com/)
  - Важно**: Никога не използвайте основния си личен ключ Nostr
  - Съхранявайте личния си ключ на сигурно място (мениджър на пароли)
 
@@ -962,7 +962,7 @@ Mostro P2P представлява обещаваща алтернатива н
 
 
 - [Основно хранилище в GitHub](https://github.com/MostroP2P/mostro)
-- [Уеб клиент](https://github.com/MostroP2P/mostro-web)
+- [Уеб клиент](https://github.com/MostroP2P/app)
 - [Клиент CLI](https://github.com/MostroP2P/mostro-cli)
 
 

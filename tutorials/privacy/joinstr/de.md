@@ -293,7 +293,6 @@ Verwenden Sie ein öffentliches Lesezeichen wie :
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -650,7 +649,7 @@ Vor dem Hintergrund zunehmender finanzieller Kontrolle werden dezentralisierte I
 
 
 
-- [Joinstr offizielle Website](https://joinstr.xyz)
+- [Joinstr offizielle Website](https://docs.joinstr.xyz/)
 - [Benutzerdokumentation](https://docs.joinstr.xyz/users/using-joinstr)
 - [Technische Dokumentation](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab-Quellcode](https://gitlab.com/invincible-privacy/joinstr)
@@ -682,6 +681,5 @@ Vor dem Hintergrund zunehmender finanzieller Kontrolle werden dezentralisierte I
 
 
 
-- [Lesezeichen Faucet](https://signetfaucet.com) - Bitcoins kostenlos testen
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet Alternative
 - [Mempool.space](https://mempool.space) - Block explorer mit Datenschutzanalyse

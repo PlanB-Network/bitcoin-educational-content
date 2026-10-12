@@ -141,7 +141,7 @@ Uwuzokwakira azokenera gucapura kode ya QR yashizweho kugira ngo asabe iyo satos
 
 
 
-Ukwishura hanze y’ingurukanabumenyi ahanini bikorwa hakoreshejwe [e-cash](https://planb.urubuga/ibikoresho/urutonde rw’amajambo/e-cash-david-chaum). Ivyo ugurisha bibikwa muri telefone yawe, kandi ukimara kwinjira kuri Internet, kwemeza ivyo ugurisha biraca bihita. Ushobora kandi kwemeza ko wishyuye n'amaboko ukanda kuri **Wemeza ko wishuye**.
+Ukwishura hanze y’ingurukanabumenyi ahanini bikorwa hakoreshejwe [e-cash](https://planb.academy/resources/glossary/ecash-david-chaum). Ivyo ugurisha bibikwa muri telefone yawe, kandi ukimara kwinjira kuri Internet, kwemeza ivyo ugurisha biraca bihita. Ushobora kandi kwemeza ko wishyuye n'amaboko ukanda kuri **Wemeza ko wishuye**.
 
 
 

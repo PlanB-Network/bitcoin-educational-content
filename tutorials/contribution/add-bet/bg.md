@@ -121,7 +121,7 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 project: Plan ₿ Academy
 type: Educational Content
 links:
-download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
 view:
 ```
 
@@ -303,7 +303,7 @@ https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/reso
 
 
 ```url
-https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 

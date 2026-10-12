@@ -42,7 +42,7 @@ Kugira ngo ushiremwo Thunderbird, ukeneye gukura iyo porogarama ku [urubuga rwem
 
 
 
-Kugira ngo ubone verisiyo yihariye ya Thunderbird, genda kuri [iyi paji](https://www.inkuba.net/an/inyoni y’inkuba/yose/). Hitamwo ururimi rwawe, ushireho uburyo bwo gukoresha n’ubwubatsi bwa processeur, hanyuma utangure gukuraho.
+Kugira ngo ubone verisiyo yihariye ya Thunderbird, genda kuri [iyi paji](https://www.thunderbird.net/an/thunderbird/all/). Hitamwo ururimi rwawe, ushireho uburyo bwo gukoresha n’ubwubatsi bwa processeur, hanyuma utangure gukuraho.
 
 
 

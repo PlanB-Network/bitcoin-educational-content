@@ -8,7 +8,7 @@ description: Woshobora gute kugira uruhara mu gukosora/gusubiramwo ibirimwo inyi
 ## Mu ncamake
 
 
-Niba ushaka gukosora canke gusubiramwo ibirimwo vya Plan ₿ Academy, winjire mu [mugwi wacu wa Telegaramu](https://t.me/Uwukora_Ibirimwo) wihariye intererano. Imenyekanishe muri make, hanyuma ugaragaze ivyo ushaka gusubiramwo be n’ururimi. Kora ivyo ukosora kw’ishami rikora maze ushiremwo PR iyo isuzuma ryawe rirangiye.
+Niba ushaka gukosora canke gusubiramwo ibirimwo vya Plan ₿ Academy, winjire mu [mugwi wacu wa Telegaramu](https://t.me/PlanBNetwork_ContentBuilder) wihariye intererano. Imenyekanishe muri make, hanyuma ugaragaze ivyo ushaka gusubiramwo be n’ururimi. Kora ivyo ukosora kw’ishami rikora maze ushiremwo PR iyo isuzuma ryawe rirangiye.
 
 
 Nimba utatahuye igice kiri hejuru, ntuhagarike umutima—iyi nyigisho ni iyawe!
@@ -31,7 +31,7 @@ Plan ₿ Academy ifise intumbero yo kuba ikibanza ca bose c’urubuga rwa Bitcoi
 Plan ₿ Academy mu vy’ukuri ni indimi nyinshi, kuko intumbero yacu ari ugutuma ibikoresho vya Bitcoin bishikira umuntu wese kw’isi yose. Twemera ko ururimi rudakwiye kuba intambamyi ku mahera y’igihugu.
 
 
-Kugira ivyo bishoboke, dukoresha uburyo bwa Human x AI. Biciye kuri [porogarama] yacu(https://github.com/Asi0Flammeus/LLM-Translator), turashobora guhindura ubwacu ibirimwo mu ndimi nyinshi. Ariko rero, turakeneye umuntu avuga neza kugira ngo ayisuzume kugira ngo abone ko ibirimwo bitahurwa kandi ko ata majambo adakwiriye arimwo.
+Kugira ivyo bishoboke, dukoresha uburyo bwa Human x AI. Biciye kuri [porogarama](https://github.com/Asi0Flammeus/LLM-Translator) yacu(https://github.com/Asi0Flammeus/LLM-Translator), turashobora guhindura ubwacu ibirimwo mu ndimi nyinshi. Ariko rero, turakeneye umuntu avuga neza kugira ngo ayisuzume kugira ngo abone ko ibirimwo bitahurwa kandi ko ata majambo adakwiriye arimwo.
 
 
 Niba ushaka gufasha kwubaka uyu mugambi w’inyigisho wo guteza imbere inyigisho za Bitcoin mu kibano cawe, urashobora gutangura usubiramwo inyigisho canke inyigisho.
@@ -66,7 +66,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Injira [mu mugwi w'abahinga mu vy'ubuhinga bwa Plan ₿ Academy](https://t.me/Ubuhinga bwo kwubaka ibirimwo) kuri Telegram.
+- Injira [mu mugwi w'abahinga mu vy'ubuhinga bwa Plan ₿ Academy](https://t.me/PlanBNetwork_ContentBuilder) kuri Telegram.
 
 
 ![REVIEW](assets/fr/01.webp)
@@ -201,7 +201,7 @@ Kugira ngo umenye vyinshi ku bijanye n'ingingo ngenderwako zo gukoresha igihe uk
 
 
 
-- Murakoze cane, PR yanyu yarashitse! Ushobora gukurikirana ingene itera imbere mu gice ca "Ibisabwa vyo gukuraho" ku [bubiko bwa GitHub bwa Plan ₿ Academy](https://github.com/PlanB-Irezo/Bitcoin-ibirimwo-inyigisho/ibikuraho):
+- Murakoze cane, PR yanyu yarashitse! Ushobora gukurikirana ingene itera imbere mu gice ca "Ibisabwa vyo gukuraho" ku [bubiko bwa GitHub bwa Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 
 ![REVIEW](assets/fr/12.webp)

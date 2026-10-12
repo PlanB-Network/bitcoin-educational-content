@@ -267,7 +267,7 @@ Blockchain, Transação, Gasto Duplo, Problema dos Generais Bizantinos, Mining, 
 O objetivo deste bloco de curso é obter uma compreensão geral do software BTCPay Server. Num ambiente partilhado, recomenda-se que siga a demonstração do instrutor e consulte o BTCPay Server Coursebook para acompanhar o professor. Aprenderá a criar um Wallet através de vários métodos. Os exemplos incluem configurações Hot Wallet e carteiras de hardware ligadas através do BTCPay Server Vault. Estes objectivos ocorrem no ambiente Demo, apresentado e ao qual o professor do curso dá acesso.
 
 
-Se seguir este curso sozinho, pode encontrar uma lista de hosts de terceiros para fins de demonstração em https://diretory.btcpayserver.org/filter/hosts. Aconselhamos vivamente a não utilizar estas opções de terceiros como ambientes de produção; no entanto, servem o objetivo correto para introduzir a utilização do Bitcoin e do servidor BTCPay.
+Se seguir este curso sozinho, pode encontrar uma lista de hosts de terceiros para fins de demonstração em https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Aconselhamos vivamente a não utilizar estas opções de terceiros como ambientes de produção; no entanto, servem o objetivo correto para introduzir a utilização do Bitcoin e do servidor BTCPay.
 
 
 Como um estagiário rockstar do BTCPay Server, você pode ter experiência anterior na configuração de um nó Bitcoin. Este curso é especificamente adaptado à pilha de software do servidor BTCPay.
@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Registos do nó Bitcoin
 
 
-Para além de [ver os registos](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) do seu contentor bitcoind, também pode utilizar qualquer um dos [comandos bitcoin-cli](https://developer.Bitcoin.org/reference/RPC/index.html)
+Para além de [ver os registos](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) do seu contentor bitcoind, também pode utilizar qualquer um dos [comandos bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(abre nova janela)](https://developer.Bitcoin.org/reference/RPC/index.html) para obter informações do seu nó Bitcoin. BTCPay inclui um script que lhe permite comunicar facilmente com o seu nó Bitcoin.
+[(abre nova janela)](https://developer.bitcoin.org/reference/rpc/index.html) para obter informações do seu nó Bitcoin. BTCPay inclui um script que lhe permite comunicar facilmente com o seu nó Bitcoin.
 
 
 Dentro da pasta btcpayserver-docker, obtém a informação Blockchain utilizando o teu nó:

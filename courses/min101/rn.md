@@ -129,7 +129,7 @@ Ibaze Bitcoin nk’agatabo kanini ka bose, gasangiwe n’abantu bose, aho twandi
 
 
 
-Muri Bitcoin, iyo utanga [amahera](https://planb.academy/resources/glossary/transaction-fees), urema igikorwa co gucuruza. Ivyo bicuruzwa ntibica vyongerwa ku kazu k’inyandiko. Ibanza yoherezwa ku rubuga, hanyuma igategerezwa gushirwa mu gice gikurikira c’ibikorwa. Iryo pake ryitwa [block](https://planb.academy/resources/glossary/block).
+Muri Bitcoin, iyo utanga [amahera](https://planb.academy/resources/glossary/transaction-tx), urema igikorwa co gucuruza. Ivyo bicuruzwa ntibica vyongerwa ku kazu k’inyandiko. Ibanza yoherezwa ku rubuga, hanyuma igategerezwa gushirwa mu gice gikurikira c’ibikorwa. Iryo pake ryitwa [block](https://planb.academy/resources/glossary/block).
 
 
 
@@ -666,7 +666,7 @@ Muri Bitcoin, "*benshi*" si umubare munini w'abaje mu nama, ahubwo ni **uruzitir
 
 
 
-[Ivyabona vya Yehova, S. (2008). *Bitcoin: Uburyo bwo gukoresha amahera mu buhinga bwa none.*]
+[Ivyabona vya Yehova, S. (2008). *Bitcoin: Uburyo bwo gukoresha amahera mu buhinga bwa none.*](https://bitcoin.org/bitcoin.pdf)
 
 
 
@@ -1613,7 +1613,7 @@ Muri ico gihe niho ingorane za mining zatangura guturika. Hagati y’umwaka wa 2
 
 
 
-*Isoko: [CoinWarz.com] (Igishushanyo c'Igihugu c'Igihugu c'Igihugu c'Igihugu c'Igihugu)*
+*Isoko: [CoinWarz.com](https://www.coinwarz.com/mining/bitcoin/hashrate-chart) (Igishushanyo c'Igihugu c'Igihugu c'Igihugu c'Igihugu c'Igihugu)*
 
 
 
@@ -1821,7 +1821,7 @@ Mu gihe c’ukwandika (mu ntango za 2026), Bitcoin hashrate yo kw’isi yose iri
 
 
 
-Aha niho hari urutonde, gushika ubu, rw'ibidengeri nyamukuru vya mining n'umugabane wavyo wa hashrate. Ivyo bishobora guhinduka igihe uzoba uriko urasoma iri shure. Ku makuru agezweho, usabwe gusura [mempool.ikibanza](https://mempool.ikibanza/ibishushanyo/mining/ibidengeri).
+Aha niho hari urutonde, gushika ubu, rw'ibidengeri nyamukuru vya mining n'umugabane wavyo wa hashrate. Ivyo bishobora guhinduka igihe uzoba uriko urasoma iri shure. Ku makuru agezweho, usabwe gusura [mempool.ikibanza](https://mempool.space/graphs/mining/pools).
 
 
 
@@ -1855,7 +1855,7 @@ Aha niho hari urutonde, gushika ubu, rw'ibidengeri nyamukuru vya mining n'umugab
 |         22 | Unknown        |             2 |            0.05% |
 |         23 | Public Pool    |             1 |            0.02% |
 
-*Isoko [mempool.ikibanza](https://mempool.ikibanza/ibishushanyo/mining/ibidengeri), amakuru y'ukwezi kumwe, kuva ku wa 16 Kigarama 2025 gushika ku wa 16 Mukakaro 2025.*
+*Isoko [mempool.ikibanza](https://mempool.space/graphs/mining/pools), amakuru y'ukwezi kumwe, kuva ku wa 16 Kigarama 2025 gushika ku wa 16 Mukakaro 2025.*
 
 
 

@@ -122,7 +122,7 @@ För användare utanför Umbrel (t.ex. på en personlig server, en Raspberry Pi 
 
 
 
-**Förutsättningar:** Se till att ditt system uppfyller minimikraven enligt [documentation setup](https://docs.thunderhub.io/setup):
+**Förutsättningar:** Se till att ditt system uppfyller minimikraven enligt [documentation setup](https://docs.thunderhub.io/configure):
 
 
 
@@ -136,7 +136,7 @@ För användare utanför Umbrel (t.ex. på en personlig server, en Raspberry Pi 
 
 
 
-**1. Hämta ThunderHub-kod:** Klona projektets GitHub-repository enligt beskrivningen i [installationsdokumentationen](https://docs.thunderhub.io/installation):
+**1. Hämta ThunderHub-kod:** Klona projektets GitHub-repository enligt beskrivningen i [installationsdokumentationen](https://docs.thunderhub.io/get-started):
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Huvudkonfigurationsfil:** Skapa en `.env.local`-fil i roten av ThunderHub-mappen för att anpassa konfigurationen (detta förhindrar att dina inställningar skrivs över under uppdateringar). Huvudvariabler enligt [setup documentation](https://docs.thunderhub.io/setup):
+**1. Huvudkonfigurationsfil:** Skapa en `.env.local`-fil i roten av ThunderHub-mappen för att anpassa konfigurationen (detta förhindrar att dina inställningar skrivs över under uppdateringar). Huvudvariabler enligt [setup documentation](https://docs.thunderhub.io/configure):
 
 
 
@@ -304,8 +304,8 @@ Inloggningssidan för ThunderHub visas. Välj det konfigurerade kontot och ange 
 
 
 
-- **Installation:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- **Konfiguration:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Installation:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- **Konfiguration:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

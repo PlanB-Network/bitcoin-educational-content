@@ -2313,7 +2313,7 @@ Tentu saja, tergantung pada tanggal Anda membaca kursus ini, antarmuka-antarmuka
 
 #### Contoh antarmuka
 
-Potongan kode Rust ini menunjukkan Antarmuka [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) (aset yang dapat dipertukarkan). Kode ini diambil dari file `rgb20.rs` dalam pustaka RGB standar. Mari kita lihat untuk memahami struktur Antarmuka dan bagaimana ia menyediakan jembatan antara, di satu sisi, logika bisnis (didefinisikan dalam Skema) dan, di sisi lain, fungsi yang terpapar ke dompet dan pengguna.
+Potongan kode Rust ini menunjukkan Antarmuka [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) (aset yang dapat dipertukarkan). Kode ini diambil dari file `rgb20.rs` dalam pustaka RGB standar. Mari kita lihat untuk memahami struktur Antarmuka dan bagaimana ia menyediakan jembatan antara, di satu sisi, logika bisnis (didefinisikan dalam Skema) dan, di sisi lain, fungsi yang terpapar ke dompet dan pengguna.
 
 ```rust
 // ...

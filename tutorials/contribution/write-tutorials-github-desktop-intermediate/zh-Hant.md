@@ -253,7 +253,7 @@ project_id`是指教學中涉及的工具背後的公司或組織的UUID，可�
 現在您可以跳過「沒有我的 Python 指令碼」這一小節以及步驟 3「填入 YAML 檔案」，因為指令碼已經為您完成這些動作。直接進入步驟 4，開始撰寫您的教學。
 
 
-有關這個 Python 腳本的更多資訊，您也可以查看 [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)。
+有關這個 Python 腳本的更多資訊，您也可以查看 [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md)。
 
 
 ### 沒有我的 Python 指令碼

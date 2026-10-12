@@ -150,7 +150,7 @@ BTC 202 是一门通俗易懂的课程，旨在教导您如何运行自己的比
 
 
 
-Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System*。https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System*。https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -202,7 +202,7 @@ Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System*。https:/
 
 > 确认没有交易的唯一方法就是了解所有的交易。
 
-Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System*。https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System*。https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -381,7 +381,7 @@ Bitcoin Core 是比特币协议的基准软件。它源于 Satoshi Nakamoto 在 
 
 
 
-根据[Luke Dashjr 于 2025 年 8 月收集的数据](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html)（生态系统中的知名开发者），网络公共节点的实施分布情况如下：
+根据[Luke Dashjr 于 2025 年 8 月收集的数据](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html)（生态系统中的知名开发者），网络公共节点的实施分布情况如下：
 
 
 
@@ -764,7 +764,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System.*。https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System.*。https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -1518,7 +1518,7 @@ Umbrel 可以保持极简风格，只专注于比特币，也可以发展成为�
 
 
 
-Umbrel 的代码是公开的（您可以查看、创造分叉和修改它），但它并不是根据真正的开源许可证发布的。事实上，umbrelOS 是根据[*PolyForm Noncommercial 1.0*]许可证（https://polyformproject.org/licenses/noncommercial/1.0.0/）发布的，尽管一些相关的开发工具是根据 MIT 许可证发布的。
+Umbrel 的代码是公开的（您可以查看、创造分叉和修改它），但它并不是根据真正的开源许可证发布的。事实上，umbrelOS 是根据[*PolyForm Noncommercial 1.0*]许可证（https://polyformproject.org/licenses/noncommercial/1.0.0）发布的，尽管一些相关的开发工具是根据 MIT 许可证发布的。
 
 
 
@@ -3876,7 +3876,7 @@ Bitcoin Core 的配置文件还允许您调整与机器相关的参数。如果�
 
 
 
-现在我们已经列出了大部分配置参数。因此，这个 `Bitcoin.conf` 文件构成了节点的真正仪表板：它定义了网络配置、Mempool 管理、磁盘和内存使用、索引和一般管理。如果您想进一步了解该文件，并根据自己的需要创建一个文件，我建议您使用 [Jameson Lopp 的生成器](https://jlopp.github.io/Bitcoin-core-config-generator/)。
+现在我们已经列出了大部分配置参数。因此，这个 `Bitcoin.conf` 文件构成了节点的真正仪表板：它定义了网络配置、Mempool 管理、磁盘和内存使用、索引和一般管理。如果您想进一步了解该文件，并根据自己的需要创建一个文件，我建议您使用 [Jameson Lopp 的生成器](https://jlopp.github.io/bitcoin-core-config-generator/)。
 
 
 

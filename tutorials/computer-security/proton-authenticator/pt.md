@@ -562,7 +562,7 @@ O Proton Authenticator é uma das soluções mais abrangentes e seguras disponí
 
 - **Sítio Web oficial**: [proton.me/authenticator](https://proton.me/authenticator) - Apresentação do produto e transferências
 - **Página de descarregamento**: [proton.me/en/authenticator/download](https://proton.me/fr/authenticator/download) - Ligações para todos os sistemas operativos
-- **Suporte do Proton**: [proton.me/support/two-fator-authentication-2fa](https://proton.me/support/two-fator-authentication-2fa) - Guia oficial de ativação do 2FA
+- **Suporte do Proton**: [proton.me/support/two-fator-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Guia oficial de ativação do 2FA
 - **Blogue do Proton**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Anúncio e caraterísticas pormenorizadas
 
 
@@ -572,8 +572,8 @@ O Proton Authenticator é uma das soluções mais abrangentes e seguras disponí
 
 
 
-- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Código-fonte aberto
-- **Auditorias de segurança**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Relatórios de auditoria independentes
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - Código-fonte aberto
+- **Auditorias de segurança**: [proton.me/community/security-audits](https://proton.me/community/open-source) - Relatórios de auditoria independentes
 
 
 
@@ -586,7 +586,7 @@ Após a configuração, teste a sua instalação:
 
 
 - [Have I Been Pwned](https://haveibeenpwned.com/) - Verifique se as suas contas foram comprometidas
-- [Diretório 2FA](https://2fa.diretory/) - Lista de serviços que suportam a 2FA
+- [Diretório 2FA](https://2fa.directory/) - Lista de serviços que suportam a 2FA
 
 
 
@@ -607,4 +607,4 @@ Após a configuração, teste a sua instalação:
 
 
 - [Have I Been Pwned](https://haveibeenpwned.com/) - Verifique se as suas contas foram comprometidas
-- [Diretório 2FA](https://2fa.diretory/) - Lista de serviços que suportam a 2FA
+- [Diretório 2FA](https://2fa.directory/) - Lista de serviços que suportam a 2FA

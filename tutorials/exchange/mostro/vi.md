@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - Khóa riêng tư Nostr** (định dạng `nsec1...`)
- - Tạo khóa giao dịch chuyên dụng trên [nostrkeygen.com](https://nostrkeygen.com/)
+ - Tạo khóa giao dịch chuyên dụng trên [nostrkeygen.com](https://nostrtool.com/)
  - Quan trọng**: Không bao giờ sử dụng khóa Nostr cá nhân chính của bạn
  - Giữ khóa riêng của bạn ở nơi an toàn (trình quản lý mật khẩu)
 
@@ -962,7 +962,7 @@ Mostro P2P là một giải pháp thay thế đầy hứa hẹn cho các sàn gi
 
 
 - [Kho lưu trữ GitHub chính](https://github.com/MostroP2P/mostro)
-- [Trình duyệt web](https://github.com/MostroP2P/mostro-web)
+- [Trình duyệt web](https://github.com/MostroP2P/app)
 - [Khách hàng CLI](https://github.com/MostroP2P/mostro-cli)
 
 

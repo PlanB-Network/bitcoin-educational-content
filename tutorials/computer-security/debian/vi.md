@@ -77,9 +77,9 @@ Việc lựa chọn ảnh Debian phụ thuộc vào kiến trúc bộ xử lý c
 
 
 
-- **AMD64**: tải xuống phiên bản "live hybrid" từ danh sách [tải xuống](https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- **ARM64**: lấy ảnh DVD từ trang web chính thức [Debian](https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- **Các kiến trúc khác**: tìm ISO tương ứng với kiến trúc của bạn [tại đây](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: tải xuống phiên bản "live hybrid" từ danh sách [tải xuống](https://debian.obspm.fr/debian-cd/current-live/amd64/iso-hybrid/).
+- **ARM64**: lấy ảnh DVD từ trang web chính thức [Debian](https://debian.obspm.fr/debian-cd/current/arm64/iso-dvd/).
+- **Các kiến trúc khác**: tìm ISO tương ứng với kiến trúc của bạn [tại đây](https://debian.obspm.fr/debian-cd/current/).
 
 
 

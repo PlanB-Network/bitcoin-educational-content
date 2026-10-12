@@ -33,7 +33,7 @@ Selles õpetuses vaatleme 3 võimalust, kuidas kasutada **Watchtower** :
 
 
 
-*See õpetus on võetud [ametlikust LND dokumentatsioonist](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Originaalversioonis võib olla tehtud mõningaid muudatusi
+*See õpetus on võetud [ametlikust LND dokumentatsioonist](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). Originaalversioonis võib olla tehtud mõningaid muudatusi
 
 
 
@@ -519,13 +519,7 @@ Samast menüüst leiate ka oma Watchtower teenuse URI, kui olete selle aktiveeri
 
 
 
-Internetis on saadaval mitu Watchtowerit. Näiteks [LN+ ja Voltage pakuvad altruistlikku Watchtower](https://lightningnetwork.plus/Watchtower), millega saab ühendada:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+Internetis on saadaval mitu Watchtowerit. LN+ ja Voltage pakkusid varem altruistlikku Watchtowerit, kuid see ei ole enam saadaval (oktoober 2026). LN+ pakub nüüd teenust [Watch Swaps](https://lightningnetwork.plus/watch_swaps), kus kaks sõlme haldajat valvavad teineteise kanaleid, ning avaldab [juhendi altruistlike Watchtowerite kohta](https://lightningnetwork.plus/posts/12).
 
 
 

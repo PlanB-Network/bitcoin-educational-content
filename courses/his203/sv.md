@@ -523,7 +523,7 @@ Som vi sa i början av 2011 var Mt. Gox-plattformen inte säker. Och den var log
 Den 1 mars 2011, precis när överföringen skulle göras officiell, försvann 80 000 bitcoins (https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) i tomma intet tack vare skadlig åtkomst till webbplatsens wallet.dat-fil. Den 3:e märkte Jed McCaleb uttaget och [informerade](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Mark på IRC att "något dåligt hade hänt". Det var en stor förlust (en bitcoin såldes för 0,92 USD vid den tidpunkten), som skulle växa sig större och större under de följande månaderna i takt med den exempellösa prisuppgången.
 
 
-Detta problem [nämndes] (https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) av Jed den 18 april i ett e-postmeddelande till Mark, där han skrev:
+Detta problem [nämndes] (https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) av Jed den 18 april i ett e-postmeddelande till Mark, där han skrev:
 
 
 > "Jag kan inte säga hur stor en fråga det kommer att vara att vara kort 80k BTC om priset går till $ 100 eller något. Det är ganska mycket att vara skyldig vid den tidpunkten men mtgox borde ha gjort massor av BTC (Bitcoin) att komma dit. Det finns också fortfarande det faktum att BTC (Bitcoin) -balansen förmodligen aldrig kommer att falla under 80k. Så kanske behöver du inte riktigt oroa dig för det."
@@ -608,7 +608,7 @@ Den 6 juni [lanserade] (https://bitcointalk.org/index.php?topic=26543.msg332466#
 
 
 
-I Östeuropa [lanserades] (https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871) Bitomat-plattformen, baserad i Polen, den 4 april. Gränssnittet var rudimentärt, men gjorde det möjligt för polska användare att växla sina zlotys mot bitcoins. Värt att nämna är också Cavirtex, som [öppnades] (https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) den 2 juli och som var verksamt i Kanada.
+I Östeuropa [lanserades] (https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166) Bitomat-plattformen, baserad i Polen, den 4 april. Gränssnittet var rudimentärt, men gjorde det möjligt för polska användare att växla sina zlotys mot bitcoins. Värt att nämna är också Cavirtex, som [öppnades] (https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) den 2 juli och som var verksamt i Kanada.
 
 
 
@@ -1230,7 +1230,7 @@ I början av mars 2012 [accepterade] (https://bitcointalk.org/index.php?topic=67
 
 
 
-År 2011 ledde Bitcoin:s avsaknad av auktorisering till att medlemmar i communityt började föreställa sig användningsområden som gick utöver enkel penningväxling och spekulation. De ville liberalisera investeringar genom att tillhandahålla ett sätt att emittera aktier och obligationer för företag i ekosystemet. Målet var att kringgå regler som införts av *Securities and Exchange Commission* i USA (den amerikanska motsvarigheten till AMF) genom att [dra fördel](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) av Bitcoin:s innovativa karaktär och den juridiska vaghet som omgav den. Tanken var att skapa en alternativ modell till det klassiska finansiella systemet, som enligt det agoristiska synsättet kunde vara självförstärkande.
+År 2011 ledde Bitcoin:s avsaknad av auktorisering till att medlemmar i communityt började föreställa sig användningsområden som gick utöver enkel penningväxling och spekulation. De ville liberalisera investeringar genom att tillhandahålla ett sätt att emittera aktier och obligationer för företag i ekosystemet. Målet var att kringgå regler som införts av *Securities and Exchange Commission* i USA (den amerikanska motsvarigheten till AMF) genom att [dra fördel](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) av Bitcoin:s innovativa karaktär och den juridiska vaghet som omgav den. Tanken var att skapa en alternativ modell till det klassiska finansiella systemet, som enligt det agoristiska synsättet kunde vara självförstärkande.
 
 
 
@@ -1270,7 +1270,7 @@ Trots detta fortsatte GLBSE sin verksamhet. I början av hösten fanns ett 30-ta
 
 
 
-Ett annat sådant projekt som dök upp en tid senare var MPEx, som skapades av en mycket kontroversiell person vid namn Mircea Popescu. Han var rumän, ursprungligen från Transsylvanien, och var en flitig skribent på sin blogg [Trilema] (http://trilema.com/archives-categories/): han skrev om alla ämnen (filosofi, politik, sexualitet) i en medvetet provokativ stil, till en början på rumänska. Han blev intresserad av Bitcoin sommaren 2011 och började [prata](http://trilema.com/2011/ce-este-bitcoin/) om det på sin blogg.
+Ett annat sådant projekt som dök upp en tid senare var MPEx, som skapades av en mycket kontroversiell person vid namn Mircea Popescu. Han var rumän, ursprungligen från Transsylvanien, och var en flitig skribent på sin blogg [Trilema] (https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/): han skrev om alla ämnen (filosofi, politik, sexualitet) i en medvetet provokativ stil, till en början på rumänska. Han blev intresserad av Bitcoin sommaren 2011 och började [prata](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/) om det på sin blogg.
 
 
 
@@ -1286,7 +1286,7 @@ I augusti [öppnade](https://bitcointalk.org/index.php?topic=15672.msg444367#msg
 
 
 
-I slutet av februari 2012 genomförde han en [kapitalanskaffning](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) genom att emittera aktier och obligationer och fick in över 3 200 bitcoins, eller cirka 16 000 dollar vid den tidpunkten. Den 11 april, efter en betafas, blev plattformen [äntligen](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) äntligen en bitcoinbörs som tillät emission och handel med olika aktier och döptes om till MPEx(för "Mircea Popescus Exchange").
+I slutet av februari 2012 genomförde han en [kapitalanskaffning](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) genom att emittera aktier och obligationer och fick in över 3 200 bitcoins, eller cirka 16 000 dollar vid den tidpunkten. Den 11 april, efter en betafas, blev plattformen [äntligen](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) äntligen en bitcoinbörs som tillät emission och handel med olika aktier och döptes om till MPEx(för "Mircea Popescus Exchange").
 
 
 
@@ -1298,7 +1298,7 @@ I slutet av februari 2012 genomförde han en [kapitalanskaffning](http://trilema
 
 
 
-Plattformen skulle komma att uppnå en viss grad av framgång och skulle bland annat vara värd för "börsintroduktionen" av SatoshiDICE, det onlinekasino som drivs av Erik Voorhees. Den utvecklades över tid och [integrerade](http://trilema.com/2012/futures-on-mpex/) terminskontrakt i december.
+Plattformen skulle komma att uppnå en viss grad av framgång och skulle bland annat vara värd för "börsintroduktionen" av SatoshiDICE, det onlinekasino som drivs av Erik Voorhees. Den utvecklades över tid och [integrerade](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) terminskontrakt i december.
 
 
 
@@ -1484,7 +1484,7 @@ Deterministiska wallet är till stor del den amerikanske utvecklaren Gregory Max
 
 
 
-*Gregory Maxwell år 2006 (källa: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*Gregory Maxwell år 2006 (källa: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 
@@ -1724,7 +1724,7 @@ Den 19 augusti offentliggjorde Casascius [delade] (https://bitcointalk.org/index
 
 
 
-*Casascius första bitcoins 2011 (källa: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*Casascius första bitcoins 2011 (källa: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -2004,7 +2004,7 @@ Modellen [förlitade sig](https://im.forre.st/pb/85341005.txt) på en "sharechai
 
 
 
-*Sharechain-visualisering (källa: Gregory Maxwell för [Bitcoin Wiki] (https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Sharechain-visualisering (källa: Gregory Maxwell för [Bitcoin Wiki] (https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 
@@ -2106,7 +2106,7 @@ Efter lanseringen av version 0.4 av programvaran den 23 september, som markerade
 
 
 
-*Infångning av Bitcoin-Qt 0.5.2 i februari 2012 (källa: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) för Wikimedia)*
+*Infångning av Bitcoin-Qt 0.5.2 i februari 2012 (källa: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) för Wikimedia)*
 
 
 

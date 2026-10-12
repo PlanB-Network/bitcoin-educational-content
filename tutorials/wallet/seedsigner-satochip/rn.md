@@ -7,7 +7,7 @@ description: Ni gute wokoresha Satochip n’Imbuto yawe?
 
 
 
-*Turashimira [Igitabu c'Ivy'Imibano](https://www.youtube.com/@Igitabu c'Imibano/) ku fork yayo y'ubuhinga bwa SeedSigner bwo gufasha ikarita y'ubwenge, iyo tuzokoresha muri iyi nyigisho
+*Turashimira [Igitabu c'Ivy'Imibano](https://www.youtube.com/@CryptoGuide/) ku fork yayo y'ubuhinga bwa SeedSigner bwo gufasha ikarita y'ubwenge, iyo tuzokoresha muri iyi nyigisho
 
 
 
@@ -69,8 +69,8 @@ Kugira ngo ukore ivyo, uzokenera ibi bikurikira:
 
 
 
-- Igikoresho co kwagura SeedSigner, kiboneka [mu iduka ryemewe rya Satochip](https://satochip.io/igicuruzwa/igikoresho co kwagura-seedsigner/), kigufasha gusoma no kwandika ku ikarita y’ubwenge ukoresheje SeedSigner yawe. Iyindi nzira ni ugukoresha [igikoresho co hanze co gusoma amakarata y’ubwenge](https://satochip.io/igicuruzwa/igikoresho co gusoma amakarata y’ubwenge/), gishobora gufatanywa n’umugozi ku nzira ya Micro-USB iri kuri Raspberry Pi. Ariko rero, jewe ubwanje sinarigeze ngerageza uwo muti;
-- [Ikarata ya Satochip](Ikarata y’ubwenge], canke [ikarata y’ubwenge idafise ikintu] yo gushiramwo applet ya Satochip (igikoresho co kwagura kigurishwa na Satochip a blank smartsd alrea). Igikoresho co kwagura ca Satochip na co nyene gifasha uburyo bwa [SIM JavaCard] Ushobora rero guhitamwo iyi format nimba ubishaka.
+- Igikoresho co kwagura SeedSigner, kiboneka [mu iduka ryemewe rya Satochip](https://satochip.io/product/seedsigner-extension-kit/), kigufasha gusoma no kwandika ku ikarita y’ubwenge ukoresheje SeedSigner yawe. Iyindi nzira ni ugukoresha [igikoresho co hanze co gusoma amakarata y’ubwenge](https://satochip.io/product/chip-card-reader/), gishobora gufatanywa n’umugozi ku nzira ya Micro-USB iri kuri Raspberry Pi. Ariko rero, jewe ubwanje sinarigeze ngerageza uwo muti;
+- [Ikarata ya Satochip](https://satochip.io/product/satochip/) y’ubwenge], canke [ikarata y’ubwenge idafise ikintu](https://satochip.io/product/card-for-diy-project/) yo gushiramwo applet ya Satochip (igikoresho co kwagura kigurishwa na Satochip a blank smartsd alrea). Igikoresho co kwagura ca Satochip na co nyene gifasha uburyo bwa [SIM JavaCard](https://satochip.io/product/blank-sim-javacard-for-diy-project/) Ushobora rero guhitamwo iyi format nimba ubishaka.
 
 
 
@@ -88,7 +88,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-Kugira ngo ukoreshe SeedSigner yawe ukoresheje Satochip, ukeneye gushiramwo ubundi buhinga, butandukanye n’ubw’intango bwa SeedSigner, kugira ngo ushobore gufasha gusoma ikarita y’ubwenge. Ku bw'ivyo, [ndabahimiriza gukoresha fork kuva kuri "**Isubiramwo rya gatatu**"](https://github.com/Isubiramwo rya gatatu/umusinyi w'imbuto). Gukuraho [verisiyo nshasha y'ishusho](`.zip`) ihuye n'akarorero ka Raspberry Pi uriko urakoresha.
+Kugira ngo ukoreshe SeedSigner yawe ukoresheje Satochip, ukeneye gushiramwo ubundi buhinga, butandukanye n’ubw’intango bwa SeedSigner, kugira ngo ushobore gufasha gusoma ikarita y’ubwenge. Ku bw'ivyo, [ndabahimiriza gukoresha fork kuva kuri "**Isubiramwo rya gatatu**"](https://github.com/3rdIteration/seedsigner). Gukuraho [verisiyo nshasha y'ishusho](https://github.com/3rdIteration/seedsigner/releases)(`.zip`) ihuye n'akarorero ka Raspberry Pi uriko urakoresha.
 
 
 
@@ -264,7 +264,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-Iyo seed imaze gukorwa, ni co gihe conyene iba muri RAM ya SeedSigner. Ku bijanye nanje, nshaka kubibika kuri [Umucungezi w’imbuto](https://satochip.io/igicuruzwa/umucungezi w’imbuto/), ikindi gikoresho ca Satochip gigenewe kubika amabanga. Nzokoresha iki gikoresho nk’uburyo bwa nyuma, mu gihe Satochip yanje yoba yatakaje.
+Iyo seed imaze gukorwa, ni co gihe conyene iba muri RAM ya SeedSigner. Ku bijanye nanje, nshaka kubibika kuri [Umucungezi w’imbuto](https://satochip.io/product/seedkeeper/), ikindi gikoresho ca Satochip gigenewe kubika amabanga. Nzokoresha iki gikoresho nk’uburyo bwa nyuma, mu gihe Satochip yanje yoba yatakaje.
 
 
 
@@ -726,7 +726,7 @@ Suzuma amakuru y'ibikorwa ubwa nyuma kugira ngo ubone ko ari ukuri, hanyuma ukan
 
 
 
-Ubu iyo nzira y’ugucuruza irateguwe, ariko ntiyashirwako umukono. Kugira ngo ugaragaze [PSBT (*Partially Signed Bitcoin Transaction*)](kwerekana amajambo) nk’ikode ya QR, kanda kuri `Kwerekana QR`.
+Ubu iyo nzira y’ugucuruza irateguwe, ariko ntiyashirwako umukono. Kugira ngo ugaragaze [PSBT (*Partially Signed Bitcoin Transaction*)](https://planb.academy/en/resources/glossary/psbt) nk’ikode ya QR, kanda kuri `Kwerekana QR`.
 
 
 
@@ -934,5 +934,5 @@ Niba iyi setup yakwemeje, ntukekeranye gushigikira imigambi ituma bishoboka:
 
 
 - Mu kugura ibikoresho vyawe ataco ukoresheje [ku rubuga rwa Satochip](https://satochip.io/shop/);
-- Mu gutanga [intererano ku mugambi w’Umushingantahe w’Imbuto](https://umushingantahe w’imbuto.com/intererano/);
+- Mu gutanga [intererano ku mugambi w’Umushingantahe w’Imbuto](https://seedsigner.com/donate/);
 - Mu kwiyandikisha kuri [umurongo wa YouTube wa Crypto Guide](https://www.youtube.com/@CryptoGuide/), urongowe n’umuntu abungabunga ububiko bwa GitHub bufise porogarama yahinduwe twakoresheje muri iyi nyigisho.

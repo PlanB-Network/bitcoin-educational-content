@@ -112,7 +112,7 @@ Para más información: [Canales | Documentación Zeus](https://docs.zeusln.app/
 
 captura de pantalla de Bitbanana
 
-Para más información: [BitBanana](https://bitbanana.com)
+Para más información: [BitBanana](https://bitbanana.app)
 
 Una vez abierto tu canal, los pagos pueden enrutarse a través de él a otros participantes en la red. Los saldos se ajustan fuera de la cadena, lo que garantiza que las transacciones sean casi instantáneas e incurran en comisiones mínimas.
 

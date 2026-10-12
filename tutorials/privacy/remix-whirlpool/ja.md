@@ -43,7 +43,7 @@ description: Whirlpoolでどれくらいのリミックスを行うべきか？
 
 
 **外部リソース:**
-- https://samouraiwallet.com/whirlpool
+- Samourai Wallet Whirlpool
 - https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
 - https://estudiobitcoin.com/como-instalar-y-utilizar-whirlpool-stats-tools-wst-para-los-calculos-de-los-sets-de-anonimato-de-las-transacciones-coinjoins/
 - https://medium.com/samourai-wallet/diving-head-first-into-whirlpool-anonymity-sets-4156a54b0bc7

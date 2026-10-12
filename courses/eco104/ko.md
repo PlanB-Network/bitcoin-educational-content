@@ -818,10 +818,10 @@ Bitcoin은 파괴적인 잠재력과 독특한 기술로 수백만 명의 마음
 어느 쪽이든, 신화와 전설을 살펴보겠습니다.
 
 
-Satoshi 나카모토는 2008년 P2P 전자 현금이라는 혁신적인 아이디어로 인터넷에 등장했습니다. 그는 "Bitcoin: P2P 전자 현금 시스템"이라는 제목의 [9페이지짜리 논문](https://Bitcoin.org/Bitcoin.pdf)을 통해 자신의 비전을 Cypherpunk 메일링 리스트와 공유했습니다. 처음에는 대부분의 메일링 리스트 회원들이 무관심했지만, 이 아이디어는 한 명의 회원인 Hal Finney에게 충분한 호기심을 불러일으켰고, 그는 결국 Satoshi에 연락을 취했습니다. Hal의 Bitcoin 개발 참여는 전환점이 되어 더 많은 사람들이 지지를 표명하게 되었습니다.
+Satoshi 나카모토는 2008년 P2P 전자 현금이라는 혁신적인 아이디어로 인터넷에 등장했습니다. 그는 "Bitcoin: P2P 전자 현금 시스템"이라는 제목의 [9페이지짜리 논문](https://bitcoin.org/bitcoin.pdf)을 통해 자신의 비전을 Cypherpunk 메일링 리스트와 공유했습니다. 처음에는 대부분의 메일링 리스트 회원들이 무관심했지만, 이 아이디어는 한 명의 회원인 Hal Finney에게 충분한 호기심을 불러일으켰고, 그는 결국 Satoshi에 연락을 취했습니다. Hal의 Bitcoin 개발 참여는 전환점이 되어 더 많은 사람들이 지지를 표명하게 되었습니다.
 
 
-그러나 프로젝트에 참여한 지 2년이 지난 2011년 4월 23일, [신뢰할 만한 마지막 통신](https://plan99.net/~mike/Satoshi-emails/thread5.html)을 통해 "다른 일로 옮겨갔다"고 밝힌 뒤 Satoshi는 흔적도 없이 사라져 버렸습니다
+그러나 프로젝트에 참여한 지 2년이 지난 2011년 4월 23일, [신뢰할 만한 마지막 통신](https://plan99.net/~mike/satoshi-emails/thread5.html)을 통해 "다른 일로 옮겨갔다"고 밝힌 뒤 Satoshi는 흔적도 없이 사라져 버렸습니다
 
 
 Satoshi 나카모토의 미스터리한 실종으로 인해 그의 행방에 대한 다양한 설이 제기되고 있습니다. 어떤 이들은 그가 자신이 의도한 바를 달성했다고 생각했다고 추측하는 반면, 다른 이들은 Bitcoin에 대한 관심이 불편해졌다고 생각합니다. 2010년 12월(https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad), 위키리크스는 전통적인 결제 수단의 사용이 금지되자 자금 조달을 위해 Bitcoin으로 눈을 돌렸습니다. Bitcoin에 대한 관심이 높아지고 미국의 지정학적 이해관계를 방해하는 데 사용되는 통화를 만들면 법적으로 문제가 될 수 있다는 우려 때문에 한 발 물러서게 된 것으로 보입니다. 또는 다른 프로젝트로 관심을 돌렸거나, 여전히 다른 이름으로 Bitcoin에 기여하고 있을 수도 있고, 심지어는 세상을 떠났을 수도 있습니다.
@@ -1168,7 +1168,7 @@ Bitcoin는 개발도상국, 기술에 정통한 개인, 투자자 모두의 관�
 Bitcoin의 Blockchain는 이름에서 알 수 있듯이 블록으로 구성되어 있습니다. 이 블록의 이론적 최대 크기는 4메가바이트입니다. 하지만 이 글을 쓰는 시점의 평균 블록 크기는 약 1.5MB입니다._ 이 제한 때문에 Bitcoin이 처리할 수 있는 초당 트랜잭션 수는 초당 7~10개(tps)로 제한되어 있습니다.
 
 
-따라서 궁금하실 수 있습니다: Bitcoin의 Blockchain이 [1,700 tps](https://towardsdatascience.com/the-Blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)로 거래하는 비자나 마스터카드와 같은 네트워크와 어떻게 경쟁할 수 있을까요?
+따라서 궁금하실 수 있습니다: Bitcoin의 Blockchain이 [1,700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)로 거래하는 비자나 마스터카드와 같은 네트워크와 어떻게 경쟁할 수 있을까요?
 
 
 답은 간단합니다. 그들과 경쟁하는 것이 아닙니다.
@@ -1240,7 +1240,7 @@ Wallet에 액세스하여 자금을 이동할 수는 있지만, 타사에서 Bit
 비수탁형 지갑은 Bitcoin Wallet의 한 유형으로, 사용자가 자금의 유일한 관리인으로서 [개인 키](https://planb.academy/resources/glossary/private-key)를 완전히 제어할 수 있습니다. 개인 키는 Wallet의 비밀번호와 같으며 거래에 서명하고 승인하는 데 사용됩니다. 개인키가 없으면 Bitcoin에 액세스하거나 전송할 수 없습니다.
 
 
-비수탁 지갑은 자금의 안전에 대한 책임은 오직 본인에게 있기 때문에 수탁 지갑보다 더 높은 수준의 보안과 프라이버시를 제공합니다. 비수탁형 지갑의 예로는 [콜드카드](https://store.coinkite.com/store/coldcard), [트레저](https://trezor.io/) 같은 [하드웨어 지갑](https://planb.academy/resources/glossary/hardware-wallet)이 있는데, 이는 개인 키를 오프라인에 저장하는 물리적 장치로 Layer의 보안을 추가로 제공합니다. 다른 인기 있는 비수탁형 지갑으로는 컴퓨터나 모바일 장치에 다운로드하여 설치할 수 있는 [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), [Blockstream Green](https://blockstream.com/Green/) 같은 소프트웨어 지갑이 있습니다.
+비수탁 지갑은 자금의 안전에 대한 책임은 오직 본인에게 있기 때문에 수탁 지갑보다 더 높은 수준의 보안과 프라이버시를 제공합니다. 비수탁형 지갑의 예로는 [콜드카드](https://store.coinkite.com/store/coldcard), [트레저](https://trezor.io/) 같은 [하드웨어 지갑](https://planb.academy/resources/glossary/hardware-wallet)이 있는데, 이는 개인 키를 오프라인에 저장하는 물리적 장치로 Layer의 보안을 추가로 제공합니다. 다른 인기 있는 비수탁형 지갑으로는 컴퓨터나 모바일 장치에 다운로드하여 설치할 수 있는 [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), [Blockstream Green](https://blockstream.com/green/) 같은 소프트웨어 지갑이 있습니다.
 
 
 *특정 Wallet를 추천할 수는 없지만, 고객의 필요와 선호도에 맞는 Wallet를 선택하는 셀프 커스터디 또는 공동 커스터디를 통해 Bitcoin을 관리할 것을 적극 권장합니다. Wallet를 결정하기 전에 철저한 조사를 수행하여 보안 및 사용성 요구사항에 부합하는지 확인하는 것이 중요합니다.*
@@ -1665,7 +1665,7 @@ XAUt의 흥미로운 점은 token 보유자가 회사의 금 보유량을 추적
 웨스턴 유니온과 같은 송금 서비스를 통해 해외로 송금하는 것은 무료가 아닙니다. 약간의 금액이 아니라 상당한 금액의 비용이 듭니다.
 
 
-미화 100달러를 통가로 송금하면 [\$12.61](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)의 비용과 불리한 Exchange 환율로 인해 \$8.60의 추가 손실이 발생합니다. 즉, 총 송금액의 21% 이상이 다국적 기업인 Western Union에 전달되는 것입니다. 그 결과, 통가 가족들에게 돌아갈 수 있었던 상당한 금액이 송금 서비스 제공업체의 주머니에 들어가게 된 것입니다.
+미화 100달러를 통가로 송금하면 [\$12.61](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)의 비용과 불리한 Exchange 환율로 인해 \$8.60의 추가 손실이 발생합니다. 즉, 총 송금액의 21% 이상이 다국적 기업인 Western Union에 전달되는 것입니다. 그 결과, 통가 가족들에게 돌아갈 수 있었던 상당한 금액이 송금 서비스 제공업체의 주머니에 들어가게 된 것입니다.
 
 수입에 21%가 추가되는 것이 어떤 이점이 있는지 상상할 수 있나요?
 
@@ -1676,7 +1676,7 @@ XAUt의 흥미로운 점은 token 보유자가 회사의 금 보유량을 추적
 통가에만 이런 일이 있다고 생각했다면 다시 한 번 생각해 보세요.
 
 
-다음은 다른 주요 국가로 미화 100달러를 송금할 때 Western Union [수수료](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)가 얼마나 부과되는지 보여주는 샘플입니다:
+다음은 다른 주요 국가로 미화 100달러를 송금할 때 Western Union [수수료](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)가 얼마나 부과되는지 보여주는 샘플입니다:
 
 
 
@@ -1691,7 +1691,7 @@ XAUt의 흥미로운 점은 token 보유자가 회사의 금 보유량을 추적
 기존 송금 서비스와 달리 USDt는 거래를 목적으로 Blockchain의 레일 위에서 움직이는 디지털 화폐입니다. 은행이나 송금 서비스 같은 중개자가 필요 없기 때문에 수수료가 훨씬 저렴합니다. 또한, 거래가 공용 Blockchain에서 실행되기 때문에 투명성과 프라이버시가 보장됩니다. 즉, 개인이 다른 나라에 있는 사랑하는 사람에게 거의 즉각적이고 안전하게, 훨씬 저렴한 비용으로 송금할 수 있습니다.
 
 
-예를 들어, 주로 이더리움과 트론 블록체인에서 운영되는 USDt는 지난 1년간 평균 [\$1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) 및 [\$0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions)의 거래 수수료를 받았으며, 송금액에 관계없이 5달러를 보내든 10,000달러를 보내든 수수료는 동일하게 유지됩니다. 그리고 지금 이 순간에도 개발자들은 [\$0.0003](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption) 정도의 수수료가 부과되는 Bitcoin의 Lightning Network을 기반으로 하는 [스테이블코인](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-Bitcoin-developers-to-mint-and-transfer-assets-on-the-Blockchain/)을 개발 중입니다.
+예를 들어, 주로 이더리움과 트론 블록체인에서 운영되는 USDt는 지난 1년간 평균 [\$1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) 및 [\$0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions)의 거래 수수료를 받았으며, 송금액에 관계없이 5달러를 보내든 10,000달러를 보내든 수수료는 동일하게 유지됩니다. 그리고 지금 이 순간에도 개발자들은 [\$0.0003](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption) 정도의 수수료가 부과되는 Bitcoin의 Lightning Network을 기반으로 하는 [스테이블코인](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-bitcoin-developers-to-mint-and-transfer-assets-on-the-blockchain/)을 개발 중입니다.
 
 
 USDt를 사용하면 통가인뿐만 아니라 가족에게 송금하는 모든 사람들이 훨씬 더 많은 송금액을 받을 수 있어 삶의 질이 크게 향상되고 국가 경제 발전에도 기여할 수 있습니다.
@@ -2021,10 +2021,10 @@ Bitcoin은 확장성보다 탈중앙화와 보안을 우선시하기로 결정�
 수많은 연구에서 잘못된 주장을 반박하고 있음에도 불구하고, Bitcoin은 여전히 불법 활동에 주로 사용된다는 비판을 받고 있습니다. 다시 한 번 말씀드리지만, 이는 사실과 다릅니다.
 
 
-CIA의 전 부국장이 수행한 한 [연구](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf)에 따르면 "불법 금융에 Bitcoin이 사용된다는 광범위한 일반화는 상당히 과장된 것"으로 나타났습니다 실제로 2016년 이후 Bitcoin의 총 거래량 중 불법 활동에 사용된 비율은 1% 미만입니다. 이에 비해 "일부에서는 지하경제가 미국 국내총생산의 11%에서 12%에 달하며(https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp), 이 중 대부분은 미국 달러를 사용하여 활성화된다"고 주장합니다.
+CIA의 전 부국장이 수행한 한 [연구](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf)에 따르면 "불법 금융에 Bitcoin이 사용된다는 광범위한 일반화는 상당히 과장된 것"으로 나타났습니다 실제로 2016년 이후 Bitcoin의 총 거래량 중 불법 활동에 사용된 비율은 1% 미만입니다. 이에 비해 "일부에서는 지하경제가 미국 국내총생산의 11%에서 12%에 달하며(https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp), 이 중 대부분은 미국 달러를 사용하여 활성화된다"고 주장합니다.
 
 
-2020년 체인널리시스의 보고서에 따르면 불법 활동은 전체 Bitcoin 거래의 약 [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol 스포트라이트 - 암호화폐 - 범죄 자금의 진화 추적.pdf)만을 차지합니다.
+2020년 체인널리시스의 보고서에 따르면 불법 활동은 전체 Bitcoin 거래의 약 [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf 스포트라이트 - 암호화폐 - 범죄 자금의 진화 추적.pdf)만을 차지합니다.
 
 
 그러나 이러한 증거가 있음에도 불구하고 재닛 옐런 미국 재무장관이 "암호화폐는 온라인 마약 밀매업자들의 수익 세탁에 사용되어 왔으며, 테러 자금 조달의 도구가 되어 왔다"고 주장하는 등(https://home.treasury.gov/news/press-releases/jy0023) 권력자들이 잘못된 발언을 계속하고 있습니다
@@ -2318,7 +2318,7 @@ USDt를 예로 들어보겠습니다. 많은 사람이 USDt를 뒷받침하는 U
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
 
-오늘날과 같이 글로벌화된 세상에서 금융 서비스에 대한 접근은 경제 참여와 자립에 있어 매우 중요한 요소입니다. 그럼에도 불구하고 여전히 너무 많은 사람들이 전통적인 은행 시스템에서 배제되고 있으며, 특히 여성들이 이러한 배제의 피해를 가장 많이 받고 있습니다. 전 세계 인구의 [4분의 1](https://www.worldbank.org/en/publication/globalfindex)이 은행 서비스를 이용하지 못하고 있으며, 사우디아라비아 같은 국가에서는 [36.5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.)의 여성이 기본적인 은행 서비스를 이용하지 못해 자국의 경제와 사회에 완전히 참여하지 못하고 있다는 사실은 충격적인 사실입니다.
+오늘날과 같이 글로벌화된 세상에서 금융 서비스에 대한 접근은 경제 참여와 자립에 있어 매우 중요한 요소입니다. 그럼에도 불구하고 여전히 너무 많은 사람들이 전통적인 은행 시스템에서 배제되고 있으며, 특히 여성들이 이러한 배제의 피해를 가장 많이 받고 있습니다. 전 세계 인구의 [4분의 1](https://www.worldbank.org/en/publication/globalfindex)이 은행 서비스를 이용하지 못하고 있으며, 사우디아라비아 같은 국가에서는 [36.5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.)의 여성이 기본적인 은행 서비스를 이용하지 못해 자국의 경제와 사회에 완전히 참여하지 못하고 있다는 사실은 충격적인 사실입니다.
 
 
 다음은 전 세계 여성들이 오늘날에도 여전히 겪고 있는 상황의 몇 가지 예입니다:

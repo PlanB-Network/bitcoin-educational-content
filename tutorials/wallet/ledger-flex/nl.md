@@ -52,7 +52,7 @@ Na het testen ben ik onder de indruk van de kwaliteit van het product. De gebrui
 ## Hoe koop ik een Ledger Flex?
 
 
-De Ledger Flex is te koop [op de officiële website](https://shop.Ledger.com/pages/Ledger-flex). Om hem in een fysieke winkel te kopen, kun je ook [de lijst van gecertificeerde wederverkopers](https://www.Ledger.com/reseller) vinden op de Ledger website.
+De Ledger Flex is te koop [op de officiële website](https://shop.ledger.com/pages/ledger-flex). Om hem in een fysieke winkel te kopen, kun je ook [de lijst van gecertificeerde wederverkopers](https://www.Ledger.com/reseller) vinden op de Ledger website.
 
 
 ## Vereisten

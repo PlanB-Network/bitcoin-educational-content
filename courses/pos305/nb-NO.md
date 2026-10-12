@@ -267,7 +267,7 @@ Blockchain, Transaksjon, Double-Spend, Bysantinske generalers problem, [Mining](
 Målet med denne kursblokken er å få en generell forståelse av BTCPay Server-programvaren. I et delt miljø anbefales det å følge instruktørens demonstrasjon og se i kursboken BTCPay Server Coursebook for å følge med læreren. Du vil lære hvordan du oppretter en Wallet ved hjelp av flere metoder. Eksempler inkluderer Hot Wallet-oppsett og maskinvarelommebøker som er koblet til gjennom BTCPay Server Vault. Disse målene forekommer i demomiljøet, som vises og gis tilgang til av kursinstruktøren din.
 
 
-Hvis du følger dette kurset på egen hånd, kan du finne en liste over tredjepartsverter for demo-formål på https://directory.btcpayserver.org/filter/hosts. Vi fraråder på det sterkeste å bruke disse tredjepartsalternativene som produksjonsmiljøer, men de tjener det rette formålet for å introdusere bruken av Bitcoin og BTCPay Server.
+Hvis du følger dette kurset på egen hånd, kan du finne en liste over tredjepartsverter for demo-formål på https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Vi fraråder på det sterkeste å bruke disse tredjepartsalternativene som produksjonsmiljøer, men de tjener det rette formålet for å introdusere bruken av Bitcoin og BTCPay Server.
 
 
 Som BTCPay Server rockstar-trainee har du kanskje tidligere erfaring med å sette opp en Bitcoin-node. Dette kurset er spesielt skreddersydd for BTCPay Server-programvarestakken.
@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin Node-logger
 
 
-I tillegg til å [se på logger](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) i bitcoind-containeren din, kan du også bruke noen av [bitcoin-cli-kommandoene](https://developer.Bitcoin.org/reference/RPC/index.html)
+I tillegg til å [se på logger](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) i bitcoind-containeren din, kan du også bruke noen av [bitcoin-cli-kommandoene](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(åpner nytt vindu)](https://developer.Bitcoin.org/reference/RPC/index.html) for å innhente informasjon fra Bitcoin-noden din. BTCPay inkluderer et skript som gjør det enkelt å kommunisere med Bitcoin-noden din.
+[(åpner nytt vindu)](https://developer.bitcoin.org/reference/rpc/index.html) for å innhente informasjon fra Bitcoin-noden din. BTCPay inkluderer et skript som gjør det enkelt å kommunisere med Bitcoin-noden din.
 
 
 I btcpayserver-docker-mappen henter du Blockchain-informasjonen ved hjelp av noden din:

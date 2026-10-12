@@ -14,7 +14,7 @@ RASPIBLITZ - Kuidas käitada Lightning ja Bitcoin Full Node'i BTC sessiooni pool
 
 ## Parmani Raspiblitzi seadistamise juhend
 
-Raspiblitz on suurepärane süsteem Bitcoini node’i ja seotud rakenduste käitamiseks. Soovitan seda ja MyNode node’i enamikule kasutajatele (ideaalis kaks node’i reduntsuse jaoks). Üks peamisi eeliseid on see, et Raspiblitz node on „Free Open Source Software“, erinevalt MyNode’ist või Umbrelist. [Miks see on oluline? Vlad Costa selgitab.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Raspiblitzi saab ka käitada WiFi-ühenduse kaudu, mitte ainult ethernetiga – selleks on siin [täiendav juhend](https://armantheparman.com/headless-wifi/). (Ma ei ole leidnud viisi, kuidas seda MyNode’iga teha).
+Raspiblitz on suurepärane süsteem Bitcoini node’i ja seotud rakenduste käitamiseks. Soovitan seda ja MyNode node’i enamikule kasutajatele (ideaalis kaks node’i reduntsuse jaoks). Üks peamisi eeliseid on see, et Raspiblitz node on „Free Open Source Software“, erinevalt MyNode’ist või Umbrelist. [Miks see on oluline? Vlad Costea selgitab.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Raspiblitzi saab ka käitada WiFi-ühenduse kaudu, mitte ainult ethernetiga – selleks on siin [täiendav juhend](https://armantheparman.com/headless-wifi/). (Ma ei ole leidnud viisi, kuidas seda MyNode’iga teha).
 
 Võid osta valmis sõlme koos külge kinnitatud mini ekraaniga, või võid selle ise ehitada (ekraani pole vaja).
 
@@ -63,7 +63,7 @@ Enne jätkamist, kui te ei tunne end käsureal failisüsteemis liikudes kindlalt
 Siin on [kasulik video Linuxi jaoks, kuid see kehtib ka Macile](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Windowsi jaoks on siin [lihtne õpetus](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
-_UUENDUS: pgp/gpg verifitseerimine on nüüd saadaval. Teil on vaja Openoms’i avalikku võtit. [Siin](http://parman.org/downloadable/openoms.txt) see on (võib-olla on vaja inkognito-režiimi, et link töötaks – http, mitte https)_
+_UUENDUS: pgp/gpg verifitseerimine on nüüd saadaval. Praegused RaspiBlitzi tõmmised on allkirjastanud rootzoll, mitte Openoms (võtme sõrmejälg: 92A746AE33A3C186D014BF5C1C73060C7C176461). Võtme ja käsu `gpg --verify` leiate [ametlikust KKK-st](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download)._
 Mac/Linux
 
 Oodake, kuni fail on lõpetanud allalaadimise (tähtis!), ja seejärel avage terminal, navigeerige sinna, kuhu faili alla laadisite, ja tippige järgmine käsk...

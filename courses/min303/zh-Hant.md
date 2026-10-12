@@ -13,7 +13,7 @@ From running a mining facility to the global geopolitical forces shaping the ind
 
 This is your chance to gain insider knowledge and become a mining professional.
 
-**Guest Lecturers:** [Giw](https://x.com/gzanganeh), [Kristian](https://x.com/KristianCsep), Alejandro de La torre and [Filippo Merli](https://x.com/dev_sv2) from [ DEMAND Pool ](https://x.com/DEMAND_POOL), [Mags](https://x.com/Crypto_Mags), [Kenobi](https://pr-imal.net/p/npub1ds5e2wulc0sdn9kdq8yku2drwhx34lsuyggulrfl0f354un53cvqsqqrhg), [Jungly ](https://x.com/jungly), [Mechanic](https://x.com/GrassFedBitcoin), [Gianluca](https://x.com/GianlucaLilla)
+**Guest Lecturers:** [Giw](https://x.com/gzanganeh), [Kristian](https://x.com/KristianCsep), Alejandro de La torre and [Filippo Merli](https://x.com/dev_sv2) from [ DEMAND Pool ](https://x.com/DEMAND_POOL), [Mags](https://x.com/Crypto_Mags), [Kenobi](https://primal.net/p/npub1ds5e2wulc0sdn9kdq8yku2drwhx34lsuyggulrfl0f354un53cvqsqqrhg), [Jungly ](https://x.com/jungly), [Mechanic](https://x.com/GrassFedBitcoin), [Gianluca](https://x.com/GianlucaLilla)
 
 This course was originally recorded during an intensive two‑day seminar in Lugano, capturing the full energy and insights of the live sessions. To enhance your learning journey, the material has since been carefully re‑organized and refined, ensuring a clear progression of concepts and a smoother, more impactful experience.
 +++

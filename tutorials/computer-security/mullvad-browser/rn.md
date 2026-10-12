@@ -304,7 +304,7 @@ Ivyo bice bitatu bikorana kugira ngo bibeho uburyo bwo kwikingira, aho umukoresh
 
 
 
-Mucukumbuzi ya Mullvad iraboneka ku buntu kuri Windows, macOS na Linux. Kugira ngo uyishiremwo, genda kuri [urubuga rwemewe rwa Mullvad](https://mullvad.net/umucukumbuzi).
+Mucukumbuzi ya Mullvad iraboneka ku buntu kuri Windows, macOS na Linux. Kugira ngo uyishiremwo, genda kuri [urubuga rwemewe rwa Mullvad](https://mullvad.net/browser).
 
 
 
@@ -545,10 +545,10 @@ Naho ifise aho igarukira (nta verisiyo yo kuri telefone ngendanwa, ibiganiro bit
 
 
 
-- [Urubuga rwemewe rwa Mullvad](https://mullvad.net/fr/umucukumbuzi)
-- [Urupapuro rwo gukuraho umucukumbuzi wa Mullvad](https://mullvad.net/ru/gukuraho/umucukumbuzi)
-- [Ibisobanuro vy'ubuhinga](https://mullvad.net/ru/umucukumbuzi/Hard-ibintu)
-- [Ukwaguka kw'umucukumbuzi wa Mullvad](https://mullvad.net/ru/imfashanyo/ukwaguka kw'umucukumbuzi wa Mullvad)
+- [Urubuga rwemewe rwa Mullvad](https://mullvad.net/fr/browser)
+- [Urupapuro rwo gukuraho umucukumbuzi wa Mullvad](https://mullvad.net/en/download/browser)
+- [Ibisobanuro vy'ubuhinga](https://mullvad.net/en/browser/hard-facts)
+- [Ukwaguka kw'umucukumbuzi wa Mullvad](https://mullvad.net/en/help/mullvad-browser-extension)
 
 
 
@@ -557,10 +557,10 @@ Naho ifise aho igarukira (nta verisiyo yo kuri telefone ngendanwa, ibiganiro bit
 
 
 
-- [Igituma ubuzima bwite buhambaye](https://mullvad.net/ru/kubera iki-ubuzima bwite-buhambaye/ingene-amashirahamwe-agenzura-abantu benshi-akoranya-amakuru yawe)
-- [Tor ata Tor: Iciyumviro c'umucukumbuzi wa Mullvad](https://mullvad.net/ru/umucukumbuzi/tor-ata-tor)
-- [Uko wohitamwo umucukumbuzi w’ubuzima bwite](https://mullvad.net/ru/umucukumbuzi/ibintu-vyo-kuraba-igihe-uhisemwo-umucukumbuzi)
-- [Gutahura urutoke rw'umucukumbuzi](https://mullvad.net/ru/umucukumbuzi/urutoke-rw'umucukumbuzi)
+- [Igituma ubuzima bwite buhambaye](https://mullvad.net/en/why-privacy-matters/how-mass-surveillance-companies-collect-your-data)
+- [Tor ata Tor: Iciyumviro c'umucukumbuzi wa Mullvad](https://mullvad.net/en/browser/tor-without-tor)
+- [Uko wohitamwo umucukumbuzi w’ubuzima bwite](https://mullvad.net/en/browser/things-to-look-for-when-choosing-a-browser)
+- [Gutahura urutoke rw'umucukumbuzi](https://mullvad.net/en/browser/browser-fingerprinting)
 
 
 
@@ -569,8 +569,8 @@ Naho ifise aho igarukira (nta verisiyo yo kuri telefone ngendanwa, ibiganiro bit
 
 
 
-- [Ikigo c'imfashanyo c'umucukumbuzi wa Mullvad](https://mullvad.net/ru/imfashanyo/itag/umucukumbuzi-wa Mullvad)
-- [Intambwe za mbere zo kubungabunga ubuzima bwite bwo kuri interineti](https://mullvad.net/ru/imfashanyo/intambwe-zambere-zo kuronka ubuzima bwite bwo kuri interineti)
+- [Ikigo c'imfashanyo c'umucukumbuzi wa Mullvad](https://mullvad.net/en/help/tag/mullvad-browser)
+- [Intambwe za mbere zo kubungabunga ubuzima bwite bwo kuri interineti](https://mullvad.net/en/help/first-steps-towards-online-privacy)
 
 
 
@@ -579,5 +579,5 @@ Naho ifise aho igarukira (nta verisiyo yo kuri telefone ngendanwa, ibiganiro bit
 
 
 
-- [Igitabu c'umucukumbuzi wa Mullvad - Inyigisho z'ubuzima bwite](https://www.uburongozi bw'ubuzima bwite.org/ru/umucukumbuzi-w'ibiro/)
-- [Ibiganiro vy'abanyagihugu](https://ibiganiro.ivy'ubuzima bwite.net/t/ku-guhindura-imiterere-mu-mucukumbuzi-wa-mullvad/18330)
+- [Igitabu c'umucukumbuzi wa Mullvad - Inyigisho z'ubuzima bwite](https://www.privacyguides.org/en/desktop-browsers/)
+- [Ibiganiro vy'abanyagihugu](https://discuss.privacyguides.net/t/about-changing-settings-in-mullvad-browser/18330)

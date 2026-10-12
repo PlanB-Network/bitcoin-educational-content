@@ -52,7 +52,7 @@ Kwa maoni yangu, Ledger Nano S Plus ni chaguo nzuri kwa kupata Bitcoin Wallet ya
 ## Jinsi ya kununua Ledger Nano S Plus?
 
 
-Ledger Nano S Plus inapatikana kwa mauzo [kwenye tovuti rasmi](https://shop.Ledger.com/products/Ledger-nano-s-plus). Ili kuinunua katika duka halisi, unaweza pia kupata [orodha ya wauzaji walioidhinishwa](https://www.Ledger.com/reseller) kwenye tovuti ya Ledger.
+Ledger Nano S Plus inapatikana kwa mauzo [kwenye tovuti rasmi](https://shop.ledger.com/products/ledger-nano-s-plus). Ili kuinunua katika duka halisi, unaweza pia kupata [orodha ya wauzaji walioidhinishwa](https://www.Ledger.com/reseller) kwenye tovuti ya Ledger.
 
 
 ## Masharti

@@ -78,7 +78,7 @@ contributors: もし貢献者識別子を持っている場合は、それを記
 project: Plan ₿ Academy
 type: Educational Content
 links:
-  download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+  download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
   view:
 - この例では、PDFを直接GitHubに追加するため、リンクは一時的に空のままにします：
 ![event](assets/09.webp)
@@ -173,7 +173,7 @@ https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/reso
 - 正しいリンクを得るために、以下の情報をURLのベースに追加します：
 
 ```url
-https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 ここで行っていることは、提案がPlanB Networkのソースリポジトリにマージされた後のファイルへの将来のリンクを予測しています。

@@ -54,7 +54,7 @@ Jedinstveni nedostaci Sentinel-a leže u činjenici da je aplikacija dostupna is
 Za one koji žele pratiti multi-signature Wallet, Blue Wallet je jedina aplikacija za koju znam da nudi samo za gledanje mod za ove tipove novčanika, i dostupna je na Android i iOS.
 
 
-Za korisnike iOS-a koji traže alternativu za Sentinel, [Green Wallet](https://blockstream.com/Green/) ili [Blue Wallet](https://bluewallet.io/watch-only/) mogu biti opcije, iako njihova funkcionalnost samo za gledanje nije tako sveobuhvatna kao kod Sentinel-a.
+Za korisnike iOS-a koji traže alternativu za Sentinel, [Green Wallet](https://blockstream.com/green/) ili [Blue Wallet](https://bluewallet.io/watch-only/) mogu biti opcije, iako njihova funkcionalnost samo za gledanje nije tako sveobuhvatna kao kod Sentinel-a.
 
 ![watch-only](assets/notext/2.webp)
 

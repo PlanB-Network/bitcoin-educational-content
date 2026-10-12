@@ -7,6 +7,8 @@ description: 在 Raspberry Pi 上安裝 RoninDojo v2 Bitcoin 節點
 
 **警告:** 在 Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被扣押之後，RoninDojo 的某些功能（例如 Whirlpool）已不再運作。不過，這些工具有可能在未來幾週內以不同方式恢復或重新啟動。此外，由於 RoninDojo 的程式碼託管在 Samourai 的 GitLab 上，而 GitLab 也被查封，因此目前無法從遠端下載程式碼。RoninDojo 團隊可能正在努力重新發布程式碼。
 
+> **更新（2026 年 10 月）：** 此後 RoninDojo 已在自己的平台（[git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)）上重新發布程式碼，目前為第 3 版。本教學介紹的是較舊的版本：其中部分連結和指令已無法使用。目前的操作步驟請參閱官方文件：[docs.ronindojo.io](https://docs.ronindojo.io/)
+
 
 我們正密切注意此案例的發展，以及相關工具的發展。請放心，我們會在有新資訊時更新本教學。
 
@@ -37,7 +39,9 @@ https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-
 Dojo 最初是完整的 Bitcoin 節點實作，以 Bitcoin Core 為基礎，由 Samourai Wallet 團隊開發。此解決方案可安裝在任何設備上。與其他 Core 實作不同，Dojo 經過特別優化，可與 Samourai Wallet 的 Android 應用環境整合。至於 RoninDojo，它是專為方便安裝和管理 Dojo 以及其他各種輔助工具而設計的實用程式。簡而言之，RoninDojo 在簡化安裝與管理的同時，整合了許多其他工具，豐富了 Dojo 的基本實作。
 
 
-Ronin 也提供 [一個稱為 "*Tanto*" 的 node-in-box 解決方案](https://ronindojo.io/en/products)，這個裝置已經在其團隊組裝的系統上安裝了 RoninDojo。Tanto 是一種付費選項，對於那些希望避免技術複雜性的人來說可能會很有趣。但由於 RoninDojo 的原始碼是開放的，因此也可以將它部署在您自己的硬體上。這個選擇更經濟，但需要一些額外的操作，我們將在本教學中介紹。
+Ronin 也提供 [一個稱為 "*Tanto*" 的 node-in-box 解決方案](https://docs.ronindojo.io/hardware/tanto/)，這個裝置已經在其團隊組裝的系統上安裝了 RoninDojo。Tanto 是一種付費選項，對於那些希望避免技術複雜性的人來說可能會很有趣。但由於 RoninDojo 的原始碼是開放的，因此也可以將它部署在您自己的硬體上。這個選擇更經濟，但需要一些額外的操作，我們將在本教學中介紹。
+
+> **註（2026 年 10 月）：** RoninDojo 似乎已不再販售 Tanto，其線上商店也已下線。請參閱相容硬體清單：[docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
 
 RoninDojo 是一個 Dojo，因此它可以輕鬆地將 Whirlpool CLI 整合到您的 Bitcoin 節點中，以提供最佳的 CoinJoin 體驗。有了 Whirlpool CLI，您就可以每天 24 小時、每週 7 天不間斷地重新混合您的比特幣，而無需您的個人電腦保持開機狀態。
 
@@ -56,7 +60,9 @@ RoninDojo 是一個 Dojo，因此它可以輕鬆地將 Whirlpool CLI 整合到�
 
 ## 安裝 RoninDojo v2 應選擇何種硬體？
 
-RoninDojo 提供了在 [RockPro64](https://ronindojo.io/en/download) 上自動安裝其軟體的映像。但是，我們的教程著重於在 Raspberry Pi 4 上的手動安裝步驟。雖然最近推出了 Raspberry Pi 5，理論上本教學應該與這款新機型相容，但我還沒有機會親自測試，也沒有發現來自社區的任何回饋。一旦我購買到 Pi 5 和相容的元件，我就會更新本教學，讓您了解最新情況。在此期間，我建議優先使用 Pi 4，因為它在我的節點上運作得非常好。
+RoninDojo 提供了在 [RockPro64](https://ronindojo.io/downloads) 上自動安裝其軟體的映像。但是，我們的教程著重於在 Raspberry Pi 4 上的手動安裝步驟。雖然最近推出了 Raspberry Pi 5，理論上本教學應該與這款新機型相容，但我還沒有機會親自測試，也沒有發現來自社區的任何回饋。一旦我購買到 Pi 5 和相容的元件，我就會更新本教學，讓您了解最新情況。在此期間，我建議優先使用 Pi 4，因為它在我的節點上運作得非常好。
+
+> **註（2026 年 10 月）：** RoninDojo 現在也為 Rock5B+、Raspberry Pi 5 和 x86 機器提供官方 RoninOS 映像檔。
 
 就我而言，我在配備 8 GB 記憶體的 Raspberry Pi 上執行 RoninDojo。雖然有些社群成員已成功讓它在只有 4 GB 記憶體的裝置上運作，但我自己還沒有測試過這種配置。由於價格相差不大，選擇 8 GB RAM 版本似乎是明智之舉。如果您打算將您的 Raspberry Pi 改作其他用途，這也會很有用。
 
@@ -290,6 +296,8 @@ RoninDojo 提供了在 [RockPro64](https://ronindojo.io/en/download) 上自動�
 `sudo apt install git dialog -y`
 
 
+> **註（2026 年 10 月）：** 下面的指令已無法使用：Samourai 的 GitLab（code.samourai.io）已於 2024 年 4 月 24 日被查封。RoninDojo 現在將程式碼託管在這裡：[git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)。目前的安裝步驟請參閱 [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
+
 接下來，執行以下步驟克隆 _RoninOS_ Git 套件庫的「master」分支：
 
 `sudo git clone --branch master https://code.samourai.io/ronindojo/RoninOS.git /opt/RoninOS``
@@ -479,7 +487,9 @@ RoninDojo 提供了在 [RockPro64](https://ronindojo.io/en/download) 上自動�
 ![Samourai Wallet connection](assets/notext/36.webp)
 
 
-如果您在設定Ronin Dojo之前已經擁有Samourai Wallet，在還原您的Wallet之前，必須先備份您的Wallet，卸載後再重新安裝Samourai Wallet應用程式。啟動重新安裝的應用程式後，您將可選擇連線至新的道場。 **請小心，如果執行不正確，此過程會有損失您的 bitcoins 的風險！** 請確認您的檔案中有 Samourai Wallet 的備份，並透過 `設定 > 疑難排解 > passphrase` 驗證您的 passphrase 的有效性。備份您的復原短語和 passphrase 的可讀性也很重要。若要更精確地進行此操作，建議遵循此詳細教學：[https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+如果您在設定Ronin Dojo之前已經擁有Samourai Wallet，在還原您的Wallet之前，必須先備份您的Wallet，卸載後再重新安裝Samourai Wallet應用程式。啟動重新安裝的應用程式後，您將可選擇連線至新的道場。 **請小心，如果執行不正確，此過程會有損失您的 bitcoins 的風險！** 請確認您的檔案中有 Samourai Wallet 的備份，並透過 `設定 > 疑難排解 > passphrase` 驗證您的 passphrase 的有效性。備份您的復原短語和 passphrase 的可讀性也很重要。若要更精確地進行此操作，建議遵循此詳細教學：[https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+
+> **警告（2026 年 10 月）：** Samourai Wallet 已不復存在：其伺服器於 2024 年 4 月 24 日被查封，創辦人被捕。上面的連結指向該指南的存檔副本。RoninDojo 現在提供 Ashigaru（Samourai Wallet 的分叉）的文件：[docs.ronindojo.io/guides-wallet/ashigaru](https://docs.ronindojo.io/guides-wallet/ashigaru/)
 
 
 ### 使用自己的 Mempool.空間 Block explorer
@@ -824,7 +834,7 @@ Push Tx" 選項卡是 RoninUI 另一項有趣的功能，可在 Bitcoin 網路�
 - `設定`：允許您變更使用者密碼。
 
 
-就是這樣！感謝您跟隨本教學到最後。如果您喜歡，我鼓勵您在社交媒體上分享。此外，如果您有機會，請考慮以捐款的方式來支持那些為我們的社群提供這些免費開放原始碼軟體的開發人員：[https://donate.ronindojo.io/](https://donate.ronindojo.io/).若要加深您對 RoninDojo 的認識，並發掘更多資源，我強烈建議您參考以下提及的外部資源連結。
+就是這樣！感謝您跟隨本教學到最後。如果您喜歡，我鼓勵您在社交媒體上分享。此外，如果您有機會，請考慮以捐款的方式來支持那些為我們的社群提供這些免費開放原始碼軟體的開發人員：[https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/).若要加深您對 RoninDojo 的認識，並發掘更多資源，我強烈建議您參考以下提及的外部資源連結。
 
 
 **外部資源：**
@@ -834,4 +844,4 @@ Push Tx" 選項卡是 RoninUI 另一項有趣的功能，可在 Bitcoin 網路�
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)

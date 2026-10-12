@@ -505,7 +505,7 @@ De eerste twee heuristieken voor ketenanalyse werden ontdekt door Satoshi Nakamo
 ![BTC204](assets/nl/031.webp)
 
 
-Bron: S. Nakamoto, "Bitcoin: Een Peer-to-Peer elektronisch geldsysteem", https://Bitcoin.org/Bitcoin.pdf, 2009.
+Bron: S. Nakamoto, "Bitcoin: Een Peer-to-Peer elektronisch geldsysteem", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 We zullen in de volgende hoofdstukken zien welke dat zijn, maar het is nu al interessant om op te merken dat deze twee heuristieken vandaag de dag nog steeds een prominente plaats innemen in ketenanalyse.
@@ -902,7 +902,7 @@ Zoals uitgelegd in de inleiding van deel 3, werd deze heuristiek ontdekt door Sa
 ![BTC204](assets/nl/055.webp)
 
 
-Bron: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
+Bron: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 Hier is bijvoorbeeld een adres die in meerdere transacties wordt hergebruikt:
@@ -1569,7 +1569,7 @@ Omdat de blockchain openbaar is, is het eenvoudig om te zien welke adressen welk
 ![BTC204](assets/nl/070.webp)
 
 
-Bron: S. Nakamoto, "Bitcoin: Een Peer-to-Peer elektronisch geldsysteem", https://Bitcoin.org/Bitcoin.pdf, 2009.
+Bron: S. Nakamoto, "Bitcoin: Een Peer-to-Peer elektronisch geldsysteem", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 De bedoeling van Satoshi in deze zin was om een extra firewall te creëren in het geval van een associatie tussen de identiteit van een gebruiker en een sleutelpaar op Bitcoin, om te voorkomen dat zijn hele activiteit publiekelijk gekoppeld zou worden aan zijn identiteit. Vandaag de dag, met de proliferatie van blockchainanalyse-bedrijven en KYC regelgeving, is het gebruik van unieke adressen niet langer een "extra firewall", maar een onmisbare praktijk voor iedereen die een minimum aan privacy wil behouden.
@@ -2703,7 +2703,7 @@ Een van de belangrijkste nadelen van JoinMarket is de complexiteit van het gebru
 ![BTC204](assets/nl/137.webp)
 
 
-Bron : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Bron : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 
 De technische barrière blijft echter een groot obstakel. In het CoinJoin-ecosysteem, waar vertrouwelijkheid wordt versterkt door het aantal deelnemers, heeft elke beperking van de toegankelijkheid direct invloed op de beschikbare liquiditeit, wat een cruciale factor is voor de efficiëntie van de mix. Bitcoin, dat al een niche in financiële transacties is, ziet het gebruik van coinjoins als een subniche, en JoinMarket vertegenwoordigt een nog meer gespecialiseerde fractie daarvan, waardoor het potentieel om de anonimiteit van zijn gebruikers te vergroten wordt beperkt.
@@ -3583,7 +3583,7 @@ Het zou echter interessant zijn om transactiestructuren te hebben die betalingen
 De PayJoin is een specifieke Bitcoin-transactiestructuur die de privacy van de gebruiker bij uitgaven verbetert door samen te werken met de ontvanger van de betaling.
 
 
-In 2015 besprak LaurentMT deze methode voor het eerst onder de naam "*steganografische transacties*", volgens een document dat [hier] beschikbaar is (https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Deze techniek werd later overgenomen door de Samourai wallet, die in 2018 de eerste client werd die het implementeerde met behulp van de Stowaway tool. Het concept van PayJoin is ook terug te vinden in [BIP79](https://github.com/Bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/Bitcoin/bips/blob/master/bip-0078.mediawiki), en [BIP77](https://PayJoin.org/docs/how-it-works/PayJoin-v2-bip-77/). Er worden dus verschillende termen gebruikt om naar een PayJoin te verwijzen:
+In 2015 besprak LaurentMT deze methode voor het eerst onder de naam "*steganografische transacties*", volgens een document dat [hier] beschikbaar is (https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Deze techniek werd later overgenomen door de Samourai wallet, die in 2018 de eerste client werd die het implementeerde met behulp van de Stowaway tool. Het concept van PayJoin is ook terug te vinden in [BIP79](https://github.com/Bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/Bitcoin/bips/blob/master/bip-0078.mediawiki), en [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/). Er worden dus verschillende termen gebruikt om naar een PayJoin te verwijzen:
 
 
 

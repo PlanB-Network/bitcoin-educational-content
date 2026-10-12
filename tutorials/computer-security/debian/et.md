@@ -77,9 +77,9 @@ Debiani image'i valik sõltub teie protsessori arhitektuurist:
 
 
 
-- **AMD64**: lae alla "live hybrid" väljaanne [download] nimekirjast (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- **ARM64**: hankige DVD-pilt ametlikust [Debian] veebisaidilt (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- **Muud arhitektuurid**: leidke oma arhitektuurile vastav ISO [siin](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: lae alla "live hybrid" väljaanne [download] nimekirjast (https://debian.obspm.fr/debian-cd/current-live/amd64/iso-hybrid/).
+- **ARM64**: hankige DVD-pilt ametlikust [Debian] veebisaidilt (https://debian.obspm.fr/debian-cd/current/arm64/iso-dvd/).
+- **Muud arhitektuurid**: leidke oma arhitektuurile vastav ISO [siin](https://debian.obspm.fr/debian-cd/current/).
 
 
 

@@ -16,7 +16,7 @@ RoboSats (https://learn.robosats.com/) ni uburyo bworoshe bwo gutanga Exchange B
 ## Ubuyobozi
 
 
-**Iciyumviro:** Iyi nkuru ivuye mu bibazo n’inyishu vya Bitocin (https://uburongozi/robosats/). Ivyiza vyose bimushikira, urashobora kumushigikira [hano](https://bitcoiner.guide/gutanga); BitcoinQ&A nayo ni umujanama wa Bitcoin. Mumumenyeshe kugira ngo muguhe impanuro!
+**Iciyumviro:** Iyi nkuru ivuye mu bibazo n’inyishu vya Bitocin (https://uburongozi/robosats/). Ivyiza vyose bimushikira, urashobora kumushigikira [hano](https://bitcoiner.guide/contribute); BitcoinQ&A nayo ni umujanama wa Bitcoin. Mumumenyeshe kugira ngo muguhe impanuro!
 
 
 ![image](assets/0.webp)
@@ -77,7 +77,7 @@ Biragaragara ko uzokenera gushika ku RoboSats! Hari uburyo bune nyamukuru wobigi
 4. Umukiriya wawe bwite
 
 
-Nimba uri mushasha mu mucukumbuzi wa Tor, menya vyinshi maze uyikureko [hano](https://www.torproject.org/kuyikureko/).
+Nimba uri mushasha mu mucukumbuzi wa Tor, menya vyinshi maze uyikureko [hano](https://www.torproject.org/download/).
 
 
 Ikete ryihuse ku bakoresha iOS barondera gushika kuri RoboSats biciye kuri Tor bavuye kuri telefone zabo. ‘Umucukumbuzi w’igitunguru’ si Umucukumbuzi wa Tor. Ahubwo ukoreshe Orbot + Safari na Orbot + Inka y’Inda.
@@ -307,4 +307,4 @@ Ishirahamwe rya RoboSats rirabitahura kandi ryatanguye gukora ku citegererezo c�
 
 IMPERUKA y'uburongozi
 
-https://ibikoni.uburongozi/amarobo/
+https://bitcoiner.guide/robosats/

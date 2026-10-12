@@ -78,7 +78,7 @@ IVPN използва изключително самостоятелно хос
 ## Как да инсталирате IVPN на смартфон?
 
 
-Изтеглете IVPN от вашия магазин за приложения, независимо дали това е [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) за потребителите на iOS, [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) за Android или [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Ако използвате Android, имате възможност да изтеглите и файла `.apk` директно от [сайта на IVPN](https://www.ivpn.net/en/apps-android/).
+Изтеглете IVPN от вашия магазин за приложения, независимо дали това е [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) за потребителите на iOS, [Google Play Store](https://www.ivpn.net/en/apps-android/) за Android или [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Ако използвате Android, имате възможност да изтеглите и файла `.apk` директно от [сайта на IVPN](https://www.ivpn.net/en/apps-android/).
 
 ![IVPN](assets/notext/05.webp)
 

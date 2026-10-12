@@ -21,7 +21,7 @@ Bittr 是一款简单直接的工具，适用于任何希望通过 Bitcoin 实�
 ## 开始使用 Bittr
 
 
-- 在网页或手机上访问 [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) 并点击 "购买 Bitcoin
+- 在网页或手机上访问 [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) 并点击 "购买 Bitcoin
 
 
 

@@ -337,7 +337,7 @@ token का दावा करने के लिए "Redeem" को स्�
 
 
 - तकनीकी दस्तावेज़ीकरण: [docs.cashu.space](https://docs.cashu.space)
-- सार्वजनिक टकसालों की सूची: [bitcoinmints.com](https://bitcoinmints.com)
+- सार्वजनिक टकसालों की सूची: [bitcoinmints.com](https://cashumints.space/)
 - आधिकारिक प्रोटोकॉल वेबसाइट: [cashu.space](https://cashu.space)
 
 

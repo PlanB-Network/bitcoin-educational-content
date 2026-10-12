@@ -1914,7 +1914,7 @@ En av de største ulempene med JoinMarket er at det er komplekst å bruke, og de
 
 ![BTC204](assets/nb-NO/137.webp)
 
-Kilde: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Kilde: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 Den tekniske barrieren er imidlertid fortsatt et stort hinder. I coinjoin-økosystemet, der konfidensialiteten forsterkes av antall deltakere, påvirker enhver begrensning som reduserer tilgjengeligheten direkte den tilgjengelige likviditeten, noe som er en avgjørende faktor for effektiviteten i miksen. Bitcoin, som allerede er en nisje innen finansielle transaksjoner, ser på bruken av coinjoins som en undernisje, og JoinMarket representerer en enda mer spesialisert del av den, noe som derfor begrenser potensialet for å øke brukernes anonsett.
 

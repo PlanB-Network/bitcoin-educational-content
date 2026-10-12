@@ -27,7 +27,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Genda kuri [ububiko bwa GitHub bwa PlanB bwihariye amakuru](https://github.com/PlanB-Ihuriro/ibirimwo-ivy’inyigisho/igiti/iterambere/ibikoresho/inama) mu gice ca `ibikoresho/inama/`:
+- Genda kuri [ububiko bwa GitHub bwa PlanB bwihariye amakuru](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conferences) mu gice ca `ibikoresho/inama/`:
 
 ![conference](assets/02.webp)
 

@@ -17,7 +17,7 @@ Bitfinex irashigikira cane iterambere rya Bitcoin, ishiramwo ubuhinga nka Lightn
 ## 1 - Gukora konti ya Bitfinex
 
 
-Genda kuri [urubuga rwemewe rwa Bitfinex](www.bitfinex.com/). Ku rupapuro rw'intango, rondera maze ukande kuri "*Sign Up*" kugira utangure gukora konti yawe.
+Genda kuri [urubuga rwemewe rwa Bitfinex](https://www.bitfinex.com/). Ku rupapuro rw'intango, rondera maze ukande kuri "*Sign Up*" kugira utangure gukora konti yawe.
 
 
 ![BITFINEX](assets/fr/01.webp)
@@ -247,7 +247,7 @@ Niba ukunda Lightning Network, turafise kandi inyigisho yuzuye kugira ngo ushobo
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Uhejeje kugura ama bitcoins yawe ya mbere, biragaragara ko ufise uburenganzira bwo kuyasiga ku rubuga, ariko ndagusavye cane kuyarungika kuri Wallet yawe bwite mu kwizigama. Niba utaramenya gukoresha Bitcoin Wallet, ndagutumiye kugira ngo ugende [igice ca "Wallet" kuri Plan ₿ Academy](https://planb.academy/inyigisho/wallet).
+Uhejeje kugura ama bitcoins yawe ya mbere, biragaragara ko ufise uburenganzira bwo kuyasiga ku rubuga, ariko ndagusavye cane kuyarungika kuri Wallet yawe bwite mu kwizigama. Niba utaramenya gukoresha Bitcoin Wallet, ndagutumiye kugira ngo ugende [igice ca "Wallet" kuri Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 
 ## 6 - Gugura no kugurisha amafaranga y'ibiceri kuri Bitfinex .

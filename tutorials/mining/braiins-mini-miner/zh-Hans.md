@@ -14,7 +14,7 @@ description: 在家轻松制作 Mining。
 
 
 
-您还可以直接在 [制造商网站](https://braiins.com/hardware/mini-Miner-bmm-100) 上查看完整指南，了解更多重要信息。
+您还可以直接在 [制造商网站](https://braiins.com/hardware/mini-miner-bmm-100) 上查看完整指南，了解更多重要信息。
 
 
 

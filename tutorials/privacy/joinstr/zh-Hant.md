@@ -293,7 +293,6 @@ openssl rand -base64 32
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -650,7 +649,7 @@ Joinstr 代表真正分散式的 Bitcoin 隱私權解決方案。透過使用 No
 
 
 
-- [Joinstr官方網站](https://joinstr.xyz)
+- [Joinstr官方網站](https://docs.joinstr.xyz/)
 - [使用者文件](https://docs.joinstr.xyz/users/using-joinstr)
 - [技術文件](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab 原始碼](https://gitlab.com/invincible-privacy/joinstr)
@@ -682,6 +681,5 @@ Joinstr 代表真正分散式的 Bitcoin 隱私權解決方案。透過使用 No
 
 
 
-- [Bookmark Faucet](https://signetfaucet.com) - 免費測試比特幣
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet 替代品
 - [Mempool.space](https://mempool.space) - 含隱私分析的 Block explorer

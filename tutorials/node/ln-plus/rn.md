@@ -11,7 +11,7 @@ description: Uronke amafaranga yinjira ku buntu n'ubufatanye bufunguye ku nzira 
 
 
 
-[LN+ (Lightning Network Plus)](https://umuravyo.plus/) ni urubuga rw’abanyagihugu rwagenewe kworohereza ubufatanye hagati y’abakoresha ama node ya Lightning Network. Intumbero yayo nyamukuru ni ugutuma uruja n’uruza rw’urubuga rwa Lightning rushobora gukorana neza, rukagira amahera menshi kandi rukagira ubushobozi bwo gukorana n’abandi, ata n’umwe akeneye abahuza bahurikiye hamwe.
+[LN+ (Lightning Network Plus)](https://lightningnetwork.plus/) ni urubuga rw’abanyagihugu rwagenewe kworohereza ubufatanye hagati y’abakoresha ama node ya Lightning Network. Intumbero yayo nyamukuru ni ugutuma uruja n’uruza rw’urubuga rwa Lightning rushobora gukorana neza, rukagira amahera menshi kandi rukagira ubushobozi bwo gukorana n’abandi, ata n’umwe akeneye abahuza bahurikiye hamwe.
 
 
 
@@ -133,7 +133,7 @@ Imbere y'uko utangura, uzokenera :
 
 
 
-Genda ku rubuga rwa [Lightning Network](https://umuravyo.plus/) Plus hanyuma ukande kuri buto `Injira` iri hejuru iburyo bw’urubuga.
+Genda ku rubuga rwa [Lightning Network](https://lightningnetwork.plus/) Plus hanyuma ukande kuri buto `Injira` iri hejuru iburyo bw’urubuga.
 
 
 

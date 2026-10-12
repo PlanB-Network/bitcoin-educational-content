@@ -20,7 +20,7 @@ RASPIBLITZ - Jak uruchomić piorun i Bitcoin Full node przez sesję BTC
 ## Podręcznik konfiguracji Raspiblitz firmy Parman
 
 
-Raspiblitz to doskonały system do uruchamiania węzła Bitcoin i powiązanych aplikacji. Polecam go wraz z węzłem MyNode większości użytkowników (najlepiej mieć dwa węzły dla redundancji). Jedną z głównych zalet jest to, że węzeł Raspiblitz jest „Free Open Source Software”, w przeciwieństwie do MyNode lub Umbrel. [Dlaczego to jest ważne? Wyjaśnia Vlad Costa.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Możesz także uruchomić Raspiblitz z połączeniem WiFi zamiast ethernet – oto [dodatkowy przewodnik](https://armantheparman.com/headless-wifi/) do tego. (Nie znalazłem sposobu, aby zrobić to z MyNode).
+Raspiblitz to doskonały system do uruchamiania węzła Bitcoin i powiązanych aplikacji. Polecam go wraz z węzłem MyNode większości użytkowników (najlepiej mieć dwa węzły dla redundancji). Jedną z głównych zalet jest to, że węzeł Raspiblitz jest „Free Open Source Software”, w przeciwieństwie do MyNode lub Umbrel. [Dlaczego to jest ważne? Wyjaśnia Vlad Costea.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Możesz także uruchomić Raspiblitz z połączeniem WiFi zamiast ethernet – oto [dodatkowy przewodnik](https://armantheparman.com/headless-wifi/) do tego. (Nie znalazłem sposobu, aby zrobić to z MyNode).
 
 
 Możesz kupić gotowy węzeł z dołączonym mini ekranem lub zbudować go samodzielnie (nie potrzebujesz ekranu).
@@ -96,7 +96,7 @@ Oto [przydatne wideo dla systemu Linux, ale dotyczy także Maca](https://youtu.b
 Dla systemu Windows oto [prosty samouczek](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
 
-_AKTUALIZACJA: Weryfikacja pgp/gpg jest już dostępna. Będziesz potrzebować klucza publicznego Openoms. [Tutaj](http://parman.org/downloadable/openoms.txt) on jest (może być konieczne użycie trybu incognito, aby link działał – http, nie https)_
+_AKTUALIZACJA: Weryfikacja pgp/gpg jest już dostępna. Aktualne obrazy RaspiBlitz podpisuje rootzoll, a nie Openoms (odcisk klucza: 92A746AE33A3C186D014BF5C1C73060C7C176461). Klucz i polecenie `gpg --verify` znajdziesz w [oficjalnym FAQ](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download)._
 Mac/Linux
 
 

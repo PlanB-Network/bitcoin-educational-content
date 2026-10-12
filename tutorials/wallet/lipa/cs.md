@@ -2,7 +2,10 @@
 name: Lipa
 description: Nastavení a používání mobilní peněženky Lipa lightning
 ---
+
 ![cover](assets/cover.webp)
+
+> **Upozornění (říjen 2026):** Peněženka Lipa ukončila provoz 31. prosince 2025 a její vydavatel, lightning payment services ag, je v likvidaci. Aplikaci již nelze stáhnout a kroky v tomto návodu již nefungují. Tuto stránku ponecháváme pro referenci, dokud nebude aktualizována.
 
 Peněženka Bitcoin Lightning je mobilní aplikace, která umožňuje okamžité a levné transakce v síti Bitcoin Lightning. Na rozdíl od transakcí v hlavním blockchainu (on-chain) jsou platby Lightning téměř okamžité a vyžadují minimální poplatky, takže jsou vhodné zejména pro drobné každodenní platby.
 
@@ -31,7 +34,7 @@ Mezi hlavní funkce patří:
 Prvním krokem je stažení aplikace Lipa. Zatím je k dispozici pouze pro iOS :
 
 
-- [Pro Apple](https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
+- Pro Apple
 
 Verze pro Android je v současné době ve vývoji a bude brzy k dispozici.
 

@@ -11,7 +11,7 @@ Tato příručka je věnována všem novým uživatelům, kteří chtějí zač�
 Pomocí [Blixt Wallet](https://blixtwallet.com/), plnohodnotného uzlu LN na mobilním telefonu, ať jste kdekoli.
 
 
-Pokud jste nikdy nepoužili Bitcoin Lightning Network, než začnete, [přečtěte si prosím tuto jednoduchou analogii vysvětlení o Lightning Network (LN)](https://darth-coin.github.io/beginner/LN-airport-analogy-en.html).
+Pokud jste nikdy nepoužili Bitcoin Lightning Network, než začnete, [přečtěte si prosím tuto jednoduchou analogii vysvětlení o Lightning Network (LN)](https://darth-coin.github.io/beginner/ln-airport-analogy-en.html).
 
 
 ## DŮLEŽITÉ ASPEKTY:
@@ -22,11 +22,11 @@ Pokud jste nikdy nepoužili Bitcoin Lightning Network, než začnete, [přečtě
 
 
 
-- Blixt používá LND (aezeed) jako backend Wallet, takže se do něj nepokoušejte importovat jiné typy peněženek Bitcoin. [Zde jste vysvětlili typy semen Wallet Mnemonic](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). A zde je [rozsáhlejší seznam všech typů peněženek](https://walletsrecovery.org/). Pokud jste tedy dříve měli uzel LND, můžete do Blixt importovat seed a záložní.kanály, [jak je vysvětleno v této příručce](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
+- Blixt používá LND (aezeed) jako backend Wallet, takže se do něj nepokoušejte importovat jiné typy peněženek Bitcoin. [Zde jste vysvětlili typy semen Wallet Mnemonic](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). A zde je [rozsáhlejší seznam všech typů peněženek](https://walletsrecovery.org/). Pokud jste tedy dříve měli uzel LND, můžete do Blixt importovat seed a záložní.kanály, [jak je vysvětleno v této příručce](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html).
 
 
 
-- Na konci této příručky najdete speciální část s ["tipy a triky"](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
+- Na konci této příručky najdete speciální část s ["tipy a triky"](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#tips)
 
 
 
@@ -65,7 +65,7 @@ V pravém horním rohu se zobrazí 3 tečky, které aktivují nabídku s:
 
 - "enable Tor" - uživatel může začít se sítí Tor, zejména pokud chce obnovit starý uzel LND, který byl spuštěn pouze s Tor peery.
 - "Nastavit uzel Bitcoin" - pokud se uživatel chce připojit přímo k vlastnímu uzlu, aby mohl synchronizovat bloky prostřednictvím Neutrina, může to udělat hned na úvodní obrazovce. Tato možnost je také vhodná v případě, že vaše internetové připojení nebo Tor není tak stabilní, aby se dalo připojit k výchozímu uzlu Bitcoin (node.blixtwallet.com).
-- Brzy tam bude přidán jazyk, takže uživatel může začít rovnou s jazykem, který mu vyhovuje. Pokud chcete do tohoto open source projektu přispět překladem do dalších jazyků, [připojte se prosím zde](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
+- Brzy tam bude přidán jazyk, takže uživatel může začít rovnou s jazykem, který mu vyhovuje. Pokud chcete do tohoto open source projektu přispět překladem do dalších jazyků, [připojte se prosím zde](https://explore.transifex.com/blixt-wallet/blixt-wallet/).
 
 
 ### MOŽNOST A - Vytvoření nového Wallet
@@ -241,7 +241,7 @@ Dobře, nyní můžete odesílat a přijímat dostatečné množství Sats přes
 Pamatujte si, že v první kapitole "První kontakt" byly na uvítací obrazovce 2 možnosti:
 
 
-- [Možnost A](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - Vytvoření nového Wallet
+- [Možnost A](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#option-a) - Vytvoření nového Wallet
 - Možnost B - Obnovení Wallet
 
 
@@ -251,7 +251,7 @@ Nyní si tedy řekneme, jak obnovit havarovaný uzel Blixt Wallet nebo jakýkoli
 ### MOŽNOST B - Obnovení Wallet
 
 
-V minulosti jsem napsal speciální návod [jak obnovit havarovaný uzel Umbrel](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), kde jsem se zmínil také o metodě použití Blixtu jako rychlého procesu obnovy pomocí souboru seed + channel.backup z Umbrelu.
+V minulosti jsem napsal speciální návod [jak obnovit havarovaný uzel Umbrel](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), kde jsem se zmínil také o metodě použití Blixtu jako rychlého procesu obnovy pomocí souboru seed + channel.backup z Umbrelu.
 
 
 Napsal jsem také návod, jak obnovit uzel Blixt nebo migrovat uzel Blixt na jiné zařízení, [zde](https://blixtwallet.github.io/faq#blixt-restore).
@@ -663,7 +663,7 @@ Mezitím zde najdete všechny odkazy na tento úžasný bleskový uzel Bitcoin:
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Blixt Girls Calendar](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - promo video (můžete si vyzkoušet 1. použití LN)
 - [Leták formátu A4 k vytištění s prvními kroky při používání nástroje Blixt v různých jazycích](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt také nabízí plně funkční demo](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) přímo na svých webových stránkách nebo na vyhrazené webové verzi, abyste si mohli vyzkoušet všechny zkušenosti, než začnete používat v reálném světě.
+- [Blixt také nabízí plně funkční demo](https://blixtwallet.github.io/) přímo na svých webových stránkách nebo na vyhrazené webové verzi, abyste si mohli vyzkoušet všechny zkušenosti, než začnete používat v reálném světě.
 
 
 ---

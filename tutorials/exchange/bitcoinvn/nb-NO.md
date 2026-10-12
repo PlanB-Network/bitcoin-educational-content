@@ -65,7 +65,7 @@ Skriv inn beløpet du ønsker å bytte manuelt, og bruk [lenke til daglige grens
 Husk at **transaksjonsprisene svinger**, så sjekk alltid den endelige prisen før du bekrefter.
 
 
-**En konto er ikke påkrevd med** daglige transaksjoner begrenset til VND 250 000 (~ USD 8). Du finner mer informasjon i våre [retningslinjer for bankoverføring](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**En konto er ikke påkrevd med** daglige transaksjoner begrenset til VND 250 000 (~ USD 8). Du finner mer informasjon i våre [retningslinjer for bankoverføring](https://support.bitcoinvn.io/help/en-us/4-orders-payments/17-vnd-bank-transfer).
 
 
 **Pass på**: Nettverksavgiften er generelt billigere når du velger Lightning Network sammenlignet med transaksjonsmetoden i kjeden.

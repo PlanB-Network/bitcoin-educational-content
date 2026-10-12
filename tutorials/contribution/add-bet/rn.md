@@ -26,7 +26,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Genda kuri [ububiko bwa GitHub bwa PlanB bwihariye ku makuru](https://github.com/Urubuga rwa PlanB/ibirimwo-ivy’inyigisho/igiti/iterambere/ibikoresho/bet) mu gice ca `ibikoresho/bet/`:
+- Genda kuri [ububiko bwa GitHub bwa PlanB bwihariye ku makuru](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) mu gice ca `ibikoresho/bet/`:
 
 ![event](assets/02.webp)
 
@@ -121,7 +121,7 @@ Akarorero, dosiye yawe ya YAML yoshobora gusa n'iyi:
 project: Plan ₿ Academy
 type: Educational Content
 links:
-download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
 view:
 ```
 
@@ -303,7 +303,7 @@ https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/reso
 
 
 ```url
-https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 

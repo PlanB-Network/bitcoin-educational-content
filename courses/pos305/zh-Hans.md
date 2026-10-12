@@ -267,7 +267,7 @@ Blockchain、交易、双重支出、拜占庭将军问题、Mining、Proof of W
 本课程块的目标是获得对 BTCPay Server 软件的一般了解。在共享环境中，建议您跟随教师的演示，并参考 BTCPay Server 课程手册，与教师一起学习。您将学习如何通过多种方法创建 Wallet。示例包括 Hot Wallet 设置和通过 BTCPay Server Vault 连接的[硬件钱包](https://planb.academy/resources/glossary/hardware-wallet)。这些目标将在演示环境中实现，由课程教师展示并提供访问权限。
 
 
-如果您自己学习本课程，您可以在 https://directory.btcpayserver.org/filter/hosts 找到用于演示的第三方主机列表。我们强烈建议不要将这些第三方选项用作生产环境；不过，这些选项可用于介绍 Bitcoin 和 BTCPay 服务器的使用。
+如果您自己学习本课程，您可以在 https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/ 找到用于演示的第三方主机列表。我们强烈建议不要将这些第三方选项用作生产环境；不过，这些选项可用于介绍 Bitcoin 和 BTCPay 服务器的使用。
 
 
 作为 BTCPay Server 摇滚明星学员，您可能以前有过设置 Bitcoin 节点的经验。本课程专为 BTCPay 服务器软件栈量身定制。
@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin 节点日志
 
 
-除了查看 bitcoind 容器的 [日志](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs)，您还可以使用任何 [bitcoin-cli 命令](https://developer.Bitcoin.org/reference/RPC/index.html)
+除了查看 bitcoind 容器的 [日志](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs)，您还可以使用任何 [bitcoin-cli 命令](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[（打开新窗口）](https://developer.Bitcoin.org/reference/RPC/index.html) 从您的 Bitcoin 节点获取信息。BTCPay 包含一个脚本，可让您与 Bitcoin 节点轻松通信。
+[（打开新窗口）](https://developer.bitcoin.org/reference/rpc/index.html) 从您的 Bitcoin 节点获取信息。BTCPay 包含一个脚本，可让您与 Bitcoin 节点轻松通信。
 
 
 在 btcpayserver-docker 文件夹中，使用你的节点获取 Blockchain 信息：

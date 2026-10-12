@@ -94,7 +94,7 @@ https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1
 
 - Жилье (не обязательно, но рекомендуется)** (не обязательно, но рекомендуется)** (не обязательно, но рекомендуется)** (не обязательно, но рекомендуется)**)
     - Защищает устройство и делает его удобным в использовании.
-    - Самой популярной моделью является "*Оранжевый футляр для таблеток*", для которого доступны [открытые STL-файлы для 3D-печати](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - Самой популярной моделью является "*Оранжевый футляр для таблеток*", для которого доступны [открытые STL-файлы для 3D-печати](https://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - Коробки также можно приобрести у [независимых реселлеров, связанных с проектом](https://seedsigner.com/hardware/).
 
 

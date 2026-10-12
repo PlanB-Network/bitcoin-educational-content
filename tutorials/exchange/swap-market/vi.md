@@ -566,6 +566,8 @@ Satoshi Lightning của bạn sẽ có sẵn ngay trong wallet.
 
 ## SwapMarket và Boltz: Sự khác biệt là gì?
 
+> **Lưu ý (tháng 10 năm 2026):** Boltz Exchange đã tạm ngừng mọi giao dịch hoán đổi vào ngày 3 tháng 8 năm 2026 và trang web của họ hiện ngoại tuyến. Nhà cung cấp này có thể không còn khả dụng trên SwapMarket.
+
 
 
 ### Boltz: Công nghệ so với Dịch vụ
@@ -639,7 +641,7 @@ Sự cạnh tranh giữa các nhà cung cấp giúp cải thiện tỷ giá và 
 
 - [SwapMarket - Ứng dụng web](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Tài liệu kỹ thuật](https://docs.boltz.exchange/)
+- [Tài liệu kỹ thuật](https://github.com/BoltzExchange/boltz-backend)
 - [Hướng dẫn tự lưu trữ](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 
@@ -649,5 +651,5 @@ Sự cạnh tranh giữa các nhà cung cấp giúp cải thiện tỷ giá và 
 
 
 
-- [Boltz Exchange](https://boltz.exchange) - Dịch vụ hoán đổi nguyên tử gốc
+- Boltz Exchange - Dịch vụ hoán đổi nguyên tử gốc
 - [ZEUS Swaps](https://zeusln.com) - Nhà cung cấp dịch vụ hoán đổi Lightning

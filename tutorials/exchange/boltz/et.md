@@ -3,10 +3,9 @@ name: Boltz
 description: Vahetage erinevate Bitcoin kihtide vahel, säilitades samal ajal kontrolli.
 ---
 
-
 ![cover](assets/cover.webp)
 
-
+> **Hoiatus (oktoober 2026):** Boltz peatas kõik vahetused 3. augustil 2026 pärast mitme turvanõrkuse ärakasutamist ja selle veebisait on võrgust väljas. Selle juhendi lingid ja sammud enam ei tööta. Säilitame selle lehe viitena, kuni seda uuendatakse.
 
 Alates selle kasutuselevõtust 2009. aastal on Bitcoin vastastikune elektrooniline sularahasüsteem eksponentsiaalselt kasvanud, andes elu lahendustele, mis võimaldavad tänapäeval olla süsteem, mida me saame koheselt kasutada oma igapäevastes toimingutes, eelkõige Lightning Network kaudu.
 
@@ -20,7 +19,7 @@ Bitcoin protokolli kihtide vahel jäi siiski üks suur probleem: sujuv koostalit
 
 
 
-[Boltz](https://boltz.Exchange) on mittekaitstav platvorm, mis on ideaalne kõigile, kes soovivad teha tehinguid Bitcoin protokolli eri kihtide vahel:
+Boltz on mittekaitstav platvorm, mis on ideaalne kõigile, kes soovivad teha tehinguid Bitcoin protokolli eri kihtide vahel:
 
 
 

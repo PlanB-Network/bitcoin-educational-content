@@ -7,6 +7,8 @@ description: RoninDojo v2 Bitcoin ノードを Raspberry Pi にインストー�
 
 **警告:** 4月24日にサムライWalletの創設者が逮捕され、サーバーが押収されたことを受け、WhirlpoolのようなRoninDojoの一部の機能はもはや動作しません。しかし、今後数週間のうちに、これらのツールが復活したり、別の形で再スタートしたりする可能性はある。さらに、RoninDojoのコードは、同じく押収されたSamourai氏のGitLabでホストされていたため、現在、リモートでコードをダウンロードすることはできない。RoninDojoチームはコードの再公開に取り組んでいるようだ。
 
+> **更新（2026年10月）：** RoninDojoはその後、独自のプラットフォーム（[git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)）でコードを再公開し、現在はバージョン3になっています。このチュートリアルは古いバージョンを説明しているため、一部のリンクやコマンドは動作しません。現在の手順については、公式ドキュメントを参照してください：[docs.ronindojo.io](https://docs.ronindojo.io/)
+
 
 私たちは、本件の進展と関連ツールの動向を注視しています。新しい情報が入り次第、このチュートリアルを更新しますのでご安心ください。
 
@@ -37,7 +39,9 @@ https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-
 Dojoは当初、Bitcoin coreをベースにした完全なBitcoinノードの実装であり、Samourai Walletチームによって開発された。このソリューションはどのような機器にもインストールできます。他のCore実装とは異なり、Dojoは特にSamourai WalletのAndroidアプリケーション環境と統合するために最適化されています。RoninDojoに関しては、Dojoのインストールと管理を容易にするために設計されたユーティリティであり、他の様々な補完ツールでもあります。つまり、RoninDojoは、Dojoのインストールと管理を簡素化しながら、多数の追加ツールを統合することによって、Dojoの基本的な実装を豊かにします。
 
 
-Roninはまた、[「*Tanto*」と呼ばれるノード・イン・ボックス・ソリューション](https://ronindojo.io/en/products)も提供している。これは、彼らのチームが組み立てたシステムにRoninDojoがすでにインストールされたデバイスである。Tantoは有料オプションで、技術的な複雑さを避けたい人には興味深いかもしれない。しかし、RoninDojoのソースコードはオープンなので、自分のハードウェアに導入することも可能だ。この選択肢は経済的ですが、いくつかの追加操作が必要です。
+Roninはまた、[「*Tanto*」と呼ばれるノード・イン・ボックス・ソリューション](https://docs.ronindojo.io/hardware/tanto/)も提供している。これは、彼らのチームが組み立てたシステムにRoninDojoがすでにインストールされたデバイスである。Tantoは有料オプションで、技術的な複雑さを避けたい人には興味深いかもしれない。しかし、RoninDojoのソースコードはオープンなので、自分のハードウェアに導入することも可能だ。この選択肢は経済的ですが、いくつかの追加操作が必要です。
+
+> **注記（2026年10月）：** RoninDojoはTantoの販売を終了したようで、オンラインショップも停止しています。対応ハードウェアの一覧を参照してください：[docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
 
 RoninDojo は道場であるため、Whirlpool CLI を Bitcoin ノードに簡単に統合することができ、CoinJoin で可能な限り最高の体験を提供します。Whirlpool CLIを使えば、24時間365日、パソコンの電源を入れたままで、ビットコインをリミックスし続けることが可能になります。
 
@@ -56,7 +60,9 @@ RoninDojoの概要がわかったところで、このノードをどのよう�
 
 ## RoninDojo v2をインストールするには、どのハードウェアを選べばよいですか？
 
-RoninDojoは[RockPro64](https://ronindojo.io/en/download)にソフトウェアを自動インストールするためのイメージを提供しています。しかし、このチュートリアルでは、Raspberry Pi 4への手動インストール手順に焦点を当てます。Raspberry Pi 5が最近発売され、このチュートリアルは理論的にはこの新しいモデルに対応しているはずですが、私はまだ個人的にテストする機会がなく、コミュニティからのフィードバックも見当たりません。私がPi 5と互換性のあるコンポーネントを入手し次第、このチュートリアルを更新し、情報をお伝えします。それまでは、Pi 4を優先することをお勧めします。
+RoninDojoは[RockPro64](https://ronindojo.io/downloads)にソフトウェアを自動インストールするためのイメージを提供しています。しかし、このチュートリアルでは、Raspberry Pi 4への手動インストール手順に焦点を当てます。Raspberry Pi 5が最近発売され、このチュートリアルは理論的にはこの新しいモデルに対応しているはずですが、私はまだ個人的にテストする機会がなく、コミュニティからのフィードバックも見当たりません。私がPi 5と互換性のあるコンポーネントを入手し次第、このチュートリアルを更新し、情報をお伝えします。それまでは、Pi 4を優先することをお勧めします。
+
+> **注記（2026年10月）：** RoninDojoは現在、Rock5B+、Raspberry Pi 5、x86マシン向けの公式RoninOSイメージも提供しています。
 
 私自身は、8GBのRAMを搭載したRaspberry PiでRoninDojoを動かしています。コミュニティーのメンバーの中には、4GBのRAMしか搭載していないデバイスでRoninDojoを動作させた人もいますが、私自身はこの構成をテストしたことはありません。わずかな価格差を考えると、8GB RAMバージョンを選ぶのが賢明だと思われる。また、将来Raspberry Piを他の用途に再利用する予定がある場合にも便利です。
 
@@ -290,6 +296,8 @@ sudo apt update && sudo apt upgrade -y`.
 sudo apt install git dialog -y`.
 
 
+> **注記（2026年10月）：** 以下のコマンドは動作しません。SamouraiのGitLab（code.samourai.io）は2024年4月24日に押収されました。RoninDojoは現在、コードをこちらで公開しています：[git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)。現在のインストール手順については [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/) を参照してください。
+
 次に、_RoninOS_ Git リポジトリの `master` ブランチをクローンします：
 
 `sudo git clone --branch master https://code.samourai.io/ronindojo/RoninOS.git /opt/RoninOS`
@@ -479,7 +487,9 @@ Electrs を使用する代わりに、Dojo では互換性のある Software Wal
 ![Samourai Wallet connection](assets/notext/36.webp)
 
 
-Ronin Dojo をセットアップする前にすでに Samourai Wallet を持っていた場合、Wallet を復元する前に、Wallet をバックアップし、Samourai Wallet アプリをアンインストールしてから再インストールする必要があります。再インストールしたアプリを起動すると、新しい道場に接続するオプションが表示されます。 **このプロセスを正しく実行しないと、ビットコインを失う危険性があります。また、リカバリーフレーズとpassphraseの読み取り可能なバックアップを取っておくことも重要です。この操作をより正確に行うには、この詳細なチュートリアルに従うことをお勧めします：[https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+Ronin Dojo をセットアップする前にすでに Samourai Wallet を持っていた場合、Wallet を復元する前に、Wallet をバックアップし、Samourai Wallet アプリをアンインストールしてから再インストールする必要があります。再インストールしたアプリを起動すると、新しい道場に接続するオプションが表示されます。 **このプロセスを正しく実行しないと、ビットコインを失う危険性があります。また、リカバリーフレーズとpassphraseの読み取り可能なバックアップを取っておくことも重要です。この操作をより正確に行うには、この詳細なチュートリアルに従うことをお勧めします：[https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+
+> **警告（2026年10月）：** Samourai Walletはもう存在しません。2024年4月24日にサーバーが押収され、創設者が逮捕されました。上のリンクはガイドのアーカイブ版です。RoninDojoは現在、Samourai WalletのフォークであるAshigaruのガイドを提供しています：[docs.ronindojo.io/guides-wallet/ashigaru](https://docs.ronindojo.io/guides-wallet/ashigaru/)
 
 
 ### 自分のMempool.スペースBlock explorerを使う
@@ -824,7 +834,7 @@ RoninUI ダッシュボードで利用可能な他のタブについて：
 - 設定`：ユーザーパスワードを変更できます。
 
 
-以上です！このチュートリアルに最後までお付き合いいただき、ありがとうございました。もし楽しんでいただけたなら、ぜひソーシャルメディアでシェアしていただきたい。さらに、もし機会があれば、これらのフリーでオープンソースのソフトウェアを私たちのコミュニティで利用できるようにしている開発者を寄付で支援することを検討してください：[https://donate.ronindojo.io/](https://donate.ronindojo.io/).RoninDojoの知識を深め、より多くのリソースを発見するために、以下の外部リソースへのリンクを参照することを強くお勧めします。
+以上です！このチュートリアルに最後までお付き合いいただき、ありがとうございました。もし楽しんでいただけたなら、ぜひソーシャルメディアでシェアしていただきたい。さらに、もし機会があれば、これらのフリーでオープンソースのソフトウェアを私たちのコミュニティで利用できるようにしている開発者を寄付で支援することを検討してください：[https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/).RoninDojoの知識を深め、より多くのリソースを発見するために、以下の外部リソースへのリンクを参照することを強くお勧めします。
 
 
 **外部リソース
@@ -834,4 +844,4 @@ RoninUI ダッシュボードで利用可能な他のタブについて：
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)

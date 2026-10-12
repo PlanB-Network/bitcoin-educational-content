@@ -20,7 +20,7 @@ Tällä hetkellä ZEUS on tarkoitettu ihmisille, jotka pyörittävät omia koti-
 Kauppiaat, jotka käyttävät [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) tai [Alby](https://getalby.com/) (tai mitä tahansa muuta LNDhub-tiliä), voivat myös ZEUSin kautta yhdistää, käyttää ja hallinnoida solmujaan / tilejään.
 
 
-[Alkaen versiosta v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) ZEUS alkaa palvella tavallisia käyttäjiä, jotka haluavat yksinkertaisen tavan tehdä nopeita ja halpoja bitcoin-maksuja mobiililaitteestaan, tarjoamalla [sisäänrakennetun mobiili-Lightning-solmun](https://docs.zeusln.app/category/embedded-node) integroidulla [Lightning-palveluntarjoajalla (LSP)](https://docs.zeusln.app/lsp/intro).
+[Alkaen versiosta v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) ZEUS alkaa palvella tavallisia käyttäjiä, jotka haluavat yksinkertaisen tavan tehdä nopeita ja halpoja bitcoin-maksuja mobiililaitteestaan, tarjoamalla [sisäänrakennetun mobiili-Lightning-solmun](https://docs.zeusln.app/category/embedded-lnd) integroidulla [Lightning-palveluntarjoajalla (LSP)](https://docs.zeusln.app/lsp/intro).
 
 
 ### Tärkeitä Zeus-resursseja:
@@ -169,7 +169,7 @@ Tässä esitellään kaksi LSP-palvelua:
 LSP auttaa yhdistämään käyttäjät Lightning-verkkoon avaamalla maksukanavia heidän solmuihinsa. [Lue lisää LSP:stä täältä](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUSissa on uusi integroitu LSP nimeltä [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), joka on käytettävissä kaikille käyttäjille, jotka käyttävät uutta sisäänrakennettua solmua.
 
 
-Tässä osiossa on oletuksena Olympus LSP (https://0conf.lnolymp.us), mutta pian voit myös asettaa toisen 0conf LSP:n, joka tukee tätä protokollaa.
+Tässä osiossa on oletuksena Olympus LSP (https://flow.zeuslsp.com), mutta pian voit myös asettaa toisen 0conf LSP:n, joka tukee tätä protokollaa.
 
 
 _Keep in mind:_
@@ -310,7 +310,7 @@ ZEUSin sulautettu solmu perustuu LND:een ja käyttää [aezeed seed -formaattia]
 Aezeed-avaimen muodon pitäisi olla yhteensopiva seuraavien mobiililompakoiden kanssa: Blixt, BlueWallet ja Breez. Huomaa, että pelkkä seed ei riitä palauttamaan kaikkia saldojasi, jos sinulla on avoimia tai vireillä olevia sulkemiskanavia !
 
 
-Lisätietoja varmuuskopiointi- ja palautusprosessista on [Zeus Docs -sivulla](https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery).
+Lisätietoja varmuuskopiointi- ja palautusprosessista on [Zeus Docs -sivulla](https://docs.zeusln.app/for-users/local-wallets/embedded-lnd/backup-and-recovery).
 
 
 VALTAKUNNALLINEN NEUVONTA: Kun tallennat seed:n, tallenna myös solmun julkistusavain! Joskus on hyvä pitää se käsillä yhdessä seed:n ja SCB:n (Static Channels Backup) kanssa siltä varalta, että sinun on tarkistettava palautus.
@@ -322,7 +322,7 @@ SCB on tarpeen vain, jos LN-kanavat ovat auki. Jos sinulla on vain onchain varoj
 Jos huomaat, että pitkän ajan jälkeen ei vieläkään näy vanhaa historiaa txs, mene Embedded node - Peers ja poistaa vaihtoehto käyttää luetteloa valittujen vertaisryhmien (oletuksena on btcd.lnolymp.us). Tämä käynnistää uudelleen ja muodostaa yhteyden ensimmäiseen käytettävissä olevaan neutriinosolmuun, jolla on parempi aikavaste. Tai käytä alla mainittuja muita tunnettuja neutriinon vertaisvertaisverkkoja.
 
 
-Jos haluat nähdä lisää palautusvaihtoehtoja LND-solmulle, [lue edellinen oppaani](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), jossa kerrotaan, miten tuodaan tyhjennetty seed Sparrow Wallet:een tai muilla menetelmillä.
+Jos haluat nähdä lisää palautusvaihtoehtoja LND-solmulle, [lue edellinen oppaani](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), jossa kerrotaan, miten tuodaan tyhjennetty seed Sparrow Wallet:een tai muilla menetelmillä.
 
 
 **C - Sulautettu solmu**
@@ -356,7 +356,7 @@ Tässä osassa on joitakin perustyökaluja integroidun solmun hallintaan:
 
 
 
- - _Pathfinding mode_ - bimodaalinen tai apriori, tapoja löytää parempi reitti LN-maksuille ja myös edellisen reittitiedon nollaaminen. Lue nämä erittäin hyvät oppaat polunhakutoiminnoista: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - kirjoittanut Docs Lightning Engineering ja [LN Payment Pathfinding](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - kirjoittanut Voltage
+ - _Pathfinding mode_ - bimodaalinen tai apriori, tapoja löytää parempi reitti LN-maksuille ja myös edellisen reittitiedon nollaaminen. Lue nämä erittäin hyvät oppaat polunhakutoiminnoista: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - kirjoittanut Docs Lightning Engineering ja [LN Payment Pathfinding](https://voltage.cloud/blog/understanding-payment-pathfinding-between-nodes-on-lightning-network) - kirjoittanut Voltage
  - _Pysyvä LND_ - aktivoi tämä tila, jos haluat LND-palvelun toimivan jatkuvasti taustalla ja pitävän solmun verkossa 24/7. Tämä on erittäin hyödyllistä, jos käytät Zeusta PoS:nä pienessä kaupassa tai jos saat paljon LN-vihjeitä LN Address:n kautta.
  - _Tarkista lompakko_ - tämä vaihtoehto käynnistää uudelleenkäynnistyksen yhteydessä Wallet:n kaikkien ketjussa olevien tx:ien täydellisen tarkistuksen. Aktivoi se vain siinä tapauksessa, että Wallet:sta puuttuu joitakin tx:iä. Uudelleentarkistus vie aikaa, useita minuutteja, joten ole kärsivällinen ja tarkista aina lokitiedot nähdäksesi tarkemmat tiedot edistymisestä.
  - _Compact Database_ - tämä vaihtoehto on erittäin hyödyllinen, jos Zeus-sovelluksesi vie paljon tilaa laitteelta (katso sovelluksen tiedot laitteen asetuksista). Jos Zeuksen käyttö on vilkasta, suosittelen tekemään tämän tiivistämisen useammin. Kun näet, että Zeus-sovelluksen tiedot ovat yli 1-1,5 Gt, tee tiivistäminen. Se käynnistyy uudelleen ja kestää jonkin aikaa, joten ole kärsivällinen.
@@ -399,7 +399,7 @@ ZEUS PAY hyödyntää käyttäjien luomia esikuva-hasheja, HODL-laskuja ja Zaplo
 Jos aktivoit "pysyvän tilan", kaikki maksut LN Address:een vastaanotetaan välittömästi.
 
 
-Lue lisää siitä, miten [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) maksut toimivat ja lisää [ZeusPayn maksuista täällä](https://docs.zeusln.app/lightning-Address/fees).
+Lue lisää siitä, miten [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) maksut toimivat ja lisää [ZeusPayn maksuista täällä](https://docs.zeusln.app/lightning-address/zaplocker).
 
 
 **G - Onchain-osoitteet**
@@ -488,7 +488,7 @@ Oletusarvoisesti Zeus käyttää omaa LSP:tä, Olympusta. Myöhemmin voit kuiten
 Luomalla yksinkertaisesti Invoice:n Zeuksellesi (laita summa ja napsauta "Pyydä"-painiketta), voit saada nämä Sats:t heti.
 
 
-Invoice:n generate:lle tehdään [kääre](https://docs.zeusln.app/lsp/wrapped-invoices), ja sinulle esitetään palveluun liittyvät maksut, jos ne on maksettu. Tämä kääritty Invoice sisältää reittivihjeitä Zeus-solmusi suuntaan, joten LSP voi löytää uuden solmusi ja avata kanavan tallettamillesi uusille varoille.
+Invoice:n generate:lle tehdään [kääre](https://docs.zeusln.app/lsp/services/flow), ja sinulle esitetään palveluun liittyvät maksut, jos ne on maksettu. Tämä kääritty Invoice sisältää reittivihjeitä Zeus-solmusi suuntaan, joten LSP voi löytää uuden solmusi ja avata kanavan tallettamillesi uusille varoille.
 
 
 ![Image](assets/en/06.webp)

@@ -337,7 +337,7 @@ Saklama modeli ihtiyat ve iyi güvenlik uygulamaları gerektirir. Doğru kullan�
 
 
 - Teknik dokümantasyon: [docs.cashu.space](https://docs.cashu.space)
-- Halka açık darphanelerin listesi: [bitcoinmints.com](https://bitcoinmints.com)
+- Halka açık darphanelerin listesi: [bitcoinmints.com](https://cashumints.space/)
 - Resmi protokol web sitesi: [cashu.space](https://cashu.space)
 
 

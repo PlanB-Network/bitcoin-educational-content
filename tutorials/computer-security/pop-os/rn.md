@@ -251,7 +251,7 @@ Ushobora gukoresha ibikoresho vyinshi, nka Balena Etcher :
 
 
 
-- Gukuraho no gushiramwo [Igishushanyo ca Balena](https://igishushanyo.balena.io/).
+- Gukuraho no gushiramwo [Igishushanyo ca Balena](https://etcher.balena.io/).
 
 
 

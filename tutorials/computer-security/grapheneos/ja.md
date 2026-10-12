@@ -101,7 +101,7 @@ _また、Auditorアプリを介してインストールを検証するという
 以下は、技術コンテンツを日本語に翻訳したものです。
 
 あなたがまだ馴染みがないかもしれない2つの用語は、「Auditor」と「Vanadium」です。
-- 「[Auditorアプリ](https://play.google.com/store/apps/details?id=app.attestation.auditor)は、ハードウェアベースのセキュリティ機能を使用して、デバイスの身元とオペレーティングシステムの真正性および完全性を検証します。デバイスがロックされたブートローダーを持つ標準のオペレーティングシステムを実行しており、オペレーティングシステムが改ざんされていないことを確認します。」
+- 「[Auditorアプリ](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)は、ハードウェアベースのセキュリティ機能を使用して、デバイスの身元とオペレーティングシステムの真正性および完全性を検証します。デバイスがロックされたブートローダーを持つ標準のオペレーティングシステムを実行しており、オペレーティングシステムが改ざんされていないことを確認します。」
 - [Vanadium](https://github.com/GrapheneOS/Vanadium)は、Chromiumウェブブラウザのプライバシーとセキュリティを強化したバリアントです。
 
 ## カスタマイズ
@@ -291,7 +291,7 @@ GrapheneOSで地図アプリを使用して運転中に音声アシスタンス�
 
 ### セキュリティ/プライバシー
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) は、あなたのデバイス全体で無料かつE2EEのクロスプラットフォームパスワードマネージャーソリューションを提供します。彼らの有料サービスでは、アプリに2FAコードを統合できます。Bitwardenのサーバーサイドは自己ホスティングが可能で、AndroidアプリはF-Droid経由で利用可能です。
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo) は、あなたのデバイス全体で無料かつE2EEのクロスプラットフォームパスワードマネージャーソリューションを提供します。彼らの有料サービスでは、アプリに2FAコードを統合できます。Bitwardenのサーバーサイドは自己ホスティングが可能で、AndroidアプリはF-Droid経由で利用可能です。
 - [Proton Pass](https://proton.me/pass/download) はBitwardenに似た無料サービスを提供しますが、[Proton Unlimited](https://proton.me/pricing)の顧客は追加の高度な機能にアクセスできます。Proton PassはAPKまたはAurora経由で利用可能です。
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) は、ワンタイムパスワードプロトコルを利用するシステム用の二要素認証アプリケーションです。トークンはQRコードをスキャンすることで簡単に追加できます。FreeOTPはF-Droid経由で入手可能です。
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) は、オンラインサービスの2段階認証トークンを管理するための無料で安全なオープンソースアプリです。AegisはF-Droid経由で入手可能です。
@@ -406,7 +406,6 @@ GrapheneOSは、誰もが簡単に数週間を費やすことができる奥深�
 - [GrapheneOS公式使用ガイド](https://grapheneos.org/usage) - 公式ウェブサイト
 - [GrapheneOSフォーラム](https://discuss.grapheneos.org/) - 公式ウェブサイト
 - [GrapheneOS設定マスタークラス](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - 'The Privacy Wayfinder'によるビデオ
-- [GrapheneOS一般ポッドキャスト](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - 'Watchman Privacy'によるポッドキャスト
 
 *このチュートリアルは、[BitcoinQnA が Bitcoiner.Guide に MIT ライセンスの下で公開した](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md)元のコンテンツを適応したものであり、最初の執筆作業に関する全ての功績は BitcoinQnA に帰属します。*
 

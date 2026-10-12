@@ -61,7 +61,7 @@ Elements je [blockchainová](https://planb.academy/resources/glossary/blockchain
 
 Elements je ve své podstatě protokol, který umožňuje dosáhnout [konsenzu](https://planb.academy/resources/glossary/consensus) kolem historie [transakcí](https://planb.academy/resources/glossary/transaction-tx) a pravidel, jimiž se řídí převod a vytváření aktiv uložených v distribuované blockchainové účetní knize.
 
-Další základní informace o systému Elements lze snadno nalézt na webových stránkách projektu Elements (https://elementsproject.org/), na oficiálním blogu Liquidu (https://blog.liquid.net/) a na portálu pro vývojáře(https://liquid.net/devs).
+Další základní informace o systému Elements lze snadno nalézt na webových stránkách projektu Elements (https://elementsproject.org/), na oficiálním blogu Liquidu (https://blog.liquid.net/) a na portálu pro vývojáře(https://liquid.net/developers).
 
 ### Prvky
 

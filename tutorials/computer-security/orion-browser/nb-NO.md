@@ -643,8 +643,8 @@ Husk at personvernet ditt ikke bare avhenger av nettleseren din. Kombiner Orion 
 
 
 - **Offisiell nettside**: [kagi.com/orion](https://kagi.com/orion/)
-- **Fullstendige vanlige spørsmål**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **Fellesskapsforum**: [community.kagi.com](https://community.kagi.com)
+- **Fullstendige vanlige spørsmål**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **Fellesskapsforum**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **Feilsporing**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - komponenter med åpen kildekode
 - **Blogg Kagi**: [blog.kagi.com](https://blog.kagi.com) - Nyheter og oppdateringer

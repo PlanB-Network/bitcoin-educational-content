@@ -7,7 +7,7 @@ description: Master Nmap ku ikarita y'urubuga no gupima ubugoyagoye
 
 
 
-*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Mickael Dorigny vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](ku rubuga rwacu/uruhusha/ku-NC/4.0/). Hariho ivyo bahinduye mu canditswe c’intango.*
+*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Mickael Dorigny vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Hariho ivyo bahinduye mu canditswe c’intango.*
 
 
 
@@ -165,7 +165,7 @@ Muri iki gice, turaza kuraba ingene igikoresho co gupima urubuga rwa Nmap gikore
 
 
 
-Nmap ishobora gukoreshwa mu gupima urubuga, kandi, mu buryo bwagutse, mu gukurikirana. Mu buryo bumwe nyene ping ishobora gukoreshwa mu kumenya nimba abashitsi babiri bariko baravugana, Nmap ishobora gukoreshwa mu kumenya ningoga nimba umushitsi ariko arakora, canke nimba igikorwa kinaka kiriko kirakora. Turashimira [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilities/ "Nmap"), turashobora kuronka amakuru nyayo yerekeye igihe c'inyishu y'umushitsi, inzira ifatwa n'amapakete, inyishu itangwa n'igikorwa kinaka, n'ibindi.
+Nmap ishobora gukoreshwa mu gupima urubuga, kandi, mu buryo bwagutse, mu gukurikirana. Mu buryo bumwe nyene ping ishobora gukoreshwa mu kumenya nimba abashitsi babiri bariko baravugana, Nmap ishobora gukoreshwa mu kumenya ningoga nimba umushitsi ariko arakora, canke nimba igikorwa kinaka kiriko kirakora. Turashimira [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap"), turashobora kuronka amakuru nyayo yerekeye igihe c'inyishu y'umushitsi, inzira ifatwa n'amapakete, inyishu itangwa n'igikorwa kinaka, n'ibindi.
 
 
 
@@ -312,7 +312,7 @@ Muri iki gice, tuzomenya ingene twoshiramwo igikoresho co gupima urubuga rwa Nma
 
 
 
-Nmap yari yagenewe gukoreshwa ku bikoresho vya GNU/Linux. Nk'inyishu, kandi kubera ubuzima bwayo buramba n'ukumenyekana kwayo, uzoyisanga mu bubiko bwose buzwi bw'ibitabu bikuru vya Unix. Muri iyi nyigisho, nzoba ndiko nkoresha ubuhinga bwo gukoresha bushingiye kuri Debian [Kali Linux]("Kali Linux"). Ariko ushobora kuyikoresha mu buryo bumwe nyene buva kuri Debian ya kera, CentOS, Red Hat canke ikindi cose!
+Nmap yari yagenewe gukoreshwa ku bikoresho vya GNU/Linux. Nk'inyishu, kandi kubera ubuzima bwayo buramba n'ukumenyekana kwayo, uzoyisanga mu bubiko bwose buzwi bw'ibitabu bikuru vya Unix. Muri iyi nyigisho, nzoba ndiko nkoresha ubuhinga bwo gukoresha bushingiye kuri Debian [Kali Linux](https://www.it-connect.fr/cours/debuter-avec-kali-linux/). Ariko ushobora kuyikoresha mu buryo bumwe nyene buva kuri Debian ya kera, CentOS, Red Hat canke ikindi cose!
 
 
 
@@ -334,7 +334,7 @@ $ dnf search '^nmap$'
 
 
 
-Inyishu aha yerekana neza ko iyo "nmap" iriho mu bibanza vy'ububiko (aha, ivyo vya Kali [Linux] Kuva ubu, urashobora gushiramwo Nmap biciye ku mategeko asanzwe yo gushiramwo, ntaco kigukurako intwaro muri iki gihe 🙂:
+Inyishu aha yerekana neza ko iyo "nmap" iriho mu bibanza vy'ububiko (aha, ivyo vya Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/) Kuva ubu, urashobora gushiramwo Nmap biciye ku mategeko asanzwe yo gushiramwo, ntaco kigukurako intwaro muri iki gihe 🙂:
 
 
 
@@ -384,7 +384,7 @@ Kugira ngo ushire kuri sisitemu ikoresha Windows, tangura ukura binary ku rubuga
 
 
 
-- Paje yo gukuraho Nmap ku rubuga rwemewe: [https://nmap.org/gukuraho.html#amadirisha](https://nmap.org/gukuraho.html#amadirisha)
+- Paje yo gukuraho Nmap ku rubuga rwemewe: [https://nmap.org/gukuraho.html#amadirisha](https://nmap.org/download.html#windows)
 
 
 
@@ -551,7 +551,7 @@ Kuva ubu, wibuke gucapura gusa abashitsi mu bidukikije bigenzurwa ufise uruhusha
 
 
 
-- Nk’ukwibutsa: [Itegeko ry’Igihano: Igice ca III: Ibitero ku buryo bwo gutunganya amakuru bwikoresha]
+- Nk’ukwibutsa: [Itegeko ry’Igihano: Igice ca III: Ibitero ku buryo bwo gutunganya amakuru bwikoresha](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
 
 
 
@@ -901,7 +901,7 @@ uDP itanga amapakete n'ukwakira ICMP (icuma ntikigera) mu gihe c'ugupima Nmap
 
 
 
-Turashobora kubona ku gicapo kiri hejuru ko Nmap izorungika amapakete menshi ya UDP, kandi ikaronka kuri menshi muri yo amapakete ya ICMP "Ico umuntu aja (Port unreachable)" mu kwishura. Ivyo ni ibisanzwe, kuko ari inyishu ibereye isobanurwa na [RFC 1122]("RFC 1122") iyo icuma ca UDP kidashobora gushikwako:
+Turashobora kubona ku gicapo kiri hejuru ko Nmap izorungika amapakete menshi ya UDP, kandi ikaronka kuri menshi muri yo amapakete ya ICMP "Ico umuntu aja (Port unreachable)" mu kwishura. Ivyo ni ibisanzwe, kuko ari inyishu ibereye isobanurwa na [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm) iyo icuma ca UDP kidashobora gushikwako:
 
 
 
@@ -1636,11 +1636,11 @@ Muri iki gice, tuzokwiga ingene dukoresha Nmap kugira ngo tubone kandi tumenye n
 
 
 
-Nk’uko twabibonye mu bice vya kera vy’iyi nyigisho, ku buryo busanzwe, Nmap ntizoraba kugira ngo ibone igikorwa kigaragara ku bibanza isuzuma kandi ibona ko vyuguruye. Rero iyo uriko wumviriza urubuga ku port TCP/22, Nmap izobandanya kuvuga ko yuguruye, ariko nk'umurongo wa `SSH`. Ivyo ni kubera ko ikoresha [urutonde rw'amakuru](https://www.it-connect.fr/inyigisho-z'uburongozi/ububiko/bdd/) yo mu karere ka sisitemu yawe kugira ngo irondere isano hagati y'icuma/umurongo n'izina ry'igikorwa (dosiye `/etc/services/`).
+Nk’uko twabibonye mu bice vya kera vy’iyi nyigisho, ku buryo busanzwe, Nmap ntizoraba kugira ngo ibone igikorwa kigaragara ku bibanza isuzuma kandi ibona ko vyuguruye. Rero iyo uriko wumviriza urubuga ku port TCP/22, Nmap izobandanya kuvuga ko yuguruye, ariko nk'umurongo wa `SSH`. Ivyo ni kubera ko ikoresha [urutonde rw'amakuru](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) yo mu karere ka sisitemu yawe kugira ngo irondere isano hagati y'icuma/umurongo n'izina ry'igikorwa (dosiye `/etc/services/`).
 
 
 
-Mu bihe vyinshi, [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnérabilités/) izoguha amakuru akwiriye, kuko ari gake cane mu bidukikije vy’ubuhinga bwo gukora ibintu nk’ivyo. Ariko rero, ibintu bisigaye bizoba ari ibintu aho igikorwa ca kera ([SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), HTTP, n’ibindi) kigaragazwa ku nzira itari iya kera (nk’akarorero 2022 ku gikorwa ca SSH), muri ico gihe i ma’ fints a local data N ntibihuye n’ukuri, kandi uzobura amakuru ahambaye.
+Mu bihe vyinshi, [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) izoguha amakuru akwiriye, kuko ari gake cane mu bidukikije vy’ubuhinga bwo gukora ibintu nk’ivyo. Ariko rero, ibintu bisigaye bizoba ari ibintu aho igikorwa ca kera ([SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), HTTP, n’ibindi) kigaragazwa ku nzira itari iya kera (nk’akarorero 2022 ku gikorwa ca SSH), muri ico gihe i ma’ fints a local data N ntibihuye n’ukuri, kandi uzobura amakuru ahambaye.
 
 
 
@@ -2183,7 +2183,7 @@ Reka tuvyisobanure neza: Nmap ntishobora gukora ikigeragezo c’ukwinjira mu bur
 
 
 
-- Ivyiyumviro bishasha**: [urutonde rw’amakuru] rwa Nmap rw’inyandiko za NSE ruguma rutera imbere, ariko hashobora kubaho ugucererwa hagati yo kuvumbura ubugoyagoye bushasha bujanye n’inyandiko ya Np. Ivyo bishobora gutuma Nmap idashobora kwama iri ku rugero rwo hejuru n’ibintu bishasha bishobora gutuma umuntu agira ingorane.
+- Ivyiyumviro bishasha**: [urutonde rw’amakuru](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) rwa Nmap rw’inyandiko za NSE ruguma rutera imbere, ariko hashobora kubaho ugucererwa hagati yo kuvumbura ubugoyagoye bushasha bujanye n’inyandiko ya Np. Ivyo bishobora gutuma Nmap idashobora kwama iri ku rugero rwo hejuru n’ibintu bishasha bishobora gutuma umuntu agira ingorane.
 
 
 
@@ -2222,7 +2222,7 @@ Muri iki gice, turaza kuraba mu buryo bwimbitse inyandiko za NSE (_Nmap Scriptin
 
 
 
-Iki gice gikurikira inyigisho iheruka, aho twize ingene twokoresha ubuhinga bwo gupima ubugoyagoye bwa Nmap mu buryo bw’ishimikiro. Ubu tuzoca twihweza neza ingene [Nmap](https://www.it-connect.fr/cours/) ikora muri ivyo, kugira ngo dushobore kwongera gukora ibipimo vy’ukuri kandi bigenzurwa.
+Iki gice gikurikira inyigisho iheruka, aho twize ingene twokoresha ubuhinga bwo gupima ubugoyagoye bwa Nmap mu buryo bw’ishimikiro. Ubu tuzoca twihweza neza ingene [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) ikora muri ivyo, kugira ngo dushobore kwongera gukora ibipimo vy’ukuri kandi bigenzurwa.
 
 
 
@@ -2607,7 +2607,7 @@ Ku mburabuzi, Nmap itanga ivyerekanwa vy’ido n’ido vy’ivyavuye mu bipimo n
 
 
 
-Kugira ngo ibintu vyorohe, [Nmap](https://www.it-connect.fr/cours/nmap-ikarita-y’ugupima-ibishobora guhungabana/) ituma vyoroha cane kubika umusaruro wayo muri dosiye y’inyandiko. Ivyo bishobora kuba ngirakamaro mu gushiramwo ububiko, kugereranya n’ibindi bigeragezo, ariko kandi no gusesangura iki gisohoka hakoreshejwe ibikoresho vyihariye vyo gutunganya amajambo canke indimi zo kwandika, nk’umwandiko wa Sublime, [PowerShell] kubika igisohoka ca Nmap muri dosiye y'inyandiko, dushobora gukoresha `-oN <izina rya dosiye>` ("N" muri "ibisanzwe"):
+Kugira ngo ibintu vyorohe, [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) ituma vyoroha cane kubika umusaruro wayo muri dosiye y’inyandiko. Ivyo bishobora kuba ngirakamaro mu gushiramwo ububiko, kugereranya n’ibindi bigeragezo, ariko kandi no gusesangura iki gisohoka hakoreshejwe ibikoresho vyihariye vyo gutunganya amajambo canke indimi zo kwandika, nk’umwandiko wa Sublime, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/) kubika igisohoka ca Nmap muri dosiye y'inyandiko, dushobora gukoresha `-oN <izina rya dosiye>` ("N" muri "ibisanzwe"):
 
 
 
@@ -2861,7 +2861,7 @@ XSLT (_Impinduka z'ururimi rw'imirongo y'imirongo_) ni igice ca XSL gishobora gu
 
 
 
-inkomoko: [ubufasha.adobe.com/](ubufasha.adobe.com/fr/umuhinguzi w'indoto/ukoresha/xml-xslt.html)_
+inkomoko: [ubufasha.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
 
 
 
@@ -2990,13 +2990,13 @@ Metasploit ni uburyo bwo gukoresha no gutera. Ni umuti w’ubuntu kandi ni igiko
 
 
 
-Cane cane, iyo nzira izwi cane kandi ikoreshwa cane ishobora gukorana na postgreSQL [urutonde rw’amakuru](https://www.it-connect.fr/cours-tutoriels/uburongozi-uburongozi/ububiko/bdd/) aho abashitsi, ivyambu, ibikorwa, amakuru y’ukwemeza n’ibindi bibikwa.
+Cane cane, iyo nzira izwi cane kandi ikoreshwa cane ishobora gukorana na postgreSQL [urutonde rw’amakuru](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) aho abashitsi, ivyambu, ibikorwa, amakuru y’ukwemeza n’ibindi bibikwa.
 
 
 
 
 
-- Ivyanditswe vyemewe vya Metasploit: [inyandiko.metasploit.com/](inyandiko.metasploit.com/)
+- Ivyanditswe vyemewe vya Metasploit: [inyandiko.metasploit.com/](https://docs.metasploit.com/)
 
 
 
@@ -3097,7 +3097,7 @@ Nk’uko biri kuri Metasploit, Aquatone irashobora gukora ataco ihinduye ku bury
 
 
 
-- Ihuza ry'ibikoresho: [Github - Igikoresho c'amazi]( https://github.com/igikoresho c'amazi)
+- Ihuza ry'ibikoresho: [Github - Igikoresho c'amazi]( https://github.com/michenriksen/aquatone)
 
 
 
@@ -3153,7 +3153,7 @@ Izo ngero zibiri zirerekana neza ko uburyo bwa XML bwa Nmap butuma ibindi bikore
 
 
 
-Birumvikana, urashobora kandi gutegura inyandiko zawe n’ibikoresho vyawe muri Python, [PowerShell](https://www.it-connect.fr/cours-tutoriels/uburongozi-bw’inyandiko/inyandiko/powershell/) canke urundi rurimi urwo ari rwo rwose rufise ububiko bw’ibitabu vy’ugusesangura XML kugira ngo ukoreshe kandi wongere ukoreshe amakuru y’ibisubizo vya fi Nmap uko ubona.
+Birumvikana, urashobora kandi gutegura inyandiko zawe n’ibikoresho vyawe muri Python, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/) canke urundi rurimi urwo ari rwo rwose rufise ububiko bw’ibitabu vy’ugusesangura XML kugira ngo ukoreshe kandi wongere ukoreshe amakuru y’ibisubizo vya fi Nmap uko ubona.
 
 
 
@@ -3386,7 +3386,7 @@ Imbere yo gucapura urubuga canke ubuhinga, nurabe neza ko uronse uruhusha rukwiy
 
 
 
-- Nk’ukwibutsa: [Itegeko ry’Igihano: Igice ca III: Ibitero ku buryo bwo gutunganya amakuru bwikoresha]
+- Nk’ukwibutsa: [Itegeko ry’Igihano: Igice ca III: Ibitero ku buryo bwo gutunganya amakuru bwikoresha](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
 
 
 
@@ -3395,11 +3395,11 @@ Imbere yo gucapura urubuga canke ubuhinga, nurabe neza ko uronse uruhusha rukwiy
 
 
 
-Ivyo Nmap itanga bishobora gufatwa nk’ibiteye ubwoba cane cane iyo birimwo amakuru yerekeye intege nke ziri mu nzira y’amakuru yoshobora gukoreshwa n’umuntu atera. Ariko kandi iyo bireba uburyo budashobora gushikirwa na bose (nk’uburyo bw’amakuru buhambaye, bw’inganda, bw’ubuvuzi canke [ububiko] bw’amakuru (https://www.it-connect.fr/cours-tutoriels/uburyo-bw’uburongozi/autres/sauvegarde/)).
+Ivyo Nmap itanga bishobora gufatwa nk’ibiteye ubwoba cane cane iyo birimwo amakuru yerekeye intege nke ziri mu nzira y’amakuru yoshobora gukoreshwa n’umuntu atera. Ariko kandi iyo bireba uburyo budashobora gushikirwa na bose (nk’uburyo bw’amakuru buhambaye, bw’inganda, bw’ubuvuzi canke [ububiko] bw’amakuru (https://www.it-connect.fr/cours-tutoriels/administration-systemes/autres/sauvegarde/)).
 
 
 
-Twarabonye kandi ko, bivanye n’inyandiko za NSE zakoreshejwe, ibisubizo vy’ugupima kwa NSE kwa [Nmap](https://www.it-connect.fr/cours/) na vyo nyene bishobora kubamwo ibimenyetso.
+Twarabonye kandi ko, bivanye n’inyandiko za NSE zakoreshejwe, ibisubizo vy’ugupima kwa NSE kwa [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) na vyo nyene bishobora kubamwo ibimenyetso.
 
 
 
@@ -3438,7 +3438,7 @@ Nk'uko twabibonye muri iyi nyigisho yose, Nmap ishobora kuba ivuga cane ku ruger
 
 
 
-Kugira ngo wirinde ibintu vyose bishobora gushika, urakeneye kumenya neza inyifato ya Nmap no kumenya ingene woyihuza n’aho ikoreshwa, biciye ku mahitamwo atandukanye yavuzwe muri iyi nyigisho. Ntituzokoresha Nmap mu buryo bumwe ku buryo bumwe ku bijanye n’amakuru arimwo [ibikoresho] vy’inganda (https://www.it-connect.fr/actualites/actu-materiel/) nk’uko biri mu rubuga rw’abakoresha rugizwe n’urubuga rwa Windows rukingiwe n’uruhome rw’umuriro rwo mu karere canke mu rubuga rw’imbere.
+Kugira ngo wirinde ibintu vyose bishobora gushika, urakeneye kumenya neza inyifato ya Nmap no kumenya ingene woyihuza n’aho ikoreshwa, biciye ku mahitamwo atandukanye yavuzwe muri iyi nyigisho. Ntituzokoresha Nmap mu buryo bumwe ku buryo bumwe ku bijanye n’amakuru arimwo [ibikoresho](https://www.it-connect.fr/actualites/actu-materiel/) vy’inganda (https://www.it-connect.fr/actualites/actu-materiel/) nk’uko biri mu rubuga rw’abakoresha rugizwe n’urubuga rwa Windows rukingiwe n’uruhome rw’umuriro rwo mu karere canke mu rubuga rw’imbere.
 
 
 
@@ -3522,7 +3522,7 @@ Iciyumviro kiri aha ni ugusigura bumwe muri ubwo buryo, kugira ngo ushobore guta
 
 
 
-Ubwoko bwa mbere bw'isuzuma rya TCP tugiye kuraba ni `Isuzuma rya TCP SYN`, rizwi kandi nka `Isuzuma ry'Igice Gifunguye`. Niba wibuka ama scanners y’urubuga twakoze inyuma y’ama scanners yacu ya mbere y’icuma, ubu ni bwo bwoko bw’ama scanners bukoreshwa ku buryo busanzwe na [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilities/) iyo ikoreshejwe n’uburenganzira bw’umuzi.
+Ubwoko bwa mbere bw'isuzuma rya TCP tugiye kuraba ni `Isuzuma rya TCP SYN`, rizwi kandi nka `Isuzuma ry'Igice Gifunguye`. Niba wibuka ama scanners y’urubuga twakoze inyuma y’ama scanners yacu ya mbere y’icuma, ubu ni bwo bwoko bw’ama scanners bukoreshwa ku buryo busanzwe na [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) iyo ikoreshejwe n’uburenganzira bw’umuzi.
 
 
 

@@ -60,12 +60,12 @@ Olvid iraboneka ku mbuga zose. Ushobora gukura iyo porogaramu mu bubiko bwa poro
 
 
 
-- [Ikiganiro ca Google](https://igikino.google.com/ububiko/amaporogarama/ibisobanuro?id=io.olvid.intumwa);
-- [Iduka ry'amaporogarama](iporogarama.porogarama.com/porogarama/olvid/id1414865219);
+- [Ikiganiro ca Google](https://play.google.com/store/apps/details?id=io.olvid.messenger);
+- [Iduka ry'amaporogarama](https://apps.apple.com/app/olvid/id1414865219);
 
 
 
-Kuri Android, birashoboka kandi [gushiramwo biciye kuri APK](https://www.olvid.io/gukuraho/).
+Kuri Android, birashoboka kandi [gushiramwo biciye kuri APK](https://www.olvid.io/download/).
 
 
 
@@ -116,7 +116,7 @@ Konti yawe ubu yaremewe.
 Kugira ngo ntutakaze uburenganzira bwo gukoresha konti yawe ya Olvid, turagusavye gushinga amakuru yihuta. Kugira ngo ubikore, fungura amasetingi ukanda ku tudodo dutatu turi hejuru iburyo bwa Interface, hanyuma uhitemwo "*Settings*".
 
 
-⚠️ **Imburi**: Kuva kuri Olvid version 3.7, uburyo bwo gukora backup y’imirongo yawe n’abantu ushobora guhura na bo bwasubiriwe n’ubundi bushasha. Iyi nyigisho iracariko iratanga verisiyo ya kera. Ushobora kuronka verisiyo nshasha ku bibazo vyabo: [💾 Gukora backup y'imirongo yawe]
+⚠️ **Imburi**: Kuva kuri Olvid version 3.7, uburyo bwo gukora backup y’imirongo yawe n’abantu ushobora guhura na bo bwasubiriwe n’ubundi bushasha. Iyi nyigisho iracariko iratanga verisiyo ya kera. Ushobora kuronka verisiyo nshasha ku bibazo vyabo: [💾 Gukora backup y'imirongo yawe](https://www.olvid.io/faq/sauvegarder-vos-profils/)
 
 
 ![Image](assets/fr/06.webp)

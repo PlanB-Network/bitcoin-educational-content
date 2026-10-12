@@ -44,10 +44,6 @@ Coin और Wallet सभी प्रमुख प्लेटफॉर्म �
 
 
 
-- [एंड्रॉइड (गैलेक्सी स्टोर)](https://galaxystore.samsung.com/detail/com.coinspace.app)
-
-
-
 - [एंड्रॉइड (हुआवेई ऐपगैलरी)](https://appgallery.huawei.com/app/C112183767)
 
 

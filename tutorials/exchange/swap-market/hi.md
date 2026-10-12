@@ -566,6 +566,8 @@ docker run -p 3000:80 ghcr.io/swapmarket/swapmarket:latest
 
 ## स्वैपमार्केट बनाम बोल्ट्ज़: क्या अंतर है?
 
+> **नोट (अक्टूबर 2026):** Boltz Exchange ने 3 अगस्त 2026 को सभी स्वैप निलंबित कर दिए, और इसकी वेबसाइट ऑफ़लाइन है। यह प्रदाता अब SwapMarket पर शायद उपलब्ध न हो।
+
 
 
 ### बोल्ट्ज़: प्रौद्योगिकी बनाम सेवा
@@ -639,7 +641,7 @@ https://planb.academy/tutorials/exchange/centralized/zeus-swap-b6732907-b5d8-43e
 
 - [स्वैपमार्केट - वेब एप्लिकेशन](https://swapmarket.github.io)
 - [गिटहब स्वैपमार्केट](https://github.com/SwapMarket/swapmarket.github.io)
-- [तकनीकी दस्तावेज़ीकरण](https://docs.boltz.exchange/)
+- [तकनीकी दस्तावेज़ीकरण](https://github.com/BoltzExchange/boltz-backend)
 - [स्व-होस्टिंग गाइड](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 
@@ -649,5 +651,5 @@ https://planb.academy/tutorials/exchange/centralized/zeus-swap-b6732907-b5d8-43e
 
 
 
-- [बोल्ट्ज़ Exchange](https://boltz.exchange) - मूल परमाणु स्वैप सेवा
+- बोल्ट्ज़ Exchange - मूल परमाणु स्वैप सेवा
 - [ZEUS स्वैप्स](https://zeusln.com) - लाइटनिंग स्वैप्स प्रदाता

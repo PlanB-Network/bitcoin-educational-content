@@ -39,7 +39,7 @@ JadeがGreenに表示されたら、「アップデートを確認」をクリ�
 
 Jadeのファームウェアをアップデートした後、使用したいネットワークとセキュリティポリシーでJadeのセットアップを選択してください。
 
-> ヒント: セキュリティポリシーは、以下に示すログイン画面の「タイプ」の下にリストされています。SinglesigまたはMultisig Shieldを選択するかどうか不確かな場合は、こちらのガイドをご覧ください。(https://help.blockstream.com/hc/en-us/articles/4403642609433)
+> ヒント: セキュリティポリシーは、以下に示すログイン画面の「タイプ」の下にリストされています。SinglesigまたはMultisig Shieldを選択するかどうか不確かな場合は、こちらのガイドをご覧ください。(https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 ![画像](assets/3.webp)
 
@@ -192,7 +192,7 @@ Blockstream Jadeを接続し、スキャンをクリックします。その後�
 
 ![image](assets/22.webp)
 
-source: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+source: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 もしモバイルをより多く使う方であれば、blockstream greenと一緒に使用することができます。
 - Blockstream JadeをGreenとセットアップする方法 | Blockstream Jade - https://youtu.be/7aacxnc6DHg
 

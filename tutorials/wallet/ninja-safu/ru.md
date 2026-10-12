@@ -36,7 +36,7 @@ description: Сохраните свой seed с помощью метода SAF
 
 
 
-- **Надежность**: Проверенный с 2020 года, метод был опробован и испытан экспертами по безопасности, такими как [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), которые подвергли его жестким стресс-тестам (экстремальное тепло, коррозия, механическое давление).
+- **Надежность**: Проверенный с 2020 года, метод был опробован и испытан экспертами по безопасности, такими как [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/), которые подвергли его жестким стресс-тестам (экстремальное тепло, коррозия, механическое давление).
 
 
 
@@ -354,13 +354,13 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- [Отчет](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) о методе ниндзя САФУ
+- [Отчет](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) о методе ниндзя САФУ
 
 
 
 
 
-- Сравнительная таблица [полная](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Сравнительная таблица [полная](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 
@@ -429,4 +429,4 @@ https://x.com/econoalchemist/status/1329271981712289797
 https://www.waivio.com/@themarkymark/create-your-own-metal-seed-key-backup
 
 
-https://github.com/minibolt-guide/minibolt/blob/main/bonus/Bitcoin/safu-ninja.md
+https://github.com/minibolt-guide/minibolt/blob/2c4770443e7f01ed9c471d995ef5af254719b51e/bonus/bitcoin/safu-ninja.md

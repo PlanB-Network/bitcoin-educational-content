@@ -86,7 +86,7 @@ Avant de commencer, vous devez disposer de :
 https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 - **Une clé privée Nostr** (format `nsec1...`)
-	- Créez une clé dédiée au trading sur [nostrkeygen.com](https://nostrkeygen.com/)
+	- Créez une clé dédiée au trading sur [nostrkeygen.com](https://nostrtool.com/)
 	- **Important** : N'utilisez jamais votre clé Nostr personnelle principale
 	- Conservez votre clé privée en lieu sûr (gestionnaire de mots de passe)
 
@@ -506,7 +506,7 @@ Pour les bitcoiners privilégiant autonomie et confidentialité, Mostro constitu
 
 ### Code source et développement
 - [Dépôt GitHub principal](https://github.com/MostroP2P/mostro)
-- [Client web](https://github.com/MostroP2P/mostro-web)
+- [Client web](https://github.com/MostroP2P/app)
 - [Client CLI](https://github.com/MostroP2P/mostro-cli)
 
 ### Communauté

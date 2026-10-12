@@ -34,7 +34,7 @@ For the creation of your recovery phrase by hand, you will need:
 
 Subsequently, the use of a computer with a terminal will become necessary for the calculation of the checksum. It is precisely for this reason that I advise against the manual generation of the mnemonic phrase. In my opinion, the intervention of a computer, even under the precautions mentioned in this tutorial, significantly increases the vulnerability of a wallet.
 
-For an experimental approach concerning a "fictitious wallet", it is possible to use your usual computer and its terminal. However, for a more rigorous approach aimed at limiting the risks of compromising your phrase, the ideal would be to use a PC disconnected from the internet (preferably without a wifi component or RJ45 wired connection), equipped with the minimum of peripherals (all of which should be connected by cable, to avoid Bluetooth), and above all, running on an amnesic Linux distribution such as [Tails](https://tails.boum.org/index.fr.html), started from a removable medium.
+For an experimental approach concerning a "fictitious wallet", it is possible to use your usual computer and its terminal. However, for a more rigorous approach aimed at limiting the risks of compromising your phrase, the ideal would be to use a PC disconnected from the internet (preferably without a wifi component or RJ45 wired connection), equipped with the minimum of peripherals (all of which should be connected by cable, to avoid Bluetooth), and above all, running on an amnesic Linux distribution such as [Tails](https://tails.net/index.fr.html), started from a removable medium.
 
 ![mnemonic](assets/notext/2.webp)
 

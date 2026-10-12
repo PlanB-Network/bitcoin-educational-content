@@ -5,7 +5,7 @@ description: Bitcoin และโซลูชันการชำระเง�
 
 ![cover](assets/cover.webp)
 
-
+> **คำเตือน (ตุลาคม 2026):** Lipa for Business ปิดให้บริการเมื่อกลางเดือนมีนาคม 2026 และผู้ให้บริการ lightning payment services ag อยู่ระหว่างการชำระบัญชี ลิงก์และขั้นตอนในบทแนะนำนี้ใช้งานไม่ได้อีกต่อไป เราเก็บหน้านี้ไว้เพื่อใช้อ้างอิงจนกว่าจะมีการปรับปรุง
 
 ขณะนี้พ่อค้าแม่ค้าสนใจที่จะรับชำระเงิน Bitcoin ผ่านทาง Lightning Network มากขึ้น ต่างจากการชำระเงินด้วยบัตรเครดิตแบบดั้งเดิมซึ่งมีค่าธรรมเนียมสูงและใช้เวลาการชำระเงินนาน การทำธุรกรรมผ่าน Lightning นั้นแทบจะเกิดขึ้นทันที ไม่ต้องกังวลเรื่องการเรียกเงินคืน และยังคงรักษาความลับของลูกค้า
 
@@ -267,9 +267,9 @@ Lipa for Business ถูกวางตำแหน่งให้เป็น�
 
 
 
-- [Lipa for Business official website](https://lipa.swiss/en/for-business)
-- [Dashboard web](https://dashboard.lipa.swiss)
-- [Lipa Support for Business](https://help.lipa.swiss/business)
-- [Lipa การสนับสนุนทั่วไป](https://help.lipa.swiss/Wallet)
+- Lipa for Business official website
+- Dashboard web
+- Lipa Support for Business
+- Lipa การสนับสนุนทั่วไป
 - [LinkedIn Lipa](https://www.linkedin.com/company/getlipa)
 - [Twitter @lipa_btc](https://twitter.com/lipa_btc)

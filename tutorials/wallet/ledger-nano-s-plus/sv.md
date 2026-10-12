@@ -52,7 +52,7 @@ Enligt min mening är Ledger Nano S Plus ett bra alternativ för att säkra din 
 ## Hur köper jag en Ledger Nano S Plus?
 
 
-Ledger Nano S Plus finns tillgänglig för försäljning [på den officiella webbplatsen](https://shop.Ledger.com/products/Ledger-nano-s-plus). Om du vill köpa den i en fysisk butik kan du också hitta [listan över certifierade återförsäljare](https://www.Ledger.com/reseller) på Ledger:s webbplats.
+Ledger Nano S Plus finns tillgänglig för försäljning [på den officiella webbplatsen](https://shop.ledger.com/products/ledger-nano-s-plus). Om du vill köpa den i en fysisk butik kan du också hitta [listan över certifierade återförsäljare](https://www.Ledger.com/reseller) på Ledger:s webbplats.
 
 
 ## Förkunskapskrav

@@ -396,7 +396,7 @@ Antminer S9は、以下の部品で構成されています：
 これらすべての点を確認した後、高い自信を持ってマシンを購入できます。疑問がある場合は、コミュニティに相談してください。
 
 このガイドを一文で要約すると：**「信じるな、確認せよ。」**
-マイニングマシンの再調整を専門とするプロフェッショナルにも頼ることができます。例えば、私たちのパートナーである21energyなどです。彼らは、テスト済みのS9マシンを提供しており、清掃され、既にBraiiinOS+ソフトウェアがインストールされています。アフィリエイトコード「decouvre」を使用すると、S9の購入時に10%の割引を受けることができ、Attakaiプロジェクトをサポートすることになります。[https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+マイニングマシンの再調整を専門とするプロフェッショナルにも頼ることができます。例えば、私たちのパートナーである21energyなどです。彼らは、テスト済みのS9マシンを提供しており、清掃され、既にBraiiinOS+ソフトウェアがインストールされています。アフィリエイトコード「decouvre」を使用すると、S9の購入時に10%の割引を受けることができ、Attakaiプロジェクトをサポートすることになります。[https://21energy.com/products/bitmain-antminer-s9](https://21energy.com/products/bitmain-antminer-s9)
 
 ## S9のハードウェア改造購入ガイド
 

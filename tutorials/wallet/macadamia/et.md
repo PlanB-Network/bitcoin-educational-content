@@ -337,7 +337,7 @@ Hooldusmudel nõuab valvsust ja häid turvatavasid. Õigesti kasutatuna saab Mac
 
 
 - Tehniline dokumentatsioon: [docs.cashu.space](https://docs.cashu.space)
-- Avalike rahapajade nimekiri: [bitcoinmints.com](https://bitcoinmints.com)
+- Avalike rahapajade nimekiri: [bitcoinmints.com](https://cashumints.space/)
 - Protokolli ametlik veebileht: [cashu.space](https://cashu.space)
 
 

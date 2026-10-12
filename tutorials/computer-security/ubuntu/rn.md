@@ -45,7 +45,7 @@ Sisitemu ikoresha (OS) ni porogaramu nyamukuru icungera ibikoresho vyose vya mud
 
 
 
-- Genda kuri [ubuntu.com/gukuraho](https://ubuntu.com/gukuraho)
+- Genda kuri [ubuntu.com/gukuraho](https://ubuntu.com/download)
 - Hitamwo verisiyo ihamye (LTS irasabwa)
 - Gukuraho ishusho ya ISO
 
@@ -64,7 +64,7 @@ Ushobora gukoresha ibikoresho vyinshi, nka Balena Etcher:
 
 
 
-- Gukuraho no gushiramwo [Igishushanyo ca Balena](https://igishushanyo.balena.io/)
+- Gukuraho no gushiramwo [Igishushanyo ca Balena](https://etcher.balena.io/)
 
 
 ![Page de téléchargement Balena Etcher](assets/fr/03.webp)

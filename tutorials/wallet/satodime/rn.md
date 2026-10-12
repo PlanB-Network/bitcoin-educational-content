@@ -14,7 +14,7 @@ Iyi nkuru iragutwara mu gushiramwo, gutunganya no gukoresha porogarama ya Satodi
 
 
 
-**Satodime**, yateguwe na **[Satochip]**, ni ikarita y’umunyamideri itekanye yo kubika Bitcoin mu buryo buboneka kandi bworoshe. Ikora nk’igikoresho ca wallet cizigama, aho ufise ububasha bwose ku mfunguruzo zawe z’ibanga ataco wizigiye uwundi muntu. Open-source kandi yemejwe na EAL6+, ifasha amasafe ashika kuri atatu yigenga.
+**Satodime**, yateguwe na **[Satochip](https://satochip.io/fr/)**, ni ikarita y’umunyamideri itekanye yo kubika Bitcoin mu buryo buboneka kandi bworoshe. Ikora nk’igikoresho ca wallet cizigama, aho ufise ububasha bwose ku mfunguruzo zawe z’ibanga ataco wizigiye uwundi muntu. Open-source kandi yemejwe na EAL6+, ifasha amasafe ashika kuri atatu yigenga.
 
 
 
@@ -38,7 +38,7 @@ Satodime, **carte au porteur, ni iy’uwuyifise ku mubiri**, ataco akeneye kwiya
 
 
 
-Ivyo bikoresho biratera imbere ubudasiba. Raba urubuga rwa Satochip canke amaduka kugira ngo ubone amakuru mashasha. Nk’akarorero, blockchains nshasha canke ibikorwa vyo kugura birashobora kwongerwako. Suzuma [GitHub ya Satochip] kugira ngo ubone iterambere riguma rigenda.
+Ivyo bikoresho biratera imbere ubudasiba. Raba urubuga rwa Satochip canke amaduka kugira ngo ubone amakuru mashasha. Nk’akarorero, blockchains nshasha canke ibikorwa vyo kugura birashobora kwongerwako. Suzuma [GitHub ya Satochip](https://github.com/Toporin/Satodime-Applet) kugira ngo ubone iterambere riguma rigenda.
 
 
 
@@ -67,10 +67,10 @@ Imbere yo gutangura **Satodime**, urabe neza ko ufise ibi bikurikira:
 
 
 - Kuvanaho porogaramu** :
- - [Iduka ry'amaporogarama]** (iOS)
- - [Iduka ry'imikino ya Google](ububiko bw'imikino ya Google](ibisobanuro?id=org.satochip.satodimeapp)** (Android)
+ - [Iduka ry'amaporogarama](https://apps.apple.com/be/app/satodime/id1672273462)** (iOS)
+ - [Iduka ry'imikino ya Google](https://play.google.com/store/apps/details?id=org.satochip.satodimeapp) bw'imikino ya Google](ibisobanuro?id=org.satochip.satodimeapp)** (Android)
  - Suzuma uwubikora (Satochip) kugira wirinde ubuhendanyi.
- - Satodime ni **inkomoko yuguruye**. Inkomoko : [GitHub ya Satochip](Toporin/Igitabu ca Satodime).
+ - Satodime ni **inkomoko yuguruye**. Inkomoko : [GitHub ya Satochip](https://github.com/Toporin/Satodime-Applet).
 
 
 
@@ -124,7 +124,7 @@ Ku bijanye n’ugukoresha ubwa mbere, nube nyen’ikarata kugira ngo uyikingire:
 - Fyonda kuri "*Fata Ownership*" muri app.
 - Wemeze igikorwa: ibi bitanga urufunguzo rwa nyen'urufunguzo rwihariye.
 - Subira ushireko ikarita kugira ngo ushire mu ngiro ivyo wahinduye.
-- Imburi**: Iyi ntambwe ntishobora gusubirwamwo. Turagusavye urabe [ingingo ivuga ku *ubutunzi*](https://satochip.io/ubutunzi-bwa-satodime-bwasobanuwe/).
+- Imburi**: Iyi ntambwe ntishobora gusubirwamwo. Turagusavye urabe [ingingo ivuga ku *ubutunzi*](https://satochip.io/satodime-ownership-explained/).
 
 
 
@@ -300,8 +300,8 @@ Ivyerekeye Satodime :
 
 
 
-- [Igicuruzwa c'isatodime](igicuruzwa c'isatodime/)
-- [Igitabu c'Ibikoresho vy'Itelefone ngendanwa]
+- [Igicuruzwa c'isatodime](https://satochip.io/fr/product/satodime/)
+- [Igitabu c'Ibikoresho vy'Itelefone ngendanwa](https://satochip.io/wp-content/uploads/2024/11/Satodime-FR-Short-tuto-app-mobile.pdf)
 
 
 
@@ -340,7 +340,7 @@ https://planb.academy/tutorials/computer-security/authentication/seedkeeper-pass
 
 
 
-- [Urubuga rwa Satochip](urubuga rwa Satochip.io/fr/)
+- [Urubuga rwa Satochip](https://satochip.io/fr/)
 - [Igikoresho ca Satodime)
 - Infashanyo: amakuru@satochip.io
 

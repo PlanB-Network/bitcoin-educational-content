@@ -175,9 +175,9 @@ Amahuza yemewe yo gushiramwo :
 
 
 
-- [Gushiramwo kuri Raspberry Pi 5](gushiramwo-umutaka-OS-ku-Raspberry-Pi-5)
-- [Gushiramwo kuri sisitemu za x86 (https://github.com/umutaka/umutaka/wiki/Gushiramwo-umutaka-OS-ku-sisitemu za x86)
-- [Gushiramwo imashini y'ivy'impwemu](https://github.com/umutaka/umutaka/wiki/Gushiramwo-umutaka-OS-ku-Linux-VM)
+- [Gushiramwo kuri Raspberry Pi 5](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
+- [Gushiramwo kuri sisitemu za x86 (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-x86-Systems za x86)
+- [Gushiramwo imashini y'ivy'impwemu](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Linux-VM)
 
 
 
@@ -222,7 +222,7 @@ Kugira ngo ushireho uzokenera :
 
 
 
-- Sura urubuga rwemewe (https://github.com/umutaka/wiki/Shiraho-umutaka-OS-ku-Raspberry-Pi-5)
+- Sura urubuga rwemewe (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
 - Kuvanaho verisiyo nshasha ya UmbrelOS ya Raspberry Pi 5
 
 
@@ -321,7 +321,7 @@ Kugira ngo ushireho uzokenera :
 
 
 - Ku gikoresho gihuye n'urubuga rumwe, fungura umucukumbuzi wawe
-- Ushobora gushika ku rubuga rwa Umbrel Interface kuri: `http://umutaka.aho hantu`
+- Ushobora gushika ku rubuga rwa Umbrel Interface kuri: `http://umbrel.local`
 
 
 
@@ -728,9 +728,9 @@ Umutaka wawe ubu warateguwe gukoreshwa. Ugira uruhara n’umwete mu rubuga rwa B
 
 
 
-- [Urubuga rwemewe rwa Umutaka](https://umutaka.com)
-- [Inyandiko z'umutaka](https://github.com/umutaka/umutaka/wiki)
-- [Umutaka w'Iduka rya Porogaramu](https://umutaka w'Iporogaramu.com)
+- [Urubuga rwemewe rwa Umutaka](https://umbrel.com)
+- [Inyandiko z'umutaka](https://github.com/getumbrel/umbrel/wiki)
+- [Umutaka w'Iduka rya Porogaramu](https://apps.umbrel.com)
 
 
 
@@ -739,10 +739,10 @@ Umutaka wawe ubu warateguwe gukoreshwa. Ugira uruhara n’umwete mu rubuga rwa B
 
 
 
-- [Igihugu-62](Igihugu-63.org/fr/)
-- [Ivy'amashanyarazi](urubuga rwa Github.com/abaroma/amashanyarazi)
-- [Ikibanza-64](ikibanza)
-- [Sparrow wallet](imbuga z'ibisiga.com)
+- [Igihugu-62](https://Bitcoin.org/fr/)
+- [Ivy'amashanyarazi](https://github.com/romanz/electrs)
+- [Ikibanza-64](https://Mempool.space)
+- [Sparrow wallet](https://sparrowwallet.com)
 
 
 
@@ -751,6 +751,6 @@ Umutaka wawe ubu warateguwe gukoreshwa. Ugira uruhara n’umwete mu rubuga rwa B
 
 
 
-- [Umutaka w'ihuriro](https://umuryango.getumutaka.com)
-- [Umutaka wa GitHub](imbuga ya github.com/umutaka)
-- [Umutaka wo kuri Twitter](https://twitter.com/umutaka)
+- [Umutaka w'ihuriro](https://community.getumbrel.com)
+- [Umutaka wa GitHub](https://github.com/getumbrel)
+- [Umutaka wo kuri Twitter](https://twitter.com/umbrel)

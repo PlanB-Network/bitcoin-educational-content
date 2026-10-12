@@ -14,7 +14,7 @@ Mini Miner bongo BMM 100 ni bidhaa iliyoundwa na Mining pool Braiins. Kifaa hiki
 
 
 
-Unaweza pia kupata taarifa muhimu zaidi kwa kuangalia mwongozo kamili moja kwa moja kwenye [tovuti ya mtengenezaji](https://braiins.com/hardware/mini-Miner-bmm-100).
+Unaweza pia kupata taarifa muhimu zaidi kwa kuangalia mwongozo kamili moja kwa moja kwenye [tovuti ya mtengenezaji](https://braiins.com/hardware/mini-miner-bmm-100).
 
 
 

@@ -6,6 +6,8 @@ description: RoninDojo Bitcoinノードのインストールと使用方法。
 
 **警告: このチュートリアルはRoninDojo v1のインストールには引き続き使用できますが、ノードをRoninDojo v2にアップグレードすることはできません。したがって、このバージョンは機能していますが、もはや更新されていません。最新の改善と機能を利用するためには、Raspberry Pi上でのRoninDojo v2の直接インストールのための専用チュートリアルを参照することを強くお勧めします:** https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
+> **更新（2026年10月）：** RoninDojoはその後、独自のプラットフォーム（[git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)）でコードを再公開し、現在はバージョン3になっています。このチュートリアルは古いバージョンを説明しているため、一部のリンクやコマンドは動作しません。現在の手順については、公式ドキュメントを参照してください：[docs.ronindojo.io](https://docs.ronindojo.io/)
+
 ---
 
 自分自身のノードを運用し使用することは、Bitcoinネットワークに真に参加するために不可欠です。Bitcoinノードを運用することはユーザーに金銭的な利益をもたらしませんが、プライバシーを保護し、独立して行動し、ネットワークへの信頼を自分でコントロールすることを可能にします。
@@ -50,9 +52,11 @@ RoninDojoについての絵を描くことができたので、このノード�
 
 RoninDojoをホストして実行するマシンを選択するには、いくつかのオプションがあります。
 
-先に説明したように、最も簡単な選択肢は、この目的のために特別に設計されたプラグアンドプレイマシンであるTantoを注文することです。ご注文はこちらから：[リンク](https://shop.ronindojo.io/product-category/nodes/)。
+先に説明したように、最も簡単な選択肢は、この目的のために特別に設計されたプラグアンドプレイマシンであるTantoを注文することです。
 
-RoninDojoチームがオープンソースコードを生産しているため、他のマシンにRoninDojoを実装することも可能です。インストールウィザードの最新バージョンはこのページで見つけることができます：[リンク](https://ronindojo.io/en/downloads.html)、コードの最新バージョンはこのページで見つけることができます：[リンク](https://code.samourai.io/ronindojo/RoninDojo)。
+> **注記（2026年10月）：** RoninDojoはTantoの販売を終了したようで、オンラインショップも停止しています。対応ハードウェアの一覧を参照してください：[docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
+
+RoninDojoチームがオープンソースコードを生産しているため、他のマシンにRoninDojoを実装することも可能です。インストールウィザードの最新バージョンはこのページで見つけることができます：[リンク](https://ronindojo.io/downloads)、コードの最新バージョンはこのページで見つけることができます：[リンク](https://git.ronindojo.io/Ronin/monorepo)。
 
 個人的には、Raspberry Pi 4 8GBにインストールし、すべてが完璧に動作しています。
 
@@ -74,7 +78,7 @@ RoninDojoチームがオープンソースコードを生産しているため�
 
 マシンを組み立てたら、RoninDojoのインストールを開始できます。これを行うには、適切なディスクイメージをそれに焼き付けることによってブータブルマイクロSDカードを作成することから始めます。
 
-個人用コンピュータにマイクロSDカードを挿入し、公式のRoninDojoウェブサイトにアクセスしてRoninOSディスクイメージをダウンロードしてください：https://ronindojo.io/en/downloads.html。
+個人用コンピュータにマイクロSDカードを挿入し、公式のRoninDojoウェブサイトにアクセスしてRoninOSディスクイメージをダウンロードしてください：https://ronindojo.io/downloads。
 
 ハードウェアに対応するディスクイメージをダウンロードします。私の場合、「MANJARO-ARM-RONINOS-RPI4-22.03.IMG.XZ」イメージをダウンロードしました：
 
@@ -82,7 +86,7 @@ RoninDojoチームがオープンソースコードを生産しているため�
 
 イメージをダウンロードしたら、対応する.SHA256ファイルを使用してその整合性を検証します。この記事で詳しく説明します：Windows上でビットコインソフトウェアの整合性をどのように検証するか？
 
-RoninOSの整合性を検証するための具体的な指示もこのページで利用可能です：https://wiki.ronindojo.io/en/extras/verify。
+RoninOSの整合性を検証するための具体的な指示もこのページで利用可能です：https://docs.ronindojo.io/install/verify-os/。
 
 このイメージをマイクロSDカードに焼き付けるには、Balena Etcherなどのソフトウェアを使用できます。こちらからダウンロードできます：https://www.balena.io/etcher/。
 
@@ -146,6 +150,8 @@ RoninOSの初期設定が完了します。上記のスクリーンショット�
 ![RoninOSへのSSH接続](assets/10.webp)
 
 これで、現在RoninOSのみがインストールされているマシンに接続されました。これからRoninDojoをインストールする必要があります。
+
+> **注記（2026年10月）：** 以下のコマンドは動作しません。SamouraiのGitLab（code.samourai.io）は2024年4月24日に押収されました。RoninDojoは現在、コードをこちらで公開しています：[git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)。現在のインストール手順については [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/) を参照してください。
 
 次のコマンドを入力して、RoninDojoの最新バージョンをダウンロードします：
 
@@ -332,12 +338,12 @@ RoninDojoノードには、Whirlpoolミックスを自動化するためのリ�
 Whirlpool実装でCoinJoinを実行する場合、使用しているアプリケーションはミックスとリミックスを実行するために開いたままでなければなりません。このプロセスは、高い匿名セットを望むユーザーにとって面倒なものになる可能性があります。なぜなら、Whirlpoolを搭載したアプリケーションをホストするデバイスは常にオンの状態を維持しなければならないからです。実際には、UTXOを24/7でリミックスに参加させたい場合、パーソナルコンピューターや電話をアプリケーションを開いた状態で常にオンにしておく必要があります。
 
 この制約を解決する一つの方法は、Bitcoinノードのように常にオンにすることを意図したマシンでWhirlpoolCLIを使用することです。これにより、Bitcoinノード以外のマシンを稼働させる必要なく、UTXOを24/7でリミックスできます。
-WhirlpoolCLIは、個人のコンピューターにインストールされるグラフィカルインターフェースであるWhirlpoolGUIと共に使用され、Coinjoinの簡単な管理を可能にします。この記事では、自分のdojoでWhirlpool CLIを設定する方法について詳しく説明します：[リンク](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez)。
-Coinjoinについて一般的に学びたい場合は、この記事で全てを説明しています：[リンク](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin)。
+WhirlpoolCLIは、個人のコンピューターにインストールされるグラフィカルインターフェースであるWhirlpoolGUIと共に使用され、Coinjoinの簡単な管理を可能にします。この記事では、自分のdojoでWhirlpool CLIを設定する方法について詳しく説明します：[リンク](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez)。
+Coinjoinについて一般的に学びたい場合は、この記事で全てを説明しています：[リンク](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin)。
 
 ### Whirlpool Stat Toolの使用
 
-WhirlpoolでCoinJoinsを実行した後、混合されたUTXOsの実際のプライバシーレベルを知りたくなるかもしれません。Whirlpool Stat Toolを使用すると、これを簡単に行うことができます。このツールを使用すると、混合されたUTXOsの見込みスコアと振り返りスコアを計算できます。これらのAnon Setsを計算する方法とその仕組みについてもっと知りたい場合は、このセクションを読むことをお勧めします：[リンク](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)。
+WhirlpoolでCoinJoinsを実行した後、混合されたUTXOsの実際のプライバシーレベルを知りたくなるかもしれません。Whirlpool Stat Toolを使用すると、これを簡単に行うことができます。このツールを使用すると、混合されたUTXOsの見込みスコアと振り返りスコアを計算できます。これらのAnon Setsを計算する方法とその仕組みについてもっと知りたい場合は、このセクションを読むことをお勧めします：[リンク](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)。
 
 このツールはRoninDojoにプリインストールされています。現在、RoninCLIからのみ利用可能です。メインメニューから起動するには、次のように進みます：
 
@@ -395,7 +401,7 @@ WSTは、まず過去を振り返る指標（後方指標）のスコアを表�
 
 あなたのUTXOの将来を見据えたスコアは、最後のミックスではなく、最初のミックスのTXIDに基づいて計算されることに注意してください。逆に、UTXOの過去を振り返るスコアは、最後のサイクルのTXIDに基づいて計算されます。
 
-もしAnon Setsのこれらの概念が理解できない場合は、Coinjoinについて私が詳細に図解を交えて説明している私の記事のこの部分を読むことをお勧めします：[https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
+もしAnon Setsのこれらの概念が理解できない場合は、Coinjoinについて私が詳細に図解を交えて説明している私の記事のこの部分を読むことをお勧めします：[https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
 
 ### Boltzmann計算機の使用
 
@@ -634,7 +640,7 @@ RoninDojoをインストールして使い始める方法を見てきました�
 
 ターミナルの使用に抵抗がなく、Lightning Networkに関連するツールが必要ない場合、RoninDojoはあなたに魅力的に映るかもしれません。
 
-可能であれば、これらのオープンソースソフトウェアを無料で提供している開発者に寄付を検討してください：https://donate.ronindojo.io/
+可能であれば、これらのオープンソースソフトウェアを無料で提供している開発者に寄付を検討してください：https://docs.ronindojo.io/main/donations/
 
 RoninDojoについてもっと知りたい場合は、以下の外部リソースのリンクをチェックすることをお勧めします。
 
@@ -646,14 +652,13 @@ RoninDojoについてもっと知りたい場合は、以下の外部リソー�
 
 ### 外部リソース：
 
-- https://samouraiwallet.com/dojo
 - https://ronindojo.io/index.html
 - https://wiki.ronindojo.io/en/home
-- https://code.samourai.io/ronindojo/RoninDojo
+- https://git.ronindojo.io/Ronin/monorepo
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/boltzmannを紹介します-85930984a159
 - https://oxt.me/
 - https://kycp.org/#/
 - https://en.wikipedia.org/wiki/Boltzmann_formula
-- https://wiki.ronindojo.io/en/setup/bisq
+- https://web.archive.org/web/20240214172859/https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/

@@ -14,7 +14,7 @@ Muri iyi nyigisho, tuzomenya ingene twoshiramwo Windows 11 ubwayo dukoresheje ub
 Ikintu ca mbere uzokenera ni dosiye yo gushiramwo. Ahantu heza kandi ho kwizigirwa ho kuyikura ni ku rubuga rwemewe rwa Microsoft.
 
 
-Sura gusa urubuga rwatanzwe aha hepfo maze ukurikize amabwirizwa kugira ngo ubone [dosiye ISO ya Windows 11]
+Sura gusa urubuga rwatanzwe aha hepfo maze ukurikize amabwirizwa kugira ngo ubone [dosiye ISO ya Windows 11](https://www.microsoft.com/en-us/software-download/windows11)
 
 
 ![Image](assets/en/02.webp)
@@ -59,10 +59,10 @@ Ingano ya dosiye ni nk’ibice 5,5 GB, kandi urubuga rwavutse ruzomara amasaha 2
 ## Ukwikoresha!
 
 
-Kuri iyi ntambwe, turakeneye guhindura uburyo bwo gushiramwo Windows busanzwe. Muri iyi ntambwe, dukoresheje Unattended install, turamenya ibintu bizoshirwamwo, ataco umukoresha yinjije inyuma. Nkako, muri ubwo buryo, dosiye ya XML irakoreshwa mu gutunganya intambwe zo gushiramwo n’ibikorwa vyashizwe muri Windows. Mu yandi majambo, gukoresha dosiye Unattended.xml bituma habaho uburyo bwo kwikoresha mu gihe co gushiramwo, bikabuza guhitamwo uburyo bwinshi no kwirinda intambwe ziruhije zisanzwe zikenewe mu gihe co gushiramwo. Ubu buryo ni uburyo budasanzwe ariko busanzwe bwashizweho na Microsoft. Ibindi bisobanuro biraboneka kuri [urubuga rwemewe rwa Microsoft](https://kwiga.microsoft.com/ru-us/amadirisha-ibikoresho/uguhingura/ibiro/guhindura-amadirisha-n'inyandiko-gukora-dosiye-yawe-inyishu-idirisha-sxs=view1).
+Kuri iyi ntambwe, turakeneye guhindura uburyo bwo gushiramwo Windows busanzwe. Muri iyi ntambwe, dukoresheje Unattended install, turamenya ibintu bizoshirwamwo, ataco umukoresha yinjije inyuma. Nkako, muri ubwo buryo, dosiye ya XML irakoreshwa mu gutunganya intambwe zo gushiramwo n’ibikorwa vyashizwe muri Windows. Mu yandi majambo, gukoresha dosiye Unattended.xml bituma habaho uburyo bwo kwikoresha mu gihe co gushiramwo, bikabuza guhitamwo uburyo bwinshi no kwirinda intambwe ziruhije zisanzwe zikenewe mu gihe co gushiramwo. Ubu buryo ni uburyo budasanzwe ariko busanzwe bwashizweho na Microsoft. Ibindi bisobanuro biraboneka kuri [urubuga rwemewe rwa Microsoft](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11).
 
 
-Hariho ibikoresho bitandukanye biri kuri internet vyo gukora amadosiye atagira uwuyicungera. Bamwe muri bo bari kuri internet, abandi na bo ntibari kuri internet. Kimwe mu bikoresho vyo kuri internet vyo gukora iyi dosiye ni [uru rubuga](https://schneegans.de/amadirisha/umuhinguzi-utagira uwuwucungera). Tumaze kuyifungura, turaronka urupapuro rukurikira:
+Hariho ibikoresho bitandukanye biri kuri internet vyo gukora amadosiye atagira uwuyicungera. Bamwe muri bo bari kuri internet, abandi na bo ntibari kuri internet. Kimwe mu bikoresho vyo kuri internet vyo gukora iyi dosiye ni [uru rubuga](https://schneegans.de/windows/unattend-generator). Tumaze kuyifungura, turaronka urupapuro rukurikira:
 
 
 ![Image](assets/en/06.webp)
@@ -237,7 +237,7 @@ Ubwanyuma, umaze gukoresha amategeko wipfuza, dosiye ya XML yavutse irashobora g
 Mu gufyonda kuri Gukuraho Dosiye ya XML, dosiye autounattend.xml irakurwako. Kugira ngo ukoreshe iyo dosiye, ushobora gusa gushiramwo ISO yakuwe kuri USB, ugashira dosiye autounattend.xml mu bubiko bw’imizi, hanyuma ugakomeza gushiramwo Windows.
 
 
-Kimwe mu bikoresho biriho vyo gukora USB drive ishobora gufunguka ni Rufus. Rufus ashobora gukora flash drive yo gushiramwo Windows, ifise dosiye ISO y’ugushiramwo Windows. Ni vyihuta kandi vyoroshe, ushobora kubikura [hano](https://rufus.ie/ru/#kubikura)
+Kimwe mu bikoresho biriho vyo gukora USB drive ishobora gufunguka ni Rufus. Rufus ashobora gukora flash drive yo gushiramwo Windows, ifise dosiye ISO y’ugushiramwo Windows. Ni vyihuta kandi vyoroshe, ushobora kubikura [hano](https://rufus.ie/en/#download)
 
 
 ![Image](assets/en/21.webp)
@@ -264,7 +264,7 @@ Muri iki gihe, iyo USB irateguwe gukoreshwa mu gushiramwo Windows ubwayo, kandi 
 Niba ukeneye gushiramwo Windows ku mashini igaragara, urashobora gukoresha porogarama kugira ngo ureme kandi uhindure amadosiye ya ISO. Imwe muri izo porogarama ni AnyBurn. Amaze gukura ibiri muri dosiye ISO yakuwe ku rubuga rwa Microsoft, shira dosiye autounattend.xml mu bubiko bw’imizi. Hanyuma, ukoresheje AnyBurn, ureme ISO nshasha irimwo ibirimwo vyavuguruwe.
 
 
-AnyBurn ni porogaramu ikora vyinshi mu gukorana n’amadosiye ya ISO. Itanga ibintu bitandukanye vyo gukoresha amadosiye ya ISO, kimwe muri vyo ni uguhingura amashusho ya ISO ashobora gutangura; [hano](https://www.anyburn.com/gukuraho.php) ni urubuga rw’umwimerere.
+AnyBurn ni porogaramu ikora vyinshi mu gukorana n’amadosiye ya ISO. Itanga ibintu bitandukanye vyo gukoresha amadosiye ya ISO, kimwe muri vyo ni uguhingura amashusho ya ISO ashobora gutangura; [hano](https://www.anyburn.com/download.php) ni urubuga rw’umwimerere.
 
 
 Kuri paji nyamukuru ya porogaramu, hitamwo "Rema ishusho muri dosiye/dosiye":

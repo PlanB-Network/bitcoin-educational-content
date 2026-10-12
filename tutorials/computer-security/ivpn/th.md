@@ -78,7 +78,7 @@ IVPN ใช้เซิร์ฟเวอร์ที่โฮสต์เอง
 ## วิธีการติดตั้ง IVPN บนสมาร์ทโฟน?
 
 
-ดาวน์โหลด IVPN จากร้านแอปของคุณ ไม่ว่าจะเป็น [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) สำหรับผู้ใช้ iOS, [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) สำหรับ Android, หรือ [F-Droid](https://f-droid.org/en/packages/net.ivpn.client) หากคุณใช้ Android คุณยังมีตัวเลือกในการดาวน์โหลดไฟล์ `.apk` โดยตรงจาก [เว็บไซต์ IVPN](https://www.ivpn.net/en/apps-android/).
+ดาวน์โหลด IVPN จากร้านแอปของคุณ ไม่ว่าจะเป็น [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) สำหรับผู้ใช้ iOS, [Google Play Store](https://www.ivpn.net/en/apps-android/) สำหรับ Android, หรือ [F-Droid](https://f-droid.org/en/packages/net.ivpn.client) หากคุณใช้ Android คุณยังมีตัวเลือกในการดาวน์โหลดไฟล์ `.apk` โดยตรงจาก [เว็บไซต์ IVPN](https://www.ivpn.net/en/apps-android/).
 
 ![IVPN](assets/notext/05.webp)
 

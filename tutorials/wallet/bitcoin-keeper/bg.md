@@ -406,7 +406,7 @@ Bitcoin Keeper се отличава като мащабируемо решен�
 
 
 - Официален уебсайт: [bitcoinkeeper.app](https://bitcoinkeeper.app)
-- Център за помощ: [help.bitcoinkeeper.app](https://help.bitcoinkeeper.app)
+- Център за помощ: [bitcoinkeeper.app/ask-keeper](https://www.bitcoinkeeper.app/ask-keeper)
 - Изходен код: [github.com/bithyve/bitcoin-keeper](https://github.com/bithyve/bitcoin-keeper)
 - Telegram : [t.me/BitcoinKeeper](https://t.me/BitcoinKeeper)
 - Twitter/X: [@bitcoinkeeper_](https://x.com/bitcoinkeeper_)

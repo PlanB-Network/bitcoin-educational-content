@@ -52,7 +52,7 @@ Efter att ha testat den är jag imponerad av produktens kvalitet. Användarupple
 ## Hur köper man en Ledger Flex?
 
 
-Ledger Flex finns att köpa [på den officiella webbplatsen](https://shop.Ledger.com/pages/Ledger-flex). Om du vill köpa den i en fysisk butik kan du också hitta [listan över certifierade återförsäljare](https://www.Ledger.com/reseller) på Ledger:s webbplats.
+Ledger Flex finns att köpa [på den officiella webbplatsen](https://shop.ledger.com/pages/ledger-flex). Om du vill köpa den i en fysisk butik kan du också hitta [listan över certifierade återförsäljare](https://www.Ledger.com/reseller) på Ledger:s webbplats.
 
 
 ## Förkunskapskrav

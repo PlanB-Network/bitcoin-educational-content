@@ -23,13 +23,13 @@ Ubwo buryo bwongerera ibanga ry’ibikorwa vy’ubudandaji ataco bisaba guhindur
 ```
 
 
-Biragoye kumenya neza uwabanje gushiramwo iciyumviro ca CoinJoin kuri Bitcoin, n’uwagize iciyumviro co gukoresha imikono ya David Chaum y’impumyi muri ivyo. Kenshi vyiyumvirwa ko Gregory Maxwell ari we yabanjirije kubivuga muri [ubutumwa bwashizwe kuri BitcoinTalk mu 2013](279249.0):
+Biragoye kumenya neza uwabanje gushiramwo iciyumviro ca CoinJoin kuri Bitcoin, n’uwagize iciyumviro co gukoresha imikono ya David Chaum y’impumyi muri ivyo. Kenshi vyiyumvirwa ko Gregory Maxwell ari we yabanjirije kubivuga muri [ubutumwa bwashizwe kuri BitcoinTalk mu 2013](https://bitcointalk.org/index.php?topic=279249.0):
 
 Gukoresha imikono y’impumyi ya Chaum: Abakoresha barahuza kandi bagatanga ivyo bashiramwo (no guhindura amaderesi) hamwe n’uburyo bw’ibanga bwa blinded bwa Address bipfuza koherezako ibiceri vyabo vy’ibanga; umukozi ashira umukono ku bimenyetso maze akabigarura. Abakoresha barasubira kwifatanya ata mazina yabo, bagakuraho amaderesi yabo y’isohoka, maze bakayarungika kuri server. Serveri ishobora kubona ko ibisohoka vyose vyashizweko umukono na yo kandi ko, kubera ivyo, ibisohoka vyose biva ku baje mu nama babereye. Mu nyuma, abantu barasubira guhura bagashira umukono.
 
 Maxwell, G. (2013, 22 Myandagaro). *CoinJoin: Bitcoin ubuzima bwite bw'isi nyakuri*. Ihuriro ry'Ibiganiro vya Bitcoin. 279249.0
 
 
-Ariko rero, hariho ivyo vyavuzwe imbere y’aho, ku bijanye n’imikono ya Chaum mu bijanye n’uguvanga, be no ku bijanye n’ama coinjoins. [Muri Ruheshi 2011, Duncan Townsend yashize ahabona ku rubuga rwa BitcoinTalk](Ikiganiro c’Ivyabona vya Yehova) igikoresho co guvanga gikoresha imikono y’Abachaum mu buryo busa cane n’ubw’ibiharuro vy’Abachaum bo muri iki gihe. Muri iyo nkuru nyene, hariho [ubutumwa buvuye kuri hashcoin mu kwishura Duncan Townsend](htts. Ubu butumwa buratanga ivyo bisa cane n’ama coinjoins. Hari kandi n’ukuvuga uburyo busa n’ubwo muri [ubutumwa bwa Alex Mizrahi mu 2012](htts.github.com/killerstorm/6f843e1d38191aebca67d483bd88#file-laundry), igihe yariko aragira inama abaremye Tebrix ya Ijambo "CoinJoin" ubwaryo ntiryavumbuwe na Greg Maxwell, ariko ryavuye mu ciyumviro ca Peter Todd.
+Ariko rero, hariho ivyo vyavuzwe imbere y’aho, ku bijanye n’imikono ya Chaum mu bijanye n’uguvanga, be no ku bijanye n’ama coinjoins. [Muri Ruheshi 2011, Duncan Townsend yashize ahabona ku rubuga rwa BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) igikoresho co guvanga gikoresha imikono y’Abachaum mu buryo busa cane n’ubw’ibiharuro vy’Abachaum bo muri iki gihe. Muri iyo nkuru nyene, hariho [ubutumwa buvuye kuri hashcoin mu kwishura Duncan Townsend](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793). Ubu butumwa buratanga ivyo bisa cane n’ama coinjoins. Hari kandi n’ukuvuga uburyo busa n’ubwo muri [ubutumwa bwa Alex Mizrahi mu 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), igihe yariko aragira inama abaremye Tebrix ya Ijambo "CoinJoin" ubwaryo ntiryavumbuwe na Greg Maxwell, ariko ryavuye mu ciyumviro ca Peter Todd.
 
 

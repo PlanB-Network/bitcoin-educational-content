@@ -5,6 +5,8 @@ description: 安装和使用您的RoninDojo比特币节点。
 ---
 ***警告：** 继Samourai Wallet创始人于4月24日被捕，其服务器被查封后，RoninDojo的某些功能，如Whirlpool，已不再运行。然而，这些工具有可能在未来几周内被重新启用或以不同方式重新推出。此外，由于RoninDojo的代码托管在同样被查封的Samourai的GitLab上，目前无法远程下载代码。RoninDojo团队很可能正在努力重新发布代码。*
 
+> **更新（2026年10月）：** 此后RoninDojo已在自己的平台（[git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)）上重新发布代码，目前为第3版。本教程介绍的是较旧的版本：其中部分链接和命令已无法使用。当前的操作步骤请参阅官方文档：[docs.ronindojo.io](https://docs.ronindojo.io/)
+
 _我们正在密切关注此案件的发展以及与之相关工具的发展情况。请放心，一旦有新信息，我们将更新本教程。_
 
 _本教程仅供教育和信息目的使用。我们不支持或鼓励使用这些工具进行犯罪活动。每个用户都有责任遵守其管辖区的法律。_
@@ -56,9 +58,11 @@ RoninDojo整合了许多依赖于您的Dojo的其他工具，例如Boltzmann计�
 
 选择托管和运行RoninDojo的机器时，您有几个选项。
 
-如前所述，最简单的选择是订购Tanto，这是一款专为此目的设计的即插即用机器。要订购您的Tanto，请访问此处：[链接](https://shop.ronindojo.io/product-category/nodes/)。
+如前所述，最简单的选择是订购Tanto，这是一款专为此目的设计的即插即用机器。
 
-由于RoninDojo团队生产开源代码，也可以在其他机器上实施RoninDojo。您可以在此页面上找到安装向导的最新版本：[链接](https://ronindojo.io/en/downloads.html)，以及此页面上的代码的最新版本：[链接](https://code.samourai.io/ronindojo/RoninDojo)。
+> **注（2026年10月）：** RoninDojo似乎已不再销售Tanto，其在线商店也已下线。请参阅兼容硬件列表：[docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
+
+由于RoninDojo团队生产开源代码，也可以在其他机器上实施RoninDojo。您可以在此页面上找到安装向导的最新版本：[链接](https://ronindojo.io/downloads)，以及此页面上的代码的最新版本：[链接](https://git.ronindojo.io/Ronin/monorepo)。
 
 我个人将其安装在了一个8GB的Raspberry Pi 4上，一切工作得很完美。
 
@@ -80,13 +84,13 @@ RoninDojo整合了许多依赖于您的Dojo的其他工具，例如Boltzmann计�
 
 组装好您的机器后，您可以开始安装RoninDojo。首先，通过将适当的磁盘映像烧录到micro SD卡上来创建一个可启动的micro SD卡。
 
-将您的micro SD卡插入个人电脑，然后前往官方RoninDojo网站下载RoninOS磁盘映像：https://ronindojo.io/en/downloads.html。
+将您的micro SD卡插入个人电脑，然后前往官方RoninDojo网站下载RoninOS磁盘映像：https://ronindojo.io/downloads。
 下载与您的硬件相对应的磁盘映像。在我的情况下，我下载了"MANJARO-ARM-RONINOS-RPI4-22.03.IMG.XZ"映像：
 ![下载RoninOS磁盘映像](assets/2.webp)
 
 下载映像后，使用相应的.SHA256文件验证其完整性。我将在本文中详细描述如何执行此操作：如何在Windows上验证比特币软件的完整性？
 
-验证RoninOS完整性的具体说明也可在此页面找到：https://wiki.ronindojo.io/en/extras/verify。
+验证RoninOS完整性的具体说明也可在此页面找到：https://docs.ronindojo.io/install/verify-os/。
 
 要将此映像烧录到您的微型SD卡上，您可以使用如Balena Etcher之类的软件，您可以在此处下载：https://www.balena.io/etcher/。
 
@@ -150,6 +154,8 @@ RoninOS的初始配置将完成。一旦完成，如上面的截图所示，机�
 ![SSH连接到RoninOS](assets/10.webp)
 
 您现在已连接到您的机器，该机器目前只安装了RoninOS。现在您需要在其上安装RoninDojo。
+
+> **注（2026年10月）：** 下面的命令已无法使用：Samourai的GitLab（code.samourai.io）已于2024年4月24日被查封。RoninDojo现在将代码托管在这里：[git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)。当前的安装步骤请参阅 [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
 
 通过输入以下命令下载最新版本的RoninDojo：
 
@@ -338,13 +344,13 @@ RoninOS的初始配置将完成。一旦完成，如上面的截图所示，机�
 
 解决这一限制的一个方法是在一台打算始终开机的机器上使用WhirlpoolCLI，例如比特币节点。通过这种方式，我们的UTXOs可以在不需要保持除我们的比特币节点之外的其他机器运行的情况下，实现24/7的重混币。
 
-WhirlpoolCLI与WhirlpoolGUI一起使用，WhirlpoolGUI是一个图形界面，安装在个人电脑上，便于轻松管理Coinjoins。我将在本文中详细解释如何使用您自己的dojo设置Whirlpool CLI：[链接](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez)。
+WhirlpoolCLI与WhirlpoolGUI一起使用，WhirlpoolGUI是一个图形界面，安装在个人电脑上，便于轻松管理Coinjoins。我将在本文中详细解释如何使用您自己的dojo设置Whirlpool CLI：[链接](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez)。
 
-要了解更多关于Coinjoin的信息，我在这篇文章中解释了一切：[链接](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin)。
+要了解更多关于Coinjoin的信息，我在这篇文章中解释了一切：[链接](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin)。
 
 ### 使用Whirlpool Stat工具。
 
-在使用Whirlpool进行CoinJoins之后，您可能想要知道您混合的UTXOs的实际隐私级别。Whirlpool Stat工具允许您轻松做到这一点。使用这个工具，您可以计算您混合的UTXOs的预期分数和回顾分数。要了解更多关于计算这些匿名集以及它们是如何工作的，我推荐阅读这一部分：[链接](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)。
+在使用Whirlpool进行CoinJoins之后，您可能想要知道您混合的UTXOs的实际隐私级别。Whirlpool Stat工具允许您轻松做到这一点。使用这个工具，您可以计算您混合的UTXOs的预期分数和回顾分数。要了解更多关于计算这些匿名集以及它们是如何工作的，我推荐阅读这一部分：[链接](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)。
 
 该工具预装在您的RoninDojo上。目前，它仅可通过RoninCLI使用。要从主菜单启动它，请转到：
 
@@ -401,7 +407,7 @@ WST随后将显示回顾性分数（基于过去的指标）紧接着是前瞻�
 
 请注意，您UTXO的前瞻性分数是基于您最初混合的TXID计算的，而不是您最后的混合。相反，UTXO的回顾性分数是基于最后一个周期的TXID计算的。
 
-如果您不理解匿名集这些概念，我建议阅读我关于Coinjoin的文章的这一部分，在这里我通过图表详细解释了一切：[https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
+如果您不理解匿名集这些概念，我建议阅读我关于Coinjoin的文章的这一部分，在这里我通过图表详细解释了一切：[https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
 
 ### 使用Boltzmann计算器。
 
@@ -640,7 +646,7 @@ Bisq通过2/2多签名系统确保点对点交易的安全。您可以将此软�
 
 如果使用终端不让您感到害怕，并且如果您不需要与闪电网络相关的工具，那么RoninDojo可能会吸引您。
 
-如果可以，请考虑向自由生产这些开源软件的开发者捐赠：https://donate.ronindojo.io/
+如果可以，请考虑向自由生产这些开源软件的开发者捐赠：https://docs.ronindojo.io/main/donations/
 
 要了解更多关于RoninDojo的信息，我推荐查看下面我的外部资源中的链接。
 
@@ -657,5 +663,5 @@ Bisq通过2/2多签名系统确保点对点交易的安全。您可以将此软�
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/介绍boltzmann-85930984a159
 - https://en.wikipedia.org/wiki/Boltzmann_formula
-- https://wiki.ronindojo.io/en/setup/bisq
+- https://web.archive.org/web/20240214172859/https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/

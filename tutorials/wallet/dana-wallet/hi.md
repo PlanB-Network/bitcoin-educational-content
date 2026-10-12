@@ -113,7 +113,7 @@ Android पर Dana Wallet इंस्टॉल करने के लिए, 
 
 
 
-अपने Android डिवाइस पर F-Droid एप्लिकेशन खोलें, फिर नीचे दाईं ओर दिए गए आइकन के ज़रिए सेटिंग्स में जाएँ। ऐप सोर्स प्रबंधित करने के लिए "रिपॉजिटरीज़" चुनें। नया रिपॉजिटरी जोड़ने के लिए "+" बटन दबाएँ, फिर QR कोड स्कैन करें या `https://fdroid.silentpayments.dev/fdroid/repo` लिंक पेस्ट करें। रिपॉजिटरी जुड़ जाने के बाद, आपको Dana Wallet के तीन उपलब्ध संस्करण दिखाई देंगे। "Dana Wallet - बुकमार्क" चुनें और "इंस्टॉल करें" दबाएँ।
+अपने Android डिवाइस पर F-Droid एप्लिकेशन खोलें, फिर नीचे दाईं ओर दिए गए आइकन के ज़रिए सेटिंग्स में जाएँ। ऐप सोर्स प्रबंधित करने के लिए "रिपॉजिटरीज़" चुनें। नया रिपॉजिटरी जोड़ने के लिए "+" बटन दबाएँ, फिर QR कोड स्कैन करें या `https://fdroid.danawallet.app/fdroid/repo` लिंक पेस्ट करें। रिपॉजिटरी जुड़ जाने के बाद, आपको Dana Wallet के तीन उपलब्ध संस्करण दिखाई देंगे। "Dana Wallet - बुकमार्क" चुनें और "इंस्टॉल करें" दबाएँ।
 
 
 
@@ -410,7 +410,7 @@ Dana Wallet सार्वजनिक सर्वर `silentpayments.dev/blin
 
 
 - दाना Wallet GitHub रिपॉजिटरी: https://github.com/cygnet3/danawallet
-- F-Cold जमा: https://fdroid.silentpayments.dev
+- F-Cold जमा: https://fdroid.danawallet.app/fdroid/repo/
 - साइलेंट पेमेंट्स सामुदायिक साइट: https://silentpayments.xyz
 - विशिष्टता BIP-352: https://bips.dev/352
 

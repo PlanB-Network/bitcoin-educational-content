@@ -19,7 +19,7 @@ https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Gå til [GitHub-repositoriet til PlanB dedikert til data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) i `resources/conference/`-seksjonen:
+- Gå til [GitHub-repositoriet til PlanB dedikert til data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conferences) i `resources/conference/`-seksjonen:
 ![konferanse](assets/02.webp)
 - Klikk øverst til høyre på `Add file`-knappen, deretter på `Create new file`:
 ![konferanse](assets/03.webp)

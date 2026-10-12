@@ -77,9 +77,9 @@ Debian görüntüsünün seçimi işlemci mimarinize bağlıdır:
 
 
 
-- **AMD64**: [download] listesinden "live hybrid" sürümünü indirin (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- **ARM64**: DVD görüntüsünü resmi [Debian] web sitesinden (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/) edinin.
-- **Diğer mimariler**: mimarinize karşılık gelen ISO'yu bulun [burada](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: [download] listesinden "live hybrid" sürümünü indirin (https://debian.obspm.fr/debian-cd/current-live/amd64/iso-hybrid/).
+- **ARM64**: DVD görüntüsünü resmi [Debian] web sitesinden (https://debian.obspm.fr/debian-cd/current/arm64/iso-dvd/) edinin.
+- **Diğer mimariler**: mimarinize karşılık gelen ISO'yu bulun [burada](https://debian.obspm.fr/debian-cd/current/).
 
 
 

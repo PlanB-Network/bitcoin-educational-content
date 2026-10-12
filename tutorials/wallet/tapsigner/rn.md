@@ -43,7 +43,7 @@ Naho Tapsigner ifise aho igarukira, irashobora gushimisha kubera igiciro cayo ki
 ## Ni gute umuntu yogura Tapsigner?
 
 
-Ico gikoresho co gushirako umukono kiraboneka kugira ngo umuntu agure [ku rubuga rwemewe rwa Coinkite](https://ububiko.coinkite.com/ububiko/urutonde/ububiko). Kugira ngo uyigure mu iduka ry’umubiri, urashobora kandi kubona [urutonde rw’abagurisha bemerewe](https://coinkite.com/abagurisha) ku rubuga.
+Ico gikoresho co gushirako umukono kiraboneka kugira ngo umuntu agure [ku rubuga rwemewe rwa Coinkite](https://store.coinkite.com/store/category/tapsigner). Kugira ngo uyigure mu iduka ry’umubiri, urashobora kandi kubona [urutonde rw’abagurisha bemerewe](https://coinkite.com/resellers) ku rubuga.
 
 
 Uzokenera kandi telefone ihuye n’ivy’itumanaho rya NFC, canke igikoresho ca USB co gusoma amakarata ya NFC ku nkuru isanzwe ya 13.56 MHz.
@@ -58,7 +58,7 @@ Umaze kwakira Tapsigner yawe, intambwe ya mbere ni ugusuzuma igipapuro kugira ng
 ![TAPSIGNER NUNCHUK](assets/notext/02.webp)
 
 
-Kugira ngo dushobore gucunga Wallet, tuzokoresha porogarama yo kuri telefone ngendanwa **Nunchuk Wallet**. Raba neza ko telefone yawe y’amaboko ihuye na NFC, hanyuma ushire Nunchuk mu [Iduka rya Google Play], mu [Iduka ry’Iporogarama](Iduka ry’Iporogarama] (Iduka ry’Iporogarama. canke biciye ku dosiye yayo [`.apk`](ibisohoka).
+Kugira ngo dushobore gucunga Wallet, tuzokoresha porogarama yo kuri telefone ngendanwa **Nunchuk Wallet**. Raba neza ko telefone yawe y’amaboko ihuye na NFC, hanyuma ushire Nunchuk mu [Iduka rya Google Play](https://play.google.com/store/apps/details?id=io.nunchuk.android), mu [Iduka ry’Iporogarama](https://apps.apple.com/us/app/nunchuk-bitcoin-wallet/id1563190073) ry’Iporogarama] (Iduka ry’Iporogarama. canke biciye ku dosiye yayo [`.apk`](https://github.com/nunchuk-io/nunchuk-android/releases).
 
 
 ![TAPSIGNER NUNCHUK](assets/notext/03.webp)

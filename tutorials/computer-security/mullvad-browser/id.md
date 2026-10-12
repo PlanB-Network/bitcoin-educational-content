@@ -304,7 +304,7 @@ Meskipun memiliki keterbatasan tertentu (tidak ada versi seluler, sesi yang tida
 
 - [Situs web resmi Mullvad Browser](https://mullvad.net/fr/browser)
 - [Halaman unduhan Mullvad Browser](https://mullvad.net/en/download/browser)
-- [Spesifikasi teknis terperinci](https://mullvad.net/en/browser/Hard-facts)
+- [Spesifikasi teknis terperinci](https://mullvad.net/en/browser/hard-facts)
 - [Ekstensi Mullvad Browser](https://mullvad.net/en/help/mullvad-browser-extension)
 
 ### Panduan dan penjelasan

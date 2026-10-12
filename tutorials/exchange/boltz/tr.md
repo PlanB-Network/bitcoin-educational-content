@@ -3,10 +3,9 @@ name: Boltz
 description: Kontrolü korurken farklı Bitcoin katmanları arasında geçiş yapın.
 ---
 
-
 ![cover](assets/cover.webp)
 
-
+> **Uyarı (Ekim 2026):** Boltz, birkaç güvenlik açığının istismar edilmesinin ardından 3 Ağustos 2026'da tüm takasları askıya aldı ve web sitesi çevrimdışı. Bu eğitimdeki bağlantılar ve adımlar artık çalışmıyor. Bu sayfayı güncellenene kadar referans olarak tutuyoruz.
 
 Bitcoin'nin eşler arası elektronik nakit sistemi, 2009'daki dağıtımından bu yana katlanarak büyüdü ve bugün özellikle Lightning Network aracılığıyla günlük eylemlerimizde anında kullanabileceğimiz bir sistem olmasını sağlayan çözümlere hayat verdi.
 
@@ -20,7 +19,7 @@ Ancak, Bitcoin protokol katmanları arasında büyük bir sorun devam ediyordu: 
 
 
 
-[Boltz](https://boltz.Exchange), Bitcoin protokolünün farklı katmanları arasında işlem yapmak isteyen herkes için ideal, gözetim dışı bir platformdur:
+Boltz, Bitcoin protokolünün farklı katmanları arasında işlem yapmak isteyen herkes için ideal, gözetim dışı bir platformdur:
 
 
 

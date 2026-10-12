@@ -406,7 +406,7 @@ Bitcoin Keeper आपके बिटकॉइन को प्रबंधि�
 
 
 - आधिकारिक वेबसाइट: [bitcoinkeeper.app](https://bitcoinkeeper.app)
-- सहायता केंद्र: [help.bitcoinkeeper.app](https://help.bitcoinkeeper.app)
+- सहायता केंद्र: [bitcoinkeeper.app/ask-keeper](https://www.bitcoinkeeper.app/ask-keeper)
 - स्रोत कोड: [github.com/bithyve/bitcoin-keeper](https://github.com/bithyve/bitcoin-keeper)
 - Telegram : [t.me/BitcoinKeeper](https://t.me/BitcoinKeeper)
 - ट्विटर/एक्स: [@bitcoinkeeper_](https://x.com/bitcoinkeeper_)

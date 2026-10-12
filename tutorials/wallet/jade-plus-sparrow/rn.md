@@ -267,7 +267,7 @@ Injira kode yawe ya PIN.
 ![Image](assets/fr/39.webp)
 
 
-Hanyuma ugende kuri [urubuga rwa Blockstream] kugira ngo ubone amakode ya QR ya Exchange n’ivyo bivugwa.
+Hanyuma ugende kuri [urubuga rwa Blockstream](https://jadefw.blockstream.com/pinqr/qrpin.html) kugira ngo ubone amakode ya QR ya Exchange n’ivyo bivugwa.
 
 
 ![Image](assets/fr/40.webp)
@@ -294,7 +294,7 @@ Fyonda kuri "*Tangira*".
 ![Image](assets/fr/15.webp)
 
 
-Ushobora gukoresha urufatiro rwa kode ya QR ruri mu gasandugu ka Jade Plus. Hitamwo akazu kabereye bivanye n’uko wahisemwo interuro y’amajambo 12 canke 24. Ushobora kandi [gucapura urugero ruvuye ku rubuga rwa Blockstream](https://imfashanyo.
+Ushobora gukoresha urufatiro rwa kode ya QR ruri mu gasandugu ka Jade Plus. Hitamwo akazu kabereye bivanye n’uko wahisemwo interuro y’amajambo 12 canke 24. Ushobora kandi [gucapura urugero ruvuye ku rubuga rwa Blockstream](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase).
 
 
 Jade Plus yawe izokwerekana zone yose ya QR code yawe.

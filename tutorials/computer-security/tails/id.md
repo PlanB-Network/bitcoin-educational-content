@@ -10,7 +10,7 @@ Sistem operasi portabel dan amnesik yang melindungi Anda dari pengawasan dan sen
 
 ## Mengapa kita harus memiliki Flash Drive dengan Tails terinstal?
 
-Tails (https://tails.boum.org/) adalah cara termudah untuk selalu memiliki komputer aman yang siap digunakan kapan saja, yang tidak akan meninggalkan jejak apa pun di komputer yang Anda gunakan.
+Tails (https://tails.net/) adalah cara termudah untuk selalu memiliki komputer aman yang siap digunakan kapan saja, yang tidak akan meninggalkan jejak apa pun di komputer yang Anda gunakan.
 
 Untuk menggunakan Tails, matikan komputer yang Anda akses (di rumah orang tua, di rumah teman, di kafe internet...) lalu nyalakan dengan flash drive USB Tails Anda, bukan dengan Windows, macOS, atau Linux.
 
@@ -53,7 +53,7 @@ Prasyarat:
 ## Langkah 1: Unduh Tails dari komputer Anda
 
 ![image](assets/1.webp)
-🔗 Instruksi dari Tails resmi: https://tails.boum.org/install/linux/index.fr.html#download
+🔗 Instruksi dari Tails resmi: https://tails.net/install/linux/index.fr.html#download
 
 Mengunduh file instalasi dengan ekstensi .img mungkin memerlukan waktu, tergantung pada kecepatan internet Anda, jadi rencanakanlah dengan baik. Dengan koneksi modern dan efisien, proses ini akan memakan waktu kurang dari 5 menit.
 
@@ -62,7 +62,7 @@ Simpan file dalam folder yang mudah dicari, seperti Downloads, karena ini akan d
 ## Langkah 2: Verifikasi unduhan Anda
 
 ![image](assets/2.webp)
-🔗 Instruksi dari Tails Resmi: https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 Instruksi dari Tails Resmi: https://tails.net/install/linux/index.fr.html#verify
 
 Memverifikasi unduhan memastikan bahwa file tersebut benar-benar dikeluarkan oleh pengembang Tails dan tidak rusak atau disadap selama proses pengunduhan.
 
@@ -74,8 +74,8 @@ Untuk memverifikasi file, gunakan tombol "Select your download / Pilih unduhan A
 
 ![image](assets/3.webp)
 🔗 Instruksi dari Resmi Tails:
-- Linux: https://tails.boum.org/install/linux/index.fr.html#install
-- macOS: https://tails.boum.org/install/mac/index.fr.html#etcher dan https://tails.boum.org/install/mac/index.fr.html#install
+- Linux: https://tails.net/install/linux/index.fr.html#install
+- macOS: https://tails.net/install/mac/index.fr.html#etcher dan https://tails.net/install/mac/index.fr.html#install
 
 Langkah instalasi Tails pada flash drive USB Anda adalah bagian tersulit dalam seluruh panduan ini, terutama jika Anda belum pernah melakukannya sebelumnya. Poin terpenting adalah memilih prosedur yang tepat di bagian resmi sesuai dengan sistem operasi Anda: Linux atau macOS.
 
@@ -86,7 +86,7 @@ Semoga berhasil! dan sampai jumpa di langkah 4.
 ## Langkah 4: Mulai ulang pada flash drive USB Tails Anda
 
 ![image](assets/4.webp)
-🔗 Instruksi dari Tails  Resmi: https://tails.boum.org/install/linux/index.en.html#restart
+🔗 Instruksi dari Tails  Resmi: https://tails.net/install/linux/index.en.html#restart
 
 Sekarang saatnya menyalakan salah satu komputer Anda menggunakan flash drive USB baru Anda. Masukkan ke salah satu port USB-nya, lalu mulai ulang komputer Anda!
 
@@ -118,7 +118,7 @@ Setelah flash drive USB terpilih, Anda akan melihat layar boot baru ini. Ini ada
 ## Langkah 5: Selamat Datang di Tails!
 
 ![image](assets/6.webp)
-🔗 Instruksi dari Tails  Resmi: https://tails.boum.org/install/linux/index.en.html#tails
+🔗 Instruksi dari Tails  Resmi: https://tails.net/install/linux/index.en.html#tails
 
 Satu atau dua menit setelah proses boot loader dan layar pemuatan, Layar "Selamat datang" akan muncul.
 ![image](assets/7.webp)

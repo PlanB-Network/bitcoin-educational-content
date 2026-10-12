@@ -6,6 +6,8 @@ description: Instalación de tu nodo Bitcoin RoninDojo v2 en una Raspberry Pi
 
 ***ADVERTENCIA:** Tras la detención de los fundadores de Samourai Wallet y la incautación de sus servidores el 24 de abril, ciertas características de RoninDojo, como Whirlpool, ya no están operativas. Sin embargo, es posible que estas herramientas puedan ser restablecidas o relanzadas de manera diferente en las próximas semanas. Además, dado que el código de RoninDojo estaba alojado en el GitLab de Samourai, que también fue incautado, actualmente no es posible descargar el código de manera remota. Es probable que los equipos de RoninDojo estén trabajando en la republicación del código.*
 
+> **Actualización (octubre de 2026):** RoninDojo ha vuelto a publicar su código en su propia forja ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) y ya va por la versión 3. Este tutorial describe una versión anterior: algunos de sus enlaces y comandos ya no funcionan. Para el procedimiento actual, consulta la documentación oficial: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 _Estamos siguiendo de cerca la evolución de este caso así como los desarrollos relacionados con las herramientas asociadas. Ten la seguridad de que actualizaremos este tutorial a medida que estén disponibles nuevas informaciones._
 
 _Este tutorial se proporciona únicamente con fines educativos e informativos. No respaldamos ni alentamos el uso de estas herramientas para fines criminales. Es responsabilidad de cada usuario cumplir con las leyes en su jurisdicción._
@@ -30,7 +32,10 @@ https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-
 ## ¿Qué es RoninDojo?
 Dojo es inicialmente una implementación completa de nodo Bitcoin, basada en Bitcoin Core, y desarrollada por los equipos de Samourai Wallet. Esta solución se puede instalar en cualquier equipo. A diferencia de otras implementaciones de Core, Dojo ha sido específicamente optimizado para integrarse con el entorno de aplicación Android de Samourai Wallet. En cuanto a RoninDojo, es una utilidad diseñada para facilitar la instalación y gestión de un Dojo, así como de varias otras herramientas complementarias. En resumen, RoninDojo enriquece la implementación básica de Dojo integrando una multitud de herramientas adicionales, al tiempo que simplifica su instalación y gestión.
 
-Ronin también ofrece [una solución de nodo en caja, llamada "*Tanto*"](https://ronindojo.io/en/products), un dispositivo con RoninDojo ya instalado en un sistema ensamblado por su equipo. El Tanto es una opción de pago, que puede ser interesante para aquellos que prefieren evitar complicaciones técnicas. Pero dado que el código fuente de RoninDojo es abierto, también es posible desplegarlo en tu propio hardware. Esta alternativa, más económica, requiere algunas manipulaciones adicionales, que cubriremos en este tutorial.
+Ronin también ofrece [una solución de nodo en caja, llamada "*Tanto*"](https://docs.ronindojo.io/hardware/tanto/), un dispositivo con RoninDojo ya instalado en un sistema ensamblado por su equipo. El Tanto es una opción de pago, que puede ser interesante para aquellos que prefieren evitar complicaciones técnicas. Pero dado que el código fuente de RoninDojo es abierto, también es posible desplegarlo en tu propio hardware. Esta alternativa, más económica, requiere algunas manipulaciones adicionales, que cubriremos en este tutorial.
+
+> **Nota (octubre de 2026):** Parece que RoninDojo ya no vende el Tanto, y su tienda en línea está fuera de servicio. Consulta la lista de hardware compatible: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
+
 RoninDojo es un Dojo, por lo tanto, permite una fácil integración de Whirlpool CLI en tu nodo Bitcoin para proporcionar la mejor experiencia de coinjoin posible. Con Whirlpool CLI, se hace posible remezclar continuamente tu Bitcoin, 24 horas al día, 7 días a la semana, sin requerir que tu computadora personal permanezca encendida.
 
 Más allá de Whirlpool CLI, RoninDojo incluye una variedad de herramientas para mejorar las funcionalidades de tu Dojo. Entre estas, la calculadora Boltzmann analiza el nivel de privacidad de tus transacciones, el servidor Electrum permite la conexión de tus billeteras Bitcoin a tu nodo, y el servidor Mempool te permite ver tus transacciones localmente, sin filtrar información.
@@ -40,7 +45,10 @@ Si no necesitas funcionalidades generalistas o aquellas relacionadas con la Red 
 Ahora que hemos delineado RoninDojo, veamos juntos cómo configurar este nodo.
 
 ## ¿Qué hardware elegir para instalar RoninDojo v2?
-RoninDojo ofrece una imagen para la instalación automática de su software en un [RockPro64](https://ronindojo.io/en/download). Sin embargo, nuestro tutorial se centra en el procedimiento de instalación manual en un Raspberry Pi 4. Aunque el Raspberry Pi 5 ha sido lanzado recientemente, y este tutorial debería ser teóricamente compatible con este nuevo modelo, aún no hemos tenido la oportunidad de probarlo, y no hemos encontrado comentarios de la comunidad. Tan pronto como tengamos el Pi 5 y los componentes compatibles, actualizaremos este tutorial para mantenerlos informados. Mientras tanto, recomendamos priorizar el Pi 4, ya que funciona perfectamente para nuestro nodo.
+RoninDojo ofrece una imagen para la instalación automática de su software en un [RockPro64](https://ronindojo.io/downloads). Sin embargo, nuestro tutorial se centra en el procedimiento de instalación manual en un Raspberry Pi 4. Aunque el Raspberry Pi 5 ha sido lanzado recientemente, y este tutorial debería ser teóricamente compatible con este nuevo modelo, aún no hemos tenido la oportunidad de probarlo, y no hemos encontrado comentarios de la comunidad. Tan pronto como tengamos el Pi 5 y los componentes compatibles, actualizaremos este tutorial para mantenerlos informados. Mientras tanto, recomendamos priorizar el Pi 4, ya que funciona perfectamente para nuestro nodo.
+
+> **Nota (octubre de 2026):** RoninDojo ofrece ahora también imágenes oficiales de RoninOS para la Rock5B+, la Raspberry Pi 5 y las máquinas x86.
+
 Por nuestra parte, ejecutamos RoninDojo en un Raspberry Pi equipado con 8 GB de RAM. Aunque algunos miembros de la comunidad han logrado que funcione en dispositivos con solo 4 GB de RAM, no hemos probado esta configuración. Dada la pequeña diferencia de precio, parece prudente optar por la versión de 8 GB de RAM. Esto también podría resultar útil si planeas reutilizar tu Raspberry Pi para otros usos en el futuro.
 Es importante señalar que los equipos de RoninDojo han informado sobre problemas frecuentes relacionados con la carcasa y el adaptador SSD. Nosotros nos hemos enfrentado a estos problemas. **Por lo tanto, se recomienda evitar carcasas equipadas con un cable USB para el SSD de tu nodo.** En su lugar, prefiere una tarjeta de expansión de almacenamiento diseñada específicamente para tu Raspberry Pi:
 
@@ -186,6 +194,8 @@ Ahora estás conectado a tu nodo vía una sesión SSH. En tu terminal, el prompt
 Una vez que las actualizaciones estén completadas, procede a instalar *Git* y *Dialog* usando el comando:
 `sudo apt install git dialog -y`
 
+> **Nota (octubre de 2026):** El comando siguiente ya no funciona: el GitLab de Samourai (code.samourai.io) fue incautado el 24 de abril de 2024. RoninDojo aloja ahora su código aquí: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Para el procedimiento de instalación actual, consulta [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
+
 A continuación, clona la rama `master` del repositorio Git de _RoninOS_ ejecutando:
 `sudo git clone --branch master https://code.samourai.io/ronindojo/RoninOS.git /opt/RoninOS`
 
@@ -298,7 +308,9 @@ Para vincular tu Samourai Wallet a tu Dojo, simplemente escanea este código QR 
 
 ![Conexión de Samourai Wallet](assets/notext/36.webp)
 Si ya tenías una Samourai Wallet antes de configurar tu Ronin Dojo, es necesario hacer una copia de seguridad de tu billetera, desinstalar y luego reinstalar la aplicación Samourai Wallet, antes de restaurar tu billetera. Al iniciar la aplicación reinstalada, tendrás la opción de conectarte a un nuevo Dojo. **¡Ten cuidado, este proceso conlleva el riesgo de perder tu Bitcoin si no se ejecuta correctamente!** Asegúrate de tener la copia de seguridad de tu Samourai Wallet en tus archivos y verifica la validez de tu frase de paso a través de `Configuración > Solución de problemas > Frase de paso`. También es importante tener una copia de seguridad legible de tu frase de recuperación y tu frase de paso. Para más precisión en esta operación, se recomienda seguir este tutorial detallado:
-[https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+[https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+
+> **Advertencia (octubre de 2026):** Samourai Wallet ya no existe: sus servidores fueron incautados y sus fundadores detenidos el 24 de abril de 2024. El enlace anterior lleva a una copia archivada de la guía. RoninDojo documenta ahora Ashigaru, un fork de Samourai Wallet: [docs.ronindojo.io/guides-wallet/ashigaru](https://docs.ronindojo.io/guides-wallet/ashigaru/)
 
 ### Usando tu propio explorador de bloques Mempool.space
 Un explorador de bloques transforma la información cruda de la blockchain de Bitcoin en un formato estructurado y fácilmente legible. Con herramientas como *Mempool.space*, es posible analizar transacciones, buscar direcciones específicas o incluso consultar las tarifas medias de los mempools de la red en tiempo real.
@@ -504,11 +516,11 @@ En cuanto a las otras pestañas disponibles en tu panel de RoninUI:
 - `System Info`: Proporciona información general sobre tu nodo, como la temperatura del CPU, el uso del espacio de almacenamiento o datos de RAM. También encontrarás las opciones `Reboot` y `Shut down` para reiniciar o apagar tu nodo.
 - `Settings`: Te permite cambiar tu contraseña de usuario.
 
-¡Ahí lo tienes! Gracias por seguir este tutorial hasta el final. Si te gustó, te invitamos a compartirlo en redes sociales. Además, si tienes la oportunidad, considera apoyar a los desarrolladores que hacen disponibles estos software libres y de código abierto para nuestra comunidad con una donación: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Para profundizar tu conocimiento sobre RoninDojo y descubrir más recursos, te recomendamos consultar los enlaces a los recursos externos mencionados a continuación.
+¡Ahí lo tienes! Gracias por seguir este tutorial hasta el final. Si te gustó, te invitamos a compartirlo en redes sociales. Además, si tienes la oportunidad, considera apoyar a los desarrolladores que hacen disponibles estos software libres y de código abierto para nuestra comunidad con una donación: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). Para profundizar tu conocimiento sobre RoninDojo y descubrir más recursos, te recomendamos consultar los enlaces a los recursos externos mencionados a continuación.
 
 **Recursos externos:**
 - [https://ronindojo.io/index.html](https://ronindojo.io/index.html)
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)

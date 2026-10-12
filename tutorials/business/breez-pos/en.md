@@ -5,6 +5,7 @@ description: Breez makes it easy to collect bitcoin payments for your business.
 
 ![cover](assets/cover.webp)
 
+> **Warning (October 2026):** Breez removed its legacy mobile app (Breez: Lightning Client & POS) from the app stores in 2026 and closed its users' channels. The download links and steps in this tutorial no longer work. Former users can recover their funds with the [breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery) tool. We keep this page for reference until it is updated.
 
 Since the COVID-19 pandemic, contactless digital payments have become widespread, even in the smallest shops. During this period, many businesses have discovered the practicality of bitcoin cash solutions, enabling them to receive payments from all over the world. However, these solutions are sometimes difficult to use or unsuitable for small businesses. In this tutorial, we'll be taking a look at the Breez payment terminal, a solution that stands out for its ease of use, while giving you total control over the management of your bitcoins.
 
@@ -12,7 +13,7 @@ Since the COVID-19 pandemic, contactless digital payments have become widespread
 ## Install Breez POS
 
 
-Breez POS is a self-custody service provided by the Breez wallet. The utility of this service is to enable merchants to collect payments via Bitcoin while remaining on a simple interface, very similar to the various Lightning wallets. Breez POS is available on the [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) and [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS) download platforms.
+Breez POS is a self-custody service provided by the Breez wallet. The utility of this service is to enable merchants to collect payments via Bitcoin while remaining on a simple interface, very similar to the various Lightning wallets. Breez POS is available on the Google Play Store (Android) and App Store (iOS) download platforms.
 
 
 ![download](assets/fr/01.webp)

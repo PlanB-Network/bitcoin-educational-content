@@ -566,6 +566,8 @@ Lynsatoshiene dine er umiddelbart tilgjengelige i wallet.
 
 ## SwapMarket vs Boltz: Hva er forskjellen?
 
+> **Merk (oktober 2026):** Boltz Exchange stanset alle swapper 3. august 2026, og nettstedet er frakoblet. Denne leverandøren er kanskje ikke lenger tilgjengelig på SwapMarket.
+
 
 
 ### Boltz: Teknologi vs. service
@@ -639,7 +641,7 @@ Konkurransen mellom leverandørene forbedrer prisene og mangedobler kildene til 
 
 - [SwapMarket - Webapplikasjon](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Teknisk dokumentasjon](https://docs.boltz.exchange/)
+- [Teknisk dokumentasjon](https://github.com/BoltzExchange/boltz-backend)
 - [Guide til selvhosting](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 
@@ -649,5 +651,5 @@ Konkurransen mellom leverandørene forbedrer prisene og mangedobler kildene til 
 
 
 
-- [Boltz Exchange](https://boltz.exchange) - Original atombyttetjeneste
+- Boltz Exchange - Original atombyttetjeneste
 - [ZEUS Swaps](https://zeusln.com) - Leverandør av lynbytteavtaler

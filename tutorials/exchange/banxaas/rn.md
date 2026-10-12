@@ -172,10 +172,10 @@ Ishirahamwe rya Banxaas riri ku ruhande rwawe kugira rigufashe mu ngorane zose w
 
 
 
-- [X](ubutumwa bw'ibanki)
-- [Itelegaramu](imbuga ngurukanabumenyi)
-- [Ikiganiro](imbuga ngurukanabumenyi/imbuga ngurukanabumenyi)
-- [Nostr](https://iris.to/npub1glle49lugnkrqwjwhlt5rjz9p6gypatxwy409nc3rfmn9gfzj2psrh7zy)
+- [X](https://x.com/banxaas_sn)
+- [Itelegaramu](https://t.me/banxaas_app)
+- [Ikiganiro](https://chat.whatsapp.com/JOjCpBoHXow2ljOJFBMVnX)
+- [Nostr](https://iris.to/npub1glle49lugnkrqwjwhlt5rjz9p6gypatxwy409nc3rfmn9gfzj2psrhh7zy)
 
 
 

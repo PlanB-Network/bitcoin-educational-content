@@ -54,7 +54,7 @@ De unika nackdelarna med Sentinel ligger i det faktum att applikationen är exkl
 För dem som vill spåra en Wallet med flera signaturer är Blue Wallet den enda applikationen jag känner till som erbjuder ett klockläge för dessa typer av plånböcker, och den är tillgänglig på både Android och iOS.
 
 
-För iOS-användare som letar efter ett alternativ till Sentinel kan [Green Wallet](https://blockstream.com/Green/) eller [Blue Wallet](https://bluewallet.io/watch-only/) vara alternativ, även om deras klockfunktionalitet inte är lika omfattande som Sentinels.
+För iOS-användare som letar efter ett alternativ till Sentinel kan [Green Wallet](https://blockstream.com/green/) eller [Blue Wallet](https://bluewallet.io/watch-only/) vara alternativ, även om deras klockfunktionalitet inte är lika omfattande som Sentinels.
 
 ![watch-only](assets/notext/2.webp)
 

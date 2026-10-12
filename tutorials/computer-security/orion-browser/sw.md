@@ -643,8 +643,8 @@ Kumbuka: kulinda faragha yako hakutegemei tu kivinjari chako. Changanya Orion na
 
 
 - **Tovuti rasmi**: [kagi.com/orion](https://kagi.com/orion/)
-- **Maswali Yanayoulizwa Mara kwa Mara**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **Jukwaa la jumuiya**: [community.kagi.com](https://community.kagi.com)
+- **Maswali Yanayoulizwa Mara kwa Mara**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **Jukwaa la jumuiya**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **Ufuatiliaji wa hitilafu**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Vipengele vya chanzo-wazi
 - **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Habari na masasisho

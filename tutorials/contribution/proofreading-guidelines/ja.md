@@ -44,7 +44,7 @@ https://planb.academy/tutorials/contribution/content/proofreading-review-tutoria
 ## Plan ₿ アカデミーで校正する前の最初のステップ
 
 
-新しい校正タスクを開始する前に、[Telegram グループ](https://t.me/PlanBNetwork_ContentBuilder) でお知らせいただくか、プラン ₿ アカデミーのコーディネーターにお知らせください。コーディネーターが専用の [issue](https://github.com/orgs/Plan ₿ アカデミー/プロジェクト/3) を開きます。課題のリンクを受け取ったら、そのコンテンツの校正タスクを開始**するとコメントしてください。
+新しい校正タスクを開始する前に、[Telegram グループ](https://t.me/PlanBNetwork_ContentBuilder) でお知らせいただくか、プラン ₿ アカデミーのコーディネーターにお知らせください。コーディネーターが専用の [issue](https://github.com/orgs/PlanB-Network/projects/3 ₿ アカデミー/プロジェクト/3) を開きます。課題のリンクを受け取ったら、そのコンテンツの校正タスクを開始**するとコメントしてください。
 
 
 このシステムは、コーディネーターがレポ内の進捗状況を把握するのに役立ち、校正者によってコンテンツが「クレーム」され、他の誰かによる重複作業を防ぐことができる。

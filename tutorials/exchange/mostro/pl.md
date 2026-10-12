@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - Klucz prywatny Nostr** (format `nsec1...`)
- - Utwórz dedykowany klucz handlowy na [nostrkeygen.com](https://nostrkeygen.com/)
+ - Utwórz dedykowany klucz handlowy na [nostrkeygen.com](https://nostrtool.com/)
  - Ważne**: Nigdy nie używaj głównego klucza osobistego Nostr
  - Przechowuj klucz prywatny w bezpiecznym miejscu (menedżer haseł)
 
@@ -962,7 +962,7 @@ Dla bitcoinerów, którzy preferują autonomię i poufność, Mostro jest realn�
 
 
 - [Główne repozytorium GitHub](https://github.com/MostroP2P/mostro)
-- [Klient internetowy](https://github.com/MostroP2P/mostro-web)
+- [Klient internetowy](https://github.com/MostroP2P/app)
 - [Klient CLI](https://github.com/MostroP2P/mostro-cli)
 
 

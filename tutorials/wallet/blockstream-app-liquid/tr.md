@@ -35,7 +35,7 @@ description: Blockstream Uygulaması nasıl yapılandırılır ve Liquid Network
 
 
 
-**Liquid**, **[Blockstream](https://blockstream.com/Liquid/)** tarafından geliştirilen, ana Blockchain Bitcoin'e bağlı kalırken daha hızlı, daha fazla Confidential Transactions ve gelişmiş işlevsellik sunmak için tasarlanmış bir **Sidechain** Bitcoin'dir.
+**Liquid**, **[Blockstream](https://blockstream.com/liquid/)** tarafından geliştirilen, ana Blockchain Bitcoin'e bağlı kalırken daha hızlı, daha fazla Confidential Transactions ve gelişmiş işlevsellik sunmak için tasarlanmış bir **Sidechain** Bitcoin'dir.
 
 
 
@@ -408,7 +408,9 @@ Liquid-Bitcoin (L-BTC) almak için çeşitli seçenekler mevcuttur. Aşağıda a
 
 
 
-Alternatif olarak, Exchange bitcoinlerinizi zincir üzerinde veya [Boltz gibi bir köprü](https://boltz.Exchange/) kullanarak L-BTC için Lightning Network aracılığıyla: Address alan Liquid'inizi girin, tercih ettiğiniz şekilde ödeme yapın ve L-BTC'nizi alın.
+Alternatif olarak, Exchange bitcoinlerinizi zincir üzerinde veya Boltz gibi bir köprü kullanarak L-BTC için Lightning Network aracılığıyla: Address alan Liquid'inizi girin, tercih ettiğiniz şekilde ödeme yapın ve L-BTC'nizi alın.
+
+> **Not (Ekim 2026):** Boltz, 3 Ağustos 2026'da tüm swap işlemlerini askıya aldı ve web sitesi çevrimdışı. Bu yöntem şu anda çalışmıyor.
 
 
 

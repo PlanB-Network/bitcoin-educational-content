@@ -20,7 +20,7 @@ ZEUS 是一款移动 Bitcoin Wallet 和节点管理应用程序，具有 Bitcoin
 使用 [BTCPay](https://btcpayserver.org/)、[LNBits](https://lnbits.com/) 或 [Alby](https://getalby.com/)（或任何其他 LNDhub 帐户）的商家也可以通过 ZEUS 连接、使用和管理他们的节点 / 帐户。
 
 
-[从 v0.8 开始](https://blog.zeusln.com/zeus-v0-8-0-open-beta/)，ZEUS 将开始为那些只想通过移动设备以简单方式进行快速、低成本比特币支付的普通用户提供服务，提供一个[内置移动 Lightning 节点](https://docs.zeusln.app/category/embedded-node)，并集成了[Lightning 服务提供商 (LSP)](https://docs.zeusln.app/lsp/intro)。
+[从 v0.8 开始](https://blog.zeusln.com/zeus-v0-8-0-open-beta/)，ZEUS 将开始为那些只想通过移动设备以简单方式进行快速、低成本比特币支付的普通用户提供服务，提供一个[内置移动 Lightning 节点](https://docs.zeusln.app/category/embedded-lnd)，并集成了[Lightning 服务提供商 (LSP)](https://docs.zeusln.app/lsp/intro)。
 
 
 ### 重要的宙斯资源：
@@ -169,7 +169,7 @@ Zeus来了，从[他们博客上宣布的v0.8.0版本](https://blog.zeusln.com/n
 LSP通过向用户的节点打开支付通道来帮助用户连接到Lightning网络。[在此阅读更多关于LSP的信息](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992)。ZEUS集成了一个名为[OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581)的新LSP，可供所有使用新嵌入式节点的用户使用。
 
 
-在本节中，默认设置为奥林巴斯 LSP (https://0conf.lnolymp.us)，但您也可以很快设置另一个支持该协议的 0conf LSP。
+在本节中，默认设置为奥林巴斯 LSP (https://flow.zeuslsp.com)，但您也可以很快设置另一个支持该协议的 0conf LSP。
 
 
 牢记：_
@@ -310,7 +310,7 @@ ZEUS 中的嵌入式节点基于 LND 并使用 [aezeed seed 格式](https://gith
 aezeed 密钥格式应与以下移动钱包兼容：Blixt、BlueWallet 和 Breez。请注意，如果您有打开或等待关闭的通道，仅 seed 将不足以恢复您的所有余额！
 
 
-有关备份和还原过程的更多信息，请访问 [Zeus Docs 页面](https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery)。
+有关备份和还原过程的更多信息，请访问 [Zeus Docs 页面](https://docs.zeusln.app/for-users/local-wallets/embedded-lnd/backup-and-recovery)。
 
 
 电源建议：保存 seed 时，请同时保存节点的发布密钥！有时，将其与 seed 和 SCB（静态信道备份）一起保存在手边，以备需要验证恢复时使用。
@@ -322,7 +322,7 @@ aezeed 密钥格式应与以下移动钱包兼容：Blixt、BlueWallet 和 Breez
 如果过了很长时间仍未显示旧的历史 txs，请进入 "嵌入式节点"-"对等节点"，禁用 "使用选定对等节点列表 "选项（默认为 btcd.lnolymp.us）。这将触发重启，并以更好的时间响应连接到第一个可用的中微子节点。或者使用下面提到的其他知名中微子节点。
 
 
-如果您想了解 LND 节点的更多恢复选项，[请阅读我以前的指南](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html)，在那里您可以找到如何将已封堵的 seed 导入麻雀 Wallet 的步骤或其他方法。
+如果您想了解 LND 节点的更多恢复选项，[请阅读我以前的指南](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html)，在那里您可以找到如何将已封堵的 seed 导入麻雀 Wallet 的步骤或其他方法。
 
 
 **C - 嵌入式节点**
@@ -356,7 +356,7 @@ aezeed 密钥格式应与以下移动钱包兼容：Blixt、BlueWallet 和 Breez
 
 
 
- - _Pathfinding mode_ - bimodal or apriori，为您的 LN 支付找到更好路线的方法，以及重置以前的路线信息。请阅读这些非常好的寻路指南：[寻路](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - 作者：Docs Lightning Engineering 和 [LN 支付寻路](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - 作者：Voltage
+ - _Pathfinding mode_ - bimodal or apriori，为您的 LN 支付找到更好路线的方法，以及重置以前的路线信息。请阅读这些非常好的寻路指南：[寻路](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - 作者：Docs Lightning Engineering 和 [LN 支付寻路](https://voltage.cloud/blog/understanding-payment-pathfinding-between-nodes-on-lightning-network) - 作者：Voltage
  - _Persistent LND_ - 如果您希望 LND 服务在后台持续运行，并让您的节点全天候在线，请激活此模式。如果您将 Zeus 用作小商店的 PoS，或者您正在通过 LN Address 接收许多 LN 提示，这将非常有用。
  - _Rescan wallet_ - 重启时，该选项将触发对 Wallet 所有链上 tx 的全面扫描。只有在 Wallet 丢失某些 tx 的情况下才可激活该选项。重新扫描任务需要几分钟的时间，因此请耐心等待，并随时查看日志以了解进度详情。
  - _Compact Database_ - 如果您的 Zeus 应用程序占用了大量设备空间（请参阅设备设置中的应用程序详情），该选项将非常有用。如果您使用 Zeus 的活动很多，我建议您经常进行压缩。一旦发现 Zeus 应用程序有超过 1-1.5GB 的数据，请执行压缩。它会重新启动并需要一些时间，请耐心等待。
@@ -399,7 +399,7 @@ ZEUS PAY 利用用户生成的预图像哈希值、HODL 发票和 Zaplocker Nost
 如果您激活 "持续模式"，您的 LN Address 将立即收到所有付款。
 
 
-了解 [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) 支付的工作原理以及更多有关 [ZeusPay 费用](https://docs.zeusln.app/lightning-Address/fees) 的信息。
+了解 [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) 支付的工作原理以及更多有关 [ZeusPay 费用](https://docs.zeusln.app/lightning-address/zaplocker) 的信息。
 
 
 **G - Onchain 地址**
@@ -488,7 +488,7 @@ Zeus 0.8.0 版中引入了一个新的联系人簿，您可以用它快速向亲
 只需在您的 Zeus 上创建一个 Invoice（输入金额并点击 "申请 "按钮），您就能立即收到这些 Sats。
 
 
-您 generate 的 Invoice 将被 [包裹](https://docs.zeusln.app/lsp/wrapped-invoices)，如果您支付了服务相关费用，您将看到相关费用。封装后的 Invoice 包含指向您的 Zeus 节点的路由提示，因此 LSP 可以找到您的新节点，并为您存入的新资金打开通道。
+您 generate 的 Invoice 将被 [包裹](https://docs.zeusln.app/lsp/services/flow)，如果您支付了服务相关费用，您将看到相关费用。封装后的 Invoice 包含指向您的 Zeus 节点的路由提示，因此 LSP 可以找到您的新节点，并为您存入的新资金打开通道。
 
 
 ![Image](assets/en/06.webp)

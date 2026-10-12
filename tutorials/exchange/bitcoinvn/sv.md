@@ -65,7 +65,7 @@ Ange manuellt det belopp du vill swappa och använd knapparna [länk till daglig
 Kom ihåg att **transaktionsräntorna varierar**, så kontrollera alltid det slutliga priset innan du bekräftar.
 
 
-**Ett konto krävs inte med** dagliga transaktioner begränsade till VND 250.000 (~ USD 8). Mer information finns i vår [banköverföringspolicy](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**Ett konto krävs inte med** dagliga transaktioner begränsade till VND 250.000 (~ USD 8). Mer information finns i vår [banköverföringspolicy](https://support.bitcoinvn.io/help/en-us/4-orders-payments/17-vnd-bank-transfer).
 
 
 **Varning**: nätverksavgiften är i allmänhet billigare när du väljer Lightning Network jämfört med transaktionsmetoden onchain.

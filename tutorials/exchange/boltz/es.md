@@ -5,13 +5,15 @@ description: Cambia entre diferentes capas de Bitcoin sin perder el control.
 
 ![cover](assets/cover.webp)
 
+> **Advertencia (octubre de 2026):** Boltz suspendió todos sus swaps el 3 de agosto de 2026 tras la explotación de varias vulnerabilidades, y su sitio web está fuera de línea. Los enlaces y los pasos de este tutorial ya no funcionan. Conservamos esta página como referencia hasta que se actualice.
+
 Desde su lanzamiento en 2009, el sistema de dinero electrónico entre iguales de Bitcoin ha crecido exponencialmente, dando vida a soluciones que hoy le permiten ser un sistema que podemos utilizar instantáneamente en nuestras acciones cotidianas, especialmente a través de Lightning Network.
 
 Sin embargo, persistía un gran problema entre las capas del protocolo Bitcoin: la interoperabilidad fluida. Para aprovechar todo el potencial de Bitcoin, era imprescindible encontrar una solución que permitiera realizar transacciones entre las distintas capas del protocolo. Esta necesidad dio lugar en 2019 a Boltz, un puente que enlaza varias capas de Bitcoin.
 
 ## ¿Qué es Boltz?
 
-[Boltz](https://boltz.Exchange) es una plataforma no custodial ideal para cualquiera que desee realizar transacciones entre las distintas capas del protocolo Bitcoin:
+Boltz es una plataforma no custodial ideal para cualquiera que desee realizar transacciones entre las distintas capas del protocolo Bitcoin:
 
 - **On chain**: La principal cadena de Bitcoin, donde las transacciones se confirman cada 10 minutos, las comisiones por transacción suelen ser elevadas, lo que no satisface necesariamente las necesidades de los usuarios.
 - **Lightning Network**: La capa superpuesta de Bitcoin para pagos instantáneos con comisiones bajas, lo que permite utilizar la Bitcoin para pagos diarios.

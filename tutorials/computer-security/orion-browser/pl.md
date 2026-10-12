@@ -643,8 +643,8 @@ Pamiętaj: ochrona prywatności nie zależy tylko od przeglądarki. Połącz Ori
 
 
 - **Oficjalna strona internetowa**: [kagi.com/orion](https://kagi.com/orion/)
-- **Pełne FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **Forum społeczności**: [community.kagi.com](https://community.kagi.com)
+- **Pełne FAQ**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **Forum społeczności**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **Śledzenie błędów**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Komponenty open-source
 - **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Nowości i aktualizacje

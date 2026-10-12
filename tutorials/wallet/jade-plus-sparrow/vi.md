@@ -213,7 +213,7 @@ Nhấp vào "*Bắt đầu*".
 
 ![Image](assets/fr/15.webp)
 
-Bạn có thể sử dụng cơ sở mã QR được cung cấp trong hộp Jade Plus. Chọn hộp phù hợp tùy thuộc vào việc bạn đã chọn câu 12 hay 24 từ. Bạn cũng có thể [in mẫu từ trang web Blockstream](https://help.blockstream.com/hc/article_attachments/41928319071769).
+Bạn có thể sử dụng cơ sở mã QR được cung cấp trong hộp Jade Plus. Chọn hộp phù hợp tùy thuộc vào việc bạn đã chọn câu 12 hay 24 từ. Bạn cũng có thể [in mẫu từ trang web Blockstream](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase).
 
 Jade Plus của bạn sẽ hiển thị từng vùng mã QR.
 

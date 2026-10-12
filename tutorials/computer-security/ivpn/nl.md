@@ -78,7 +78,7 @@ Zodra de installatie is voltooid, moet je je account-ID invoeren. We zullen in d
 ## Hoe installeer je IVPN op een smartphone?
 
 
-Download IVPN van uw app store, of het nu de [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) voor iOS-gebruikers, de [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) voor Android, of [F-Droid](https://f-droid.org/en/packages/net.ivpn.client) is. Als u Android gebruikt, hebt u ook de optie om het `.apk`-bestand rechtstreeks van [de IVPN-site](https://www.ivpn.net/en/apps-android/) te downloaden.
+Download IVPN van uw app store, of het nu de [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) voor iOS-gebruikers, de [Google Play Store](https://www.ivpn.net/en/apps-android/) voor Android, of [F-Droid](https://f-droid.org/en/packages/net.ivpn.client) is. Als u Android gebruikt, hebt u ook de optie om het `.apk`-bestand rechtstreeks van [de IVPN-site](https://www.ivpn.net/en/apps-android/) te downloaden.
 
 ![IVPN](assets/notext/05.webp)
 

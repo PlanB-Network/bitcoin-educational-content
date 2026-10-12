@@ -547,7 +547,7 @@ Mullvad Browser - это отличное решение для тех, кто �
 
 - [Официальный сайт Mullvad Browser](https://mullvad.net/fr/browser)
 - [Страница загрузки Mullvad Browser](https://mullvad.net/en/download/browser)
-- [Подробные технические характеристики](https://mullvad.net/en/browser/Hard-facts)
+- [Подробные технические характеристики](https://mullvad.net/en/browser/hard-facts)
 - [Mullvad Browser Extension](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

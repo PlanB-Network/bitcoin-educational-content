@@ -293,7 +293,6 @@ Sử dụng dấu trang công khai như:
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -650,7 +649,7 @@ Trong bối cảnh giám sát tài chính ngày càng tăng, các công cụ phi
 
 
 
-- [Trang web chính thức của Joinstr](https://joinstr.xyz)
+- [Trang web chính thức của Joinstr](https://docs.joinstr.xyz/)
 - [Tài liệu hướng dẫn sử dụng](https://docs.joinstr.xyz/users/using-joinstr)
 - [Tài liệu kỹ thuật](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [Mã nguồn GitLab](https://gitlab.com/invincible-privacy/joinstr)
@@ -682,6 +681,5 @@ Trong bối cảnh giám sát tài chính ngày càng tăng, các công cụ phi
 
 
 
-- [Đánh dấu Faucet](https://signetfaucet.com) - Dùng thử Bitcoin miễn phí
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Lựa chọn thay thế cho Faucet
 - [Mempool.space](https://mempool.space) - Block explorer với phân tích quyền riêng tư

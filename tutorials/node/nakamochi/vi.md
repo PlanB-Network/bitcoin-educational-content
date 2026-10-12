@@ -112,7 +112,7 @@ _Ảnh chụp màn hình ZEUS_
 
 _Ảnh chụp màn hình Bitbanana_
 
-Để biết thêm thông tin: [BitBanana](https://bitbanana.com)
+Để biết thêm thông tin: [BitBanana](https://bitbanana.app)
 
 Khi kênh của bạn mở, các khoản thanh toán có thể được định tuyến qua kênh đó đến những người tham gia khác trong mạng. Số dư được điều chỉnh ngoài chuỗi, đảm bảo giao dịch gần như ngay lập tức và chỉ phải trả phí tối thiểu.
 

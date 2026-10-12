@@ -31,7 +31,7 @@ La signature GPG est obtenue avec l'utilisation d'un logiciel open source nommé
 
 D'autre part, si quelqu'un souhaite vérifier l'authenticité d'un fichier signé, il peut utiliser GPG pour importer la clé publique de l'émetteur et la vérifier. Dans la seconde partie du tutoriel, nous verrons comment faire cela avec un terminal.
 
-Pour ceux qui sont curieux et souhaitent en savoir plus sur ce fantastique logiciel, vous pouvez vous référer à ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html).
+Pour ceux qui sont curieux et souhaitent en savoir plus sur ce fantastique logiciel, vous pouvez vous référer à ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual.html#AEN136).
 
 ### Comment fonctionne l'horodatage ?
 

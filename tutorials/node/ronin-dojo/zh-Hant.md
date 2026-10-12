@@ -5,6 +5,8 @@ description: 安裝和使用您的 RoninDojo Bitcoin 節點。
 ---
 **警告:** 在 Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被扣押之後，RoninDojo 的某些功能（例如 Whirlpool）已不再運作。不過，這些工具有可能在未來幾週內以不同方式恢復或重新啟動。此外，由於 RoninDojo 的程式碼託管在 Samourai 的 GitLab 上，而 GitLab 也被查封，因此目前無法從遠端下載程式碼。RoninDojo 團隊可能正在努力重新發布程式碼。
 
+> **更新（2026 年 10 月）：** 此後 RoninDojo 已在自己的平台（[git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)）上重新發布程式碼，目前為第 3 版。本教學介紹的是較舊的版本：其中部分連結和指令已無法使用。目前的操作步驟請參閱官方文件：[docs.ronindojo.io](https://docs.ronindojo.io/)
+
 
 我們正密切注意此案例的發展，以及相關工具的發展。請放心，我們會在有新資訊時更新本教學。
 
@@ -84,10 +86,12 @@ RoninDojo 整合了許多依賴於您的 Dojo 的其他工具，例如 Boltzmann
 要選擇託管和執行 RoninDojo 的機器，您有幾個選項。
 
 
-如前所述，最簡單的選擇是訂購 Tanto，這是專為此目的設計的隨插即用機器。若要訂購，請按這裡：[link](https://shop.ronindojo.io/product-category/nodes/).
+如前所述，最簡單的選擇是訂購 Tanto，這是專為此目的設計的隨插即用機器。
+
+> **註（2026 年 10 月）：** RoninDojo 似乎已不再販售 Tanto，其線上商店也已下線。請參閱相容硬體清單：[docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
 
 
-由於 RoninDojo 團隊製作開放源代碼，因此也可以在其他機器上實現 RoninDojo。您可以在此頁面找到最新版本的安裝精靈：[連結](https://ronindojo.io/en/downloads.html)，而最新版本的程式碼則在此頁面：[link](https://code.samourai.io/ronindojo/RoninDojo).
+由於 RoninDojo 團隊製作開放源代碼，因此也可以在其他機器上實現 RoninDojo。您可以在此頁面找到最新版本的安裝精靈：[連結](https://ronindojo.io/downloads)，而最新版本的程式碼則在此頁面：[link](https://git.ronindojo.io/Ronin/monorepo).
 
 
 就我個人而言，我將它安裝在 Raspberry Pi 4 8GB 上，一切運作完美。
@@ -118,7 +122,7 @@ RoninDojo 整合了許多依賴於您的 Dojo 的其他工具，例如 Boltzmann
 組裝好機器後，您就可以開始安裝 RoninDojo。為此，首先將適當的磁碟映像燒錄到可開機的 micro SD 卡上。
 
 
-將您的 micro SD 卡插入個人電腦，然後到 RoninDojo 官方網站下載 RoninOS 磁碟映像檔：https://ronindojo.io/en/downloads.html。
+將您的 micro SD 卡插入個人電腦，然後到 RoninDojo 官方網站下載 RoninOS 磁碟映像檔：https://ronindojo.io/downloads。
 
 
 下載與您硬體相對應的磁碟映像檔。在我的情況下，我下載了 "MANJARO-ARM-RONINOS-RPI4-22.03.IMG.XZ" 映像：
@@ -130,7 +134,7 @@ RoninDojo 整合了許多依賴於您的 Dojo 的其他工具，例如 Boltzmann
 下載映像後，請使用相應的 .SHA256 檔案驗證其完整性。我將在本文中詳細說明如何執行：如何在 Windows 上驗證 Bitcoin 軟體的完整性？
 
 
-驗證 RoninOS 完整性的具體說明也可在此頁面上找到：https://wiki.ronindojo.io/en/extras/verify。
+驗證 RoninOS 完整性的具體說明也可在此頁面上找到：https://docs.ronindojo.io/install/verify-os/。
 
 
 若要將此影像燒錄到 micro SD 卡上，您可以使用 Balena Etcher 等軟體，您可以在此處下載：https://www.balena.io/etcher/。
@@ -232,6 +236,8 @@ ssh username@192.168.?.?
 
 現在您已連接到您的機器，該機器目前只有 RoninOS。現在您需要在上面安裝 RoninDojo。
 
+
+> **註（2026 年 10 月）：** 下面的指令已無法使用：Samourai 的 GitLab（code.samourai.io）已於 2024 年 4 月 24 日被查封。RoninDojo 現在將程式碼託管在這裡：[git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)。目前的安裝步驟請參閱 [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
 
 輸入以下指令下載最新版本的 RoninDojo：
 
@@ -508,16 +514,16 @@ git clone https://code.samourai.io/ronindojo/RoninDojo
 
 解決這個限制的方法之一，是在 Bitcoin 節點等需要持續開機的機器上使用 WhirlpoolCLI。如此一來，我們的 UTXO 就能全天候進行混音，而無需讓 Bitcoin 節點以外的其他機器持續運作。
 
-WhirlpoolCLI 與 WhirlpoolGUI 一起使用，WhirlpoolGUI 是一個圖形化的 Interface ，安裝在個人電腦上，方便管理 Coinjoins。我將在這篇文章中詳細解釋如何設定 Whirlpool CLI 與您自己的道場：[link](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
+WhirlpoolCLI 與 WhirlpoolGUI 一起使用，WhirlpoolGUI 是一個圖形化的 Interface ，安裝在個人電腦上，方便管理 Coinjoins。我將在這篇文章中詳細解釋如何設定 Whirlpool CLI 與您自己的道場：[link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
 
 
-若要瞭解更多關於 CoinJoin 的一般資訊，我在這篇文章中會一一說明：[link](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin).
+若要瞭解更多關於 CoinJoin 的一般資訊，我在這篇文章中會一一說明：[link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
 
 ### 使用 Whirlpool 統計工具。
 
 
-使用 Whirlpool 執行 CoinJoins 後，您可能想知道混合 UTXOs 的實際隱私程度。Whirlpool 統計工具可讓您輕鬆完成此工作。使用此工具，您可以計算混合 UTXOs 的前瞻性得分和後瞻性得分。若要瞭解更多關於計算這些 Anon Sets 及其運作方式的資訊，我建議您閱讀這一部分：[link](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
+使用 Whirlpool 執行 CoinJoins 後，您可能想知道混合 UTXOs 的實際隱私程度。Whirlpool 統計工具可讓您輕鬆完成此工作。使用此工具，您可以計算混合 UTXOs 的前瞻性得分和後瞻性得分。若要瞭解更多關於計算這些 Anon Sets 及其運作方式的資訊，我建議您閱讀這一部分：[link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
 
 
 該工具已預先安裝在您的 RoninDojo 上。目前，它只能從 RoninCLI 使用。若要從主功能表啟動，請前往：
@@ -604,7 +610,7 @@ WST 接著會顯示回溯分數 (Backward-looking metrics) ，接著會顯示前
 請注意，您的 UTXO 的前瞻性分數是根據您初始組合的 txid 計算，而不是根據您最後一次組合的 txid 計算。相反，UTXO 的回溯分數是根據上一個週期的 txid 來計算的。
 
 
-再次重申，如果您不瞭解 Anon Sets 的這些概念，我建議您閱讀我在 CoinJoin 文章中的這一部分，在這部分中我用圖表詳細解釋了一切：[https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
+再次重申，如果您不瞭解 Anon Sets 的這些概念，我建議您閱讀我在 CoinJoin 文章中的這一部分，在這部分中我用圖表詳細解釋了一切：[https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
 
 
 ### 使用 Boltzmann 計算機。
@@ -968,7 +974,7 @@ Bisq 透過 2/2 多重簽章系統保障點對點交換的安全。您可以將�
 如果使用終端機不會讓您害怕，而且您不需要與 Lightning Network 相關的工具，那麼 RoninDojo 可能會吸引您。
 
 
-如果可以，請考慮捐贈給為您免費製作這些開放源碼軟體的開發者： https://donate.ronindojo.io/
+如果可以，請考慮捐贈給為您免費製作這些開放源碼軟體的開發者： https://docs.ronindojo.io/main/donations/
 
 
 若要進一步瞭解 RoninDojo，我建議您查看以下外部資源中的連結。
@@ -992,5 +998,5 @@ Bisq 透過 2/2 多重簽章系統保障點對點交換的安全。您可以將�
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/introducing-boltzmann-85930984a159
 - https://en.wikipedia.org/wiki/Boltzmann_formula
-- https://wiki.ronindojo.io/en/setup/bisq
+- https://web.archive.org/web/20240214172859/https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/

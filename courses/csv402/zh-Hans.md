@@ -2318,7 +2318,7 @@ Schema 纯粹是声明性的，编译成二进制文件后很难直接使用，�
 
 #### 界面示例
 
-这段 Rust 代码片段展示了一个 [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) 接口（可替换资产）。这段代码来自标准 RGB 库中的 `rgb20.rs` 文件。让我们来看看它，以了解 Interface 的结构，以及它是如何在业务逻辑（在模式中定义）与暴露给钱包和用户的功能之间架起一座桥梁的。
+这段 Rust 代码片段展示了一个 [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) 接口（可替换资产）。这段代码来自标准 RGB 库中的 `rgb20.rs` 文件。让我们来看看它，以了解 Interface 的结构，以及它是如何在业务逻辑（在模式中定义）与暴露给钱包和用户的功能之间架起一座桥梁的。
 
 ```rust
 // ...

@@ -19,7 +19,7 @@ description: Mining Bitcoin से शुरू करें, जीतने �
 
 - [लिलिगो टी-डिस्प्ले एस3](https://lilygo.cc/products/t-display-s3)
 - [USB-C पावर Supply](https://amzn.eu/d/gIOot90)
-- एक 3D केस: यदि आपके पास 3D प्रिंटर है, तो आप [3D फ़ाइल](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) डाउनलोड कर सकते हैं अन्यथा आप [Silexperience ऑनलाइन स्टोर](https://silexperience.company.site/NerdMiner_V2-p544379757) पर एक खरीद सकते हैं।
+- एक 3D केस: यदि आपके पास 3D प्रिंटर है, तो आप [3D फ़ाइल](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) डाउनलोड कर सकते हैं अन्यथा आप [Bitronics ऑनलाइन स्टोर](https://bitronics.store/) पर एक खरीद सकते हैं।
 - एक पीसी जिसमें क्रोम ब्राउज़र स्थापित हो
 - इंटरनेट कनेक्शन
 - एक Bitcoin Address
@@ -95,7 +95,6 @@ NerdMiners के लिए, आप इनमें से किसी एक �
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Default Solo and open-source mining pool |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Maintained by CHMEX                      |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Maintained by djerfy                     |
 
 एक बार जब आप अपना पूल चुन लेते हैं, तो आपको अपना Bitcoin Address दर्ज करना होगा ताकि (अपवादस्वरूप) ब्लॉक मिलने की स्थिति में आपको पुरस्कार मिल सके।
 
@@ -191,4 +190,4 @@ Mining की हार्दिक शुभकामनाएं और भा
 
 
 - [NerdMiner_v2 परियोजना पृष्ठ](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [NerdMiners का पूरा दस्तावेज़ीकरण](https://docs.bitwater.ch/nerd-Miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

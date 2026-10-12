@@ -2,7 +2,10 @@
 name: Lipa
 description: Configurar e utilizar a carteira móvel Lipa lightning
 ---
+
 ![cover](assets/cover.webp)
+
+> **Aviso (outubro de 2026):** A carteira Lipa foi encerrada em 31 de dezembro de 2025 e a sua editora, a lightning payment services ag, está em liquidação. A aplicação já não pode ser descarregada e os passos deste tutorial já não funcionam. Mantemos esta página como referência até ser atualizada.
 
 Uma carteira Bitcoin Lightning é uma aplicação móvel que permite transacções instantâneas e de baixo custo na rede Lightning da Bitcoin. Ao contrário das transacções na cadeia de blocos principal (on-chain), os pagamentos Lightning são quase instantâneos e exigem taxas mínimas, o que os torna particularmente adequados para pequenos pagamentos diários.
 
@@ -31,7 +34,7 @@ As principais caraterísticas incluem:
 O primeiro passo é descarregar a aplicação Lipa. De momento, só está disponível no iOS :
 
 
-- [Para a Apple](https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
+- Para a Apple
 
 A versão para Android está atualmente a ser desenvolvida e estará disponível em breve.
 

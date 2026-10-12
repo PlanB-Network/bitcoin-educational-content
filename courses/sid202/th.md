@@ -87,7 +87,7 @@ Elements เป็นแพลตฟอร์ม[บล็อกเชน](https
 Elements เป็นโปรโตคอลที่ช่วยให้เกิด[ฉันทามติ](https://planb.academy/resources/glossary/consensus)ในการสร้างประวัติการทำ[ธุรกรรม](https://planb.academy/resources/glossary/transaction-tx)และกฎเกณฑ์ที่ควบคุมการโอนและการสร้างสินทรัพย์ที่เก็บไว้ในบัญชีแยกประเภทบล็อกเชนแบบกระจาย
 
 
-สามารถค้นหาข้อมูลเพิ่มเติมเกี่ยวกับ Elements ได้อย่างง่ายดายบนเว็บไซต์โครงการ Elements (https://elementsproject.org/), [บล็อก](https://planb.academy/resources/glossary/block)อย่างเป็นทางการของ Liquid (https://blog.liquid.net/), และพอร์ทัลนักพัฒนา (https://liquid.net/devs)
+สามารถค้นหาข้อมูลเพิ่มเติมเกี่ยวกับ Elements ได้อย่างง่ายดายบนเว็บไซต์โครงการ Elements (https://elementsproject.org/), [บล็อก](https://planb.academy/resources/glossary/block)อย่างเป็นทางการของ Liquid (https://blog.liquid.net/), และพอร์ทัลนักพัฒนา (https://liquid.net/developers)
 
 
 ### Elements

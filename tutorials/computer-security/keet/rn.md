@@ -56,12 +56,12 @@ Keet iraboneka ku mbuga zose. Ushobora gukura iyo porogaramu mu bubiko bwa porog
 
 
 
-- [Ikiganiro ca Google](https://igikino.google.com/ububiko/iporogaramu/ibisobanuro?id=io.keet.iporogaramu&pli=1);
-- [Iduka ry’Iporogarama](iporogarama
+- [Ikiganiro ca Google](https://play.google.com/store/apps/details?id=io.keet.app&pli=1);
+- [Iduka ry’Iporogarama](https://apps.apple.com/us/app/keet-by-holepunch/id6443880549)
 
 
 
-Kuri Android, birashoboka kandi [gushiramwo biciye kuri APK]
+Kuri Android, birashoboka kandi [gushiramwo biciye kuri APK](https://github.com/holepunchto/keet-mobile-releases/releases)
 
 
 

@@ -3,10 +3,9 @@ name: Boltz
 description: Wechseln Sie zwischen verschiedenen Bitcoin-Schichten und behalten Sie dabei die Kontrolle.
 ---
 
-
 ![cover](assets/cover.webp)
 
-
+> **Warnung (Oktober 2026):** Boltz hat am 3. August 2026 alle Swaps ausgesetzt, nachdem mehrere Schwachstellen ausgenutzt wurden, und die Website ist offline. Die Links und Schritte in diesem Tutorial funktionieren nicht mehr. Wir behalten diese Seite als Referenz, bis sie aktualisiert wird.
 
 Seit seiner Einführung im Jahr 2009 ist das Peer-to-Peer-Electronic-Cash-System von Bitcoin exponentiell gewachsen und hat Lösungen hervorgebracht, die es uns heute ermöglichen, das System sofort in unserem Alltag zu nutzen, insbesondere durch Lightning Network.
 
@@ -20,7 +19,7 @@ Ein großes Problem blieb jedoch zwischen den Bitcoin-Protokollschichten bestehe
 
 
 
-[Boltz](https://boltz.Exchange) ist eine nicht-verwahrende Plattform, die ideal für jeden ist, der zwischen den verschiedenen Schichten des Bitcoin-Protokolls Transaktionen durchführen möchte:
+Boltz ist eine nicht-verwahrende Plattform, die ideal für jeden ist, der zwischen den verschiedenen Schichten des Bitcoin-Protokolls Transaktionen durchführen möchte:
 
 
 

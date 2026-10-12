@@ -547,7 +547,7 @@ Mặc dù có một số hạn chế nhất định (không có phiên bản di 
 
 - [Trang web Trình duyệt Mullvad chính thức](https://mullvad.net/fr/browser)
 - [Trang tải xuống Trình duyệt Mullvad](https://mullvad.net/en/download/browser)
-- [Thông số kỹ thuật chi tiết](https://mullvad.net/en/browser/Hard-facts)
+- [Thông số kỹ thuật chi tiết](https://mullvad.net/en/browser/hard-facts)
 - [Tiện ích mở rộng trình duyệt Mullvad](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

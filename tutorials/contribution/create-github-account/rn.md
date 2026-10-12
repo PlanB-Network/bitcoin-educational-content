@@ -110,7 +110,7 @@ Niba wipfuza gutanga umusanzu ku rubuga rwa PlanB, uzokenera konti ya GitHub. Mu
 
 
 
-- Genda kuri [github.com/kwiyandikisha](inyandiko).
+- Genda kuri [github.com/kwiyandikisha](https://github.com/signup).
 - Injira muri email yawe Address, hanyuma ukande kuri buto ya Green `Bandanya`:
 
 ![github](assets/1.webp)

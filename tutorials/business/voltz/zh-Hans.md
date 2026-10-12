@@ -19,7 +19,7 @@ Voltz 是一个完整的平台，提供众多扩展功能，可将比特币作�
 
 
 
-访问 [Voltz] 平台 (https://www.lnvoltz.xyz/en) 并点击 "立即尝试 "按钮创建账户。
+访问 [Voltz] 平台 (https://lnbits.lnvoltz.com/) 并点击 "立即尝试 "按钮创建账户。
 
 
 

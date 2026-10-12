@@ -296,7 +296,7 @@ KaleidoSwap 的交易引擎以**做市商模式**運作。您可以手動與同�
 - WebSocket**：用於即時市場資料訂閱。
 
 
-有關完整的端點和規格，請參閱 [API 文件](https://docs.kaleidoswap.com/api/introduction)。
+有關完整的端點和規格，請參閱 [API 文件](https://docs.kaleidoswap.com/api-reference/introduction)。
 
 
 ## 總結

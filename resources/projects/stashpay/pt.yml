@@ -1,2 +1,4 @@
 description: |
   O StashPay é um Lightning Wallet minimalista baseado no SDK Breez Liquid para permitir transacções sem falhas. Foi concebido para ser simples e fácil de utilizar, tornando-o acessível tanto a principiantes como a utilizadores experientes. Com o StashPay, os utilizadores podem enviar e receber Bitcoin através do Lightning Network com apenas alguns toques, sem a necessidade de configurações complexas ou conhecimentos técnicos.
+
+  O StashPay foi descontinuado em 31 de agosto de 2026. Os utilizadores podem importar a sua frase de recuperação na aplicação Blockstream para recuperar a sua carteira Liquid.

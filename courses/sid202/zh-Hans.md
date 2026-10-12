@@ -61,7 +61,7 @@ Elements 是一个开源、支持侧链的[区块链](https://planb.academy/reso
 
 Elements 的核心是一个协议，它能够围绕交易历史和规则达成[共识](https://planb.academy/resources/glossary/consensus)，这些规则管理着存储在分布式区块链分类账中的资产的转移和创建。
 
-有关 Elements 的更多背景信息，请访问 Elements 项目网站 (https://elementsproject.org/)、Liquid 官方博客 (https://blog.liquid.net/) 和开发者门户网站(https://liquid.net/devs)。
+有关 Elements 的更多背景信息，请访问 Elements 项目网站 (https://elementsproject.org/)、Liquid 官方博客 (https://blog.liquid.net/) 和开发者门户网站(https://liquid.net/developers)。
 
 ### 要素
 

@@ -65,7 +65,7 @@ Sisestage käsitsi summa, mida soovite vahetada, ja kasutage [päevapiirangute l
 Pidage meeles, et **tehingute hinnad kõiguvad**, seega kontrollige alati lõplikku hinda enne kinnitamist.
 
 
-**Konto ei ole nõutav, kusjuures** igapäevased tehingud on piiratud 250 000 VND-ga (~ 8 USD). Täiendav teave on saadaval meie [pangaülekannete eeskirjad](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**Konto ei ole nõutav, kusjuures** igapäevased tehingud on piiratud 250 000 VND-ga (~ 8 USD). Täiendav teave on saadaval meie [pangaülekannete eeskirjad](https://support.bitcoinvn.io/help/en-us/4-orders-payments/17-vnd-bank-transfer).
 
 
 **Varuge**: Lightning Network valimisel on võrgutasu üldiselt odavam kui onchain-tehingute meetodil.

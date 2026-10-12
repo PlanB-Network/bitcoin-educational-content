@@ -8,7 +8,7 @@ description: Tee louhinnasta helppoa kotona.
 
 Mini Miner braiins BMM 100 on Braiins-louhintapoolin kehittämä tuote. Tämä laite on tyylikkäästi muotoiltu ja erittäin hiljainen. Se tuottaa 1,1 Th/s laskentatehoa ja kuluttaa noin 40 wattia. Toisin kuin monet muut laitteet, se ei ole avoimen lähdekoodin tuote, mutta sen asentaminen on todella helppoa – se onnistuu vain muutamalla klikkauksella! Mini Miner BMM 100 on ensimmäinen julkaistu versio. Nyt on tuotannossa versio 2, nimeltään BMM 101, joka eroaa ensimmäisestä suuremman näytön ja Wi-Fi-tuen ansiosta, mutta asennusmenettelyt pysyvät samoina.
 
-Lisätietoja löydät täydellisestä oppaasta suoraan [valmistajan sivuilta](https://braiins.com/hardware/mini-Miner-bmm-100).
+Lisätietoja löydät täydellisestä oppaasta suoraan [valmistajan sivuilta](https://braiins.com/hardware/mini-miner-bmm-100).
 
 ## Yleiskatsaus BMM 100:aan
 

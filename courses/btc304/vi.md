@@ -48,7 +48,7 @@ Sự tăng trưởng đáng kể này tất nhiên có liên quan chặt chẽ �
 
 
 
-- [sự quan tâm ngày càng tăng của mọi người trên khắp thế giới trong việc sử dụng Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), để giải phóng bản thân khỏi hệ thống ngân hàng và/hoặc sử dụng một loại tiền tệ ít biến động hoặc ít mất giá hơn, như trường hợp của người dân ở Lebanon, Syria, Ai Cập, Argentina và những nơi khác;
+- [sự quan tâm ngày càng tăng của mọi người trên khắp thế giới trong việc sử dụng Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), để giải phóng bản thân khỏi hệ thống ngân hàng và/hoặc sử dụng một loại tiền tệ ít biến động hoặc ít mất giá hơn, như trường hợp của người dân ở Lebanon, Syria, Ai Cập, Argentina và những nơi khác;
 - sự tăng giá theo thời gian, biến nó thành một kho lưu trữ giá trị và một khoản đầu tư dài hạn, được thúc đẩy bởi chính sách tiền tệ cố định của nó;
 - sự tăng trưởng liên tiếp của thị trường tiền điện tử đầu cơ, đặc biệt là trong giai đoạn 2017-2018 và 2020-2021;
 - Sự hiện diện ngày càng tăng của Bitcoin trên các phương tiện truyền thông chính thống.
@@ -701,7 +701,7 @@ Nếu bạn muốn thiết kế một logo mang phong cách tương lai cho bu�
 
 
 
-- [ ] *Yêu cầu: Tạo logo Bitcoin với Cầu Luân Đôn và Tháp Big Ben ở phía sau. Tương lai* - [Liên kết](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *Yêu cầu: Tạo logo Bitcoin với Cầu Luân Đôn và Tháp Big Ben ở phía sau. Tương lai*
 
 
 
@@ -714,7 +714,7 @@ Nếu bốn kết quả đầu tiên không đủ thực tế, hãy tinh chỉnh
 
 
 
-- [ ] *Yêu cầu: Làm cho hình ảnh thứ 4 thực tế hơn nhiều* - [Liên kết](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *Yêu cầu: Làm cho hình ảnh thứ 4 thực tế hơn nhiều*
 
 
 
@@ -732,7 +732,7 @@ Kết quả mới nhất thật tuyệt vời!
 
 
 
-- [ ] *Yêu cầu: Tạo logo cho "Cuộc gặp gỡ Bitcoin ở London" theo phong cách Anh và sạch sẽ* - [Liên kết](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Yêu cầu: Tạo logo cho "Cuộc gặp gỡ Bitcoin ở London" theo phong cách Anh và sạch sẽ*
 
 
 
@@ -1392,7 +1392,7 @@ Bao gồm:
 
 
 - [Btcmap.org](https://btcmap.org/)**, một trang web với hai bản đồ được cập nhật hàng ngày: **[bản đồ thế giới về các doanh nghiệp chấp nhận Bitcoin](https://btcmap.org/map)** và **[bản đồ cộng đồng thế giới](https://btcmap.org/communities/map)**. Nhiều người dùng Bitcoin thường xuyên kiểm tra các bản đồ này, dù họ đang đi du lịch hay đang trong cuộc sống thường ngày, để gặp gỡ những người mới hoặc tìm địa điểm để chi tiêu [Sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap là tài liệu tham khảo toàn cầu, và việc liệt kê cộng đồng của bạn trên đó là điều cần thiết để tăng khả năng hiển thị.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), một trang web do những người dùng bitcoin tạo ra, dành cho những người dùng bitcoin. **Trang web này cho phép bạn đăng các sự kiện sắp tới của cộng đồng**. Tuy nhiên, ở Pháp, trang web này vẫn chưa được sử dụng rộng rãi.
+- BitcoinerEvents, một trang web do những người dùng bitcoin tạo ra, dành cho những người dùng bitcoin. **Trang web này cho phép bạn đăng các sự kiện sắp tới của cộng đồng**. Tuy nhiên, ở Pháp, trang web này vẫn chưa được sử dụng rộng rãi. **Lưu ý (tháng 10 năm 2026):** trang web này hiện không còn truy cập được. [BitcoinOnly Events](https://bitcoinonly.events/) là một lịch sự kiện tương tự vẫn đang hoạt động.
 - Tùy thuộc vào quốc gia của bạn, có thể có những sáng kiến địa phương khác. Ví dụ, tại Pháp, có [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), **liệt kê hàng chục sự kiện Bitcoin mỗi tháng**. Vì vậy, nếu bạn chưa theo dõi họ trên Twitter hoặc liên hệ với họ để chia sẻ thông tin về cộng đồng và các sự kiện của mình, thì bây giờ chính là lúc! **Để giúp cập nhật lịch sự kiện của Pháp, sẽ rất tuyệt nếu tất cả các cộng đồng Bitcoin tại Pháp cùng nhau tạo thói quen:**
     - nhắc đến @bitcoinpointfr trên Twitter cho mọi sự kiện cộng đồng mới
     - ghim thông báo sự kiện mới vào nhóm Telegram của họ.
@@ -1412,7 +1412,7 @@ Tương tự như vậy, **[Orangepillapp](https://www.orangepillapp.com/)** là
 
 Mặc dù hai nền tảng cuối cùng này có thể giúp tăng khả năng hiển thị, nhưng chúng không được khuyến khích sử dụng khi ra mắt cộng đồng, đơn giản vì chúng không miễn phí.
 
-**Bắt đầu bằng việc niêm yết trên [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) và đối với cộng đồng người Pháp, trên [Bitcoin.fr](https://Bitcoin.fr) là quá đủ**.
+**Bắt đầu bằng việc niêm yết trên [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) và đối với cộng đồng người Pháp, trên [Bitcoin.fr](https://Bitcoin.fr) là quá đủ**.
 
 
 Xin chúc mừng! **Cộng đồng của bạn đã được tạo**, **hình ảnh đã sẵn sàng**, **mục tiêu đã được đặt ra**, **kênh truyền thông đã được thiết lập**, **mạng xã hội đã được ra mắt** và **chiến lược hiển thị đã được quyết định**.
@@ -1500,7 +1500,7 @@ Nếu bạn muốn chuẩn bị cho những khoảnh khắc yên tĩnh hơn, b�
 - mang theo **Nerdminer**, Bitaxe, FPGA hoặc thậm chí ASIC;
 - có một chiếc **Bitcoin flyer**;
 - đưa ra ý tưởng về hình ảnh hoặc logo Bitcoin cho cộng đồng của bạn;
-- đang chơi trò chơi bài **[Bitcoin](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- đang chơi trò chơi bài **[Bitcoin](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - hiển thị bản đồ **[btcmap.org](https://btcmap.org/)** của các cộng đồng và thương gia;
 - gửi hoặc nhận Bitcoin bằng **Lightning**.
 
@@ -1871,7 +1871,7 @@ Tùy thuộc vào khả năng sẵn có và mức độ tham gia vào cộng đ�
 
 - Đêm nhà hàng cho **Ngày Pizza** vào ngày 22 tháng 5
 - Một buổi tối hoặc cuối tuần để ăn mừng **Halving** tiếp theo
-- Đêm trò chơi gia đình **về Bitcoin và cách thức hoạt động của nó**, sử dụng các trò chơi như [Le Coin de Table](https://www.Maximalist.ovh/) hoặc [SHAmory](https://shamory.com/)
+- Đêm trò chơi gia đình **về Bitcoin và cách thức hoạt động của nó**, sử dụng các trò chơi như [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) hoặc [SHAmory](https://shamory.com/)
 - **Hội thảo Mining** giới thiệu các loại phần cứng khác nhau (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - **Buổi chiều hoặc buổi tối dành cho người mới bắt đầu**, với các hội thảo theo chủ đề
 - **Một cuộc gặp gỡ chung với các cộng đồng lân cận**
@@ -2006,7 +2006,7 @@ Bạn cũng có thể thiết kế tờ rơi dành riêng cho cộng đồng ho�
 Một số tờ rơi hiện đã có sẵn dưới dạng mã nguồn mở trong **[Hộp công cụ giảng dạy Bitcoin](https://planb.academy/fr/resources/bet)** trên planB.network và nhiều tờ rơi khác sẽ được bổ sung theo thời gian.
 
 
-Một ví dụ là một [tờ rơi có nguồn đầy đủ](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) với 21 lý do nên sử dụng Bitcoin. Thiết kế của nó cũng [có sẵn dưới dạng mã nguồn mở](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) để bạn chỉnh sửa, điều chỉnh và chia sẻ. Chỉ cần nhớ ghi rõ nguồn.
+Một ví dụ là một [tờ rơi có nguồn đầy đủ](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) với 21 lý do nên sử dụng Bitcoin. Thiết kế của nó cũng [có sẵn dưới dạng mã nguồn mở](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) để bạn chỉnh sửa, điều chỉnh và chia sẻ. Chỉ cần nhớ ghi rõ nguồn.
 
 
 
@@ -2050,7 +2050,7 @@ Mặc dù việc để lại sách trắng Bitcoin mang tính biểu tượng, n
 - sách trắng Bitcoin, được dịch sang tiếng Pháp.
 
 
-Đây là [cuốn sách nhỏ được chia sẻ giữa những người dùng bitcoin tại Pháp](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) đã được đặt trong hàng chục hộp sách trên khắp cả nước. Thiết kế của nó cũng [có sẵn dưới dạng mã nguồn mở](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Đây là [cuốn sách nhỏ được chia sẻ giữa những người dùng bitcoin tại Pháp](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) đã được đặt trong hàng chục hộp sách trên khắp cả nước. Thiết kế của nó cũng [có sẵn dưới dạng mã nguồn mở](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

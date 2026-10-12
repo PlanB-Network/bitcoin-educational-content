@@ -36,7 +36,7 @@ description: 用 SAFU 忍者方法拯救你的 seed
 
 
 
-- **可靠性**：自 2020 年以来，该方法已经过 [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/)等安全专家的测试，他们对该方法进行了严格的压力测试（极热、腐蚀、机械压力）。
+- **可靠性**：自 2020 年以来，该方法已经过 [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/)等安全专家的测试，他们对该方法进行了严格的压力测试（极热、腐蚀、机械压力）。
 
 
 
@@ -354,13 +354,13 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 关于忍者 SAFU 方法的 [报告](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/)
+- 关于忍者 SAFU 方法的 [报告](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/)
 
 
 
 
 
-- 比较表[完整](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- 比较表[完整](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 
@@ -429,4 +429,4 @@ https://x.com/econoalchemist/status/1329271981712289797
 https://www.waivio.com/@themarkymark/create-your-own-metal-seed-key-backup
 
 
-https://github.com/minibolt-guide/minibolt/blob/main/bonus/Bitcoin/safu-ninja.md
+https://github.com/minibolt-guide/minibolt/blob/2c4770443e7f01ed9c471d995ef5af254719b51e/bonus/bitcoin/safu-ninja.md

@@ -94,7 +94,7 @@ För att bygga din SeedSigner behöver du följande komponenter:
 
 - Bostäder (frivilligt men rekommenderas)** (frivilligt men rekommenderas)** (frivilligt men rekommenderas)** (frivilligt men rekommenderas)** (frivilligt men rekommenderas)**)
     - Skyddar enheten och gör den enkel att använda.
-    - Den mest populära modellen är "*Orange Pill Case*", för vilken [STL-filer med öppen källkod finns tillgängliga för 3D-utskrift](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - Den mest populära modellen är "*Orange Pill Case*", för vilken [STL-filer med öppen källkod finns tillgängliga för 3D-utskrift](https://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - Boxar finns också tillgängliga från [oberoende återförsäljare som är kopplade till projektet](https://seedsigner.com/hardware/).
 
 

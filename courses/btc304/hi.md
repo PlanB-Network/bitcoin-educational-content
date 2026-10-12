@@ -48,7 +48,7 @@ BTC 304 में आपका स्वागत है!
 
 
 
-- [दुनिया भर के लोगों की Bitcoin का उपयोग करने में बढ़ती रुचि](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), खुद को बैंकिंग प्रणाली से मुक्त करने और/या कम अस्थिर या कम अवमूल्यन वाली मुद्रा का उपयोग करने के लिए, जैसा कि लेबनान, सीरिया, मिस्र, अर्जेंटीना और अन्य देशों की आबादी के मामले में है;
+- [दुनिया भर के लोगों की Bitcoin का उपयोग करने में बढ़ती रुचि](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), खुद को बैंकिंग प्रणाली से मुक्त करने और/या कम अस्थिर या कम अवमूल्यन वाली मुद्रा का उपयोग करने के लिए, जैसा कि लेबनान, सीरिया, मिस्र, अर्जेंटीना और अन्य देशों की आबादी के मामले में है;
 - समय के साथ इसकी कीमत में वृद्धि, इसे मूल्य के भंडार और दीर्घकालिक निवेश के रूप में स्थापित करना, जो इसकी निश्चित मौद्रिक नीति द्वारा संचालित है;
 - सट्टा क्रिप्टोकरेंसी बाजार की क्रमिक वृद्धि, विशेष रूप से 2017-2018 और 2020-2021 के दौरान;
 - मुख्यधारा मीडिया में Bitcoin की बढ़ती उपस्थिति।
@@ -701,7 +701,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-- [ ] *प्रॉम्प्ट: लंदन ब्रिज और बिग बेन को पृष्ठभूमि में रखते हुए एक Bitcoin लोगो बनाएँ। भविष्यवादी* - [लिंक](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *प्रॉम्प्ट: लंदन ब्रिज और बिग बेन को पृष्ठभूमि में रखते हुए एक Bitcoin लोगो बनाएँ। भविष्यवादी*
 
 
 
@@ -714,7 +714,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-- [ ] *प्रॉम्प्ट: चौथे को और अधिक यथार्थवादी बनाएं* - [लिंक](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *प्रॉम्प्ट: चौथे को और अधिक यथार्थवादी बनाएं*
 
 
 
@@ -732,7 +732,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-- [ ] *प्रॉम्प्ट: ब्रिटिश और साफ़ शैली के साथ "लंदन Bitcoin मीटअप" का लोगो बनाएँ* - [लिंक](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *प्रॉम्प्ट: ब्रिटिश और साफ़ शैली के साथ "लंदन Bitcoin मीटअप" का लोगो बनाएँ*
 
 
 
@@ -1392,7 +1392,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 - [Btcmap.org](https://btcmap.org/)**, एक वेबसाइट जिसके दो मानचित्र प्रतिदिन अपडेट होते हैं: **[Bitcoin स्वीकार करने वाले व्यवसायों का विश्व मानचित्र](https://btcmap.org/map)** और **[विश्व समुदायों का मानचित्र](https://btcmap.org/communities/map)**। कई बिटकॉइन उपयोगकर्ता इन मानचित्रों को नियमित रूप से देखते हैं, चाहे वे यात्रा कर रहे हों या अपने दैनिक जीवन में, नए लोगों से मिलने या अपने [Sats](https://planb.academy/resources/glossary/satoshi-sat) खर्च करने के लिए जगहें खोजने के लिए। Btcmap एक वैश्विक संदर्भ है, और दृश्यता के लिए अपने समुदाय को वहाँ सूचीबद्ध करना आवश्यक है।**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), बिटकॉइनर्स द्वारा बिटकॉइनर्स के लिए बनाई गई एक वेबसाइट। **इस पर आप अपने समुदाय के आगामी कार्यक्रम पोस्ट कर सकते हैं**। हालाँकि, फ़्रांस में इसका अभी भी व्यापक रूप से उपयोग नहीं किया जाता है।
+- BitcoinerEvents, बिटकॉइनर्स द्वारा बिटकॉइनर्स के लिए बनाई गई एक वेबसाइट। **इस पर आप अपने समुदाय के आगामी कार्यक्रम पोस्ट कर सकते हैं**। हालाँकि, फ़्रांस में इसका अभी भी व्यापक रूप से उपयोग नहीं किया जाता है। **नोट (अक्टूबर 2026):** यह वेबसाइट अब उपलब्ध नहीं है। [BitcoinOnly Events](https://bitcoinonly.events/) एक समान कैलेंडर है जो अभी भी चालू है।
 - आपके देश के आधार पर, अन्य स्थानीय पहल भी हो सकती हैं। उदाहरण के लिए, फ्रांस में, [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/) है, जो **हर महीने दर्जनों Bitcoin कार्यक्रमों की सूची बनाता है**। इसलिए अगर आपने अभी तक उन्हें ट्विटर पर फ़ॉलो नहीं किया है या अपने समुदाय और कार्यक्रमों के बारे में जानकारी साझा करने के लिए उनसे संपर्क नहीं किया है, तो अभी समय है! **फ्रांसीसी कार्यक्रमों के कैलेंडर को अद्यतित रखने में मदद के लिए, यह बहुत अच्छा होगा यदि सभी फ्रांसीसी Bitcoin समुदाय ये आदत डाल लें:**
     - प्रत्येक नए सामुदायिक कार्यक्रम के लिए ट्विटर पर @bitcoinpointfr का उल्लेख करना
     - अपने टेलीग्राम समूह में नई घटनाओं की घोषणाओं को पिन करना।
@@ -1412,7 +1412,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 हालांकि ये अंतिम दो प्लेटफॉर्म दृश्यता बढ़ाने में मदद कर सकते हैं, लेकिन समुदाय शुरू करते समय इनकी अनुशंसा नहीं की जाती है, क्योंकि ये निःशुल्क नहीं हैं।
 
-**[btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) और फ्रेंच समुदायों के लिए, [Bitcoin.fr](https://Bitcoin.fr) पर लिस्टिंग के साथ शुरुआत करना पर्याप्त से अधिक है**।
+**[btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) और फ्रेंच समुदायों के लिए, [Bitcoin.fr](https://Bitcoin.fr) पर लिस्टिंग के साथ शुरुआत करना पर्याप्त से अधिक है**।
 
 
 बधाई हो! आपका समुदाय बन गया है, आपके विज़ुअल तैयार हैं, आपके उद्देश्य तय हो गए हैं, आपके संचार चैनल तैयार हो गए हैं, आपके सोशल नेटवर्क लॉन्च हो गए हैं और आपकी दृश्यता रणनीति तय हो गई है।
@@ -1500,7 +1500,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 - **नर्डमाइनर**, बिटैक्स, एफपीजीए या यहां तक ​​कि जीडब्ल्यू-110 लाना;
 - **Bitcoin फ़्लायर** होना;
 - अपने समुदाय के लिए Bitcoin दृश्य या लोगो पर विचार-मंथन करना;
-- **[Bitcoin कार्ड गेम](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)** खेलना;
+- **[Bitcoin कार्ड गेम](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)** खेलना;
 - समुदायों और व्यापारियों का **[btcmap.org](https://btcmap.org/)** मानचित्र दिखाना;
 - **लाइटनिंग** का उपयोग करके Bitcoin भेजना या प्राप्त करना।
 
@@ -1870,7 +1870,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 - 22 मई को **पिज़्ज़ा दिवस** के लिए एक रेस्तरां रात
 - अगले **Halving** का जश्न मनाने के लिए एक शाम या सप्ताहांत
-- Bitcoin और यह कैसे काम करता है, इस बारे में एक पारिवारिक **गेम नाइट**, [Le Coin de Table](https://www.Maximalist.ovh/) या [SHAmory](https://shamory.com/) जैसे खेलों का उपयोग करके
+- Bitcoin और यह कैसे काम करता है, इस बारे में एक पारिवारिक **गेम नाइट**, [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) या [SHAmory](https://shamory.com/) जैसे खेलों का उपयोग करके
 - एक **Mining कार्यशाला** जिसमें विभिन्न प्रकार के हार्डवेयर (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe) प्रस्तुत किए जाएंगे
 - शुरुआती लोगों के लिए दोपहर या शाम, थीम आधारित कार्यशालाओं के साथ
 - **पड़ोसी समुदायों के साथ एक संयुक्त बैठक**
@@ -2005,7 +2005,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 कई फ़्लायर्स पहले से ही planB.network पर **[Bitcoin शिक्षण टूलबॉक्स](https://planb.academy/fr/resources/bet)** में ओपन-सोर्स के रूप में उपलब्ध हैं और समय के साथ और भी जोड़े जाएंगे।
 
 
-एक उदाहरण एक [पूर्ण स्रोत वाला फ़्लायर](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) है जिसमें Bitcoin का उपयोग करने के 21 कारण दिए गए हैं। इसका डिज़ाइन [ओपन-सोर्स](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) में भी उपलब्ध है, जिसे आप संशोधित, अनुकूलित और साझा कर सकते हैं। बस अपने स्रोतों का श्रेय देना न भूलें।
+एक उदाहरण एक [पूर्ण स्रोत वाला फ़्लायर](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) है जिसमें Bitcoin का उपयोग करने के 21 कारण दिए गए हैं। इसका डिज़ाइन [ओपन-सोर्स](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) में भी उपलब्ध है, जिसे आप संशोधित, अनुकूलित और साझा कर सकते हैं। बस अपने स्रोतों का श्रेय देना न भूलें।
 
 
 
@@ -2049,7 +2049,7 @@ Bitcoin श्वेत पत्र को छोड़ना प्रती�
 - Bitcoin श्वेत पत्र, फ्रेंच में अनुवादित।
 
 
-यहाँ [फ्रांसीसी बिटकॉइनर्स के बीच साझा की गई पुस्तिका](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) है, जिसे देश भर के दर्जनों बुकबॉक्स में रखा गया है। इसका डिज़ाइन [ओपन-सोर्स](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) के रूप में भी उपलब्ध है।
+यहाँ [फ्रांसीसी बिटकॉइनर्स के बीच साझा की गई पुस्तिका](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) है, जिसे देश भर के दर्जनों बुकबॉक्स में रखा गया है। इसका डिज़ाइन [ओपन-सोर्स](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) के रूप में भी उपलब्ध है।
 
 
 
@@ -2514,7 +2514,7 @@ Bitcoin लिले एसोसिएशन द्वारा उपयोग
 यह रणनीति कुछ क्षेत्रों में दूसरों की तुलना में बेहतर काम कर सकती है, लेकिन इसे आज़माना ज़रूरी है। आप क्षेत्रीय समाचार माध्यमों से संपर्क करके शुरुआत कर सकते हैं, फ्रांस में इसके कुछ उदाहरण हैं:
 
 
-- [acpm.fr](https://www.acpm.fr/Les-chiffres/Difuse-Presse/Presse-Paynte/Presse-Quotidienne-Regionale);
+- [acpm.fr](https://www.acpm.fr/Les-chiffres/Diffusion-Presse/Presse-Payante/Presse-Quotidienne-Regionale);
 - [voxpublic.org](https://www.voxpublic.org/spip.php?page=annuaire&cat=medias&type_media=Presse%20quotidienne%20r%C3%A9gionale)।
 
 और स्थानीय रेडियो स्टेशनों से संपर्क करके साक्षात्कार या पॉडकास्ट में उपस्थिति का सुझाव दे सकते हैं।

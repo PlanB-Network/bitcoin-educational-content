@@ -293,7 +293,6 @@ Gebruik een openbare bladwijzer zoals :
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -650,7 +649,7 @@ Tegen een achtergrond van toenemende financiële controle worden gedecentralisee
 
 
 
-- [Officiële website van Joinstr](https://joinstr.xyz)
+- [Officiële website van Joinstr](https://docs.joinstr.xyz/)
 - [Gebruikersdocumentatie](https://docs.joinstr.xyz/users/using-joinstr)
 - [Technische documentatie](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab broncode](https://gitlab.com/invincible-privacy/joinstr)
@@ -682,6 +681,5 @@ Tegen een achtergrond van toenemende financiële controle worden gedecentralisee
 
 
 
-- [Bladwijzer Faucet](https://signetfaucet.com) - Gratis test Bitcoins
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet alternatief
 - [Mempool.space](https://mempool.space) - Block explorer met privacy analyse

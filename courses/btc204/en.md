@@ -1909,7 +1909,7 @@ One of JoinMarket's main drawbacks is its complexity of use, which requires a ce
 
 ![BTC204](assets/en/137.webp)
 
-Source: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Source: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 However, the technical barrier remains a major obstacle. In the coinjoin ecosystem, where confidentiality is reinforced by the number of participants, any limitation reducing accessibility directly affects the available liquidity, which is a crucial factor in the efficiency of the mix. Bitcoin, already a niche in financial transactions, sees its use of coinjoins as a sub-niche, and JoinMarket represents an even more specialized fraction of it, which therefore restricts its potential to increase the number of users' anonsets.
 

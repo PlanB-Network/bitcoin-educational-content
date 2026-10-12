@@ -52,7 +52,7 @@ Maze kuyigerageza, ndatangazwa n’uko ico kintu ari ciza. Ubumenyi bw’uwukore
 ## Ni gute wogura Flex ya Ledger?
 
 
-Igikoresho ca Ledger Flex kiraboneka ku kiguzi [ku rubuga rwemewe](https://iduka.Ledger.com/amapaji/Ledger-flex). Kugira ngo uyigure mu iduka ry’umubiri, urashobora kandi kubona [urutonde rw’abagurisha bemerewe](https://www.Ledger.com/reseller) ku rubuga rwa Ledger.
+Igikoresho ca Ledger Flex kiraboneka ku kiguzi [ku rubuga rwemewe](https://shop.ledger.com/pages/ledger-flex). Kugira ngo uyigure mu iduka ry’umubiri, urashobora kandi kubona [urutonde rw’abagurisha bemerewe](https://www.Ledger.com/reseller) ku rubuga rwa Ledger.
 
 
 ## Ibisabwa
@@ -82,7 +82,7 @@ Uhejeje gufungura, ukwiye kubona ibi bikurikira mu gasandugu:
 ![LEDGER FLEX](assets/notext/05.webp)
 
 
-Kuri iyi nyigisho, uzokenera ibice 2 vya porogaramu: Ledger Live kugira ngo utangure Ledger Flex, na Sparrow wallet kugira ngo ukoreshe Bitcoin Wallet yawe. Gukuraho [Ledger Live](Https://Ledger-live) na [Sparrow wallet](Sparrowwallet.com/gukuraho/) ku mbuga zabo zizwi.
+Kuri iyi nyigisho, uzokenera ibice 2 vya porogaramu: Ledger Live kugira ngo utangure Ledger Flex, na Sparrow wallet kugira ngo ukoreshe Bitcoin Wallet yawe. Gukuraho [Ledger Live](https://www.ledger.com/ledger-live) na [Sparrow wallet](https://sparrowwallet.com/download/) ku mbuga zabo zizwi.
 
 
 ![LEDGER FLEX](assets/notext/06.webp)

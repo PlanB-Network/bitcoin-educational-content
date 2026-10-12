@@ -496,7 +496,7 @@ torsocks wget http://zkaan2xfbuxia2wpf7ofnkbz6r5zdbbvxbunvp5g2iebopbfc4iqmbad.on
 
 
 
-Kugarura ububiko bushizwemwo kode y'inkomoko ya Dojo. Muri aka karorero, verisiyo nshasha ni `1.27.0`: hindura itegeko hakurikijwe [verisiyo nshasha hano ku bubiko bwa GitHub](https://github.com/Dojo-Umugambi-Ufunguye-Isoko-Samourai-dojo/ibisohoka).
+Kugarura ububiko bushizwemwo kode y'inkomoko ya Dojo. Muri aka karorero, verisiyo nshasha ni `1.27.0`: hindura itegeko hakurikijwe [verisiyo nshasha hano ku bubiko bwa GitHub](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases).
 
 
 
@@ -1386,7 +1386,7 @@ Ubu rero warahuye na Dojo yawe.
 
 
 
-Dojo ihita ishiramwo Block explorer, [BTC-RPC Explorer](BTC-RPC-explorer), ikoresha amakuru ava ku nzira yawe bwite ya Bitcoin. Igikoresho co gutohoza kigufasha kuronka amakuru atagiramwo ivyatsi ava kuri Blockchain na Mempool yawe biciye ku rubuga rwa Interface rworoshe gutahura. Ushobora rero, nk’akarorero, kumenya uko igikorwa kiriko kirategerezwa, kuraba umubare w’amahera y’i Address canke gusuzuma igihimba c’ibarabara bitagoranye.
+Dojo ihita ishiramwo Block explorer, [BTC-RPC Explorer](https://github.com/janoside/btc-RPC-explorer), ikoresha amakuru ava ku nzira yawe bwite ya Bitcoin. Igikoresho co gutohoza kigufasha kuronka amakuru atagiramwo ivyatsi ava kuri Blockchain na Mempool yawe biciye ku rubuga rwa Interface rworoshe gutahura. Ushobora rero, nk’akarorero, kumenya uko igikorwa kiriko kirategerezwa, kuraba umubare w’amahera y’i Address canke gusuzuma igihimba c’ibarabara bitagoranye.
 
 
 
@@ -1501,7 +1501,7 @@ cd ~/dojo-app/docker/my-dojo
 
 
 
-Dojo iratera imbere ubudasiba kandi n’ibindi bishasha birasohoka kugira ngo ikosore ibibazo, itere imbere mu gushikama no kwongerako ibintu. Ni ngombwa rero [guhora usuzuma ko hariho ivyahinduwe](https://github.com/Umugambi-w’Isoko-Yuguruye wa Dojo/samourai-dojo/ibisohoka) no guhindura Dojo yawe. Ivyo bikorwa bisa n’ivyo mu ntango, ariko bisaba ko usubiriza amadosiye amwamwe n’iyindi nshasha iriho, mu gihe uguma ufise imiterere yawe. Dore intambwe zitomoye zo gukurikira kugira ngo ubone ivyagezwe bisukuye kandi bitekanye:
+Dojo iratera imbere ubudasiba kandi n’ibindi bishasha birasohoka kugira ngo ikosore ibibazo, itere imbere mu gushikama no kwongerako ibintu. Ni ngombwa rero [guhora usuzuma ko hariho ivyahinduwe](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases) no guhindura Dojo yawe. Ivyo bikorwa bisa n’ivyo mu ntango, ariko bisaba ko usubiriza amadosiye amwamwe n’iyindi nshasha iriho, mu gihe uguma ufise imiterere yawe. Dore intambwe zitomoye zo gukurikira kugira ngo ubone ivyagezwe bisukuye kandi bitekanye:
 
 
 
@@ -1567,7 +1567,7 @@ cd ~/
 
 
 
-Gukuraho verisiyo nshasha ya Dojo kuri GitHub biciye kuri Tor. Muri aka karorero, ni verisiyo `1.28.0` (itarabaho mu gihe c'ukwandika: iki ni ugutanga akarorero gusa). Ibuka gusubirira dosiye n'ihuriro [na verisiyo wipfuza gushiramwo](https://github.com/Umugambi-Wuguruye-Isoko-ya-Dojo/samourai-dojo/ibisohoka):
+Gukuraho verisiyo nshasha ya Dojo kuri GitHub biciye kuri Tor. Muri aka karorero, ni verisiyo `1.28.0` (itarabaho mu gihe c'ukwandika: iki ni ugutanga akarorero gusa). Ibuka gusubirira dosiye n'ihuriro [na verisiyo wipfuza gushiramwo](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases):
 
 
 

@@ -286,7 +286,7 @@ Cette analyse reflète une compréhension erronée de la plus-value et du caract
 
 ### La révolution industrielle en question
 
-En fait, l’analyse marxiste déforme la réalité historique de la révolution industrielle. Ludwig von Mises a clarifié cette question dans son traité d’économie [_L’Action humaine_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (voir en particulier le chapitre intitulé "[Interprétation populaire de la révolution industrielle](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2))", ainsi que dans une série de conférences publiées sous le titre : [_Politique économique. Réflexions pour aujourd'hui et pour demain_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (À lire également, *La mentalité anticapitaliste* [ici](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) et [ici](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+En fait, l’analyse marxiste déforme la réalité historique de la révolution industrielle. Ludwig von Mises a clarifié cette question dans son traité d’économie [_L’Action humaine_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (voir en particulier le chapitre intitulé "[Interprétation populaire de la révolution industrielle](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2))", ainsi que dans une série de conférences publiées sous le titre : [_Politique économique. Réflexions pour aujourd'hui et pour demain_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (À lire également, *La mentalité anticapitaliste* [ici](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) et [ici](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![image](assets/fr/014.webp)
 

@@ -293,7 +293,6 @@ Kasutage avalikku järjehoidjat nagu :
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -650,7 +649,7 @@ Kasvava finantskontrolli taustal on detsentraliseeritud vahendid eraelu puutumat
 
 
 
-- [Joinstr ametlikul kodulehel](https://joinstr.xyz)
+- [Joinstr ametlikul kodulehel](https://docs.joinstr.xyz/)
 - [Kasutaja dokumentatsioon](https://docs.joinstr.xyz/users/using-joinstr)
 - [Tehniline dokumentatsioon](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLabi lähtekood](https://gitlab.com/invincible-privacy/joinstr)
@@ -682,6 +681,5 @@ Kasvava finantskontrolli taustal on detsentraliseeritud vahendid eraelu puutumat
 
 
 
-- [järjehoidja Faucet](https://signetfaucet.com) - Tasuta test Bitcoins
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet alternatiivne versioon
 - [Mempool.space](https://mempool.space) - Block explorer koos eraelu puutumatuse analüüsiga

@@ -474,7 +474,7 @@ Antminer S9 原有的風扇聲音太大，無法用作加熱器。解決方案�
 現在，我們將研究 ASIC Braiins OS+ 的軟體 (https://braiins.com/os/plus)。該軟體是由 [Braiins] 公司(https://braiins.com/) 所開發，該公司是 Mining pool Braiins Pool (https://braiins.com/pool) 的母公司。在撰寫這些行文時，這個 Mining pool 目前擁有全球 Hashrate 的 4.39%。這家位於布拉格的公司前身為 Slushpool，是 2010 年 11 月開始營運的第一家 Mining pool。[在此](https://Mempool.space/Mining/pool/braiinspool) 您可以找到最新的 Hashrate 和 pool dominance 統計資料。
 
 
-如今，該公司透過各種活動，提供 Mining 的獲利能力研究工具 (https://insights.braiins.com/en)、與其池活動並行的 Mining 場管理解決方案，以及適用於 ASIC 的優化軟體。該公司還提供使用新 Stratum V2 協定的 Mining（https://braiins.com/Bitcoin-Mining-stack-upgrade）。
+如今，該公司透過各種活動，提供 Mining 的獲利能力研究工具 (https://insights.braiins.com/en)、與其池活動並行的 Mining 場管理解決方案，以及適用於 ASIC 的優化軟體。該公司還提供使用新 Stratum V2 協定的 Mining（https://braiins.com/bitcoin-mining-stack-upgrade）。
 
 
 因此，我們將更詳細地研究 Bitmain 裝置的運作，這是目前唯一相容的機型：

@@ -5,7 +5,7 @@ description: Minimalistinen Bitcoin Wallet kaikille
 
 ![cover](assets/cover.webp)
 
-
+> **Varoitus (lokakuu 2026):** StashPay on lopetettu. Sen tekijä ilmoitti lopettamisesta 26. heinäkuuta 2026, ja sovellus suljettiin 31. elokuuta 2026; verkkosivusto on poissa käytöstä ([lue ilmoitus](https://blog.onionmill.com/p/sunsetting-stashpay)). Saat Liquid-lompakkosi takaisin tuomalla palautuslauseesi Blockstream Appiin. Säilytämme tämän sivun viitteeksi.
 
 Käyttäjäkokemus on keskeinen tekijä Bitcoin-ratkaisujen käyttöönotossa kaikkialla maailmassa. Sujuvan, yksinkertaisen ja teknisesti vaivattoman käyttökokemuksen tarjoaminen on monien lompakoiden ja Exchange-alustojen ensisijainen tavoite. Tässä suhteessa StashPay erottuu edukseen minimalistisen lähestymistapansa ansiosta ja osoittaa samalla Lightning Network:n voiman.
 
@@ -23,7 +23,7 @@ StashPay on Lightning-omahuoltaja Wallet, joka tunnetaan ensisijaisesti minimali
 
 
 
-StashPay on avoimen lähdekoodin hanke, joka on kehitetty React Native -ohjelmalla, ja sen tavoitteena on ratkaista ongelma korkeista transaktiomaksuista jopa Bitcoin-protokollan pääketjussa tapahtuvissa transaktioissa. Se on saatavilla mobiilisovelluksena Android- ja iOS-alustoille [verkkosivustolla](https://stashpay.me/) olevien latauslinkkien kautta.
+StashPay on avoimen lähdekoodin hanke, joka on kehitetty React Native -ohjelmalla, ja sen tavoitteena on ratkaista ongelma korkeista transaktiomaksuista jopa Bitcoin-protokollan pääketjussa tapahtuvissa transaktioissa. Se on saatavilla mobiilisovelluksena Android- ja iOS-alustoille verkkosivustolla olevien latauslinkkien kautta.
 
 
 

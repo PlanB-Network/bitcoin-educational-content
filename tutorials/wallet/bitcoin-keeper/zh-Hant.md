@@ -406,7 +406,7 @@ Bitcoin Keeper 是管理比特幣的可擴充解決方案。其漸進式方法�
 
 
 - 官方網站：[bitcoinkeeper.app](https://bitcoinkeeper.app)
-- 幫助中心：[help.bitcoinkeeper.app](https://help.bitcoinkeeper.app)
+- 幫助中心：[bitcoinkeeper.app/ask-keeper](https://www.bitcoinkeeper.app/ask-keeper)
 - 原始碼：[github.com/bithyve/bitcoin-keeper](https://github.com/bithyve/bitcoin-keeper)
 - Telegram : [t.me/BitcoinKeeper](https://t.me/BitcoinKeeper)
 - Twitter/X: [@bitcoinkeeper_](https://x.com/bitcoinkeeper_)

@@ -32,7 +32,7 @@ Zwischen dem 1. Januar 2018 und dem 1. Januar 2024 wird die Zahl der Transaktion
 
 Dieses beträchtliche Wachstum steht natürlich in engem Zusammenhang mit:
 
-- das [wachsende Interesse der Menschen auf der ganzen Welt an der Verwendung von Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), um sich vom Bankensystem zu befreien und/oder eine weniger volatile oder weniger abgewertete Währung zu verwenden, wie es bei der Bevölkerung im Libanon, in Syrien, Ägypten, Argentinien und anderen der Fall ist;
+- das [wachsende Interesse der Menschen auf der ganzen Welt an der Verwendung von Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), um sich vom Bankensystem zu befreien und/oder eine weniger volatile oder weniger abgewertete Währung zu verwenden, wie es bei der Bevölkerung im Libanon, in Syrien, Ägypten, Argentinien und anderen der Fall ist;
 - sein Kursanstieg im Laufe der Zeit, wodurch er sich als Wertaufbewahrungsmittel und langfristige Anlage etabliert, was durch seine feste Geldpolitik gefördert wird;
 - das sukzessive Wachstum des spekulativen Kryptowährungsmarktes, insbesondere in den Jahren 2017-2018 und 2020-2021;
 - Die wachsende Präsenz von Bitcoin in den Mainstream-Medien.
@@ -772,7 +772,7 @@ Aber du kannst nicht vorankommen, ohne zu wissen, dass **es Plattformen gibt, au
 Dazu gehören:
 
 - [Btcmap.org](https://btcmap.org/), eine Website mit zwei täglich aktualisierten Karten: **[die Weltkarte der Unternehmen, die Bitcoin akzeptieren](https://btcmap.org/map)** und **[die Weltkarte der Gemeinden](https://btcmap.org/communities/map)**. Viele Bitcoiner überprüfen diese Karten regelmäßig, egal ob sie auf Reisen sind oder ihrem täglichen Leben nachgehen, um neue Leute kennenzulernen oder Orte zu finden, an denen sie ihre [Sats](https://planb.academy/resources/glossary/satoshi-sat) ausgeben können. Btcmap ist die globale Referenz, und die Auflistung Ihrer Gemeinschaft dort ist für die Sichtbarkeit unerlässlich.
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), eine Website, die von Bitcoinern für Bitcoiner erstellt wurde. **Sie ermöglicht es dir, die anstehenden Veranstaltungen deiner Gemeinschaft zu veröffentlichen**. In Frankreich ist sie jedoch noch nicht weit verbreitet.
+- BitcoinerEvents, eine Website, die von Bitcoinern für Bitcoiner erstellt wurde. **Sie ermöglicht es dir, die anstehenden Veranstaltungen deiner Gemeinschaft zu veröffentlichen**. In Frankreich ist sie jedoch noch nicht weit verbreitet. **Hinweis (Oktober 2026):** Diese Website ist offline. [BitcoinOnly Events](https://bitcoinonly.events/) ist ein vergleichbarer Kalender, der weiterhin in Betrieb ist.
 - Je nach Land gibt es vielleicht andere lokale Initiativen. In Frankreich gibt es zum Beispiel [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), die **jeden Monat Dutzende von Bitcoin-Veranstaltungen auflistet**. Wenn du ihnen also noch nicht auf Twitter gefolgt bist oder sich mit ihnen in Verbindung gesetzt hast, um Informationen über Ihre Gemeinde und Veranstaltungen auszutauschen, dann ist jetzt der richtige Zeitpunkt dafür! **Um den französischen Veranstaltungskalender auf dem neuesten Stand zu halten, wäre es toll, wenn alle französischen Bitcoin-Gemeinschaften sich angewöhnen würden:**
     - erwähnung von @bitcoinpointfr auf Twitter für jedes neue Community-Event
     - neue Veranstaltungsankündigungen in ihrer Telegram-Gruppe anpinnen.
@@ -784,7 +784,7 @@ Auch andere Plattformen können deine Sichtbarkeit erhöhen. **[Meetup](https://
 In ähnlicher Weise ist [Orangepillapp](https://www.orangepillapp.com/) eine kostenpflichtige mobile App (50.000 Sats/Jahr oder 200.000 Sats für lebenslangen Zugang), die Bitcoinern hilft, sich zu treffen.
 
 Die beiden letztgenannten Plattformen können zwar die Sichtbarkeit erhöhen, werden aber für den Start einer Community nicht empfohlen, weil sie nicht kostenlos sind.
-**Eine Auflistung auf [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) und für französische Gemeinschaften auf [Bitcoin.fr](https://Bitcoin.fr) ist mehr als genug**.
+**Eine Auflistung auf [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) und für französische Gemeinschaften auf [Bitcoin.fr](https://Bitcoin.fr) ist mehr als genug**.
 
 
 Herzlichen Glückwunsch! Deine **Community ist gegründet**, deine **Visuals sind fertig**, deine **Ziele sind festgelegt**, deine **Kommunikationskanäle sind eingerichtet**, deine **sozialen Netzwerke sind gestartet** und deine **Sichtbarkeitsstrategie ist beschlossen**.
@@ -836,7 +836,7 @@ Wenn du dich auf ruhigere Momente vorbereiten möchtest, kannst du einige Aktivi
 - einen Nerdminer, Bitaxe, FPGA oder sogar ASIC mitbringen;
 - mit einem **Bitcoin-Flyer**;
 - brainstorming für ein Bitcoin-Bild oder -Logo für deine Gemeinde;
-- ein [Bitcoin Kartenspiel](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html) spielen;
+- ein [Bitcoin Kartenspiel](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) spielen;
 - Die [btcmap.org](https://btcmap.org/) Karte von Gemeinden und Händlern zeigen;
 - senden oder Empfangen von Bitcoin unter Verwendung von **Lightning**.
 
@@ -1161,7 +1161,7 @@ Du könntest auch einen Flyer speziell für deine Gemeinschaft oder dein Treff e
 
 Mehrere Flugblätter sind bereits **als Open-Source in der [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** auf planB.network verfügbar und weitere werden im Laufe der Zeit hinzugefügt.
 
-Ein Beispiel ist ein [vollständiges Flugblatt](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) mit 21 Gründen für die Verwendung von Bitcoin. Das Design ist auch [als Open-Source-Datei](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) verfügbar, damit du es ändern, anpassen und weitergeben kannst. Denke einfach daran, deine Quellen anzugeben.
+Ein Beispiel ist ein [vollständiges Flugblatt](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) mit 21 Gründen für die Verwendung von Bitcoin. Das Design ist auch [als Open-Source-Datei](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) verfügbar, damit du es ändern, anpassen und weitergeben kannst. Denke einfach daran, deine Quellen anzugeben.
 
 ![image](assets/de/041.webp)
 

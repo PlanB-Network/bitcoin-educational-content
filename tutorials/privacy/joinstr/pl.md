@@ -293,7 +293,6 @@ Użyj publicznej zakładki, takiej jak :
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -650,7 +649,7 @@ W kontekście rosnącej kontroli finansowej, zdecentralizowane narzędzia do och
 
 
 
-- [Oficjalna strona Joinstr](https://joinstr.xyz)
+- [Oficjalna strona Joinstr](https://docs.joinstr.xyz/)
 - [Dokumentacja użytkownika](https://docs.joinstr.xyz/users/using-joinstr)
 - [Dokumentacja techniczna](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [kod źródłowy GitLab](https://gitlab.com/invincible-privacy/joinstr)
@@ -682,6 +681,5 @@ W kontekście rosnącej kontroli finansowej, zdecentralizowane narzędzia do och
 
 
 
-- [Zakładka Faucet](https://signetfaucet.com) - Darmowe Bitcoiny testowe
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - alternatywa dla Faucet
 - [Mempool.space](https://mempool.space) - Block explorer z analizą prywatności

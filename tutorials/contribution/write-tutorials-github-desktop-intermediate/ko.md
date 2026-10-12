@@ -253,7 +253,7 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 이제 스크립트에서 이미 이러한 작업을 완료했으므로 '내 Python 스크립트 없이'라는 하위 섹션과 3단계인 'YAML 파일 채우기'를 건너뛸 수 있습니다. 4단계로 바로 진행하여 튜토리얼 작성을 시작하세요.
 
 
-이 Python 스크립트에 대한 자세한 내용은 [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)에서도 확인할 수 있습니다.
+이 Python 스크립트에 대한 자세한 내용은 [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md)에서도 확인할 수 있습니다.
 
 
 ### 파이썬 스크립트 없이

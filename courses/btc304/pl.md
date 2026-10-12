@@ -48,7 +48,7 @@ Ten znaczący wzrost jest oczywiście ściśle powiązany z:
 
 
 
-- [rosnące zainteresowanie ludzi na całym świecie korzystaniem z Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), aby uwolnić się od systemu bankowego i/lub korzystać z mniej niestabilnej lub mniej zdewaluowanej waluty, jak ma to miejsce w przypadku ludności w Libanie, Syrii, Egipcie, Argentynie i innych krajach;
+- [rosnące zainteresowanie ludzi na całym świecie korzystaniem z Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), aby uwolnić się od systemu bankowego i/lub korzystać z mniej niestabilnej lub mniej zdewaluowanej waluty, jak ma to miejsce w przypadku ludności w Libanie, Syrii, Egipcie, Argentynie i innych krajach;
 - jego aprecjacji cenowej w czasie, ustanawiając go jako magazyn wartości i długoterminową inwestycję, napędzaną przez stałą politykę pieniężną;
 - sukcesywny wzrost rynku kryptowalut spekulacyjnych, szczególnie w latach 2017-2018 i 2020-2021;
 - Rosnąca obecność Bitcoin w mediach głównego nurtu.
@@ -701,7 +701,7 @@ Jeśli chcesz zaprojektować futurystyczne logo na spotkanie "Bitcoin London", m
 
 
 
-- [ ] *Prompt: Stwórz logo Bitcoin z London Bridge i Big Benem w tle. Futurystyczny* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *Prompt: Stwórz logo Bitcoin z London Bridge i Big Benem w tle. Futurystyczny*
 
 
 
@@ -714,7 +714,7 @@ Jeśli pierwsze cztery wyniki nie są wystarczająco realistyczne, doprecyzuj sw
 
 
 
-- [ ] *Prompt: Uczyń 4. znacznie bardziej realistycznym* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *Prompt: Uczyń 4. znacznie bardziej realistycznym*
 
 
 
@@ -732,7 +732,7 @@ Dla czystszego wyglądu, jak w przypadku naklejki:
 
 
 
-- [ ] *Prompt: Stwórz logo "London Bitcoin Meetup" w brytyjskim i czystym stylu* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Prompt: Stwórz logo "London Bitcoin Meetup" w brytyjskim i czystym stylu*
 
 
 
@@ -1392,7 +1392,7 @@ Obejmują one:
 
 
 - [Btcmap.org](https://btcmap.org/)**, strona internetowa z dwiema codziennie aktualizowanymi mapami: **[światowa mapa firm akceptujących Bitcoin](https://btcmap.org/map)** i **[światowa mapa społeczności](https://btcmap.org/communities/map)**. Wielu bitcoinerów regularnie sprawdza te mapy, niezależnie od tego, czy podróżują, czy prowadzą codzienne życie, aby poznać nowych ludzi lub znaleźć miejsca, w których mogą wydać swoje [Sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap jest globalnym punktem odniesienia, a umieszczenie tam swojej społeczności jest niezbędne dla widoczności**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), strona stworzona przez bitcoinerów, dla bitcoinerów. **Umożliwia ona publikowanie nadchodzących wydarzeń społeczności**. Jednak we Francji nadal nie jest ona powszechnie używana.
+- BitcoinerEvents, strona stworzona przez bitcoinerów, dla bitcoinerów. **Umożliwia ona publikowanie nadchodzących wydarzeń społeczności**. Jednak we Francji nadal nie jest ona powszechnie używana. **Uwaga (październik 2026):** ta strona jest niedostępna. [BitcoinOnly Events](https://bitcoinonly.events/) to podobny kalendarz, który nadal działa.
 - w zależności od kraju, mogą istnieć inne lokalne inicjatywy. We Francji, na przykład, istnieje strona [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), która co miesiąc **liczy dziesiątki wydarzeń Bitcoin**. Więc jeśli jeszcze nie śledziłeś ich na Twitterze lub nie skontaktowałeś się z nimi, aby podzielić się informacjami o swojej społeczności i wydarzeniach, teraz jest na to czas! **Aby pomóc w aktualizowaniu francuskiego kalendarza wydarzeń, byłoby wspaniale, gdyby wszystkie francuskie społeczności Bitcoin nabrały nawyku:**
     - wspominanie @bitcoinpointfr na Twitterze o każdym nowym wydarzeniu społecznościowym
     - przypinanie nowych ogłoszeń o wydarzeniach w swojej grupie Telegram.
@@ -1412,7 +1412,7 @@ Podobnie, **[Orangepillapp](https://www.orangepillapp.com/)** jest płatną apli
 
 Chociaż te dwie ostatnie platformy mogą pomóc zwiększyć widoczność, nie są zalecane przy uruchamianiu społeczności, po prostu dlatego, że nie są bezpłatne.
 
-**Zaczynając od wpisu na [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) i dla społeczności francuskich, na [Bitcoin.fr](https://Bitcoin.fr) jest więcej niż wystarczające**.
+**Zaczynając od wpisu na [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) i dla społeczności francuskich, na [Bitcoin.fr](https://Bitcoin.fr) jest więcej niż wystarczające**.
 
 
 Gratulacje! Twoja **społeczność jest stworzona**, **wizualizacje są gotowe**, **cele są ustalone**, **kanały komunikacji są na miejscu**, **sieci społecznościowe są uruchomione**, a **strategia widoczności jest ustalona**.
@@ -1500,7 +1500,7 @@ Jeśli chcesz przygotować się na spokojniejsze chwile, możesz zaplanować kil
 - przynosząc **Nerdminer**, Bitaxe, FPGA lub nawet ASIC;
 - posiadanie **ulotki Bitcoin**;
 - burza mózgów na temat wizualizacji Bitcoin lub logo dla Twojej społeczności;
-- grając w **[Bitcoin gra karciana](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- grając w **[Bitcoin gra karciana](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - pokazujący **[btcmap.org](https://btcmap.org/)** mapę społeczności i handlowców;
 - wysyłanie lub odbieranie Bitcoin przy użyciu **Lightning**.
 
@@ -1871,7 +1871,7 @@ W zależności od Twojej dostępności i poziomu zaangażowania w Twojej społec
 
 - Noc w restauracji z okazji **Dnia Pizzy** 22 maja
 - Wieczór lub weekend na świętowanie kolejnego **Halving**
-- Rodzinny **wieczór gier** o Bitcoin i jego działaniu, z wykorzystaniem gier takich jak [Le Coin de Table](https://www.Maximalist.ovh/) lub [SHAmory](https://shamory.com/)
+- Rodzinny **wieczór gier** o Bitcoin i jego działaniu, z wykorzystaniem gier takich jak [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) lub [SHAmory](https://shamory.com/)
 - Warsztaty **Mining** prezentujące różne rodzaje sprzętu (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - **Popołudnie lub wieczór dla początkujących** z warsztatami tematycznymi
 - **Wspólne spotkanie z sąsiednimi społecznościami**
@@ -2006,7 +2006,7 @@ Możesz także zaprojektować ulotkę specyficzną dla Twojej społeczności lub
 Kilka ulotek jest już **dostępnych jako open-source w [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** na planB.network, a kolejne będą dodawane z czasem.
 
 
-Jednym z przykładów jest [kompletna ulotka](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) zawierająca 21 powodów, dla których warto używać Bitcoin. Jej projekt jest również [dostępny w otwartym kodzie źródłowym](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), który można modyfikować, dostosowywać i udostępniać. Pamiętaj tylko o podaniu źródła.
+Jednym z przykładów jest [kompletna ulotka](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) zawierająca 21 powodów, dla których warto używać Bitcoin. Jej projekt jest również [dostępny w otwartym kodzie źródłowym](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), który można modyfikować, dostosowywać i udostępniać. Pamiętaj tylko o podaniu źródła.
 
 
 
@@ -2050,7 +2050,7 @@ Podczas gdy pozostawienie białej księgi Bitcoin jest symboliczne, jest ona cz�
 - biała księga Bitcoin przetłumaczona na język francuski.
 
 
-Oto [broszura udostępniona przez francuskich bitcoinerów](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle), która została umieszczona w dziesiątkach skrzynek na książki w całym kraju. Jej projekt jest również [dostępny jako open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Oto [broszura udostępniona przez francuskich bitcoinerów](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle), która została umieszczona w dziesiątkach skrzynek na książki w całym kraju. Jej projekt jest również [dostępny jako open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

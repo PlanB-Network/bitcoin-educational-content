@@ -309,7 +309,9 @@ The principle is straightforward: your funds stay in Bitcoin, either on-chain or
 The major advantage of this approach, compared with a conventional Lightning custodial wallet, is that you remain in 100% possession of your funds at all times. The bitcoins are in your onchain or Liquid wallet, with your own [mnemonic phrase](https://planb.academy/resources/glossary/seed). Even during the swap, you remain in possession of your funds, because the swap is atomic. It relies on a cryptographic mechanism that ensures there are only two possible outcomes: either the swap succeeds entirely, or it fails and the service cannot appropriate your funds.
 
 
-Most wallets offering this type of functionality rely on [Boltz](https://boltz.exchange/) for the technical part of the swap.
+Most wallets offering this type of functionality rely on Boltz for the technical part of the swap.
+
+> **Note (October 2026):** Boltz suspended all swaps on 3 August 2026 and its website is offline. Wallets that rely on Boltz may no longer offer this feature.
 
 
 This solution also offers interesting advantages in terms of confidentiality, especially when coupled with Liquid. For a beginner, it's also very easy to set up and save: a classic mnemonic phrase, no channels, no liquidity to balance...

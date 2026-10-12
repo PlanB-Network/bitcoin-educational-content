@@ -308,7 +308,7 @@ Abatele de Saint-Pierre susținea că domnia lui Ludovic al XIV-lea, cu curtea s
 
 Din punctul de vedere al gândirii economice, a aplicat constant principiul utilității, la fel cum avea să facă mai târziu Jeremy Bentham, și a oferit adesea observații pertinente. Ca să fim drepți, era încă influențat de idei mercantiliste, de care nimeni nu se debarasase complet la vremea aceea.
 
-Totuși, abatele de Saint-Pierre a făcut câteva observații corecte despre economie. Chiar înaintea lui *Condillac*, căruia i se atribuie adesea ideea, a afirmat clar că, în orice schimb, ambele părți beneficiază. Acest lucru se găsește în „Proiectul său pentru perfecționarea comerțului Franței" din 1733 [„Project for Improving France's Trade"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), unde scria:
+Totuși, abatele de Saint-Pierre a făcut câteva observații corecte despre economie. Chiar înaintea lui *Condillac*, căruia i se atribuie adesea ideea, a afirmat clar că, în orice schimb, ambele părți beneficiază. Acest lucru se găsește în „Proiectul său pentru perfecționarea comerțului Franței" din 1733 [„Project for Improving France's Trade"](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), unde scria:
 
 > Când se face o vânzare între negustori, vânzătorul câștigă, și la fel și cumpărătorul; căci dacă n-ar exista un beneficiu real sau perceput de ambele părți, nici vânzătorul n-ar vinde la cutare preț, nici cumpărătorul, la rândul său, n-ar cumpăra la acel preț.
 
@@ -468,7 +468,7 @@ Producția intelectuală a cercului lui Gournay a avut un impact major asupra is
 
 ![Studiu despre publicistica economică în Franța, 1566-1789](assets/en/035.webp)
 
-Pentru a răspândi gustul pentru discuțiile economice în rândul populației franceze, Gournay și prietenii săi au lucrat pentru a le face accesibile prin romane. După *Memoriul despre meserii*, care critica breslele, Gournay și Cliquot-Blervache l-au ajutat pe Gabriel-François Coyer să scrie un scurt roman satiric numit Chinki: [O poveste cochinchineză aplicabilă altor națiuni](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Pentru a răspândi gustul pentru discuțiile economice în rândul populației franceze, Gournay și prietenii săi au lucrat pentru a le face accesibile prin romane. După *Memoriul despre meserii*, care critica breslele, Gournay și Cliquot-Blervache l-au ajutat pe Gabriel-François Coyer să scrie un scurt roman satiric numit Chinki: [O poveste cochinchineză aplicabilă altor națiuni](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Abatele Gabriel-François Coyer, „Chinki"](assets/en/036.webp)
 
@@ -733,7 +733,7 @@ Quesnay o spune simplu:
 
 Fiziocrații văzuseră daunele cauzate de amestecul guvernamental, mai ales în comerțul cu grâu. Trebuie să recunoaștem, spun ei, că autoritatea nu va putea niciodată să gestioneze comerțul la fel de bine ca indivizii, pentru că ar trebui să răspundă la fiecare nevoie și să reacționeze la fiecare schimbare a cererii sau ofertei. Toate acestea depășesc cu mult capacitățile chiar și celui mai înțelept guvern imaginabil. Prin urmare, e necesar să lăsăm lucrurile în pace și să le lăsăm să curgă.
 
-Benefic prin natura sa, comerțul trebuie să fie deplin și perfect liber. Unul dintre membrii lor, Le Trosne, a scris chiar un pamflet intitulat [*Libertatea comerțului cu grâu: mereu utilă, niciodată dăunătoare*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Benefic prin natura sa, comerțul trebuie să fie deplin și perfect liber. Unul dintre membrii lor, Le Trosne, a scris chiar un pamflet intitulat [*Libertatea comerțului cu grâu: mereu utilă, niciodată dăunătoare*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/).
 
 ### Al cincilea principiu: toți oamenii sunt frați
 

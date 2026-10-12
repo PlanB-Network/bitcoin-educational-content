@@ -19,7 +19,7 @@ Farklı adımlara geçmeden önce, bunu yapmak için gerekli ekipmanı listeleye
 
 - a [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - a [USB-C güç Supply](https://amzn.eu/d/gIOot90)
-- 3D kılıf: 3D yazıcınız varsa [3D dosyasını](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) indirebilirsiniz, aksi takdirde [Silexperience çevrimiçi mağazasından](https://silexperience.company.site/NerdMiner_V2-p544379757) bir tane satın alabilirsiniz.
+- 3D kılıf: 3D yazıcınız varsa [3D dosyasını](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) indirebilirsiniz, aksi takdirde [Bitronics çevrimiçi mağazasından](https://bitronics.store/) bir tane satın alabilirsiniz.
 - chrome Tarayıcı yüklü bir bilgisayar
 - bir internet bağlantısı
 - a Bitcoin Address
@@ -95,7 +95,6 @@ NerdMiners için bu havuzlardan birine bağlanmayı seçebilirsiniz:
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Default Solo and open-source mining pool |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Maintained by CHMEX                      |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Maintained by djerfy                     |
 
 Havuzunuzu seçtikten sonra, (istisnai olarak) bir blok bulunması durumunda ödülü almak için Bitcoin Address'nızı girmeniz gerekir.
 
@@ -191,4 +190,4 @@ Konu hakkında daha fazla okumak isterseniz işte bazı bağlantılar:
 
 
 - [NerdMiner_v2 proje sayfası](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [NerdMiners'ın eksiksiz dokümantasyonu](https://docs.bitwater.ch/nerd-Miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

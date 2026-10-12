@@ -33,7 +33,7 @@ Bu eğitimde, bir **Watchtower** kullanmanın 3 yolunu inceleyeceğiz:
 
 
 
-*Bu eğitim [resmi LND belgelerinden](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md) alınmıştır. Orijinal sürümde bazı değişiklikler yapılmış olabilir
+*Bu eğitim [resmi LND belgelerinden](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md) alınmıştır. Orijinal sürümde bazı değişiklikler yapılmış olabilir
 
 
 
@@ -519,13 +519,7 @@ Aynı menüde, etkinleştirdiyseniz Watchtower hizmetinizin URI'sini de bulacaks
 
 
 
-İnternette birkaç Gözcü Kulesi mevcuttur. Örneğin, [LN+ ve Voltage, bağlanabileceğiniz fedakar bir Watchtower](https://lightningnetwork.plus/Watchtower) sunmaktadır:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+İnternette birkaç Gözcü Kulesi mevcuttur. LN+ ve Voltage daha önce fedakar bir Watchtower sunuyordu, ancak artık kullanılamıyor (Ekim 2026). LN+ artık iki düğüm operatörünün birbirinin kanallarını izlediği [Watch Swaps](https://lightningnetwork.plus/watch_swaps) hizmetini sunuyor ve [fedakar Watchtower'lar için bir rehber](https://lightningnetwork.plus/posts/12) yayımlıyor.
 
 
 

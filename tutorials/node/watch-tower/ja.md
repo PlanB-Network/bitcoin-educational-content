@@ -33,7 +33,7 @@ Watchtowerはどのようにしてチャネルが侵害されたかどうかを�
 
 
 
-*このチュートリアルは[LND公式ドキュメント](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md)から引用しています。原文に変更が加えられている場合があります。
+*このチュートリアルは[LND公式ドキュメント](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md)から引用しています。原文に変更が加えられている場合があります。
 
 
 
@@ -519,13 +519,7 @@ Watchtower**」メニューでは、2つのオプションが利用可能です�
 
 
 
-オンライン上にはいくつかのウォッチタワーがある。例えば、[LN+とボルテージは利他的なWatchtower](https://lightningnetwork.plus/Watchtower)を提供しており、これに接続することができます：
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+オンライン上にはいくつかのウォッチタワーがある。LN+とVoltageは以前、利他的なWatchtowerを提供していましたが、現在は利用できません（2026年10月）。LN+は現在、2人のノード運営者が互いのチャネルを監視し合う[Watch Swaps](https://lightningnetwork.plus/watch_swaps)を提供しており、[利他的なWatchtowerのガイド](https://lightningnetwork.plus/posts/12)も公開しています。
 
 
 

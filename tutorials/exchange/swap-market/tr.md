@@ -566,6 +566,8 @@ Yıldırım satoshileriniz hemen wallet'inizde kullanılabilir.
 
 ## SwapMarket vs Boltz: Aradaki fark nedir?
 
+> **Not (Ekim 2026):** Boltz Exchange, 3 Ağustos 2026'da tüm takasları askıya aldı ve web sitesi çevrimdışı. Bu sağlayıcı SwapMarket'te artık mevcut olmayabilir.
+
 
 
 ### Boltz: Teknoloji ve Hizmet
@@ -639,7 +641,7 @@ Sağlayıcılar arasındaki rekabet oranları iyileştirir ve likidite kaynaklar
 
 - [SwapMarket - Web uygulaması](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Teknik dokümantasyon](https://docs.boltz.exchange/)
+- [Teknik dokümantasyon](https://github.com/BoltzExchange/boltz-backend)
 - [Guide self-hosting](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 
@@ -649,5 +651,5 @@ Sağlayıcılar arasındaki rekabet oranları iyileştirir ve likidite kaynaklar
 
 
 
-- [Boltz Exchange](https://boltz.exchange) - Orijinal atomik takas hizmeti
+- Boltz Exchange - Orijinal atomik takas hizmeti
 - [ZEUS Swaps](https://zeusln.com) - Yıldırım takas sağlayıcısı

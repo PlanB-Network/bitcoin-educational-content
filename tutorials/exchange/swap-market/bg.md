@@ -566,6 +566,8 @@ SwapMarket вече генерира **уникален адрес Bitcoin**, с
 
 ## SwapMarket срещу Boltz: каква е разликата?
 
+> **Бележка (октомври 2026 г.):** Boltz Exchange спря всички суапове на 3 август 2026 г. и уебсайтът му е офлайн. Този доставчик може вече да не е наличен в SwapMarket.
+
 
 
 ### Boltz: Технология срещу услуга
@@ -639,7 +641,7 @@ SwapMarket улеснява обмена на Bitcoin/Lightning, като обе
 
 - [SwapMarket - Уеб приложение](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Техническа документация](https://docs.boltz.exchange/)
+- [Техническа документация](https://github.com/BoltzExchange/boltz-backend)
 - [Ръководство за самостоятелно хостване](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 
@@ -649,5 +651,5 @@ SwapMarket улеснява обмена на Bitcoin/Lightning, като обе
 
 
 
-- [Boltz Exchange](https://boltz.exchange) - Оригинална услуга за атомна размяна
+- Boltz Exchange - Оригинална услуга за атомна размяна
 - [ZEUS Swaps](https://zeusln.com) - Доставчик на светкавични суапове

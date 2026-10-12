@@ -60,7 +60,7 @@ Ico nyene ni `ukwizigira`: mu gihe ugenzura ibimenyetso ubwavyo, utegerezwa kwiz
 
 > ...i mint iriko irarongora ibikorwa remezo vya Lightning kandi iracungera ama satoshis y'abakoresha ecash y'i mints. Abakoresha bategerezwa kwizigira mint kugira ngo Redeem ecash yabo igihe bashaka guhindura Lightning.
 
-— Ivyanditswe vya Cashu, [Ibibazo rusangi vyerekeye umutekano n’ubuzima bwite](https://docs.cashu.space/faq#ibibazo rusangi-vyerekeye umutekano n’ubuzima bwite)
+— Ivyanditswe vya Cashu, [Ibibazo rusangi vyerekeye umutekano n’ubuzima bwite](https://docs.cashu.space/faq#general-safety-and-privacy-questions)
 
 
 Ivyo bituma ecash iba umuti wo kubungabunga Bitcoin ubwayo, naho woba ufise ububasha bwose ku bimenyetso.
@@ -215,7 +215,7 @@ Cashu.me ifatanya [npub.cash](https://npub.cash/) kugira ngo iguhe umuco Address
 Mbere, genda kuri `Ivyagezwe` hanyuma ukande kuri `Gushoboza` Umuravyo Address ukoresheje npub.cash. Ivyo bizotuma generate npub.cash Address ikoresha urudodo rwa `npub` ruvuye mu mvugo yawe Wallet seed ku buryo busanzwe.
 
 
-Canke, genda kuri [uru rubuga](https://npub.cash/izina ry'ukoresha) kugira ngo usabe izina ry'ukoresha ukoresheje Nostr yawe bwite `nsec`, iguhe umuravyo Address wihariye nk'izina ry'ukoresha@npub.cash.
+Canke, genda kuri [uru rubuga](https://npub.cash/username) kugira ngo usabe izina ry'ukoresha ukoresheje Nostr yawe bwite `nsec`, iguhe umuravyo Address wihariye nk'izina ry'ukoresha@npub.cash.
 
 
 ![image](assets/en/11.webp)
@@ -236,13 +236,13 @@ Kubera ibintu nka NWC na npub.cash aderesi, Cashu.me ni uburyo bukwegera Wallet 
 ## 📚 Ibikoresho
 
 
-[github.com/amahera/amahera.me](ubutumwa bw'amahera)
+[github.com/amahera/amahera.me](https://github.com/cashubtc/cashu.me)
 
 
-[Ubutumwa: Github.com/amahera](ubutumwa bw'amahera)
+[Ubutumwa: Github.com/amahera](https://github.com/cashubtc)
 
 
-[github.com/amahera-ateye ubwoba](ubutumwa bwiza cane)
+[github.com/amahera-ateye ubwoba](https://github.com/cashubtc/awesome-cashu)
 
 
-[ikibanza c'amahera/](ikibanza c'amahera/)
+[ikibanza c'amahera/](https://cashu.space/)

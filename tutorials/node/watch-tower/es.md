@@ -33,7 +33,7 @@ En este tutorial, veremos 3 formas de utilizar un **Watchtower** :
 
 
 
-*Este tutorial está tomado de [la documentación oficial de LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Es posible que se hayan realizado algunos cambios en la versión original
+*Este tutorial está tomado de [la documentación oficial de LND](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). Es posible que se hayan realizado algunos cambios en la versión original
 
 
 
@@ -519,13 +519,7 @@ En el mismo menú, también encontrará el URI de su servicio Watchtower si lo h
 
 
 
-Hay varias Atalayas disponibles en línea. Por ejemplo, [LN+ y Voltage ofrecen una Watchtower altruista](https://lightningnetwork.plus/Watchtower) a la que puedes conectarte:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+Hay varias Atalayas disponibles en línea. LN+ y Voltage ofrecían una Watchtower altruista, pero ya no está disponible (octubre de 2026). LN+ ofrece ahora los [Watch Swaps](https://lightningnetwork.plus/watch_swaps), en los que dos operadores de nodos vigilan cada uno los canales del otro, y publica una [guía de Watchtowers altruistas](https://lightningnetwork.plus/posts/12).
 
 
 

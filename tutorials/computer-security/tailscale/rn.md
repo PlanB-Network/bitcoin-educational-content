@@ -181,7 +181,7 @@ Iyi nyandiko izokwongerako ububiko bwa Tailscale buzwi maze ishiremwo iyo packag
 
 
 
-- Ku iOS na Android: Tailscale itanga **ivyemewe** ibikoresho vyo kuri telefone ngendanwa. Gusa shiramwo *Tailscale* mu [Iduka ry'Iporogarama](iOS) canke [Iduka ry'Imikino](Iduka ry'Imikino](id.
+- Ku iOS na Android: Tailscale itanga **ivyemewe** ibikoresho vyo kuri telefone ngendanwa. Gusa shiramwo *Tailscale* mu [Iduka ry'Iporogarama](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1)(iOS) canke [Iduka ry'Imikino](https://play.google.com/store/apps/details?id=com.tailscale.ipn) ry'Imikino](id.
 
 
 
@@ -261,7 +261,7 @@ Ubuyobozi bw'urubuga buragufasha kuraba no gucunga ibikoresho vyawe vyose bihuye
 
 
 
-- Urubuga rwa Interface (Igikoresho c'Umuyobozi)**: ushobora kuronka kuri [https://injira.tailscale.com](https://injira.tailscale.com), iyi konsole y'urubuga ni yo nzira nyamukuru y'urubuga rwawe rwa Tailscale. Iratanga urutonde rw’ibikoresho vyose (*Imashini*), uko biri kuri interineti/ku rubuga rwa interineti, aderesi zavyo za IP za Tailscale, n’ibindi. Aha ushobora **gucunga ibikoresho** (guhindura izina, guhera kw'imfunguruzo, kwemerera inzira, guhagarika urudodo), **gucunga abakoresha** (mu bijanye n'imiteguro), no gusobanura amategeko y'umutekano (ACLs). Aha niho kandi utunganya amahitamwo y'isi yose nka MagicDNS, ama tags, canke imfunguruzo z'ukwemeza (imfunguruzo z'ukwemeza imbere ya generate ku kwongerako ibikoresho vy'ubuhinga). Interface web ni ngirakamaro cane mu kuronka icegeranyo no gukoresha amahinduka azokwiragizwa biciye kuri server y'uguhuza ku nzira zose. *Akarorero:* Gukoresha **inzira y'uruja n'uruza** canke **uruzitiro rwo gusohoka** bikorwa n'ugukanda rimwe muri console, iyo uruzitiro ruvugwa rumaze kwimenyekanisha ko ari rwo.
+- Urubuga rwa Interface (Igikoresho c'Umuyobozi)**: ushobora kuronka kuri [https://injira.tailscale.com](https://login.tailscale.com), iyi konsole y'urubuga ni yo nzira nyamukuru y'urubuga rwawe rwa Tailscale. Iratanga urutonde rw’ibikoresho vyose (*Imashini*), uko biri kuri interineti/ku rubuga rwa interineti, aderesi zavyo za IP za Tailscale, n’ibindi. Aha ushobora **gucunga ibikoresho** (guhindura izina, guhera kw'imfunguruzo, kwemerera inzira, guhagarika urudodo), **gucunga abakoresha** (mu bijanye n'imiteguro), no gusobanura amategeko y'umutekano (ACLs). Aha niho kandi utunganya amahitamwo y'isi yose nka MagicDNS, ama tags, canke imfunguruzo z'ukwemeza (imfunguruzo z'ukwemeza imbere ya generate ku kwongerako ibikoresho vy'ubuhinga). Interface web ni ngirakamaro cane mu kuronka icegeranyo no gukoresha amahinduka azokwiragizwa biciye kuri server y'uguhuza ku nzira zose. *Akarorero:* Gukoresha **inzira y'uruja n'uruza** canke **uruzitiro rwo gusohoka** bikorwa n'ugukanda rimwe muri console, iyo uruzitiro ruvugwa rumaze kwimenyekanisha ko ari rwo.
 
 
 
@@ -338,7 +338,7 @@ Gusa **kanda kuri "Injira "**, bizokujana kuri paji y'ukwemeza Tailscale:
 
 
 
-Ushobora kwemeza biciye kuri konti yawe ya Tailscale (Google/GitHub/n'ibindi) canke winjize imeyili yawe. Mu bisanzwe, kuri Umbrel, Interface iragusaba gusura [https://injira.tailscale.com](https://injira.tailscale.com) maze winjire - ivyo vyemeza ko porogarama ya Umbrel Tailscale ari iyo.
+Ushobora kwemeza biciye kuri konti yawe ya Tailscale (Google/GitHub/n'ibindi) canke winjize imeyili yawe. Mu bisanzwe, kuri Umbrel, Interface iragusaba gusura [https://injira.tailscale.com](https://login.tailscale.com) maze winjire - ivyo vyemeza ko porogarama ya Umbrel Tailscale ari iyo.
 
 
 
@@ -596,8 +596,8 @@ Tailscale ni igikoresho gihambaye co kwiyakira, bivuye ku kworoha kwaco n’ubus
 
 
 - Ikigo c'inyandiko z'umurizo**: [docs.tailscale.com](https://docs.tailscale.com) - Inyandiko z'icongereza zishitse, ubuyobozi bwo gushiramwo, inyigisho n'ibimenyetso vy'ubuhinga.
-- Uko Umurizo ukora**: [Uko Umurizo ukora](https://tailscale.com/blog/ingene-umurizo-ukora) - Ingingo idondora neza ingene Umurizo ukora imbere.
-- Impinduka**: [umurizo.com/impinduka](https://imirizo.com/impinduka) - Gukurikirana ivyagezwe n'ibintu bishasha.
+- Uko Umurizo ukora**: [Uko Umurizo ukora](https://tailscale.com/blog/how-tailscale-works) - Ingingo idondora neza ingene Umurizo ukora imbere.
+- Impinduka**: [umurizo.com/impinduka](https://tailscale.com/changelog) - Gukurikirana ivyagezwe n'ibintu bishasha.
 
 
 
@@ -607,9 +607,9 @@ Tailscale ni igikoresho gihambaye co kwiyakira, bivuye ku kworoha kwaco n’ubus
 
 
 
-- Ivyigwa vya Homelab**: [Ivyigwa vyo mu nzu] - Ivyigwa vyihariye vyo kwiyakira.
-- Gutegura Igikoresho co Gusohoka**: [Igikoresho co Gusohoka](https://Igikoresho co Gusohoka) - Inyobora ido n'ido yo gutunganya Igikoresho co Gusohoka.
-- Koresha **Taildrop**: [umurizo.com/kb/1106/umurizo](https://umurizo.com/kb/1106/umurizo) - Kwimurira amadosiye hagati y'ibikoresho vya Tailscale.
+- Ivyigwa vya Homelab**: [Ivyigwa vyo mu nzu](https://tailscale.com/kb/1310/homelab) - Ivyigwa vyihariye vyo kwiyakira.
+- Gutegura Igikoresho co Gusohoka**: [Igikoresho co Gusohoka](https://tailscale.com/kb/1103/exit-nodes) - Inyobora ido n'ido yo gutunganya Igikoresho co Gusohoka.
+- Koresha **Taildrop**: [umurizo.com/kb/1106/umurizo](https://tailscale.com/kb/1106/taildrop) - Kwimurira amadosiye hagati y'ibikoresho vya Tailscale.
 
 
 
@@ -619,7 +619,7 @@ Tailscale ni igikoresho gihambaye co kwiyakira, bivuye ku kworoha kwaco n’ubus
 
 
 
-- Umurizo n’ibindi bisubizo**: [umurizo.com/gereranya](https://umurizo.com/gereranya) - Igereranyo ry’ido n’ido n’ibindi bisubizo vya VPN n’ivy’urubuga (ZeroTier, OpenVPN, n’ibindi).
+- Umurizo n’ibindi bisubizo**: [umurizo.com/gereranya](https://tailscale.com/compare) - Igereranyo ry’ido n’ido n’ibindi bisubizo vya VPN n’ivy’urubuga (ZeroTier, OpenVPN, n’ibindi).
 
 
 
@@ -629,9 +629,9 @@ Tailscale ni igikoresho gihambaye co kwiyakira, bivuye ku kworoha kwaco n’ubus
 
 
 
-- Reddit**: [r/Ikigereranyo c'Umurizo](https://www.reddit.com/r/Ikigereranyo c'Umurizo/) - Ibiganiro, ibibazo n'ibisubizo.
-- GitHub**: [github.com/umurizo/umurizo](https://github.com/umurizo/umurizo) - Kode y'inkomoko y'umukiriya, aho wokurikirana iterambere no gutanga raporo y'ingorane.
-- Discord**: [amatati.gg/umurongo w'umurizo](https://amatati.gg/umurongo w'umurongo) - Umuryango w'abakoresha n'abategura.
+- Reddit**: [r/Ikigereranyo c'Umurizo](https://www.reddit.com/r/tailscale/) - Ibiganiro, ibibazo n'ibisubizo.
+- GitHub**: [github.com/umurizo/umurizo](https://github.com/tailscale/tailscale) - Kode y'inkomoko y'umukiriya, aho wokurikirana iterambere no gutanga raporo y'ingorane.
+- Discord**: [amatati.gg/umurongo w'umurizo](https://discord.gg/tailscale) - Umuryango w'abakoresha n'abategura.
 
 
 

@@ -112,7 +112,7 @@ Iyi nyandiko yibanda gusa kuri "Bisq Easy", protokole imwe rukumbi ihari ubu. Bi
 
 
 
-- Genda kuri [bisq.urubuga](https://bisq.urubuga/ibikurwako/)
+- Genda kuri [bisq.urubuga](https://bisq.network/downloads/)
 - Gukuraho verisiyo ya Bisq 2 ihuye n’ivyo ukoresha (genda hasi kuri paji)
 - Suzuma ukuri kw’idosiye yakuwe kuri interineti (ni ngirakamaro cane). Kugira ngo ubone ubuyobozi burambuye bwo kugenzura umukono, raba inyigisho ikurikira:
 
@@ -122,7 +122,7 @@ https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21
 ### 2. Gushiramwo hakurikijwe sisitemu yawe
 
 
-Urasabwa gukurikiza intambwe zo gushiramwo zibereye kuri sisitemu yawe. Niwahura n'ingorane iyo ari yo yose mu gihe co gushiramwo, urashobora kuraba uburongozi burambuye kuri [wiki yemewe ya Bisq](https://bisq.wiki/Gukuraho_no_gushiramwo).
+Urasabwa gukurikiza intambwe zo gushiramwo zibereye kuri sisitemu yawe. Niwahura n'ingorane iyo ari yo yose mu gihe co gushiramwo, urashobora kuraba uburongozi burambuye kuri [wiki yemewe ya Bisq](https://bisq.wiki/Downloading_and_installing).
 
 
 ### 3. Gutangura ubwa mbere
@@ -180,7 +180,7 @@ Gutegura imbere y’igihe uburyo bwo kwishura ni ubusabe, ariko ni ngirakamaro k
 **Ububiko bw'amakuru:**
 
 
-Udakunze Bisq 1, Bisq 2 ubu ntabwo ishiramwo Bitcoin Wallet: amafaranga rero akoreshwa biciye mu bikoresho vyawe vy’inyuma. Naho biri ukwo, turagusavye kwama ukora backup y’amakuru yawe ya Bisq 2. Kugira ngo ubone ububiko bwawe bw'amakuru, raba [wiki yemewe ya Bisq](https://bisq.wiki/Gufata_amakuru_y'ikoreshwa#Gufata_ububiko_bwose bw'amakuru_ya Bisq).
+Udakunze Bisq 1, Bisq 2 ubu ntabwo ishiramwo Bitcoin Wallet: amafaranga rero akoreshwa biciye mu bikoresho vyawe vy’inyuma. Naho biri ukwo, turagusavye kwama ukora backup y’amakuru yawe ya Bisq 2. Kugira ngo ubone ububiko bwawe bw'amakuru, raba [wiki yemewe ya Bisq](https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory).
 
 
 **Uburongozi bw'akaranga:**
@@ -520,7 +520,7 @@ Izo porotokole ubu ziriko zirategurwa kandi zizogenda zishirwa muri Bisq 2, zihe
 
 
 
-- Urubuga rwemewe: [bisq.urubuga](https://bisq.urubuga)
-- Inyandiko: [Wiki ya Bisq](wiki ya Bisq)
-- Infashanyo: [Ihuriro rya Bisq](https://bisq.umuryango)
-- Kode y'inkomoko : [GitHub](urubuga rwa bisq)
+- Urubuga rwemewe: [bisq.urubuga](https://bisq.network)
+- Inyandiko: [Wiki ya Bisq](https://bisq.wiki)
+- Infashanyo: [Ihuriro rya Bisq](https://bisq.community)
+- Kode y'inkomoko : [GitHub](https://github.com/bisq-network)

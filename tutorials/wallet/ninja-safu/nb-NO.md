@@ -36,7 +36,7 @@ Ninja SAFU-metoden har flere fordeler:
 
 
 
-- **Pålitelighet**: Metoden har blitt testet siden 2020 og er utprøvd og testet av sikkerhetseksperter som [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), som har utsatt den for strenge stresstester (ekstrem varme, korrosjon, mekanisk trykk).
+- **Pålitelighet**: Metoden har blitt testet siden 2020 og er utprøvd og testet av sikkerhetseksperter som [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/), som har utsatt den for strenge stresstester (ekstrem varme, korrosjon, mekanisk trykk).
 
 
 
@@ -354,13 +354,13 @@ Ifølge Jameson Lopp
 
 
 
-- [Rapport](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) om Ninja SAFU-metoden
+- [Rapport](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) om Ninja SAFU-metoden
 
 
 
 
 
-- Sammenligningstabell [komplett](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Sammenligningstabell [komplett](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 
@@ -429,4 +429,4 @@ https://x.com/econoalchemist/status/1329271981712289797
 https://www.waivio.com/@themarkymark/opprett-din-egen-metall-seed-nøkkel-backup
 
 
-https://github.com/minibolt-guide/minibolt/blob/main/bonus/Bitcoin/safu-ninja.md
+https://github.com/minibolt-guide/minibolt/blob/2c4770443e7f01ed9c471d995ef5af254719b51e/bonus/bitcoin/safu-ninja.md

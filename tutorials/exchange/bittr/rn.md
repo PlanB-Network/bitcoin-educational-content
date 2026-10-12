@@ -22,7 +22,7 @@ Reka tugendere mu kuntu vyoroshe gutangura guteranya Sats na Bittr.
 
 
 
-- Ku rubuga canke kuri telefone ngendanwa genda kuri [getbittr.com](https://getbittr.com/gure-Bitcoin?inkomoko_utm=umugambi&utm_uburinganire=inyigisho&utm_isekeza=intambwe1) hanyuma ukande kuri “Gura Bitcoin”
+- Ku rubuga canke kuri telefone ngendanwa genda kuri [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) hanyuma ukande kuri “Gura Bitcoin”
 
 
 

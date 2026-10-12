@@ -38,7 +38,7 @@ For example, between January 1, 2018 and January 1, 2024, the number of transact
 This significant growth is, of course, closely linked to:
 
 
-- the [growing interest of people around the world in using Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), to free themselves from the banking system and/or use a less volatile or less devalued currency, as is the case for populations in Lebanon, Syria, Egypt, Argentina, and others;
+- the [growing interest of people around the world in using Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), to free themselves from the banking system and/or use a less volatile or less devalued currency, as is the case for populations in Lebanon, Syria, Egypt, Argentina, and others;
 - its price appreciation over time, establishing it as a store of value and a long-term investment, driven by its fixed monetary policy;
 - the successive growth of the speculative cryptocurrency market, particularly during 2017-2018 and 2020-2021;
 - Bitcoin's growing presence in mainstream media.
@@ -495,7 +495,7 @@ Many other AI tools have emerged recently, so this list is far from exhaustive.
 **Example: Creating a Futuristic Bitcoin London Logo**
 If you want to design a futuristic logo for a "Bitcoin London" meet-up, you can ask Copilot:
 
-- [ ] *Prompt: Create a Bitcoin logo with London Bridge and Big Ben in the background. Futuristic* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *Prompt: Create a Bitcoin logo with London Bridge and Big Ben in the background. Futuristic*
 
 
 ![image](assets/en/014.webp)
@@ -504,7 +504,7 @@ If you want to design a futuristic logo for a "Bitcoin London" meet-up, you can 
 If the first four results aren't realistic enough, refine your request:
 
 
-- [ ] *Prompt: Make the 4th one much more realistic* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *Prompt: Make the 4th one much more realistic*
 
 
 ![image](assets/en/015.webp)
@@ -516,7 +516,7 @@ The latest result turned out great!
 **Example: Creating a Simple British-Style Logo**
 For a cleaner look, like for a sticker:
 
-- [ ] *Prompt: Create the logo of the "London Bitcoin Meetup" with a British and clean style* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Prompt: Create the logo of the "London Bitcoin Meetup" with a British and clean style*
 
 
 ![image](assets/en/016.webp)
@@ -982,7 +982,7 @@ But you can't move forward without knowing that **there are platforms where bitc
 These include:
 
 - [Btcmap.org](https://btcmap.org/)**, a website with two maps updated daily: **[the world map of businesses accepting Bitcoin](https://btcmap.org/map)** and **[the world communities map](https://btcmap.org/communities/map)**. Many bitcoiners check these maps regularly, whether they're traveling or going about their daily lives, to meet new people or find places to spend their [sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap is the global reference, and listing your community there is essential for visibility.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), a website created by bitcoiners, for bitcoiners. **It lets you post your community's upcoming events**. In France, however, it's still not widely used.
+- BitcoinerEvents, a website created by bitcoiners, for bitcoiners. **It lets you post your community's upcoming events**. In France, however, it's still not widely used. **Note (October 2026):** this site is offline. [BitcoinOnly Events](https://bitcoinonly.events/) is a similar calendar that is still in service.
 - depending on your country, there may be other local initiatives. In France, for example, there's [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), which **lists dozens of Bitcoin events every month**. So if you haven't yet followed them on Twitter or contacted them to share information about your community and events, now's the time! **To help keep the French events calendar up to date, it would be great if all French Bitcoin communities got into the habit of:**
     - mentioning @bitcoinpointfr on Twitter for every new community event
     - pinning new event announcements in their Telegram group.
@@ -996,7 +996,7 @@ It cost around 8€ a month (or around 90€ a year), which can be expensive for
 Similarly, **[Orangepillapp](https://www.orangepillapp.com/)** is a paid mobile app (50,000 sats/year or 200,000 sats for lifetime access) that helps bitcoiners meet.
 
 While these last two platforms can help increase visibility, they're not recommended when launching a community, simply because they aren't free. 
-**Starting with a listing on [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) and for French communities, on [Bitcoin.fr](https://Bitcoin.fr) is more than enough**.
+**Starting with a listing on [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) and for French communities, on [Bitcoin.fr](https://Bitcoin.fr) is more than enough**.
 
 Congratulations! Your **community is created**, your **visuals are ready**, your **objectives are set**, your **communication channels are in place**, your **social networks are launched** and your **visibility strategy is decided**.
 
@@ -1058,7 +1058,7 @@ If you want to prepare for quieter moments, you can plan a few activities or tal
 - bringing a **Nerdminer**, Bitaxe, FPGA or even ASIC;
 - having a **Bitcoin flyer**;
 - brainstorming a Bitcoin visual or logo for your community;
-- playing a **[Bitcoin card game](https://www.Maximalist.ovh/accueil/20-game-le-coin-de-table.html)**;
+- playing a **[Bitcoin card game](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - showing the **[btcmap.org](https://btcmap.org/)** map of communities and merchants;
 - sending or receiving Bitcoin using **Lightning**.
 
@@ -1309,7 +1309,7 @@ And much more, your imagination is the only limit!
 Depending on your availability and the level of involvement in your community, you can plan additional events throughout the year, such as:
 - A restaurant night for **Pizza Day** on May 22
 - An evening or weekend to celebrate the next **Halving**
-- A family **game night** about Bitcoin and how it works, using games like [Le Coin de Table](https://www.Maximalist.ovh/) or [SHAmory](https://shamory.com/)
+- A family **game night** about Bitcoin and how it works, using games like [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) or [SHAmory](https://shamory.com/)
 - A **mining workshop** presenting different types of hardware (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - An **afternoon or evening for beginners**, with themed workshops
 - A **joint meetup with neighboring communities**
@@ -1403,7 +1403,7 @@ You could also design a flyer specific to your community or meet-up, presenting 
 
 Several flyers are already **available as open-source in the [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** on planB.network and more will be added over time.
 
-One example is a [complete sourced flyer](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) with 21 reasons to use Bitcoin. Its design is also [available in open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) for you to modify and adapt and share. Just remember to credit your sources.
+One example is a [complete sourced flyer](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) with 21 reasons to use Bitcoin. Its design is also [available in open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) for you to modify and adapt and share. Just remember to credit your sources.
 
 
 ![image](assets/en/041.webp)
@@ -1433,7 +1433,7 @@ While leaving the Bitcoin white paper is symbolic, it's often too complex for ne
 - an accessible, well-sourced introduction to Bitcoin, its uses, and the problems it solves;
 - the Bitcoin white paper, translated into French.
 
-Here's [the booklet shared among French bitcoiners](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) which has been placed in dozens of bookboxes around the country. Its design is also [available as open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Here's [the booklet shared among French bitcoiners](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) which has been placed in dozens of bookboxes around the country. Its design is also [available as open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 ![image](assets/en/045.webp)

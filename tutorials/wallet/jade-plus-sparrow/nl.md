@@ -294,7 +294,7 @@ Klik op "*Start*".
 ![Image](assets/fr/15.webp)
 
 
-Je kunt de QR-codebasis gebruiken die in de Jade Plus doos zit. Selecteer het juiste vakje, afhankelijk van of je hebt gekozen voor een zin van 12 of 24 woorden. Je kunt ook [de sjabloon van de Blockstream website afdrukken](https://help.blockstream.com/hc/article_attachments/41928319071769).
+Je kunt de QR-codebasis gebruiken die in de Jade Plus doos zit. Selecteer het juiste vakje, afhankelijk van of je hebt gekozen voor een zin van 12 of 24 woorden. Je kunt ook [de sjabloon van de Blockstream website afdrukken](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase).
 
 
 Uw Jade Plus zal elke zone van uw QR code weergeven.

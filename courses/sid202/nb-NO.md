@@ -61,7 +61,7 @@ Elements er en åpen kildekodeplattform for [blokkjeder](https://planb.academy/r
 
 Elements er i bunn og grunn en protokoll som gjør det mulig å skape [konsensus](https://planb.academy/resources/glossary/consensus) rundt transaksjonshistorikken og reglene som styrer overføring og opprettelse av eiendeler som er lagret i en distribuert blokkjedehovedbok.
 
-Du finner mer bakgrunnsinformasjon om Elements på Elements Project-nettstedet (https://elementsproject.org/), den offisielle Liquid-bloggen (https://blog.liquid.net/) og utviklerportalen (https://liquid.net/devs).
+Du finner mer bakgrunnsinformasjon om Elements på Elements Project-nettstedet (https://elementsproject.org/), den offisielle Liquid-bloggen (https://blog.liquid.net/) og utviklerportalen (https://liquid.net/developers).
 
 ### Elementer
 

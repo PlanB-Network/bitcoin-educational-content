@@ -74,7 +74,7 @@ Muri make, Proton Authenticator ifise intumbero yo kuba umuti wa 2FA udashobora 
 
 
 
-Igikoresho co kwemeza ko umuntu ari uwundi kiraboneka ku buntu ku mbuga zose. Kugira ngo ubone iyo porogarama, genda kuri paji yemewe: [https://proton.me/fr/ugukuraho](https://proton.me/fr/ugukuraho)
+Igikoresho co kwemeza ko umuntu ari uwundi kiraboneka ku buntu ku mbuga zose. Kugira ngo ubone iyo porogarama, genda kuri paji yemewe: [https://proton.me/fr/ugukuraho](https://proton.me/fr/authenticator/download)
 
 
 
@@ -560,10 +560,10 @@ Proton Authenticator ni kimwe mu bisubizo vy’ukuri kandi bitekanye biriho: ink
 
 
 
-- Urubuga rwemewe**: [proton.me/umugenzuzi](https://proton.me/umugenzuzi) - Ukwerekana ibicuruzwa n'ugukuraho
-- Gukuraho urupapuro**: [proton.me/ru/umugenzuzi/gukuraho](https://proton.me/fr/umugenzuzi/gukuraho) - Amahuza y'ama OS yose
-- Infashanyo ya porotoni**: [proton.me/infashanyo/ivyemezo-vy'inzira-2fa](https://proton.me/infashanyo/ivyemezo-vy'inzira-2fa) - Inyobora yemewe yo gukoresha 2FA
-- Urubuga rwa Proton**: [porotoni.me/urubuga/iporogaramu-yemeza](https://porotoni.me/urubuga/iporogarama-yemeza) - Itangazo n'ibiranga ido n'ido
+- Urubuga rwemewe**: [proton.me/umugenzuzi](https://proton.me/authenticator) - Ukwerekana ibicuruzwa n'ugukuraho
+- Gukuraho urupapuro**: [proton.me/ru/umugenzuzi/gukuraho](https://proton.me/fr/authenticator/download) - Amahuza y'ama OS yose
+- Infashanyo ya porotoni**: [proton.me/infashanyo/ivyemezo-vy'inzira-2fa](https://proton.me/support/two-factor-authentication-2fa) - Inyobora yemewe yo gukoresha 2FA
+- Urubuga rwa Proton**: [porotoni.me/urubuga/iporogaramu-yemeza](https://proton.me/blog/authenticator-app) - Itangazo n'ibiranga ido n'ido
 
 
 
@@ -572,8 +572,8 @@ Proton Authenticator ni kimwe mu bisubizo vy’ukuri kandi bitekanye biriho: ink
 
 
 
-- Igikoresho co kwemeza ivy'ukuri ca GitHub**: [github.com/Igikoresho co kwemeza ivy'ukuri](https://github.com/Igikoresho co kwemeza ivy'ukuri) - Kode y'inkomoko yuguruye
-- Igenzura ry'umutekano**: [proton.me/umuryango/igenzura ry'umutekano](https://proton.me/umuryango/igenzura ry'umutekano) - Raporo z'igenzura ryigenga
+- Igikoresho co kwemeza ivy'ukuri ca GitHub**: [github.com/Igikoresho co kwemeza ivy'ukuri](https://github.com/protonpass) - Kode y'inkomoko yuguruye
+- Igenzura ry'umutekano**: [proton.me/umuryango/igenzura ry'umutekano](https://proton.me/community/open-source) - Raporo z'igenzura ryigenga
 
 
 
@@ -586,7 +586,7 @@ Inyuma yo gutunganya, gerageza gutunganya kwawe:
 
 
 - [Narafashwe](https://haveibeenpwned.com/) - Suzuma nimba amakonti yawe yashizwe mu kaga
-- [Ububiko bwa 2FA](https://2fa.ububiko/) - Urutonde rw'ibikorwa bifasha 2FA
+- [Ububiko bwa 2FA](https://2fa.directory/) - Urutonde rw'ibikorwa bifasha 2FA
 
 
 
@@ -596,8 +596,8 @@ Inyuma yo gutunganya, gerageza gutunganya kwawe:
 
 
 - - Umuryango wemewe wa Proton
-- Ihuriro ry'Inyigisho z'Ibanga**: [kuganira.Inyigisho z'Ibanga.net](https://kuganira.Inyigisho z'Ibanga.net) - Ibiganiro vy'ubuhinga ku bibazo vy'ubuzima bwite
-- Reddit r/ubuzima bwite**: [reddit.com/r/ubuzima bwite](https://reddit.com/r/ubuzima bwite) - Impanuro rusangi ku vyerekeye ubuzima bwite
+- Ihuriro ry'Inyigisho z'Ibanga**: [kuganira.Inyigisho z'Ibanga.net](https://discuss.privacyguides.net) - Ibiganiro vy'ubuhinga ku bibazo vy'ubuzima bwite
+- Reddit r/ubuzima bwite**: [reddit.com/r/ubuzima bwite](https://reddit.com/r/privacy) - Impanuro rusangi ku vyerekeye ubuzima bwite
 
 
 
@@ -607,4 +607,4 @@ Inyuma yo gutunganya, gerageza gutunganya kwawe:
 
 
 - [Mbega narafashwe](https://haveibeenpwned.com/) - Suzuma nimba amakonti yawe yashizwe mu kaga
-- [Ububiko bwa 2FA](https://2fa.ububiko/) - Urutonde rw'ibikorwa bifasha 2FA
+- [Ububiko bwa 2FA](https://2fa.directory/) - Urutonde rw'ibikorwa bifasha 2FA

@@ -49,7 +49,7 @@ Nakon testiranja, impresioniran sam kvalitetom proizvoda. Korisničko iskustvo j
 ## Kako kupiti Ledger Flex?
 
 
-Ledger Flex je dostupan za kupovinu [na zvaničnom sajtu](https://shop.Ledger.com/pages/Ledger-flex). Da biste ga kupili u fizičkoj prodavnici, možete pronaći [listu sertifikovanih prodavaca](https://www.Ledger.com/reseller) na sajtu Ledger.
+Ledger Flex je dostupan za kupovinu [na zvaničnom sajtu](https://shop.ledger.com/pages/ledger-flex). Da biste ga kupili u fizičkoj prodavnici, možete pronaći [listu sertifikovanih prodavaca](https://www.Ledger.com/reseller) na sajtu Ledger.
 
 
 ## Preduslovi

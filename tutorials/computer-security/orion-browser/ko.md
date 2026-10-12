@@ -643,8 +643,8 @@ Mac 또는 iPhone에서 일상적으로 사용하는 경우, 제한 사항을 �
 
 
 - 공식 웹사이트**: [kagi.com/orion](https://kagi.com/orion/)
-- 전체 FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- 커뮤니티 포럼**: [community.kagi.com](https://community.kagi.com)
+- 전체 FAQ**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- 커뮤니티 포럼**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - 버그 추적**: [orionfeedback.org](https://orionfeedback.org)
 - 깃허브 오리온**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - 오픈 소스 컴포넌트
 - 블로그 카기**: [blog.kagi.com](https://blog.kagi.com) - 뉴스 및 업데이트

@@ -213,7 +213,7 @@ PIN 码用于解锁您的玉石，并防止未经授权的物理访问。该 PIN
 
 ![Image](assets/fr/15.webp)
 
-您可以使用 Jade Plus 包装盒中提供的 QR 码底座。根据您选择的是 12 个字还是 24 个字的句子，选择相应的方框。您还可以[从 Blockstream 网站打印模板](https://help.blockstream.com/hc/article_attachments/41928319071769)。
+您可以使用 Jade Plus 包装盒中提供的 QR 码底座。根据您选择的是 12 个字还是 24 个字的句子，选择相应的方框。您还可以[从 Blockstream 网站打印模板](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase)。
 
 您的 Jade Plus 将显示二维码的每个区域。
 

@@ -5,7 +5,7 @@ description: Minimalistički Bitcoin Wallet za svakoga
 
 ![cover](assets/cover.webp)
 
-
+> **Upozorenje (oktobar 2026):** StashPay je ugašen. Njegov autor je najavio kraj 26. jula 2026, a aplikacija je zatvorena 31. avgusta 2026; veb-sajt nije dostupan ([pročitajte objavu](https://blog.onionmill.com/p/sunsetting-stashpay)). Da biste povratili svoj Liquid novčanik, uvezite svoju frazu za oporavak u Blockstream App. Ovu stranicu čuvamo kao referencu.
 
 Korisničko iskustvo je ključni faktor u usvajanju Bitcoin rešenja širom sveta. Pružanje glatkog, jednostavnog i tehnički neopterećenog iskustva je prioritet za mnoge novčanike i Exchange platforme. U tom pogledu, StashPay se ističe svojim minimalističkim pristupom, dok istovremeno demonstrira moć Lightning Network.
 
@@ -23,7 +23,7 @@ StashPay je Lightning samostalni Wallet prepoznat prvenstveno po minimalističko
 
 
 
-StashPay je projekt otvorenog koda razvijen u React Native-u i ima za cilj da reši problem visokih naknada za transakcije čak i sa transakcijama na glavnom lancu Bitcoin protokola. Dostupan je kao mobilna aplikacija na Android i iOS platformama putem linkova za preuzimanje prisutnih na [veb-sajtu](https://stashpay.me/).
+StashPay je projekt otvorenog koda razvijen u React Native-u i ima za cilj da reši problem visokih naknada za transakcije čak i sa transakcijama na glavnom lancu Bitcoin protokola. Dostupan je kao mobilna aplikacija na Android i iOS platformama putem linkova za preuzimanje prisutnih na veb-sajtu.
 
 
 

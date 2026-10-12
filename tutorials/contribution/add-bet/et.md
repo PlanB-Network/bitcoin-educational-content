@@ -70,7 +70,7 @@ Näiteks võiks teie YAML fail välja näha selline:
 project: Plan ₿ Academy
 type: Educational Content
 links:
-  download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+  download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
   view:
 - Minu näites jätan lingid esialgu tühjaks, kuna lisan oma PDF-i otse GitHub'ile:
 ![event](assets/09.webp)
@@ -165,7 +165,7 @@ https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/reso
 - Lisage URL-i alusele järgmine teave, et saada õige link:
 
 ```url
-https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 Mida me siin teeme, on tulevase lingi etteaimamine teie failile, kui teie ettepanek on PlanB Networki allikarepositooriumiga ühendatud.

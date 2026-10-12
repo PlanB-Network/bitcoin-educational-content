@@ -27,7 +27,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Nenda kwenye [hifadhi ya GitHub ya PlanB iliyojitolea kwa data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) katika sehemu ya `resources/conference/`:
+- Nenda kwenye [hifadhi ya GitHub ya PlanB iliyojitolea kwa data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conferences) katika sehemu ya `resources/conference/`:
 
 ![conference](assets/02.webp)
 

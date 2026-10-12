@@ -276,7 +276,7 @@ Izina ry'urufunguzo rwawe hanyuma ukande _Bandanya_.
 
 
 
-Iyo izo ntambwe zirangiye, uzobazwa nimba wokwongerako [passphrase](https://planb.academy/ru/ibikoresho/urutonde rw’amajambo/passphrase-bip39) ku nteruro yawe ya Mnemonic. Niba udafise ubumenyi bukwiye bw'ingene ukoresha passphrase, gutunganya uko ikora, canke ingene ikora, ndagusavye uhitemwo _Sinkeneye ijambo ry'ibanga_.
+Iyo izo ntambwe zirangiye, uzobazwa nimba wokwongerako [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39) ku nteruro yawe ya Mnemonic. Niba udafise ubumenyi bukwiye bw'ingene ukoresha passphrase, gutunganya uko ikora, canke ingene ikora, ndagusavye uhitemwo _Sinkeneye ijambo ry'ibanga_.
 
 
 
@@ -375,7 +375,7 @@ Niwaheza guhazwa, kanda _Rema igikapu_
 
 
 
-Wallet yararemwe kandi urashobora gukuraho dosiye [.BSMS](https://github.com/Bitcoin/BIPs/blob/master/BIP-0129.mediawiki) nk’ivyo gusubiza inyuma. Kugira ngo usubire ku rutonde nyamukuru, kanda umwampi uri hejuru ibubamfu.
+Wallet yararemwe kandi urashobora gukuraho dosiye [.BSMS](https://github.com/bitcoin/bips/blob/master/bip-0129.mediawiki) nk’ivyo gusubiza inyuma. Kugira ngo usubire ku rutonde nyamukuru, kanda umwampi uri hejuru ibubamfu.
 
 
 
@@ -394,7 +394,7 @@ Uri mu _Ingoro_, aho werekanwa Wallet nshasha yaremwe itanga raporo y'uburingani
 
 
 - Igishushanyo c’ibarabara kiri hejuru iburyo kiragufasha gukora ubushakashatsi bw’ugucuruza;
-- `View Wallet config` itanga uburenganzira bwo gushika ku rutonde rw'imiterere, aho ushobora guhindura izina rya Wallet no gukoresha amahitamwo ateye imbere, hejuru iburyo (ayo udashobora kuronka amafoto). Aha ushobora kwohereza hanze imiterere ya Wallet, ibimenyetso, gusubirira imfunguruzo, guhindura [umupaka w’ikinogo](https://planb.academy/ru/ibikoresho/urutonde rw’amajambo/umupaka w’ikinogo) n’ibindi.
+- `View Wallet config` itanga uburenganzira bwo gushika ku rutonde rw'imiterere, aho ushobora guhindura izina rya Wallet no gukoresha amahitamwo ateye imbere, hejuru iburyo (ayo udashobora kuronka amafoto). Aha ushobora kwohereza hanze imiterere ya Wallet, ibimenyetso, gusubirira imfunguruzo, guhindura [umupaka w’ikinogo](https://planb.academy/en/resources/glossary/gap-limit) n’ibindi.
 
 
 

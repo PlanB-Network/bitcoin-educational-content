@@ -113,7 +113,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-برنامه F-Droid را در دستگاه اندرویدی خود باز کنید، سپس از طریق آیکون در پایین سمت راست به تنظیمات دسترسی پیدا کنید. "مخازن" را برای مدیریت منابع برنامه انتخاب کنید. دکمه "+" را فشار دهید تا یک مخزن جدید اضافه کنید، سپس کد QR را اسکن کنید یا لینک `https://fdroid.silentpayments.dev/fdroid/repo` را جای‌گذاری کنید. پس از اضافه شدن مخزن، سه نسخه از Dana Wallet را مشاهده خواهید کرد. "Dana Wallet - Bookmark" را انتخاب کرده و "نصب" را فشار دهید.
+برنامه F-Droid را در دستگاه اندرویدی خود باز کنید، سپس از طریق آیکون در پایین سمت راست به تنظیمات دسترسی پیدا کنید. "مخازن" را برای مدیریت منابع برنامه انتخاب کنید. دکمه "+" را فشار دهید تا یک مخزن جدید اضافه کنید، سپس کد QR را اسکن کنید یا لینک `https://fdroid.danawallet.app/fdroid/repo` را جای‌گذاری کنید. پس از اضافه شدن مخزن، سه نسخه از Dana Wallet را مشاهده خواهید کرد. "Dana Wallet - Bookmark" را انتخاب کرده و "نصب" را فشار دهید.
 
 
 
@@ -410,7 +410,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 - مخزن GitHub برای Dana Wallet: https://github.com/cygnet3/danawallet
-- F-Cold سپرده: https://fdroid.silentpayments.dev
+- F-Cold سپرده: https://fdroid.danawallet.app/fdroid/repo/
 - سایت جامعه Silent Payments: https://silentpayments.xyz
 - مشخصات BIP-352: https://bips.dev/352
 

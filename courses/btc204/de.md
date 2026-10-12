@@ -1904,7 +1904,7 @@ Einer der Hauptnachteile von JoinMarket ist seine Komplexität, die ein gewisses
 
 ![BTC204](assets/de/137.webp)
 
-Quelle: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Quelle: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 Die technische Barriere bleibt jedoch ein großes Hindernis. Im Coinjoin-Ökosystem, in dem die Vertraulichkeit durch die Anzahl der Teilnehmer verstärkt wird, wirkt sich jede Einschränkung der Zugänglichkeit direkt auf die verfügbare Liquidität aus, die ein entscheidender Faktor für die Effizienz der Mischung ist. Da Bitcoin bereits eine Nische im Bereich der Finanztransaktionen darstellt, wird die Verwendung von Coinjoin als eine Unternische betrachtet, und JoinMarket stellt einen noch spezielleren Teil davon dar, was daher sein Potenzial zur Erhöhung der Anonsets seiner Nutzer einschränkt.
 

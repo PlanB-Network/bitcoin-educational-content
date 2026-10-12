@@ -6,6 +6,8 @@ description: Memasang node Bitcoin RoninDojo v2 pada Raspberry Pi
 
 **PERINGATAN:** *Menyusul penangkapan pendiri Samourai Wallet dan penyitaan server mereka pada 24 April, beberapa fitur RoninDojo seperti Whirlpool sudah nggak berfungsi lagi. Tapi ada kemungkinan alat-alat ini bisa dipulihkan atau dirilis ulang dengan cara berbeda dalam beberapa minggu ke depan. Selain itu, karena kode RoninDojo di-host di GitLab Samourai yang ikut disita, saat ini kamu nggak bisa mengunduh kode tersebut secara remote. Tim RoninDojo kemungkinan sedang menyiapkan rilis ulang kodenya.*
 
+> **Pembaruan (Oktober 2026):** RoninDojo telah menerbitkan ulang kodenya di platform miliknya sendiri ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) dan kini sudah versi 3. Tutorial ini menjelaskan versi yang lebih lama: beberapa tautan dan perintah sudah tidak berfungsi. Untuk prosedur terkini, lihat dokumentasi resmi: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 *Kami terus mengikuti perkembangan kasus ini dan semua update terkait alat-alat tersebut. Tenang aja, kami bakal memperbarui tutorial ini begitu ada info baru yang tersedia.*
 
 *Tutorial ini hanya untuk tujuan edukasi dan informasi. Kami nggak mendukung atau mendorong penggunaan alat-alat ini untuk aktivitas kriminal. Setiap pengguna bertanggung jawab untuk mematuhi hukum di yurisdiksi masing-masing.*
@@ -26,7 +28,9 @@ Dalam [tutorial sebelumnya](https://planb.academy/tutorials/node/bitcoin/ronin-d
 ## Apa itu RoninDojo?
 Dojo awalnya adalah implementasi node Bitcoin penuh berbasis Bitcoin Core yang dikembangkan oleh tim Samourai Wallet. Solusi ini bisa dipasang di perangkat apa pun. Berbeda dengan implementasi Core lainnya, Dojo dioptimalkan khusus supaya bisa terintegrasi dengan ekosistem aplikasi Android milik Samourai Wallet. Sementara itu, RoninDojo adalah utilitas yang dibuat untuk mempermudah pemasangan dan pengelolaan Dojo, plus berbagai alat pendukung lainnya. Singkatnya, RoninDojo memperkaya implementasi dasar Dojo dengan menggabungkan banyak alat tambahan sambil tetap menyederhanakan proses pemasangan dan pengelolaannya.
 
-Ronin juga menawarkan [solusi node-dalam-kotak, yang disebut "*Tanto*"](https://ronindojo.io/en/products), sebuah perangkat dengan RoninDojo yang sudah dipasang pada sistem yang dirakit oleh tim mereka. Tanto adalah opsi berbayar yang mungkin menarik buat kamu yang pengin menghindari keribetan teknis. Tapi karena kode sumber RoninDojo itu open-source, kamu juga bisa memasangnya di perangkat keras kamu sendiri. Alternatif yang lebih murah ini tetap butuh beberapa langkah tambahan, dan itu yang bakal kita bahas di tutorial ini.
+Ronin juga menawarkan [solusi node-dalam-kotak, yang disebut "*Tanto*"](https://docs.ronindojo.io/hardware/tanto/), sebuah perangkat dengan RoninDojo yang sudah dipasang pada sistem yang dirakit oleh tim mereka. Tanto adalah opsi berbayar yang mungkin menarik buat kamu yang pengin menghindari keribetan teknis. Tapi karena kode sumber RoninDojo itu open-source, kamu juga bisa memasangnya di perangkat keras kamu sendiri. Alternatif yang lebih murah ini tetap butuh beberapa langkah tambahan, dan itu yang bakal kita bahas di tutorial ini.
+
+> **Catatan (Oktober 2026):** RoninDojo tampaknya tidak lagi menjual Tanto, dan toko daringnya sudah tidak aktif. Lihat daftar perangkat keras yang kompatibel: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
 
 RoninDojo adalah sebuah Dojo, jadi dia memungkinkan integrasi mudah Whirlpool CLI ke dalam node Bitcoin kamu untuk ngasih pengalaman coinjoin terbaik. Dengan Whirlpool CLI, kamu bisa terus remix bitcoin kamu 24 jam sehari, 7 hari seminggu, tanpa harus bikin komputer pribadi kamu tetap nyala.
 
@@ -39,7 +43,9 @@ Kalau kamu nggak butuh fitur umum atau terkait Lightning Network seperti yang di
 Sekarang setelah kami telah menguraikan RoninDojo, mari kita lihat bersama bagaimana cara mengatur node ini.
 
 ## Perangkat keras apa yang harus dipilih untuk menginstal RoninDojo v2?
-RoninDojo menawarkan sebuah gambar untuk instalasi otomatis perangkat lunaknya pada [RockPro64](https://ronindojo.io/en/download). Namun, tutorial ini fokus ke prosedur instalasi manual di Raspberry Pi 4. Walaupun Raspberry Pi 5 baru dirilis dan secara teori tutorial ini harusnya kompatibel juga dengan model baru itu, aku belum sempat nyoba langsung, dan belum nemu feedback dari komunitas. Begitu aku punya Pi 5 dan komponen yang cocok, tutorial ini bakal aku update supaya kamu tetap dapat info terbaru. Untuk sekarang, aku sarankan tetap pakai Pi 4, karena dia bekerja sempurna untuk node aku.
+RoninDojo menawarkan sebuah gambar untuk instalasi otomatis perangkat lunaknya pada [RockPro64](https://ronindojo.io/downloads). Namun, tutorial ini fokus ke prosedur instalasi manual di Raspberry Pi 4. Walaupun Raspberry Pi 5 baru dirilis dan secara teori tutorial ini harusnya kompatibel juga dengan model baru itu, aku belum sempat nyoba langsung, dan belum nemu feedback dari komunitas. Begitu aku punya Pi 5 dan komponen yang cocok, tutorial ini bakal aku update supaya kamu tetap dapat info terbaru. Untuk sekarang, aku sarankan tetap pakai Pi 4, karena dia bekerja sempurna untuk node aku.
+
+> **Catatan (Oktober 2026):** RoninDojo kini juga menyediakan image resmi RoninOS untuk Rock5B+, Raspberry Pi 5, dan mesin x86.
 
 Dari sisi aku sendiri, aku jalanin RoninDojo di Raspberry Pi dengan 8 GB RAM. Walaupun beberapa anggota komunitas berhasil menjalankannya di perangkat dengan 4 GB RAM, aku belum uji konfigurasi itu sendiri. Mengingat selisih harganya kecil, lebih bijak pilih versi 8 GB RAM. Ini juga berguna kalau di masa depan kamu mau pakai ulang Raspberry Pi kamu buat kebutuhan lain.
 
@@ -168,6 +174,8 @@ Sekarang kamu terhubung ke node kamu via sesi SSH. Di terminal Anda, prompt peri
 `sudo apt update && sudo apt upgrade -y`
 Setelah pembaruan selesai, lanjutkan untuk menginstal *Git* dan *Dialog* menggunakan perintah: `sudo apt install git dialog -y`
 
+> **Catatan (Oktober 2026):** Perintah di bawah ini sudah tidak berfungsi: GitLab milik Samourai (code.samourai.io) disita pada 24 April 2024. RoninDojo kini menyimpan kodenya di sini: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Untuk prosedur instalasi terkini, lihat [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
+
 Selanjutnya, kloning cabang `master` dari repositori Git _RoninOS_ dengan menjalankan:
 `sudo git clone --branch master https://code.samourai.io/ronindojo/RoninOS.git /opt/RoninOS`
 
@@ -293,7 +301,9 @@ Untuk menghubungkan Samourai Wallet kamu ke Dojo, cukup pindai kode QR ini selam
 ![Samourai Wallet connection](assets/notext/36.webp)
 Kalau kamu sudah punya Samourai Wallet sebelum menyiapkan Ronin Dojo, kamu perlu membackup dompetmu, menghapus instalasi, lalu menginstal ulang aplikasi Samourai Wallet sebelum mengembalikan dompetmu. Saat kamu meluncurkan aplikasi yang sudah diinstal ulang, kamu akan mendapat opsi untuk terhubung ke Dojo baru. **Hati-hati, proses ini membawa risiko kehilangan bitcoin kamu jika tidak dilakukan dengan benar!** Pastikan kamu punya backup Samourai wallet dalam file kamu dan verifikasi validitas passphrase melalui `Settings > Troubleshoot > Passphrase.` Juga penting untuk punya backup yang dapat dibaca dari frase pemulihan dan passphrase kamu. Untuk ketelitian lebih lanjut dalam operasi ini, disarankan mengikuti tutorial terperinci ini:
 
-[https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+[https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+
+> **Peringatan (Oktober 2026):** Samourai Wallet sudah tidak ada: servernya disita dan para pendirinya ditangkap pada 24 April 2024. Tautan di atas mengarah ke salinan arsip panduan tersebut. RoninDojo kini mendokumentasikan Ashigaru, fork dari Samourai Wallet: [docs.ronindojo.io/guides-wallet/ashigaru](https://docs.ronindojo.io/guides-wallet/ashigaru/)
 
 ### Menggunakan block explorer Mempool.space milik Anda sendiri
 Sebuah block explorer mengubah informasi mentah dari blockchain Bitcoin menjadi format yang terstruktur dan mudah dibaca. Dengan alat seperti *Mempool.space*, dimungkinkan untuk menganalisis transaksi, mencari alamat tertentu, atau bahkan konsultasi tarif rata-rata jaringan mempool secara real-time.
@@ -505,12 +515,12 @@ Mengenai tab lain yang tersedia di dashboard RoninUI kamu:
 - `System Info`: Memberikan informasi umum tentang node kamu, seperti suhu CPU, penggunaan ruang penyimpanan, atau data RAM. kamu juga akan menemukan opsi `Reboot` dan `Shut down` untuk memulai ulang atau mematikan node;
 - `Settings`: Memungkinkan kamu untuk mengubah password pengguna kamu.
 
-Itu dia! Terima kasih telah mengikuti tutorial ini sampai selesai. Jika kamu menikmatinya, saya mendorong kamu untuk membagikannya di media sosial. Selain itu, jika kamu memiliki kesempatan, pertimbangkan untuk mendukung para pengembang yang membuat perangkat lunak bebas dan sumber terbuka ini tersedia untuk komunitas kita dengan donasi: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Untuk memperdalam pengetahuan kamu tentang RoninDojo dan menemukan lebih banyak sumber daya, saya sangat merekomendasikan untuk mengkonsultasikan link ke sumber daya eksternal yang disebutkan di bawah ini.
+Itu dia! Terima kasih telah mengikuti tutorial ini sampai selesai. Jika kamu menikmatinya, saya mendorong kamu untuk membagikannya di media sosial. Selain itu, jika kamu memiliki kesempatan, pertimbangkan untuk mendukung para pengembang yang membuat perangkat lunak bebas dan sumber terbuka ini tersedia untuk komunitas kita dengan donasi: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). Untuk memperdalam pengetahuan kamu tentang RoninDojo dan menemukan lebih banyak sumber daya, saya sangat merekomendasikan untuk mengkonsultasikan link ke sumber daya eksternal yang disebutkan di bawah ini.
 
 **Sumber daya eksternal:**
 - [https://ronindojo.io/index.html](https://ronindojo.io/index.html)
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/memperkenalkan-boltzmann-85930984a159](https://medium.com/@laurentmt/memperkenalkan-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)
 

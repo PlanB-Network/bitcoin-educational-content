@@ -89,7 +89,7 @@ Tuzokwibanda ku gice ca "Abatanga". Ushobora kubona urutonde rw'abatanze bose n'
 Uzobona ko "Abatanga" bamenyekana na Bitcoin Address. Ushobora gufyonda kuri imwe muri izo aderesi kugira ngo ubone ibindi.
 
 
-Nitwafata iya mbere, iyo ifise Hashrate [1GRfspGGx4Ne66YotWuosUc4WeJLfGE3dZ], ushobora kubona ibijanye n'ivyo bi- mined, n’iyi block, eka mbere n’ibintu vy’ido n’ido vy’imashini yabo imwe imwe (ASICs). Ariko rero, ntibamenyekana, nk’uko biri kuri Bitcoin.
+Nitwafata iya mbere, iyo ifise Hashrate [1GRfspGGx4Ne66YotWuosUc4WeJLfGE3dZ](https://ocean.xyz/stats/1GRfspGGx4Ne66YotWuosUc4WeJLfGE3dZ), ushobora kubona ibijanye n'ivyo bi- mined, n’iyi block, eka mbere n’ibintu vy’ido n’ido vy’imashini yabo imwe imwe (ASICs). Ariko rero, ntibamenyekana, nk’uko biri kuri Bitcoin.
 
 
 ### Igishushanyo c'ububiko

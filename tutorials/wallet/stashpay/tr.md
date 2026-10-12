@@ -5,7 +5,7 @@ description: Herkes için minimalist Bitcoin Wallet
 
 ![cover](assets/cover.webp)
 
-
+> **Uyarı (Ekim 2026):** StashPay sonlandırıldı. Geliştiricisi projenin sona erdiğini 26 Temmuz 2026'da duyurdu ve uygulama 31 Ağustos 2026'da kapandı; web sitesi çevrimdışı ([duyuruyu okuyun](https://blog.onionmill.com/p/sunsetting-stashpay)). Liquid cüzdanınızı geri almak için kurtarma ifadenizi Blockstream App'e aktarın. Bu sayfayı başvuru amacıyla saklıyoruz.
 
 Kullanıcı deneyimi, dünya genelinde Bitcoin çözümlerinin benimsenmesinde kilit bir faktördür. Sorunsuz, basit ve teknik açıdan engelsiz bir deneyim sunmak, birçok cüzdan ve Exchange platformu için önceliktir. Bu açıdan StashPay, minimalist yaklaşımıyla öne çıkarken aynı zamanda Lightning Network'nin gücünü de göstermektedir.
 
@@ -23,7 +23,7 @@ StashPay, öncelikle minimalist, kullanıcı merkezli kullanıcı deneyimi ile t
 
 
 
-StashPay, React Native'de geliştirilen açık kaynaklı bir projedir ve Bitcoin protokolünün ana zincirindeki işlemlerde bile yüksek işlem ücretleri sorununu çözmeyi amaçlamaktadır. Web sitesinde] (https://stashpay.me/) bulunan indirme bağlantıları aracılığıyla Android ve iOS platformlarında bir mobil uygulama olarak mevcuttur.
+StashPay, React Native'de geliştirilen açık kaynaklı bir projedir ve Bitcoin protokolünün ana zincirindeki işlemlerde bile yüksek işlem ücretleri sorununu çözmeyi amaçlamaktadır. Web sitesinde bulunan indirme bağlantıları aracılığıyla Android ve iOS platformlarında bir mobil uygulama olarak mevcuttur.
 
 
 

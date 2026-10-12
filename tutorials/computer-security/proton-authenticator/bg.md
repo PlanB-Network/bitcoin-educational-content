@@ -572,8 +572,8 @@ Proton Authenticator е едно от най-всеобхватните и си�
 
 
 
-- GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Отворен код
-- Одити за сигурност**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Независими одитни доклади
+- GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - Отворен код
+- Одити за сигурност**: [proton.me/community/security-audits](https://proton.me/community/open-source) - Независими одитни доклади
 
 
 

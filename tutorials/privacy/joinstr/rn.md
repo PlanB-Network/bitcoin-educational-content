@@ -293,9 +293,8 @@ Koresha ikimenyetso ca bose nka :
 
 
 
-- [ikinyamakuru.com](https://ikinyamakuru.com)
-- [iyindi.ikimenyetso.com](https://iyindi.ikimenyetso.com)
-- [ikimenyetso c'igitabu257.igisagara cacu](ikimenyetso257.ikinyamakuru.org)
+- [iyindi.ikimenyetso.com](https://alt.signetfaucet.com)
+- [ikimenyetso c'igitabu257.igisagara cacu](https://signet257.bublina.eu.org)
 
 
 
@@ -315,7 +314,7 @@ Muri Bitcoin Core, generate aderesi nshasha yo kwakira ("Kwakira" tab), uyikope 
 
 
 
-Genda kuri [gitlab.com/ubuzima bwite-budashobora gutsindwa/joinstr-kmp/-/ibisohotse](https://gitlab.com/ubuzima bwite-budashobora gutsindwa/joinstr-kmp/-/ibisohotse) kugira ngo ubone verisiyo ya APK nshasha. Ku mucukumbuzi wawe wa Android, nushireko iyo dosiye, hanyuma uyifungure kugira ngo utangure kuyishiramwo. Uzokenera kwemera gushiramwo ibintu bivuye mu bibanza bitazwi mu mategeko y’umutekano wa telefone yawe nimba bikenewe.
+Genda kuri [gitlab.com/ubuzima bwite-budashobora gutsindwa/joinstr-kmp/-/ibisohotse](https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases) kugira ngo ubone verisiyo ya APK nshasha. Ku mucukumbuzi wawe wa Android, nushireko iyo dosiye, hanyuma uyifungure kugira ngo utangure kuyishiramwo. Uzokenera kwemera gushiramwo ibintu bivuye mu bibanza bitazwi mu mategeko y’umutekano wa telefone yawe nimba bikenewe.
 
 
 
@@ -493,7 +492,7 @@ Ivyo rero **bica vyikora**: iyo inyishu yawe imaze kwandikwa, iyo porogarama iri
 
 
 
-Iyo amafaranga amaze gutangazwa, uzoronka TXID (ikimenyetso c’amafaranga). Raba kuri [mempool.ikibanza](https://mempool.ikibanza) canke ku mucukumbuzi ukunda. Kugira ngo ugerageze ku kimenyetso c'igitabu, koresha [mempool.umwanya/ikidodo](https://mempool.umwanya/ikimenyetso).
+Iyo amafaranga amaze gutangazwa, uzoronka TXID (ikimenyetso c’amafaranga). Raba kuri [mempool.ikibanza](https://mempool.space) canke ku mucukumbuzi ukunda. Kugira ngo ugerageze ku kimenyetso c'igitabu, koresha [mempool.umwanya/ikidodo](https://mempool.space/signet).
 
 
 
@@ -650,11 +649,11 @@ Mu gihe ivy’ugusuzuma ivy’amahera biriko birarushiriza, ibikoresho vy’inze
 
 
 
-- [Urubuga rwemewe rwa Joinstr](https://joinstr.xyz)
-- [Inyandiko z'ukoresha](https://inyandiko.gufatanya.xyz/abakoresha/gukoresha-gufatanya)
-- [Inyandiko z'ubuhinga](https://inyandiko.joinstr.xyz/insiguro/ingene-bikora)
-- [Kode y'inkomoko ya GitLab](gitlab.com/ubuzima bwite-budashobora gutsindwa/ugufatanya)
-- [Iporogaramu ya Android](ibanga ry'ubuzima bwite/joinstr-kmp/-/ibisohoka)
+- [Urubuga rwemewe rwa Joinstr](https://docs.joinstr.xyz/)
+- [Inyandiko z'ukoresha](https://docs.joinstr.xyz/users/using-joinstr)
+- [Inyandiko z'ubuhinga](https://docs.joinstr.xyz/overview/how-does-it-work)
+- [Kode y'inkomoko ya GitLab](https://gitlab.com/invincible-privacy/joinstr)
+- [Iporogaramu ya Android](https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases)
 
 
 
@@ -663,7 +662,7 @@ Mu gihe ivy’ugusuzuma ivy’amahera biriko birarushiriza, ibikoresho vy’inze
 
 
 
-- [Inyigisho y'ivyo gukoresha Electrum](https://ubuhinga butagiramwo ubuhinga.
+- [Inyigisho y'ivyo gukoresha Electrum](https://uncensoredtech.substack.com/p/tutorial-electrum-plugin-for-joinstr) butagiramwo ubuhinga.
 
 
 
@@ -673,7 +672,7 @@ Mu gihe ivy’ugusuzuma ivy’amahera biriko birarushiriza, ibikoresho vy’inze
 
 
 - [Itsinda ry'abafatanyabikorwa b'itelegaramu](https://t.me/joinstr) - Infashanyo y'abanyagihugu n'imfuruka z'ibimenyetso
-- [Ikiganiro c'ubuhinga ku bijanye n'amahera](https:
+- [Ikiganiro c'ubuhinga ku bijanye n'amahera](https://delvingbitcoin.org/t/who-will-run-the-coinjoin-coordinators/934):
 
 
 

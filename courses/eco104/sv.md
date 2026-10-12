@@ -818,10 +818,10 @@ Bitcoin har fängslat miljontals människor med sin omvälvande potential och un
 Hur som helst, låt oss ta en titt på myten och legenden.
 
 
-Satoshi Nakamoto dök upp på internet 2008 med en revolutionerande idé: elektroniska kontanter peer-to-peer. Han delade med sig av sin vision i ett [nio sidor långt dokument](https://Bitcoin.org/Bitcoin.pdf) med titeln "Bitcoin: A Peer-to-Peer Electronic Cash System" till Cypherpunk:s e-postlista. Trots inledande ointresse från de flesta medlemmarna på sändlistan väckte idén tillräckligt med nyfikenhet hos en medlem, Hal Finney, som så småningom kontaktade Satoshi. Hals engagemang i Bitcoin-utvecklingen visade sig vara en vändpunkt som ledde till att fler personer erbjöd sitt stöd.
+Satoshi Nakamoto dök upp på internet 2008 med en revolutionerande idé: elektroniska kontanter peer-to-peer. Han delade med sig av sin vision i ett [nio sidor långt dokument](https://bitcoin.org/bitcoin.pdf) med titeln "Bitcoin: A Peer-to-Peer Electronic Cash System" till Cypherpunk:s e-postlista. Trots inledande ointresse från de flesta medlemmarna på sändlistan väckte idén tillräckligt med nyfikenhet hos en medlem, Hal Finney, som så småningom kontaktade Satoshi. Hals engagemang i Bitcoin-utvecklingen visade sig vara en vändpunkt som ledde till att fler personer erbjöd sitt stöd.
 
 
-Efter två års arbete med projektet försvann dock Satoshi spårlöst, med [sin sista trovärdiga kommunikation](https://plan99.net/~mike/Satoshi-emails/thread5.html) den 23 april 2011, där han uppgav att han hade "gått vidare till andra saker"
+Efter två års arbete med projektet försvann dock Satoshi spårlöst, med [sin sista trovärdiga kommunikation](https://plan99.net/~mike/satoshi-emails/thread5.html) den 23 april 2011, där han uppgav att han hade "gått vidare till andra saker"
 
 
 Det mystiska försvinnandet av Satoshi Nakamoto har lett till olika teorier om vart han tog vägen. Vissa spekulerar i att han kände att han hade uppnått det han hade föresatt sig att göra, medan andra tror att han blev obekväm med den uppmärksamhet som Bitcoin drog till sig. I december [2010](https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad), när WikiLeaks förbjöds att använda traditionella betalningsmetoder, vände man sig till Bitcoin för att få finansiering. Satoshi:s oro över den ökade uppmärksamheten kring Bitcoin och de potentiella juridiska konsekvenserna av att skapa en valuta som används för att störa USA:s geopolitiska intressen kan ha fått honom att ta ett steg tillbaka. Alternativt kan han ha flyttat sitt fokus till andra projekt, fortfarande bidra till Bitcoin under andra namn eller till och med ha avlidit.
@@ -1168,7 +1168,7 @@ I det här avsnittet kommer vi att fördjupa oss i de olika lagren av transaktio
 Bitcoin:s Blockchain är uppbyggd av block, som namnet antyder. Dessa block har en teoretisk maximal storlek på 4 megabyte. den genomsnittliga blockstorleken i skrivande stund ligger på cirka 1,5 MB._ På grund av denna gräns finns det en begränsning för hur många transaktioner Bitcoin kan behandla per sekund, vilket är mellan sju och tio transaktioner per sekund (tps).
 
 
-Därför kan du undra: Hur kan Bitcoin:s Blockchain konkurrera med nätverk som Visa eller Mastercard som har en transaktionshastighet på [1 700 tps](https://towardsdatascience.com/the-Blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
+Därför kan du undra: Hur kan Bitcoin:s Blockchain konkurrera med nätverk som Visa eller Mastercard som har en transaktionshastighet på [1 700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
 
 Svaret är enkelt. Det är inte att konkurrera med dem.
@@ -1240,7 +1240,7 @@ Det finns också otaliga andra förvaringslösningar för Wallet tillgängliga f
 Icke-förvaltande plånböcker är en typ av Bitcoin Wallet där du är den enda förmyndaren för dina medel, vilket innebär att du har fullständig kontroll över dina [privata nycklar](https://planb.academy/resources/glossary/private-key). Privata nycklar är som ett lösenord till din Wallet och används för att signera och auktorisera transaktioner. Utan dem kan du inte komma åt eller överföra din Bitcoin.
 
 
-Icke-förvaltarplånböcker erbjuder en högre nivå av säkerhet och integritet än förvaltarplånböcker eftersom du är den enda som ansvarar för säkerheten för dina medel. Exempel på icke-förvaltarplånböcker är [hårdvaruplånböcker](https://planb.academy/resources/glossary/hardware-wallet) som [Coldcard](https://store.coinkite.com/store/coldcard) och [Trezor](https://trezor.io/), som är fysiska enheter som lagrar dina privata nycklar offline och ger en extra Layer säkerhet. Andra populära icke-frihetsberövande plånböcker är mjukvaruplånböcker som [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home) och [Blockstream Green](https://blockstream.com/Green/), som kan laddas ner och installeras på din dator eller mobila enhet.
+Icke-förvaltarplånböcker erbjuder en högre nivå av säkerhet och integritet än förvaltarplånböcker eftersom du är den enda som ansvarar för säkerheten för dina medel. Exempel på icke-förvaltarplånböcker är [hårdvaruplånböcker](https://planb.academy/resources/glossary/hardware-wallet) som [Coldcard](https://store.coinkite.com/store/coldcard) och [Trezor](https://trezor.io/), som är fysiska enheter som lagrar dina privata nycklar offline och ger en extra Layer säkerhet. Andra populära icke-frihetsberövande plånböcker är mjukvaruplånböcker som [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home) och [Blockstream Green](https://blockstream.com/green/), som kan laddas ner och installeras på din dator eller mobila enhet.
 
 
 *Även om vi inte kan rekommendera en specifik Wallet rekommenderar vi starkt att du tar kontroll över din Bitcoin genom egenvårdnad eller samarbetsvårdnad, vilket innebär att du väljer en Wallet som passar dina behov och preferenser. Det är viktigt att göra grundliga efterforskningar innan du bestämmer dig för en Wallet för att säkerställa att den uppfyller dina krav på säkerhet och användbarhet.*
@@ -1665,7 +1665,7 @@ Du undrar säkert: Vad är problemet här?
 Att skicka tillbaka pengar utomlands via en penningöverföringstjänst som Western Union är inte gratis. Det kostar pengar, och inte bara lite, utan en betydande summa.
 
 
-Att skicka 100 USD tillbaka till Tonga innebär en kostnad på [12,61 USD](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus en ytterligare förlust på 8,60 USD på grund av den ofördelaktiga Exchange-kursen. Detta innebär att mer än 21 % av det totala belopp som skickas går till Western Union, ett multinationellt företag. Följden blir att en ansenlig summa som kunde ha hamnat i händerna på förtjänta tonganska familjer hamnar i fickorna på leverantören av penningöverföringstjänster.
+Att skicka 100 USD tillbaka till Tonga innebär en kostnad på [12,61 USD](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus en ytterligare förlust på 8,60 USD på grund av den ofördelaktiga Exchange-kursen. Detta innebär att mer än 21 % av det totala belopp som skickas går till Western Union, ett multinationellt företag. Följden blir att en ansenlig summa som kunde ha hamnat i händerna på förtjänta tonganska familjer hamnar i fickorna på leverantören av penningöverföringstjänster.
 
 Kan du föreställa dig fördelarna med att få 21% extra till din inkomst?
 
@@ -1676,7 +1676,7 @@ Med tanke på att Tongas BNP var [469](https://tradingeconomics.com/tonga/gdp) m
 Och om du trodde att Tonga var ensamt om detta, så kan du lita på det.
 
 
-Här är ett exempel på hur mycket Western Union [debiterar](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) för att skicka \ $ 100 US-dollar till några andra framstående nationer:
+Här är ett exempel på hur mycket Western Union [debiterar](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) för att skicka \ $ 100 US-dollar till några andra framstående nationer:
 
 
 
@@ -1691,7 +1691,7 @@ Det är en häpnadsväckande summa pengar som nu finns i händerna på stora ame
 Till skillnad från traditionella penningöverföringstjänster är USDt en digital valuta som, i syfte att genomföra transaktioner, rör sig på Blockchain:s räls. Eftersom den inte kräver mellanhänder som banker eller penningöverföringstjänster är avgifterna betydligt lägre. Eftersom transaktionerna utförs på en offentlig Blockchain säkerställs dessutom större transparens och integritet. Detta innebär att individer kan skicka pengar till sina nära och kära i andra länder nästan omedelbart, säkert och till en mycket lägre kostnad.
 
 
-Till exempel har USDt, som främst fungerar på Ethereum- och Tron-blockkedjorna, i genomsnitt [\ $ 1,02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) respektive [\ $ 0,000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions) transaktionsavgifter under det senaste året, oavsett vilket belopp som skickas - avgiften förblir densamma oavsett om du skickar \ $ 5 eller \ $ 10 000. Och just nu arbetar utvecklare med [stablecoins](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-Bitcoin-developers-to-mint-and-transfer-assets-on-the-Blockchain/) som bygger på Bitcoin:s Lightning Network, vilket skulle ge avgifter på cirka [0,0003 USD](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption).
+Till exempel har USDt, som främst fungerar på Ethereum- och Tron-blockkedjorna, i genomsnitt [\ $ 1,02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) respektive [\ $ 0,000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions) transaktionsavgifter under det senaste året, oavsett vilket belopp som skickas - avgiften förblir densamma oavsett om du skickar \ $ 5 eller \ $ 10 000. Och just nu arbetar utvecklare med [stablecoins](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-bitcoin-developers-to-mint-and-transfer-assets-on-the-blockchain/) som bygger på Bitcoin:s Lightning Network, vilket skulle ge avgifter på cirka [0,0003 USD](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption).
 
 
 Med USDt kan tonganer, liksom alla andra som skickar pengar tillbaka till sina familjer, ta emot mycket mer av sina penningförsändelser, vilket kan förbättra deras livskvalitet avsevärt och bidra till den ekonomiska utvecklingen i deras land.
@@ -2021,10 +2021,10 @@ Men Bitcoin konkurrerar också med Layer två transaktionsmetoder, med tekniker 
 Trots de många studierna som avslöjar falska påståenden kritiseras Bitcoin fortfarande ofta för att främst användas för olaglig verksamhet. Återigen kunde detta inte vara längre från sanningen.
 
 
-En [studie](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) som genomfördes av den tidigare vice chefen för CIA fann att "breda generaliseringar om användningen av Bitcoin i olaglig finansiering är betydligt överskattade" Faktum är att sedan 2016 har mindre än 1 % av Bitcoin:s totala transaktionsvolym använts för olaglig verksamhet. Som jämförelse kan nämnas att "vissa uppskattar den svarta ekonomin till 11-12 procent av USA:s bruttonationalprodukt (https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)", varav merparten möjliggörs med hjälp av US-dollar.
+En [studie](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) som genomfördes av den tidigare vice chefen för CIA fann att "breda generaliseringar om användningen av Bitcoin i olaglig finansiering är betydligt överskattade" Faktum är att sedan 2016 har mindre än 1 % av Bitcoin:s totala transaktionsvolym använts för olaglig verksamhet. Som jämförelse kan nämnas att "vissa uppskattar den svarta ekonomin till 11-12 procent av USA:s bruttonationalprodukt (https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)", varav merparten möjliggörs med hjälp av US-dollar.
 
 
-Och enligt en rapport från Chainalysis 2020 står olaglig aktivitet endast för cirka [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) av alla Bitcoin-transaktioner.
+Och enligt en rapport från Chainalysis 2020 står olaglig aktivitet endast för cirka [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) av alla Bitcoin-transaktioner.
 
 
 Men även med dessa bevis fortsätter makthavare att göra vilseledande uttalanden, till exempel USA:s finansminister Janet Yellen [som hävdar](https://home.treasury.gov/news/press-releases/jy0023), "Kryptovalutor har använts för att tvätta vinsterna från narkotikahandlare på nätet; de har varit ett verktyg för att finansiera terrorism."
@@ -2318,7 +2318,7 @@ I slutändan ligger framtiden för decentraliserad finansiering hos dem som är 
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
 
-I dagens globaliserade värld är tillgång till finansiella tjänster en kritisk komponent för ekonomiskt deltagande och oberoende. Trots detta är alltför många människor fortfarande utestängda från det traditionella banksystemet, och det är ofta kvinnor som drabbas hårdast av denna utestängning. Det är chockerande att trots att en onödig [en fjärdedel](https://www.worldbank.org/en/publication/globalfindex) av världens befolkning saknar tillgång till banktjänster, saknar [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) av kvinnorna i länder som Saudiarabien tillgång till grundläggande banktjänster, vilket hindrar dem från att fullt ut delta i landets ekonomi och samhälle.
+I dagens globaliserade värld är tillgång till finansiella tjänster en kritisk komponent för ekonomiskt deltagande och oberoende. Trots detta är alltför många människor fortfarande utestängda från det traditionella banksystemet, och det är ofta kvinnor som drabbas hårdast av denna utestängning. Det är chockerande att trots att en onödig [en fjärdedel](https://www.worldbank.org/en/publication/globalfindex) av världens befolkning saknar tillgång till banktjänster, saknar [36,5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) av kvinnorna i länder som Saudiarabien tillgång till grundläggande banktjänster, vilket hindrar dem från att fullt ut delta i landets ekonomi och samhälle.
 
 
 Här är bara några exempel på de förhållanden som kvinnor runt om i världen får utstå än idag:

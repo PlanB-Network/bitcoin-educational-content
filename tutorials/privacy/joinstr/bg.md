@@ -293,7 +293,6 @@ openssl rand -base64 32
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -650,7 +649,7 @@ Joinstr представлява истински децентрализиран
 
 
 
-- [Официален уебсайт на Joinstr](https://joinstr.xyz)
+- [Официален уебсайт на Joinstr](https://docs.joinstr.xyz/)
 - [Документация за потребителя](https://docs.joinstr.xyz/users/using-joinstr)
 - [Техническа документация](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [Изходен код на GitLab](https://gitlab.com/invincible-privacy/joinstr)
@@ -682,6 +681,5 @@ Joinstr представлява истински децентрализиран
 
 
 
-- [Bookmark Faucet](https://signetfaucet.com) - Безплатни тестови биткойни
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet алтернатива
 - [Mempool.space](https://mempool.space) - Block explorer с анализ на поверителността

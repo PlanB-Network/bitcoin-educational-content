@@ -239,7 +239,7 @@ Analisis ini mencerminkan kesalahpahaman tentang nilai lebih dan sifat kerjasama
 
 ### Revolusi Industri dalam Pertanyaan
 
-Faktanya, analisis Marxis mendistorsi realitas historis dari Revolusi Industri. Ludwig von Mises menjelaskan masalah ini dalam risalah ekonominya [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (lihat khususnya bab yang berjudul [Interpretasi Populer dari Revolusi Industri](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) serta dalam serangkaian kuliah yang diterbitkan dengan judul: [_Kebijakan Ekonomi: Pemikiran untuk Hari Ini dan Esok_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Juga layak dibaca, Mentalitas Anti-Kapitalis [di sini](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) dan [di sini](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+Faktanya, analisis Marxis mendistorsi realitas historis dari Revolusi Industri. Ludwig von Mises menjelaskan masalah ini dalam risalah ekonominya [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (lihat khususnya bab yang berjudul [Interpretasi Populer dari Revolusi Industri](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) serta dalam serangkaian kuliah yang diterbitkan dengan judul: [_Kebijakan Ekonomi: Pemikiran untuk Hari Ini dan Esok_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Juga layak dibaca, Mentalitas Anti-Kapitalis [di sini](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) dan [di sini](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 ![image](assets/id/014.webp)
 
 Mises menjelaskan bahwa pekerjaan di pabrik, meskipun menyedihkan menurut standar kita, merupakan kesempatan terbaik yang mungkin bagi pekerja pada waktu itu.

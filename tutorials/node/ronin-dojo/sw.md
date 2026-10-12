@@ -5,6 +5,8 @@ description: Kusakinisha na kutumia nodi yako ya RoninDojo Bitcoin.
 ---
 ***ONYO:** Kufuatia kukamatwa kwa waanzilishi wa Samourai Wallet na kunaswa kwa seva zao mnamo Aprili 24, vipengele fulani vya RoninDojo, kama vile Whirlpool, havifanyi kazi tena. Hata hivyo, kuna uwezekano kwamba zana hizi zinaweza kurejeshwa au kuzinduliwa upya kwa njia tofauti katika wiki zijazo. Zaidi ya hayo, kwa kuwa msimbo wa RoninDojo ulipangishwa kwenye GitLab ya Samourai, ambayo pia ilichukuliwa, kwa sasa haiwezekani kupakua msimbo kwa mbali. Timu za RoninDojo huenda zinashughulikia kuchapisha upya msimbo.*
 
+> **Sasisho (Oktoba 2026):** RoninDojo imechapisha upya msimbo wake kwenye jukwaa lake lenyewe ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) na sasa iko kwenye toleo la 3. Mafunzo haya yanaeleza toleo la zamani: baadhi ya viungo na amri hazifanyi kazi tena. Kwa utaratibu wa sasa, tazama nyaraka rasmi: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 
 _Tunafuatilia kwa karibu maendeleo ya kesi hii pamoja na maendeleo kuhusu zana zinazohusiana. Uwe na uhakika kwamba tutasasisha mafunzo haya kadiri habari mpya zinavyopatikana._
 
@@ -84,10 +86,12 @@ Sasa kwa kuwa tumeweza kuchora picha ya RoninDojo, hebu tuone jinsi ya kusanidi 
 Ili kuchagua mashine inayopangisha na kuendesha RoninDojo, una chaguo kadhaa.
 
 
-Kama ilivyoelezwa hapo awali, chaguo rahisi zaidi ni kuagiza Tanto, mashine ya kuziba-na-kucheza iliyoundwa mahsusi kwa madhumuni haya. Ili kuagiza yako, nenda hapa: [link](https://shop.ronindojo.io/product-category/nodes/).
+Kama ilivyoelezwa hapo awali, chaguo rahisi zaidi ni kuagiza Tanto, mashine ya kuziba-na-kucheza iliyoundwa mahsusi kwa madhumuni haya.
+
+> **Kumbuka (Oktoba 2026):** Inaonekana RoninDojo haiuzi tena Tanto, na duka lake la mtandaoni halipatikani. Tazama orodha ya vifaa vinavyooana: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
 
 
-Kwa kuwa timu za RoninDojo hutoa msimbo wa chanzo huria, inawezekana pia kutekeleza RoninDojo kwenye mashine zingine. Unaweza kupata matoleo mapya zaidi ya kitawi cha usakinishaji kwenye ukurasa huu: [link](https://ronindojo.io/en/downloads.html), na matoleo mapya zaidi ya msimbo kwenye ukurasa huu: [link](https://code.samourai.io/ronindojo/RoninDojo).
+Kwa kuwa timu za RoninDojo hutoa msimbo wa chanzo huria, inawezekana pia kutekeleza RoninDojo kwenye mashine zingine. Unaweza kupata matoleo mapya zaidi ya kitawi cha usakinishaji kwenye ukurasa huu: [link](https://ronindojo.io/downloads), na matoleo mapya zaidi ya msimbo kwenye ukurasa huu: [link](https://git.ronindojo.io/Ronin/monorepo).
 
 
 Binafsi, niliiweka kwenye Raspberry Pi 4 8GB na kila kitu hufanya kazi kikamilifu.
@@ -118,7 +122,7 @@ Hapa kuna mfano wa jinsi ya kusanidi nodi yako ya RoninDojo:
 Mara baada ya kukusanya mashine yako, unaweza kuanza usakinishaji wa RoninDojo. Ili kufanya hivyo, anza kwa kuunda kadi ndogo ya SD ya bootable kwa kuchoma picha sahihi ya diski juu yake.
 
 
-Ingiza kadi yako ndogo ya SD kwenye kompyuta yako ya kibinafsi, kisha uende kwenye tovuti rasmi ya RoninDojo ili kupakua picha ya diski ya RoninOS: https://ronindojo.io/en/downloads.html.
+Ingiza kadi yako ndogo ya SD kwenye kompyuta yako ya kibinafsi, kisha uende kwenye tovuti rasmi ya RoninDojo ili kupakua picha ya diski ya RoninOS: https://ronindojo.io/downloads.
 
 
 Pakua picha ya diski inayolingana na maunzi yako. Katika kesi yangu, nilipakua picha ya "MANJARO-ARM-RONINOS-RPI4-22.03.IMG.XZ":
@@ -130,7 +134,7 @@ Pakua picha ya diski inayolingana na maunzi yako. Katika kesi yangu, nilipakua p
 Mara tu picha inapopakuliwa, thibitisha uadilifu wake kwa kutumia faili inayolingana ya .SHA256. Nitaelezea kwa undani jinsi ya kufanya hivyo katika makala haya: Jinsi ya kuthibitisha uadilifu wa programu ya Bitcoin kwenye Windows?
 
 
-Maagizo mahususi ya kuthibitisha uadilifu wa RoninOS yanapatikana pia kwenye ukurasa huu: https://wiki.ronindojo.io/en/extras/verify.
+Maagizo mahususi ya kuthibitisha uadilifu wa RoninOS yanapatikana pia kwenye ukurasa huu: https://docs.ronindojo.io/install/verify-os/.
 
 
 Ili kuchoma picha hii kwenye kadi yako ndogo ya SD, unaweza kutumia programu kama vile Balena Etcher, ambayo unaweza kuipakua hapa: https://www.balena.io/etcher/.
@@ -232,6 +236,8 @@ Katika terminal, itaonekana kama hii:
 
 Sasa umeunganishwa kwenye mashine yako, ambayo kwa sasa ina RoninOS pekee. Sasa unahitaji kusakinisha RoninDojo juu yake.
 
+
+> **Kumbuka (Oktoba 2026):** Amri iliyo hapa chini haifanyi kazi tena: GitLab ya Samourai (code.samourai.io) ilikamatwa tarehe 24 Aprili 2024. RoninDojo sasa inahifadhi msimbo wake hapa: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Kwa utaratibu wa sasa wa usakinishaji, tazama [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
 
 Pakua toleo la hivi karibuni la RoninDojo kwa kuingiza amri ifuatayo:
 
@@ -508,16 +514,16 @@ Unapotekeleza CoinJoin na utekelezaji wa Whirlpool, programu unayotumia lazima i
 
 Suluhisho moja la kizuizi hiki ni kutumia WhirlpoolCLI kwenye mashine ambayo inakusudiwa kuwashwa kila wakati, kama vile nodi ya Bitcoin. Kwa hili, UTXO zetu zinaweza kuchanganywa 24/7 bila hitaji la kuweka mashine nyingine isipokuwa nodi yetu ya Bitcoin inayofanya kazi.
 
-WhirlpoolCLI inatumiwa na WhirlpoolGUI, Interface ya picha itakayosakinishwa kwenye kompyuta ya kibinafsi kwa usimamizi rahisi wa Coinjoins. Nitaelezea kwa undani jinsi ya kusanidi Whirlpool CLI na dojo yako mwenyewe katika nakala hii: [kiungo](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=dans%20cette%20p artie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
+WhirlpoolCLI inatumiwa na WhirlpoolGUI, Interface ya picha itakayosakinishwa kwenye kompyuta ya kibinafsi kwa usimamizi rahisi wa Coinjoins. Nitaelezea kwa undani jinsi ya kusanidi Whirlpool CLI na dojo yako mwenyewe katika nakala hii: [kiungo](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20p artie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
 
 
-Ili kupata maelezo zaidi kuhusu CoinJoin kwa ujumla, ninaeleza kila kitu katika makala haya: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin).
+Ili kupata maelezo zaidi kuhusu CoinJoin kwa ujumla, ninaeleza kila kitu katika makala haya: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
 
 ### Kwa kutumia Whirlpool Stat Tool.
 
 
-Baada ya kufanya CoinJoins na Whirlpool, unaweza kutaka kujua kiwango halisi cha faragha ya UTXO zako zilizochanganywa. Whirlpool Stat Tool hukuruhusu kufanya hivi kwa urahisi. Ukiwa na zana hii, unaweza kukokotoa alama tarajiwa na alama ya nyuma ya UTXO zako zilizochanganywa. Ili kujifunza zaidi kuhusu kuhesabu Seti hizi za Anon na jinsi zinavyofanya kazi, ninapendekeza usome sehemu hii: [kiungo](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%rcdeC3%A9%ment%3%A9).
+Baada ya kufanya CoinJoins na Whirlpool, unaweza kutaka kujua kiwango halisi cha faragha ya UTXO zako zilizochanganywa. Whirlpool Stat Tool hukuruhusu kufanya hivi kwa urahisi. Ukiwa na zana hii, unaweza kukokotoa alama tarajiwa na alama ya nyuma ya UTXO zako zilizochanganywa. Ili kujifunza zaidi kuhusu kuhesabu Seti hizi za Anon na jinsi zinavyofanya kazi, ninapendekeza usome sehemu hii: [kiungo](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%rcdeC3%A9%ment%3%A9).
 
 
 Zana imesakinishwa awali kwenye RoninDojo yako. Kwa sasa, inapatikana tu kutoka kwa RoninCLI. Ili kuizindua kutoka kwa menyu kuu, nenda kwa:
@@ -604,7 +610,7 @@ WST kisha itaonyesha alama ya rejea (metriki zinazoonekana Nyuma) ikifuatwa na a
 Tafadhali kumbuka kuwa alama tarajiwa ya UTXO yako inakokotolewa kulingana na txid ya mchanganyiko wako wa awali, si mchanganyiko wako wa mwisho. Kinyume chake, alama ya retrospective ya UTXO inahesabiwa kulingana na txid ya mzunguko wa mwisho.
 
 
-Kwa mara nyingine tena, ikiwa huelewi dhana hizi za Anon Sets, ninapendekeza kusoma sehemu hii ya makala yangu kwenye CoinJoin ambapo ninaelezea kila kitu kwa undani na kwa michoro: [https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%Ac%deCm%3%3%A9%Ac9%20p% (https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%Ac%CdeC3%20p%Ac9%20p%
+Kwa mara nyingine tena, ikiwa huelewi dhana hizi za Anon Sets, ninapendekeza kusoma sehemu hii ya makala yangu kwenye CoinJoin ambapo ninaelezea kila kitu kwa undani na kwa michoro: [https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%Ac%deCm%3%3%A9%Ac9%20p% (https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%Ac%CdeC3%20p%Ac9%20p%
 
 
 ### Kwa kutumia kikokotoo cha Boltzmann.
@@ -968,7 +974,7 @@ Tumeona jinsi ya kusakinisha na kuanza kutumia zana hii nzuri ambayo ni RoninDoj
 Ikiwa kutumia terminal hakuogopi na ikiwa hauitaji zana zinazohusiana na Lightning Network, basi RoninDojo inaweza kukuvutia.
 
 
-Ukiweza, zingatia kuchangia wasanidi programu wanaokutengenezea programu hizi za programu huria: https://donate.ronindojo.io/
+Ukiweza, zingatia kuchangia wasanidi programu wanaokutengenezea programu hizi za programu huria: https://docs.ronindojo.io/main/donations/
 
 
 Ili kujifunza zaidi kuhusu RoninDojo, ninapendekeza uangalie viungo kwenye rasilimali zangu za nje hapa chini.
@@ -992,5 +998,5 @@ Ili kujifunza zaidi kuhusu RoninDojo, ninapendekeza uangalie viungo kwenye rasil
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/introducing-boltzmann-85930984a159
 - https://en.wikipedia.org/wiki/Boltzmann_formula
-- https://wiki.ronindojo.io/en/setup/bisq
+- https://web.archive.org/web/20240214172859/https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/

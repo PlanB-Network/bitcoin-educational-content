@@ -267,7 +267,7 @@ Blockchain, トランザクション, ダブルスペンド, ビザンチン将�
 このコースブロックの目的は、BTCPay Server ソフトウェアの一般的な理解を得ることです。共有環境では、講師のデモンストレーションに従い、BTCPay Server コースブックを参照し、講師と一緒に進めていくことをお勧めします。Walletを複数の方法で作成する方法を学びます。例として、Hot Wallet セットアップや BTCPay Server Vault を通して接続されたハードウェアウォレットがあります。これらの目標は、コースのインストラクターによって表示され、アクセスできるデモ環境で発生します。
 
 
-このコースに自分で参加する場合、https://directory.btcpayserver.org/filter/hosts にデモ用のサードパーティホストのリストがあります。これらのサードパーティオプションを本番環境として使用しないことを強くお勧めします。しかし、これらはBitcoinとBTCPay Serverの使用を紹介するための適切な目的を果たします。
+このコースに自分で参加する場合、https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/ にデモ用のサードパーティホストのリストがあります。これらのサードパーティオプションを本番環境として使用しないことを強くお勧めします。しかし、これらはBitcoinとBTCPay Serverの使用を紹介するための適切な目的を果たします。
 
 
 BTCPay Server rockstarの研修生として、Bitcoinノードをセットアップした経験があるかもしれません。このコースは、特にBTCPayサーバーソフトウェアスタックに合わせています。
@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoinノードログ
 
 
-bitcoindコンテナの[ログを見る](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs)だけでなく、[bitcoin-cliコマンド](https://developer.Bitcoin.org/reference/RPC/index.html)を使うこともできる。
+bitcoindコンテナの[ログを見る](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs)だけでなく、[bitcoin-cliコマンド](https://developer.bitcoin.org/reference/rpc/index.html)を使うこともできる。
 
 
-Bitcoinノードから情報を取得するには、[(新しいウィンドウが開きます)](https://developer.Bitcoin.org/reference/RPC/index.html)をクリックしてください。BTCPayには、Bitcoinノードと簡単に通信できるスクリプトが含まれています。
+Bitcoinノードから情報を取得するには、[(新しいウィンドウが開きます)](https://developer.bitcoin.org/reference/rpc/index.html)をクリックしてください。BTCPayには、Bitcoinノードと簡単に通信できるスクリプトが含まれています。
 
 
 btcpayserver-dockerフォルダの中で、あなたのノードを使ってBlockchain情報を取得します：

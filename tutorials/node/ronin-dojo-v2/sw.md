@@ -7,6 +7,8 @@ description: Kufunga nodi yako ya RoninDojo v2 Bitcoin kwenye Raspberry Pi
 
 **ONYO:** Kufuatia kukamatwa kwa waanzilishi wa Samourai Wallet na kunaswa kwa seva zao mnamo Aprili 24, vipengele fulani vya RoninDojo, kama vile Whirlpool, havifanyi kazi tena. Hata hivyo, kuna uwezekano kwamba zana hizi zinaweza kurejeshwa au kuzinduliwa upya kwa njia tofauti katika wiki zijazo. Zaidi ya hayo, kwa kuwa msimbo wa RoninDojo ulipangishwa kwenye GitLab ya Samourai, ambayo pia ilichukuliwa, kwa sasa haiwezekani kupakua msimbo kwa mbali. Timu za RoninDojo huenda zinashughulikia kuchapisha upya msimbo.*
 
+> **Sasisho (Oktoba 2026):** RoninDojo imechapisha upya msimbo wake kwenye jukwaa lake lenyewe ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) na sasa iko kwenye toleo la 3. Mafunzo haya yanaeleza toleo la zamani: baadhi ya viungo na amri hazifanyi kazi tena. Kwa utaratibu wa sasa, tazama nyaraka rasmi: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 
 _Tunafuatilia kwa karibu maendeleo ya kesi hii pamoja na maendeleo kuhusu zana zinazohusiana. Uwe na uhakika kwamba tutasasisha mafunzo haya kadiri habari mpya zinavyopatikana._
 
@@ -37,7 +39,9 @@ https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-
 Hapo awali Dojo ni utekelezaji kamili wa nodi za Bitcoin, kulingana na Bitcoin Core, na kuendelezwa na timu za Samourai Wallet. Suluhisho hili linaweza kusanikishwa kwenye kifaa chochote. Tofauti na utekelezaji mwingine wa Core, Dojo imeboreshwa mahususi ili kuunganishwa na mazingira ya utumizi wa Android ya Samourai Wallet. Kuhusu RoninDojo, ni shirika lililoundwa ili kuwezesha usakinishaji na usimamizi wa Dojo, pamoja na zana zingine mbalimbali za ziada. Kwa kifupi, RoninDojo inaboresha utekelezaji wa msingi wa Dojo kwa kuunganisha wingi wa zana za ziada, huku ikirahisisha usakinishaji na usimamizi wake.
 
 
-Ronin pia hutoa [suluhisho la nodi ndani ya kisanduku, linaloitwa "*Tanto*"](https://ronindojo.io/en/products), kifaa ambacho RoninDojo tayari kimesakinishwa kwenye mfumo uliounganishwa na timu yao. Tanto ni chaguo la kulipwa, ambalo linaweza kuvutia kwa wale wanaopendelea kuepuka matatizo ya kiufundi. Lakini kwa kuwa msimbo wa chanzo wa RoninDojo umefunguliwa, inawezekana pia kuipeleka kwenye vifaa vyako mwenyewe. Hii mbadala, ya kiuchumi zaidi, hata hivyo inahitaji ujanja wa ziada, ambao tutashughulikia katika somo hili.
+Ronin pia hutoa [suluhisho la nodi ndani ya kisanduku, linaloitwa "*Tanto*"](https://docs.ronindojo.io/hardware/tanto/), kifaa ambacho RoninDojo tayari kimesakinishwa kwenye mfumo uliounganishwa na timu yao. Tanto ni chaguo la kulipwa, ambalo linaweza kuvutia kwa wale wanaopendelea kuepuka matatizo ya kiufundi. Lakini kwa kuwa msimbo wa chanzo wa RoninDojo umefunguliwa, inawezekana pia kuipeleka kwenye vifaa vyako mwenyewe. Hii mbadala, ya kiuchumi zaidi, hata hivyo inahitaji ujanja wa ziada, ambao tutashughulikia katika somo hili.
+
+> **Kumbuka (Oktoba 2026):** Inaonekana RoninDojo haiuzi tena Tanto, na duka lake la mtandaoni halipatikani. Tazama orodha ya vifaa vinavyooana: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
 
 RoninDojo ni Dojo, kwa hivyo inaruhusu ujumuishaji rahisi wa Whirlpool CLI kwenye nodi yako ya Bitcoin ili kutoa matumizi bora zaidi ya CoinJoin. Ukiwa na Whirlpool CLI, inakuwa rahisi kuendelea kuchanganya bitcoins zako, saa 24 kwa siku, siku 7 kwa wiki, bila kuhitaji kompyuta yako ya kibinafsi iendelee kuwashwa.
 
@@ -56,7 +60,9 @@ Sasa kwa kuwa tumeelezea RoninDojo, hebu tuone pamoja jinsi ya kusanidi nodi hii
 
 ## Ni vifaa gani vya kuchagua kwa kusakinisha RoninDojo v2?
 
-RoninDojo inatoa picha ya usakinishaji kiotomatiki wa programu yake kwenye [RockPro64](https://ronindojo.io/en/download). Hata hivyo, somo letu linaangazia utaratibu wa usakinishaji wa mwongozo kwenye Raspberry Pi 4. Ingawa Raspberry Pi 5 imezinduliwa hivi majuzi, na mafunzo haya yanafaa kinadharia kuendana na mtindo huu mpya, bado sijapata fursa ya kukijaribu kibinafsi, na sijapata maoni yoyote kutoka kwa jumuiya. Mara tu nitakapopata Pi 5 na vipengee vinavyotumika, nitasasisha mafunzo haya ili kukufahamisha. Wakati huo huo, ninapendekeza kuweka kipaumbele kwa Pi 4, kwani inafanya kazi kikamilifu kwa nodi yangu.
+RoninDojo inatoa picha ya usakinishaji kiotomatiki wa programu yake kwenye [RockPro64](https://ronindojo.io/downloads). Hata hivyo, somo letu linaangazia utaratibu wa usakinishaji wa mwongozo kwenye Raspberry Pi 4. Ingawa Raspberry Pi 5 imezinduliwa hivi majuzi, na mafunzo haya yanafaa kinadharia kuendana na mtindo huu mpya, bado sijapata fursa ya kukijaribu kibinafsi, na sijapata maoni yoyote kutoka kwa jumuiya. Mara tu nitakapopata Pi 5 na vipengee vinavyotumika, nitasasisha mafunzo haya ili kukufahamisha. Wakati huo huo, ninapendekeza kuweka kipaumbele kwa Pi 4, kwani inafanya kazi kikamilifu kwa nodi yangu.
+
+> **Kumbuka (Oktoba 2026):** RoninDojo sasa pia inatoa picha rasmi za RoninOS kwa Rock5B+, Raspberry Pi 5 na mashine za x86.
 
 Kwa upande wangu, ninaendesha RoninDojo kwenye Raspberry Pi iliyo na 8 GB ya RAM. Ingawa baadhi ya wanajamii wameweza kuifanya ifanye kazi kwenye vifaa vilivyo na RAM ya GB 4 pekee, sijajaribu usanidi huu mimi mwenyewe. Kwa kuzingatia tofauti ndogo ya bei, inaonekana kuwa busara kuchagua toleo la 8 GB la RAM. Hii inaweza pia kuwa muhimu ikiwa unapanga kutumia tena Raspberry Pi yako kwa matumizi mengine katika siku zijazo.
 
@@ -290,6 +296,8 @@ Mara tu sasisho zimekamilika, endelea kusakinisha *Git* na *Dialog* kwa kutumia 
 `sudo apt install git dialog -y`
 
 
+> **Kumbuka (Oktoba 2026):** Amri iliyo hapa chini haifanyi kazi tena: GitLab ya Samourai (code.samourai.io) ilikamatwa tarehe 24 Aprili 2024. RoninDojo sasa inahifadhi msimbo wake hapa: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Kwa utaratibu wa sasa wa usakinishaji, tazama [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
+
 Ifuatayo, fanya tawi la `master` la hazina ya _RoninOS_ Git kwa kutekeleza:
 
 `sudo git clone --branch master https://code.samourai.io/ronindojo/RoninOS.git /opt/RoninOS`
@@ -333,7 +341,7 @@ Mara moja kwenye ukurasa wa nyumbani wa RoninUI, utaulizwa kuanza usanidi. Ili k
 ![lets start](assets/notext/25.webp)
 
 
-Katika hatua hii, RoninUI inakuletea nenosiri lako la `root`. Ni muhimu kuiweka salama. Unaweza kuchagua kupata nakala halisi, kwenye karatasi, au kuihifadhi katika [kidhibiti nenosiri](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-155).
+Katika hatua hii, RoninUI inakuletea nenosiri lako la `root`. Ni muhimu kuiweka salama. Unaweza kuchagua kupata nakala halisi, kwenye karatasi, au kuihifadhi katika [kidhibiti nenosiri](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 
 ![root password](assets/notext/26.webp)
@@ -479,7 +487,9 @@ Ili kuunganisha Samourai Wallet yako kwenye Dojo yako, changanua tu msimbo huu w
 ![Samourai Wallet connection](assets/notext/36.webp)
 
 
-Ikiwa tayari ulikuwa na Samourai Wallet kabla ya kusanidi Ronin Dojo yako, ni muhimu kuhifadhi nakala ya Wallet yako, kufuta na kusakinisha tena programu ya Samourai Wallet, kabla ya kurejesha Wallet yako. Baada ya kuzindua programu iliyosakinishwa upya, utakuwa na chaguo la kuunganisha kwenye Dojo mpya. **Kuwa mwangalifu, mchakato huu una hatari ya kupoteza bitcoins zako ikiwa hautatekelezwa ipasavyo!** Hakikisha una nakala rudufu ya Samourai Wallet yako kwenye faili zako na uthibitishe uhalali wa passphrase yako kupitia `Mipangilio > Tatua matatizo > passphrase`. Pia ni muhimu kuwa na nakala inayoweza kusomeka ya maneno yako ya kurejesha uwezo wa kufikia akaunti na passphrase yako. Kwa usahihi zaidi katika operesheni hii, inashauriwa kufuata mafunzo haya ya kina: [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+Ikiwa tayari ulikuwa na Samourai Wallet kabla ya kusanidi Ronin Dojo yako, ni muhimu kuhifadhi nakala ya Wallet yako, kufuta na kusakinisha tena programu ya Samourai Wallet, kabla ya kurejesha Wallet yako. Baada ya kuzindua programu iliyosakinishwa upya, utakuwa na chaguo la kuunganisha kwenye Dojo mpya. **Kuwa mwangalifu, mchakato huu una hatari ya kupoteza bitcoins zako ikiwa hautatekelezwa ipasavyo!** Hakikisha una nakala rudufu ya Samourai Wallet yako kwenye faili zako na uthibitishe uhalali wa passphrase yako kupitia `Mipangilio > Tatua matatizo > passphrase`. Pia ni muhimu kuwa na nakala inayoweza kusomeka ya maneno yako ya kurejesha uwezo wa kufikia akaunti na passphrase yako. Kwa usahihi zaidi katika operesheni hii, inashauriwa kufuata mafunzo haya ya kina: [https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+
+> **Onyo (Oktoba 2026):** Samourai Wallet haipo tena: seva zake zilikamatwa na waanzilishi wake walikamatwa tarehe 24 Aprili 2024. Kiungo kilicho hapo juu kinaelekeza kwenye nakala iliyohifadhiwa ya mwongozo huo. RoninDojo sasa inaeleza Ashigaru, fork ya Samourai Wallet: [docs.ronindojo.io/guides-wallet/ashigaru](https://docs.ronindojo.io/guides-wallet/ashigaru/)
 
 
 ### Kwa kutumia Mempool.space yako mwenyewe Block explorer
@@ -824,7 +834,7 @@ Kuhusu vichupo vingine vinavyopatikana kwenye dashibodi yako ya RoninUI:
 - `Mipangilio`: Hukuruhusu kubadilisha nenosiri lako la mtumiaji.
 
 
-Hapo unayo! Asante kwa kufuatilia mafunzo haya hadi mwisho. Ikiwa uliyafurahia, nakuhimiza kushiriki kwenye mitandao ya kijamii. Zaidi ya hayo, ikiwa una fursa, zingatia kuunga mkono wasanidi programu wanaofanya programu hizi huria na huria kupatikana kwa jumuiya yetu kwa mchango: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Ili kuongeza ujuzi wako wa RoninDojo na kugundua rasilimali zaidi, ninapendekeza sana kushauriana na viungo vya rasilimali za nje zilizotajwa hapa chini.
+Hapo unayo! Asante kwa kufuatilia mafunzo haya hadi mwisho. Ikiwa uliyafurahia, nakuhimiza kushiriki kwenye mitandao ya kijamii. Zaidi ya hayo, ikiwa una fursa, zingatia kuunga mkono wasanidi programu wanaofanya programu hizi huria na huria kupatikana kwa jumuiya yetu kwa mchango: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). Ili kuongeza ujuzi wako wa RoninDojo na kugundua rasilimali zaidi, ninapendekeza sana kushauriana na viungo vya rasilimali za nje zilizotajwa hapa chini.
 
 
 **Nyenzo za nje:**
@@ -834,5 +844,5 @@ Hapo unayo! Asante kwa kufuatilia mafunzo haya hadi mwisho. Ikiwa uliyafurahia, 
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)
 

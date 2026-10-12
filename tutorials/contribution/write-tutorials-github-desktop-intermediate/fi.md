@@ -177,7 +177,7 @@ Kun kaikki tiedot on syötetty ja tarkistettu, klikkaa "Create Tutorial" vahvist
 
 Voit nyt ohittaa alajakson "Ilman Python-skriptiä" sekä vaiheen 3 "Täytä YAML-tiedosto", koska skripti on jo suorittanut nämä toimet puolestasi. Siirry suoraan vaiheeseen 4 ja aloita opetusohjelmasi kirjoittaminen.
 
-Lisätietoja tästä Python-skriptistä saat myös [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Lisätietoja tästä Python-skriptistä saat myös [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md).
 
 ### Ilman Python-skriptiäni
 

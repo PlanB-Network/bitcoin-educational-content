@@ -3,10 +3,9 @@ name: Boltz
 description: Vaihda eri Bitcoin-kerrosten välillä säilyttäen samalla hallinta.
 ---
 
-
 ![cover](assets/cover.webp)
 
-
+> **Varoitus (lokakuu 2026):** Boltz keskeytti kaikki swapit 3. elokuuta 2026 useiden haavoittuvuuksien hyväksikäytön jälkeen, ja sen verkkosivusto on poissa käytöstä. Tämän oppaan linkit ja vaiheet eivät enää toimi. Säilytämme tämän sivun viitteenä, kunnes se päivitetään.
 
 Vuonna 2009 tapahtuneen käyttöönoton jälkeen Bitcoin:n vertaisverkkoon perustuva sähköinen käteisrahajärjestelmä on kasvanut räjähdysmäisesti, ja se on kehittänyt ratkaisuja, joiden ansiosta se on nykyään järjestelmä, jota voimme käyttää välittömästi jokapäiväisissä toimissamme, erityisesti Lightning Network:n kautta.
 
@@ -20,7 +19,7 @@ Bitcoin:n protokollakerrosten välillä oli kuitenkin edelleen suuri ongelma: ne
 
 
 
-[Boltz](https://boltz.Exchange) on ei-hallinnollinen alusta, joka sopii kaikille, jotka haluavat käydä kauppaa Bitcoin-protokollan eri kerrosten välillä:
+Boltz on ei-hallinnollinen alusta, joka sopii kaikille, jotka haluavat käydä kauppaa Bitcoin-protokollan eri kerrosten välillä:
 
 
 

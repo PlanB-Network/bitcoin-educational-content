@@ -152,7 +152,7 @@ Uma vez que o Bitcoin é um sistema, tem necessariamente de ser executado em com
 
 
 
-Nakamoto, S. (2008). *Bitcoin: Um sistema de dinheiro eletrónico peer-to-peer*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Um sistema de dinheiro eletrónico peer-to-peer*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -204,7 +204,7 @@ A primeira tarefa de um nó é manter uma cópia local do Blockchain. Para evita
 
 > A única forma de confirmar a ausência de uma transação é estar atento a todas as transacções.
 
-Nakamoto, S. (2008). *Bitcoin: Um sistema de dinheiro eletrónico peer-to-peer*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Um sistema de dinheiro eletrónico peer-to-peer*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -383,7 +383,7 @@ Em teoria, o Bitcoin core não representa o protocolo Bitcoin; é apenas uma imp
 
 
 
-De acordo com [dados recolhidos em agosto de 2025 por Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (um conhecido programador do ecossistema), a distribuição das implementações entre os nós públicos da rede é a seguinte:
+De acordo com [dados recolhidos em agosto de 2025 por Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (um conhecido programador do ecossistema), a distribuição das implementações entre os nós públicos da rede é a seguinte:
 
 
 
@@ -766,7 +766,7 @@ Um nó [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (*Sim
 
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -1521,7 +1521,7 @@ Uma das principais vantagens da Umbrel em relação aos seus concorrentes é a s
 
 
 
-O código do Umbrel está disponível publicamente (pode ver, Fork, e modificá-lo), mas não está sob uma verdadeira licença de código aberto. De facto, o umbrelOS é distribuído sob a licença [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), embora algumas ferramentas de desenvolvimento associadas estejam disponíveis sob a licença MIT.
+O código do Umbrel está disponível publicamente (pode ver, Fork, e modificá-lo), mas não está sob uma verdadeira licença de código aberto. De facto, o umbrelOS é distribuído sob a licença [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0), embora algumas ferramentas de desenvolvimento associadas estejam disponíveis sob a licença MIT.
 
 
 
@@ -3884,7 +3884,7 @@ Finalmente, o arquivo `Bitcoin.conf` também permite configurar os parâmetros d
 
 
 
-Terminamos agora de listar a maioria dos parâmetros de configuração. Este arquivo `Bitcoin.conf` constitui o verdadeiro painel de controle do seu nó: ele define a configuração da rede, gerenciamento do Mempool, uso de disco e memória, indexação e administração geral. Se quiser saber mais sobre este ficheiro e criar um à medida das suas necessidades, recomendo a utilização do [Jameson Lopp's generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Terminamos agora de listar a maioria dos parâmetros de configuração. Este arquivo `Bitcoin.conf` constitui o verdadeiro painel de controle do seu nó: ele define a configuração da rede, gerenciamento do Mempool, uso de disco e memória, indexação e administração geral. Se quiser saber mais sobre este ficheiro e criar um à medida das suas necessidades, recomendo a utilização do [Jameson Lopp's generator](https://jlopp.github.io/bitcoin-core-config-generator/).
 
 
 

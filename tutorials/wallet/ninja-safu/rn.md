@@ -36,7 +36,7 @@ Uburyo bwa Ninja SAFU buratanga ivyiza vyinshi:
 
 
 
-- Ukwizigirwa**: Ubu buryo bwageragejwe kuva mu 2020, bwageragejwe kandi burageragezwa n’abahinga mu vy’umutekano nka [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-ububiko-bw’ibisubirwamwo/ibisubirwamwo/safu-ninja/), bakabugerageza cane.
+- Ukwizigirwa**: Ubu buryo bwageragejwe kuva mu 2020, bwageragejwe kandi burageragezwa n’abahinga mu vy’umutekano nka [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/), bakabugerageza cane.
 
 
 
@@ -354,13 +354,13 @@ Nk’uko Jameson Lopp abivuga:
 
 
 
-- [Raporo](ivy'ububiko-bw'ivyuma-Bitcoin-ibisubirwamwo/ibisubirwamwo/safu-ninja/) ku buryo bwa Ninja SAFU
+- [Raporo](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) ku buryo bwa Ninja SAFU
 
 
 
 
 
-- Imbonerahamwe y'ukugereranya [yuzuye](ivyuma-Bitcoin-ibisubirwamwo-vy'ububiko/?ref=blog.lopp.net)
+- Imbonerahamwe y'ukugereranya [yuzuye](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 
@@ -380,22 +380,22 @@ Nk’uko Jameson Lopp abivuga:
 
 
 - Abamesa** ku
- - [Titan](ibicuruzwa/amadisiki-ya-seed-y'inyongera-titan-Wallet)
+ - [Titan](https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
 - Ivyo gumesa + umugozi + igisandugu co gukingira** (ku bikoresho vyo gumesa)
- - [Titan](uburyo bwo gukora/ibicuruzwa/titan-Wallet-vy'agaciro-vy'icuma-Wallet-ivy'inyuma? umuhinduzi=50022696419664)
- - [Ivyuma](https://pleb.uburyo/fr-fr/ibicuruzwa/ivyuma-Wallet-uburyo-bwo-acier-ububiko)
+ - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
+ - [Ivyuma](https://pleb.style/fr-fr/products/terrasteel-wallet-plebstyle-acier-backup)
 - Gutera ibipfunsi
- - [Umuco wa Pleb](https://uburyo bwa Pleb/fr/ibicuruzwa/Igikoresho c'Ikigereranyo-a-z-0-9-3mm)
+ - [Umuco wa Pleb](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
 - Ishingiro ryo kwandika**
- - [Umuco wa Pleb](https: Uburyo bwa bose/ibicuruzwa/uburyo bwa bose-10cm-x-10cm-x-1-5cm)
+ - [Umuco wa Pleb](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
 - Igikoresho co gukorako** (uburongozi)
- - [Ivyuma vy'Ivu](Ivyuma vy'Igihugu/Ivyuma vy'Igihugu?
+ - [Ivyuma vy'Ivu](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r) vy'Igihugu/Ivyuma vy'Igihugu?
 - Igikoresho co gukingira
- - [Igikapu gikingijwe](https://pleb.style/fr/ibicuruzwa/zubehor-5x-uburyo-buteye igomwe-bushobora-guhindurwa-bugaragara)
- - [Ibipande vyo gukingira](https://pleb.style/fr/ibicuruzwa/zubehor-5x-siegel-ubwoya-bw'ibara-seed-ububiko)
+ - [Igikapu gikingijwe](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
+ - [Ibipande vyo gukingira](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
 - Ibikoresho vyuzuye**
- - [Titan](b r_prod_strat=e5_ibisobanuro&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=imwe)
- - [Ivyuma vy'Ivu](https://pleb.style/fr-fr/ibicuruzwa/Ivyuma-vy'Ivu-Wallet-Igikoresho co Gutangura)
+ - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
+ - [Ivyuma vy'Ivu](https://pleb.style/fr-fr/products/kopie-von-terrasteel-wallet-starter-kit)
 
 
 
@@ -414,7 +414,7 @@ Gahunda B ntishobora gufatwa nk’iyifise uruhara ku makosa, uguhinduka kw’ibi
 
 
 
-https://uburyo.bwa bose/fr/
+https://pleb.style/fr/
 
 
 1463155802345193475

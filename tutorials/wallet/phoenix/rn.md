@@ -41,8 +41,8 @@ Genda mu bubiko bwawe bw'amaporogarama maze ushiremwo Phoenix :
 
 
 
-- Ku [Iduka ry’Imikino ya Google](Iduka ry’Imikino ya Google](id=fr.acinq.phoenix.Mainnet);
-- Ku [Iduka ry'Iporogarama](Iduka ry'Iporogarama.
+- Ku [Iduka ry’Imikino ya Google](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet) ry’Imikino ya Google](id=fr.acinq.phoenix.Mainnet);
+- Ku [Iduka ry'Iporogarama](https://apps.apple.com/fr/app/phoenix-wallet/id1544097028?l=en-GB) ry'Iporogarama.
 
 
 ![Image](assets/fr/02.webp)

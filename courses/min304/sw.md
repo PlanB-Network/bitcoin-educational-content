@@ -423,7 +423,7 @@ Baada ya kukagua pointi hizi zote, unaweza kununua mashine yako kwa kiwango cha 
 
 Kwa muhtasari wa mwongozo huu katika sentensi moja: **"Usiamini, thibitisha."**
 
-[Unaweza pia kurejea kwa wataalamu katika urekebishaji upya wa mashine za Mining, kama vile mshirika wetu 21energy. Wanatoa mashine za S9 zilizojaribiwa, zilizosafishwa na zenye programu ya BraiiinOS+ tayari imesakinishwa. Ukiwa na msimbo wa washirika "decouvre," utapokea punguzo la 10% kwa ununuzi wa S9 huku ukisaidia mradi wa Attakai.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[Unaweza pia kurejea kwa wataalamu katika urekebishaji upya wa mashine za Mining, kama vile mshirika wetu 21energy. Wanatoa mashine za S9 zilizojaribiwa, zilizosafishwa na zenye programu ya BraiiinOS+ tayari imesakinishwa. Ukiwa na msimbo wa washirika "decouvre," utapokea punguzo la 10% kwa ununuzi wa S9 huku ukisaidia mradi wa Attakai.](https://21energy.com/products/bitmain-antminer-s9)
 
 ## Mwongozo wa Ununuzi wa Marekebisho ya maunzi kwa S9
 

@@ -5,7 +5,7 @@ description: Bitcoin Wallet ya kiwango cha chini kwa kila mtu
 
 ![cover](assets/cover.webp)
 
-
+> **Onyo (Oktoba 2026):** StashPay imesitishwa. Mwandishi wake alitangaza mwisho wake tarehe 26 Julai 2026 na programu ilifungwa tarehe 31 Agosti 2026; tovuti haipatikani tena ([soma tangazo](https://blog.onionmill.com/p/sunsetting-stashpay)). Ili kurejesha pochi yako ya Liquid, ingiza maneno yako ya urejeshaji kwenye Blockstream App. Tunahifadhi ukurasa huu kwa marejeleo.
 
 Uzoefu wa mtumiaji ni jambo muhimu katika kupitishwa kwa suluhu za Bitcoin kote ulimwenguni. Kutoa hali ya utumiaji laini, rahisi na isiyozuiliwa kitaalam ni kipaumbele kwa pochi nyingi na majukwaa ya Exchange. Katika suala hili, StashPay inajitokeza kwa mbinu yake ya uchache, wakati huo huo ikionyesha uwezo wa Lightning Network.
 
@@ -23,7 +23,7 @@ StashPay ni Lightning inayojilinda yenyewe ya Wallet inayotambulika hasa kwa utu
 
 
 
-StashPay ni mradi wa programu huria uliotengenezwa katika React Native na unalenga kutatua tatizo la ada za juu za ununuzi hata kwa miamala kwenye msururu mkuu wa itifaki ya Bitcoin. Inapatikana kama programu ya simu kwenye mifumo ya Android na iOS kupitia viungo vya kupakua vilivyopo kwenye [tovuti](https://stashpay.me/).
+StashPay ni mradi wa programu huria uliotengenezwa katika React Native na unalenga kutatua tatizo la ada za juu za ununuzi hata kwa miamala kwenye msururu mkuu wa itifaki ya Bitcoin. Inapatikana kama programu ya simu kwenye mifumo ya Android na iOS kupitia viungo vya kupakua vilivyopo kwenye tovuti.
 
 
 

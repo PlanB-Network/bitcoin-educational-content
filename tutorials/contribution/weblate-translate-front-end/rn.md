@@ -15,7 +15,7 @@ Muri iyi nyigisho, tuzokwereka ingene wotanga umusanzu mu buryo bworoshe mu guhi
 - ibirimwo inyigisho (inyigisho, amashure, ibikoresho...).
 
 
-Kugira ngo duhindure ibirimwo inyigisho, dukoresha [ubwenge bukorano](https://github.com/Asi0Flammeus/LLM-Umuhinduzi). Hanyuma, kugira ngo dukosore amakosa yoshobora gushika muri izo dosiye, turatumira abakosora amadosiye ngo bashiremwo intererano. Niba wipfuza gukosora ibirimwo, raba inyigisho ikurikira:
+Kugira ngo duhindure ibirimwo inyigisho, dukoresha [ubwenge bukorano](https://github.com/Asi0Flammeus/LLM-Translator). Hanyuma, kugira ngo dukosore amakosa yoshobora gushika muri izo dosiye, turatumira abakosora amadosiye ngo bashiremwo intererano. Niba wipfuza gukosora ibirimwo, raba inyigisho ikurikira:
 
 
 https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
@@ -40,7 +40,7 @@ Niwaba witeguye gutangura guhindura, subira muri iyi nyigisho maze unyure mu ngi
 
 
 
-- Genda kuri [urubuga rw'urubuga rwa Plan ₿ Academy](https://urubuga.umugambi.urubuga/):
+- Genda kuri [urubuga rw'urubuga rwa Plan ₿ Academy](https://weblate.planb.network/):
 
 ![weblate](assets/01.webp)
 

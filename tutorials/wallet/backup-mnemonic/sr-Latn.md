@@ -62,19 +62,19 @@ Da biste sačuvali svoju frazu za oporavak, potrebno je da je zapišete na fizi�
 Dok je zapisivanje vaše fraze na običan komad papira već dobra praksa, odabir metalnog držača, kao što je nerđajući čelik, nudi dodatnu sigurnost. Ova vrsta držača štiti vašu Mnemonic frazu od rizika od požara, poplave ili urušavanja koji mogu uticati na mesto skladištenja.
 
 
-Za one koji traže ekonomičnu opciju za čuvanje svoje fraze na metalu, [DIY metoda "*SAFU Ninja*"](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) je odlično rešenje. Sve što treba da uradite je da kupite metalne podloške, šraf i maticu u prodavnicama. Zatim ugravirate reči svoje rečenice na svaku podlošku, pazeći da ih numerišete, i sastavite ih na šraf sa maticom. Ova niskobudžetna metoda već nudi dobru otpornost.
+Za one koji traže ekonomičnu opciju za čuvanje svoje fraze na metalu, [DIY metoda "*SAFU Ninja*"](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) je odlično rešenje. Sve što treba da uradite je da kupite metalne podloške, šraf i maticu u prodavnicama. Zatim ugravirate reči svoje rečenice na svaku podlošku, pazeći da ih numerišete, i sastavite ih na šraf sa maticom. Ova niskobudžetna metoda već nudi dobru otpornost.
 
 
 ![SEED](assets/fr/01.webp)
 
 
-Image credit: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/).
+Image credit: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/).
 
 
-Ako više volite da investirate u kompletan metalni uređaj za bekap, preporučujem da pogledate [testove otpornosti Jamesona Loppa](https://jlopp.github.io/metal-Bitcoin-storage-reviews/), koji ocenjuju većinu rešenja dostupnih na tržištu. Savetovao bih vas da se odlučite za nosače iz jednog komada, kao što je metalna ploča za graviranje, štancovanje ili bušenje. Ovi uređaji generalno nude mnogo veću otpornost od sistema koji koriste nezavisna slova koja se sastavljaju.
+Ako više volite da investirate u kompletan metalni uređaj za bekap, preporučujem da pogledate [testove otpornosti Jamesona Loppa](https://jlopp.github.io/metal-bitcoin-storage-reviews/), koji ocenjuju većinu rešenja dostupnih na tržištu. Savetovao bih vas da se odlučite za nosače iz jednog komada, kao što je metalna ploča za graviranje, štancovanje ili bušenje. Ovi uređaji generalno nude mnogo veću otpornost od sistema koji koriste nezavisna slova koja se sastavljaju.
 
 
-Ako se odlučite za papirni Wallet, imate nekoliko opcija: jednostavan prazan list papira, kartonski Wallet koji se često isporučuje uz vaš Hardware Wallet, ili naš predložak za preuzimanje koji možete odštampati [klikom ovde](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).
+Ako se odlučite za papirni Wallet, imate nekoliko opcija: jednostavan prazan list papira, kartonski Wallet koji se često isporučuje uz vaš Hardware Wallet, ili naš predložak za preuzimanje koji možete odštampati [klikom ovde](https://github.com/planb-network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 
 ![SEED](assets/fr/02.webp)

@@ -11,7 +11,7 @@ Mwongozo huu umetolewa kwa watumiaji wote wapya wanaotaka kuanza kutumia Bitcoin
 Kwa kutumia [Blixt Wallet](https://blixtwallet.com/), nodi kamili ya LN kwenye simu yako ya mkononi, popote ulipo.
 
 
-Iwapo hukuwahi kutumia Bitcoin Lightning Network, kabla ya kuanza, [tafadhali soma mlinganisho huu rahisi wa maelezo kuhusu Lightning Network (LN)](https://darth-coin.github.io/beginner/LN-airport-analogy-en.html).
+Iwapo hukuwahi kutumia Bitcoin Lightning Network, kabla ya kuanza, [tafadhali soma mlinganisho huu rahisi wa maelezo kuhusu Lightning Network (LN)](https://darth-coin.github.io/beginner/ln-airport-analogy-en.html).
 
 
 ## MAMBO MUHIMU:
@@ -22,11 +22,11 @@ Iwapo hukuwahi kutumia Bitcoin Lightning Network, kabla ya kuanza, [tafadhali s
 
 
 
-- Blixt inatumia LND (aezeed) kama Wallet backend, kwa hivyo usijaribu kuingiza aina zingine za pochi za Bitcoin ndani yake. [Hapa umeelezea aina za mbegu za Wallet Mnemonic](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Na hii hapa [orodha pana zaidi ya aina zote za pochi](https://walletsrecovery.org/). Kwa hivyo ikiwa hapo awali ulikuwa na nodi ya LND, unaweza kuleta seed na backup.channels kwenye Blixt, [kama inavyofafanuliwa katika mwongozo huu](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
+- Blixt inatumia LND (aezeed) kama Wallet backend, kwa hivyo usijaribu kuingiza aina zingine za pochi za Bitcoin ndani yake. [Hapa umeelezea aina za mbegu za Wallet Mnemonic](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Na hii hapa [orodha pana zaidi ya aina zote za pochi](https://walletsrecovery.org/). Kwa hivyo ikiwa hapo awali ulikuwa na nodi ya LND, unaweza kuleta seed na backup.channels kwenye Blixt, [kama inavyofafanuliwa katika mwongozo huu](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html).
 
 
 
-- Mwishoni mwa mwongozo huu utapata sehemu maalum yenye ["vidokezo na mbinu"](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
+- Mwishoni mwa mwongozo huu utapata sehemu maalum yenye ["vidokezo na mbinu"](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#tips)
 
 
 
@@ -65,7 +65,7 @@ Kwenye kona ya juu kulia, utaona nukta 3 zinazoamilisha menyu na:
 
 - "Wezesha Tor" - mtumiaji anaweza kuanza na mtandao wa Tor, haswa ikiwa alitaka kurejesha nodi ya zamani ya LND ambayo ilikuwa ikiendeshwa na marafiki wa Tor pekee.
 - "Weka node ya Bitcoin" - ikiwa mtumiaji anataka kuunganisha kwenye node yake moja kwa moja, kusawazisha vizuizi kupitia Neutrino, anaweza kuifanya mara moja kutoka kwa skrini inayokaribishwa. Chaguo hili pia ni nzuri ikiwa muunganisho wako wa mtandao au Tor, sio thabiti sana kuunganishwa na nodi chaguo-msingi ya Bitcoin (node.blixtwallet.com).
-- Hivi karibuni itaongezwa lugha hapo, ili mtumiaji aanze moja kwa moja na lugha inayostarehesha. Iwapo ungependa kuchangia mradi huu wa programu huria kwa tafsiri katika lugha zingine, [tafadhali jiunge hapa](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
+- Hivi karibuni itaongezwa lugha hapo, ili mtumiaji aanze moja kwa moja na lugha inayostarehesha. Iwapo ungependa kuchangia mradi huu wa programu huria kwa tafsiri katika lugha zingine, [tafadhali jiunge hapa](https://explore.transifex.com/blixt-wallet/blixt-wallet/).
 
 
 ### CHAGUO A - Unda Wallet mpya
@@ -241,7 +241,7 @@ HERI YA Bitcoin LIGHTNING!
 Kumbuka, katika sura ya kwanza "ADDRESS ya Kwanza" kulikuwa na chaguo 2 kwenye skrini ya Karibu:
 
 
-- [Chaguo A](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - Unda mpya Wallet
+- [Chaguo A](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#option-a) - Unda mpya Wallet
 - Chaguo B - Rejesha Wallet
 
 
@@ -251,7 +251,7 @@ Kwa hiyo sasa hebu tujadili jinsi ya kurejesha Blixt Wallet au node nyingine yoy
 ### OPTION B - Rejesha Wallet
 
 
-Hapo awali niliandika mwongozo mahususi kuhusu [jinsi ya kurejesha nodi ya Umbrel iliyoanguka](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), ambapo nilitaja pia mbinu ya kutumia Blixt kama mchakato wa kurejesha haraka, kwa kutumia faili ya seed + channel.backup kutoka Umbrel.
+Hapo awali niliandika mwongozo mahususi kuhusu [jinsi ya kurejesha nodi ya Umbrel iliyoanguka](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), ambapo nilitaja pia mbinu ya kutumia Blixt kama mchakato wa kurejesha haraka, kwa kutumia faili ya seed + channel.backup kutoka Umbrel.
 
 
 Pia niliandika mwongozo jinsi ya kurejesha node yako ya Blixt au kuhamisha Blixt yako hadi kifaa kingine, [hapa](https://blixtwallet.github.io/faq#blixt-restore).
@@ -661,7 +661,7 @@ Wakati huo huo hapa kuna viungo vyote kuhusu Njia hii ya Umeme ya Bitcoin:
 - [Onyesho la Blixt - video ya matangazo](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Blixt Girls Kalenda](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - video ya matangazo (unaweza kujaribu matumizi yako ya 1-7 ya GW7)
 - [Kipeperushi cha A4 kinachoweza kuchapishwa chenye hatua za kwanza kwa kutumia Blixt, katika lugha mbalimbali](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt pia inatoa onyesho kamili la utendaji](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) pamoja na tovuti yake au kwenye tovuti maalum ya toleo, ili kuwa na majaribio kamili ya matumizi, kabla ya kuanza kutumia katika ulimwengu halisi.
+- [Blixt pia inatoa onyesho kamili la utendaji](https://blixtwallet.github.io/) pamoja na tovuti yake au kwenye tovuti maalum ya toleo, ili kuwa na majaribio kamili ya matumizi, kabla ya kuanza kutumia katika ulimwengu halisi.
 
 
 ---

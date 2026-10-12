@@ -102,7 +102,7 @@ Ariko rero, Machankura iriko iratorera umuti ico kibazo mu kwagura ibikorwa vyay
 
 
 
-Kugira ngo umenye ibihugu bishasha aho iyo serivisi izoboneka, usabwe kuraba [urubuga] rwabo(https://8333.mobi) ubudasiba.
+Kugira ngo umenye ibihugu bishasha aho iyo serivisi izoboneka, usabwe kuraba [urubuga](https://8333.mobi) rwabo(https://8333.mobi) ubudasiba.
 
 
 
@@ -302,7 +302,7 @@ Ubutumwa buraheza bugaca burungikwa ku nimero yari yarabanje kwandikishwa, uwuko
 
 
 
-Ushobora kuraba [ivyo biganiro vyo kohereza amasanamu] ya bitcoins na PIO TARAS (Umurongozi w’Igifaransa c’Afirika) biciye kuri Machankura kuri telefone y’ishimikiro.
+Ushobora kuraba [ivyo biganiro vyo kohereza amasanamu](https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) ya bitcoins na PIO TARAS (Umurongozi w’Igifaransa c’Afirika) biciye kuri Machankura kuri telefone y’ishimikiro.
 
 
 
@@ -371,7 +371,7 @@ Ica kabiri, kikaba ari ugushiramwo ivyiza vy’ica mbere, ni ukuba umuti w’aba
 
 
 
-Kugira ngo utangure, ukeneye kwandika ubutumwa kuri bot ya WhatsApp ya Machankura ("Hi" yoroshe irarengeye). Numero yiwe ya WhatsApp ni [+27 73 762 5720](27737625720).
+Kugira ngo utangure, ukeneye kwandika ubutumwa kuri bot ya WhatsApp ya Machankura ("Hi" yoroshe irarengeye). Numero yiwe ya WhatsApp ni [+27 73 762 5720](https://wa.me/+27737625720).
 
 
 

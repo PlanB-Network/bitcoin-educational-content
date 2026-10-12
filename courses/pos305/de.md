@@ -267,7 +267,7 @@ Blockchain, Transaktion, Doppelausgabe, Byzantinisches Problem der Generäle, [M
 Das Ziel dieses Kursblocks ist es, ein allgemeines Verständnis der BTCPay Server Software zu erlangen. In einer gemeinsamen Umgebung wird empfohlen, der Demonstration des Kursleiters zu folgen und das BTCPay Server Kursbuch zu Rate zu ziehen, um dem Kursleiter zu folgen. Sie werden lernen, wie Sie einen Wallet mit verschiedenen Methoden erstellen können. Beispiele sind Hot Wallet-Setups und Hardware-Wallets, die über BTCPay Server Vault verbunden sind. Diese Ziele werden in der Demo-Umgebung erreicht, die von Ihrem Kursleiter angezeigt wird und zu der Sie Zugang haben.
 
 
-Wenn Sie diesen Kurs selbst absolvieren, finden Sie unter https://directory.btcpayserver.org/filter/hosts eine Liste von Drittanbieter-Hosts für Demozwecke. Wir raten dringend davon ab, diese Drittanbieteroptionen als Produktionsumgebungen zu verwenden; sie dienen jedoch dem richtigen Zweck, um die Verwendung von Bitcoin und BTCPay Server einzuführen.
+Wenn Sie diesen Kurs selbst absolvieren, finden Sie unter https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/ eine Liste von Drittanbieter-Hosts für Demozwecke. Wir raten dringend davon ab, diese Drittanbieteroptionen als Produktionsumgebungen zu verwenden; sie dienen jedoch dem richtigen Zweck, um die Verwendung von Bitcoin und BTCPay Server einzuführen.
 
 
 Als BTCPay Server Rockstar Trainee haben Sie vielleicht schon Erfahrung mit der Einrichtung eines Bitcoin Nodes. Dieser Kurs ist speziell auf den BTCPay Server Software Stack zugeschnitten.
@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin-Knotenprotokolle
 
 
-Zusätzlich zum [Einsehen von Protokollen](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) Ihres bitcoind-Containers können Sie auch einen der [bitcoin-cli-Befehle](https://developer.Bitcoin.org/reference/RPC/index.html) verwenden
+Zusätzlich zum [Einsehen von Protokollen](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) Ihres bitcoind-Containers können Sie auch einen der [bitcoin-cli-Befehle](https://developer.bitcoin.org/reference/rpc/index.html) verwenden
 
 
-[(öffnet ein neues Fenster)](https://developer.Bitcoin.org/reference/RPC/index.html), um Informationen von Ihrem Bitcoin-Knoten zu erhalten. BTCPay enthält ein Skript, mit dem Sie problemlos mit Ihrem Bitcoin-Knoten kommunizieren können.
+[(öffnet ein neues Fenster)](https://developer.bitcoin.org/reference/rpc/index.html), um Informationen von Ihrem Bitcoin-Knoten zu erhalten. BTCPay enthält ein Skript, mit dem Sie problemlos mit Ihrem Bitcoin-Knoten kommunizieren können.
 
 
 Rufen Sie im Ordner btcpayserver-docker die Blockchain-Informationen über Ihren Knoten ab:

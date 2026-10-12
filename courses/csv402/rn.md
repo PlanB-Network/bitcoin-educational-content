@@ -912,13 +912,13 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 ### Tapret
 
 
-Ihitamwo rya nyuma ni ugukoresha **Taproot** (yashizweho na BIP341) n’umugambi wa *Tapret*. *Tapret* ni uburyo bugoranye cane bw’ubuhinga bwa Commitment, buzana iterambere mu bijanye n’ikirenge kuri Blockchain n’ibanga ry’ibikorwa vya Contract. Iciyumviro nyamukuru ni uguhisha Commitment mu gice ca `Inzira y'Inyandiko` y'[Ibikorwa vya Taproot](Taproot).
+Ihitamwo rya nyuma ni ugukoresha **Taproot** (yashizweho na BIP341) n’umugambi wa *Tapret*. *Tapret* ni uburyo bugoranye cane bw’ubuhinga bwa Commitment, buzana iterambere mu bijanye n’ikirenge kuri Blockchain n’ibanga ry’ibikorwa vya Contract. Iciyumviro nyamukuru ni uguhisha Commitment mu gice ca `Inzira y'Inyandiko` y'[Ibikorwa vya Taproot](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
 
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
 
-Imbere yo gusobanura ingene Commitment yinjizwa mu gikorwa ca Taproot, reka turabe **uburyo nyabwo** bwa Commitment, butegerezwa **guhuye n'urudodo rw'amabayiti 64** . [yubatswe](BP-WG/bp-core/blob/umukuru/dbc/src/tapret/mod.rs#L179-L196) nk'uko bikurikira:
+Imbere yo gusobanura ingene Commitment yinjizwa mu gikorwa ca Taproot, reka turabe **uburyo nyabwo** bwa Commitment, butegerezwa **guhuye n'urudodo rw'amabayiti 64** . [yubatswe](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) nk'uko bikurikira:
 
 
 ```txt
@@ -966,9 +966,9 @@ Muri iki gihe ca mbere, dutangura n'urufunguzo rw'isohoka rwa Taproot (*Urufungu
 
 
 - `P`: urufunguzo rwa bose rw'imbere rwa _Urufunguzo Inzira Gukoresha_.
-- `G`: ikibanza gitera umugozi w'[uruzitiro](https://planb.academy/resources/glossary/elliptic-curve) [secp256k1]
+- `G`: ikibanza gitera umugozi w'[uruzitiro](https://planb.academy/resources/glossary/elliptic-curve) [secp256k1](https://en.bitcoin.it/wiki/Secp256k1)
 
--`t = tH_TWEAK(P)` ni umubare w'ihindura, ubariwe biciye ku _hash_ (nk'akarorero `SHA-256(SHA-256(Ihindura) || P)`), bihuye n' [BIP86](Igihugu c'Igihugu c'Igihugu). Ivyo vyerekana ko ata nyandiko yihishije iriho.
+-`t = tH_TWEAK(P)` ni umubare w'ihindura, ubariwe biciye ku _hash_ (nk'akarorero `SHA-256(SHA-256(Ihindura) || P)`), bihuye n' [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). Ivyo vyerekana ko ata nyandiko yihishije iriho.
 
 
 Kugira ngo ushiremwo **Tapret** Commitment, wongereko **Inzira y'Inyandiko Gukoresha** n'**Inyandiko yihariye**, nk'uko bikurikira:
@@ -1162,7 +1162,7 @@ Mu majambo nyayo, buri _umugwi w'ihinduka_ ni uwa Contract yihariye. Aya makuru 
 #### Umuzi wa MPC Hash
 
 
-Agaciro kanditswe On-Chain (mu rurimi rwitwa `mpc::Commitment`. Ivyo biharurwa mu buryo bwa [BIP-341], hakurikijwe uburyo:
+Agaciro kanditswe On-Chain (mu rurimi rwitwa `mpc::Commitment`. Ivyo biharurwa mu buryo bwa [BIP-341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki), hakurikijwe uburyo:
 
 
 ```txt
@@ -1175,7 +1175,7 @@ hehe:
 
 
 
-- `mpc_tag` ni ikimenyetso: `urn:ubideco:mpc:Commitment#2024-01-31`, yatowe hakurikijwe [amasezerano yo gushiramwo ikimenyetso ya RGB]
+- `mpc_tag` ni ikimenyetso: `urn:ubideco:mpc:Commitment#2024-01-31`, yatowe hakurikijwe [amasezerano yo gushiramwo ikimenyetso ya RGB](https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md)
 - `uburebure` (1 byte) yerekana uburebure bw'Igiti ca *MPC*;
 - cofactor` (16 bits, mu rurimi rwa Little Endian) ni umurongo ukoreshwa mu guteza imbere ubudasa bw’ibibanza vyahawe Contract yose mu giti;
 - `mpc::Root` ni umuzi wa *MPC Tree*, ubazwe hakurikijwe uburyo buvugwa mu gice gikurikira.
@@ -1214,7 +1214,7 @@ aho `cofactor` ari umubare wose wongera ubushobozi bwo kuronka ibibanza bitanduk
 - Iyo tunaniwe gushiramwo amasezerano yose ata guhura, twongera `d` tugasubira gutangura.
 
 
-Intumbero ni ukwirinda ibiti birenze urugero, mu gihe nyene ingorane zo gutombora ziguma ari ntoyi. Zirikana ko ikintu c’ugutombora gikurikira uburyo bwo gukwiragiza ataco buvuze, gifitaniye isano n’[Ikibazo c’Isabukuru](https://ru.wikipedia.org/wiki/Ingorane_y’Isabukuru_y’Ivuka).
+Intumbero ni ukwirinda ibiti birenze urugero, mu gihe nyene ingorane zo gutombora ziguma ari ntoyi. Zirikana ko ikintu c’ugutombora gikurikira uburyo bwo gukwiragiza ataco buvuze, gifitaniye isano n’[Ikibazo c’Isabukuru](https://en.wikipedia.org/wiki/Birthday_problem).
 
 
 #### Amababi atuwemwo
@@ -2345,7 +2345,7 @@ Niba ukeneye kugaruka muri uru rutonde rugufi rw’amajambo y’ubuhinga ahambay
 Inyuguti ngufi AluVM ihagarariye "_Imashini y'ubuhinga bwa none_", imashini y'ubuhinga bwa none ishingiye ku nzira y'ubuhinga bwa none yagenewe kwemeza Smart contract no gukoresha ubuhinga bwa none. Ikoreshwa (ariko ntiyihariye gusa) mu kwemeza amasezerano ya RGB. Ivyanditswe canke ibikorwa biri muri RGB Contract birashobora rero gukorwa mu bidukikije vya AluVM.
 
 
-Ushaka kumenya vyinshi: [Urubuga rwemewe rwa AluVM]
+Ushaka kumenya vyinshi: [Urubuga rwemewe rwa AluVM](https://www.aluvm.org/)
 
 
 #### Anchor
@@ -2537,7 +2537,7 @@ Ubu buryo burasobanura neza ingene _ukwiyemeza_ gushirwa mu gisohoka canke mu mi
 DAG (canke *Acyclic Guided Graph*) ni igishushanyo kitagira inzinguzingu, gishoboza gutegura urutonde rw'ibintu. Ivyuma vy’amabara, nk’ibice _vy’amasezerano ya RGB, bishobora guserukirwa n’ama DAG.
 
 
-Ku bindi bisobanuro: [Directed Acyclic Graph](Igishushanyo_c'Igishushanyo_C'Igishushanyo_C'Igishushanyo)
+Ku bindi bisobanuro: [Directed Acyclic Graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
 
 
 #### Gucapura
@@ -2579,7 +2579,7 @@ Interface Implementation ni umugwi w'amatangazo ahuza **Interface** na **Schema*
 #### Invoice
 
 
-Invoice ifata uburyo bwa URL ishizwe muri [base58](https://ru.wikipedia.org/wiki/Binary-to-text encoding#Base58), ikaba ishiramwo amakuru akenewe kugira ngo umuntu yubake **State Transition** (n’uwuyitanga). Mu yandi majambo, ni Invoice ishoboza uwundi (*uwuriha*) gukora ihinduka rihuye n'iryo kugira ngo yimure umutungo canke avugurure uko Contract imeze.
+Invoice ifata uburyo bwa URL ishizwe muri [base58](https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58), ikaba ishiramwo amakuru akenewe kugira ngo umuntu yubake **State Transition** (n’uwuyitanga). Mu yandi majambo, ni Invoice ishoboza uwundi (*uwuriha*) gukora ihinduka rihuye n'iryo kugira ngo yimure umutungo canke avugurure uko Contract imeze.
 
 
 #### Lightning Network
@@ -2617,7 +2617,7 @@ Ownership yerekeza ku bushobozi bwo kugenzura no gukoresha UTXO yerekanwa na Sea
 PSBT (_Igice ca Bitcoin gishizweko umukono_) ni igitabu ca Bitcoin kitarashirwako umukono ku buryo bushitse. Ishobora gusangizwa hagati y’ibigo vyinshi, kimwe cose kikaba gishobora kwongerako canke kugenzura Elements zimwe zimwe (imikono, inyandiko...), gushika iyo nzira y’ugucuruza ibonwa ko yiteguriye gukwiragizwa On-Chain.
 
 
-Ku bindi bisobanuro: [BIP-0174](BIP-0174.mediawiki)
+Ku bindi bisobanuro: [BIP-0174](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki)
 
 
 #### Pedersen commitment
@@ -2645,7 +2645,7 @@ $$
 Iyi nzira ni ngirakamaro, nk'akarorero, mu guhisha amafaranga y'ibimenyetso vyahinduwe, mu gihe ushobora kugenzura igitigiri cose.
 
 
-Ibindi bisobanuro: [Pedersen commitment](igice ca 10.1007/3-540-46766-1_9)
+Ibindi bisobanuro: [Pedersen commitment](https://link.springer.com/chapter/10.1007/3-540-46766-1_9)
 
 
 #### Redeem
@@ -2699,7 +2699,7 @@ State Transition ni igikorwa gihindura ikibanza ca RGB Contract kikaja mu kibanz
 #### Taproot
 
 
-Ivuga ku buryo bwo gukoresha Bitcoin bwa SegWit v1, bwashizweho na [BIP341] [BIP342](Ubuhinga bwo gusoma amakuru). Taproot itera imbere ibanga n’uguhinduranya inyandiko, cane cane mu gutuma amafaranga akoreshwa akora neza kandi akagora gutandukanya n’ayandi.
+Ivuga ku buryo bwo gukoresha Bitcoin bwa SegWit v1, bwashizweho na [BIP341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) [BIP342](https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki). Taproot itera imbere ibanga n’uguhinduranya inyandiko, cane cane mu gutuma amafaranga akoreshwa akora neza kandi akagora gutandukanya n’ayandi.
 
 
 #### Terminal Consignment - Consignment Endpoint
@@ -3292,7 +3292,7 @@ Ego ni ko, bivanye n’itariki ubona kuri iri shure, izo nzira zishobora kuba zi
 #### Akarorero ka Interface
 
 
-Iyi kode ya Rust yerekana [RGB20](umutungo ushobora guhinduka). Iyi kode yakuwe muri dosiye `rgb20.rs` iri mu bubiko bw'ibitabu bwa RGB. Reka tuvyihweze kugira ngo dutahure imiterere ya Interface n’ingene itanga ikiraro hagati, ku ruhande rumwe, Business Logic (isobanuwe muri Schema) n’ibikorwa vyerekanwa n’amasakoshi n’abakoresha.
+Iyi kode ya Rust yerekana [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs)(umutungo ushobora guhinduka). Iyi kode yakuwe muri dosiye `rgb20.rs` iri mu bubiko bw'ibitabu bwa RGB. Reka tuvyihweze kugira ngo dutahure imiterere ya Interface n’ingene itanga ikiraro hagati, ku ruhande rumwe, Business Logic (isobanuwe muri Schema) n’ibikorwa vyerekanwa n’amasakoshi n’abakoresha.
 
 
 ```rust
@@ -4569,8 +4569,8 @@ Ubwa nyuma, imbere yo kuja mu gice gikurikira, ndashaka kubaha icegeranyo c'iteg
 
 
 
-- **Ububiko**: [kwemeza_uruhande rw'umukiriya](https://github.com/LNP-BP/kwemeza_uruhande_rw'umukiriya)
-- **Amasandugu**: [kwemeza_uruhande_rw'umukiriya](https://amasandugu.io/amasandugu/kwemeza_uruhande rw'umukiriya), [ibimenyetso_bikoreshwa_rimwe](https://amasandugu.io/amasandugu/ibimenyetso_bikoreshwa_rimwe)
+- **Ububiko**: [kwemeza_uruhande rw'umukiriya](https://github.com/LNP-BP/client_side_validation)
+- **Amasandugu**: [kwemeza_uruhande_rw'umukiriya](https://crates.io/crates/client_side_validation), [ibimenyetso_bikoreshwa_rimwe](https://crates.io/crates/single_use_seals)
 
 
 Uburongozi bw’ukwemeza off-chain n’ubuhinga bwo gukoresha rimwe Seals.
@@ -4581,8 +4581,8 @@ Uburongozi bw’ukwemeza off-chain n’ubuhinga bwo gukoresha rimwe Seals.
 
 
 
-- **Ububiko**: [Ishingiro rya bp](Ishingiro ry'Igihugu)
-- **Isandugu**: [bp-dbc](https://isanduku.io/isanduku/bp-dbc)
+- **Ububiko**: [Ishingiro rya bp](https://github.com/BP-WG/bp-core)
+- **Isandugu**: [bp-dbc](https://crates.io/crates/bp-dbc)
 
 
 Uburongozi bw’ugushinga intahe mu bikorwa vya Bitcoin (Tapret, OP_RETURN, n’ibindi).
@@ -4593,8 +4593,8 @@ Uburongozi bw’ugushinga intahe mu bikorwa vya Bitcoin (Tapret, OP_RETURN, n’
 
 
 
-- **Ububiko**: [kwemeza_uruhande rw'umukiriya](https://github.com/LNP-BP/kwemeza_uruhande_rw'umukiriya)
-- **Isandugu**: [gusuzuma_gukora](https://ibisandugu.io/ibisanduka/ugusuzuma_gukora)
+- **Ububiko**: [kwemeza_uruhande rw'umukiriya](https://github.com/LNP-BP/client_side_validation)
+- **Isandugu**: [gusuzuma_gukora](https://crates.io/crates/commit_verify)
 
 
 Ivyiyumviro vyinshi vy’ugukorana n’ugushiramwo n’amategeko atandukanye.
@@ -4605,9 +4605,9 @@ Ivyiyumviro vyinshi vy’ugukorana n’ugushiramwo n’amategeko atandukanye.
 
 
 
-- **Ibisobanuro**: [urubuga ubwoko-bukomeye.org](https://www.ubwoko-bukomeye.org/)
-- **Ububiko**: [ubwoko-bukomeye](https://github.com/ubwoko-bukomeye/ubwoko-bukomeye), [gushiramwo-bukomeye](https://github.com/ubwoko-bukomeye/gushiramwo-bukomeye)
-- **Amasandugu**: [ubwoko_bukomeye](https://amasandugu.io/amasandugu/ubwoko_bukomeye), [gushiramwo_amakode](https://amasandugu.io/amasandugu/gushiramwo_amakode)
+- **Ibisobanuro**: [urubuga ubwoko-bukomeye.org](https://www.strict-types.org/)
+- **Ububiko**: [ubwoko-bukomeye](https://github.com/strict-types/strict-types), [gushiramwo-bukomeye](https://github.com/strict-types/strict-encoding)
+- **Amasandugu**: [ubwoko_bukomeye](https://crates.io/crates/strict_types), [gushiramwo_amakode](https://crates.io/crates/strict_encoding)
 
 
 Uburyo bwo kwandika bukomeye n'urutonde rw'ibintu bikoreshwa kuri Client-side Validation.
@@ -4618,8 +4618,8 @@ Uburyo bwo kwandika bukomeye n'urutonde rw'ibintu bikoreshwa kuri Client-side Va
 
 
 
-- **Ububiko**: [RGB-ishingiro](RGB-Ishingiro)
-- **Isanduku**: [RGB-umutima](https://isanduku.io/isanduku/RGB-umutima)
+- **Ububiko**: [RGB-ishingiro](https://github.com/RGB-WG/rgb-core)
+- **Isanduku**: [RGB-umutima](https://crates.io/crates/rgb-core)
 
 
 Ishingiro ry’iyo porotokole, rigizwe n’intumbero nyamukuru y’ukwemeza RGB.
@@ -4630,8 +4630,8 @@ Ishingiro ry’iyo porotokole, rigizwe n’intumbero nyamukuru y’ukwemeza RGB.
 
 
 
-- **Ububiko**: [Ububiko-2178-ububiko](Ububiko).
-- **Isandugu**: [RGB-std](igisandugu.io/isanduku/RGB-igisandugu)
+- **Ububiko**: [Ububiko-2178-ububiko](https://github.com/RGB-WG/rgb-std).
+- **Isandugu**: [RGB-std](https://crates.io/crates/rgb-std)
 
 
 Ivyiyumviro vy’ugushirwa mu ngiro, uburongozi bwa Stash na Wallet.
@@ -4642,8 +4642,8 @@ Ivyiyumviro vy’ugushirwa mu ngiro, uburongozi bwa Stash na Wallet.
 
 
 
-- **Ububiko**: [Ububiko-2184](Ububiko).
-- **Amasandugu**: [RGB-CLI](Isanduku.io/Isandugu/RGB-CLI), [Isandugu-2187-2185]
+- **Ububiko**: [Ububiko-2184](https://github.com/RGB-WG/rgb).
+- **Amasandugu**: [RGB-CLI](https://crates.io/crates/rgb-cli), [Isandugu-2187-2185](https://crates.io/crates/rgb-wallet)
 
 
 Ivyo bikoresho bikoreshwa mu gukoresha amasezerano.
@@ -4654,7 +4654,7 @@ Ivyo bikoresho bikoreshwa mu gukoresha amasezerano.
 
 
 
-- **Ububiko**: [Imirongo ya RGB](Imirongo ya RGB/Imirongo ya RGB/)
+- **Ububiko**: [Imirongo ya RGB](https://github.com/RGB-WG/rgb-schemata/)
 
 
 Irimwo ingero z’imirongo (NIA, UDA, n’ibindi) n’ingene zishirwa mu ngiro.
@@ -4665,9 +4665,9 @@ Irimwo ingero z’imirongo (NIA, UDA, n’ibindi) n’ingene zishirwa mu ngiro.
 
 
 
-- **Amakuru**: [AluVM.org](urubuga rwacu-2195.org/)
-- **Ububiko**: [Ibisobanuro vya AluVM](Ibisobanuro vya AluVM), [Ivyiyumviro](Ivyiyumviro)
-- **Amasandugu**: [AluVM](amasandugu.io/amasandugu/AluVM), [amasandugu](amasandugu.io/amasandugu/amasandugu)
+- **Amakuru**: [AluVM.org](https://www.aluvm.org/)
+- **Ububiko**: [Ibisobanuro vya AluVM](https://github.com/AluVM/aluvm-spec), [Ivyiyumviro](https://github.com/AluVM/alure)
+- **Amasandugu**: [AluVM](https://crates.io/crates/aluvm), [amasandugu](https://crates.io/crates/aluasm)
 
 
 Igikoresho gishingiye ku kwandika gikoreshwa mu gukoresha inyandiko zo kwemeza.
@@ -4678,7 +4678,7 @@ Igikoresho gishingiye ku kwandika gikoreshwa mu gukoresha inyandiko zo kwemeza.
 
 
 
-- **Ububiko**: [bp-core](bp-core), [bp-std](bp-std), [bp-gW-2199](bp-gw-2199)
+- **Ububiko**: [bp-core](https://github.com/BP-WG/bp-core), [bp-std](https://github.com/BP-WG/bp-std), [bp-gW-2199](https://github.com/BP-WG/bp-wallet)
 
 
 Ivyongeyeko vyo gushigikira umurongo wa Bitcoin (ibikorwa, ivy’uguca mu nzira, n’ibindi).
@@ -4689,7 +4689,7 @@ Ivyongeyeko vyo gushigikira umurongo wa Bitcoin (ibikorwa, ivy’uguca mu nzira,
 
 
 
-- **Ububiko**: [UBIDECO](UBIDECO)
+- **Ububiko**: [UBIDECO](https://github.com/UBIDECO)
 
 
 Ibidukikije bifitaniye isano n’iterambere ry’ivy’ubuhinga ry’inkomoko yuguruye.
@@ -4826,7 +4826,7 @@ Kuva nko mu mwaka w’2022, ikigo ca Bitfinex RGB caramaze kwibanda ku gutegura 
 - Gushigikira ayandi mashirahamwe yubaka inyishu kuri RGB, kugira ngo baremeshe ubudasa n’ibidukikije bikomeye.
 
 
-Ubu buryo bufise intumbero yo gupfuka uruhererekane rwose rw’ivyo bikenewe: kuva ku bubiko bw’ibitabu bwo ku rugero ruto (*[RGBlib]*), bikaba bishoboza gushirwa mu ngiro Wallet, Wallet, G6W node2 n’ibindi).
+Ubu buryo bufise intumbero yo gupfuka uruhererekane rwose rw’ivyo bikenewe: kuva ku bubiko bw’ibitabu bwo ku rugero ruto (*[RGBlib](https://github.com/RGB-Tools/rgb-lib)*), bikaba bishoboza gushirwa mu ngiro Wallet, Wallet, G6W node2 n’ibindi).
 
 
 ### Ububiko bw'ibitabu bwa RGBlib: kworohereza iterambere ry'ibikorwa vya RGB
@@ -4958,7 +4958,7 @@ Ku bipfuza kumenya vyinshi canke gutanga, hariho uburyo bwinshi bwo kubifasha, h
 
 
 
-- [Ibikoresho vy'ububiko bwa GitHub RGB](Ibikoresho vya RGB);
+- [Ibikoresho vy'ububiko bwa GitHub RGB](https://github.com/RGB-Tools);
 - [Urubuga rw’amakuru rwerekeye Iris Wallet](https://iriswallet.com/) kugira ngo ugerageze Wallet kuri Android.
 
 
@@ -4980,7 +4980,7 @@ Muri iki gice ca nyuma, Frederico Tenga aragutwara intambwe ku yindi mu gushinga
 Iyi video ikora nk’inyigisho, isa n’ivyo twavuze mu kigabane c’imbere, ariko cane cane yibanze ku Muravyo kuri iyi ncuro!
 
 
-Igikoresho nyamukuru c’iyi videwo ni ububiko bwa Github [Igikoresho c’Umuravyo](Ibikoresho/Igikoresho/Igikoresho c’Umuravyo), ivyo bikaba bigufasha gutanguza iyo ntunganyo muri Regtest.
+Igikoresho nyamukuru c’iyi videwo ni ububiko bwa Github [Igikoresho c’Umuravyo](https://github.com/RGB-Tools/rgb-lightning-node), ivyo bikaba bigufasha gutanguza iyo ntunganyo muri Regtest.
 
 
 ### Gukoresha urudodo rw'umuravyo ruhuye na RGB

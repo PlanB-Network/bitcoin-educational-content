@@ -11,7 +11,7 @@ description: Making Mining easily from home.
 The Mini Miner braiins BMM 100 is a product created by Mining pool Braiins. This device has an attractive design and is extremely quiet. It produces 1.1 Th/s of computing power and consumes about 40 watts. Unlike other devices, it is not open source, but it is really easy to install, it really only takes a few clicks! The Mini Miner BMM 100 is the first version released. Now version 2 is in production, called BMM 101, which differs from the first one in having a larger display and the presence of Wi-Fi, but the installation procedures are the same.
 
 
-You can also find much more important information by checking out the complete guide directly on [manufacturer's site](https://braiins.com/hardware/mini-Miner-bmm-100).
+You can also find much more important information by checking out the complete guide directly on [manufacturer's site](https://braiins.com/hardware/mini-miner-bmm-100).
 
 
 ## Overview of BMM 100

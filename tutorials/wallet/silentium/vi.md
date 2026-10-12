@@ -410,7 +410,7 @@ Silentium cung cấp một môi trường thử nghiệm dễ tiếp cận để
 
 
 - Thông báo chính thức (Twitter): https://x.com/TheSingerLouis/status/1790824126472667227
-- NoBS Bitcoin: https://www.nobsbitcoin.com/silentium-silent- Payments/
+- NoBS Bitcoin: https://www.nobsbitcoin.com/silentium-silent-payments/ Payments/
 - Bitcoin Optech - Thanh toán im lặng: https://bitcoinops.org/en/topics/silent-payments/
 
 

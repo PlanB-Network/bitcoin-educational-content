@@ -13,7 +13,7 @@ Een draagbaar en amnesisch besturingssysteem dat je beschermt tegen bewaking en 
 ## Waarom heb je een USB-sleutel waarop Tails is geïnstalleerd?
 
 
-Tails (https://tails.boum.org/) is de eenvoudigste manier om altijd een beveiligde computer tot je beschikking te hebben, die geen sporen achterlaat op de computer waarmee je hem gebruikt.
+Tails (https://tails.net/) is de eenvoudigste manier om altijd een beveiligde computer tot je beschikking te hebben, die geen sporen achterlaat op de computer waarmee je hem gebruikt.
 
 
 Om Tails te gebruiken, zet je de computer uit waar je toegang tot hebt (bij je ouders, bij je vrienden, in een internetcafé...) en start je hem op met je Tails USB-stick in plaats van Windows, macOS of Linux.
@@ -80,7 +80,7 @@ Vereisten:
 ![image](assets/1.webp)
 
 
-🔗 **Officiële staartensectie:** https://tails.boum.org/install/linux/index.fr.html#download
+🔗 **Officiële staartensectie:** https://tails.net/install/linux/index.fr.html#download
 
 
 Het downloaden van het installatiebestand met de extensie .img kan even duren, afhankelijk van de downloadsnelheid van je internet. Met een moderne en efficiënte verbinding duurt het minder dan 5 minuten.
@@ -95,7 +95,7 @@ Sla het bestand op in een bekende map, zoals Downloads, omdat dit nodig is voor 
 ![image](assets/2.webp)
 
 
-🔗 **Officiële staartensectie:** https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 **Officiële staartensectie:** https://tails.net/install/linux/index.fr.html#verify
 
 
 Het verifiëren van de download zorgt ervoor dat deze is uitgegeven door de ontwikkelaars van Tails en niet is beschadigd of onderschept tijdens het downloaden.
@@ -117,8 +117,8 @@ Gebruik de knop "Selecteer uw download..." in het officiële gedeelte om het bes
 
 
 
-- **Linux:** https://tails.boum.org/install/linux/index.fr.html#install
-- **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher en https://tails.boum.org/install/mac/index.fr.html#install
+- **Linux:** https://tails.net/install/linux/index.fr.html#install
+- **macOS:** https://tails.net/install/mac/index.fr.html#etcher en https://tails.net/install/mac/index.fr.html#install
 
 
 Deze stap van het installeren van Tails op je USB-stick is de moeilijkste in de hele handleiding, vooral als je het nog nooit gedaan hebt. Het belangrijkste is om de juiste procedure te kiezen in de officiële sectie voor je besturingssysteem: Linux of macOS.
@@ -136,7 +136,7 @@ Veel succes en tot bij stap 4.
 ![image](assets/4.webp)
 
 
-🔗 **Officiële staartensectie:** https://tails.boum.org/install/linux/index.en.html#restart
+🔗 **Officiële staartensectie:** https://tails.net/install/linux/index.en.html#restart
 
 
 Het is tijd om een van je computers op te starten met je nieuwe USB-stick. Steek hem in een van de USB-poorten en start opnieuw op!
@@ -178,7 +178,7 @@ Zodra de USB-stick is geselecteerd, zou je dit nieuwe opstartscherm moeten zien,
 ![image](assets/6.webp)
 
 
-🔗 **Officiële staartensectie:** https://tails.boum.org/install/linux/index.en.html#tails
+🔗 **Officiële staartensectie:** https://tails.net/install/linux/index.en.html#tails
 
 
 Een of twee minuten na de bootloader en het laadscherm verschijnt het welkomstscherm.

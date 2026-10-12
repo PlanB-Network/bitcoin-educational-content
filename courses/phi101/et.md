@@ -232,7 +232,7 @@ See analüüs peegeldab arusaamatust ülejääkväärtuse ning majanduselu koost
 
 ### Tööstusrevolutsiooni Küsimus
 
-Tegelikult moonutab marksistlik analüüs tööstusrevolutsiooni ajaloolist reaalsust. Ludwig von Mises selgitas seda küsimust oma majandusteaduse traktaadis [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (vaata eriti peatükki pealkirjaga [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) ning samuti sarjas loenguid, mis avaldati pealkirja all: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Samuti väärib lugemist, Antikapitalistlik Mentaliteet [siin](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) ja [siin](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+Tegelikult moonutab marksistlik analüüs tööstusrevolutsiooni ajaloolist reaalsust. Ludwig von Mises selgitas seda küsimust oma majandusteaduse traktaadis [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (vaata eriti peatükki pealkirjaga [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) ning samuti sarjas loenguid, mis avaldati pealkirja all: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Samuti väärib lugemist, Antikapitalistlik Mentaliteet [siin](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) ja [siin](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 ![image](assets/et/014.webp)
 
 Mises selgitab, et kuigi meie standardite järgi olid tehase töökohad õnnetud, esindasid need tolleaegsete tööliste jaoks parimat võimalikku võimalust.

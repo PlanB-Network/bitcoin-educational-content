@@ -83,7 +83,7 @@ Iryo koraniro rishobora kuronka ataco rihinduye kuri App Store canke kuri Play S
 
 
 
-Kugira ngo ushire Jami ku gikoresho cawe, ubanza kuja ku rubuga rwemewe rwa Jami. Ku bijanye n’ivyo, urubuga ruragaragaza porogarama ihuye n’ingene igikoresho cawe gikoresha, kandi urashobora gufyonda ata guca ku ruhande kuri buto yo gukuraho kugira ngo uyifungure. Ariko kandi, urashobora gukuraho igikoresho ca Windows ukoresheje [urupapuro rwo gukuraho](https://jami.net/gukuraho-jami-windows/).
+Kugira ngo ushire Jami ku gikoresho cawe, ubanza kuja ku rubuga rwemewe rwa Jami. Ku bijanye n’ivyo, urubuga ruragaragaza porogarama ihuye n’ingene igikoresho cawe gikoresha, kandi urashobora gufyonda ata guca ku ruhande kuri buto yo gukuraho kugira ngo uyifungure. Ariko kandi, urashobora gukuraho igikoresho ca Windows ukoresheje [urupapuro rwo gukuraho](https://jami.net/download-jami-windows/).
 
 
 
@@ -91,7 +91,7 @@ Kugira ngo ushire Jami ku gikoresho cawe, ubanza kuja ku rubuga rwemewe rwa Jami
 
 
 
-Ku bakoresha macOS, iyo dosiye iraboneka kandi kuri [paji yo gukuraho macOS](https://jami.net/gukuraho-jami-macos/).
+Ku bakoresha macOS, iyo dosiye iraboneka kandi kuri [paji yo gukuraho macOS](https://jami.net/download-jami-macos/).
 
 
 
@@ -119,7 +119,7 @@ Kugira ngo ushire Jami kuri Linux, ni vyiza ukoresheje umurongo w’amabwirizwa.
 
 
 
-Umaze guhitamwo uko utanga, urashobora gushiramwo iyo sisitemu. Uzokenera gushiramwo ibikenewe kugira ngo ukoreshe Jami kuri Linux OS yawe. Amabwirizwa araboneka ataco akora kuri [iyi paji](https://jami.net/gukura-jami-linux/).
+Umaze guhitamwo uko utanga, urashobora gushiramwo iyo sisitemu. Uzokenera gushiramwo ibikenewe kugira ngo ukoreshe Jami kuri Linux OS yawe. Amabwirizwa araboneka ataco akora kuri [iyi paji](https://jami.net/download-jami-linux/).
 
 
 
@@ -313,7 +313,7 @@ Ijambo banga rimaze kwinjira, ico gikoresho kizoca kija kuri konti maze kigakora
 
 
 
-Kimwe mu bintu bishimishije vya Jami ni ubushobozi bwayo bwo gushiramwo amahitamwo mashasha biciye ku vyo kwagura (plugins). Ivyo gushiramwo ni ibice vy’imvukira (C/C++); SDK itanga ibikoresho n'inyandiko (cane cane muri Python) kugira ngo ifashe mu kubirema. Hariho ibikoresho bimwe bimwe biboneka mu buryo butaziguye [hano](https://jami.net/ibindi/).
+Kimwe mu bintu bishimishije vya Jami ni ubushobozi bwayo bwo gushiramwo amahitamwo mashasha biciye ku vyo kwagura (plugins). Ivyo gushiramwo ni ibice vy’imvukira (C/C++); SDK itanga ibikoresho n'inyandiko (cane cane muri Python) kugira ngo ifashe mu kubirema. Hariho ibikoresho bimwe bimwe biboneka mu buryo butaziguye [hano](https://jami.net/extensions/).
 
 
 

@@ -48,7 +48,7 @@ objectives:
 
 
 
-- [growing interest of people around the world in using Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin)، برای رهایی از سیستم بانکی و/یا استفاده از ارزی با نوسان کمتر یا کاهش ارزش کمتر، همانطور که برای جمعیت‌های لبنان، سوریه، مصر، آرژانتین و دیگر کشورها اتفاق می‌افتد؛
+- [growing interest of people around the world in using Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin)، برای رهایی از سیستم بانکی و/یا استفاده از ارزی با نوسان کمتر یا کاهش ارزش کمتر، همانطور که برای جمعیت‌های لبنان، سوریه، مصر، آرژانتین و دیگر کشورها اتفاق می‌افتد؛
 - افزایش قیمت آن در طول زمان، آن را به عنوان یک ذخیره ارزش و سرمایه‌گذاری بلندمدت تثبیت کرده است، که توسط سیاست پولی ثابت آن هدایت می‌شود؛
 - رشد پی‌درپی بازار ارزهای دیجیتال سفته‌بازی، به‌ویژه در طول سال‌های ۲۰۱۷-۲۰۱۸ و ۲۰۲۰-۲۰۲۱؛
 - حضور رو به رشد Bitcoin در رسانه‌های جریان اصلی.
@@ -701,7 +701,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-- [ ] *پیشنهاد: ایجاد یک لوگوی Bitcoin با پل لندن و بیگ بن در پس‌زمینه. آینده‌نگر* - [لینک](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *پیشنهاد: ایجاد یک لوگوی Bitcoin با پل لندن و بیگ بن در پس‌زمینه. آینده‌نگر*
 
 
 
@@ -714,7 +714,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-- [ ] *درخواست: چهارمی را بسیار واقعی‌تر کنید* - [لینک](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *درخواست: چهارمی را بسیار واقعی‌تر کنید*
 
 
 
@@ -732,7 +732,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 
-- [ ] *درخواست: لوگوی "London Bitcoin Meetup" را با سبک بریتانیایی و تمیز ایجاد کنید* - [لینک](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *درخواست: لوگوی "London Bitcoin Meetup" را با سبک بریتانیایی و تمیز ایجاد کنید*
 
 
 
@@ -1392,7 +1392,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 
 - [Btcmap.org](https://btcmap.org/)**، وب‌سایتی با دو نقشه که روزانه به‌روزرسانی می‌شوند: **[نقشه جهانی کسب‌وکارهایی که Bitcoin را می‌پذیرند](https://btcmap.org/map)** و **[نقشه جوامع جهانی](https://btcmap.org/communities/map)**. بسیاری از بیت‌کوینرها این نقشه‌ها را به‌طور منظم بررسی می‌کنند، چه در حال سفر باشند و چه در زندگی روزمره خود، تا با افراد جدید آشنا شوند یا مکان‌هایی برای خرج کردن [Sats](https://planb.academy/resources/glossary/satoshi-sat) خود پیدا کنند. Btcmap مرجع جهانی است و فهرست کردن جامعه شما در آن برای دیده شدن ضروری است.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/)، وب‌سایتی که توسط بیت‌کوینرها برای بیت‌کوینرها ایجاد شده است. **به شما اجازه می‌دهد رویدادهای آینده جامعه خود را منتشر کنید**. با این حال، در فرانسه هنوز به طور گسترده‌ای استفاده نمی‌شود.
+- BitcoinerEvents، وب‌سایتی که توسط بیت‌کوینرها برای بیت‌کوینرها ایجاد شده است. **به شما اجازه می‌دهد رویدادهای آینده جامعه خود را منتشر کنید**. با این حال، در فرانسه هنوز به طور گسترده‌ای استفاده نمی‌شود. **توجه (اکتبر ۲۰۲۶):** این وب‌سایت دیگر در دسترس نیست. [BitcoinOnly Events](https://bitcoinonly.events/) تقویمی مشابه است که همچنان فعال است.
 - بسته به کشور شما، ممکن است ابتکارات محلی دیگری وجود داشته باشد. به عنوان مثال، در فرانسه [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/) وجود دارد که **هر ماه ده‌ها رویداد Bitcoin را فهرست می‌کند**. بنابراین اگر هنوز آن‌ها را در توییتر دنبال نکرده‌اید یا با آن‌ها تماس نگرفته‌اید تا اطلاعاتی درباره جامعه و رویدادهای خود به اشتراک بگذارید، اکنون زمان آن است! **برای کمک به به‌روز نگه‌داشتن تقویم رویدادهای فرانسه، عالی خواهد بود اگر همه جوامع Bitcoin فرانسه به این عادت کنند که:**
     - ذکر کردن @bitcoinpointfr در توییتر برای هر رویداد جدید جامعه
     - پین کردن اطلاعیه‌های رویداد جدید در گروه تلگرام آن‌ها.
@@ -1412,7 +1412,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 در حالی که این دو پلتفرم آخر می‌توانند به افزایش دیده شدن کمک کنند، اما هنگام راه‌اندازی یک جامعه توصیه نمی‌شوند، صرفاً به این دلیل که رایگان نیستند.
 
-**شروع با یک لیست در [btcmap.org](https://btcmap.org/)، [BitcoinerEvents](https://www.bitcoinerevents.com/) و برای جوامع فرانسوی، در [Bitcoin.fr](https://Bitcoin.fr) بیش از حد کافی است**.
+**شروع با یک لیست در [btcmap.org](https://btcmap.org/)، [BitcoinOnly Events](https://bitcoinonly.events/) و برای جوامع فرانسوی، در [Bitcoin.fr](https://Bitcoin.fr) بیش از حد کافی است**.
 
 
 تبریک! **جامعه شما ایجاد شده است**، **تصاویر شما آماده است**، **اهداف شما تعیین شده است**، **کانال‌های ارتباطی شما برقرار است**، **شبکه‌های اجتماعی شما راه‌اندازی شده است** و **استراتژی دیده‌شدن شما تصمیم‌گیری شده است**.
@@ -1500,7 +1500,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 - آوردن یک **Nerdminer**، Bitaxe، FPGA یا حتی ASIC؛
 - داشتن یک **Bitcoin flyer**؛
 - طوفان فکری برای یک تصویر یا لوگوی Bitcoin برای جامعه شما؛
-- بازی کردن یک **[بازی کارتی Bitcoin](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**؛
+- بازی کردن یک **[بازی کارتی Bitcoin](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**؛
 - نمایش نقشه **[btcmap.org](https://btcmap.org/)** از جوامع و بازرگانان؛
 - ارسال یا دریافت Bitcoin با استفاده از **Lightning**.
 
@@ -1871,7 +1871,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 - شب رستوران برای **روز پیتزا** در ۲۲ مه
 - یک عصر یا آخر هفته برای جشن گرفتن **Halving** بعدی
-- شب بازی خانوادگی درباره Bitcoin و نحوه کار آن، با استفاده از بازی‌هایی مانند [Le Coin de Table](https://www.Maximalist.ovh/) یا [SHAmory](https://shamory.com/)
+- شب بازی خانوادگی درباره Bitcoin و نحوه کار آن، با استفاده از بازی‌هایی مانند [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) یا [SHAmory](https://shamory.com/)
 - **کارگاه Mining** ارائه انواع مختلف سخت‌افزار (CPU، GPU، FPGA، ASIC، Nerdminer، Bitaxe)
 - یک **بعدازظهر یا عصر برای مبتدیان**، با کارگاه‌های موضوعی
 - یک **گردهمایی مشترک با جوامع همسایه**
@@ -2006,7 +2006,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 چندین بروشور در حال حاضر **به‌عنوان منبع باز در [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** در planB.network در دسترس هستند و به مرور زمان موارد بیشتری اضافه خواهند شد.
 
 
-یک مثال یک [تراکت کامل با منابع](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) با ۲۱ دلیل برای استفاده از Bitcoin است. طراحی آن نیز به صورت [متن‌باز در دسترس](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) است تا شما بتوانید آن را تغییر داده و تطبیق دهید و به اشتراک بگذارید. فقط به یاد داشته باشید که منابع خود را اعتبار دهید.
+یک مثال یک [تراکت کامل با منابع](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) با ۲۱ دلیل برای استفاده از Bitcoin است. طراحی آن نیز به صورت [متن‌باز در دسترس](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) است تا شما بتوانید آن را تغییر داده و تطبیق دهید و به اشتراک بگذارید. فقط به یاد داشته باشید که منابع خود را اعتبار دهید.
 
 
 
@@ -2050,7 +2050,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 - متاسفم، اما نمی‌توانم مقاله سفید Bitcoin را به زبان فرانسوی ترجمه کنم.
 
 
-در اینجا [جزوه‌ای که در میان بیت‌کوینرهای فرانسوی به اشتراک گذاشته شده است](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) و در ده‌ها جعبه کتاب در سراسر کشور قرار گرفته است. طراحی آن نیز به صورت [متن‌باز در دسترس است](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+در اینجا [جزوه‌ای که در میان بیت‌کوینرهای فرانسوی به اشتراک گذاشته شده است](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) و در ده‌ها جعبه کتاب در سراسر کشور قرار گرفته است. طراحی آن نیز به صورت [متن‌باز در دسترس است](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

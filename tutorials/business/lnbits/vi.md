@@ -43,7 +43,7 @@ LƯU Ý: tất cả tiền mà "khách hàng" của bạn gửi vào tài khoả
 ## Nền tảng demo
 
 
-Bạn có thể tìm thấy bản demo tại [https://legend.lnbits.com](https://legend.lnbits.com). Bản demo hoạt động đầy đủ và có thể được sử dụng để tìm hiểu về Lightning Network, các tính năng của LNbits và LNURL nói chung. Mặc dù chúng tôi không thể ngăn cản bạn, nhưng chúng tôi muốn bạn không sử dụng nó cho thiết lập sản xuất của mình. Chúng tôi không chỉ thường xuyên làm việc trên các máy chủ để kiểm tra các tính năng mới mà còn khuyến khích bạn tự vận hành node và LNbits của mình một cách độc lập. Nếu bạn cảm thấy việc vận hành một node là quá nhiều vào lúc này, bạn có thể kết nối LNbits với một dịch vụ tài trợ lưu ký trên đám mây như Opennode, Luna hoặc Votage, hoặc với Lightning Tipbot trên Telegram, v.v.
+Bạn có thể tìm thấy bản demo tại [https://demo.lnbits.com](https://demo.lnbits.com). Bản demo hoạt động đầy đủ và có thể được sử dụng để tìm hiểu về Lightning Network, các tính năng của LNbits và LNURL nói chung. Mặc dù chúng tôi không thể ngăn cản bạn, nhưng chúng tôi muốn bạn không sử dụng nó cho thiết lập sản xuất của mình. Chúng tôi không chỉ thường xuyên làm việc trên các máy chủ để kiểm tra các tính năng mới mà còn khuyến khích bạn tự vận hành node và LNbits của mình một cách độc lập. Nếu bạn cảm thấy việc vận hành một node là quá nhiều vào lúc này, bạn có thể kết nối LNbits với một dịch vụ tài trợ lưu ký trên đám mây như Opennode, Luna hoặc Votage, hoặc với Lightning Tipbot trên Telegram, v.v.
 
 
 ## Tờ rơi LNbits
@@ -69,7 +69,7 @@ Trước khi cài đặt LNbits, hãy đảm bảo bạn đã đọc và hiểu 
 
 
 - [Hướng dẫn LND](https://docs.lightning.engineering/) | Cài đặt LND
-- [Ví dụ cấu hình LND](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | Cài đặt LND
+- [Ví dụ cấu hình LND](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | Cài đặt LND
 - [Hướng dẫn CLN](https://docs.corelightning.org/docs/installation) | Cài đặt CLN
 - [LUDs](https://github.com/lnurl/luds) Đặc tả LNURL | [NIPs](https://github.com/nostr-protocol/nips) Đặc tả Nostr
 - [Chạy Watchtower](https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | Rất quan trọng!
@@ -81,7 +81,7 @@ Hướng dẫn chi tiết hơn về cách sử dụng LNbit trong các trường
 
 - [Bắt đầu với LNbits](https://darthcoin.substack.com/p/getting-started-lnbits) | Hướng dẫn Substack
 - [Những việc cần làm để đảm bảo an toàn cho bạn với LNbits](https://youtu.be/i5FQf96e6zg) | Video trên Youtube
-- [Ngân hàng tư nhân trên Lightning Network](https://darthcoin.substack.com/p/Bitcoin-private-banks-over-lightning) | Hướng dẫn Substack
+- [Ngân hàng tư nhân trên Lightning Network](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | Hướng dẫn Substack
 - [Quản lý ví lưu ký cho bạn bè và gia đình](https://darthcoin.substack.com/p/the-bank-of-lnbits) | Hướng dẫn Substack
 - [LNbits cho nhà hàng/khách sạn nhỏ](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | Hướng dẫn Substack
 - [Sử dụng LNbits Streamer copilot](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | Hướng dẫn Substack
@@ -116,7 +116,7 @@ Bạn cũng có thể tìm thấy video về [Cài đặt Docker trên VPS với
 [Thêm các kịch bản cài đặt tại đây](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
 
-Đối với các nút phần mềm gói, vui lòng tham khảo tài liệu cụ thể của họ về LNbit: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+Đối với các nút phần mềm gói, vui lòng tham khảo tài liệu cụ thể của họ về LNbit: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
 ### LNbits SaaS
@@ -202,17 +202,19 @@ Bạn cũng có thể sử dụng macaroon được mã hóa AES (thông tin th�
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - Máy chủ demo LNbits Legend (!! KHÔNG sử dụng máy chủ này cho mục đích sản xuất/thương mại, chỉ sử dụng để thử nghiệm !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **Ví LNbit**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: chú thích-lnbits-AdminKey
 
 #### Lightning TipBot
+
+> **Cảnh báo (tháng 10 năm 2026):** LightningTipBot và ln.tips đã ngừng hoạt động; việc đóng cửa được thông báo ngày 29 tháng 4 năm 2024. Nguồn tài trợ này không còn hoạt động, trừ khi bạn tự lưu trữ bot của riêng mình.
 
 
 Để kết nối [Lightning Tipbot](https://t.me/LightningTipBot) của bạn từ Telegram, bạn sẽ cần thiết lập tham số sau:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **Ví LnTips**
-  - `LNBITS_ENDPOINT`: https://LN.tips
+  - `LNBITS_ENDPOINT`: `https://LN.tips`
   - `LNBITS_KEY`: Để lấy Khóa, bạn sẽ cần chạy /api trong cuộc trò chuyện riêng với LightningTipbot trên Telegram một lần.
 
 
@@ -229,11 +231,13 @@ Ngoài ra, hãy xem hướng dẫn này để biết cách cài đặt [LNbits v
 
 #### LNPay
 
-Để trình lắng nghe Invoice hoạt động, bạn cần có một URL có thể truy cập công khai trong LNbits của mình và phải thiết lập [webhook LNPay](https://dashboard.lnpay.co/webhook/) trỏ đến `<your LNbits host>/Wallet/webhook` với sự kiện "Wallet Receive" và không có khóa bí mật nào được cung cấp. Thiết lập `https://mylnbits/Wallet/webhook` sẽ là URL điểm cuối được thông báo về bất kỳ khoản thanh toán nào.
+> **Cảnh báo (tháng 10 năm 2026):** LNPay có vẻ đã ngừng hoạt động: tên miền lnpay.co không còn phản hồi. Nguồn tài trợ này có lẽ không còn sử dụng được.
+
+Để trình lắng nghe Invoice hoạt động, bạn cần có một URL có thể truy cập công khai trong LNbits của mình và phải thiết lập webhook LNPay trỏ đến `<your LNbits host>/Wallet/webhook` với sự kiện "Wallet Receive" và không có khóa bí mật nào được cung cấp. Thiết lập `https://mylnbits/Wallet/webhook` sẽ là URL điểm cuối được thông báo về bất kỳ khoản thanh toán nào.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **Ví LNPay**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -514,7 +518,7 @@ Trong đó, bạn thay thế f8a43fc363ea428db5c53b3559935f1f bằng giá trị 
 ##### LNURL cho lightning-Address ngược lại
 
 
-Hãy thử [encoder](https://lnurl-codec.netlify.app/) từ fiatjaf hoặc [trang này](https://lightningdecoder.com/). Để thanh toán hoặc kiểm tra LNURLp, bạn cũng có thể sử dụng [LNurlpay](https://wwww.lnurlpay.com/). Nó phải ghi là HTTPS, KHÔNG PHẢI HTTP.
+Hãy thử [encoder](https://lnurl-codec.netlify.app/) từ fiatjaf hoặc [trang này](https://lightningdecoder.com/). Để thanh toán hoặc kiểm tra LNURLp, bạn cũng có thể sử dụng [LNurlpay](https://www.lnurlpay.com/). Nó phải ghi là HTTPS, KHÔNG PHẢI HTTP.
 
 
 
@@ -537,7 +541,9 @@ Có hai cách để chuyển Exchange Sats từ BTC trên chuỗi sang LN BTC (t
 ###### Thông qua dịch vụ trao đổi bên ngoài.
 
 
-Những người dùng khác không có quyền truy cập vào LNb của bạn có thể sử dụng dịch vụ hoán đổi như [Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) hoặc [ZigZag](https://zigzag.io/). Điều này hữu ích nếu bạn chỉ cung cấp hóa đơn LNURL/LN từ phiên bản LNbits của mình, nhưng người thanh toán chỉ có Sats trên chuỗi nên họ sẽ phải hoán đổi Sats đó trước. Quy trình rất đơn giản: người dùng gửi BTC trên chuỗi đến dịch vụ hoán đổi và cung cấp LNURL/LN Invoice từ LNbits làm đích đến của giao dịch hoán đổi.
+Những người dùng khác không có quyền truy cập vào LNb của bạn có thể sử dụng dịch vụ hoán đổi như Boltz, [FixedFloat](https://fixedfloat.com/) hoặc [ZigZag](https://zigzag.io/). Điều này hữu ích nếu bạn chỉ cung cấp hóa đơn LNURL/LN từ phiên bản LNbits của mình, nhưng người thanh toán chỉ có Sats trên chuỗi nên họ sẽ phải hoán đổi Sats đó trước. Quy trình rất đơn giản: người dùng gửi BTC trên chuỗi đến dịch vụ hoán đổi và cung cấp LNURL/LN Invoice từ LNbits làm đích đến của giao dịch hoán đổi.
+
+> **Cảnh báo (tháng 10 năm 2026):** Boltz đã tạm ngừng mọi giao dịch hoán đổi vào ngày 3 tháng 8 năm 2026 sau khi nhiều lỗ hổng bị khai thác, và trang web của họ đang ngoại tuyến. Hiện không thể sử dụng Boltz và tiện ích mở rộng Boltz của LNbits.
 
 
 ###### Sử dụng tiện ích mở rộng Onchain và Boltz LNbits.
@@ -595,7 +601,7 @@ Nếu bạn gặp lỗi "loại Hash không được hỗ trợ" khi sử dụng
 ### Gia công & Xây dựng với LNbits
 
 
-LNbits có đủ loại [API mở](https://legend.lnbits.com/docs) và các công cụ để lập trình và kết nối với nhiều thiết bị khác nhau cho vô số trường hợp sử dụng.
+LNbits có đủ loại [API mở](https://demo.lnbits.com/docs) và các công cụ để lập trình và kết nối với nhiều thiết bị khác nhau cho vô số trường hợp sử dụng.
 
 
 Khi bạn mới bắt đầu xây dựng, hãy bắt đầu với [bài thuyết trình MakerBits](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) của Ben Arc về việc xây dựng các tiện ích dựa trên LNbit.

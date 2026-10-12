@@ -160,7 +160,7 @@ Aşina olmayabileceğiniz sadece iki tanesi 'Denetçi' ve 'Vanadyum'dur.
 
 
 
-- Denetçi uygulaması] (https://play.google.com/store/apps/details?id=app.attestation.auditor), işletim sisteminin orijinalliği ve bütünlüğü ile birlikte bir cihazın kimliğini doğrulamak için donanım tabanlı güvenlik özelliklerini kullanır. Cihazın önyükleyici kilitli olarak stok işletim sistemini çalıştırdığını ve işletim sisteminde herhangi bir kurcalama olmadığını doğrulayacaktır.
+- Denetçi uygulaması] (https://play.google.com/store/apps/details?id=app.attestation.auditor.play), işletim sisteminin orijinalliği ve bütünlüğü ile birlikte bir cihazın kimliğini doğrulamak için donanım tabanlı güvenlik özelliklerini kullanır. Cihazın önyükleyici kilitli olarak stok işletim sistemini çalıştırdığını ve işletim sisteminde herhangi bir kurcalama olmadığını doğrulayacaktır.
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) Chromium web tarayıcısının gizlilik ve güvenlik açısından güçlendirilmiş bir çeşididir.
 
 
@@ -435,7 +435,7 @@ Sol: Geometrik Hava Durumu, Sağ: Proton Takvimi
 
 
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) tüm cihazlarınız için ücretsiz ve E2EE çapraz platform şifre yöneticisi çözümü sunar. Ücretli hizmetleri, 2FA kodlarını uygulamaya entegre etmenize olanak tanır. Bitwarden'in sunucu tarafı kendi kendine barındırılabilir ve Android uygulaması F-Droid aracılığıyla kullanılabilir.
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo) tüm cihazlarınız için ücretsiz ve E2EE çapraz platform şifre yöneticisi çözümü sunar. Ücretli hizmetleri, 2FA kodlarını uygulamaya entegre etmenize olanak tanır. Bitwarden'in sunucu tarafı kendi kendine barındırılabilir ve Android uygulaması F-Droid aracılığıyla kullanılabilir.
 - [Proton Pass](https://proton.me/pass/download) Bitwarden'a benzer bir ücretsiz hizmet sunuyor, ancak [Proton Unlimited](https://proton.me/pricing) müşterileri ek gelişmiş özelliklere erişebiliyor. Proton Pass APK veya Aurora üzerinden kullanılabilir.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/), tek seferlik şifre protokollerini kullanan sistemler için iki faktörlü bir kimlik doğrulama uygulamasıdır. Belirteçler bir QR kodu taranarak kolayca eklenebilir. FreeOTP, F-Droid üzerinden kullanılabilir.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/), çevrimiçi hizmetleriniz için 2 adımlı doğrulama belirteçlerinizi yönetmek için Android için ücretsiz, güvenli ve Açık Kaynaklı bir uygulamadır. Aegis, F-Droid üzerinden kullanılabilir.
@@ -601,7 +601,6 @@ GrapheneOS, herkesin kolayca haftalarını harcayabileceği bir tavşan deliğid
 - [GrapheneOS Resmi Kullanım Kılavuzu](https://grapheneos.org/usage) - Resmi Web Sitesi
 - [GrapheneOS Forum](https://discuss.grapheneos.org/) - Resmi Web Sitesi
 - [GrapheneOS Ayarları Masterclass](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - 'The Privacy Wayfinder' tarafından hazırlanan video
-- [GrapheneOS Genel Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - 'Watchman Privacy' tarafından hazırlanan Podcast
 
 
 *Bu eğitim, [BitcoinQnA tarafından Bitcoiner.Guide üzerinde MIT lisansı altında yayınlanan](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) orijinal içeriğin bir uyarlamasıdır ve ilk yazım çalışmasının tüm kredisi ona aittir.*

@@ -53,7 +53,7 @@ objectives:
 
 
 
-- ความสนใจที่เพิ่มขึ้นของผู้คนทั่วโลกในการใช้ [Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) เพื่อปลดปล่อยตนเองจากระบบธนาคารและ/หรือใช้สกุลเงินที่มีความผันผวนน้อยกว่าหรือมีการลดค่าลงน้อยกว่า เช่นเดียวกับกรณีของประชากรในเลบานอน ซีเรีย อียิปต์ อาร์เจนตินา และอื่น ๆ;
+- ความสนใจที่เพิ่มขึ้นของผู้คนทั่วโลกในการใช้ [Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) เพื่อปลดปล่อยตนเองจากระบบธนาคารและ/หรือใช้สกุลเงินที่มีความผันผวนน้อยกว่าหรือมีการลดค่าลงน้อยกว่า เช่นเดียวกับกรณีของประชากรในเลบานอน ซีเรีย อียิปต์ อาร์เจนตินา และอื่น ๆ;
 - การเพิ่มขึ้นของราคาตามกาลเวลา ทำให้มันกลายเป็นที่เก็บมูลค่าและการลงทุนระยะยาว ขับเคลื่อนโดยนโยบายการเงินที่คงที่ของมัน;
 - การเติบโตต่อเนื่องของตลาดสกุลเงินดิจิทัลที่เป็นการเก็งกำไร โดยเฉพาะในช่วงปี 2017-2018 และ 2020-2021;
 - การปรากฏตัวที่เพิ่มขึ้นของ Bitcoin ในสื่อกระแสหลัก
@@ -713,7 +713,7 @@ Bitcoin เป็นแบบกระจายศูนย์ ดังนั�
 
 
 
-- [ ] *พรอมต์: สร้างโลโก้ Bitcoin พร้อมสะพานลอนดอนและบิ๊กเบนในพื้นหลัง. แนวอนาคต* - [ลิงก์](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *พรอมต์: สร้างโลโก้ Bitcoin พร้อมสะพานลอนดอนและบิ๊กเบนในพื้นหลัง. แนวอนาคต*
 
 
 
@@ -726,7 +726,7 @@ Bitcoin เป็นแบบกระจายศูนย์ ดังนั�
 
 
 
-- [ ] *Prompt: Make the 4th one much more realistic* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *Prompt: Make the 4th one much more realistic*
 
 
 
@@ -744,7 +744,7 @@ Bitcoin เป็นแบบกระจายศูนย์ ดังนั�
 
 
 
-- [ ] *พร้อมท์: สร้างโลโก้สำหรับ "London Bitcoin Meetup" ด้วยสไตล์แบบอังกฤษและสะอาดตา* - [ลิงก์](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *พร้อมท์: สร้างโลโก้สำหรับ "London Bitcoin Meetup" ด้วยสไตล์แบบอังกฤษและสะอาดตา*
 
 
 
@@ -1389,7 +1389,7 @@ Twitter ใช้งานง่ายมาก และเพื่อปร�
 
 
 - [Btcmap.org](https://btcmap.org/)**, เว็บไซต์ที่มีแผนที่สองแบบซึ่งอัปเดตทุกวัน: **[แผนที่โลกของธุรกิจที่รับ Bitcoin](https://btcmap.org/map)** และ **[แผนที่ชุมชนโลก](https://btcmap.org/communities/map)**. หลายคนที่ใช้บิตคอยน์ตรวจสอบแผนที่เหล่านี้เป็นประจำ ไม่ว่าจะเป็นการเดินทางหรือกิจวัตรประจำวัน เพื่อพบปะผู้คนใหม่ๆ หรือหาสถานที่ใช้จ่าย [sats](https://planb.academy/resources/glossary/satoshi-sat) ของพวกเขา Btcmap เป็นแหล่งอ้างอิงระดับโลก และการลงทะเบียนชุมชนของคุณที่นั่นเป็นสิ่งสำคัญสำหรับการมองเห็น**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), เว็บไซต์ที่สร้างขึ้นโดยผู้ที่ชื่นชอบบิตคอยน์ สำหรับผู้ที่ชื่นชอบบิตคอยน์ **ช่วยให้คุณโพสต์กิจกรรมที่จะเกิดขึ้นในชุมชนของคุณ** อย่างไรก็ตาม ในฝรั่งเศสยังไม่ได้รับความนิยมอย่างแพร่หลาย
+- BitcoinerEvents, เว็บไซต์ที่สร้างขึ้นโดยผู้ที่ชื่นชอบบิตคอยน์ สำหรับผู้ที่ชื่นชอบบิตคอยน์ **ช่วยให้คุณโพสต์กิจกรรมที่จะเกิดขึ้นในชุมชนของคุณ** อย่างไรก็ตาม ในฝรั่งเศสยังไม่ได้รับความนิยมอย่างแพร่หลาย **หมายเหตุ (ตุลาคม 2026):** เว็บไซต์นี้ไม่สามารถเข้าถึงได้แล้ว [BitcoinOnly Events](https://bitcoinonly.events/) เป็นปฏิทินกิจกรรมที่คล้ายกันและยังเปิดให้บริการอยู่
 - ขึ้นอยู่กับประเทศของคุณ อาจมีโครงการท้องถิ่นอื่น ๆ ในฝรั่งเศส ตัวอย่างเช่น มี [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/) ซึ่ง**แสดงรายการกิจกรรม Bitcoin หลายสิบรายการทุกเดือน** ดังนั้นหากคุณยังไม่ได้ติดตามพวกเขาบน Twitter หรือยังไม่ได้ติดต่อพวกเขาเพื่อแบ่งปันข้อมูลเกี่ยวกับชุมชนและกิจกรรมของคุณ ตอนนี้เป็นเวลาที่เหมาะสม! **เพื่อช่วยให้ปฏิทินกิจกรรมของฝรั่งเศสทันสมัยอยู่เสมอ จะเป็นการดีหากชุมชน Bitcoin ของฝรั่งเศสทั้งหมดมีนิสัยในการ:**
     - กล่าวถึง @bitcoinpointfr บน Twitter สำหรับทุกกิจกรรมชุมชนใหม่
     - ปักหมุดประกาศกิจกรรมใหม่ในกลุ่ม Telegram ของพวกเขา
@@ -1409,7 +1409,7 @@ Twitter ใช้งานง่ายมาก และเพื่อปร�
 
 ในขณะที่สองแพลตฟอร์มสุดท้ายนี้สามารถช่วยเพิ่มการมองเห็นได้ แต่ไม่แนะนำเมื่อเริ่มต้นชุมชน เนื่องจากไม่ฟรี
 
-**เริ่มต้นด้วยการลงประกาศบน [btcmap.org](https://btcmap.org), [BitcoinerEvents](https://www.bitcoinerevents.com/) และสำหรับชุมชนชาวฝรั่งเศส บน [Bitcoin.fr](https://Bitcoin.fr) ก็เพียงพอแล้ว**.
+**เริ่มต้นด้วยการลงประกาศบน [btcmap.org](https://btcmap.org), [BitcoinOnly Events](https://bitcoinonly.events/) และสำหรับชุมชนชาวฝรั่งเศส บน [Bitcoin.fr](https://Bitcoin.fr) ก็เพียงพอแล้ว**.
 
 
 ขอแสดงความยินดี! **ชุมชนของคุณถูกสร้างขึ้นแล้ว**, **ภาพลักษณ์ของคุณพร้อมแล้ว**, **วัตถุประสงค์ของคุณถูกกำหนดแล้ว**, **ช่องทางการสื่อสารของคุณพร้อมแล้ว**, **เครือข่ายสังคมของคุณเปิดตัวแล้ว** และ **กลยุทธ์การมองเห็นของคุณถูกตัดสินใจแล้ว**.
@@ -1497,7 +1497,7 @@ Twitter ใช้งานง่ายมาก และเพื่อปร�
 - นำ **Nerdminer**, Bitaxe, FPGA หรือแม้แต่ ASIC;
 - มี **Bitcoin flyer**;
 - ระดมความคิดเกี่ยวกับภาพหรือโลโก้ Bitcoin สำหรับชุมชนของคุณ;
-- กำลังเล่นเกมไพ่ **[Bitcoin card game](https://www.Maximalist.ovh/accueil/20-game-le-coin-de-table.html)**;
+- กำลังเล่นเกมไพ่ **[Bitcoin card game](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - แสดงแผนที่ **[btcmap.org](https://btcmap.org/)** ของชุมชนและร้านค้า;
 - การส่งหรือรับ Bitcoin โดยใช้ **Lightning**.
 
@@ -1868,7 +1868,7 @@ Twitter ใช้งานง่ายมาก และเพื่อปร�
 
 - คืนร้านอาหารสำหรับ **วันพิซซ่า** ในวันที่ 22 พฤษภาคม
 - ค่ำคืนหรือวันหยุดสุดสัปดาห์เพื่อเฉลิมฉลอง **Halving** ถัดไป
-- คืน**เล่นเกม**ของครอบครัวเกี่ยวกับ Bitcoin และวิธีการทำงาน โดยใช้เกมเช่น [Le Coin de Table](https://www.Maximalist.ovh/) หรือ [SHAmory](https://shamory.com/)
+- คืน**เล่นเกม**ของครอบครัวเกี่ยวกับ Bitcoin และวิธีการทำงาน โดยใช้เกมเช่น [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) หรือ [SHAmory](https://shamory.com/)
 - การประชุมเชิงปฏิบัติการ **mining** นำเสนอประเภทของฮาร์ดแวร์ที่แตกต่างกัน (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - **ช่วงบ่ายหรือเย็นสำหรับผู้เริ่มต้น** พร้อมเวิร์กช็อปตามธีม
 - การพบปะร่วมกับชุมชนใกล้เคียง
@@ -2003,7 +2003,7 @@ Twitter ใช้งานง่ายมาก และเพื่อปร�
 ใบปลิวหลายรายการมี **ให้บริการในรูปแบบโอเพ่นซอร์สใน [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** บน planB.network และจะมีการเพิ่มอีกในอนาคต
 
 
-ตัวอย่างหนึ่งคือ [ใบปลิวที่มีแหล่งที่มาครบถ้วน](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) พร้อม 21 เหตุผลในการใช้ Bitcoin การออกแบบของมันยัง [มีให้ในรูปแบบโอเพ่นซอร์ส](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) เพื่อให้คุณแก้ไข ปรับเปลี่ยน และแชร์ได้ อย่าลืมให้เครดิตแหล่งที่มาของคุณด้วย
+ตัวอย่างหนึ่งคือ [ใบปลิวที่มีแหล่งที่มาครบถ้วน](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) พร้อม 21 เหตุผลในการใช้ Bitcoin การออกแบบของมันยัง [มีให้ในรูปแบบโอเพ่นซอร์ส](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) เพื่อให้คุณแก้ไข ปรับเปลี่ยน และแชร์ได้ อย่าลืมให้เครดิตแหล่งที่มาของคุณด้วย
 
 
 
@@ -2047,7 +2047,7 @@ Twitter ใช้งานง่ายมาก และเพื่อปร�
 - เอกสารไวท์เปเปอร์ Bitcoin แปลเป็นภาษาฝรั่งเศส
 
 
-นี่คือ [หนังสือเล่มเล็กที่แบ่งปันในหมู่ผู้ใช้บิทคอยน์ชาวฝรั่งเศส](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) ซึ่งถูกวางไว้ในกล่องหนังสือหลายสิบแห่งทั่วประเทศ การออกแบบของมันยัง [มีให้ใช้งานเป็นโอเพ่นซอร์ส](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) อีกด้วย
+นี่คือ [หนังสือเล่มเล็กที่แบ่งปันในหมู่ผู้ใช้บิทคอยน์ชาวฝรั่งเศส](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) ซึ่งถูกวางไว้ในกล่องหนังสือหลายสิบแห่งทั่วประเทศ การออกแบบของมันยัง [มีให้ใช้งานเป็นโอเพ่นซอร์ส](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) อีกด้วย
 
 
 

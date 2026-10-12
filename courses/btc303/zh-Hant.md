@@ -320,7 +320,7 @@ Trustless 是什麼意思？Pieter Wuille 在 [Stack Exchange](https://Bitcoin.s
 簡而言之，*Trustless* 一詞是指 Bitcoin 通訊協定的一項特性，根據這項特性，Bitcoin 通訊協定在邏輯上可以在沒有「任何受信任方」的情況下運作。這與您在運行軟體或硬體時不可避免地需要信任的情況不同。本章將進一步討論後者的信任問題。
 
 
-在集中式系統中，我們仰賴中央參與者的聲譽，以確保他們會負責安全或在發生問題時回退，同時也仰賴法律系統來制裁任何違法行為。在假名的分散式系統中，這些信任需求是有問題的 - 因為沒有追索的可能性，所以真的不可能有任何信任。在 [Bitcoin 白皮書](https://Bitcoin.org/Bitcoin.pdf) 的引言中，Satoshi Nakamoto 描述了這個問題：
+在集中式系統中，我們仰賴中央參與者的聲譽，以確保他們會負責安全或在發生問題時回退，同時也仰賴法律系統來制裁任何違法行為。在假名的分散式系統中，這些信任需求是有問題的 - 因為沒有追索的可能性，所以真的不可能有任何信任。在 [Bitcoin 白皮書](https://bitcoin.org/bitcoin.pdf) 的引言中，Satoshi Nakamoto 描述了這個問題：
 
 
 > 網際網路商務幾乎完全依賴金融機構作為可信賴的第三方來處理電子付款。
@@ -333,7 +333,7 @@ Trustless 是什麼意思？Pieter Wuille 在 [Stack Exchange](https://Bitcoin.s
 要以 Trustless 的方式使用 Bitcoin，您必須執行一個完全驗證的 Bitcoin 節點。只有這樣，您才能驗證您從他人處收到的區塊是否遵循共識規則；例如，是否遵守了發幣時間表，以及 Blockchain 上是否沒有出現雙重花費的情況。如果您沒有運行 Full node，您就將驗證 Bitcoin 區塊的工作外包給別人，並相信他們會告訴您真相，這表示您並非無信任地使用 Bitcoin。
 
 
-David Harding 撰寫了 [Bitcoin.org 網站上的一篇文章](https://Bitcoin.org/en/Bitcoin-core/features/validation) 解釋運行 Full node - 或無信賴地使用 Bitcoin - 實際上如何幫助您：
+David Harding 撰寫了 [Bitcoin.org 網站上的一篇文章](https://bitcoin.org/en/bitcoin-core/features/validation) 解釋運行 Full node - 或無信賴地使用 Bitcoin - 實際上如何幫助您：
 
 
 > 只有當人們接受 Exchange 中的比特幣來換取其他有價值的東西時，Bitcoin 才會運作。也就是說，是接受比特幣的人賦予了它價值，也是他們決定了 Bitcoin 應該如何運作。
@@ -522,7 +522,7 @@ Andrew Poelstra [在 Bitcoin Stack Exchange 帖子中解釋](https://Bitcoin.sta
 Blockchain 隱私權是指您在 Blockchain 上進行交易時所披露的資訊。它適用於所有交易，包括您發送和接收的交易。
 
 
-Satoshi 中本在他的 [Bitcoin 白皮書](https://Bitcoin.org/Bitcoin.pdf) 第 7 節中思考了 On-Chain 隱私權的問題：
+Satoshi 中本在他的 [Bitcoin 白皮書](https://bitcoin.org/bitcoin.pdf) 第 7 節中思考了 On-Chain 隱私權的問題：
 
 
 > 作為額外的防火牆，每個交易都應該使用新的金鑰對，以防止它們連結到共同的擁有者。多輸入交易仍無法避免某些連結，因為這些交易必然會揭露其輸入是由同一擁有者所擁有。風險在於如果鑰匙的擁有者被揭露，連結可能會揭露屬於同一擁有者的其他交易。
@@ -755,7 +755,7 @@ Block reward 由[區塊補貼](https://planb.academy/resources/glossary/block-su
 - 由於區塊補貼為零，而 Mempool 又是空的或幾乎是空的，事情可能會因為費用狙擊而變得不穩。
 
 
-由於過渡到只收取費用的 Block reward 是如此遙遠的未來，明智的做法或許是不要貿然下結論，並嘗試趁我們還能解決潛在的問題。舉例來說，Peter Todd 認為 Bitcoin 的安全預算在未來實際上有可能不夠用，因此他主張在 Bitcoin 採用小額永續通膨的方式。不過，他也認為目前討論這樣的問題並不是個好主意，就像 [他在 What Bitcoin Did Podcast 中所說的](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin)：
+由於過渡到只收取費用的 Block reward 是如此遙遠的未來，明智的做法或許是不要貿然下結論，並嘗試趁我們還能解決潛在的問題。舉例來說，Peter Todd 認為 Bitcoin 的安全預算在未來實際上有可能不夠用，因此他主張在 Bitcoin 採用小額永續通膨的方式。不過，他也認為目前討論這樣的問題並不是個好主意，就像 [他在 What Bitcoin Did Podcast 中所說的](https://www.youtube.com/watch?v=8yah3N9n84k)：
 
 
 > 但是，那是未來 10 年、20 年之後的風險。那是一段非常長的時間。到那時候，誰知道風險會有多大呢？
@@ -817,7 +817,7 @@ Bitcoin Supply 是否會增長超過 2,100 萬，我們今天還無法確定，�
 對 Bitcoin 共識規則的變更，如果完全相容，就稱為 *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)*。這是升級 Bitcoin 最常見的方式，原因有很多，我們會在本章進一步討論。如果 Bitcoin 共識規則的變更向後相容，但向前不相容，則稱為 *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)*。
 
 
-有關 Soft fork 和 Hard fork 的技術概述，請閱讀 [Grokking Bitcoin 的第 11 章](https://rosenbaum.se/book/grokking-Bitcoin-11.html)。它解釋了這些名詞，也深入介紹了升級機制。建議您在繼續閱讀之前先掌握這方面的知識，儘管並非絕對必要。
+有關 Soft fork 和 Hard fork 的技術概述，請閱讀 [Grokking Bitcoin 的第 11 章](https://rosenbaum.se/book/grokking-bitcoin-11.html)。它解釋了這些名詞，也深入介紹了升級機制。建議您在繼續閱讀之前先掌握這方面的知識，儘管並非絕對必要。
 
 
 ### 歷史性升級
@@ -851,7 +851,7 @@ Aaron van Wirdum 在他的 Bitcoin 雜誌文章 [The Long Road To SegWit](https:
 
 > Shaolinfry 提出了一個替代方案：使用者啟動 Soft Fork (UASF)。用戶啟動的 Soft Fork 將有一個 "「旗日啟動」，節點在未來預定的時間開始執行"，而不是 Hash 權限啟動。只要這樣的 UASF 是由經濟上的大多數人執行，這應該會迫使大多數的礦工遵循 (或啟動) Soft Fork。
 
-其中，他引用了 Shaolinfry 寄給 Bitcoin-dev 郵件列表的電子郵件。在那封信中，Shaolinfry [反對 Miner 啟用 Soft forks](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html)，並列舉了許多問題：
+其中，他引用了 Shaolinfry 寄給 Bitcoin-dev 郵件列表的電子郵件。在那封信中，Shaolinfry [反對 Miner 啟用 Soft forks](https://gnusha.org/pi/bitcoindev/jo5-7HCZX7tgdMpIQgK85HCPP14FWxvOIbjV_oerIfc-HOP1GbK3SxFX82Ls23yU1L7y95QsFFggddMNdo5Sxy7YhTJhRFN1f8d6PaA8b7s=@protonmail.ch/)，並列舉了許多問題：
 
 
 > 首先，它需要相信 Hash 電源會在啟動後驗證。  在 BIP66 Soft Fork 的案例中，有 95% 的 Hashrate 發出準備就緒的訊號，但實際上約有一半的 Hashrate 並未真正驗證升級後的規則，而錯誤地在無效區塊上開採。
@@ -884,7 +884,7 @@ Shaolinfry 也提醒大家注意對 Miner 訊號的一個常見誤解：一般�
 
 > 在某些時候，我們可能會想要在 Bitcoin 通訊協定中加入更多功能。這是我們自問的一個重大哲學問題。我們要為下一個做 UASF 嗎？混合方法如何？Miner 本身已被排除，我們不會再使用 bip9。
 
-2020 年 1 月，Matt Corallo [寄了一封電子郵件](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html) 到 Bitcoin-dev 郵件列表，開始討論未來的 Soft Fork 部署機制。他列出了五個他認為在升級中不可或缺的目標。David Harding [在 Bitcoin Optech 通訊中將其總結](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) 為：
+2020 年 1 月，Matt Corallo [寄了一封電子郵件](https://gnusha.org/pi/bitcoindev/4a132f8a-22e3-8e31-e338-bed9ef46d2ef@mattcorallo.com/) 到 Bitcoin-dev 郵件列表，開始討論未來的 Soft Fork 部署機制。他列出了五個他認為在升級中不可或缺的目標。David Harding [在 Bitcoin Optech 通訊中將其總結](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) 為：
 
 
 > 如果遇到嚴重反對所建議的共識規則變更的情況，能夠中止該變更 .在更新軟體發佈之後分配足夠的時間，以確保大多數的經濟節點都能升級以執行這些規則 .預期網路 Hash 率在變更之前和變更之後，以及在任何過渡期間，都會大致相同 .盡可能防止創建在新規則下無效的區塊，這可能會導致未升級節點和 SPV 客戶端的錯誤確認 .保證中止機制不會被悲傷者或游擊者濫用，以阻止沒有已知問題的廣泛期望的升級。
@@ -956,7 +956,7 @@ Corallo 提出的是 Miner 啟用 Soft Fork 與使用者啟用 Soft Fork 的組�
 
 讓我們拭目以待 "的方法終於在人們的腦海中出現了。由於信號傳達時間很短，這個過程後來被稱為 「快速審判」。David Harding 在一篇文章中向更多人解釋了這個想法。
 
-[email 至 Bitcoin-dev 郵件列表](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-March/018583.html)：
+[email 至 Bitcoin-dev 郵件列表](https://gnusha.org/pi/bitcoindev/20210306034343.fhwrxmq6gbb2os5m@ganymede/)：
 
 > 如果我們在 Taproot 合併時就開始快速試用 (這有點不現實)，我們就會在不到兩個月前就有 Taproot，或是在一個多月前就開始下一次的啟用嘗試。
 >
@@ -1260,7 +1260,7 @@ Lombrozo 也談到共識變更的過程，但這已經超過本章的範圍。�
 文章以及我在 Bitcoin 和 Lightning Network 上的工作。
 
 
-在他的案例中，使用假名的原因應該根據他的優點來判斷，而不是根據假名背後的人是誰。有趣的是，他在【CoinDesk 上的一篇文章】(https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) 中透露，創建筆名的原因與此不同。
+在他的案例中，使用假名的原因應該根據他的優點來判斷，而不是根據假名背後的人是誰。有趣的是，他在【CoinDesk 上的一篇文章】(https://www.coindesk.com/markets/2020/06/29/many-bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) 中透露，創建筆名的原因與此不同。
 
 
 > 我最初[使用假名]的原因很簡單，因為我擔心[會]犯下大錯；因此 ZmnSCPxj 原本打算是一個一次性的假名，在這種情況下可以放棄。然而，它似乎獲得了大多數正面的聲譽，因此我保留了它。
@@ -1335,7 +1335,7 @@ Lombrozo 也談到共識變更的過程，但這已經超過本章的範圍。�
 在每個階段中，具有不同觀點和背景的人會檢閱可用的資訊，不論是原始程式碼、BIP 或僅是粗略描述的想法。這些階段通常不會以任何嚴格的自上而下的方式進行，事實上，多個階段可能會同時發生，有時您會在這些階段之間來回。不同的人也可能在不同的階段提供回饋。
 
 
-Jon Atack 是 Bitcoin Core 上最多的程式碼審閱者之一。他寫了一篇 [部落格文章](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) 關於如何審閱 Bitcoin Core 的 pull request。他強調一個好的程式碼審閱者會專注於如何最好地增加價值。
+Jon Atack 是 Bitcoin Core 上最多的程式碼審閱者之一。他寫了一篇 [部落格文章](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core) 關於如何審閱 Bitcoin Core 的 pull request。他強調一個好的程式碼審閱者會專注於如何最好地增加價值。
 
 
 > 身為新人，我們的目標是以友善、謙虛的態度，在盡可能學習的同時，努力增加價值。
@@ -1380,7 +1380,7 @@ Bitcoin Core 開發人員兼程式碼檢閱人員 Gloria Zhao 寫了一篇 [文�
 人們有時會覺得 Bitcoin 開發人員之間有很多內訌和沒完沒了的激烈辯論，而且他們沒有能力做決定。
 
 
-舉例來說，Taproot 的部署機制，經過長時間的討論，期間形成了兩個「陣營」。其中一個陣營希望在某個時刻之後，如果[礦工](https://planb.academy/resources/glossary/miner)沒有以壓倒性的票數支持新規則，就讓升級「失敗」；另一個陣營則希望在那個時刻之後，無論如何都要強制執行規則。Michael Folkson 在 Bitcoin-dev 郵件列表的 [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) 中總結了兩個陣營的論點。
+舉例來說，Taproot 的部署機制，經過長時間的討論，期間形成了兩個「陣營」。其中一個陣營希望在某個時刻之後，如果[礦工](https://planb.academy/resources/glossary/miner)沒有以壓倒性的票數支持新規則，就讓升級「失敗」；另一個陣營則希望在那個時刻之後，無論如何都要強制執行規則。Michael Folkson 在 Bitcoin-dev 郵件列表的 [email](https://gnusha.org/pi/bitcoindev/CAFvNmHSnd4OM+c0_L8fFXRNrxo23WdQpNdBjTJjhmGuHumgLDA@mail.gmail.com/) 中總結了兩個陣營的論點。
 
 
 爭論似乎永無止境地持續著，而且 Hard 真的無法在短時間內就此形成任何共識。這讓人們感到沮喪，結果熱度加劇。Gregory Maxwell (使用者 nullc) [在 Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) 擔心冗長的討論會降低升級的安全性：
@@ -1468,7 +1468,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 > Satoshi Nakamoto 寫道：
 >
 
-> "我一直在研究一個新的電子現金系統，它是完全點對點的，沒有可信賴的第三方。  論文請見 http://www.Bitcoin.org/Bitcoin.pdf"
+> "我一直在研究一個新的電子現金系統，它是完全點對點的，沒有可信賴的第三方。  論文請見 http://www.bitcoin.org/bitcoin.pdf"
 >
 
 > 我們非常、非常需要這樣的系統，但依我的理解，您的提案似乎無法達到所需的規模。
@@ -1482,7 +1482,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 2015 年，一個名為 [Scaling Bitcoin](https://scalingbitcoin.org/)的會議在蒙特婁舉行，六個月後在香港舉行了一場後續會議，之後又在全球其他一些地方舉行了會議。會議的重點正是如何擴充 Address。許多 Bitcoin 開發人員和其他熱心人士聚集在這些會議上，討論各種擴充問題和提案。這些討論大多不是圍繞區塊大小的增加，而是更長期的解決方案。
 
 
-在 2015 年 12 月的香港會議之後，Gregory Maxwell [總結了他的觀點](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html)，對於許多辯論過的問題，他首先提出了一些一般的 Scaling 哲學：
+在 2015 年 12 月的香港會議之後，Gregory Maxwell [總結了他的觀點](https://gnusha.org/pi/bitcoindev/CAAS2fgQyVs1fAEj+vqp8E2=FRnqsgs7VUKqALNBHNxRMDsHdVg@mail.gmail.com/)，對於許多辯論過的問題，他首先提出了一些一般的 Scaling 哲學：
 
 
 > 在現有的技術下，規模與分散之間存在著根本性的取捨。如果系統成本過高，人們就會被迫信任第三方，而不是獨立執行系統的規則。如果 Bitcoin Blockchain 相對於可用技術的資源使用量太大，Bitcoin 相較於傳統系統就會失去競爭優勢，因為驗證的成本太高（將許多使用者擯諸門外），迫使信任回到系統中。  如果容量太低，而我們的交易方法效率又太低，則進入連鎖體系解決爭議的成本就會過高，再次將信任推回系統中。
@@ -1551,7 +1551,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 橫向擴充是指將工作負載分割到多台機器上的技術。雖然這是流行網站和資料庫普遍採用的擴充方式，但在 Bitcoin 中卻不易實現。
 
 
-許多人將這種 Bitcoin 擴充方法稱為 *sharding*。基本上，它包括讓每個 Full node 只驗證 Blockchain 的一部分。Peter Todd 對分片的概念花了不少心思。他寫了一篇[部落格文章](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard)，概括性地解釋了分片，也提出了他自己的想法，稱為*樹鏈*。這篇文章很難閱讀，但 Todd 提出的一些觀點相當容易消化：
+許多人將這種 Bitcoin 擴充方法稱為 *sharding*。基本上，它包括讓每個 Full node 只驗證 Blockchain 的一部分。Peter Todd 對分片的概念花了不少心思。他寫了一篇[部落格文章](https://petertodd.org/2015/why-scaling-bitcoin-with-sharding-is-very-hard)，概括性地解釋了分片，也提出了他自己的想法，稱為*樹鏈*。這篇文章很難閱讀，但 Todd 提出的一些觀點相當容易消化：
 
 
 > 在分片系統中，「Full node 防禦 」並不管用，至少是直接不管用。問題的重點在於不是每個人都有所有的資料，所以您必須決定在沒有資料時該怎麼辦。
@@ -1730,7 +1730,7 @@ Bitcoin 是由人建立的。人們撰寫軟體，然後由人們執行此軟體
 這表示如果您發現安全問題，應該向負責系統的團隊報告。但在 Bitcoin 的情況下，這代表什麼？沒有人控制 Bitcoin，但目前有一個 Bitcoin 開發的焦點，也就是 [Bitcoin Core Github 資源庫](https://github.com/Bitcoin/Bitcoin)。上述資源庫的維護者負責其中的程式碼，但他們並不負責整個系統 - 沒有人負責。儘管如此，一般的最佳做法是傳送電子郵件到 security@bitcoincore.org。
 
 
-在 2017 年一篇題為「負責任地揭露 Bug」的 [email thread](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html)，Anthony Towns 嘗試總結他認為目前的最佳實作。他收集了來自多個來源和不同人士的意見，以提供他對此主題的看法。
+在 2017 年一篇題為「負責任地揭露 Bug」的 [email thread](https://gnusha.org/pi/bitcoindev/20170914052740.GA2674@erisian.com.au/)，Anthony Towns 嘗試總結他認為目前的最佳實作。他收集了來自多個來源和不同人士的意見，以提供他對此主題的看法。
 
 
 
@@ -1753,12 +1753,12 @@ Bitcoin 是由人建立的。人們撰寫軟體，然後由人們執行此軟體
 此清單顯示在發佈 Bitcoin 的修補程式時必須非常小心，因為修補程式本身可能會洩露漏洞。第四項特別有趣，它說明了如何測試修補程式是否偽裝得足夠好。事實上，如果幾個真正有經驗的開發人員即使知道修補程式修復了一個漏洞，也無法發現這個漏洞，那麼其他人要發現這個漏洞可能就真的是Hard了。
 
 
-導致這封電子郵件的主題是討論是否、何時、以及如何揭露 Bitcoin 的altcoins 和其他實作的漏洞。這裡沒有明確的答案。"幫助好人」似乎是明智之舉，但誰來決定誰是好人？Bryan Bishop [辯稱](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html)，幫助altcoins甚至是詐騙幣抵禦安全漏洞是一種道德責任：
+導致這封電子郵件的主題是討論是否、何時、以及如何揭露 Bitcoin 的altcoins 和其他實作的漏洞。這裡沒有明確的答案。"幫助好人」似乎是明智之舉，但誰來決定誰是好人？Bryan Bishop [辯稱](https://gnusha.org/pi/bitcoindev/CABaSBawaN8GTES96yZBKa574A0TiDAHvukipYH9MGk0Euev6PA@mail.gmail.com/)，幫助altcoins甚至是詐騙幣抵禦安全漏洞是一種道德責任：
 
 
 > 僅保護 Bitcoin 及其使用者免於主動威脅是不夠的，還有一個更普遍的責任，就是保護所有類型的使用者和不同的軟體免於各種形式的威脅，即使人們使用的是您個人沒有維護、沒有貢獻或沒有提倡的愚蠢且不安全的軟體。處理有關漏洞的知識是一件很微妙的事情，您可能會接收到比原先描述更嚴重的直接或間接影響的知識。
 
-在 Town 發送上述電子郵件之前，Gregory Maxwell 還發表了一篇 [post](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html)，其中他認為安全漏洞可能比表面上看起來更嚴重：
+在 Town 發送上述電子郵件之前，Gregory Maxwell 還發表了一篇 [post](https://gnusha.org/pi/bitcoindev/CAAS2fgRD_poPjFaG6QD3L7R1GYKEO5LikrzXz+niBFBPbLCRQg@mail.gmail.com/)，其中他認為安全漏洞可能比表面上看起來更嚴重：
 
 
 > 我曾多次見過 Hard 要利用的問題，但當您找到正確的訣竅後，問題就變得微不足道，或是一個小小的 dos 問題變得嚴重得多。
@@ -2031,7 +2031,7 @@ BIP 於 2015 年 7 月 4 日啟用。然而，雖然上述情況屬實，但 BIP
 
 此問題的完整揭露於 2015 年 7 月 28 日由 Pieter Wuille 發表的一篇
 
-[email 至 Bitcoin-dev 郵件列表](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html)：
+[email 至 Bitcoin-dev 郵件列表](https://gnusha.org/pi/bitcoindev/55B79146.70309@gmail.com/)：
 
 
 > 大家好
@@ -2066,7 +2066,7 @@ BIP 於 2015 年 7 月 4 日啟用。然而，雖然上述情況屬實，但 BIP
 在沒有人知道這個問題的情況下，這個問題本來可以由現在已被寬度刪除的 BIP62 來解決，而 BIP62 是一項減少[交易可變性](https://planb.academy/resources/glossary/malleability-transaction)可能性的提案。BIP62 建議的變更包括收緊簽章編碼的共識規則，或稱為「嚴格 [DER](https://planb.academy/resources/glossary/der) 編碼」。Pieter Wuille 在 2014 年 7 月提出了對 BIP 的一些調整，這將會解決這個問題：
 
 
-> 2014 年 7 月 18 日：為了讓 Bitcoin 的簽章編碼規則不依賴 OpenSSL 的特定解析器，我修改了 BIP62 提案，讓其嚴格的 DER 簽章要求也適用於版本 1 交易。當時已沒有非 DER 簽署被挖到區塊中，所以假設這不會有任何影響。請參閱 https://github.com/Bitcoin/bips/pull/90 和 http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html。當時還不清楚，但如果部署的話，這將會解決漏洞。
+> 2014 年 7 月 18 日：為了讓 Bitcoin 的簽章編碼規則不依賴 OpenSSL 的特定解析器，我修改了 BIP62 提案，讓其嚴格的 DER 簽章要求也適用於版本 1 交易。當時已沒有非 DER 簽署被挖到區塊中，所以假設這不會有任何影響。請參閱 https://github.com/Bitcoin/bips/pull/90 和 https://gnusha.org/pi/bitcoindev/CAPg+sBiTURdRAZbyk3guF5YzAAQebo8yY_TuXHUKYDEdLjDUdQ@mail.gmail.com/。當時還不清楚，但如果部署的話，這將會解決漏洞。
 
 由於此 BIP 涵蓋的範圍非常廣泛，遠遠超過「嚴格 DER 編碼」的範圍，因此一直在變更，從未接近部署的階段。該 BIP 後來被撤銷，因為 BIP141「分離見證」以另一種更完整的方式解決了交易延展性的問題。
 
@@ -2075,7 +2075,7 @@ BIP 於 2015 年 7 月 4 日啟用。然而，雖然上述情況屬實，但 BIP
 
 
 
-OpenSSL 發佈了其軟體的新版本，並附上修補程式，如果從一開始就在 Bitcoin 中使用這些修補程式，就能解決問題。然而，只在新版的 Bitcoin Core 中使用任何新版的 OpenSSL 都會讓事情變得更糟。Gregory Maxwell 在 2015 年 1 月的另一個 [email thread](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) 中解釋了這個問題：
+OpenSSL 發佈了其軟體的新版本，並附上修補程式，如果從一開始就在 Bitcoin 中使用這些修補程式，就能解決問題。然而，只在新版的 Bitcoin Core 中使用任何新版的 OpenSSL 都會讓事情變得更糟。Gregory Maxwell 在 2015 年 1 月的另一個 [email thread](https://gnusha.org/pi/bitcoindev/CAAS2fgR2a+3wb+He611pxy_Ypur0gq+o7SRjUHa4-R+xHLLnyA@mail.gmail.com/) 中解釋了這個問題：
 
 
 > 雖然對於大多數應用而言，急切地拒絕某些簽章一般是可以接受的，但 Bitcoin 是一個共識系統，所有參與者一般都必須同意輸入資料的確切有效性或無效性。  在某種意義上，一致性比「正確性」更重要。
@@ -2101,7 +2101,7 @@ OpenSSL 發佈了其軟體的新版本，並附上修補程式，如果從一開
 
 
 
-不幸的是，BIP66 的故事並沒有就此結束。當 BIP66 啟動時，結果相當混亂，因為有些礦工沒有驗證他們試圖擴展的區塊。這就是所謂的無驗證 Mining，或 SPV-Mining（Simplified Payment Verification 的簡稱）。已向 Bitcoin 節點發出警示訊息，並附上 [說明問題的網頁](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining) 連結：
+不幸的是，BIP66 的故事並沒有就此結束。當 BIP66 啟動時，結果相當混亂，因為有些礦工沒有驗證他們試圖擴展的區塊。這就是所謂的無驗證 Mining，或 SPV-Mining（Simplified Payment Verification 的簡稱）。已向 Bitcoin 節點發出警示訊息，並附上 [說明問題的網頁](https://bitcoin.org/en/alert/2015-07-04-spv-mining) 連結：
 
 
 > 2015 年 7 月 4 日清晨，達到 950/1000 (95%) 閾值。此後不久，一個小的 Miner（非升級 5% 的一部分）挖出了一個無效區塊 - 這是預期會發生的情況。不幸的是，結果發現大約一半的網路 Hash 率是 Mining 沒有完全驗證區塊（稱為 SPV Mining），並在該無效區塊之上建立新區塊。

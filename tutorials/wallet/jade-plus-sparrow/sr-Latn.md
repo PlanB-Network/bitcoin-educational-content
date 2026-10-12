@@ -294,7 +294,7 @@ Kliknite na "*Start*".
 ![Image](assets/fr/15.webp)
 
 
-Možete koristiti bazu QR koda isporučenu u Jade Plus kutiji. Odaberite odgovarajuću kutiju u zavisnosti od toga da li ste se odlučili za rečenicu od 12 ili 24 reči. Takođe možete [odštampati šablon sa Blockstream vebsajta](https://help.blockstream.com/hc/article_attachments/41928319071769).
+Možete koristiti bazu QR koda isporučenu u Jade Plus kutiji. Odaberite odgovarajuću kutiju u zavisnosti od toga da li ste se odlučili za rečenicu od 12 ili 24 reči. Takođe možete [odštampati šablon sa Blockstream vebsajta](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase).
 
 
 Vaš Jade Plus će prikazati svaku zonu vašeg QR koda.

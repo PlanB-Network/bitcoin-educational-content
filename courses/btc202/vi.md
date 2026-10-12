@@ -152,7 +152,7 @@ Vì Bitcoin là một hệ thống, nó nhất thiết phải được chạy tr
 
 
 
-Nakamoto, S. (2008). *Bitcoin: Hệ thống tiền điện tử ngang hàng*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Hệ thống tiền điện tử ngang hàng*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -204,7 +204,7 @@ Nhiệm vụ đầu tiên của một nút là duy trì một bản sao cục b�
 
 > Cách duy nhất để xác nhận sự vắng mặt của giao dịch là nhận biết tất cả các giao dịch.
 
-Nakamoto, S. (2008). *Bitcoin: Hệ thống tiền điện tử ngang hàng*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Hệ thống tiền điện tử ngang hàng*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -383,7 +383,7 @@ Về lý thuyết, Bitcoin core không đại diện cho giao thức Bitcoin; đ
 
 
 
-Theo [dữ liệu được thu thập vào tháng 8 năm 2025 bởi Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (một nhà phát triển nổi tiếng trong hệ sinh thái), việc phân bổ các triển khai giữa các nút công khai của mạng như sau:
+Theo [dữ liệu được thu thập vào tháng 8 năm 2025 bởi Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (một nhà phát triển nổi tiếng trong hệ sinh thái), việc phân bổ các triển khai giữa các nút công khai của mạng như sau:
 
 
 
@@ -766,7 +766,7 @@ Một nút [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (
 
 
 
-Nakamoto, S. (2008). *Bitcoin: Hệ thống tiền điện tử ngang hàng*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Hệ thống tiền điện tử ngang hàng*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -1521,7 +1521,7 @@ Một trong những lợi thế chính của Umbrel so với các đối thủ c
 
 
 
-Mã nguồn của Umbrel được công khai (bạn có thể xem Fork và chỉnh sửa nó), nhưng nó không được cấp phép theo giấy phép nguồn mở thực sự. Trên thực tế, umbrelOS được phân phối theo giấy phép [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), mặc dù một số công cụ phát triển liên quan được cung cấp theo giấy phép MIT.
+Mã nguồn của Umbrel được công khai (bạn có thể xem Fork và chỉnh sửa nó), nhưng nó không được cấp phép theo giấy phép nguồn mở thực sự. Trên thực tế, umbrelOS được phân phối theo giấy phép [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0), mặc dù một số công cụ phát triển liên quan được cung cấp theo giấy phép MIT.
 
 
 
@@ -3884,7 +3884,7 @@ Cuối cùng, tệp `Bitcoin.conf` cũng cho phép bạn cấu hình các tham s
 
 
 
-Chúng ta đã hoàn tất việc liệt kê hầu hết các tham số cấu hình. Tệp `Bitcoin.conf` này cấu thành bảng điều khiển thực sự của nút của bạn: nó định nghĩa cấu hình mạng, quản lý Mempool, sử dụng đĩa và bộ nhớ, lập chỉ mục và quản trị chung. Nếu bạn muốn tìm hiểu thêm về tệp này và tạo một tệp phù hợp với nhu cầu của mình, tôi khuyên bạn nên sử dụng [trình tạo của Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Chúng ta đã hoàn tất việc liệt kê hầu hết các tham số cấu hình. Tệp `Bitcoin.conf` này cấu thành bảng điều khiển thực sự của nút của bạn: nó định nghĩa cấu hình mạng, quản lý Mempool, sử dụng đĩa và bộ nhớ, lập chỉ mục và quản trị chung. Nếu bạn muốn tìm hiểu thêm về tệp này và tạo một tệp phù hợp với nhu cầu của mình, tôi khuyên bạn nên sử dụng [trình tạo của Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/).
 
 
 

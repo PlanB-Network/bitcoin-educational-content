@@ -5,6 +5,8 @@ description: Soluzioni di pagamento Bitcoin e Lightning per gli esercenti
 
 ![cover](assets/cover.webp)
 
+> **Avviso (ottobre 2026):** Lipa for Business ha cessato l'attività a metà marzo 2026 e il suo editore, lightning payment services ag, è in liquidazione. I link e i passaggi di questo tutorial non funzionano più. Conserviamo questa pagina come riferimento fino al suo aggiornamento.
+
 Gli esercenti sono ora sempre più interessati ad accettare pagamenti Bitcoin tramite Lightning Network. A differenza dei pagamenti tradizionali con carta di credito, che comportano commissioni elevate e lunghi tempi di regolamento, le transazioni Lightning sono praticamente istantanee, non sono soggette a chargeback e preservano la riservatezza del cliente.
 
 Affinché un'azienda possa adottare facilmente Bitcoin, la soluzione di pagamento deve rimanere semplice con una intuitiva interfaccia del registratore di cassa, offrire funzioni multi-utente e, idealmente, offrire la conversione automatica in valuta locale per mitigare la volatilità.
@@ -150,9 +152,9 @@ La sua natura non custodial e rispettosa della privacy, unita a strumenti di ges
 
 ## Risorse
 
-- [Sito ufficiale di Lipa for Business](https://lipa.swiss/en/for-business)
-- [Cruscotto web](https://dashboard.lipa.swiss)
-- [Sostegno alle imprese Lipa](https://help.lipa.swiss/business)
-- [Supporto generale Lipa](https://help.lipa.swiss/Wallet)
+- Sito ufficiale di Lipa for Business
+- Cruscotto web
+- Sostegno alle imprese Lipa
+- Supporto generale Lipa
 - [LinkedIn Lipa](https://www.linkedin.com/company/getlipa)
 - [Twitter @lipa_btc](https://twitter.com/lipa_btc)

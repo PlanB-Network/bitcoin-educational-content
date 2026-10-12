@@ -25,7 +25,7 @@ In this tutorial, we'll look at 3 ways of using a **Watchtower** :
 ## 1 - Configuring a Watchtower or a client via LND
 
 
-*This tutorial is taken from [the official LND documentation](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Some changes may have been made to the original version
+*This tutorial is taken from [the official LND documentation](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). Some changes may have been made to the original version
 
 
 Since v0.7.0, `LND` supports the execution of a private altruistic Watchtower as a fully integrated subsystem of `LND`. Watchtowers provide a second line of defense against malicious or accidental breach scenarios when the customer node is offline or unable to respond at the time of breach, offering an increased degree of security for channel funds.
@@ -410,12 +410,7 @@ In the same menu, you'll also find the URI of your Watchtower service if you've 
 ![Image](assets/fr/05.webp)
 
 
-There are several Watchtowers available online. For example, [LN+ and Voltage offer an altruistic Watchtower](https://lightningnetwork.plus/Watchtower) to which you can connect:
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+There are several Watchtowers available online. LN+ and Voltage used to offer an altruistic Watchtower, but it is no longer available (October 2026). LN+ now offers [Watch Swaps](https://lightningnetwork.plus/watch_swaps), where two node operators watch each other's channels, and publishes a [guide to altruistic Watchtowers](https://lightningnetwork.plus/posts/12).
 
 
 ![Image](assets/fr/06.webp)

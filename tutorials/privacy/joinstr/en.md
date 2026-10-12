@@ -231,7 +231,6 @@ To test Joinstr on bookmark, you need free test bitcoins :
 Use a public bookmark like :
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -498,7 +497,7 @@ Against a backdrop of increasing financial scrutiny, decentralized tools to prot
 ### Official documentation
 
 
-- [Joinstr official website](https://joinstr.xyz)
+- [Joinstr official website](https://docs.joinstr.xyz/)
 - [User documentation](https://docs.joinstr.xyz/users/using-joinstr)
 - [Technical documentation](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab source code](https://gitlab.com/invincible-privacy/joinstr)
@@ -521,6 +520,5 @@ Against a backdrop of increasing financial scrutiny, decentralized tools to prot
 ### Additional tools
 
 
-- [Bookmark Faucet](https://signetfaucet.com) - Free test Bitcoins
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet alternative
 - [Mempool.space](https://mempool.space) - Block explorer with privacy analysis

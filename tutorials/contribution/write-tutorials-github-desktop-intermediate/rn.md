@@ -14,7 +14,7 @@ Waramaze:
 
 
 - Yahisemwo insiguro y’inyigisho yawe;
-- Yashikirije ikigo ca Plan ₿ Academy biciye kuri [umugwi wa Telegaramu](https://t.me/Uwukora_Ibirimwo) canke paolo@planb.network;
+- Yashikirije ikigo ca Plan ₿ Academy biciye kuri [umugwi wa Telegaramu](https://t.me/PlanBNetwork_ContentBuilder) canke paolo@planb.network;
 - Hitamwo ibikoresho vyawe vy’intererano.
 
 
@@ -43,9 +43,9 @@ Porogaramu zikenewe kugira ngo ukurikize iyi nyigisho:
 
 
 
-- [Ibiro vya GitHub](https://ibiro.github.com/);
-- Umuhinduzi wa dosiye y'ikimenyetso nk'[Igitabu](https://igitabu.md/);
-- Umuhinduzi w’amakode ([VSC](https://kode.visualstudio.com/) canke [Ivyanditswe vy’agaciro](https://www.ivyanditswe vy’agaciro.com/)).
+- [Ibiro vya GitHub](https://desktop.github.com/);
+- Umuhinduzi wa dosiye y'ikimenyetso nk'[Igitabu](https://obsidian.md/);
+- Umuhinduzi w’amakode ([VSC](https://code.visualstudio.com/) canke [Ivyanditswe vy’agaciro](https://www.sublimetext.com/)).
 
 
 ![TUTO](assets/fr/01.webp)
@@ -55,9 +55,9 @@ Ibisabwa mbere yo gutangura inyigisho:
 
 
 
-- Ufise [konti ya GitHub](https/github.com/kwiyandikisha);
-- Kugira Fork y’[ububiko bw’inkomoko ya Plan ₿ Academy](https://github.com/Ikiganiro-Bitcoin-ibirimwo-inyigisho);
-- Ugire [urutonde rw’umwigisha kuri Plan ₿ Academy](https://planb.academy/abigisha) (niba gusa uriko uratanga inyigisho yuzuye).
+- Ufise [konti ya GitHub](https://github.com/signup);
+- Kugira Fork y’[ububiko bw’inkomoko ya Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content);
+- Ugire [urutonde rw’umwigisha kuri Plan ₿ Academy](https://planb.academy/professors) (niba gusa uriko uratanga inyigisho yuzuye).
 
 
 Niba ukeneye gufashwa mu kuronka ivyo bisabwa, izindi nyigisho zanje zizogufasha:
@@ -229,7 +229,7 @@ Hitamwo izina ry'ububiko bwakozwe ku nyigisho yawe. Izina ry’iyi dosiye rikwiy
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-`Project_id` ni UUID y’ishirahamwe canke ishirahamwe riri inyuma y’igikoresho kivugwa muri iyo nyigisho, kiboneka [mu rutonde rw’imigambi](https://github.com/PlanB-Network/Bitcoin-ibirimwo-ivy’inyigisho/igiti/iterambere/ibikoresho/imigambi). Nk'akarorero, ku nyigisho kuri Sparrow wallet, ushobora kubona `project_id` yayo muri dosiye: `Bitcoin-ibirimwo-ivy'inyigisho/ibikoresho/imigambi/Sparrow/umugambi.yml`. Aya makuru yongerwa kuri dosiye ya YAML y’inyigisho yawe kubera ko Plan ₿ Academy ibungabunga urutonde rw’amashirahamwe n’imiryango ikora muri Bitcoin canke imigambi ijana. Mu kwongerako `project_id` ijana, uhuza ibirimwo n'ikigo gikenewe.
+`Project_id` ni UUID y’ishirahamwe canke ishirahamwe riri inyuma y’igikoresho kivugwa muri iyo nyigisho, kiboneka [mu rutonde rw’imigambi](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Nk'akarorero, ku nyigisho kuri Sparrow wallet, ushobora kubona `project_id` yayo muri dosiye: `Bitcoin-ibirimwo-ivy'inyigisho/ibikoresho/imigambi/Sparrow/umugambi.yml`. Aya makuru yongerwa kuri dosiye ya YAML y’inyigisho yawe kubera ko Plan ₿ Academy ibungabunga urutonde rw’amashirahamwe n’imiryango ikora muri Bitcoin canke imigambi ijana. Mu kwongerako `project_id` ijana, uhuza ibirimwo n'ikigo gikenewe.
 
 
 ***Ivugurura:*** Muri verisiyo nshasha y'inyandiko, ntugikeneye kwinjiza `project_id` n'amaboko. Igikorwa kijanye n'ugushaka congereweko kugira ngo uronke umugambi mw'izina maze ubone `project_id` ihuye. Andika intango y’izina ry’umugambi mu kibanza "Izina ry’umugambi" kugira ngo urirondere, hanyuma uhitemwo ishirahamwe wipfuza mu rutonde ruja hasi. `project_id` izokwinjira ubwayo mu kibanza kiri musi. Ushobora kandi kuyishiramwo n’amaboko nimba bikenewe.
@@ -238,7 +238,7 @@ Hitamwo izina ry'ububiko bwakozwe ku nyigisho yawe. Izina ry’iyi dosiye rikwiy
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-Ku bijanye n’ibimenyetso, hitamwo amajambo y’ingenzi 2 canke 3 ajanye n’ibirimwo mu nyigisho yawe, uhitemwo gusa muri [urutonde rw’ibimenyetso vya Plan ₿ Academy](https://github.com/Plan ₿ Academy). Iyo porogarama kandi itanga ubuhinga bwo kurondera amajambo y’ingenzi afise urutonde ruja hasi.
+Ku bijanye n’ibimenyetso, hitamwo amajambo y’ingenzi 2 canke 3 ajanye n’ibirimwo mu nyigisho yawe, uhitemwo gusa muri [urutonde rw’ibimenyetso vya Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Iyo porogarama kandi itanga ubuhinga bwo kurondera amajambo y’ingenzi afise urutonde ruja hasi.
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -253,7 +253,7 @@ Amakuru yose amaze kwinjira no kugenzurwa, ukande kuri "Create Tutorial" kugira 
 Ubu ushobora gusimbuka igice gito "Ata nyandiko yanje ya Python" hamwe n'intambwe ya 3, "Uzuza dosiye ya YAML," kuko inyandiko yaramaze kuguheza ivyo bikorwa. Bandanya ushike ku ntambwe ya 4 utangure kwandika inyigisho yawe.
 
 
-Kugira ngo umenye vyinshi ku bijanye n’iyi nyandiko ya Python, urashobora kandi kuraba [SOMA](https://github.com/PlanB-Network/Bitcoin-ibirimwo-ivy’inyigisho/blob/dev/inyandiko/ibijanye n’inyigisho/inyigisho-nshasha-iremwa/README.md).
+Kugira ngo umenye vyinshi ku bijanye n’iyi nyandiko ya Python, urashobora kandi kuraba [SOMA](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md).
 
 
 ### Ata nyandiko yanje ya Python
@@ -340,15 +340,15 @@ Akira ahantu hakenewe:
 
 
 
-- id**: UUID (_Ikimenyetso kidasanzwe co kw'isi yose_) kigaragaza inyigisho mu buryo bwihariye. Ushobora kuyigira generate ukoresheje [igikoresho co kuri Internet](https. Igisabwa conyene ni uko iyo UUID iba random kugira ngo ntihagire amakimbirane n’iyindi UUID iri kuri platform;
+- id**: UUID (_Ikimenyetso kidasanzwe co kw'isi yose_) kigaragaza inyigisho mu buryo bwihariye. Ushobora kuyigira generate ukoresheje [igikoresho co kuri Internet](https://www.uuidgenerator.net/version4). Igisabwa conyene ni uko iyo UUID iba random kugira ngo ntihagire amakimbirane n’iyindi UUID iri kuri platform;
 
 
 
-- project_id**: UUID y’ishirahamwe canke ishirahamwe riri inyuma y’igikoresho kigaragazwa mu nyigisho [bivuye ku rutonde rw’imigambi](https://github.com/PlanB-Network/Bitcoin-ibirimwo-ivy’inyigisho/igiti/iterambere/ibikoresho/imigambi). Nk'akarorero, nimba uriko urakora inyigisho yerekeye porogaramu ya Green Wallet, ushobora kubona iyi `project_id` muri dosiye ikurikira: `Bitcoin-ibirimwo-ivy'inyigisho/ibikoresho/imigambi/umurongo/umugambi.yml`. Aya makuru yongerwa kuri dosiye ya YAML y’inyigisho yawe kubera ko Plan ₿ Academy ibungabunga urutonde rw’amashirahamwe yose n’imiryango yose ikora kuri Bitcoin canke imigambi ijana. Mu kwongerako `project_id` y'ikigo gihuye n'inyigisho yawe, urema ihuriro hagati y'izo Elements zibiri;
+- project_id**: UUID y’ishirahamwe canke ishirahamwe riri inyuma y’igikoresho kigaragazwa mu nyigisho [bivuye ku rutonde rw’imigambi](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Nk'akarorero, nimba uriko urakora inyigisho yerekeye porogaramu ya Green Wallet, ushobora kubona iyi `project_id` muri dosiye ikurikira: `Bitcoin-ibirimwo-ivy'inyigisho/ibikoresho/imigambi/umurongo/umugambi.yml`. Aya makuru yongerwa kuri dosiye ya YAML y’inyigisho yawe kubera ko Plan ₿ Academy ibungabunga urutonde rw’amashirahamwe yose n’imiryango yose ikora kuri Bitcoin canke imigambi ijana. Mu kwongerako `project_id` y'ikigo gihuye n'inyigisho yawe, urema ihuriro hagati y'izo Elements zibiri;
 
 
 
-- tags**: amajambo 2 canke 3 y’ingenzi ajanye n’ibirimwo mu nyigisho, yatowe gusa [ku rutonde rw’amajambo ya Plan ₿ Academy]
+- tags**: amajambo 2 canke 3 y’ingenzi ajanye n’ibirimwo mu nyigisho, yatowe gusa [ku rutonde rw’amajambo ya Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
 
 
 
@@ -364,7 +364,7 @@ Akira ahantu hakenewe:
 
 
 
-- professor_id**: `id_y'umwigisha` wawe (UUID) nk'uko vyerekanywe kuri [umwirondoro wawe w'umwigisha](https://github.com/Umugambi-w'Uburezi/Bitcoin-ibirimwo-ivy'inyigisho/igiti/dev/abaporofeseri);
+- professor_id**: `id_y'umwigisha` wawe (UUID) nk'uko vyerekanywe kuri [umwirondoro wawe w'umwigisha](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
 
 
@@ -501,7 +501,7 @@ Ububiko bw'ururimi buri muri bubiko bwa `itunga` bukoreshwa mu kubika ibishushan
 Kugira ngo ushire amazina y’amashusho yawe, ukoreshe gusa imibare ihuye n’urutonde rwayo mu nyigisho, ikaba iteye imibare ibiri (canke imibare itatu nimba inyigisho yawe irimwo amashusho arenga 99). Nk'akarorero, ushire izina ry'ishusho yawe ya mbere `01.webp`, iya kabiri `02.webp`, n'ibindi.
 
 
-Amashusho yawe ategerezwa kuba ari mu buryo bwa `.webp` gusa. Niba bikenewe, urashobora gukoresha [porogarama yanje yo guhindura amashusho](https://github.com/LoicPandul/Igihinduzi c'amashusho).
+Amashusho yawe ategerezwa kuba ari mu buryo bwa `.webp` gusa. Niba bikenewe, urashobora gukoresha [porogarama yanje yo guhindura amashusho](https://github.com/LoicPandul/ImagesConverter).
 
 
 ![TUTO](assets/fr/26.webp)
@@ -521,7 +521,7 @@ Akamenyetso k’ugutangara kari mu ntango kerekana ko ari ishusho. Ivyanditswe b
 Niba wipfuza kwikorera ibishushanyo, urabe ko ukurikiza igitabu c’ibishushanyo ca Plan ₿ Academy kugira ngo ubone ko ibishushanyo bihuye:
 
 
-- Imyandikire**: Koresha [IBM Plex Sans](IBM+Plex+Sans);
+- Imyandikire**: Koresha [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Amabara**:
  - Umutuku: #FF5C00
  - Umwirabura: #000000

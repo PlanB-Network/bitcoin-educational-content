@@ -547,7 +547,7 @@ Mullvad ब्राउज़र स्वचालित रूप से Mullv
 
 - [आधिकारिक मुल्वाड ब्राउज़र वेबसाइट](https://mullvad.net/fr/browser)
 - [मुल्वाद ब्राउज़र डाउनलोड पेज](https://mullvad.net/en/download/browser)
-- [विस्तृत तकनीकी विनिर्देश](https://mullvad.net/en/browser/Hard-facts)
+- [विस्तृत तकनीकी विनिर्देश](https://mullvad.net/en/browser/hard-facts)
 - [मुल्वाद ब्राउज़र एक्सटेंशन](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

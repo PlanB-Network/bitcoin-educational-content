@@ -152,7 +152,7 @@ BTC 202 เป็นหลักสูตรที่เข้าถึงได
 
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -204,7 +204,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 > วิธีเดียวที่จะยืนยันการไม่มีธุรกรรมคือการรับรู้ธุรกรรมทั้งหมด
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -383,7 +383,7 @@ Bitcoin Core เป็นซอฟต์แวร์อ้างอิงสำ�
 
 
 
-ตาม[ข้อมูลที่รวบรวมในเดือนสิงหาคม 2025 โดย Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (นักพัฒนาที่มีชื่อเสียงในระบบนิเวศน์) การกระจายของการใช้งานในหมู่โหนดสาธารณะของเครือข่ายมีดังนี้:
+ตาม[ข้อมูลที่รวบรวมในเดือนสิงหาคม 2025 โดย Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (นักพัฒนาที่มีชื่อเสียงในระบบนิเวศน์) การกระจายของการใช้งานในหมู่โหนดสาธารณะของเครือข่ายมีดังนี้:
 
 
 
@@ -766,7 +766,7 @@ full node ไม่จำเป็นต้องเชื่อใจใคร�
 
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -1521,7 +1521,7 @@ Umbrel สามารถคงความเรียบง่ายและ�
 
 
 
-รหัสของ Umbrel สามารถเข้าถึงได้สาธารณะ (คุณสามารถดู, fork, และแก้ไขได้) แต่ไม่ได้อยู่ภายใต้ใบอนุญาตโอเพ่นซอร์สที่แท้จริง ในความเป็นจริง umbrelOS ถูกแจกจ่ายภายใต้ใบอนุญาต [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/) แม้ว่าบางเครื่องมือพัฒนาที่เกี่ยวข้องจะมีให้ภายใต้ใบอนุญาต MIT
+รหัสของ Umbrel สามารถเข้าถึงได้สาธารณะ (คุณสามารถดู, fork, และแก้ไขได้) แต่ไม่ได้อยู่ภายใต้ใบอนุญาตโอเพ่นซอร์สที่แท้จริง ในความเป็นจริง umbrelOS ถูกแจกจ่ายภายใต้ใบอนุญาต [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0) แม้ว่าบางเครื่องมือพัฒนาที่เกี่ยวข้องจะมีให้ภายใต้ใบอนุญาต MIT
 
 
 
@@ -3883,7 +3883,7 @@ full node เพิ่มคุณค่าให้กับเครือข�
 
 
 
-ขณะนี้เราได้ทำการระบุพารามิเตอร์การกำหนดค่าต่างๆ ส่วนใหญ่เสร็จสิ้นแล้ว ไฟล์ `Bitcoin.conf` นี้จึงถือเป็นแดชบอร์ดที่แท้จริงของโหนดของคุณ: มันกำหนดการกำหนดค่าเครือข่าย, การจัดการ Mempool, การใช้งานดิสก์และหน่วยความจำ, การจัดทำดัชนี, และการบริหารทั่วไป หากคุณต้องการเรียนรู้เพิ่มเติมเกี่ยวกับไฟล์นี้และสร้างไฟล์ที่ปรับให้เหมาะกับความต้องการของคุณ ฉันขอแนะนำให้ใช้ [ตัวสร้างของ Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/)
+ขณะนี้เราได้ทำการระบุพารามิเตอร์การกำหนดค่าต่างๆ ส่วนใหญ่เสร็จสิ้นแล้ว ไฟล์ `Bitcoin.conf` นี้จึงถือเป็นแดชบอร์ดที่แท้จริงของโหนดของคุณ: มันกำหนดการกำหนดค่าเครือข่าย, การจัดการ Mempool, การใช้งานดิสก์และหน่วยความจำ, การจัดทำดัชนี, และการบริหารทั่วไป หากคุณต้องการเรียนรู้เพิ่มเติมเกี่ยวกับไฟล์นี้และสร้างไฟล์ที่ปรับให้เหมาะกับความต้องการของคุณ ฉันขอแนะนำให้ใช้ [ตัวสร้างของ Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/)
 
 
 

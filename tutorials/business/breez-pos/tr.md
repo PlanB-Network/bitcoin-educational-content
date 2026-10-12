@@ -5,7 +5,7 @@ description: Breez, işletmeniz için bitcoin ödemelerini toplamayı kolaylaşt
 
 ![cover](assets/cover.webp)
 
-
+> **Uyarı (Ekim 2026):** Breez, eski mobil uygulamasını (Breez: Lightning Client & POS) 2026'da uygulama mağazalarından kaldırdı ve kullanıcılarının kanallarını kapattı. Bu rehberdeki indirme bağlantıları ve adımlar artık çalışmıyor. Eski kullanıcılar fonlarını [breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery) aracıyla kurtarabilir. Bu sayfayı güncellenene kadar başvuru amacıyla saklıyoruz.
 
 COVID-19 salgınından bu yana, temassız dijital ödemeler en küçük mağazalarda bile yaygınlaştı. Bu süre zarfında birçok işletme, dünyanın her yerinden ödeme almalarını sağlayan bitcoin cash çözümlerinin pratikliğini keşfetti. Ancak bu çözümlerin kullanımı bazen zor veya küçük işletmeler için uygun olmayabiliyor. Bu eğitimde, bitcoinlerinizin yönetimi üzerinde size tam kontrol sağlarken kullanım kolaylığı ile öne çıkan bir çözüm olan Breez ödeme terminaline bir göz atacağız.
 
@@ -15,7 +15,7 @@ COVID-19 salgınından bu yana, temassız dijital ödemeler en küçük mağazal
 
 
 
-Breez POS, Breez wallet tarafından sağlanan bir kendi kendine saklama hizmetidir. Bu hizmetin faydası, tüccarların çeşitli Lightning cüzdanlarına çok benzeyen basit bir arayüzde kalırken Bitcoin aracılığıyla ödeme toplamalarını sağlamaktır. Breez POS [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) ve [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS) indirme platformlarında mevcuttur.
+Breez POS, Breez wallet tarafından sağlanan bir kendi kendine saklama hizmetidir. Bu hizmetin faydası, tüccarların çeşitli Lightning cüzdanlarına çok benzeyen basit bir arayüzde kalırken Bitcoin aracılığıyla ödeme toplamalarını sağlamaktır. Breez POS Google Play Store (Android) ve App Store (iOS) indirme platformlarında mevcuttur.
 
 
 

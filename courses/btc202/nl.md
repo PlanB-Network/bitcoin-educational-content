@@ -152,7 +152,7 @@ Omdat Bitcoin een systeem is, moet het noodzakelijkerwijs op computers draaien. 
 
 
 
-Nakamoto, S. (2008). *Bitcoin: Een Peer-to-Peer elektronisch geldsysteem*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Een Peer-to-Peer elektronisch geldsysteem*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -204,7 +204,7 @@ De eerste taak van een node is om een lokale kopie van Blockchain te onderhouden
 
 > De enige manier om de afwezigheid van een transactie te bevestigen is door op de hoogte te zijn van alle transacties.
 
-Nakamoto, S. (2008). *Bitcoin: Een Peer-to-Peer elektronisch geldsysteem*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Een Peer-to-Peer elektronisch geldsysteem*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -383,7 +383,7 @@ In theorie vertegenwoordigt Bitcoin core niet het Bitcoin protocol; het is slech
 
 
 
-Volgens [gegevens verzameld in augustus 2025 door Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (een bekende ontwikkelaar in het ecosysteem) is de verdeling van implementaties over de openbare nodes van het netwerk als volgt:
+Volgens [gegevens verzameld in augustus 2025 door Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (een bekende ontwikkelaar in het ecosysteem) is de verdeling van implementaties over de openbare nodes van het netwerk als volgt:
 
 
 
@@ -766,7 +766,7 @@ Een [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (*Simpli
 
 
 
-Nakamoto, S. (2008). *Bitcoin: Een Peer-to-Peer elektronisch geldsysteem*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Een Peer-to-Peer elektronisch geldsysteem*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -1521,7 +1521,7 @@ Een van de belangrijkste voordelen van Umbrel ten opzichte van de concurrentie i
 
 
 
-Umbrel's code is openbaar beschikbaar (je kunt het bekijken, forken, en aanpassen), maar het valt niet onder een echte open-source licentie. In feite wordt umbrelOS gedistribueerd onder de [*PolyForm Noncommercial 1.0*] licentie (https://polyformproject.org/licenses/noncommercial/1.0.0/), hoewel sommige bijbehorende ontwikkeltools beschikbaar zijn onder de MIT licentie.
+Umbrel's code is openbaar beschikbaar (je kunt het bekijken, forken, en aanpassen), maar het valt niet onder een echte open-source licentie. In feite wordt umbrelOS gedistribueerd onder de [*PolyForm Noncommercial 1.0*] licentie (https://polyformproject.org/licenses/noncommercial/1.0.0), hoewel sommige bijbehorende ontwikkeltools beschikbaar zijn onder de MIT licentie.
 
 
 
@@ -3884,7 +3884,7 @@ Tenslotte kun je in het `Bitcoin.conf` bestand ook de toegangsparameters voor je
 
 
 
-We zijn nu klaar met het opsommen van de meeste configuratieparameters. Dit `Bitcoin.conf` bestand vormt dus het echte dashboard van je node: het definieert netwerk configuratie, Mempool beheer, schijf- en geheugengebruik, indexering en algemeen beheer. Als je meer wilt weten over dit bestand en er een op maat wilt maken, raad ik je aan om [Jameson Lopp's generator](https://jlopp.github.io/Bitcoin-core-config-generator/) te gebruiken.
+We zijn nu klaar met het opsommen van de meeste configuratieparameters. Dit `Bitcoin.conf` bestand vormt dus het echte dashboard van je node: het definieert netwerk configuratie, Mempool beheer, schijf- en geheugengebruik, indexering en algemeen beheer. Als je meer wilt weten over dit bestand en er een op maat wilt maken, raad ik je aan om [Jameson Lopp's generator](https://jlopp.github.io/bitcoin-core-config-generator/) te gebruiken.
 
 
 

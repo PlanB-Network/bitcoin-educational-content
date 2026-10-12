@@ -43,7 +43,7 @@ LNbits ทำหน้าที่เป็นตัวเชื่อมระ�
 ## แพลตฟอร์มสาธิต
 
 
-สามารถดูการสาธิตได้ที่ [https://legend.lnbits.com](https://legend.lnbits.com) ซึ่งสามารถใช้งานได้เต็มรูปแบบและสามารถใช้เพื่อเรียนรู้เกี่ยวกับ Lightning Network และคุณสมบัติของ LNbits และ LNURL โดยทั่วไป แม้ว่าเราจะไม่สามารถป้องกันคุณจากการใช้งานได้ แต่เราขอให้คุณไม่ใช้มันสำหรับการตั้งค่าการผลิตของคุณ ไม่เพียงแต่เรากำลังทำงานบนเซิร์ฟเวอร์บ่อยครั้งเพื่อทดสอบคุณสมบัติใหม่ ๆ แต่เรายังต้องการสนับสนุนให้คุณเรียกใช้โหนดของคุณเองและ LNbits ในวิธีที่เป็นอิสระ หากคุณคิดว่าการเรียกใช้โหนดเป็นเรื่องที่มากเกินไปในขณะนี้ คุณสามารถเชื่อมต่อ LNbits กับบริการการระดมทุนผู้ดูแลในคลาวด์ เช่น Opennode, Luna หรือ Votage หรือกับ Lightning Tipbot บน Telegram เพียงเพื่อยกตัวอย่างบางส่วน
+สามารถดูการสาธิตได้ที่ [https://demo.lnbits.com](https://demo.lnbits.com) ซึ่งสามารถใช้งานได้เต็มรูปแบบและสามารถใช้เพื่อเรียนรู้เกี่ยวกับ Lightning Network และคุณสมบัติของ LNbits และ LNURL โดยทั่วไป แม้ว่าเราจะไม่สามารถป้องกันคุณจากการใช้งานได้ แต่เราขอให้คุณไม่ใช้มันสำหรับการตั้งค่าการผลิตของคุณ ไม่เพียงแต่เรากำลังทำงานบนเซิร์ฟเวอร์บ่อยครั้งเพื่อทดสอบคุณสมบัติใหม่ ๆ แต่เรายังต้องการสนับสนุนให้คุณเรียกใช้โหนดของคุณเองและ LNbits ในวิธีที่เป็นอิสระ หากคุณคิดว่าการเรียกใช้โหนดเป็นเรื่องที่มากเกินไปในขณะนี้ คุณสามารถเชื่อมต่อ LNbits กับบริการการระดมทุนผู้ดูแลในคลาวด์ เช่น Opennode, Luna หรือ Votage หรือกับ Lightning Tipbot บน Telegram เพียงเพื่อยกตัวอย่างบางส่วน
 
 
 ## LNbits ใบปลิว
@@ -116,7 +116,7 @@ LNbits สามารถติดตั้งบนเครื่อง Linux 
 [สถานการณ์การติดตั้งเพิ่มเติมที่นี่](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
 
-สำหรับโหนดซอฟต์แวร์แบบรวม โปรดดูเอกสารเฉพาะเกี่ยวกับ LNbits: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+สำหรับโหนดซอฟต์แวร์แบบรวม โปรดดูเอกสารเฉพาะเกี่ยวกับ LNbits: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
 ### LNbits SaaS
@@ -202,17 +202,19 @@ LNbits สามารถทำงานร่วมกับแหล่งเ�
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend Demo Server (!! ห้ามใช้เซิร์ฟเวอร์นี้สำหรับการผลิต / วัตถุประสงค์ทางการค้า ใช้สำหรับการทดสอบเท่านั้น !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### Lightning TipBot
+
+> **คำเตือน (ตุลาคม 2026):** LightningTipBot และ ln.tips ปิดให้บริการแล้ว โดยประกาศปิดเมื่อวันที่ 29 เมษายน 2024 แหล่งเงินทุนนี้ใช้งานไม่ได้อีกต่อไป เว้นแต่คุณจะโฮสต์บอตของคุณเอง
 
 
 ในการเชื่อมต่อ [Lightning Tipbot](https://t.me/LightningTipBot) จาก Telegram คุณจะต้องตั้งค่าพารามิเตอร์ต่อไปนี้:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://ln.tips
+  - `LNBITS_ENDPOINT`: `https://ln.tips`
   - `LNBITS_KEY`: ในการรับคีย์ คุณจะต้องเรียกใช้ /api ในการแชทส่วนตัวกับ LightningTipbot บน Telegram หนึ่งครั้ง
 
 
@@ -229,11 +231,13 @@ LNbits สามารถทำงานร่วมกับแหล่งเ�
 
 #### LNPay
 
-สำหรับการทำงานของ invoice listener คุณต้องมี URL ที่เข้าถึงได้สาธารณะใน LNbits ของคุณและต้องตั้งค่า [LNPay webhook](https://dashboard.lnpay.co/webhook/) ชี้ไปที่ `<your LNbits host>/wallet/webhook` พร้อมกับเหตุการณ์ "Wallet Receive" และไม่มีการให้ secret การตั้งค่า `https://mylnbits/wallet/webhook` จะเป็น endpoint url ที่ได้รับการแจ้งเตือนเกี่ยวกับการชำระเงินใด ๆ
+> **คำเตือน (ตุลาคม 2026):** ดูเหมือนว่า LNPay จะยุติการให้บริการแล้ว: โดเมน lnpay.co ไม่ตอบสนองอีกต่อไป แหล่งเงินทุนนี้น่าจะใช้งานไม่ได้แล้ว
+
+สำหรับการทำงานของ invoice listener คุณต้องมี URL ที่เข้าถึงได้สาธารณะใน LNbits ของคุณและต้องตั้งค่า LNPay webhook ชี้ไปที่ `<your LNbits host>/wallet/webhook` พร้อมกับเหตุการณ์ "Wallet Receive" และไม่มีการให้ secret การตั้งค่า `https://mylnbits/wallet/webhook` จะเป็น endpoint url ที่ได้รับการแจ้งเตือนเกี่ยวกับการชำระเงินใด ๆ
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -514,7 +518,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ##### LNURL สำหรับที่อยู่ lightning ตรงกันข้าม
 
 
-ลองใช้ [encoder](https://lnurl-codec.netlify.app/) จาก fiatjaf หรือ [อันนี้](https://lightningdecoder.com/). สำหรับการจ่ายหรือเช็ค LNURLp คุณสามารถใช้ [LNurlpay](https://wwww.lnurlpay.com/) ได้เช่นกัน ควรระบุว่าเป็น HTTPS ไม่ใช่ HTTP.
+ลองใช้ [encoder](https://lnurl-codec.netlify.app/) จาก fiatjaf หรือ [อันนี้](https://lightningdecoder.com/). สำหรับการจ่ายหรือเช็ค LNURLp คุณสามารถใช้ [LNurlpay](https://www.lnurlpay.com/) ได้เช่นกัน ควรระบุว่าเป็น HTTPS ไม่ใช่ HTTP.
 
 
 
@@ -537,7 +541,9 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ###### ผ่านบริการแลกเปลี่ยนภายนอก
 
 
-ผู้ใช้รายอื่นที่ไม่มีสิทธิ์เข้าถึง LNb ของคุณสามารถใช้บริการแลกเปลี่ยนเช่น [Boltz](https://boltz.exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) หรือ [ZigZag](https://zigzag.io/) ได้ นี่เป็นประโยชน์หากคุณให้เฉพาะใบแจ้งหนี้ LNURL/LN จากอินสแตนซ์ LNbits ของคุณ แต่ผู้ชำระเงินมีเพียง onchain sats ดังนั้นพวกเขาจะต้องแลกเปลี่ยน sats เหล่านั้นก่อนในฝั่งของพวกเขา ขั้นตอนง่าย ๆ: ผู้ใช้ส่ง btc onchain ไปยังบริการแลกเปลี่ยนและให้ใบแจ้งหนี้ LNURL / LN จาก LNbits เป็นปลายทางของการแลกเปลี่ยน
+ผู้ใช้รายอื่นที่ไม่มีสิทธิ์เข้าถึง LNb ของคุณสามารถใช้บริการแลกเปลี่ยนเช่น Boltz, [FixedFloat](https://fixedfloat.com/) หรือ [ZigZag](https://zigzag.io/) ได้ นี่เป็นประโยชน์หากคุณให้เฉพาะใบแจ้งหนี้ LNURL/LN จากอินสแตนซ์ LNbits ของคุณ แต่ผู้ชำระเงินมีเพียง onchain sats ดังนั้นพวกเขาจะต้องแลกเปลี่ยน sats เหล่านั้นก่อนในฝั่งของพวกเขา ขั้นตอนง่าย ๆ: ผู้ใช้ส่ง btc onchain ไปยังบริการแลกเปลี่ยนและให้ใบแจ้งหนี้ LNURL / LN จาก LNbits เป็นปลายทางของการแลกเปลี่ยน
+
+> **คำเตือน (ตุลาคม 2026):** Boltz ระงับการสลับทั้งหมดเมื่อวันที่ 3 สิงหาคม 2026 หลังจากช่องโหว่หลายจุดถูกโจมตี และเว็บไซต์ออฟไลน์อยู่ ขณะนี้ยังไม่สามารถใช้ Boltz และส่วนขยาย Boltz ของ LNbits ได้
 
 
 ###### ใช้ส่วนขยาย Onchain และ Boltz LNbits
@@ -595,7 +601,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ### เครื่องมือและการสร้างด้วย LNbits
 
 
-LNbits มี [open APIs](https://legend.lnbits.com/docs) และเครื่องมือต่าง ๆ สำหรับการเขียนโปรแกรมและเชื่อมต่อกับอุปกรณ์หลากหลายประเภทสำหรับการใช้งานที่หลากหลายมากมาย
+LNbits มี [open APIs](https://demo.lnbits.com/docs) และเครื่องมือต่าง ๆ สำหรับการเขียนโปรแกรมและเชื่อมต่อกับอุปกรณ์หลากหลายประเภทสำหรับการใช้งานที่หลากหลายมากมาย
 
 
 เมื่อคุณเริ่มต้นสร้างใหม่ ให้เริ่มต้นด้วย [MakerBits presentations](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) จาก Ben Arc เกี่ยวกับการสร้างอุปกรณ์ตาม LNbits

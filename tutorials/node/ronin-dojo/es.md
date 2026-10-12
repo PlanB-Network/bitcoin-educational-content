@@ -5,6 +5,8 @@ description: Instalar y utilizar tu propio nodo Bitcoin RoninDojo.
 ---
 ***ADVERTENCIA:** Tras la detención de los fundadores de Samourai Wallet y la incautación de sus servidores el 24 de abril, ciertas características de RoninDojo, como Whirlpool, ya no están operativas. Sin embargo, es posible que estas herramientas puedan ser restablecidas o relanzadas de manera diferente en las próximas semanas. Además, dado que el código de RoninDojo estaba alojado en el GitLab de Samourai, que también fue incautado, actualmente no es posible descargar el código de manera remota. Es probable que los equipos de RoninDojo estén trabajando en la republicación del código.*
 
+> **Actualización (octubre de 2026):** RoninDojo ha vuelto a publicar su código en su propia forja ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) y ya va por la versión 3. Este tutorial describe una versión anterior: algunos de sus enlaces y comandos ya no funcionan. Para el procedimiento actual, consulta la documentación oficial: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 _Estamos siguiendo de cerca la evolución de este caso así como los desarrollos relacionados con las herramientas asociadas. Ten la seguridad de que actualizaremos este tutorial a medida que esté disponible nueva información._
 
 _Este tutorial se proporciona únicamente con fines educativos e informativos. No respaldamos ni alentamos el uso de estas herramientas para fines criminales. Es responsabilidad de cada usuario cumplir con las leyes en su jurisdicción._
@@ -57,9 +59,11 @@ Ahora que hemos podido describir a RoninDojo, veamos juntos cómo configurar est
 
 Para elegir la máquina que alojará y ejecutará RoninDojo, tienes varias opciones.
 
-Como se explicó anteriormente, la opción más sencilla será pedir el Tanto, una máquina plug-and-play diseñada específicamente para este propósito. Para pedir el tuyo, ve aquí: https://shop.ronindojo.io/product-category/nodes/.
+Como se explicó anteriormente, la opción más sencilla será pedir el Tanto, una máquina plug-and-play diseñada específicamente para este propósito.
 
-Dado que los equipos de RoninDojo producen código de código abierto, también es posible implementar RoninDojo en otras máquinas. Puedes encontrar las últimas versiones del asistente de instalación en esta página: https://ronindojo.io/en/downloads.html, y las últimas versiones del código en esta página: https://code.samourai.io/ronindojo/RoninDojo.
+> **Nota (octubre de 2026):** Parece que RoninDojo ya no vende el Tanto, y su tienda en línea está fuera de servicio. Consulta la lista de hardware compatible: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
+
+Dado que los equipos de RoninDojo producen código de código abierto, también es posible implementar RoninDojo en otras máquinas. Puedes encontrar las últimas versiones del asistente de instalación en esta página: https://ronindojo.io/downloads, y las últimas versiones del código en esta página: https://git.ronindojo.io/Ronin/monorepo.
 
 Personalmente, lo hemos instalado en una Raspberry Pi 4 de 8GB y funciona perfectamente.
 
@@ -81,7 +85,7 @@ Aquí tienes un ejemplo de configuración para hacer tu propio nodo RoninDojo:
 
 Una vez que hayas montado tu máquina, podrás comenzar la instalación de RoninDojo. Para ello, comienza creando una micro SD con capacidad de arranque grabando la imagen de disco adecuada.
 
-Inserta tu tarjeta micro SD en tu computadora personal y visita el sitio web oficial de RoninDojo para descargar la imagen de disco RoninOS: https://ronindojo.io/en/downloads.html.
+Inserta tu tarjeta micro SD en tu computadora personal y visita el sitio web oficial de RoninDojo para descargar la imagen de disco RoninOS: https://ronindojo.io/downloads.
 
 Descarga la imagen de disco que corresponda a tu hardware. En este caso, descargamos la imagen "MANJARO-ARM-RONINOS-RPI4-22.03.IMG.XZ":
 
@@ -89,7 +93,7 @@ Descarga la imagen de disco que corresponda a tu hardware. En este caso, descarg
 
 Una vez descargada la imagen, verifica su integridad utilizando el archivo .SHA256 correspondiente. Te explicamos detalladamente cómo hacer esto en este artículo: ¿Cómo verificar la integridad de un software de Bitcoin en Windows?
 
-Las instrucciones específicas para verificar la integridad de RoninOS también están disponibles en esta página en inglés: https://wiki.ronindojo.io/en/extras/verify.
+Las instrucciones específicas para verificar la integridad de RoninOS también están disponibles en esta página en inglés: https://docs.ronindojo.io/install/verify-os/.
 
 Para grabar esta imagen en tu micro SD, puedes utilizar un software como Balena Etcher que puedes descargar aquí: https://www.balena.io/etcher/.
 
@@ -155,6 +159,8 @@ En la terminal, se verá así:
 ![Conexión SSH a RoninOS](assets/10.webp)
 
 Ahora estás conectado a tu máquina que actualmente solo tiene RoninOS. Ahora debes instalar RoninDojo en ella.
+
+> **Nota (octubre de 2026):** El comando siguiente ya no funciona: el GitLab de Samourai (code.samourai.io) fue incautado el 24 de abril de 2024. RoninDojo aloja ahora su código aquí: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Para el procedimiento de instalación actual, consulta [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
 
 Descarga la última versión de RoninDojo ingresando el siguiente comando:
 
@@ -344,12 +350,12 @@ Tu nodo RoninDojo también incluye WhirlpoolCLI, una interfaz de línea de coman
 Cuando realizas un CoinJoin con la implementación de Whirlpool, la aplicación que estás utilizando debe permanecer abierta para poder ejecutar mezclas y remezclas. Este proceso puede resultar tedioso para el usuario que busca tener conjuntos anónimos elevados, ya que el dispositivo que aloja la aplicación con Whirlpool debe permanecer encendido constantemente. En pocas palabras, esto significa que si deseas comprometer tus UTXO en remezclas las 24 horas del día, los 7 días de la semana, deberás dejar tu computadora personal o tu teléfono encendidos constantemente con la aplicación abierta.
 
 Una solución a esta limitación es utilizar WhirlpoolCLI en una máquina destinada a estar encendida constantemente, como por ejemplo un nodo Bitcoin. Gracias a esto, nuestros UTXO podrán remezclarse las 24 horas del día y los 7 días de la semana sin necesidad de dejar otra máquina que no sea nuestro nodo Bitcoin en funcionamiento.
-WhirlpoolCLI se utiliza junto con WhirlpoolGUI, una interfaz gráfica que se instala en una computadora personal para facilitar la gestión de Coinjoins. En este artículo, explicaremos en detalle cómo configurar Whirlpool CLI en tu propio dojo: https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez
-Para obtener más información sobre Coinjoin en general, lo explicamos todo en este artículo: https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin
+WhirlpoolCLI se utiliza junto con WhirlpoolGUI, una interfaz gráfica que se instala en una computadora personal para facilitar la gestión de Coinjoins. En este artículo, explicaremos en detalle cómo configurar Whirlpool CLI en tu propio dojo: https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez
+Para obtener más información sobre Coinjoin en general, lo explicamos todo en este artículo: https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin
 
 ### Usar Whirlpool Stat Tool.
 
-Después de realizar CoinJoins con Whirlpool, es posible que quieras saber concretamente cuál es el nivel de privacidad de sus UTXO mezclados. Whirlpool Stat Tool te permite hacer esto fácilmente. Con esta herramienta, podrás calcular la puntuación prospectiva y la puntuación retrospectiva de sus UTXO mezclados. Para obtener más información sobre el cálculo de estos conjuntos anónimos y cómo funcionan, recomendamos que leas esta parte: https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment
+Después de realizar CoinJoins con Whirlpool, es posible que quieras saber concretamente cuál es el nivel de privacidad de sus UTXO mezclados. Whirlpool Stat Tool te permite hacer esto fácilmente. Con esta herramienta, podrás calcular la puntuación prospectiva y la puntuación retrospectiva de sus UTXO mezclados. Para obtener más información sobre el cálculo de estos conjuntos anónimos y cómo funcionan, recomendamos que leas esta parte: https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment
 
 La herramienta está preinstalada en tu RoninDojo. Por el momento, solo está disponible desde RoninCLI. Para iniciarlo desde el menú principal, ve a:
 
@@ -409,7 +415,7 @@ WST mostrará primero la puntuación retrospectiva (métricas retrospectivas) y 
 
 Ten en cuenta que la puntuación prospectiva de su UTXO se calcula a partir de la TXID de su mezcla inicial, no de su última mezcla. Por otro lado, la puntuación retrospectiva de un UTXO se calcula a partir de la TXID del último ciclo.
 
-Una vez más, si no entiendes estos conceptos de conjuntos Anon, te recomendamos que leas esta parte de nuestro artículo sobre Coinjoin en el que lo explicamos todo en detalle con diagramas: https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment
+Una vez más, si no entiendes estos conceptos de conjuntos Anon, te recomendamos que leas esta parte de nuestro artículo sobre Coinjoin en el que lo explicamos todo en detalle con diagramas: https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment
 
 ### Utilizando la calculadora Boltzmann.
 
@@ -660,7 +666,7 @@ Hemos podido ver cómo instalar y familiarizarnos con esta magnífica herramient
 
 Si no le temes al uso de la terminal y no necesitas herramientas relacionadas con la Lightning Network, entonces RoninDojo puede ser de tu agrado.
 
-Si puedes, considera hacer una donación a los desarrolladores que producen estos software de código abierto de forma gratuita para ti: https://donate.ronindojo.io/
+Si puedes, considera hacer una donación a los desarrolladores que producen estos software de código abierto de forma gratuita para ti: https://docs.ronindojo.io/main/donations/
 
 Para obtener más información sobre RoninDojo, te recomendamos que consultes los enlaces en mis recursos externos a continuación.
 
@@ -679,6 +685,6 @@ Para obtener más información sobre RoninDojo, te recomendamos que consultes lo
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/introducing-boltzmann-85930984a159
 - https://fr.wikipedia.org/wiki/Formule_de_Boltzmann
-- https://wiki.ronindojo.io/en/setup/bisq
+- https://web.archive.org/web/20240214172859/https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/
 

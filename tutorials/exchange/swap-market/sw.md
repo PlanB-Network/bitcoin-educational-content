@@ -566,6 +566,8 @@ Satoshi zako za Umeme zinapatikana mara moja katika wallet yako.
 
 ## SwapMarket vs Boltz: Kuna tofauti gani?
 
+> **Kumbuka (Oktoba 2026):** Boltz Exchange ilisitisha ubadilishaji wote tarehe 3 Agosti 2026 na tovuti yake haipatikani mtandaoni. Mtoa huduma huyu huenda asipatikane tena kwenye SwapMarket.
+
 
 
 ### Boltz: Teknolojia dhidi ya Huduma
@@ -639,7 +641,7 @@ Ushindani kati ya watoa huduma huboresha viwango na kuzidisha vyanzo vya ukwasi.
 
 - [SwapMarket - Programu ya Wavuti](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Nyaraka za kiufundi](https://docs.boltz.exchange/)
+- [Nyaraka za kiufundi](https://github.com/BoltzExchange/boltz-backend)
 - [Elekeza upangishaji binafsi](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 
@@ -649,5 +651,5 @@ Ushindani kati ya watoa huduma huboresha viwango na kuzidisha vyanzo vya ukwasi.
 
 
 
-- [Boltz Exchange](https://boltz.exchange) - Huduma asili ya kubadilishana atomiki
+- Boltz Exchange - Huduma asili ya kubadilishana atomiki
 - [Mabadiliko ya ZEUS](https://zeusln.com) - Mtoa huduma za kubadilishana umeme

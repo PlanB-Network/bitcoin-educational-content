@@ -26,7 +26,7 @@ description: How to configure Blockstream App and use the Liquid network
 ### 1.3 Introducing Liquid
 
 
-**Liquid** is a **Sidechain** of Bitcoin, developed by **[Blockstream](https://blockstream.com/Liquid/)**, designed to offer faster, more confidential transactions and advanced functionality, while remaining connected to the main Blockchain Bitcoin.
+**Liquid** is a **Sidechain** of Bitcoin, developed by **[Blockstream](https://blockstream.com/liquid/)**, designed to offer faster, more confidential transactions and advanced functionality, while remaining connected to the main Blockchain Bitcoin.
 
 
 A Sidechain is an independent Blockchain that operates in parallel with Bitcoin, using a mechanism known as **two-way peg**. This system locks bitcoins onto the main Blockchain to create **Liquid-Bitcoins (L-BTC)**, tokens that circulate on the Liquid network while retaining parity of value with the original bitcoins. Funds can be returned to Blockchain Bitcoin at any time.
@@ -306,7 +306,9 @@ Lock access to the application with a strong PIN code:
 To receive Liquid-Bitcoins (L-BTC), several options are available. You can ask someone to send you some directly by sharing a Liquid receiving address, which is detailed below.
 
 
-Alternatively, exchange your bitcoins onchain or via the Lightning network for L-BTC using [a bridge such as Boltz](https://boltz.Exchange/): enter your Liquid receiving address, make payment as you prefer, and receive your L-BTC.
+Alternatively, exchange your bitcoins onchain or via the Lightning network for L-BTC using a bridge such as Boltz: enter your Liquid receiving address, make payment as you prefer, and receive your L-BTC.
+
+> **Note (October 2026):** Boltz suspended all swaps on 3 August 2026 and its website is offline. This method does not work at the moment.
 
 
 

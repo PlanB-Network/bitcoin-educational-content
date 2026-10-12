@@ -1917,7 +1917,7 @@ Jednou z hlavních nevýhod JoinMarketu je složitost jeho používání, které
 
 ![BTC204](assets/cs/137.webp)
 
-Zdroj: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Zdroj: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 Hlavní překážkou však zůstává technická bariéra. V ekosystému coinjoin, kde je důvěrnost posílena počtem účastníků, má jakékoli omezení snižující dostupnost přímý vliv na dostupnou likviditu, která je rozhodujícím faktorem efektivity mixu. Bitcoin, který je již výklenkem v oblasti finančních transakcí, vnímá využití coinjoinů jako svůj podvýklenek a JoinMarket představuje jeho ještě specializovanější část, což tedy omezuje jeho potenciál zvyšovat anonsety uživatelů.
 

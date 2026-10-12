@@ -939,7 +939,7 @@ Další informace o moderní teorii čísel najdete v mnoha pokročilých diskus
 
 [3] Viz [YouTube Video](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
-[4] Socratica, [Abstract Algebra](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Abstract Algebra](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 [5] Katz a Lindell, *Introduction to Modern Cryptography*, 2. vydání, 2015 (CRC Press: Boca Raton, FL). Paar a Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlin).
 
@@ -1902,7 +1902,7 @@ O hašovací funkci $H$ se říká, že je **odolná proti kolizi**, jestliže j
 
 Hashovací funkce odolné proti kolizím jsou důležité například při ověřování softwaru. Předpokládejme, že si chcete stáhnout verzi Bitcoin Core 0.21.0 (serverová aplikace pro zpracování síťového provozu Bitcoinu) pro systém Windows. Hlavní kroky, které byste museli provést, abyste ověřili legitimitu softwaru, jsou následující:
 
-1.	Nejprve je třeba stáhnout a importovat veřejné klíče jednoho nebo více přispěvatelů Bitcoin Core do softwaru, který umí ověřovat digitální podpisy (např. Kleopetra). Tyto veřejné klíče najdete [zde](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Doporučujeme ověřit software Bitcoin Core pomocí veřejných klíčů od více přispěvatelů.
+1.	Nejprve je třeba stáhnout a importovat veřejné klíče jednoho nebo více přispěvatelů Bitcoin Core do softwaru, který umí ověřovat digitální podpisy (např. Kleopetra). Tyto veřejné klíče najdete [zde](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys). Doporučujeme ověřit software Bitcoin Core pomocí veřejných klíčů od více přispěvatelů.
 
 2.	Dále je třeba ověřit importované veřejné klíče. Alespoň jedním z kroků, které byste měli udělat, je ověřit, že nalezené veřejné klíče jsou stejné jako ty, které jsou zveřejněny na různých jiných místech. Můžete se například podívat na osobní webové stránky, stránky Twitteru nebo Githubu lidí, jejichž veřejné klíče jste importovali. Obvykle se toto porovnání veřejných klíčů provádí porovnáním krátkého hashe veřejného klíče známého jako otisk prstu.
 

@@ -48,7 +48,7 @@ Ovaj značajan rast je, naravno, usko povezan sa:
 
 
 
-- [rastuće interesovanje ljudi širom sveta za korišćenje Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), kako bi se oslobodili bankarskog sistema i/ili koristili manje volatilnu ili manje devalviranu valutu, kao što je slučaj sa stanovništvom u Libanu, Siriji, Egiptu, Argentini i drugim zemljama;
+- [rastuće interesovanje ljudi širom sveta za korišćenje Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), kako bi se oslobodili bankarskog sistema i/ili koristili manje volatilnu ili manje devalviranu valutu, kao što je slučaj sa stanovništvom u Libanu, Siriji, Egiptu, Argentini i drugim zemljama;
 - njegovo povećanje cene tokom vremena, što ga uspostavlja kao čuvara vrednosti i dugoročnu investiciju, vođeno njegovom fiksnom monetarnom politikom;
 - uzastopni rast spekulativnog tržišta kriptovaluta, posebno tokom 2017-2018 i 2020-2021;
 - Sve veće prisustvo Bitcoin u mejnstrim medijima.
@@ -701,7 +701,7 @@ Ako želite da dizajnirate futuristički logo za "Bitcoin London" okupljanje, mo
 
 
 
-- [ ] *Prompt: Kreiraj Bitcoin logo sa Londonskim mostom i Big Benom u pozadini. Futuristički* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *Prompt: Kreiraj Bitcoin logo sa Londonskim mostom i Big Benom u pozadini. Futuristički*
 
 
 
@@ -714,7 +714,7 @@ Ako prva četiri rezultata nisu dovoljno realistična, precizirajte svoj zahtev:
 
 
 
-- [ ] *Prompt: Napravite četvrti mnogo realističnijim* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *Prompt: Napravite četvrti mnogo realističnijim*
 
 
 
@@ -732,7 +732,7 @@ Za čistiji izgled, kao za nalepnicu:
 
 
 
-- [ ] *Prompt: Kreirajte logo za "London Bitcoin Meetup" sa britanskim i čistim stilom* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Prompt: Kreirajte logo za "London Bitcoin Meetup" sa britanskim i čistim stilom*
 
 
 
@@ -1392,7 +1392,7 @@ To uključuje:
 
 
 - [Btcmap.org](https://btcmap.org/)**, vebsajt sa dve mape koje se ažuriraju svakodnevno: **[svetska mapa preduzeća koja prihvataju Bitcoin](https://btcmap.org/map)** i **[svetska mapa zajednica](https://btcmap.org/communities/map)**. Mnogi bitkoin entuzijasti redovno proveravaju ove mape, bilo da putuju ili obavljaju svakodnevne aktivnosti, kako bi upoznali nove ljude ili pronašli mesta za trošenje svog [Sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap je globalna referenca, a uvrštavanje vaše zajednice tamo je ključno za vidljivost.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), vebsajt kreiran od strane bitkoinera, za bitkoinere. **Omogućava vam da objavite predstojeće događaje vaše zajednice**. Međutim, u Francuskoj se još uvek ne koristi široko.
+- BitcoinerEvents, vebsajt kreiran od strane bitkoinera, za bitkoinere. **Omogućava vam da objavite predstojeće događaje vaše zajednice**. Međutim, u Francuskoj se još uvek ne koristi široko. **Napomena (oktobar 2026):** ovaj sajt više nije dostupan. [BitcoinOnly Events](https://bitcoinonly.events/) je sličan kalendar koji i dalje radi.
 - u zavisnosti od vaše zemlje, mogu postojati i druge lokalne inicijative. U Francuskoj, na primer, postoji [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), koji **navodi desetine Bitcoin događaja svakog meseca**. Dakle, ako ih još niste zapratili na Twitteru ili ih kontaktirali da podelite informacije o vašoj zajednici i događajima, sada je pravo vreme! **Da bi francuski kalendar događaja bio ažuriran, bilo bi sjajno kada bi sve francuske Bitcoin zajednice usvojile naviku da:**
     - pominjanje @bitcoinpointfr na Twitteru za svaki novi događaj zajednice
     - pričvršćivanje novih najava događaja u njihovoj Telegram grupi.
@@ -1412,7 +1412,7 @@ Slično tome, **[Orangepillapp](https://www.orangepillapp.com/)** je plaćena mo
 
 Iako ove poslednje dve platforme mogu pomoći u povećanju vidljivosti, ne preporučuju se prilikom pokretanja zajednice, jednostavno zato što nisu besplatne.
 
-**Počevši sa listingom na [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) i za francuske zajednice, na [Bitcoin.fr](https://Bitcoin.fr) je više nego dovoljno**.
+**Počevši sa listingom na [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) i za francuske zajednice, na [Bitcoin.fr](https://Bitcoin.fr) je više nego dovoljno**.
 
 
 Čestitamo! Vaša **zajednica je kreirana**, vaši **vizuali su spremni**, vaši **ciljevi su postavljeni**, vaši **komunikacioni kanali su uspostavljeni**, vaše **društvene mreže su pokrenute** i vaša **strategija vidljivosti je odlučena**.
@@ -1500,7 +1500,7 @@ Ako želite da se pripremite za mirnije trenutke, možete isplanirati nekoliko a
 - donoseći **Nerdminer**, Bitaxe, FPGA ili čak ASIC;
 - imati **Bitcoin letak**;
 - brainstorming vizuala ili logotipa Bitcoin za vašu zajednicu;
-- igranje **[Bitcoin kartaške igre](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- igranje **[Bitcoin kartaške igre](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - prikazivanje mape zajednica i trgovaca na **[btcmap.org](https://btcmap.org/)**;
 - slanje ili prijem Bitcoin koristeći **Lightning**.
 
@@ -1871,7 +1871,7 @@ U zavisnosti od vaše dostupnosti i nivoa angažovanosti u vašoj zajednici, mo�
 
 - Restoranska noć za **Dan pice** 22. maja
 - Veče ili vikend za proslavu sledećeg **Halving**
-- Porodična **noć igre** o Bitcoin i kako funkcioniše, koristeći igre kao što su [Le Coin de Table](https://www.Maximalist.ovh/) ili [SHAmory](https://shamory.com/)
+- Porodična **noć igre** o Bitcoin i kako funkcioniše, koristeći igre kao što su [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) ili [SHAmory](https://shamory.com/)
 - Radionica **Mining** koja predstavlja različite tipove hardvera (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - **Popodne ili veče za početnike**, sa tematskim radionicama
 - **zajednički sastanak sa susednim zajednicama**
@@ -2006,7 +2006,7 @@ Takođe možete dizajnirati flajer specifičan za vašu zajednicu ili okupljanje
 Nekoliko letaka je već **dostupno kao open-source u [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** na planB.network i još će ih biti dodato s vremenom.
 
 
-Jedan primer je [potpuno dokumentovan flajer](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) sa 21 razlogom za korišćenje Bitcoin. Njegov dizajn je takođe [dostupan kao open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) za modifikaciju, prilagođavanje i deljenje. Samo zapamtite da navedete izvore.
+Jedan primer je [potpuno dokumentovan flajer](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) sa 21 razlogom za korišćenje Bitcoin. Njegov dizajn je takođe [dostupan kao open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) za modifikaciju, prilagođavanje i deljenje. Samo zapamtite da navedete izvore.
 
 
 
@@ -2050,7 +2050,7 @@ Iako je napuštanje Bitcoin bele knjige simbolično, često je previše složeno
 - Žao mi je, ne mogu da prevedem dokument na francuski. Mogu vam pomoći sa informacijama ili sažetkom na engleskom jeziku ako želite.
 
 
-Evo [brošura koju dele francuski bitkoineri](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) koja je postavljena u desetinama kutija za knjige širom zemlje. Njena dizajn je takođe [dostupan kao open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Evo [brošura koju dele francuski bitkoineri](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) koja je postavljena u desetinama kutija za knjige širom zemlje. Njena dizajn je takođe [dostupan kao open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

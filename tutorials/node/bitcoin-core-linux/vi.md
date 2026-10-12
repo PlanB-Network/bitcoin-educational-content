@@ -217,7 +217,7 @@ Ngoài ra, để duy trì kết nối hoàn toàn trên mạng Tor và giảm th
 
 
 - [Trang Wiki giải thích về Tor và mối quan hệ của nó với Bitcoin](https://en.Bitcoin.it/wiki/Tor)
-- [Trình tạo tệp cấu hình Bitcoin core của Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [Trình tạo tệp cấu hình Bitcoin core của Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/)
 - [Hướng dẫn cấu hình Tor của Jon Atack](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 

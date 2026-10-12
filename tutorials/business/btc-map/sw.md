@@ -28,7 +28,6 @@ Inapatikana kwa:
 
 
 - iOS kupitia [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
-- Android kupitia [Duka la Google Play](https://play.google.com/store/apps/details?id=org.btcmap.app)
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) orodha ya programu huria ya admin
 - kwa kupakua [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) moja kwa moja kutoka kwa github ya mradi
 - kupitia programu ya wavuti kutoka kwa kivinjari chako (mtazamo wetu leo)

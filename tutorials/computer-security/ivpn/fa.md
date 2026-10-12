@@ -78,7 +78,7 @@ IVPN به‌طور انحصاری از سرورهای خودمیزبان است�
 ## نحوه نصب IVPN بر روی گوشی هوشمند؟
 
 
-‏IVPN را از فروشگاه برنامه خود دانلود کنید، چه [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) برای کاربران iOS، [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) برای اندروید، یا [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). اگر از اندروید استفاده می‌کنید، همچنین گزینه دانلود فایل `.apk` به‌طور مستقیم از [سایت IVPN](https://www.ivpn.net/en/apps-android/) را دارید.
+‏IVPN را از فروشگاه برنامه خود دانلود کنید، چه [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) برای کاربران iOS، [Google Play Store](https://www.ivpn.net/en/apps-android/) برای اندروید، یا [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). اگر از اندروید استفاده می‌کنید، همچنین گزینه دانلود فایل `.apk` به‌طور مستقیم از [سایت IVPN](https://www.ivpn.net/en/apps-android/) را دارید.
 
 ![IVPN](assets/notext/05.webp)
 

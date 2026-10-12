@@ -33,7 +33,7 @@ In deze tutorial bekijken we 3 manieren om een **Watchtower** te gebruiken:
 
 
 
-*Deze tutorial komt uit [de officiële LND documentatie](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Er kunnen enkele wijzigingen zijn aangebracht in de originele versie
+*Deze tutorial komt uit [de officiële LND documentatie](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). Er kunnen enkele wijzigingen zijn aangebracht in de originele versie
 
 
 
@@ -519,13 +519,7 @@ In hetzelfde menu vindt u ook de URI van uw Watchtower dienst, als u die geactiv
 
 
 
-Er zijn verschillende Watchtowers online beschikbaar. Bijvoorbeeld, [LN+ en Voltage bieden een altruïstische Watchtower](https://lightningnetwork.plus/Watchtower) waarmee je verbinding kunt maken:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+Er zijn verschillende Watchtowers online beschikbaar. LN+ en Voltage boden vroeger een altruïstische Watchtower aan, maar die is niet meer beschikbaar (oktober 2026). LN+ biedt nu [Watch Swaps](https://lightningnetwork.plus/watch_swaps) aan, waarbij twee node-beheerders elkaars kanalen bewaken, en publiceert een [gids over altruïstische Watchtowers](https://lightningnetwork.plus/posts/12).
 
 
 

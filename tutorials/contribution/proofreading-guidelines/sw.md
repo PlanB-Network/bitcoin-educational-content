@@ -12,7 +12,7 @@ Karibu kwenye mafunzo haya kuhusu **miongozo ya kufuata wakati wa kusahihisha ma
 Kwanza kabisa, kuchangia kwenye Plan ₿ Academy [hadhi ya umma](https://github.com/PlanB-Network/Bitcoin-educational-content) hukupa fursa ya kuandika mafunzo, kusahihisha maudhui yaliyopo, au hata kupendekeza kuongezwa kwa lugha mpya kwenye jukwaa. Ili kujua zaidi, jiunge na [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) kwanza, na uandike wasilisho fupi kukuhusu wewe na lugha unazoweza kuzungumza.
 
 
-Mafunzo ya sasa yametolewa kwa wachangiaji ambao wanataka kusahihisha maudhui. Wengi wao hawajui mengi kuhusu [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) au [Lugha ya Markdown](https://icde.org/use//tumia lugha ya Markdown). hazina, kwa hivyo ni muhimu kushiriki maarifa fulani juu ya vipengele muhimu vinavyohusika katika kazi hii.
+Mafunzo ya sasa yametolewa kwa wachangiaji ambao wanataka kusahihisha maudhui. Wengi wao hawajui mengi kuhusu [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) au [Lugha ya Markdown](https://www.markdownguide.org/basic-syntax/). hazina, kwa hivyo ni muhimu kushiriki maarifa fulani juu ya vipengele muhimu vinavyohusika katika kazi hii.
 
 
 Hapa chini, nilikusanya masuala ya kawaida ambayo wasahihishaji hukutana nayo. Jisikie huru kupendekeza zaidi, kwani yanaweza kusaidia wengine kuboresha.

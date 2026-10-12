@@ -756,7 +756,7 @@ Trong phần này, chúng ta sẽ khám phá các lớp giao dịch, dù là b�
 
 Blockchain của Bitcoin được cấu thành từ các khối, như tên gọi của nó. Những khối này có kích thước tối đa theo lý thuyết là 4 megabyte. _Tuy nhiên, kích thước khối trung bình tại thời điểm viết bài là khoảng 1.5mb._ Do giới hạn này, chỉ có một số lượng hạn chế các giao dịch mà Bitcoin có thể xử lý mỗi giây, là từ bảy đến mười giao dịch mỗi giây (tps).
 
-Vì vậy, bạn có thể tự hỏi: Làm thế nào mà blockchain của Bitcoin có thể cạnh tranh với các mạng lưới như Visa hay Mastercard, vốn có thể xử lý các giao dịch ở mức [1,700 tps](https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
+Vì vậy, bạn có thể tự hỏi: Làm thế nào mà blockchain của Bitcoin có thể cạnh tranh với các mạng lưới như Visa hay Mastercard, vốn có thể xử lý các giao dịch ở mức [1,700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
 Câu trả lời đơn giản. Nó không cạnh tranh với các mạng lưới đó.
 So sánh blockchain của Bitcoin với Visa hoặc Mastercard giống như so sánh một con tàu công-te-nơ (container) quốc tế với quầy thanh toán tại một cửa hàng vật lý ở địa phương. Con tàu container được thiết kế cho các giao dịch kích thước lớn không thường xuyên, trong khi quầy thanh toán được dựng nên để xử lý các giao dịch nhỏ với tần suất cao. Mặc dù cả hai đều di chuyển hàng hóa, việc so sánh chúng giống như so sánh táo với cam.
@@ -1072,14 +1072,14 @@ Bạn có thể tự hỏi: Vấn đề ở đây là gì?
 
 Gửi tiền về nước qua dịch vụ chuyển tiền như Western Union không hề miễn phí. Nó tốn phí, và không chỉ một ít, mà là một khoản tiền đáng kể.
 
-Gửi 100 đô la Mỹ về Tonga phải chịu một khoản phí [12.61 đô la](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) cộng thêm mất 8.60 đô la do tỷ giá hối đoái bất lợi. Điều này có nghĩa là hơn 21% tổng số tiền gửi đi vào túi của Western Union, một tập đoàn đa quốc gia. Kết quả là, một khoản tiền đáng kể xứng đáng thuộc về các gia đình Tonga lại chảy vào túi của nhà cung cấp dịch vụ chuyển tiền.
+Gửi 100 đô la Mỹ về Tonga phải chịu một khoản phí [12.61 đô la](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) cộng thêm mất 8.60 đô la do tỷ giá hối đoái bất lợi. Điều này có nghĩa là hơn 21% tổng số tiền gửi đi vào túi của Western Union, một tập đoàn đa quốc gia. Kết quả là, một khoản tiền đáng kể xứng đáng thuộc về các gia đình Tonga lại chảy vào túi của nhà cung cấp dịch vụ chuyển tiền.
 Bạn có thể tưởng tượng được lợi ích khi có thêm 21% thu nhập không?
 
 Hơn nữa, xét đến việc GDP của Tonga là [469 triệu đô la](https://tradingeconomics.com/tonga/gdp) vào năm 2021, và 45.5% trong số đó đến từ kiều hối, phí chuyển tiền cao ngất ngưởng có nghĩa là Tonga đang mất thêm 45.2 triệu đô la. Số tiền này sẽ tăng GDP của đất nước thêm 9.6% nếu không mất đi vì trả phí chuyển kiều hối.
 
 Và nếu bạn nghĩ Tonga là trường hợp duy nhất, hãy nghĩ lại.
 
-Dưới đây là một số ví dụ về số tiền mà Western Union [tính phí](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) khi gửi 100 đô la Mỹ đến một số quốc gia khác:
+Dưới đây là một số ví dụ về số tiền mà Western Union [tính phí](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) khi gửi 100 đô la Mỹ đến một số quốc gia khác:
 
 - **Trung Quốc:** phí 21.21 đô la + mất 2.60 đô la do tỷ giá (mất 23.81%)
 - **Canada, Mỹ, Mexico:** phí 16.86 đô la + mất 1.20 đô la do tỷ giá (mất 18.06%)
@@ -1291,8 +1291,8 @@ Nhưng Bitcoin cũng cạnh tranh với các phương thức giao dịch lớp h
 #### Hiểu lầm thứ sáu: Bitcoin chủ yếu được sử dụng cho các hoạt động bất hợp pháp
 
 Mặc dù đã có nhiều nghiên cứu bác bỏ các tuyên bố sai lầm này, Bitcoin vẫn thường xuyên bị chỉ trích là chủ yếu chỉ được sử dụng cho hoạt động bất hợp pháp. Một lần nữa, điều này rất xa rời với thực tế.
-Một [nghiên cứu](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) do cựu phó giám đốc CIA thực hiện đã phát hiện ra rằng "những phát biểu chung chung về việc sử dụng Bitcoin trong các hoạt động tài chính phi pháp được phóng đại đáng kể." Thực tế, kể từ năm 2016, ít hơn 1% tổng khối lượng giao dịch của Bitcoin được sử dụng cho các hoạt động phi pháp. Đối chiếu lại, "một số người ước tính nền kinh tế ngầm chiếm 11% đến 12% [tổng sản phẩm quốc nội](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp) của Mỹ," phần lớn được thực hiện qua đồng đô la Mỹ.
-Và theo một báo cáo của Chainalysis vào năm 2020, hoạt động phi pháp chỉ chiếm khoảng [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) tổng số giao dịch Bitcoin.
+Một [nghiên cứu](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) do cựu phó giám đốc CIA thực hiện đã phát hiện ra rằng "những phát biểu chung chung về việc sử dụng Bitcoin trong các hoạt động tài chính phi pháp được phóng đại đáng kể." Thực tế, kể từ năm 2016, ít hơn 1% tổng khối lượng giao dịch của Bitcoin được sử dụng cho các hoạt động phi pháp. Đối chiếu lại, "một số người ước tính nền kinh tế ngầm chiếm 11% đến 12% [tổng sản phẩm quốc nội](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp) của Mỹ," phần lớn được thực hiện qua đồng đô la Mỹ.
+Và theo một báo cáo của Chainalysis vào năm 2020, hoạt động phi pháp chỉ chiếm khoảng [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) tổng số giao dịch Bitcoin.
 
 Tuy nhiên, ngay cả với những bằng chứng này, những phát biểu sai lệch vẫn tiếp tục được những người có quyền lực đưa ra, như Bộ trưởng Tài chính Mỹ Janet Yellen [tuyên bố](https://home.treasury.gov/news/press-releases/jy0023), "Tiền mã hóa đã được sử dụng để rửa tiền lợi nhuận từ hoạt động buôn bán ma túy trực tuyến; chúng đã trở thành công cụ tài trợ cho khủng bố."
 
@@ -1476,7 +1476,7 @@ Cuối cùng, tương lai của tài chính phi tập trung nằm ở những ng
 
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
-Trong thế giới toàn cầu hóa ngày nay, việc tiếp cận dịch vụ tài chính là một yếu tố quan trọng để tham gia và đạt được sự độc lập về kinh tế. Mặc dù vậy, quá nhiều cá nhân vẫn bị loại trừ khỏi hệ thống ngân hàng truyền thống, và phụ nữ thường chịu đựng nhiều nhất từ sự loại trừ này. Đáng chú ý, [một phần tư](https://www.worldbank.org/en/publication/globalfindex) dân số toàn cầu vẫn không có tài khoản ngân hàng, ở các quốc gia như Ả Rập Saudi, [36.5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) phụ nữ thiếu quyền tiếp cận các dịch vụ ngân hàng cơ bản, ngăn cản họ tham gia đầy đủ vào nền kinh tế và xã hội của đất nước mình.
+Trong thế giới toàn cầu hóa ngày nay, việc tiếp cận dịch vụ tài chính là một yếu tố quan trọng để tham gia và đạt được sự độc lập về kinh tế. Mặc dù vậy, quá nhiều cá nhân vẫn bị loại trừ khỏi hệ thống ngân hàng truyền thống, và phụ nữ thường chịu đựng nhiều nhất từ sự loại trừ này. Đáng chú ý, [một phần tư](https://www.worldbank.org/en/publication/globalfindex) dân số toàn cầu vẫn không có tài khoản ngân hàng, ở các quốc gia như Ả Rập Saudi, [36.5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) phụ nữ thiếu quyền tiếp cận các dịch vụ ngân hàng cơ bản, ngăn cản họ tham gia đầy đủ vào nền kinh tế và xã hội của đất nước mình.
 
 Dưới đây là chỉ một vài ví dụ về những điều kiện mà phụ nữ trên thế giới vẫn phải chịu đựng ngày nay:
 

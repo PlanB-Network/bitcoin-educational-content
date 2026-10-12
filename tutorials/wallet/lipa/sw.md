@@ -2,8 +2,10 @@
 name: Lipa
 description: Kuweka na kutumia Lipa lightning mobile Wallet
 ---
+
 ![cover](assets/cover.webp)
 
+> **Onyo (Oktoba 2026):** Pochi ya Lipa ilifungwa tarehe 31 Desemba 2025, na mchapishaji wake, lightning payment services ag, yuko katika ufilisi. Programu haiwezi kupakuliwa tena na hatua za mafunzo haya hazifanyi kazi tena. Tunahifadhi ukurasa huu kwa marejeo hadi utakaposasishwa.
 
 Bitcoin Lightning Wallet ni programu ya simu inayowezesha miamala ya papo hapo na ya gharama nafuu kwenye Lightning Network ya Bitcoin. Tofauti na miamala kwenye Blockchain kuu (On-Chain), malipo ya umeme yanakaribia papo hapo na yanahitaji ada ndogo, na kuyafanya yanafaa zaidi kwa malipo madogo ya kila siku.
 
@@ -44,7 +46,7 @@ Hatua ya kwanza ni kupakua programu ya Lipa. Kwa sasa, inapatikana kwenye iOS pe
 
 
 
-- [Kwa Apple](https://apps.apple.com/app/lipa-Bitcoin-lightning/id1602180066)
+- Kwa Apple
 
 
 Toleo la Android linatengenezwa kwa sasa na litapatikana hivi karibuni.

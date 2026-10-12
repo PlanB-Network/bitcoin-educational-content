@@ -296,7 +296,7 @@ Ku bategura bubaka hejuru ya KaleidoSwap, porogaramu yerekana API ishigikira:
 - WebSocket**: Ku bijanye n'isoko ry'amakuru y'igihe nyaco.
 
 
-Raba [Inyandiko za API](https://docs.kaleidoswap.com/api/intangamarara) kugira ngo ubone iherezo ryuzuye n’ibisobanuro.
+Raba [Inyandiko za API](https://docs.kaleidoswap.com/api-reference/introduction) kugira ngo ubone iherezo ryuzuye n’ibisobanuro.
 
 
 ## Iciyumviro

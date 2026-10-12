@@ -87,7 +87,7 @@ Elements е [блокчейн](https://planb.academy/resources/glossary/blockcha
 В основата си Elements е протокол, който позволява да се формира [консенсус](https://planb.academy/resources/glossary/consensus) около историята на [транзакциите](https://planb.academy/resources/glossary/transaction-tx) и правилата, регулиращи прехвърлянето и създаването на активи, съхранявани в разпределена блокчейн книга.
 
 
-Повече информация за Elements може да бъде намерена лесно на уебсайта на проекта Elements (https://elementsproject.org/), в официалния блог на Liquid (https://blog.liquid.net/) и в портала за разработчици (https://liquid.net/devs).
+Повече информация за Elements може да бъде намерена лесно на уебсайта на проекта Elements (https://elementsproject.org/), в официалния блог на Liquid (https://blog.liquid.net/) и в портала за разработчици (https://liquid.net/developers).
 
 
 ### Elements

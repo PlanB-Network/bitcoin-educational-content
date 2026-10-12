@@ -122,7 +122,7 @@ Väljaspool Umbrelit (nt isiklikul serveril, Raspberry Pi koos RaspiBlitziga võ
 
 
 
-**Eeldused:** Veenduge, et teie süsteem vastab miinimumnõuetele vastavalt [dokumentatsiooni seadistamine](https://docs.thunderhub.io/setup):
+**Eeldused:** Veenduge, et teie süsteem vastab miinimumnõuetele vastavalt [dokumentatsiooni seadistamine](https://docs.thunderhub.io/configure):
 
 
 
@@ -136,7 +136,7 @@ Väljaspool Umbrelit (nt isiklikul serveril, Raspberry Pi koos RaspiBlitziga võ
 
 
 
-**1. Hankige ThunderHubi kood:** Kloonige projekti GitHubi repositoorium, nagu on kirjeldatud [paigaldusdokumentatsioonis](https://docs.thunderhub.io/installation):
+**1. Hankige ThunderHubi kood:** Kloonige projekti GitHubi repositoorium, nagu on kirjeldatud [paigaldusdokumentatsioonis](https://docs.thunderhub.io/get-started):
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Põhikonfiguratsioonifail:** Looge ThunderHubi kausta juurest fail `.env.local`, et kohandada konfiguratsiooni (see takistab teie seadete ülekirjutamist uuenduste ajal). Peamised muutujad vastavalt [setup documentation](https://docs.thunderhub.io/setup):
+**1. Põhikonfiguratsioonifail:** Looge ThunderHubi kausta juurest fail `.env.local`, et kohandada konfiguratsiooni (see takistab teie seadete ülekirjutamist uuenduste ajal). Peamised muutujad vastavalt [setup documentation](https://docs.thunderhub.io/configure):
 
 
 
@@ -304,8 +304,8 @@ Ilmub ThunderHubi sisselogimisleht. Valige konfigureeritud konto ja sisestage pa
 
 
 
-- **Paigaldamine:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- **Konfiguratsioon:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Paigaldamine:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- **Konfiguratsioon:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

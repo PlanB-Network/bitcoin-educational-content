@@ -177,7 +177,7 @@ Po zadání a ověření všech informací klikněte na tlačítko "Create Tutor
 
 Nyní můžete přeskočit podkapitolu "Bez mého skriptu Python" i krok 3 "Vyplňte soubor YAML", protože tyto činnosti již za vás provedl skript. Přejděte přímo ke kroku 4 a začněte psát svůj výukový program.
 
-Další informace o tomto skriptu v jazyce Python naleznete v [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Další informace o tomto skriptu v jazyce Python naleznete v [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md).
 
 ### Bez mého skriptu Python
 

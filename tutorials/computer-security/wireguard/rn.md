@@ -10,7 +10,7 @@ ___
 
 
 
-*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Florian BURNEL vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](ku rubuga rwacu/uruhusha/ku-NC/4.0/). Birashoboka ko hari ivyo bahinduye mu canditswe c’intango.*
+*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Florian BURNEL vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Birashoboka ko hari ivyo bahinduye mu canditswe c’intango.*
 
 
 
@@ -51,7 +51,7 @@ Ku bijanye n’igice c’ubuhinga bwo gukingira amakuru, ubuhinga butandukanye b
 
 
 
-Urubuga rwemewe rw'umugambi: [umurinzi w'umuyagankuba.com](https://www.umucungezi w'umuyagankuba.com/)
+Urubuga rwemewe rw'umugambi: [umurinzi w'umuyagankuba.com](https://www.wireguard.com/)
 
 
 
@@ -63,7 +63,7 @@ Woba wemezwa n’uwo muti umaze gusoma iyi ntangamarara? Ivyo bisigaye ni ugusom
 
 
 
-Imbere y’uko ndababwira laboratwari yanje yo gushinga WireGuard, mukwiye kumenya ko mushobora kwiyumvira **gukoresha WireGuard kugira ngo muhuze ibikorwa remezo bibiri biri kure**, ariko kandi **muhuze umukiriya ari kure n’ibikorwa remezo nk’urubuga rw’ishirahamwe canke urubuga rwawe rwo mu nzu**. Ivyo biri mu mpwemu imwe n'iya OpenVPN, nk'uko twabibonye vuba mu nyigisho "[OpenVPN kuri Synology](https://www.
+Imbere y’uko ndababwira laboratwari yanje yo gushinga WireGuard, mukwiye kumenya ko mushobora kwiyumvira **gukoresha WireGuard kugira ngo muhuze ibikorwa remezo bibiri biri kure**, ariko kandi **muhuze umukiriya ari kure n’ibikorwa remezo nk’urubuga rw’ishirahamwe canke urubuga rwawe rwo mu nzu**. Ivyo biri mu mpwemu imwe n'iya OpenVPN, nk'uko twabibonye vuba mu nyigisho "[OpenVPN kuri Synology](https://www.it-connect.fr/tuto-vpn-configurer-openvpn-server-sur-un-nas-synology/).
 
 
 
@@ -282,7 +282,7 @@ Kugeza ubu, tuzosiga ku ruhande imiterere y’uruhande rwa server ya WireGuard.
 
 
 
-Kugira ngo imashini yacu ya Debian 11 ishobore **gurungika amapakete hagati y’imirongo itandukanye (nk’umurongozi)**, ni ukuvuga hagati y’umurongo wa VPN n’umurongo wo mu karere, dukeneye gukoresha [IP Forwarding](https://www.it-connect.fr/ Ku mburabuzi, iki kintu kirazimye.
+Kugira ngo imashini yacu ya Debian 11 ishobore **gurungika amapakete hagati y’imirongo itandukanye (nk’umurongozi)**, ni ukuvuga hagati y’umurongo wa VPN n’umurongo wo mu karere, dukeneye gukoresha [IP Forwarding](https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/) Ku mburabuzi, iki kintu kirazimye.
 
 
 
@@ -314,7 +314,7 @@ Ivyo ni vyo vyose birimwo.
 
 
 
-Kugira ngo server yacu ishobore gutuma amapakete agenda neza kandi LAN iri kure ishobore gushikirwa n’imashini ya Windows, turakeneye gukoresha IP Masquerade kuri server yacu ya Debian. Ivyo ni ubwoko bw’ugukora kwa NAT. Ngiye gukora iyi ntunganyo ku ruhome rw’umuriro rwa Linux biciye kuri UFW, iyo namenyereye gukoresha ([inyigisho ya ufw kuri Debian](https://www.it-connect.fr/)).
+Kugira ngo server yacu ishobore gutuma amapakete agenda neza kandi LAN iri kure ishobore gushikirwa n’imashini ya Windows, turakeneye gukoresha IP Masquerade kuri server yacu ya Debian. Ivyo ni ubwoko bw’ugukora kwa NAT. Ngiye gukora iyi ntunganyo ku ruhome rw’umuriro rwa Linux biciye kuri UFW, iyo namenyereye gukoresha ([inyigisho ya ufw kuri Debian](https://www.it-connect.fr/configurer-un-pare-feu-local-sous-debian-11-avec-ufw/)).
 
 
 
@@ -778,8 +778,8 @@ Ibindi vyanditswe:
 
 
 
-- [Umuntu - Itegeko wg](ibikoresho vyo kurinda amashanyarazi/ivyerekeye/src/umuntu/wg.8)
-- [Umuntu - Itegeko wg-vyihuta](https://impapuro z'abantu.debian.org/ibidashikamye/ibikoresho-vy'uburinzi bw'intsinga/wg-vyihuta.8.ru.html)
+- [Umuntu - Itegeko wg](https://git.zx2c4.com/wireguard-tools/about/src/man/wg.8)
+- [Umuntu - Itegeko wg-vyihuta](https://manpages.debian.org/unstable/wireguard-tools/wg-quick.8.en.html)
 
 
 

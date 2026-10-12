@@ -744,7 +744,7 @@ I denne delen vil vi dykke ned i de forskjellige lagene av transaksjoner, enten 
 
 Bitcoins blokkjede består av blokker, som navnet antyder. Disse blokkene har en teoretisk maksimal størrelse på 4 megabyte. _Det sagt, den gjennomsnittlige blokkstørrelsen på tidspunktet for skrivingen er på rundt 1,5mb._ På grunn av denne begrensningen er det en restriksjon på hvor mange transaksjoner Bitcoin kan behandle per sekund, som er mellom syv til ti transaksjoner per sekund (tps).
 
-Derfor kan du lure på: Hvordan kan Bitcoins blokkjede muligens konkurrere med nettverk som Visa eller Mastercard som transakterer på [1,700 tps](https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
+Derfor kan du lure på: Hvordan kan Bitcoins blokkjede muligens konkurrere med nettverk som Visa eller Mastercard som transakterer på [1,700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
 Svaret er enkelt. Den konkurrerer ikke med dem.
 Å sammenligne Bitcoins blockchain med Visa eller Mastercard er som å sammenligne et internasjonalt containerskip med en kasse i en lokal jernvarehandel. Containerskipet er ment for sjeldne bulktransaksjoner, mens en kasse er bygget rundt hyppige, små transaksjoner. Selv om begge flytter varer, er det som å sammenligne epler med appelsiner.
@@ -1056,14 +1056,14 @@ Du lurer sikkert på: Hva er problemet her?
 
 Å sende penger tilbake til utlandet gjennom en pengeoverføringstjeneste som Western Union er ikke gratis. Det koster penger, og ikke bare litt, men en betydelig sum.
 
-Å sende 100 USD tilbake til Tonga medfører en kostnad på [12,61 USD](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) pluss et ytterligere tap på 8,60 USD på grunn av den ugunstige valutakursen. Dette betyr at mer enn 21 % av det totale beløpet sendt går til Western Union, et multinasjonalt selskap. Som et resultat ender en betydelig sum som kunne ha vært i hendene på fortjente tonganske familier opp i lommene til pengeoverføringstjenesteleverandøren.
+Å sende 100 USD tilbake til Tonga medfører en kostnad på [12,61 USD](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) pluss et ytterligere tap på 8,60 USD på grunn av den ugunstige valutakursen. Dette betyr at mer enn 21 % av det totale beløpet sendt går til Western Union, et multinasjonalt selskap. Som et resultat ender en betydelig sum som kunne ha vært i hendene på fortjente tonganske familier opp i lommene til pengeoverføringstjenesteleverandøren.
 Kan du forestille deg fordelene med å ha en ekstra 21 % lagt til inntekten din?
 
 Videre, med tanke på at Tongas BNP var [469](https://tradingeconomics.com/tonga/gdp) millioner USD i 2021, og 45,5 % av det kommer fra remitteringer, betyr de høye gebyrene for å sende penger hjem at Tonga går glipp av ytterligere 45,2 millioner USD. Dette beløpet ville oversettes til en 9,6 % økning i BNP hvis det ikke var for disse gebyrene.
 
 Og hvis du trodde Tonga var alene om dette, tenk igjen.
 
-Her er et eksempel på hvor mye Western Union [krever](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) for å sende 100 amerikanske dollar til noen andre fremtredende nasjoner:
+Her er et eksempel på hvor mye Western Union [krever](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) for å sende 100 amerikanske dollar til noen andre fremtredende nasjoner:
 
 - **Kina:** 21,21 USD i gebyr + 2,60 USD i valutakurstap (23,81 % tap)
 - **Canada, USA, Mexico:** 16,86 USD i gebyr + 1,20 USD i valutakurstap (18,06 % tap)
@@ -1267,8 +1267,8 @@ Men Bitcoin konkurrerer også med lag to transaksjonsmetoder, med teknologier so
 #### Misforståelse Seks: Bitcoin brukes hovedsakelig til ulovlig aktivitet
 
 Til tross for de mange studiene som avkrefter falske påstander, kritiseres Bitcoin fortsatt ofte for å være hovedsakelig brukt til ulovlig aktivitet. Igjen kunne dette ikke vært lenger fra sannheten.
-En [studie](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) utført av den tidligere nestlederdirektøren for CIA fant at "brede generaliseringer om bruken av Bitcoin i ulovlig finansiering er betydelig overdrevet." Faktisk, siden 2016, har mindre enn 1% av Bitcoins totale transaksjonsvolum blitt brukt til ulovlig aktivitet. Til sammenligning, "noen anslår den underjordiske økonomien til 11% til 12% av USAs brutto nasjonal[produkt](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)," hvorav flertallet er fasilitert ved bruk av den amerikanske dollaren.
-Og ifølge en rapport fra Chainalysis i 2020, står ulovlig aktivitet kun for omtrent [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) av alle Bitcoin-transaksjoner.
+En [studie](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) utført av den tidligere nestlederdirektøren for CIA fant at "brede generaliseringer om bruken av Bitcoin i ulovlig finansiering er betydelig overdrevet." Faktisk, siden 2016, har mindre enn 1% av Bitcoins totale transaksjonsvolum blitt brukt til ulovlig aktivitet. Til sammenligning, "noen anslår den underjordiske økonomien til 11% til 12% av USAs brutto nasjonal[produkt](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)," hvorav flertallet er fasilitert ved bruk av den amerikanske dollaren.
+Og ifølge en rapport fra Chainalysis i 2020, står ulovlig aktivitet kun for omtrent [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) av alle Bitcoin-transaksjoner.
 
 Likevel, selv med dette beviset, fortsetter misvisende uttalelser å bli gjort av de i makt, som USAs finansminister Janet Yellen [hevdet](https://home.treasury.gov/news/press-releases/jy0023), "Kryptovalutaer har blitt brukt til å hvitvaske profittene fra nettbaserte narkotikahandlere; de har vært et verktøy for å finansiere terrorisme."
 
@@ -1447,7 +1447,7 @@ Til syvende og sist hviler fremtiden for desentralisert finans på de som er vil
 
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
-I dagens globaliserte verden er tilgang til finansielle tjenester en kritisk komponent for økonomisk deltakelse og uavhengighet. Til tross for dette, er altfor mange individer fortsatt ekskludert fra det tradisjonelle banksystemet, med kvinner som ofte bærer den største byrden av denne ekskluderingen. Sjokkerende nok, selv om en unødvendig [en fjerdedel](https://www.worldbank.org/en/publication/globalfindex) av verdens befolkning fortsatt er ubanket, i land som Saudi-Arabia, mangler [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) av kvinnene tilgang til grunnleggende banktjenester, noe som hindrer dem fra å fullt ut delta i landets økonomi og samfunn.
+I dagens globaliserte verden er tilgang til finansielle tjenester en kritisk komponent for økonomisk deltakelse og uavhengighet. Til tross for dette, er altfor mange individer fortsatt ekskludert fra det tradisjonelle banksystemet, med kvinner som ofte bærer den største byrden av denne ekskluderingen. Sjokkerende nok, selv om en unødvendig [en fjerdedel](https://www.worldbank.org/en/publication/globalfindex) av verdens befolkning fortsatt er ubanket, i land som Saudi-Arabia, mangler [36,5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) av kvinnene tilgang til grunnleggende banktjenester, noe som hindrer dem fra å fullt ut delta i landets økonomi og samfunn.
 
 Her er bare noen få eksempler på forholdene kvinner rundt om i verden fortsatt må tåle i dag:
 

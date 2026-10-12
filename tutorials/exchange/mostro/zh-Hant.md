@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - Nostr** 私密金鑰 (格式為 `nsec1...`)
- - 在 [nostrkeygen.com](https://nostrkeygen.com/) 上建立專用交易金鑰
+ - 在 [nostrkeygen.com](https://nostrtool.com/) 上建立專用交易金鑰
  - 重要**：切勿使用您的主要個人 Nostr 金鑰
  - 將私人密碼匙存放在安全的地方（密碼管理器）
 
@@ -962,7 +962,7 @@ Mostro P2P 結合了 Lightning Network、Nostr 和自動化託管，是真正去
 
 
 - [主 GitHub 儲存庫](https://github.com/MostroP2P/mostro)
-- [Web 客戶端](https://github.com/MostroP2P/mostro-web)
+- [Web 客戶端](https://github.com/MostroP2P/app)
 - [Customer CLI](https://github.com/MostroP2P/mostro-cli)
 
 

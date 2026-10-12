@@ -48,7 +48,7 @@ On-Chain에서도 거래 건수가 꾸준히 증가하는 등 그 발전이 뚜�
 
 
 
-- 레바논, 시리아, 이집트, 아르헨티나 등의 주민들처럼 은행 시스템에서 벗어나거나 변동성이 적거나 평가절하된 통화를 사용하기 위해 Bitcoin를 사용하는 것에 대한 전 세계 사람들의 관심이 높아지고 있습니다(https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin);
+- 레바논, 시리아, 이집트, 아르헨티나 등의 주민들처럼 은행 시스템에서 벗어나거나 변동성이 적거나 평가절하된 통화를 사용하기 위해 Bitcoin를 사용하는 것에 대한 전 세계 사람들의 관심이 높아지고 있습니다(https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin);
 - 시간이 지남에 따라 가격이 상승하여 고정된 통화 정책으로 인해 가치 저장 수단이자 장기 투자 수단으로 자리매김했습니다;
 - 특히 2017~2018년과 2020~2021년 동안 투기성 암호화폐 시장의 연속적인 성장에 주목했습니다;
 - 주류 미디어에서 Bitcoin의 존재감이 커지고 있습니다.
@@ -701,7 +701,7 @@ Canva는 로고, 포스터, 배너, 전단지를 제작할 수 있는 다양한 
 
 
 
-- [ ] * 프롬프트: 런던 브리지와 빅벤을 배경으로 Bitcoin 로고를 만듭니다. 미래형* - [링크](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] * 프롬프트: 런던 브리지와 빅벤을 배경으로 Bitcoin 로고를 만듭니다. 미래형*
 
 
 
@@ -714,7 +714,7 @@ Canva는 로고, 포스터, 배너, 전단지를 제작할 수 있는 다양한 
 
 
 
-- [ ] *프롬프트: 4번째를 훨씬 더 현실적으로 만드세요* - [링크](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *프롬프트: 4번째를 훨씬 더 현실적으로 만드세요*
 
 
 
@@ -732,7 +732,7 @@ Canva는 로고, 포스터, 배너, 전단지를 제작할 수 있는 다양한 
 
 
 
-- [ ] *프롬프트: 영국풍의 깔끔한 스타일*로 '런던 Bitcoin 밋업' 로고 제작 - [링크](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *프롬프트: 영국풍의 깔끔한 스타일*로 '런던 Bitcoin 밋업' 로고 제작
 
 
 
@@ -1392,7 +1392,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 
 
 - 매일 두 개의 지도가 업데이트되는 웹사이트인 [Btcmap.org](https://btcmap.org/): **[Bitcoin을 받는 세계 사업체 지도](https://btcmap.org/map)**와 **[세계 커뮤니티 지도](https://btcmap.org/communities/map)**입니다. 많은 비트코인이 여행 중이거나 일상생활을 하면서 새로운 사람을 만나거나 [Sats](https://planb.academy/resources/glossary/satoshi-sat)을 사용할 장소를 찾기 위해 이 지도를 정기적으로 확인합니다. 비트코인맵은 전 세계적으로 참고할 수 있는 지도이며, 여기에 여러분의 커뮤니티를 등록하는 것은 가시성을 위해 필수적입니다
-- 비트코이너에 의해, 비트코이너를 위해 만들어진 웹사이트인 [비트코이너이벤트](https://www.bitcoinerevents.com/). **커뮤니티의 예정된 이벤트를 게시할 수 있습니다**. 그러나 프랑스에서는 아직 널리 사용되지는 않습니다.
+- 비트코이너에 의해, 비트코이너를 위해 만들어진 웹사이트인 비트코이너이벤트. **커뮤니티의 예정된 이벤트를 게시할 수 있습니다**. 그러나 프랑스에서는 아직 널리 사용되지는 않습니다. **참고(2026년 10월):** 이 사이트는 현재 접속할 수 없습니다. [BitcoinOnly Events](https://bitcoinonly.events/)는 현재도 운영 중인 유사한 이벤트 캘린더입니다.
 - 국가에 따라 다른 지역 이니셔티브가 있을 수 있습니다. 예를 들어, 프랑스에는 [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/)이 있는데, 매달 수십 개의 Bitcoin 이벤트가 열립니다**. 아직 트위터에서 팔로우하거나 연락하여 커뮤니티와 이벤트에 대한 정보를 공유하지 않으셨다면 지금이 바로 그 때입니다! **프랑스 이벤트 캘린더를 최신 상태로 유지하기 위해 모든 프랑스 Bitcoin 커뮤니티가 다음과 같은 습관을 들이면 좋을 것 같습니다
     - 새로운 커뮤니티 이벤트가 있을 때마다 트위터에서 @bitcoinpointfr을 멘션하기
     - 텔레그램 그룹에 새로운 이벤트 공지를 고정합니다.
@@ -1412,7 +1412,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 
 이 두 플랫폼은 가시성을 높이는 데 도움이 될 수 있지만, 무료가 아니기 때문에 커뮤니티를 시작할 때는 권장하지 않습니다.
 
-**btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/), 프랑스 커뮤니티의 경우 [Bitcoin.fr](https://Bitcoin.fr)에 등록하는 것만으로도 충분합니다**.
+**btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/), 프랑스 커뮤니티의 경우 [Bitcoin.fr](https://Bitcoin.fr)에 등록하는 것만으로도 충분합니다**.
 
 
 축하합니다! 커뮤니티가 만들어지고, **비주얼이 준비되고, **목표가 설정되고, **커뮤니케이션 채널이 마련되고, **소셜 네트워크가 시작되고, **비상시성 전략이 결정되었습니다**.
@@ -1500,7 +1500,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 - **너드마이너**, Bitaxe, FPGA 또는 ASIC을 가져와야 합니다;
 - gW-112 **전단지**를 가지고 있습니다;
 - 커뮤니티를 위한 Bitcoin 비주얼 또는 로고를 브레인스토밍합니다;
-- **[Bitcoin 카드 게임](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**을 플레이합니다;
+- **[Bitcoin 카드 게임](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**을 플레이합니다;
 - 커뮤니티 및 상인 지도를 **[btcmap.org](https://btcmap.org/)**에 표시합니다;
 - **라이트닝**을 사용하여 Bitcoin을 송수신합니다.
 
@@ -1871,7 +1871,7 @@ Bitcoin 모임을 주최하면 새로운 사람들을 만나게 됩니다. 사�
 
 - 5월 22일 **피자의 날**을 위한 레스토랑의 밤
 - 다음 **Halving**을 축하하기 위한 저녁 또는 주말
-- 르 Coin 드 테이블](https://www.Maximalist.ovh/) 또는 [샤모리](https://shamory.com/)와 같은 게임을 사용하여 Bitcoin과 그 작동 방식에 대한 가족 **게임의 밤**을 개최합니다
+- 르 Coin 드 테이블](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) 또는 [샤모리](https://shamory.com/)와 같은 게임을 사용하여 Bitcoin과 그 작동 방식에 대한 가족 **게임의 밤**을 개최합니다
 - 다양한 유형의 하드웨어(CPU, GPU, FPGA, ASIC, 너드마이너, 비택스)를 소개하는 **Mining 워크샵**을 진행합니다
 - 초보자를 위한 오후 또는 저녁 **테마 워크샵**, 테마별 워크샵
 - 이웃 커뮤니티와의 **공동 밋업**
@@ -2006,7 +2006,7 @@ Bitcoin 모임을 주최하면 새로운 사람들을 만나게 됩니다. 사�
 몇몇 전단지는 이미 planB.network의 [Bitcoin 교육 도구 상자](https://planb.academy/fr/resources/bet)에서 오픈 소스로 **제공되고 있으며**, 시간이 지남에 따라 더 많은 전단지가 추가될 예정입니다.
 
 
-한 가지 예로 Bitcoin을 사용해야 하는 21가지 이유가 담긴 [전체 소스 전단지](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin)를 들 수 있습니다. 이 디자인은 [오픈 소스로도 제공](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)되므로 수정하고 적용하여 공유할 수 있습니다. 출처를 반드시 밝혀주세요.
+한 가지 예로 Bitcoin을 사용해야 하는 21가지 이유가 담긴 [전체 소스 전단지](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin)를 들 수 있습니다. 이 디자인은 [오픈 소스로도 제공](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)되므로 수정하고 적용하여 공유할 수 있습니다. 출처를 반드시 밝혀주세요.
 
 
 
@@ -2050,7 +2050,7 @@ Bitcoin 백서는 상징적인 의미가 있지만, 처음 접하는 사람들�
 - 프랑스어로 번역된 Bitcoin 백서입니다.
 
 
-다음은 [프랑스 비트코인 사용자들 사이에서 공유되는 소책자](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle)로, 프랑스 전역의 수십 개의 책함에 비치되어 있습니다. 디자인도 [오픈 소스로 제공](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)됩니다.
+다음은 [프랑스 비트코인 사용자들 사이에서 공유되는 소책자](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle)로, 프랑스 전역의 수십 개의 책함에 비치되어 있습니다. 디자인도 [오픈 소스로 제공](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)됩니다.
 
 
 

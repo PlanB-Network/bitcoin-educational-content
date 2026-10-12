@@ -52,7 +52,7 @@ Po mom mišljenju, Ledger Nano S Plus je dobra opcija za osiguranje vašeg Bitco
 ## Kako kupiti Ledger Nano S Plus?
 
 
-Ledger Nano S Plus je dostupan za prodaju [na zvaničnom sajtu](https://shop.Ledger.com/products/Ledger-nano-s-plus). Da biste ga kupili u fizičkoj prodavnici, možete pronaći [listu sertifikovanih prodavaca](https://www.Ledger.com/reseller) na sajtu Ledger.
+Ledger Nano S Plus je dostupan za prodaju [na zvaničnom sajtu](https://shop.ledger.com/products/ledger-nano-s-plus). Da biste ga kupili u fizičkoj prodavnici, možete pronaći [listu sertifikovanih prodavaca](https://www.Ledger.com/reseller) na sajtu Ledger.
 
 
 ## Preduslovi

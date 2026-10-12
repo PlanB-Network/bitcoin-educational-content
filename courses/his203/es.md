@@ -523,7 +523,7 @@ Como dijimos a principios de 2011, la plataforma de Mt. Gox no era segura. Y, l�
 El 1 de marzo de 2011, justo cuando la transferencia estaba a punto de hacerse oficial, 80.000 bitcoins [se evaporaron](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) en el aire gracias a un acceso malicioso al archivo wallet.dat del sitio. El día 3, Jed McCaleb se dio cuenta de la retirada e [informó](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) a Mark en IRC de que "algo malo había pasado". Se trataba de una pérdida importante (un bitcoin se vendía a 0,92 dólares en aquel momento), que iría en aumento en los meses siguientes con la subida sin precedentes del precio.
 
 
-Este problema fue [mencionado](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) por Jed el 18 de abril en un correo electrónico a Mark, donde escribió:
+Este problema fue [mencionado](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) por Jed el 18 de abril en un correo electrónico a Mark, donde escribió:
 
 
 > "No puedo decir lo grande que será un problema estar corto de 80k BTC si el precio va a $ 100 o algo así. Eso es bastante para deber en ese momento, pero mtgox debe haber hecho una tonelada de BTC (Bitcoin) llegar hasta allí. También está el hecho de que el saldo de BTC (Bitcoin) probablemente nunca caerá por debajo de 80k. Así que tal vez usted realmente no necesita preocuparse por ello "
@@ -608,7 +608,7 @@ El 6 de junio, Bitcoin Consultancy [lanzó](https://bitcointalk.org/index.php?to
 
 
 
-En Europa del Este, la plataforma Bitomat, con sede en Polonia, fue [lanzada](https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871) el 4 de abril. La interfaz era rudimentaria, pero permitía a los usuarios polacos cambiar sus zlotys por bitcoins. También cabe mencionar Cavirtex, [inaugurada](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) el 2 de julio, que operaba en Canadá.
+En Europa del Este, la plataforma Bitomat, con sede en Polonia, fue [lanzada](https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166) el 4 de abril. La interfaz era rudimentaria, pero permitía a los usuarios polacos cambiar sus zlotys por bitcoins. También cabe mencionar Cavirtex, [inaugurada](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) el 2 de julio, que operaba en Canadá.
 
 
 
@@ -1230,7 +1230,7 @@ A principios de marzo de 2012, Bitcoinica [aceptaba](https://bitcointalk.org/ind
 
 
 
-En 2011, la falta de necesidad de autorización de Bitcoin llevó a los miembros de la comunidad a imaginar usos que iban más allá del simple intercambio monetario y la especulación. Buscaban liberalizar la inversión proporcionando un medio de emisión de acciones y bonos para las empresas del ecosistema. El objetivo era eludir la normativa impuesta por la *Securities and Exchange Commission* de Estados Unidos (el equivalente estadounidense de la AMF), [aprovechando](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) el carácter innovador de la Bitcoin y la vaguedad jurídica que la rodeaba. Se trataba de crear un modelo alternativo al sistema financiero clásico, que podría autoafianzarse según el enfoque agorista.
+En 2011, la falta de necesidad de autorización de Bitcoin llevó a los miembros de la comunidad a imaginar usos que iban más allá del simple intercambio monetario y la especulación. Buscaban liberalizar la inversión proporcionando un medio de emisión de acciones y bonos para las empresas del ecosistema. El objetivo era eludir la normativa impuesta por la *Securities and Exchange Commission* de Estados Unidos (el equivalente estadounidense de la AMF), [aprovechando](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) el carácter innovador de la Bitcoin y la vaguedad jurídica que la rodeaba. Se trataba de crear un modelo alternativo al sistema financiero clásico, que podría autoafianzarse según el enfoque agorista.
 
 
 
@@ -1270,7 +1270,7 @@ A pesar de ello, GLBSE siguió funcionando. A principios de otoño, unos 30 acti
 
 
 
-Otro proyecto de este tipo que surgió tiempo después fue MPEx, la creación de una figura muy controvertida llamada Mircea Popescu. Rumano, originario de Transilvania, era un prolífico escritor en su blog [Trilema](http://trilema.com/archives-categories/): escribía sobre todos los temas (filosofía, política, sexualidad), en un estilo deliberadamente provocador, inicialmente en rumano. Se interesó por la Bitcoin en el verano de 2011 y empezó a [hablar](http://trilema.com/2011/ce-este-bitcoin/) sobre ella en su blog.
+Otro proyecto de este tipo que surgió tiempo después fue MPEx, la creación de una figura muy controvertida llamada Mircea Popescu. Rumano, originario de Transilvania, era un prolífico escritor en su blog [Trilema](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/): escribía sobre todos los temas (filosofía, política, sexualidad), en un estilo deliberadamente provocador, inicialmente en rumano. Se interesó por la Bitcoin en el verano de 2011 y empezó a [hablar](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/) sobre ella en su blog.
 
 
 
@@ -1286,7 +1286,7 @@ En agosto, Mircea [abrió](https://bitcointalk.org/index.php?topic=15672.msg4443
 
 
 
-A finales de febrero de 2012, procedió a una [recaudación de fondos](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) mediante la emisión de acciones y bonos, recaudando más de 3.200 bitcoins, unos 16.000 dólares de la época. El 11 de abril, tras una fase beta, la plataforma [finalmente se convirtió en](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) la plataforma finalmente se convirtió en una bolsa de bitcoins que permitía la emisión y negociación de diversas acciones, y pasó a llamarse MPEx(por "Mircea Popescu's Exchange").
+A finales de febrero de 2012, procedió a una [recaudación de fondos](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) mediante la emisión de acciones y bonos, recaudando más de 3.200 bitcoins, unos 16.000 dólares de la época. El 11 de abril, tras una fase beta, la plataforma [finalmente se convirtió en](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) la plataforma finalmente se convirtió en una bolsa de bitcoins que permitía la emisión y negociación de diversas acciones, y pasó a llamarse MPEx(por "Mircea Popescu's Exchange").
 
 
 
@@ -1298,7 +1298,7 @@ A finales de febrero de 2012, procedió a una [recaudación de fondos](http://tr
 
 
 
-La plataforma alcanzaría cierto éxito y acogería, en particular, la "salida a bolsa" de SatoshiDICE, el casino en línea operado por Erik Voorhees. Evolucionó con el tiempo, [integrando](http://trilema.com/2012/futures-on-mpex/) contratos de futuros en diciembre.
+La plataforma alcanzaría cierto éxito y acogería, en particular, la "salida a bolsa" de SatoshiDICE, el casino en línea operado por Erik Voorhees. Evolucionó con el tiempo, [integrando](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) contratos de futuros en diciembre.
 
 
 
@@ -1484,7 +1484,7 @@ Los wallet deterministas son en gran parte obra del desarrollador estadounidense
 
 
 
-*Gregory Maxwell en 2006 (fuente: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*Gregory Maxwell en 2006 (fuente: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 
@@ -1724,7 +1724,7 @@ El 19 de agosto, Casascius [compartió] públicamente (https://bitcointalk.org/i
 
 
 
-*Los primeros bitcoins de Casascius en 2011 (fuente: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*Los primeros bitcoins de Casascius en 2011 (fuente: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -2004,7 +2004,7 @@ El modelo [se basó](https://im.forre.st/pb/85341005.txt) en una "sharechain, ma
 
 
 
-*Visualización de Sharechain (fuente: Gregory Maxwell para [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Visualización de Sharechain (fuente: Gregory Maxwell para [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 
@@ -2106,7 +2106,7 @@ Tras la publicación de la versión 0.4 del programa el 23 de septiembre, que su
 
 
 
-*Captura de Bitcoin-Qt 0.5.2 en febrero de 2012 (fuente: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) para Wikimedia)*
+*Captura de Bitcoin-Qt 0.5.2 en febrero de 2012 (fuente: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) para Wikimedia)*
 
 
 

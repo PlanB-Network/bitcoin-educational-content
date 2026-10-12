@@ -14,7 +14,7 @@ description: 以接近零的机会开始挖掘比特币
 
 - 一个[Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - 一个[USB-C电源供应器](https://amzn.eu/d/gIOot90)
-- 一个3D外壳：如果您有3D打印机，您可以下载[3D文件](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons)，否则您可以在[Silexperience在线商店](https://silexperience.company.site/NerdMiner_V2-p544379757)购买一个。
+- 一个3D外壳：如果您有3D打印机，您可以下载[3D文件](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons)，否则您可以在[Bitronics在线商店](https://bitronics.store/)购买一个。
 - 一台安装了Chrome浏览器的PC
 - 一个互联网连接
 - 一个比特币地址
@@ -66,7 +66,6 @@ description: 以接近零的机会开始挖掘比特币
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | 默认的单独和开源挖矿池                   |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | 由CHMEX维护                              |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | 由djerfy维护                             |
 
 一旦您选择了您的池，您需要输入您的比特币地址，以便在（特殊情况下）找到区块时接收奖励。
 
@@ -128,4 +127,4 @@ NerdMiner可以连接的矿池只是“独立挖矿池”，这意味着矿池�
 如果您想进一步了解该主题，这里有一些链接：
 
 - [NerdMiner_v2项目页面](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [NerdMiners的完整文档](https://docs.bitwater.ch/nerd-miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

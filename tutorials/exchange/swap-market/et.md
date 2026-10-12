@@ -566,6 +566,8 @@ Teie Lightning satoshis on kohe saadaval teie wallet-s.
 
 ## SwapMarket vs Boltz: Mis vahe on?
 
+> **Märkus (oktoober 2026):** Boltz Exchange peatas kõik vahetused 3. augustil 2026 ja selle veebisait on võrgust väljas. See teenusepakkuja ei pruugi SwapMarketis enam saadaval olla.
+
 
 
 ### Boltz: Boltz: Tehnoloogia vs
@@ -639,7 +641,7 @@ Konkurents teenusepakkujate vahel parandab hindu ja mitmekordistab likviidsuse a
 
 - [SwapMarket - veebirakendus](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Tehniline dokumentatsioon](https://docs.boltz.exchange/)
+- [Tehniline dokumentatsioon](https://github.com/BoltzExchange/boltz-backend)
 - [Juhend enesehosting](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 
@@ -649,5 +651,5 @@ Konkurents teenusepakkujate vahel parandab hindu ja mitmekordistab likviidsuse a
 
 
 
-- [Boltz Exchange](https://boltz.exchange) - Algne aatomi vahetusteenus
+- Boltz Exchange - Algne aatomi vahetusteenus
 - [ZEUS Swaps](https://zeusln.com) - välkvahetuste pakkuja

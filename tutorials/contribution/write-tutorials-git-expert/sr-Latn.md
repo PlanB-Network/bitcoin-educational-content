@@ -131,7 +131,7 @@ git push -u origin tuto-green-wallet-loic
 ### 3 - Dodajte dokumente za tutorijal
 
 
-***Napomena:*** Možete automatizovati korake 3 i 4 koristeći [moj Python GUI skript](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Pokrenite ga direktno iz njegove fascikle u vašoj lokalnoj kloniranoj verziji, zatim popunite potrebna polja na GUI. Za više informacija o tome kako ga instalirati i koristiti, pogledajte [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Napomena:*** Možete automatizovati korake 3 i 4 koristeći [moj Python GUI skript](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/data-creator). Pokrenite ga direktno iz njegove fascikle u vašoj lokalnoj kloniranoj verziji, zatim popunite potrebna polja na GUI. Za više informacija o tome kako ga instalirati i koristiti, pogledajte [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md).
 
 
 Ako više volite da to uradite ručno, pratite ove korake:

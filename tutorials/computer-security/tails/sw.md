@@ -13,7 +13,7 @@ Mfumo wa uendeshaji unaobebeka na wa amnesiki unaokulinda dhidi ya ufuatiliaji n
 ## Kwa nini ufunguo wa USB ulio na Tails umewekwa?
 
 
-Tails ( https://tails.boum.org/ ) ndiyo njia rahisi zaidi ya kuwa na kompyuta salama unayoweza kutumia wakati wote, ambayo haitaacha alama yoyote kwenye kompyuta unayoitumia nayo.
+Tails ( https://tails.net/ ) ndiyo njia rahisi zaidi ya kuwa na kompyuta salama unayoweza kutumia wakati wote, ambayo haitaacha alama yoyote kwenye kompyuta unayoitumia nayo.
 
 
 Ili kutumia Tails, zima kompyuta ambayo unaweza kufikia (kwa wazazi wako, kwa marafiki zako, kwenye mkahawa wa Intaneti...) na uanze kwa kutumia ufunguo wako wa USB wa Tails badala ya Windows, macOS, au Linux.
@@ -80,7 +80,7 @@ Masharti:
 ![image](assets/1.webp)
 
 
-🔗 **Sehemu Rasmi ya Tails:** https://tails.boum.org/install/linux/index.fr.html#download
+🔗 **Sehemu Rasmi ya Tails:** https://tails.net/install/linux/index.fr.html#download
 
 
 Kupakua faili ya usakinishaji kwa kutumia kiendelezi cha .img kunaweza kuchukua muda kulingana na kasi yako ya upakuaji wa Mtandao, kwa hivyo panga mapema. Kwa muunganisho wa kisasa na mzuri, itachukua chini ya dakika 5.
@@ -95,7 +95,7 @@ Hifadhi faili katika folda inayojulikana, kama vile Vipakuliwa, kwani hii itakuw
 ![image](assets/2.webp)
 
 
-🔗 **Sehemu Rasmi ya Tails:** https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 **Sehemu Rasmi ya Tails:** https://tails.net/install/linux/index.fr.html#verify
 
 
 Kuthibitisha kipakuliwa huhakikisha kuwa kimetolewa na wasanidi wa Tails na hakijaharibiwa au kuingiliwa wakati wa upakuaji.
@@ -117,8 +117,8 @@ Ili kuthibitisha faili, tumia kitufe cha "Chagua kupakua ..." iliyotolewa katika
 
 
 
-- **Linux:** https://tails.boum.org/install/linux/index.fr.html#install
-- **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher na https://tails.boum.org/install/mac/index.fr.html#install
+- **Linux:** https://tails.net/install/linux/index.fr.html#install
+- **macOS:** https://tails.net/install/mac/index.fr.html#etcher na https://tails.net/install/mac/index.fr.html#install
 
 
 Hatua hii ya kusakinisha Tails kwenye ufunguo wako wa USB ndiyo ngumu zaidi katika mwongozo mzima, hasa ikiwa hujawahi kuifanya hapo awali. Jambo muhimu zaidi ni kuchagua utaratibu sahihi katika sehemu rasmi ya mfumo wako wa uendeshaji: Linux au macOS.
@@ -136,7 +136,7 @@ Bahati nzuri! na tuonane katika hatua ya 4.
 ![image](assets/4.webp)
 
 
-🔗 **Sehemu Rasmi ya Tails:** https://tails.boum.org/install/linux/index.en.html#restart
+🔗 **Sehemu Rasmi ya Tails:** https://tails.net/install/linux/index.en.html#restart
 
 
 Ni wakati wa kuanzisha mojawapo ya kompyuta zako kwa kutumia USB stick yako mpya. Ingiza kwenye mojawapo ya bandari zake za USB na uanze upya!
@@ -178,7 +178,7 @@ Mara tu USB stick imechaguliwa, unapaswa kuona skrini hii mpya ya boot, ambayo n
 ![image](assets/6.webp)
 
 
-🔗 **Sehemu Rasmi ya Tails:** https://tails.boum.org/install/linux/index.en.html#tails
+🔗 **Sehemu Rasmi ya Tails:** https://tails.net/install/linux/index.en.html#tails
 
 
 Dakika moja au mbili baada ya kipakiaji cha kuwasha na kupakia skrini, Skrini ya Karibu inaonekana.

@@ -27,7 +27,7 @@ MoonPay ile yapılan ortaklık sayesinde, Bitcoin ve diğer kripto para birimler
 ## 2. Rumble Wallet nasıl kurulur?
 
 
-Uygulama, kendi resmi mağazaları aracılığıyla hem [Android](https://play.google.com/store/apps/details?id=com.wallet.rumble) hem de iOS'a yüklenebilir.
+Uygulama, kendi resmi mağazaları aracılığıyla hem [Android](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet) hem de iOS'a yüklenebilir.
 
 
 ![Image](assets/fr/01.webp)

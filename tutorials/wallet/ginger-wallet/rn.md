@@ -44,7 +44,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Kugira ngo ushiremwo Ginger Wallet, genda ku rubuga [Igitanga Wallet](https://igingerwallet.io).
+Kugira ngo ushiremwo Ginger Wallet, genda ku rubuga [Igitanga Wallet](https://gingerwallet.io).
 
 
 
@@ -56,7 +56,7 @@ Kanda **Gukuraho** kugira ngo ubone verisiyo ibereye mudasobwa yawe (Windows / M
 
 
 
-Iyindi nzira ni ukuja kuri [GitHub] y’umugambi (https://github.com/Ibanga ry’Igikoko/Igikoko c’Igikoko/Ibisohoka) kugira ngo uwukureho.
+Iyindi nzira ni ukuja kuri [GitHub](https://github.com/GingerPrivacy/GingerWallet/releases) y’umugambi (https://github.com/Ibanga ry’Igikoko/Igikoko c’Igikoko/Ibisohoka) kugira ngo uwukureho.
 
 
 

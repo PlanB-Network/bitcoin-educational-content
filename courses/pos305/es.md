@@ -267,7 +267,7 @@ Blockchain, Transacción, Doble Gasto, Problema de los Generales Bizantinos, Min
 El objetivo de este bloque del curso es obtener una comprensión general del software BTCPay Server. En un entorno compartido, se recomienda seguir la demostración del instructor y consultar el BTCPay Server Coursebook para seguir al profesor. Aprenderá a crear una Wallet a través de múltiples métodos. Los ejemplos incluyen configuraciones de Hot Wallet y billeteras de hardware conectadas a través de BTCPay Server Vault. Estos objetivos ocurren en el entorno Demo, mostrado y al que le da acceso su instructor del curso.
 
 
-Si sigue este curso por su cuenta, puede encontrar una lista de hosts de terceros para fines de demostración en https://directory.btcpayserver.org/filter/hosts. Desaconsejamos encarecidamente el uso de estas opciones de terceros como entornos de producción; sin embargo, sirven el propósito correcto para introducir el uso de Bitcoin y BTCPay Server.
+Si sigue este curso por su cuenta, puede encontrar una lista de hosts de terceros para fines de demostración en https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Desaconsejamos encarecidamente el uso de estas opciones de terceros como entornos de producción; sin embargo, sirven el propósito correcto para introducir el uso de Bitcoin y BTCPay Server.
 
 
 Como aprendiz de BTCPay Server rockstar, es posible que tenga experiencia previa en la configuración de un nodo Bitcoin. Este curso está específicamente adaptado a la pila de software BTCPay Server.
@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Registros del nodo Bitcoin
 
 
-Además de [mirar los logs](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) de su contenedor bitcoind, también puede utilizar cualquiera de los [comandos bitcoin-cli](https://developer.Bitcoin.org/reference/RPC/index.html)
+Además de [mirar los logs](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) de su contenedor bitcoind, también puede utilizar cualquiera de los [comandos bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(abre nueva ventana)](https://developer.Bitcoin.org/reference/RPC/index.html) para obtener información de su nodo Bitcoin. BTCPay incluye un script que le permite comunicarse fácilmente con su nodo Bitcoin.
+[(abre nueva ventana)](https://developer.bitcoin.org/reference/rpc/index.html) para obtener información de su nodo Bitcoin. BTCPay incluye un script que le permite comunicarse fácilmente con su nodo Bitcoin.
 
 
 Dentro de la carpeta btcpayserver-docker, obtenga la información Blockchain usando su nodo:

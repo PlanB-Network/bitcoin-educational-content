@@ -1915,7 +1915,7 @@ JoinMarketの主な欠点のひとつは、その使い方の複雑さであり�
 
 ![BTC204](assets/ja/137.webp)
 
-出典：[JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+出典：[JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 しかし、技術的な障壁は依然として大きな障害となっている。参加者の数によって機密性が強化されるコインジョイン・エコシステムでは、アクセスが制限されると、利用可能な流動性に直接影響する。ビットコインは金融取引においてすでにニッチであり、コインジョインの利用はサブニッチと見なされている。JoinMarketはその中でもさらに特化した部分であるため、ユーザーのアノンセットを増やす可能性が制限されている。
 

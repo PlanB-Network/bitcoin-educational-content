@@ -205,7 +205,7 @@ Blockchain, Transaction, Double-Spend, Byzantine Generals’ Problem, Mining, Pr
 
 Madhumuni ya kizuizi hiki cha kozi itakuwa Ni kuwa na uelewa wa jumla wa programu ya BTCPay Server. Katika mazingira ya pamoja, inashauriwa kufuata onyesho la mwalimu na kufuata pamoja na Kitabu cha Kozi cha BTCPay Server ili kumfuata mwalimu. Utajifunza jinsi ya kuunda  Wallet kupitia njia nyingi. Mifano ni pamoja na usanidi wa Hot Wallet na hardware wallet zilizounganishwa kupitia BTCPay Server Vault. Malengo haya hutokea katika mazingira ya Onyesho, yanayoonyeshwa na kupewa ufikiaji na mwalimu wako wa kozi.
 
-Ukifuata kozi hii peke yako, unaweza kupata orodha ya wapangishi wengine kwa madhumuni ya Onyesho kwenye https://directory.btcpayserver.org/filter/hosts. Tunashauri sana dhidi ya kutumia chaguo hili la wahusika wengine kama mazingira ya uzalishaji, lakini zinatumika kwa madhumuni yanayofaa kwa utangulizi wa kutumia Bitcoin na BTCPay Server.
+Ukifuata kozi hii peke yako, unaweza kupata orodha ya wapangishi wengine kwa madhumuni ya Onyesho kwenye https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Tunashauri sana dhidi ya kutumia chaguo hili la wahusika wengine kama mazingira ya uzalishaji, lakini zinatumika kwa madhumuni yanayofaa kwa utangulizi wa kutumia Bitcoin na BTCPay Server.
 
 Kama mwanafunzi wa rockstar wa BTCPay Server, unaweza kuwa na uzoefu wa awali wa kusanidi node ya Bitcoin. Kozi hii itazungumza maalum kwa rafu ya Programu ya BTCPay Server.
 
@@ -714,7 +714,7 @@ Unaweza pia kufuata kwa video kwa marejeleo ya kuunganisha Hardware Wallet.
 
 Pakua kuba ya BTCPay Server: https://github.com/btcpayserver/BTCPayServer.Vault/releases
 
-Hakikisha unapakua faili sahihi za mfumo wako. Watumiaji wa dirisha wanapaswa kupakua [BTCPayServerVault-2.0.5-setup.exe](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-2.0.5-setup.exe) kifurushi cha watumiaji wa Mac [BTCPayServerVault-osx-x64-2.0.5.dmg](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-osx-x64-2.0.5 watumiaji wa Linuxd. [BTCPayServerVault-Linux-2.0.5.tar.gz](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-Linux-2.0.5.tar.gz)
+Hakikisha unapakua faili sahihi za mfumo wako. Watumiaji wa dirisha wanapaswa kupakua [BTCPayServerVault-2.0.5-setup.exe](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-2.0.5-setup.exe) kifurushi cha watumiaji wa Mac [BTCPayServerVault-osx-x64-2.0.5.dmg](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-osx-x64-2.0.5.dmg watumiaji wa Linuxd. [BTCPayServerVault-Linux-2.0.5.tar.gz](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-Linux-2.0.5.tar.gz)
 
 Baada ya kusakinisha BTCPay Server Vault, anza programu kwa kubofya ikoni kwenye Eneo-kazi lako. Wakati Kuba ya BTCPay Server imesakinishwa vizuri na kuanza kwa mara ya kwanza, itaomba ruhusa ya kutumiwa na Programu za Wavuti. Itaomba kukupa ufikiaji kwa Server mahususi ya BTCPay unayofanya kazi nayo. Kubali masharti haya. BTCPay Server Vault sasa itatafuta kifaa cha maunzi. Kifaa kikishapatikana, BTCPay Server itatambua kuwa Kuba inafanya kazi na imeleta kifaa chako.
 
@@ -1719,9 +1719,9 @@ bitcoin-lightning-cli.sh getlog
 
 #### Kumbukumbu za node za Bitcoin
 
-Kando na [kuangalia kumbukumbu](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) ya chombo chako cha bitcoind, unaweza pia kutumia [amri za bitcoin-cli](https://developer.Bitcoin.org/reference/RPC)/index.html
+Kando na [kuangalia kumbukumbu](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) ya chombo chako cha bitcoind, unaweza pia kutumia [amri za bitcoin-cli](https://developer.bitcoin.org/reference/rpc)/index.html
 
-[(hufungua dirisha jipya)](https://developer.Bitcoin.org/reference/RPC/index.html) ili kupata maelezo kutoka kwa node yako ya Bitcoin. BTCPay inajumuisha hati ya kukuruhusu kuwasiliana na node yako ya Bitcoin kwa urahisi.
+[(hufungua dirisha jipya)](https://developer.bitcoin.org/reference/rpc/index.html) ili kupata maelezo kutoka kwa node yako ya Bitcoin. BTCPay inajumuisha hati ya kukuruhusu kuwasiliana na node yako ya Bitcoin kwa urahisi.
 
 Ndani ya folda ya btcpayserver-dokta, pata habari ya Blockchain ukitumia node yako:
 

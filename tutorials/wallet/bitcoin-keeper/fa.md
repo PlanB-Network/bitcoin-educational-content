@@ -406,7 +406,7 @@ Bitcoin Keeper به عنوان یک راه‌حل مقیاس‌پذیر برای
 
 
 - وب‌سایت رسمی: [bitcoinkeeper.app](https://bitcoinkeeper.app)
-- مرکز راهنما: [help.bitcoinkeeper.app](https://help.bitcoinkeeper.app)
+- مرکز راهنما: [bitcoinkeeper.app/ask-keeper](https://www.bitcoinkeeper.app/ask-keeper)
 - کد منبع: [github.com/bithyve/bitcoin-keeper](https://github.com/bithyve/bitcoin-keeper)
 - Telegram : [t.me/BitcoinKeeper](https://t.me/BitcoinKeeper)
 - توییتر/X: [@bitcoinkeeper_](https://x.com/bitcoinkeeper_)

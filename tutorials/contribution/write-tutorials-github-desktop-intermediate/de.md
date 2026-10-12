@@ -177,7 +177,7 @@ Nachdem Sie alle Informationen eingegeben und überprüft haben, klicken Sie auf
 
 Sie können nun den Unterabschnitt "Ohne mein Python-Skript" sowie Schritt 3, "Ausfüllen der YAML-Datei", überspringen, da das Skript diese Aktionen bereits für Sie erledigt hat. Fahren Sie direkt mit Schritt 4 fort und beginnen Sie mit dem Schreiben Ihres Tutorials.
 
-Weitere Informationen zu diesem Python-Skript finden Sie auch in der [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Weitere Informationen zu diesem Python-Skript finden Sie auch in der [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md).
 
 ### Ohne mein Python-Skript
 

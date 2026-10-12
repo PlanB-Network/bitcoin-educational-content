@@ -547,7 +547,7 @@ Selv om den har visse begrensninger (ingen mobilversjon, ikke-vedvarende økter)
 
 - [Offisielt nettsted for Mullvad Browser](https://mullvad.net/fr/browser)
 - [Nedlastingsside for Mullvad Browser](https://mullvad.net/en/download/browser)
-- [Detaljerte tekniske spesifikasjoner](https://mullvad.net/en/browser/Hard-facts)
+- [Detaljerte tekniske spesifikasjoner](https://mullvad.net/en/browser/hard-facts)
 - [Mullvad nettleserutvidelse](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

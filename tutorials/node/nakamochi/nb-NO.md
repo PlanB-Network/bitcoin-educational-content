@@ -112,7 +112,7 @@ For mer informasjon: [Kanaler | Zeus-dokumentasjon](https://docs.zeusln.app/)
 
 _Bitbanana Skjermbilde
 
-For mer informasjon: [BitBanana](https://bitbanana.com)
+For mer informasjon: [BitBanana](https://bitbanana.app)
 
 Når kanalen din er åpen, kan betalinger dirigeres gjennom den til andre deltakere i nettverket. Saldoen justeres utenfor kjeden, slik at transaksjonene skjer nesten umiddelbart og med minimale gebyrer.
 

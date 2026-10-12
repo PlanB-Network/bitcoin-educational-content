@@ -204,7 +204,7 @@ Click on "*Start*".
 
 ![Image](assets/fr/15.webp)
 
-You can use the QR code base supplied in the Jade Plus box. Select the appropriate box depending on whether you've opted for a 12- or 24-word sentence. You can also [print the template from the Blockstream website](https://help.blockstream.com/hc/article_attachments/41928319071769).
+You can use the QR code base supplied in the Jade Plus box. Select the appropriate box depending on whether you've opted for a 12- or 24-word sentence. You can also [print the template from the Blockstream website](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase).
 
 Your Jade Plus will display each zone of your QR code.
 

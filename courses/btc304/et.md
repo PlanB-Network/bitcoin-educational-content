@@ -48,7 +48,7 @@ See märkimisväärne kasv on muidugi tihedalt seotud:
 
 
 
-- [inimeste kasvav huvi kogu maailmas Bitcoin kasutamise vastu](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), et vabaneda pangandussüsteemist ja/või kasutada vähem volatiilset või vähem devalveeritud valuutat, nagu seda teevad Liibanoni, Süüria, Egiptuse, Argentina ja teiste riikide elanikud;
+- [inimeste kasvav huvi kogu maailmas Bitcoin kasutamise vastu](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), et vabaneda pangandussüsteemist ja/või kasutada vähem volatiilset või vähem devalveeritud valuutat, nagu seda teevad Liibanoni, Süüria, Egiptuse, Argentina ja teiste riikide elanikud;
 - selle hinna tõusu aja jooksul, kehtestades selle kui väärtuse säilitaja ja pikaajalise investeeringu, mis on tingitud fikseeritud rahapoliitikast;
 - spekulatiivse krüptovaluutaturu järjestikune kasv, eriti aastatel 2017-2018 ja 2020-2021;
 - Bitcoin kasvav kohalolek peavoolumeedias.
@@ -701,7 +701,7 @@ Kui soovite kujundada futuristliku logo "Bitcoin London" kokkusaamise jaoks, võ
 
 
 
-- [ ] *Prompt: Loo Bitcoin logo, mille taustal on Londoni sild ja Big Ben. Futuristlik* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *Prompt: Loo Bitcoin logo, mille taustal on Londoni sild ja Big Ben. Futuristlik*
 
 
 
@@ -714,7 +714,7 @@ Kui esimesed neli tulemust ei ole piisavalt realistlikud, täpsustage oma taotlu
 
 
 
-- [ ] *Prompt: Tee 4. palju realistlikum* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *Prompt: Tee 4. palju realistlikum*
 
 
 
@@ -732,7 +732,7 @@ Puhtama väljanägemise jaoks, näiteks kleebise jaoks:
 
 
 
-- [ ] *Prompt: Loo "London Bitcoin Meetup" logo, mis on briti ja puhta stiiliga* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Prompt: Loo "London Bitcoin Meetup" logo, mis on briti ja puhta stiiliga*
 
 
 
@@ -1392,7 +1392,7 @@ Nende hulka kuuluvad:
 
 
 - [Btcmap.org](https://btcmap.org/)**, veebisait, kus on kaks kaarti, mida uuendatakse iga päev: **[maailma kaart ettevõtetest, mis aktsepteerivad Bitcoin](https://btcmap.org/map)** ja **[maailma kogukondade kaart](https://btcmap.org/communities/map)**. Paljud bitcoin'i kasutajad vaatavad neid kaarte regulaarselt, kas nad reisivad või elavad oma igapäevaelu, et kohtuda uute inimestega või leida kohti, kus oma [Sats](https://planb.academy/resources/glossary/satoshi-sat) kulutada. Btcmap on ülemaailmne viide ja oma kogukonna loetellu kandmine seal on nähtavuse jaoks väga oluline.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), veebisait, mille on loonud bitcoiners, bitcoiners. **See võimaldab teil postitada oma kogukonna eelseisvaid üritusi**. Prantsusmaal ei kasutata seda siiski veel laialdaselt.
+- BitcoinerEvents, veebisait, mille on loonud bitcoiners, bitcoiners. **See võimaldab teil postitada oma kogukonna eelseisvaid üritusi**. Prantsusmaal ei kasutata seda siiski veel laialdaselt. **Märkus (oktoober 2026):** see veebisait ei ole enam kättesaadav. [BitcoinOnly Events](https://bitcoinonly.events/) on sarnane kalender, mis endiselt töötab.
 - sõltuvalt teie riigist võivad olla ka muud kohalikud algatused. Prantsusmaal on näiteks [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), kus **kuulub iga kuu kümneid Bitcoin üritusi**. Nii et kui te ei ole neile veel Twitteris järgnenud või nendega ühendust võtnud, et jagada teavet oma kogukonna ja ürituste kohta, on nüüd õige aeg! **Kui aitaksite hoida Prantsuse sündmuste kalendrit ajakohasena, oleks tore, kui kõik Prantsuse Bitcoin kogukonnad võtaksid harjumuseks:**
     - mainides @bitcoinpointfr Twitteris iga uue kogukonna sündmuse puhul
     - uute sündmuste väljakuulutuste kinnitamine oma Telegram-gruppi.
@@ -1412,7 +1412,7 @@ Samuti on **[Orangepillapp](https://www.orangepillapp.com/)** tasuline mobiilira
 
 Kuigi need kaks viimast platvormi võivad aidata suurendada nähtavust, ei soovitata neid kogukonna loomisel kasutada lihtsalt seetõttu, et need ei ole tasuta.
 
-**Alustades nimekirjaga [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) ja prantsuse kogukondade jaoks [Bitcoin.fr](https://Bitcoin.fr) on enam kui piisav**.
+**Alustades nimekirjaga [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) ja prantsuse kogukondade jaoks [Bitcoin.fr](https://Bitcoin.fr) on enam kui piisav**.
 
 
 Palju õnne! Teie **kogukond on loodud**, teie **visuaalid on valmis**, teie **eesmärgid on seatud**, teie **kommunikatsioonikanalid on paigas**, teie **sotsiaalvõrgustikud on käivitatud** ja teie **nähtusstrateegia on otsustatud**.
@@ -1500,7 +1500,7 @@ Kui soovite valmistuda vaiksemateks hetkedeks, võite planeerida mõned tegevuse
 - tuua **Nerdminer**, Bitaxe, FPGA või isegi ASIC;
 - millel on **Bitcoin flaier**;
 - gW-112 visuaalse kujunduse või logo väljatöötamine teie kogukonna jaoks;
-- mängides **[Bitcoin kaardimängu](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- mängides **[Bitcoin kaardimängu](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - näitab **[btcmap.org](https://btcmap.org/)** kogukondade ja kaupmeeste kaarti;
 - gW-116 saatmine või vastuvõtmine, kasutades **Valguse**.
 
@@ -1871,7 +1871,7 @@ Sõltuvalt teie kättesaadavusest ja kaasatuse tasemest teie kogukonnas, võite 
 
 - Restoranide õhtu **Pitsapäeva** puhul 22. mail
 - Õhtu või nädalavahetus, et tähistada järgmist **Halving**
-- Perekondlik **mänguõhtu** Bitcoin ja selle toimimise kohta, kasutades selliseid mänge nagu [Le Coin de Table](https://www.Maximalist.ovh/) või [SHAmory](https://shamory.com/)
+- Perekondlik **mänguõhtu** Bitcoin ja selle toimimise kohta, kasutades selliseid mänge nagu [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) või [SHAmory](https://shamory.com/)
 - **Mining töötuba**, kus tutvustatakse eri tüüpi riistvara (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - **lõuna- või õhtupoolik algajatele**, kus toimuvad teemakohased töötoad
 - **ühine kohtumine naaberkogukondadega**
@@ -2006,7 +2006,7 @@ Samuti võiksite kujundada oma kogukonnale või kokkusaamisele omase infolehe, m
 Mitmed flaierid on juba **saadavaks avatud lähtekoodiga [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** planB.network'is ja aja jooksul lisandub veel rohkem.
 
 
-Üks näide on [täielik infoleht](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), milles on 21 põhjust Bitcoin kasutamiseks. Selle kujundus on samuti [avatud lähtekoodiga](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), mida saate muuta, kohandada ja jagada. Lihtsalt ärge unustage, et viitaksite oma allikatele.
+Üks näide on [täielik infoleht](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), milles on 21 põhjust Bitcoin kasutamiseks. Selle kujundus on samuti [avatud lähtekoodiga](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), mida saate muuta, kohandada ja jagada. Lihtsalt ärge unustage, et viitaksite oma allikatele.
 
 
 
@@ -2050,7 +2050,7 @@ Kuigi Bitcoin valge raamatu lahkumine on sümboolne, on see sageli liiga keeruli
 - gW-166 valge raamat, mis on tõlgitud prantsuse keelde.
 
 
-Siin on [Prantsuse bitcoin'i kasutajate seas jagatud vihik](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle), mis on paigutatud kümnetesse raamatukastidesse üle kogu riigi. Selle kujundus on ka [avatud lähtekoodiga](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Siin on [Prantsuse bitcoin'i kasutajate seas jagatud vihik](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle), mis on paigutatud kümnetesse raamatukastidesse üle kogu riigi. Selle kujundus on ka [avatud lähtekoodiga](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

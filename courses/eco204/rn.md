@@ -187,7 +187,7 @@ Ivyabaye ku ba Maravedi vyerekana ingene Leta ishobora guhitamwo guca agaciro k�
 ![image](assets/rn/007.webp)
 
 
-Woba ushaka kumenya vyinshi? -> [Ihuza](inyandiko.
+Woba ushaka kumenya vyinshi? -> [Ihuza](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing).
 
 
 #### 4. Impinduka y’ibiciro kuva mu kinjana ca 15 gushika mu ca 17
@@ -482,7 +482,7 @@ Izo ngero zirashobora gukoreshwa mu biganiro kugira ngo umuntu asigure igituma u
 ![image](assets/rn/023.webp)
 
 
-Kuko, nk’uko uru [rudodo](https/safedean/status) rwerekana: Inflation ni vyose kiretse ikosa ry’amabanki akomeye.
+Kuko, nk’uko uru [rudodo](https://twitter.com/saifedean/status/1673639779433590786) rwerekana: Inflation ni vyose kiretse ikosa ry’amabanki akomeye.
 
 
 
@@ -1119,7 +1119,7 @@ Amateka ya Repubulika ya Weimar yerekana ko muri ico kiringo, ivy’ubutunzi n�
 
 > Weimar: "Igisagara cose c'Ubudage cari mu mahanga cari carafashwe."
 
-> [Iminota 20.fr](https://www.20minutes.fr/monde/3286947-20220513-intambara-ya-Ukraine-yashaka-Uburusiya-kudasubira gutanga-ikiev-yashizeho ibibazo vyinshi vy'amadolari 300.000.000. vy'ukuri vyahagaritswe nk'igice c'ibihano vy'ibihugu vy'Uburengero, mu madolari 640 miliyaridi yari yabitswe na Banki Nkuru y'Uburusiya."
+> [Iminota 20.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions) gutanga-ikiev-yashizeho ibibazo vyinshi vy'amadolari 300.000.000. vy'ukuri vyahagaritswe nk'igice c'ibihano vy'ibihugu vy'Uburengero, mu madolari 640 miliyaridi yari yabitswe na Banki Nkuru y'Uburusiya."
 
 #### 3. Iciyumviro c'Igiciro c'Isoko
 
@@ -1421,7 +1421,7 @@ Iciyumviro nyamukuru ni uko hariho ingamba nyinshi zo gutsinda ugutera imbere kw
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 
-[Tora ivyo bitabo vyakozwe mu gitabu ca *Bitcoin Educational Toolkit* (navyo ushobora kubironka mu gice ca *Ibikoresho* co muri Plan ₿ Academy urubuga.](urubuga rwa penpot.umugambi 4-4f081b21defb&igice=imigenderanire&urutonde=0&sangira-id=7154756b-3ebd-8040-8004-6475c2af5889&imigenderanire-uburyo=kwerekana-ku-gukanda)
+[Tora ivyo bitabo vyakozwe mu gitabu ca *Bitcoin Educational Toolkit* (navyo ushobora kubironka mu gice ca *Ibikoresho* co muri Plan ₿ Academy urubuga.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
 ![image](assets/rn/068.webp)

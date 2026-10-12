@@ -19,7 +19,7 @@ description: 開始 Mining Bitcoin，勝算接近 0
 
 - a [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - a [USB-C 電源 Supply](https://amzn.eu/d/gIOot90)
-- 3D 機殼：如果您有 3D 印表機，您可以下載 [3D 檔案](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons)，否則您可以在 [Silexperience 線上商店](https://silexperience.company.site/NerdMiner_V2-p544379757) 購買。
+- 3D 機殼：如果您有 3D 印表機，您可以下載 [3D 檔案](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons)，否則您可以在 [Bitronics 線上商店](https://bitronics.store/) 購買。
 - 安裝 Chrome 瀏覽器的個人電腦
 - 網際網路連線
 - a Bitcoin Address
@@ -95,7 +95,6 @@ description: 開始 Mining Bitcoin，勝算接近 0
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Default Solo and open-source mining pool |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Maintained by CHMEX                      |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Maintained by djerfy                     |
 
 一旦您選擇了您的彩池，您需要輸入您的 Bitcoin Address 以在萬一 (例外) 發現區塊時獲得獎勵。
 
@@ -191,4 +190,4 @@ NerdMiner 可以連線到的 Pool 都只是「單獨 Mining pool」，也就是�
 
 
 - [NerdMiner_v2 專案頁](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [NerdMiners完整文件](https://docs.bitwater.ch/nerd-Miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

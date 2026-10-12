@@ -5,7 +5,7 @@ description: Bitcoin i Lightning rešenja za plaćanje za trgovce
 
 ![cover](assets/cover.webp)
 
-
+> **Upozorenje (oktobar 2026):** Lipa for Business je ugašen sredinom marta 2026. godine, a njegov izdavač, lightning payment services ag, nalazi se u likvidaciji. Linkovi i koraci iz ovog uputstva više ne rade. Ovu stranicu čuvamo kao referencu dok ne bude ažurirana.
 
 Trgovci su sada sve više zainteresovani za prihvatanje Bitcoin uplata putem Lightning Network. Za razliku od tradicionalnih plaćanja kreditnim karticama, koja uključuju visoke naknade i duge vreme obrade, Lightning transakcije su praktično trenutne, nisu podložne povraćaju sredstava i čuvaju poverljivost kupaca.
 
@@ -267,9 +267,9 @@ Njegova nekustodijalna, privatnosti-prijateljska priroda, u kombinaciji sa profe
 
 
 
-- [Lipa za poslovanje zvanična veb stranica](https://lipa.swiss/en/for-business)
-- [Dashboard web](https://dashboard.lipa.swiss)
-- [Lipa Podrška za Poslovanje](https://help.lipa.swiss/business)
-- [Lipa General Support](https://help.lipa.swiss/Wallet)
+- Lipa za poslovanje zvanična veb stranica
+- Dashboard web
+- Lipa Podrška za Poslovanje
+- Lipa General Support
 - [LinkedIn Lipa](https://www.linkedin.com/company/getlipa)
 - [Twitter @lipa_btc](https://twitter.com/lipa_btc)

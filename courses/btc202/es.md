@@ -151,7 +151,7 @@ Dado que Bitcoin es un sistema, debe ejecutarse necesariamente en ordenadores. Y
 
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -203,7 +203,7 @@ La primera tarea de un nodo es mantener una copia local de la blockchain. Para e
 
 > La única manera de confirmar la ausencia de una transacción es estar al tanto de todas las transacciones.
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -380,7 +380,7 @@ En teoría, Bitcoin Core no representa el protocolo Bitcoin, sino que es una imp
 
 
 
-Según [datos recogidos en agosto de 2025 por Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (un conocido desarrollador del ecosistema), la distribución de implementaciones entre los nodos públicos de la red es la siguiente:
+Según [datos recogidos en agosto de 2025 por Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (un conocido desarrollador del ecosistema), la distribución de implementaciones entre los nodos públicos de la red es la siguiente:
 
 
 
@@ -762,7 +762,7 @@ Un nodo [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (**S
 
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -1517,7 +1517,7 @@ Una de las principales ventajas de Umbrel frente a sus competidores es su amplia
 
 
 
-El código de umbrel está disponible públicamente (puedes verlo, Fork, y modificarlo), pero no está bajo una verdadera licencia de código abierto. De hecho, umbrelOS se distribuye bajo la licencia [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), aunque algunas herramientas de desarrollo asociadas están disponibles bajo la licencia MIT.
+El código de umbrel está disponible públicamente (puedes verlo, Fork, y modificarlo), pero no está bajo una verdadera licencia de código abierto. De hecho, umbrelOS se distribuye bajo la licencia [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0), aunque algunas herramientas de desarrollo asociadas están disponibles bajo la licencia MIT.
 
 
 
@@ -3880,7 +3880,7 @@ Finalmente, el archivo `Bitcoin.conf` también te permite configurar los paráme
 
 
 
-Ahora hemos terminado de listar la mayoría de los parámetros de configuración. Este archivo `Bitcoin.conf` constituye así el verdadero tablero de su nodo: define la configuración de red, la gestión de Mempool, el uso de disco y memoria, la indexación y la administración general. Si desea obtener más información sobre este archivo y crear uno adaptado a sus necesidades, le recomiendo que utilice el [generador de Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Ahora hemos terminado de listar la mayoría de los parámetros de configuración. Este archivo `Bitcoin.conf` constituye así el verdadero tablero de su nodo: define la configuración de red, la gestión de Mempool, el uso de disco y memoria, la indexación y la administración general. Si desea obtener más información sobre este archivo y crear uno adaptado a sus necesidades, le recomiendo que utilice el [generador de Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/).
 
 
 

@@ -566,6 +566,8 @@ Lightning-satosi ovat välittömästi käytettävissä wallet:ssäsi.
 
 ## SwapMarket vs Boltz: Mikä on ero?
 
+> **Huomautus (lokakuu 2026):** Boltz Exchange keskeytti kaikki swapit 3. elokuuta 2026, ja sen verkkosivusto on poissa käytöstä. Tämä palveluntarjoaja ei välttämättä ole enää saatavilla SwapMarketissa.
+
 
 
 ### Boltz: Boltz: Teknologia vs. palvelu
@@ -639,7 +641,7 @@ Palveluntarjoajien välinen kilpailu parantaa korkoja ja moninkertaistaa likvidi
 
 - [SwapMarket - Web-sovellus](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Tekninen dokumentaatio](https://docs.boltz.exchange/)
+- [Tekninen dokumentaatio](https://github.com/BoltzExchange/boltz-backend)
 - [Opas itseisännöintiin](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 
@@ -649,5 +651,5 @@ Palveluntarjoajien välinen kilpailu parantaa korkoja ja moninkertaistaa likvidi
 
 
 
-- [Boltz Exchange](https://boltz.exchange) - Alkuperäinen atominvaihtopalvelu
+- Boltz Exchange - Alkuperäinen atominvaihtopalvelu
 - [ZEUS Swaps](https://zeusln.com) - Salamavaihtojen tarjoaja

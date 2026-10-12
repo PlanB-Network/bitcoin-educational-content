@@ -5,7 +5,7 @@ description: Bitcoin na ufumbuzi wa malipo ya Lightning kwa wafanyabiashara
 
 ![cover](assets/cover.webp)
 
-
+> **Onyo (Oktoba 2026):** Lipa for Business ilifungwa katikati ya Machi 2026, na mchapishaji wake, lightning payment services ag, yuko katika ufilisi. Viungo na hatua za mafunzo haya havifanyi kazi tena. Tunahifadhi ukurasa huu kwa marejeo hadi utakaposasishwa.
 
 Wauzaji sasa wanapenda zaidi kukubali malipo ya Bitcoin kupitia Lightning Network. Tofauti na malipo ya kawaida ya kadi ya mkopo, ambayo yanahusisha ada kubwa na muda mrefu wa malipo, miamala ya Lightning ni ya papo hapo, hailetwi na malipo, na huhifadhi usiri wa mteja.
 
@@ -267,9 +267,9 @@ Tabia yake isiyo ya utunzi, ya kirafiki ya faragha, pamoja na zana za usimamizi 
 
 
 
-- [Tovuti rasmi ya Lipa kwa Biashara](https://lipa.swiss/sw/for-business)
-- [Mtandao wa dashibodi](https://dashboard.lipa.swiss)
-- [Lipa Support for Business](https://help.lipa.swiss/business)
-- [Msaada Mkuu wa Lipa](https://help.lipa.swiss/Wallet)
+- Tovuti rasmi ya Lipa kwa Biashara
+- Mtandao wa dashibodi
+- Lipa Support for Business
+- Msaada Mkuu wa Lipa
 - [LinkedIn Lipa](https://www.linkedin.com/company/getlipa)
 - [Twitter @lipa_btc](https://twitter.com/lipa_btc)

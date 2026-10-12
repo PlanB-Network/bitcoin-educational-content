@@ -31,7 +31,7 @@ LNbits 充当用户与闪电节点之间的接口，提供一种简单、用户�
 
 ## 演示平台
 
-该演示可在 [https://legend.lnbits.com](https://legend.lnbits.com)上找到。该演示功能齐全，可用于了解闪电网络以及 LNbits 和 LNURL 的一般功能。虽然我们无法阻止您使用该演示，但我们希望您不要将其用于您的生产设置。我们不仅经常在服务器上测试新功能，而且还鼓励您以主权方式运行自己的节点和 LNbits。如果您认为运行一个节点过于繁琐，您可以将 LNbits 连接到云中的托管资金服务，如 Opennode、Luna 或 Votage，或者连接到 Telegram 上的 Lightning Tipbot。
+该演示可在 [https://demo.lnbits.com](https://demo.lnbits.com)上找到。该演示功能齐全，可用于了解闪电网络以及 LNbits 和 LNURL 的一般功能。虽然我们无法阻止您使用该演示，但我们希望您不要将其用于您的生产设置。我们不仅经常在服务器上测试新功能，而且还鼓励您以主权方式运行自己的节点和 LNbits。如果您认为运行一个节点过于繁琐，您可以将 LNbits 连接到云中的托管资金服务，如 Opennode、Luna 或 Votage，或者连接到 Telegram 上的 Lightning Tipbot。
 
 ## LNbits 传单
 
@@ -85,7 +85,7 @@ LNbits 可安装在任何 Linux 操作系统机器上。它不需要功能强大
 
 [此处有更多安装场景](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server)。
 
-关于捆绑软件节点，请参阅其有关 LNbits 的具体文档：[Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+关于捆绑软件节点，请参阅其有关 LNbits 的具体文档：[Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 ### LNbits SaaS
 
@@ -156,16 +156,18 @@ LNbits 可在多种闪电网络资金来源之上运行。目前，LNbits 支持
   - LNBITS_KEY： my-lnbits-AdminKey
 - LNbits Legend 演示服务器（切勿将此服务器用于生产/商业用途，仅用于测试！！）。
   - lnbits_backend_wallet_class`： **LNbitsWallet**
-  - `lnbits_endpoint`: https://legend.lnbits.com
+  - `lnbits_endpoint`: https://demo.lnbits.com
   - LNBITS_KEY：legend-lnbits-AdminKey
 
 #### 闪电提示机器人
+
+> **警告（2026年10月）：** LightningTipBot 和 ln.tips 已停止运营；关停公告发布于 2024 年 4 月 29 日。除非您自行托管机器人，否则此资金来源已无法使用。
 
 要从 Telegram 连接 [Lightning Tipbot](https://t.me/LightningTipBot)，您需要设置以下参数：
 
 
   - lnbits_backend_wallet_class`： **LnTipsWallet**
-  - `lnbits_endpoint`: https://ln.tips
+  - `lnbits_endpoint`: `https://ln.tips`
   - LNBITS_KEY`：要获得密钥，你需要在 Telegram 上与 LightningTipbot 私聊时运行一次 /api。
 
 另请参阅本教程，了解如何通过 vps 安装 [LNbits 和 LightningTipBot](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)。
@@ -178,11 +180,13 @@ LNbits 可在多种闪电网络资金来源之上运行。目前，LNbits 支持
 
 #### LNPay
 
-为使发票监听器正常工作，您必须在 LNbits 中设置一个可公开访问的 URL，并设置一个 [LNPay webhook](https://dashboard.lnpay.co/webhook/)，指向 `<您的 LNbits 主机>/wallet/webhook`，事件为 "钱包接收"，且不提供任何秘密。设置 `https://mylnbits/wallet/webhook` 将是收到付款通知的端点 url。
+> **警告（2026年10月）：** LNPay 似乎已停止运营：lnpay.co 域名已无响应。此资金来源很可能已无法使用。
+
+为使发票监听器正常工作，您必须在 LNbits 中设置一个可公开访问的 URL，并设置一个 LNPay webhook，指向 `<您的 LNbits 主机>/wallet/webhook`，事件为 "钱包接收"，且不提供任何秘密。设置 `https://mylnbits/wallet/webhook` 将是收到付款通知的端点 url。
 
 
   - lnbits_backend_wallet_class`： **LNPayWallet**
-  - lnpay_api_endpoint`: https://api.lnpay.co/v1/
+  - lnpay_api_endpoint`: `https://api.lnpay.co/v1/`
   - LNPAY_API_KEY`: sak_apiKey
   - LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -387,7 +391,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 
 ##### 反之亦然。
 
-试试 fiatjaf 提供的 [encoder](https://lnurl-codec.netlify.app/) 或 [this one](https://lightningdecoder.com/).要支付或检查 LNURLp，也可以使用 [LNurlpay](https://wwww.lnurlpay.com/)。应说明是 HTTPS 而不是 HTTP。
+试试 fiatjaf 提供的 [encoder](https://lnurl-codec.netlify.app/) 或 [this one](https://lightningdecoder.com/).要支付或检查 LNURLp，也可以使用 [LNurlpay](https://www.lnurlpay.com/)。应说明是 HTTPS 而不是 HTTP。
 
 ##### 配置人们在向我的 LNURLp QR 付款时看到的注释
 
@@ -403,7 +407,9 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 
 ###### 通过外部交换服务。
 
-其他无法访问您的 LNb 的用户可以使用交换服务，如 [Boltz](https://boltz.exchange/)、[FixedFloat](https://fixedfloat.com/)、[DiamondHands](https://swap.diamondhands.technology/) 或 [ZigZag](https://zigzag.io/)。如果您在 LNbits 实例中只提供 LNURL/LN 发票，但付款人只有链上 sats，因此他们必须先在自己这边交换这些 sats，这就很有用了。程序很简单：用户向交换服务发送链上比特币，并提供 LNbits 的 LNURL / LN 发票作为交换目的地。
+其他无法访问您的 LNb 的用户可以使用交换服务，如 Boltz、[FixedFloat](https://fixedfloat.com/) 或 [ZigZag](https://zigzag.io/)。如果您在 LNbits 实例中只提供 LNURL/LN 发票，但付款人只有链上 sats，因此他们必须先在自己这边交换这些 sats，这就很有用了。程序很简单：用户向交换服务发送链上比特币，并提供 LNbits 的 LNURL / LN 发票作为交换目的地。
+
+> **警告（2026年10月）：** 在多个漏洞被利用后，Boltz 于 2026 年 8 月 3 日暂停了所有交换，其网站已下线。目前无法使用 Boltz 和 LNbits 的 Boltz 扩展。
 
 ###### 使用 Onchain 和 Boltz LNbits 扩展。
 
@@ -443,7 +449,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 
 ### 使用 LNbits 制作工具和构建
 
-LNbits 拥有各种[开放式 API](https://legend.lnbits.com/docs)和工具，可用于编程和连接到各种不同的设备，适用于数以亿计的用例。
+LNbits 拥有各种[开放式 API](https://demo.lnbits.com/docs)和工具，可用于编程和连接到各种不同的设备，适用于数以亿计的用例。
 
 初学制作时，可以从 Ben Arc 提供的有关基于 LNbits 制作小工具的 [MakerBits 演示](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) 开始。
 

@@ -547,7 +547,7 @@ Iako ima određena ograničenja (nema mobilnu verziju, nepostojane sesije), Mull
 
 - [Official Mullvad Browser website](https://mullvad.net/fr/browser)
 - [Stranica za preuzimanje Mullvad pretraživača](https://mullvad.net/en/download/browser)
-- [Detaljne tehničke specifikacije](https://mullvad.net/en/browser/Hard-facts)
+- [Detaljne tehničke specifikacije](https://mullvad.net/en/browser/hard-facts)
 - [Mullvad Browser Extension](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

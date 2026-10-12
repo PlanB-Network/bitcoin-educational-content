@@ -19,7 +19,7 @@ description: شروع Mining Bitcoin با شانس برنده شدن نزدیک 
 
 - یک [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - یک [USB-C power Supply](https://amzn.eu/d/gIOot90)
-- یک کیس سه‌بعدی: اگر یک پرینتر سه‌بعدی دارید، می‌توانید [فایل سه‌بعدی](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) را دانلود کنید، در غیر این صورت می‌توانید یکی را از [فروشگاه آنلاین Silexperience](https://silexperience.company.site/NerdMiner_V2-p544379757) خریداری کنید.
+- یک کیس سه‌بعدی: اگر یک پرینتر سه‌بعدی دارید، می‌توانید [فایل سه‌بعدی](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) را دانلود کنید، در غیر این صورت می‌توانید یکی را از [فروشگاه آنلاین Bitronics](https://bitronics.store/) خریداری کنید.
 - یک رایانه شخصی با مرورگر Chrome نصب شده
 - اتصال اینترنتی
 - یک Bitcoin Address
@@ -95,7 +95,6 @@ WiFi را فعال کرده و به شبکه محلی NerdMinerAP متصل شو�
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Default Solo and open-source mining pool |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Maintained by CHMEX                      |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Maintained by djerfy                     |
 
 پس از انتخاب استخر خود، باید Bitcoin Address خود را وارد کنید تا در صورت (استثنائاً) یافتن یک بلاک، پاداش دریافت کنید.
 
@@ -191,4 +190,4 @@ Mining مبارک و امیدوارم که شانس با شما یار باشد!
 
 
 - [صفحه پروژه NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [مستندات کامل NerdMiners](https://docs.bitwater.ch/nerd-Miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

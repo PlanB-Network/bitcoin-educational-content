@@ -57,13 +57,13 @@ Niba ushaka gukoresha umuhuzabikorwa w’ama coinjoins manini (300+ input), ni v
 Ku nzira turashaka gukuraho no gushiramwo verisiyo nshasha ya Wasabi Wallet, irimwo inyuma n'umuhuzabikorwa nk'ibikorwa vyihariye iruhande ya wallet.
 
 
-Rondera verisiyo nshasha: [Wasabi Wallet](https://github.com/WalletWasabi/WalletWasabi/ibisohotse) maze usuzume umukono wa PGP w'ivyo bisohotse ukoresheje imfunguruzo: [PGP.txt] (ibirimwo
+Rondera verisiyo nshasha: [Wasabi Wallet](https://github.com/WalletWasabi/WalletWasabi/releases) maze usuzume umukono wa PGP w'ivyo bisohotse ukoresheje imfunguruzo: [PGP.txt](https://raw.githubusercontent.com/WalletWasabi/WalletWasabi/refs/heads/master/PGP.txt) (ibirimwo
 
 
 Ivyerekeye gukoresha biratandukanye bivanye n’ibikoresho (CPU-architecture) n’uguhitamwo OS, aha hepfo ivyerekeye gukoresha Raspberry Pi (ARM-64) ifise RaspiBlitz ishingiye kuri Debian nk’intango. Simbuka imbere ku (X86-64) Ubuntu OS gukoresha Nix.
 
 
-Rondera amabwirizwa yo gushiramwo hano: [Inyandiko za Wasabi](https://inyandiko.wasabiwallet.io/ukoresha-wasabi/Inyandiko zo Gushiramwo.html)
+Rondera amabwirizwa yo gushiramwo hano: [Inyandiko za Wasabi](https://docs.wasabiwallet.io/using-wasabi/InstallPackage.html)
 
 
 ### Gushirwaho kwa RaspiBlitz/Debian
@@ -333,4 +333,4 @@ Iyo umukoresha akopiye uruja n’uruza rw’ubupfumu maze akagurura Wasabi Walle
 💚🍣 Urakoze cane ku kwegereza ubuzima bwite bwa bitcoin 🕶️
 
 
-Ibuka imyimenyerezo yawe [wasabika](https://docs.wasabiwallet.io/Inyishu-inyishu.html#ushobora-kuba-umu-wasabika), Wasabi Wallet ni iyo kwikingira gusa 🛡️
+Ibuka imyimenyerezo yawe [wasabika](https://docs.wasabiwallet.io/FAQ/FAQ-Contribution.html#you-can-become-a-wasabika), Wasabi Wallet ni iyo kwikingira gusa 🛡️

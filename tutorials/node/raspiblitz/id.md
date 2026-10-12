@@ -14,7 +14,7 @@ RASPIBLITZ - Cara Menjalankan Lightning dan Bitcoin Full Node oleh BTC session
 
 ## Panduan Pengaturan Raspiblitz Parman
 
-RaspiBlitz adalah sistem yang sangat baik untuk menjalankan node Bitcoin dan aplikasi terkait. Aku merekomendasikan ini dan node MyNode ke sebagian besar pengguna, idealnya punya dua node untuk redundansi. Salah satu keuntungan utama adalah bahwa node RaspiBlitz merupakan "Free Open Source Software", tidak seperti MyNode atau Umbrel. [Mengapa itu penting? Vlad Costa menjelaskan.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Kamu juga bisa menjalankan Raspiblitz dengan koneksi WiFi daripada ethernet – berikut adalah [panduan tambahan](https://armantheparman.com/headless-wifi/). (Aku belum menemukan cara untuk melakukan ini dengan MyNode).
+RaspiBlitz adalah sistem yang sangat baik untuk menjalankan node Bitcoin dan aplikasi terkait. Aku merekomendasikan ini dan node MyNode ke sebagian besar pengguna, idealnya punya dua node untuk redundansi. Salah satu keuntungan utama adalah bahwa node RaspiBlitz merupakan "Free Open Source Software", tidak seperti MyNode atau Umbrel. [Mengapa itu penting? Vlad Costea menjelaskan.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Kamu juga bisa menjalankan Raspiblitz dengan koneksi WiFi daripada ethernet – berikut adalah [panduan tambahan](https://armantheparman.com/headless-wifi/). (Aku belum menemukan cara untuk melakukan ini dengan MyNode).
 
 Kamu bisa membeli node yang sudah jadi dengan layar mini terpasang, atau kamu bisa membangunnya sendiri. Kamu sebenarnya tidak perlu layar.
 
@@ -63,7 +63,7 @@ Sebelum lanjut, kalau kamu belum tahu cara bernavigasi di sistem file lewat comm
 Berikut adalah [video yang berguna untuk Linux, tetapi juga berlaku untuk Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Untuk Windows, berikut adalah [tutorial sederhana](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
-_PEMBARUAN: Verifikasi pgp/gpg sekarang tersedia. Anda memerlukan kunci publik Openoms. [Di sini](http://parman.org/downloadable/openoms.txt) ada (Anda mungkin perlu mode penyamaran agar tautan berfungsi – http, bukan https)_
+_PEMBARUAN: Verifikasi pgp/gpg sekarang tersedia. Image RaspiBlitz saat ini ditandatangani oleh rootzoll, bukan Openoms (sidik jari kunci: 92A746AE33A3C186D014BF5C1C73060C7C176461). [FAQ resmi](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download) memberikan kunci dan perintah `gpg --verify`._
 Mac/Linux
 
 Tunggu sampai file selesai diunduh (penting!), lalu buka terminal, pindah ke folder tempat file itu diunduh, dan ketik perintah berikut…

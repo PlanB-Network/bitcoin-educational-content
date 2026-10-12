@@ -77,9 +77,9 @@ A escolha da imagem Debian depende da arquitetura do seu processador:
 
 
 
-- **AMD64**: descarregue a edição "live hybrid" da lista [download](https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- **ARM64**: obtenha a imagem de DVD a partir do site oficial [Debian](https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- **Outras arquitecturas**: encontre a ISO correspondente à sua arquitetura [aqui](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: descarregue a edição "live hybrid" da lista [download](https://debian.obspm.fr/debian-cd/current-live/amd64/iso-hybrid/).
+- **ARM64**: obtenha a imagem de DVD a partir do site oficial [Debian](https://debian.obspm.fr/debian-cd/current/arm64/iso-dvd/).
+- **Outras arquitecturas**: encontre a ISO correspondente à sua arquitetura [aqui](https://debian.obspm.fr/debian-cd/current/).
 
 
 

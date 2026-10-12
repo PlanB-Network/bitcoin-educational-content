@@ -398,7 +398,7 @@ Sau khi xem xét tất cả những điểm này, bạn có thể tự tin mua m
 
 Tóm tắt hướng dẫn này trong một câu: **"Đừng tin, hãy kiểm chứng."**
 
-[Bạn cũng có thể tìm đến các chuyên gia trong việc tái chế máy đào, như đối tác của chúng tôi 21energy. Họ cung cấp máy S9 đã được kiểm tra, làm sạch và cài đặt sẵn phần mềm BraiiinOS+. Với mã giới thiệu "decouvre," bạn sẽ nhận được mức giảm giá 10% khi mua một máy S9 và cũng đồng thời hỗ trợ dự án Attakai.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[Bạn cũng có thể tìm đến các chuyên gia trong việc tái chế máy đào, như đối tác của chúng tôi 21energy. Họ cung cấp máy S9 đã được kiểm tra, làm sạch và cài đặt sẵn phần mềm BraiiinOS+. Với mã giới thiệu "decouvre," bạn sẽ nhận được mức giảm giá 10% khi mua một máy S9 và cũng đồng thời hỗ trợ dự án Attakai.](https://21energy.com/products/bitmain-antminer-s9)
 
 ## Hướng dẫn mua sắm phần cứng để cải tiến cho mẫu S9
 

@@ -35,7 +35,7 @@ description: نحوه پیکربندی برنامه Blockstream و استفاد�
 
 
 
-**Liquid** یک **Sidechain** از Bitcoin است که توسط **[Blockstream](https://blockstream.com/Liquid/)** توسعه یافته و برای ارائه عملکرد سریع‌تر، بیشتر Confidential Transactions و قابلیت‌های پیشرفته طراحی شده است، در حالی که به Blockchain اصلی Bitcoin متصل باقی می‌ماند.
+**Liquid** یک **Sidechain** از Bitcoin است که توسط **[Blockstream](https://blockstream.com/liquid/)** توسعه یافته و برای ارائه عملکرد سریع‌تر، بیشتر Confidential Transactions و قابلیت‌های پیشرفته طراحی شده است، در حالی که به Blockchain اصلی Bitcoin متصل باقی می‌ماند.
 
 
 
@@ -408,7 +408,9 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 
-به صورت جایگزین، Exchange بیت‌کوین‌های خود را به صورت زنجیره‌ای یا از طریق Lightning Network برای L-BTC با استفاده از [پل‌هایی مانند Boltz](https://boltz.Exchange/) انتقال دهید: Liquid دریافت‌کننده Address خود را وارد کنید، پرداخت را به روش دلخواه انجام دهید و L-BTC خود را دریافت کنید.
+به صورت جایگزین، Exchange بیت‌کوین‌های خود را به صورت زنجیره‌ای یا از طریق Lightning Network برای L-BTC با استفاده از پل‌هایی مانند Boltz انتقال دهید: Liquid دریافت‌کننده Address خود را وارد کنید، پرداخت را به روش دلخواه انجام دهید و L-BTC خود را دریافت کنید.
+
+> **توجه (اکتبر ۲۰۲۶):** Boltz در ۳ اوت ۲۰۲۶ همه سواپ‌ها را متوقف کرد و وب‌سایت آن از دسترس خارج است. این روش در حال حاضر کار نمی‌کند.
 
 
 

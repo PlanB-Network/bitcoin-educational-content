@@ -431,10 +431,10 @@ Iterambere ry’imbere rya Zeus Swap, rishigikiwe n’umugwi wa Zeus LSP ufise u
 
 
 
-- [Impinduro ya Zewu - Urubuga rw'urubuga](ihinduranya.zeuslsp.com)
-- [Zewu Wallet - Porogaramu yo kuri telefone ngendanwa]
-- [Urubuga rwa Zewu - Amatangazo n'inyigisho](urubuga.zeusln.com)
-- [Inyandiko z'ubuhinga za Zewu](inyandiko.zeusln.app)
+- [Impinduro ya Zewu - Urubuga rw'urubuga](https://swaps.zeuslsp.com)
+- [Zewu Wallet - Porogaramu yo kuri telefone ngendanwa](https://zeusln.app)
+- [Urubuga rwa Zewu - Amatangazo n'inyigisho](https://blog.zeusln.com)
+- [Inyandiko z'ubuhinga za Zewu](https://docs.zeusln.app)
 
 
 
@@ -443,6 +443,6 @@ Iterambere ry’imbere rya Zeus Swap, rishigikiwe n’umugwi wa Zeus LSP ufise u
 
 
 
-- [Zewu yo kuri Twitter (@zeusln)]
-- [Itelegaramu ya Zewu](ZewuLN)
-- [GitHub Zewu]
+- [Zewu yo kuri Twitter (@zeusln)](https://twitter.com/zeusln)
+- [Itelegaramu ya Zewu](https://t.me/ZeusLN)
+- [GitHub Zewu](https://github.com/ZeusLN)

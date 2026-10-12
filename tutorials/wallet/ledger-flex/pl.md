@@ -49,7 +49,7 @@ Po przetestowaniu jestem pod wrażeniem jakości produktu. Doświadczenie użytk
 ## Jak kupić Ledger Flex?
 
 
-Ledger Flex jest dostępny w sprzedaży [na oficjalnej stronie internetowej](https://shop.Ledger.com/pages/Ledger-flex). Aby kupić go w sklepie fizycznym, można również znaleźć [listę certyfikowanych sprzedawców](https://www.Ledger.com/reseller) na stronie internetowej Ledger.
+Ledger Flex jest dostępny w sprzedaży [na oficjalnej stronie internetowej](https://shop.ledger.com/pages/ledger-flex). Aby kupić go w sklepie fizycznym, można również znaleźć [listę certyfikowanych sprzedawców](https://www.Ledger.com/reseller) na stronie internetowej Ledger.
 
 
 ## Wymagania wstępne

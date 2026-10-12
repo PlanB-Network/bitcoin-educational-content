@@ -551,7 +551,7 @@ Bu ünlü sezgisel yöntemler, aşağıda ayrıntılı olarak açıklayacağım�
 ![BTC204](assets/tr/031.webp)
 
 
-Kaynak: S. Nakamoto, "Bitcoin: Eşler Arası Elektronik Nakit Sistemi", https://Bitcoin.org/Bitcoin.pdf, 2009.
+Kaynak: S. Nakamoto, "Bitcoin: Eşler Arası Elektronik Nakit Sistemi", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 Bunların ne olduğunu ilerleyen bölümlerde göreceğiz, ancak bu iki sezgisel yöntemin bugün hala zincir analizinde üstünlüğünü koruduğunu belirtmek ilginçtir.
@@ -948,7 +948,7 @@ Bölüm 3'ün giriş kısmında açıklandığı üzere, bu sezgisel yöntem Sat
 ![BTC204](assets/tr/055.webp)
 
 
-Kaynak: S. Nakamoto, "Bitcoin: Eşler Arası Elektronik Nakit Sistemi", https://Bitcoin.org/Bitcoin.pdf, 2009.
+Kaynak: S. Nakamoto, "Bitcoin: Eşler Arası Elektronik Nakit Sistemi", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 Örneğin, burada birkaç işlemde yeniden kullanılan bir Address bulunmaktadır:
@@ -1617,7 +1617,7 @@ Blockchain herkese açık olduğundan, hangi adreslerin hangi UTXO'yı ve kaç b
 ![BTC204](assets/tr/070.webp)
 
 
-Kaynak: S. Nakamoto, "Bitcoin: Eşler Arası Elektronik Nakit Sistemi", https://Bitcoin.org/Bitcoin.pdf, 2009.
+Kaynak: S. Nakamoto, "Bitcoin: Eşler Arası Elektronik Nakit Sistemi", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 Satoshi'in bu cümledeki amacı, bir kullanıcının kimliği ile Bitcoin'daki bir anahtar çifti arasında bir ilişki olması durumunda ek bir güvenlik duvarı oluşturmak ve tüm faaliyetinin kimliğiyle kamuya açıklanmasını önlemekti. Günümüzde, Blockchain analiz şirketlerinin ve KYC düzenlemelerinin yaygınlaşmasıyla birlikte, benzersiz adreslerin kullanımı artık "ek bir güvenlik duvarı" değil, asgari düzeyde gizliliği korumak isteyen herkes için vazgeçilmez bir uygulamadır.
@@ -2751,7 +2751,7 @@ JoinMarket'in ana dezavantajlarından biri, etkin bir şekilde çalıştırmak i
 ![BTC204](assets/tr/137.webp)
 
 
-Kaynak: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Kaynak: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 
 Bununla birlikte, teknik engel büyük bir engel olmaya devam etmektedir. Gizliliğin katılımcı sayısıyla güçlendirildiği CoinJoin ekosisteminde, erişilebilirliği azaltan herhangi bir sınırlama, karışımın verimliliğinde çok önemli bir faktör olan mevcut likiditeyi doğrudan etkiler. Finansal işlemlerde zaten bir niş olan Bitcoin, coinjoins kullanımını bir alt niş olarak görüyor ve JoinMarket bunun daha da özelleşmiş bir kısmını temsil ediyor, bu nedenle kullanıcılarının anonsetlerini artırma potansiyelini kısıtlıyor.
@@ -3634,7 +3634,7 @@ Bununla birlikte, ödemelerin pratik bir şekilde yapılmasına olanak tanıyan 
 PayJoin, ödeme alıcısı ile işbirliği yaparak harcama yaparken kullanıcı gizliliğini artıran özel bir Bitcoin işlem yapısıdır.
 
 
-LaurentMT, [burada](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt) bulunan bir belgeye göre, bu yöntemi ilk olarak 2015 yılında "*steganografik işlemler*" adı altında tartıştı. Bu teknik daha sonra Samourai Wallet tarafından benimsenmiş ve 2018'de Stowaway aracını kullanarak bunu uygulayan ilk istemci olmuştur. PayJoin kavramı [BIP79](https://github.com/Bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/Bitcoin/bips/blob/master/bip-0078.mediawiki) ve [BIP77](https://PayJoin.org/docs/how-it-works/PayJoin-v2-bip-77/)'de de yer almaktadır. Bu nedenle bir PayJoin'a atıfta bulunmak için çeşitli terimler kullanılmaktadır:
+LaurentMT, [burada](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt) bulunan bir belgeye göre, bu yöntemi ilk olarak 2015 yılında "*steganografik işlemler*" adı altında tartıştı. Bu teknik daha sonra Samourai Wallet tarafından benimsenmiş ve 2018'de Stowaway aracını kullanarak bunu uygulayan ilk istemci olmuştur. PayJoin kavramı [BIP79](https://github.com/Bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/Bitcoin/bips/blob/master/bip-0078.mediawiki) ve [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/)'de de yer almaktadır. Bu nedenle bir PayJoin'a atıfta bulunmak için çeşitli terimler kullanılmaktadır:
 
 
 

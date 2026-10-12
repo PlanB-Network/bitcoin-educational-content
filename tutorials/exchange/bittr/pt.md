@@ -21,7 +21,7 @@ Vamos ver como é fácil começar a empilhar Sats com o Bittr.
 ## Começar a utilizar o Bittr
 
 
-- Na Web ou no telemóvel, vá a [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) e clique em "Buy Bitcoin" (Comprar Bitcoin)
+- Na Web ou no telemóvel, vá a [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) e clique em "Buy Bitcoin" (Comprar Bitcoin)
 
 
 

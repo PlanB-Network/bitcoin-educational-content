@@ -406,7 +406,7 @@ Tento výukový program se zabývá základními funkcemi programu Bitcoin Keepe
 
 
 - Oficiální webové stránky: [bitcoinkeeper.app](https://bitcoinkeeper.app)
-- Centrum nápovědy: [help.bitcoinkeeper.app](https://help.bitcoinkeeper.app)
+- Centrum nápovědy: [bitcoinkeeper.app/ask-keeper](https://www.bitcoinkeeper.app/ask-keeper)
 - Zdrojový kód: [github.com/bithyve/bitcoin-keeper](https://github.com/bithyve/bitcoin-keeper)
 - Telegram : [t.me/BitcoinKeeper](https://t.me/BitcoinKeeper)
 - Twitter/X: [@bitcoinkeeper_](https://x.com/bitcoinkeeper_)

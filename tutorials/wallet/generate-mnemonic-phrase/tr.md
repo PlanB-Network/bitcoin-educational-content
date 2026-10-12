@@ -51,7 +51,7 @@ Kurtarma cümlenizi elle oluşturmak için ihtiyacınız olacak:
 Daha sonra, sağlama toplamının hesaplanması için terminali olan bir bilgisayarın kullanılması gerekli hale gelecektir. İşte tam da bu nedenle Mnemonic cümlesinin elle oluşturulmasını tavsiye etmiyorum. Bana göre, bir bilgisayarın müdahalesi, bu eğitimde belirtilen önlemler altında bile, bir Wallet'nın güvenlik açığını önemli ölçüde artırır.
 
 
-"Hayali bir Wallet" ile ilgili deneysel bir yaklaşım için, normal bilgisayarınızı ve terminalini kullanmak mümkündür. Ancak, ifadenizi tehlikeye atma risklerini sınırlamayı amaçlayan daha titiz bir yaklaşım için ideal olan, internet bağlantısı kesilmiş (tercihen wifi bileşeni veya RJ45 kablolu bağlantısı olmayan), minimum çevre birimleriyle donatılmış (Bluetooth'tan kaçınmak için hepsi kabloyla bağlanmalıdır) ve hepsinden önemlisi [Tails](https://tails.boum.org/index.fr.html) gibi amnezik bir Linux dağıtımıyla çalışan, çıkarılabilir bir ortamdan başlatılan bir bilgisayar kullanmaktır.
+"Hayali bir Wallet" ile ilgili deneysel bir yaklaşım için, normal bilgisayarınızı ve terminalini kullanmak mümkündür. Ancak, ifadenizi tehlikeye atma risklerini sınırlamayı amaçlayan daha titiz bir yaklaşım için ideal olan, internet bağlantısı kesilmiş (tercihen wifi bileşeni veya RJ45 kablolu bağlantısı olmayan), minimum çevre birimleriyle donatılmış (Bluetooth'tan kaçınmak için hepsi kabloyla bağlanmalıdır) ve hepsinden önemlisi [Tails](https://tails.net/index.fr.html) gibi amnezik bir Linux dağıtımıyla çalışan, çıkarılabilir bir ortamdan başlatılan bir bilgisayar kullanmaktır.
 
 
 ![mnemonic](assets/notext/2.webp)

@@ -572,8 +572,8 @@ https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-- 깃허브 양성자 인증기**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - 오픈 소스 코드
-- 보안 감사**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - 독립 감사 보고서
+- 깃허브 양성자 인증기**: [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - 오픈 소스 코드
+- 보안 감사**: [proton.me/community/security-audits](https://proton.me/community/open-source) - 독립 감사 보고서
 
 
 

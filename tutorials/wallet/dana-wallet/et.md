@@ -113,7 +113,7 @@ Soovitatav meetod on lisada Dana Wallet spetsiaalne F-Droid repositoorium. Mine 
 
 
 
-Avage oma Android-seadmes rakendus F-Droid, seejärel avage paremal allosas asuva ikooni kaudu seaded. Rakenduse allikate haldamiseks valige "Repositooriumid". Uue repositooriumi lisamiseks vajutage nuppu "+", seejärel skannige QR-koodi või kleepige link "https://fdroid.silentpayments.dev/fdroid/repo". Kui repositoorium on lisatud, näete Dana Wallet kolme versiooni, mis on saadaval. Valige "Dana Wallet - Bookmark" ja vajutage "Install".
+Avage oma Android-seadmes rakendus F-Droid, seejärel avage paremal allosas asuva ikooni kaudu seaded. Rakenduse allikate haldamiseks valige "Repositooriumid". Uue repositooriumi lisamiseks vajutage nuppu "+", seejärel skannige QR-koodi või kleepige link "https://fdroid.danawallet.app/fdroid/repo". Kui repositoorium on lisatud, näete Dana Wallet kolme versiooni, mis on saadaval. Valige "Dana Wallet - Bookmark" ja vajutage "Install".
 
 
 
@@ -410,7 +410,7 @@ Vaikne makse on oluline samm edasi kasutusmugavuse ja eraelu puutumatuse austami
 
 
 - Dana Wallet GitHubi repositoorium: https://github.com/cygnet3/danawallet
-- F-Cold tagatisraha: https://fdroid.silentpayments.dev
+- F-Cold tagatisraha: https://fdroid.danawallet.app/fdroid/repo/
 - Vaikiv maksekeskkonna sait: https://silentpayments.xyz
 - Spetsifikatsioon BIP-352: https://bips.dev/352
 

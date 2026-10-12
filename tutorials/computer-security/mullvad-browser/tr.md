@@ -547,7 +547,7 @@ Bazı sınırlamaları olmasına rağmen (mobil versiyonu yok, kalıcı olmayan 
 
 - [Resmi Mullvad Tarayıcı web sitesi](https://mullvad.net/fr/browser)
 - [Mullvad Browser indirme sayfası](https://mullvad.net/en/download/browser)
-- [Detaylı teknik özellikler](https://mullvad.net/en/browser/Hard-facts)
+- [Detaylı teknik özellikler](https://mullvad.net/en/browser/hard-facts)
 - [Mullvad Tarayıcı Uzantısı](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

@@ -33,7 +33,7 @@ In questa esercitazione, vedremo 3 modi per utilizzare un **Watchtower** :
 
 
 
-*Questa esercitazione è tratta da [la documentazione ufficiale del LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Potrebbero essere state apportate alcune modifiche alla versione originale
+*Questa esercitazione è tratta da [la documentazione ufficiale del LND](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). Potrebbero essere state apportate alcune modifiche alla versione originale
 
 
 
@@ -519,13 +519,7 @@ Nello stesso menu, troverete anche l'URI del vostro servizio Watchtower, se lo a
 
 
 
-Ci sono diverse torri di guardia disponibili online. Ad esempio, [LN+ e Voltage offrono un Watchtower altruista](https://lightningnetwork.plus/Watchtower) a cui è possibile collegarsi:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+Ci sono diverse torri di guardia disponibili online. LN+ e Voltage offrivano una Watchtower altruista, ma non è più disponibile (ottobre 2026). LN+ offre ora i [Watch Swaps](https://lightningnetwork.plus/watch_swaps), in cui due operatori di nodi sorvegliano ciascuno i canali dell'altro, e pubblica una [guida alle Watchtower altruiste](https://lightningnetwork.plus/posts/12).
 
 
 

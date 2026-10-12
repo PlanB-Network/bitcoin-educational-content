@@ -21,7 +21,7 @@ Ni vyiza kumenya ko ata node zose za Lightning ziboneka ku rubuga rwa Amboss.
 
 
 
-Nka [Ikibanza ca Mempool](https://Mempool.ikibanza), itanga amakuru ngirakamaro ku ruhererekane nyamukuru rw'amasezerano ya Bitcoin, kuva mu 2022 [Amboss](https://amboss.ikibanza) itanga amakuru ku :
+Nka [Ikibanza ca Mempool](https://mempool.space), itanga amakuru ngirakamaro ku ruhererekane nyamukuru rw'amasezerano ya Bitcoin, kuva mu 2022 [Amboss](https://amboss.space) itanga amakuru ku :
 
 
 

@@ -323,19 +323,19 @@ Pour ce faire, de nombreuses IA existent. On compte notamment :
 Évidemment, de nombreuses autres intelligences artificielles ont vu le jour ces derniers mois dans le domaine de la création de contenus visuels. Cette liste est donc non exhaustive.
 
 Dans le cas où l'on souhaiterait par exemple réaliser une image ou un logo futuriste du meet-up "Bitcoin Londres", on peut alors demander à l'IA "copilot" :
-- [ ] *Crée-moi un logo Bitcoin avec en arrière-plan le pont de Londres et Big Ben. Futuriste* - [Lien](https://copilot.microsoft.com/images/create/un-logo-bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *Crée-moi un logo Bitcoin avec en arrière-plan le pont de Londres et Big Ben. Futuriste*
 
 ![image](assets/fr/014.webp)
 
 Si les quatre propositions de copilot ne sont toutefois pas assez réalistes à votre goût, il vous est possible de compléter la conversation en ajoutant :
-- [ ] *Rends le 4ᵉ beaucoup plus réaliste* - [Lien](https://copilot.microsoft.com/images/create/un-logo-bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *Rends le 4ᵉ beaucoup plus réaliste*
 
 ![image](assets/fr/015.webp)
 
 Le dernier rendu est d'ailleurs plutôt sympa !
 
 Cependant, si l'on souhaite un logo plus épuré, pour un sticker par exemple, on peut alors entrer sur "copilot" :
-- [ ] *Crée-moi le logo du "Londres Bitcoin Meetup" avec un style british et épuré* - [Lien](https://copilot.microsoft.com/images/create/logo-for-27londres-bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Crée-moi le logo du "Londres Bitcoin Meetup" avec un style british et épuré*
       
 ![image](assets/fr/016.webp)
 
@@ -667,7 +667,7 @@ C'est la raison pour laquelle **il est crucial que vous preniez quelques minutes
 
 Parmi celles-ci, on note notamment :
 * **[Btcmap.org](https://btcmap.org/)**, site internet qui regroupe deux cartes mises à jour quotidiennement : **[la carte mondiale des commerces acceptant Bitcoin](https://btcmap.org/map)** et **[la carte des communautés mondiales](https://btcmap.org/communities/map)**. De nombreux bitcoiners, lors de leurs vacances ou même dans leur quotidien, scrutent régulièrement ces cartes afin de pouvoir faire de nouvelles rencontres ou de nouveaux achats. **Btcmap est clairement la référence mondiale. Et pour votre visibilité, votre communauté se doit d'y être référencée.**
-* **[BitcoinerEvents](https://www.bitcoinerevents.com/)**, site internet créé par des bitcoiners, pour les bitcoiners. Il est possible d'**y poster les prochains événements de sa communauté**. Toutefois, en France, cette plateforme est relativement peu utilisée.
+* **BitcoinerEvents**, site internet créé par des bitcoiners, pour les bitcoiners. Il est possible d'**y poster les prochains événements de sa communauté**. Toutefois, en France, cette plateforme est relativement peu utilisée. **Note (octobre 2026) :** ce site est hors ligne. [BitcoinOnly Events](https://bitcoinonly.events/) est un agenda équivalent, toujours en service.
 * en fonction des pays, il existe également des initiatives spécifiques. C'est notamment le cas, **en France, du site internet [bitcoin.fr](https://bitcoin.fr/events/categories/evenements/), qui recense chaque mois les dizaines d'événements Bitcoin dans le pays**. Si vous ne les avez donc pas encore suivis sur Twitter ou contactés pour donner les informations de votre communauté et/ou de vos événements, c'est le moment ! **Par ailleurs, dans l'optique de les aider à tenir à jour ce calendrier d'événements français, il serait appréciable que toutes les communautés Bitcoin françaises prennent l'habitude :**
     * **de mentionner @bitcoinpointfr sur Twitter à chaque nouvelle annonce d'événement de sa communauté** ;
 **d'épingler dans son groupe Telegram communautaire les annonces de nouveaux événements**.
@@ -681,7 +681,7 @@ En parallèle, **[Orangepillapp](https://www.orangepillapp.com/)** est une appli
 
 
 Bien qu'elles permettent de développer la visibilité de votre communauté et de vos événements, ces deux dernières applications ne sont pas conseillées au lancement de votre communauté, tout simplement, car elles sont payantes.
-**Débuter avec un référencement sur [btcmap.org](https://btcmap.org/), sur [BitcoinerEvents](https://www.bitcoinerevents.com/) ; et pour les communautés françaises, sur [bitcoin.fr](https://bitcoin.fr) est donc clairement suffisant**.
+**Débuter avec un référencement sur [btcmap.org](https://btcmap.org/), sur [BitcoinOnly Events](https://bitcoinonly.events/) ; et pour les communautés françaises, sur [bitcoin.fr](https://bitcoin.fr) est donc clairement suffisant**.
 
 
 Toutes nos félicitations ! Votre **communauté est désormais créée**, vos **visuels réalisés**, vos **objectifs fixés**, vos **canaux de communication établis**, vos **réseaux sociaux lancés** et votre **stratégie de visibilité décidée**.
@@ -725,7 +725,7 @@ Si vous souhaitez toutefois **anticiper certains blancs, vous pouvez prévoir di
 - l'apport d'un **Nerdminer**, Bitaxe, FPGA voire ASIC ;
 - la présence d'un **flyer Bitcoin** ;
 - la réflexion autour d'un visuel / logo Bitcoin pour votre communauté ;
-- un **[jeu de cartes Bitcoin](https://www.maximalist.ovh/accueil/20-game-le-coin-de-table.html)** ;
+- un **[jeu de cartes Bitcoin](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)** ;
 - la **[carte btcmap.org](https://btcmap.org/)** des communautés et des commerces ;
 - l'envoi / la réception de Bitcoin en **Lightning**.
 
@@ -935,7 +935,7 @@ Les seules limites sont celles de votre imagination !
 En fonction du temps que vous aurez et de l'implication de votre communauté, d'autres événements peuvent être organisés afin de rythmer l'année. Cela peut être de l'ordre :
 - d'**une soirée restaurant pour le Pizza Day**, le 22 mai ;
 - d'**une soirée ou d'un week-end pour "célébrer" le prochain halving** ;
-- d'**un événement "jeu en famille" autour de Bitcoin** et de son fonctionnement. Des jeux comme [Le Coin de Table](https://www.maximalist.ovh/) ou [SHAmory](https://shamory.com/) peuvent alors être apportés ;
+- d'**un événement "jeu en famille" autour de Bitcoin** et de son fonctionnement. Des jeux comme [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) ou [SHAmory](https://shamory.com/) peuvent alors être apportés ;
 - d'**un atelier minage**, avec la découverte de plusieurs matériels (processeur, carte graphique, FPGA, ASIC, nerdminer, bitaxe) ;
 - d'**une après-midi ou soirée spécialement pour les débutants, avec des ateliers thématiques** ;
 - voire, d'**un meet-up commun avec les meet-ups limitrophes**.

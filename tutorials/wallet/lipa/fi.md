@@ -2,7 +2,10 @@
 name: Lipa
 description: Lipa lightning -mobiililompakon käyttöönotto ja käyttö
 ---
+
 ![cover](assets/cover.webp)
+
+> **Varoitus (lokakuu 2026):** Lipa-lompakko lopetettiin 31. joulukuuta 2025, ja sen julkaisija, lightning payment services ag, on selvitystilassa. Sovellusta ei voi enää ladata, eivätkä tämän oppaan vaiheet enää toimi. Säilytämme tämän sivun viitteenä, kunnes se päivitetään.
 
 Bitcoin Lightning -lompakko on mobiilisovellus, joka mahdollistaa välittömät ja edulliset transaktiot Bitcoinin Lightning-verkossa. Toisin kuin päälohkoketjussa (on-chain) tapahtuvat maksut, Lightning-maksut ovat lähes välittömiä ja vaativat minimaaliset maksut, joten ne soveltuvat erityisen hyvin pieniin, jokapäiväisiin maksuihin.
 
@@ -31,7 +34,7 @@ Tärkeimpiä ominaisuuksia ovat:
 Ensimmäinen askel on ladata Lipa-sovellus. Tällä hetkellä se on saatavilla vain iOS-käyttöjärjestelmässä:
 
 
-- [Applen puolesta](https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
+- Applen puolesta
 
 Android-versio on parhaillaan kehitteillä, ja se on pian saatavilla.
 

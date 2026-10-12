@@ -48,7 +48,7 @@ Kui paigaldamine on lõpetatud, peate sisestama oma konto ID. Kuidas seda saada,
 ![IVPN](assets/notext/04.webp)
 ## Kuidas paigaldada IVPN nutitelefoni?
 
-Laadige IVPN alla oma rakenduste poest, olgu see siis [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) iOSi kasutajatele, [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) Androidile või [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Kui kasutate Androidi, on teil võimalus laadida `.apk` fail otse [IVPN saidilt](https://www.ivpn.net/en/apps-android/).
+Laadige IVPN alla oma rakenduste poest, olgu see siis [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) iOSi kasutajatele, [Google Play Store](https://www.ivpn.net/en/apps-android/) Androidile või [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Kui kasutate Androidi, on teil võimalus laadida `.apk` fail otse [IVPN saidilt](https://www.ivpn.net/en/apps-android/).
 ![IVPN](assets/notext/05.webp)
 Rakenduse esmakordsel kasutamisel logitakse teid välja. Peate sisestama oma konto ID, et aktiveerida teenus.
 ![IVPN](assets/notext/06.webp)

@@ -5,7 +5,7 @@ description: Breezを使えば、ビットコイン決済を簡単に行うこ�
 
 ![cover](assets/cover.webp)
 
-
+> **注意（2026年10月）：** Breezは2026年に従来のモバイルアプリ（Breez: Lightning Client & POS）をアプリストアから削除し、ユーザーのチャネルを閉鎖しました。このチュートリアルのダウンロードリンクと手順は現在機能しません。以前のユーザーは、[breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery) ツールで資金を回収できます。 このページは、更新されるまで参考として残しています。
 
 COVID-19の大流行以来、非接触型デジタル決済は小さな店舗でも広く普及している。この間、多くの企業がビットコインキャッシュ・ソリューションの実用性を知り、世界中から支払いを受けることができるようになった。しかし、これらのソリューションは時に使いにくかったり、小規模ビジネスには不向きだったりします。このチュートリアルでは、ビットコインの管理を完全にコントロールしながら、その使いやすさで際立つソリューションであるBreez決済端末を取り上げます。
 
@@ -15,7 +15,7 @@ COVID-19の大流行以来、非接触型デジタル決済は小さな店舗で
 
 
 
-Breez POSは、Breez walletが提供するセルフカストディサービスです。このサービスの有用性は、加盟店がBitcoinを経由して、様々なLightningウォレットと非常によく似たシンプルなインターフェイスのままで支払いを収集できるようにすることです。Breez POS は、[Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) および [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS) のダウンロードプラットフォームで利用可能です。
+Breez POSは、Breez walletが提供するセルフカストディサービスです。このサービスの有用性は、加盟店がBitcoinを経由して、様々なLightningウォレットと非常によく似たシンプルなインターフェイスのままで支払いを収集できるようにすることです。Breez POS は、Google Play Store (Android) および App Store (iOS) のダウンロードプラットフォームで利用可能です。
 
 
 

@@ -26,7 +26,7 @@ Kwa sasa Valet inapatikana tu kwa vifaa vya Android, na inaweza kupakuliwa na ku
 Valet inaweza kupakuliwa kama faili ya APK kutoka ukurasa wa GitHub wa Standard Sats'. [Standard Sats](https://standardsats.github.io/) ni kampuni iliyotengeneza Valet.
 
 
-👉 Ili kupakua Valet, tembelea Standard Sats [ukurasa wa GitHub](https://github.com/standardssats/valet/releases), na upate toleo la **la hivi karibuni** (Hili mara nyingi ndilo la juu zaidi).
+👉 Ili kupakua Valet, tembelea Standard Sats [ukurasa wa GitHub](https://github.com/standardsats/valet/releases), na upate toleo la **la hivi karibuni** (Hili mara nyingi ndilo la juu zaidi).
 
 
 👉 Nenda kwenye **Mali** na ubofye faili yenye kiendelezi cha **.apk** pekee. Upakuaji wako utaanza kiotomatiki.
@@ -378,7 +378,7 @@ Kufungua chaneli ya Fiat huchukua mchakato sawa na kufungua chaneli ya Lightning
 👉 Ili kufungua chaneli ya Fiat, bofya kadi ya zambarau ya **Umeme** kwenye ukurasa wako wa nyumbani wa wallet. Chagua **Changanua Nodi QR** (Katika hatua hii, lazima uwe umetambua Seva ya Mtandaoni unayotaka kufungua chaneli, na umepata QR ya nodi hiyo. Mfano wa nodi ya Seva ya Mtandaoni ambayo unaweza kufungua chaneli ya Fiat ni nodi ya SATM kwa kutumia Standard Sats.)
 
 
-**Tahadhari:** Ni muhimu kutambua kwamba mtu yeyote anaweza kuwa Mwenyeji. Unachohitaji ni kuendesha nodi ya Umeme kwa kutumia programu-jalizi ya chaneli ya **Fiat** na huduma ya **Uzio**. Chaneli za Fiat ni mradi wa chanzo huria na *Standard Sats*. Soma zaidi kuihusu [hapa](https://github.com/standardssats/fiat-channels-rfc) na [hapa](https://standardssats.github.io/).
+**Tahadhari:** Ni muhimu kutambua kwamba mtu yeyote anaweza kuwa Mwenyeji. Unachohitaji ni kuendesha nodi ya Umeme kwa kutumia programu-jalizi ya chaneli ya **Fiat** na huduma ya **Uzio**. Chaneli za Fiat ni mradi wa chanzo huria na *Standard Sats*. Soma zaidi kuihusu [hapa](https://github.com/standardsats/fiat-channels-rfc) na [hapa](https://standardsats.github.io/).
 
 
 Nambari ya SATM QR hapa chini:

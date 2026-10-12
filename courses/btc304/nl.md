@@ -48,7 +48,7 @@ Deze aanzienlijke groei is natuurlijk nauw verbonden met:
 
 
 
-- de [groeiende interesse van mensen over de hele wereld in het gebruik van Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), om zich te bevrijden van het banksysteem en/of een minder volatiele of minder gedevalueerde valuta te gebruiken, zoals het geval is voor bevolkingen in Libanon, Syrië, Egypte, Argentinië en anderen;
+- de [groeiende interesse van mensen over de hele wereld in het gebruik van Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), om zich te bevrijden van het banksysteem en/of een minder volatiele of minder gedevalueerde valuta te gebruiken, zoals het geval is voor bevolkingen in Libanon, Syrië, Egypte, Argentinië en anderen;
 - de prijsstijging in de loop van de tijd, waardoor het een waardeopslag en een langetermijnbelegging wordt, gedreven door het vaste monetaire beleid;
 - de opeenvolgende groei van de speculatieve cryptocurrency markt, vooral in 2017-2018 en 2020-2021;
 - De groeiende aanwezigheid van Bitcoin in de reguliere media.
@@ -701,7 +701,7 @@ Als je een futuristisch logo wilt ontwerpen voor een "Bitcoin Londen" meet-up, k
 
 
 
-- [*Prompt: Maak een Bitcoin logo met de London Bridge en de Big Ben op de achtergrond. Futuristisch* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [*Prompt: Maak een Bitcoin logo met de London Bridge en de Big Ben op de achtergrond. Futuristisch*
 
 
 
@@ -714,7 +714,7 @@ Als de eerste vier resultaten niet realistisch genoeg zijn, verfijn dan je verzo
 
 
 
-- [*Prompt: Maak de 4e veel realistischer* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [*Prompt: Maak de 4e veel realistischer*
 
 
 
@@ -732,7 +732,7 @@ Voor een netter uiterlijk, zoals bij een sticker:
 
 
 
-- [*Prompt: Maak het logo van de "London Bitcoin Meetup" met een Britse en strakke stijl* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [*Prompt: Maak het logo van de "London Bitcoin Meetup" met een Britse en strakke stijl*
 
 
 
@@ -1392,7 +1392,7 @@ Deze omvatten:
 
 
 - [Btcmap.org](https://btcmap.org/)**, een website met twee kaarten die dagelijks worden bijgewerkt: **[de wereldkaart van bedrijven die Bitcoin accepteren](https://btcmap.org/map)** en **[de wereldkaart van gemeenschappen](https://btcmap.org/communities/map)**. Veel bitcoiners bekijken deze kaarten regelmatig, of ze nu op reis zijn of hun dagelijks leven leiden, om nieuwe mensen te ontmoeten of plekken te vinden om hun [Sats](https://planb.academy/resources/glossary/satoshi-sat) uit te geven. Btcmap is de wereldwijde referentie en het is essentieel voor de zichtbaarheid om je gemeenschap daar te vermelden.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), een website gemaakt door bitcoiners, voor bitcoiners. **Je kunt er de komende evenementen van je gemeenschap posten**. In Frankrijk wordt het echter nog niet veel gebruikt.
+- BitcoinerEvents, een website gemaakt door bitcoiners, voor bitcoiners. **Je kunt er de komende evenementen van je gemeenschap posten**. In Frankrijk wordt het echter nog niet veel gebruikt. **Opmerking (oktober 2026):** deze website is offline. [BitcoinOnly Events](https://bitcoinonly.events/) is een vergelijkbare agenda die nog steeds in gebruik is.
 - afhankelijk van je land kunnen er andere lokale initiatieven zijn. In Frankrijk is er bijvoorbeeld [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), die **elke maand een lijst maakt van tientallen Bitcoin evenementen**. Dus als je hen nog niet volgt op Twitter of contact met hen opneemt om informatie over jouw gemeenschap en evenementen te delen, dan is het nu tijd! **Om de Franse evenementenkalender up-to-date te houden, zou het geweldig zijn als alle Franse Bitcoin gemeenschappen er een gewoonte van maken om:**
     - vermelding van @bitcoinpointfr op Twitter voor elk nieuw gemeenschapsevenement
     - nieuwe aankondigingen van evenementen vastpinnen in hun Telegram-groep.
@@ -1412,7 +1412,7 @@ Ook **[Orangepillapp](https://www.orangepillapp.com/)** is een betaalde mobiele 
 
 Hoewel deze laatste twee platforms kunnen helpen om de zichtbaarheid te vergroten, worden ze niet aanbevolen bij het lanceren van een community, simpelweg omdat ze niet gratis zijn.
 
-**Beginnen met een vermelding op [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) en voor Franse gemeenschappen, op [Bitcoin.fr](https://Bitcoin.fr) is meer dan genoeg**.
+**Beginnen met een vermelding op [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) en voor Franse gemeenschappen, op [Bitcoin.fr](https://Bitcoin.fr) is meer dan genoeg**.
 
 
 Gefeliciteerd! Je **community is gecreëerd**, je **visualisaties zijn klaar**, je **doelstellingen zijn bepaald**, je **communicatiekanalen zijn operationeel**, je **sociale netwerken zijn gelanceerd** en je **zichtbaarheidsstrategie is bepaald**.
@@ -1500,7 +1500,7 @@ Als je je wilt voorbereiden op rustigere momenten, kun je een paar activiteiten 
 - een **Nerdminer**, Bitaxe, FPGA of zelfs ASIC meenemen;
 - met een **Bitcoin flyer**;
 - brainstormen over een Bitcoin visual of logo voor jouw gemeenschap;
-- een **[Bitcoin kaartspel](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)** spelen;
+- een **[Bitcoin kaartspel](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)** spelen;
 - met de **[btcmap.org](https://btcmap.org/)** kaart van gemeenschappen en handelaren;
 - gW-116 verzenden of ontvangen met **bliksem**.
 
@@ -1871,7 +1871,7 @@ Afhankelijk van je beschikbaarheid en de mate van betrokkenheid bij je gemeensch
 
 - Een restaurantavond voor **Pizzadag** op 22 mei
 - Een avond of weekend om de volgende **Halving** te vieren
-- Een **spellenavond** voor het hele gezin over Bitcoin en hoe het werkt, met spellen als [Le Coin de Table](https://www.Maximalist.ovh/) of [SHAmory](https://shamory.com/)
+- Een **spellenavond** voor het hele gezin over Bitcoin en hoe het werkt, met spellen als [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) of [SHAmory](https://shamory.com/)
 - Een **Mining workshop** waarin verschillende soorten hardware (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe) worden gepresenteerd
 - Een **middag of avond voor beginners**, met themaworkshops
 - Een **gezamenlijke bijeenkomst met naburige gemeenschappen**
@@ -2006,7 +2006,7 @@ Je zou ook een flyer kunnen ontwerpen die specifiek is voor jouw community of me
 Verschillende flyers zijn al **beschikbaar als open-source in de [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** op planB.network en in de loop van de tijd zullen er meer worden toegevoegd.
 
 
-Een voorbeeld is een [complete flyer met bron](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) met 21 redenen om Bitcoin te gebruiken. Het ontwerp is ook [beschikbaar in open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) zodat je het kunt aanpassen en delen. Vergeet alleen niet je bronnen te vermelden.
+Een voorbeeld is een [complete flyer met bron](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) met 21 redenen om Bitcoin te gebruiken. Het ontwerp is ook [beschikbaar in open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) zodat je het kunt aanpassen en delen. Vergeet alleen niet je bronnen te vermelden.
 
 
 
@@ -2050,7 +2050,7 @@ Hoewel het verlaten van het Bitcoin witboek symbolisch is, is het vaak te ingewi
 - het Bitcoin witboek, vertaald in het Frans.
 
 
-Hier is [het boekje gedeeld onder Franse bitcoiners](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) dat in tientallen boekendozen in het hele land is geplaatst. Het ontwerp is ook [beschikbaar als open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Hier is [het boekje gedeeld onder Franse bitcoiners](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) dat in tientallen boekendozen in het hele land is geplaatst. Het ontwerp is ook [beschikbaar als open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

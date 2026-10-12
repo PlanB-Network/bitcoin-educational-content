@@ -217,7 +217,7 @@ HiddenServicePort 8333 127.0.0.1:8334
 
 
 - [토르와 Bitcoin과의 관계를 설명하는 위키 페이지](https://en.Bitcoin.it/wiki/Tor)
-- [제임슨 롭의 Bitcoin core 구성 파일 생성기](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [제임슨 롭의 Bitcoin core 구성 파일 생성기](https://jlopp.github.io/bitcoin-core-config-generator/)
 - [존 아택의 토르 설정 가이드](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 

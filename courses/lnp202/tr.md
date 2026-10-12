@@ -415,7 +415,9 @@ Bu yaklaşımın geleneksel Lightning gözetimli wallet'e kıyasla en büyük av
 
 
 
-Bu tür bir işlevsellik sunan çoğu portföy, takasın teknik kısmı için [Boltz]'e (https://boltz.exchange/) güvenmektedir.
+Bu tür bir işlevsellik sunan çoğu portföy, takasın teknik kısmı için Boltz'e güvenmektedir.
+
+> **Not (Ekim 2026):** Boltz, 3 Ağustos 2026'da tüm takasları askıya aldı ve web sitesi çevrimdışı. Boltz'a dayanan cüzdanlar bu özelliği artık sunmuyor olabilir.
 
 
 

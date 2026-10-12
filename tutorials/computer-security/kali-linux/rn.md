@@ -64,7 +64,7 @@ Ni vyiza ko ukora backup y’amakuru yawe imbere yo kuyashira kuri PC isanzweho.
 
 
 
-- Genda kuri [kali.org/kuronka-kali](www.kali.org/kuronka-kali/#ibibanza-vya-kali)
+- Genda kuri [kali.org/kuronka-kali](https://www.kali.org/get-kali/#kali-platforms)
 - Hitamwo ishusho ya ISO y'ikoreshwa ryawe:
   - Gushiramwo Ishusho** : ku gushiramwo PC.
   - Ishusho y'ukuri**: gushiramwo Kali kuri VirtualBox canke VMware.
@@ -90,7 +90,7 @@ Ushobora gukoresha ibikoresho vyinshi, nka Balena Etcher :
 
 
 
-- Gukuraho no gushiramwo [Igishushanyo ca Balena](https://igishushanyo.balena.io/).
+- Gukuraho no gushiramwo [Igishushanyo ca Balena](https://etcher.balena.io/).
 
 
 
@@ -343,7 +343,7 @@ Niba ukoresha ishusho **Live**, intambwe ikurikira ntizogaragara.
 
 
 
-Ushobora rero guhitamwo [amapaki](https://www.kali.org/docs/ikoreshwa rusangi/amapaki/) wipfuza gushiramwo. Amahitamwo y'imbere azoshiraho uburyo busanzwe bwa Kali Linux, rero ntuzokenera guhindura ikintu na kimwe.
+Ushobora rero guhitamwo [amapaki](https://www.kali.org/docs/general-use/metapackages/) wipfuza gushiramwo. Amahitamwo y'imbere azoshiraho uburyo busanzwe bwa Kali Linux, rero ntuzokenera guhindura ikintu na kimwe.
 
 
 

@@ -5,7 +5,7 @@ description: Bitcoin Wallet tối giản dành cho mọi người
 
 ![cover](assets/cover.webp)
 
-
+> **Cảnh báo (tháng 10 năm 2026):** StashPay đã ngừng hoạt động. Tác giả đã thông báo kết thúc dự án vào ngày 26 tháng 7 năm 2026 và ứng dụng đã đóng vào ngày 31 tháng 8 năm 2026; trang web không còn truy cập được ([đọc thông báo](https://blog.onionmill.com/p/sunsetting-stashpay)). Để khôi phục ví Liquid của bạn, hãy nhập cụm từ khôi phục vào Blockstream App. Chúng tôi giữ trang này để tham khảo.
 
 Trải nghiệm người dùng là yếu tố then chốt trong việc áp dụng các giải pháp Bitcoin trên toàn cầu. Việc cung cấp trải nghiệm mượt mà, đơn giản và không bị cản trở về mặt kỹ thuật là ưu tiên hàng đầu của nhiều ví điện tử và nền tảng Exchange. Về mặt này, StashPay nổi bật với phương pháp tối giản, đồng thời thể hiện sức mạnh của Lightning Network.
 
@@ -23,7 +23,7 @@ StashPay là một ví Wallet tự quản lý Lightning, được biết đến 
 
 
 
-StashPay là một dự án mã nguồn mở được phát triển trên React Native và nhằm mục đích giải quyết vấn đề phí giao dịch cao ngay cả với các giao dịch trên chuỗi chính của giao thức Bitcoin. Ứng dụng có sẵn dưới dạng ứng dụng di động trên nền tảng Android và iOS thông qua các liên kết tải xuống có trên [trang web](https://stashpay.me/).
+StashPay là một dự án mã nguồn mở được phát triển trên React Native và nhằm mục đích giải quyết vấn đề phí giao dịch cao ngay cả với các giao dịch trên chuỗi chính của giao thức Bitcoin. Ứng dụng có sẵn dưới dạng ứng dụng di động trên nền tảng Android và iOS thông qua các liên kết tải xuống có trên trang web.
 
 
 

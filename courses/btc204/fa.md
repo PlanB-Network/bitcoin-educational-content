@@ -547,7 +547,7 @@ https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e
 ![BTC204](assets/fa/031.webp)
 
 
-منبع: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
+منبع: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 خواهیم دید که آنها در فصل‌های بعدی چه هستند، اما جالب است که توجه کنیم این دو روش اکتشافی هنوز هم در تحلیل زنجیره‌ای امروز جایگاه برجسته‌ای دارند.
@@ -944,7 +944,7 @@ b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf
 ![BTC204](assets/fa/055.webp)
 
 
-منبع: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
+منبع: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 به عنوان مثال، اینجا یک Address است که در چندین تراکنش استفاده مجدد شده است:
@@ -1611,7 +1611,7 @@ bc1ps5gd2ys8kllz9alpmcwxqegn7kl3elrpnnlegwkm3xpq2h8da07spxwtf5
 ![BTC204](assets/fa/070.webp)
 
 
-منبع: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
+منبع: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 قصد Satoshi در این جمله ایجاد یک فایروال اضافی در صورت ارتباط بین هویت کاربر و یک جفت کلید در Bitcoin بود تا از ارتباط عمومی کل فعالیت او با هویتش جلوگیری کند. امروزه، با گسترش شرکت‌های تحلیل Blockchain و مقررات KYC، استفاده از آدرس‌های منحصر به فرد دیگر یک "فایروال اضافی" نیست، بلکه یک عمل ضروری برای هر کسی است که می‌خواهد حداقل حریم خصوصی را حفظ کند.
@@ -2745,7 +2745,7 @@ JoinMarket، که در سال ۲۰۱۵ توسط آدام گیبسون و کری�
 ![BTC204](assets/fa/137.webp)
 
 
-منبع: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+منبع: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 
 با این حال، مانع فنی همچنان یک مانع عمده باقی می‌ماند. در اکوسیستم CoinJoin، جایی که محرمانگی با تعداد شرکت‌کنندگان تقویت می‌شود، هر محدودیتی که دسترسی را کاهش دهد مستقیماً بر نقدینگی موجود تأثیر می‌گذارد، که یک عامل حیاتی در کارایی ترکیب است. Bitcoin، که در حال حاضر یک بخش خاص در معاملات مالی است، استفاده از کوین‌جوین‌ها را به عنوان یک زیرمجموعه می‌بیند و JoinMarket نمایانگر بخشی حتی تخصصی‌تر از آن است، که بنابراین پتانسیل آن برای افزایش ناشناس‌سازی کاربرانش را محدود می‌کند.
@@ -3625,7 +3625,7 @@ CoinJoin در حال حاضر مؤثرترین روش برای معرفی عدم
 PayJoin یک ساختار تراکنش خاص Bitcoin است که با همکاری با دریافت‌کننده پرداخت، حریم خصوصی کاربر را هنگام خرج کردن بهبود می‌بخشد.
 
 
-در سال ۲۰۱۵ بود که LaurentMT برای اولین بار این روش را تحت عنوان "*تراکنش‌های استگانوگرافیک*" مورد بحث قرار داد، طبق سندی که [اینجا](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt) در دسترس است. این تکنیک بعدها توسط Samourai Wallet پذیرفته شد که در سال ۲۰۱۸ به اولین مشتری تبدیل شد که آن را با استفاده از ابزار Stowaway پیاده‌سازی کرد. مفهوم PayJoin همچنین در [BIP79](https://github.com/Bitcoin/bips/blob/master/bip-0079.mediawiki)، [BIP78](https://github.com/Bitcoin/bips/blob/master/bip-0078.mediawiki)، و [BIP77](https://PayJoin.org/docs/how-it-works/PayJoin-v2-bip-77/) یافت می‌شود. بنابراین چندین اصطلاح برای اشاره به یک PayJoin استفاده می‌شود:
+در سال ۲۰۱۵ بود که LaurentMT برای اولین بار این روش را تحت عنوان "*تراکنش‌های استگانوگرافیک*" مورد بحث قرار داد، طبق سندی که [اینجا](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt) در دسترس است. این تکنیک بعدها توسط Samourai Wallet پذیرفته شد که در سال ۲۰۱۸ به اولین مشتری تبدیل شد که آن را با استفاده از ابزار Stowaway پیاده‌سازی کرد. مفهوم PayJoin همچنین در [BIP79](https://github.com/Bitcoin/bips/blob/master/bip-0079.mediawiki)، [BIP78](https://github.com/Bitcoin/bips/blob/master/bip-0078.mediawiki)، و [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/) یافت می‌شود. بنابراین چندین اصطلاح برای اشاره به یک PayJoin استفاده می‌شود:
 
 
 

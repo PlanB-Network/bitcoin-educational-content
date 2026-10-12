@@ -5,7 +5,7 @@ description: Satıcılar için Bitcoin ve Lightning ödeme çözümleri
 
 ![cover](assets/cover.webp)
 
-
+> **Uyarı (Ekim 2026):** Lipa for Business, Mart 2026'nın ortasında kapandı ve yayıncısı lightning payment services ag tasfiye sürecinde. Bu rehberdeki bağlantılar ve adımlar artık çalışmıyor. Bu sayfayı güncellenene kadar başvuru amacıyla saklıyoruz.
 
 Satıcılar artık Bitcoin ödemelerini Lightning Network üzerinden kabul etmeye giderek daha fazla ilgi gösteriyor. Yüksek ücretler ve uzun ödeme süreleri içeren geleneksel kredi kartı ödemelerinin aksine, Lightning işlemleri neredeyse anlıktır, ters ibrazlara tabi değildir ve müşteri gizliliğini korur.
 
@@ -267,9 +267,9 @@ Gözetim gerektirmeyen, gizlilik dostu yapısı, profesyonel yönetim araçları
 
 
 
-- [Lipa for Business resmi web sitesi](https://lipa.swiss/en/for-business)
-- [Dashboard web](https://dashboard.lipa.swiss)
-- [Lipa Support for Business](https://help.lipa.swiss/business)
-- [Lipa Genel Destek](https://help.lipa.swiss/Wallet)
+- Lipa for Business resmi web sitesi
+- Dashboard web
+- Lipa Support for Business
+- Lipa Genel Destek
 - [LinkedIn Lipa](https://www.linkedin.com/company/getlipa)
 - [Twitter @lipa_btc](https://twitter.com/lipa_btc)

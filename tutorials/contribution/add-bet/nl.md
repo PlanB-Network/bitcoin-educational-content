@@ -122,7 +122,7 @@ Je YAML-bestand zou er bijvoorbeeld zo uit kunnen zien:
 project: Plan ₿ Academy
 type: Educational Content
 links:
-download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
 view:
 - In my example, I will leave the links empty for now, as I will add my PDF directly on GitHub:
 ![event](assets/09.webp)
@@ -227,7 +227,7 @@ https://github.com/tutorial-pandul/Bitcoin-educational-content/blob/patch-1/reso
 
 ```
 
-https://github.com/DiscoverBitcoin/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 
 ```
 

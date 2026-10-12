@@ -572,8 +572,8 @@ Proton Authenticator - одно из самых комплексных и без
 
 
 
-- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Открытый исходный код
-- **Аудиты безопасности**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Отчеты независимых аудиторов
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - Открытый исходный код
+- **Аудиты безопасности**: [proton.me/community/security-audits](https://proton.me/community/open-source) - Отчеты независимых аудиторов
 
 
 

@@ -605,7 +605,7 @@ Uhejeje gusubiramwo izo ngingo zose, urashobora kugura imashini yawe wizigiye ca
 Mu gukusaniriza iyi aya mabwirizwa ngenderwako mu ryungane rimwe: **"Ntukizere, suzuma."**
 
 
-[Ushobora kandi gusaba abahinga mu bijanye no gusubira gusanura imashini za mining, nk’umufatanyabikorwa wacu 21energy. Batanga imashini za S9 zageragejwe, zasukuwe kandi zifise porogarame ya BraiiinOS+ isanzwe irimwo. Ukoresheje kode y'abafatanyabikorwa "decouvre," uzoronka igabanirizwa ry'igiciro gushika ku bice 10% ku kugura S9 mu gihe ushigikira umugambi wa Attakai.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[Ushobora kandi gusaba abahinga mu bijanye no gusubira gusanura imashini za mining, nk’umufatanyabikorwa wacu 21energy. Batanga imashini za S9 zageragejwe, zasukuwe kandi zifise porogarame ya BraiiinOS+ isanzwe irimwo. Ukoresheje kode y'abafatanyabikorwa "decouvre," uzoronka igabanirizwa ry'igiciro gushika ku bice 10% ku kugura S9 mu gihe ushigikira umugambi wa Attakai.](https://21energy.com/products/bitmain-antminer-s9)
 
 
 ## Inyigisho yo kugura ibikoresho vyo guhindura vya S9.

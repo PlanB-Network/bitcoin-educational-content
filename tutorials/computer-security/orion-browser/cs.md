@@ -643,8 +643,8 @@ Nezapomeňte, že ochrana vašeho soukromí nezávisí jen na prohlížeči. Pro
 
 
 - **Oficiální webové stránky**: [kagi.com/orion](https://kagi.com/orion/)
-- **Úplné znění často kladených otázek**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **Fórum Společenství**: [community.kagi.com](https://community.kagi.com)
+- **Úplné znění často kladených otázek**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **Fórum Společenství**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **Sledování chyb**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-source komponenty
 - **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Novinky a aktualizace

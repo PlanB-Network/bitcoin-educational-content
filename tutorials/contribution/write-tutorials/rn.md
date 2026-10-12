@@ -20,7 +20,7 @@ Ivyigwa bibiri nyamukuru vyo ku rubuga rwacu ni amashure n’inyigisho. Amashure
 Ivyigwa birareha kandi biratunganijwe neza kuruta inyigisho. Bakwiye gutohoza ingingo yihariye ijanye na Bitcoin canke ibidukikije vyayo mu buryo bwimbitse, mu buryo bubereye no mu buryo burambuye.
 
 
-[Tora amashure ya Plan ₿ Academy](https://planb.urubuga/amashure)
+[Tora amashure ya Plan ₿ Academy](https://planb.academy/courses)
 
 
 ![TUTO](assets/fr/37.webp)
@@ -29,7 +29,7 @@ Ivyigwa birareha kandi biratunganijwe neza kuruta inyigisho. Bakwiye gutohoza in
 Ivyigwa muri rusangi ni bigufi. Bigenewe kuba ubuyobozi bw’intambwe ku yindi ku buryo bwo gukora igikorwa kinaka gifitaniye isano na Bitcoin, hakaba hariho amashusho nk’infashanyo.
 
 
-[Tora inyigisho za Plan ₿ Academy](https://planb.urubuga/inyigisho)
+[Tora inyigisho za Plan ₿ Academy](https://planb.academy/tutorials)
 
 
 ![TUTO](assets/fr/38.webp)
@@ -96,7 +96,7 @@ Uko wohitamwo kwose, ndagusavye wibuke ko ibirimwo vyose vyasohowe kuri Plan ₿
 ## 2 - Baza ikipe ya Plan ₿ Academy
 
 
-Umaze guhitamwo insanganyamatsiko y’inyigisho yawe, intambwe ikurikira ni ukutumenyesha umugambi wawe wo kwongerako ibi birimwo ku rubuga. Uburyo bworoshe, nimba ufise konti ya Telegram, ni [kwinjira mu mugwi wacu](https://t.me/Umuhinguzi w'Ibirimwo).
+Umaze guhitamwo insanganyamatsiko y’inyigisho yawe, intambwe ikurikira ni ukutumenyesha umugambi wawe wo kwongerako ibi birimwo ku rubuga. Uburyo bworoshe, nimba ufise konti ya Telegram, ni [kwinjira mu mugwi wacu](https://t.me/PlanBNetwork_ContentBuilder).
 
 
 ![TUTO](assets/fr/39.webp)

@@ -60,13 +60,13 @@ Session iraboneka ku mbuga zose. Ushobora gukuraho iyo porogaramu mu bubiko bwa 
 
 
 
-- [Ikiganiro ca Google](https://igikino.google.com/ububiko/amaporogarama/ibisobanuro?id=urubuga.loki.intumwa);
-- [Iduka ry'amaporogarama](https://amaporogarama.com/us/porogarama/intumwa-y'ibanga/id1470168868);
-- [F-Droid](ku rubuga rwacu).
+- [Ikiganiro ca Google](https://play.google.com/store/apps/details?id=network.loki.messenger);
+- [Iduka ry'amaporogarama](https://apps.apple.com/us/app/session-private-messenger/id1470168868);
+- [F-Droid](https://fdroid.getsession.org/).
 
 
 
-Kuri Android, birashoboka kandi [gushiramwo biciye kuri APK](https://github.com/ishingiro-ry'ikiganiro/ibiganiro-vya-android/ibisohoka).
+Kuri Android, birashoboka kandi [gushiramwo biciye kuri APK](https://github.com/session-foundation/session-android/releases).
 
 
 
@@ -260,7 +260,7 @@ Uwo muntu akimara kwemera ivyo wasavye, uzobona izina ryiwe ry'urubuga riboneka,
 
 
 
-Kugira ngo konti yawe ihuzwe kuri mudasobwa yawe, urakeneye gushiramwo iyo porogarama. [Uyikure ku rubuga rwemewe](https://getsession.org/uyikure). Ndaguhanura ngo usuzume ukuri kwayo n’ubutungane bwayo imbere y’uko uyishiramwo.
+Kugira ngo konti yawe ihuzwe kuri mudasobwa yawe, urakeneye gushiramwo iyo porogarama. [Uyikure ku rubuga rwemewe](https://getsession.org/download). Ndaguhanura ngo usuzume ukuri kwayo n’ubutungane bwayo imbere y’uko uyishiramwo.
 
 
 

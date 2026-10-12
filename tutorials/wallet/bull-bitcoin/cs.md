@@ -106,7 +106,7 @@ Než se ponoříme hlouběji, podívejme se na úvodní obrazovku, abychom se zo
 - Přístup k `Bitcoin Bull Exchange` pro `Koupit, prodat nebo zaplatit` (závisí na jurisdikci a může vyžadovat KYC).
 - `Převod` finančních prostředků mezi peněženkami
 - `Secure Bitcoin` se rovná Onchain Bitcoin Wallet
-- `Instantní platby` přes Lightning- / Liquid Network *(Poznámka: Bull Bitcoin Wallet umožňuje provádět a přijímat platby přes Lightning. Prostředky přijaté prostřednictvím Lightning jsou uloženy v síti [*Liquid](https://liquid.net/) (v Wallet Okamžité platby) díky automatické výměně prostřednictvím [*Boltz výměna](https://boltz.exchange/). To vám dává možnost komunikovat s Lightningem bez nutnosti spravovat kanály likvidity, přičemž zůstávají ve vlastní úschově)*
+- `Instantní platby` přes Lightning- / Liquid Network *(Poznámka: Bull Bitcoin Wallet umožňuje provádět a přijímat platby přes Lightning. Prostředky přijaté prostřednictvím Lightning jsou uloženy v síti [*Liquid](https://liquid.net/) (v Wallet Okamžité platby) díky automatické výměně prostřednictvím Boltz výměna. To vám dává možnost komunikovat s Lightningem bez nutnosti spravovat kanály likvidity, přičemž zůstávají ve vlastní úschově)*
 - `Odesílání` a `Příjem` finančních prostředků
 
 
@@ -418,6 +418,8 @@ Chcete-li transakci dokončit, zadejte odesílateli `adresu` nebo `URI`. To mů�
 
 
 
+> **Poznámka (říjen 2026):** Boltz pozastavil všechny swapy 3. srpna 2026 a jeho webové stránky jsou mimo provoz. Platby Lightning v Bull Bitcoin Wallet závisejí na Boltz a nemusejí již fungovat.
+
 Zařízení Bull Bitcoin Wallet také umožňuje odesílat a přijímat platby prostřednictvím Lightning Network. Klíčovou funkcí je, že prostředky přijaté prostřednictvím Lightning jsou automaticky převáděny a ukládány na `Liquid Network` v rámci vašeho `Instant Payments Wallet`. Tuto službu zajišťuje `Boltz`. Tato konstrukce vám umožňuje využívat rychlost a nízké náklady Lightning bez složitého řízení kanálů likvidity, a to vše při zachování plné vlastní úschovy vašich prostředků. Tento hybridní přístup je sice self-custodial a vyhýbá se složitosti správy kanálů, ale zavádí službu třetí strany (Boltz), malý swapový poplatek a spoléhání se na federaci funkcionářů Liquid Network jako držitelů klíčů, což je rozdíl oproti tradičnímu, ne-custodial Lightningu wallet, kde spravujete své vlastní kanály. Více informací o Liquid a tamním modelu správy se dozvíte zde:
 
 
@@ -508,6 +510,8 @@ Můžete buď naskenovat bleskovku Address (např. `runningbitcoin@rizful.com`),
 
 *Vezměte na vědomí, že platí minimální částky a poplatky.*
 
+
+> **Poznámka (říjen 2026):** Boltz pozastavil všechny swapy 3. srpna 2026 a jeho webové stránky jsou mimo provoz. Platby Lightning v Bull Bitcoin Wallet závisejí na Boltz a nemusejí již fungovat.
 
 Bull Bitcoin Wallet odesílá bleskové platby výběrem prostředků z vašeho účtu `Instant Payments Wallet` (na Liquid) a jejich výměnou prostřednictvím `Boltz`. Tento hybridní přístup je plně samospasitelný a vyhýbá se vysokým poplatkům za správu vyhrazeného kanálu Lightning na on-chain, ale vyžaduje zaplacení poplatku za `swap`. Nejnižší náklady získáte, když budete odesílat přímo na adresu Liquid příjemce, pokud používá také Bull Bitcoin wallet.
 

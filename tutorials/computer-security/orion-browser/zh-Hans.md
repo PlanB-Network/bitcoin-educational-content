@@ -644,8 +644,8 @@ Orion 浏览器代表着 macOS 和 iOS 上的隐私保护向前迈进了一大�
 
 
 - 官方网站：[kagi.com/orion](https://kagi.com/orion/)
-- 完整的常见问题：[browser.kagi.com/faq](https://browser.kagi.com/faq)
-- 社区论坛：[community.kagi.com](https://community.kagi.com)
+- 完整的常见问题：[browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- 社区论坛：[community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **错误跟踪**：[orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**：[github.com/OrionBrowser](https://github.com/OrionBrowser) - 开放源码组件
 - 博客 **Kagi** ：[blog.kagi.com](https://blog.kagi.com) - 新闻和更新

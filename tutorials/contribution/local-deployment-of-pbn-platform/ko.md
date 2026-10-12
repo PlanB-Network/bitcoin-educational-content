@@ -38,9 +38,9 @@ description: 로컬 환경에서 Plan ₿ Network을 실행하여 Plan ₿ Netwo
 리포지토리를 로컬 머신에 복제합니다:
 
 
-git clone [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 
-[cd](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd) Bitcoin-학습 관리 시스템
+cd bitcoin-learning-management-system
 
 
 ```bash

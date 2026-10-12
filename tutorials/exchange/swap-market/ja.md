@@ -566,6 +566,8 @@ Bitcoinトランザクションが最初の確認を受け取るとすぐに、�
 
 ## SwapMarket vs Boltz：その違いは？
 
+> **注記（2026年10月）：** Boltz Exchangeは2026年8月3日にすべてのスワップを停止し、ウェブサイトもオフラインです。このプロバイダーはSwapMarketで利用できなくなっている可能性があります。
+
 
 
 ### ボルツ技術対サービス
@@ -639,7 +641,7 @@ SwapMarketは、複数のプロバイダーを単一のインターフェイス�
 
 - [SwapMarket - ウェブアプリケーション](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [技術資料](https://docs.boltz.exchange/)
+- [技術資料](https://github.com/BoltzExchange/boltz-backend)
 - [ガイドセルフホスティング](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 
@@ -649,5 +651,5 @@ SwapMarketは、複数のプロバイダーを単一のインターフェイス�
 
 
 
-- [ボルツ Exchange](https://boltz.exchange) - オリジナル・アトミックスワップサービス
+- ボルツ Exchange - オリジナル・アトミックスワップサービス
 - [ZEUS Swaps](https://zeusln.com) - ライトニング・スワップ・プロバイダー

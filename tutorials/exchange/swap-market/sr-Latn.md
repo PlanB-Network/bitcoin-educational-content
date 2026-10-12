@@ -566,6 +566,8 @@ Vaši Lightning satoshi su odmah dostupni u vašem wallet.
 
 ## SwapMarket vs Boltz: Koja je razlika?
 
+> **Napomena (oktobar 2026):** Boltz Exchange je obustavio sve zamene 3. avgusta 2026, a njegov sajt je van mreže. Ovaj provajder možda više nije dostupan na SwapMarket-u.
+
 
 
 ### Boltz: Tehnologija vs. Usluga
@@ -639,7 +641,7 @@ Konkurencija između provajdera poboljšava stope i umnožava izvore likvidnosti
 
 - [SwapMarket - Web aplikacija](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Tehnička dokumentacija](https://docs.boltz.exchange/)
+- [Tehnička dokumentacija](https://github.com/BoltzExchange/boltz-backend)
 - [Vodič za samostalno hostovanje](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 
@@ -649,5 +651,5 @@ Konkurencija između provajdera poboljšava stope i umnožava izvore likvidnosti
 
 
 
-- [Boltz Exchange](https://boltz.exchange) - Originalna usluga atomskih zamena
+- Boltz Exchange - Originalna usluga atomskih zamena
 - [ZEUS Swaps](https://zeusln.com) - Provajder Lightning zamena

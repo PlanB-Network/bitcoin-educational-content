@@ -48,7 +48,7 @@ Bu kayda değer büyüme elbette ki aşağıdakilerle yakından bağlantılıdı
 
 
 
-- lübnan, Suriye, Mısır, Arjantin ve diğer ülkelerdeki halklarda olduğu gibi, bankacılık sisteminden kurtulmak ve/veya daha az değişken veya daha az devalüe edilmiş bir para birimi kullanmak için [dünyanın dört bir yanındaki insanların Bitcoin kullanmaya artan ilgisi](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin);
+- lübnan, Suriye, Mısır, Arjantin ve diğer ülkelerdeki halklarda olduğu gibi, bankacılık sisteminden kurtulmak ve/veya daha az değişken veya daha az devalüe edilmiş bir para birimi kullanmak için [dünyanın dört bir yanındaki insanların Bitcoin kullanmaya artan ilgisi](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin);
 - zaman içinde fiyatının değer kazanması, sabit para politikası sayesinde bir değer saklama aracı ve uzun vadeli bir yatırım olarak kabul görmesi;
 - spekülatif kripto para piyasasının özellikle 2017-2018 ve 2020-2021 döneminde art arda büyümesi;
 - Bitcoin'in ana akım medyadaki artan varlığı.
@@ -701,7 +701,7 @@ Son zamanlarda başka birçok yapay zeka aracı ortaya çıkmıştır, bu nedenl
 
 
 
-- [ ] *İstek: Arka planda Londra Köprüsü ve Big Ben ile bir Bitcoin logosu oluşturun. Fütüristik* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *İstek: Arka planda Londra Köprüsü ve Big Ben ile bir Bitcoin logosu oluşturun. Fütüristik*
 
 
 
@@ -714,7 +714,7 @@ Son zamanlarda başka birçok yapay zeka aracı ortaya çıkmıştır, bu nedenl
 
 
 
-- [ ] *İstek: Dördüncüyü çok daha gerçekçi yapın* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *İstek: Dördüncüyü çok daha gerçekçi yapın*
 
 
 
@@ -732,7 +732,7 @@ Daha temiz bir görünüm için, bir çıkartma gibi:
 
 
 
-- [ ] *İstek: İngiliz ve temiz bir stille "Londra Bitcoin Buluşması" logosunu oluşturun* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *İstek: İngiliz ve temiz bir stille "Londra Bitcoin Buluşması" logosunu oluşturun*
 
 
 
@@ -1392,7 +1392,7 @@ Bunlar şunları içerir:
 
 
 - [Btcmap.org](https://btcmap.org/)**, günlük olarak güncellenen iki haritaya sahip bir web sitesi: **[Bitcoin kabul eden işletmelerin dünya haritası](https://btcmap.org/map)** ve **[dünya toplulukları haritası](https://btcmap.org/communities/map)**. Birçok bitcoin kullanıcısı, seyahat ederken ya da günlük hayatlarına devam ederken, yeni insanlarla tanışmak ya da [Sats](https://planb.academy/resources/glossary/satoshi-sat)'lerini harcayacak yerler bulmak için bu haritaları düzenli olarak kontrol etmektedir. Btcmap küresel bir referanstır ve topluluğunuzu burada listelemek görünürlük için çok önemlidir.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), bitcoinciler tarafından bitcoinciler için oluşturulmuş bir web sitesi. **Topluluğunuzun yaklaşan etkinliklerini yayınlamanızı sağlar**. Ancak Fransa'da hala yaygın olarak kullanılmıyor.
+- BitcoinerEvents, bitcoinciler tarafından bitcoinciler için oluşturulmuş bir web sitesi. **Topluluğunuzun yaklaşan etkinliklerini yayınlamanızı sağlar**. Ancak Fransa'da hala yaygın olarak kullanılmıyor. **Not (Ekim 2026):** bu site artık erişilebilir değil. [BitcoinOnly Events](https://bitcoinonly.events/), hâlâ hizmet veren benzer bir etkinlik takvimidir.
 - ülkenize bağlı olarak, başka yerel girişimler de olabilir. Örneğin Fransa'da, her ay düzinelerce Bitcoin etkinliğini listeleyen [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/) var. Henüz onları Twitter'da takip etmediyseniz veya topluluğunuz ve etkinlikleriniz hakkında bilgi paylaşmak için onlarla iletişime geçmediyseniz, şimdi tam zamanı! **Fransız etkinlik takviminin güncel tutulmasına yardımcı olmak için, tüm Fransız Bitcoin topluluklarının aşağıdakileri alışkanlık haline getirmesi harika olacaktır:**
     - her yeni topluluk etkinliği için Twitter'da @bitcoinpointfr'den bahsetmek
     - telegram gruplarında yeni etkinlik duyurularını sabitlemek.
@@ -1412,7 +1412,7 @@ Benzer şekilde, **[Orangepillapp](https://www.orangepillapp.com/)** bitcoin kul
 
 Bu son iki platform görünürlüğü artırmaya yardımcı olsa da, ücretsiz olmadıkları için bir topluluk başlatırken önerilmezler.
 
-**btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) ve Fransız toplulukları için [Bitcoin.fr](https://Bitcoin.fr) adreslerinde bir listeleme ile başlamak fazlasıyla yeterlidir**.
+**btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) ve Fransız toplulukları için [Bitcoin.fr](https://Bitcoin.fr) adreslerinde bir listeleme ile başlamak fazlasıyla yeterlidir**.
 
 
 Tebrikler! Topluluğunuz oluşturuldu, **görselleriniz hazır**, **hedefleriniz belirlendi**, **iletişim kanallarınız yerinde**, **sosyal ağlarınız başlatıldı** ve **görünürlük stratejinize karar verildi**.
@@ -1500,7 +1500,7 @@ Daha sessiz anlara hazırlanmak istiyorsanız, birkaç etkinlik veya konuşma no
 - bir **Nerdminer**, Bitaxe, FPGA veya hatta ASIC getirmek;
 - bir **Bitcoin el ilanı** var;
 - topluluğunuz için bir Bitcoin görseli veya logosu üzerinde beyin fırtınası yapmak;
-- bir **[Bitcoin kart oyunu](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)** oynamak;
+- bir **[Bitcoin kart oyunu](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)** oynamak;
 - toplulukların ve tüccarların **[btcmap.org](https://btcmap.org/)** haritasını göstermektedir;
 - **lightning** kullanarak Bitcoin göndermek veya almak.
 
@@ -1871,7 +1871,7 @@ Uygunluğunuza ve toplumunuzdaki katılım düzeyine bağlı olarak, yıl boyunc
 
 - **Pizza Günü** için 22 Mayıs'ta bir restoran gecesi
 - Bir sonraki **Halving**'i kutlamak için bir akşam veya hafta sonu
-- Bitcoin ve nasıl çalıştığı hakkında [Le Coin de Table](https://www.Maximalist.ovh/) veya [SHAmory](https://shamory.com/) gibi oyunları kullanarak bir aile **oyun gecesi**
+- Bitcoin ve nasıl çalıştığı hakkında [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) veya [SHAmory](https://shamory.com/) gibi oyunları kullanarak bir aile **oyun gecesi**
 - Farklı donanım türlerini (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe) sunan bir **Mining atölye çalışması**
 - Temalı atölye çalışmaları ile yeni başlayanlar için bir **öğleden sonra veya akşam**
 - Komşu topluluklarla bir **ortak buluşma**
@@ -2006,7 +2006,7 @@ Ayrıca topluluğunuza veya buluşmanıza özel olarak faaliyetlerinizi, hedefle
 Birkaç broşür halihazırda **planB.network'teki [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)**'da açık kaynak olarak mevcuttur ve zaman içinde daha fazlası eklenecektir.
 
 
-Bir örnek, Bitcoin'yi kullanmak için 21 neden içeren [tam kaynaklı bir broşür](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin). Tasarımı da değiştirmeniz, uyarlamanız ve paylaşmanız için [açık kaynak olarak mevcuttur](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton). Sadece kaynaklarınızı belirtmeyi unutmayın.
+Bir örnek, Bitcoin'yi kullanmak için 21 neden içeren [tam kaynaklı bir broşür](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin). Tasarımı da değiştirmeniz, uyarlamanız ve paylaşmanız için [açık kaynak olarak mevcuttur](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton). Sadece kaynaklarınızı belirtmeyi unutmayın.
 
 
 
@@ -2050,7 +2050,7 @@ Bitcoin beyaz kağıdını bırakmak sembolik olsa da, yeni gelenlerin anlaması
 - fransızca'ya çevrilmiş Bitcoin beyaz kitabı.
 
 
-İşte [Fransız bitcoinciler arasında paylaşılan kitapçık](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle), ülke çapında düzinelerce kitap kutusuna yerleştirildi. Tasarımı da [açık kaynak olarak mevcut](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+İşte [Fransız bitcoinciler arasında paylaşılan kitapçık](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle), ülke çapında düzinelerce kitap kutusuna yerleştirildi. Tasarımı da [açık kaynak olarak mevcut](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

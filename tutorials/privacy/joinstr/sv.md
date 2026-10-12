@@ -293,7 +293,6 @@ Använd ett offentligt bokmärke som :
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bokmärke257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -650,7 +649,7 @@ Mot bakgrund av den ökande finansiella granskningen blir decentraliserade verkt
 
 
 
-- [Joinstr officiella webbplats](https://joinstr.xyz)
+- [Joinstr officiella webbplats](https://docs.joinstr.xyz/)
 - [Användardokumentation](https://docs.joinstr.xyz/users/using-joinstr)
 - [Teknisk dokumentation](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab källkod](https://gitlab.com/invincible-privacy/joinstr)
@@ -682,6 +681,5 @@ Mot bakgrund av den ökande finansiella granskningen blir decentraliserade verkt
 
 
 
-- [Bokmärke Faucet](https://signetfaucet.com) - Gratis test Bitcoins
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet alternativ
 - [Mempool.space](https://mempool.space) - Block explorer med integritetsanalys

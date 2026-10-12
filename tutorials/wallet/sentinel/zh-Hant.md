@@ -54,7 +54,7 @@ Sentinel 的獨特缺點在於該應用程式僅適用於 Android，且不支援
 對於想要追蹤多重簽章 Wallet 的人來說，Blue Wallet 是我所知道的唯一一款為這類型錢包提供只看不動模式的應用程式，而且 Android 和 iOS 都可以使用。
 
 
-對於尋找 Sentinel 替代方案的 iOS 使用者而言，[Green Wallet](https://blockstream.com/Green/)或 [Blue Wallet](https://bluewallet.io/watch-only/)可能是不錯的選擇，儘管它們的手錶專用功能不如 Sentinel 全面。
+對於尋找 Sentinel 替代方案的 iOS 使用者而言，[Green Wallet](https://blockstream.com/green/)或 [Blue Wallet](https://bluewallet.io/watch-only/)可能是不錯的選擇，儘管它們的手錶專用功能不如 Sentinel 全面。
 
 ![watch-only](assets/notext/2.webp)
 

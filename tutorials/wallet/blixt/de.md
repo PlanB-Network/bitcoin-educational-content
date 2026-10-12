@@ -11,7 +11,7 @@ Dieser Leitfaden ist all jenen neuen Nutzern gewidmet, die Bitcoin Lightning Net
 Mit [Blixt Wallet](https://blixtwallet.com/), einem vollständigen LN-Knoten auf Ihrem Handy, wo immer Sie sind.
 
 
-Wenn Sie Bitcoin Lightning Network noch nie benutzt haben, lesen Sie bitte zunächst diese einfache Erklärung über Lightning Network (LN) (https://darth-coin.github.io/beginner/LN-airport-analogy-en.html).
+Wenn Sie Bitcoin Lightning Network noch nie benutzt haben, lesen Sie bitte zunächst diese einfache Erklärung über Lightning Network (LN) (https://darth-coin.github.io/beginner/ln-airport-analogy-en.html).
 
 
 ## WICHTIGE ASPEKTE:
@@ -22,11 +22,11 @@ Wenn Sie Bitcoin Lightning Network noch nie benutzt haben, lesen Sie bitte zunä
 
 
 
-- Blixt verwendet LND (aezeed) als Wallet-Backend, versuchen Sie also nicht, andere Arten von Bitcoin-Geldbörsen in es zu importieren. [Hier haben Sie die Arten von Wallet Mnemonic Samen erklärt](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Und hier ist [eine ausführlichere Liste aller Arten von Geldbörsen](https://walletsrecovery.org/). Wenn du also vorher einen LND-Knoten hattest, kannst du die seed- und die backup.channels in Blixt importieren, [wie es in diesem Leitfaden erklärt wird](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
+- Blixt verwendet LND (aezeed) als Wallet-Backend, versuchen Sie also nicht, andere Arten von Bitcoin-Geldbörsen in es zu importieren. [Hier haben Sie die Arten von Wallet Mnemonic Samen erklärt](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Und hier ist [eine ausführlichere Liste aller Arten von Geldbörsen](https://walletsrecovery.org/). Wenn du also vorher einen LND-Knoten hattest, kannst du die seed- und die backup.channels in Blixt importieren, [wie es in diesem Leitfaden erklärt wird](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html).
 
 
 
-- Am Ende dieses Leitfadens finden Sie einen speziellen Abschnitt mit ["Tipps und Tricks"](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
+- Am Ende dieses Leitfadens finden Sie einen speziellen Abschnitt mit ["Tipps und Tricks"](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#tips)
 
 
 
@@ -65,7 +65,7 @@ In der rechten oberen Ecke sehen Sie 3 Punkte, die ein Menü mit aktivieren:
 
 - "enable Tor" - Nutzer können mit dem Tor-Netzwerk starten, insbesondere wenn sie einen alten LND-Knoten wiederherstellen wollen, der nur mit Tor-Peers lief.
 - "Bitcoin-Knoten einstellen" - wenn der Benutzer sich direkt mit seinem eigenen Knoten verbinden möchte, um die Blöcke über Neutrino zu synchronisieren, kann er dies direkt auf dem Willkommensbildschirm tun. Diese Option ist auch gut für den Fall, dass Ihre Internetverbindung oder Tor nicht so stabil ist, um sich mit dem Standard-Bitcoin-Knoten (node.blixtwallet.com) zu verbinden.
-- Bald wird die Sprache dort hinzugefügt, so dass der Benutzer direkt mit einer Sprache beginnen kann, die ihm angenehm ist. Wenn Sie zu diesem Open-Source-Projekt mit Übersetzungen in anderen Sprachen beitragen möchten, [bitte hier](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
+- Bald wird die Sprache dort hinzugefügt, so dass der Benutzer direkt mit einer Sprache beginnen kann, die ihm angenehm ist. Wenn Sie zu diesem Open-Source-Projekt mit Übersetzungen in anderen Sprachen beitragen möchten, [bitte hier](https://explore.transifex.com/blixt-wallet/blixt-wallet/).
 
 
 ### OPTION A - Neue Wallet erstellen
@@ -241,7 +241,7 @@ GLÜCKLICHE Bitcoin BLITZ!
 Erinnern Sie sich, im ersten Kapitel "Erster Kontakt" gab es 2 Optionen auf dem Willkommensbildschirm:
 
 
-- [Option A](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - Neues Wallet erstellen
+- [Option A](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#option-a) - Neues Wallet erstellen
 - Option B - Wiederherstellung von Wallet
 
 
@@ -251,7 +251,7 @@ Lassen Sie uns nun besprechen, wie man einen abgestürzten Blixt Wallet oder ein
 ### OPTION B - Wiederherstellung von Wallet
 
 
-In der Vergangenheit habe ich eine spezielle Anleitung über [wie man einen abgestürzten Umbrel-Knoten wiederherstellt](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html) geschrieben, in der ich auch die Methode der Verwendung von Blixt als Schnellwiederherstellungsprozess unter Verwendung der seed + channel.backup-Datei von Umbrel erwähnt habe.
+In der Vergangenheit habe ich eine spezielle Anleitung über [wie man einen abgestürzten Umbrel-Knoten wiederherstellt](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html) geschrieben, in der ich auch die Methode der Verwendung von Blixt als Schnellwiederherstellungsprozess unter Verwendung der seed + channel.backup-Datei von Umbrel erwähnt habe.
 
 
 Ich habe auch eine Anleitung geschrieben, wie du deinen Blixt-Knoten wiederherstellen oder dein Blixt auf ein anderes Gerät migrieren kannst, [hier](https://blixtwallet.github.io/faq#blixt-restore).
@@ -663,7 +663,7 @@ In der Zwischenzeit finden Sie hier alle Links zu diesem erstaunlichen Bitcoin L
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Blixt Girls Calendar](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - Promo-Video (Sie können Ihre 1. Verwendung von LN testen)
 - [Druckbarer A4-Flyer mit ersten Schritten mit Blixt, in verschiedenen Sprachen](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt bietet auch eine voll funktionsfähige Demoversion (https://blixt-Wallet-git-master-hsjoberg.vercel.app/) direkt auf der Website oder auf einer speziellen Webversion an, mit der Sie alle Funktionen testen können, bevor Sie sie in der realen Welt einsetzen.
+- [Blixt bietet auch eine voll funktionsfähige Demoversion (https://blixtwallet.github.io/) direkt auf der Website oder auf einer speziellen Webversion an, mit der Sie alle Funktionen testen können, bevor Sie sie in der realen Welt einsetzen.
 
 
 ---

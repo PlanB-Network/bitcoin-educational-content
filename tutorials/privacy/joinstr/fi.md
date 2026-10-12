@@ -293,7 +293,6 @@ Käytä julkista kirjanmerkkiä, kuten :
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -650,7 +649,7 @@ Taloudellisen valvonnan lisääntyessä hajautetuista työkaluista yksityisyyden
 
 
 
-- [Joinstrin virallinen verkkosivusto](https://joinstr.xyz)
+- [Joinstrin virallinen verkkosivusto](https://docs.joinstr.xyz/)
 - [Käyttäjän asiakirjat](https://docs.joinstr.xyz/users/using-joinstr)
 - [Tekninen dokumentaatio](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLabin lähdekoodi](https://gitlab.com/invincible-privacy/joinstr)
@@ -682,6 +681,5 @@ Taloudellisen valvonnan lisääntyessä hajautetuista työkaluista yksityisyyden
 
 
 
-- [Kirjanmerkki Faucet](https://signetfaucet.com) - Ilmainen testi Bitcoins
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet vaihtoehtoinen vaihtoehto
 - [Mempool.space](https://mempool.space) - Block explorer ja yksityisyyden suojaa koskeva analyysi

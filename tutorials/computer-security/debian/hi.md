@@ -77,9 +77,9 @@ description: एक लिनक्स वितरण जो अपनी स�
 
 
 
-- **AMD64**: [डाउनलोड] सूची (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/) से "लाइव हाइब्रिड" संस्करण डाउनलोड करें।
-- **ARM64**: आधिकारिक [Debian] वेबसाइट (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/) से DVD छवि प्राप्त करें।
-- **अन्य आर्किटेक्चर**: अपने आर्किटेक्चर के अनुरूप ISO [यहां](https://debian.obspm.fr/debian-cd/12.11.0/) ढूंढें।
+- **AMD64**: [डाउनलोड] सूची (https://debian.obspm.fr/debian-cd/current-live/amd64/iso-hybrid/) से "लाइव हाइब्रिड" संस्करण डाउनलोड करें।
+- **ARM64**: आधिकारिक [Debian] वेबसाइट (https://debian.obspm.fr/debian-cd/current/arm64/iso-dvd/) से DVD छवि प्राप्त करें।
+- **अन्य आर्किटेक्चर**: अपने आर्किटेक्चर के अनुरूप ISO [यहां](https://debian.obspm.fr/debian-cd/current/) ढूंढें।
 
 
 

@@ -43,7 +43,7 @@ Sahihi ya GPG inatolewa kwa kutumia programu huria iitwayo GNU Privacy Guard. Pr
 Kwa upande mwingine, ikiwa mtu anataka kuthibitisha uhalisi wa faili iliyotiwa sahihi, anaweza kutumia GPG kuleta ufunguo wa umma wa mtoaji na kuuthibitisha.
 
 
-Kwa wale ambao wana hamu ya kujua na wanataka kujifunza zaidi kuhusu programu hii nzuri, unaweza kurejelea ["Mwongozo wa Faragha wa GNU"](https://www.gnupg.org/gph/en/manual/x135.html)
+Kwa wale ambao wana hamu ya kujua na wanataka kujifunza zaidi kuhusu programu hii nzuri, unaweza kurejelea ["Mwongozo wa Faragha wa GNU"](https://www.gnupg.org/gph/en/manual.html#AEN136)
 
 
 ### Je, kuweka muhuri kwa wakati hufanyaje kazi?

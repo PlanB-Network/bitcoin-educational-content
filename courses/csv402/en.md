@@ -2330,7 +2330,7 @@ Of course, depending on the date on which you consult this course, these interfa
 
 #### Interface example
 
-This Rust code snippet shows a [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) Interface (fungible asset). This code is taken from the `rgb20.rs` file in the standard RGB library. Let's take a look at it to understand the structure of an Interface and how it provides a bridge between, on the one hand, the business logic (defined in the Schema) and, on the other, the functionalities exposed to wallets and users.
+This Rust code snippet shows a [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) Interface (fungible asset). This code is taken from the `rgb20.rs` file in the standard RGB library. Let's take a look at it to understand the structure of an Interface and how it provides a bridge between, on the one hand, the business logic (defined in the Schema) and, on the other, the functionalities exposed to wallets and users.
 
 ```rust
 // ...

@@ -57,7 +57,7 @@ Gdy Jade pojawi się w Green, zaktualizuj Jade, klikając Sprawdź aktualizacje 
 Po zaktualizowaniu oprogramowania sprzętowego Jade wybierz opcję Konfiguracja Jade w sieci i zasady bezpieczeństwa, których chcesz używać.
 
 
-**Wskazówka:** Polityka bezpieczeństwa jest wymieniona w sekcji Typ na ekranie logowania pokazanym poniżej. Jeśli nie masz pewności, czy wybrać Singlesig czy Multisig Shield, zapoznaj się z naszym przewodnikiem [tutaj](https://help.blockstream.com/hc/en-us/articles/4403642609433)
+**Wskazówka:** Polityka bezpieczeństwa jest wymieniona w sekcji Typ na ekranie logowania pokazanym poniżej. Jeśli nie masz pewności, czy wybrać Singlesig czy Multisig Shield, zapoznaj się z naszym przewodnikiem [tutaj](https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 
 ![image](assets/3.webp)
@@ -287,7 +287,7 @@ Pomyślnie skonfigurowałeś Wallet i możesz rozpocząć odbieranie, przechowyw
 ![image](assets/22.webp)
 
 
-źródło: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+źródło: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 
 ### Aplikacja Green

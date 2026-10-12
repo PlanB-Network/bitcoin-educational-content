@@ -20,7 +20,7 @@ BitAxel on mitu versiooni, erinevate kiipide ja jõudlusega:
 
 Selles juhendis kasutame BitAxe Ultra 204, mis on varustatud BM1366 kiibiga, mida kasutatakse Antminer S19XP jaoks. See on juba kokku pandud ja jaemüüja poolt välklambiga varustatud.
 
-[Edasimüüjate loend on saadaval sellel lehel](https://bitaxe.org/legit.html)
+[Edasimüüjate loend on saadaval sellel lehel](https://www.bitaxe.org/buy)
 
 ![signup](assets/2.webp)
 

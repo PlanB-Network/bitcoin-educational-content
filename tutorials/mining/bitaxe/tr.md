@@ -27,7 +27,7 @@ BitAxe'in farklı çiplere ve performanslara sahip çeşitli sürümleri vardır
 Bu eğitimde, Antminer S19XP için kullanılan BM1366 çip ile donatılmış bir BitAxe Ultra 204 kullanacağız. Bu cihaz perakendeci tarafından monte edilmiş ve flaşlanmıştır.
 
 
-[Bayilerin listesi bu sayfada mevcuttur](https://bitaxe.org/legit.html)
+[Bayilerin listesi bu sayfada mevcuttur](https://www.bitaxe.org/buy)
 
 
 ![signup](assets/2.webp)

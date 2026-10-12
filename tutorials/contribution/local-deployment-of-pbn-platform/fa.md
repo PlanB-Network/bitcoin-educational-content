@@ -38,9 +38,9 @@ description: چگونه می‌توان Plan ₿ Academy را در یک محیط
 مخزن را به دستگاه محلی خود کلون کنید:
 
 
-git clone [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 
-[cd](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd) Bitcoin-learning-management-system
+cd bitcoin-learning-management-system
 
 
 ```bash

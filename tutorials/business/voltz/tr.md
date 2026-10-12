@@ -19,7 +19,7 @@ Voltz, günlük olarak göndermenize, almanıza ve ödemenize olanak tanıyan bi
 
 
 
-Voltz] platformuna (https://www.lnvoltz.xyz/en) gidin ve "Şimdi dene" düğmesine tıklayarak bir hesap oluşturun.
+Voltz] platformuna (https://lnbits.lnvoltz.com/) gidin ve "Şimdi dene" düğmesine tıklayarak bir hesap oluşturun.
 
 
 

@@ -113,7 +113,7 @@ Njia inayopendekezwa ni kuongeza hazina ya Dana Wallet iliyojitolea ya F-Droid. 
 
 
 
-Fungua programu ya F-Droid kwenye kifaa chako cha Android, kisha ufikie Mipangilio kupitia ikoni iliyo chini kulia. Chagua "Hazina" ili kudhibiti vyanzo vya programu. Bonyeza kitufe cha "+" ili kuongeza hazina mpya, kisha uchanganua msimbo wa QR au ubandike kiungo cha `https://fdroid.silentpayments.dev/fdroid/repo`. Mara tu hazina imeongezwa, utaona matoleo matatu ya Dana Wallet yanapatikana. Chagua "Dana Wallet - Alamisho" na ubofye "Sakinisha".
+Fungua programu ya F-Droid kwenye kifaa chako cha Android, kisha ufikie Mipangilio kupitia ikoni iliyo chini kulia. Chagua "Hazina" ili kudhibiti vyanzo vya programu. Bonyeza kitufe cha "+" ili kuongeza hazina mpya, kisha uchanganua msimbo wa QR au ubandike kiungo cha `https://fdroid.danawallet.app/fdroid/repo`. Mara tu hazina imeongezwa, utaona matoleo matatu ya Dana Wallet yanapatikana. Chagua "Dana Wallet - Alamisho" na ubofye "Sakinisha".
 
 
 
@@ -409,7 +409,7 @@ Silent Payments zinawakilisha hatua muhimu ya kusonga mbele katika kupatanisha u
 
 
 - Dana Wallet GitHub hazina: https://github.com/cygnet3/danawallet
-- Amana ya F-Cold: https://fdroid.silentpayments.dev
+- Amana ya F-Cold: https://fdroid.danawallet.app/fdroid/repo/
 - Tovuti ya jumuiya ya Silent Payments: https://silentpayments.xyz
 - Specification za BIP-352: https://bips.dev/352
 

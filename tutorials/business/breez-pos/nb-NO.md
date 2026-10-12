@@ -5,7 +5,7 @@ description: Breez gjør det enkelt å samle inn bitcoin-betalinger for bedrifte
 
 ![cover](assets/cover.webp)
 
-
+> **Advarsel (oktober 2026):** Breez fjernet sin opprinnelige mobilapp (Breez: Lightning Client & POS) fra appbutikkene i 2026 og stengte brukernes kanaler. Nedlastingslenkene og trinnene i denne veiledningen fungerer ikke lenger. Tidligere brukere kan hente ut midlene sine med verktøyet [breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery). Vi beholder denne siden som referanse til den blir oppdatert.
 
 Siden covid-19-pandemien har kontaktløse digitale betalinger blitt utbredt, selv i de minste butikkene. I løpet av denne perioden har mange bedrifter oppdaget det praktiske med bitcoin cash-løsninger, som gjør det mulig å motta betalinger fra hele verden. Disse løsningene er imidlertid noen ganger vanskelige å bruke eller uegnet for små bedrifter. I denne veiledningen tar vi en titt på betalingsterminalen Breez, en løsning som skiller seg ut ved at den er enkel å bruke, samtidig som den gir deg full kontroll over forvaltningen av bitcoinsene dine.
 
@@ -15,7 +15,7 @@ Siden covid-19-pandemien har kontaktløse digitale betalinger blitt utbredt, sel
 
 
 
-Breez POS er en selvforvaringstjeneste som leveres av Breez wallet. Formålet med denne tjenesten er å gjøre det mulig for kjøpmenn å samle inn betalinger via Bitcoin, samtidig som de forblir i et enkelt grensesnitt, veldig likt de ulike Lightning-lommebøkene. Breez POS er tilgjengelig på nedlastingsplattformene [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) og [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS).
+Breez POS er en selvforvaringstjeneste som leveres av Breez wallet. Formålet med denne tjenesten er å gjøre det mulig for kjøpmenn å samle inn betalinger via Bitcoin, samtidig som de forblir i et enkelt grensesnitt, veldig likt de ulike Lightning-lommebøkene. Breez POS er tilgjengelig på nedlastingsplattformene Google Play Store (Android) og App Store (iOS).
 
 
 

@@ -10,7 +10,7 @@ Un sistema operativo portatile e amnesico che ti protegge dalla sorveglianza e d
 
 ## Perché avere una chiavetta USB con Tails installato?
 
-Tails (https://tails.boum.org/) è il modo più semplice per avere sempre a disposizione un computer sicuro che non lascerà tracce sul computer con cui lo utilizzerai.
+Tails (https://tails.net/) è il modo più semplice per avere sempre a disposizione un computer sicuro che non lascerà tracce sul computer con cui lo utilizzerai.
 
 Per utilizzare Tails, spegni il computer a tua disposizione (a casa dei tuoi genitori, dai tuoi amici, in un internet café...) e avvialo dalla tua chiavetta USB Tails al posto di Windows, macOS o Linux.
 
@@ -56,7 +56,7 @@ Per motivi di esperienza pratica, questi consigli saranno incentrati sulle piatt
 
 ![immagine](assets/1.webp)
 
-🔗 Sezione ufficiale di Tails: https://tails.boum.org/install/linux/index.it.html#download
+🔗 Sezione ufficiale di Tails: https://tails.net/install/linux/index.it.html#download
 
 Il download del file di installazione con estensione .img potrebbe richiedere del tempo a seconda della velocità di download della tua connessione Internet, quindi assicurati di farlo in anticipo. Con una linea moderna e performante, ci vorranno meno di 5 minuti.
 
@@ -67,7 +67,7 @@ Salva il file in una cartella conosciuta, come "Download", perché sarà necessa
 
 ![immagine](assets/2.webp)
 
-🔗 Sezione ufficiale di Tails: https://tails.boum.org/install/linux/index.it.html#verify
+🔗 Sezione ufficiale di Tails: https://tails.net/install/linux/index.it.html#verify
 
 La verifica del download ti permette di assicurarti che il file sia stato emesso dagli sviluppatori di Tails e che non sia stato corrotto o intercettato durante il download.
 
@@ -81,8 +81,8 @@ Per verificare il file, utilizza il pulsante "Seleziona il tuo download..." offe
 ![immagine](assets/3.webp)
 
 🔗 Sezione ufficiale di Tails:
-- Linux: https://tails.boum.org/install/linux/index.it.html#install
-- macOS: https://tails.boum.org/install/mac/index.it.html#etcher e https://tails.boum.org/install/mac/index.it.html#install
+- Linux: https://tails.net/install/linux/index.it.html#install
+- macOS: https://tails.net/install/mac/index.it.html#etcher e https://tails.net/install/mac/index.it.html#install
 
 Questo passaggio di installazione di Tails sulla tua chiavetta USB è il più difficile di tutta la guida, soprattutto se non l'hai mai fatto prima. Il punto più importante è scegliere correttamente la procedura nella sezione ufficiale per il tuo sistema operativo: Linux o macOS.
 
@@ -95,7 +95,7 @@ Buona fortuna! Ci vediamo al passaggio 4.
 
 ![immagine](assets/4.webp)
 
-🔗 Sezione ufficiale di Tails: https://tails.boum.org/install/linux/index.it.html#restart
+🔗 Sezione ufficiale di Tails: https://tails.net/install/linux/index.it.html#restart
 
 È ora di avviare uno dei tuoi computer utilizzando la tua nuova chiavetta USB. Inseriscila in una delle porte USB e riavvia!
 
@@ -130,7 +130,7 @@ Una volta selezionata la chiavetta USB, dovresti vedere questa nuova schermata d
 
 ![image](assets/6.webp)
 
-🔗 Sezione ufficiale di Tails: https://tails.boum.org/install/linux/index.it.html#tails
+🔗 Sezione ufficiale di Tails: https://tails.net/install/linux/index.it.html#tails
 
 Uno o due minuti dopo il caricatore di avvio e la schermata di caricamento, appare la schermata di benvenuto.
 

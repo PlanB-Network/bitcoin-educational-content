@@ -415,7 +415,9 @@ Tämän lähestymistavan suurimpana etuna tavanomaiseen Lightning custodial wall
 
 
 
-Useimmat tämäntyyppisiä toimintoja tarjoavat salkut käyttävät [Boltz](https://boltz.exchange/) -palvelua swapin teknisessä osassa.
+Useimmat tämäntyyppisiä toimintoja tarjoavat salkut käyttävät Boltz -palvelua swapin teknisessä osassa.
+
+> **Huomautus (lokakuu 2026):** Boltz keskeytti kaikki swapit 3. elokuuta 2026, ja sen verkkosivusto on poissa käytöstä. Boltziin tukeutuvat lompakot eivät välttämättä enää tarjoa tätä toimintoa.
 
 
 

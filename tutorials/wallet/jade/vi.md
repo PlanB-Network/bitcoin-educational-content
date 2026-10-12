@@ -39,7 +39,7 @@ Khi Jade xuất hiện trong Green, cập nhật Jade bằng cách nhấp vào K
 
 Sau khi bạn đã cập nhật firmware của Jade, chọn Thiết lập Jade trên mạng và chính sách bảo mật bạn muốn sử dụng.
 
-> Mẹo: Chính sách bảo mật được liệt kê dưới mục Loại trên màn hình đăng nhập dưới đây. Nếu bạn không chắc chọn Singlesig hay Multisig Shield, vui lòng xem hướng dẫn của chúng tôi ở đây. (https://help.blockstream.com/hc/en-us/articles/4403642609433)
+> Mẹo: Chính sách bảo mật được liệt kê dưới mục Loại trên màn hình đăng nhập dưới đây. Nếu bạn không chắc chọn Singlesig hay Multisig Shield, vui lòng xem hướng dẫn của chúng tôi ở đây. (https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 ![image](assets/3.webp)
 
@@ -192,7 +192,7 @@ Bây giờ bạn đã thiết lập ví thành công và bạn có thể bắt �
 
 ![hình ảnh](assets/22.webp)
 
-nguồn: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+nguồn: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 ### ứng dụng green
 nếu bạn thích sử dụng trên di động, bạn có thể sử dụng nó với blockstream green

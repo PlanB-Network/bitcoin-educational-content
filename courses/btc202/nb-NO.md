@@ -152,7 +152,7 @@ Siden Bitcoin er et system, må det nødvendigvis kjøres på datamaskiner. Og p
 
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -204,7 +204,7 @@ Den første oppgaven til en node er å vedlikeholde en lokal kopi av Blockchain.
 
 > Den eneste måten å bekrefte fraværet av en transaksjon på, er å være klar over alle transaksjoner.
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -383,7 +383,7 @@ I teorien representerer ikke Bitcoin core Bitcoin-protokollen, men er bare én i
 
 
 
-Ifølge [data samlet inn i august 2025 av Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (en velkjent utvikler i økosystemet) er fordelingen av implementeringer blant nettverkets offentlige noder som følger:
+Ifølge [data samlet inn i august 2025 av Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (en velkjent utvikler i økosystemet) er fordelingen av implementeringer blant nettverkets offentlige noder som følger:
 
 
 
@@ -766,7 +766,7 @@ En [SPV](https://planb.academy/resources/glossary/spv-node-light-node)-node (*Si
 
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -1521,7 +1521,7 @@ En av Umbrels viktigste fordeler i forhold til konkurrentene er det store og sv�
 
 
 
-Umbrels kode er offentlig tilgjengelig (du kan se, Fork og modifisere den), men den er ikke under en ekte åpen kildekode-lisens. Faktisk distribueres umbrelOS under [*PolyForm Noncommercial 1.0*]-lisensen (https://polyformproject.org/licenses/noncommercial/1.0.0/), selv om noen tilknyttede utviklingsverktøy er tilgjengelige under MIT-lisensen.
+Umbrels kode er offentlig tilgjengelig (du kan se, Fork og modifisere den), men den er ikke under en ekte åpen kildekode-lisens. Faktisk distribueres umbrelOS under [*PolyForm Noncommercial 1.0*]-lisensen (https://polyformproject.org/licenses/noncommercial/1.0.0), selv om noen tilknyttede utviklingsverktøy er tilgjengelige under MIT-lisensen.
 
 
 
@@ -3884,7 +3884,7 @@ Til slutt kan du i filen `Bitcoin.conf` også konfigurere tilgangsparametrene fo
 
 
 
-Vi er nå ferdige med å liste opp de fleste konfigurasjonsparametrene. Denne `Bitcoin.conf`-filen utgjør dermed det virkelige dashbordet for noden din: den definerer nettverkskonfigurasjon, Mempool-styring, disk- og minnebruk, indeksering og generell administrasjon. Hvis du vil lære mer om denne filen og lage en som er skreddersydd til dine behov, anbefaler jeg at du bruker [Jameson Lopps generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Vi er nå ferdige med å liste opp de fleste konfigurasjonsparametrene. Denne `Bitcoin.conf`-filen utgjør dermed det virkelige dashbordet for noden din: den definerer nettverkskonfigurasjon, Mempool-styring, disk- og minnebruk, indeksering og generell administrasjon. Hvis du vil lære mer om denne filen og lage en som er skreddersydd til dine behov, anbefaler jeg at du bruker [Jameson Lopps generator](https://jlopp.github.io/bitcoin-core-config-generator/).
 
 
 

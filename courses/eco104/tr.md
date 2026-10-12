@@ -818,10 +818,10 @@ Bitcoin yıkıcı potansiyeli ve benzersiz teknolojisiyle milyonların aklını 
 Her iki durumda da, efsane ve mitlere bir göz atalım.
 
 
-Satoshi Nakamoto 2008 yılında devrim niteliğinde bir fikirle internette ortaya çıktı: eşler arası elektronik nakit. Vizyonunu "Bitcoin: Eşler Arası Elektronik Nakit Sistemi" başlıklı [dokuz sayfalık bir makalede](https://Bitcoin.org/Bitcoin.pdf) Cypherpunk posta listesiyle paylaştı. Çoğu e-posta listesi üyesinin başlangıçtaki ilgisizliğine rağmen, bu fikir bir üyede, sonunda Satoshi'e ulaşan Hal Finney'de yeterince merak uyandırdı. Hal'in Bitcoin'un geliştirilmesine katılımı bir dönüm noktası oldu ve daha fazla kişinin destek vermesine yol açtı.
+Satoshi Nakamoto 2008 yılında devrim niteliğinde bir fikirle internette ortaya çıktı: eşler arası elektronik nakit. Vizyonunu "Bitcoin: Eşler Arası Elektronik Nakit Sistemi" başlıklı [dokuz sayfalık bir makalede](https://bitcoin.org/bitcoin.pdf) Cypherpunk posta listesiyle paylaştı. Çoğu e-posta listesi üyesinin başlangıçtaki ilgisizliğine rağmen, bu fikir bir üyede, sonunda Satoshi'e ulaşan Hal Finney'de yeterince merak uyandırdı. Hal'in Bitcoin'un geliştirilmesine katılımı bir dönüm noktası oldu ve daha fazla kişinin destek vermesine yol açtı.
 
 
-Ancak, proje üzerinde iki yıl çalıştıktan sonra Satoshi, 23 Nisan 2011'de [son güvenilir iletişimi](https://plan99.net/~mike/Satoshi-emails/thread5.html) ile "başka şeylere geçtiğini" belirterek iz bırakmadan ortadan kayboldu
+Ancak, proje üzerinde iki yıl çalıştıktan sonra Satoshi, 23 Nisan 2011'de [son güvenilir iletişimi](https://plan99.net/~mike/satoshi-emails/thread5.html) ile "başka şeylere geçtiğini" belirterek iz bırakmadan ortadan kayboldu
 
 
 Satoshi Nakamoto'nun gizemli bir şekilde ortadan kaybolması, nereye gittiği konusunda çeşitli teorilerin ortaya atılmasına neden oldu. Bazıları, yapmak istediği şeyi başardığını düşündüğünü söylerken, diğerleri Bitcoin'ün çektiği ilgiden rahatsız olduğuna inanmaktadır. Aralık ayında [2010](https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad), WikiLeaks'in geleneksel ödeme yöntemlerini kullanması yasaklandığında, finansman için Bitcoin'e başvurdu. Satoshi'ün Bitcoin üzerindeki artan ilgi ve ABD'nin jeopolitik çıkarlarına müdahale etmek için kullanılan bir para birimi yaratmanın potansiyel yasal sonuçları hakkındaki endişeleri onu geri adım atmaya itmiş olabilir. Alternatif olarak, odağını başka projelere kaydırmış olabilir, başka isimler altında Bitcoin'e katkıda bulunmaya devam ediyor olabilir veya hatta vefat etmiş olabilir.
@@ -1168,7 +1168,7 @@ Bu bölümde, ister fiat ister Bitcoin olsun, işlem yapmanın farklı katmanlar
 Bitcoin'un Blockchain'u adından da anlaşılacağı gibi bloklardan oluşur. Bu blokların teorik olarak maksimum boyutu 4 megabayttır. bu sınır nedeniyle, Bitcoin'un saniyede yedi ila on işlem (tps) arasında olmak üzere saniyede kaç işlem gerçekleştirebileceği konusunda bir kısıtlama vardır.
 
 
-Bu nedenle merak edebilirsiniz: Bitcoin'nin Blockchain'i [1,700 tps](https://towardsdatascience.com/the-Blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44) hızında işlem yapan Visa veya Mastercard gibi ağlarla nasıl rekabet edebilir?
+Bu nedenle merak edebilirsiniz: Bitcoin'nin Blockchain'i [1,700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44) hızında işlem yapan Visa veya Mastercard gibi ağlarla nasıl rekabet edebilir?
 
 
 Cevap basit. Onlarla rekabet etmiyor.
@@ -1240,7 +1240,7 @@ Ayrıca, mobil cihazlar için Bitcoin'inize kolay erişim sağlayan sayısız ba
 Gözetim dışı cüzdanlar, fonlarınızın tek sorumlusu olduğunuz bir Bitcoin Wallet türüdür, yani [özel anahtarlarınız](https://planb.academy/resources/glossary/private-key) üzerinde tam kontrole sahipsinizdir. Özel anahtarlar Wallet'ünüzün şifresi gibidir ve işlemleri imzalamak ve yetkilendirmek için kullanılır. Bunlar olmadan Bitcoin'nize erişemez veya aktaramazsınız.
 
 
-Gözetim dışı cüzdanlar, fonlarınızın güvenliğinden yalnızca siz sorumlu olduğunuz için gözetim cüzdanlarına göre daha yüksek düzeyde güvenlik ve gizlilik sunar. Gözetim dışı cüzdanlara örnek olarak [Coldcard](https://store.coinkite.com/store/coldcard) ve [Trezor](https://trezor.io/) gibi [donanım cüzdanları](https://planb.academy/resources/glossary/hardware-wallet) verilebilir; bunlar özel anahtarlarınızı çevrimdışı olarak saklayan ve ekstra bir Layer güvenliği sağlayan fiziksel cihazlardır. Diğer popüler gözetim dışı cüzdanlar ise [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home) ve [Blockstream Green](https://blockstream.com/Green/) gibi bilgisayarınıza veya mobil cihazınıza indirip kurabileceğiniz yazılım cüzdanlarıdır.
+Gözetim dışı cüzdanlar, fonlarınızın güvenliğinden yalnızca siz sorumlu olduğunuz için gözetim cüzdanlarına göre daha yüksek düzeyde güvenlik ve gizlilik sunar. Gözetim dışı cüzdanlara örnek olarak [Coldcard](https://store.coinkite.com/store/coldcard) ve [Trezor](https://trezor.io/) gibi [donanım cüzdanları](https://planb.academy/resources/glossary/hardware-wallet) verilebilir; bunlar özel anahtarlarınızı çevrimdışı olarak saklayan ve ekstra bir Layer güvenliği sağlayan fiziksel cihazlardır. Diğer popüler gözetim dışı cüzdanlar ise [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home) ve [Blockstream Green](https://blockstream.com/green/) gibi bilgisayarınıza veya mobil cihazınıza indirip kurabileceğiniz yazılım cüzdanlarıdır.
 
 
 *Belirli bir Wallet öneremesek de, ihtiyaçlarınıza ve tercihlerinize uygun bir Wallet seçmeyi içeren kendi kendine velayet veya ortak velayet yoluyla Bitcoin'inizin kontrolünü ele almanızı şiddetle tavsiye ederiz. Güvenlik ve kullanılabilirlik gereksinimlerinize uygun olduğundan emin olmak için bir Wallet'a karar vermeden önce kapsamlı bir araştırma yapmanız çok önemlidir.*
@@ -1665,7 +1665,7 @@ Muhtemelen merak ediyorsunuzdur: Buradaki sorun nedir?
 Western Union gibi bir para transferi hizmeti aracılığıyla yurtdışına para göndermek ücretsiz değildir. Paraya mal olur ve sadece biraz değil, önemli bir miktar.
 
 
-100 ABD dolarının Tonga'ya geri gönderilmesi [\$12.61](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) maliyetine ve elverişsiz Exchange kuru nedeniyle \$8.60 ek kayba yol açmaktadır. Bu da gönderilen toplam tutarın %21'inden fazlasının çok uluslu bir şirket olan Western Union'a gittiği anlamına gelmektedir. Sonuç olarak, hak eden Tongalı ailelerin eline geçebilecek önemli bir meblağ, para transferi hizmeti sağlayıcısının cebine giriyor.
+100 ABD dolarının Tonga'ya geri gönderilmesi [\$12.61](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) maliyetine ve elverişsiz Exchange kuru nedeniyle \$8.60 ek kayba yol açmaktadır. Bu da gönderilen toplam tutarın %21'inden fazlasının çok uluslu bir şirket olan Western Union'a gittiği anlamına gelmektedir. Sonuç olarak, hak eden Tongalı ailelerin eline geçebilecek önemli bir meblağ, para transferi hizmeti sağlayıcısının cebine giriyor.
 
 Gelirinize fazladan %21'lik bir ekleme yapmanın faydalarını hayal edebiliyor musunuz?
 
@@ -1676,7 +1676,7 @@ Ayrıca, Tonga'nın GSYH'sinin 2021 yılında [\$469](https://tradingeconomics.c
 Tonga'nın bu konuda yalnız olduğunu düşünüyorsanız, bir daha düşünün.
 
 
-İşte Western Union'ın diğer bazı önde gelen ülkelere \100 ABD doları göndermek için ne kadar [ücret](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) aldığına dair bir örnek:
+İşte Western Union'ın diğer bazı önde gelen ülkelere \100 ABD doları göndermek için ne kadar [ücret](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) aldığına dair bir örnek:
 
 
 
@@ -1691,7 +1691,7 @@ Bu, şu anda büyük ABD şirketlerinin elinde bulunan şaşırtıcı miktarda b
 Geleneksel para transferi hizmetlerinden farklı olarak USDt, işlem yapmak amacıyla Blockchain rayları üzerinde hareket eden dijital bir para birimidir. Bankalar veya para transferi hizmetleri gibi aracılar gerektirmediğinden ücretler önemli ölçüde daha düşüktür. Ayrıca, işlemler halka açık bir Blockchain üzerinde gerçekleştirildiği için, bu daha fazla şeffaflık ve gizlilik sağlar. Bu, bireylerin diğer ülkelerdeki sevdiklerine neredeyse anında, güvenli bir şekilde ve çok daha düşük bir maliyetle para gönderebilecekleri anlamına gelir.
 
 
-Örneğin, öncelikle Ethereum ve Tron blok zincirleri üzerinde çalışan USDt, gönderilen miktardan bağımsız olarak geçen yıl boyunca sırasıyla ortalama [\$1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) ve [\$0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions) işlem ücretlerine sahiptir - ücret \$5 veya \$10,000 gönderilse de aynı kalır. Ve biz konuşurken, geliştiriciler Bitcoin'un Lightning Network'si üzerine inşa edilen [stablecoins](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-Bitcoin-developers-to-mint-and-transfer-assets-on-the-Blockchain/) üzerinde çalışıyorlar ve bu da [\$0.0003](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption) civarında ücretler görecek.
+Örneğin, öncelikle Ethereum ve Tron blok zincirleri üzerinde çalışan USDt, gönderilen miktardan bağımsız olarak geçen yıl boyunca sırasıyla ortalama [\$1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) ve [\$0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions) işlem ücretlerine sahiptir - ücret \$5 veya \$10,000 gönderilse de aynı kalır. Ve biz konuşurken, geliştiriciler Bitcoin'un Lightning Network'si üzerine inşa edilen [stablecoins](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-bitcoin-developers-to-mint-and-transfer-assets-on-the-blockchain/) üzerinde çalışıyorlar ve bu da [\$0.0003](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption) civarında ücretler görecek.
 
 
 USDt ile Tongalılar ve ailelerine para gönderen diğer herkes, yaşam kalitelerini önemli ölçüde artırabilecek ve ülkelerinin ekonomik kalkınmasına katkıda bulunabilecek çok daha fazla havale alabilirler.
@@ -2021,10 +2021,10 @@ Ancak Bitcoin, Layer'in üzerine inşa edilen Lightning gibi teknolojilerle Laye
 Yanlış iddiaları çürüten çok sayıda çalışmaya rağmen, Bitcoin hala sıklıkla öncelikle yasadışı faaliyetler için kullanıldığı yönünde eleştirilmektedir. Bir kez daha, bu gerçeklerden daha uzak olamazdı.
 
 
-CIA'in eski direktör yardımcısı tarafından yürütülen bir [çalışma](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf), "Bitcoin'in yasadışı finansmanda kullanımına ilişkin geniş genellemelerin önemli ölçüde abartıldığını" ortaya koymuştur Aslında 2016'dan bu yana Bitcoin'in toplam işlem hacminin %1'inden daha azı yasadışı faaliyetler için kullanılmıştır. Buna kıyasla, "bazıları yeraltı ekonomisinin ABD gayrisafi yurtiçi [hasılasının] %11 ila %12'sini oluşturduğunu belirtmektedir (https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)" ve bunun büyük bir kısmı ABD doları kullanılarak gerçekleştirilmektedir.
+CIA'in eski direktör yardımcısı tarafından yürütülen bir [çalışma](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf), "Bitcoin'in yasadışı finansmanda kullanımına ilişkin geniş genellemelerin önemli ölçüde abartıldığını" ortaya koymuştur Aslında 2016'dan bu yana Bitcoin'in toplam işlem hacminin %1'inden daha azı yasadışı faaliyetler için kullanılmıştır. Buna kıyasla, "bazıları yeraltı ekonomisinin ABD gayrisafi yurtiçi [hasılasının] %11 ila %12'sini oluşturduğunu belirtmektedir (https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)" ve bunun büyük bir kısmı ABD doları kullanılarak gerçekleştirilmektedir.
 
 
-Chainalysis tarafından 2020 yılında yayınlanan bir rapora göre, yasadışı faaliyetler tüm Bitcoin işlemlerinin yalnızca [%0,34'ünü] oluşturmaktadır (https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf).
+Chainalysis tarafından 2020 yılında yayınlanan bir rapora göre, yasadışı faaliyetler tüm Bitcoin işlemlerinin yalnızca [%0,34'ünü] oluşturmaktadır (https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf).
 
 
 Ancak bu kanıtlara rağmen, ABD Hazine Bakanı Janet Yellen'in (https://home.treasury.gov/news/press-releases/jy0023) "Kripto para birimleri çevrimiçi uyuşturucu kaçakçılarının karlarını aklamak için kullanıldı; terörizmi finanse etmek için bir araç oldular" şeklindeki iddiası gibi, iktidardakiler tarafından yanıltıcı açıklamalar yapılmaya devam ediliyor
@@ -2318,7 +2318,7 @@ Nihayetinde, merkezi olmayan finansın geleceği, geleneksel sınırların ötes
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
 
-Günümüzün küreselleşen dünyasında finansal hizmetlere erişim, ekonomik katılım ve bağımsızlığın kritik bir bileşenidir. Buna rağmen, çok sayıda birey hala geleneksel bankacılık sisteminden dışlanmakta ve bu dışlanmanın yükünü genellikle kadınlar çekmektedir. Şok edici bir şekilde, küresel nüfusun gereksiz yere [dörtte biri](https://www.worldbank.org/en/publication/globalfindex) bankasız kalmasına rağmen, Suudi Arabistan gibi ülkelerde kadınların [%36,5](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.)'i temel bankacılık hizmetlerine erişimden yoksundur ve bu da onların ülkelerinin ekonomisine ve toplumuna tam olarak katılmalarını engellemektedir.
+Günümüzün küreselleşen dünyasında finansal hizmetlere erişim, ekonomik katılım ve bağımsızlığın kritik bir bileşenidir. Buna rağmen, çok sayıda birey hala geleneksel bankacılık sisteminden dışlanmakta ve bu dışlanmanın yükünü genellikle kadınlar çekmektedir. Şok edici bir şekilde, küresel nüfusun gereksiz yere [dörtte biri](https://www.worldbank.org/en/publication/globalfindex) bankasız kalmasına rağmen, Suudi Arabistan gibi ülkelerde kadınların [%36,5](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.)'i temel bankacılık hizmetlerine erişimden yoksundur ve bu da onların ülkelerinin ekonomisine ve toplumuna tam olarak katılmalarını engellemektedir.
 
 
 İşte dünyanın dört bir yanındaki kadınların bugün hala katlandıkları koşullardan sadece birkaç örnek:

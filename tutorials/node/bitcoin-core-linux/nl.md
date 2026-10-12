@@ -217,7 +217,7 @@ Om de logs van je Bitcoin node te bekijken die specifiek gerelateerd zijn aan de
 
 
 - [Wiki-pagina met uitleg over Tor en de relatie met Bitcoin](https://en.Bitcoin.it/wiki/Tor)
-- [Bitcoin core configuratiebestand generator door Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [Bitcoin core configuratiebestand generator door Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/)
 - [Tor configuratiegids door Jon Atack](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 

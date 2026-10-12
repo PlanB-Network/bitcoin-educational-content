@@ -253,7 +253,7 @@ Kada su svi podaci uneti i verifikovani, kliknite na "Create Tutorial" da potvrd
 Sada možete preskočiti pododeljak "Bez mog Python skripta" kao i korak 3, "Popunite YAML datoteku," jer je skript već izvršio ove radnje za vas. Pređite direktno na korak 4 i počnite pisati svoj vodič.
 
 
-Za više informacija o ovom Python skriptu, možete pogledati i [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Za više informacija o ovom Python skriptu, možete pogledati i [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md).
 
 
 ### Bez mog Python skripta

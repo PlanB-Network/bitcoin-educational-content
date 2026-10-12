@@ -2,8 +2,10 @@
 name: Lipa
 description: Konfiguracja i korzystanie z Lipa lightning mobile Wallet
 ---
+
 ![cover](assets/cover.webp)
 
+> **Ostrzeżenie (październik 2026):** Portfel Lipa został zamknięty 31 grudnia 2025 roku, a jego wydawca, lightning payment services ag, jest w likwidacji. Aplikacji nie można już pobrać, a kroki opisane w tym poradniku już nie działają. Zachowujemy tę stronę w celach informacyjnych do czasu jej aktualizacji.
 
 Bitcoin Lightning Wallet to aplikacja mobilna, która umożliwia natychmiastowe, tanie transakcje na Bitcoin Lightning Network. W przeciwieństwie do transakcji na głównym Blockchain (On-Chain), płatności Lightning są niemal natychmiastowe i wymagają minimalnych opłat, dzięki czemu są szczególnie odpowiednie dla małych, codziennych płatności.
 
@@ -44,7 +46,7 @@ Pierwszym krokiem jest pobranie aplikacji Lipa. Na razie jest ona dostępna tylk
 
 
 
-- [Dla Apple](https://apps.apple.com/app/lipa-Bitcoin-lightning/id1602180066)
+- Dla Apple
 
 
 Wersja na Androida jest obecnie w fazie rozwoju i będzie dostępna wkrótce.

@@ -43,7 +43,7 @@ LNbits को अपने खुद के बैंक वित्तीय �
 ## डेमो प्लेटफॉर्म
 
 
-डेमो [https://legend.lnbits.com](https://legend.lnbits.com) पर पाया जा सकता है। यह पूरी तरह कार्यात्मक है और इसका उपयोग Lightning Network और LNbits और LNURL की सामान्य विशेषताओं के बारे में जानने के लिए किया जा सकता है। हालाँकि हम आपको इससे रोक नहीं सकते हैं, लेकिन हम आपसे अनुरोध करना चाहेंगे कि आप इसे अपने उत्पादन सेटअप के लिए उपयोग न करें। न केवल हम नई सुविधाओं का परीक्षण करने के लिए अक्सर सर्वर पर काम कर रहे हैं, बल्कि हम आपको अपने स्वयं के नोड और LNbits को संप्रभु तरीके से चलाने के लिए प्रोत्साहित करना चाहते हैं। यदि आपको लगता है कि नोड चलाना इस समय बहुत अधिक है, तो आप LNbits को क्लाउड में कस्टोडियन फंडिंग सर्विस जैसे कि Opennode, Luna या Votage या Telegram पर Lightning Tipbot से कनेक्ट कर सकते हैं।
+डेमो [https://demo.lnbits.com](https://demo.lnbits.com) पर पाया जा सकता है। यह पूरी तरह कार्यात्मक है और इसका उपयोग Lightning Network और LNbits और LNURL की सामान्य विशेषताओं के बारे में जानने के लिए किया जा सकता है। हालाँकि हम आपको इससे रोक नहीं सकते हैं, लेकिन हम आपसे अनुरोध करना चाहेंगे कि आप इसे अपने उत्पादन सेटअप के लिए उपयोग न करें। न केवल हम नई सुविधाओं का परीक्षण करने के लिए अक्सर सर्वर पर काम कर रहे हैं, बल्कि हम आपको अपने स्वयं के नोड और LNbits को संप्रभु तरीके से चलाने के लिए प्रोत्साहित करना चाहते हैं। यदि आपको लगता है कि नोड चलाना इस समय बहुत अधिक है, तो आप LNbits को क्लाउड में कस्टोडियन फंडिंग सर्विस जैसे कि Opennode, Luna या Votage या Telegram पर Lightning Tipbot से कनेक्ट कर सकते हैं।
 
 
 ## एलएनबिट्स फ़्लायर
@@ -69,7 +69,7 @@ LNbits को स्थापित करने से पहले यह स�
 
 
 - [LND गाइड](https://docs.lightning.engineering/) | LND इंस्टॉल करना
-- [LND कॉन्फ़िगरेशन उदाहरण](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | LND सेटिंग्स
+- [LND कॉन्फ़िगरेशन उदाहरण](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | LND सेटिंग्स
 - [CLN गाइड](https://docs.corelightning.org/docs/installation) | CLN इंस्टॉल करना
 - [LUDs](https://github.com/lnurl/luds) LNURL स्पेक | [NIPs](https://github.com/nostr-protocol/nips) Nostr स्पेक
 - [Watchtower चलाएं](https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | बहुत महत्वपूर्ण!
@@ -81,7 +81,7 @@ LNbits को स्थापित करने से पहले यह स�
 
 - [LNbits के साथ शुरुआत करें](https://darthcoin.substack.com/p/getting-started-lnbits) | सबस्टैक गाइड
 - [LNbits के साथ आपकी सुरक्षा के लिए ToDos](https://youtu.be/i5FQf96e6zg) | Youtube वीडियो
-- [Lightning Network पर निजी बैंक](https://darthcoin.substack.com/p/Bitcoin-private-banks-over-lightning) | सबस्टैक गाइड
+- [Lightning Network पर निजी बैंक](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | सबस्टैक गाइड
 - [अपने दोस्तों और परिवार के लिए कस्टोडियन वॉलेट चलाएँ](https://darthcoin.substack.com/p/the-bank-of-lnbits) | सबस्टैक गाइड
 - [एक छोटे से रेस्तरां / होटल के लिए LNbits](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | सबस्टैक गाइड
 - [LNbits स्ट्रीमर कोपिलॉट का उपयोग करना](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | सबस्टैक गाइड
@@ -116,7 +116,7 @@ LNbits को किसी भी Linux OS मशीन पर इंस्ट�
 [अधिक स्थापना परिदृश्य यहां](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
 
-बंडल सॉफ़्टवेयर नोड्स के लिए, कृपया LNbits के बारे में उनके विशिष्ट दस्तावेज़ देखें: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+बंडल सॉफ़्टवेयर नोड्स के लिए, कृपया LNbits के बारे में उनके विशिष्ट दस्तावेज़ देखें: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
 ### एलएनबिट्स सास
@@ -202,17 +202,19 @@ LNbits कई लाइटनिंग-नेटवर्क फंडिंग 
   - `LNBITS_KEY`: मेरी-lnbits-AdminKey
 - एलएनबिट्स लीजेंड डेमो सर्वर (!! इसका उपयोग उत्पादन / वाणिज्यिक उद्देश्यों के लिए न करें, केवल परीक्षण के लिए करें !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: लेजेंड-lnbits-AdminKey
 
 #### लाइटनिंग टिपबॉट
+
+> **चेतावनी (अक्टूबर 2026):** LightningTipBot और ln.tips बंद हो चुके हैं; बंद होने की घोषणा 29 अप्रैल 2024 को की गई थी। यह फंडिंग स्रोत अब काम नहीं करता, जब तक कि आप अपना खुद का बॉट होस्ट न करें।
 
 
 अपने [लाइटनिंग टिपबॉट](https://t.me/LightningTipBot) को टेलीग्राम से कनेक्ट करने के लिए आपको निम्नलिखित पैरामीटर सेट करना होगा:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://LN.tips
+  - `LNBITS_ENDPOINT`: `https://LN.tips`
   - `LNBITS_KEY`: कुंजी प्राप्त करने के लिए आपको टेलीग्राम पर लाइटनिंग टिपबॉट के साथ एक बार निजी चैट में /api चलाना होगा।
 
 
@@ -229,11 +231,13 @@ LNbits कई लाइटनिंग-नेटवर्क फंडिंग 
 
 #### एलएनपे
 
-Invoice श्रोता के काम करने के लिए आपके पास अपने LNbits में एक सार्वजनिक रूप से सुलभ URL होना चाहिए और आपको एक [LNPay webhook](https://dashboard.lnpay.co/webhook/) सेट करना होगा जो `<आपके LNbits होस्ट>/Wallet/webhook` की ओर इशारा करता हो, जिसमें "Wallet रिसीव" इवेंट हो और कोई सीक्रेट न दिया गया हो। `https://mylnbits/Wallet/webhook` सेटिंग वह एंडपॉइंट URL होगा जिस पर किसी भी भुगतान के बारे में सूचना दी जाती है।
+> **चेतावनी (अक्टूबर 2026):** ऐसा लगता है कि LNPay बंद हो चुका है: lnpay.co डोमेन अब जवाब नहीं देता। यह फंडिंग स्रोत संभवतः अब उपयोग योग्य नहीं है।
+
+Invoice श्रोता के काम करने के लिए आपके पास अपने LNbits में एक सार्वजनिक रूप से सुलभ URL होना चाहिए और आपको एक LNPay webhook सेट करना होगा जो `<आपके LNbits होस्ट>/Wallet/webhook` की ओर इशारा करता हो, जिसमें "Wallet रिसीव" इवेंट हो और कोई सीक्रेट न दिया गया हो। `https://mylnbits/Wallet/webhook` सेटिंग वह एंडपॉइंट URL होगा जिस पर किसी भी भुगतान के बारे में सूचना दी जाती है।
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -514,7 +518,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ##### LNURL लाइटनिंग-Address के लिए इसके विपरीत
 
 
-फिएटजाफ से यह [एनकोडर](https://lnurl-codec.netlify.app/) या [यह वाला](https://lightningdecoder.com/) आज़माएँ। LNURLp का भुगतान करने या जाँचने के लिए आप [LNurlpay](https://wwww.lnurlpay.com/) का भी उपयोग कर सकते हैं। इसमें HTTPS लिखा होना चाहिए, HTTP नहीं।
+फिएटजाफ से यह [एनकोडर](https://lnurl-codec.netlify.app/) या [यह वाला](https://lightningdecoder.com/) आज़माएँ। LNURLp का भुगतान करने या जाँचने के लिए आप [LNurlpay](https://www.lnurlpay.com/) का भी उपयोग कर सकते हैं। इसमें HTTPS लिखा होना चाहिए, HTTP नहीं।
 
 
 
@@ -537,7 +541,9 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ###### बाहरी स्वैप सेवा के माध्यम से.
 
 
-अन्य उपयोगकर्ता जिनके पास आपके LNb तक पहुँच नहीं है, वे [Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) या [ZigZag](https://zigzag.io/) जैसी स्वैप सेवा का उपयोग कर सकते हैं। यह तब उपयोगी होता है जब आप अपने LNbits इंस्टेंस से केवल LNURL/LN चालान प्रदान करते हैं, लेकिन भुगतानकर्ता के पास केवल ऑनचेन Sats है, इसलिए उन्हें पहले अपनी तरफ से उन Sats को स्वैप करना होगा। प्रक्रिया सरल है: उपयोगकर्ता ऑनचेन बीटीसी को स्वैप सेवा में भेजता है और स्वैप के गंतव्य के रूप में LNbits से LNURL / LN Invoice प्रदान करता है।
+अन्य उपयोगकर्ता जिनके पास आपके LNb तक पहुँच नहीं है, वे Boltz, [FixedFloat](https://fixedfloat.com/) या [ZigZag](https://zigzag.io/) जैसी स्वैप सेवा का उपयोग कर सकते हैं। यह तब उपयोगी होता है जब आप अपने LNbits इंस्टेंस से केवल LNURL/LN चालान प्रदान करते हैं, लेकिन भुगतानकर्ता के पास केवल ऑनचेन Sats है, इसलिए उन्हें पहले अपनी तरफ से उन Sats को स्वैप करना होगा। प्रक्रिया सरल है: उपयोगकर्ता ऑनचेन बीटीसी को स्वैप सेवा में भेजता है और स्वैप के गंतव्य के रूप में LNbits से LNURL / LN Invoice प्रदान करता है।
+
+> **चेतावनी (अक्टूबर 2026):** कई कमज़ोरियों का फ़ायदा उठाए जाने के बाद Boltz ने 3 अगस्त 2026 को सभी स्वैप निलंबित कर दिए, और इसकी वेबसाइट ऑफ़लाइन है। फ़िलहाल Boltz और LNbits के Boltz एक्सटेंशन का उपयोग नहीं किया जा सकता।
 
 
 ###### ऑनचेन और बोल्ट्ज़ एलएनबिट्स एक्सटेंशन का उपयोग करना।
@@ -595,7 +601,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ### LNbits के साथ टूलींग और निर्माण
 
 
-LNbits के पास सभी प्रकार के [ओपन API](https://legend.lnbits.com/docs) और उपकरण हैं, जिनकी मदद से आप असंख्य उपयोग-मामलों के लिए बहुत से अलग-अलग डिवाइसों को प्रोग्राम और कनेक्ट कर सकते हैं।
+LNbits के पास सभी प्रकार के [ओपन API](https://demo.lnbits.com/docs) और उपकरण हैं, जिनकी मदद से आप असंख्य उपयोग-मामलों के लिए बहुत से अलग-अलग डिवाइसों को प्रोग्राम और कनेक्ट कर सकते हैं।
 
 
 जब आप निर्माण में नए हों तो LNbits पर आधारित गैजेट बनाने के बारे में बेन आर्क के इस [मेकरबिट्स प्रस्तुतियों](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) से शुरुआत करें।

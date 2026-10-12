@@ -11,7 +11,7 @@ description: 모바일에서 강력한 LN 노드를 사용하려면 어떻게 �
 어디서든 모바일에서 전체 LN 노드인 [Blixt Wallet](https://blixtwallet.com/)를 사용하세요.
 
 
-Bitcoin Lightning Network을 사용해 본 적이 없다면 시작하기 전에 [Lightning Network(LN)에 대한 간단한 설명 비유를 읽어 보세요](https://darth-Coin.github.io/beginner/LN-airport-analogy-en.html)를 참조하세요.
+Bitcoin Lightning Network을 사용해 본 적이 없다면 시작하기 전에 [Lightning Network(LN)에 대한 간단한 설명 비유를 읽어 보세요](https://darth-coin.github.io/beginner/ln-airport-analogy-en.html)를 참조하세요.
 
 
 ## 중요한 측면:
@@ -22,11 +22,11 @@ Bitcoin Lightning Network을 사용해 본 적이 없다면 시작하기 전에 
 
 
 
-- 블릭스트는 LND(aezeed)을 Wallet 백엔드로 사용하고 있으므로 다른 유형의 Bitcoin 지갑을 가져오려고 하지 마세요. gW-14 Mnemonic 시드의 유형에 대한 설명은 [여기](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/)를 참조하세요. 그리고 여기에 [모든 유형의 지갑에 대한 더 광범위한 목록](https://walletsrecovery.org/)이 있습니다. 따라서 이전에 LND 노드가 있었다면, [이 가이드에 설명된 대로](https://darth-Coin.github.io/nodes/shtf-restore-LND-node-en.html) seed과 backup.channels를 Blixt로 가져올 수 있습니다.
+- 블릭스트는 LND(aezeed)을 Wallet 백엔드로 사용하고 있으므로 다른 유형의 Bitcoin 지갑을 가져오려고 하지 마세요. gW-14 Mnemonic 시드의 유형에 대한 설명은 [여기](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/)를 참조하세요. 그리고 여기에 [모든 유형의 지갑에 대한 더 광범위한 목록](https://walletsrecovery.org/)이 있습니다. 따라서 이전에 LND 노드가 있었다면, [이 가이드에 설명된 대로](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html) seed과 backup.channels를 Blixt로 가져올 수 있습니다.
 
 
 
-- 이 가이드의 마지막에는 ["팁과 요령"](https://darth-Coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)이 포함된 특별 섹션이 있습니다
+- 이 가이드의 마지막에는 ["팁과 요령"](https://darth-Coin.github.io/wallets/getting-started-blixt-wallet-en.html#tips)이 포함된 특별 섹션이 있습니다
 
 
 
@@ -65,7 +65,7 @@ Blixt를 열면 '환영' 화면에 몇 가지 옵션이 표시됩니다:
 
 - "토르 활성화" - 토르 전용 피어와 함께 실행되던 이전 LND 노드를 복원하려는 경우, 토르 네트워크로 시작할 수 있습니다.
 - "Bitcoin 노드 설정" - 사용자가 자체 노드에 직접 연결하여 뉴트리노를 통해 블록을 동기화하려는 경우, 시작 화면에서 바로 설정할 수 있습니다. 이 옵션은 인터넷 연결이나 토르가 안정적이지 않아 기본 Bitcoin 노드(node.blixtwallet.com)에 연결할 수 없는 경우에도 유용합니다.
-- 곧 언어가 추가될 예정이므로 사용자가 편한 언어로 바로 시작할 수 있습니다. 다른 언어로 번역하여 이 오픈 소스 프로젝트에 기여하고 싶으시다면 [여기에서 참여하세요](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/)를 참조하세요.
+- 곧 언어가 추가될 예정이므로 사용자가 편한 언어로 바로 시작할 수 있습니다. 다른 언어로 번역하여 이 오픈 소스 프로젝트에 기여하고 싶으시다면 [여기에서 참여하세요](https://explore.transifex.com/blixt-wallet/blixt-wallet/)를 참조하세요.
 
 
 ### 옵션 A - 새 Wallet 생성
@@ -241,7 +241,7 @@ Dunder 채널 개설을 활성화하는 단계는 다음과 같습니다:
 챕터 1 '첫 만남'에서는 시작 화면에 두 가지 옵션이 있다는 것을 기억하세요:
 
 
-- [옵션 A](https://darth-Coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - 새 Wallet 만들기
+- [옵션 A](https://darth-Coin.github.io/wallets/getting-started-blixt-wallet-en.html#option-a) - 새 Wallet 만들기
 - 옵션 B - Wallet 복원
 
 
@@ -251,7 +251,7 @@ Dunder 채널 개설을 활성화하는 단계는 다음과 같습니다:
 ### 옵션 B - Wallet 복원
 
 
-과거에 [크래시된 엄브렐 노드 복구 방법](https://darth-Coin.github.io/nodes/shtf-restore-LND-node-en.html)에 대한 전용 가이드를 작성했는데, 이 글에서 엄브렐의 seed + channel.backup 파일을 사용하여 빠른 복구 프로세스로 Blixt를 사용하는 방법도 언급했습니다.
+과거에 [크래시된 엄브렐 노드 복구 방법](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html)에 대한 전용 가이드를 작성했는데, 이 글에서 엄브렐의 seed + channel.backup 파일을 사용하여 빠른 복구 프로세스로 Blixt를 사용하는 방법도 언급했습니다.
 
 
 블릭스 노드를 복원하거나 블릭스를 다른 디바이스로 마이그레이션하는 방법에 대한 가이드도 [여기](https://blixtwallet.github.io/faq#blixt-restore)에 작성했습니다.
@@ -663,7 +663,7 @@ Blixt가 제공하는 다른 놀라운 기능도 많이 있으니 하나씩 살�
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [블릭스트 걸스 캘린더](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - 프로모션 영상(LN의 첫 사용 테스트 가능)
 - [블릭스트 사용 첫걸음에 대한 인쇄용 A4 전단지, 다양한 언어로 제공](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [블릭스트는 또한 웹사이트 또는 전용 버전 웹에서 전체 기능 데모(https://blixt-Wallet-git-master-hsjoberg.vercel.app/)를 제공하여 실제 사용을 시작하기 전에 전체 기능을 테스트할 수 있도록 지원합니다.
+- [블릭스트는 또한 웹사이트 또는 전용 버전 웹에서 전체 기능 데모(https://blixtwallet.github.io/)를 제공하여 실제 사용을 시작하기 전에 전체 기능을 테스트할 수 있도록 지원합니다.
 
 
 ---

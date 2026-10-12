@@ -10,7 +10,7 @@ Um sistema operacional portátil e amnésico que protege você contra vigilânci
 
 ## Por que ter um pendrive com o Tails instalado?
 
-O Tails (https://tails.boum.org/) é a maneira mais fácil de ter um computador seguro sempre à sua disposição, que não deixará rastros no computador em que você o utiliza.
+O Tails (https://tails.net/) é a maneira mais fácil de ter um computador seguro sempre à sua disposição, que não deixará rastros no computador em que você o utiliza.
 
 Para usar o Tails, desligue o computador disponível (na casa dos seus pais, na casa dos seus amigos, em um café com internet...) e inicialize-o a partir do seu pendrive Tails, em vez do Windows, macOS ou Linux.
 
@@ -55,7 +55,7 @@ Pré-requisitos
 
 ![image](assets/1.webp)
 
-> 🔗 Seção oficial do Tails: https://tails.boum.org/install/linux/index.fr.html#download
+> 🔗 Seção oficial do Tails: https://tails.net/install/linux/index.fr.html#download
 
 O download do arquivo de instalação com a extensão .img pode levar algum tempo, dependendo da velocidade da sua conexão de download, então planeje com antecedência. Com uma linha moderna e rápida, isso levará menos de 5 minutos.
 
@@ -65,7 +65,7 @@ Salve o arquivo em uma pasta conhecida, como "Downloads", pois isso será necess
 
 ![image](assets/2.webp)
 
-> 🔗 Seção oficial do Tails: https://tails.boum.org/install/linux/index.fr.html#verify
+> 🔗 Seção oficial do Tails: https://tails.net/install/linux/index.fr.html#verify
 
 Verificar o download garante que ele tenha sido emitido pelos desenvolvedores do Tails e que não tenha sido corrompido ou interceptado durante o download.
 
@@ -79,8 +79,8 @@ Portanto, use o botão "Selecionar seu download..." oferecido na seção oficial
 
 > 🔗 Seção oficial do Tails:
 >
-> - Linux: https://tails.boum.org/install/linux/index.fr.html#install
-> - macOS: https://tails.boum.org/install/mac/index.fr.html#etcher e https://tails.boum.org/install/mac/index.fr.html#install
+> - Linux: https://tails.net/install/linux/index.fr.html#install
+> - macOS: https://tails.net/install/mac/index.fr.html#etcher e https://tails.net/install/mac/index.fr.html#install
 
 Esta etapa de instalação do Tails no seu pen drive é a mais difícil de todo o guia, especialmente se você nunca fez isso antes. O ponto mais importante é escolher corretamente o procedimento na seção oficial para o seu sistema operacional: Linux ou macOS.
 
@@ -92,7 +92,7 @@ Boa sorte! E vamos para o passo 4.
 
 ![image](assets/4.webp)
 
-> 🔗 Secção oficial do Tails: https://tails.boum.org/install/linux/index.fr.html#restart
+> 🔗 Secção oficial do Tails: https://tails.net/install/linux/index.fr.html#restart
 > É hora de iniciar um dos seus computadores usando a sua nova pen USB. Insira-a numa das portas USB e reinicie!
 
 > 💡 A maioria dos computadores não inicia automaticamente a partir da pen USB Tails, mas você pode pressionar a tecla do menu de arranque para exibir uma lista de dispositivos possíveis para iniciar a partir.
@@ -125,7 +125,7 @@ Depois de selecionar a pen USB, você deverá ver esta nova tela de arranque, é
 
 ![imagem](assets/6.webp)
 
-> 🔗 Secção oficial do Tails: https://tails.boum.org/install/linux/index.fr.html#tails
+> 🔗 Secção oficial do Tails: https://tails.net/install/linux/index.fr.html#tails
 
 Um ou dois minutos após o carregador de inicialização e a tela de carregamento, a Tela de boas-vindas aparece.
 

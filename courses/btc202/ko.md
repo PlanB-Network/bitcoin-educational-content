@@ -152,7 +152,7 @@ Bitcoin은 시스템이기 때문에 반드시 컴퓨터에서 실행해야 합�
 
 
 
-Nakamoto, S. (2008). *Bitcoin: 피어투피어 전자 현금 시스템*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: 피어투피어 전자 현금 시스템*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -204,7 +204,7 @@ Bitcoin 노드는 함께 Bitcoin 네트워크라고 알려진 것을 형성합�
 
 > 거래가 없음을 확인하는 유일한 방법은 모든 거래를 파악하는 것입니다.
 
-Nakamoto, S. (2008). *Bitcoin: 피어투피어 전자 현금 시스템*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: 피어투피어 전자 현금 시스템*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -383,7 +383,7 @@ Bitcoin core는 Bitcoin 프로토콜의 참조 소프트웨어입니다. 2008~20
 
 
 
-생태계에서 잘 알려진 개발자 루크 대쉬제이르(https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html)가 2025년 8월에 수집한 데이터에 따르면, 네트워크의 퍼블릭 노드 중 구현 분포는 다음과 같습니다:
+생태계에서 잘 알려진 개발자 루크 대쉬제이르(https://luke.dashjr.org/programs/bitcoin/files/charts/software.html)가 2025년 8월에 수집한 데이터에 따르면, 네트워크의 퍼블릭 노드 중 구현 분포는 다음과 같습니다:
 
 
 
@@ -766,7 +766,7 @@ pruned 노드는 Genesis 블록부터 가장 많은 작업을 수행한 체인 �
 
 
 
-Nakamoto, S. (2008). *Bitcoin: 피어투피어 전자 현금 시스템*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: 피어투피어 전자 현금 시스템*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -1521,7 +1521,7 @@ Umbrel은 필요에 따라 Bitcoin에만 집중하는 매우 미니멀한 기능
 
 
 
-Umbrel의 코드는 공개적으로 사용 가능하지만(Fork을 보고 수정할 수 있음) 진정한 오픈 소스 라이선스에는 속하지 않습니다. 실제로 umbrelOS는 [*PolyForm 비영리 1.0*] 라이선스(https://polyformproject.org/licenses/noncommercial/1.0.0/)에 따라 배포되지만, 일부 관련 개발 도구는 MIT 라이선스에 따라 사용할 수 있습니다.
+Umbrel의 코드는 공개적으로 사용 가능하지만(Fork을 보고 수정할 수 있음) 진정한 오픈 소스 라이선스에는 속하지 않습니다. 실제로 umbrelOS는 [*PolyForm 비영리 1.0*] 라이선스(https://polyformproject.org/licenses/noncommercial/1.0.0)에 따라 배포되지만, 일부 관련 개발 도구는 MIT 라이선스에 따라 사용할 수 있습니다.
 
 
 
@@ -3884,7 +3884,7 @@ DNS 확인을 피하려면 설정에 `dnsseed=0` 및 `dns=0`을 추가하면 됩
 
 
 
-이제 대부분의 구성 매개변수 나열을 마쳤습니다. 따라서 이 `Bitcoin.conf` 파일은 노드의 실제 대시보드 역할을 하며 네트워크 구성, Mempool 관리, 디스크 및 메모리 사용량, 인덱싱, 일반 관리를 정의합니다. 이 파일에 대해 자세히 알아보고 필요에 맞는 파일을 만들고 싶다면 [Jameson Lopp의 생성기](https://jlopp.github.io/Bitcoin-core-config-generator/)를 사용하는 것이 좋습니다.
+이제 대부분의 구성 매개변수 나열을 마쳤습니다. 따라서 이 `Bitcoin.conf` 파일은 노드의 실제 대시보드 역할을 하며 네트워크 구성, Mempool 관리, 디스크 및 메모리 사용량, 인덱싱, 일반 관리를 정의합니다. 이 파일에 대해 자세히 알아보고 필요에 맞는 파일을 만들고 싶다면 [Jameson Lopp의 생성기](https://jlopp.github.io/bitcoin-core-config-generator/)를 사용하는 것이 좋습니다.
 
 
 

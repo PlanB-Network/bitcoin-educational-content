@@ -61,7 +61,7 @@ Elements on avatud lähtekoodiga, sidechain-võimeline [plokiahela](https://plan
 
 Elements on oma põhiolemuselt protokoll, mis võimaldab [konsensuse](https://planb.academy/resources/glossary/consensus) saavutamist [tehinguajaloo](https://planb.academy/resources/glossary/transaction-tx) ja reeglite ümber, mis reguleerivad jaotatud plokiahela pearaamatusse salvestatud varade ülekandmist ja loomist.
 
-Rohkem taustateavet Elements'i kohta leiate hõlpsasti Elements Project'i veebisaidilt (https://elementsproject.org/), ametlikust Liquid'i blogist (https://blog.liquid.net/) ja arendajaportaalist(https://liquid.net/devs).
+Rohkem taustateavet Elements'i kohta leiate hõlpsasti Elements Project'i veebisaidilt (https://elementsproject.org/), ametlikust Liquid'i blogist (https://blog.liquid.net/) ja arendajaportaalist(https://liquid.net/developers).
 
 ### Elements
 

@@ -253,7 +253,7 @@ Zodra alle informatie is ingevoerd en gecontroleerd, klik je op "Create Tutorial
 Je kunt nu de subsectie "Zonder mijn Python script" overslaan, evenals stap 3, "Vul het YAML-bestand in", aangezien het script deze handelingen al voor je heeft uitgevoerd. Ga direct door naar stap 4 en begin met het schrijven van je tutorial.
 
 
-Voor meer informatie over dit Python-script kun je ook de [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) bekijken.
+Voor meer informatie over dit Python-script kun je ook de [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md) bekijken.
 
 
 ### Zonder mijn Python-script

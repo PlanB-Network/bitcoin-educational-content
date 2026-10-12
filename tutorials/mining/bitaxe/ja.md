@@ -20,7 +20,7 @@ BitAxeには、異なるチップと性能を持ついくつかのバージョ�
 
 このチュートリアルでは、Antminer S19XP用のBM1366チップを搭載したBitAxe Ultra 204を使用します。これはすでに小売業者によって組み立てられ、フラッシュされています。
 
-[販売店のリストはこのページで確認できます](https://bitaxe.org/legit.html)
+[販売店のリストはこのページで確認できます](https://www.bitaxe.org/buy)
 
 ![signup](assets/2.webp)
 

@@ -83,7 +83,7 @@ https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 ## 安裝與設定
 
 
-請造訪 Wizardsardine 官方網站並下載 Liana，網址為 https://wizardsardine.com/Liana/。您也可以 [從 GitHub 倉庫] 下載最新版本(https://github.com/wizardsardine/Liana/releases)，您可以檢查軟體的真實性。本教學使用的版本為 0.9。
+請造訪 Wizardsardine 官方網站並下載 Liana，網址為 https://wizardsardine.com/liana/。您也可以 [從 GitHub 倉庫] 下載最新版本(https://github.com/wizardsardine/Liana/releases)，您可以檢查軟體的真實性。本教學使用的版本為 0.9。
 
 
 ![Télécharger Liana](assets/fr/02.webp)
@@ -363,7 +363,7 @@ Liana 也提供「硬幣控制」功能：您可以指出要花費的硬幣 (UTX
 從 Liana Wallet 復原資金時，您可能會面臨以下兩種情況之一。您可能可以存取安裝軟體的電腦，在這種情況下，您只需要開啟軟體即可（在增強備份型號的情況下會出現這種情況）。但是，您可能無法存取此電腦，因此我們在此從頭開始。請注意，兩種情況下的復原步驟相同。
 
 
-若要開始使用，請從 [Wizardsardine 官方網站](https://wizardsardine.com/Liana/) 下載 Liana，或從 [GitHub 套件庫](https://github.com/wizardsardine/Liana/releases) 下載，您可以檢查軟體的真實性。安裝軟體並執行。我們使用的版本是 0.9，因此視覺效果可能有所改變。在歡迎畫面中，選擇「新增現有的 Liana Wallet」選項。
+若要開始使用，請從 [Wizardsardine 官方網站](https://wizardsardine.com/liana/) 下載 Liana，或從 [GitHub 套件庫](https://github.com/wizardsardine/Liana/releases) 下載，您可以檢查軟體的真實性。安裝軟體並執行。我們使用的版本是 0.9，因此視覺效果可能有所改變。在歡迎畫面中，選擇「新增現有的 Liana Wallet」選項。
 
 
 ![Ajouter portefeuille existant](assets/fr/34.webp)

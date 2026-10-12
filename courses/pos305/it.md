@@ -215,7 +215,7 @@ Definire i seguenti termini chiave introdotti nella sezione precedente:
 ### Lavorare con BTCPay Server
 
 L'obiettivo di questa parte del corso sarà acquisire una comprensione generale del software BTCPay Server. In un ambiente condiviso, si raccomanda di seguire la dimostrazione dell'istruttore assieme al Manuale del Corso BTCPay Server. Imparerai come creare un wallet attraverso diversi metodi. Gli esempi includono configurazioni di hot wallet e [hardware wallet](https://planb.academy/resources/glossary/hardware-wallet) collegati tramite BTCPay Server Vault. Questi obiettivi verranno realizzati in un ambiente Demo, a cui il tuo istruttore ti darà accesso.
-Se segui questo corso da solo, puoi trovare un elenco di host di terze parti per scopi dimostrativi su https://directory.btcpayserver.org/filter/hosts. Sconsigliamo vivamente l'uso di queste opzioni di terze parti come ambienti di produzione/commercio, ma sono idonei allo scopo per un'introduzione all'uso di Bitcoin e BTCPay Server.
+Se segui questo corso da solo, puoi trovare un elenco di host di terze parti per scopi dimostrativi su https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Sconsigliamo vivamente l'uso di queste opzioni di terze parti come ambienti di produzione/commercio, ma sono idonei allo scopo per un'introduzione all'uso di Bitcoin e BTCPay Server.
 
 Come tirocinante rockstar di BTCPay Server, potresti avere esperienze precedenti nella configurazione di un nodo Bitcoin, mentre questo corso si riferisce specificamente allo stack software di BTCPay Server.
 
@@ -2364,7 +2364,7 @@ Descrivi alcune delle differenze tra eseguire un'istanza di BTCPay Server su un 
 
 Familiarizzerai con Voltage.cloud come provider di hosting, farai i primi passi per usare il tuo BTCPay Server e capirai come procedere con Lightning Network. Dopo aver seguito tutti i passaggi, potrai gestire un negozio online o una piattaforma di crowdfunding che accetta Bitcoin!
 
-Questo è uno dei tanti modi per distribuire BTCPay Server. Leggi la nostra documentazione per maggiori dettagli, https://docs.btcpayserver.org/Deployment/voltagecloud/
+Questo è uno dei tanti modi per distribuire BTCPay Server. Leggi la nostra documentazione per maggiori dettagli, https://docs.btcpayserver.org
 
 ### Distribuzione di BTCPay Server - Voltage.cloud
 

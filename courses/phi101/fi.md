@@ -232,7 +232,7 @@ Tämä analyysi heijastaa väärinkäsitystä ylijäämäarvosta ja talouseläm�
 
 ### Teollinen vallankumous kyseenalaisena
 
-Itse asiassa marxilainen analyysi vääristää teollisen vallankumouksen historiallista todellisuutta. Ludwig von Mises selvensi tätä kysymystä taloustieteen teoksessaan [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (katso erityisesti luku [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) sekä sarjassa luentoja, jotka on julkaistu nimellä: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Myös lukemisen arvoinen, The Anti-Capitalistic Mentality [täällä](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) ja [täällä](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+Itse asiassa marxilainen analyysi vääristää teollisen vallankumouksen historiallista todellisuutta. Ludwig von Mises selvensi tätä kysymystä taloustieteen teoksessaan [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (katso erityisesti luku [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) sekä sarjassa luentoja, jotka on julkaistu nimellä: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Myös lukemisen arvoinen, The Anti-Capitalistic Mentality [täällä](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) ja [täällä](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 ![kuva](assets/fi/014.webp)
 
 Mises selittää, että tehdastyöt, vaikka ne meidän standardeillamme olivat kurjia, edustivat aikansa työläisille parasta mahdollista tilaisuutta.

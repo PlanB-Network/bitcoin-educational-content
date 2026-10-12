@@ -3,10 +3,9 @@ name: Boltz
 description: Wissel tussen verschillende Bitcoin lagen met behoud van controle.
 ---
 
-
 ![cover](assets/cover.webp)
 
-
+> **Waarschuwing (oktober 2026):** Boltz heeft op 3 augustus 2026 alle swaps opgeschort nadat meerdere kwetsbaarheden waren misbruikt, en de website is offline. De links en stappen in deze tutorial werken niet meer. We bewaren deze pagina ter referentie totdat ze is bijgewerkt.
 
 Sinds de introductie in 2009 is het peer-to-peer elektronisch geldsysteem van Bitcoin exponentieel gegroeid, waardoor het nu een systeem is dat we direct kunnen gebruiken in onze dagelijkse handelingen, met name via Lightning Network.
 
@@ -20,7 +19,7 @@ Er bleef echter een groot probleem bestaan tussen de lagen van het Bitcoin proto
 
 
 
-[Boltz](https://boltz.Exchange) is een niet-custodiaal platform dat ideaal is voor iedereen die transacties wil doen tussen de verschillende lagen van het Bitcoin protocol:
+Boltz is een niet-custodiaal platform dat ideaal is voor iedereen die transacties wil doen tussen de verschillende lagen van het Bitcoin protocol:
 
 
 

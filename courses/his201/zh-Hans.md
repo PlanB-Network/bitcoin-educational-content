@@ -138,7 +138,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 在他的[基础文章](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf)中，1985 年发表于*Communications of the ACM*的《Security Without Identification: Transaction Systems to Make Big Brother Obsolete》(无需识别的安全性：让大哥哥过时的交易系统）中，他写道：
 > “正在为一个档案社会奠定基础，在这个社会中，计算机可以用来从日常消费者交易中收集的数据推断个人的生活方式、习惯、行踪和关联。对数据能否保持安全不被维护或窃听者滥用的不确定性，可能会产生‘寒蝉效应’，导致人们改变他们的可观察活动。随着计算机化得更加普遍，这些问题的潜力将戏剧性增长。”
 
-这种对隐私保护的执着解释了他对加密学领域的兴趣，他早在 1979 年就对此做出了贡献。1981 年，他描述了通过混合网络实现匿名通信的基础，这将特为电子邮件中继服务（Mixmaster）和 Tor 匿名网络提供服务。1982 年，他参与了在年度 CRYPTO '82 大会上成立国际密码学研究协会（IACR）。同年（这也是我们这里感兴趣的），在一篇题为《Blind Signature for Untraceable Payments》([盲签名](https://planb.academy/resources/glossary/blind-signature)用于不可追踪的支付)的[文章](https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF)中，他发布了盲签名过程，这是他尊重隐私的数字货币模型：eCash 的核心。
+这种对隐私保护的执着解释了他对加密学领域的兴趣，他早在 1979 年就对此做出了贡献。1981 年，他描述了通过混合网络实现匿名通信的基础，这将特为电子邮件中继服务（Mixmaster）和 Tor 匿名网络提供服务。1982 年，他参与了在年度 CRYPTO '82 大会上成立国际密码学研究协会（IACR）。同年（这也是我们这里感兴趣的），在一篇题为《Blind Signature for Untraceable Payments》([盲签名](https://planb.academy/resources/glossary/blind-signature)用于不可追踪的支付)的[文章](https://chaum.com/wp-content/uploads/2022/01/Chaum-blind-signatures.pdf)中，他发布了盲签名过程，这是他尊重隐私的数字货币模型：eCash 的核心。
 
 正如 David Chaum 在 1996 年的一份[新闻稿](https://chaum.com/wp-content/uploads/2022/01/05-07-96-DigiCash_s-Ecash%E2%84%A2-to-be-Issued-by-Deutsche-Bank.pdf)中[解释](https://chaum.com/wp-content/uploads/2022/01/05-07-96-DigiCash_s-Ecash%E2%84%A2-to-be-Issued-by-Deutsche-Bank.pdf)的：
 
@@ -225,7 +225,7 @@ eCash 于 1995 年 10 月引入银行系统，开始了 DigiCash 与密苏里州
 2006 年 9 月，美国铸币局与司法部联合发布了一份[新闻稿](https://www.usmint.gov/news/press-releases/20060914-liberty-dollars-not-legal-tender-united-states-mint-warns-consumers)，其中得出结论，使用 NORFED 的硬币违反了美国法典第 18 篇第 486 节，并构成 “联邦犯罪”。因此，继 2007 年联邦调查局对 NORFED 的场所进行突袭后，NotHaus 及其同伙在 2009 年被逮捕，并于 2011 年 3 月受审。2014 年，Bernard von NotHaus 在上诉中被判处六个月的软禁和三年的缓刑。
 
 ### e-gold: 网络上的黄金
-私人电子货币的一个标志性例子是 e-gold 系统。它被称为 “数字黄金货币”，意味着电子转账的货币完全由等量的黄金支持，这些黄金被安全存储。它由 Douglas Jackson 和 Barry Downey 于 1996 年共同创立。Douglas Jackson 是佛罗里达州的一名美国肿瘤学家，他是奥地利经济学家 Friedrich von Hayek 的追随者，希望用 e-gold 创建一种 “[更好的货币](https://blog.bettermoney.com/)”。
+私人电子货币的一个标志性例子是 e-gold 系统。它被称为 “数字黄金货币”，意味着电子转账的货币完全由等量的黄金支持，这些黄金被安全存储。它由 Douglas Jackson 和 Barry Downey 于 1996 年共同创立。Douglas Jackson 是佛罗里达州的一名美国肿瘤学家，他是奥地利经济学家 Friedrich von Hayek 的追随者，希望用 e-gold 创建一种 “[更好的货币](https://web.archive.org/web/20250915190528/https://blog.bettermoney.com/)”。
 其原理是每个 e-gold 单位都可以兑换成真正的黄金。黄金储备由位于美国的一家名为 Gold & Silver Reserve Inc.（G&SR）的公司管理。计算机系统由第二家公司 e-gold Ltd.管理，该公司注册在加勒比海的圣基茨和尼维斯。黄金不是唯一涉及的金属：用户还可以持有和交换 e-silver、e-platinum 和 e-palladium，这些都是基于同一模型构建的。
 
 e-gold 系统利用了刚刚兴起的网络，特别是最近推出的 Netscape 浏览器。每个客户都可以从网站访问他们的账户，而不必操作专用软件。对于当时来说，该平台性能非常高，利用了受到银行间转账启发的实时全额结算系统。以下是 2005 年发送 e-gold 的样子（图片来自当时的[教程](https://www.geocities.ws/rizuan_mahrol/setpbystep.html)）：
@@ -240,7 +240,7 @@ e-gold 系统利用了刚刚兴起的网络，特别是最近推出的 Netscape 
 另一个中央化的私人货币系统例子是自由储备（Liberty Reserve），它允许用户持有和转移与美元、欧元或黄金挂钩的电子货币。这个系统由美国乌克兰裔的 Arthur Budovsky 和来自圣彼得堡的俄罗斯移民 Vladimir Kats 创立。2006 年，Arthur Budovsky 移民到哥斯达黎加，当时被视为一个 “避税天堂”，在那里他注册了他的公司，自由储备股份有限公司。
 
 ![2009 年自由储备标志](assets/zh-Hans/010.webp)
-2009 年自由储备标志（来源：[维基媒体](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp)）
+2009 年自由储备标志（来源：[维基媒体](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.jpg)）
 该系统与电子黄金（e-gold）非常相似，不同之处在于资金（主要是美元）被存放在海外银行账户中，而不是私人金库中。自从 2007 年 4 月 Douglas Jackson 及其合伙人被起诉后，e-gold 关闭，自由储备（Liberty Reserve）因此大受益。根据[美国司法部](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment%20-%20Redacted_0.pdf) 2013 年 5 月的数据，该平台在全球拥有超过一百万用户，包括美国的 20 多万用户，并每年处理 1200 万笔金融交易，总额超过 14 亿美元。该平台主要用于犯罪活动，但[不仅限于此](https://web.archive.org/web/20150422023243/https://www.theatlantic.com/magazine/archive/2015/05/bank-of-the-underworld/389555/)：自由储备也被外汇交易者或用于海外转账。
 
 然而，该系统最终遭遇了与电子黄金相同的命运。2009 年，哥斯达黎加的 *Superintendencia General de Entidades Financieras*（金融监管总局）对自由储备有兴趣，要求其获得许可证（公司未能做到）。然后，在 2011 年 11 月，美国金融罪行执行网络（FinCEN）发布了一份[通知](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment%20-%20Redacted_0.pdf#page=12)，声明该系统 “被犯罪分子用来进行匿名交易，以全球范围内转移资金。” 最终，在一次国际行动中，自由储备被关闭：2013 年 5 月 24 日，Arthur Budovsky 及其主要合伙人在不同的司法管辖区（西班牙、美国、哥斯达黎加）被起诉并逮捕，主要网站被司法部查封。2016 年，被引渡至美国后，Arthur Budovsky 因洗钱被判处 20 年监禁。
@@ -361,7 +361,7 @@ Bit-gold 与比特币的相似之处是惊人的。系统的三个组成元素�
 
 ![RPOW中的交换](assets/zh-Hans/018.webp)
 
-Hal Finney 不仅设计了模型，而且还亲自实施了它。2004 年 8 月 15 日，他在密码朋克邮件列表上[宣布](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html)了RPOW 系统的启动，并在专用网站（rpow.net）上记录了其操作。然后，他在旧金山举行的 2005 年 CodeCon 会议上[展示](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html)了它，讨论了工作证明代币的潜在用途，即：价值转移、垃圾邮件调控、视频游戏中的商业活动、在线赌博如扑克，以及像 BitTorrent 的文件共享协议中的反吸血鬼策略。
+Hal Finney 不仅设计了模型，而且还亲自实施了它。2004 年 8 月 15 日，他在密码朋克邮件列表上[宣布](https://lists.cpunks.org/archives/list/cypherpunks-legacy@lists.cpunks.org/message/M2HERXWHTGPIOUFP3JXOXTGZXWBHFYC5/)了RPOW 系统的启动，并在专用网站（rpow.net）上记录了其操作。然后，他在旧金山举行的 2005 年 CodeCon 会议上[展示](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html)了它，讨论了工作证明代币的潜在用途，即：价值转移、垃圾邮件调控、视频游戏中的商业活动、在线赌博如扑克，以及像 BitTorrent 的文件共享协议中的反吸血鬼策略。
 然而，RPOW 存在内在缺陷，这可能解释了为什么它没有达到预期的成功：
 
 - 其安全模型相当脆弱，因为它依赖于中心化服务器；
@@ -564,7 +564,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 
 几天后，Hal Finney 在邮件列表上对这种货币政策做出了积极反应，他对“系统可以配置为只允许生成一定最大数量的单位”这一事实感到兴奋。在他的电子邮件中，他估计，如果比特币成为“全球使用的主要支付系统”，那么每个单位的价值将达到“大约 1000 万美元”。他总结道，“今天用几分钱的计算时间生成单位”的可能性可能是“一个非常好的赌注”。即使这个估计是有争议的（因为它基于的是相当于全球总财富的比特币估值），这种推理是合理的。
 
-1 月 16 日，中本聪在发送给邮件列表的一封电子邮件中重申了“长期投资”的理念，他在其中描述了比特币的潜在用例。他当时[声明](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html)，“如果它能流行起来，拥有一些可能是审慎的”，并且“如果有足够多的人有相同的想法，那就会成为一个自我实现的预言”。一个月后，他[重申](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562)了这一断言，解释说有限的单位数量很可能创造一个“积极的反馈循环”，即“用户越多，价值增加越多，这可能会吸引更多渴望从不断增长的价值中受益的用户”。因此，投机因素从一开始就存在，目的是启动该系统。
+1 月 16 日，中本聪在发送给邮件列表的一封电子邮件中重申了“长期投资”的理念，他在其中描述了比特币的潜在用例。他当时[声明](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html)，“如果它能流行起来，拥有一些可能是审慎的”，并且“如果有足够多的人有相同的想法，那就会成为一个自我实现的预言”。一个月后，他[重申](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/3/)了这一断言，解释说有限的单位数量很可能创造一个“积极的反馈循环”，即“用户越多，价值增加越多，这可能会吸引更多渴望从不断增长的价值中受益的用户”。因此，投机因素从一开始就存在，目的是启动该系统。
 
 ### 监管、僵尸网络和生态
 
@@ -759,7 +759,7 @@ Martti Malmi 还在 SourceForge 页面上设置了一个论坛和一个 wiki。�
 
 在那个时候，轻量级钱包（被称为 "[SPV](https://planb.academy/resources/glossary/spv-node-light-node)"）还不存在，所以中本聪自己认为使用这种类型的软件是可以接受的，即使这种使用违背了比特币核心的去中介化原则。2010 年 5 月 18 日，他在论坛上[写道](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149)：
 
-> "与此同时，像 [vekja.net](http://vekja.net) 和 [www.mybitcoin.com](http://www.mybitcoin.com) 的网站一直在尝试使用基于账户的系统。你在一个网站上创建一个账户，将你的比特币存放在那里，并进行转入转出。在网站上创建一个账户比安装软件和学习使用它要容易得多，对大多数人来说这是一种更熟悉的方法。唯一的缺点是你必须信任该网站，但对于用于小额支付和杂项开支的小额来说，这是可以接受的。这是一个容易上手的方式，如果收到的金额变得更加重要，你可以切换到实际的比特币软件。"
+> "与此同时，像 vekja.net 和 www.mybitcoin.com 的网站一直在尝试使用基于账户的系统。你在一个网站上创建一个账户，将你的比特币存放在那里，并进行转入转出。在网站上创建一个账户比安装软件和学习使用它要容易得多，对大多数人来说这是一种更熟悉的方法。唯一的缺点是你必须信任该网站，但对于用于小额支付和杂项开支的小额来说，这是可以接受的。这是一个容易上手的方式，如果收到的金额变得更加重要，你可以切换到实际的比特币软件。"
 
 最后，在 5 月 19 日，一个名为 Teppy 的用户开始[接受](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159)比特币作为他管理的大型多人在线游戏《A Tale in the Dessert》的支付方式。
 
@@ -959,7 +959,7 @@ Gavin 还参与了软件开发，[实现](https://sourceforge.net/p/bitcoin/code
 最后，我们可以提到 Jeff Garzik（在论坛上使用化名 jgarzik），他是一位美国开发者，在自由软件世界中做出了贡献，特别是对于 Red Hat 发行版，同时他也是奥地利经济学派的自由主义追随者。他通过在Slashdot 上发布的文章发现了比特币，并几乎立即参与到比特币网络中。
 
 ![Jeff Garzik in 2013](assets/zh-Hans/046.webp)
-2013 年的 Jeff Garzik（来源：[Benson Samuel](https://bensonsamuel.com/bitcoin-3/talking-bitcoin-with-jeff-garzik/)）
+2013 年的 Jeff Garzik（来源：[Benson Samuel](https://web.archive.org/web/20230607093908/https://bensonsamuel.com/bitcoin-3/talking-bitcoin-with-jeff-garzik/)）
 
 中本聪的首要目标是使软件和协议更加安全，以应对最近使用量的增加。他和 Gavin Andresen 一起考虑可能发生的各种攻击（包括拒绝服务攻击），并努力修正发现的漏洞。这就是 7 月 17 日添加检查点系统（[v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807)）的原因，它阻止了在特定日期之前重写区块链的行为，并且在 7 月 25 日集成了工作概念（[v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)）以完善节点确定正确区块链的机制。
 
@@ -1338,7 +1338,7 @@ Hal Finney 在 2009 年 4 月退出比特币后，很快就得知自己在 2009 
 在启动几天后，Bitcoin.org 首页上的 “wiki” 链接被改为[指向](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) Bitcoin.it。内容逐渐从 DokuWiki 版本转移过来。1 月 31 日，Martti 在论坛上[表示](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789) Bitcoin.it 是新的wiki。
 
 第三个元素是比特币论坛。它由 Martti 管理，但他很快招募了版主。其中一位是 Theymos（真名 Michael Marquardt），他获得了额外的责任，特别是共同管理论坛。论坛运行在 Simple Machines Forum 引擎上，并且多年来外观没有变化。然而，其 URL 改变了两次。首先，在 5 月 17 日，论坛被[移动](https://bitcointalk.org/index.php?topic=8696.msg125963#msg125963)到forum.bitcoin.org。然后，在 8 月 1 日，它被[移动](https://bitcointalk.org/index.php?topic=33393.msg417531#msg417531)到一个新的顶级域名：bitcointalk.org。多年来，它将被命名为BitcoinTalk。
-随着 2011 年夏天价值的上升，Martti Malmi[出售](https://twitter.com/marttimalmi/status/1339908793736556544)了他的一部分比特币，以购买自己在赫尔辛基附近的舒适公寓。然后，他[离开](https://x.com/marttimalmi/status/1339908797968637952)了他的工作，去日本度过了几个月。他放弃了网站和论坛的维护，[留下](https://bitcointalk.org/index.php?topic=5129680.msg50617107#msg50617107) [它们](https://bitcointalk.org/index.php?topic=1603627.msg16115993#msg16115993)由 Theymos 和某个 Cøbra 共同管理，Martti 将 Cøbra [描述](https://forum.bitcoin.com/ama-ask-me-anything/i-m-martti-malmi-early-bitcoin-developer-and-the-original-founder-of-the-bitcointalk-org-forums-ama-t2770.html#p8222)为 “中本聪信任的某人”。这两个人在接下来的几年内将共同管理这两个平台。
+随着 2011 年夏天价值的上升，Martti Malmi[出售](https://twitter.com/marttimalmi/status/1339908793736556544)了他的一部分比特币，以购买自己在赫尔辛基附近的舒适公寓。然后，他[离开](https://x.com/marttimalmi/status/1339908797968637952)了他的工作，去日本度过了几个月。他放弃了网站和论坛的维护，[留下](https://bitcointalk.org/index.php?topic=5129680.msg50617107#msg50617107) [它们](https://bitcointalk.org/index.php?topic=1603627.msg16115993#msg16115993)由 Theymos 和某个 Cøbra 共同管理，Martti 将 Cøbra [描述](https://web.archive.org/web/20220821142738/https://forum.bitcoin.com/ama-ask-me-anything/i-m-martti-malmi-early-bitcoin-developer-and-the-original-founder-of-the-bitcointalk-org-forums-ama-t2770.html#p8222)为 “中本聪信任的某人”。这两个人在接下来的几年内将共同管理这两个平台。
 
 ### 大会和会议
 
@@ -1361,7 +1361,7 @@ Hal Finney 在 2009 年 4 月退出比特币后，很快就得知自己在 2009 
 在国际舞台上，第一次关于比特币的集体会议于 8 月 19 日至 21 日在纽约举行。这次会议由 Bruce Wagner 组织，汇集了如 Roger Ver、Jesse Powell、Jed McCaleb、Mark Karpelès 和 Charlie Lee 等人物。尽管 Wagner 承诺举办三天的活动，但只进行了四场演讲：他自己的演讲以及 Gavin Andresen、Jeff Garzik 和 Stefan Thomas 的演讲。
 :::video id=bca0217c-29ee-49b2-8d16-d9efe6f390da:::
 
-年底的 11 月，一场欧洲大会[将在布拉格举行](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901)。知名演讲者将包括开发者 Amir Taaki、瑞典 Private Party 创始人 Rick Falkvinge 和主持人 Max Keiser。次年，一个类似的活动将在[伦敦举办](https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/)。
+年底的 11 月，一场欧洲大会[将在布拉格举行](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901)。知名演讲者将包括开发者 Amir Taaki、瑞典 Private Party 创始人 Rick Falkvinge 和主持人 Max Keiser。次年，一个类似的活动将在[伦敦举办](https://web.archive.org/web/20250912184600/https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/)。
 
 ### 媒体报道
 

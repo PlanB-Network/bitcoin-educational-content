@@ -547,7 +547,7 @@ Trotz gewisser Einschränkungen (keine mobile Version, nicht persistente Sitzung
 
 - [Offizielle Website des Mullvad-Browsers](https://mullvad.net/fr/browser)
 - [Mullvad Browser Download-Seite](https://mullvad.net/en/download/browser)
-- [Detaillierte technische Daten](https://mullvad.net/en/browser/Hard-facts)
+- [Detaillierte technische Daten](https://mullvad.net/en/browser/hard-facts)
 - [Mullvad Browser-Erweiterung](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

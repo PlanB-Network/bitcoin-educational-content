@@ -52,7 +52,7 @@ Nano S Plus에는 하드웨어에 대한 물리적 공격으로부터 고급 보
 ## Ledger 나노 S 플러스는 어떻게 구매하나요?
 
 
-Ledger 나노 S 플러스는 [공식 웹사이트](https://shop.Ledger.com/products/Ledger-nano-s-plus)에서 구매할 수 있습니다. 오프라인 매장에서 구매하려면 [공인 리셀러 목록](https://www.Ledger.com/reseller)에서도 Ledger 웹사이트를 통해 확인할 수 있습니다.
+Ledger 나노 S 플러스는 [공식 웹사이트](https://shop.ledger.com/products/ledger-nano-s-plus)에서 구매할 수 있습니다. 오프라인 매장에서 구매하려면 [공인 리셀러 목록](https://www.Ledger.com/reseller)에서도 Ledger 웹사이트를 통해 확인할 수 있습니다.
 
 
 ## 전제 조건

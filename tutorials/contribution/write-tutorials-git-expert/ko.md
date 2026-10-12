@@ -131,7 +131,7 @@ git push -u origin tuto-green-wallet-loic
 ### 3 - 튜토리얼 문서 추가
 
 
-***참고: *** [내 Python GUI 스크립트](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation)를 사용하여 3단계와 4단계를 자동화할 수 있습니다. 로컬 클론의 해당 폴더에서 직접 실행한 다음 GUI의 필수 입력란을 채우세요. 설치 및 사용 방법에 대한 자세한 내용은 [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)를 참조하세요.
+***참고: *** [내 Python GUI 스크립트](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/data-creator)를 사용하여 3단계와 4단계를 자동화할 수 있습니다. 로컬 클론의 해당 폴더에서 직접 실행한 다음 GUI의 필수 입력란을 채우세요. 설치 및 사용 방법에 대한 자세한 내용은 [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md)를 참조하세요.
 
 
 수동으로 수행하려면 다음 단계를 따르세요:

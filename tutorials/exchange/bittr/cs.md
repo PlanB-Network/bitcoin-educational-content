@@ -21,7 +21,7 @@ Projdeme si, jak snadno začít stohovat Sats pomocí Bittr.
 ## Začínáme se službou Bittr
 
 
-- Na webu nebo v mobilu přejděte na [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) a klikněte na "Buy Bitcoin"
+- Na webu nebo v mobilu přejděte na [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) a klikněte na "Buy Bitcoin"
 
 
 

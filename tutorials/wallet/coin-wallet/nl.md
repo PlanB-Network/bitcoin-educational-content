@@ -44,10 +44,6 @@ Coin Wallet is beschikbaar op alle belangrijke platforms.
 
 
 
-- [Android (Galaxy Store)](https://galaxystore.samsung.com/detail/com.coinspace.app)
-
-
-
 - [Android (Huawei AppGallery)](https://appgallery.huawei.com/app/C112183767)
 
 

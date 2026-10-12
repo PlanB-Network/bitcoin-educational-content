@@ -5,7 +5,7 @@ description: Breez ituma vyoroha gutoragura amafaranga y’ibice vy’amahera y�
 
 ![cover](assets/cover.webp)
 
-
+> **Imburi (Gitugutu 2026):** Breez yakuye porogarama yayo ya kera yo kuri telefone ngendanwa (Breez: Lightning Client & POS) mu maduka ya porogarama mu 2026, yongera yugara imiyoboro y'abayikoresha. Amahuza yo kuyikurako n'intambwe zo muri iyi nyigisho ntibigikora. Abari basanzwe bayikoresha bashobora kugarukana amahera yabo bakoresheje igikoresho [breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery). Tugumije uru rupapuro nk'icitegererezo gushika ruvugururwe.
 
 Kuva mu gihe c'ikiza ca COVID-19, ukwishyura mu buryo bwa digitale ata gukorana navyo vyarakwiragiye cane, no mu maduka mato cane. Muri ico kiringo, ubucuruzi bwinshi bwabonye ubushobozi bwo gukoresha amahera y’ibice vy’umubiri (bitcoin cash solutions), bikabafasha kwakira amahera ava kw’isi yose. Ariko rero, ivyo bisubizo rimwe na rimwe biragoye gukoresha canke ntibibereye ku bucuruzi buto buto. Muri iyi nyigisho, tuzoba turiko turaraba ikibanza co kwishura ca Breez, umuti ugaragara kubera uko woroshe gukoresha, mu gihe uguha ububasha bwose ku bijanye n’uburongozi bw’amahera yawe ya bitcoins.
 
@@ -15,7 +15,7 @@ Kuva mu gihe c'ikiza ca COVID-19, ukwishyura mu buryo bwa digitale ata gukorana 
 
 
 
-Breez POS ni igikorwa co kwibungabunga gitangwa na Breez wallet. Ubuhinga bw’iyi serivisi ni ugutuma abacuruzi bashobora gutora amahera biciye kuri Bitcoin mu gihe baguma ku rubuga rworoshe, rusa cane n’amasakoshi atandukanye ya Lightning. Breez POS iboneka ku [Iduka rya Google Play](Android) no kuri [Iduka ry’Iporogarama](Iduka ry’Iporogarama ry’Iporogarama)
+Breez POS ni igikorwa co kwibungabunga gitangwa na Breez wallet. Ubuhinga bw’iyi serivisi ni ugutuma abacuruzi bashobora gutora amahera biciye kuri Bitcoin mu gihe baguma ku rubuga rworoshe, rusa cane n’amasakoshi atandukanye ya Lightning. Breez POS iboneka ku Iduka rya Google Play (Android) no kuri Iduka ry’Iporogarama (iOS)
 
 
 

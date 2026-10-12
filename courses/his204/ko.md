@@ -309,7 +309,7 @@ Saint-Pierre 수도원장은 사치스러운 궁정과 군사적 정복에 대�
 
 경제사상 면에서 그는 훗날 Jeremy Bentham이 그랬듯 효용의 원칙을 일관되게 적용했고, 자주 건전한 통찰을 제시했다. 공평하게 말하면, 그는 당시 누구도 완전히 벗어나지 못한 중상주의 사상의 영향을 여전히 받고 있었다.
 
-그래도 Saint-Pierre 수도원장은 경제에 관해 정확한 관찰을 몇 가지 했다. 흔히 그 생각의 공로를 인정받는 *Condillac*보다도 먼저, 그는 어떤 교환에서도 양 당사자가 이익을 얻는다고 분명히 말했다. 이는 1733년의 [“프랑스 무역 개선 계획”](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/)에서 찾을 수 있다. 그는 거기서 이렇게 썼다.
+그래도 Saint-Pierre 수도원장은 경제에 관해 정확한 관찰을 몇 가지 했다. 흔히 그 생각의 공로를 인정받는 *Condillac*보다도 먼저, 그는 어떤 교환에서도 양 당사자가 이익을 얻는다고 분명히 말했다. 이는 1733년의 [“프랑스 무역 개선 계획”](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/)에서 찾을 수 있다. 그는 거기서 이렇게 썼다.
 
 > 상인들 사이에서 매매가 이루어질 때, 판매자는 이익을 얻고 구매자도 마찬가지로 이익을 얻는다. 양쪽에 실제적이거나 인식된 이익이 없다면 판매자는 그런 가격에 팔지 않을 것이고, 구매자도 자기 쪽에서 그런 가격에 사지 않을 것이기 때문이다.
 
@@ -469,7 +469,7 @@ Gournay 서클의 지적 산출은 사상의 역사에 큰 영향을 미쳤다. 
 
 ![프랑스 경제 출판 연구, 1566-1789.](assets/en/035.webp)
 
-프랑스 사람들 사이에 경제 토론의 취향을 퍼뜨리기 위해 Gournay와 그의 친구들은 그것을 소설을 통해 접근 가능하게 만들려 했다. 길드를 비판한 *직업 조합에 관한 회고록* 이후, Gournay와 Cliquot-Blervache는 Gabriel-François Coyer가 Chinki라는 짧은 풍자소설을 쓰도록 도왔다: [다른 나라에도 적용되는 코친차이나 이야기](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+프랑스 사람들 사이에 경제 토론의 취향을 퍼뜨리기 위해 Gournay와 그의 친구들은 그것을 소설을 통해 접근 가능하게 만들려 했다. 길드를 비판한 *직업 조합에 관한 회고록* 이후, Gournay와 Cliquot-Blervache는 Gabriel-François Coyer가 Chinki라는 짧은 풍자소설을 쓰도록 도왔다: [다른 나라에도 적용되는 코친차이나 이야기](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Abbé Gabriel-François Coyer, “Chinki”](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ Quesnay는 간단히 말했다.
 
 중농주의자들은 정부 간섭이 초래한 피해, 특히 곡물 무역에서의 피해를 보았다. 그들은 권위가 개인들만큼 상업을 잘 관리할 수 없다는 점을 인정해야 한다고 말한다. 그렇게 하려면 모든 필요에 응답하고 수요나 공급의 모든 변화에 반응해야 하기 때문이다. 이 모든 것은 상상할 수 있는 가장 현명한 정부의 능력도 훨씬 넘어선다. 따라서 사물들을 그대로 두고 흐르게 해야 한다.
 
-본성상 유익한 무역은 전적으로, 완벽하게 자유로워야 한다. 그 구성원 중 한 명인 Le Trosne은 [*곡물 무역의 자유: 언제나 유익하고 결코 해롭지 않다*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/)라는 팸플릿까지 썼다.
+본성상 유익한 무역은 전적으로, 완벽하게 자유로워야 한다. 그 구성원 중 한 명인 Le Trosne은 [*곡물 무역의 자유: 언제나 유익하고 결코 해롭지 않다*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/)라는 팸플릿까지 썼다.
 
 ### 다섯째 원칙: 모든 인간은 형제다
 

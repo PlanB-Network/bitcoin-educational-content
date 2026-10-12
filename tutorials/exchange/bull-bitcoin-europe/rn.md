@@ -17,7 +17,7 @@ Bull Bitcoin yiyemeje gutanga ubuhinga buboneye ata mahera yihishije. Zirikana k
 ## Iyandikishe kuri Bull Bitcoin.
 
 
-Genda kuri [paje y’ukwiyandikisha] ya Bull Bitcoin(https://amakonti.bullbitcoin.com/ru/ukwiyandikisha) kugira ngo ukore konti nshasha. Injira muri e-mail yawe Address maze uhitemwo ijambobanga rikomeye. Hanyuma ukande "*Iyandikishe*".
+Genda kuri [paje y’ukwiyandikisha](https://accounts.bullbitcoin.com/en/registration) ya Bull Bitcoin(https://accounts.bullbitcoin.com/en/registration) kugira ngo ukore konti nshasha. Injira muri e-mail yawe Address maze uhitemwo ijambobanga rikomeye. Hanyuma ukande "*Iyandikishe*".
 
 
 ![BULL](assets/fr/01.webp)
@@ -186,7 +186,7 @@ Niba utamenyereye gukoresha ama wallet Bitcoin, Lightning canke Liquid, ndagusav
 
 https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Ushobora kandi gutohoza [inyigisho zacu zitomoye ku bikoresho vyiza kuruta ibindi vyose vya Bitcoin](https://planb.academy/inyigisho/wallet).
+Ushobora kandi gutohoza [inyigisho zacu zitomoye ku bikoresho vyiza kuruta ibindi vyose vya Bitcoin](https://planb.academy/tutorials/wallet).
 
 
 Hanyuma wemeze ivyo uguze ukanda kuri "*Wemeze uguze*".

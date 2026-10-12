@@ -122,7 +122,7 @@ Für Benutzer außerhalb von Umbrel (z.B. auf einem persönlichen Server, einem 
 
 
 
-**Voraussetzungen:** Vergewissern Sie sich, dass Ihr System die Mindestanforderungen gemäß der [Dokumentation Setup](https://docs.thunderhub.io/setup) erfüllt:
+**Voraussetzungen:** Vergewissern Sie sich, dass Ihr System die Mindestanforderungen gemäß der [Dokumentation Setup](https://docs.thunderhub.io/configure) erfüllt:
 
 
 
@@ -136,7 +136,7 @@ Für Benutzer außerhalb von Umbrel (z.B. auf einem persönlichen Server, einem 
 
 
 
-**1. Rufen Sie den ThunderHub-Code ab:** Klonen Sie das GitHub-Repository des Projekts wie in der [Installationsdokumentation](https://docs.thunderhub.io/installation) beschrieben:
+**1. Rufen Sie den ThunderHub-Code ab:** Klonen Sie das GitHub-Repository des Projekts wie in der [Installationsdokumentation](https://docs.thunderhub.io/get-started) beschrieben:
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Hauptkonfigurationsdatei:** Erstellen Sie eine `.env.local`-Datei im Stammverzeichnis des ThunderHub-Ordners, um die Konfiguration anzupassen (dies verhindert, dass Ihre Einstellungen bei Aktualisierungen überschrieben werden). Hauptvariablen gemäß der [Setup-Dokumentation](https://docs.thunderhub.io/setup):
+**1. Hauptkonfigurationsdatei:** Erstellen Sie eine `.env.local`-Datei im Stammverzeichnis des ThunderHub-Ordners, um die Konfiguration anzupassen (dies verhindert, dass Ihre Einstellungen bei Aktualisierungen überschrieben werden). Hauptvariablen gemäß der [Setup-Dokumentation](https://docs.thunderhub.io/configure):
 
 
 
@@ -304,8 +304,8 @@ Die Anmeldeseite von ThunderHub wird angezeigt. Wählen Sie das konfigurierte Ko
 
 
 
-- **Installation:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- **Konfiguration:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Installation:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- **Konfiguration:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

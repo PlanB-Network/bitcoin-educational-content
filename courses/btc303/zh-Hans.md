@@ -723,7 +723,7 @@ https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522
 - 如果区块补贴为零，而 Mempool 又是空的或几乎是空的，费用狙击会使情况变得不稳定。
 
 
-由于向只有交易费用的区块奖励过渡还遥遥无期，我们最好不要匆忙下结论，而是要趁早解决可能出现的问题。例如，Peter Todd 认为比特币的安全预算将来可能会不够用，因此主张在比特币中实行小规模的永久性通货膨胀。不过，他也认为现在讨论这个问题并不是一个好主意，正如[他在《What Bitcoin Did》播客中所说](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-bitcoin)：
+由于向只有交易费用的区块奖励过渡还遥遥无期，我们最好不要匆忙下结论，而是要趁早解决可能出现的问题。例如，Peter Todd 认为比特币的安全预算将来可能会不够用，因此主张在比特币中实行小规模的永久性通货膨胀。不过，他也认为现在讨论这个问题并不是一个好主意，正如[他在《What Bitcoin Did》播客中所说](https://www.youtube.com/watch?v=8yah3N9n84k)：
 
 
 > 但这是未来 10 年、20 年后的风险。那是一段很长的时间。到那时，谁知道会有什么风险呢？
@@ -819,7 +819,7 @@ Aaron van Wirdum 在他的 Bitcoin Magazine 题为 [The Long Road To SegWit](htt
 
 > Shaolinfry 提出了一种替代方案：UASF。UASF 将有一个 '标志日激活'，节点在未来某个预定时间开始执行，而不是按照哈希力激活的。"只要这种 UASF 由经济上的多数人执行，就会迫使大多数矿工遵循（或激活）其软分叉。
 
-其中，他引用了 Shaolinfry 发送给 Bitcoin-dev 邮件列表的电子邮件。在那封邮件中，Shaolinfry [反对矿工激活的软分叉](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html)，并列举了其中存在的一系列问题：
+其中，他引用了 Shaolinfry 发送给 Bitcoin-dev 邮件列表的电子邮件。在那封邮件中，Shaolinfry [反对矿工激活的软分叉](https://gnusha.org/pi/bitcoindev/jo5-7HCZX7tgdMpIQgK85HCPP14FWxvOIbjV_oerIfc-HOP1GbK3SxFX82Ls23yU1L7y95QsFFggddMNdo5Sxy7YhTJhRFN1f8d6PaA8b7s=@protonmail.ch/)，并列举了其中存在的一系列问题：
 
 
 > 首先，这需要相信 Hash 的能量在激活后会生效。  在 BIP66 Soft Fork 事件中，95% 的 Hashrate 发出了准备就绪的信号，但实际上约有一半的 Hashrate 并未真正验证升级后的规则，而是错误地在无效区块上进行了挖掘。
@@ -1243,7 +1243,7 @@ Lombrozo 还谈到了共识更改的过程，但这已经超出了本章的讨�
 > 严格来说，您应该根据自己从我的文章以及我在比特币和闪电网络上的工作中获得的价值来决定是否捐赠。
 
 
-在他的案例中，使用化名的原因应根据他的优点来判断，而不是根据化名背后的人的身份。有趣的是，他在［CoinDesk 上的一篇文章](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) 中透露，使用化名另有原因。
+在他的案例中，使用化名的原因应根据他的优点来判断，而不是根据化名背后的人的身份。有趣的是，他在［CoinDesk 上的一篇文章](https://www.coindesk.com/markets/2020/06/29/many-bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) 中透露，使用化名另有原因。
 
 
 > 我最初[使用化名]的原因只是担心[会]犯下大错；因此，ZmnSCPxj 原本是一个一次性化名，在这种情况下可以放弃。不过，这个化名似乎赢得了大多数人的好感，因此我保留了它。
@@ -1318,7 +1318,7 @@ Lombrozo 还谈到了共识更改的过程，但这已经超出了本章的讨�
 在每个阶段，不同观点和背景的人都会审查可用的信息，无论是源代码、BIP 还是简单描述的想法。这些阶段通常不是以严格的自上而下的方式进行的，事实上，多个阶段可能同时进行，有时还会在这些阶段之间来回切换。不同的人也可能在不同的阶段提供反馈。
 
 
-Jon Atack 是 Bitcoin Core 上最活跃的代码审查员之一。他撰写了一篇博文](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core)，介绍如何审核 Bitcoin Core 中的拉取请求。他强调，一个好的代码审查员要关注如何最好地增加价值。
+Jon Atack 是 Bitcoin Core 上最活跃的代码审查员之一。他撰写了一篇博文](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core)，介绍如何审核 Bitcoin Core 中的拉取请求。他强调，一个好的代码审查员要关注如何最好地增加价值。
 
 
 > 作为新人，我们的目标是在尽可能多学知识的同时，以友好和谦逊的态度努力增加价值。
@@ -1442,7 +1442,7 @@ Bitcoin Core 和大多数其他比特币软件都是开源的，这意味着任�
 > 中本聪写道：
 >
 
-> "我一直在研究一种新的电子现金系统，这种系统完全是点对点的，没有可信的第三方。本文可在 http://www.Bitcoin.org/Bitcoin.pdf 上查阅"
+> "我一直在研究一种新的电子现金系统，这种系统完全是点对点的，没有可信的第三方。本文可在 http://www.bitcoin.org/bitcoin.pdf 上查阅"
 >
 
 > 我们非常、非常需要这样一个系统，但根据我对你的建议的理解，它似乎无法达到所需的扩展规模。
@@ -1719,7 +1719,7 @@ Maxwell 写下上述文章以来，许多年过去了，他的话依然正确。
 该列表显示了发布比特币补丁时必须多么小心谨慎，因为补丁本身就可能泄露漏洞。第四项尤其有趣，因为它解释了如何测试补丁是否伪装得足够好。事实上，如果几个真正有经验的开发者即使知道补丁修复了一个漏洞，也无法发现这个漏洞，那么对于其他人来说要发现该漏洞也很可能会非常困难。
 
 
-导致这封邮件的主题是讨论是否、何时以及如何披露山赛币和比特币的其他实现方式的漏洞。这里没有明确的答案。"帮助好人" 似乎是明智之举，但谁来决定谁是好人？Bryan Bishop [认为](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html)，帮助山赛币甚至诈骗币抵御安全漏洞是一种道德责任：
+导致这封邮件的主题是讨论是否、何时以及如何披露山赛币和比特币的其他实现方式的漏洞。这里没有明确的答案。"帮助好人" 似乎是明智之举，但谁来决定谁是好人？Bryan Bishop [认为](https://gnusha.org/pi/bitcoindev/CABaSBawaN8GTES96yZBKa574A0TiDAHvukipYH9MGk0Euev6PA@mail.gmail.com/)，帮助山赛币甚至诈骗币抵御安全漏洞是一种道德责任：
 
 
 > 仅仅保护比特币及其用户免受主动威胁是不够的，保护所有类型的用户和不同的软件免受各种形式的威胁才是更普遍的责任，即使人们使用的是连你个人也并不维护、贡献或倡导的愚蠢而不安全的软件。处理漏洞知识是一件很微妙的事情，您可能会收到比最初描述的更严重的直接或间接影响的知识。
@@ -1992,7 +1992,7 @@ BIP66 是一项收紧比特币脚本中签名编码规则的提案。其[动机]
 
 
 
-这一问题的完整披露由 Pieter Wuille 于 2015 年 7 月 28 日通过 [电子邮件发送至 Bitcoin-dev 邮件列表发布](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html)：
+这一问题的完整披露由 Pieter Wuille 于 2015 年 7 月 28 日通过 [电子邮件发送至 Bitcoin-dev 邮件列表发布](https://gnusha.org/pi/bitcoindev/55B79146.70309@gmail.com/)：
 
 
 > 大家好
@@ -2061,7 +2061,7 @@ OpenSSL 发布了带有补丁的新版软件，如果从一开始就在比特币
 
 
 
-不幸的是，BIP66 的故事并未就此结束。当 BIP66 被激活后，情况变得相当混乱，因为一些矿工没有验证他们试图扩展的区块。这就是所谓的无验证挖矿，或 SPV-挖矿（简化支付验证）。我们向比特币节点发送了一条警报信息，并提供了一个指向[描述该问题的网页](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining) 的链接：
+不幸的是，BIP66 的故事并未就此结束。当 BIP66 被激活后，情况变得相当混乱，因为一些矿工没有验证他们试图扩展的区块。这就是所谓的无验证挖矿，或 SPV-挖矿（简化支付验证）。我们向比特币节点发送了一条警报信息，并提供了一个指向[描述该问题的网页](https://bitcoin.org/en/alert/2015-07-04-spv-mining) 的链接：
 
 
 > 2015 年 7 月 4 日清晨，达到了 950/1000（95%）阈值。此后不久，一个小型挖矿（属于未升级的 5%）挖出了一个无效区块--这是预料之中的事情。不幸的是，事实证明，大约一半的网络哈希率是没有完全验证区块的（称为 SPV 挖矿），并在该无效区块的基础上构建了新区块。

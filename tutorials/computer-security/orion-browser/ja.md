@@ -643,8 +643,8 @@ MacやiPhoneで日常的に使う分には、アップルのエコシステム�
 
 
 - 公式サイト[kagi.com/orion](https://kagi.com/orion/)
-- 完全な **FAQ**：[browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **コミュニティフォーラム**：[community.kagi.com](https://community.kagi.com)
+- 完全な **FAQ**：[browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **コミュニティフォーラム**：[community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **バグ追跡**：[orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**：[github.com/OrionBrowser](https://github.com/OrionBrowser) - オープンソースコンポーネント
 - ブログ**Kagi** ：[blog.kagi.com](https://blog.kagi.com) - ニュースと最新情報

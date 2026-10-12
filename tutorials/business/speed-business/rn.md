@@ -50,7 +50,7 @@ Speed ​​ifise ibintu vyinshi vyo gupfuka ivy’amahera y’ubucuruzi bwawe. 
 
 
 
-Rema konti yawe kuri [Speed](https://app.tryspeed.com/yandikishe/) maze dutangure gushinga amahera y'ubucuruzi bwawe.
+Rema konti yawe kuri [Speed](https://app.tryspeed.com/register/) maze dutangure gushinga amahera y'ubucuruzi bwawe.
 
 
 
@@ -371,7 +371,7 @@ Mu **Abahinguzi**, rema imfunguruzo zawe za bose n'iz'ibanga kugira ngo ukoreshe
 
 
 
-Rondera [inyandiko] yuzuye(https://apidocs.tryspeed.com/intangamarara) kugira ngo ushobore gushiramwo neza Ubucuruzi bwihuta.
+Rondera [inyandiko](https://apidocs.tryspeed.com/reference/introduction) yuzuye(https://apidocs.tryspeed.com/reference/introduction) kugira ngo ushobore gushiramwo neza Ubucuruzi bwihuta.
 
 
 

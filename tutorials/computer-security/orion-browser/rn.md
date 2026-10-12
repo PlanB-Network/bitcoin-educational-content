@@ -338,7 +338,7 @@ Ushobora gushika ku vyo ukunda biciye ku **Orion → Ivyo ukunda** (canke ⌘,):
 
 
 
-**Impanuro: Sura [Irutonde rw'Iyunguruzo.com](https://urutonde rw'Iyunguruzo.com) kugira ngo ubone ibihumbi vy'urutonde rw'ibintu vy'umwihariko vyiteguye gukoreshwa.**
+**Impanuro: Sura [Irutonde rw'Iyunguruzo.com](https://filterlists.com) kugira ngo ubone ibihumbi vy'urutonde rw'ibintu vy'umwihariko vyiteguye gukoreshwa.**
 
 
 
@@ -377,7 +377,7 @@ Gushiramwo a:
 
 
 
-- Sura [chrome.google.com/iduka ry'urubuga](https://chrome.google.com/iduka ry'urubuga) canke [ivyongeweko.mozilla.org](ivyongeweko.mozilla.org)
+- Sura [chrome.google.com/iduka ry'urubuga](https://chrome.google.com/webstore) canke [ivyongeweko.mozilla.org](https://addons.mozilla.org)
 - Fyonda kuri "Ongera kuri Chrome/Firefox"
 - Orion izofata maze ishireho iyo extension ubwayo
 
@@ -608,7 +608,7 @@ Kugira ngo Orion igume yihuta kandi iri mu mwiherero:
 
 - Impinduka zihita**: Orion ihita ivugurura kuri macOS biciye kuri Sparkle
 - Gukurikirana ubugoyagoye**: Suzuma ubudasiba amakuru y'isohoka ku bice vy'umutekano
-- Raporo y'ibibazo**: Koresha [ibisubizo.org](https://ibisubizo.org) kugira ngo umenyeshe ibibazo
+- Raporo y'ibibazo**: Koresha [ibisubizo.org](https://orionfeedback.org) kugira ngo umenyeshe ibibazo
 
 
 
@@ -643,11 +643,11 @@ Ibuka: kurinda ubuzima bwite bwawe ntibivana gusa n’umucukumbuzi wawe. Gufatan
 
 
 - Urubuga rwemewe**: [kagi.com/orion/)
-- Ibibazo vyuzuye**: [umucukumbuzi.kagi.com/ibibazo](https://umucukumbuzi.kagi.com/ibibazo)
-- Ihuriro ry'abanyagihugu**: [abanyagihugu.kagi.com](https://abanyagihugu.kagi.com)
-- Gukurikirana ibikoko**: [ibisubizo vya orion.org](https://ibisubizo vya orion.org)
-- GitHub Orion**: [github.com/Umucukumbuzi wa Orion](https://github.com/Umucukumbuzi wa Orion) - Ibice vy'inkomoko yuguruye
-- Urubuga rwa Kagi**: [urubuga.kagi.com](https://urubuga.kagi.com) - Amakuru n'ibindi bishasha
+- Ibibazo vyuzuye**: [umucukumbuzi.kagi.com/ibibazo](https://help.kagi.com/orion/faq/faq.html)
+- Ihuriro ry'abanyagihugu**: [abanyagihugu.kagi.com](https://help.kagi.com/orion/support-and-community/)
+- Gukurikirana ibikoko**: [ibisubizo vya orion.org](https://orionfeedback.org)
+- GitHub Orion**: [github.com/Umucukumbuzi wa Orion](https://github.com/OrionBrowser) - Ibice vy'inkomoko yuguruye
+- Urubuga rwa Kagi**: [urubuga.kagi.com](https://blog.kagi.com) - Amakuru n'ibindi bishasha
 
 
 
@@ -660,9 +660,9 @@ Inyuma yo gutunganya, gerageza gutunganya kwawe:
 
 
 
-- [Fuka Imirongo Yawe (EFF)](https://pfuka imirongo yawe.eff.org/) - Igerageza ry'ibimenyetso vy'urutoke
-- [Igerageza ry'Ukuvuza kwa DNS](igerageza ry'Ubuvuzi bwa DNS.com/) - Suzuma ko DNS ivuza
-- [Ivyasohotse mu mucukumbuzi](https://ivyasohotse mu mucukumbuzi.com/) - Ivyiyumviro vyuzuye vy'ibigeragezo vy'ubuzima bwite
+- [Fuka Imirongo Yawe (EFF)](https://coveryourtracks.eff.org/) - Igerageza ry'ibimenyetso vy'urutoke
+- [Igerageza ry'Ukuvuza kwa DNS](https://www.dnsleaktest.com/) - Suzuma ko DNS ivuza
+- [Ivyasohotse mu mucukumbuzi](https://browserleaks.com/) - Ivyiyumviro vyuzuye vy'ibigeragezo vy'ubuzima bwite
 
 
 
@@ -674,9 +674,9 @@ Kugira ngo ukingirwe cane, raba abandi barongozi bacu:
 
 
 
-- [Firefox yakomeye](https://umugambi.urubuga/inyigisho/umutekano wa mudasobwa/itumanaho/Firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Itunganywa ry'ibikoresho vyinshi
-- [Umucukumbuzi wa Tor](https://umugambi.urubuga/inyigisho/umutekano wa mudasobwa/itumanaho/umucukumbuzi-tor-a847e83c-31ef-4439-9eac-742b255129bb) - Urubuga rwose rwo kutamenyekana
-- [Umucukumbuzi wa Mullvad](https://umugambi.urubuga/inyigisho/umutekano wa mudasobwa/itumanaho/umucukumbuzi-wa Mullvad-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Uburinzi burengeye ubw'ibimenyetso vy'intoke
+- [Firefox yakomeye](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Itunganywa ry'ibikoresho vyinshi
+- [Umucukumbuzi wa Tor](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Urubuga rwose rwo kutamenyekana
+- [Umucukumbuzi wa Mullvad](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Uburinzi burengeye ubw'ibimenyetso vy'intoke
 
 
 

@@ -48,7 +48,7 @@ objectives:
 
 
 
-- 全世界人民對使用 Bitcoin 的興趣日增](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin)，從銀行體系中解放出來，和/或使用波動性較小或貶值程度較低的貨幣，黎巴嫩、敘利亞、埃及、阿根廷等國的人民就是如此；
+- 全世界人民對使用 Bitcoin 的興趣日增](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin)，從銀行體系中解放出來，和/或使用波動性較小或貶值程度較低的貨幣，黎巴嫩、敘利亞、埃及、阿根廷等國的人民就是如此；
 - 在其固定貨幣政策的推動下，其價格隨著時間不斷升值，使其成為一種儲值工具和長期投資；
 - 投機性加密貨幣市場的連續成長，尤其是在 2017-2018 年和 2020-2021 年間；
 - Bitcoin 在主流媒體中的地位日益提升。
@@ -701,7 +701,7 @@ Bitcoin 是分散式的，因此自然任何人都可以隨心所欲。
 
 
 
-- [ ] *提示：製作一個以倫敦大橋和大笨鐘為背景的 Bitcoin 標誌。未來感* - [連結](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *提示：製作一個以倫敦大橋和大笨鐘為背景的 Bitcoin 標誌。未來感*
 
 
 
@@ -714,7 +714,7 @@ Bitcoin 是分散式的，因此自然任何人都可以隨心所欲。
 
 
 
-- [ ] *提示：讓第四個更真實* - [連結](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *提示：讓第四個更真實*
 
 
 
@@ -732,7 +732,7 @@ Bitcoin 是分散式的，因此自然任何人都可以隨心所欲。
 
 
 
-- [ ] *提示：為「倫敦 Bitcoin Meetup」創造英式簡潔風格的標誌* - [連結](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *提示：為「倫敦 Bitcoin Meetup」創造英式簡潔風格的標誌*
 
 
 
@@ -1392,7 +1392,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 
 
 - [Btcmap.org](https://btcmap.org/)，一個每天更新兩張地圖的網站：**[接受Bitcoin的企業世界地圖](https://btcmap.org/map)**和**[世界社區地圖](https://btcmap.org/communities/map)**。許多比特幣玩家會定期查看這些地圖，無論他們是在旅行還是日常生活中，都會去認識新朋友或找地方花他們的[Sats](https://planb.academy/resources/glossary/satoshi-sat)。Btcmap 是全球的參考，在那裡列出您的社群對於能見度是非常重要的。
-- [BitcoinerEvents](https://www.bitcoinerevents.com/)，一個由比特幣玩家為比特幣玩家創建的網站。 **它可以讓你張貼你的社區即將發生的事件**。但是在法國，它仍然沒有被廣泛使用。
+- BitcoinerEvents，一個由比特幣玩家為比特幣玩家創建的網站。 **它可以讓你張貼你的社區即將發生的事件**。但是在法國，它仍然沒有被廣泛使用。 **註（2026年10月）：** 該網站目前已無法存取。[BitcoinOnly Events](https://bitcoinonly.events/) 是一個仍在運作的同類活動行事曆。
 - 依您的國家而定，可能會有其他當地活動。例如在法國，就有 [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/)，每月**列出數十項 Bitcoin 活動**。因此，如果您尚未在 Twitter 上追蹤他們或聯絡他們以分享您的社群與活動資訊，現在正是時候！**為了讓法文活動行事曆保持更新，如果所有法文 Bitcoin 社群都能養成以下習慣，那將會非常棒：**
     - 在Twitter上提及@bitcoinpointfr的每一個新的社區活動
     - 在他們的 Telegram 群組中釘選新的活動公告。
@@ -1412,7 +1412,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 
 雖然最後兩個平台可以幫助提高知名度，但在建立社群時並不建議使用，原因很簡單，因為它們不是免費的。
 
-**在 [btcmap.org](https://btcmap.org/)、[BitcoinerEvents](https://www.bitcoinerevents.com/) 以及法國社群的 [Bitcoin.fr](https://Bitcoin.fr) 上開始列名是綽綽有餘的**。
+**在 [btcmap.org](https://btcmap.org/)、[BitcoinOnly Events](https://bitcoinonly.events/) 以及法國社群的 [Bitcoin.fr](https://Bitcoin.fr) 上開始列名是綽綽有餘的**。
 
 
 恭喜您！您的**社群已建立**，您的**視覺設計已準備就緒**，您的**目標已設定**，您的**溝通管道已就位**，您的**社交網路已啟動**，您的**能見度策略已決定**。
@@ -1500,7 +1500,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 - 帶來**Nerdminer**、Bitaxe、FPGA 或甚至 ASIC；
 - 擁有**Bitcoin 傳單**；
 - 集思廣益，為您的社區設計 Bitcoin 的視覺或標誌；
-- 玩 **[Bitcoin紙牌遊戲](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**；
+- 玩 **[Bitcoin紙牌遊戲](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**；
 - 顯示**[btcmap.org](https://btcmap.org/)** 社區和商家地圖；
 - 使用**閃電**傳送或接收 Bitcoin。
 
@@ -1871,7 +1871,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 
 - 5 月 22 日**披薩日**餐廳之夜
 - 慶祝下一個**Halving**的夜晚或週末
-- 一個關於 Bitcoin 及其運作方式的家庭**遊戲之夜**，使用 [Le Coin de Table](https://www.Maximalist.ovh/) 或 [SHAmory](https://shamory.com/) 等遊戲。
+- 一個關於 Bitcoin 及其運作方式的家庭**遊戲之夜**，使用 [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) 或 [SHAmory](https://shamory.com/) 等遊戲。
 - 介紹不同類型硬體 (CPU、GPU、FPGA、ASIC、Nerdminer、Bitaxe) 的 **Mining 研討會**。
 - 適合初學者的**個下午或晚上**，包含主題工作坊
 - 與鄰近社區的**聯合聚會**
@@ -2006,7 +2006,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 在 planB.network 上的 [Bitcoin 教學工具箱](https://planb.academy/fr/resources/bet)**，已經有幾份傳單可以開放原始碼的方式**，隨著時間的推移，將會有更多的傳單加入。
 
 
-其中一個例子是 [完整來源的傳單](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin)，包含 21 個使用 Bitcoin 的理由。它的設計也是 [開放原始碼](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)，供您修改、改寫和分享。只要記得註明您的資料來源即可。
+其中一個例子是 [完整來源的傳單](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin)，包含 21 個使用 Bitcoin 的理由。它的設計也是 [開放原始碼](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)，供您修改、改寫和分享。只要記得註明您的資料來源即可。
 
 
 
@@ -2050,7 +2050,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 - Bitcoin 白皮書，翻譯成法語。
 
 
-這是[法國比特幣玩家分享的小冊子](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle)，已被放置在全國各地的數十個書箱中。它的設計也是[開放原始碼](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)。
+這是[法國比特幣玩家分享的小冊子](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle)，已被放置在全國各地的數十個書箱中。它的設計也是[開放原始碼](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)。
 
 
 

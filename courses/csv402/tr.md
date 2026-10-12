@@ -3292,7 +3292,7 @@ Elbette, bu kursa başvurduğunuz tarihe bağlı olarak, bu arayüzler halihazı
 #### Interface örneği
 
 
-Bu Rust kod parçacığı bir [RGB20](https://github.com/RGB-WG/RGB-std/blob/master/src/Interface/rgb20.rs) Interface (değiştirilebilir varlık) göstermektedir. Bu kod, standart RGB kütüphanesindeki `rgb20.rs` dosyasından alınmıştır. Bir Interface'ün yapısını ve bir yandan Business Logic (Schema'te tanımlanmıştır) ile diğer yandan cüzdanlara ve kullanıcılara maruz kalan işlevler arasında nasıl bir köprü sağladığını anlamak için buna bir göz atalım.
+Bu Rust kod parçacığı bir [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) Interface (değiştirilebilir varlık) göstermektedir. Bu kod, standart RGB kütüphanesindeki `rgb20.rs` dosyasından alınmıştır. Bir Interface'ün yapısını ve bir yandan Business Logic (Schema'te tanımlanmıştır) ile diğer yandan cüzdanlara ve kullanıcılara maruz kalan işlevler arasında nasıl bir köprü sağladığını anlamak için buna bir göz atalım.
 
 
 ```rust

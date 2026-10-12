@@ -36,7 +36,7 @@ description: SAFU忍者メソッドでGWを節約しよう
 
 
 
-- **信頼性**：2020年からテストされているこの方法は、【ジェイムソン・ロップ】(https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/)のような安全専門家によって、厳しいストレステスト（極度の熱、腐食、機械的圧力）にかけられ、試されてきた。
+- **信頼性**：2020年からテストされているこの方法は、【ジェイムソン・ロップ】(https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/)のような安全専門家によって、厳しいストレステスト（極度の熱、腐食、機械的圧力）にかけられ、試されてきた。
 
 
 
@@ -354,13 +354,13 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- [レポート](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) 忍者SAFUメソッドについて
+- [レポート](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) 忍者SAFUメソッドについて
 
 
 
 
 
-- 比較表[完全版](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- 比較表[完全版](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 
@@ -429,4 +429,4 @@ https://x.com/econoalchemist/status/1329271981712289797
 https://www.waivio.com/@themarkymark/create-your-own-metal-seed-key-backup
 
 
-https://github.com/minibolt-guide/minibolt/blob/main/bonus/Bitcoin/safu-ninja.md
+https://github.com/minibolt-guide/minibolt/blob/2c4770443e7f01ed9c471d995ef5af254719b51e/bonus/bitcoin/safu-ninja.md

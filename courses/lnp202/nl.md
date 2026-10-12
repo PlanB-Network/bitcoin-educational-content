@@ -415,7 +415,9 @@ Het grote voordeel van deze aanpak, vergeleken met een conventionele Lightning w
 
 
 
-De meeste portefeuilles die dit type functionaliteit bieden, vertrouwen op [Boltz](https://boltz.exchange/) voor het technische gedeelte van de ruil.
+De meeste portefeuilles die dit type functionaliteit bieden, vertrouwen op Boltz voor het technische gedeelte van de ruil.
+
+> **Opmerking (oktober 2026):** Boltz heeft op 3 augustus 2026 alle swaps opgeschort en de website is offline. Wallets die op Boltz vertrouwen, bieden deze functie mogelijk niet meer aan.
 
 
 

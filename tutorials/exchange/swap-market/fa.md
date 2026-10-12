@@ -566,6 +566,8 @@ SwapMarket اکنون یک **آدرس منحصر به فرد Bitcoin** تولی�
 
 ## SwapMarket در مقابل Boltz: تفاوت چیست؟
 
+> **یادداشت (اکتبر ۲۰۲۶):** Boltz Exchange در ۳ اوت ۲۰۲۶ همهٔ سواپ‌ها را متوقف کرد و وب‌سایت آن از دسترس خارج است. این ارائه‌دهنده ممکن است دیگر در SwapMarket در دسترس نباشد.
+
 
 
 ### بولتز: فناوری در مقابل خدمات
@@ -639,7 +641,7 @@ SwapMarket با تجمیع چندین ارائه‌دهنده در یک رابط
 
 - [SwapMarket - برنامه وب](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [مستندات فنی](https://docs.boltz.exchange/)
+- [مستندات فنی](https://github.com/BoltzExchange/boltz-backend)
 - [راهنمای میزبانی شخصی](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 
@@ -649,5 +651,5 @@ SwapMarket با تجمیع چندین ارائه‌دهنده در یک رابط
 
 
 
-- [Boltz Exchange](https://boltz.exchange) - سرویس اصلی مبادله اتمی
+- Boltz Exchange - سرویس اصلی مبادله اتمی
 - [ZEUS Swaps](https://zeusln.com) - ارائه‌دهنده مبادلات لایتنینگ

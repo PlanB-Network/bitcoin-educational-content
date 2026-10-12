@@ -372,7 +372,7 @@ Prima di continuare, controlla attentamente nella parte inferiore dell'interfacc
 
 Assicurati, all'inizio dell'interfaccia, che il tuo branch di lavoro sia unito al branch `dev' del repository Plan ₿ Academy (che è il branch principale).
 
-Inserisci un titolo che riassuma brevemente le modifiche che desideri effettuare al repository sorgente. Aggiungi un breve commento che descriva queste modifiche (se alla creazione del tutorial è associato un numero di issue, ricordati di annotare `Close #{numero di issue}` come commento), quindi clicca sul pulsante verde "*Create pull request*" per confermare la richiesta di ["merge"](https://planb.academy/resources/glossary/merge):
+Inserisci un titolo che riassuma brevemente le modifiche che desideri effettuare al repository sorgente. Aggiungi un breve commento che descriva queste modifiche (se alla creazione del tutorial è associato un numero di issue, ricordati di annotare `Close #{numero di issue}` come commento), quindi clicca sul pulsante verde "*Create pull request*" per confermare la richiesta di "merge":
 
 ![GITHUB](assets/fr/38.webp)
 

@@ -45,13 +45,13 @@ Ku bijanye no kurema ijambo ryawe ryo gukira n'ukuboko, uzokenera:
 - Urupapuro rw’urupapuro;
 - Ikaramu canke ikaramu, vyiza ni amabara atandukanye kugira ngo bishobore gutunganya ibintu;
 - Ivyuma vyinshi, kugira ngo bigabanye ingorane zo gutera imbere zijanye n’urupfu rudafise uburinganire;
-- [Urutonde rw’amajambo 2048 BIP39](https://github.com/PlanB-Irezo/Ivyigwa-vy’Ivyigwa/Ibirimwo/Ivyigwa/Ibikoresho/Ibikoresho/Ibikoresho/Ibikoresho/Ibikoresho/Ibikoresho/Ibikoresho/Ibikoresho/Ibikoresho.pdf) ryacapuwe.
+- [Urutonde rw’amajambo 2048 BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) ryacapuwe.
 
 
 Hanyuma, gukoresha orodinateri ifise igikoresho co gupima bizoba ari ngombwa kugira ngo umuntu abare umubare w’ibintu bigenzurwa. Ni co gituma nyene ngira impanuro yo kudakoresha amajambo y’ivy’ukwibuka n’amaboko. N’uko mbona, gufasha mudasobwa, mbere no mu gihe c’ukwiyubara kwavuzwe muri iyi nyigisho, birongereza cane ubugoyagoye bwa wallet.
 
 
-Ku buryo bwo kugerageza bujanye n'"wallet y'ibinyoma", birashoboka gukoresha mudasobwa yawe isanzwe n'igikoresho cayo. Ariko rero, ku buryo bukomeye cane bugamije kugabanya ingorane zo gusenyura ijambo ryawe, ivyiza vyoba ari ugukoresha PC idakorana na internet (vyiza ni uko ata gice ca wifi canke RJ45 wired connection), ifise ibikoresho bikeyi (vyose bikwiye gukoreshwa n’intsinga, kugira ngo wirinde gukwiragiza Lix am all distribution), na [Tails](html), yatanguye ku buryo bushobora gukurwako.
+Ku buryo bwo kugerageza bujanye n'"wallet y'ibinyoma", birashoboka gukoresha mudasobwa yawe isanzwe n'igikoresho cayo. Ariko rero, ku buryo bukomeye cane bugamije kugabanya ingorane zo gusenyura ijambo ryawe, ivyiza vyoba ari ugukoresha PC idakorana na internet (vyiza ni uko ata gice ca wifi canke RJ45 wired connection), ifise ibikoresho bikeyi (vyose bikwiye gukoreshwa n’intsinga, kugira ngo wirinde gukwiragiza Lix am all distribution), na [Tails](https://tails.net/index.fr.html), yatanguye ku buryo bushobora gukurwako.
 
 
 ![mnemonic](assets/notext/2.webp)
@@ -102,7 +102,7 @@ Imwe muri izo mpapuro igereranya umubare uri muri binaire uzoca uhindurwa umubar
 ![mnemonic](assets/notext/5.webp)
 
 
-Ubwa nyuma, umubare uri mu gice c’icumi utubwira aho ijambo rihuye n’iryo jambo riri muri [urutonde rw’amajambo 2048 BIP39] Igisigaye ni uguhitamwo aya majambo kugira ngo dukore ijambo ryo gusubizaho ry'igitabu cacu ca wallet.
+Ubwa nyuma, umubare uri mu gice c’icumi utubwira aho ijambo rihuye n’iryo jambo riri muri [urutonde rw’amajambo 2048 BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) Igisigaye ni uguhitamwo aya majambo kugira ngo dukore ijambo ryo gusubizaho ry'igitabu cacu ca wallet.
 
 
 ![mnemonic](assets/notext/6.webp)
@@ -137,7 +137,7 @@ Nk’uko mubibona mu karorero kanje, ijambo rya cumi na kabiri ubu rigizwe n’i
 ## Intambwe ya 2: Guharura umubare w'ibintu
 
 
-Iyo ntambwe ni yo ihambaye cane mu guhingura n’amaboko ijambo ry’uruyeri, kuko risaba gukoresha mudasobwa. Nk’uko twabibonye, ​​igiharuro c’igenzura gihuye n’intango ya SHA256 hash ikomoka ku ntungamubiri. Naho mu vy’impwemu bishoboka kubara SHA256 n’ukuboko ku bijanye n’inyungu y’ibice 128 canke 256, ico gikorwa coshobora gutwara indwi yose. Vyongeye, ikosa iryo ari ryo ryose ryo mu kubara n’amaboko ryomenyekana gusa ku mpera y’igikorwa, rikaguhatira gutangura bushasha kuva mu ntango. Ntibishoboka rero ko umuntu akora iyo ntambwe akoresheje urupapuro n’ikaramu gusa. Mudasobwa ni nk’itegeko. Niba ugishaka kwiga gukora SHA256 n’amaboko, turagusigurira ingene wobikora mu [nyigisho ya CRYPTO301](
+Iyo ntambwe ni yo ihambaye cane mu guhingura n’amaboko ijambo ry’uruyeri, kuko risaba gukoresha mudasobwa. Nk’uko twabibonye, ​​igiharuro c’igenzura gihuye n’intango ya SHA256 hash ikomoka ku ntungamubiri. Naho mu vy’impwemu bishoboka kubara SHA256 n’ukuboko ku bijanye n’inyungu y’ibice 128 canke 256, ico gikorwa coshobora gutwara indwi yose. Vyongeye, ikosa iryo ari ryo ryose ryo mu kubara n’amaboko ryomenyekana gusa ku mpera y’igikorwa, rikaguhatira gutangura bushasha kuva mu ntango. Ntibishoboka rero ko umuntu akora iyo ntambwe akoresheje urupapuro n’ikaramu gusa. Mudasobwa ni nk’itegeko. Niba ugishaka kwiga gukora SHA256 n’amaboko, turagusigurira ingene wobikora mu [nyigisho ya CRYPTO301](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
 
 
 Kubera iyo mpamvu, ndahanura cane kudakora amajambo y'amaboko ku wallet nyayo. N’uko mbona, gukoresha mudasobwa muri iki gihe, mbere n’aho woba ufise ivyo kwirinda vyose, bituma wallet ishobora gutera cane.

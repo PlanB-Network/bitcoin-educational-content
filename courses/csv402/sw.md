@@ -849,7 +849,7 @@ mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofac
 wapi:
 
 
-- `mpc_tag` ni lebo: `urn:ubideco:mpc:Commitment#2024-01-31`, iliyochaguliwa kulingana na [kanuni za kuweka lebo za RGB](https://github.com/RGB-WG/RGB-core/blob/master/doc/Commitments);
+- `mpc_tag` ni lebo: `urn:ubideco:mpc:Commitment#2024-01-31`, iliyochaguliwa kulingana na [kanuni za kuweka lebo za RGB](https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
 - `kina` (byte 1) huonyesha kina cha *Mti wa MPC* ;
 - cofactor` (bytes 16, katika Endian Kidogo) ni kigezo kinachotumiwa kukuza upekee wa nafasi zilizopewa kila Contract kwenye mti;
 - `mpc::Root` ni mzizi wa *MPC Tree*, unaokokotolewa kulingana na mchakato ulioelezwa katika sehemu inayofuata.
@@ -2359,7 +2359,7 @@ Bila shaka, kulingana na tarehe ambayo unashauriana na kozi hii, miingiliano hii
 
 #### Mfano wa Interface
 
-Kijisehemu hiki cha msimbo wa Rust kinaonyesha [RGB20](https://github.com/RGB-WG/RGB-std/blob/master/src/Interface/rgb20.rs) Interface (mali inayoweza kuvu). Msimbo huu umechukuliwa kutoka kwa faili `rgb20.rs` katika maktaba ya kawaida ya RGB. Hebu tuiangalie ili kuelewa muundo wa Interface na jinsi inavyotoa daraja kati, kwa upande mmoja, Business Logic (iliyofafanuliwa katika Schema) na, kwa upande mwingine, utendaji unaoonekana kwa pochi na watumiaji.
+Kijisehemu hiki cha msimbo wa Rust kinaonyesha [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) Interface (mali inayoweza kuvu). Msimbo huu umechukuliwa kutoka kwa faili `rgb20.rs` katika maktaba ya kawaida ya RGB. Hebu tuiangalie ili kuelewa muundo wa Interface na jinsi inavyotoa daraja kati, kwa upande mmoja, Business Logic (iliyofafanuliwa katika Schema) na, kwa upande mwingine, utendaji unaoonekana kwa pochi na watumiaji.
 
 ```rust
 // ...

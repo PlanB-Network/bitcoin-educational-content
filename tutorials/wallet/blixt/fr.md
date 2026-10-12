@@ -450,7 +450,7 @@ Liens utiles autour de Blixt :
 * [Vidéo promo Blixt](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 [Calendrier Blixt Girls](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6)
 * [Flyer A4 multilingue](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer)
-* [Démo web de Blixt](https://blixt-wallet-git-master-hsjoberg.vercel.app/)
+* [Démo web de Blixt](https://blixtwallet.github.io/)
 
 ---
 

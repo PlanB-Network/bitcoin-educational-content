@@ -73,7 +73,7 @@ PearPass iraboneka ku bikoresho vyose: Windows, Linux, macOS, Android, iOS n’i
 
 
 
-Ku Windows, PearPass itangwa nk’igikoresho ca kera co gushiramwo. Genda kuri [paji yemewe yo gukuraho](https://pass.pears.com/gukuraho), hanyuma ukande kuri buto `Gukuraho Windows`.
+Ku Windows, PearPass itangwa nk’igikoresho ca kera co gushiramwo. Genda kuri [paji yemewe yo gukuraho](https://pass.pears.com/download), hanyuma ukande kuri buto `Gukuraho Windows`.
 
 
 
@@ -89,7 +89,7 @@ Iyo dosiye imaze gukurwako, fungura installer hanyuma ukurikize intambwe zigarag
 
 
 
-Ku macOS, PearPass ikwiragizwa nk'ishusho ya disiki (`.dmg`). Genda kuri [paji yemewe yo gukuraho](https://pass.pears.com/gukuraho) maze uhitemwo verisiyo ihuye n’ubwubatsi bwa Mac yawe (Intel canke Apple Silicon). Uhejeje gukuraho, fungura dosiye `.dmg` maze utangure porogaramu muri dosiye ya `Iporogarama`.
+Ku macOS, PearPass ikwiragizwa nk'ishusho ya disiki (`.dmg`). Genda kuri [paji yemewe yo gukuraho](https://pass.pears.com/download) maze uhitemwo verisiyo ihuye n’ubwubatsi bwa Mac yawe (Intel canke Apple Silicon). Uhejeje gukuraho, fungura dosiye `.dmg` maze utangure porogaramu muri dosiye ya `Iporogarama`.
 
 
 
@@ -101,7 +101,7 @@ Igihe macOS itanguye ubwa mbere, izokwerekana ubutumwa bw’umutekano bwerekana 
 
 
 
-Ku Linux, PearPass iboneka mu buryo bwa `.AppImage`, bushobora gukorana n'ibindi bikoresho vyinshi ataco bishingiyeko. Gukuraho dosiye `.AppImage` kuri [paji yemewe yo gukuraho](https://pass.pears.com/gukuraho), hanyuma uyifungure ataco uhinduye ukanda kabiri.
+Ku Linux, PearPass iboneka mu buryo bwa `.AppImage`, bushobora gukorana n'ibindi bikoresho vyinshi ataco bishingiyeko. Gukuraho dosiye `.AppImage` kuri [paji yemewe yo gukuraho](https://pass.pears.com/download), hanyuma uyifungure ataco uhinduye ukanda kabiri.
 
 
 
@@ -113,7 +113,7 @@ Bivanye n'ibidukikije vyawe, ushobora gukenera gutuma dosiye ikora biciye ku mit
 
 
 
-PearPass itanga uburyo bwo kwagura umucukumbuzi kugira ngo winjire ubwawe kandi wihute gushika ku safe yawe mu gihe uriko uracukura ku rubuga. Ukwaguka ubu kuraboneka kuri Google Chrome n'ibikoresho bihuye. Kugira ngo uyishiremwo, genda kuri [paji yemewe yo gukuraho](https://iduka ry'urubuga.google.com/ibisobanuro.
+PearPass itanga uburyo bwo kwagura umucukumbuzi kugira ngo winjire ubwawe kandi wihute gushika ku safe yawe mu gihe uriko uracukura ku rubuga. Ukwaguka ubu kuraboneka kuri Google Chrome n'ibikoresho bihuye. Kugira ngo uyishiremwo, genda kuri [paji yemewe yo gukuraho](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh) ry'urubuga.google.com/ibisobanuro.
 
 
 
@@ -134,8 +134,8 @@ Kuri iPhone na Android, ushobora gukuraho porogaramu mu bubiko bwawe bwa porogar
 
 
 
-- [Iduka ry'imikino ya Google](https://imikino.com/iduka/amaporogarama/ibisobanuro?id=com.amapera.pass);
-- [Iduka ry'amaporogarama](iporogarama.com/us/porogarama/iporogarama/id6752954830).
+- [Iduka ry'imikino ya Google](https://play.google.com/store/apps/details?id=com.pears.pass);
+- [Iduka ry'amaporogarama](https://apps.apple.com/us/app/pearpass/id6752954830).
 
 
 
@@ -148,9 +148,9 @@ Uretse ubu buryo bwo gushiramwo, birashoboka kandi gukura porogaramu mu bubiko b
 
 
 
-- [Ibiro](ibiro vy'ibiro);
-- [Itelefone ngendanwa](itelefone ngendanwa);
-- [Ukwaguka kw'umucukumbuzi](https://github.com/tetherto/ukwaguka kw'umucukumbuzi-app-yagutse).
+- [Ibiro](https://github.com/tetherto/pearpass-app-desktop);
+- [Itelefone ngendanwa](https://github.com/tetherto/pearpass-app-mobile);
+- [Ukwaguka kw'umucukumbuzi](https://github.com/tetherto/pearpass-app-browser-extension).
 
 
 
@@ -441,7 +441,7 @@ Ku gikoresho kigendagenda, urashobora kandi, niwabishaka, gukoresha ukwuzura kwi
 
 
 
-Kugira umucungerezi w’ijambobanga ahujwe hagati ya mudasobwa yawe na telefone yawe y’amaboko birasanzwe ari ngirakamaro cane, ariko kubishira mu mucukumbuzi wawe birarushiriza kuba vyiza. Kugira ngo ubikore, tangura [wongerako umurongo wemewe wa PearPass ku mucukumbuzi wawe](https://chromewebstore.
+Kugira umucungerezi w’ijambobanga ahujwe hagati ya mudasobwa yawe na telefone yawe y’amaboko birasanzwe ari ngirakamaro cane, ariko kubishira mu mucukumbuzi wawe birarushiriza kuba vyiza. Kugira ngo ubikore, tangura [wongerako umurongo wemewe wa PearPass ku mucukumbuzi wawe](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
 
 
 

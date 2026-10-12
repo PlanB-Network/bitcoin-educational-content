@@ -296,7 +296,7 @@ KaleidoSwap के ऊपर निर्माण करने वाले ड
 - वेबसॉकेट**: वास्तविक समय के बाजार डेटा सब्सक्रिप्शन के लिए।
 
 
-पूर्ण एंडपॉइंट और विशिष्टताओं के लिए [API प्रलेखन](https://docs.kaleidoswap.com/api/introduction) देखें।
+पूर्ण एंडपॉइंट और विशिष्टताओं के लिए [API प्रलेखन](https://docs.kaleidoswap.com/api-reference/introduction) देखें।
 
 
 ## निष्कर्ष

@@ -148,7 +148,7 @@ Voor meer informatie: [Kanalen | Zeus Documentatie](https://docs.zeusln.app/)
 _Bitbanana Screenshot_
 
 
-Voor meer informatie: [BitBanana](https://bitbanana.com)
+Voor meer informatie: [BitBanana](https://bitbanana.app)
 
 
 Zodra je kanaal open is, kunnen er betalingen doorheen worden gerouteerd naar andere deelnemers in het netwerk. Saldi worden off-chain aangepast, waardoor transacties vrijwel direct plaatsvinden en minimale kosten met zich meebrengen.

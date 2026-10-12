@@ -198,7 +198,7 @@ Blockchain, Transaction, Double-Spend, Byzantine Generals’ Problem, [Mining](h
 
 The objective of this course block is to gain a general understanding of BTCPay Server software. In a shared environment, it’s recommended to follow the instructor’s demonstration and refer to the BTCPay Server Coursebook to follow along with the teacher. You will learn how to create a wallet through multiple methods. Examples include Hot wallet setups and [hardware wallets](https://planb.academy/resources/glossary/hardware-wallet) connected through BTCPay Server Vault. These objectives occur in the Demo environment, displayed and given access to by your course instructor.
 
-If you follow this course by yourself, you can find a list of third-party hosts for Demo purposes at https://directory.btcpayserver.org/filter/hosts. We strongly advise against using these third-party options as production environments; however, they serve the right purpose for introducing the use of Bitcoin and BTCPay Server.
+If you follow this course by yourself, you can find a list of third-party hosts for Demo purposes at https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. We strongly advise against using these third-party options as production environments; however, they serve the right purpose for introducing the use of Bitcoin and BTCPay Server.
 
 As a BTCPay Server rockstar trainee, you might have previous experience setting up a Bitcoin node. This course is specifically tailored to the BTCPay Server Software stack.
 

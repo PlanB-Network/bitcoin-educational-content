@@ -27,7 +27,7 @@ Rumble Wallet е мобилен wallet, предназначен основно 
 ## 2. Как се инсталира Rumble Wallet?
 
 
-Приложението може да се инсталира както на [Android](https://play.google.com/store/apps/details?id=com.wallet.rumble), така и на iOS чрез съответните им официални магазини.
+Приложението може да се инсталира както на [Android](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet), така и на iOS чрез съответните им официални магазини.
 
 
 ![Image](assets/fr/01.webp)

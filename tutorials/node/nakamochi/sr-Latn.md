@@ -148,7 +148,7 @@ Za više informacija: [Channels | Zeus Documentation](https://docs.zeusln.app/)
 _Snimak ekrana Bitbanana_
 
 
-Za više informacija: [BitBanana](https://bitbanana.com)
+Za više informacija: [BitBanana](https://bitbanana.app)
 
 
 Kada je vaš kanal otvoren, plaćanja se mogu usmeravati kroz njega ka drugim učesnicima u mreži. Stanja se prilagođavaju off-chain, osiguravajući da su transakcije gotovo trenutne i da imaju minimalne naknade.

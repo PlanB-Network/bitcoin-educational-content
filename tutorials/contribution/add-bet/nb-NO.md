@@ -78,7 +78,7 @@ For eksempel, din YAML-fil kunne se slik ut:
 project: DecouvreBitcoin
 type: Educational Content
 links:
-  download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+  download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
   view:
 - I mitt eksempel, vil jeg la lenkene være tomme for nå, ettersom jeg vil legge til min PDF direkte på GitHub:
 ![event](assets/09.webp)
@@ -161,7 +161,7 @@ description: |
 - Hent den mellomliggende URL-en til filen din. For eksempel, i mitt tilfelle, er URL-en:
 
 ```url
-https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/tutoriel-pandul/bitcoin-educational-content/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 - Behold kun den siste delen av URL-en fra `/resources` og videre:
@@ -173,7 +173,7 @@ https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resour
 - Legg til følgende informasjon i basen av URL-en for å ha den korrekte lenken:
 
 ```url
-https://github.com/DiscoverBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 Det vi gjør her er å forutse den fremtidige lenken til filen din, en gang ditt forslag har blitt slått sammen med kildearkivet til Plan ₿ Academy.

@@ -35,7 +35,7 @@ description: Как настроить приложение Blockstream App и �
 
 
 
-**Liquid** - это **Sidechain** Bitcoin, разработанный **[Blockstream](https://blockstream.com/Liquid/)**, предназначенный для обеспечения более быстрой, более Confidential Transactions и расширенной функциональности, оставаясь при этом подключенным к основному Blockchain Bitcoin.
+**Liquid** - это **Sidechain** Bitcoin, разработанный **[Blockstream](https://blockstream.com/liquid/)**, предназначенный для обеспечения более быстрой, более Confidential Transactions и расширенной функциональности, оставаясь при этом подключенным к основному Blockchain Bitcoin.
 
 
 
@@ -408,7 +408,9 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 
-В качестве альтернативы, Exchange ваши биткоины можно получить onchain или через Lightning Network за L-BTC с помощью [моста, такого как Boltz](https://boltz.Exchange/): введите свой Liquid, получив Address, произведите оплату, как вам удобно, и получите свои L-BTC.
+В качестве альтернативы, Exchange ваши биткоины можно получить onchain или через Lightning Network за L-BTC с помощью моста, такого как Boltz: введите свой Liquid, получив Address, произведите оплату, как вам удобно, и получите свои L-BTC.
+
+> **Примечание (октябрь 2026 г.):** Boltz приостановил все свопы 3 августа 2026 г., и его сайт недоступен. Этот способ сейчас не работает.
 
 
 

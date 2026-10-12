@@ -293,7 +293,6 @@ Tumia alamisho ya umma kama:
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [alama257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -650,7 +649,7 @@ Kutokana na hali ya kuongezeka kwa uchunguzi wa kifedha, zana zilizogatuliwa kul
 
 
 
-- [Jiunge na tovuti rasmi](https://joinstr.xyz)
+- [Jiunge na tovuti rasmi](https://docs.joinstr.xyz/)
 - [Hati za mtumiaji](https://docs.joinstr.xyz/users/using-joinstr)
 - [Nyaraka za kiufundi](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [Msimbo wa chanzo wa GitLab](https://gitlab.com/invincible-privacy/joinstr)
@@ -682,6 +681,5 @@ Kutokana na hali ya kuongezeka kwa uchunguzi wa kifedha, zana zilizogatuliwa kul
 
 
 
-- [Alamisho Faucet](https://signetfaucet.com) - Mtihani wa Bitcoin bila malipo
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet mbadala
 - [Mempool.space](https://mempool.space) - Block explorer yenye uchanganuzi wa faragha

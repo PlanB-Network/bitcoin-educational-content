@@ -122,7 +122,7 @@ Umbrel 会在后台为 ThunderHub 提供 LND 连接信息（TLS 证书、管理 
 
 
 
-**前提条件：** 根据 [documentation setup](https://docs.thunderhub.io/setup) 确保您的系统满足最低要求：
+**前提条件：** 根据 [documentation setup](https://docs.thunderhub.io/configure) 确保您的系统满足最低要求：
 
 
 
@@ -136,7 +136,7 @@ Umbrel 会在后台为 ThunderHub 提供 LND 连接信息（TLS 证书、管理 
 
 
 
-**1.获取 ThunderHub 代码：** 按照[安装文档](https://docs.thunderhub.io/installation)中的描述克隆项目的 GitHub 仓库：
+**1.获取 ThunderHub 代码：** 按照[安装文档](https://docs.thunderhub.io/get-started)中的描述克隆项目的 GitHub 仓库：
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1.主要配置文件：** 在 ThunderHub 文件夹根目录下创建一个`.env.local`文件，用于自定义配置（这将防止更新时覆盖您的设置）。根据 [setup documentation](https://docs.thunderhub.io/setup) 创建主要变量：
+**1.主要配置文件：** 在 ThunderHub 文件夹根目录下创建一个`.env.local`文件，用于自定义配置（这将防止更新时覆盖您的设置）。根据 [setup documentation](https://docs.thunderhub.io/configure) 创建主要变量：
 
 
 
@@ -304,8 +304,8 @@ docker pull apotdevin/thunderhub:base-v0.11.1
 
 
 
-- 安装：**[docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)**
-- 配置：**[docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)**
+- 安装：**[docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)**
+- 配置：**[docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)**
 
 
 

@@ -112,7 +112,7 @@ Para obter mais informações: [Channels | Zeus Documentation](https://docs.zeus
 
 captura de ecrã de Bitbanana_
 
-Para mais informações: [BitBanana](https://bitbanana.com)
+Para mais informações: [BitBanana](https://bitbanana.app)
 
 Assim que o seu canal estiver aberto, os pagamentos podem ser encaminhados através dele para outros participantes na rede. Os saldos são ajustados fora da cadeia, assegurando que as transacções são quase instantâneas e incorrem em taxas mínimas.
 

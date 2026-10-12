@@ -10,7 +10,7 @@ Một hệ điều hành di động và quên đi sau khi sử dụng, bảo v�
 
 ## Tại sao cần có một chiếc USB đã cài đặt Tails?
 
-Tails (https://tails.boum.org/) là cách dễ nhất để bạn luôn có một máy tính an toàn bên mình, không để lại bất kỳ dấu vết nào trên máy tính mà bạn sử dụng.
+Tails (https://tails.net/) là cách dễ nhất để bạn luôn có một máy tính an toàn bên mình, không để lại bất kỳ dấu vết nào trên máy tính mà bạn sử dụng.
 
 Để sử dụng Tails, tắt máy tính mà bạn có quyền truy cập (tại nhà của bố mẹ, nhà bạn bè, tại quán Internet...) và khởi động nó với chiếc USB Tails của bạn thay vì Windows, macOS, hoặc Linux.
 
@@ -55,7 +55,7 @@ Yêu cầu:
 
 ![image](assets/1.webp)
 
-> 🔗 Mục chính thức của Tails: https://tails.boum.org/install/linux/index.fr.html#download
+> 🔗 Mục chính thức của Tails: https://tails.net/install/linux/index.fr.html#download
 
 Việc tải xuống tệp cài đặt với phần mở rộng .img có thể mất một thời gian tùy thuộc vào tốc độ tải xuống Internet của bạn, vì vậy hãy lên kế hoạch trước. Với một kết nối hiện đại và hiệu quả, việc này sẽ mất ít hơn 5 phút.
 
@@ -64,7 +64,7 @@ Lưu tệp vào một thư mục đã biết, chẳng hạn như Downloads, vì 
 ## Bước 2: Xác minh tải xuống của bạn
 
 ![image](assets/2.webp)
-🔗 Mục chính thức của Tails: https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 Mục chính thức của Tails: https://tails.net/install/linux/index.fr.html#verify
 Xác minh việc tải xuống đảm bảo rằng nó được phát hành bởi các nhà phát triển Tails và không bị hỏng hoặc bị chặn trong quá trình tải xuống.
 
 Có thể tự mình xác minh rằng tệp bạn vừa tải xuống là tệp mong đợi sử dụng PGP, nhưng nếu không có kiến thức nâng cao, việc xác minh này cung cấp cùng một mức độ bảo mật như việc xác minh JavaScript trên trang tải xuống, trong khi đó lại phức tạp và dễ mắc lỗi hơn nhiều.
@@ -77,8 +77,8 @@ Có thể tự mình xác minh rằng tệp bạn vừa tải xuống là tệp 
 
 > 🔗 Mục chính thức của Tails:
 >
-> - Linux: https://tails.boum.org/install/linux/index.fr.html#install
-> - macOS: https://tails.boum.org/install/mac/index.fr.html#etcher và https://tails.boum.org/install/mac/index.fr.html#install
+> - Linux: https://tails.net/install/linux/index.fr.html#install
+> - macOS: https://tails.net/install/mac/index.fr.html#etcher và https://tails.net/install/mac/index.fr.html#install
 
 Bước này của việc cài đặt Tails trên USB của bạn là khó khăn nhất trong toàn bộ hướng dẫn, đặc biệt nếu bạn chưa bao giờ thực hiện nó trước đây. Điểm quan trọng nhất là chọn đúng quy trình trong mục chính thức cho hệ điều hành của bạn: Linux hoặc macOS.
 
@@ -90,7 +90,7 @@ Chúc may mắn! và hẹn gặp lại ở bước 4.
 
 ![hình ảnh](assets/4.webp)
 
-> 🔗 Mục chính thức của Tails: https://tails.boum.org/install/linux/index.en.html#restart
+> 🔗 Mục chính thức của Tails: https://tails.net/install/linux/index.en.html#restart
 > Đã đến lúc khởi động một trong những máy tính của bạn sử dụng USB mới của bạn. Cắm nó vào một trong các cổng USB và khởi động lại!
 
 > 💡 Hầu hết máy tính không tự động khởi động từ USB Tails, nhưng bạn có thể nhấn phím menu khởi động để hiển thị danh sách các thiết bị có thể khởi động từ.
@@ -123,7 +123,7 @@ Một khi USB được chọn, bạn sẽ thấy màn hình khởi động mới
 
 ![hình ảnh](assets/6.webp)
 
-> 🔗 Mục chính thức của Tails: https://tails.boum.org/install/linux/index.en.html#tails
+> 🔗 Mục chính thức của Tails: https://tails.net/install/linux/index.en.html#tails
 
 Một hoặc hai phút sau bộ nạp khởi động và màn hình tải, Màn hình Chào mừng xuất hiện.
 

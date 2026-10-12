@@ -572,9 +572,9 @@ Cypherpunks 最顯著的成果之一是成立於 1992 年的 Cypherpunks 郵件�
 
 無論如何，讓我們來看看這個神話傳說。
 
-Satoshi Nakamoto 於 2008 年帶著一個革命性的想法出現在網際網路上：點對點電子現金。他在 Cypherpunk 郵件列表中發表了一篇 [九頁紙](https://Bitcoin.org/Bitcoin.pdf) 名為「Bitcoin：點對點電子現金系統」的文章，分享了他的願景。儘管大多數郵件列表成員起初都對此不感興趣，但這個想法激起了一位成員 Hal Finney 的好奇心，他最終與 Satoshi 聯繫。Hal 對 Bitcoin 開發的參與被證明是一個轉捩點，引領更多人提供他們的支持。
+Satoshi Nakamoto 於 2008 年帶著一個革命性的想法出現在網際網路上：點對點電子現金。他在 Cypherpunk 郵件列表中發表了一篇 [九頁紙](https://bitcoin.org/bitcoin.pdf) 名為「Bitcoin：點對點電子現金系統」的文章，分享了他的願景。儘管大多數郵件列表成員起初都對此不感興趣，但這個想法激起了一位成員 Hal Finney 的好奇心，他最終與 Satoshi 聯繫。Hal 對 Bitcoin 開發的參與被證明是一個轉捩點，引領更多人提供他們的支持。
 
-然而，在為該專案工作兩年之後，Satoshi 卻消失得無影無蹤，[他最後一次可信的通訊](https://plan99.net/~mike/Satoshi-emails/thread5.html) 是在 2011 年 4 月 23 日，他在通訊中表示自己已「轉移到其他事情上」。
+然而，在為該專案工作兩年之後，Satoshi 卻消失得無影無蹤，[他最後一次可信的通訊](https://plan99.net/~mike/satoshi-emails/thread5.html) 是在 2011 年 4 月 23 日，他在通訊中表示自己已「轉移到其他事情上」。
 
 Satoshi Nakamoto 的神秘消失引發了各種關於他去向的猜測。有些人猜測他覺得他已經完成了他的目標，而其他人則認為他對 Bitcoin 所吸引的注意力感到不舒服。在 [2010](https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad) 年 12 月，當維基解密被禁止使用傳統的付款方式時，它轉而向 Bitcoin 尋求資金。Satoshi 擔心 Bitcoin 受到越來越多的關注，以及製造一種用來干擾美國地緣政治利益的貨幣的潛在法律後果，這可能促使他後退。或者，他可能已將重心轉移到其他專案，可能仍在以其他名義為 Bitcoin 貢獻心力，甚至已經過世。
 
@@ -815,7 +815,7 @@ Bitcoin 在貨幣體系中掀起了一場風暴，吸引了發展中國家、精
 
 Bitcoin 的 Blockchain 顧名思義由區塊組成。這些區塊的理論最大大小為 4 MB。由於這個限制，Bitcoin 每秒可處理的交易次數也受到限制，大約是每秒 7 到 10 次 (tps)。
 
-因此，您可能會問：Bitcoin 的 Blockchain 怎麼可能與 Visa 或 Mastercard 等交易速度為 [1,700 tps](https://towardsdatascience.com/the-Blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)的網路競爭？
+因此，您可能會問：Bitcoin 的 Blockchain 怎麼可能與 Visa 或 Mastercard 等交易速度為 [1,700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)的網路競爭？
 
 答案很簡單。不是與他們競爭。
 
@@ -865,7 +865,7 @@ Bitcoin 的革命性之處在於，我們有史以來第一次可以[自我保�
 
 非保管型錢包是 Bitcoin Wallet 的一種，您是您資金的唯一保管人，這意味著您可以完全控制您的[私人密碼匙](https://planb.academy/resources/glossary/private-key)。私人密碼匙就像 Wallet 的密碼，用於簽署和授權交易。沒有私人密碼匙，您就無法存取或轉移您的 Bitcoin。
 
-與託管式錢包相較，非託管式錢包具有更高的安全性和隱私性，因為您是唯一對您的資金安全負責的人。非保管式錢包的例子包括[硬體錢包](https://planb.academy/resources/glossary/hardware-wallet)，例如 [Coldcard](https://store.coinkite.com/store/coldcard) 和 [Trezor](https://trezor.io/)，這些硬體錢包是離線儲存私人金鑰的實體裝置，並提供額外的 Layer 安全性。其他流行的非保管式錢包是軟體錢包，如 [Sparrow](https://sparrowwallet.com/)、[Electrum](https://electrum.org/#home) 和 [Blockstream Green](https://blockstream.com/Green/)，它們可以下載並安裝在您的電腦或行動裝置上。
+與託管式錢包相較，非託管式錢包具有更高的安全性和隱私性，因為您是唯一對您的資金安全負責的人。非保管式錢包的例子包括[硬體錢包](https://planb.academy/resources/glossary/hardware-wallet)，例如 [Coldcard](https://store.coinkite.com/store/coldcard) 和 [Trezor](https://trezor.io/)，這些硬體錢包是離線儲存私人金鑰的實體裝置，並提供額外的 Layer 安全性。其他流行的非保管式錢包是軟體錢包，如 [Sparrow](https://sparrowwallet.com/)、[Electrum](https://electrum.org/#home) 和 [Blockstream Green](https://blockstream.com/green/)，它們可以下載並安裝在您的電腦或行動裝置上。
 
 *雖然我們無法推薦特定的 Wallet，但我們強烈建議透過自我保管或合作保管的方式來控制您的 Bitcoin，這包括選擇適合您的需求和偏好的 Wallet。在決定選購 Wallet 之前，請務必進行詳細研究，以確保它符合您的安全性與可用性需求。*
 
@@ -1159,7 +1159,7 @@ Adanna 一直對於能夠控制自己的錢感到興趣，但直到最近，這�
 
 透過西聯匯款等匯款服務向海外匯款並非免費。它需要花錢，而且不只是一點點，而是一大筆錢。
 
-向東加發送100美元會產生[\$12.61](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)的費用，再加上由於不利的Exchange匯率而造成的8.60美元的額外損失。這意味著總發送金額的 21% 以上流向了跨國公司 Western Union。因此，本應交到值得幫助的東加家庭手中的一大筆錢最終落入了匯款服務提供商的口袋。
+向東加發送100美元會產生[\$12.61](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)的費用，再加上由於不利的Exchange匯率而造成的8.60美元的額外損失。這意味著總發送金額的 21% 以上流向了跨國公司 Western Union。因此，本應交到值得幫助的東加家庭手中的一大筆錢最終落入了匯款服務提供商的口袋。
 
 您能想像收入多出 21% 的好處嗎？
 
@@ -1167,7 +1167,7 @@ Adanna 一直對於能夠控制自己的錢感到興趣，但直到最近，這�
 
 如果您以為只有東加在這樣做，那就再猜猜看。
 
-以下是西聯匯款[收費](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)發送 100 美元到其他一些著名國家的示例：
+以下是西聯匯款[收費](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)發送 100 美元到其他一些著名國家的示例：
 
 
 - **China:** $21.21 fee + $2.60 Exchange rate loss (23.81% loss)
@@ -1179,7 +1179,7 @@ Adanna 一直對於能夠控制自己的錢感到興趣，但直到最近，這�
 
 與傳統的匯款服務不同，USDt 是一種數位貨幣，為了交易的目的，USDt 在 Blockchain 的軌道上移動。由於它不需要銀行或匯款服務等中介，因此費用顯著較低。此外，由於交易是在公開的 Blockchain 上執行，因此可確保更高的透明度和隱私。這意味著個人幾乎可以立即、安全且低廉的方式將錢寄給他們在其他國家的親人。
 
-例如，主要在以太坊和 Tron 區塊鏈上運行的 USDt，在過去一年中的平均交易費用分別為 [\$1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.)和 [\$0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions)，無論發送的金額是多少--發送 5 美元還是 10,000 美元，費用都是一樣的。而就在我們說話的時候，開發人員正在研究建立在Bitcoin的Lightning Network之上的[穩定幣](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-Bitcoin-developers-to-mint-and-transfer-assets-on-the-Blockchain/)，其費用約為[\0.0003美元](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption)。
+例如，主要在以太坊和 Tron 區塊鏈上運行的 USDt，在過去一年中的平均交易費用分別為 [\$1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.)和 [\$0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions)，無論發送的金額是多少--發送 5 美元還是 10,000 美元，費用都是一樣的。而就在我們說話的時候，開發人員正在研究建立在Bitcoin的Lightning Network之上的[穩定幣](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-bitcoin-developers-to-mint-and-transfer-assets-on-the-blockchain/)，其費用約為[\0.0003美元](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption)。
 
 有了 USDt，湯加人以及其他所有匯錢給家人的人都可以收到更多的匯款，這可以大幅改善他們的生活品質，並為國家的經濟發展做出貢獻。
 
@@ -1415,9 +1415,9 @@ Bitcoin 選擇以分散性和安全性為優先，而非擴充性。儘管如此
 
 儘管有許多研究揭穿不實的說法，Bitcoin 仍然經常被批評為主要用於非法活動。這再一次與事實大相逕庭。
 
-中情局前副局长进行的一项[研究](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf)发现，「关于Bitcoin用于非法金融的笼统概括被大大夸大了」。事實上，自 2016 年以來，Bitcoin 總交易量中用於非法活動的不到 1%。相比之下，「有人認為地下經濟佔美國國內生產總值的11%至12%(https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)」，其中大部分是使用美元促成的。
+中情局前副局长进行的一项[研究](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf)发现，「关于Bitcoin用于非法金融的笼统概括被大大夸大了」。事實上，自 2016 年以來，Bitcoin 總交易量中用於非法活動的不到 1%。相比之下，「有人認為地下經濟佔美國國內生產總值的11%至12%(https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)」，其中大部分是使用美元促成的。
 
-而根據 Chainalysis 在 2020 年的一份報告，非法活動僅佔所有 Bitcoin 交易的 [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf)左右。
+而根據 Chainalysis 在 2020 年的一份報告，非法活動僅佔所有 Bitcoin 交易的 [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf)左右。
 
 然而，即使有了這些證據，當權者仍繼續發表誤導性的聲明，例如美國財政部長 Janet Yellen [聲稱](https://home.treasury.gov/news/press-releases/jy0023)：「加密貨幣一直被用來洗淨網上毒販的利潤；它們一直是資助恐怖主義的工具」。
 
@@ -1623,7 +1623,7 @@ _**Figure:** Flare [Gas](https://arstechnica.com/science/2022/09/oil-industry-fl
 
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
-在當今全球化的世界中，獲得金融服務是經濟參與和獨立的重要組成部分。儘管如此，仍有太多的人被排除在傳統銀行體系之外，其中婦女往往首當其衝。令人震惊的是，尽管全球人口中不必要的 [四分之一](https://www.worldbank.org/en/publication/globalfindex)仍然没有银行服务，但在沙特阿拉伯等国家，[36.5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift. )的妇女无法获得基本的银行服务，使她们无法充分参与国家的经济和社会。
+在當今全球化的世界中，獲得金融服務是經濟參與和獨立的重要組成部分。儘管如此，仍有太多的人被排除在傳統銀行體系之外，其中婦女往往首當其衝。令人震惊的是，尽管全球人口中不必要的 [四分之一](https://www.worldbank.org/en/publication/globalfindex)仍然没有银行服务，但在沙特阿拉伯等国家，[36.5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift. )的妇女无法获得基本的银行服务，使她们无法充分参与国家的经济和社会。
 
 以下僅舉幾個例子，說明世界各地的婦女至今仍在忍受的狀況：
 

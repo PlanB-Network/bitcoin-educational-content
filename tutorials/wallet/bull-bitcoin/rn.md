@@ -18,7 +18,7 @@ Iyi nkuru iragutwara mu gushiramwo, gutunganya no gukoresha Bull Bitcoin Wallet.
 ## Imenyekanisha
 
 
-Bull Bitcoin Wallet, yateguwe na [Bull Bitcoin](https://www.bullbitcoin.com/), ni **ukwizigama** Bitcoin wallet, bisobanura ko ufise ububasha bwose ku mfunguruzo zawe z’ibanga rero n’amahera yawe, ataco wizigiye uwundi muntu. Iyi Wallet ifunguye kandi ishingiye ku ciyumviro ca Cypherpunk, ihuriza hamwe ukworoha, ibanga n’ibintu biteye imbere nk’uguhinduranya amakuru ku mbuga ngurukanabumenyi n’ugushigikira PayJoin. Igufasha gucunga amafaranga yawe y’ibiceri ku nzira zitatu: **Bitcoin onchain**, **Liquid** na **Umuravyo**, imwe yose ikaba ihuye n’imikorere yihariye. Ku rubuga rwa [BullBitcoin GitHub], urashobora kuraba ingingo ziriho ubu n’ibintu biriko biraza. Kubera ko umugambi ari 100% open-source kandi "wubatswe mu ruhame", urashobora kandi kohereza ivyiyumviro vyawe n'ibibazo vyose uzohura navyo. Naho ubu ama wallet amwe amwe ashigikira imihora myinshi, Bull Bitcoin Wallet iratandukanye mu gushiramwo cane ibiranga ubuzima bwite muri zo zose, bikaba biyigira igikoresho gikomeye co gucunga Bitcoin yawe mu mihora yose ikomeye .
+Bull Bitcoin Wallet, yateguwe na [Bull Bitcoin](https://www.bullbitcoin.com/), ni **ukwizigama** Bitcoin wallet, bisobanura ko ufise ububasha bwose ku mfunguruzo zawe z’ibanga rero n’amahera yawe, ataco wizigiye uwundi muntu. Iyi Wallet ifunguye kandi ishingiye ku ciyumviro ca Cypherpunk, ihuriza hamwe ukworoha, ibanga n’ibintu biteye imbere nk’uguhinduranya amakuru ku mbuga ngurukanabumenyi n’ugushigikira PayJoin. Igufasha gucunga amafaranga yawe y’ibiceri ku nzira zitatu: **Bitcoin onchain**, **Liquid** na **Umuravyo**, imwe yose ikaba ihuye n’imikorere yihariye. Ku rubuga rwa [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49), urashobora kuraba ingingo ziriho ubu n’ibintu biriko biraza. Kubera ko umugambi ari 100% open-source kandi "wubatswe mu ruhame", urashobora kandi kohereza ivyiyumviro vyawe n'ibibazo vyose uzohura navyo. Naho ubu ama wallet amwe amwe ashigikira imihora myinshi, Bull Bitcoin Wallet iratandukanye mu gushiramwo cane ibiranga ubuzima bwite muri zo zose, bikaba biyigira igikoresho gikomeye co gucunga Bitcoin yawe mu mihora yose ikomeye .
 
 
 ## 1️⃣ Ibisabwa
@@ -42,15 +42,15 @@ Ushobora gushiramwo porogaramu biciye muri:
 
 
 - [Iduka ry'amaporogarama ya Apple](ku bikoresho vya iOS)
-- [Iduka ry'imikino ya Google](ku bikoresho vya Android) (ku bikoresho vya Android)
+- [Iduka ry'imikino ya Google](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&hl=en) (ku bikoresho vya Android)
 
 
 Abakoresha Android na bo nyene barafise ubundi buryo:
 
 
 
-- Gukuraho APK kuri [Ivyasohotse kuri GitHub]
-- Gushiramwo biciye ku Nostr-ihuye [Iduka rya Zap](iduka rya Zap. 6fcn9tntmyv04w95etn0e23xrczvvraqqtxxmmd9e382mrvvf5hgcm0d9hzumt0vf5kcegnah0ap)
+- Gukuraho APK kuri [Ivyasohotse kuri GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases)
+- Gushiramwo biciye ku Nostr-ihuye [Iduka rya Zap](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqtxxmmd9e382mrvvf5hgcm0d9hzumt0vf5kcegnah0ap)
 
 
 Uhejeje gushiramwo iyo porogarama, kurikirana ku rubuga rw’akabazo kugira ngo utunganye konti yawe.
@@ -76,13 +76,13 @@ Aha, turashobora gutunganya amategeko ateye imbere imbere yo kurema canke gusubi
 
 1. Gushoboza `Tor proxy` kugira ngo irongore uruja n'uruza ku rubuga rwa Tor.
 
-1. [Iporogarama ya Orbot](https://orbot.app/ru/) ikeneye gushirwako no gukora imbere y'uko ifungurwa
+1. [Iporogarama ya Orbot](https://orbot.app/en/) ikeneye gushirwako no gukora imbere y'uko ifungurwa
 
 2. Tor Proxy ikoreshwa gusa kuri Bitcoin (si Liquid) kandi ishobora gutuma uruja n’uruza rugenda buhoro.
 
 2. Gushinga `Electrum Server`, canke
 
-3. Guhindura `Gusubiza Inka`. Tuzomenya vyinshi ku vyerekeye [Ikimasa co Gukira](https://gukira.com/) mu nyuma.
+3. Guhindura `Gusubiza Inka`. Tuzomenya vyinshi ku vyerekeye [Ikimasa co Gukira](https://recoverbull.com/) mu nyuma.
 
 
 Uhejeje guhindura vyose, nukore kuri `Vyarangiye`. Niba wipfuza gusubira gukoresha Wallet iriho, fyonda ku `Recover Wallet` hanyuma wuzuze amajambo 12 y’ijambo ryawe ryo gusubirana.
@@ -106,7 +106,7 @@ Imbere y'uko twisuka cane, reka turabe `Home Screen` kugira ngo tumenye neza:
 - Ushobora gushika ku `Bitcoin Bull Exchange` kugira ngo `Ugure, Ugurishe, canke Ushireho` (ivyo bivana n'ububasha kandi bishobora gusaba KYC).
 - `Kwimurira` amafaranga hagati y'amasakoshi
 - `Umutekano Bitcoin` ungana n'uruzitiro Bitcoin Wallet
-- `Ukwishura vuba` biciye ku Muravyo- / Liquid Network *(Iciyumviro: Bull Bitcoin Wallet ishoboza kwishura no kwakirwa biciye ku Muravyo. Amahera yakiriwe biciye ku Muravyo abikwa ku muhora [*Liquid](https://liquid.net/) (mu kwishura vuba* biciye kuri [3-5]. exchange](https://boltz.exchange/) Ivyo biguha ubushobozi bwo gukorana na Lightning utabwirizwa gucunga imihora y’amahera, mu gihe uguma mu kwirinda.)*
+- `Ukwishura vuba` biciye ku Muravyo- / Liquid Network *(Iciyumviro: Bull Bitcoin Wallet ishoboza kwishura no kwakirwa biciye ku Muravyo. Amahera yakiriwe biciye ku Muravyo abikwa ku muhora [*Liquid](https://liquid.net/) (mu kwishura vuba* biciye kuri Boltz exchange. Ivyo biguha ubushobozi bwo gukorana na Lightning utabwirizwa gucunga imihora y’amahera, mu gihe uguma mu kwirinda.)*
 - `Kohereza` na `Kwakira` amafranga
 
 
@@ -164,7 +164,7 @@ Hariho kandi uburyo bwo gukora ububiko bw’ibintu bubitswe, butazwi mu gicu. Ar
 Wiyumvire nk’agasanduku k’amahera. Dosiye y’ububiko ni *akazu*, ushobora kubika aho hose (nka Google Drive). PIN yawe yo gusubirana ni *urufunguzo*, rubikwa ukwarwo na Server y'urufunguzo rwa Recoverbull. Umusuma yokenera kuronka isandugu yawe yihariye be n’urufunguzo rwawe rudasanzwe kugira ngo afungure. Iyi design ituma naho umuntu yoronka dosiye yawe y’ububiko, ntaco imaze ata rufunguzo ruva kuri server, kandi urufunguzo rwa server ntaco rumaze ata dosiye yawe yihariye y’ububiko.
 
 
-Menya vyinshi ku vyerekeye `Recoverbull` wallet uburyo bwo gusubiza inyuma [hano](https://gusubiza.com/).
+Menya vyinshi ku vyerekeye `Recoverbull` wallet uburyo bwo gusubiza inyuma [hano](https://recoverbull.com/).
 
 
 Kanda kuri `Ikibanza c'ububiko` hanyuma `Bandanya` kugira ngo wemeze ukoresheje Serveri y'Imburabuzi. Iryo huriro rizoca ku rubuga rwa `Tor` kugira ngo habeho ubuzima bwite kandi ntibumenyekane.
@@ -331,7 +331,7 @@ Ufise uburyo bubiri bw'ibanze bwo gutanga aderesi yo kwakira:
 **Uburyo mburabuzi (URI n'ibindi bipimo)
 
 
-Ku mburabuzi, wallet itanga [URI ya BIP21](21/). Iyi ni uburyo busanzwe bushiramwo amakuru menshi kuruta aderesi yoroshe, harimwo umubare, inyandiko y’umuntu ku giti ciwe, n’imirongo ya PayJoin kugira ngo umuntu agire ubuzima bwite. Iyo URI yuzuye irashirwa muri kode ya QR maze igatuma umuntu ashobora kuyikopa. Uburyo busa n'ubu: `bitcoin:<aderesi>?<umurongo1>=<agaciro1>&<umurongo2>=<agaciro2>`.
+Ku mburabuzi, wallet itanga [URI ya BIP21](https://bips.dev/21/). Iyi ni uburyo busanzwe bushiramwo amakuru menshi kuruta aderesi yoroshe, harimwo umubare, inyandiko y’umuntu ku giti ciwe, n’imirongo ya PayJoin kugira ngo umuntu agire ubuzima bwite. Iyo URI yuzuye irashirwa muri kode ya QR maze igatuma umuntu ashobora kuyikopa. Uburyo busa n'ubu: `bitcoin:<aderesi>?<umurongo1>=<agaciro1>&<umurongo2>=<agaciro2>`.
 
 
 
@@ -417,6 +417,8 @@ Kugira ngo urangize ugucuruza, uhe uwurungitse `aderesi` canke `URI`. Ivyo urash
 ### Kwakira biciye ku Muravyo
 
 
+
+> **Menya (Gitugutu 2026):** Boltz yahagaritse swaps zose ku wa 3 Myandagaro 2026, kandi urubuga rwayo ntirugikora. Ukwishura kwa Lightning muri Bull Bitcoin Wallet gushingiye kuri Boltz, kandi gushobora kuba kutagikora.
 
 Bull Bitcoin Wallet iragufasha kandi kohereza no kwakira amahera biciye kuri Lightning Network. Ikintu nyamukuru ni uko amafaranga yaronse biciye ku Muravyo ahita ahindurwa kandi akabikwa kuri `Liquid Network` mu `Ivyishyurwa vy'Igihugu Wallet` yawe. Iyi serivisi ikoreshwa na `Boltz`. Iyi design iragufasha kunezerererwa umuvuduko n’igiciro gito ca Lightning ata ngorane zo gucunga imihora y’amahera, vyose mu gihe uguma wizigamira amahera yawe. Naho iyo nzira y’ubuhinga bushasha ari iyo kwizigama kandi ikarinda ubugoyagoye bwo gucunga imihora, izana igikorwa c’uwundi muntu (Boltz), amahera make yo guhindura, no kwizigira ishirahamwe ry’abakozi ba Liquid Network nk’abafise urufunguzo, ivyo bikaba bitandukanye n’imirongo ya kera, idacungirwa. Ushobora kumenya vyinshi ku vyerekeye Liquid n'uburongozi bw'aho hano:
 
@@ -509,6 +511,8 @@ Ushobora gucapura Lightning Address (nk’akarorero `runningbitcoin@rizful.com`)
 *Ibuka ko amafaranga makeyi n'amahera bikoreshwa.*
 
 
+> **Menya (Gitugutu 2026):** Boltz yahagaritse swaps zose ku wa 3 Myandagaro 2026, kandi urubuga rwayo ntirugikora. Ukwishura kwa Lightning muri Bull Bitcoin Wallet gushingiye kuri Boltz, kandi gushobora kuba kutagikora.
+
 Bull Bitcoin Wallet yohereza amahera y'umuravyo mu gukura amahera mu `Ivyishyura vy'ubu nyene Wallet` (ku Liquid) ukayahindura biciye ku `Boltz`. Ubu buryo bw'imigwi ni ubwo kwizigama kandi burinda amafaranga menshi ya on-chain yo gucunga umurongo wa Lightning wihariye, ariko bisaba kwishura `amafaranga yo guhindura`. Ku giciro gitoyi, wohereze kuri aderesi y’uwuguhaye Liquid nimba na we nyene akoresha Bull Bitcoin wallet.
 
 
@@ -560,7 +564,7 @@ Ku rubuga rw'Ikaze, hitamwo `Gusubiza Wallet`. Ico gihe, uhitemwo uburyo bwa `Gu
 Kugira ngo umutekano ube mwinshi, benshi mu bakoresha Bitcoin bahitamwo kubika amahera yabo mu `ububiko bukonje`. Ivyo bisigura kuguma ufise `imfunguruzo z’ibanga` zigenzura Bitcoin yawe ku gikoresho kitigera gifatanywa na internet. `Igikoresho wallet` (canke igikoresho co gusinya) ni igikoresho kidasanzwe c’umubiri cagenewe iyo ntumbero nyayo. Ikora nk’ububiko bw’imfunguruzo zawe, kugira ngo ntizigere zishikirwa n’ingorane zishobora guterwa na mudasobwa canke telefone yo kuri Internet.
 
 
-Mu gufatanya igikoresho ca wallet na porogarama ya Bull Bitcoin, uronka ivyiza kuruta ibindi vyose: umutekano udashobora gusenyuka w’ububiko bukonje bw’imfunguruzo zawe z’ibanga, bufatanijwe n’ibintu bikomeye be n’uburyo bwo gukoresha neza Bull Bitcoin wallet kugira ngo ushobore kuraba amafaranga y’ibanga. Muri iki gice ca nyuma, tuzokwereka ingene wofatanya igikoresho ca wallet, nka [Ikarata y'ubukonje Q](https://ikarita y'ubukonje.com/q), na Bull Bitcoin wallet yawe. Iyi nyigisho ntizovuga ku gushinga Coldcard Q mu buryo bwimbitse; ivyo ushobora kubimenya hano:
+Mu gufatanya igikoresho ca wallet na porogarama ya Bull Bitcoin, uronka ivyiza kuruta ibindi vyose: umutekano udashobora gusenyuka w’ububiko bukonje bw’imfunguruzo zawe z’ibanga, bufatanijwe n’ibintu bikomeye be n’uburyo bwo gukoresha neza Bull Bitcoin wallet kugira ngo ushobore kuraba amafaranga y’ibanga. Muri iki gice ca nyuma, tuzokwereka ingene wofatanya igikoresho ca wallet, nka [Ikarata y'ubukonje Q](https://coldcard.com/q), na Bull Bitcoin wallet yawe. Iyi nyigisho ntizovuga ku gushinga Coldcard Q mu buryo bwimbitse; ivyo ushobora kubimenya hano:
 
 
 https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
@@ -637,4 +641,4 @@ Ubu wararangije urugendo rwawe rwo guca muri Bull Bitcoin Wallet. Iyo porogarama
 ## 📚 Ivy'Ishūri Wallet
 
 
-[Github](imbuga ya Satoshi/Igihugu c'Igihugu) | [Urubuga ](https://www.ibice vy'inzoka/)| [Gusubirana](https://gusubirana.com/)
+[Github](https://github.com/SatoshiPortal/bullbitcoin-mobile) | [Urubuga ](https://www.bullbitcoin.com/)| [Gusubirana](https://recoverbull.com/)

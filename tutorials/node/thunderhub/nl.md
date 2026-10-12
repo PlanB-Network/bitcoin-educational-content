@@ -122,7 +122,7 @@ Voor gebruikers buiten Umbrel (bijvoorbeeld op een persoonlijke server, een Rasp
 
 
 
-**vereisten:** Zorg ervoor dat uw systeem voldoet aan de minimale vereisten volgens [documentatie setup](https://docs.thunderhub.io/setup):
+**vereisten:** Zorg ervoor dat uw systeem voldoet aan de minimale vereisten volgens [documentatie setup](https://docs.thunderhub.io/configure):
 
 
 
@@ -136,7 +136,7 @@ Voor gebruikers buiten Umbrel (bijvoorbeeld op een persoonlijke server, een Rasp
 
 
 
-**1. ThunderHub code ophalen:** Kloon de GitHub repository van het project zoals beschreven in de [installatie documentatie](https://docs.thunderhub.io/installation):
+**1. ThunderHub code ophalen:** Kloon de GitHub repository van het project zoals beschreven in de [installatie documentatie](https://docs.thunderhub.io/get-started):
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Hoofdconfiguratiebestand:** Maak een `.env.local` bestand aan in de root van de ThunderHub map om de configuratie aan te passen (dit voorkomt dat uw instellingen worden overschreven tijdens updates). Hoofdvariabelen zoals in [setup documentatie](https://docs.thunderhub.io/setup):
+**1. Hoofdconfiguratiebestand:** Maak een `.env.local` bestand aan in de root van de ThunderHub map om de configuratie aan te passen (dit voorkomt dat uw instellingen worden overschreven tijdens updates). Hoofdvariabelen zoals in [setup documentatie](https://docs.thunderhub.io/configure):
 
 
 
@@ -304,8 +304,8 @@ De ThunderHub aanmeldpagina verschijnt. Selecteer de geconfigureerde account en 
 
 
 
-- **Installatie:** [docs.thunderhub.io/installatie](https://docs.thunderhub.io/installation)
-- **Configuratie:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Installatie:** [docs.thunderhub.io/installatie](https://docs.thunderhub.io/get-started)
+- **Configuratie:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

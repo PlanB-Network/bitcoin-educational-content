@@ -27,7 +27,7 @@ description: 재정적 자유를 통해 언론의 자유를 수호하는 크리�
 ## 2. 럼블 Wallet은 어떻게 설치하나요?
 
 
-이 애플리케이션은 각 공식 스토어를 통해 [Android](https://play.google.com/store/apps/details?id=com.wallet.rumble)와 iOS 모두에서 설치할 수 있습니다.
+이 애플리케이션은 각 공식 스토어를 통해 [Android](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet)와 iOS 모두에서 설치할 수 있습니다.
 
 
 ![Image](assets/fr/01.webp)

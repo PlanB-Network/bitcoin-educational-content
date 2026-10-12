@@ -217,7 +217,7 @@ Per visualizzare i registri del nodo Bitcoin relativi in particolare all'interaz
 
 
 - [Pagina Wiki che spiega Tor e la sua relazione con Bitcoin](https://en.Bitcoin.it/wiki/Tor)
-- [Generatore di file di configurazione Bitcoin core di Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [Generatore di file di configurazione Bitcoin core di Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/)
 - [Guida alla configurazione di Tor di Jon Atack](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 

@@ -309,7 +309,7 @@ De abt van Saint-Pierre betoogde dat het bewind van Lodewijk XIV, met zijn weeld
 
 Op economisch vlak paste hij consequent het nutsbeginsel toe, net zoals Jeremy Bentham later zou doen, en kwam hij vaak met gegronde inzichten. Om eerlijk te zijn, was hij nog beïnvloed door mercantilistische ideeën, die op dat moment nog niemand volledig had afgeschud.
 
-Toch deed de abt van Saint-Pierre enkele juiste waarnemingen over de economie. Nog vóór *Condillac*, aan wie het idee vaak wordt toegeschreven, stelde hij duidelijk dat bij elke ruil beide partijen winnen. Dit staat in zijn ["Project pour perfectionner le commerce de France"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) uit 1733, waarin hij schreef:
+Toch deed de abt van Saint-Pierre enkele juiste waarnemingen over de economie. Nog vóór *Condillac*, aan wie het idee vaak wordt toegeschreven, stelde hij duidelijk dat bij elke ruil beide partijen winnen. Dit staat in zijn ["Project pour perfectionner le commerce de France"](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) uit 1733, waarin hij schreef:
 
 > Wanneer er een verkoop plaatsvindt tussen kooplieden, wint de verkoper, en wint ook de koper; want als er geen reëel of vermeend voordeel voor beide partijen zou zijn, zou noch de verkoper tegen die en die prijs verkopen, noch de koper tegen die prijs kopen.
 
@@ -469,7 +469,7 @@ De intellectuele output van de kring van Gournay had een grote impact op de gesc
 
 ![Studie over economische publicaties in Frankrijk, 1566-1789](assets/en/035.webp)
 
-Om een smaak voor economische discussies onder de Franse bevolking te verspreiden, werkten Gournay en zijn vrienden eraan deze toegankelijk te maken via romans. Na de *Memoir on the Trades*, dat de gilden bekritiseerde, hielpen Gournay en Cliquot-Blervache Gabriel-François Coyer bij het schrijven van een korte satirische novelle genaamd Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Om een smaak voor economische discussies onder de Franse bevolking te verspreiden, werkten Gournay en zijn vrienden eraan deze toegankelijk te maken via romans. Na de *Memoir on the Trades*, dat de gilden bekritiseerde, hielpen Gournay en Cliquot-Blervache Gabriel-François Coyer bij het schrijven van een korte satirische novelle genaamd Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Abt Gabriel-François Coyer, "Chinki"](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ In zijn eerder aangehaalde *Maximes* stelt Quesnay:
 
 De fysiocraten hadden de schade gezien die overheidsinmenging veroorzaakte, vooral in de graanhandel. Men moet erkennen, zeggen zij, dat het gezag nooit in staat zal zijn de handel zo goed te beheren als individuen, omdat het op elke behoefte zou moeten reageren en op elke verandering in vraag of aanbod zou moeten inspelen. Dit alles gaat het vermogen van zelfs de wijste denkbare regering ver te boven. Daarom is het noodzakelijk de dingen te laten begaan en te laten stromen.
 
-Van nature heilzaam, moet de handel volledig en volmaakt vrij zijn. Een van hun leden, Le Trosne, schreef zelfs een pamflet getiteld [*The Freedom of the Grain Trade: Always Useful, Never Harmful*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Van nature heilzaam, moet de handel volledig en volmaakt vrij zijn. Een van hun leden, Le Trosne, schreef zelfs een pamflet getiteld [*The Freedom of the Grain Trade: Always Useful, Never Harmful*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/).
 
 ### Vijfde beginsel: alle mensen zijn broeders
 

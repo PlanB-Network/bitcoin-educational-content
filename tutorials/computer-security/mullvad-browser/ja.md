@@ -547,7 +547,7 @@ Mullvad Browserは一定の制限（モバイル版なし、非永続的セッ�
 
 - [Mullvadブラウザ公式サイト](https://mullvad.net/fr/browser)
 - [Mullvad Browser ダウンロードページ](https://mullvad.net/en/download/browser)
-- [詳細技術仕様](https://mullvad.net/en/browser/Hard-facts)
+- [詳細技術仕様](https://mullvad.net/en/browser/hard-facts)
 - [Mullvadブラウザ拡張機能](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

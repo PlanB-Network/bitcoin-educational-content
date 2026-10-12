@@ -51,13 +51,13 @@ Birumvikana ko intambwe ya mbere ari ugukuraho porogarama ya Aqua. Genda mu bubi
 
 
 
-- [Ku bijanye na Android](Id=Io.Aquawallet.Android);
-- [Ku bijanye na Apple](imbuga ngurukanabumenyi).
+- [Ku bijanye na Android](https://play.google.com/store/apps/details?id=io.aquawallet.android);
+- [Ku bijanye na Apple](https://apps.apple.com/us/app/aqua-wallet/id6468594241).
 
 ![AQUA](assets/fr/04.webp)
 
 
-Ku bakoresha Android, urafise kandi uburenganzira bwo gushiramwo porogarama biciye ku dosiye `.apk` [iboneka kuri GitHub yabo].
+Ku bakoresha Android, urafise kandi uburenganzira bwo gushiramwo porogarama biciye ku dosiye `.apk` [iboneka kuri GitHub yabo](https://github.com/AquaWallet/aqua-wallet/releases).
 
 
 ![AQUA](assets/fr/05.webp)

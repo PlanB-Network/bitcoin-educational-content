@@ -175,14 +175,14 @@ Uvuye muri iyo nzira, igikorwa c’umushingamateka ni ugutunganya, guhindura can
 Bastiat yavuze ko iyo umuntu yuguruye ibitabu vy’inyigisho, amenya yuko abantu boba bacitse ubusa iyo ububasha butagira ico bukoze:
 
 
-> "Birahagije gufungura, hafi mu buryo butari bwo, igitabu ca filozofiya, politike, canke amateka kugira ngo turabe ingene iki ciyumviro gishinze imizi mu gihugu cacu, kivutse mu nyigisho za kera kandi ari nyina w'ubusosiyalisimu, ko umuntu ari ikintu kitagira ico kikora gihabwa ubutegetsi ubuzima, imitunganirize, inyifato runtu, n'ubutunzi; n'ukuboko kw'akabanga kw'Umushingamateka." ([_Itegeko_](ku rubuga rwa interineti)).
+> "Birahagije gufungura, hafi mu buryo butari bwo, igitabu ca filozofiya, politike, canke amateka kugira ngo turabe ingene iki ciyumviro gishinze imizi mu gihugu cacu, kivutse mu nyigisho za kera kandi ari nyina w'ubusosiyalisimu, ko umuntu ari ikintu kitagira ico kikora gihabwa ubutegetsi ubuzima, imitunganirize, inyifato runtu, n'ubutunzi; n'ukuboko kw'akabanga kw'Umushingamateka." ([_Itegeko_](http://bastiat.org/fr/la_loi.html)).
 
 Mu yandi majambo, urwanko rw’imico kama ruganzwa na filozofiya y’Uburengero be n’ubuhinga bwo kumenya amateka ni uko vyose dufise umwenda w’ububasha: umwidegemvyo, amagara, uburezi, umutekano n’uguterimbere. Umuntu adondorwa nk'"ikintu kitagira ico gikora" gifata ishusho kubera umushingamateka.
 
 
 Ariko ukuri kw’ububasha kuratandukanye cane nk’uko Bastiat abivuga. Ububasha ni uguhahaza. Yandika ati:
 
-Gufungura amateka y’abantu ku buryo butari bwo! Raba amateka ya kera canke ya none, ayeranda canke ateye isoni, maze wibaze aho izo ntambara zose z’amoko, z’imigwi, z’amahanga n’imiryango zikomoka! Uzokwama uronka iyi nyishu idahinduka: Ivuye ku nyota y’ububasha. ([_Ibihuye n'Inama Nshingamateka_](http://bastiat.org/fr/ibihuye_n'abashingamateka.html))
+Gufungura amateka y’abantu ku buryo butari bwo! Raba amateka ya kera canke ya none, ayeranda canke ateye isoni, maze wibaze aho izo ntambara zose z’amoko, z’imigwi, z’amahanga n’imiryango zikomoka! Uzokwama uronka iyi nyishu idahinduka: Ivuye ku nyota y’ububasha. ([_Ibihuye n'Inama Nshingamateka_](http://bastiat.org/fr/incompatibilites_parlementaires.html))
 
 
 Inyota y’ubutegetsi ni yo iri mu muzi w’ubwoko bwose bw’agahahazo muri kahise. Mu kete yandikiye Madamu Chevreux, ryo ku wa 23 Ruheshi 1850, Bastiat aradondora inzira z'agahahazo: "Ibihe vy'urugamba, ku bijanye n'uwuzofata Leta; n'ibihe vy'amahoro bizoba ari ubutegetsi bw'agahahazo k'intsinzi, ikimenyetso c'urugamba rushasha." Ica mbere, ni ukwigarurira ubutegetsi biciye mu ntambara, hanyuma hashingwa Leta ibaho mu gusahura ubutunzi bw’abanyagihugu bayo.
@@ -191,7 +191,7 @@ Inyota y’ubutegetsi ni yo iri mu muzi w’ubwoko bwose bw’agahahazo muri kah
 Amateka rero ni urugamba hagati y’ingingo ngenderwako zibiri: umwidegemvyo n’agahahazo.
 
 
-> Umwidegemvyo! Ni ukuvuga, mu mpera, ingingo ngenderwako y’uguhuza. Guhahaza! Iyo ni yo ngingo ngenderwako y’uguhuza; urugamba rw’izo nguvu zibiri rwuzuye amateka y’abantu. ([_Ivyiyumviro vy’Ubutunzi_](http://bastiat.org/fr/insozero_ivy’ubutunzi.html), insozero y’integuro y’intango).
+> Umwidegemvyo! Ni ukuvuga, mu mpera, ingingo ngenderwako y’uguhuza. Guhahaza! Iyo ni yo ngingo ngenderwako y’uguhuza; urugamba rw’izo nguvu zibiri rwuzuye amateka y’abantu. ([_Ivyiyumviro vy’Ubutunzi_](http://bastiat.org/fr/conclusion_eo_harmonies.html), insozero y’integuro y’intango).
 
 ### None agahahazo ni iki?
 
@@ -199,25 +199,25 @@ Amateka rero ni urugamba hagati y’ingingo ngenderwako zibiri: umwidegemvyo n�
 ![image](assets/rn/008.webp)
 
 
-Mu ijambo rimwe, ni ugusahura. Bastiat aradondora uburyo nyamukuru bwo gusahura buva ku bakuru b’igihugu: intambara, ubuja, ubutegetsi bwa gitewokarasi be n’ubutegetsi bw’umuntu umwe. Nkako, nk'uko abivuga: «Hari uburyo bubiri gusa bwo kuronka ivya nkenerwa vyo kuzigama, gushaza no guteza imbere ubuzima: UGUSHIRAHO n'UGUSAHURA». ([_Ivy'umubiri w'abantu basahura_](http://bastiat.org/fr/ivy'umubiri_w'ugusahura_html))
+Mu ijambo rimwe, ni ugusahura. Bastiat aradondora uburyo nyamukuru bwo gusahura buva ku bakuru b’igihugu: intambara, ubuja, ubutegetsi bwa gitewokarasi be n’ubutegetsi bw’umuntu umwe. Nkako, nk'uko abivuga: «Hari uburyo bubiri gusa bwo kuronka ivya nkenerwa vyo kuzigama, gushaza no guteza imbere ubuzima: UGUSHIRAHO n'UGUSAHURA». ([_Ivy'umubiri w'abantu basahura_](http://bastiat.org/fr/physiologie_de_la_spoliation.html))
 
 
 Ni itandukaniro irihe riri hagati y’uguhingura n’ugusahura? Ng’iyi inyishu ya Bastiat:
 
 
-> Kugira ngo umuntu avyare, ategerezwa kwerekeza ubushobozi bwiwe bwose ku kuganza ibidukikije; kuko kamere ni yo itegerezwa kurwanwa, gutozwa no guhindurwa ubuja. Ni co gituma icuma gihinduwe isuka ari co kimenyetso c’umwimbu. Kugira umuntu asahure, ategerezwa kwerekeza ubushobozi bwiwe bwose ku kuganza abantu; kuko ari bo bagomba kurwanwa, kwicwa canke guhindurwa abaja. Ni co gituma icuma gihinduwe inkota ari co kimenyetso c’ugusahura. ([_Uguhuza Ubutunzi_](Intambara).
+> Kugira ngo umuntu avyare, ategerezwa kwerekeza ubushobozi bwiwe bwose ku kuganza ibidukikije; kuko kamere ni yo itegerezwa kurwanwa, gutozwa no guhindurwa ubuja. Ni co gituma icuma gihinduwe isuka ari co kimenyetso c’umwimbu. Kugira umuntu asahure, ategerezwa kwerekeza ubushobozi bwiwe bwose ku kuganza abantu; kuko ari bo bagomba kurwanwa, kwicwa canke guhindurwa abaja. Ni co gituma icuma gihinduwe inkota ari co kimenyetso c’ugusahura. ([_Uguhuza Ubutunzi_](http://bastiat.org/fr/guerre.html).
 
 Mu yandi majambo, uguhingura ni uburyo bwo kugira ububasha ku kamere. Ugusahura ni ububasha ku bantu. Ariko rero, hari uburyo bubiri bwo gusahura: butegekanijwe n’amategeko n’ubutemewe n’amategeko.
 
-Ugusahura bitemewe n’amategeko ni ubusuma canke ubugizi bwa nabi umunyagihugu umwe akorera uwundi. Ni igikorwa c’umusuma canke umusuma. Ariko rero, uburyo bubi kuruta ubundi bwo gusahura ni ubwo bushitswako n'amategeko: "Hari abantu biyumvira ko gusahura bitakaza ubusambanyi bwavyo bwose igihe cose bitegekanijwe n'amategeko. Nanje rero, sinshobora kwiyumvira ikintu coba gikomeye kuruta." ([_Ivyo Biboneka n’Ibitaboneka_](http://bastiat.org/fr/cqovecqonvp.html#UBUZIMA)).
+Ugusahura bitemewe n’amategeko ni ubusuma canke ubugizi bwa nabi umunyagihugu umwe akorera uwundi. Ni igikorwa c’umusuma canke umusuma. Ariko rero, uburyo bubi kuruta ubundi bwo gusahura ni ubwo bushitswako n'amategeko: "Hari abantu biyumvira ko gusahura bitakaza ubusambanyi bwavyo bwose igihe cose bitegekanijwe n'amategeko. Nanje rero, sinshobora kwiyumvira ikintu coba gikomeye kuruta." ([_Ivyo Biboneka n’Ibitaboneka_](http://bastiat.org/fr/cqovecqonvp.html#RESTRICTION)).
 
 
 Bastiat atubwira ko hariho uburyo bubiri bwo gusahura bitegekanijwe n’amategeko:
 
 
-> Ugusahura kw’inyuma kwitwa intambara, kwigarurira n’ugukoloniza. Ubusahuzi bwo mu mutima akenshi bwitwa imisoro, ibibanza n’ubutegetsi bw’umuntu umwe. ([_Cobden n’Ishirahamwe_](http://bastiat.org/fr/intangamarara_ishirahamwe_ry’Ishirahamwe_Cobden_html), Intangamarara).
+> Ugusahura kw’inyuma kwitwa intambara, kwigarurira n’ugukoloniza. Ubusahuzi bwo mu mutima akenshi bwitwa imisoro, ibibanza n’ubutegetsi bw’umuntu umwe. ([_Cobden n’Ishirahamwe_](http://bastiat.org/fr/introduction_cobden_ligue.html), Intangamarara).
 
-Mu gitabu ciwe [_Ivyerekeye umubiri w’umuntu asahuye_](http://bastiat.org/fr/ivy’umubiri w’umuntu_w’ugusahura.html), arasobanura neza ati:
+Mu gitabu ciwe [_Ivyerekeye umubiri w’umuntu asahuye_](http://bastiat.org/fr/physiologie_de_la_spoliation.html), arasobanura neza ati:
 
 
 > Itegeko ry’ukuri kandi ry’uburinganire ry’abantu ni: Exchange y’ugukorera ku gikorwa. Ugusahura ni ukubuza, ku nguvu canke ubuhendanyi, umwidegemvyo wo guharira kugira ngo umuntu aronke igikorwa ataco amuhaye. Gusahura ku nguvu bikorwa gutya: Umuntu arindira ko umuntu atanga ikintu, hanyuma akakimunyaga, afise intwaro mu minwe. Ivyagezwe cumi biravyicira urubanza mu buryo butegekanijwe: Ntuze wibe. Iyo bishitse ku muntu ku wundi, vyitwa ubusuma kandi bishikana mw’ibohero; iyo ari kuva mw’ihanga gushika ku rindi, vyitwa gutsinda kandi bijana mu buninahazwa.
@@ -234,8 +234,8 @@ Mu mateka, abategetsi b’abanyacubahiro bama babaho ku gusahura. Ivyiyumviro vy
 > Inguvu zikoreshwa mu gusahura ni zo zishingiyeko amateka y’abantu. Gukurikirana amateka yayo vyoba ari ugusubiramwo hafi amateka yose y’ibihugu vyose: Abashuri, Abanyababiloni, Abamedi, Abaperesi, Abanyamisiri, Abagiriki, Abaroma, Abagoti, Abafaranki, Abahuni, Abaturuki, Abarabu, Abamongoli, Abatartari muri Afirika, tutavuze Abanyasipaniyo bo muri Amerika, Abongereza bo muri Aziya, Abarusiya bo muri Aziya, Abanyasipaniyo bo muri Aziya.
 >
 
-> ([_Ivyiyumviro vy’ubutunzi_](http://bastiat.org/fr/insozero_ivy’ubutunzi.html), Insozero y’igitabu ca mbere).
-> Ubusahuzi, mu buryo bwabwo bw’ubukazi kuruta ubundi bwose, bufise ibirwanisho vy’itara n’inkota, buraheza bukaba bwuzuye mu bitabu vy’amateka y’abantu. Ni ayahe mazina avuga mu ncamake amateka? Kuro, Sesositiri, Alegizandere, Sipiyo, Kayisari, Atila, Tamerlan, Muhamadi, Pizarro, Wiliyamu Umutsinzi; ivyo ni ugusahura kw’ubujuju biciye mu kwigarurira. Ni co gifise ibibanza vy’ugushimira, ibimenyetso, ibishushanyo be n’imirongo y’intsinzi. ([_Ivyiyumviro vy’Ubutunzi_](http://bastiat.org/fr/insozero_ivy’ubutunzi.html), insozero y’integuro y’intango).
+> ([_Ivyiyumviro vy’ubutunzi_](http://bastiat.org/fr/conclusion_sophismes.html), Insozero y’igitabu ca mbere).
+> Ubusahuzi, mu buryo bwabwo bw’ubukazi kuruta ubundi bwose, bufise ibirwanisho vy’itara n’inkota, buraheza bukaba bwuzuye mu bitabu vy’amateka y’abantu. Ni ayahe mazina avuga mu ncamake amateka? Kuro, Sesositiri, Alegizandere, Sipiyo, Kayisari, Atila, Tamerlan, Muhamadi, Pizarro, Wiliyamu Umutsinzi; ivyo ni ugusahura kw’ubujuju biciye mu kwigarurira. Ni co gifise ibibanza vy’ugushimira, ibimenyetso, ibishushanyo be n’imirongo y’intsinzi. ([_Ivyiyumviro vy’Ubutunzi_](http://bastiat.org/fr/conclusion_eo_harmonies.html), insozero y’integuro y’intango).
 > Amateka y’isi ni amateka yerekana ingene umugwi umwe w’abantu wasahuye abandi, kenshi mu buryo butunganye, biciye mu ntambara, mu buja no mu butegetsi bwa gitewokarasi. Muri iki gihe, ni monopoly, ni ukuvuga uburenganzira bw’ubutunzi Leta igabira abayigura.
 
 Imisi mikeyi imbere y’uko apfa i Roma mu 1850, Bastiat yarabwiye umugenzi wiwe Prosper Paillottet ati:
@@ -262,10 +262,10 @@ Birazwi ko abatsinze ari bo bandika amateka. Akenshi umuntu yibanda ku kwigaruri
 
 Ivyo ni ko biri canecane ku bitabu vy’inyigisho vyerekeye amashure ya Leta kandi vyanditswe n’abaporofeseri bakoreshwa na Leta.
 
-Ivyo si ko biri ku gitabu kiri mu bitabo bibiri canditswe n’umuhinga mu vya kahise wo mu gisagara ca Cambridge mu kinjana ca 19, [Lord Acton]. Izina ryiwe ryose ni Yohani Emeriki Edwari Dalberg, umukuru w’igisagara ca Acton (1834-1902). Ni we yanditse igitabu _Amateka y'Umwidegemvyo mu bihe vya kera n'ubukirisu_. Ibikorwa vyiwe bibonwa ko ari bimwe mu bihambaye cane ku bijanye n’ico kibazo, kandi yarabikoreye igice kinini c’ubuzima bwiwe. Ivyo yakoze, naho bitaraheza, ni imburi ikomeye ku bibazo vyo gukoresha nabi ububasha, kandi ubuvugizi bwiwe bwo kwidegemvya n’inshingano z’umuntu ku giti ciwe buracariho n’ubu.
+Ivyo si ko biri ku gitabu kiri mu bitabo bibiri canditswe n’umuhinga mu vya kahise wo mu gisagara ca Cambridge mu kinjana ca 19, [Lord Acton](https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt). Izina ryiwe ryose ni Yohani Emeriki Edwari Dalberg, umukuru w’igisagara ca Acton (1834-1902). Ni we yanditse igitabu _Amateka y'Umwidegemvyo mu bihe vya kera n'ubukirisu_. Ibikorwa vyiwe bibonwa ko ari bimwe mu bihambaye cane ku bijanye n’ico kibazo, kandi yarabikoreye igice kinini c’ubuzima bwiwe. Ivyo yakoze, naho bitaraheza, ni imburi ikomeye ku bibazo vyo gukoresha nabi ububasha, kandi ubuvugizi bwiwe bwo kwidegemvya n’inshingano z’umuntu ku giti ciwe buracariho n’ubu.
 
 
-Uwo mwanditsi azwi cane kubera amajambo yiwe agira ati: "Ububasha burakunda kwonona, kandi ububasha bushitse bwonona vyose." Formule isubiramwo iyo Montesquieu yanditse mu gitabu [_Impwemu y'Amategeko_](https://Impwemu_ya_Lois_-_Igitabu_1.djvu/316):
+Uwo mwanditsi azwi cane kubera amajambo yiwe agira ati: "Ububasha burakunda kwonona, kandi ububasha bushitse bwonona vyose." Formule isubiramwo iyo Montesquieu yanditse mu gitabu [_Impwemu y'Amategeko_](https://fr.wikisource.org/wiki/Page:Montesquieu_-_Esprit_des_Lois_-_Tome_1.djvu/316):
 
 
 > Ni ivy’ibihe bidahera ko umuntu wese afise ububasha ageragezwa no kubukoresha nabi.
@@ -298,15 +298,15 @@ Ariko iciyumviro c’uko umwidegemvyo mu Buraya wavutse mu ntambara zo mu mutima
 Gutyo, Voltaire, mu gitabu ciwe [_Amakete ya filozofiya_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6), avuga ko umwidegemvyo w’Abongereza uterwa n’indyane zari hagati y’abami n’abanyacubahiro, ivyo bikaba vyatuma ububasha butagira aho bugarukira cane. Kandi aravuga ati:
 
 
-> Iyo mu Bwongereza haba idini rimwe gusa, ubutegetsi bwaryo bw’agahomerabunwa bwobaye ubwo gutinya; iyo baba babiri gusa, baraca imihogo; ariko hari mirongo itatu, kandi babana amahoro n’agahimbare. ([Ku vyerekeye Abapresbiteriyani](Ikete_ry'ubuhinga bwa filozofiya/Ikete_6))
+> Iyo mu Bwongereza haba idini rimwe gusa, ubutegetsi bwaryo bw’agahomerabunwa bwobaye ubwo gutinya; iyo baba babiri gusa, baraca imihogo; ariko hari mirongo itatu, kandi babana amahoro n’agahimbare. ([Ku vyerekeye Abapresbiteriyani](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
 
 ![image](assets/rn/012.webp)
 
 
-Condorcet, mu gitabu ciwe [_Igishushanyo c'Ishusho y'Amateka y'Iterambere ry'Ubwenge bw'Umuntu_](https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99ku_mbonerahamwe_y'amateka_y'iterambere%C3%A8s_de_l%E2%80%99, yashize ahabona ububasha_bw'abantu mu9 Ubutaliyano gushika ku ntambara yari hagati ya papa n’umwami w’abami, ivyo bikaba vyatumye ibisagara vyinshi vyigenga bitera imbere.
+Condorcet, mu gitabu ciwe [_Igishushanyo c'Ishusho y'Amateka y'Iterambere ry'Ubwenge bw'Umuntu_](https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99un_tableau_historique_des_progr%C3%A8s_de_l%E2%80%99esprit_humain, yashize ahabona ububasha_bw'abantu mu9 Ubutaliyano gushika ku ntambara yari hagati ya papa n’umwami w’abami, ivyo bikaba vyatumye ibisagara vyinshi vyigenga bitera imbere.
 
 
-Iyi nyigisho iraboneka kandi mu gitabu gikomeye co mu 1983: _Itegeko n’Impinduka: Ishingwa ry’Imigenzo y’Ivyagezwe y’Uburengero_, canditswe na Harold J. Berman ([Impinduro y’Igifaransa na Raoul Audouin]( n’Iduka ry’Ibitabu rya Kaminuza ya Aix en Provence mu 2002). Isesengura rya Berman rirerekana uruhara ruhambaye rw’ubunywanyi bw’amategeko muri kahise k’Uburengero. Uwo murongo, kure y’uko wari isoko gusa y’ibintu bigoranye, wari umuvuduko w’iterambere, umwidegemvyo n’ubuhinga bushasha, ukaba warahinduye imigenzo y’amategeko y’Uburengero mu buryo buramba.
+Iyi nyigisho iraboneka kandi mu gitabu gikomeye co mu 1983: _Itegeko n’Impinduka: Ishingwa ry’Imigenzo y’Ivyagezwe y’Uburengero_, canditswe na Harold J. Berman ([Impinduro y’Igifaransa na Raoul Audouin](https://www.eyrolles.com/Entreprise/Livre/droit-et-revolution-9782903449667/)( n’Iduka ry’Ibitabu rya Kaminuza ya Aix en Provence mu 2002). Isesengura rya Berman rirerekana uruhara ruhambaye rw’ubunywanyi bw’amategeko muri kahise k’Uburengero. Uwo murongo, kure y’uko wari isoko gusa y’ibintu bigoranye, wari umuvuduko w’iterambere, umwidegemvyo n’ubuhinga bushasha, ukaba warahinduye imigenzo y’amategeko y’Uburengero mu buryo buramba.
 
 
 ## Marx: Amateka nk'urugamba rw'umugwi
@@ -344,7 +344,7 @@ Iryo sesangura ryerekana ukutamenya neza agaciro k’inyongera n’ubufatanye n�
 ### Impinduka y'inganda iri mu bibazo
 
 
-Nkako, isesengura ry’aba Marxiste rigoranya ukuri kw’amateka y’Impinduka y’Inganda. Ludwig von Mises yaratomoye neza ico kibazo mu gitabu ciwe c’ubutunzi [_Ibikorwa vy’umuntu_](raba canecane igice citwa [Isobanuro ry’abantu benshi ry’ivy’inganda . Impinduka](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) hamwe n’uruhererekane rw’inyigisho zasohowe zifise umutwe uvuga ngo: [_Itegeko ry’ubutunzi: Ivyiyumviro vy’uyu musi n’ejo_](http://herve.dequengo.free/DMPEht.Mises/). (Ivyo birabereye gusoma, Ivyiyumviro birwanya ubucapitaliste [hano](aha] (aha] n’igitabu [hano]
+Nkako, isesengura ry’aba Marxiste rigoranya ukuri kw’amateka y’Impinduka y’Inganda. Ludwig von Mises yaratomoye neza ico kibazo mu gitabu ciwe c’ubutunzi [_Ibikorwa vy’umuntu_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (raba canecane igice citwa [Isobanuro ry’abantu benshi ry’ivy’inganda . Impinduka](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) hamwe n’uruhererekane rw’inyigisho zasohowe zifise umutwe uvuga ngo: [_Itegeko ry’ubutunzi: Ivyiyumviro vy’uyu musi n’ejo_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Ivyo birabereye gusoma, Ivyiyumviro birwanya ubucapitaliste [hano](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) n’igitabu [hano](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)
 
 ![image](assets/rn/014.webp)
 
@@ -388,7 +388,7 @@ Mu vy’ukuri, gukoresha nabi abantu birafise insiguro gusa nk’ugutera umutung
 ### "Igitangaza c'i Buraya".
 
 
-Hanyuma, isesengura ry’amateka ry’agaciro kuruta irya Marx rituma dushobora guhakana iciyumviro c’Uburayi bushobora kwica abantu, bukaba bwaroraniwe kubera ubutegetsi bw’abami n’ubuja gusa. Mu gusuzuma amateka y’ubutunzi agereranywa, abahinga mu vya kahise bamwebamwe bo muri ico gihe bararondeye inkomoko y’iterambere ry’Uburayi mu vyo bwari butandukanye n’ibindi bihugu bikomeye, canecane ivy’Ubushinwa, Ubuhindi n’Ubuyisilamu. Ivyo bimenyetso vyasuzumwe na [David Landes], [Jean Baechler](ibitabu/ibitabu vy’amashure y’isumbuye/jean-baechler/), [François Crouzet](ibitabu vy’amashure y’isumbuye n’ivy’amateka-2010-49), na [urupapuro rwa 2 Uburaruko](65134-douglass-uburaruko-bw'abahinga mu vy'ubutunzi-bw'inkomoko/). Abo bashakashatsi baragerageje gutahura ico bita "igitangaza c'i Buraya." Bashize umutima wabo ku kuba Uburaya bwari umugwi w’ibihugu vy’ubutegetsi bigabanijwe kandi bihiganwa, aho, inyuma y’ugutemba kw’Uburoma, ata butegetsi bwa politike buhambaye bwari bushobora gutegeka ivyo bugomba.
+Hanyuma, isesengura ry’amateka ry’agaciro kuruta irya Marx rituma dushobora guhakana iciyumviro c’Uburayi bushobora kwica abantu, bukaba bwaroraniwe kubera ubutegetsi bw’abami n’ubuja gusa. Mu gusuzuma amateka y’ubutunzi agereranywa, abahinga mu vya kahise bamwebamwe bo muri ico gihe bararondeye inkomoko y’iterambere ry’Uburayi mu vyo bwari butandukanye n’ibindi bihugu bikomeye, canecane ivy’Ubushinwa, Ubuhindi n’Ubuyisilamu. Ivyo bimenyetso vyasuzumwe na [David Landes](https://www.eyrolles.com/Entreprise/Livre/richesse-et-pauvrete-des-nations-9782226110381/), [Jean Baechler](https://academiesciencesmoralesetpolitiques.fr/publications/publications-de-lacademie/jean-baechler/), [François Crouzet](https://www.cairn.info/revue-entreprises-et-histoire-2010-4-page-219.htm), na [urupapuro rwa 2 Uburaruko](https://www.iedm.org/fr/65134-douglass-north-l-un-des-economistes-les-plus-originaux/). Abo bashakashatsi baragerageje gutahura ico bita "igitangaza c'i Buraya." Bashize umutima wabo ku kuba Uburaya bwari umugwi w’ibihugu vy’ubutegetsi bigabanijwe kandi bihiganwa, aho, inyuma y’ugutemba kw’Uburoma, ata butegetsi bwa politike buhambaye bwari bushobora gutegeka ivyo bugomba.
 
 
 Nk’uko Jean Baechler, umwe mu bagize ishure ry’ubuhinga bw’inyifato runtu n’ivya politike, abivuga mu gitabu ciwe _Inkomoko ya kapitalizimu_ (1971):
@@ -1875,12 +1875,12 @@ Ariko rero, mu 1848, inyuma y’Impinduka yo muri Ruhuhuma, Bastiat yatowe kuba 
 Mu gihe c’ingoma y’ivyiyumviro vy’abasosiyalisiti, Bastiat yabonye ko imashini y’amatora yakoreshwa mu gusahura amahera ya Leta, gutyo umunyagihugu:
 
 
-> Ivy’amahera ya Leta ntibizomara igihe kirekire mu kugwa mu kaga gakomeye. None vyoba bimeze gute ukundi kandi Leta ishinzwe guha vyose umuntu wese? Imisoro izojanjagura abantu; ugutiza bizokurikira ugutiza. Amaze kuruha ubu, kazoza kazoribwa. Ubwa nyuma, nk’uko bizokwemerwa mu ngingo ngenderwako ko Leta ari yo ishinzwe guteza imbere ubuvukanyi mu benegihugu bayo, abanyagihugu bose bazoba abasaba. Ivy’ubutaka, uburimyi, inganda, ubudandaji, ingabo z’amazi, amashirahamwe y’inganda, vyose bizovyuka ngo bivuge ubutoni bwa Leta. Itunga rya Leta rizosahurwa vy’ukuri. ([_Ubutungane n'Ubuvukanyi_](http://bastiat.org/fr/ubutungane_buvukanyi.html))
+> Ivy’amahera ya Leta ntibizomara igihe kirekire mu kugwa mu kaga gakomeye. None vyoba bimeze gute ukundi kandi Leta ishinzwe guha vyose umuntu wese? Imisoro izojanjagura abantu; ugutiza bizokurikira ugutiza. Amaze kuruha ubu, kazoza kazoribwa. Ubwa nyuma, nk’uko bizokwemerwa mu ngingo ngenderwako ko Leta ari yo ishinzwe guteza imbere ubuvukanyi mu benegihugu bayo, abanyagihugu bose bazoba abasaba. Ivy’ubutaka, uburimyi, inganda, ubudandaji, ingabo z’amazi, amashirahamwe y’inganda, vyose bizovyuka ngo bivuge ubutoni bwa Leta. Itunga rya Leta rizosahurwa vy’ukuri. ([_Ubutungane n'Ubuvukanyi_](http://bastiat.org/fr/justice_fraternite.html))
 
 Leta rero iba, nk’uko amajambo ya Bastiat abivuga, .
 
 
-> inkuru z’ibinyoma zikomeye umuntu wese yihatira kubaho biciye mu gutakaza abandi bose. ([_Leta_](ku rubuga rwa Leta))
+> inkuru z’ibinyoma zikomeye umuntu wese yihatira kubaho biciye mu gutakaza abandi bose. ([_Leta_](http://bastiat.org/fr/l_etat.html))
 > Bastiat kandi aratera imbere iciyumviro c’uko amakimbirane avuka iyo itegeko rihevye uruhara rwaryo rikwiye. Mu gatabo kiwe kazwi cane [_Itegeko_](http://bastiat.org/fr/la_loi.html), yerekana igituma n’ingene itegeko ryacitse “ikibanza c’intambara c’ukunzi kw’inda kwose,” bisobanura isoko y’uduteka, ubukode bushingiye ku mimerere, n’imisoro idasanzwe. Igihe nyene vyemewe mu ngingo ngenderwako ko itegeko rishobora gukevya rikava ku ntumbero yaryo nyakuri, ko rishobora guhungabanya imitungo aho kuyishingira intahe, haca hakurikira ata kabuza urugamba rw’imigwi, haba rwo kwikingira ubusuma canke rwo kuritunganya kugira ngo umuntu agire inyungu.
 
 ![image](assets/rn/077.webp)
@@ -1895,7 +1895,7 @@ Iyo itegeko rirenze imbibe zaryo ni ho gusa umushingamateka ashobora gusenyuka. 
 Nk’uko Bastiat abivuga, demokarasi y’abasosiyalisiti ituma habaho ukubura ingengo y’imari ihoraho, amaherezo hakaba ubukazi. Nkako, mu kugwiza amasezerano ataco arushe no kutabasha kuyashitsa, imashini y’amatora iratera umubabaro ushinga umushinge w’amahinduka. Yandika ati:
 
 
-> Ariko iyo Leta yiyemeje kuzamura no gutunganya umushahara ntishobora kubikora; iyo yifatiye gufasha amagorwa yose kandi ntishobora kubikora; iyo vyifashe gutanga amapension ku bakozi bose kandi ntibishobore kubikora... Mbega ivyo ntitubibona, n’agahinda, ku mpera y’uguhemuka kwose? Birashoboka cane ko hariho ihinduka nk’iryo nyene ridashobora gukurwaho. ([_Itegeko_](ku rubuga rw'amakuru))
+> Ariko iyo Leta yiyemeje kuzamura no gutunganya umushahara ntishobora kubikora; iyo yifatiye gufasha amagorwa yose kandi ntishobora kubikora; iyo vyifashe gutanga amapension ku bakozi bose kandi ntibishobore kubikora... Mbega ivyo ntitubibona, n’agahinda, ku mpera y’uguhemuka kwose? Birashoboka cane ko hariho ihinduka nk’iryo nyene ridashobora gukurwaho. ([_Itegeko_](http://bastiat.org/fr/la_loi.html))
 
 Insozero ya Bastiat:
 
@@ -1984,7 +1984,7 @@ Ludwig von Mises ashimika ku vy’uko Marx yananiwe gutandukanya ivyo bijanye n�
 Mu gitabu _The Ethics of Liberty_ na _Anatomy of the State_, Murray Rothbard yasiguye ko gukoresha nabi ibintu bifise insiguro gusa nk’ugutera umutungo w’abantu ku giti cabo kandi ko Leta yonyene ari yo ironka inyungu zayo biciye mu gutera, ni ukuvuga biciye mu misoro, mu myenda, mu gucapura amahera, gutyo rero biciye mu gutera imbere kw’ibiciro. Mu vy’ukuri, ni ukugira uruhara kwa Leta, atari urugamba rw’imigwi, ari rwo rutera ubukazi n’amatati mu kibano. Leta, mu kwigarurira ubutunzi no gutunganya ubutunzi, iratuma habaho ugugoramya n’akarenganyo bituma haba amakimbirane n’uguhahaza. Guhagarika rero ubusuma bisaba kugabanya ububasha bw’umuryango w’abanyagihugu: Leta.
 
 
-Kuri iyo ngingo, raba kandi: _Isesengura ry’Ikigo c’Abamarxiste n’Abanyaotirishiya_, Hans Hermann Hoppe, Ikinyamakuru c’Ivyigwa vy’Ukwidegemvya, Umuzingo wa IX No. 2, mu mpera z’umwaka w’1990. [Impinduro ya François Guillaumat](Isesengura_ry'umugwi_w'abamarxiste_n'umugwi_w'abanyagihugu). Ishizwemwo nk’igice ca 4 c’igitabu _Ubutunzi n’inyifato runtu vy’umutungo w’abantu ku giti cabo_ (Boston: Abasohora ibitabu vy’inyigisho za Kluwer, 1993).
+Kuri iyo ngingo, raba kandi: _Isesengura ry’Ikigo c’Abamarxiste n’Abanyaotirishiya_, Hans Hermann Hoppe, Ikinyamakuru c’Ivyigwa vy’Ukwidegemvya, Umuzingo wa IX No. 2, mu mpera z’umwaka w’1990. [Impinduro ya François Guillaumat](https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). Ishizwemwo nk’igice ca 4 c’igitabu _Ubutunzi n’inyifato runtu vy’umutungo w’abantu ku giti cabo_ (Boston: Abasohora ibitabu vy’inyigisho za Kluwer, 1993).
 
 
 ### Ivyiyumviro vyinshi

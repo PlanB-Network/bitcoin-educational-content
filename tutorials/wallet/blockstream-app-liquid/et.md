@@ -35,7 +35,7 @@ description: Kuidas konfigureerida Blockstream App ja kasutada Liquid Network
 
 
 
-**Liquid** on **[Blockstream](https://blockstream.com/Liquid/)** poolt välja töötatud Bitcoin **Sidechain**, mille eesmärk on pakkuda kiiremat, rohkem Confidential Transactions ja täiustatud funktsionaalsust, jäädes samas ühendatud peamise Blockchain Bitcoin-ga.
+**Liquid** on **[Blockstream](https://blockstream.com/liquid/)** poolt välja töötatud Bitcoin **Sidechain**, mille eesmärk on pakkuda kiiremat, rohkem Confidential Transactions ja täiustatud funktsionaalsust, jäädes samas ühendatud peamise Blockchain Bitcoin-ga.
 
 
 
@@ -408,7 +408,9 @@ Liquid-Bitcoinide (L-BTC) saamiseks on saadaval mitu võimalust. Võite paluda k
 
 
 
-Alternatiivselt Exchange oma bitcoins onchain või kaudu Lightning Network L-BTC kasutades [sild nagu Boltz](https://boltz.Exchange/): sisestage oma Liquid saavad Address, teha makse, nagu soovite, ja saada oma L-BTC.
+Alternatiivselt Exchange oma bitcoins onchain või kaudu Lightning Network L-BTC kasutades sild nagu Boltz: sisestage oma Liquid saavad Address, teha makse, nagu soovite, ja saada oma L-BTC.
+
+> **Märkus (oktoober 2026):** Boltz peatas kõik swapid 3. augustil 2026 ja selle veebisait ei ole kättesaadav. See meetod praegu ei tööta.
 
 
 

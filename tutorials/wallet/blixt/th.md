@@ -663,7 +663,7 @@ LN node แบบพกพานี้, Blixt เป็นเครื่อง�
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [ปฏิทิน Blixt Girls](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - วิดีโอโฆษณา (คุณสามารถทดสอบการใช้ LN ครั้งแรกของคุณ)
 - [ใบปลิวขนาด A4 ที่พิมพ์ได้พร้อมขั้นตอนแรกในการใช้ Blixt ในหลายภาษา](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt ยังมีการสาธิตการใช้งานเต็มรูปแบบ](https://blixt-wallet-git-master-hsjoberg.vercel.app/) บนเว็บไซต์ของตนเองหรือบนเว็บเวอร์ชันเฉพาะ เพื่อให้ได้ประสบการณ์การทดสอบอย่างเต็มที่ ก่อนเริ่มใช้งานในโลกจริง
+- [Blixt ยังมีการสาธิตการใช้งานเต็มรูปแบบ](https://blixtwallet.github.io/) บนเว็บไซต์ของตนเองหรือบนเว็บเวอร์ชันเฉพาะ เพื่อให้ได้ประสบการณ์การทดสอบอย่างเต็มที่ ก่อนเริ่มใช้งานในโลกจริง
 
 
 ---

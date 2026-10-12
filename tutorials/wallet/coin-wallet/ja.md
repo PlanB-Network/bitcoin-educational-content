@@ -44,10 +44,6 @@ Coin Walletはすべての主要プラットフォームで利用可能。
 
 
 
-- [アンドロイド（ギャラクシーストア）](https://galaxystore.samsung.com/detail/com.coinspace.app)
-
-
-
 - [Android (Huawei AppGallery)](https://appgallery.huawei.com/app/C112183767)
 
 

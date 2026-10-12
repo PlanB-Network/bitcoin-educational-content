@@ -523,7 +523,7 @@ Ross Ulbricht จึงได้ดำเนินการตามแนวค
 เมื่อวันที่ 1 มีนาคม 2011 ขณะที่การโอนกำลังจะเป็นทางการ 80,000 บิตคอยน์ [หายไป](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) อย่างไร้ร่องรอยเนื่องจากการเข้าถึงไฟล์ wallet.dat ของเว็บไซต์โดยไม่ประสงค์ดี ในวันที่ 3 Jed McCaleb สังเกตเห็นการถอนและ [แจ้ง](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Mark บน IRC ว่า "มีบางอย่างไม่ดีเกิดขึ้น" มันเป็นการสูญเสียครั้งใหญ่ (บิตคอยน์หนึ่งเหรียญขายได้ในราคา $0.92 ในขณะนั้น) ซึ่งจะเพิ่มมากขึ้นเรื่อย ๆ ในเดือนต่อ ๆ มาพร้อมกับการเพิ่มขึ้นของราคาที่ไม่เคยมีมาก่อน
 
 
-ปัญหานี้ถูก [กล่าวถึง](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) โดย Jed เมื่อวันที่ 18 เมษายนในอีเมลถึง Mark ซึ่งเขาเขียนว่า:
+ปัญหานี้ถูก [กล่าวถึง](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) โดย Jed เมื่อวันที่ 18 เมษายนในอีเมลถึง Mark ซึ่งเขาเขียนว่า:
 
 
 > "ฉันไม่สามารถบอกได้ว่ามันจะเป็นปัญหาใหญ่แค่ไหนถ้าขาด BTC จำนวน 80k ถ้าราคาขึ้นไปถึง $100 หรืออะไรทำนองนั้น นั่นเป็นจำนวนมากที่จะต้องเป็นหนี้ในตอนนั้น แต่ mtgox ควรจะทำ BTC (Bitcoin) ได้มากมายเพื่อไปถึงจุดนั้น นอกจากนี้ยังมีข้อเท็จจริงที่ว่า BTC (Bitcoin) อาจจะไม่เคยลดลงต่ำกว่า 80k ดังนั้นบางทีคุณอาจไม่จำเป็นต้องกังวลเกี่ยวกับมันจริงๆ"
@@ -608,7 +608,7 @@ Ross Ulbricht จึงได้ดำเนินการตามแนวค
 
 
 
-ในยุโรปตะวันออก แพลตฟอร์ม Bitomat ซึ่งตั้งอยู่ในโปแลนด์ได้ [เปิดตัว](https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871) เมื่อวันที่ 4 เมษายน อินเทอร์เฟซยังคงเป็นแบบพื้นฐาน แต่อนุญาตให้ผู้ใช้ชาวโปแลนด์แลกเปลี่ยนสกุลเงินซวอตือสำหรับบิตคอยน์ นอกจากนี้ยังควรกล่าวถึง Cavirtex ซึ่ง [เปิด](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) เมื่อวันที่ 2 กรกฎาคม ซึ่งดำเนินการในแคนาดา
+ในยุโรปตะวันออก แพลตฟอร์ม Bitomat ซึ่งตั้งอยู่ในโปแลนด์ได้ [เปิดตัว](https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166) เมื่อวันที่ 4 เมษายน อินเทอร์เฟซยังคงเป็นแบบพื้นฐาน แต่อนุญาตให้ผู้ใช้ชาวโปแลนด์แลกเปลี่ยนสกุลเงินซวอตือสำหรับบิตคอยน์ นอกจากนี้ยังควรกล่าวถึง Cavirtex ซึ่ง [เปิด](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) เมื่อวันที่ 2 กรกฎาคม ซึ่งดำเนินการในแคนาดา
 
 
 
@@ -1230,7 +1230,7 @@ Bitcoinica ถูก[เปิดตัว](https://bitcointalk.org/index.php?to
 
 
 
-ในปี 2011 การที่ Bitcoin ไม่จำเป็นต้องมีการอนุมัติทำให้สมาชิกในชุมชนจินตนาการถึงการใช้งานที่เกินกว่าการแลกเปลี่ยนเงินตราและการเก็งกำไรแบบง่าย ๆ พวกเขากำลังมองหาวิธีที่จะเสรีการลงทุนโดยการให้วิธีการออกหุ้นและพันธบัตรสำหรับบริษัทในระบบนิเวศ เป้าหมายคือการหลีกเลี่ยงกฎระเบียบที่กำหนดโดย *Securities and Exchange Commission* ในสหรัฐอเมริกา (เทียบเท่ากับ AMF ของอเมริกา) โดย [ใช้ประโยชน์](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) จากลักษณะนวัตกรรมของ Bitcoin และความคลุมเครือทางกฎหมายที่ล้อมรอบมัน ความคิดคือการสร้างโมเดลทางเลือกให้กับระบบการเงินแบบคลาสสิก ซึ่งสามารถฝังตัวเองได้ตามแนวทางของอะโกริสต์
+ในปี 2011 การที่ Bitcoin ไม่จำเป็นต้องมีการอนุมัติทำให้สมาชิกในชุมชนจินตนาการถึงการใช้งานที่เกินกว่าการแลกเปลี่ยนเงินตราและการเก็งกำไรแบบง่าย ๆ พวกเขากำลังมองหาวิธีที่จะเสรีการลงทุนโดยการให้วิธีการออกหุ้นและพันธบัตรสำหรับบริษัทในระบบนิเวศ เป้าหมายคือการหลีกเลี่ยงกฎระเบียบที่กำหนดโดย *Securities and Exchange Commission* ในสหรัฐอเมริกา (เทียบเท่ากับ AMF ของอเมริกา) โดย [ใช้ประโยชน์](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) จากลักษณะนวัตกรรมของ Bitcoin และความคลุมเครือทางกฎหมายที่ล้อมรอบมัน ความคิดคือการสร้างโมเดลทางเลือกให้กับระบบการเงินแบบคลาสสิก ซึ่งสามารถฝังตัวเองได้ตามแนวทางของอะโกริสต์
 
 
 
@@ -1270,7 +1270,7 @@ Bitcoinica ถูก[เปิดตัว](https://bitcointalk.org/index.php?to
 
 
 
-โครงการอีกโครงการหนึ่งที่เกิดขึ้นในภายหลังคือ MPEx ซึ่งเป็นผลงานของบุคคลที่มีความขัดแย้งสูงชื่อ Mircea Popescu ชาวโรมาเนีย เดิมจากทรานซิลเวเนีย เขาเป็นนักเขียนที่มีผลงานมากมายในบล็อกของเขา [Trilema](http://trilema.com/archives-categories/): เขาเขียนเกี่ยวกับทุกเรื่อง (ปรัชญา การเมือง เพศวิถี) ในสไตล์ที่จงใจยั่วยุ เริ่มแรกในภาษาโรมาเนีย เขาเริ่มสนใจใน Bitcoin ในช่วงฤดูร้อนปี 2011 และเริ่ม [พูดคุย](http://trilema.com/2011/ce-este-bitcoin/) เกี่ยวกับมันในบล็อกของเขา
+โครงการอีกโครงการหนึ่งที่เกิดขึ้นในภายหลังคือ MPEx ซึ่งเป็นผลงานของบุคคลที่มีความขัดแย้งสูงชื่อ Mircea Popescu ชาวโรมาเนีย เดิมจากทรานซิลเวเนีย เขาเป็นนักเขียนที่มีผลงานมากมายในบล็อกของเขา [Trilema](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/): เขาเขียนเกี่ยวกับทุกเรื่อง (ปรัชญา การเมือง เพศวิถี) ในสไตล์ที่จงใจยั่วยุ เริ่มแรกในภาษาโรมาเนีย เขาเริ่มสนใจใน Bitcoin ในช่วงฤดูร้อนปี 2011 และเริ่ม [พูดคุย](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/) เกี่ยวกับมันในบล็อกของเขา
 
 
 
@@ -1286,7 +1286,7 @@ Bitcoinica ถูก[เปิดตัว](https://bitcointalk.org/index.php?to
 
 
 
-เมื่อสิ้นเดือนกุมภาพันธ์ 2012 เขาได้ดำเนินการ [ระดมทุน](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) โดยการออกหุ้นและพันธบัตร ระดมทุนได้มากกว่า 3,200 บิตคอยน์ หรือประมาณ $16,000 ในขณะนั้น ในวันที่ 11 เมษายน หลังจากช่วงเบต้า แพลตฟอร์ม [ได้กลายเป็น](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) แพลตฟอร์มแลกเปลี่ยนบิตคอยน์ที่อนุญาตให้มีการออกและซื้อขายหุ้นต่างๆ และถูกเปลี่ยนชื่อเป็น MPEx (สำหรับ "Mircea Popescu's Exchange")
+เมื่อสิ้นเดือนกุมภาพันธ์ 2012 เขาได้ดำเนินการ [ระดมทุน](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) โดยการออกหุ้นและพันธบัตร ระดมทุนได้มากกว่า 3,200 บิตคอยน์ หรือประมาณ $16,000 ในขณะนั้น ในวันที่ 11 เมษายน หลังจากช่วงเบต้า แพลตฟอร์ม [ได้กลายเป็น](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) แพลตฟอร์มแลกเปลี่ยนบิตคอยน์ที่อนุญาตให้มีการออกและซื้อขายหุ้นต่างๆ และถูกเปลี่ยนชื่อเป็น MPEx (สำหรับ "Mircea Popescu's Exchange")
 
 
 
@@ -1298,7 +1298,7 @@ Bitcoinica ถูก[เปิดตัว](https://bitcointalk.org/index.php?to
 
 
 
-แพลตฟอร์มนี้จะประสบความสำเร็จในระดับหนึ่งและจะเป็นเจ้าภาพจัดงาน “IPO” ของ SatoshiDICE ซึ่งเป็นคาสิโนออนไลน์ที่ดำเนินการโดย Erik Voorhees มันได้พัฒนาไปตามกาลเวลา [รวม](http://trilema.com/2012/futures-on-mpex/) สัญญาฟิวเจอร์สในเดือนธันวาคม
+แพลตฟอร์มนี้จะประสบความสำเร็จในระดับหนึ่งและจะเป็นเจ้าภาพจัดงาน “IPO” ของ SatoshiDICE ซึ่งเป็นคาสิโนออนไลน์ที่ดำเนินการโดย Erik Voorhees มันได้พัฒนาไปตามกาลเวลา [รวม](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) สัญญาฟิวเจอร์สในเดือนธันวาคม
 
 
 
@@ -1484,7 +1484,7 @@ Deterministic wallets เป็นผลงานส่วนใหญ่ขอ�
 
 
 
-*Gregory Maxwell ในปี 2006 (แหล่งที่มา: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*Gregory Maxwell ในปี 2006 (แหล่งที่มา: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 
@@ -1724,7 +1724,7 @@ Casascius สนใจเป็นพิเศษในเรื่องกา�
 
 
 
-*บิตคอยน์แรกของ Casascius ในปี 2011 (ที่มา: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*บิตคอยน์แรกของ Casascius ในปี 2011 (ที่มา: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -2004,7 +2004,7 @@ Eligius ยังได้สร้างนวัตกรรมด้วยก
 
 
 
-*Sharechain visualization (source: Gregory Maxwell for [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Sharechain visualization (source: Gregory Maxwell for [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 
@@ -2106,7 +2106,7 @@ Eligius ยังได้สร้างนวัตกรรมด้วยก
 
 
 
-*การจับภาพของ Bitcoin-Qt 0.5.2 ในเดือนกุมภาพันธ์ 2012 (แหล่งที่มา: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) สำหรับ Wikimedia)*
+*การจับภาพของ Bitcoin-Qt 0.5.2 ในเดือนกุมภาพันธ์ 2012 (แหล่งที่มา: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) สำหรับ Wikimedia)*
 
 
 

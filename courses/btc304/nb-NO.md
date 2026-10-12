@@ -48,7 +48,7 @@ Denne betydelige veksten er selvfølgelig nært knyttet til:
 
 
 
-- den [økende interessen for å bruke Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), for å frigjøre seg fra banksystemet og/eller bruke en mindre volatil eller mindre devaluert valuta, slik tilfellet er for befolkninger i Libanon, Syria, Egypt, Argentina og andre land;
+- den [økende interessen for å bruke Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), for å frigjøre seg fra banksystemet og/eller bruke en mindre volatil eller mindre devaluert valuta, slik tilfellet er for befolkninger i Libanon, Syria, Egypt, Argentina og andre land;
 - den har steget i verdi over tid, og har etablert seg som et verdioppbevaringsmiddel og en langsiktig investering, drevet av den faste pengepolitikken;
 - den suksessive veksten i det spekulative kryptovalutamarkedet, særlig i 2017-2018 og 2020-2021;
 - Bitcoins økende tilstedeværelse i mainstream-mediene.
@@ -701,7 +701,7 @@ Hvis du ønsker å designe en futuristisk logo for et "Bitcoin London"-treff, ka
 
 
 
-- [ ] *Oppfordring: Lag en Bitcoin-logo med London Bridge og Big Ben i bakgrunnen. Futuristisk* - [Lenke](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *Oppfordring: Lag en Bitcoin-logo med London Bridge og Big Ben i bakgrunnen. Futuristisk*
 
 
 
@@ -714,7 +714,7 @@ Hvis de fire første resultatene ikke er realistiske nok, kan du avgrense foresp
 
 
 
-- [ ] *Prompt: Gjør den fjerde mye mer realistisk* - [Lenke](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *Prompt: Gjør den fjerde mye mer realistisk*
 
 
 
@@ -732,7 +732,7 @@ For et renere utseende, som for et klistremerke:
 
 
 
-- [ ] *Oppfordring: Lag logoen til "London Bitcoin Meetup" med en britisk og ren stil* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Oppfordring: Lag logoen til "London Bitcoin Meetup" med en britisk og ren stil*
 
 
 
@@ -1392,7 +1392,7 @@ Disse inkluderer:
 
 
 - [Btcmap.org](https://btcmap.org/), et nettsted med to kart som oppdateres daglig: **[verdenskartet over virksomheter som godtar Bitcoin](https://btcmap.org/map)** og **[kartet over lokalsamfunn i verden](https://btcmap.org/communities/map)**. Mange bitcoinere sjekker disse kartene regelmessig, enten de er ute og reiser eller går rundt i hverdagen, for å møte nye mennesker eller finne steder å bruke [Sats](https://planb.academy/resources/glossary/satoshi-sat) på. Btcmap er den globale referansen, og det er viktig for synligheten din at du lister opp samfunnet ditt der
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), et nettsted laget av bitcoinere, for bitcoinere. **Her kan du legge ut kommende arrangementer i ditt fellesskap**. I Frankrike er det imidlertid fortsatt ikke mye brukt.
+- BitcoinerEvents, et nettsted laget av bitcoinere, for bitcoinere. **Her kan du legge ut kommende arrangementer i ditt fellesskap**. I Frankrike er det imidlertid fortsatt ikke mye brukt. **Merk (oktober 2026):** dette nettstedet er ikke lenger tilgjengelig. [BitcoinOnly Events](https://bitcoinonly.events/) er en tilsvarende kalender som fortsatt er i drift.
 - avhengig av hvilket land du bor i, kan det finnes andre lokale initiativer. I Frankrike finnes det for eksempel [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), som **lister opp dusinvis av Bitcoin-arrangementer hver måned**. Så hvis du ennå ikke har fulgt dem på Twitter eller kontaktet dem for å dele informasjon om ditt lokalsamfunn og arrangementer, er det på tide nå! **For å holde den franske arrangementskalenderen oppdatert, ville det være flott om alle franske Bitcoin-fellesskap gjorde det til en vane å:**
     - nevner @bitcoinpointfr på Twitter for hvert nye fellesskapsarrangement
     - pinne nye kunngjøringer om arrangementer i Telegram-gruppen deres.
@@ -1412,7 +1412,7 @@ På samme måte er **[Orangepillapp](https://www.orangepillapp.com/)** en betalt
 
 Selv om de to sistnevnte plattformene kan bidra til å øke synligheten, anbefales de ikke når du skal starte et nettsamfunn, rett og slett fordi de ikke er gratis.
 
-**Det er mer enn nok å starte med en oppføring på [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) og for franske lokalsamfunn, på [Bitcoin.fr](https://Bitcoin.fr)**.
+**Det er mer enn nok å starte med en oppføring på [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) og for franske lokalsamfunn, på [Bitcoin.fr](https://Bitcoin.fr)**.
 
 
 Gratulerer så mye! Ditt **fellesskap er opprettet**, dine **visuals er klare**, dine **målsettinger er satt**, dine **kommunikasjonskanaler er på plass**, dine **sosiale nettverk er lansert** og din **synlighetsstrategi er bestemt**.
@@ -1500,7 +1500,7 @@ Hvis du vil forberede deg på roligere stunder, kan du planlegge noen aktivitete
 - med en **Nerdminer**, Bitaxe, FPGA eller til og med ASIC;
 - som har en **Bitcoin flygeblad**;
 - idémyldring om en Bitcoin-visuell eller logo for lokalsamfunnet ditt;
-- spiller et **[Bitcoin-kortspill](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- spiller et **[Bitcoin-kortspill](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - som viser **[btcmap.org](https://btcmap.org/)**-kartet over lokalsamfunn og selgere;
 - sende eller motta Bitcoin ved hjelp av **Lightning**.
 
@@ -1871,7 +1871,7 @@ Avhengig av hvor tilgjengelig du er og hvor engasjert du er i lokalsamfunnet, ka
 
 - En restaurantkveld i anledning **Pizzadagen** 22. mai
 - En kveld eller helg for å feire den neste **Halving**
-- En familie **spillkveld** om Bitcoin og hvordan det fungerer, ved hjelp av spill som [Le Coin de Table](https://www.Maximalist.ovh/) eller [SHAmory](https://shamory.com/)
+- En familie **spillkveld** om Bitcoin og hvordan det fungerer, ved hjelp av spill som [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) eller [SHAmory](https://shamory.com/)
 - En **Mining-workshop** med presentasjon av ulike typer maskinvare (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - En **eftermiddag eller kveld for nybegynnere**, med temaverksteder
 - Et **fellesmøte med nabokommunene**
@@ -2006,7 +2006,7 @@ Du kan også utforme en brosjyre som er spesifikk for ditt lokalsamfunn eller di
 Flere brosjyrer er allerede **tilgjengelige som åpen kildekode i [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** på planB.network, og flere vil bli lagt til etter hvert.
 
 
-Et eksempel er en [komplett brosjyre](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) med 21 grunner til å bruke Bitcoin. Utformingen er også [tilgjengelig i åpen kildekode](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), slik at du kan endre, tilpasse og dele den. Bare husk å oppgi kildene dine.
+Et eksempel er en [komplett brosjyre](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) med 21 grunner til å bruke Bitcoin. Utformingen er også [tilgjengelig i åpen kildekode](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), slik at du kan endre, tilpasse og dele den. Bare husk å oppgi kildene dine.
 
 
 
@@ -2050,7 +2050,7 @@ Selv om det er symbolsk å forlate Bitcoin-hvitboken, er den ofte for kompleks t
 - gW-166-hvitboken, oversatt til fransk.
 
 
-Her er [heftet som deles blant franske bitcoinere](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle), som har blitt plassert i dusinvis av bokkasser rundt om i landet. Designet er også [tilgjengelig som åpen kildekode](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Her er [heftet som deles blant franske bitcoinere](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle), som har blitt plassert i dusinvis av bokkasser rundt om i landet. Designet er også [tilgjengelig som åpen kildekode](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

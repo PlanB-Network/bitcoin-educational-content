@@ -65,7 +65,7 @@ Syötä manuaalisesti summa, jonka haluat vaihtaa, ja tarkista kapasiteettisi [P
 Muista, että **transaktiokurssit vaihtelevat**, joten tarkista aina lopullinen hinta ennen vahvistamista.
 
 
-**Tiliä ei tarvita, ja** päivittäiset maksutapahtumat on rajoitettu 250 000 VND:hen (~ 8 USD). Lisätietoja on saatavilla [pankkisiirtokäytännöissä](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**Tiliä ei tarvita, ja** päivittäiset maksutapahtumat on rajoitettu 250 000 VND:hen (~ 8 USD). Lisätietoja on saatavilla [pankkisiirtokäytännöissä](https://support.bitcoinvn.io/help/en-us/4-orders-payments/17-vnd-bank-transfer).
 
 
 **Varoittelut**: Verkkomaksu on yleensä halvempi, kun valitset Lightning Network:n verrattuna onchain-tapahtumamenetelmään.

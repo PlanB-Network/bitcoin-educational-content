@@ -159,7 +159,7 @@ Ihindura imashini y'umwotsi ya kera mu gikoresho cishurwa muri Bitcoin biciye ku
 
 
 
-- Porogaramu y'ubuhinga bwa none : **[ihindura ry'amahera.lnbits.com/]
+- Porogaramu y'ubuhinga bwa none : **[ihindura ry'amahera.lnbits.com/](https://bitcoinswitch.lnbits.com/)
 - Umucukumbuzi w'urubuga uhuye n'uruhererekane (Chrome/Edge/Brave)
 - Serveri ya BTCPay yatunganijwe. Kugira ngo umenye vyinshi ku bijanye no kurema urugero rwa Server ya BTCPay, sura iyi nyigisho:
 
@@ -431,7 +431,7 @@ Tuzokoresha *Blink* nk'akarorero, ariko *BTCPay Server* nayo itanga *Strike, Bre
 
 
 
-- Ushobora gushika ku rubuga rwa API: **[https://blink.sv/ru/api)** maze winjire muri iyo konti nyene wakoresheje mu gukora wallet yawe *Blink*
+- Ushobora gushika ku rubuga rwa API: **[https://www.blink.sv/en/api)** maze winjire muri iyo konti nyene wakoresheje mu gukora wallet yawe *Blink*
 
 
 
@@ -511,7 +511,7 @@ type=blink;server=https://api.blink.sv/graphql;api-key=blink_mZ5KxxxxxxxxNbmX;wa
 
 
 
-- Ntuhindure igice ca mbere: `ubwoko=umuco;umukozi=https://api.umuco.sv/graphql`;
+- Ntuhindure igice ca mbere: `ubwoko=umuco;umukozi=https://api.blink.sv/graphql`;
 - Gusubirira gusa :
     - api-urufunguzo= *n'urufunguzo rwawe rwa API Blink*
     - Indangamuntu yawe ya wallet-31*
@@ -609,7 +609,7 @@ type=blink;server=https://api.blink.sv/graphql;api-key=blink_mZ5KxxxxxxxxNbmX;wa
 
 
 
-- Genda kuri : [https://ihindura ry'amafaranga.com/](ibara ry'amafaranga.com/)
+- Genda kuri : [https://ihindura ry'amafaranga.com/](https://bitcoinswitch.lnbits.com/)
 
 
 
@@ -662,7 +662,7 @@ type=blink;server=https://api.blink.sv/graphql;api-key=blink_mZ5KxxxxxxxxNbmX;wa
 
 
 
-- Subiramwo urupapuro: [https://ihindura ry'amafaranga.com/](ibara ry'amafaranga.
+- Subiramwo urupapuro: [https://ihindura ry'amafaranga.com/](https://bitcoinswitch.lnbits.com/) ry'amafaranga.
 - Subira gufatanya ESP32 na mudasobwa yawe ukoresheje umugozi wawe wa USB/Micro-USB
 - Hanyuma ukande kuri *Huza n'igikoresho
 - Hitamwo port ya USB kuri ESP32 yawe, hanyuma ukande kuri *Connect* nk'uko vyavuzwe haruguru
@@ -917,9 +917,9 @@ Imbere y'ikigeragezo ca nyuma, suzuma :
 
 
 - BitcoinSwitch Porogaramu nkuru: [ihindura ry'ibice.
-- Inyandiko za Serveri ya BTCPay : [inyandiko.serveri.org/](inyandiko.serveri.org/)
-- Blink API : [ubutumwa bw'imbere.sv/](ubutumwa bw'iterambere.
-- ESP32 Pinout : [ivyigwa vy'ubuhinga.com/esp32-ivyigwa-vy'ubuhinga-gpios/]
+- Inyandiko za Serveri ya BTCPay : [inyandiko.serveri.org/](https://docs.btcpayserver.org/)
+- Blink API : [ubutumwa bw'imbere.sv/](https://dev.blink.sv/) bw'iterambere.
+- ESP32 Pinout : [ivyigwa vy'ubuhinga.com/esp32-ivyigwa-vy'ubuhinga-gpios/](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)
 
 
 
@@ -930,9 +930,9 @@ Imbere y'ikigeragezo ca nyuma, suzuma :
 
 
 - Serveri ya BTCPay** : [ubutumwa.btcpayserver.org/) - Ikintu gihambaye kuruta ibindi vyose
-- Serveri ya BTCPay Telegram** : [t.me/serveri ya btcpay](https://t.me/serveri ya btcpay)
-- LNbits** : [ibice] - Telegram yemewe, umuryango ukora
-- BitcoinSwitch (ibibazo vya porogaramu)**: [ibibazo](ibibazo)
+- Serveri ya BTCPay Telegram** : [t.me/serveri ya btcpay](https://t.me/btcpayserver)
+- LNbits** : [ibice](https://t.me/lnbits) - Telegram yemewe, umuryango ukora
+- BitcoinSwitch (ibibazo vya porogaramu)**: [ibibazo](https://github.com/lnbits/bitcoinswitch/issues)
 
 
 

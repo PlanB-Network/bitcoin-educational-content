@@ -69,7 +69,7 @@ proofreading:
 
 - Required fields:
     - **id**: A UUID (_Universally Unique Identifier_) for uniquely identifying the tutorial.
-    - **builder**: The name of the company or organization behind the tool presented in the tutorial [from the builders list](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders).
+    - **builder**: The name of the company or organization behind the tool presented in the tutorial [from the builders list](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects).
     - **tags**: 2 or 3 relevant keywords related to the tutorial content, chosen [from Paolo's tag list](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md).
     - **category**: The subcategory corresponding to the tutorial's content, based on the Plan B site structure (e.g., for wallets: `desktop`, `hardware`, `mobile`, `backup`).
     - **level**: The tutorial difficulty level, selected from the following:

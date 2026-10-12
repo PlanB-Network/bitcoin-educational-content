@@ -400,7 +400,7 @@ Setelah meninjau semua poin ini, Anda dapat membeli mesin Anda dengan tingkat ke
 
 Untuk merangkum panduan ini dalam satu kalimat: **"Jangan percaya, verifikasi."**
 
-[Anda juga dapat beralih ke profesional dalam rekondisi mesin penambangan, seperti mitra kami 21energy. Mereka menawarkan mesin S9 yang telah diuji, dibersihkan dan dengan perangkat lunak BraiiinOS+ sudah terinstal. Dengan kode afiliasi "decouvre," Anda akan menerima diskon 10% pada pembelian S9 sambil mendukung proyek Attakai.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[Anda juga dapat beralih ke profesional dalam rekondisi mesin penambangan, seperti mitra kami 21energy. Mereka menawarkan mesin S9 yang telah diuji, dibersihkan dan dengan perangkat lunak BraiiinOS+ sudah terinstal. Dengan kode afiliasi "decouvre," Anda akan menerima diskon 10% pada pembelian S9 sambil mendukung proyek Attakai.](https://21energy.com/products/bitmain-antminer-s9)
 
 ## Panduan untuk pembelian modifikasi perangkat keras untuk S9
 

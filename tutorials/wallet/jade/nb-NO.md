@@ -39,7 +39,7 @@ Når din Jade vises i Green, oppdater Jade ved å klikke Sjekk for oppdateringer
 
 Etter at du har oppdatert Jades firmware, velg Oppsett Jade på nettverket og sikkerhetspolitikken du ønsker å bruke.
 
-> Tips: Sikkerhetspolitikken er oppført under Type på innloggingsskjermen vist nedenfor. Hvis du ikke er sikker på om du skal velge Singlesig eller Multisig Shield, vennligst se vår guide her. (https://help.blockstream.com/hc/en-us/articles/4403642609433)
+> Tips: Sikkerhetspolitikken er oppført under Type på innloggingsskjermen vist nedenfor. Hvis du ikke er sikker på om du skal velge Singlesig eller Multisig Shield, vennligst se vår guide her. (https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 ![bilde](assets/3.webp)
 
@@ -189,7 +189,7 @@ Du har nå vellykket satt opp lommeboken din, og du kan begynne å motta, lagre 
 
 ![bilde](assets/22.webp)
 
-kilde: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+kilde: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 Hvis du foretrekker å bruke en mobilguide, kan du bruke den sammen med Blockstream Green
 - Hvordan sette opp Blockstream Jade med Green | Blockstream Jade - https://youtu.be/7aacxnc6DHg
 

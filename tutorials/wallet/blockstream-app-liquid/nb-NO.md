@@ -35,7 +35,7 @@ description: Slik konfigurerer du Blockstream-appen og bruker Liquid Network
 
 
 
-**Liquid** er en **Sidechain** av Bitcoin, utviklet av **[Blockstream](https://blockstream.com/Liquid/)**, designet for å tilby raskere, mer Confidential Transactions og avansert funksjonalitet, samtidig som den forblir koblet til hoved-Blockchain Bitcoin.
+**Liquid** er en **Sidechain** av Bitcoin, utviklet av **[Blockstream](https://blockstream.com/liquid/)**, designet for å tilby raskere, mer Confidential Transactions og avansert funksjonalitet, samtidig som den forblir koblet til hoved-Blockchain Bitcoin.
 
 
 
@@ -408,7 +408,9 @@ For å motta Liquid-Bitcoins (L-BTC) er flere alternativer tilgjengelige. Du kan
 
 
 
-Alternativt kan du Exchange dine bitcoins på kjeden eller via Lightning Network for L-BTC ved hjelp av [en bro som Boltz](https://boltz.Exchange/): skriv inn din Liquid som mottar Address, foreta betaling som du foretrekker, og motta din L-BTC.
+Alternativt kan du Exchange dine bitcoins på kjeden eller via Lightning Network for L-BTC ved hjelp av en bro som Boltz: skriv inn din Liquid som mottar Address, foreta betaling som du foretrekker, og motta din L-BTC.
+
+> **Merk (oktober 2026):** Boltz stanset alle swapper 3. august 2026, og nettstedet er offline. Denne metoden fungerer ikke for øyeblikket.
 
 
 

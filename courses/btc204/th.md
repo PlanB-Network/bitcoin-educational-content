@@ -2752,7 +2752,7 @@ JoinMarket ก่อตั้งขึ้นในปี 2015 โดย Adam Gib
 ![BTC204](assets/en/137.webp)
 
 
-แหล่งที่มา: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+แหล่งที่มา: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 
 อย่างไรก็ตาม อุปสรรคทางเทคนิคยังคงเป็นอุปสรรคสำคัญ ในระบบนิเวศของ coinjoin ที่ความลับถูกเสริมด้วยจำนวนผู้เข้าร่วม การจำกัดใด ๆ ที่ลดการเข้าถึงจะส่งผลโดยตรงต่อสภาพคล่องที่มีอยู่ ซึ่งเป็นปัจจัยสำคัญในประสิทธิภาพของการผสม Bitcoin ซึ่งเป็นช่องทางเฉพาะในธุรกรรมทางการเงินอยู่แล้ว มองว่าการใช้ coinjoins เป็นช่องทางย่อย และ JoinMarket เป็นส่วนที่เชี่ยวชาญยิ่งขึ้นไปอีก ซึ่งจึงจำกัดศักยภาพในการเพิ่มจำนวน anonsets ของผู้ใช้

@@ -89,7 +89,7 @@ Elements to platforma typu open source, obsługująca Sidechain, zapewniająca d
 Elements jest w swej istocie protokołem, który umożliwia osiągnięcie [konsensusu](https://planb.academy/resources/glossary/consensus) wokół historii [transakcji](https://planb.academy/resources/glossary/transaction-tx) i zasad, które regulują transfer i tworzenie aktywów przechowywanych w rozproszonym [Blockchain](https://planb.academy/resources/glossary/blockchain) Ledger.
 
 
-Więcej podstawowych informacji na temat Elements można znaleźć na stronie internetowej projektu Elements (https://elementsproject.org/), oficjalnym blogu Liquid (https://blog.Liquid.net/) i portalu deweloperskim (https://Liquid.net/devs).
+Więcej podstawowych informacji na temat Elements można znaleźć na stronie internetowej projektu Elements (https://elementsproject.org/), oficjalnym blogu Liquid (https://blog.Liquid.net/) i portalu deweloperskim (https://liquid.net/developers).
 
 
 ### Elements

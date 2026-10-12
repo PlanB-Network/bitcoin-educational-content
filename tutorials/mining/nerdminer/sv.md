@@ -19,7 +19,7 @@ Innan vi går igenom de olika stegen, låt oss lista den nödvändiga utrustning
 
 - en [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - en [USB-C-ström Supply](https://amzn.eu/d/gIOot90)
-- ett 3D-fodral: om du har en 3D-skrivare kan du ladda ner [3D-filen](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons), annars kan du köpa en i [Silexperience onlinebutik](https://silexperience.company.site/NerdMiner_V2-p544379757).
+- ett 3D-fodral: om du har en 3D-skrivare kan du ladda ner [3D-filen](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons), annars kan du köpa en i [Bitronics onlinebutik](https://bitronics.store/).
 - en PC med Chrome Browser installerad
 - en internetanslutning
 - a Bitcoin Address
@@ -95,7 +95,6 @@ För NerdMiners kan du välja att ansluta till en av dessa pooler:
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Default Solo and open-source mining pool |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Maintained by CHMEX                      |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Maintained by djerfy                     |
 
 När du har valt din pool måste du ange din Bitcoin Address för att få belöningen om (i undantagsfall) ett block hittas.
 
@@ -191,4 +190,4 @@ Här är några länkar om du vill läsa mer om ämnet:
 
 
 - [Projektsida för NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Fullständig dokumentation av NerdMiners](https://docs.bitwater.ch/nerd-Miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

@@ -75,7 +75,7 @@ Zum Beispiel könnte Ihre YAML-Datei so aussehen:
 project: Plan ₿ Academy
 type: Educational Content
 links:
-  download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+  download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
   view:
 - In meinem Beispiel werde ich die Links vorerst leer lassen, da ich mein PDF direkt auf GitHub hinzufügen werde:
 ![event](assets/09.webp)
@@ -169,7 +169,7 @@ https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/reso
 - Fügen Sie an die Basis der URL folgende Informationen hinzu, um den korrekten Link zu erhalten:
 
 ```url
-https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 Was wir hier tun, ist die zukünftige Verlinkung Ihrer Datei zu antizipieren, sobald Ihr Vorschlag in das Quellrepository des PlanB-Netzwerks eingegliedert wurde.

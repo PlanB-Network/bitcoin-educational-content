@@ -14,7 +14,7 @@ Urubuga rwacu ubu ruratanga indimi zitandukanye, kandi turabandanya gukora kugir
 Nimba ururimi rwawe kavukire rutaraboneka ku rubuga rwacu kandi ushaka kurushiramwo, iyi nyigisho ni iyawe!
 
 
-Mbere, urabe ko ushobora guhamagara umugwi wa Plan ₿ Academy biciye ku [mugwi wa Telegaramu] Niwaba udafise Telegram, worungika ubutumwa kuri mari@planb.network. Raba neza ko wandika akajambo gatoyi kerekana uwo uri we be n’indimi uvuga.
+Mbere, urabe ko ushobora guhamagara umugwi wa Plan ₿ Academy biciye ku [mugwi wa Telegaramu](https://t.me/PlanBNetwork_ContentBuilder) Niwaba udafise Telegram, worungika ubutumwa kuri mari@planb.network. Raba neza ko wandika akajambo gatoyi kerekana uwo uri we be n’indimi uvuga.
 
 
 ## Gusuzuma nimba ururimi ruriho kuri Weblate
@@ -24,7 +24,7 @@ Kugira turabe ko ururimi rwawe rusanzwe ruri muvyo turiko turakora.
 
 
 
-- Genda kuri [urubuga rwacu rwa Weblate](https://urubuga.planb.urubuga/imigambi/urubuga-rw'urubuga/):
+- Genda kuri [urubuga rwacu rwa Weblate](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 

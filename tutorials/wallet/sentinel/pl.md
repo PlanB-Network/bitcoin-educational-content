@@ -54,7 +54,7 @@ Unikalne wady Sentinel polegają na tym, że aplikacja jest dostępna wyłączni
 Dla tych, którzy chcą śledzić Wallet z wieloma podpisami, Blue Wallet jest jedyną znaną mi aplikacją, która oferuje tryb tylko do oglądania dla tego typu portfeli i jest dostępna zarówno na Androida, jak i iOS.
 
 
-Dla użytkowników iOS szukających alternatywy dla Sentinel, [Green Wallet](https://blockstream.com/Green/) lub [Blue Wallet](https://bluewallet.io/watch-only/) mogą być opcjami, chociaż ich funkcjonalność tylko dla zegarków nie jest tak wszechstronna jak Sentinel.
+Dla użytkowników iOS szukających alternatywy dla Sentinel, [Green Wallet](https://blockstream.com/green/) lub [Blue Wallet](https://bluewallet.io/watch-only/) mogą być opcjami, chociaż ich funkcjonalność tylko dla zegarków nie jest tak wszechstronna jak Sentinel.
 
 ![watch-only](assets/notext/2.webp)
 

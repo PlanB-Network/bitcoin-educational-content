@@ -46,7 +46,7 @@ Elements एक ओपन सोर्स, Sidechain-सक्षम [Blockchain
 
 Elements, अपने मूल में, एक प्रोटोकॉल है जो [लेन-देन](https://planb.academy/resources/glossary/transaction-tx) के इतिहास और नियमों के आसपास [सहमति](https://planb.academy/resources/glossary/consensus) बनाने में सक्षम बनाता है, जो वितरित Blockchain Ledger में संग्रहीत संपत्तियों के हस्तांतरण और निर्माण को नियंत्रित करता है।
 
-Elements के बारे में अधिक जानकारी आप Elements प्रोजेक्ट की वेबसाइट (https://elementsproject.org/), आधिकारिक Liquid ब्लॉग (https://blog.Liquid.net/), और डेवलपर पोर्टल (https://Liquid.net/devs) पर आसानी से प्राप्त कर सकते हैं।
+Elements के बारे में अधिक जानकारी आप Elements प्रोजेक्ट की वेबसाइट (https://elementsproject.org/), आधिकारिक Liquid ब्लॉग (https://blog.Liquid.net/), और डेवलपर पोर्टल (https://liquid.net/developers) पर आसानी से प्राप्त कर सकते हैं।
 
 ### जीडब्ल्यू-43
 

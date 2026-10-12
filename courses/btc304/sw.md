@@ -48,7 +48,7 @@ Ukuaji huu muhimu, bila shaka, unahusishwa kwa karibu na:
 
 
 
-- [maslahi yanayoongezeka ya watu duniani kote katika kutumia Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), ili kujikomboa kutoka kwa mfumo wa benki na/au kutumia sarafu isiyobadilikabadilika au iliyoshuka thamani, kama ilivyo kwa wakazi wa Lebanon, Syria, Misri, Ajentina na nyinginezo;
+- [maslahi yanayoongezeka ya watu duniani kote katika kutumia Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), ili kujikomboa kutoka kwa mfumo wa benki na/au kutumia sarafu isiyobadilikabadilika au iliyoshuka thamani, kama ilivyo kwa wakazi wa Lebanon, Syria, Misri, Ajentina na nyinginezo;
 - uthamini wake wa bei kwa wakati, ukiiweka kama ghala la thamani na uwekezaji wa muda mrefu, unaoendeshwa na sera yake ya fedha isiyobadilika;
 - ukuaji mfululizo wa soko la kubahatisha la sarafu ya crypto, haswa wakati wa 2017-2018 na 2020-2021;
 - Uwepo unaokua wa Bitcoin katika media kuu.
@@ -353,7 +353,7 @@ Tukio lako la kwanza linaweza kuwa mkutano. Kusudi lake kuu: kuleta pamoja bitco
 
 
 
-Hata hivyo, kama tutakavyoona baadaye katika [Mifano ya miradi na mipango](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab96-97 mingi), **mengi yaweza kufikiwa-ab96-97 njia, zenye malengo mengi:**
+Hata hivyo, kama tutakavyoona baadaye katika [Mifano ya miradi na mipango](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **mengi yaweza kufikiwa-ab96-97 njia, zenye malengo mengi:**
 
 
 
@@ -701,7 +701,7 @@ Ikiwa ungependa kubuni nembo ya siku zijazo kwa mkutano wa "Bitcoin London", una
 
 
 
-- [ ] *Kidokezo: Unda nembo ya Bitcoin na London Bridge na Big Ben nyuma. Futuristic* - [Kiungo](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b=FORM)?
+- [ ] *Kidokezo: Unda nembo ya Bitcoin na London Bridge na Big Ben nyuma. Futuristic*
 
 
 
@@ -714,7 +714,7 @@ Ikiwa matokeo manne ya kwanza si ya uhalisia vya kutosha, boresha ombi lako:
 
 
 
-- [ ] *Kidokezo: Fanya ya 4 kuwa ya kweli zaidi* - [Kiungo](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea785b830DB4cea7830DB?
+- [ ] *Kidokezo: Fanya ya 4 kuwa ya kweli zaidi*
 
 
 
@@ -732,7 +732,7 @@ Kwa mwonekano safi, kama kibandiko:
 
 
 
-- [ ] *Fahamu: Unda nembo ya "London Bitcoin Meetup" kwa mtindo wa Uingereza na safi* - [Kiungo](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Fahamu: Unda nembo ya "London Bitcoin Meetup" kwa mtindo wa Uingereza na safi*
 
 
 
@@ -866,7 +866,7 @@ Kwa mafunzo yaliyo hapa chini, awali tulitumia APK ya "Telegram+", ambayo inaruh
 Ikiwa ungependa kuunda mahali ambapo wanachama wako wanaweza kuzungumza moja kwa moja, kujibu kila mmoja, nk, basi unaweza kutaka kuunda kikundi cha Telegram, na si chaneli ya Telegram!
 
 
-Nenda moja kwa moja kwenye sehemu inayofuata, yenye mada [Unda kikundi cha Telegram](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5).
+Nenda moja kwa moja kwenye sehemu inayofuata, yenye mada [Unda kikundi cha Telegram](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 
@@ -1391,7 +1391,7 @@ Hizi ni pamoja na:
 
 
 - [Btcmap.org](https://btcmap.org/)**, tovuti iliyo na ramani mbili zinazosasishwa kila siku: **[ramani ya ulimwengu ya biashara zinazokubali Bitcoin](https://btcmap.org/map)** na **[ramani ya jumuiya za ulimwengu](https://btcmap.org/communities/map)**. Wafanyabiashara wengi wa bitcoin huangalia ramani hizi mara kwa mara, iwe wanasafiri au wanaendelea na maisha yao ya kila siku, kukutana na watu wapya au kutafuta maeneo ya kutumia [Sats](https://planb.academy/resources/glossary/satoshi-sat) yao. Btcmap ndiyo rejeleo la kimataifa, na kuorodhesha jumuiya yako huko ni muhimu kwa mwonekano.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), tovuti iliyoundwa na bitcoiners, kwa bitcoiners. **Inakuwezesha kuchapisha matukio yajayo ya jumuiya yako**. Huko Ufaransa, hata hivyo, bado haitumiki sana.
+- BitcoinerEvents, tovuti iliyoundwa na bitcoiners, kwa bitcoiners. **Inakuwezesha kuchapisha matukio yajayo ya jumuiya yako**. Huko Ufaransa, hata hivyo, bado haitumiki sana. **Kumbuka (Oktoba 2026):** tovuti hii haipatikani tena. [BitcoinOnly Events](https://bitcoinonly.events/) ni kalenda inayofanana ambayo bado inafanya kazi.
 - kulingana na nchi yako, kunaweza kuwa na mipango mingine ya ndani. Nchini Ufaransa, kwa mfano, kuna [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), ambayo **orodhesha makumi ya matukio ya Bitcoin kila mwezi**. Kwa hivyo ikiwa bado hujawafuata kwenye Twitter au kuwasiliana nao ili kushiriki habari kuhusu jumuiya na matukio yako, sasa ndio wakati! **Ili kusaidia kusasisha kalenda ya matukio ya Ufaransa, itakuwa vyema ikiwa jumuiya zote za Kifaransa za Bitcoin zitakuwa na mazoea ya:**
     - kutaja @bitcoinpointfr kwenye Twitter kwa kila tukio jipya la jumuiya
     - kubandika matangazo ya hafla mpya katika kikundi chao cha Telegram.
@@ -1411,7 +1411,7 @@ Vile vile, **[Orangepillapp](https://www.orangepillapp.com/)** ni programu ya si
 
 Ingawa majukwaa haya mawili ya mwisho yanaweza kusaidia kuongeza mwonekano, hayapendekezwi wakati wa kuzindua jumuiya, kwa sababu tu hayana malipo.
 
-**Kuanzia na tangazo kwenye [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) na kwa jumuiya za Kifaransa, kwenye [Bitcoin.fr](https://Bitcoin.fr) inatosha**.
+**Kuanzia na tangazo kwenye [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) na kwa jumuiya za Kifaransa, kwenye [Bitcoin.fr](https://Bitcoin.fr) inatosha**.
 
 
 Hongera! **Jumuiya yako imeundwa**, **vielelezo vyako viko tayari**, **malengo yako yamewekwa**, **njia zako za mawasiliano zipo**, **mitandao yako ya kijamii imezinduliwa** na **mkakati wako wa mwonekano umeamuliwa**.
@@ -1499,7 +1499,7 @@ Ikiwa unataka kujiandaa kwa wakati tulivu, unaweza kupanga shughuli chache au se
 - kuleta **Nerdminer**, Bitaxe, FPGA au hata ASIC;
 - kuwa na **Kipeperushi cha Bitcoin**;
 - kutafakari kuhusu taswira ya Bitcoin au nembo ya jumuiya yako;
-- kucheza **[Mchezo wa kadi ya Bitcoin](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- kucheza **[Mchezo wa kadi ya Bitcoin](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - kuonyesha **[btcmap.org](https://btcmap.org/)** ramani ya jumuiya na wafanyabiashara;
 - kutuma au kupokea Bitcoin kwa kutumia **Lightning**.
 
@@ -1546,7 +1546,7 @@ Katika kesi ya pili, tukio la pili la kila mwezi linaweza kuwekwa kwa mada maalu
 
 
 
-Kumbuka kwamba **hii inahitaji mpangilio zaidi na wakati wako zaidi**. Kwa bahati nzuri, katika [sehemu ya 6/8 ya kozi hii](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a97a5769 rasilimali zinazoweza kutumika) msaada.
+Kumbuka kwamba **hii inahitaji mpangilio zaidi na wakati wako zaidi**. Kwa bahati nzuri, katika [sehemu ya 6/8 ya kozi hii](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) msaada.
 
 
 Kwa vyovyote vile, yote inategemea mpango wa utekelezaji wa muda mfupi, wa kati na mrefu ambao wewe, au jumuiya yako, mmejiwekea.
@@ -1870,7 +1870,7 @@ Kulingana na upatikanaji wako na kiwango cha kuhusika katika jumuiya yako, unawe
 
 - Usiku wa mkahawa wa **Siku ya Pizza** tarehe 22 Mei
 - Jioni au wikendi ya kusherehekea **Halving** inayofuata
-- Familia **usiku wa mchezo** kuhusu Bitcoin na jinsi inavyofanya kazi, kwa kutumia michezo kama vile [Le Coin de Table](https://www.Maximalist.ovh/) au [SHAmory](https://shamory.com/)
+- Familia **usiku wa mchezo** kuhusu Bitcoin na jinsi inavyofanya kazi, kwa kutumia michezo kama vile [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) au [SHAmory](https://shamory.com/)
 - **Warsha ya Mining** inayowasilisha aina tofauti za maunzi (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - **mchana au jioni kwa wanaoanza**, pamoja na warsha zenye mada
 - **mkutano wa pamoja na jumuiya jirani**
@@ -2005,7 +2005,7 @@ Unaweza pia kubuni kipeperushi maalum kwa jumuiya yako au mkutano, ukiwasilisha 
 Vipeperushi kadhaa tayari **vinapatikana kama chanzo huria katika [Bitcoin Toolbox](https://planb.academy/fr/resources/bet)** kwenye planB.academy na vingine vitaongezwa baada ya muda.
 
 
-Mfano mmoja ni [kipeperushi kamili cha chanzo](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) chenye sababu 21 za kutumia Bitcoin. Muundo wake pia [unapatikana katika chanzo huria](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium_campaign=designshare&utm_medium_link ili ushiriki na kurekebisha&utm_medium=link2. Kumbuka tu kuweka vyanzo vyako.
+Mfano mmoja ni [kipeperushi kamili cha chanzo](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) chenye sababu 21 za kutumia Bitcoin. Muundo wake pia [unapatikana katika chanzo huria](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium_campaign=designshare&utm_medium_link ili ushiriki na kurekebisha&utm_medium=link2. Kumbuka tu kuweka vyanzo vyako.
 
 
 
@@ -2049,7 +2049,7 @@ Wakati kuacha karatasi nyeupe ya Bitcoin ni ishara, mara nyingi ni ngumu sana kw
 - karatasi nyeupe ya Bitcoin, iliyotafsiriwa kwa Kifaransa.
 
 
-Hiki hapa [kijitabu kilichoshirikiwa miongoni mwa bitcoincoiners wa Ufaransa](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) ambacho kimewekwa katika masanduku mengi ya vitabu kote nchini. Muundo wake pia [unapatikana kama chanzo-wazi](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium_tton).=
+Hiki hapa [kijitabu kilichoshirikiwa miongoni mwa bitcoincoiners wa Ufaransa](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) ambacho kimewekwa katika masanduku mengi ya vitabu kote nchini. Muundo wake pia [unapatikana kama chanzo-wazi](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium_tton).=
 
 
 

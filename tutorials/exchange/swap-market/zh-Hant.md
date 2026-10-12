@@ -566,6 +566,8 @@ SwapMarket 現在會生成一個 ** 獨特的 Bitcoin 位址**，其中包含與
 
 ## SwapMarket vs Boltz：有何差異？
 
+> **注意（2026年10月）：** Boltz Exchange 已於 2026 年 8 月 3 日暫停所有交換，其網站也已離線。此供應商可能已無法在 SwapMarket 上使用。
+
 
 
 ### Boltz：技術與服務
@@ -639,7 +641,7 @@ SwapMarket 透過將多個提供者彙集到單一介面來促進 Bitcoin/Lightn
 
 - [SwapMarket - 網路應用程式](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [技術文件](https://docs.boltz.exchange/)
+- [技術文件](https://github.com/BoltzExchange/boltz-backend)
 - [Guide self-hosting](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 
@@ -649,5 +651,5 @@ SwapMarket 透過將多個提供者彙集到單一介面來促進 Bitcoin/Lightn
 
 
 
-- [Boltz Exchange](https://boltz.exchange) - 原始原子交換服務
+- Boltz Exchange - 原始原子交換服務
 - [ZEUS Swaps](https://zeusln.com) - 閃電交換提供者

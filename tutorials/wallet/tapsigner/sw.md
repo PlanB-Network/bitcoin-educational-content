@@ -58,7 +58,7 @@ Mara tu unapopokea Tapsigner yako, hatua ya kwanza ni kuchunguza kifungashio ili
 ![TAPSIGNER NUNCHUK](assets/notext/02.webp)
 
 
-Ili kudhibiti Wallet, tutatumia **Nunchuk Wallet** programu ya simu. Hakikisha kuwa simu yako mahiri inaoana na NFC, kisha upakue Nunchuk kutoka [Google Play Store](https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store](https://apps.apple.com/us/app/nunchuk-Bitcoin-Wallet/id1563190) au moja kwa moja kupitia its`073190. faili](https://github.com/nunchuk-io/nunchuk-android/releases).
+Ili kudhibiti Wallet, tutatumia **Nunchuk Wallet** programu ya simu. Hakikisha kuwa simu yako mahiri inaoana na NFC, kisha upakue Nunchuk kutoka [Google Play Store](https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store](https://apps.apple.com/us/app/nunchuk-bitcoin-wallet/id1563190073) au moja kwa moja kupitia its`073190. faili](https://github.com/nunchuk-io/nunchuk-android/releases).
 
 
 ![TAPSIGNER NUNCHUK](assets/notext/03.webp)

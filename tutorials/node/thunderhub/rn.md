@@ -122,7 +122,7 @@ Ku bakoresha hanze ya Umbrel (nk'akarorero kuri server y'umuntu ku giti ciwe, Ra
 
 
 
-**Ibisabwa:** Raba neza ko sisitemu yawe ihuye n'ibisabwa bikeyi hakurikijwe [ugutegura inyandiko](https://docs.thunderhub.io/gutegura):
+**Ibisabwa:** Raba neza ko sisitemu yawe ihuye n'ibisabwa bikeyi hakurikijwe [ugutegura inyandiko](https://docs.thunderhub.io/configure):
 
 
 
@@ -136,7 +136,7 @@ Ku bakoresha hanze ya Umbrel (nk'akarorero kuri server y'umuntu ku giti ciwe, Ra
 
 
 
-**1. Kugarura kode ya ThunderHub:** Gukora ububiko bwa GitHub bw'umugambi nk'uko bivugwa muri [inyandiko zo gushiramwo](https://docs.thunderhub.io/gushiraho):
+**1. Kugarura kode ya ThunderHub:** Gukora ububiko bwa GitHub bw'umugambi nk'uko bivugwa muri [inyandiko zo gushiramwo](https://docs.thunderhub.io/get-started):
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Dosiye y'imiterere nyamukuru:** Rema dosiye `.env.local` ku muzi wa dosiye ya ThunderHub kugira ngo uhindure imiterere (ivyo bizokubuza imiterere yawe kwandikwako mu gihe c'ivugurura). Ibihinduka nyamukuru nk'uko [inyandiko zo gutegura](https://inyandiko.thunderhub.io/gutegura):
+**1. Dosiye y'imiterere nyamukuru:** Rema dosiye `.env.local` ku muzi wa dosiye ya ThunderHub kugira ngo uhindure imiterere (ivyo bizokubuza imiterere yawe kwandikwako mu gihe c'ivugurura). Ibihinduka nyamukuru nk'uko [inyandiko zo gutegura](https://docs.thunderhub.io/configure):
 
 
 
@@ -304,8 +304,8 @@ Paje yo kwinjira muri ThunderHub iraboneka. Hitamwo konti yatunganijwe maze winj
 
 
 
-- Gushiramwo:** [inyandiko.inkuba.io/ishirwaho](https://inyandiko.inkuba.io/ishirwaho)
-- Itunganywa:** [inyandiko.inkuba.io/gutegura](https://inyandiko.inkuba.io/gutegura)
+- Gushiramwo:** [inyandiko.inkuba.io/ishirwaho](https://docs.thunderhub.io/get-started)
+- Itunganywa:** [inyandiko.inkuba.io/gutegura](https://docs.thunderhub.io/configure)
 
 
 
@@ -940,6 +940,6 @@ ThunderHub ikoresha demokarasi mu bijanye n’uburongozi bw’imirongo y’umura
 
 
 
-- Urubuga rwemewe:** [inkuba.io](https://inkuba.io)
-- Inyandiko:** [inyandiko.inkuba.io](https://inyandiko.inkuba.io)
+- Urubuga rwemewe:** [inkuba.io](https://thunderhub.io)
+- Inyandiko:** [inyandiko.inkuba.io](https://docs.thunderhub.io)
 - Kode y'inkomoko ya GitHub:**

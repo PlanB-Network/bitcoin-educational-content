@@ -13,7 +13,7 @@ Sizi gözetim ve sansüre karşı koruyan taşınabilir ve amnezik bir işletim 
 ## Neden Tails yüklü bir USB anahtarınız var?
 
 
-Tails (https://tails.boum.org/), birlikte kullandığınız bilgisayarda hiçbir iz bırakmayan güvenli bir bilgisayarı her zaman elinizin altında bulundurmanın en kolay yoludur.
+Tails (https://tails.net/), birlikte kullandığınız bilgisayarda hiçbir iz bırakmayan güvenli bir bilgisayarı her zaman elinizin altında bulundurmanın en kolay yoludur.
 
 
 Tails'i kullanmak için, erişiminiz olan bilgisayarı kapatın (ailenizde, arkadaşlarınızda, bir İnternet kafede...) ve Windows, macOS veya Linux yerine Tails USB anahtarınızla başlatın.
@@ -80,7 +80,7 @@ Bu prosedüre başlamadan önce, lütfen minimum 150 MB/s okuma hızına ve en a
 ![image](assets/1.webp)
 
 
-🔗 **Resmi Kuyruklar bölümü:** https://tails.boum.org/install/linux/index.fr.html#download
+🔗 **Resmi Kuyruklar bölümü:** https://tails.net/install/linux/index.fr.html#download
 
 
 .img uzantılı kurulum dosyasını indirmek İnternet indirme hızınıza bağlı olarak biraz zaman alabilir, bu nedenle önceden plan yapın. Modern ve verimli bir bağlantı ile 5 dakikadan az sürecektir.
@@ -95,7 +95,7 @@ Bir sonraki adım için gerekli olacağından, dosyayı İndirilenler gibi bilin
 ![image](assets/2.webp)
 
 
-🔗 **Resmi Kuyruklar bölümü:** https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 **Resmi Kuyruklar bölümü:** https://tails.net/install/linux/index.fr.html#verify
 
 
 İndirmenin doğrulanması, indirmenin Tails geliştiricileri tarafından yapıldığını ve indirme sırasında bozulmadığını veya ele geçirilmediğini garanti eder.
@@ -117,8 +117,8 @@ Dosyayı doğrulamak için resmi bölümde verilen "İndirme işleminizi seçin.
 
 
 
-- **Linux:** https://tails.boum.org/install/linux/index.fr.html#install
-- **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher ve https://tails.boum.org/install/mac/index.fr.html#install
+- **Linux:** https://tails.net/install/linux/index.fr.html#install
+- **macOS:** https://tails.net/install/mac/index.fr.html#etcher ve https://tails.net/install/mac/index.fr.html#install
 
 
 Tails'i USB anahtarınıza yüklemenin bu adımı, özellikle daha önce hiç yapmadıysanız, tüm kılavuzdaki en zor adımdır. En önemli nokta, işletim sisteminiz için resmi bölümdeki doğru prosedürü seçmektir: Linux ya da macOS.
@@ -136,7 +136,7 @@ Araçlar tavsiye edildiği şekilde kurulup hazırlandıktan sonra, .img uzantı
 ![image](assets/4.webp)
 
 
-🔗 **Resmi Kuyruklar bölümü:** https://tails.boum.org/install/linux/index.en.html#restart
+🔗 **Resmi Kuyruklar bölümü:** https://tails.net/install/linux/index.en.html#restart
 
 
 Yeni USB belleğinizi kullanarak bilgisayarlarınızdan birini başlatmanın zamanı geldi. USB bağlantı noktalarından birine takın ve yeniden başlatın!
@@ -178,7 +178,7 @@ USB bellek seçildikten sonra, bu yeni önyükleme ekranını görmelisiniz, bu 
 ![image](assets/6.webp)
 
 
-🔗 **Resmi Kuyruklar bölümü:** https://tails.boum.org/install/linux/index.en.html#tails
+🔗 **Resmi Kuyruklar bölümü:** https://tails.net/install/linux/index.en.html#tails
 
 
 Önyükleme yükleyicisi ve yükleme ekranından bir veya iki dakika sonra Hoş Geldiniz Ekranı görüntülenir.

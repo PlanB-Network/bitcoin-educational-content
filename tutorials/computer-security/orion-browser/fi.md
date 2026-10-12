@@ -643,8 +643,8 @@ Muista: yksityisyyden suojaaminen ei riipu vain selaimesta. Yhdistämällä Orio
 
 
 - **Virallinen verkkosivusto**: [kagi.com/orion](https://kagi.com/orion/)
-- **Täydellinen FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **Yhteisön foorumi**: [community.kagi.com](https://community.kagi.com)
+- **Täydellinen FAQ**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **Yhteisön foorumi**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **Vikojen seuranta**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Avoimen lähdekoodin komponentit
 - **Blogi Kagi**: [blog.kagi.com](https://blog.kagi.com) - Uutiset ja päivitykset

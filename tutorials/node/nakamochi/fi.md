@@ -112,7 +112,7 @@ Lisätietoja: [Channels | Zeus Documentation](https://docs.zeusln.app/)
 
 _Bitbanana Kuvakaappaus_
 
-Lisätietoja: [BitBanana](https://bitbanana.com)
+Lisätietoja: [BitBanana](https://bitbanana.app)
 
 Kun kanavasi on avattu, maksut voidaan ohjata sen kautta muille verkoston osallistujille. Saldot mukautuvat ketjun ulkopuolella, joten maksutapahtumat ovat lähes välittömiä ja niistä peritään vain vähän maksuja.
 

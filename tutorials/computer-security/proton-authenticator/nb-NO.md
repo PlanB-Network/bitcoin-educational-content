@@ -572,8 +572,8 @@ Proton Authenticator er en av de mest omfattende og sikre løsningene som finnes
 
 
 
-- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - åpen kildekode
-- **Sikkerhetsrevisjoner**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Uavhengige revisjonsrapporter
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - åpen kildekode
+- **Sikkerhetsrevisjoner**: [proton.me/community/security-audits](https://proton.me/community/open-source) - Uavhengige revisjonsrapporter
 
 
 

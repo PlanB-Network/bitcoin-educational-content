@@ -10,7 +10,7 @@ Ein tragbares und amnesisches Betriebssystem, das Sie vor Überwachung und Zensu
 
 ## Warum sollte man einen USB-Stick mit installiertem Tails haben?
 
-Tails (https://tails.boum.org/) ist der einfachste Weg, um jederzeit einen sicheren Computer zur Verfügung zu haben, der auf dem Computer, den Sie verwenden, keine Spuren hinterlässt.
+Tails (https://tails.net/) ist der einfachste Weg, um jederzeit einen sicheren Computer zur Verfügung zu haben, der auf dem Computer, den Sie verwenden, keine Spuren hinterlässt.
 
 Um Tails zu verwenden, schalten Sie den Computer aus, den Sie zur Verfügung haben (bei Ihren Eltern, bei Ihren Freunden, in einem Internetcafé...) und starten Sie ihn mit Ihrem Tails-USB-Stick anstelle von Windows, macOS oder Linux.
 
@@ -55,7 +55,7 @@ Voraussetzungen:
 
 ![image](assets/1.webp)
 
-> 🔗 Offizieller Tails-Abschnitt: https://tails.boum.org/install/linux/index.fr.html#download
+> 🔗 Offizieller Tails-Abschnitt: https://tails.net/install/linux/index.fr.html#download
 
 Das Herunterladen der Installationsdatei mit der .img-Erweiterung kann je nach Internet-Downloadgeschwindigkeit einige Zeit in Anspruch nehmen. Planen Sie also genügend Zeit ein. Mit einer modernen und leistungsstarken Leitung dauert es weniger als 5 Minuten.
 
@@ -65,7 +65,7 @@ Speichern Sie die Datei in einem bekannten Ordner wie "Downloads", da dies für 
 
 ![image](assets/2.webp)
 
-> 🔗 Offizieller Tails-Abschnitt: https://tails.boum.org/install/linux/index.fr.html#verify
+> 🔗 Offizieller Tails-Abschnitt: https://tails.net/install/linux/index.fr.html#verify
 
 Die Überprüfung des Downloads stellt sicher, dass er von den Tails-Entwicklern stammt und nicht während des Downloads beschädigt oder abgefangen wurde.
 
@@ -79,8 +79,8 @@ Verwenden Sie daher die Schaltfläche "Ihren Download auswählen ..." im offizie
 
 > 🔗 Offizieller Tails-Abschnitt:
 >
-> - Linux: https://tails.boum.org/install/linux/index.fr.html#install
-> - macOS: https://tails.boum.org/install/mac/index.fr.html#etcher und https://tails.boum.org/install/mac/index.fr.html#install
+> - Linux: https://tails.net/install/linux/index.fr.html#install
+> - macOS: https://tails.net/install/mac/index.fr.html#etcher und https://tails.net/install/mac/index.fr.html#install
 
 Dieser Schritt, Tails auf Ihrem USB-Stick zu installieren, ist der schwierigste im gesamten Leitfaden, insbesondere wenn Sie dies noch nie zuvor gemacht haben. Der wichtigste Punkt ist, das Verfahren im offiziellen Abschnitt für Ihr Betriebssystem (Linux oder macOS) sorgfältig auszuwählen.
 
@@ -92,7 +92,7 @@ Viel Erfolg! Und weiter zu Schritt 4.
 
 ![image](assets/4.webp)
 
-> 🔗 Offizieller Abschnitt von Tails: https://tails.boum.org/install/linux/index.fr.html#restart
+> 🔗 Offizieller Abschnitt von Tails: https://tails.net/install/linux/index.fr.html#restart
 > Es ist Zeit, einen Ihrer Computer mit Ihrem neuen USB-Stick zu starten. Stecken Sie diesen in einen der USB-Anschlüsse und starten Sie neu!
 
 > 💡 Die meisten Computer starten nicht automatisch von einem Tails-USB-Stick, aber Sie können die Startmenütaste drücken, um eine Liste möglicher Geräte anzuzeigen, von denen aus gestartet werden kann.
@@ -125,7 +125,7 @@ Nachdem der USB-Stick ausgewählt wurde, sollten Sie diesen neuen Startbildschir
 
 ![image](assets/6.webp)
 
-> 🔗 Offizieller Abschnitt von Tails: https://tails.boum.org/install/linux/index.fr.html#tails
+> 🔗 Offizieller Abschnitt von Tails: https://tails.net/install/linux/index.fr.html#tails
 
 Eine oder zwei Minuten nach dem Bootloader und dem Ladescreen erscheint der Willkommensbildschirm.
 

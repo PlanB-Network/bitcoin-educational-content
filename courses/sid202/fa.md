@@ -89,7 +89,7 @@ Elements یک پلتفرم متن‌باز، سازگار با Sidechain و [Blo
 Elements در اصل، یک پروتکل است که امکان ایجاد [اجماع](https://planb.academy/resources/glossary/consensus) در مورد تاریخچه [تراکنش‌ها](https://planb.academy/resources/glossary/transaction-tx) و قوانین حاکم بر انتقال و ایجاد دارایی‌های ذخیره‌شده در یک Blockchain Ledger توزیع‌شده را فراهم می‌کند.
 
 
-اطلاعات بیشتر در مورد Elements به راحتی در وب‌سایت پروژه Elements (https://elementsproject.org/)، وبلاگ رسمی Liquid (https://blog.Liquid.net/) و پورتال توسعه‌دهنده (https://Liquid.net/devs) قابل یافتن است.
+اطلاعات بیشتر در مورد Elements به راحتی در وب‌سایت پروژه Elements (https://elementsproject.org/)، وبلاگ رسمی Liquid (https://blog.Liquid.net/) و پورتال توسعه‌دهنده (https://liquid.net/developers) قابل یافتن است.
 
 
 ### Elements

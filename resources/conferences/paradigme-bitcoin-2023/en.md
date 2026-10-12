@@ -16,7 +16,3 @@ description: Le canton de Neuchâtel accueille depuis quelques années un écosy
 ## Bitcoin et l'adoption comme moyen de paiement 
 
 ![video](https://youtu.be/HMinKgVNgRs?si=iyc9pDorNG7P3grY)
-
-## Bitcoin et Energie 
-
-![video](https://www.youtube.com/watch?v=gSZHwKjQi3o)

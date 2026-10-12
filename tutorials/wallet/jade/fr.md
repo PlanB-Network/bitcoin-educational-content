@@ -39,7 +39,7 @@ Une fois que votre Jade apparaît dans Green, mettez à jour Jade en cliquant su
 
 Après avoir mis à jour le micrologiciel de Jade, sélectionnez "Configurer Jade" sur la politique de réseau et de sécurité que vous souhaitez utiliser.
 
-> Astuce : La politique de sécurité est répertoriée sous "Type" à l'écran de connexion affiché ci-dessous. Si vous n'êtes pas sûr de choisir Singlesig ou Multisig Shield, veuillez consulter notre guide ici. (https://help.blockstream.com/hc/en-us/articles/4403642609433)
+> Astuce : La politique de sécurité est répertoriée sous "Type" à l'écran de connexion affiché ci-dessous. Si vous n'êtes pas sûr de choisir Singlesig ou Multisig Shield, veuillez consulter notre guide ici. (https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 ![image](assets/3.webp)
 
@@ -191,7 +191,7 @@ Vous avez maintenant configuré votre portefeuille avec succès et vous pouvez c
 > Note : Si vous utilisiez précédemment Jade avec Blockstream Green en tant que portefeuille Multisig Shield, ne vous attendez pas à ce que votre nouveau portefeuille Sparrow affiche le même solde, ce sont des portefeuilles différents. Pour accéder à nouveau à votre portefeuille Multisig Shield, il vous suffit de reconnecter votre Jade à Blockstream Green.
 
 ![image](assets/22.webp)
-'source: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+'source: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 ### application green
 

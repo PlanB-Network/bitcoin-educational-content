@@ -645,7 +645,7 @@ W 2010 roku, gdy Bitcoin zaczyna przyciągać uwagę mediów, Satoshi decyduje s
 > jak Gnutella i Tor wydają się trzymać łeb na karku” - Satoshi Nakamoto
 Pomimo nieobecności Satoshiego, Bitcoin nadal się rozwija. Historia Bitcoina jest zapisywana co 10 minut, a protokół nadal funkcjonuje zgodnie z zamierzeniami. Niezależnie od strachu, niepewności czy wątpliwości, Bitcoin nadal posuwa się naprzód, z dostępnością online na poziomie 99,988% - jak donosi strona (https://bitcoinuptime.com/).
 
-Bitcoin jest postrzegany inaczej przez każdą osobę. Dla niektórych jest jak grzyb [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), dla innych to [czarna dziura](https://dergigi.com/2019/05/01/bitcoins-gravity/i). Niezależnie od tego, czy się go kocha, czy nienawidzi, Bitcoin nadal istnieje, ze swoim stałym rytmem 10 minut na blok, jak bicie serca nowego systemu monetarnego.
+Bitcoin jest postrzegany inaczej przez każdą osobę. Dla niektórych jest jak grzyb [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), dla innych to [czarna dziura](https://dergigi.com/). Niezależnie od tego, czy się go kocha, czy nienawidzi, Bitcoin nadal istnieje, ze swoim stałym rytmem 10 minut na blok, jak bicie serca nowego systemu monetarnego.
 
 Aby dowiedzieć się więcej o pismach Satoshiego Nakamoto, polecamy [książkę Phila Champagne](https://planb.network/en/resources/books/98) lub dokument ARTE „le mystaire Satoshi”.
 

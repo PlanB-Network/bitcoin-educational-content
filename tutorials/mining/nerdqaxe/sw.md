@@ -12,7 +12,7 @@ description: Jinsi ya kuchimba madini na NerdQaxe?
 
 
 
-Video kutoka [kituo cha YouTube *Vipindi vya BTC*](https://www.youtube.com/@BTCessions).
+Video kutoka [kituo cha YouTube *Vipindi vya BTC*](https://www.youtube.com/@BTCSessions).
 
 
 

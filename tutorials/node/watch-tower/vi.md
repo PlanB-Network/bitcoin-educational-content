@@ -33,7 +33,7 @@ Trong hướng dẫn này, chúng ta sẽ xem xét 3 cách sử dụng **Watchto
 
 
 
-*Hướng dẫn này được trích từ [tài liệu chính thức của LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Một số thay đổi có thể đã được thực hiện đối với phiên bản gốc
+*Hướng dẫn này được trích từ [tài liệu chính thức của LND](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). Một số thay đổi có thể đã được thực hiện đối với phiên bản gốc
 
 
 
@@ -519,13 +519,7 @@ Trong cùng menu, bạn cũng sẽ tìm thấy URI của dịch vụ Watchtower 
 
 
 
-Có một số Tháp Canh có sẵn trực tuyến. Ví dụ, [LN+ và Voltage cung cấp Watchtower](https://lightningnetwork.plus/Watchtower) mà bạn có thể kết nối:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+Có một số Tháp Canh có sẵn trực tuyến. LN+ và Voltage trước đây cung cấp một Watchtower vị tha, nhưng nó không còn hoạt động (tháng 10 năm 2026). Hiện nay LN+ cung cấp [Watch Swaps](https://lightningnetwork.plus/watch_swaps), trong đó hai người vận hành nút giám sát kênh của nhau, và đăng một [hướng dẫn về các Watchtower vị tha](https://lightningnetwork.plus/posts/12).
 
 
 

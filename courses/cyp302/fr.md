@@ -896,7 +896,7 @@ Pour aller plus loin sur la théorie moderne des nombres, vous pouvez consulter 
 
 [3] Voir [Vidéo YouTube](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
-[4] Socratica, [Algèbre Abstraite](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Algèbre Abstraite](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 [5] Katz et Lindell, *Introduction to Modern Cryptography*, 2e éd., 2015 (CRC Press : Boca Raton, FL). Paar et Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag : Berlin).
 
@@ -1824,7 +1824,7 @@ Une fonction de hachage $H$ est dite **résistante aux collisions** s’il est i
 
 Les fonctions de hachage résistantes aux collisions sont importantes, par exemple, dans la vérification de logiciels. Supposons que vous souhaitiez télécharger la version Windows de Bitcoin Core 0.21.0 (une application serveur permettant de traiter le trafic du réseau Bitcoin). Voici les principales étapes à suivre pour vérifier la légitimité du logiciel :
 
-1. Vous devez d’abord télécharger et importer les clés publiques d'un ou plusieurs contributeurs de Bitcoin Core dans un logiciel permettant de vérifier les signatures numériques (par exemple, Kleopatra). Vous pouvez trouver ces clés publiques [ici](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Il est recommandé de vérifier le logiciel Bitcoin Core avec les clés publiques de plusieurs contributeurs.
+1. Vous devez d’abord télécharger et importer les clés publiques d'un ou plusieurs contributeurs de Bitcoin Core dans un logiciel permettant de vérifier les signatures numériques (par exemple, Kleopatra). Vous pouvez trouver ces clés publiques [ici](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys). Il est recommandé de vérifier le logiciel Bitcoin Core avec les clés publiques de plusieurs contributeurs.
 2. Ensuite, vous devez vérifier les clés publiques que vous avez importées. Au minimum, vous devriez vérifier que les clés publiques que vous avez trouvées sont les mêmes que celles publiées à divers endroits. Par exemple, vous pourriez consulter les pages personnelles, les comptes Twitter ou les pages GitHub des personnes dont vous avez importé les clés publiques. En général, cette comparaison de clés publiques est effectuée en comparant un court hachage de la clé publique connu sous le nom d’**empreinte numérique** (ou **fingerprint**).
 3. Ensuite, vous devez télécharger l’exécutable de Bitcoin Core depuis leur [site officiel](www.bitcoincore.org). Des packages seront disponibles pour les systèmes d’exploitation Linux, Windows et Mac.
 4. Ensuite, vous devez localiser deux fichiers de publication. Le premier contient le hachage officiel SHA-256 de l’exécutable que vous avez téléchargé, ainsi que les hachages de tous les autres packages qui ont été publiés. Un autre fichier de publication contiendra les signatures de divers contributeurs sur le fichier de publication contenant les hachages des packages. Ces deux fichiers de publication devraient se trouver sur le site officiel de Bitcoin Core.

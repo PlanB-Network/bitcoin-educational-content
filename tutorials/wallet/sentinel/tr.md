@@ -54,7 +54,7 @@ Sentinel'in benzersiz dezavantajları, uygulamanın yalnızca Android için mevc
 Çok imzalı bir Wallet'i takip etmek isteyenler için Blue Wallet, bu tür cüzdanlar için yalnızca izleme modu sunan bildiğim tek uygulamadır ve hem Android hem de iOS'tan erişilebilir.
 
 
-Sentinel'e alternatif arayan iOS kullanıcıları için [Green Wallet](https://blockstream.com/Green/) veya [Blue Wallet](https://bluewallet.io/watch-only/) seçenek olabilir, ancak yalnızca saat işlevleri Sentinel'inki kadar kapsamlı değildir.
+Sentinel'e alternatif arayan iOS kullanıcıları için [Green Wallet](https://blockstream.com/green/) veya [Blue Wallet](https://bluewallet.io/watch-only/) seçenek olabilir, ancak yalnızca saat işlevleri Sentinel'inki kadar kapsamlı değildir.
 
 ![watch-only](assets/notext/2.webp)
 

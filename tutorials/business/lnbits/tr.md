@@ -43,7 +43,7 @@ NOT: "müşterilerinizin" düğümünüzdeki LNbits banka hesaplarına yatırdı
 ## Demo platformu
 
 
-Demo [https://legend.lnbits.com](https://legend.lnbits.com) adresinde bulunabilir. Tamamen işlevseldir ve genel olarak LNbits ve LNURL'ün Lightning Network ve özellikleri hakkında bilgi edinmek için kullanılabilir. Sizi bundan alıkoyamasak da, üretim kurulumunuz için kullanmamanızı rica ediyoruz. Sadece yeni özellikleri test etmek için sunucular üzerinde sık sık çalışmakla kalmıyor, aynı zamanda sizi kendi düğümünüzü ve LNbits'i egemen bir şekilde çalıştırmaya teşvik etmek istiyoruz. Şu an için bir node çalıştırmanın çok fazla talep edildiğini düşünüyorsanız, LNbits'i buluttaki Opennode, Luna veya Votage gibi bir saklama fonu hizmetine veya Telegram'daki Lightning Tipbot'a bağlayabilirsiniz.
+Demo [https://demo.lnbits.com](https://demo.lnbits.com) adresinde bulunabilir. Tamamen işlevseldir ve genel olarak LNbits ve LNURL'ün Lightning Network ve özellikleri hakkında bilgi edinmek için kullanılabilir. Sizi bundan alıkoyamasak da, üretim kurulumunuz için kullanmamanızı rica ediyoruz. Sadece yeni özellikleri test etmek için sunucular üzerinde sık sık çalışmakla kalmıyor, aynı zamanda sizi kendi düğümünüzü ve LNbits'i egemen bir şekilde çalıştırmaya teşvik etmek istiyoruz. Şu an için bir node çalıştırmanın çok fazla talep edildiğini düşünüyorsanız, LNbits'i buluttaki Opennode, Luna veya Votage gibi bir saklama fonu hizmetine veya Telegram'daki Lightning Tipbot'a bağlayabilirsiniz.
 
 
 ## LNbits broşürü
@@ -69,7 +69,7 @@ LNbits'i kurmadan önce, LNbits'in ne olduğu ve sizin için hangi olasılıklar
 
 
 - [LND Kılavuzu](https://docs.lightning.engineering/) | LND'in Kurulması
-- [LND Yapılandırma Örneği](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | LND Ayarları
+- [LND Yapılandırma Örneği](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | LND Ayarları
 - [CLN Kılavuzu](https://docs.corelightning.org/docs/installation) | CLN'nin Kurulması
 - [LUDs](https://github.com/lnurl/luds) LNURL Spec | [NIPs](https://github.com/nostr-protocol/nips) Nostr Spec
 - [Watchtower çalıştır](https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | Çok önemli!
@@ -81,7 +81,7 @@ Belirli kullanım senaryolarında LNbits kullanan daha ayrıntılı kılavuzlar 
 
 - [LNbits ile Başlarken](https://darthcoin.substack.com/p/getting-started-lnbits) | Alt yığın kılavuzu
 - [LNbits ile güvenliğiniz için ToDos](https://youtu.be/i5FQf96e6zg) | Youtube Video
-- [Lightning Network'daki Özel Bankalar](https://darthcoin.substack.com/p/Bitcoin-private-banks-over-lightning) | Alt Yığın Kılavuzu
+- [Lightning Network'daki Özel Bankalar](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | Alt Yığın Kılavuzu
 - [Arkadaşlarınız ve aileniz için saklama cüzdanları çalıştırın](https://darthcoin.substack.com/p/the-bank-of-lnbits) | Alt yığın kılavuzu
 - [Küçük bir restoran / otel için LNbits](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | Alt yığın kılavuzu
 - [LNbits Streamer yardımcı pilotunu kullanma](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | Alt yığın kılavuzu
@@ -116,7 +116,7 @@ Ayrıca [nginx kullanarak bir fon kaynağı olarak PostgreSQ, LightningTipBot il
 [Daha fazla kurulum senaryosu burada](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
 
-Paket yazılım düğümleri için lütfen LNbits hakkındaki özel belgelerine bakın: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+Paket yazılım düğümleri için lütfen LNbits hakkındaki özel belgelerine bakın: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
 ### LNbits SaaS
@@ -202,17 +202,19 @@ Makaronunuzu şifrelemek için `./venv/bin/python lnbits/wallets/macaroon/macaro
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend Demo Sunucusu (!! Bunu üretim / ticari amaçlar için KULLANMAYIN, sadece test için !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### Lightning TipBot
+
+> **Uyarı (Ekim 2026):** LightningTipBot ve ln.tips faaliyetlerini sonlandırdı; kapanış 29 Nisan 2024'te duyuruldu. Kendi botunuzu barındırmadığınız sürece bu fon kaynağı artık çalışmıyor.
 
 
 Lightning Tipbot] (https://t.me/LightningTipBot) cihazınızı Telegram'dan bağlamak için aşağıdaki parametreyi ayarlamanız gerekecektir:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://LN.tips
+  - `LNBITS_ENDPOINT`: `https://LN.tips`
   - lNBITS_KEY`: Anahtarı almak için Telegram'da LightningTipbot ile özel bir sohbette bir kez /api çalıştırmanız gerekecektir.
 
 
@@ -229,11 +231,13 @@ Daha fazla bilgi için bakınız [IBEX API-Documentation](https://ibexpay-api.re
 
 #### LNPay
 
-Invoice dinleyicisinin çalışması için LNbits'inizde herkese açık bir URL'ye sahip olmanız ve "Wallet Receive" olayı ile `<your LNbits host>/Wallet/webhook` adresini işaret eden bir [LNPay webhook](https://dashboard.lnpay.co/webhook/) kurmanız gerekir. Ayar `https://mylnbits/Wallet/webhook`, herhangi bir ödeme hakkında bilgilendirilen uç nokta url'si olacaktır.
+> **Uyarı (Ekim 2026):** LNPay faaliyetini sonlandırmış görünüyor: lnpay.co alan adı artık yanıt vermiyor. Bu fon kaynağı büyük olasılıkla artık kullanılamıyor.
+
+Invoice dinleyicisinin çalışması için LNbits'inizde herkese açık bir URL'ye sahip olmanız ve "Wallet Receive" olayı ile `<your LNbits host>/Wallet/webhook` adresini işaret eden bir LNPay webhook kurmanız gerekir. Ayar `https://mylnbits/Wallet/webhook`, herhangi bir ödeme hakkında bilgilendirilen uç nokta url'si olacaktır.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -514,7 +518,7 @@ Burada f8a43fc363ea428db5c53b3559935f1f yerine addan önce gelen değeri (örne�
 ##### Lightning-Address tersi için LNURL
 
 
-Fiatjaf'tan bu [kodlayıcıyı](https://lnurl-codec.netlify.app/) veya [bunu](https://lightningdecoder.com/) deneyin. Bir LNURLp'yi ödemek veya kontrol etmek için [LNurlpay](https://wwww.lnurlpay.com/)'i de kullanabilirsiniz. HTTP DEĞİL HTTPS belirtmelidir.
+Fiatjaf'tan bu [kodlayıcıyı](https://lnurl-codec.netlify.app/) veya [bunu](https://lightningdecoder.com/) deneyin. Bir LNURLp'yi ödemek veya kontrol etmek için [LNurlpay](https://www.lnurlpay.com/)'i de kullanabilirsiniz. HTTP DEĞİL HTTPS belirtmelidir.
 
 
 
@@ -537,7 +541,9 @@ Onchain BTC'den LN BTC'ye (LNbits'e) Exchange Sats yapmanın iki yolu vardır.
 ###### Harici bir takas hizmeti aracılığıyla.
 
 
-LNb'nize erişimi olmayan diğer kullanıcılar [Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) veya [ZigZag](https://zigzag.io/) gibi bir takas hizmeti kullanabilir. Bu, LNbits örneğinizden yalnızca LNURL/LN faturaları sağlıyorsanız, ancak bir ödeyenin yalnızca zincir üzerinde Sats'ü varsa, bu nedenle önce bu Sats'ü kendi taraflarında değiştirmeleri gerekecektir. Prosedür basittir: kullanıcı takas hizmetine onchain btc gönderir ve takasın hedefi olarak LNbits'ten LNURL / LN Invoice sağlar.
+LNb'nize erişimi olmayan diğer kullanıcılar Boltz, [FixedFloat](https://fixedfloat.com/) veya [ZigZag](https://zigzag.io/) gibi bir takas hizmeti kullanabilir. Bu, LNbits örneğinizden yalnızca LNURL/LN faturaları sağlıyorsanız, ancak bir ödeyenin yalnızca zincir üzerinde Sats'ü varsa, bu nedenle önce bu Sats'ü kendi taraflarında değiştirmeleri gerekecektir. Prosedür basittir: kullanıcı takas hizmetine onchain btc gönderir ve takasın hedefi olarak LNbits'ten LNURL / LN Invoice sağlar.
+
+> **Uyarı (Ekim 2026):** Boltz, birkaç güvenlik açığının istismar edilmesinin ardından 3 Ağustos 2026'da tüm takasları askıya aldı ve web sitesi çevrimdışı. Boltz ve LNbits Boltz uzantısı şu anda kullanılamıyor.
 
 
 ###### Onchain ve Boltz LNbits uzantısını kullanma.
@@ -595,7 +601,7 @@ On-Chain uzantısında bir ypub kullanırken "desteklenmeyen Hash türü" hatas�
 ### LNbits ile Takım Oluşturma ve İnşa Etme
 
 
-LNbits her türlü [açık API](https://legend.lnbits.com/docs) ve milyonlarca kullanım durumu için birçok farklı cihazı programlamak ve bunlara bağlanmak için araçlara sahiptir.
+LNbits her türlü [açık API](https://demo.lnbits.com/docs) ve milyonlarca kullanım durumu için birçok farklı cihazı programlamak ve bunlara bağlanmak için araçlara sahiptir.
 
 
 İnşa etmeye yeni başladığınızda, Ben Arc'ın LNbit'lere dayalı araçlar inşa etme hakkındaki bu [MakerBits sunumları](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) ile başlayın.

@@ -35,7 +35,7 @@ description: Jak skonfigurować aplikację Blockstream i korzystać z Liquid Net
 
 
 
-**Liquid** to **Sidechain** Bitcoin, opracowany przez **[Blockstream](https://blockstream.com/Liquid/)**, zaprojektowany, aby oferować szybsze, bardziej Confidential Transactions i zaawansowane funkcje, pozostając jednocześnie połączonym z głównym Blockchain Bitcoin.
+**Liquid** to **Sidechain** Bitcoin, opracowany przez **[Blockstream](https://blockstream.com/liquid/)**, zaprojektowany, aby oferować szybsze, bardziej Confidential Transactions i zaawansowane funkcje, pozostając jednocześnie połączonym z głównym Blockchain Bitcoin.
 
 
 
@@ -408,7 +408,9 @@ Aby otrzymać Liquid-Bitcoiny (L-BTC), dostępnych jest kilka opcji. Możesz pop
 
 
 
-Alternatywnie, Exchange swoje bitcoiny onchain lub za pośrednictwem Lightning Network dla L-BTC przy użyciu [mostu takiego jak Boltz](https://boltz.Exchange/): wprowadź swój Liquid odbierający Address, dokonaj płatności zgodnie z preferencjami i odbierz swój L-BTC.
+Alternatywnie, Exchange swoje bitcoiny onchain lub za pośrednictwem Lightning Network dla L-BTC przy użyciu mostu takiego jak Boltz: wprowadź swój Liquid odbierający Address, dokonaj płatności zgodnie z preferencjami i odbierz swój L-BTC.
+
+> **Uwaga (październik 2026):** Boltz zawiesił wszystkie swapy 3 sierpnia 2026 r., a jego strona internetowa nie działa. Ta metoda obecnie nie działa.
 
 
 

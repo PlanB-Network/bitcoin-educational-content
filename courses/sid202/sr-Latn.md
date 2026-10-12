@@ -89,7 +89,7 @@ Elements je platforma otvorenog koda za [blokčejn](https://planb.academy/resour
 Elements je, u svojoj suštini, protokol koji omogućava postizanje [konsenzusa](https://planb.academy/resources/glossary/consensus) oko istorije transakcija i pravila koja upravljaju prenosom i kreiranjem digitalnih sredstava sačuvanih u distribuiranom blokčejn digitalnom dnevniku (eng. Ledger).
 
 
-Više informacija o Elements-u možete lako pronaći na vebsajtu Elements projekta (https://elementsproject.org/), zvaničnom Liquid blogu (https://blog.Liquid.net/) i portalu za programere (https://Liquid.net/devs).
+Više informacija o Elements-u možete lako pronaći na vebsajtu Elements projekta (https://elementsproject.org/), zvaničnom Liquid blogu (https://blog.Liquid.net/) i portalu za programere (https://liquid.net/developers).
 
 
 ### Elements

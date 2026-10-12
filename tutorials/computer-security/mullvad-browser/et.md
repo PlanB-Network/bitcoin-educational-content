@@ -547,7 +547,7 @@ Kuigi sellel on teatud piirangud (puudub mobiiliversioon, mittepüsivad seansid)
 
 - [Mullvad Browser'i ametlik veebileht](https://mullvad.net/fr/browser)
 - [Mullvad Brauseri allalaadimisleht](https://mullvad.net/en/download/browser)
-- [Üksikasjalikud tehnilised näitajad](https://mullvad.net/en/browser/Hard-facts)
+- [Üksikasjalikud tehnilised näitajad](https://mullvad.net/en/browser/hard-facts)
 - [Mullvad Browser Extension](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

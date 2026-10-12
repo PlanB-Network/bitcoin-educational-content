@@ -304,7 +304,7 @@ La gente suele decir cosas como "Bitcoin es genial porque es Trustless".
 En resumen, la palabra *Trustless* se refiere a una propiedad del protocolo Bitcoin por la que puede funcionar lógicamente sin "ninguna parte de confianza". Esto es diferente de la confianza que inevitablemente tienes que poner en el software o hardware que ejecutas. Este último aspecto de la confianza se tratará más adelante en este capítulo.
 
 
-En los sistemas centralizados, dependemos de la reputación de un actor central para asegurarnos de que se ocupará de la seguridad o dará marcha atrás en caso de problemas, así como del sistema legal para sancionar cualquier infracción. Estos requisitos de confianza son problemáticos en los sistemas descentralizados seudónimos: no hay posibilidad de recurso, por lo que realmente no puede haber confianza. En la introducción del [libro blanco de Bitcoin](https://Bitcoin.org/Bitcoin.pdf), Satoshi Nakamoto describe este problema:
+En los sistemas centralizados, dependemos de la reputación de un actor central para asegurarnos de que se ocupará de la seguridad o dará marcha atrás en caso de problemas, así como del sistema legal para sancionar cualquier infracción. Estos requisitos de confianza son problemáticos en los sistemas descentralizados seudónimos: no hay posibilidad de recurso, por lo que realmente no puede haber confianza. En la introducción del [libro blanco de Bitcoin](https://bitcoin.org/bitcoin.pdf), Satoshi Nakamoto describe este problema:
 
 
 > El comercio en Internet ha pasado a depender casi exclusivamente de instituciones financieras que actúan como terceros de confianza para procesar los pagos electrónicos.
@@ -317,7 +317,7 @@ Parece que no podemos tener un sistema descentralizado basado en la confianza, y
 Para utilizar Bitcoin de forma trustless, tienes que ejecutar un full node. Solo entonces podrás verificar que los bloques que recibes de otros siguen las reglas del consenso; por ejemplo, que se cumple el calendario de emisión de monedas y que no se produce un doble gasto en la blockchain. Si no gestionas una full node, subcontratas la verificación de los bloques de Bitcoin a otra persona y confías en que te diga la verdad, lo que significa que no estás utilizando Bitcoin de forma trustless.
 
 
-David Harding ha escrito [un artículo en el sitio web Bitcoin.org](https://Bitcoin.org/en/Bitcoin-core/features/validation) en el que explica cómo el funcionamiento de una Full node -o el uso de Bitcoin sin confianza- realmente le ayuda:
+David Harding ha escrito [un artículo en el sitio web Bitcoin.org](https://bitcoin.org/en/bitcoin-core/features/validation) en el que explica cómo el funcionamiento de una Full node -o el uso de Bitcoin sin confianza- realmente le ayuda:
 
 
 > La moneda Bitcoin solo funciona cuando la gente acepta bitcoins en intercambio por otras cosas de valor. Eso significa que son las personas que aceptan bitcoins las que le dan valor y las que deciden cómo debe funcionar Bitcoin.
@@ -498,7 +498,7 @@ Al utilizar direcciones, o claves públicas, conseguimos objetivos importantes, 
 La privacidad de blockchain se refiere a la información que revelas al realizar transacciones en la blockchain. Se aplica a todas las transacciones, tanto las que envías como las que recibes.
 
 
-Satoshi Nakamoto reflexiona sobre la privacidad de On-Chain en la sección 7 de su [Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf):
+Satoshi Nakamoto reflexiona sobre la privacidad de On-Chain en la sección 7 de su [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf):
 
 
 > Como cortafuegos adicional, se debe utilizar un nuevo par de claves para cada transacción para evitar que se vinculen a un propietario común. No obstante, es inevitable que se produzcan algunos vínculos en las transacciones con varias entradas, que revelan necesariamente que sus entradas pertenecían al mismo propietario. El riesgo es que si se revela el propietario de una clave, la vinculación podría revelar otras transacciones que pertenecían al mismo propietario.
@@ -716,7 +716,7 @@ Es imposible decirlo, pero sabemos algunas cosas:
 - Con una subvención por bloque nula y una Mempool vacía o casi vacía, las cosas pueden tambalearse debido al tijeretazo de las tasas.
 
 
-Dado que la transición a una Block reward de pago está tan lejos en el futuro, quizá sea prudente no sacar conclusiones precipitadas e intentar solucionar los posibles problemas mientras podamos. Por ejemplo, Peter Todd cree que existe un riesgo real de que el presupuesto de seguridad de Bitcoin no sea suficiente en el futuro y, en consecuencia, aboga por una pequeña inflación perpetua en Bitcoin. Sin embargo, también piensa que no es una buena idea discutir tal cuestión en este momento, como [dijo en el podcast What Bitcoin Did](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
+Dado que la transición a una Block reward de pago está tan lejos en el futuro, quizá sea prudente no sacar conclusiones precipitadas e intentar solucionar los posibles problemas mientras podamos. Por ejemplo, Peter Todd cree que existe un riesgo real de que el presupuesto de seguridad de Bitcoin no sea suficiente en el futuro y, en consecuencia, aboga por una pequeña inflación perpetua en Bitcoin. Sin embargo, también piensa que no es una buena idea discutir tal cuestión en este momento, como [dijo en el podcast What Bitcoin Did](https://www.youtube.com/watch?v=8yah3N9n84k):
 
 
 > Pero, eso es un riesgo como 10, 20 años en el futuro. Eso es mucho tiempo. Y, para entonces, ¿quién diablos sabe cuáles son los riesgos?
@@ -776,7 +776,7 @@ Y viceversa, [compatibilidad con versiones anteriores](https://en.wikipedia.org/
 Se dice que una modificación de las reglas de consenso de Bitcoin es una **[Soft Fork](https://planb.academy/resources/glossary/soft-fork)** si es totalmente compatible. Esta es la forma más común de actualizar Bitcoin, por una serie de razones que discutiremos más adelante en este capítulo. Si un cambio en las reglas de consenso de Bitcoin es compatible hacia atrás pero no hacia adelante, se dice que es una **[Hard Fork](https://planb.academy/resources/glossary/hard-fork)**.
 
 
-Para obtener una visión general técnica de las bifurcaciones de Soft y Hard, lea el [capítulo 11 de Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Explica estos términos y también se sumerge en los mecanismos de actualización. Es recomendable, aunque no estrictamente necesario, que te familiarices con esto antes de seguir leyendo.
+Para obtener una visión general técnica de las bifurcaciones de Soft y Hard, lea el [capítulo 11 de Grokking Bitcoin](https://rosenbaum.se/book/grokking-bitcoin-11.html). Explica estos términos y también se sumerge en los mecanismos de actualización. Es recomendable, aunque no estrictamente necesario, que te familiarices con esto antes de seguir leyendo.
 
 
 ### Mejoras históricas
@@ -810,7 +810,7 @@ Aaron van Wirdum describe este sinuoso camino en su artículo de Bitcoin Magazin
 
 > Shaolinfry propuso una alternativa: una Soft Fork activada por el usuario (UASF). En lugar de la activación mediante energía hash, una Soft Fork activada por el usuario tendría una "'activación de día de bandera' en la que los nodos comienzan la aplicación en un momento predeterminado en el futuro". Siempre que tal UASF sea aplicada por una mayoría económica, esto debería obligar a una mayoría de mineros a seguir (o activar) la Soft Fork.
 
-Entre otras cosas, cita el correo electrónico de Shaolinfry a la lista de correo Bitcoin-dev. En esa ocasión, Shaolinfry [argumentó en contra de las soft fork activadas por mineros](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html), enumerando una serie de problemas con ellas:
+Entre otras cosas, cita el correo electrónico de Shaolinfry a la lista de correo Bitcoin-dev. En esa ocasión, Shaolinfry [argumentó en contra de las soft fork activadas por mineros](https://gnusha.org/pi/bitcoindev/jo5-7HCZX7tgdMpIQgK85HCPP14FWxvOIbjV_oerIfc-HOP1GbK3SxFX82Ls23yU1L7y95QsFFggddMNdo5Sxy7YhTJhRFN1f8d6PaA8b7s=@protonmail.ch/), enumerando una serie de problemas con ellas:
 
 
 > En primer lugar, requiere confiar en que la potencia hash se validará tras la activación. La Soft Fork BIP66 fue un caso en el que el 95% del hashrate señalaba que estaba preparado, pero en realidad cerca de la mitad no estaba validando las reglas actualizadas y minó sobre un bloque no válido por error.
@@ -839,7 +839,7 @@ Tras el despliegue de SegWit, surgió un debate sobre los mecanismos de desplieg
 
 > Es probable que en algún momento queramos añadir más funciones al protocolo Bitcoin. Es una gran pregunta filosófica que nos hacemos. ¿Hacemos un UASF para la próxima? ¿Y un enfoque híbrido? La activación por mineros por sí sola ha sido descartada. BIP9 no vamos a volver a utilizarlo.
 
-En enero de 2020, Matt Corallo [envió un correo electrónico](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html) a la lista de correo Bitcoin-dev que inició una discusión sobre los futuros mecanismos de despliegue de Soft Fork. Enumeró cinco objetivos que consideraba esenciales en una actualización. David Harding [los resume en un boletín de Optech sobre Bitcoin](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) como:
+En enero de 2020, Matt Corallo [envió un correo electrónico](https://gnusha.org/pi/bitcoindev/4a132f8a-22e3-8e31-e338-bed9ef46d2ef@mattcorallo.com/) a la lista de correo Bitcoin-dev que inició una discusión sobre los futuros mecanismos de despliegue de Soft Fork. Enumeró cinco objetivos que consideraba esenciales en una actualización. David Harding [los resume en un boletín de Optech sobre Bitcoin](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) como:
 
 
 > La capacidad de abortar si se encuentra una objeción seria a los cambios propuestos en las reglas de consenso. La asignación de tiempo suficiente tras la publicación del software actualizado para garantizar que la mayoría de los nodos económicos se actualicen para aplicar dichas normas. La expectativa de que la tasa de hash de la red sea aproximadamente la misma antes y después del cambio, así como durante cualquier transición. La prevención, en la medida de lo posible, de la creación de bloques que no sean válidos según las nuevas normas, lo que podría dar lugar a falsas confirmaciones en nodos no actualizados y clientes SPV. La garantía de que los mecanismos de cancelación no puedan ser utilizados indebidamente por griefers o partisanos para retener una actualización ampliamente deseada y sin problemas conocidos.
@@ -901,7 +901,7 @@ Durante esos siete meses, la discusión continuó y parecía que no había forma
 ```
 
 
-El planteamiento de "vamos a ver qué pasa" pareció calar por fin en la mente de la gente. Este proceso se etiquetaría más tarde como "Juicio Rápido" debido a su corto periodo de señalización. David Harding explica esta idea a la comunidad en general en un [correo electrónico a la lista de correo Bitcoin-dev](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-March/018583.html):
+El planteamiento de "vamos a ver qué pasa" pareció calar por fin en la mente de la gente. Este proceso se etiquetaría más tarde como "Juicio Rápido" debido a su corto periodo de señalización. David Harding explica esta idea a la comunidad en general en un [correo electrónico a la lista de correo Bitcoin-dev](https://gnusha.org/pi/bitcoindev/20210306034343.fhwrxmq6gbb2os5m@ganymede/):
 
 > La versión anterior de esta propuesta se documentó hace más de 200 días y el código subyacente de Taproot se fusionó en Bitcoin Core hace más de 140 días. Si hubiéramos iniciado la prueba rápida en el momento en que se fusionó Taproot (lo cual es poco realista), o bien estaríamos a menos de dos meses de tener Taproot o habríamos pasado al siguiente intento de activación hace más de un mes.
 >
@@ -1144,7 +1144,7 @@ Muchos desarrolladores eligen esta opción operando bajo un seudónimo y tratand
 artículos y mi trabajo sobre el Bitcoin y el Lightning Network.
 
 
-En su caso, la razón para utilizar un seudónimo debe juzgarse por sus méritos y no por quién es o son la persona o personas que se esconden tras el seudónimo. Curiosamente, reveló en un [artículo en CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) que el seudónimo se creó por un motivo diferente.
+En su caso, la razón para utilizar un seudónimo debe juzgarse por sus méritos y no por quién es o son la persona o personas que se esconden tras el seudónimo. Curiosamente, reveló en un [artículo en CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) que el seudónimo se creó por un motivo diferente.
 
 
 > Mi razón inicial [para usar un seudónimo] era simplemente que me preocupaba [cometer] un error masivo; así, ZmnSCPxj pretendía ser un seudónimo desechable que pudiera abandonarse en tal caso. Sin embargo, parece que ha cosechado una reputación mayoritariamente positiva, así que lo he mantenido
@@ -1204,7 +1204,7 @@ En su camino hacia la adopción final, una idea suele pasar por varias fases de 
 
 En cada una de estas fases, personas con distintos puntos de vista y formación revisan la información disponible, ya sea el código fuente, un BIP o simplemente una idea descrita vagamente. Las fases no suelen realizarse de manera estrictamente descendente; de hecho, pueden darse varias fases simultáneamente, y a veces se pasa de una a otra. También es posible que diferentes personas aporten su opinión durante las distintas fases.
 
-Uno de los más prolíficos revisores de código en Bitcoin Core es Jon Atack. Él escribió [una entrada de blog](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) sobre cómo revisar pull requests en Bitcoin Core. Hace hincapié en que un buen revisor de código se centra en la mejor manera de añadir valor.
+Uno de los más prolíficos revisores de código en Bitcoin Core es Jon Atack. Él escribió [una entrada de blog](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core) sobre cómo revisar pull requests en Bitcoin Core. Hace hincapié en que un buen revisor de código se centra en la mejor manera de añadir valor.
 
 > Como recién llegado, el objetivo es intentar aportar valor, con amabilidad y humildad, mientras se aprende todo lo posible.
 >
@@ -1233,7 +1233,7 @@ Las empresas, individuos y organizaciones interesados en el éxito continuado de
 
 A veces, la gente tiene la impresión de que entre los desarrolladores de Bitcoin hay muchas luchas internas e interminables debates acalorados, y que son incapaces de tomar decisiones.
 
-Por ejemplo, el mecanismo de despliegue de Taproot se debatió durante un largo periodo de tiempo, formándose dos "bandos". Uno quería que la actualización "fracasara" (fail) si los [mineros](https://planb.academy/resources/glossary/miner) no habían votado abrumadoramente a favor de las nuevas reglas después de un determinado momento, mientras que el otro quería aplicar las reglas a partir de ese momento pasara lo que pasara. Michael Folkson resume los argumentos de los dos bandos en un [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) a la lista de correo Bitcoin-dev.
+Por ejemplo, el mecanismo de despliegue de Taproot se debatió durante un largo periodo de tiempo, formándose dos "bandos". Uno quería que la actualización "fracasara" (fail) si los [mineros](https://planb.academy/resources/glossary/miner) no habían votado abrumadoramente a favor de las nuevas reglas después de un determinado momento, mientras que el otro quería aplicar las reglas a partir de ese momento pasara lo que pasara. Michael Folkson resume los argumentos de los dos bandos en un [email](https://gnusha.org/pi/bitcoindev/CAFvNmHSnd4OM+c0_L8fFXRNrxo23WdQpNdBjTJjhmGuHumgLDA@mail.gmail.com/) a la lista de correo Bitcoin-dev.
 
 El debate pareció interminable, y era realmente difícil que se formara un consenso a corto plazo. Esto frustró a la gente y, como resultado, el calor se intensificó. A Gregory Maxwell (como usuario nullc) le preocupaba [en Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) que las largas discusiones hicieran que la actualización fuera menos segura:
 
@@ -1308,7 +1308,7 @@ El escalado ha sido un punto central de discusión desde la Genesis de Bitcoin. 
 
 > Satoshi Nakamoto escribió:
 >
-> "He estado trabajando en un nuevo sistema de dinero electrónico que es totalmente peer-to-peer, sin terceros de confianza. El documento está disponible en http://www.Bitcoin.org/Bitcoin.pdf"
+> "He estado trabajando en un nuevo sistema de dinero electrónico que es totalmente peer-to-peer, sin terceros de confianza. El documento está disponible en http://www.bitcoin.org/bitcoin.pdf"
 >
 > Necesitamos urgentemente un sistema de este tipo, pero por lo que veo en su propuesta, no parece tener el tamaño necesario.
 
@@ -1321,7 +1321,7 @@ Los debates sobre el escalado alcanzaron su máximo interés en torno a 2015-201
 En 2015, se celebró en Montreal una conferencia llamada [Scaling Bitcoin](https://scalingbitcoin.org/), con una conferencia de seguimiento seis meses después en Hong Kong y, posteriormente, en otros lugares del mundo. El tema central era precisamente cómo abordar el escalado. Muchos desarrolladores de Bitcoin y otros entusiastas se reunieron en estas conferencias para debatir diversas cuestiones y propuestas de escalado. La mayoría de estas discusiones no giraban en torno al aumento del tamaño de los bloques, sino sobre soluciones a más largo plazo.
 
 
-Tras la conferencia de Hong Kong, en diciembre de 2015, Gregory Maxwell [resumió su punto de vista](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) sobre muchas de las cuestiones que se habían debatido, empezando por cierta filosofía general del escalado:
+Tras la conferencia de Hong Kong, en diciembre de 2015, Gregory Maxwell [resumió su punto de vista](https://gnusha.org/pi/bitcoindev/CAAS2fgQyVs1fAEj+vqp8E2=FRnqsgs7VUKqALNBHNxRMDsHdVg@mail.gmail.com/) sobre muchas de las cuestiones que se habían debatido, empezando por cierta filosofía general del escalado:
 
 
 > Con la tecnología disponible, hay compensaciones fundamentales entre escala y descentralización. Si el sistema es demasiado costoso, la gente se verá obligada a confiar en terceros en lugar de aplicar de forma independiente las reglas del sistema. Si el uso de recursos de Bitcoin, en relación con la tecnología disponible, es demasiado grande, Bitcoin pierde sus ventajas competitivas frente a los sistemas heredados porque la validación será demasiado costosa (expulsando a muchos usuarios), lo que obligará a volver a confiar en el sistema. Si la capacidad es demasiado baja y nuestros métodos de transacción demasiado ineficaces, el acceso a la cadena para la resolución de disputas será demasiado costoso, lo que también devolverá la confianza al sistema.
@@ -1376,7 +1376,7 @@ El segundo punto tiene un efecto negativo en la descentralización minera, porqu
 El escalado horizontal se refiere a las técnicas que dividen la carga de trabajo entre varias máquinas. Aunque se trata de un método de escalado habitual en sitios web y bases de datos populares, no es fácil de aplicar en Bitcoin.
 
 
-Mucha gente se refiere a este enfoque de escalado de Bitcoin como fragmentación (sharding). Básicamente, consiste en dejar que cada Full node verifique solo una parte de la Blockchain. Peter Todd ha reflexionado mucho sobre el concepto de fragmentación. Escribió un [artículo de blog](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) explicando la fragmentación en términos generales, y también presentando su propia idea llamada *treechains* (cadenas de árbol). El artículo es de difícil lectura, pero Todd expone algunos puntos que son bastante digeribles:
+Mucha gente se refiere a este enfoque de escalado de Bitcoin como fragmentación (sharding). Básicamente, consiste en dejar que cada Full node verifique solo una parte de la Blockchain. Peter Todd ha reflexionado mucho sobre el concepto de fragmentación. Escribió un [artículo de blog](https://petertodd.org/2015/why-scaling-bitcoin-with-sharding-is-very-hard) explicando la fragmentación en términos generales, y también presentando su propia idea llamada *treechains* (cadenas de árbol). El artículo es de difícil lectura, pero Todd expone algunos puntos que son bastante digeribles:
 
 > En los sistemas fragmentados la "defensa Full node" no funciona, al menos directamente. La cuestión es que no todo el mundo tiene todos los datos, así que tienes que decidir qué pasa cuando no están disponibles.
 
@@ -1527,7 +1527,7 @@ Los piratas informáticos y los especialistas en seguridad informática opinan q
 Esto significa que si encuentras un problema de seguridad, debes informar de ello al equipo responsable del sistema. Pero, ¿qué significa esto en el contexto de Bitcoin? Nadie controla Bitcoin, pero actualmente existe un punto central para el desarrollo de Bitcoin, a saber, el [repositorio Github del núcleo de Bitcoin](https://github.com/Bitcoin/Bitcoin). Los mantenedores de dicho repositorio son responsables del código que contiene, pero no son responsables del sistema en su conjunto, nadie lo es. Sin embargo, la mejor práctica general es enviar un correo electrónico a security@bitcoincore.org.
 
 
-En un [hilo de correo electrónico](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) titulado "Divulgación responsable de errores" de 2017, Anthony Towns intentó resumir lo que él percibía como las mejores prácticas actuales. Había recogido aportaciones de varias fuentes y diferentes personas para fundamentar su punto de vista sobre el tema.
+En un [hilo de correo electrónico](https://gnusha.org/pi/bitcoindev/20170914052740.GA2674@erisian.com.au/) titulado "Divulgación responsable de errores" de 2017, Anthony Towns intentó resumir lo que él percibía como las mejores prácticas actuales. Había recogido aportaciones de varias fuentes y diferentes personas para fundamentar su punto de vista sobre el tema.
 
 
 
@@ -1549,12 +1549,12 @@ En un [hilo de correo electrónico](https://lists.linuxfoundation.org/pipermail/
 Esta lista muestra lo cuidadoso que hay que ser al publicar parches para Bitcoin, ya que el propio parche podría delatar la vulnerabilidad. El cuarto punto es especialmente interesante, ya que explica cómo comprobar si un parche se ha disimulado lo suficientemente bien. En efecto, si unos pocos desarrolladores realmente experimentados no pueden detectar la vulnerabilidad aun sabiendo que el parche corrige una, probablemente será realmente difícil que otros la descubran.
 
 
-El hilo que condujo a este correo electrónico estaba discutiendo si, cuándo y cómo revelar vulnerabilidades a altcoins y otras implementaciones de Bitcoin. Aquí no hay una respuesta clara. "Ayudar a los buenos" parece lo más sensato, pero ¿quién decide quiénes son y dónde está el límite? Bryan Bishop [argumentó](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html) que ayudar a las altcoins e incluso a las scamcoins a defenderse de los exploits de seguridad era un deber moral:
+El hilo que condujo a este correo electrónico estaba discutiendo si, cuándo y cómo revelar vulnerabilidades a altcoins y otras implementaciones de Bitcoin. Aquí no hay una respuesta clara. "Ayudar a los buenos" parece lo más sensato, pero ¿quién decide quiénes son y dónde está el límite? Bryan Bishop [argumentó](https://gnusha.org/pi/bitcoindev/CABaSBawaN8GTES96yZBKa574A0TiDAHvukipYH9MGk0Euev6PA@mail.gmail.com/) que ayudar a las altcoins e incluso a las scamcoins a defenderse de los exploits de seguridad era un deber moral:
 
 
 > No basta con defender a Bitcoin y a sus usuarios de las amenazas activas, existe una responsabilidad más general de defender a todo tipo de usuarios y software diferente de muchos tipos de amenazas en cualquiera de sus formas, incluso si la gente está usando software estúpido e inseguro que tú personalmente no mantienes o al que no contribuyes o por el que no abogas. Manejar el conocimiento de una vulnerabilidad es un asunto delicado y podrías estar recibiendo conocimiento con un impacto directo o indirecto más serio que el descrito originalmente.
 
-En la misma línea que el correo electrónico de Towns, Gregory Maxwell publicó un [post](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) en el que sostenía que las vulnerabilidades de seguridad podrían ser más graves de lo que parecen:
+En la misma línea que el correo electrónico de Towns, Gregory Maxwell publicó un [post](https://gnusha.org/pi/bitcoindev/CAAS2fgRD_poPjFaG6QD3L7R1GYKEO5LikrzXz+niBFBPbLCRQg@mail.gmail.com/) en el que sostenía que las vulnerabilidades de seguridad podrían ser más graves de lo que parecen:
 
 
 > He visto muchas veces cómo un problema difícil resultaba trivial cuando se encontraba el truco adecuado, o cómo un problema menor se convertía en algo mucho más serio.
@@ -1772,7 +1772,7 @@ El BIP se activó el 4 de julio de 2015. Sin embargo, aunque lo anterior es cier
 
 ##### La vulnerabilidad
 
-La divulgación completa de este asunto fue publicada el 28 de julio de 2015 por Pieter Wuille en un [correo electrónico a la lista de correo Bitcoin-dev](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
+La divulgación completa de este asunto fue publicada el 28 de julio de 2015 por Pieter Wuille en un [correo electrónico a la lista de correo Bitcoin-dev](https://gnusha.org/pi/bitcoindev/55B79146.70309@gmail.com/):
 
 > Hola a todos,
 >
@@ -1798,7 +1798,7 @@ Cronología de los acontecimientos en torno a la BIP66. Los puntos en negro ya s
 
 Sin que nadie lo supiera, el problema podría haberse resuelto con la ya desaparecida BIP62, que era una propuesta para reducir las posibilidades de [maleabilidad de las transacciones](https://planb.academy/resources/glossary/malleability-transaction). Entre los cambios propuestos en la BIP62 estaba el endurecimiento de las reglas de consenso para la codificación de firmas, o "codificación [DER](https://planb.academy/resources/glossary/der) estricta". Pieter Wuille propuso algunos ajustes al BIP en julio de 2014, que habrían resuelto el problema:
 
-> 2014-Jul-18: Para que las reglas de codificación de firmas de Bitcoin no dependieran del analizador sintáctico específico de OpenSSL, modifiqué la propuesta de BIP62 para que su estricto requisito de firmas DER también se aplicara a las transacciones de la versión $1$. En aquel momento ya no se minaban firmas que no fueran DER en los bloques, por lo que se asumió que esto no tendría ningún impacto. Véase https://github.com/Bitcoin/bips/pull/90 y http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. Se desconocía en ese momento, pero si se hubiera implantado habría resuelto la vulnerabilidad.
+> 2014-Jul-18: Para que las reglas de codificación de firmas de Bitcoin no dependieran del analizador sintáctico específico de OpenSSL, modifiqué la propuesta de BIP62 para que su estricto requisito de firmas DER también se aplicara a las transacciones de la versión $1$. En aquel momento ya no se minaban firmas que no fueran DER en los bloques, por lo que se asumió que esto no tendría ningún impacto. Véase https://github.com/Bitcoin/bips/pull/90 y https://gnusha.org/pi/bitcoindev/CAPg+sBiTURdRAZbyk3guF5YzAAQebo8yY_TuXHUKYDEdLjDUdQ@mail.gmail.com/. Se desconocía en ese momento, pero si se hubiera implantado habría resuelto la vulnerabilidad.
 
 Debido a la amplitud de este BIP, que abarcaba mucho más que la "codificación DER estricta", cambiaba constantemente y nunca llegó a implantarse. El BIP se retiró posteriormente porque Segregated Witness (BIP141), resolvía la maleabilidad de las transacciones de una forma diferente y más completa.
 
@@ -1806,7 +1806,7 @@ Debido a la amplitud de este BIP, que abarcaba mucho más que la "codificación 
 ##### Tras el descubrimiento
 
 
-OpenSSL publicó nuevas versiones de su software con parches que, si se hubieran utilizado en Bitcoin desde el principio, habrían resuelto el problema. Sin embargo, el uso de cualquier nueva versión de OpenSSL solo en una nueva versión de Bitcoin Core empeoraría las cosas. Gregory Maxwell lo explica en otro [hilo de correo electrónico](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) en enero de 2015:
+OpenSSL publicó nuevas versiones de su software con parches que, si se hubieran utilizado en Bitcoin desde el principio, habrían resuelto el problema. Sin embargo, el uso de cualquier nueva versión de OpenSSL solo en una nueva versión de Bitcoin Core empeoraría las cosas. Gregory Maxwell lo explica en otro [hilo de correo electrónico](https://gnusha.org/pi/bitcoindev/CAAS2fgR2a+3wb+He611pxy_Ypur0gq+o7SRjUHa4-R+xHLLnyA@mail.gmail.com/) en enero de 2015:
 
 
 > Mientras que para la mayoría de las aplicaciones suele ser aceptable rechazar de plano algunas firmas, Bitcoin es un sistema de consenso en el que todos los participantes deben estar generalmente de acuerdo sobre la validez o invalidez exacta de los datos de entrada. En cierto sentido, la coherencia es más importante que la "corrección".
@@ -1830,7 +1830,7 @@ Una de las principales conclusiones es que los BIP deben ser más o menos *atóm
 
 
 
-Por desgracia, la historia del BIP66 no terminó ahí. Cuando se activó el BIP66, resultó bastante lioso porque algunos mineros no verificaron los bloques que intentaban ampliar. Esto se denomina minería sin validación, o SPV-Mining (como en Simplified Payment Verification). Se envió un mensaje de alerta a los nodos Bitcoin con un enlace a [una página web que describe el problema](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
+Por desgracia, la historia del BIP66 no terminó ahí. Cuando se activó el BIP66, resultó bastante lioso porque algunos mineros no verificaron los bloques que intentaban ampliar. Esto se denomina minería sin validación, o SPV-Mining (como en Simplified Payment Verification). Se envió un mensaje de alerta a los nodos Bitcoin con un enlace a [una página web que describe el problema](https://bitcoin.org/en/alert/2015-07-04-spv-mining):
 
 
 > A primera hora de la mañana del 4 de julio de 2015, se alcanzó el umbral de 950/1000 (95%). Poco después, un pequeño minero (parte del 5% no actualizado) minó un bloque no válido, como era de esperar. Desafortunadamente, resultó que aproximadamente la mitad de la tasa de Hash de la red era minería sin validar completamente los bloques (llamado SPV Mining), y construyó nuevos bloques encima de ese bloque inválido.

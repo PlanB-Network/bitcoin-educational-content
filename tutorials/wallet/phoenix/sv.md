@@ -41,7 +41,7 @@ Gå till din applikationsbutik och installera Phoenix :
 
 
 
-- På [Google Play Store](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.Mainnet);
+- På [Google Play Store](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet);
 - På [App Store](https://apps.apple.com/fr/app/phoenix-Wallet/id1544097028?l=en-GB).
 
 

@@ -77,7 +77,7 @@ Ví dụ, file YAML của bạn có thể trông như thế này:
 project: Plan ₿ Academy
 type: Educational Content
 links:
-  download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+  download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
   view:
 ```
 
@@ -193,12 +193,12 @@ https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/reso
 - Thêm phần tiền tố (base URL) sau đây vào trước đoạn mã trên để có được đường dẫn chính xác:
 
 ```url
-https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev
+https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev
 ```
 
 - Đường dẫn cuối cùng của bạn sẽ trông như thế này:
 ```url
-https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 Thao tác này giúp chúng ta xác định trước đường dẫn cố định cho file tin của bạn, một khi đề xuất đóng góp được chấp nhận và gộp (merge) vào repository gốc của Plan ₿ Academy.
 - Quay lại file `bet.yml` của bạn và nhấn vào biểu tượng bút chì: ![event](assets/47.webp)

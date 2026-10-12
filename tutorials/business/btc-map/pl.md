@@ -28,7 +28,6 @@ Dostępne na:
 
 
 - iOS przez [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
-- Android przez [Sklep Play](https://play.google.com/store/apps/details?id=org.btcmap.app)
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) katalog aplikacji open-source na Androida
 - pobierając [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) bezpośrednio z githuba projektu
 - za pośrednictwem aplikacji internetowej w przeglądarce (nasz dzisiejszy widok)

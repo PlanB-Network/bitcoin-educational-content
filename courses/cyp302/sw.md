@@ -934,7 +934,7 @@ Kwa majadiliano zaidi juu ya nadharia ya kisasa ya nambari, unaweza kushauriana 
 
 [3] Tazama [Video ya YouTube](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
-[4] Socratica, [Abstract Algebra](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Abstract Algebra](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 [5] Katz na Lindell, *Utangulizi wa Siri za Kisasa*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar na Pelzl, *Kuelewa kriptografia*, 2010 (Springer-Verlag: Berlin).
 
@@ -1934,7 +1934,7 @@ Chaguo za kukokotoa za Hash $H$ inasemekana kuwa **inastahimili mgongano** ikiwa
 
 Vitendaji vya Hash vinavyostahimili mgongano ni muhimu, kwa mfano, katika uthibitishaji wa programu. Tuseme ungependa kupakua toleo la Windows la Bitcoin Core 0.21.0 (programu ya seva ya usindikaji wa trafiki ya mtandao wa Bitcoin). Hatua kuu unazopaswa kuchukua, ili kuthibitisha uhalali wa programu, ni kama ifuatavyo.
 
-1. Kwanza unahitaji kupakua na kuleta funguo za umma za mchangiaji mmoja au zaidi Bitcoin Core kwenye programu ambayo inaweza kuthibitisha sahihi za kidijitali (k.m. Kleopetra). Unaweza kupata funguo hizi za umma [hapa](https://github.com/Bitcoin/Bitcoin/blob/master/contrib/builder-keys/keys.txt). Inapendekezwa kwamba uthibitishe programu ya Bitcoin Core kwa kutumia vitufe vya umma kutoka kwa wachangiaji wengi.
+1. Kwanza unahitaji kupakua na kuleta funguo za umma za mchangiaji mmoja au zaidi Bitcoin Core kwenye programu ambayo inaweza kuthibitisha sahihi za kidijitali (k.m. Kleopetra). Unaweza kupata funguo hizi za umma [hapa](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys). Inapendekezwa kwamba uthibitishe programu ya Bitcoin Core kwa kutumia vitufe vya umma kutoka kwa wachangiaji wengi.
 
 2. Kisha, unahitaji kuthibitisha funguo za umma ulizoingiza. Angalau hatua moja unayopaswa kuchukua ni kuthibitisha kuwa funguo za umma ulizopata ni sawa na zilizochapishwa katika maeneo mengine mbalimbali. Unaweza, kwa mfano, kushauriana na kurasa za kibinafsi za wavuti, kurasa za Twitter, au kurasa za Github za watu ambao funguo zao za umma ulileta. Kwa kawaida ulinganisho huu wa funguo za umma hufanywa kwa kulinganisha Hash fupi ya ufunguo wa umma unaojulikana kama alama ya vidole.
 

@@ -52,7 +52,7 @@ Mu vyiyumviro vyanje, Ledger Nano S Plus ni uburyo bwiza bwo gukingira Bitcoin W
 ## Ni gute umuntu yogura indege ya Ledger Nano S Plus?
 
 
-Igikoresho ca Ledger Nano S Plus kiragurishwa [ku rubuga rwemewe](ibintu vya Ledger-nano-s-plus). Kugira ngo uyigure mu iduka ry’umubiri, urashobora kandi kubona [urutonde rw’abagurisha bemerewe](https://www.Ledger.com/reseller) ku rubuga rwa Ledger.
+Igikoresho ca Ledger Nano S Plus kiragurishwa [ku rubuga rwemewe](https://shop.ledger.com/products/ledger-nano-s-plus). Kugira ngo uyigure mu iduka ry’umubiri, urashobora kandi kubona [urutonde rw’abagurisha bemerewe](https://www.Ledger.com/reseller) ku rubuga rwa Ledger.
 
 
 ## Ibisabwa
@@ -70,7 +70,7 @@ Uhejeje gufungura, ukwiye kubona ibintu bikurikira mu gasandugu:
 - Ikarata yo kwandikako ijambo ryawe rya Mnemonic.
 
 
-Kuri iyi nyigisho, uzokenera porogaramu 2: Ledger Live kugira ngo utangure Ledger, na Sparrow wallet kugira ngo ukoreshe Bitcoin Wallet yawe. Gukuraho [Ledger Live](Https://Ledger-live) na [Sparrow wallet](Sparrowwallet.com/gukuraho/) ku mbuga zabo zizwi.
+Kuri iyi nyigisho, uzokenera porogaramu 2: Ledger Live kugira ngo utangure Ledger, na Sparrow wallet kugira ngo ukoreshe Bitcoin Wallet yawe. Gukuraho [Ledger Live](https://www.ledger.com/ledger-live) na [Sparrow wallet](https://sparrowwallet.com/download/) ku mbuga zabo zizwi.
 
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)

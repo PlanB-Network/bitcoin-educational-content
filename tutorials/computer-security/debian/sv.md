@@ -77,9 +77,9 @@ Valet av Debian-image beror på din processorarkitektur:
 
 
 
-- **AMD64**: ladda ner "live hybrid"-utgåvan från [download]-listan (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- **ARM64**: hämta DVD-avbildningen från den officiella [Debian]-webbplatsen (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- **Andra arkitekturer**: hitta den ISO som motsvarar din arkitektur [här](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: ladda ner "live hybrid"-utgåvan från [download]-listan (https://debian.obspm.fr/debian-cd/current-live/amd64/iso-hybrid/).
+- **ARM64**: hämta DVD-avbildningen från den officiella [Debian]-webbplatsen (https://debian.obspm.fr/debian-cd/current/arm64/iso-dvd/).
+- **Andra arkitekturer**: hitta den ISO som motsvarar din arkitektur [här](https://debian.obspm.fr/debian-cd/current/).
 
 
 

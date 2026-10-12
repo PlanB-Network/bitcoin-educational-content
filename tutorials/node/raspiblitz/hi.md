@@ -20,7 +20,7 @@ RASPIBLITZ - BTC सत्र द्वारा लाइटनिंग और
 ## परमान की रास्पिब्लिट्ज़ सेटअप गाइड
 
 
-Raspiblitz एक उत्कृष्ट प्रणाली है जो बिटकॉइन नोड और संबंधित ऐप्स चलाने के लिए है। मैं अधिकांश उपयोगकर्ताओं को इसे और MyNode नोड को सुझाता हूँ (आदर्श रूप से रेडंडेंसी के लिए दो नोड रखें)। एक बड़ा लाभ यह है कि Raspiblitz नोड “Free Open Source Software” है, जबकि MyNode या Umbrel नहीं हैं। [यह क्यों महत्वपूर्ण है? व्लाद कोस्टा बताते हैं।](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) आप Raspiblitz को WiFi कनेक्शन के साथ भी चला सकते हैं, ethernet के बजाय – इसके लिए यहाँ एक [पूरक गाइड](https://armantheparman.com/headless-wifi/) है। (मैंने MyNode के साथ ऐसा करने का कोई तरीका नहीं पाया)।
+Raspiblitz एक उत्कृष्ट प्रणाली है जो बिटकॉइन नोड और संबंधित ऐप्स चलाने के लिए है। मैं अधिकांश उपयोगकर्ताओं को इसे और MyNode नोड को सुझाता हूँ (आदर्श रूप से रेडंडेंसी के लिए दो नोड रखें)। एक बड़ा लाभ यह है कि Raspiblitz नोड “Free Open Source Software” है, जबकि MyNode या Umbrel नहीं हैं। [यह क्यों महत्वपूर्ण है? व्लाद कोस्टा बताते हैं।](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) आप Raspiblitz को WiFi कनेक्शन के साथ भी चला सकते हैं, ethernet के बजाय – इसके लिए यहाँ एक [पूरक गाइड](https://armantheparman.com/headless-wifi/) है। (मैंने MyNode के साथ ऐसा करने का कोई तरीका नहीं पाया)।
 
 
 आप एक तैयार नोड खरीद सकते हैं जिसके साथ एक मिनी स्क्रीन जुड़ी हुई है, या आप इसे स्वयं बना सकते हैं (आपको स्क्रीन की आवश्यकता नहीं है)।
@@ -96,7 +96,7 @@ Raspiblitz एक उत्कृष्ट प्रणाली है जो �
 विंडोज़ के लिए, यहाँ एक [सरल ट्यूटोरियल](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s) है।
 
 
-_अपडेट: pgp/gpg सत्यापन अब उपलब्ध है। आपको Openoms की सार्वजनिक कुंजी की आवश्यकता होगी। [यहाँ](http://parman.org/downloadable/openoms.txt) यह है (लिंक काम करने के लिए आपको गुप्त मोड की आवश्यकता हो सकती है – http, https नहीं)_
+_अपडेट: pgp/gpg सत्यापन अब उपलब्ध है। RaspiBlitz की मौजूदा इमेज पर rootzoll के हस्ताक्षर होते हैं, Openoms के नहीं (कुंजी का फिंगरप्रिंट: 92A746AE33A3C186D014BF5C1C73060C7C176461)। कुंजी और `gpg --verify` कमांड [आधिकारिक FAQ](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download) में दिए गए हैं।_
 मैक/लिनक्स
 
 

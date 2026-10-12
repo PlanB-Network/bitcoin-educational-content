@@ -89,7 +89,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Ushobora gukuraho iyo porogarama kuri [Peach Bitcoin] (ku rubuga rwa interineti). Kuri iOS, uzobanza gushiramwo porogarama [igerageza ry’indege] (id899247664).
+- Ushobora gukuraho iyo porogarama kuri [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/) (ku rubuga rwa interineti). Kuri iOS, uzobanza gushiramwo porogarama [igerageza ry’indege](https://apps.apple.com/us/app/testflight/id899247664) (id899247664).
 - Kurikiza amabwirizwa yo gushiramwo ku gikoresho cawe.
 - Mu gihe co gushiramwo, uzosabwa guhitamwo nimba woshima gusangira amakuru amwamwe kugira ngo utere imbere mu gukoresha Peach. (ishusho ya 1)
 - Ku gicapo gikurikira (ishusho ya 2), ufise uburyo bubiri:
@@ -634,5 +634,5 @@ Ku rundi ruhande, iyo iri ku ishusho ya 43, iva ku mudandaza azi utuntu n’utun
 
 
 - Videwo y'insobanuro y'igifaransa: [YouTube]( https://youtu.be/ziwhv9KqVkM)
-- Inyigisho yo gutangura vuba: [Peach Bitcoin] (gutangura vuba/)
+- Inyigisho yo gutangura vuba: [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/) (gutangura vuba/)
 - [Itelegaramu yo gushigikira](t.me/peachtopeach) (mwirinde abahendanyi, abarongozi ntibazokwigera babanza kubandikira ubutumwa bwihariye)

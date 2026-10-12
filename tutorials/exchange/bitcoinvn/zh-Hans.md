@@ -65,7 +65,7 @@ description: 快速指南分步骤介绍了如何使用 BitcoinVN.io，无需 KY
 请记住，**交易费率会波动**，因此在确认之前一定要查看最终价格。
 
 
-**无需开立账户，**每日交易额不超过 25 万越南盾（约合 8 美元）。更多信息请参阅我们的[银行转账政策](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer)。
+**无需开立账户，**每日交易额不超过 25 万越南盾（约合 8 美元）。更多信息请参阅我们的[银行转账政策](https://support.bitcoinvn.io/help/en-us/4-orders-payments/17-vnd-bank-transfer)。
 
 
 **注意**：与链上交易方式相比，选择 Lightning Network 的网络费用通常更低。

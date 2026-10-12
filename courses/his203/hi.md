@@ -1270,7 +1270,7 @@ Bitcoinica को 8 सितंबर, 2011 को 17 वर्षीय ची
 
 
 
-कुछ समय बाद इसी तरह की एक और परियोजना सामने आई, जिसका नाम था एमपीएक्स, जिसे मिर्सेया पोपेस्कु नामक एक बेहद विवादास्पद व्यक्ति ने शुरू किया था। रोमानियाई मूल के, मूल रूप से ट्रांसिल्वेनिया के रहने वाले, वे अपने ब्लॉग [ट्रिलेमा](http://trilema.com/archives-categories/) पर एक विपुल लेखक थे: वे सभी विषयों (दर्शन, राजनीति, कामुकता) पर जानबूझकर उत्तेजक शैली में लिखते थे, शुरुआत में रोमानियाई भाषा में। 2011 की गर्मियों में उनकी रुचि Bitcoin में जागी और उन्होंने अपने ब्लॉग पर इसके बारे में लिखना शुरू किया।
+कुछ समय बाद इसी तरह की एक और परियोजना सामने आई, जिसका नाम था एमपीएक्स, जिसे मिर्सेया पोपेस्कु नामक एक बेहद विवादास्पद व्यक्ति ने शुरू किया था। रोमानियाई मूल के, मूल रूप से ट्रांसिल्वेनिया के रहने वाले, वे अपने ब्लॉग [ट्रिलेमा](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/) पर एक विपुल लेखक थे: वे सभी विषयों (दर्शन, राजनीति, कामुकता) पर जानबूझकर उत्तेजक शैली में लिखते थे, शुरुआत में रोमानियाई भाषा में। 2011 की गर्मियों में उनकी रुचि Bitcoin में जागी और उन्होंने अपने ब्लॉग पर इसके बारे में लिखना शुरू किया।
 
 
 
@@ -1484,7 +1484,7 @@ Bitcoin की उपयोगिता को बेहतर बनाने �
 
 
 
-*Gregory Maxwell, 2006 में (स्रोत: [विकिमीडिया](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*Gregory Maxwell, 2006 में (स्रोत: [विकिमीडिया](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 
@@ -1724,7 +1724,7 @@ Cold स्टोरेज को USB स्टिक जैसे डिजि�
 
 
 
-*कैसासियस के पहले बिटकॉइन 2011 में (स्रोत: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*कैसासियस के पहले बिटकॉइन 2011 में (स्रोत: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -2004,7 +2004,7 @@ mining का एक मूल को-ऑप गेम एलिजियस ह
 
 
 
-*शेयरचेन विज़ुअलाइज़ेशन (स्रोत: Gregory Maxwell [Bitcoin विकी](https://en.bitcoin.it/wiki/File:P2pool_chain.webp) के लिए)*
+*शेयरचेन विज़ुअलाइज़ेशन (स्रोत: Gregory Maxwell [Bitcoin विकी](https://en.bitcoin.it/wiki/File:P2pool_chain.png) के लिए)*
 
 
 
@@ -2106,7 +2106,7 @@ Satoshi Nakamoto के जाने के बाद, सॉफ्टवेय�
 
 
 
-*फरवरी 2012 में Bitcoin-Qt 0.5.2 का कैप्चर (स्रोत: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) विकिमीडिया के लिए)*
+*फरवरी 2012 में Bitcoin-Qt 0.5.2 का कैप्चर (स्रोत: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) विकिमीडिया के लिए)*
 
 
 

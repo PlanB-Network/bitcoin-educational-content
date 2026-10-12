@@ -3,10 +3,9 @@ name: Boltz
 description: Passare da uno strato all'altro di Bitcoin mantenendo il controllo.
 ---
 
-
 ![cover](assets/cover.webp)
 
-
+> **Avviso (ottobre 2026):** Boltz ha sospeso tutti gli swap il 3 agosto 2026 dopo lo sfruttamento di diverse vulnerabilità, e il suo sito è offline. I link e i passaggi di questo tutorial non funzionano più. Conserviamo questa pagina come riferimento finché non verrà aggiornata.
 
 Dalla sua introduzione nel 2009, il sistema di contante elettronico peer-to-peer Bitcoin è cresciuto in modo esponenziale, dando vita a soluzioni che oggi lo rendono un sistema che possiamo utilizzare istantaneamente nelle nostre azioni quotidiane, in particolare attraverso il Lightning Network.
 
@@ -20,7 +19,7 @@ Tuttavia, rimaneva un problema importante tra i livelli del protocollo Bitcoin: 
 
 
 
-[Boltz](https://boltz.Exchange) è una piattaforma non custodiale, ideale per chiunque desideri effettuare transazioni tra i diversi livelli del protocollo Bitcoin:
+Boltz è una piattaforma non custodiale, ideale per chiunque desideri effettuare transazioni tra i diversi livelli del protocollo Bitcoin:
 
 
 

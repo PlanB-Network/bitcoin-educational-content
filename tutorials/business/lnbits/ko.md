@@ -43,7 +43,7 @@ LNbits를 나만의 은행 재무 관리 소프트웨어라고 생각하세요. 
 ## 데모 플랫폼
 
 
-데모는 [https://legend.lnbits.com](https://legend.lnbits.com)에서 확인할 수 있습니다. 데모는 모든 기능을 갖추고 있으며 Lightning Network와 LNbits 및 LNURL의 기능에 대해 전반적으로 학습하는 데 사용할 수 있습니다. 사용을 막을 수는 없지만 프로덕션 설정에 사용하지 말아 주시기를 부탁드립니다. 저희는 새로운 기능을 테스트하기 위해 서버에서 자주 작업하고 있을 뿐만 아니라, 여러분 자신의 노드와 LNbits를 주권적인 방식으로 실행하도록 권장하고 싶습니다. 노드 운영이 현재로서는 너무 무리라고 생각되신다면, 오픈노드, 루나, 보타지와 같은 클라우드의 커스터디 펀딩 서비스나 텔레그램의 라이트닝 팁봇에 LNbits를 연결할 수 있습니다.
+데모는 [https://demo.lnbits.com](https://demo.lnbits.com)에서 확인할 수 있습니다. 데모는 모든 기능을 갖추고 있으며 Lightning Network와 LNbits 및 LNURL의 기능에 대해 전반적으로 학습하는 데 사용할 수 있습니다. 사용을 막을 수는 없지만 프로덕션 설정에 사용하지 말아 주시기를 부탁드립니다. 저희는 새로운 기능을 테스트하기 위해 서버에서 자주 작업하고 있을 뿐만 아니라, 여러분 자신의 노드와 LNbits를 주권적인 방식으로 실행하도록 권장하고 싶습니다. 노드 운영이 현재로서는 너무 무리라고 생각되신다면, 오픈노드, 루나, 보타지와 같은 클라우드의 커스터디 펀딩 서비스나 텔레그램의 라이트닝 팁봇에 LNbits를 연결할 수 있습니다.
 
 
 ## LNbits 전단지
@@ -69,7 +69,7 @@ LNbits를 설치하기 전에 다음 일반 가이드를 읽고 LNbits가 무엇
 
 
 - [LND 가이드](https://docs.lightning.engineering/) | LND 설치하기
-- [LND 구성 예제](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | LND 설정
+- [LND 구성 예제](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | LND 설정
 - [CLN 가이드](https://docs.corelightning.org/docs/installation) | CLN 설치하기
 - [LUD](https://github.com/lnurl/luds) LNURL 사양 | [NIP](https://github.com/nostr-protocol/nips) Nostr 사양
 - [Watchtower 실행](https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | 매우 중요!
@@ -81,7 +81,7 @@ LNbits를 설치하기 전에 다음 일반 가이드를 읽고 LNbits가 무엇
 
 - [LNbits 시작하기](https://darthcoin.substack.com/p/getting-started-lnbits) | 서브스택 가이드
 - [LNbits로 안전을 위한 할 일](https://youtu.be/i5FQf96e6zg) | 유튜브 동영상
-- [Lightning Network의 프라이빗 뱅크](https://darthcoin.substack.com/p/Bitcoin-private-banks-over-lightning) | 서브스택 가이드
+- [Lightning Network의 프라이빗 뱅크](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | 서브스택 가이드
 - [친구 및 가족을 위한 관리인 지갑 실행](https://darthcoin.substack.com/p/the-bank-of-lnbits) | 서브스택 가이드
 - [소규모 레스토랑/호텔용 LNbits](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | 서브스택 가이드
 - [LNbits 스트리머 코파일럿 사용](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | 서브스택 가이드
@@ -116,7 +116,7 @@ Nginx를 사용하여 PostgreSQ, LightningTipBot을 펀딩 소스로 사용하�
 [더 많은 설치 시나리오는 여기](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server)를 참조하세요.
 
 
-번들 소프트웨어 노드의 경우, LNbits에 대한 특정 문서를 참조하세요: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+번들 소프트웨어 노드의 경우, LNbits에 대한 특정 문서를 참조하세요: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
 ### LNbits SaaS
@@ -202,17 +202,19 @@ LNbits는 다양한 라이트닝 네트워크 펀딩 소스에서 실행할 수 
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits 레전드 데모 서버 (!! 프로덕션/상업용으로 사용하지 마시고, 테스트용으로만 사용하세요 !!)
   - `lnbits_backend_wallet_class`: **엘엔비츠월렛**
-  - lnbits_endpoint`: https://legend.lnbits.com
+  - lnbits_endpoint`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### 라이트닝 팁봇
+
+> **경고 (2026년 10월):** LightningTipBot과 ln.tips는 서비스를 종료했습니다. 종료는 2024년 4월 29일에 발표되었습니다. 직접 봇을 호스팅하지 않는 한 이 자금 출처는 더 이상 작동하지 않습니다.
 
 
 텔레그램에서 [라이트닝 팁봇](https://t.me/LightningTipBot)을 연결하려면, 다음 파라미터를 설정해야 합니다:
 
 
   - `lnbits_backend_wallet_class`: **LnTipsWallet**
-  - lnbits_endpoint`: https://LN.tips
+  - lnbits_endpoint`: `https://LN.tips`
   - `LNBITS_KEY`: 키를 얻으려면, 텔레그램에서 라이트닝팁봇과 비공개 대화에서 /api를 한 번 실행해야 합니다.
 
 
@@ -229,11 +231,13 @@ LNbits는 다양한 라이트닝 네트워크 펀딩 소스에서 실행할 수 
 
 #### LNPay
 
-Invoice 리스너가 작동하려면 LNbits에 공개적으로 액세스할 수 있는 URL이 있어야 하며, "Wallet 수신" 이벤트와 함께 `<귀하의 LNbits 호스트>/Wallet/웹훅`을 가리키는 [LNPay 웹훅](https://dashboard.lnpay.co/webhook/)을 설정하고 비밀을 제공하지 않아야 합니다. 설정 `https://mylnbits/Wallet/webhook`은 결제에 대한 알림을 받는 엔드포인트 URL이 됩니다.
+> **경고 (2026년 10월):** LNPay는 서비스를 중단한 것으로 보입니다. lnpay.co 도메인이 더 이상 응답하지 않습니다. 이 자금 출처는 아마 더 이상 사용할 수 없습니다.
+
+Invoice 리스너가 작동하려면 LNbits에 공개적으로 액세스할 수 있는 URL이 있어야 하며, "Wallet 수신" 이벤트와 함께 `<귀하의 LNbits 호스트>/Wallet/웹훅`을 가리키는 LNPay 웹훅을 설정하고 비밀을 제공하지 않아야 합니다. 설정 `https://mylnbits/Wallet/webhook`은 결제에 대한 알림을 받는 엔드포인트 URL이 됩니다.
 
 
   - `lnbits_backend_wallet_class`: **LNPayWallet**
-  - lnpay_api_endpoint`: https://api.lnpay.co/v1/
+  - lnpay_api_endpoint`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -514,7 +518,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ##### 라이트닝-Address의 경우 LNURL, 그 반대도 마찬가지입니다
 
 
-이 [인코더](https://lnurl-codec.netlify.app/) 또는 [이 인코더](https://lightningdecoder.com/)를 사용해 보세요. LNURLp를 결제하거나 확인하려면 [LNurlpay](https://wwww.lnurlpay.com/)를 사용할 수도 있습니다. HTTP가 아닌 HTTPS라고 표시되어야 합니다.
+이 [인코더](https://lnurl-codec.netlify.app/) 또는 [이 인코더](https://lightningdecoder.com/)를 사용해 보세요. LNURLp를 결제하거나 확인하려면 [LNurlpay](https://www.lnurlpay.com/)를 사용할 수도 있습니다. HTTP가 아닌 HTTPS라고 표시되어야 합니다.
 
 
 
@@ -537,7 +541,9 @@ LNURL-p를 생성하면 기본적으로 댓글 상자가 채워지지 않습니�
 ###### 외부 스왑 서비스를 통해.
 
 
-LNb에 액세스할 수 없는 다른 사용자는 [Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) 또는 [ZigZag](https://zigzag.io/)와 같은 스왑 서비스를 사용할 수 있습니다. 이는 LNbits 인스턴스에서 LNURL/LN 인보이스만 제공하지만, 결제자는 온체인 Sats만 가지고 있어 먼저 해당 Sats을 스왑해야 하는 경우에 유용합니다. 절차는 간단합니다. 사용자가 온체인 비트코인을 스왑 서비스에 전송하고 LNbits의 LNURL/LN Invoice를 스왑 대상자로 제공합니다.
+LNb에 액세스할 수 없는 다른 사용자는 Boltz, [FixedFloat](https://fixedfloat.com/) 또는 [ZigZag](https://zigzag.io/)와 같은 스왑 서비스를 사용할 수 있습니다. 이는 LNbits 인스턴스에서 LNURL/LN 인보이스만 제공하지만, 결제자는 온체인 Sats만 가지고 있어 먼저 해당 Sats을 스왑해야 하는 경우에 유용합니다. 절차는 간단합니다. 사용자가 온체인 비트코인을 스왑 서비스에 전송하고 LNbits의 LNURL/LN Invoice를 스왑 대상자로 제공합니다.
+
+> **경고 (2026년 10월):** Boltz는 여러 취약점이 악용된 후 2026년 8월 3일에 모든 스왑을 중단했으며 웹사이트는 오프라인 상태입니다. 현재 Boltz와 LNbits Boltz 확장 프로그램은 사용할 수 없습니다.
 
 
 ###### 온체인과 볼츠 LNbits 확장 프로그램 사용.
@@ -595,7 +601,7 @@ On-Chain 확장에서 ypub를 사용할 때 "지원되지 않는 Hash 유형" �
 ### LNbits를 사용한 툴링 및 빌드
 
 
-LNbits는 수많은 사용 사례를 위해 다양한 기기를 프로그래밍하고 연결할 수 있는 모든 종류의 [오픈 API](https://legend.lnbits.com/docs)와 도구를 제공합니다.
+LNbits는 수많은 사용 사례를 위해 다양한 기기를 프로그래밍하고 연결할 수 있는 모든 종류의 [오픈 API](https://demo.lnbits.com/docs)와 도구를 제공합니다.
 
 
 메이커비트를 처음 접하는 분이라면 벤 아크의 [메이커비트 프레젠테이션](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos)을 통해 LNbits를 기반으로 가젯을 제작하는 방법을 알아보세요.

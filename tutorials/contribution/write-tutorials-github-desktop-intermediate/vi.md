@@ -173,7 +173,7 @@ Kiểm tra lại lần nữa, rồi nhấn "Create Tutorial". Thư mục và cá
 
 Bây giờ bạn có thể bỏ qua phần phụ "Without my Python script" cũng như bước 3, "Fill in the YAML file", vì script đã hoàn tất các hành động này cho bạn. Tiến hành trực tiếp đến bước 4 và bắt đầu viết hướng dẫn của bạn.
 
-Để biết thêm thông tin về script Python này, hãy xem file [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Để biết thêm thông tin về script Python này, hãy xem file [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md).
 
 ### Tạo thủ công (Không dùng script)
 

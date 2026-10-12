@@ -13,7 +13,7 @@ Prenosan i amnezijski operativni sistem koji vas štiti od nadzora i cenzure.
 ## Zašto imati USB ključ sa instaliranim Tails-om?
 
 
-Tails (https://tails.boum.org/) je najlakši način da uvek imate siguran računar na raspolaganju, koji neće ostaviti nikakav trag na računaru koji koristite.
+Tails (https://tails.net/) je najlakši način da uvek imate siguran računar na raspolaganju, koji neće ostaviti nikakav trag na računaru koji koristite.
 
 
 Da biste koristili Tails, isključite računar kojem imate pristup (kod roditelja, prijatelja, u Internet kafeu...) i pokrenite ga sa vašim Tails USB ključem umesto Windows-a, macOS-a ili Linux-a.
@@ -80,7 +80,7 @@ Preduslovi:
 ![image](assets/1.webp)
 
 
-🔗 **Official Tails section:** https://tails.boum.org/install/linux/index.fr.html#download
+🔗 **Official Tails section:** https://tails.net/install/linux/index.fr.html#download
 
 
 Preuzimanje instalacione datoteke sa ekstenzijom .img može potrajati u zavisnosti od brzine vašeg internet preuzimanja, pa planirajte unapred. Sa modernom i efikasnom vezom, trajaće manje od 5 minuta.
@@ -95,7 +95,7 @@ Sačuvajte datoteku u poznatom folderu, kao što je Preuzimanja, jer će to biti
 ![image](assets/2.webp)
 
 
-🔗 **Official Tails section:** https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 **Official Tails section:** https://tails.net/install/linux/index.fr.html#verify
 
 
 Provera preuzimanja osigurava da je fajl izdala Tails razvojna grupa i da nije oštećen ili presretnut tokom preuzimanja.
@@ -116,8 +116,8 @@ Da biste verifikovali datoteku, koristite dugme "Odaberite vaše preuzimanje..."
 
 
 
-- **Linux:** https://tails.boum.org/install/linux/index.fr.html#install
-- **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher i https://tails.boum.org/install/mac/index.fr.html#install
+- **Linux:** https://tails.net/install/linux/index.fr.html#install
+- **macOS:** https://tails.net/install/mac/index.fr.html#etcher i https://tails.net/install/mac/index.fr.html#install
 
 
 Ovaj korak instaliranja Tails-a na vaš USB ključ je najteži u celom vodiču, posebno ako to nikada ranije niste radili. Najvažnija stvar je da odaberete ispravan postupak u zvaničnom odeljku za vaš operativni sistem: Linux ili macOS.
@@ -135,7 +135,7 @@ Srećno! i vidimo se na koraku 4.
 ![image](assets/4.webp)
 
 
-🔗 **Official Tails section:** https://tails.boum.org/install/linux/index.en.html#restart
+🔗 **Official Tails section:** https://tails.net/install/linux/index.en.html#restart
 
 
 Vreme je da pokrenete jedan od vaših računara koristeći vaš novi USB stik. Ubacite ga u jedan od USB portova i restartujte!
@@ -177,7 +177,7 @@ Jednom kada je USB stik odabran, trebalo bi da vidite ovaj novi ekran za pokreta
 ![image](assets/6.webp)
 
 
-🔗 **Zvanična Tails sekcija:** https://tails.boum.org/install/linux/index.en.html#tails
+🔗 **Zvanična Tails sekcija:** https://tails.net/install/linux/index.en.html#tails
 
 
 Jedan ili dva minuta nakon boot loader-a i ekrana za učitavanje, pojavljuje se ekran dobrodošlice.

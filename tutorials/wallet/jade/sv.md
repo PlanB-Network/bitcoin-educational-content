@@ -57,7 +57,7 @@ När din Jade visas i Green, uppdatera Jade genom att klicka på Sök efter uppd
 När du har uppdaterat Jades firmware väljer du Setup Jade på det nätverk och den säkerhetspolicy som du vill använda.
 
 
-**Tips:** Säkerhetspolicyn finns under Typ på inloggningsskärmen som visas nedan. Om du är osäker på om du ska välja Singlesig eller Multisig Shield kan du läsa vår guide [här](https://help.blockstream.com/hc/en-us/articles/4403642609433)
+**Tips:** Säkerhetspolicyn finns under Typ på inloggningsskärmen som visas nedan. Om du är osäker på om du ska välja Singlesig eller Multisig Shield kan du läsa vår guide [här](https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 
 ![image](assets/3.webp)
@@ -287,7 +287,7 @@ Du har nu framgångsrikt konfigurerat din Wallet och du kan börja ta emot, lagr
 ![image](assets/22.webp)
 
 
-källa: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+källa: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 
 ### Green app

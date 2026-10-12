@@ -217,7 +217,7 @@ Hvis du vil se loggene til Bitcoin-noden din spesifikt relatert til samspillet m
 
 
 - [Wiki-side som forklarer Tor og forholdet til Bitcoin](https://en.Bitcoin.it/wiki/Tor)
-- [Bitcoin core konfigurasjonsfilgenerator av Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [Bitcoin core konfigurasjonsfilgenerator av Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/)
 - [Tor-konfigurasjonsveiledning av Jon Atack](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 

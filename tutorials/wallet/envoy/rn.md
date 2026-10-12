@@ -85,15 +85,15 @@ Genda kuri app store yawe kugira ngo ubone Envoy :
 
 
 
-- Ku [Iduka ry’Imikino ya Google](https://ikino.google.com/iduka/amaporogarama/ibisobanuro?id=com.ibikoresho vy’umushinge.intumwa);
-- Ku [Iduka ry’Iporogarama](Iduka ry’Iporogarama.
-- Ku [F-Cold](umushinge.xyz/fdroid/).
+- Ku [Iduka ry’Imikino ya Google](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
+- Ku [Iduka ry’Iporogarama](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818) ry’Iporogarama.
+- Ku [F-Cold](https://foundation.xyz/fdroid/).
 
 
 ![Image](assets/fr/50.webp)
 
 
-Ushobora kandi gukuraho dosiye ya APK [mu bubiko bwa GitHub bw’Ishirahamwe](https://github.com/Ibikoresho-Ishirahamwe/intumwa/ibisohoka).
+Ushobora kandi gukuraho dosiye ya APK [mu bubiko bwa GitHub bw’Ishirahamwe](https://github.com/Foundation-Devices/envoy/releases).
 
 
 ![Image](assets/fr/51.webp)
@@ -237,7 +237,7 @@ Passport yawe iriteguye kwakira iyo firmware nshasha biciye ku ikarita ya MicroS
 ### Ata busabe bw'intumwa
 
 
-Kugira ngo ubikore, nukoreshe ikarata MicroSD iri mu gasandugu kawe ka Passport (canke iyindi), hanyuma uyishire muri mudasobwa yawe. Gukuraho verisiyo nshasha ya porogaramu y’ubuhinga bwa none kuri [urubuga rw’inyandiko z’ishirahamwe](https://docs.foundation.xyz/porogaramu-zishasha/pasiporo/) canke [ububiko bwabo bwa GitHub](https://github.com/Ibikoresho-vy’ishirahamwe/pasiporo2/ibisohoka).
+Kugira ngo ubikore, nukoreshe ikarata MicroSD iri mu gasandugu kawe ka Passport (canke iyindi), hanyuma uyishire muri mudasobwa yawe. Gukuraho verisiyo nshasha ya porogaramu y’ubuhinga bwa none kuri [urubuga rw’inyandiko z’ishirahamwe](https://docs.foundation.xyz/firmware-updates/passport/) canke [ububiko bwabo bwa GitHub](https://github.com/Foundation-Devices/passport2/releases).
 
 
 ![Image](assets/fr/21.webp)

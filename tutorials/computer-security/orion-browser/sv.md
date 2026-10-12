@@ -643,8 +643,8 @@ Kom ihåg: att skydda din integritet beror inte bara på din webbläsare. Kombin
 
 
 - **Officiell webbplats**: [kagi.com/orion](https://kagi.com/orion/)
-- **Fullständig FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **Gemenskapsforum**: [community.kagi.com](https://community.kagi.com)
+- **Fullständig FAQ**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **Gemenskapsforum**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **Buggspårning**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Komponenter med öppen källkod
 - **Blogg Kagi**: [blog.kagi.com](https://blog.kagi.com) - Nyheter och uppdateringar

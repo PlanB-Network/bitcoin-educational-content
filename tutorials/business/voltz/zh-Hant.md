@@ -19,7 +19,7 @@ Voltz 是一個完整的平台，提供許多擴充功能，可將比特幣整�
 
 
 
-前往 [Voltz] 平台 (https://www.lnvoltz.xyz/en)，點選「Try now」按鈕建立帳號。
+前往 [Voltz] 平台 (https://lnbits.lnvoltz.com/)，點選「Try now」按鈕建立帳號。
 
 
 

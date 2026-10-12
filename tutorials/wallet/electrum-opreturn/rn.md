@@ -296,7 +296,7 @@ Fyonda iburyo kuri iyo transaction uhitemwo "View on Explorer" kugira ngo ubone 
 
 
 
-Canke, kopira aho uja Address (nk'akarorero, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`) maze uyibone ku gikoresho co gutohoza Blockchain nka [Mempool.ikibanza](https://Mempool.ikibanza/) [amakuru y'uruzitiro](https://amakuru y'uruzitiro/).
+Canke, kopira aho uja Address (nk'akarorero, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`) maze uyibone ku gikoresho co gutohoza Blockchain nka [Mempool.ikibanza](https://mempool.space/) [amakuru y'uruzitiro](https://blockstream.info/).
 
 
 
@@ -338,6 +338,6 @@ Rondera ahantu OP_RETURN mu makuru y’ibikorwa kugira ngo ubone ubutumwa bwawe.
 
 
 
-- Gukuraho umuyagankuba: [umuyagankuba.org](https://umuyagankuba.org/)
-- OP_RETURN umuyagankuba: [ibikoresho.davidcoen.it/uguhindura umuyagankuba/](https://ibikoresho.davidcoen.it/uguhindura umuyagankuba/)
-- Blockchain Abashakashatsi: [Mempool.ikirere](Mempool.ikirere/), [amakuru y'uruzitiro](amakuru y'uruzitiro/)
+- Gukuraho umuyagankuba: [umuyagankuba.org](https://electrum.org/)
+- OP_RETURN umuyagankuba: [ibikoresho.davidcoen.it/uguhindura umuyagankuba/](https://resources.davidcoen.it/opreturnelectrum/)
+- Blockchain Abashakashatsi: [Mempool.ikirere](https://Mempool.space/), [amakuru y'uruzitiro](https://blockstream.info/)

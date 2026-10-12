@@ -48,7 +48,7 @@ Tämä merkittävä kasvu liittyy luonnollisesti läheisesti seuraaviin tekijöi
 
 
 
-- [ihmisten kasvava kiinnostus eri puolilla maailmaa Bitcoin:n käyttöön](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), jotta he voisivat vapautua pankkijärjestelmästä ja/tai käyttää vähemmän epävakaata tai vähemmän devalvoitua valuuttaa, kuten Libanonin, Syyrian, Egyptin, Argentiinan ja muiden maiden väestöt tekevät;
+- [ihmisten kasvava kiinnostus eri puolilla maailmaa Bitcoin:n käyttöön](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), jotta he voisivat vapautua pankkijärjestelmästä ja/tai käyttää vähemmän epävakaata tai vähemmän devalvoitua valuuttaa, kuten Libanonin, Syyrian, Egyptin, Argentiinan ja muiden maiden väestöt tekevät;
 - sen hinnannousu ajan mittaan, mikä tekee siitä arvon säilyttäjän ja pitkäaikaisen sijoituskohteen, joka perustuu sen kiinteään rahapolitiikkaan;
 - spekulatiivisten kryptovaluuttamarkkinoiden peräkkäinen kasvu erityisesti vuosina 2017-2018 ja 2020-2021;
 - Bitcoin:n kasvava läsnäolo valtamediassa.
@@ -701,7 +701,7 @@ Jos haluat suunnitella futuristisen logon "Bitcoin London" -tapaamista varten, v
 
 
 
-- [ ] *Prompt: Luo Bitcoin-logo, jonka taustalla on London Bridge ja Big Ben. Futuristinen* - [Linkki](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *Prompt: Luo Bitcoin-logo, jonka taustalla on London Bridge ja Big Ben. Futuristinen*
 
 
 
@@ -714,7 +714,7 @@ Jos neljä ensimmäistä tulosta eivät ole riittävän realistisia, tarkenna py
 
 
 
-- [ ] *Prompt: Tee neljännestä paljon realistisempi* - [Linkki](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *Prompt: Tee neljännestä paljon realistisempi*
 
 
 
@@ -732,7 +732,7 @@ Siistimpi ulkoasu, kuten tarra:
 
 
 
-- [ ] *Prompt: Luo "London Bitcoin Meetupin" logo brittiläisellä ja puhtaalla tyylillä* - [Linkki](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Prompt: Luo "London Bitcoin Meetupin" logo brittiläisellä ja puhtaalla tyylillä*
 
 
 
@@ -1392,7 +1392,7 @@ Näihin kuuluvat:
 
 
 - [Btcmap.org](https://btcmap.org/), sivusto, jossa on kaksi päivittäin päivitettävää karttaa: **[Bitcoin:n hyväksyvien yritysten maailmankartta](https://btcmap.org/map)** ja **[maailman yhteisöjen kartta](https://btcmap.org/communities/map)**. Monet bitcoin-käyttäjät tarkistavat näitä karttoja säännöllisesti, olivatpa he sitten matkoilla tai menossa jokapäiväiseen elämäänsä, tutustuakseen uusiin ihmisiin tai löytääkseen paikkoja, joissa he voivat käyttää [Sats](https://planb.academy/resources/glossary/satoshi-sat):nsa. Btcmap on maailmanlaajuinen referenssi, ja yhteisönne listaaminen sinne on tärkeää näkyvyyden kannalta.
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), bitcoinereiden bitcoinereille luoma verkkosivusto. **Sen avulla voit julkaista yhteisösi tulevia tapahtumia**. Ranskassa sitä ei kuitenkaan vielä käytetä laajalti.
+- BitcoinerEvents, bitcoinereiden bitcoinereille luoma verkkosivusto. **Sen avulla voit julkaista yhteisösi tulevia tapahtumia**. Ranskassa sitä ei kuitenkaan vielä käytetä laajalti. **Huomautus (lokakuu 2026):** tämä sivusto ei ole enää käytössä. [BitcoinOnly Events](https://bitcoinonly.events/) on vastaava kalenteri, joka toimii edelleen.
 - maastasi riippuen voi olla muitakin paikallisia aloitteita. Ranskassa on esimerkiksi [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), jossa **luetteloidaan kymmeniä Bitcoin-tapahtumia joka kuukausi**. Jos et siis ole vielä seurannut heitä Twitterissä tai ottanut heihin yhteyttä jakaaksesi tietoa yhteisöstäsi ja tapahtumista, nyt on sen aika! **Jotta Ranskan tapahtumakalenteri pysyisi ajan tasalla, olisi hienoa, jos kaikki ranskalaiset Bitcoin-yhteisöt ottaisivat tavakseen:**
     - mainitsemalla @bitcoinpointfr Twitterissä jokaisesta uudesta yhteisötapahtumasta
     - uusien tapahtumailmoitusten kiinnittäminen Telegram-ryhmäänsä.
@@ -1412,7 +1412,7 @@ Vastaavasti **[Orangepillapp](https://www.orangepillapp.com/)** on maksullinen m
 
 Vaikka nämä kaksi viimeksi mainittua alustaa voivat auttaa lisäämään näkyvyyttä, niitä ei suositella yhteisöä perustettaessa yksinkertaisesti siksi, että ne eivät ole ilmaisia.
 
-**Aloitetaan listaamalla [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) ja ranskalaisille yhteisöille [Bitcoin.fr](https://Bitcoin.fr) on enemmän kuin tarpeeksi**.
+**Aloitetaan listaamalla [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/) ja ranskalaisille yhteisöille [Bitcoin.fr](https://Bitcoin.fr) on enemmän kuin tarpeeksi**.
 
 
 Onnittelut! **Yhteisösi on luotu**, **visuaalisi ovat valmiina**, **tavoitteesi on asetettu**, **viestintäkanavasi ovat valmiina**, **sosiaaliset verkostosi on käynnistetty** ja **näkyvyysstrategia on päätetty**.
@@ -1500,7 +1500,7 @@ Jos haluat valmistautua hiljaisempiin hetkiin, voit suunnitella muutamia aktivit
 - tuo **Nerdminer**, Bitaxe, FPGA tai jopa ASIC;
 - jolla on **Bitcoin-esite**;
 - gW-112-visuaalin tai logon ideointi yhteisöllesi;
-- pelaamalla **[Bitcoin-korttipeliä](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- pelaamalla **[Bitcoin-korttipeliä](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - näyttää **[btcmap.org](https://btcmap.org/)** kartan yhteisöistä ja kauppiaista;
 - gW-116:n lähettäminen tai vastaanottaminen **Valo**:n avulla.
 
@@ -1871,7 +1871,7 @@ Riippuen siitä, miten hyvin olet käytettävissä ja miten paljon osallistut yh
 
 - Ravintola-ilta **Pizzapäivää** varten 22. toukokuuta
 - Ilta tai viikonloppu seuraavan **Halving** juhlistamiseksi
-- Perheen **peli-ilta** Bitcoin:stä ja sen toiminnasta käyttäen pelejä kuten [Le Coin de Table](https://www.Maximalist.ovh/) tai [SHAmory](https://shamory.com/)
+- Perheen **peli-ilta** Bitcoin:stä ja sen toiminnasta käyttäen pelejä kuten [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) tai [SHAmory](https://shamory.com/)
 - **Mining-työpaja**, jossa esitellään erityyppisiä laitteistoja (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - **Aloittelijoille tarkoitettu iltapäivä tai iltapäivä**, jossa on teemakohtaisia työpajoja
 - **Yhteinen tapaaminen naapurikuntien kanssa**
@@ -2006,7 +2006,7 @@ Voisit myös suunnitella yhteisöllesi tai tapaamisellesi tarkoitetun esitteen, 
 Useita esitteitä on jo **saatavilla avoimena lähdekoodina [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** -verkkopalvelussa planB.networkissa, ja lisää lisätään ajan mittaan.
 
 
-Yksi esimerkki on [täydellinen esite](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), jossa on 21 syytä käyttää Bitcoin:ta. Sen ulkoasu on myös [saatavana avoimena lähdekoodina](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), jota voit muokata, mukauttaa ja jakaa. Muistakaa vain mainita lähteenne.
+Yksi esimerkki on [täydellinen esite](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), jossa on 21 syytä käyttää Bitcoin:ta. Sen ulkoasu on myös [saatavana avoimena lähdekoodina](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), jota voit muokata, mukauttaa ja jakaa. Muistakaa vain mainita lähteenne.
 
 
 
@@ -2050,7 +2050,7 @@ Vaikka Bitcoin:n valkoisen kirjan jättäminen on symbolinen, se on usein liian 
 - gW-166:n valkoinen paperi, käännetty ranskaksi.
 
 
-Tässä on [ranskalaisten bitcoin-asiakkaiden jakama vihkonen](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle), joka on sijoitettu kymmeniin kirjalaatikoihin ympäri maata. Sen ulkoasu on myös [saatavilla avoimena lähdekoodina](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Tässä on [ranskalaisten bitcoin-asiakkaiden jakama vihkonen](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle), joka on sijoitettu kymmeniin kirjalaatikoihin ympäri maata. Sen ulkoasu on myös [saatavilla avoimena lähdekoodina](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

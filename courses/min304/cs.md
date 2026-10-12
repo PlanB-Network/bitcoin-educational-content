@@ -394,7 +394,7 @@ Po přezkoumání všech těchto bodů můžete svůj stroj koupit s vysokou mí
 
 Shrnutí tohoto průvodce jednou větou: **"Nevěř, ověř."**
 
-[Obrátit se můžete také na profesionály v oblasti rekonfigurace těžebních strojů, jako je náš partner 21energy. Nabízejí testované stroje S9, vyčištěné a s již nainstalovaným softwarem BraiiinOS+. S partnerským kódem "decouvre" obdržíte 10% slevu na nákup S9 a zároveň podpoříte projekt Attakai.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[Obrátit se můžete také na profesionály v oblasti rekonfigurace těžebních strojů, jako je náš partner 21energy. Nabízejí testované stroje S9, vyčištěné a s již nainstalovaným softwarem BraiiinOS+. S partnerským kódem "decouvre" obdržíte 10% slevu na nákup S9 a zároveň podpoříte projekt Attakai.](https://21energy.com/products/bitmain-antminer-s9)
 
 ## Průvodce nákupem hardwarových úprav pro S9
 

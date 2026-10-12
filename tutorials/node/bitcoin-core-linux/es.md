@@ -217,7 +217,7 @@ Para ver los registros de su nodo Bitcoin específicamente relacionados con su i
 
 
 - [Página Wiki que explica Tor y su relación con Bitcoin](https://en.Bitcoin.it/wiki/Tor)
-- [Generador de archivos de configuración Bitcoin core por Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [Generador de archivos de configuración Bitcoin core por Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/)
 - [Guía de configuración de Tor por Jon Atack](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 

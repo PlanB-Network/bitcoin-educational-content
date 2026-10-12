@@ -938,7 +938,7 @@ Täiendavaks aruteluks kaasaegse arvuteooria kohta võite tutvuda paljude edasij
 
 [3] Vt [YouTube video](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
-[4] Socratica, [Abstraktne algebra](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Abstraktne algebra](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 [5] Katz ja Lindell, *Introduction to Modern Cryptography*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar ja Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlin).
 
@@ -1901,7 +1901,7 @@ Hash-funktsiooni $H$ nimetatakse **kokkupõrkekindlaks**, kui on võimatu leida 
 
 Kokkupõrkekindlad hash-funktsioonid on olulised näiteks tarkvara kontrollimisel. Oletame, et soovite alla laadida Bitcoin Core 0.21.0 (serverirakendus Bitcoini võrguliikluse töötlemiseks) Windowsi versiooni. Peamised sammud, mida peaksite tarkvara õiguspärasuse kontrollimiseks tegema, on järgmised:
 
-1.	Esmalt tuleb alla laadida ja importida ühe või mitme toetaja avalikud võtmed Bitcoin Core'i tarkvarasse, mis suudab kontrollida digitaalallkirju (nt Kleopetra). Need avalikud võtmed leiate [siit](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Soovitatav on kontrollida Bitcoin Core'i tarkvara mitme toetaja avalike võtmetega.
+1.	Esmalt tuleb alla laadida ja importida ühe või mitme toetaja avalikud võtmed Bitcoin Core'i tarkvarasse, mis suudab kontrollida digitaalallkirju (nt Kleopetra). Need avalikud võtmed leiate [siit](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys). Soovitatav on kontrollida Bitcoin Core'i tarkvara mitme toetaja avalike võtmetega.
 
 2.	Järgmisena peate kontrollima imporditud avalikke võtmeid. Vähemalt üks samm, mida peaksite tegema, on kontrollida, et leitud avalikud võtmed on samad, mis on avaldatud erinevates teistes kohtades. Võite näiteks tutvuda nende inimeste isiklike veebilehtede, Twitteri lehekülgede või Githubi lehekülgedega, kelle avalikud võtmed te impordisite. Tavaliselt tehakse see avalike võtmete võrdlemine avaliku võtme lühikese hash'i, mida nimetatakse sõrmejäljeks, võrdlemise teel.
 

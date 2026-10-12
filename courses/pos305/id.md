@@ -267,7 +267,7 @@ Blockchain, Transaksi, Pengeluaran Ganda, Masalah Jenderal Bizantium, Mining, Pr
 Tujuan dari blok kursus ini adalah untuk mendapatkan pemahaman umum tentang perangkat lunak BTCPay Server. Dalam lingkungan bersama, disarankan untuk mengikuti demonstrasi instruktur dan mengacu pada Buku Kursus BTCPay Server untuk mengikuti bersama guru. Anda akan belajar cara membuat Wallet melalui beberapa metode. Contohnya termasuk pengaturan Hot Wallet dan dompet perangkat keras yang terhubung melalui BTCPay Server Vault. Tujuan-tujuan ini terjadi di lingkungan Demo, ditampilkan dan diberikan akses oleh instruktur kursus Anda.
 
 
-Jika Anda mengikuti kursus ini sendiri, Anda dapat menemukan daftar host pihak ketiga untuk tujuan Demo di https://directory.btcpayserver.org/filter/hosts. Kami sangat menyarankan agar Anda tidak menggunakan opsi pihak ketiga ini sebagai lingkungan produksi; namun, opsi ini memiliki tujuan yang tepat untuk memperkenalkan penggunaan Bitcoin dan BTCPay Server.
+Jika Anda mengikuti kursus ini sendiri, Anda dapat menemukan daftar host pihak ketiga untuk tujuan Demo di https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Kami sangat menyarankan agar Anda tidak menggunakan opsi pihak ketiga ini sebagai lingkungan produksi; namun, opsi ini memiliki tujuan yang tepat untuk memperkenalkan penggunaan Bitcoin dan BTCPay Server.
 
 
 Sebagai peserta pelatihan BTCPay Server, Anda mungkin memiliki pengalaman sebelumnya dalam menyiapkan node Bitcoin. Kursus ini secara khusus disesuaikan dengan tumpukan Perangkat Lunak Server BTCPay.
@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin Log Node
 
 
-Selain [melihat log](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) dari kontainer bitcoind Anda, Anda juga dapat menggunakan salah satu dari [perintah bitcoin-cli](https://developer.Bitcoin.org/reference/RPC/index.html)
+Selain [melihat log](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) dari kontainer bitcoind Anda, Anda juga dapat menggunakan salah satu dari [perintah bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(membuka jendela baru)](https://developer.Bitcoin.org/reference/RPC/index.html) untuk mendapatkan informasi dari node Bitcoin Anda. BTCPay menyertakan skrip untuk memungkinkan Anda berkomunikasi dengan node Bitcoin dengan mudah.
+[(membuka jendela baru)](https://developer.bitcoin.org/reference/rpc/index.html) untuk mendapatkan informasi dari node Bitcoin Anda. BTCPay menyertakan skrip untuk memungkinkan Anda berkomunikasi dengan node Bitcoin dengan mudah.
 
 
 Di dalam folder btcpayserver-docker, dapatkan informasi Blockchain menggunakan node Anda:

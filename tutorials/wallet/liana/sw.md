@@ -38,7 +38,7 @@ Mchoro hapa chini unaonyesha utendakazi wa Wallet na njia mbili za matumizi:
 Hatua hii hukuruhusu kusanidi usanidi anuwai, pamoja na:
 
 
-- Mpango wa urithi (au kurithi), unaowawezesha warithi kurejesha fedha katika tukio la kifo cha mtumiaji. Kwa maelezo zaidi kuhusu somo hili, tunapendekeza usome [sehemu ya 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a20901) kozi ya BTC318.
+- Mpango wa urithi (au kurithi), unaowawezesha warithi kurejesha fedha katika tukio la kifo cha mtumiaji. Kwa maelezo zaidi kuhusu somo hili, tunapendekeza usome [sehemu ya 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) kozi ya BTC318.
 - Hifadhi rudufu iliyoimarishwa na muda wa kurejesha, ikimpa mtumiaji uwezekano wa kutumia Wallet yake bila kulazimika kuweka maneno ya siri yanayolingana na kuhatarisha kuibiwa, wakati wa wizi kwa mfano.
 - Wavu ya usalama kwa watu wanaoanza na Bitcoin: watasimamia Wallet yao wenyewe, na "mlezi" wao (jamaa, kwa mfano) atahifadhi haki ya kurejesha pesa zao baada ya kipindi fulani.
 - Mpango wa sahihi wa vyama vingi (*Multisig*) na mahitaji yaliyopunguzwa kwa wakati, ili kukabiliana na kutoweka kwa mshiriki mmoja au zaidi, kama vile washirika wa kampuni.
@@ -79,7 +79,7 @@ https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 ## Ufungaji na usanidi
 
 
-Tembelea tovuti rasmi ya Wizardsardine na upakue Liana katika https://wizardsardine.com/Liana/. Unaweza pia kupakua toleo jipya zaidi [kutoka hazina ya GitHub](https://github.com/wizardsardine/Liana/releases), ambapo unaweza kuangalia uhalisi wa programu. Toleo lililotumika katika somo hili ni 0.9.
+Tembelea tovuti rasmi ya Wizardsardine na upakue Liana katika https://wizardsardine.com/liana/. Unaweza pia kupakua toleo jipya zaidi [kutoka hazina ya GitHub](https://github.com/wizardsardine/Liana/releases), ambapo unaweza kuangalia uhalisi wa programu. Toleo lililotumika katika somo hili ni 0.9.
 
 
 ![Télécharger Liana](assets/fr/02.webp)
@@ -357,7 +357,7 @@ Baada ya kuthibitishwa, sarafu yako iko salama! Unaweza kupumzika kwa urahisi ha
 Wakati wa kurejesha fedha kutoka kwenye Liana Wallet, unaweza kujikuta katika mojawapo ya hali mbili. Kwanza, unaweza kuwa na upatikanaji wa kompyuta ambayo programu ya Liana tayari imewekwa — katika hali hii, unachotakiwa kufanya ni kuifungua tu (hii ndiyo hali ya chelezo iliyoimarishwa). Lakini ikiwa huna ufikiaji wa kompyuta hiyo, basi utahitaji kuanza mchakato mzima upya. Kumbuka kwamba utaratibu wa urejeshaji ni sawa katika hali zote mbili.
 
 
-Ili kuanza, pakua Liana kutoka [tovuti rasmi ya Wizardsardine](https://wizardsardine.com/Liana/), au kutoka [hazina ya GitHub](https://github.com/wizardsardine/Liana/releases), ambapo unaweza kuangalia uhalisi wa programu. Sakinisha programu na uikimbie. Toleo lililotumiwa kwa upande wetu ni 0.9, hivyo taswira zinaweza kubadilika. Kwenye skrini ya kukaribisha, chagua chaguo la "Ongeza Liana Wallet" iliyopo.
+Ili kuanza, pakua Liana kutoka [tovuti rasmi ya Wizardsardine](https://wizardsardine.com/liana/), au kutoka [hazina ya GitHub](https://github.com/wizardsardine/Liana/releases), ambapo unaweza kuangalia uhalisi wa programu. Sakinisha programu na uikimbie. Toleo lililotumiwa kwa upande wetu ni 0.9, hivyo taswira zinaweza kubadilika. Kwenye skrini ya kukaribisha, chagua chaguo la "Ongeza Liana Wallet" iliyopo.
 
 
 ![Ajouter portefeuille existant](assets/fr/34.webp)

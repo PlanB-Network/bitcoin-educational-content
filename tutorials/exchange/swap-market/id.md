@@ -566,6 +566,8 @@ Satoshi Lightning Anda segera tersedia di wallet Anda.
 
 ## SwapMarket vs Boltz: Apa perbedaannya?
 
+> **Catatan (Oktober 2026):** Boltz Exchange menangguhkan semua swap pada 3 Agustus 2026 dan situs webnya tidak dapat diakses. Penyedia ini mungkin tidak lagi tersedia di SwapMarket.
+
 
 
 ### Boltz: Teknologi vs Layanan
@@ -639,7 +641,7 @@ Persaingan antar penyedia layanan meningkatkan harga dan melipatgandakan sumber 
 
 - [SwapMarket - Aplikasi web](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Dokumentasi teknis](https://docs.boltz.exchange/)
+- [Dokumentasi teknis](https://github.com/BoltzExchange/boltz-backend)
 - [Panduan hosting mandiri](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 
@@ -649,5 +651,5 @@ Persaingan antar penyedia layanan meningkatkan harga dan melipatgandakan sumber 
 
 
 
-- [Boltz Exchange](https://boltz.exchange) - Layanan pertukaran atom asli
+- Boltz Exchange - Layanan pertukaran atom asli
 - [ZEUS Swaps](https://zeusln.com) - Penyedia pertukaran kilat

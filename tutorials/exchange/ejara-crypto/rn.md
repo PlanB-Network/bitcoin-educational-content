@@ -32,8 +32,8 @@ Genda mu bubiko bwawe bw'amaporogarama maze ushireko **Ejara Crypto** :
 
 
 
-- [Kuri Android](Id=com.ejara.ejarav2);
-- [Ku bwa Pome](iporogarama.iporogarama/iporogarama/id1541127587).
+- [Kuri Android](https://play.google.com/store/apps/details?id=com.ejara.ejarav2);
+- [Ku bwa Pome](https://apps.apple.com/fr/app/ejara-crypto/id1541127587).
 
 
 
@@ -537,7 +537,7 @@ Umaze kugura ama bitcoins yawe ya mbere ya on-chain canke ama satoshis menshi ca
 
 
 
-Niba utaramenya gukoresha igitabu ca Bitcoin, ndagutumiye ngo usuzume [igice ca "Wallet" ku mugambi ₿ Ishure](https://planb.academy/inyigisho/wallet).
+Niba utaramenya gukoresha igitabu ca Bitcoin, ndagutumiye ngo usuzume [igice ca "Wallet" ku mugambi ₿ Ishure](https://planb.academy/tutorials/wallet).
 
 
 
@@ -644,7 +644,7 @@ Kubera ko intumbero ari uguhindura amafaranga uzigamye mu buryo bwa digitale no 
 
 
 
-Ushobora kohereza ikibazo mu buryo butaziguye muri app canke ukabaza [abafasha abakiriya] babo b’abanyamwete cane (https://t.me/EjaraCSbot) biciye kuri Telegram.
+Ushobora kohereza ikibazo mu buryo butaziguye muri app canke ukabaza [abafasha abakiriya](https://t.me/EjaraCSbot) babo b’abanyamwete cane (https://t.me/EjaraCSbot) biciye kuri Telegram.
 
 
 

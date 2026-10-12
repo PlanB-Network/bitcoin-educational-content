@@ -38,9 +38,9 @@ description: आप मेरे द्वारा सामग्री यो
 रिपॉजिटरी को अपनी स्थानीय मशीन पर क्लोन करें:
 
 
-गिट क्लोन [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 
-[सीडी](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼सीडी) Bitcoin-learning-management-system
+cd bitcoin-learning-management-system
 
 
 ```bash

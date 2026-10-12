@@ -230,7 +230,7 @@ PHI101コースへようこそ！
 この分析は、剰余価値と経済生活の協力的かつダイナミックな性質の誤解を反映しています。実際、起業家が受け取る利益は、彼らが負うリスクに対する報酬であり、労働者や従業員は奴隷ではありません。競争状況では、彼らは雇用主との契約を受け入れるか拒否することができます。彼らはコストと利益の分析を反映した選択をします。
 
 ### 産業革命に関する疑問
-実際、マルクス主義の分析は産業革命の歴史的現実を歪めています。ルートヴィヒ・フォン・ミーゼスは、彼の経済学論文[_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm)（特に[Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)という章を参照）および[_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm)というタイトルの一連の講義でこの問題を明らかにしました。（また、反資本主義的なメンタリティについては[こちら](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf)と[こちら](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)も読む価値があります）。
+実際、マルクス主義の分析は産業革命の歴史的現実を歪めています。ルートヴィヒ・フォン・ミーゼスは、彼の経済学論文[_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm)（特に[Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)という章を参照）および[_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm)というタイトルの一連の講義でこの問題を明らかにしました。（また、反資本主義的なメンタリティについては[こちら](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf)と[こちら](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)も読む価値があります）。
 ![image](assets/ja/014.webp)
 
 ミーゼスは、工場での仕事が当時の基準では惨めなものであったとしても、当時の労働者にとって最良の機会を代表していたことを説明しています。

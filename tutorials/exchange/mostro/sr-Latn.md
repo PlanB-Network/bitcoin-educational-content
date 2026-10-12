@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - Privatni ključ Nostr** (format `nsec1...`)
- - Kreirajte posvećeni ključ za trgovanje na [nostrkeygen.com](https://nostrkeygen.com/)
+ - Kreirajte posvećeni ključ za trgovanje na [nostrkeygen.com](https://nostrtool.com/)
  - Važno**: Nikada ne koristite svoj glavni lični Nostr ključ
  - Čuvajte svoj privatni ključ na sigurnom mestu (menadžer lozinki)
 
@@ -962,7 +962,7 @@ Za bitkoinere koji preferiraju autonomiju i poverljivost, Mostro je održiva opc
 
 
 - [Main GitHub repository](https://github.com/MostroP2P/mostro)
-- [Web klijent](https://github.com/MostroP2P/mostro-web)
+- [Web klijent](https://github.com/MostroP2P/app)
 - [Kupac CLI](https://github.com/MostroP2P/mostro-cli)
 
 

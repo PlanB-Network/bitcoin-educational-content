@@ -122,7 +122,7 @@ Umbrelin ulkopuolisille käyttäjille (esim. henkilökohtaisella palvelimella, R
 
 
 
-**Edellytykset:** Varmista, että järjestelmäsi täyttää [documentation setup](https://docs.thunderhub.io/setup) mukaiset vähimmäisvaatimukset:
+**Edellytykset:** Varmista, että järjestelmäsi täyttää [documentation setup](https://docs.thunderhub.io/configure) mukaiset vähimmäisvaatimukset:
 
 
 
@@ -136,7 +136,7 @@ Umbrelin ulkopuolisille käyttäjille (esim. henkilökohtaisella palvelimella, R
 
 
 
-**1. Hae ThunderHub-koodi:** Kloonaa projektin GitHub-tietovarasto [asennusdokumentaatiossa](https://docs.thunderhub.io/installation) kuvatulla tavalla:
+**1. Hae ThunderHub-koodi:** Kloonaa projektin GitHub-tietovarasto [asennusdokumentaatiossa](https://docs.thunderhub.io/get-started) kuvatulla tavalla:
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Pääasetustiedosto:** Luo ThunderHub-kansion juureen tiedosto `.env.local`, jolla voit muokata asetuksia (tämä estää asetuksiasi ylittymästä päivitysten aikana). Päämuuttujat [setup documentation](https://docs.thunderhub.io/setup) mukaan:
+**1. Pääasetustiedosto:** Luo ThunderHub-kansion juureen tiedosto `.env.local`, jolla voit muokata asetuksia (tämä estää asetuksiasi ylittymästä päivitysten aikana). Päämuuttujat [setup documentation](https://docs.thunderhub.io/configure) mukaan:
 
 
 
@@ -304,8 +304,8 @@ ThunderHubin kirjautumissivu tulee näkyviin. Valitse määritetty tili ja anna 
 
 
 
-- **Asennus:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- **Konfigurointi:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Asennus:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- **Konfigurointi:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

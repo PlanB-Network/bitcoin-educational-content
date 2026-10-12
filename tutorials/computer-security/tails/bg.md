@@ -13,7 +13,7 @@ description: Инсталиране на Tails на USB ключ
 ## Защо имате USB ключ с инсталиран Tails?
 
 
-Tails (https://tails.boum.org/) е най-лесният начин да разполагате със защитен компютър по всяко време, който не оставя никакви следи върху компютъра, с който го използвате.
+Tails (https://tails.net/) е най-лесният начин да разполагате със защитен компютър по всяко време, който не оставя никакви следи върху компютъра, с който го използвате.
 
 
 За да използвате Tails, изключете компютъра, до който имате достъп (при родителите си, при приятелите си, в интернет кафене...), и го стартирайте с USB ключа Tails вместо с Windows, macOS или Linux.
@@ -80,7 +80,7 @@ Tails никога не записва на твърдия диск и изпо�
 ![image](assets/1.webp)
 
 
-🔗 **Официален раздел Tails:** https://tails.boum.org/install/linux/index.fr.html#download
+🔗 **Официален раздел Tails:** https://tails.net/install/linux/index.fr.html#download
 
 
 Изтеглянето на инсталационния файл с разширение .img може да отнеме известно време в зависимост от скоростта на изтегляне в интернет, затова планирайте предварително. При модерна и ефективна връзка това ще отнеме по-малко от 5 минути.
@@ -95,7 +95,7 @@ Tails никога не записва на твърдия диск и изпо�
 ![image](assets/2.webp)
 
 
-🔗 **Официален раздел на Tails:** https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 **Официален раздел на Tails:** https://tails.net/install/linux/index.fr.html#verify
 
 
 Проверката на изтеглянето гарантира, че то е издадено от разработчиците на Tails и не е било повредено или прихванато по време на изтеглянето.
@@ -117,8 +117,8 @@ Tails никога не записва на твърдия диск и изпо�
 
 
 
-- Linux:** https://tails.boum.org/install/linux/index.fr.html#install
-- macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher и https://tails.boum.org/install/mac/index.fr.html#install
+- Linux:** https://tails.net/install/linux/index.fr.html#install
+- macOS:** https://tails.net/install/mac/index.fr.html#etcher и https://tails.net/install/mac/index.fr.html#install
 
 
 Тази стъпка от инсталирането на Tails на вашия USB ключ е най-трудната в цялото ръководство, особено ако никога преди не сте го правили. Най-важният момент е да изберете правилната процедура в официалния раздел за вашата операционна система: Linux или macOS.
@@ -136,7 +136,7 @@ Tails никога не записва на твърдия диск и изпо�
 ![image](assets/4.webp)
 
 
-🔗 **Официален раздел Tails:** https://tails.boum.org/install/linux/index.en.html#restart
+🔗 **Официален раздел Tails:** https://tails.net/install/linux/index.en.html#restart
 
 
 Време е да стартирате един от компютрите си с помощта на новата USB памет. Поставете я в един от USB портовете и рестартирайте!
@@ -178,7 +178,7 @@ Tails никога не записва на твърдия диск и изпо�
 ![image](assets/6.webp)
 
 
-🔗 **Официален раздел на Tails:** https://tails.boum.org/install/linux/index.en.html#tails
+🔗 **Официален раздел на Tails:** https://tails.net/install/linux/index.en.html#tails
 
 
 Една или две минути след зареждането на системата и екрана за зареждане се появява екранът за добре дошли.

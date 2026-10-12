@@ -177,7 +177,7 @@ Suzuma kandi wemeze inomero yawe ya Exchange n’amahera, hanyuma wishyure Light
 
 
 
-Biciye muri BitSpenda, [Bitcoin Dua] igamije gushinga urutonde rwiza rwo kwemera Bitcoin muri Afirika. BitSpenda igaragara cane cane kuri :
+Biciye muri BitSpenda, [Bitcoin Dua](https://www.bitcoindua.org/) igamije gushinga urutonde rwiza rwo kwemera Bitcoin muri Afirika. BitSpenda igaragara cane cane kuri :
 
 
 

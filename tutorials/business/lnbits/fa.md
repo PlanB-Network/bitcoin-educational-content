@@ -43,7 +43,7 @@ LNbits را به عنوان نرم‌افزار مدیریت مالی بانک �
 ## پلتفرم دمو
 
 
-دمو را می‌توانید در [https://legend.lnbits.com](https://legend.lnbits.com) پیدا کنید. این دمو کاملاً کاربردی است و می‌توان از آن برای یادگیری درباره Lightning Network و ویژگی‌های LNbits و LNURL به طور کلی استفاده کرد. اگرچه نمی‌توانیم شما را از استفاده آن منع کنیم، اما از شما می‌خواهیم که از آن برای تنظیمات تولیدی خود استفاده نکنید. نه تنها ما اغلب روی سرورها کار می‌کنیم تا ویژگی‌های جدید را آزمایش کنیم، بلکه می‌خواهیم شما را تشویق کنیم که نود و LNbits خود را به صورت مستقل اجرا کنید. اگر فکر می‌کنید اجرای یک نود در حال حاضر بیش از حد درخواست شده است، می‌توانید LNbits را به یک سرویس تأمین مالی نگهبانی در ابر مانند Opennode، Luna یا Votage یا به Lightning Tipbot در تلگرام متصل کنید، فقط برای نام بردن از برخی.
+دمو را می‌توانید در [https://demo.lnbits.com](https://demo.lnbits.com) پیدا کنید. این دمو کاملاً کاربردی است و می‌توان از آن برای یادگیری درباره Lightning Network و ویژگی‌های LNbits و LNURL به طور کلی استفاده کرد. اگرچه نمی‌توانیم شما را از استفاده آن منع کنیم، اما از شما می‌خواهیم که از آن برای تنظیمات تولیدی خود استفاده نکنید. نه تنها ما اغلب روی سرورها کار می‌کنیم تا ویژگی‌های جدید را آزمایش کنیم، بلکه می‌خواهیم شما را تشویق کنیم که نود و LNbits خود را به صورت مستقل اجرا کنید. اگر فکر می‌کنید اجرای یک نود در حال حاضر بیش از حد درخواست شده است، می‌توانید LNbits را به یک سرویس تأمین مالی نگهبانی در ابر مانند Opennode، Luna یا Votage یا به Lightning Tipbot در تلگرام متصل کنید، فقط برای نام بردن از برخی.
 
 
 ## بروشور LNbits
@@ -69,7 +69,7 @@ LNbits بر اساس پروتکل LNURL کار می‌کند که به این م
 
 
 - [راهنمای LND](https://docs.lightning.engineering/) | نصب LND
-- [مثال پیکربندی LND](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | تنظیمات LND
+- [مثال پیکربندی LND](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | تنظیمات LND
 - [راهنمای CLN](https://docs.corelightning.org/docs/installation) | نصب CLN
 - [LUDs](https://github.com/lnurl/luds) مشخصات LNURL | [NIPs](https://github.com/nostr-protocol/nips) مشخصات Nostr
 - [اجرای Watchtower](https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | بسیار مهم!
@@ -81,7 +81,7 @@ LNbits بر اساس پروتکل LNURL کار می‌کند که به این م
 
 - [شروع به کار با LNbits](https://darthcoin.substack.com/p/getting-started-lnbits) | راهنمای Substack
 - [کارهایی که برای ایمنی با LNbits باید انجام دهید](https://youtu.be/i5FQf96e6zg) | ویدئوی یوتیوب
-- [بانک‌های خصوصی در Lightning Network](https://darthcoin.substack.com/p/Bitcoin-private-banks-over-lightning) | راهنمای Substack
+- [بانک‌های خصوصی در Lightning Network](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | راهنمای Substack
 - [کیف پول‌های امانی را برای دوستان و خانواده خود اجرا کنید](https://darthcoin.substack.com/p/the-bank-of-lnbits) | راهنمای Substack
 - [LNbits برای یک رستوران / هتل کوچک](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | راهنمای Substack
 - [استفاده از LNbits Streamer copilot](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | راهنمای Substack
@@ -116,7 +116,7 @@ LNbits را می‌توان بر روی هر ماشین با سیستم‌عام
 [سناریوهای نصب بیشتر اینجا](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
 
-برای نودهای نرم‌افزاری باندل، لطفاً به مستندات خاص آن‌ها درباره LNbits مراجعه کنید: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+برای نودهای نرم‌افزاری باندل، لطفاً به مستندات خاص آن‌ها درباره LNbits مراجعه کنید: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
 ### LNbits SaaS
@@ -202,17 +202,19 @@ LNbits می‌تواند بر روی بسیاری از منابع تأمین م�
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend Demo Server (!! از این سرور برای مقاصد تولیدی / تجاری استفاده نکنید، فقط برای آزمایش !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### لایتنینگ تیپ‌بات
+
+> **هشدار (اکتبر ۲۰۲۶):** LightningTipBot و ln.tips فعالیت خود را متوقف کرده‌اند؛ تعطیلی در ۲۹ آوریل ۲۰۲۴ اعلام شد. این منبع تأمین مالی دیگر کار نمی‌کند، مگر اینکه ربات خودتان را میزبانی کنید.
 
 
 برای اتصال [Lightning Tipbot](https://t.me/LightningTipBot) خود از تلگرام، باید پارامتر زیر را تنظیم کنید:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://LN.tips
+  - `LNBITS_ENDPOINT`: `https://LN.tips`
   - `LNBITS_KEY`: برای دریافت کلید، باید یک بار /api را در یک چت خصوصی با LightningTipbot در تلگرام اجرا کنید.
 
 
@@ -229,11 +231,13 @@ LNbits می‌تواند بر روی بسیاری از منابع تأمین م�
 
 #### LNPay
 
-برای کارکرد شنونده Invoice، شما باید یک URL عمومی در LNbits خود داشته باشید و یک [وب‌هوک LNPay](https://dashboard.lnpay.co/webhook/) تنظیم کنید که به `<your LNbits host>/Wallet/webhook` با رویداد "Wallet Receive" و بدون ارائه رمز اشاره کند. تنظیم `https://mylnbits/Wallet/webhook` به عنوان آدرس پایانی خواهد بود که درباره هر پرداختی اطلاع‌رسانی می‌شود.
+> **هشدار (اکتبر ۲۰۲۶):** به نظر می‌رسد LNPay فعالیت خود را متوقف کرده است: دامنه lnpay.co دیگر پاسخ نمی‌دهد. این منبع تأمین مالی احتمالاً دیگر قابل استفاده نیست.
+
+برای کارکرد شنونده Invoice، شما باید یک URL عمومی در LNbits خود داشته باشید و یک وب‌هوک LNPay تنظیم کنید که به `<your LNbits host>/Wallet/webhook` با رویداد "Wallet Receive" و بدون ارائه رمز اشاره کند. تنظیم `https://mylnbits/Wallet/webhook` به عنوان آدرس پایانی خواهد بود که درباره هر پرداختی اطلاع‌رسانی می‌شود.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -514,7 +518,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ##### LNURL برای یک lightning-Address برعکس
 
 
-این [رمزگذار](https://lnurl-codec.netlify.app/) از fiatjaf یا [این یکی](https://lightningdecoder.com/) را امتحان کنید. برای پرداخت یا بررسی یک LNURLp می‌توانید از [LNurlpay](https://wwww.lnurlpay.com/) نیز استفاده کنید. باید HTTPS باشد نه HTTP.
+این [رمزگذار](https://lnurl-codec.netlify.app/) از fiatjaf یا [این یکی](https://lightningdecoder.com/) را امتحان کنید. برای پرداخت یا بررسی یک LNURLp می‌توانید از [LNurlpay](https://www.lnurlpay.com/) نیز استفاده کنید. باید HTTPS باشد نه HTTP.
 
 
 
@@ -537,7 +541,9 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ###### از طریق یک سرویس مبادله خارجی.
 
 
-کاربران دیگری که به LNb شما دسترسی ندارند می‌توانند از یک سرویس مبادله مانند [Boltz](https://boltz.Exchange/)، [FixedFloat](https://fixedfloat.com/)، [DiamondHands](https://swap.diamondhands.technology/) یا [ZigZag](https://zigzag.io/) استفاده کنند. این مفید است اگر شما فقط فاکتورهای LNURL/LN را از نمونه LNbits خود ارائه دهید، اما پرداخت‌کننده فقط Sats زنجیره‌ای دارد، بنابراین ابتدا باید آن Sats را در سمت خود مبادله کنند. روش ساده است: کاربر بیت‌کوین زنجیره‌ای را به سرویس مبادله ارسال می‌کند و LNURL / LN Invoice از LNbits را به عنوان مقصد مبادله ارائه می‌دهد.
+کاربران دیگری که به LNb شما دسترسی ندارند می‌توانند از یک سرویس مبادله مانند Boltz، [FixedFloat](https://fixedfloat.com/) یا [ZigZag](https://zigzag.io/) استفاده کنند. این مفید است اگر شما فقط فاکتورهای LNURL/LN را از نمونه LNbits خود ارائه دهید، اما پرداخت‌کننده فقط Sats زنجیره‌ای دارد، بنابراین ابتدا باید آن Sats را در سمت خود مبادله کنند. روش ساده است: کاربر بیت‌کوین زنجیره‌ای را به سرویس مبادله ارسال می‌کند و LNURL / LN Invoice از LNbits را به عنوان مقصد مبادله ارائه می‌دهد.
+
+> **هشدار (اکتبر ۲۰۲۶):** Boltz در ۳ اوت ۲۰۲۶ پس از سوءاستفاده از چند آسیب‌پذیری، همه مبادله‌ها را متوقف کرد و وب‌سایت آن از دسترس خارج است. در حال حاضر نمی‌توان از Boltz و افزونه Boltz در LNbits استفاده کرد.
 
 
 ###### استفاده از افزونه Onchain و Boltz LNbits.
@@ -595,7 +601,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ### ابزارسازی و ساخت با LNbits
 
 
-LNbits دارای انواع [APIهای باز](https://legend.lnbits.com/docs) و ابزارهایی است که می‌توانند برای برنامه‌ریزی و اتصال به بسیاری از دستگاه‌های مختلف برای تعداد زیادی از موارد استفاده به کار روند.
+LNbits دارای انواع [APIهای باز](https://demo.lnbits.com/docs) و ابزارهایی است که می‌توانند برای برنامه‌ریزی و اتصال به بسیاری از دستگاه‌های مختلف برای تعداد زیادی از موارد استفاده به کار روند.
 
 
 وقتی در ساختن تازه‌کار هستید، با این [ارائه‌های MakerBits](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) از بن آرک درباره ساخت ابزارهایی بر اساس LNbits شروع کنید.

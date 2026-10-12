@@ -152,7 +152,7 @@ Kwa kuwa Bitcoin ni mfumo, lazima lazima uendeshwe kwenye kompyuta. Na, kwa saba
 
 
 
-Nakamoto, S. (2008). *Bitcoin: Mfumo wa Pesa wa Kielektroniki wa Peer-to-Rika*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Mfumo wa Pesa wa Kielektroniki wa Peer-to-Rika*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -204,7 +204,7 @@ Kazi ya kwanza ya node ni kudumisha nakala ya ndani ya Blockchain. Ili kuzuia [D
 
 > Njia pekee ya kuthibitisha kutokuwepo kwa muamala ni kufahamu shughuli zote.
 
-Nakamoto, S. (2008). *Bitcoin: Mfumo wa Pesa wa Kielektroniki wa Peer-to-Rika*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Mfumo wa Pesa wa Kielektroniki wa Peer-to-Rika*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -383,7 +383,7 @@ Kwa nadharia, Bitcoin core haiwakilishi protocol ya Bitcoin; badala yake, ni ute
 
 
 
-Kulingana na [data iliyokusanywa Agosti 2025 na Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (msanidi programu maarufu katika mfumo ikolojia), usambazaji wa utekelezaji kati ya node za umma za mtandao ni kama ifuatavyo:
+Kulingana na [data iliyokusanywa Agosti 2025 na Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (msanidi programu maarufu katika mfumo ikolojia), usambazaji wa utekelezaji kati ya node za umma za mtandao ni kama ifuatavyo:
 
 
 
@@ -766,7 +766,7 @@ Sehemu ya [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (*
 
 
 
-Nakamoto, S. (2008). *Bitcoin: Mfumo wa Pesa wa Kielektroniki wa Peer-to-Rika*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Mfumo wa Pesa wa Kielektroniki wa Peer-to-Rika*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -1521,7 +1521,7 @@ Mojawapo ya faida kuu za Umbrel juu ya washindani wake ni jumuiya yake kubwa na 
 
 
 
-Msimbo wa Umbrel unapatikana kwa umma (unaweza kuitazama, Fork, na kuirekebisha), lakini haiko chini ya leseni ya kweli ya chanzo-wazi. Kwa hakika, mwamvuli OS inasambazwa chini ya leseni ya [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), ingawa baadhi ya zana zinazohusiana za ukuzaji zinapatikana chini ya leseni ya MIT.
+Msimbo wa Umbrel unapatikana kwa umma (unaweza kuitazama, Fork, na kuirekebisha), lakini haiko chini ya leseni ya kweli ya chanzo-wazi. Kwa hakika, mwamvuli OS inasambazwa chini ya leseni ya [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0), ingawa baadhi ya zana zinazohusiana za ukuzaji zinapatikana chini ya leseni ya MIT.
 
 
 
@@ -2042,7 +2042,7 @@ Kuwa mwangalifu usitenge thamani ambayo ni kubwa sana kwa mashine yako. Ikiwa RA
 
 
 
-Ili kujua zaidi kuhusu athari ya kigezo cha `dbcache` kwenye ulandanishaji wa awali, ninapendekeza uchanganuzi huu wa Jameson Lopp: [*Athari za Ukubwa wa DBcache kwenye Kasi ya Usawazishaji wa Njia ya Bitcoin*](https://blog.lopp.net/effects-dbcache-size-Bitcoin-node-sync-speed/speed
+Ili kujua zaidi kuhusu athari ya kigezo cha `dbcache` kwenye ulandanishaji wa awali, ninapendekeza uchanganuzi huu wa Jameson Lopp: [*Athari za Ukubwa wa DBcache kwenye Kasi ya Usawazishaji wa Njia ya Bitcoin*](https://blog.lopp.net/effects-dbcache-size-bitcoin-node-sync-speed/
 
 
 
@@ -3884,7 +3884,7 @@ Hatimaye, faili ya `Bitcoin.conf` pia hukuruhusu kusanidi vigezo vya ufikiaji vy
 
 
 
-Sasa tumemaliza kuorodhesha vigezo vingi vya usanidi. Faili hii ya `Bitcoin.conf` kwa hivyo inajumuisha dashibodi halisi ya node yako: inafafanua usanidi wa mtandao, usimamizi wa Mempool, utumiaji wa diski na kumbukumbu, kuorodhesha, na usimamizi wa jumla. Iwapo ungependa kupata maelezo zaidi kuhusu faili hii na kuunda moja iliyoundwa kulingana na mahitaji yako, ninapendekeza utumie [jenereta ya Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Sasa tumemaliza kuorodhesha vigezo vingi vya usanidi. Faili hii ya `Bitcoin.conf` kwa hivyo inajumuisha dashibodi halisi ya node yako: inafafanua usanidi wa mtandao, usimamizi wa Mempool, utumiaji wa diski na kumbukumbu, kuorodhesha, na usimamizi wa jumla. Iwapo ungependa kupata maelezo zaidi kuhusu faili hii na kuunda moja iliyoundwa kulingana na mahitaji yako, ninapendekeza utumie [jenereta ya Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/).
 
 
 

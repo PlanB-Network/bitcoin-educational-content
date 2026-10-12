@@ -33,7 +33,7 @@ description: Понимание и использование Watchtower на у
 
 
 
-*Это руководство взято из [официальной документации по LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). В первоначальную версию могли быть внесены некоторые изменения
+*Это руководство взято из [официальной документации по LND](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). В первоначальную версию могли быть внесены некоторые изменения
 
 
 
@@ -519,13 +519,7 @@ ERROR [teosd] Not enough blocks to start the tower (required: 100). Mine at leas
 
 
 
-В сети доступно несколько Сторожевых башен. Например, [LN+ и Voltage предлагают альтруистическую Watchtower](https://lightningnetwork.plus/Watchtower), к которой вы можете подключиться:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+В сети доступно несколько Сторожевых башен. LN+ и Voltage раньше предлагали альтруистическую Watchtower, но она больше недоступна (октябрь 2026 г.). Теперь LN+ предлагает [Watch Swaps](https://lightningnetwork.plus/watch_swaps), где два оператора узлов следят за каналами друг друга, и публикует [руководство по альтруистическим Watchtower](https://lightningnetwork.plus/posts/12).
 
 
 

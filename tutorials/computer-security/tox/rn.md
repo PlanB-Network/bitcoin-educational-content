@@ -65,7 +65,7 @@ Bivanye n'uko ukoresha, urashobora gukuraho no gushiramwo umukiriya wa Tox ahuye
 
 
 
-- aTox: [aTox](aTox), umukiriya wa Tox yanditswe mu rurimi rwa Kotlin aboneka kuri Android gusa
+- aTox: [aTox](https://github.com/evilcorpltd/aTox), umukiriya wa Tox yanditswe mu rurimi rwa Kotlin aboneka kuri Android gusa
 
 
 

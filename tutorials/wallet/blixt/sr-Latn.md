@@ -11,7 +11,7 @@ Ovaj vodič je posvećen svim novim korisnicima koji žele početi koristiti Bit
 Korišćenje [Blixt Wallet](https://blixtwallet.com/), punog LN čvora na vašem mobilnom uređaju, gde god da se nalazite.
 
 
-Ako nikada niste koristili Bitcoin Lightning Network, pre nego što počnete, [molimo pročitajte ovo jednostavno objašnjenje analogije o Lightning Network (LN)](https://darth-coin.github.io/beginner/LN-airport-analogy-en.html).
+Ako nikada niste koristili Bitcoin Lightning Network, pre nego što počnete, [molimo pročitajte ovo jednostavno objašnjenje analogije o Lightning Network (LN)](https://darth-coin.github.io/beginner/ln-airport-analogy-en.html).
 
 
 ## VAŽNI ASPEKTI:
@@ -22,11 +22,11 @@ Ako nikada niste koristili Bitcoin Lightning Network, pre nego što počnete, [
 
 
 
-- Blixt koristi LND (aezeed) kao Wallet backend, tako da ne pokušavajte da uvezete druge tipove Bitcoin novčanika u njega. [Ovde su objašnjeni tipovi Wallet Mnemonic seedova](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). A ovde je [opsežnija lista svih tipova novčanika](https://walletsrecovery.org/). Dakle, ako ste ranije imali LND čvor, možete uvesti seed i backup.channels u Blixt, [kako je objašnjeno u ovom vodiču](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
+- Blixt koristi LND (aezeed) kao Wallet backend, tako da ne pokušavajte da uvezete druge tipove Bitcoin novčanika u njega. [Ovde su objašnjeni tipovi Wallet Mnemonic seedova](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). A ovde je [opsežnija lista svih tipova novčanika](https://walletsrecovery.org/). Dakle, ako ste ranije imali LND čvor, možete uvesti seed i backup.channels u Blixt, [kako je objašnjeno u ovom vodiču](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html).
 
 
 
-- Na kraju ovog vodiča pronaći ćete poseban odeljak sa ["saveti i trikovi"](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
+- Na kraju ovog vodiča pronaći ćete poseban odeljak sa ["saveti i trikovi"](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#tips)
 
 
 
@@ -65,7 +65,7 @@ U gornjem desnom uglu videćete 3 tačke koje aktiviraju meni sa:
 
 - „omogući Tor“ - korisnik može započeti sa Tor mrežom, posebno ako želi da obnovi stari LND čvor koji je radio samo sa Tor peer-ovima.
 - „Postavi Bitcoin čvor“ - ako korisnik želi da se poveže direktno na svoj čvor, kako bi sinhronizovao blokove putem Neutrino-a, može to učiniti odmah sa početnog ekrana. Ova opcija je takođe dobra u slučaju da vaša internet konekcija ili Tor nisu dovoljno stabilni za povezivanje na podrazumevani Bitcoin čvor (node.blixtwallet.com).
-- Uskoro će biti dodat jezik tamo, tako da korisnik može odmah početi sa jezikom koji mu je ugodan. Ako želite da doprinesete ovom projektu otvorenog koda prevodima na druge jezike, [molimo pridružite se ovde](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
+- Uskoro će biti dodat jezik tamo, tako da korisnik može odmah početi sa jezikom koji mu je ugodan. Ako želite da doprinesete ovom projektu otvorenog koda prevodima na druge jezike, [molimo pridružite se ovde](https://explore.transifex.com/blixt-wallet/blixt-wallet/).
 
 
 ### OPCIJA A - Kreiraj novi Wallet
@@ -241,7 +241,7 @@ SREĆAN Bitcoin MUNJA!
 Zapamtite, u poglavlju jedan „Prvi kontakt“ bile su 2 opcije na ekranu dobrodošlice:
 
 
-- [Opcija A](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - Kreiraj novi Wallet
+- [Opcija A](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#option-a) - Kreiraj novi Wallet
 - Opcija B - Vratiti Wallet
 
 
@@ -251,7 +251,7 @@ Dakle, sada hajde da razgovaramo o tome kako da obnovimo Blixt Wallet ili bilo k
 ### OPCIJA B - Vrati Wallet
 
 
-U prošlosti sam napisao poseban vodič o [kako obnoviti srušeni Umbrel čvor](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), gde sam takođe spomenuo metodu korišćenja Blixt-a kao brzog procesa obnove, koristeći seed + channel.backup datoteku iz Umbrel-a.
+U prošlosti sam napisao poseban vodič o [kako obnoviti srušeni Umbrel čvor](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), gde sam takođe spomenuo metodu korišćenja Blixt-a kao brzog procesa obnove, koristeći seed + channel.backup datoteku iz Umbrel-a.
 
 
 Takođe sam napisao vodič kako da povratite vaš Blixt čvor ili migrirate vaš Blixt na drugi uređaj, [ovde](https://blixtwallet.github.io/faq#blixt-restore).
@@ -663,7 +663,7 @@ U međuvremenu, ovde su svi linkovi o ovom neverovatnom Bitcoin Lightning Node:
 - [Blixt prezentacija - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Blixt Girls Calendar](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - promo video (you can test your 1st use of LN)
 - [Štampaj A4 flajer sa prvim koracima korišćenja Blixt-a, na različitim jezicima](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt takođe nudi potpuno funkcionalan demo](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) direktno na svojoj veb stranici ili na posvećenoj verziji veba, kako biste imali potpuno iskustvo testiranja pre nego što počnete da ga koristite u stvarnom svetu.
+- [Blixt takođe nudi potpuno funkcionalan demo](https://blixtwallet.github.io/) direktno na svojoj veb stranici ili na posvećenoj verziji veba, kako biste imali potpuno iskustvo testiranja pre nego što počnete da ga koristite u stvarnom svetu.
 
 
 ---

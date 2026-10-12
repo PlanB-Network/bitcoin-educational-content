@@ -572,8 +572,8 @@ Proton Authenticator เป็นหนึ่งในโซลูชันท�
 
 
 
-- GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - โค้ดโอเพนซอร์ส
-- การตรวจสอบความปลอดภัย**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - รายงานการตรวจสอบอิสระ
+- GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - โค้ดโอเพนซอร์ส
+- การตรวจสอบความปลอดภัย**: [proton.me/community/security-audits](https://proton.me/community/open-source) - รายงานการตรวจสอบอิสระ
 
 
 

@@ -10,7 +10,7 @@ ___
 
 
 
-*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Florian BURNEL vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](ku rubuga rwacu/uruhusha/ku-NC/4.0/). Birashoboka ko hari ivyo bahinduye mu canditswe c’intango.*
+*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Florian BURNEL vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Birashoboka ko hari ivyo bahinduye mu canditswe c’intango.*
 
 
 
@@ -63,7 +63,7 @@ Graylog ni igikoresho co gusesangura no kugenzura gituma vyoroha kumenya inyifat
 
 
 
-**Serveri ya Graylog** iriko irakora kuri **Debian 12**, ariko gushiramwo birashoboka ku bindi bikoresho, harimwo na Docker. Iyi mashini y’ubuhinga bwa none ifise **8 GB RAM** na **256 GB disk space**, kugira ngo ibe n’ibikoresho bihagije vy’ibice vyose (ahandi ho ivyo bishobora kugira ingaruka zikomeye ku bikorwa). Ariko rero, ivyo ndabitanga nk'indongozi y'agahomerabunwa, kuko **ubunini bw'ubwubatsi bwa Graylog buvana n'ingero y'amakuru azokoreshwa**. Graylog ishobora gukora 30 MB canke 300 MB z’amakuru ku musi, hamwe n’amakuru 300 GB ku musi... Ni **umuti ushobora guhindurwa** ushobora gukora **terabytes z’amakuru** (raba [iki page](ubu/gutegura_ugushirwaho kwawe/gutegura_ugushirwaho_kwawe.html?tocpath=Gutegura%20Ugushirwaho kwawe%7C_____0)).
+**Serveri ya Graylog** iriko irakora kuri **Debian 12**, ariko gushiramwo birashoboka ku bindi bikoresho, harimwo na Docker. Iyi mashini y’ubuhinga bwa none ifise **8 GB RAM** na **256 GB disk space**, kugira ngo ibe n’ibikoresho bihagije vy’ibice vyose (ahandi ho ivyo bishobora kugira ingaruka zikomeye ku bikorwa). Ariko rero, ivyo ndabitanga nk'indongozi y'agahomerabunwa, kuko **ubunini bw'ubwubatsi bwa Graylog buvana n'ingero y'amakuru azokoreshwa**. Graylog ishobora gukora 30 MB canke 300 MB z’amakuru ku musi, hamwe n’amakuru 300 GB ku musi... Ni **umuti ushobora guhindurwa** ushobora gukora **terabytes z’amakuru** (raba [iki page](https://go2docs.graylog.org/current/planning_your_deployment/planning_your_deployment.html?tocpath=Plan%20Your%20Deployment%7C_____0)).
 
 
 
@@ -161,7 +161,7 @@ Tugiye gukuraho umurongo wa DEB witwa "**libssl1.1_1.1.1f-1ubuntu2.23_amd64.deb*
 
 
 ```
-wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.23_amd64.deb
+wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.24_amd64.deb
 sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.23_amd64.deb
 ```
 
@@ -286,7 +286,7 @@ Iyi nzira ya OpenSearch yagenewe gushinga urudodo rumwe. Aha hariho insobanuro z
 - discovery.type: urudodo rumwe: iyi parametere itunganiriza OpenSearch gukorana n'urudodo rumwe, ni co gituma uguhitamwo "**urudodo rumwe**".
 - network.host: 127.0.0.1: iyi ntunganyo ituma OpenSearch yumviriza gusa ku nzira yayo ya Interface, ivyo bikaba bihagije kuko iri kuri server imwe na Graylog.
 - action.auto_create_index: false**: mu guhagarika urutonde rwikora, OpenSearch ntizokwikora urutonde iyo inyandiko yoherejwe ata rutonde ruriho.
-- plugins.security.disabled: true**: iyi nzira izibira umutekano wa OpenSearch, bisobanura ko ata kwemeza, gucunga uburenganzira canke gukingira amakuru. Iyi nzira izigama umwanya iyo ushiraho Graylog, ariko ikwiye kwirindwa mu gukora (raba [iyi paji](https://opensearch.org/docs/1.0/umutekano-plugin/index/)).
+- plugins.security.disabled: true**: iyi nzira izibira umutekano wa OpenSearch, bisobanura ko ata kwemeza, gucunga uburenganzira canke gukingira amakuru. Iyi nzira izigama umwanya iyo ushiraho Graylog, ariko ikwiye kwirindwa mu gukora (raba [iyi paji](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 
 

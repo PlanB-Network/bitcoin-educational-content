@@ -309,7 +309,7 @@ El Abate de Saint-Pierre sostenía que el reinado de Luis XIV, con su corte fast
 
 En cuanto al pensamiento económico, aplicó sistemáticamente el principio de utilidad, de forma parecida a como lo haría más tarde Jeremy Bentham, y a menudo ofreció observaciones acertadas. Para ser justos, todavía estaba influido por ideas mercantilistas, de las que nadie se había desprendido del todo en aquella época.
 
-Aun así, el Abate de Saint-Pierre hizo algunas observaciones acertadas sobre la economía. Incluso antes que *Condillac*, a quien suele atribuirse esta idea, afirmó llanamente que en todo intercambio ambas partes se benefician. Esto puede encontrarse en su "Proyecto para perfeccionar el comercio de Francia" de 1733, ["Project for Improving France's Trade"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), donde escribió:
+Aun así, el Abate de Saint-Pierre hizo algunas observaciones acertadas sobre la economía. Incluso antes que *Condillac*, a quien suele atribuirse esta idea, afirmó llanamente que en todo intercambio ambas partes se benefician. Esto puede encontrarse en su "Proyecto para perfeccionar el comercio de Francia" de 1733, ["Project for Improving France's Trade"](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), donde escribió:
 
 > Cuando se realiza una venta entre comerciantes, gana el vendedor y también gana el comprador; pues si no hubiera algún beneficio real o percibido en ambos lados, ni el vendedor vendería a tal o cual precio, ni el comprador, por su parte, compraría a ese precio.
 
@@ -469,7 +469,7 @@ La producción intelectual del círculo de Gournay tuvo un impacto importante en
 
 ![Estudio sobre la edición económica en Francia, 1566-1789.](assets/en/035.webp)
 
-Para difundir el gusto por los debates económicos entre la población francesa, Gournay y sus amigos se esforzaron por hacerlos accesibles mediante novelas. Después de la *Memoria sobre los oficios*, que criticaba los gremios, Gournay y Cliquot-Blervache ayudaron a Gabriel-François Coyer a escribir una breve novela satírica titulada Chinki: [Un cuento cochinchino aplicable a otras naciones](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Para difundir el gusto por los debates económicos entre la población francesa, Gournay y sus amigos se esforzaron por hacerlos accesibles mediante novelas. Después de la *Memoria sobre los oficios*, que criticaba los gremios, Gournay y Cliquot-Blervache ayudaron a Gabriel-François Coyer a escribir una breve novela satírica titulada Chinki: [Un cuento cochinchino aplicable a otras naciones](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Abate Gabriel-François Coyer, "Chinki"](assets/en/036.webp)
 
@@ -733,7 +733,7 @@ En sus *Máximas*, ya citadas, Quesnay afirma:
 
 Los fisiócratas habían visto el daño causado por la injerencia del gobierno, especialmente en el comercio del trigo. Hay que reconocer, decían, que la autoridad nunca podrá gestionar el comercio tan bien como los individuos, porque debería responder a cada necesidad y reaccionar a cada cambio en la oferta o la demanda. Todo esto está muy por encima de las capacidades del gobierno más sabio que se pueda concebir. Por tanto, es necesario dejar hacer y dejar fluir.
 
-Benéfico por naturaleza, el comercio debe ser entera y perfectamente libre. Uno de sus miembros, Le Trosne, llegó incluso a escribir un panfleto titulado [*La libertad del comercio de granos: siempre útil, jamás perjudicial*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Benéfico por naturaleza, el comercio debe ser entera y perfectamente libre. Uno de sus miembros, Le Trosne, llegó incluso a escribir un panfleto titulado [*La libertad del comercio de granos: siempre útil, jamás perjudicial*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/).
 
 ### Quinto principio: todos los hombres son hermanos
 

@@ -73,13 +73,13 @@ Murakaze mu nyigisho ya ECO104!
 ● Abantu 20% gusa baba mu mibano ibonwa ko "ifise umwidegemvyo mu buryo bwa demokarasi." Yamara, no muri ako gace k’agateka, ukurenga kw’uburenganzira bwa muntu kuragenda kurarushiriza kuba ikintu gisanzwe—kuva ku gufunga amakonte ya banki gushika ku gucengera. Abasigaye 80% basanga bariko barahangana n’ugutera kw’ubutegetsi bw’agahomerabunwa. Haciye imyaka mirongo ibiri gusa, hafi ica kabiri c’abantu bo kw’isi bari bafise umwidegemvyo w’ishimikiro kuruta iyindi yose.
 
 
-● [1.4]" ancial-services#:~:text=Ku isi yose%2C%20bamwe%201.4%20miliyaridi%20 z'abantu bakuze,genda%2C%20vyinshi%20ibindi%20bikenewe.) abantu bakuze amamiliyaridi kw’isi yose baguma batagira amabanki, mu gihe abandi batagira uko bangana bashobora gukoresha ibikorwa bikeyi vyo mu mabanki.
+● [1.4](https://www.worldbank.org/en/news/feature/2022/07/21/covid-19-boosted-the-adoption-of-digital-financial-services#:~:text=Globally%2C%20some%201.4%20billion%20adults,go%2C%20much%20more%20is%20needed.)" ancial-services#:~:text=Ku isi yose%2C%20bamwe%201.4%20miliyaridi%20 z'abantu bakuze,genda%2C%20vyinshi%20ibindi%20bikenewe.) abantu bakuze amamiliyaridi kw’isi yose baguma batagira amabanki, mu gihe abandi batagira uko bangana bashobora gukoresha ibikorwa bikeyi vyo mu mabanki.
 
 
-● Mu mpera z’umwaka wa [2022](https://Elements.visualcapitalist.com/mapped-ibihugu-bifise-igipimo-c’ugutera imbere kw’ibiciro/), hafi igice c’isi cari gifise igipimo c’ugutera imbere kw’ibiciro c’imirongo ibiri, ivyo bikaba vyatuma agaciro k’amahera umuntu aronka mu Hard kagabanuka. Kugira ngo ivyo ubishire mu buryo bubereye, n’igipimo c’ugutera imbere kw’ibiciro c’ibice 10 kw’ijana mu myaka cumi, woba watakaje ibice 65 kw’ijana vy’ubushobozi bwawe bwo kugura.
+● Mu mpera z’umwaka wa [2022](https://elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/), hafi igice c’isi cari gifise igipimo c’ugutera imbere kw’ibiciro c’imirongo ibiri, ivyo bikaba vyatuma agaciro k’amahera umuntu aronka mu Hard kagabanuka. Kugira ngo ivyo ubishire mu buryo bubereye, n’igipimo c’ugutera imbere kw’ibiciro c’ibice 10 kw’ijana mu myaka cumi, woba watakaje ibice 65 kw’ijana vy’ubushobozi bwawe bwo kugura.
 
 
-● Kandi naho ata bihe vy’ugutera imbere nk’ukwo, USD, ishobora kuvugwa ko ari yo mafaranga akomeye kuruta ayandi yose kw’isi, yarabonye [96%](https://www.visualcapitalist.com/ubushobozi-bw’ugugura-bw’idolari-ry’Amerika-mu-gihe/) gutakaza ububasha bwo kugura kw’idolari rya nyuma.
+● Kandi naho ata bihe vy’ugutera imbere nk’ukwo, USD, ishobora kuvugwa ko ari yo mafaranga akomeye kuruta ayandi yose kw’isi, yarabonye [96%](https://www.visualcapitalist.com/purchasing-power-of-the-u-s-dollar-over-time/) gutakaza ububasha bwo kugura kw’idolari rya nyuma.
 
 
 Ivyo ni bimwe mu kuri gukomeye kw’ibidukikije vy’ubutunzi bwacu kw’isi yose. Uburyo bwacu bw’ivy’ubutunzi burabura cane mu guha ivyo abantu benshi bakeneye. Izo nzira zituma ubusumbasumbane bugumaho, zigatuma abantu benshi batagira aho bahuriye, kandi zigatuma abantu amamiliyaridi kw’isi yose babura ububasha.
@@ -334,7 +334,7 @@ Uko uguhinduranya ibintu vyatangura kwerekana ubugoyagoye bwavyo mu bucuruzi, ab
 Ikintu gikomeye mu guhitamwo uburyo bwa Exchange bwategekanijwe imbere y’igihe ni uko imiryango yoshobora guhitamwo ikintu gitanga ubukene kandi kitazokwonona, kigatuma iba ububiko bw’agaciro buramba. Ibintu nk’amabuye y’ibirahuri, umunyu be n’ibikoko vyo mu kiyaga vyaciye vyihuta kuronderwa uko vyaharurwa, bikaba bikomeye cane kandi bikaba bishobora gutwarwa mu masaho. Umunyu cane cane wari ukunzwe cane kuko wari ufise akamaro - gukiza inyama, n’ibindi.
 
 
-Ariko rero, uko ingendo zagenda zoroha, isi yaratanguye gufunguka, abantu baratahura yuko ubutunzi buke bwo mu karere kamwe bwari bwinshi mu bindi. Ivyo vyatumye haba ugukoresha nabi, Supply igabanuka, kandi bituma haba ibintu nk’ubudandaji bw’abaja. Nk’akarorero, Abanyaburaya bariko baragendera muri Afirika babonye ko abantu bo ng’aho bariko bakoresha amabuye y’ibirahuri nk’uburyo bwo kuronka amahera. Kubera ko abaje kwimukira mu Buraya vyari vyoroshe gukora ibirahuri, ivyo bikaba vyatuma bazana ayo mabuye menshi muri Afirika, ivyo bikaba bituma agaciro kayo kagabanuka. Bamwe mbere bovuga ko iyo nzira y’ugusenyuka ari kimwe mu vyatumye haba [ubudandaji bw’abaja](https://breedlove22.medium.com/ba shebuja-n’abaja-b’amahera-255ecc93404f), ivyo bikaba vyatumye ubutunzi bwa Afirika busenyuka.
+Ariko rero, uko ingendo zagenda zoroha, isi yaratanguye gufunguka, abantu baratahura yuko ubutunzi buke bwo mu karere kamwe bwari bwinshi mu bindi. Ivyo vyatumye haba ugukoresha nabi, Supply igabanuka, kandi bituma haba ibintu nk’ubudandaji bw’abaja. Nk’akarorero, Abanyaburaya bariko baragendera muri Afirika babonye ko abantu bo ng’aho bariko bakoresha amabuye y’ibirahuri nk’uburyo bwo kuronka amahera. Kubera ko abaje kwimukira mu Buraya vyari vyoroshe gukora ibirahuri, ivyo bikaba vyatuma bazana ayo mabuye menshi muri Afirika, ivyo bikaba bituma agaciro kayo kagabanuka. Bamwe mbere bovuga ko iyo nzira y’ugusenyuka ari kimwe mu vyatumye haba [ubudandaji bw’abaja](https://breedlove22.medium.com/masters-and-slaves-of-money-255ecc93404f), ivyo bikaba vyatumye ubutunzi bwa Afirika busenyuka.
 
 
 Muri rusangi, amahera y’ibicuruzwa yaragize uruhara runini mu guteza imbere ubudandaji n’ubudandaji, kuko yatanga uburyo bumwe bumwe bwa Exchange bwemewe cane. Ariko rero, uko imibano yagenda iratera imbere, ni ko hatangura kuboneka ubundi buryo bw’amahera bwari bubereye kandi bushobora kugabanywa.
@@ -433,7 +433,7 @@ Bitcoin yavutse mu kurondera kw’umuhinga mu vy’[ubuhinga bw’amabanga](http
 Igituma Bitcoin idasanzwe vy’ukuri ni uko ari igikoresho co gutwara ibintu mu buryo bwa digitale, bisobanura ko ata bahuza canke abandi bantu bizigira bakenewe. Itegeko ry’amahera rigenzurwa n’abagira uruhara mu bijanye n’ibidukikije, bikaba bituma bidashoboka guhindura canke guhindura mu buryo bumwe n’ubwo bwari busanzwe mu buryo bw’amahera bwa kera. Kandi nk’uko Bitcoin iriho hanze y’ububasha bwa Leta n’amabanki nkuru, iriko iragenda yihuta kwemerwa cane nk’ubundi buryo bwo gukoresha amahera kuko idashobora gukoreshwa nabi.
 
 
-Kuva yatangwa, Bitcoin yarabandanije gukura mu kwemerwa no kwemerwa nk’ikintu c’amahera. Nkako, ubu iriko irakura ku rugero rwa [137%](https://www.benzinga.com/markets/cryptocurrency/22/03/26114752). 76% kubera iterambere rya internet mu myaka imwe. Kandi naho izindi cryptocurrencies zashizweho mu myaka iheze, nta n’imwe yarwanya ikibanza ca Bitcoin nk’ikintu c’amahera gisumba ibindi.
+Kuva yatangwa, Bitcoin yarabandanije gukura mu kwemerwa no kwemerwa nk’ikintu c’amahera. Nkako, ubu iriko irakura ku rugero rwa [137%](https://www.benzinga.com/markets/cryptocurrency/22/03/26114752/raoul-pal-declares-crypto-is-growing-far-faster-than-the-internet-says-bitcoin-could-reach). 76% kubera iterambere rya internet mu myaka imwe. Kandi naho izindi cryptocurrencies zashizweho mu myaka iheze, nta n’imwe yarwanya ikibanza ca Bitcoin nk’ikintu c’amahera gisumba ibindi.
 
 
 Bamwe mu ba naysayers bavuga ko Bitcoin igenda buhoro, izimvye gukoresha, kandi itakaza inguvu, ariko reka ntitwihutire gucira urubanza. None iyo tubabwira ko Bitcoin iserukira uguhinduka kw’akarorero mu buryo twiyumvira ku bijanye n’amahera n’agaciro?
@@ -571,7 +571,7 @@ Ico gikorwa co gufatanya ntikigenda neza nk’uko vyategekanijwe...
 ![image](assets/en/001.webp)
 
 
-Igishushanyo [Ideni n'Igihugu](https://www.imigenderanire y'igihe kirekire.net/us-imyenda-ku-Gdp/)
+Igishushanyo [Ideni n'Igihugu](https://www.longtermtrends.net/us-debt-to-gdp/)
 
 
 Iyo dushize hamwe umwenda wa Leta Zunze Ubumwe za Amerika, w’amashirahamwe, n’uw’ingo, igiharuro kivamwo ni \$63.14 trillions, bitandukanye n’umusaruro wose w’igihugu ca Leta Zunze Ubumwe za Amerika (GDP) w’amadolari \26.13 trillions. Ivyo bisigura ko USA ifise umwenda wose hamwe w’ibice 241%. Mu yandi majambo, ku \$1 yose y’umusaruro w’igihugu, hariho umwenda munini cane \$2.41.
@@ -641,7 +641,7 @@ Kubera ko amakuru aguma atangazwa ku mbuga ngurukanabumenyi, kumbure warabonye i
 | Gold                | 73.10%                             | 5.11%                                   |
 | Average Hourly Wage | 33.37%                             | 2.65%                                   |
 
-Igishushanyo: Ibikorwa hakurikijwe umugwi w’itunga ([Itunga](Itunga](%5EGSPC/amateka/), [Itunga](ibiciro-vy’inzu-z’amateka/), [Inzahabu](Igiciro c’inzahabu/), [Imishahara](https://ubudandaji.com/leta Zunze Ubumwe za Amerika/imishahara.))
+Igishushanyo: Ibikorwa hakurikijwe umugwi w’itunga ([Itunga](Itunga](%5EGSPC/amateka/), [Itunga](ibiciro-vy’inzu-z’amateka/), [Inzahabu](Igiciro c’inzahabu/), [Imishahara](https://tradingeconomics.com/united-states/wages.))
 
 
 Kubera iyo nzira y’ugusubira inyuma kw’imishahara ku bici- ro vy’itunga, twabonye kimwe mu bihe bikomeye cane vy’uguhindura ubutunzi buva mu rwego rwo hasi buja mu rwego rwo hejuru mu mateka ya vuba .
@@ -650,7 +650,7 @@ Kubera iyo nzira y’ugusubira inyuma kw’imishahara ku bici- ro vy’itunga, t
 ![image](assets/en/002.webp)
 
 
-Igishushanyo: Umugabane w'Igitigiri cose [Agaciro](uruhererekane/WFRBSN40188#0.)
+Igishushanyo: Umugabane w'Igitigiri cose [Agaciro](https://fred.stlouisfed.org/series/WFRBSN40188#0.)
 
 
 ### Boom & Bust
@@ -818,13 +818,13 @@ Naho Bitcoin yafashe ubwenge bw’abantu amamiliyoni n’ubushobozi bwayo bwo gu
 Uko biri kwose, reka turabe inkuru z’imigani n’imigani.
 
 
-Satoshi Nakamoto yasohotse kuri internet mu 2008 afise iciyumviro gishasha: amahera y’ubuhinga bwa none y’urunganwe. Yasangije iyerekwa ryiwe mu [mpapuro z'impapuro icenda](https://Bitcoin.org/Bitcoin.pdf) zitwa "Bitcoin: Uburyo bwo gukoresha amahera y'ubuhinga bwa none" n'urutonde rw'abarungika ubutumwa rwa Cypherpunk. Naho mu ntango benshi mu bagize urutonde rw'abarungika ubutumwa batavyishimiye, ico ciyumviro caratumye umunyamuryango umwe, Hal Finney, agira amatsiko ahagije, amaherezo ashikira Satoshi. Ukwifatanya kwa Hal mu gutegura Bitcoin kwagaragaye ko ari ihinduka rikomeye, bituma abantu benshi batanga infashanyo yabo.
+Satoshi Nakamoto yasohotse kuri internet mu 2008 afise iciyumviro gishasha: amahera y’ubuhinga bwa none y’urunganwe. Yasangije iyerekwa ryiwe mu [mpapuro z'impapuro icenda](https://bitcoin.org/bitcoin.pdf) zitwa "Bitcoin: Uburyo bwo gukoresha amahera y'ubuhinga bwa none" n'urutonde rw'abarungika ubutumwa rwa Cypherpunk. Naho mu ntango benshi mu bagize urutonde rw'abarungika ubutumwa batavyishimiye, ico ciyumviro caratumye umunyamuryango umwe, Hal Finney, agira amatsiko ahagije, amaherezo ashikira Satoshi. Ukwifatanya kwa Hal mu gutegura Bitcoin kwagaragaye ko ari ihinduka rikomeye, bituma abantu benshi batanga infashanyo yabo.
 
 
-Ariko rero, inyuma y'imyaka ibiri akora kuri uwo mugambi, Satoshi yarazimiye ata n'akarongo, n'[itangazo ryiwe rya nyuma ry'ukuri](https://plan99.net/~mike/Satoshi-emails/thread5.html) ku wa 23 Ndamukiza 2011, aho yavuze ko "yimukiye mu bindi bintu."
+Ariko rero, inyuma y'imyaka ibiri akora kuri uwo mugambi, Satoshi yarazimiye ata n'akarongo, n'[itangazo ryiwe rya nyuma ry'ukuri](https://plan99.net/~mike/satoshi-emails/thread5.html) ku wa 23 Ndamukiza 2011, aho yavuze ko "yimukiye mu bindi bintu."
 
 
-Ukuzimira kw’akabanga kwa Satoshi Nakamoto kwatumye habaho ivyiyumviro bitandukanye ku bijanye n’aho yagiye. Bamwebamwe biyumvira ko yumvise ko yarashitse ku co yari yiyemeje gukora, abandi na bo bemera ko yacitse intege kubera abantu bariko baramwitaho Bitcoin. Mu kwezi kwa kigarama [2010](2010), igihe WikiLeaks yabujijwe gukoresha uburyo bwa kera bwo kwishura, G11. Ivyiyumviro vya Satoshi ku bijanye n’uko abantu barushiriza kwitwararika Bitcoin be n’ingaruka zishobora guterwa n’amategeko yo kurema amafaranga akoreshwa mu guhungabanya inyungu za Amerika mu vy’ubuhinga bw’isi, bishobora kuba vyatumye asubira inyuma. Canke rero, yoba yarahinduye ivyiyumviro vyiwe akabishira ku yindi migambi, yoba agitanga intererano kuri Bitcoin mu yandi mazina, canke mbere akaba yarapfuye.
+Ukuzimira kw’akabanga kwa Satoshi Nakamoto kwatumye habaho ivyiyumviro bitandukanye ku bijanye n’aho yagiye. Bamwebamwe biyumvira ko yumvise ko yarashitse ku co yari yiyemeje gukora, abandi na bo bemera ko yacitse intege kubera abantu bariko baramwitaho Bitcoin. Mu kwezi kwa kigarama [2010](https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad), igihe WikiLeaks yabujijwe gukoresha uburyo bwa kera bwo kwishura, G11. Ivyiyumviro vya Satoshi ku bijanye n’uko abantu barushiriza kwitwararika Bitcoin be n’ingaruka zishobora guterwa n’amategeko yo kurema amafaranga akoreshwa mu guhungabanya inyungu za Amerika mu vy’ubuhinga bw’isi, bishobora kuba vyatumye asubira inyuma. Canke rero, yoba yarahinduye ivyiyumviro vyiwe akabishira ku yindi migambi, yoba agitanga intererano kuri Bitcoin mu yandi mazina, canke mbere akaba yarapfuye.
 
 
 Naho twoba tutazi uwo Satoshi ari we, turafise ishusho itomoye y’imigambi yiwe inyuma ya Bitcoin. Yaremye Bitcoin nk’inyishu y’ingorane z’ivy’ubutunzi kw’isi yose mu 2008 n’ukutagira icizigiro kwavuyemwo ku bijanye n’uburyo bwa kera bwo gukoresha amabanki n’amahera agenzurwa na Leta.
@@ -836,7 +836,7 @@ Mu biganiro vyiwe vyo kuri internet, yaseruye ukuntu afise ivyiyumviro bitari vy
 "Ikinyamakuru Times 03/Jan/2009 Umukuru w'igihugu ari ku ruhande rwo gufasha amabanki ubwa kabiri."
 
 
-Ivyo ni ibivugwa mu kinyamakuru Times [ingingo](https://www.thetimes.co.uk/ingingo/cancellor-alistair-darling-ari-ku ruhande-rw’ugufasha-amabanki-n91382mn62h), yerekana ivyiyumviro vyiwe vy’uko amabanki yoba ariko aragira ingaruka zitari nke, zishobora kuba zifise ingorane. gusangira n’abafise amafaranga.
+Ivyo ni ibivugwa mu kinyamakuru Times [ingingo](https://www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h), yerekana ivyiyumviro vyiwe vy’uko amabanki yoba ariko aragira ingaruka zitari nke, zishobora kuba zifise ingorane. gusangira n’abafise amafaranga.
 
 Ikindi kandi, turazi mu butumwa bwiwe bwa vuba cane ko Satoshi atemeranya n’ingene ubuhinga bwacu bw’amahera bukora ubu:
 
@@ -1120,7 +1120,7 @@ Bitcoin iha abacuruzi ububasha butagira uko bungana ku bijanye n’ibikorwa vyab
 #### Ibiciro
 
 
-Kuva mu mpera z’umwaka wa 2022, hafi [igice c’ isi](https://Elements.visualcapitalist.com/ibihugu-bifise-igipimo-c'ugutera imbere-kirengeye/#:~:text=Iterambere%20riraduga%20hafi%20hose,ugutera imbere kw'ibiciro kw'imibare%20 kwari hejuru cane,20canke%2) bikaba bituma biba ikintu gihambaye cane. Iyo ibiciro vy’ugutera imbere kw’ibiciro bigumye kuri urwo rwego mu myaka cumi izoza, bizotuma ubushobozi bwo kugura butakaza 65%. Ariko rero, Bitcoin ubu iraha umuntu wese inzira yo gusohokamwo. Kubera ko ari umutungo udasanzwe vy’ukuri, agaciro kawo ntigashobora gusenyuka biciye mu kwagura Supply, bikaturonsa uburyo bwo guhunga ingaruka mbi z’ugusenyuka kw’amahera.
+Kuva mu mpera z’umwaka wa 2022, hafi [igice c’ isi](https://elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/#:~:text=Inflation%20is%20surging%20nearly%20everywhere,digit%20inflation%20rates%20or%20higher.) bikaba bituma biba ikintu gihambaye cane. Iyo ibiciro vy’ugutera imbere kw’ibiciro bigumye kuri urwo rwego mu myaka cumi izoza, bizotuma ubushobozi bwo kugura butakaza 65%. Ariko rero, Bitcoin ubu iraha umuntu wese inzira yo gusohokamwo. Kubera ko ari umutungo udasanzwe vy’ukuri, agaciro kawo ntigashobora gusenyuka biciye mu kwagura Supply, bikaturonsa uburyo bwo guhunga ingaruka mbi z’ugusenyuka kw’amahera.
 
 
 #### Guhunga ibihugu vyasambuwe n’intambara canke bidatekanye
@@ -1168,7 +1168,7 @@ Muri iki gice, tuzokwihweza mu mice itandukanye y'ugucuruza, haba mu fiat canke 
 Blockchain ya Bitcoin igizwe n’amabuye nk’uko izina ryayo rivyerekana. Ivyo bice bifise ubunini burengeye ubw’ibindi vyose bugera kuri megabytes 4. _Ivyo bivuzwe, ubunini bw’ibarabara mu gihe c’ukwandika buza hafi 1.5mb._ Kubera iyo nzira, hariho uburenganzira ku rugero rw’ibikorwa Bitcoin ishobora gukora ku segonda, ni ukuvuga hagati y’ibikorwa indwi n’icumi ku segonda (tps).
 
 
-Ku bw’ivyo, woshobora kwibaza uti: Ni gute Bitcoin’s Blockchain ishobora guhangana n’amashirahamwe nka Visa canke Mastercard akora amahera ku [1.700 ]. tps](https://ku-buhinga-bw'amakuru.com/ikibazo-c'ugutera imbere-mu-Blockchain-igikorwa-c'ugushaka-visa-nk'umuvuduko-w'ugucuruza-5cce48f9d44)?
+Ku bw’ivyo, woshobora kwibaza uti: Ni gute Bitcoin’s Blockchain ishobora guhangana n’amashirahamwe nka Visa canke Mastercard akora amahera ku [1.700 ](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44). tps](https://ku-buhinga-bw'amakuru.com/ikibazo-c'ugutera imbere-mu-Blockchain-igikorwa-c'ugushaka-visa-nk'umuvuduko-w'ugucuruza-5cce48f9d44)?
 
 
 Inyishu ni yoroshe. Si uguhiganwa na bo.
@@ -1240,7 +1240,7 @@ Hariho kandi n’ibindi bisubizo vyinshi vy’ububiko bwa Wallet biboneka ku bik
 Ama wallet atagira ububiko ni ubwoko bwa Bitcoin Wallet aho ari wewe wenyene ubika amafaranga yawe, bisobanura ko ufise ububasha bwose ku mfunguruzo zawe z’ibanga. [Imfunguruzo z’ibanga](https://planb.academy/resources/glossary/private-key) zimeze nk’ijambobanga ry’urupapuro rwawe rwa Wallet kandi zikoreshwa mu gusinya no kwemerera amafaranga. Iyo utazifise, ntushobora kuronka canke gutanga Bitcoin yawe.
 
 
-Ivyuma bitagira amafaranga y’ububiko bitanga umutekano n’ubuzima bwite kuruta ivy’amafaranga y’ububiko kuko ari wewe wenyene ushinzwe umutekano w’amahera yawe. Ingero z’ibikoresho bitagira ububiko ni nk’ibikoresho nka [Coldcard](https://store.coinkite.com/store/coldcard) na [Trezor](https://trezor.io/), ari ibikoresho vy’umubiri bibika imfunguruzo zawe z’ibanga ata murongo kandi bitanga umutekano w’inyongera GW-27. Ibindi bikoresho bikundwa cane bitagiramwo ububiko ni ibikoresho vy’ubuhinga bwa none nka [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), na [Blockstream Green](https://blockstream.com/Green/), bishobora gukurwa kuri mudasobwa yawe canke kubishira kuri telefone ngendanwa.
+Ivyuma bitagira amafaranga y’ububiko bitanga umutekano n’ubuzima bwite kuruta ivy’amafaranga y’ububiko kuko ari wewe wenyene ushinzwe umutekano w’amahera yawe. Ingero z’ibikoresho bitagira ububiko ni nk’ibikoresho nka [Coldcard](https://store.coinkite.com/store/coldcard) na [Trezor](https://trezor.io/), ari ibikoresho vy’umubiri bibika imfunguruzo zawe z’ibanga ata murongo kandi bitanga umutekano w’inyongera GW-27. Ibindi bikoresho bikundwa cane bitagiramwo ububiko ni ibikoresho vy’ubuhinga bwa none nka [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), na [Blockstream Green](https://blockstream.com/green/), bishobora gukurwa kuri mudasobwa yawe canke kubishira kuri telefone ngendanwa.
 
 
 **Naho tutashobora gusaba Wallet yihariye, turaguhanura cane ko wofata ububasha kuri Bitcoin yawe biciye mu [kwizigama](https://planb.academy/resources/glossary/selfcustody) canke mu kwizigama hamwe n'abandi, ivyo bikaba birimwo guhitamwo Wallet ihuye n'ivyo ukeneye n'ivyo ukunda. Ni ngombwa gukora ubushakashatsi bwimbitse imbere yo gufata ingingo ku Wallet kugira ngo umenye neza ko ihuye n'ivyo usaba ku bijanye n'umutekano n'ugukoreshwa.**
@@ -1255,7 +1255,7 @@ Naho amasakoshi yo kubika yoshobora gusa n’abereye, azana n’ingorane zikomey
 Iyo umaze gufata ingingo ku Wallet, umunezero n’imikino ntibirahera gusa. Ubu ni igihe co kugabanya ingorane zo gutakaza. Kugira ngo ukinge Bitcoin yawe, zirikana izi ntambwe umaze guhitamwo Wallet yawe:
 
 
-1. Mbere na mbere, ushire inyuma Wallet yawe igihe ufata uburenganzira bwo kwibungabunga. [Ivyuma vy’amafaranga](https://planb.academy/resources/glossary/hardware-wallet) biza n’[ijambo ry’ugusubizaho seed](https://planb.academy/resources/glossary/recovery-phrase), ni ukuvuga amajambo ashobora gukoreshwa mu gusubizaho imfunguruzo zawe z’ibanga mu gihe igikoresho cawe coba carazimiye canke coba cononekaye. Rema kopi y’umubiri, nk’isahani y’icuma seed, y’iri [jambo seed](https://coincodex.com/ingingo/23147/amafaranga-y’ivyuma-meza-y’ububiko- bw’amajambo-seed/) hanyuma ubike mu gitereko. Ni ngombwa ko iri jambo ry’ugukira seed riguma ritekanye. NTUKIGEZE ubisangiza umuntu n’umwe.
+1. Mbere na mbere, ushire inyuma Wallet yawe igihe ufata uburenganzira bwo kwibungabunga. [Ivyuma vy’amafaranga](https://planb.academy/resources/glossary/hardware-wallet) biza n’[ijambo ry’ugusubizaho seed](https://planb.academy/resources/glossary/recovery-phrase), ni ukuvuga amajambo ashobora gukoreshwa mu gusubizaho imfunguruzo zawe z’ibanga mu gihe igikoresho cawe coba carazimiye canke coba cononekaye. Rema kopi y’umubiri, nk’isahani y’icuma seed, y’iri [jambo seed](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) hanyuma ubike mu gitereko. Ni ngombwa ko iri jambo ry’ugukira seed riguma ritekanye. NTUKIGEZE ubisangiza umuntu n’umwe.
 
 2. Igihe urinda umubare munini wa Bitcoin urenze urugero utoshaka gutakaza, birahambaye ko utohoza uburyo bwo gutegura ivy’ubutaka ku kintu kitari gitegekanijwe c’ugupfa kwawe. Ivyo bituma umuryango wawe n’abakunzi bawe bashobora kuronka no gucunga neza urupapuro rwawe rwa Bitcoin.
 
@@ -1374,7 +1374,7 @@ Rero, hanze y’amamiliyaridi y’abantu badashobora kuronka amabanki n’amaban
 Ikibi kuruta, kiretse dufashe amahera, amahera yacu yose arashikirwa n’ingorane z’amabanki ya kera. Ivyo biratera ingorane nyinshi iyo Leta yacu itegetse ivugurura ry’amabanki ry’agahomerabunwa, nk’uko vyabonetse mu gihe Leta y’Ubugiriki yariko irasenyuka mu 2015.
 
 
-Muri ico gihe c’amagorwa, amabanki yarafunzwe, amahera yakurwa mu ma ATM yari ageze ku madolari 67 gusa ku musi, kandi inyuma y’ivyo vyose, Leta yaracariko irakura [igice] kinini (https://cointelegraph.com/news/greek-banks-deposit-yo-gukura-amahera-mu-mabanki-y’abaguzi-babo-ku giti cabo. ukutagira inshingano.
+Muri ico gihe c’amagorwa, amabanki yarafunzwe, amahera yakurwa mu ma ATM yari ageze ku madolari 67 gusa ku musi, kandi inyuma y’ivyo vyose, Leta yaracariko irakura [igice](https://cointelegraph.com/news/greek-banks-plan-for-bail-in-withdrawals-from-consumer-deposits) kinini (https://cointelegraph.com/news/greek-banks-plan-for-bail-in-withdrawals-from-consumer-deposits giti cabo. ukutagira inshingano.
 
 
 Naho amahera yoshobora gutanga umuti w’ingorane nk’izo, kwizigira amahera y’umubiri mw’isi aho gukoresha ubuhinga bwa none ari ngombwa si umuti w’igihe kirekire.
@@ -1461,7 +1461,7 @@ Bitshares yashizeho stablecoin ya mbere yitwa “bitUSD,” yari igenewe gufatwa
 Naho ivyo vyageragejwe mbere, niho Tether’s USDt yatangura mu 2014 niho stablecoins zaronka ivyiyumviro vyinshi. USDt, nka bitUSD, ni stablecoin igenewe gufatwa n’idolari ry’Amerika, agaciro ka USDt imwe kangana n’idolari rimwe ry’Amerika. USDt yaremewe n’ishirahamwe ryitwa Tether Limited, ishirahamwe ryaryo ry’umuvyeyi na ryo nyene rifise amafaranga y’ivy’ubuhinga bwa none yitwa Exchange Bitfinex.
 
 
-Mu ntango, Tether yakoreshwa cane cane n’abacuruzi kugira ngo bashire amahera hagati y’amahinguriro ataco bakeneye guhindura mu mafaranga y’amahera. Ariko rero, uko abantu benshi batangura gukoresha Tether, ni ko yaronse inkomezi zayo bwite kandi irakundwa cane. Ubu, Tether ni stablecoin ikoreshwa cane kw’isi yose, ikora amadolari arenga \30 miliyaridi ku musi. Kugira ngo ushire uwo mubare mu buryo bubereye, [MasterCard](https://www.cardrates.com/advice/umubare-w'inguzanyo-ku musi-umwaka/#:~:umwandiko=4%20miliyaridi%20inguzanyo%20yari%20yatunganijwe,a%20%inguzanyo y'Ikiyapani%2) [Visa](https://urubuga.ubucuruzi-bumwe.com/gukora-24000-ibikorwa-vya-visa-ku-segonda-ingene-bikora e/#:~:text=VisaNet%2C%20ikarita%20y'urubuga%20yishura,24%2C000%20Visa%20ibikorwa%20ku%20segonda.) igikorwa, ku [mwayeni](https://www.statista.com/imibare/279249/ugugura-ibikorwa-ku-makarita-y'intumbero-rusangi-isi yose/), \amadolari 8,1 miliyaridi na \amadolari 12 miliyaridi ku musi, hakurikijwe uko bigenda. Mu vy’ukuri, 50% vy’amadolari y’Amerika akoreshwa ku musi ku musi ku USDt kurusha Visa na Mastercard vyose hamwe.
+Mu ntango, Tether yakoreshwa cane cane n’abacuruzi kugira ngo bashire amahera hagati y’amahinguriro ataco bakeneye guhindura mu mafaranga y’amahera. Ariko rero, uko abantu benshi batangura gukoresha Tether, ni ko yaronse inkomezi zayo bwite kandi irakundwa cane. Ubu, Tether ni stablecoin ikoreshwa cane kw’isi yose, ikora amadolari arenga \30 miliyaridi ku musi. Kugira ngo ushire uwo mubare mu buryo bubereye, [MasterCard](https://www.cardrates.com/advice/number-of-credit-card-transactions-per-day-year/#:~:text=4%20billion%20transactions%20were%20processed,a%20Japanese%20credit%20card%20company) [Visa](https://blog.unibulmerchantservices.com/processing-24000-visa-transactions-per-second-how-its-done/#:~:text=VisaNet%2C%20the%20card%20network's%20payment,24%2C000%20Visa%20transactions%20per%20second.) igikorwa, ku [mwayeni](https://www.statista.com/statistics/279249/purchase-transactions-on-general-purpose-cards-worldwide/), \amadolari 8,1 miliyaridi na \amadolari 12 miliyaridi ku musi, hakurikijwe uko bigenda. Mu vy’ukuri, 50% vy’amadolari y’Amerika akoreshwa ku musi ku musi ku USDt kurusha Visa na Mastercard vyose hamwe.
 
 
 Naho Tether ikoreshwa cane, ntiyigeze igira impaka. Mu mwaka w’2017, Tether na BitFinex, zompi zifise iFinex Inc, zagirijwe ko zatumye igiciro ca Bitcoin kiduga. Ivyo birego vyari bifitaniye isano n’ikirego c’uko Tether na BitFinex zariko zitanga amafaranga mashasha y’amadolari y’Amerika ata madolari y’Amerika angana n’ayo zifise yo kuyashigikira. Ivyo vyokwongerera Supply ya USDt, iyo na yo ikaba yakoreshejwe mu gutuma igiciro ca Bitcoin kiduga mu buryo bw’ubuhinga.
@@ -1476,7 +1476,7 @@ Ariko rero, abayinegura baracariko baribaza nimba Tether ifise amadolari y’Ame
 Ivyo bivuzwe, mu gihe c’izo mpaka n’ibibazo ku bijanye n’ibizigamirwa vyayo, USDt yarashoboye kuguma ihagaze neza kw’igiciro kuva yatanguye. Ivyo vyatumye iguma ari yo stablecoin izwi cane kw’isoko, mbere n’aho hari n’izindi nyinshi zaserutse zigahiganwa kugira ngo zironke umugabane w’isoko. Muri iki gihe, hariho amafaranga menshi cane adahinduka, imwe yose ikaba ifise uburyo bwayo bwihariye bwo kuguma ifise agaciro kadahinduka.
 
 
-Ikindi kandi, uko isoko ry’amahera y’agaciro ryagenda rirakura, Tether yaraguye aho ishika kugira ngo igere ku vyo abantu basaba. Mu ntango, Tether yatanga gusa USDt kuri Bitcoin Blockchain ikoresheje “metaprotocol” ya Omni, ariko uko isoko ryakura kandi ibibazo bijanye n’uguhindura On-Chain bikagenda biragaragara, yaratanguye [gutanga] Algorand, n’abandi. Uyu musi, hariho ubushakashatsi n’iterambere bikomeye vyo kwongera amahera ya Tether ku Bitcoin, biciye ku [RGB](https://www.rgbfaq.com/faq/ico-ari-RGB) na [Pear Inguzanyo](https://tether.to/ru/inguzanyo-y’imbogo-n’ijambo-rimwe-ri-gutanguza-inguzanyo-y’amapera-inguzanyo-ya-P2P-uburyo-bw’inguzanyo/). Tether kandi yashizeho ibintu bishasha vy’amahera y’agaciro bishingiye ku mafaranga atandukanye nk’ama euro, yen, n’ama yuan y’abashinwa.
+Ikindi kandi, uko isoko ry’amahera y’agaciro ryagenda rirakura, Tether yaraguye aho ishika kugira ngo igere ku vyo abantu basaba. Mu ntango, Tether yatanga gusa USDt kuri Bitcoin Blockchain ikoresheje “metaprotocol” ya Omni, ariko uko isoko ryakura kandi ibibazo bijanye n’uguhindura On-Chain bikagenda biragaragara, yaratanguye [gutanga](https://tether.to/en/transparency/) Algorand, n’abandi. Uyu musi, hariho ubushakashatsi n’iterambere bikomeye vyo kwongera amahera ya Tether ku Bitcoin, biciye ku [RGB](https://www.rgbfaq.com/faq/what-is-rgb) na [Pear Inguzanyo](https://tether.to/en/tether-holepunch-and-synonym-launch-pear-credit-a-p2p-credit-system/). Tether kandi yashizeho ibintu bishasha vy’amahera y’agaciro bishingiye ku mafaranga atandukanye nk’ama euro, yen, n’ama yuan y’abashinwa.
 
 
 Mu gusozera, stablecoins zaje kure cane kuva zatanguye. Kuva mu misi ya mbere ya bitUSD na NuBits gushika ku gukundwa cane kw’ibicuruzwa vya Tether no ku guseruka kw’izindi stablecoins, isoko rya stablecoin ryarateye imbere cane. Naho impaka zikikuje Tether zatumye habaho ivyiyumviro ku bijanye n’uguseruka no kubazwa n’abatanga amafaranga, isoko ry’amafaranga riguma rikura, ritanga ikiraro c’isi yose kandi gishobora guhinduka kuri Bitcoin. Ariko rero, ivyo vyiza biza bivuye ku kwongerekana kw’ugushira hamwe no kwizigira ukwizigirana.
@@ -1491,7 +1491,7 @@ Mu gusozera, stablecoins zaje kure cane kuva zatanguye. Kuva mu misi ya mbere ya
 Nk’uko bikwiye kugaragara ubu, stablecoin ni ubwoko bwa token bwa digitale bwagenewe kuguma bufise agaciro gakomeye bushingiye kuri pegged asset iri munsi yayo. Ivyo bintu bishobora kubamwo amafaranga y’agaciro, ivyuma vy’agaciro, ibicuruzwa, canke ivyo vyose bihurikiye hamwe (nk’igiseke c’amafaranga y’agaciro).
 
 
-Intumbero y’igiceri gikomeye, nka USDt, ni ugutanga ububiko bw’agaciro buhamye cane ugereranije n’uguhinduka kw’amahera atari ayandi mafaranga y’amahera gusa ariko n’ayandi mafaranga y’amahera nk’ipeso ya Argentine, yatakaje [97%](https://www.statista.com/statistics/316750/ hagati y’umwaka wa 2012 n’uwa 2022.
+Intumbero y’igiceri gikomeye, nka USDt, ni ugutanga ububiko bw’agaciro buhamye cane ugereranije n’uguhinduka kw’amahera atari ayandi mafaranga y’amahera gusa ariko n’ayandi mafaranga y’amahera nk’ipeso ya Argentine, yatakaje [97%](https://www.statista.com/statistics/316750/inflation-rate-in-argentina/) hagati y’umwaka wa 2012 n’uwa 2022.
 
 
 Mu vy’ukuri, stablecoin ikora nk’ikiraro hagati y’itunga rya kera na Bitcoin, igatuma abakoresha bashobora gukorana n’ukwizigira kwinshi kandi bashobora kumenya imbere y’igihe.
@@ -1530,7 +1530,7 @@ Naho vyinshi muri ivyo bigo bigenzurwa cane kandi bikagenzurwa kugira ngo bimeny
 Nk’akarorero, kuko izo stablecoins zidashingiye ku muntu azitanga gusa ariko kandi zishingiye ku bigo vy’imari kugira ngo zicunge amafaranga afise mu bibanza vy’ububiko, iyo imwe muri izo nzego ishobora kunanirwa, hariho ubushobozi bwo kugabanya agaciro k’izo stablecoin kandi abantu bose bagatakaza icizigiro ku muntu azitanga.
 
 
-Rimbura USDC, igice ca kabiri gikundwa cane inyuma ya USDt. Igihe banki ya Silicon Valley [yasenyuka] muri Ntwarante 2023, USDC yaratakaje mu gihe gitoyi igiciro cayo ca 1:1 ku madolari y’Amerika, maze icuruzwa ku giciro gito cane c’amadolari y’Amerika. [\$0.88](ivy'amahera y'amahera y'amahera y'amahera). Ivyo ni ugutakaza 12% vy’ubushobozi bwo kugura mw’ijoro rimwe, ivyo bikaba bihangayikishije ku kintu gishaka guhagarara neza mu giciro.
+Rimbura USDC, igice ca kabiri gikundwa cane inyuma ya USDt. Igihe banki ya Silicon Valley [yasenyuka](https://www.circle.com/blog/an-update-on-usdc-and-silicon-valley-bank) muri Ntwarante 2023, USDC yaratakaje mu gihe gitoyi igiciro cayo ca 1:1 ku madolari y’Amerika, maze icuruzwa ku giciro gito cane c’amadolari y’Amerika. [\$0.88](https://www.coingecko.com/en/coins/usd-coin). Ivyo ni ugutakaza 12% vy’ubushobozi bwo kugura mw’ijoro rimwe, ivyo bikaba bihangayikishije ku kintu gishaka guhagarara neza mu giciro.
 
 Impamvu y’ivyo biciro ni uko Circle, itanga USDC, yari yabitse igice c’amahera yayo muri banki ya Silicon Valley. Ivyo vyatumye abantu bafata, batangura kugurisha amafaranga yabo ya USDC kubera ubwoba bw’uko Circle itazoshobora kwubahiriza ibisabwa vyose vyo gucungura. Amahirwe kuri Circle, ni uko ikigo ca Leta Zunze Ubumwe za Amerika n’Ishirahamwe ry’Ubwishingizi bw’Ibizigamirwa (FDIC) vyavyifashemwo maze bitanga ingwati ku bizigamirwa vyose vya banki. Ivyo vyasobanura ko Circle itazotakaza amafaranga yayo, kandi USDC ica yihuta gusubira ku \$1. Ariko rero, vyari gushobora guca mu yindi nzira bitagoranye, bikasiga USDC ari ikisigazwa ca kahise. Ivyo ubifise mu muzirikanyi, birahambaye gukora ubushakashatsi ku mahera atandukanye ashobora gukoreshwa imbere yo guhitamwo gushiramwo amahera canke gucuruza.
 
@@ -1553,7 +1553,7 @@ Ariko rero, bitandukanye n’amahera ashigikiwe na fiat, yizigira amahera ya Let
 Ku bijanye n’igiceri gikomeye gishigikiwe n’ibicuruzwa, uwugitanga, mu bisanzwe afatanije n’ikigo c’ivy’imari, yoronka ivy’umubiri, akabigumya nk’ibizigamirwa mu gihe atanga ibiceri bikomeye bingana n’agaciro k’ivyo bintu. Uwufise stablecoin arashobora rero gucuruza ibimenyetso vyiwe ataco akeneye gukorana n’umutungo w’umubiri canke, mu bihe bimwebimwe, Exchange ibimenyetso vyiwe ku kintu c’umubiri iyo bikenewe.
 
 
-[Inzahabu ya Tether](https://inzahabu.tether.to/) (XAUt) ni akarorero k’igiceri gikomeye gishigikiwe n’ibicuruzwa aho Tether ifata ounce imwe y’inzahabu y’inzahabu ku token yose isohotse. Ivyo bituma igiciro caco kigenda kijanye n’igiciro c’ikintu gishingiyeko, muri iki gihe... inzahabu.
+[Inzahabu ya Tether](https://gold.tether.to/) (XAUt) ni akarorero k’igiceri gikomeye gishigikiwe n’ibicuruzwa aho Tether ifata ounce imwe y’inzahabu y’inzahabu ku token yose isohotse. Ivyo bituma igiciro caco kigenda kijanye n’igiciro c’ikintu gishingiyeko, muri iki gihe... inzahabu.
 
 
 Ikintu gishimishije kumenya kuri XAUt ni uko abafise token bashobora gukurikirana inzahabu iyo sosiyete ifise kugira ngo habeho uguseruka, bagabanye inyifato mbi iyo ari yo yose. Ikindi kandi, barashobora Redeem ibimenyetso vyabo vy’inzahabu igihe cose, bikaba bitanga umutekano wongereweko n’uguhinduranya.
@@ -1604,7 +1604,7 @@ Ubwo buryo bwotuma igiciro ca AlgoCoin kiguma gihagaze mu gihe kirekire mu gihe 
 Ubu, birahambaye kumenya ko kugabanya Supply igendagenda ya token, nk’akarorero, mu kuyigura ubwayo ku giciro c’isoko canke mu gusenya Supply zimwe zimwe n’amahera canke amafaranga yo kubika, vyose ataco bibangamiye akamaro kayo kandi rero n’ivyo isaba, si ikintu gitoyi nk’uko bishobora gusa n’ibisanzwe. Iyo amafaranga y’ubuhinga bwa algorithme yizigiye amategeko agoranye kugira ngo agume afise igiciro gikomeye, ivyo bituma ashobora gushikirwa n’ingorane z’ubuhinga n’ivy’amahera. Ivyo, iyo ukurikije ikibanza, birakoreshwa ubudasiba.
 
 
-Muri Rusama 2022, abacuruzi bamwebamwe barakoresheje ubugoyagoye buri muri TerraUSD (UST), kimwe mu bice bikomeye vy’ubuhinga bwa none. Ivyo vyatumye agaciro ka UST kagabanuka cane kuva ku madolari 18,7 miliyaridi gushika munsi y’amadolari 100 miliyoni mu kwezi kumwe, ivyo bikaba bigereranya ugugabanuka guteye ubwoba [99,5%](https://www.coingecko.com/coins/terraclassicusd).
+Muri Rusama 2022, abacuruzi bamwebamwe barakoresheje ubugoyagoye buri muri TerraUSD (UST), kimwe mu bice bikomeye vy’ubuhinga bwa none. Ivyo vyatumye agaciro ka UST kagabanuka cane kuva ku madolari 18,7 miliyaridi gushika munsi y’amadolari 100 miliyoni mu kwezi kumwe, ivyo bikaba bigereranya ugugabanuka guteye ubwoba [99,5%](https://www.coingecko.com/en/coins/terraclassicusd).
 
 
 Ivyo bishizwe mu muzirikanyi, naho amafaranga y’ubuhinga bwa none (algorithmic stablecoins) yaronse ukwitwararika kubera ubushobozi bwayo bwo guhindura uburyo twiyumvira ku bijanye n’agaciro gakomeye mw’isi y’ubuhinga bwa none, birahambaye kumenya ko akiri iciyumviro gishasha kandi ko yari afise ubushobozi bwo gutera ibibazo n’ubugoyagoye. Kubera ko ari igice gusa, canke rimwe na rimwe, bidashigikirwa n’ibintu vy’umubiri kandi bishingiye cane ku bategura n’ugukora amakode, hamwe n’ukugerageza gukomeye kw’ubuhinga bw’ivy’amahera, turahimiriza kwiyubara no gukora ubushakashatsi bwimbitse imbere yo gukoresha amafaranga yose y’ubuhinga bwa none.
@@ -1622,7 +1622,7 @@ Naho stablecoins akenshi zifatwa nk’izitekanye kubera kamere zazo “zidahindu
 <chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
 
 
-Hura na Adanna, umugore akiri muto aba mu gisagara co mu misozi yo muri Afirika aho amafaranga CFA, yatakaje ubushobozi bwo kugura buteye ubwoba [99,5%](https://bitcoinmagazine.com/culture/Bitcoin-a-faranga-y’ugukuraho ubukoloni) mu myaka 70 iheze, ibidashoboka.
+Hura na Adanna, umugore akiri muto aba mu gisagara co mu misozi yo muri Afirika aho amafaranga CFA, yatakaje ubushobozi bwo kugura buteye ubwoba [99,5%](https://bitcoinmagazine.com/culture/bitcoin-a-currency-of-decolonization) mu myaka 70 iheze, ibidashoboka.
 
 
 Adanna yama akunda cane iciyumviro co kugira ububasha ku mahera yiwe, ariko vyagumye ari indoto idashoboka gushika ubu. Amafaranga akoresha agenzurwa n’abantu bagaragaje ko badafise inyungu z’abantu babo ku mutima, kandi aho aba mu ntara y’i burasirazuba bituma adashobora gukoresha amabanki. Ku bw’ivyo, Adanna nta kindi akora atari ukwizigira amahera y’umubiri, ivyo bikaba bimusiga ari mu kaga k’ubusuma n’ugutakaza uretse n’ugusenyuka kw’ubushobozi bwo kugura.
@@ -1656,7 +1656,7 @@ Rero, reka turabe ayandi mahirwe twahawe kuva Tether’s stablecoins zisohotse.
 Iyumvire gatoyi ko wavukiye kandi ukurira muri Tonga. Ariko uko ukunda igihugu cawe, ukiri muto, urabona ko mu karere iwanyu hariho akazi gatoyi. Rero, ukimara kwimuka, ufata ingingo yo kuva muri Tonga ukaja mu gihugu gifise akazi kenshi. Mu kubigira, ubu urashobora gufasha neza umuryango wawe igihe wohereje igice c’amahera y’umushahara wawe i muhira.
 
 
-Naho ivyo bintu vyoshobora gusa n’ibidashoboka, mu vy’ukuri ni ukuri ku bantu amamiliyaridi bo kw’isi yose, na canecane abo muri Tonga. Kuva mu 2021, amahera yoherezwa, ni ukuvuga igikorwa co gusubiza amahera abakundwa kugira ngo bafashe, vyari bitangaje cane . [45.5%](https://www.ubutunzi bw'isi yose.com/Tonga/amafaranga_yoherezwa_ijana_jana_mu gihugu/#:~:text=Amahera yoherezwa%20nk'ijana%20 y'umudugudu wa20&text=Agaciro ka%20 ka%20ka%20ka%20Tonga,171%2020%60%20) Umusaruro wose w’igihugu ca Tonga (GDP).
+Naho ivyo bintu vyoshobora gusa n’ibidashoboka, mu vy’ukuri ni ukuri ku bantu amamiliyaridi bo kw’isi yose, na canecane abo muri Tonga. Kuva mu 2021, amahera yoherezwa, ni ukuvuga igikorwa co gusubiza amahera abakundwa kugira ngo bafashe, vyari bitangaje cane . [45.5%](https://www.theglobaleconomy.com/Tonga/remittances_percent_GDP/#:~:text=Remittances%20as%20percent%20of%20GDP&text=The%20average%20value%20for%20Tonga,171%20countries%20is%205.66%20percent.) Umusaruro wose w’igihugu ca Tonga (GDP).
 
 
 Kumbure uriko uribaza uti: Ingorane iri hano ni iyihe?
@@ -1676,7 +1676,7 @@ Ikindi kandi, turavye ko umusaruro w’igihugu ca Tonga wari [\$469](https://tra
 Kandi nimba wiyumvira ko Tonga ari yo yonyene muri ivyo, wongere wibaze.
 
 
-Aha niho hari akarorero k’ingene Western Union [isaba] amahera yo kohereza \$100 y’amadolari y’Amerika mu bindi bihugu bimwebimwe bikomeye:
+Aha niho hari akarorero k’ingene Western Union [isaba](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) amahera yo kohereza \$100 y’amadolari y’Amerika mu bindi bihugu bimwebimwe bikomeye:
 
 
 
@@ -1691,7 +1691,7 @@ Aya ni amahera atangaje cane ubu ari mu maboko y’amashirahamwe akomeye yo muri
 Udakunze ibikorwa vya kera vyo kohereza amafaranga, USDt ni amafaranga y'ubuhinga bwa none, ku ntumbero yo gukoresha, agenda ku nzira za Blockchain. Kubera ko bitasaba abahuza nk’amabanki canke abarungika amahera, amafaranga y’ugutanga ni make cane. Ikindi kandi, uko amafaranga akoreshwa kuri Blockchain ya bose, ivyo bituma habaho uguseruka cane be n’ubuzima bwite. Ivyo bisigura ko abantu bashobora kohereza amahera abo bakunda mu bindi bihugu hafi mu kanya nk’ako gukubita, ata nkomanzi, kandi ku giciro gito cane.
 
 
-Nk’akarorero, USDt, ikora canecane ku nzira z’amabarabara za Ethereum na Tron, yaragize 1000. [\$1.02]( https://ycharts.com/ibimenyetso/amafaranga_asanzwe_y'ugucuruza#:~:umwandiko=Amahera y'ugucuruza%20 ni,20.90%25%20kuva%20mwe%20%20iheze.) [\$0.000005](https://bitpowr.com/blog/ingene-worungika-amafaranga-atari-mu-mafaranga-a-tron) amafaranga y’ugucuruza, hakurikijwe, mu mwaka uheze, ata kuraba amahera yoherejwe— amafaranga aguma ari imwe haba wohereje \$5 canke \0.0.000. Kandi uko tuvuga, abahinguzi bariko barakora ku [stablecoins](https://www.coindesk.com/tech] Bitcoin ya Lightning Network, iyo yobona amafaranga agera kuri [\$0.0003]
+Nk’akarorero, USDt, ikora canecane ku nzira z’amabarabara za Ethereum na Tron, yaragize 1000. [\$1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) [\$0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions) amafaranga y’ugucuruza, hakurikijwe, mu mwaka uheze, ata kuraba amahera yoherejwe— amafaranga aguma ari imwe haba wohereje \$5 canke \0.0.000. Kandi uko tuvuga, abahinguzi bariko barakora ku [stablecoins](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-bitcoin-developers-to-mint-and-transfer-assets-on-the-blockchain/) Bitcoin ya Lightning Network, iyo yobona amafaranga agera kuri [\$0.0003](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption)
 
 
 Hakoreshejwe USDt, Abanyatonga, hamwe n’abandi bose bohereje amahera mu miryango yabo, barashobora kuronka amahera menshi cane bohereje, ivyo bikaba bishobora gutuma ubuzima bwabo butera imbere cane, bigatuma ubutunzi bw’igihugu cabo butera imbere.
@@ -1898,10 +1898,10 @@ Ubwa nyuma, agaciro k’isoko kose ka Bitcoin kari ku rugero rw’amadolari 550 
 
 
 
-- Isoko ry'ivy'ubutunzi kw'isi yose: [\$124.4 trillions](www.sifma.org/ibikoresho/ubushakashatsi/igitabu-cy'amakuru/)
+- Isoko ry'ivy'ubutunzi kw'isi yose: [\$124.4 trillions](https://www.sifma.org/resources/research/fact-book/)
 - Isoko ry'inyungu zidahinduka/impapuro z'ideni kw'isi yose: \$126.9 trillions
-- Isoko ry’amazu n’ibindi bibanza kw’isi yose: [\$326.5 trillions](https://www.savills.com/ingaruka/imigenderanire-y’isoko/agaciro-kose-k’amazu-y’isi yose.html)
-- Isoko ry’isi yose ry’ibikomoka ku bindi: Rigereranywa ko rirenga [\$1 quadrillion]
+- Isoko ry’amazu n’ibindi bibanza kw’isi yose: [\$326.5 trillions](https://www.savills.com/impacts/market-trends/the-total-value-of-global-real-estate.html)
+- Isoko ry’isi yose ry’ibikomoka ku bindi: Rigereranywa ko rirenga [\$1 quadrillion](https://www.investopedia.com/ask/answers/052715/how-big-derivatives-market.asp)
 
 
 Muri vyose, iyo abantu bita Bitcoin igihu, canke:
@@ -1918,10 +1918,10 @@ Muri vyose, iyo abantu bita Bitcoin igihu, canke:
 Abanegura kenshi bavuga ko uguhinduka kwa Bitcoin bituma iba uburyo bubi bwo gushiramwo amahera, ariko iyo mpamvu irirengagiza ibintu bikeyi bihambaye ku bijanye n’igituma Bitcoin iriko irashikirwa n’uguhinduka nk’ukwo.
 
 
-Ica mbere, uguhinduka kwa Bitcoin ni ikiganiro ca Hot kandi vyatumye bamwe banegura uwo mutungo kubera uguhinduka kw’igiciro kwawo gukomeye. Twemera ko ivyo ari ukubona ibintu mu buryo bukeyi ku bijanye n’uguhinduka nk’uko uguhinduka gupima ingene igiciro c’umutungo gihinduka, atari ukugabanuka kwaco gusa. Abafise ubukomezi bwo gufata neza Bitcoin biciye mu guhinduka kwayo barahezagiwe cane. Fata nk’akarorero ivy’ubutunzi A na B. Itunga A ryiyongera ku rugero rwa mwayeni n’ibice 10% ku mwaka n’ugukevya kw’ibice 15%, mu gihe umutungo B wiyongera n’ibice 5% ku mwaka n’ugukevya kw’ibice 10%. Naho umutungo B ufise ubushobozi bwo guhinduka buke kuruta umutungo A, umutungo A urarusha umutungo B mu gihe kirekire. Utegerezwa kuba witeguye guhangana n’uguhinduka kugira ngo wimbure ivyiza vy’uguhinduka kw’ibiciro vya Bitcoin. Ikindi kandi, USD ishobora kuba idahinduka cane ku musi ku musi. Ariko rero, nimba warafise ayo mafaranga mu myaka 100 iheze, uba waratakaje [96%](https://www.visualcapitalist.com/ubushobozi-bw’ugugura-bw’idolari-ry’Umurundi-mu-gihe/) bw’ubushobozi bwo kugura.
+Ica mbere, uguhinduka kwa Bitcoin ni ikiganiro ca Hot kandi vyatumye bamwe banegura uwo mutungo kubera uguhinduka kw’igiciro kwawo gukomeye. Twemera ko ivyo ari ukubona ibintu mu buryo bukeyi ku bijanye n’uguhinduka nk’uko uguhinduka gupima ingene igiciro c’umutungo gihinduka, atari ukugabanuka kwaco gusa. Abafise ubukomezi bwo gufata neza Bitcoin biciye mu guhinduka kwayo barahezagiwe cane. Fata nk’akarorero ivy’ubutunzi A na B. Itunga A ryiyongera ku rugero rwa mwayeni n’ibice 10% ku mwaka n’ugukevya kw’ibice 15%, mu gihe umutungo B wiyongera n’ibice 5% ku mwaka n’ugukevya kw’ibice 10%. Naho umutungo B ufise ubushobozi bwo guhinduka buke kuruta umutungo A, umutungo A urarusha umutungo B mu gihe kirekire. Utegerezwa kuba witeguye guhangana n’uguhinduka kugira ngo wimbure ivyiza vy’uguhinduka kw’ibiciro vya Bitcoin. Ikindi kandi, USD ishobora kuba idahinduka cane ku musi ku musi. Ariko rero, nimba warafise ayo mafaranga mu myaka 100 iheze, uba waratakaje [96%](https://www.visualcapitalist.com/purchasing-power-of-the-u-s-dollar-over-time/) bw’ubushobozi bwo kugura.
 
 
-Ubwa kabiri, uguhinduka ni ikintu gisanzwe iyo bije ku bijanye no gukoresha ubuhinga bwa none. Iyo ubuhinga bushasha buje, nta gukeka ko haba ukudakeka n’ugutekereza ku bijanye n’ubushobozi bwabwo, ivyo bikaba bituma ibiciro bihinduka. Ubwenge bukorano (AI) ni akarorero nyamukuru k’urwego ruhinduka cane. Kuva mu [2021 gushika mu 2022](https://www.ubushakashatsi bw'imbere \$119 billion. Ariko naho AI ishobora guhinduka, inyungu zo gushiramwo amahera muri AI ntizishobora kwirengagizwa Kuva ku modoka zitwara umuntu ku giti ciwe gushika ku buvuzi bugenewe umuntu ku giti ciwe, ubushobozi bwo gukoresha AI ni bwinshi cane Rero, nimba ukunda AI, ntushobora gutakaza amahirwe yo guhinduka.
+Ubwa kabiri, uguhinduka ni ikintu gisanzwe iyo bije ku bijanye no gukoresha ubuhinga bwa none. Iyo ubuhinga bushasha buje, nta gukeka ko haba ukudakeka n’ugutekereza ku bijanye n’ubushobozi bwabwo, ivyo bikaba bituma ibiciro bihinduka. Ubwenge bukorano (AI) ni akarorero nyamukuru k’urwego ruhinduka cane. Kuva mu [2021 gushika mu 2022](https://www.precedenceresearch.com/artificial-intelligence-market#:~:text=The%20global%20artificial%20intelligence%20(AI,USD%2051%20billion%20in%202021.) bw'imbere \$119 billion. Ariko naho AI ishobora guhinduka, inyungu zo gushiramwo amahera muri AI ntizishobora kwirengagizwa Kuva ku modoka zitwara umuntu ku giti ciwe gushika ku buvuzi bugenewe umuntu ku giti ciwe, ubushobozi bwo gukoresha AI ni bwinshi cane Rero, nimba ukunda AI, ntushobora gutakaza amahirwe yo guhinduka.
 
 
 Ikindi kandi, ukuntu Bitcoin ihinduka si ikintu kimwe gusa. Amasoko y’ivy’ubutunzi asanzwe na yo nyene arashikirwa n’uguhinduka kw’ibiciro vy’itunga, nk’isoko ry’ivy’ubutunzi, isoko ry’ibicuruzwa, eka mbere n’amahera. Nkako, uguhinduka kwa Bitcoin birashoboka ko ataco bimaze kuruta ibindi bintu vyinshi.
@@ -2021,10 +2021,10 @@ Ariko Bitcoin nayo irahiganwa na Layer uburyo bubiri bwo gukorana, n’ubuhinga 
 Naho inyigisho nyinshi zigaragaza ko ivyo bivugwa ko ari ibinyoma, Bitcoin iracariko iranegurwa kenshi ko ikoreshwa canecane mu bikorwa bitemewe n’amategeko. Na none, ivyo ntivyari gushobora kuba kure y’ukuri.
 
 
-Icigwa kimwe (https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_mu_vy'amahera_atemewe) cakozwe n'uwahoze ari umuyobozi wungirije wa CIA casanze "ivy'ugukoresha Bitcoin mu vy'amahera atemewe birenze cane." Nkako, kuva mu 2016, ibice bitari munsi ya 1% vy’amahera yose Bitcoin yagurishije vyakoreshejwe mu bikorwa bitemewe n’amategeko. Mu kugereranya, "bamwe bashira ubutunzi bwo mu mpisho ku bice 11% gushika kuri 12% vy'umusaruro wose wo mu gihugu ca Amerika," ivyo bikaba ari vyo vyinshi bifasha idolari ry'Amerika.
+[Icigwa](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) kimwe cakozwe n'uwahoze ari umuyobozi wungirije wa CIA casanze "ivy'ugukoresha Bitcoin mu vy'amahera atemewe birenze cane." Nkako, kuva mu 2016, ibice bitari munsi ya 1% vy’amahera yose Bitcoin yagurishije vyakoreshejwe mu bikorwa bitemewe n’amategeko. Mu kugereranya, "bamwe bashira ubutunzi bwo mu mpisho ku bice 11% gushika kuri 12% vy'umusaruro wose wo mu gihugu ca Amerika," ivyo bikaba ari vyo vyinshi bifasha idolari ry'Amerika.
 
 
-Kandi nk’uko bigaragara muri raporo ya Chainalysis mu mwaka w’2020, ibikorwa bitemewe n’amategeko bifise gusa nk’ibice nka [0,34%](https://www.
+Kandi nk’uko bigaragara muri raporo ya Chainalysis mu mwaka w’2020, ibikorwa bitemewe n’amategeko bifise gusa nk’ibice nka [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf).
 
 
 Ariko rero, naho nyene ivyo bimenyamenya biriho, amajambo azimiza arabandanya guvugwa n’abafise ububasha, nk’uko umunyamabanga mukuru w’itunga rya Amerika Janet Yellen [avuga](https://home.treasury.gov/news/press-releases/jy0023), “Amafaranga y’ivy’ubuhinga bwa none yarakoreshejwe mu gucuruza ibiyayuramutwe ku rubuga rwa interineti; iterabwoba."
@@ -2129,7 +2129,7 @@ Abahingura inguvu ubu barashobora guhindura inguvu zitagira aho zigarukira zija 
 Mu kwagura ico ciyumviro, uruzitiro rwacu rw’inguvu rwagenewe gukora n’ubushobozi burenze urugero, mu bisanzwe rukoresha gusa 40-60% vy’inguvu rushobora gutanga mu gihe ico ari co cose. Iryo tegeko ryo kwirinda rituma uruzitiro rushobora kwihuta kwakira ivyuka vy’inguvu bitari bitezwe mu gihe c’ibintu nk’ibihe bikomeye cane, nk’imipfunda y’ubushuhe canke ibihe vy’ubushuhe bwa Cold, igihe abantu bakoresha cane ibikoresho vyo gutuma umuyaga ugera mu nzu canke ibikoresho vyo gushushanya. Kubera ko abahingura inguvu badashobora guca bongera umusaruro wabo kugira ngo bashobore guhura n’ukwiyongera kw’abazisaba bukwi na bukwi, gutanga ingufu zirengeye biraba ngombwa, bikaba bizana amafaranga menshi y’itunga be n’ubushobozi bwo gukoresha ingufu ubusa.
 
 
-Kandi ivyo gusesagura ntibisa n’ibizotera imbere vuba. Uko inkomezi z’umuyaga zihinduka, kandi uburemere bw’izuba bugabanuka iyo ibicu bipfutse, inguvu z’umuyaga zica zikikuje . [15-30%](http://anemoiservices.com/amakuru-y'inganda/umuyagankuba-ukora-ungahe/#:~:text=Igihe%20hariho%20umuyaga20ugenda buhoro,ku%20hafi%2015%39,2020) inguvu z’izuba ziza hafi [16-24%](inguvu z’izuba zikora neza cane) zikora neza. Hakurikijwe imigambi yacu yo guhindukira tuja mu kwizigira 100% inkomoko z’inguvu zishobora gusubirwamwo, biraba ngombwa ko tugira ubushobozi bw’inguvu nibura incuro zitatu z’ivyo uruzitiro rukeneye. Ubwo bushobozi burengeye burakenewe kugira ngo uruzitiro rugumye ruhagaze neza iyo Supply ihagaze, bigabanye ingorane zo kuzima. Ariko rero, ivyo bisigura kandi ko igice kinini c’inguvu dukora kizohagarara igihe cose! Izo nguvu nta kindi zifise. Nta n’umwe afise umutima ukunze wo kuyigura.
+Kandi ivyo gusesagura ntibisa n’ibizotera imbere vuba. Uko inkomezi z’umuyaga zihinduka, kandi uburemere bw’izuba bugabanuka iyo ibicu bipfutse, inguvu z’umuyaga zica zikikuje . [15-30%](http://anemoiservices.com/industry-news/how-much-electricity-does-a-wind-turbine-produce/#:~:text=When%20there%20are%20slow%20wind,at%20about%2015%E2%80%9330%25.) inguvu z’izuba ziza hafi [16-24%](https://www.cleanenergyreviews.info/blog/most-efficient-solar-panels) zikora neza. Hakurikijwe imigambi yacu yo guhindukira tuja mu kwizigira 100% inkomoko z’inguvu zishobora gusubirwamwo, biraba ngombwa ko tugira ubushobozi bw’inguvu nibura incuro zitatu z’ivyo uruzitiro rukeneye. Ubwo bushobozi burengeye burakenewe kugira ngo uruzitiro rugumye ruhagaze neza iyo Supply ihagaze, bigabanye ingorane zo kuzima. Ariko rero, ivyo bisigura kandi ko igice kinini c’inguvu dukora kizohagarara igihe cose! Izo nguvu nta kindi zifise. Nta n’umwe afise umutima ukunze wo kuyigura.
 
 
 Ariko ubu abahingura inguvu barafise uburyo bwo gukoresha neza izo nguvu zicitse intege, zikaba zari guca ubusa. Mu gukoresha amahera y’inguvu zisigaye biciye ku Bitcoin Mining, abahingura inguvu barashobora gutuma ibikorwa vyabo bigenda neza, bakavyungukirako mu vy’amahera, maze amaherezo bagabanura ibiciro ku muntu wese ari ku rubuga.
@@ -2141,10 +2141,10 @@ Ubwa nyuma, abacukuzi b’amabuye y’agaciro ba Bitcoin baravyurirwa umutima wo
 ![image](assets/en/004.webp)
 
 
-_**Igishushanyo:** Igikoresho co gutera umuriro [Gaz](2022/09/ugutera umuriro-mu-inganda-ya-amavuta-nti-gikora-bike-kuru-kw'inyigisho-y'ivyiyumviro/)_
+_**Igishushanyo:** Igikoresho co gutera umuriro [Gaz](https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
 
 
-Ariko rero, kubera Bitcoin, abahinga barateguye uburyo bwo gukoresha iyo gaze kavukire ubundi yari gutakaza ubusa mu kuyihindura inguvu zo guha ubushobozi abacukuzi b’amabuye y’agaciro ba Bitcoin. Iryo terambere ntiritanga gusa inyungu z’inyongera kuri ayo mashirahamwe, ariko kandi rirafise akamaro kanini ku bidukikije. Mu gukoresha gazi y’umuriro ku muyagankuba wa generate ku Bitcoin Mining, ayo mashirahamwe arashobora [kugabanya ivyuka bihumanya ikirere](https://batcoinz.com/kugereranya-ingaruka-zo-gukoresha-metane-ifatanye-ku-muyagankuba-wa Bitcoin. Mu vy’ukuri, Bitcoin ni carbone-negative muri iki gihe mu gutanga uburyo bwo kugabanya ivyuka bihumanya ikirere no gukoresha neza inkomoko z’inguvu zari zatawe mbere.
+Ariko rero, kubera Bitcoin, abahinga barateguye uburyo bwo gukoresha iyo gaze kavukire ubundi yari gutakaza ubusa mu kuyihindura inguvu zo guha ubushobozi abacukuzi b’amabuye y’agaciro ba Bitcoin. Iryo terambere ntiritanga gusa inyungu z’inyongera kuri ayo mashirahamwe, ariko kandi rirafise akamaro kanini ku bidukikije. Mu gukoresha gazi y’umuriro ku muyagankuba wa generate ku Bitcoin Mining, ayo mashirahamwe arashobora [kugabanya ivyuka bihumanya ikirere](https://batcoinz.com/quantifying-the-impact-of-using-stranded-methane-on-the-bitcoin-network/ Bitcoin. Mu vy’ukuri, Bitcoin ni carbone-negative muri iki gihe mu gutanga uburyo bwo kugabanya ivyuka bihumanya ikirere no gukoresha neza inkomoko z’inguvu zari zatawe mbere.
 
 
 Muri vyose, kubera ko abacukuzi b’amabuye y’agaciro ba Bitcoin baremeshwa kurondera amasoko y’inguvu ataco atwara, akenshi bagakunda inguvu zishobora gusubirwamwo, Bitcoin irashima kimwe mu [vyinshi . n’inguvu zivanze hagati y’inganda mbere n’ibihugu. Rero, igihe kizoza umuntu azovyura ivyiyumviro ku bijanye n’ibirenge vya Bitcoin ku bidukikije, urashobora gusubiza n’ukwizigira ko Bitcoin iri imbere mu migenzo y’inguvu ziramvye.
@@ -2159,7 +2159,7 @@ Kandi ubwanyuma...
 Turashaka gutangura tuvuga ngo: **Ibintu vyose bifata inguvu**, twaba tubibona canke tutabibona. Mbere n’igikorwa coroshe, nk’ukwirukana n’imbwa yawe, birasaba ko wewe ubwawe wiha amavuta be n’uwo mufatanije ubwoya. Wewe n’imbwa yawe muri abakoresha inguvu.
 
 
-Ubu rero umugambi wacu si uwo kunegura izindi nganda kubera uko zikoresha inguvu kuko nk’uko twabibonye haruguru, gukoresha inguvu bisobanura agaciro abantu basanga mu bikorwa canke mu bicuruzwa bitangwa. Ariko rero, ni ngombwa ko umuntu abona neza ingene Bitcoin ikoresha inguvu. Rimbura ibi bikurikira [ibigereranyo](https:
+Ubu rero umugambi wacu si uwo kunegura izindi nganda kubera uko zikoresha inguvu kuko nk’uko twabibonye haruguru, gukoresha inguvu bisobanura agaciro abantu basanga mu bikorwa canke mu bicuruzwa bitangwa. Ariko rero, ni ngombwa ko umuntu abona neza ingene Bitcoin ikoresha inguvu. Rimbura ibi bikurikira [ibigereranyo](https://bitcoinmagazine.com/business/bitcoin-energy-use-compare-industry):
 
 
 
@@ -2223,7 +2223,7 @@ Ariko rero, ivyo si ko biri ku bice vyose vy’amahera bihoraho, aho vyinshi bit
 Ikindi kintu gikunze kunegurwa ni uko amafaranga y'amahera akenshi adashigikirwa n'amahera ahubwo "amahera n'amahera angana na yo." _Iri ni ijambo ry'ubuhinga ry'amahera n'ibisigazwa bimeze nk'amahera bishobora guhindurwa bitagoranye bikaba amahera_. Ariko rero, birahambaye ko turimbura ingingo zibiri:
 
 
-Ica mbere, abatanga stablecoin kenshi bashiramwo amahera angana aho gufata amahera, kuko amahera ashobora kugira ingaruka zikomeye ku rutonde rw’amahera y’uwutanga stablecoin. Kubera amategeko agenga amabanki ariho ubu, umutungo wose wo mu gitabu c’amahera, nk’amahera, urashobora gutakaza iyo ushobora gusenyuka, kandi ishirahamwe ry’ubwishingizi bw’amafaranga y’igihugu (FDIC) ritanga gusa ubwishingizi bushika ku madolari 250.000 y’Amerika, amahera arenga iyo nzira akaba ari mu kaga. Kugira ngo ivyo bigabanywe, amafaranga y’amahera agumaho afise intumbero yo kurinda abayakoresha ibintu bitari bitezwe, akenshi ashira amahera mu mafaranga y’itunga atangazwa na Leta. Mu gushiramwo amafaranga nk’amatunga, ntibitanga umwimbu gusa, ivyo bintu bishobora gufatwa nk’ivy’ubutunzi bitari mu gitabu c’ubutunzi. Ivyo bituma abatanga amafaranga y’amahera y’agaciro (stablecoin) bashobora kurinda amahera yabo iyo banki yoba yacitse intege, kuko ayo mafaranga yoshobora gusubirwamwo umukiriya. Ikigereranyo gikomeye c’ivyo cabaye muri Ruhuhuma/Ntwarante 2023, kirimwo Silicon Valley Bank (SVB) na Circle, ishirahamwe riri inyuma y’amahera y’i USDC. Iciyo gihe, Circle yari ifise amahera menshi cane [\$3.3]. miliyari](www.coindesk.com/ubucuruzi/2023/03/11/uruziga-rwemeza-33b-y'amafaranga-yabitswe-ya-usdcs-yafashe-ku-silic-yananiwe on-valley-bank/#:~:text=Igiceri%20gitanga%20Umuzingi%20wavuze%20cerewe,ububiko%20bushigikiye%20Igiceri%20Umuzingi%20USDC.) mu mafaranga yashizwe muri SVB. Kandi rero, SVB yaracitse intege. Kugira ngo FDIC ntihagire icago c’amahera, yarafashe ingingo yo gukiza Circle n’izindi sosiyete zashikiwe n’ico kiza mu gupfuka amahera yari yabuze. Ariko rero, ivyo si vyo bimenyerewe. Ico kintu kitari bwigere kiba, ni co cabaye ubwa mbere muri kahise ibintu nk’ivyo vyabaye. Iyo FDIC itagira ico ikoze, Circle na yo nyene yari gushobora gusenyuka.
+Ica mbere, abatanga stablecoin kenshi bashiramwo amahera angana aho gufata amahera, kuko amahera ashobora kugira ingaruka zikomeye ku rutonde rw’amahera y’uwutanga stablecoin. Kubera amategeko agenga amabanki ariho ubu, umutungo wose wo mu gitabu c’amahera, nk’amahera, urashobora gutakaza iyo ushobora gusenyuka, kandi ishirahamwe ry’ubwishingizi bw’amafaranga y’igihugu (FDIC) ritanga gusa ubwishingizi bushika ku madolari 250.000 y’Amerika, amahera arenga iyo nzira akaba ari mu kaga. Kugira ngo ivyo bigabanywe, amafaranga y’amahera agumaho afise intumbero yo kurinda abayakoresha ibintu bitari bitezwe, akenshi ashira amahera mu mafaranga y’itunga atangazwa na Leta. Mu gushiramwo amafaranga nk’amatunga, ntibitanga umwimbu gusa, ivyo bintu bishobora gufatwa nk’ivy’ubutunzi bitari mu gitabu c’ubutunzi. Ivyo bituma abatanga amafaranga y’amahera y’agaciro (stablecoin) bashobora kurinda amahera yabo iyo banki yoba yacitse intege, kuko ayo mafaranga yoshobora gusubirwamwo umukiriya. Ikigereranyo gikomeye c’ivyo cabaye muri Ruhuhuma/Ntwarante 2023, kirimwo Silicon Valley Bank (SVB) na Circle, ishirahamwe riri inyuma y’amahera y’i USDC. Iciyo gihe, Circle yari ifise amahera menshi cane [\$3.3](https://www.coindesk.com/business/2023/03/11/circle-confirms-33b-of-usdcs-cash-reserves-stuck-at-failed-silicon-valley-bank/#:~:text=Stablecoin%20issuer%20Circle%20said%20late,reserves%20backing%20Circle's%20stablecoin%20USDC.). miliyari](www.coindesk.com/ubucuruzi/2023/03/11/uruziga-rwemeza-33b-y'amafaranga-yabitswe-ya-usdcs-yafashe-ku-silic-yananiwe on-valley-bank/#:~:text=Igiceri%20gitanga%20Umuzingi%20wavuze%20cerewe,ububiko%20bushigikiye%20Igiceri%20Umuzingi%20USDC.) mu mafaranga yashizwe muri SVB. Kandi rero, SVB yaracitse intege. Kugira ngo FDIC ntihagire icago c’amahera, yarafashe ingingo yo gukiza Circle n’izindi sosiyete zashikiwe n’ico kiza mu gupfuka amahera yari yabuze. Ariko rero, ivyo si vyo bimenyerewe. Ico kintu kitari bwigere kiba, ni co cabaye ubwa mbere muri kahise ibintu nk’ivyo vyabaye. Iyo FDIC itagira ico ikoze, Circle na yo nyene yari gushobora gusenyuka.
 
 
 Ubwa kabiri, kenshi turanegura abatanga amafaranga y’amafaranga (stablecoin) kubera ko bashiramwo amahera mu bintu bitari amahera, yamara uburyo bwacu bwo gukoresha amabanki buriho bukora ku buryo bw’ububiko bw’ibice. Mu majambo yoroshe, amabanki ntagira amahera ahagije kugira ngo ashobore gutanga amahera abakiriya bayo basaba. Iyo igice kinini c’abanyagihugu cacu bakura amahera yabo, urwego rw’amabanki rwoca rusenyuka ningoga. Nkako, kuva mu mwaka w’2020, igisabwa co kubika amahera muri Leta Zunze Ubumwe za Amerika cashizwe kuri [zero](https://www.federalreserve.gov/monetarypolicy/reservereq.htm), bisobanura ko amabanki adategetswe kubika **IYO YOSE** y’abaguzi.
@@ -2268,7 +2268,7 @@ Mu ncamake, igihe kizoza stablecoin icuruzwa hejuru canke munsi y’igiciro cayo
 Mu gutorera umuti iciyumviro kitari co c’uko amafaranga y’ama stablecoins ashobora guhagarika amafaranga yawe kubera ko ari ahantu hamwe, birahambaye ko ushimika ku ntandukaniro iri hagati y’ibigo bishizwe hamwe n’ibigo bishizwe ahantu hamwe, kimwe cose kikaba gifise ivyiza n’ibibi vyaco. Naho dushigikira cane imitungo yegerejwe nka Bitcoin, ivyo ntibisigura ko amafaranga yegerejwe atagira agaciro canke inyungu.
 
 
-Kimwe mu vyiza nyamukuru vyo gushiramwo ibintu vyose hamwe ni ubushobozi bwo kwinjiramwo igihe ari mu nyungu z’abakoresha n’ugushikama kw’urutonde muri rusangi. Naho ari ukuri, abatanga amafaranga y’ama stablecoins barafise ubushobozi bwo guhagarika amafaranga. Mu bihe vyose, ivyo ntibikoreshwa nk’igitero kibi ku wufise stablecoin. Ahubwo ni mu gufatanya n’abajejwe gukurikiza amategeko kugira ngo bakingire abaguzi. Akarorero gakomeye ni akajanye n’ugusenyuka kw’indege ya FTX Exchange. Mu gukorana n’abajejwe gukurikiza amategeko, Tether yahagaritse [\$46 millions](https://www.coindesk.com/business/2022/11/10/) y’amadolari y’Amerika kugira ngo ikingire amafaranga y’abaguzi.
+Kimwe mu vyiza nyamukuru vyo gushiramwo ibintu vyose hamwe ni ubushobozi bwo kwinjiramwo igihe ari mu nyungu z’abakoresha n’ugushikama kw’urutonde muri rusangi. Naho ari ukuri, abatanga amafaranga y’ama stablecoins barafise ubushobozi bwo guhagarika amafaranga. Mu bihe vyose, ivyo ntibikoreshwa nk’igitero kibi ku wufise stablecoin. Ahubwo ni mu gufatanya n’abajejwe gukurikiza amategeko kugira ngo bakingire abaguzi. Akarorero gakomeye ni akajanye n’ugusenyuka kw’indege ya FTX Exchange. Mu gukorana n’abajejwe gukurikiza amategeko, Tether yahagaritse [\$46 millions](https://www.coindesk.com/business/2022/11/10/tether-freezes-46m-of-usdt-following-law-enforcement-request/) y’amadolari y’Amerika kugira ngo ikingire amafaranga y’abaguzi.
 
 
 Iyindi nkuru yerekana inyungu z’ugufasha mu rwego rwo hejuru yabaye inyuma y’aho [KuCoin hack](https://cointelegraph.com/news/tether-freezes-150-million-in-usdt) ikorewe muri Nzero 2020. Izo ngero zirerekana ingene amafaranga y’amahera ashizwe hamwe, mu bihe bimwebimwe, ashobora kwishura ningoga abakora ivy’ububisha no kurinda inyungu z’abayakoresha.
@@ -2318,7 +2318,7 @@ Mu mpera, kazoza k’ivy’ubutunzi bwegerejwe abantu bose kari ku bashaka gukor
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
 
-Mu isi y’ubu y’isi yose, kuronka ubufasha bw’ivy’ubutunzi ni ikintu gihambaye cane mu bijanye no kugira uruhara mu vy’ubutunzi no kwigenga. Naho ari ukwo, abantu benshi cane baracari hanze y’uburyo bwa kera bwo gukoresha amabanki, abagore bakaba ari bo akenshi bikorera umutwaro w’ukwo hanze. Igiteye ubwoba ni uko naho [ica kane] c’abantu bo kw’isi yose kidakenewe kiguma kitagira amabanki, mu bihugu nka Arabiya Saudite, [36.5%](https://ibirimwo.11fs.com/ingingo/ubushobozi-bw'ivy'amahera-n'itandukaniro-ry'uburinganire-mu-burasirazuba-hagati#:~:text=Mu%20myaka%20iheze,63.5%25%20%2D%0ft20 abagabo. ibikorwa vy’ishimikiro vy’amabanki, bikababuza kugira uruhara rwuzuye mu bukungu n’imibano y’igihugu cabo.
+Mu isi y’ubu y’isi yose, kuronka ubufasha bw’ivy’ubutunzi ni ikintu gihambaye cane mu bijanye no kugira uruhara mu vy’ubutunzi no kwigenga. Naho ari ukwo, abantu benshi cane baracari hanze y’uburyo bwa kera bwo gukoresha amabanki, abagore bakaba ari bo akenshi bikorera umutwaro w’ukwo hanze. Igiteye ubwoba ni uko naho [ica kane](https://www.worldbank.org/en/publication/globalfindex) c’abantu bo kw’isi yose kidakenewe kiguma kitagira amabanki, mu bihugu nka Arabiya Saudite, [36.5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) abagabo. ibikorwa vy’ishimikiro vy’amabanki, bikababuza kugira uruhara rwuzuye mu bukungu n’imibano y’igihugu cabo.
 
 
 Akira ingero nkeyi gusa z'ibintu abagore bo kw'isi yose bakihanganira n'ubu:
@@ -2328,9 +2328,9 @@ Akira ingero nkeyi gusa z'ibintu abagore bo kw'isi yose bakihanganira n'ubu:
 
 2. Gushingira ku ncuti z’abagabo: Mu bihugu vyinshi vy’abavyeyi, abagore baravyifatamwo neza mu ncuti z’abagabo kugira ngo babafashe mu vy’amahera. Ivyo bisigura ko badashobora kwifatira ingingo z’ivy’amahera kandi akenshi baba bari ku mbabazi z’incuti zabo z’abagabo. Nk'akarorero, muri Afghanistan, abagore kenshi bategerezwa kwizigira abagabo bo mu muryango kugira ngo babafashe mu vy'amahera, kandi bashobora kutaronka ubufasha bw'amahera ata ruhusha rw'umugabo abarera.
 
-3. Uguhagarika akazi: Mu bihugu bimwebimwe, abagore ntibemerewe gukora hanze y’urugo, ivyo bikaba bituma bagorwa no kwigenga mu vy’amahera. Nk’akarorero, muri Siriya, Iraki, Afghanistan, Alijeriya, Palestina, Yorodani na Irani, abagore bagize gusa hagati ya [15 - 18%](ibihugu-aho-abagore-bashobora-kwinjira-mu-gikorwa-gikora.html).
+3. Uguhagarika akazi: Mu bihugu bimwebimwe, abagore ntibemerewe gukora hanze y’urugo, ivyo bikaba bituma bagorwa no kwigenga mu vy’amahera. Nk’akarorero, muri Siriya, Iraki, Afghanistan, Alijeriya, Palestina, Yorodani na Irani, abagore bagize gusa hagati ya [15 - 18%](https://www.worldatlas.com/articles/countries-where-women-are-least-likely-to-join-the-labor-force.html).
 
-4. Kubura uburenganzira bw’umutungo: Haracariho [75](https://blogs.worldbank.org/opendata/aho-isi-abagore-bakiri-bahanganye n’intambamyi-zijanye n’amategeko zo kwitunga no gutwara-itunga) kw’isi yose aho abagore badafise uburenganzira bwo kwitunga nk’uko ubushobozi bwabo bwo kwitunga bugarukira. Ivyo bituma bibagora gutangura ubudandaji canke kuronka inguzanyo, kuko ata n’ingwati bafise botanga. Nk'akarorero, mu bice bimwebimwe vyo mu buhinde, abagore ntibemerewe kugira umutungo, kandi bashobora kutaronka inguzanyo ata ruhusha rw'incuti y'umugabo.
+4. Kubura uburenganzira bw’umutungo: Haracariho [75](https://blogs.worldbank.org/opendata/where-world-do-women-still-face-legal-barriers-own-and-administer-assets) kw’isi yose aho abagore badafise uburenganzira bwo kwitunga nk’uko ubushobozi bwabo bwo kwitunga bugarukira. Ivyo bituma bibagora gutangura ubudandaji canke kuronka inguzanyo, kuko ata n’ingwati bafise botanga. Nk'akarorero, mu bice bimwebimwe vyo mu buhinde, abagore ntibemerewe kugira umutungo, kandi bashobora kutaronka inguzanyo ata ruhusha rw'incuti y'umugabo.
 
 
 Izo ni ingero nkeyi gusa z’ubwoko bw’intambamyi abagore bo mu mibano myinshi yo muri iki gihe bakiriho mu bijanye no kuronka ubufasha bw’ivy’amahera no gushika ku kwigenga mu vy’amahera.
@@ -2354,7 +2354,7 @@ Mu gihe isi yose yariko iraraba n’ubwoba bwinshi igihe aba Taliban bafata ubut
 ![image](assets/en/005.webp)
 
 
-**Igishushanyo:** [Roya Mahboob]
+**Igishushanyo:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
 
 
 Roya Mahboob ni umuhinga mu vy’ubuhinga n’ubudandaji muri Afghanistan. Si we gusa yashizwe mu rutonde rw'abantu 100 bafise akosho kanini kw'isi mu mwaka w'2013 inyuma y'aho yubakiye amashure yisumbuye yo kuri internet mu mashure yisumbuye muri Afghanistan. Yashinze kandi ishirahamwe ry'ubuhinga bwa none ryitwa Afghan Citadel Software Company mu mwaka w'2010, rigamije "guha akazi abaherutse gusozera amashure yisumbuye cane cane abagore." Kandi iyo ivyo bitahagije, yaciye abandanya atanguza ikigega c’abanyagihugu ca Digital. Iryo shirahamwe ritagira inyungu rikora ivyo guha ubushobozi abagore n’abana bo mu bihugu biri mu nzira y’amajambere biciye mu buhinga bwa none.

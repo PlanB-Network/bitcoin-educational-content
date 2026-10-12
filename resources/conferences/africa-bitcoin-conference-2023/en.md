@@ -7,7 +7,7 @@ description: Africa Bitcoin Conference 2023 hosted at the Kempinski Gold Coast H
 
 ## Welcome Remarks
 
-![video](https://youtu.be/iREo-8pJyPg?si=w6URkyFqyNsC1mdv)
+![video](https://www.youtube.com/watch?v=mkg9inY4mJM)
 
 Speaker: Wolali Ahlijah
 

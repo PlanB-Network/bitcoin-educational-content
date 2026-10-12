@@ -406,7 +406,7 @@ Deze tutorial behandelt de essentiële functies van Bitcoin Keeper in de gratis 
 
 
 - Officiële website: [bitcoinkeeper.app](https://bitcoinkeeper.app)
-- Helpcentrum: [help.bitcoinkeeper.app](https://help.bitcoinkeeper.app)
+- Helpcentrum: [bitcoinkeeper.app/ask-keeper](https://www.bitcoinkeeper.app/ask-keeper)
 - Broncode: [github.com/bithyve/bitcoin-keeper](https://github.com/bithyve/bitcoin-keeper)
 - Telegram : [t.me/BitcoinKeeper](https://t.me/BitcoinKeeper)
 - Twitter/X: [@bitcoinkeeper_](https://x.com/bitcoinkeeper_)

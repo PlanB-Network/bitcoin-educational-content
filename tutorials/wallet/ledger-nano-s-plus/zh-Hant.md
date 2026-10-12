@@ -52,7 +52,7 @@ Ledger 在競爭對手中脫穎而出，因為它總是非常快速地採用 Bit
 ## 如何購買 Ledger Nano S Plus？
 
 
-Ledger Nano S Plus 已於 [官方網站](https://shop.Ledger.com/products/Ledger-nano-s-plus) 開售。若要在實體商店購買，您也可以在 Ledger 網站上找到 [認證經銷商名單](https://www.Ledger.com/reseller)。
+Ledger Nano S Plus 已於 [官方網站](https://shop.ledger.com/products/ledger-nano-s-plus) 開售。若要在實體商店購買，您也可以在 Ledger 網站上找到 [認證經銷商名單](https://www.Ledger.com/reseller)。
 
 
 ## 先決條件

@@ -14,7 +14,7 @@ RASPIBLITZ - Come eseguire un nodo Lightning e Bitcoin Full Node di BTC session
 
 ## Guida all'installazione di Raspiblitz di Parman
 
-Il Raspiblitz è un sistema eccellente per eseguire un nodo Bitcoin e le relative app. Consiglio questo e il nodo MyNode alla maggior parte degli utenti (idealmente avere due nodi per ridondanza). Un grande vantaggio è che il nodo Raspiblitz è “Free Open Source Software”, a differenza di MyNode o Umbrel. [Perché è importante? Vlad Costa lo spiega.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Puoi anche eseguire il Raspiblitz con una connessione WiFi invece che ethernet – ecco una [guida supplementare](https://armantheparman.com/headless-wifi/) per questo. (Non ho trovato un modo per farlo con MyNode).
+Il Raspiblitz è un sistema eccellente per eseguire un nodo Bitcoin e le relative app. Consiglio questo e il nodo MyNode alla maggior parte degli utenti (idealmente avere due nodi per ridondanza). Un grande vantaggio è che il nodo Raspiblitz è “Free Open Source Software”, a differenza di MyNode o Umbrel. [Perché è importante? Vlad Costea lo spiega.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Puoi anche eseguire il Raspiblitz con una connessione WiFi invece che ethernet – ecco una [guida supplementare](https://armantheparman.com/headless-wifi/) per questo. (Non ho trovato un modo per farlo con MyNode).
 
 Puoi acquistare un nodo già pronto con uno schermo miniaturizzato allegato, oppure puoi costruirlo tu stesso (non hai bisogno di uno schermo).
 
@@ -64,7 +64,7 @@ Prima di procedere, se non conosci il sistema di file sulla riga di comando, è 
 Ecco un [video utile per Linux, ma vale anche per Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Per Windows, ecco un [semplice tutorial](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
-_AGGIORNAMENTO: La verifica pgp/gpg è ora disponibile. Avrai bisogno della chiave pubblica di Openoms. [Ecco](http://parman.org/downloadable/openoms.txt) (potresti aver bisogno della modalità in incognito affinché il link funzioni – http, non https)_
+_AGGIORNAMENTO: La verifica pgp/gpg è ora disponibile. Le immagini RaspiBlitz attuali sono firmate da rootzoll, non da Openoms (impronta della chiave: 92A746AE33A3C186D014BF5C1C73060C7C176461). Le [FAQ ufficiali](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download) indicano la chiave e il comando `gpg --verify`._
 Mac/Linux
 
 Aspetta che il file finisca di scaricare (importante!), quindi apri il terminale, vai nella cartella in cui hai scaricato il file e digita il seguente comando...

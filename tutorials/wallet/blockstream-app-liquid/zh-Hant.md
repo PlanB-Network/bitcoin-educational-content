@@ -35,7 +35,7 @@ description: 如何設定 Blockstream App 和使用 Liquid Network
 
 
 
-**Liquid** 是 Bitcoin 的 **Sidechain**，由 **[Blockstream](https://blockstream.com/Liquid/)**開發，旨在提供更快、更多 Confidential Transactions 和進階功能，同時仍與主 Blockchain Bitcoin 相連。
+**Liquid** 是 Bitcoin 的 **Sidechain**，由 **[Blockstream](https://blockstream.com/liquid/)**開發，旨在提供更快、更多 Confidential Transactions 和進階功能，同時仍與主 Blockchain Bitcoin 相連。
 
 
 
@@ -408,7 +408,9 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 
-另外，Exchange 您的 bitcoins onchain 或透過 Lightning Network 使用 [a bridge such as Boltz](https://boltz.Exchange/) 取得 L-BTC：輸入您的 Liquid 接收 Address，依您的喜好付款，並收到您的 L-BTC。
+另外，Exchange 您的 bitcoins onchain 或透過 Lightning Network 使用 a bridge such as Boltz 取得 L-BTC：輸入您的 Liquid 接收 Address，依您的喜好付款，並收到您的 L-BTC。
+
+> **注意（2026年10月）：** Boltz 已於 2026 年 8 月 3 日暫停所有兌換，其網站已下線。此方法目前無法使用。
 
 
 

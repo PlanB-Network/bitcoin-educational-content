@@ -58,7 +58,7 @@ Inilah yang Anda dapatkan:
 Anda juga dapat mengunduhnya dari situs web Cisofy:
 
 ```
-sudo wget https://downloads.cisofy.com/lynis/lynis-3.0.9.tar.gz
+sudo wget https://downloads.cisofy.com/lynis/lynis-3.1.7.tar.gz
 ```
 
 Inilah yang Anda dapatkan:

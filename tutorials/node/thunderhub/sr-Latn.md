@@ -122,7 +122,7 @@ Za korisnike van Umbrel-a (npr. na ličnom serveru, Raspberry Pi sa RaspiBlitz-o
 
 
 
-**Preduslovi:** Uverite se da vaš sistem ispunjava minimalne zahteve prema [dokumentaciji za postavljanje](https://docs.thunderhub.io/setup):
+**Preduslovi:** Uverite se da vaš sistem ispunjava minimalne zahteve prema [dokumentaciji za postavljanje](https://docs.thunderhub.io/configure):
 
 
 
@@ -136,7 +136,7 @@ Za korisnike van Umbrel-a (npr. na ličnom serveru, Raspberry Pi sa RaspiBlitz-o
 
 
 
-**1. Preuzmite ThunderHub kod:** Klonirajte GitHub repozitorijum projekta kao što je opisano u [dokumentaciji za instalaciju](https://docs.thunderhub.io/installation):
+**1. Preuzmite ThunderHub kod:** Klonirajte GitHub repozitorijum projekta kao što je opisano u [dokumentaciji za instalaciju](https://docs.thunderhub.io/get-started):
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Glavna konfiguraciona datoteka:** Kreirajte `.env.local` datoteku u korenskom direktorijumu ThunderHub foldera da biste prilagodili konfiguraciju (ovo će sprečiti da vaša podešavanja budu prepisana tokom ažuriranja). Glavne promenljive prema [dokumentaciji za podešavanje](https://docs.thunderhub.io/setup):
+**1. Glavna konfiguraciona datoteka:** Kreirajte `.env.local` datoteku u korenskom direktorijumu ThunderHub foldera da biste prilagodili konfiguraciju (ovo će sprečiti da vaša podešavanja budu prepisana tokom ažuriranja). Glavne promenljive prema [dokumentaciji za podešavanje](https://docs.thunderhub.io/configure):
 
 
 
@@ -304,8 +304,8 @@ Pojavljuje se stranica za prijavu u ThunderHub. Izaberite podešeni nalog i unes
 
 
 
-- **Instalacija:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- **Konfiguracija:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Instalacija:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- **Konfiguracija:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

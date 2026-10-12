@@ -20,7 +20,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- ไปที่ [GitHub repository ของ PlanB ที่อุทิศให้กับข้อมูล](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) ในส่วน `resources/conference/`:
+- ไปที่ [GitHub repository ของ PlanB ที่อุทิศให้กับข้อมูล](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conferences) ในส่วน `resources/conference/`:
 
 ![event](assets/02.webp)
 

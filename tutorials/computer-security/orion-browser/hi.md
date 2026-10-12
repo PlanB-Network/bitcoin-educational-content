@@ -643,8 +643,8 @@ brew install --cask orion
 
 
 - **आधिकारिक वेबसाइट**: [kagi.com/orion](https://kagi.com/orion/)
-- **पूर्ण FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **सामुदायिक मंच**: [community.kagi.com](https://community.kagi.com)
+- **पूर्ण FAQ**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **सामुदायिक मंच**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **बग ट्रैकिंग**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - ओपन-सोर्स घटक
 - **ब्लॉग कागी**: [blog.kagi.com](https://blog.kagi.com) - समाचार और अपडेट

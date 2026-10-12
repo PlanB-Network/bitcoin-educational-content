@@ -293,7 +293,6 @@ Použijte veřejnou záložku, například :
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -650,7 +649,7 @@ Na pozadí rostoucí finanční kontroly se decentralizované nástroje na ochra
 
 
 
-- [oficiální webové stránky Joinstr](https://joinstr.xyz)
+- [oficiální webové stránky Joinstr](https://docs.joinstr.xyz/)
 - [Uživatelská dokumentace](https://docs.joinstr.xyz/users/using-joinstr)
 - [Technická dokumentace](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [zdrojový kód GitLab](https://gitlab.com/invincible-privacy/joinstr)
@@ -682,6 +681,5 @@ Na pozadí rostoucí finanční kontroly se decentralizované nástroje na ochra
 
 
 
-- [Záložka Faucet](https://signetfaucet.com) - Bezplatný test Bitcoins
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - alternativa Faucet
 - [Mempool.space](https://mempool.space) - Block explorer s analýzou soukromí

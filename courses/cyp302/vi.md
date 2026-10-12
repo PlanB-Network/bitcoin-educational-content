@@ -941,7 +941,7 @@ Quan trọng nhất, bạn sẽ thấy tầm quan trọng của các nhóm và t
 
 [3] Xem [Video YouTube](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
-[4] Socratica, [Đại số trừu tượng](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Đại số trừu tượng](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 [5] Katz và Lindell, *Giới thiệu về mật mã học hiện đại*, ấn bản lần thứ 2, 2015 (CRC Press: Boca Raton, FL). Paar và Pelzl, *Hiểu về mật mã học*, 2010 (Springer-Verlag: Berlin).
 
@@ -1904,7 +1904,7 @@ Hàm băm $H$ được gọi là **chống va chạm** nếu không thể tìm �
 
 Ví dụ, hàm băm chống va chạm rất quan trọng trong việc xác minh phần mềm. Giả sử bạn muốn tải xuống bản phát hành Windows của Bitcoin Core 0.21.0 (một ứng dụng máy chủ để xử lý lưu lượng mạng Bitcoin). Các bước chính bạn phải thực hiện để xác minh tính hợp pháp của phần mềm như sau:
 
-1. Trước tiên, bạn cần tải xuống và nhập khóa công khai của một hoặc nhiều người đóng góp Bitcoin Core vào phần mềm có thể xác minh chữ ký số (ví dụ: Kleopetra). Bạn có thể tìm thấy các khóa công khai này [tại đây](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Bạn nên xác minh phần mềm Bitcoin Core bằng khóa công khai từ nhiều người đóng góp.
+1. Trước tiên, bạn cần tải xuống và nhập khóa công khai của một hoặc nhiều người đóng góp Bitcoin Core vào phần mềm có thể xác minh chữ ký số (ví dụ: Kleopetra). Bạn có thể tìm thấy các khóa công khai này [tại đây](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys). Bạn nên xác minh phần mềm Bitcoin Core bằng khóa công khai từ nhiều người đóng góp.
 
 2. Tiếp theo, bạn cần xác minh khóa công khai mà bạn đã nhập. Ít nhất một bước bạn nên thực hiện là xác minh rằng khóa công khai bạn tìm thấy giống với khóa công khai đã công bố ở nhiều vị trí khác. Ví dụ, bạn có thể tham khảo các trang web cá nhân, trang Twitter hoặc trang Github của những người có khóa công khai mà bạn đã nhập. Thông thường, việc so sánh khóa công khai này được thực hiện bằng cách so sánh một hàm băm ngắn của khóa công khai được gọi là dấu vân tay.
 

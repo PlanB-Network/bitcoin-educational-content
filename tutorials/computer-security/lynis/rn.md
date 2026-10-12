@@ -10,7 +10,7 @@ ___
 
 
 
-*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Fares CHELLOUG vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](ku rubuga rwacu/uruhusha/ku-NC/4.0/). Birashoboka ko hari ivyo bahinduye mu canditswe c’intango.*
+*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Fares CHELLOUG vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Birashoboka ko hari ivyo bahinduye mu canditswe c’intango.*
 
 
 
@@ -57,8 +57,8 @@ Umugambi uraboneka kuri iyi Address kuri **Github**:
 
 
 
-- [GitHub - Lynis](Ubuhinga bwa none)
-- [Kura Lynis kuri CISOFY]
+- [GitHub - Lynis](https://github.com/CISOfy/lynis)
+- [Kura Lynis kuri CISOFY](https://cisofy.com/lynis/#download)
 
 
 
@@ -110,7 +110,7 @@ Ushobora kandi kuyikura ku rubuga rwa Cisofy:
 
 
 ```
-sudo wget https://downloads.cisofy.com/lynis/lynis-3.0.9.tar.gz
+sudo wget https://downloads.cisofy.com/lynis/lynis-3.1.7.tar.gz
 ```
 
 

@@ -20,7 +20,7 @@ För närvarande är ZEUS för personer som kör sina egna hem- / företagsnoder
 Handlare som använder [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) eller [Alby](https://getalby.com/) (eller något annat LNDhub-konto) kan också ansluta till, använda och hantera sina noder / konton via ZEUS.
 
 
-[Från och med v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) kommer ZEUS att börja tillgodose genomsnittliga användare som bara vill ha ett enkelt sätt att göra snabba och billiga bitcoin-betalningar från sin mobila enhet, med en [inbyggd mobil Lightning-nod](https://docs.zeusln.app/category/embedded-node) med en integrerad [Lightning-tjänsteleverantör (LSP)](https://docs.zeusln.app/lsp/intro).
+[Från och med v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) kommer ZEUS att börja tillgodose genomsnittliga användare som bara vill ha ett enkelt sätt att göra snabba och billiga bitcoin-betalningar från sin mobila enhet, med en [inbyggd mobil Lightning-nod](https://docs.zeusln.app/category/embedded-lnd) med en integrerad [Lightning-tjänsteleverantör (LSP)](https://docs.zeusln.app/lsp/intro).
 
 
 ### Viktiga Zeus-resurser:
@@ -169,7 +169,7 @@ Här presenteras två LSP-tjänster:
 LSP hjälper användare att ansluta till Lightning-nätverket genom att öppna betalningskanaler till deras noder. [Läs mer om LSP här](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS har en ny integrerad LSP kallad [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), som är tillgänglig för alla användare som använder den nya inbäddade noden.
 
 
-I det här avsnittet är Olympus LSP (https://0conf.lnolymp.us) som standard, men snart kan du också ställa in en annan 0conf LSP som stöder detta protokoll.
+I det här avsnittet är Olympus LSP (https://flow.zeuslsp.com) som standard, men snart kan du också ställa in en annan 0conf LSP som stöder detta protokoll.
 
 
 _Håll i minnet:_
@@ -310,7 +310,7 @@ Den inbäddade noden i ZEUS är baserad på LND och använder [aezeed seed forma
 Nyckelformatet aezeed bör vara kompatibelt med följande mobila plånböcker: Blixt, BlueWallet och Breez. Observera att enbart seed kommer att vara otillräckligt för att återställa alla dina saldon om du har öppna eller väntande stängningskanaler!
 
 
-Läs mer om säkerhetskopiering och återställning på [Zeus Docs page](https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery).
+Läs mer om säkerhetskopiering och återställning på [Zeus Docs page](https://docs.zeusln.app/for-users/local-wallets/embedded-lnd/backup-and-recovery).
 
 
 RÅD OM STRÖMFÖRSÖRJNING: När du sparar din seed, spara även nodens pubkey! Ibland är det bra att ha den till hands, tillsammans med din seed och SCB (Static Channels Backup) om du behöver verifiera återställningen.
@@ -322,7 +322,7 @@ SCB är endast nödvändigt om du har LN-kanaler öppna. Om du bara har onchain-
 Om du ser att efter en lång tid fortfarande inte visar den gamla historiken txs, gå till Inbäddad nod - Peers och inaktivera alternativet att använda listan över valda peers (som standard är btcd.lnolymp.us). Det kommer att utlösa en omstart och kommer att ansluta till den första tillgängliga neutrino-noden med ett bättre tidssvar. Eller använd de nedan nämnda andra välkända neutrino-peers.
 
 
-Om du vill se fler återställningsalternativ för en LND-nod, [läs min tidigare guide](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), där du kan hitta stegen för hur du importerar en aezeed seed till Sparrow wallet eller andra metoder.
+Om du vill se fler återställningsalternativ för en LND-nod, [läs min tidigare guide](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), där du kan hitta stegen för hur du importerar en aezeed seed till Sparrow wallet eller andra metoder.
 
 
 **C - Inbäddad nod**
@@ -356,7 +356,7 @@ I det här avsnittet hittar du några grundläggande verktyg för att hantera de
 
 
 
- - _Pathfinding mode_ - bimodal eller apriori, sätt att hitta en bättre rutt för dina LN-betalningar och även återställa den tidigare ruttinformationen. Läs gärna dessa mycket bra guider om pathfinding: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - av Docs Lightning Engineering och [LN Payment Pathfinding](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - av Voltage
+ - _Pathfinding mode_ - bimodal eller apriori, sätt att hitta en bättre rutt för dina LN-betalningar och även återställa den tidigare ruttinformationen. Läs gärna dessa mycket bra guider om pathfinding: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - av Docs Lightning Engineering och [LN Payment Pathfinding](https://voltage.cloud/blog/understanding-payment-pathfinding-between-nodes-on-lightning-network) - av Voltage
  - _Persistent LND_ - aktivera det här läget om du vill att LND-tjänsten ska köras kontinuerligt i bakgrunden och hålla din nod online 24/7. Detta är mycket användbart om du använder Zeus som en PoS i en liten butik eller om du får många LN-tips via LN Address.
  - _Rescan wallet_ - det här alternativet kommer vid omstart att utlösa en fullständig skanning av alla tx:er i kedjan i din Wallet. Aktivera det endast om du saknar några tx:er i din Wallet. Omskanningsuppgiften kommer att ta tid, flera minuter, så ha tålamod och kontrollera alltid loggarna för att se mer information om framstegen.
  - _Compact Database_ - det här alternativet är mycket användbart om din Zeus-app tar upp mycket utrymme på enheten (se appdetaljer i enhetens inställningar). Om du har mycket aktivitet med Zeus skulle jag rekommendera att du gör denna komprimering oftare. När du ser att du har mer än 1-1,5 GB data för Zeus-appen, gör komprimeringen. Det kommer att starta om och ta lite tid, så ha tålamod.
@@ -399,7 +399,7 @@ ZEUS PAY utnyttjar användargenererade preimage-hashar, HODL-fakturor och Zaploc
 Om du aktiverar "persistent mode" kommer alla betalningar till din LN Address att tas emot direkt.
 
 
-Läs mer om hur [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) betalningar fungerar och mer om [ZeusPay-avgifter här](https://docs.zeusln.app/lightning-Address/fees).
+Läs mer om hur [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) betalningar fungerar och mer om [ZeusPay-avgifter här](https://docs.zeusln.app/lightning-address/zaplocker).
 
 
 **G - Onchain-adresser**
@@ -488,7 +488,7 @@ Som standard kommer Zeus att använda sin egen LSP, Olympus. Men senare kan du �
 Genom att helt enkelt skapa en Invoice på din Zeus (ange beloppet och klicka på "begär" -knappen) kommer du att kunna ta emot dessa Sats direkt.
 
 
-Den Invoice du generate kommer att vara [wrapped](https://docs.zeusln.app/lsp/wrapped-invoices) och du kommer att presenteras med de avgifter som är förknippade med tjänsten om de betalas. Denna inplastade Invoice innehåller rutttips mot din Zeus-nod, så att LSP kan hitta din nya nod och öppna en kanal med de nya medel du sätter in.
+Den Invoice du generate kommer att vara [wrapped](https://docs.zeusln.app/lsp/services/flow) och du kommer att presenteras med de avgifter som är förknippade med tjänsten om de betalas. Denna inplastade Invoice innehåller rutttips mot din Zeus-nod, så att LSP kan hitta din nya nod och öppna en kanal med de nya medel du sätter in.
 
 
 ![Image](assets/en/06.webp)

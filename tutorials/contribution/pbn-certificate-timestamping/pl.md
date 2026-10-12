@@ -43,7 +43,7 @@ Podpis GPG jest generowany przy użyciu oprogramowania open-source o nazwie GNU 
 Z drugiej strony, jeśli ktoś chce zweryfikować autentyczność podpisanego pliku, może użyć GPG do zaimportowania klucza publicznego wystawcy i zweryfikowania go.
 
 
-Ci, którzy są ciekawi i chcą dowiedzieć się więcej o tym fantastycznym oprogramowaniu, mogą zapoznać się z ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
+Ci, którzy są ciekawi i chcą dowiedzieć się więcej o tym fantastycznym oprogramowaniu, mogą zapoznać się z ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual.html#AEN136)
 
 
 ### Jak działa znacznik czasu?

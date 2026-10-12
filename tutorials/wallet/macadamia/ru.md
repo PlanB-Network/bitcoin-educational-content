@@ -337,7 +337,7 @@ Macadamia Wallet привносит в цифровой Bitcoin свойства
 
 
 - Техническая документация: [docs.cashu.space](https://docs.cashu.space)
-- Список публичных майнеров: [bitcoinmints.com](https://bitcoinmints.com)
+- Список публичных майнеров: [bitcoinmints.com](https://cashumints.space/)
 - Официальный сайт протокола: [cashu.space](https://cashu.space)
 
 

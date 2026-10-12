@@ -267,7 +267,7 @@ Blockchain, 트랜잭션, 이중 지출, 비잔틴 장군의 문제, Mining, Pro
 이 강의 블록의 목적은 BTCPay 서버 소프트웨어에 대한 전반적인 이해를 돕는 것입니다. 공유 환경에서는 강사의 데모를 따르고 BTCPay 서버 교재를 참조하여 강사와 함께 따라하는 것이 좋습니다. 여러 가지 방법을 통해 Wallet을 만드는 방법을 배우게 됩니다. 예시에는 Hot Wallet 설정과 BTCPay 서버 볼트를 통해 연결된 하드웨어 지갑이 포함됩니다. 이러한 목표는 데모 환경에서 이루어지며, 코스 강사가 표시하고 액세스 권한을 부여합니다.
 
 
-이 과정을 직접 따라하는 경우 데모용 타사 호스트 목록은 https://directory.btcpayserver.org/filter/hosts 에서 확인할 수 있습니다. 이러한 타사 옵션을 프로덕션 환경으로 사용하지 않는 것이 좋지만, Bitcoin 및 BTCPay 서버의 사용을 소개하는 데는 적합한 목적이 있습니다.
+이 과정을 직접 따라하는 경우 데모용 타사 호스트 목록은 https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/ 에서 확인할 수 있습니다. 이러한 타사 옵션을 프로덕션 환경으로 사용하지 않는 것이 좋지만, Bitcoin 및 BTCPay 서버의 사용을 소개하는 데는 적합한 목적이 있습니다.
 
 
 BTCPay 서버 락스타 교육생은 Bitcoin 노드를 설정한 경험이 있을 수 있습니다. 이 과정은 BTCPay 서버 소프트웨어 스택에 맞게 특별히 맞춤화되어 있습니다.
@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin 노드 로그
 
 
-bitcoind 컨테이너의 [로그 보기](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) 외에도 [bitcoin-cli 명령어](https://developer.Bitcoin.org/reference/RPC/index.html) 중 하나를 사용할 수도 있습니다
+bitcoind 컨테이너의 [로그 보기](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) 외에도 [bitcoin-cli 명령어](https://developer.bitcoin.org/reference/rpc/index.html) 중 하나를 사용할 수도 있습니다
 
 
-(새 창에서 열기)](https://developer.Bitcoin.org/reference/RPC/index.html)를 클릭해 Bitcoin 노드에서 정보를 얻으세요. BTCPay에는 Bitcoin 노드와 쉽게 통신할 수 있는 스크립트가 포함되어 있습니다.
+(새 창에서 열기)](https://developer.bitcoin.org/reference/rpc/index.html)를 클릭해 Bitcoin 노드에서 정보를 얻으세요. BTCPay에는 Bitcoin 노드와 쉽게 통신할 수 있는 스크립트가 포함되어 있습니다.
 
 
 Btcpayserver-docker 폴더에서 노드를 사용하여 Blockchain 정보를 가져옵니다:

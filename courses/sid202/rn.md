@@ -89,7 +89,7 @@ Elements ni inkomoko yuguruye, urubuga rwa [Blockchain](https://planb.academy/re
 Elements ni, mu ntumbero yayo, umurongo ushobora gutuma habaho [ukwiyumvikana](https://planb.academy/resources/glossary/consensus) ku bijanye n’amateka y’[ibikorwa](https://planb.academy/resources/glossary/transaction-tx) n’amategeko agenga ukwimurira no kurema ivy’ubutunzi bibitswe muri Blockchain Ledger itangazwa.
 
 
-Ibindi bisobanuro ku bijanye na Elements biraboneka bitagoranye ku rubuga rwa Elements Project (https://elementsproject.org/), ku rubuga rwemewe rwa Liquid (https://blog.Liquid.net/), no ku rubuga rw’abahinguzi (https://Liquid.net/devs).
+Ibindi bisobanuro ku bijanye na Elements biraboneka bitagoranye ku rubuga rwa Elements Project (https://elementsproject.org/), ku rubuga rwemewe rwa Liquid (https://blog.Liquid.net/), no ku rubuga rw’abahinguzi (https://liquid.net/developers).
 
 
 ### Elements
@@ -182,7 +182,7 @@ Ibikorwa umunyamuryango wa Strong Federation ashobora gukora bigabanwa hagati y�
 Iyo bihuriwe hamwe, uruhara rw’abo bari muri iyo nama rutuma Elements ishobora gutanga ivyo bibiri, uguhingura amabuye vyihuta (kwemeza ibikorwa vyihuta kandi vy’iherezo) n’itunga ryizewe, rishobora kwimurirwa (itunga ryishizweho rishobora guhuzwa ata guca ku ruhande n’iyindi Blockchain).
 
 
-Ushobora gusoma [igitabu cera](https://planb.academy/resources/glossary/white-paper) c'amashirahamwe akomeye hano: https://blockstream.com/amashirahamwe akomeye.pdf
+Ushobora gusoma [igitabu cera](https://planb.academy/resources/glossary/white-paper) c'amashirahamwe akomeye hano: https://blockstream.com/strong-federations.pdf akomeye.pdf
 
 
 ### Abasinye
@@ -1739,7 +1739,7 @@ Ukoresheje ivyo bipimo biri hejuru urashobora gukoresha Elements nk’iyihagaze 
 Muri iri shure twamenye ko Elements ari umurongo w’urubuga rwuguruye ushobora gushirwa mu ngiro nk’umurongo wa Sidechain ku wundi Blockchain, canke nk’umuti wigenga wa Blockchain.
 
 
-Twarabonye ko kode y’inkomoko n’urubuga rwa Elements (https://github.com/ElementsProject/Elements) bishikirizwa kuri GitHub kandi ko hariho amahuriro y’ibiganiro vy’abanyagihugu, nk’Ukwubaka Kuri L2(https://umuryango.Liquid.net/c/abahinguzi ba GW-5). (https://t.me/liquid_devel), bishobora gukoreshwa mu kumenya vyinshi ku bijanye no gukoresha no gutegura ibikorwa kuri Elements na Liquid. Ibintu nyamukuru nka Confidential Transactions na Issued Assets vyaravuzwe, hamwe n’ingene abagize Strong Federation bashoboza block signing y’ubumwe n’uburyo bwa 2-Way Peg.
+Twarabonye ko kode y’inkomoko n’urubuga rwa Elements (https://github.com/ElementsProject/Elements) bishikirizwa kuri GitHub kandi ko hariho amahuriro y’ibiganiro vy’abanyagihugu, nk’Ukwubaka Kuri L2(https://community.liquid.net/c/developers/ ba GW-5). (https://t.me/liquid_devel), bishobora gukoreshwa mu kumenya vyinshi ku bijanye no gukoresha no gutegura ibikorwa kuri Elements na Liquid. Ibintu nyamukuru nka Confidential Transactions na Issued Assets vyaravuzwe, hamwe n’ingene abagize Strong Federation bashoboza block signing y’ubumwe n’uburyo bwa 2-Way Peg.
 
 
 Intambwe ikurikira ni ukwigerageza n’ikibazo c’urugero rwo hejuru gifise ibice vyose vyabanje, hanyuma ugatangura urugendo rwawe rwa Elements...amahirwe!

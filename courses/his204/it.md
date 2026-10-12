@@ -308,7 +308,7 @@ L'Abate di Saint-Pierre sosteneva che il regno di Luigi XIV, con la sua corte lu
 
 Sul piano del pensiero economico, applicò costantemente il principio dell'utilità, in modo simile a quanto avrebbe fatto in seguito Jeremy Bentham, e offrì spesso osservazioni fondate. A onor del vero, era ancora influenzato da idee mercantiliste, di cui nessuno all'epoca si era ancora del tutto liberato.
 
-Ciononostante, l'Abate di Saint-Pierre fece alcune osservazioni economiche accurate. Già prima di *Condillac*, a cui questa idea viene spesso attribuita, affermò chiaramente che, in ogni scambio, entrambe le parti traggono beneficio. Lo si trova nel suo "Progetto per perfezionare il commercio della Francia" del 1733 [Project for Improving France's Trade](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), dove scrisse:
+Ciononostante, l'Abate di Saint-Pierre fece alcune osservazioni economiche accurate. Già prima di *Condillac*, a cui questa idea viene spesso attribuita, affermò chiaramente che, in ogni scambio, entrambe le parti traggono beneficio. Lo si trova nel suo "Progetto per perfezionare il commercio della Francia" del 1733 [Project for Improving France's Trade](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), dove scrisse:
 
 > Quando una vendita avviene tra mercanti, il venditore ci guadagna, e così pure il compratore; poiché se non vi fosse un vantaggio reale o percepito da entrambe le parti, né il venditore venderebbe a un certo prezzo, né il compratore, da parte sua, comprerebbe a quel prezzo.
 
@@ -468,7 +468,7 @@ La produzione intellettuale del circolo di Gournay ebbe un impatto notevole sull
 
 ![Studio sull'editoria economica in Francia, 1566-1789](assets/en/035.webp)
 
-Per diffondere il gusto per le discussioni economiche tra la popolazione francese, Gournay e i suoi amici si adoperarono per renderle accessibili attraverso i romanzi. Dopo il *Memoriale sui mestieri*, che criticava le corporazioni, Gournay e Cliquot-Blervache aiutarono Gabriel-François Coyer a scrivere un breve romanzo satirico intitolato Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Per diffondere il gusto per le discussioni economiche tra la popolazione francese, Gournay e i suoi amici si adoperarono per renderle accessibili attraverso i romanzi. Dopo il *Memoriale sui mestieri*, che criticava le corporazioni, Gournay e Cliquot-Blervache aiutarono Gabriel-François Coyer a scrivere un breve romanzo satirico intitolato Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Abate Gabriel-François Coyer, "Chinki"](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ Nelle sue *Massime* già citate, Quesnay afferma:
 
 I Fisiocratici avevano visto i danni causati dall'interferenza governativa, in particolare nel commercio del grano. Bisogna riconoscere, dicono, che l'autorità non sarà mai in grado di gestire il commercio meglio di quanto facciano i singoli individui, perché dovrebbe rispondere a ogni bisogno e reagire a ogni cambiamento della domanda o dell'offerta. Tutto ciò va ben oltre le capacità anche del governo più saggio che si possa concepire. È quindi necessario lasciare che le cose siano e lasciarle fluire.
 
-Benefico per natura, il commercio deve essere interamente e perfettamente libero. Uno dei loro membri, Le Trosne, scrisse persino un opuscolo intitolato [*La libertà del commercio del grano: sempre utile, mai dannosa*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Benefico per natura, il commercio deve essere interamente e perfettamente libero. Uno dei loro membri, Le Trosne, scrisse persino un opuscolo intitolato [*La libertà del commercio del grano: sempre utile, mai dannosa*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/).
 
 ### Quinto principio: tutti gli uomini sono fratelli
 

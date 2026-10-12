@@ -294,7 +294,7 @@ Jade ของคุณปลดล็อกแล้ว
 ![Image](assets/fr/15.webp)
 
 
-คุณสามารถใช้ฐานรหัส QR ที่มีอยู่ในกล่อง Jade Plus เลือกกล่องที่เหมาะสมขึ้นอยู่กับว่าคุณเลือกประโยค 12 หรือ 24 คำ คุณยังสามารถ [พิมพ์เทมเพลตจากเว็บไซต์ Blockstream](https://help.blockstream.com/hc/article_attachments/41928319071769) ได้อีกด้วย
+คุณสามารถใช้ฐานรหัส QR ที่มีอยู่ในกล่อง Jade Plus เลือกกล่องที่เหมาะสมขึ้นอยู่กับว่าคุณเลือกประโยค 12 หรือ 24 คำ คุณยังสามารถ [พิมพ์เทมเพลตจากเว็บไซต์ Blockstream](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase) ได้อีกด้วย
 
 
 Jade Plus ของคุณจะแสดงแต่ละโซนของ QR code ของคุณ

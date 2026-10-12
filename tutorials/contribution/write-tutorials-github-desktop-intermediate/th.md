@@ -253,7 +253,7 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 คุณสามารถข้ามหัวข้อย่อย "Without my Python script" รวมถึงขั้นตอนที่ 3 "Fill in the YAML file" ได้แล้ว เนื่องจากสคริปต์ได้ดำเนินการเหล่านี้ให้คุณเรียบร้อยแล้ว ให้ดำเนินการต่อไปยังขั้นตอนที่ 4 และเริ่มเขียนบทแนะนำของคุณได้เลย
 
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสคริปต์ Python นี้ คุณสามารถตรวจสอบได้ที่ [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสคริปต์ Python นี้ คุณสามารถตรวจสอบได้ที่ [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md)
 
 
 ### ไม่มีสคริปต์ Python ของฉัน

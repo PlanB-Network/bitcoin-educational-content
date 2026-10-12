@@ -2,7 +2,10 @@
 name: Lipa
 description: Menyiapkan dan menggunakan dompet seluler Lipa lightning
 ---
+
 ![cover](assets/cover.webp)
+
+> **Peringatan (Oktober 2026):** Dompet Lipa dihentikan pada 31 Desember 2025, dan penerbitnya, lightning payment services ag, sedang dalam proses likuidasi. Aplikasinya tidak lagi dapat diunduh dan langkah-langkah dalam tutorial ini tidak lagi berfungsi. Kami mempertahankan halaman ini sebagai referensi sampai diperbarui.
 
 Dompet Bitcoin Lightning adalah sebuah aplikasi mobile yang memungkinkan transaksi instan dan berbiaya rendah pada jaringan Lightning Bitcoin. Tidak seperti transaksi pada blockchain utama (on-chain), pembayaran Lightning hampir seketika dan membutuhkan biaya minimal, sehingga sangat cocok untuk pembayaran kecil sehari-hari.
 
@@ -31,7 +34,7 @@ Fitur-fitur utama meliputi:
 Langkah pertama adalah mengunduh aplikasi Lipa. Untuk saat ini, aplikasi ini hanya tersedia di iOS:
 
 
-- [Untuk Apple](https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
+- Untuk Apple
 
 Versi Android saat ini sedang dikembangkan dan akan segera tersedia.
 

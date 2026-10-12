@@ -547,7 +547,7 @@ Mullvad Browser är en utmärkt lösning för dig som vill ha en integritetsvän
 
 - [Officiell webbplats för Mullvad Browser](https://mullvad.net/fr/browser)
 - [Nedladdningssida för Mullvad Browser](https://mullvad.net/en/download/browser)
-- [Detaljerade tekniska specifikationer](https://mullvad.net/en/browser/Hard-facts)
+- [Detaljerade tekniska specifikationer](https://mullvad.net/en/browser/hard-facts)
 - [Mullvad Browser Extension](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

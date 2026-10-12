@@ -100,7 +100,7 @@ Bây giờ khi bạn đã thiết lập xong, bạn có thể nhận thấy Grap
 
 Ứng dụng mặc định
 Hai thuật ngữ bạn có thể chưa quen thuộc là 'Auditor' và 'Vanadium'.
-- Ứng dụng [Auditor](https://play.google.com/store/apps/details?id=app.attestation.auditor) sử dụng các tính năng bảo mật dựa trên phần cứng để xác thực danh tính của thiết bị cùng với tính xác thực và toàn vẹn của hệ điều hành. Nó sẽ kiểm tra xem thiết bị có đang chạy hệ điều hành gốc với bootloader được khóa và không có sự can thiệp nào vào hệ điều hành hay không.
+- Ứng dụng [Auditor](https://play.google.com/store/apps/details?id=app.attestation.auditor.play) sử dụng các tính năng bảo mật dựa trên phần cứng để xác thực danh tính của thiết bị cùng với tính xác thực và toàn vẹn của hệ điều hành. Nó sẽ kiểm tra xem thiết bị có đang chạy hệ điều hành gốc với bootloader được khóa và không có sự can thiệp nào vào hệ điều hành hay không.
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) là một biến thể của trình duyệt web Chromium được tăng cường về quyền riêng tư và bảo mật.
 
 ## Tùy chỉnh
@@ -290,7 +290,7 @@ Phải: Proton Calendar
 
 ### Bảo Mật/Quyền Riêng Tư
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) cung cấp một giải pháp quản lý mật khẩu miễn phí và E2EE đa nền tảng cho tất cả các thiết bị của bạn. Dịch vụ trả phí của họ cho phép bạn tích hợp mã 2FA vào ứng dụng. Phía máy chủ của Bitwarden có thể tự lưu trữ và ứng dụng Android có sẵn qua F-Droid.
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo) cung cấp một giải pháp quản lý mật khẩu miễn phí và E2EE đa nền tảng cho tất cả các thiết bị của bạn. Dịch vụ trả phí của họ cho phép bạn tích hợp mã 2FA vào ứng dụng. Phía máy chủ của Bitwarden có thể tự lưu trữ và ứng dụng Android có sẵn qua F-Droid.
 - [Proton Pass](https://proton.me/pass/download) cung cấp một dịch vụ miễn phí tương tự như Bitwarden, nhưng khách hàng của [Proton Unlimited](https://proton.me/pricing) có thể truy cập các tính năng nâng cao bổ sung. Proton Pass có sẵn qua APK hoặc Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) là một ứng dụng xác thực hai yếu tố cho các hệ thống sử dụng các giao thức mật khẩu một lần. Token có thể được thêm vào dễ dàng bằng cách quét mã QR. FreeOTP có sẵn qua F-Droid.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) là một ứng dụng miễn phí, an toàn và mã nguồn mở cho Android để quản lý các token xác thực 2 bước cho các dịch vụ trực tuyến của bạn. Aegis có sẵn qua F-Droid.
@@ -405,7 +405,6 @@ GrapheneOS là một chủ đề mà bất kỳ ai cũng có thể dành hàng t
 - [Hướng dẫn Sử dụng Chính thức của GrapheneOS](https://grapheneos.org/usage) - Trang Web Chính thức
 - [Diễn đàn GrapheneOS](https://discuss.grapheneos.org/) - Trang Web Chính thức
 - [Lớp Thạc sĩ Cài đặt GrapheneOS](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video của 'The Privacy Wayfinder'
-- [Podcast Chung về GrapheneOS](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast của 'Watchman Privacy'
 
 *Hướng dẫn này là một bản chuyển thể từ nội dung gốc được xuất bản bởi [BitcoinQnA trên Bitcoiner.Guide theo giấy phép MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), người được ghi nhận toàn bộ công lao cho việc viết ban đầu.*
 

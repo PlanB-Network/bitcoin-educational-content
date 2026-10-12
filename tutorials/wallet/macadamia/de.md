@@ -337,7 +337,7 @@ Das Verwahrungsmodell erfordert Wachsamkeit und gute Sicherheitspraktiken. Richt
 
 
 - Technische Dokumentation: [docs.cashu.space](https://docs.cashu.space)
-- Liste der öffentlichen Münzstätten: [bitcoinmints.com](https://bitcoinmints.com)
+- Liste der öffentlichen Münzstätten: [bitcoinmints.com](https://cashumints.space/)
 - Offizielle Website des Protokolls: [cashu.space](https://cashu.space)
 
 

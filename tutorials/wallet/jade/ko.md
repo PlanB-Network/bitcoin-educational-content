@@ -57,7 +57,7 @@ Green에 Jade가 나타나면 업데이트 확인을 클릭하고 최신 펌웨�
 Jade의 펌웨어를 업데이트한 후 사용하려는 네트워크 및 보안 정책에서 Jade 설정을 선택합니다.
 
 
-**팁: 보안 정책은 아래 로그인 화면의 유형 아래에 나와 있습니다. 싱글시그와 Multisig 쉴드 중 어떤 것을 선택할지 잘 모르겠다면 [여기](https://help.blockstream.com/hc/en-us/articles/4403642609433) 가이드를 참조하세요
+**팁: 보안 정책은 아래 로그인 화면의 유형 아래에 나와 있습니다. 싱글시그와 Multisig 쉴드 중 어떤 것을 선택할지 잘 모르겠다면 [여기](https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained) 가이드를 참조하세요
 
 
 ![image](assets/3.webp)
@@ -287,7 +287,7 @@ Wallet의 이름을 입력하고 Wallet 생성을 클릭합니다.
 ![image](assets/22.webp)
 
 
-출처: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+출처: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 
 ### Green 앱

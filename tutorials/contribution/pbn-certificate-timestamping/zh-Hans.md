@@ -29,7 +29,7 @@ GPG签名是通过使用一个名为GNU Private Guard的开源软件获得的。
 
 另一方面，如果有人想验证一个签名文件的真实性，他们可以使用GPG导入颁发者的公钥并进行验证。在教程的第二部分，我们将了解如何使用终端来做到这一点。
 
-对于那些感兴趣并想要深入了解这一出色的软件的人，您可以查看["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
+对于那些感兴趣并想要深入了解这一出色的软件的人，您可以查看["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual.html#AEN136)
 
 ### 时间戳记是如何运作的？
 

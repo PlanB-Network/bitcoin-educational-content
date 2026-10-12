@@ -31,7 +31,7 @@ MÄRKUS: kõik rahalised vahendid, mida teie "kliendid" hoiavad oma LNbits panga
 
 ## Demo platvorm
 
-Demo on leitav aadressil [https://legend.lnbits.com](https://legend.lnbits.com). See on täielikult toimiv ja seda saab kasutada Lightning Networki ning LNbits'i ja LNURLi funktsioonide tundmaõppimiseks üldiselt. Kuigi me ei saa seda takistada, palume teil seda mitte kasutada oma tootmisseadistuses. Me mitte ainult ei tööta sageli serverite kallal, et testida uusi funktsioone, vaid soovime ka julgustada teid oma sõlme ja LNbits'i suveräänselt käivitama. Kui te arvate, et oma sõlme käitamine on hetkel liiga palju küsitud, võite ühendada LNbits'i pilves asuva custodian funding sservice'iga nagu Opennode, Luna või Votage või Lightning Tipbot'iga Telegramis, et nimetada vaid mõned.
+Demo on leitav aadressil [https://demo.lnbits.com](https://demo.lnbits.com). See on täielikult toimiv ja seda saab kasutada Lightning Networki ning LNbits'i ja LNURLi funktsioonide tundmaõppimiseks üldiselt. Kuigi me ei saa seda takistada, palume teil seda mitte kasutada oma tootmisseadistuses. Me mitte ainult ei tööta sageli serverite kallal, et testida uusi funktsioone, vaid soovime ka julgustada teid oma sõlme ja LNbits'i suveräänselt käivitama. Kui te arvate, et oma sõlme käitamine on hetkel liiga palju küsitud, võite ühendada LNbits'i pilves asuva custodian funding sservice'iga nagu Opennode, Luna või Votage või Lightning Tipbot'iga Telegramis, et nimetada vaid mõned.
 
 ## LNbits flaier
 
@@ -85,7 +85,7 @@ Samuti leiate video [dockerised Setup on a VPS koos PostgreSQ, LightningTipBot k
 
 [Rohkem paigaldusstsenaariume siin](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
-Komplektide tarkvarasõlmede puhul vaadake nende spetsiifilist dokumentatsiooni LNbits'i kohta: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+Komplektide tarkvarasõlmede puhul vaadake nende spetsiifilist dokumentatsiooni LNbits'i kohta: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 ### LNbits SaaS
 
@@ -156,16 +156,18 @@ Makaronide krüpteerimiseks käivitage `./venv/bin/python lnbits/wallets/macaroo
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend Demo Server (!! Ärge kasutage seda mitte tootmises / ärilistel eesmärkidel, vaid ainult testimiseks !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### Välk TipBot
+
+> **Hoiatus (oktoober 2026):** LightningTipBot ja ln.tips on tegevuse lõpetanud; sulgemisest teatati 29. aprillil 2024. See rahastamisallikas enam ei tööta, välja arvatud juhul, kui majutate oma botti.
 
 Selleks, et ühendada oma [Lightning Tipbot](https://t.me/LightningTipBot) Telegramist, peate seadistama järgmise parameetri:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://ln.tips
+  - `LNBITS_ENDPOINT`: `https://ln.tips`
   - `LNBITS_KEY`: Võtme saamiseks peate kord käivitama /api privaatses vestluses LightningTipbotiga Telegramis.
 
 Vaata ka seda õpetust, kuidas paigaldada [LNbits koos LightningTipBotiga vps kaudu](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
@@ -178,11 +180,13 @@ Rohkem infot vt [IBEX API-dokumentatsioon](https://ibexpay-api.readme.io/referen
 
 #### LNPay
 
-Selleks, et arve kuulaja töötaks, on teil LNbitsis avalikult ligipääsetav URL ja te peate looma [LNPay webhook](https://dashboard.lnpay.co/webhook/), mis osutab `<oma LNbits host>/wallet/webhook` sündmusega "Wallet Receive" ja ilma saladuseta. Seadistus `https://mylnbits/wallet/webhook` on lõpp-punkti url, mida teavitatakse igast maksest.
+> **Hoiatus (oktoober 2026):** LNPay näib olevat tegevuse lõpetanud: domeen lnpay.co enam ei vasta. Seda rahastamisallikat ei saa tõenäoliselt enam kasutada.
+
+Selleks, et arve kuulaja töötaks, on teil LNbitsis avalikult ligipääsetav URL ja te peate looma LNPay webhook, mis osutab `<oma LNbits host>/wallet/webhook` sündmusega "Wallet Receive" ja ilma saladuseta. Seadistus `https://mylnbits/wallet/webhook` on lõpp-punkti url, mida teavitatakse igast maksest.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -387,7 +391,7 @@ Seejuures asendate f8a43fc363ea428db5c53b3559935f1f nime ees oleva väärtusega 
 
 ##### LNURL jaoks välk-aadressi vastupidi
 
-Proovi seda [kodeerijat](https://lnurl-codec.netlify.app/) fiatjafilt või [seda](https://lightningdecoder.com/). LNURLp maksmiseks või kontrollimiseks võite samuti kasutada [LNurlpay](https://wwww.lnurlpay.com/). Seal peaks olema märgitud HTTPS EI HTTP.
+Proovi seda [kodeerijat](https://lnurl-codec.netlify.app/) fiatjafilt või [seda](https://lightningdecoder.com/). LNURLp maksmiseks või kontrollimiseks võite samuti kasutada [LNurlpay](https://www.lnurlpay.com/). Seal peaks olema märgitud HTTPS EI HTTP.
 
 ##### Konfigureeri kommentaar, mida inimesed näevad, kui nad maksavad minu LNURLp QR-le
 
@@ -403,7 +407,9 @@ On kaks võimalust vahetada satsid onchain BTC-st LN BTC-ks (või LNbitsiks).
 
 ###### Välise vahetusteenuse kaudu.
 
-Teised kasutajad, kellel ei ole juurdepääsu teie LNb-le, saavad kasutada vahetusteenust nagu [Boltz](https://boltz.exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) või [ZigZag](https://zigzag.io/). See on kasulik, kui te esitate oma LNbits'i instantsist ainult LNURL/LN-arveid, kuid maksjal on ainult onchain-satid, nii et ta peab need satsid kõigepealt omalt poolt vahetama. Protseduur on lihtne: kasutaja saadab swapteenusele onchain btc ja annab swapi sihtkohaks LNURL/LN arve LNbitsilt.
+Teised kasutajad, kellel ei ole juurdepääsu teie LNb-le, saavad kasutada vahetusteenust nagu Boltz, [FixedFloat](https://fixedfloat.com/) või [ZigZag](https://zigzag.io/). See on kasulik, kui te esitate oma LNbits'i instantsist ainult LNURL/LN-arveid, kuid maksjal on ainult onchain-satid, nii et ta peab need satsid kõigepealt omalt poolt vahetama. Protseduur on lihtne: kasutaja saadab swapteenusele onchain btc ja annab swapi sihtkohaks LNURL/LN arve LNbitsilt.
+
+> **Hoiatus (oktoober 2026):** Boltz peatas 3. augustil 2026 kõik vahetused pärast mitme turvaaugu ärakasutamist ja selle veebisait on võrgust väljas. Boltzi ja LNbitsi Boltzi laiendust ei saa praegu kasutada.
 
 ###### Kasutades Onchaini ja Boltzi LNbiti laiendust.
 
@@ -443,7 +449,7 @@ Kui teil ilmneb viga "toetamata hash-tüüp", kui kasutate ypubi On-chain laiend
 
 ### Tööriistade valmistamine ja ehitamine LNbitsiga
 
-LNbitsil on igasuguseid [avatud APIsid](https://legend.lnbits.com/docs) ja vahendeid, et programmeerida ja ühendada palju erinevaid seadmeid, mis on mõeldud tuhandete eri kasutusviiside jaoks.
+LNbitsil on igasuguseid [avatud APIsid](https://demo.lnbits.com/docs) ja vahendeid, et programmeerida ja ühendada palju erinevaid seadmeid, mis on mõeldud tuhandete eri kasutusviiside jaoks.
 
 Kui te olete uus ehitamine alustada selle [MakerBits esitlused](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) Ben Arc umbes hoone vidinaid põhineb LNbits.
 

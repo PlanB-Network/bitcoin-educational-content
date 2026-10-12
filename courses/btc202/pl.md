@@ -152,7 +152,7 @@ Ponieważ Bitcoin jest systemem, musi być koniecznie uruchamiany na komputerach
 
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -204,7 +204,7 @@ Pierwszym zadaniem węzła jest utrzymanie lokalnej kopii Blockchain. Aby zapobi
 
 > Jedynym sposobem na potwierdzenie braku transakcji jest bycie świadomym wszystkich transakcji.
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -383,7 +383,7 @@ Teoretycznie Bitcoin core nie reprezentuje protokołu Bitcoin; jest to raczej je
 
 
 
-Według [danych zebranych w sierpniu 2025 r. przez Luke'a Dashjra](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (znanego dewelopera w ekosystemie), rozkład wdrożeń wśród publicznych węzłów sieci wygląda następująco:
+Według [danych zebranych w sierpniu 2025 r. przez Luke'a Dashjra](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (znanego dewelopera w ekosystemie), rozkład wdrożeń wśród publicznych węzłów sieci wygląda następująco:
 
 
 
@@ -766,7 +766,7 @@ Węzeł [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (*Si
 
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -1521,7 +1521,7 @@ Jedną z kluczowych przewag Umbrel nad konkurencją jest ogromna i bardzo aktywn
 
 
 
-Kod Umbrel jest publicznie dostępny (można go przeglądać, Fork i modyfikować), ale nie jest objęty prawdziwą licencją open-source. W rzeczywistości umbrelOS jest rozpowszechniany na licencji [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), chociaż niektóre powiązane narzędzia programistyczne są dostępne na licencji MIT.
+Kod Umbrel jest publicznie dostępny (można go przeglądać, Fork i modyfikować), ale nie jest objęty prawdziwą licencją open-source. W rzeczywistości umbrelOS jest rozpowszechniany na licencji [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0), chociaż niektóre powiązane narzędzia programistyczne są dostępne na licencji MIT.
 
 
 
@@ -3884,7 +3884,7 @@ Wreszcie, plik `Bitcoin.conf` pozwala również skonfigurować parametry dostęp
 
 
 
-Zakończyliśmy teraz wypisywanie większości parametrów konfiguracyjnych. Plik `Bitcoin.conf` stanowi zatem prawdziwy pulpit nawigacyjny węzła: definiuje konfigurację sieci, zarządzanie Mempool, użycie dysku i pamięci, indeksowanie i ogólną administrację. Jeśli chciałbyś dowiedzieć się więcej na temat tego pliku i stworzyć plik dostosowany do swoich potrzeb, polecam skorzystanie z [generatora Jamesona Loppa](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Zakończyliśmy teraz wypisywanie większości parametrów konfiguracyjnych. Plik `Bitcoin.conf` stanowi zatem prawdziwy pulpit nawigacyjny węzła: definiuje konfigurację sieci, zarządzanie Mempool, użycie dysku i pamięci, indeksowanie i ogólną administrację. Jeśli chciałbyś dowiedzieć się więcej na temat tego pliku i stworzyć plik dostosowany do swoich potrzeb, polecam skorzystanie z [generatora Jamesona Loppa](https://jlopp.github.io/bitcoin-core-config-generator/).
 
 
 

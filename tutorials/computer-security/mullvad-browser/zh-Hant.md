@@ -547,7 +547,7 @@ Mullvad Browser 是一款出色的解決方案，適用於尋求隱私友好型�
 
 - [Mullvad瀏覽器官方網站](https://mullvad.net/fr/browser)
 - [Mullvad 瀏覽器下載頁](https://mullvad.net/en/download/browser)
-- [詳細技術規格](https://mullvad.net/en/browser/Hard-facts)
+- [詳細技術規格](https://mullvad.net/en/browser/hard-facts)
 - [Mullvad 瀏覽器擴充套件](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

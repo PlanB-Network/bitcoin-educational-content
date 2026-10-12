@@ -282,8 +282,8 @@ Proton Authenticator apparaît comme l'une des solutions les plus complètes et 
 - **Blog Proton** : [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Annonce et fonctionnalités détaillées
 
 ### Code source et transparence
-- **GitHub Proton Authenticator** : [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Code source open source
-- **Audits de sécurité** : [proton.me/community/security-audits](https://proton.me/community/security-audits) - Rapports d'audit indépendants
+- **GitHub Proton Authenticator** : [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - Code source open source
+- **Audits de sécurité** : [proton.me/community/security-audits](https://proton.me/community/open-source) - Rapports d'audit indépendants
 
 ### Tests de sécurité recommandés
 Après configuration, testez votre setup :

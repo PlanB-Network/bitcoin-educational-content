@@ -294,7 +294,7 @@ Eğer 2. seçeneği seçtiyseniz (CompactSeedQR: "*Evet*"), tekrar "*Evet*" üze
 ![Image](assets/fr/15.webp)
 
 
-Jade Plus kutusunda verilen QR kod tabanını kullanabilirsiniz. 12 veya 24 kelimelik bir cümle seçmiş olmanıza bağlı olarak uygun kutuyu seçin. Ayrıca [Blockstream web sitesinden şablonu yazdırabilirsiniz](https://help.blockstream.com/hc/article_attachments/41928319071769).
+Jade Plus kutusunda verilen QR kod tabanını kullanabilirsiniz. 12 veya 24 kelimelik bir cümle seçmiş olmanıza bağlı olarak uygun kutuyu seçin. Ayrıca [Blockstream web sitesinden şablonu yazdırabilirsiniz](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase).
 
 
 Jade Plus cihazınız QR kodunuzun her bir bölgesini görüntüleyecektir.

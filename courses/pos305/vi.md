@@ -266,7 +266,7 @@ Blockchain, Giao dịch, Chi tiêu gấp đôi, Bài toán của các vị tư�
 Mục tiêu của khối khóa học này là giúp bạn hiểu tổng quan về phần mềm BTCPay Server. Trong môi trường chia sẻ, bạn nên theo dõi phần trình bày của giảng viên và tham khảo Sách hướng dẫn về BTCPay Server để học cùng giảng viên. Bạn sẽ học cách tạo Wallet thông qua nhiều phương pháp. Ví dụ bao gồm thiết lập Hot, Wallet và [ví phần cứng](https://planb.academy/resources/glossary/hardware-wallet) được kết nối thông qua BTCPay Server Vault. Các mục tiêu này được thực hiện trong môi trường Demo, được giảng viên trình bày và cấp quyền truy cập.
 
 
-Nếu bạn tự học khóa học này, bạn có thể tìm thấy danh sách các máy chủ lưu trữ của bên thứ ba cho mục đích Demo tại https://directory.btcpayserver.org/filter/hosts. Chúng tôi khuyến cáo không nên sử dụng các tùy chọn của bên thứ ba này làm môi trường sản xuất; tuy nhiên, chúng phục vụ đúng mục đích giới thiệu việc sử dụng Bitcoin và BTCPay Server.
+Nếu bạn tự học khóa học này, bạn có thể tìm thấy danh sách các máy chủ lưu trữ của bên thứ ba cho mục đích Demo tại https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Chúng tôi khuyến cáo không nên sử dụng các tùy chọn của bên thứ ba này làm môi trường sản xuất; tuy nhiên, chúng phục vụ đúng mục đích giới thiệu việc sử dụng Bitcoin và BTCPay Server.
 
 
 Là một học viên chuyên nghiệp của BTCPay Server, bạn có thể đã có kinh nghiệm thiết lập node Bitcoin. Khóa học này được thiết kế riêng cho nền tảng phần mềm BTCPay Server.
@@ -2378,10 +2378,10 @@ bitcoin-lightning-cli.sh getlog
 #### Nhật ký nút Bitcoin
 
 
-Ngoài việc [xem nhật ký](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) của vùng chứa bitcoind, bạn cũng có thể sử dụng bất kỳ [lệnh bitcoin-cli](https://developer.Bitcoin.org/reference/RPC/index.html)
+Ngoài việc [xem nhật ký](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) của vùng chứa bitcoind, bạn cũng có thể sử dụng bất kỳ [lệnh bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(mở cửa sổ mới)](https://developer.Bitcoin.org/reference/RPC/index.html) để lấy thông tin từ nút Bitcoin của bạn. BTCPay bao gồm một tập lệnh cho phép bạn dễ dàng giao tiếp với nút Bitcoin của mình.
+[(mở cửa sổ mới)](https://developer.bitcoin.org/reference/rpc/index.html) để lấy thông tin từ nút Bitcoin của bạn. BTCPay bao gồm một tập lệnh cho phép bạn dễ dàng giao tiếp với nút Bitcoin của mình.
 
 
 Bên trong thư mục btcpayserver-docker, hãy lấy thông tin Blockchain bằng nút của bạn:

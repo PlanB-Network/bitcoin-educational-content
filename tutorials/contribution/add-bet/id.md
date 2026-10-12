@@ -67,7 +67,7 @@ Sebagai contoh, file YAML Anda bisa terlihat seperti ini:
 project: Plan ₿ Academy
 type: Educational Content
 links:
-  download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+  download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
   view:
 - Dalam contoh saya, saya akan meninggalkan tautan kosong untuk sekarang, karena saya akan menambahkan PDF saya langsung di GitHub:
 ![event](assets/09.webp)
@@ -161,7 +161,7 @@ https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/reso
 - Tambahkan ke dasar URL informasi berikut untuk mendapatkan link yang benar:
 
 ```url
-https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 Apa yang kita lakukan di sini adalah mengantisipasi link masa depan file Anda, setelah proposal Anda digabungkan ke repositori sumber dari Jaringan PlanB.

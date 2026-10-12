@@ -325,12 +325,6 @@ Speaker: Daniel Steigerwald
 
 Speaker: Jack Lee, Parker Lewis, Abubakar Nur Khalil, Rikki & Joe Nakamoto
 
-## How Decentralized Health & Wealth Are Linked
-
-![video](https://youtu.be/u9EPCDYFZmk)
-
-Speaker: Jack Kruse
-
 ## Two Rails Diverge: From Bank Failures to Bitcoin Payments
 
 ![video](https://youtu.be/uuDFuwAWMOc)

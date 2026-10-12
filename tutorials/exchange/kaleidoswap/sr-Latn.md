@@ -296,7 +296,7 @@ Za programere koji razvijaju na vrhu KaleidoSwap-a, aplikacija izlaže API koji 
 - WebSocket**: Za pretplate na tržišne podatke u realnom vremenu.
 
 
-Pogledajte [API Dokumentaciju](https://docs.kaleidoswap.com/api/introduction) za potpune krajnje tačke i specifikacije.
+Pogledajte [API Dokumentaciju](https://docs.kaleidoswap.com/api-reference/introduction) za potpune krajnje tačke i specifikacije.
 
 
 ## Zaključak

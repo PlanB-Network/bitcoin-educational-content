@@ -106,7 +106,7 @@ Kabla hatujazama zaidi, hebu tuangalie 'Skrini ya Nyumbani' ili kupata mwelekeo:
 - Fikia `Bitcoin Bull Exchange` ili `Nunua, Uza, au Lipa` (hii inategemea mamlaka na inaweza kuhitaji KYC).
 - 'Uhamisho' wa pesa kati ya pochi
 - `Secure Bitcoin` ni sawa na Onchain Bitcoin Wallet
-- `Malipo ya papo hapo` kupitia Lightning- / Liquid Network *(Kumbuka: Bull Bitcoin Wallet huwezesha malipo kufanywa na kupokelewa kupitia Lightning. Fedha zilizopokelewa kupitia Lightning huhifadhiwa kwenye mtandao wa [*Liquid](https://liquid.net/) (katika Malipo ya Papo Hapo ya Wallet) kutokana na ubadilishaji otomatiki kupitia [*Boltz exchange](https://boltz.exchange/). Hii inakupa uwezo wa kuingiliana na Lightning bila kulazimika kudhibiti njia za ukwasi, huku ukibaki chini ya ulinzi binafsi.)*
+- `Malipo ya papo hapo` kupitia Lightning- / Liquid Network *(Kumbuka: Bull Bitcoin Wallet huwezesha malipo kufanywa na kupokelewa kupitia Lightning. Fedha zilizopokelewa kupitia Lightning huhifadhiwa kwenye mtandao wa [*Liquid](https://liquid.net/) (katika Malipo ya Papo Hapo ya Wallet) kutokana na ubadilishaji otomatiki kupitia Boltz exchange. Hii inakupa uwezo wa kuingiliana na Lightning bila kulazimika kudhibiti njia za ukwasi, huku ukibaki chini ya ulinzi binafsi.)*
 - `Tuma` na `Pokea` pesa
 
 
@@ -418,6 +418,8 @@ Ili kukamilisha muamala, mpe mtumaji `anwani` au `URI`. Unaweza kufanya hivi kwa
 
 
 
+> **Kumbuka (Oktoba 2026):** Boltz ilisitisha swap zote tarehe 3 Agosti 2026 na tovuti yake haipatikani. Malipo ya Lightning ya Bull Bitcoin Wallet yanategemea Boltz na huenda yasifanye kazi tena.
+
 Bull Bitcoin Wallet pia hukuruhusu kutuma na kupokea malipo kupitia Lightning Network. Kipengele muhimu ni kwamba pesa zinazopokelewa kupitia Lightning hubadilishwa kiotomatiki na kuhifadhiwa kwenye `Liquid Network` ndani ya `Malipo ya Papo Hapo Wallet` yako. Huduma hii inaendeshwa na `Boltz`. Muundo huu hukuruhusu kufurahia kasi na gharama ya chini ya Lightning bila ugumu wa kusimamia njia za ukwasi, huku ukidumisha uangalizi kamili wa fedha zako. Ingawa mbinu hii mseto inajilinda na huepuka ugumu wa kusimamia njia, inaanzisha huduma ya mtu wa tatu (Boltz), ada ndogo ya ubadilishaji, na kutegemea shirikisho la watendaji wa Liquid Network kama wamiliki funguo, ambayo ni tofauti na wallet ya jadi, isiyo ya uangalizi ambapo unasimamia njia zako mwenyewe. Unaweza kujifunza zaidi kuhusu Liquid na kuna mfumo wa utawala hapa:
 
 
@@ -508,6 +510,8 @@ Unaweza kuchanganua Lightning Address (k.m. `runningbitcoin@rizful.com`) ambayo
 
 *Kumbuka kwamba kiwango cha chini cha pesa na ada zinatumika.*
 
+
+> **Kumbuka (Oktoba 2026):** Boltz ilisitisha swap zote tarehe 3 Agosti 2026 na tovuti yake haipatikani. Malipo ya Lightning ya Bull Bitcoin Wallet yanategemea Boltz na huenda yasifanye kazi tena.
 
 Bull Bitcoin Wallet hutuma malipo ya Lightning kwa kutoa pesa kutoka kwa `Malipo ya Papo Hapo Wallet` yako (kwenye Liquid) na kuzibadilisha kupitia `Boltz`. Mbinu hii mseto inajilinda kikamilifu na huepuka ada kubwa za on-chain za kusimamia chaneli maalum ya Lightning, lakini inahitaji kulipa `ada ya kubadilisha`. Kwa gharama ya chini kabisa, tuma moja kwa moja kwa anwani ya Liquid ya mpokeaji ikiwa pia wanatumia Bull Bitcoin wallet.
 

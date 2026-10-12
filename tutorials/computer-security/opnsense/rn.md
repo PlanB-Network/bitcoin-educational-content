@@ -10,7 +10,7 @@ ___
 
 
 
-*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Florian BURNEL vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](ku rubuga rwacu/uruhusha/ku-NC/4.0/). Birashoboka ko hari ivyo bahinduye mu canditswe c’intango.*
+*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Florian BURNEL vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Birashoboka ko hari ivyo bahinduye mu canditswe c’intango.*
 
 
 
@@ -139,7 +139,7 @@ Ushobora kandi kugura **igikoresho ca OPNsense gishobora gushirwa ku ruhande** b
 
 
 
-Ukeneye kwitwararika ibikoresho bisabwa kugira ngo ukoreshe OPNsense. Ivyo biradondaguwe kuri [iyi paji y’inyandiko](https://inyandiko.opnsense.org/igitabu/ibikoresho.html).
+Ukeneye kwitwararika ibikoresho bisabwa kugira ngo ukoreshe OPNsense. Ivyo biradondaguwe kuri [iyi paji y’inyandiko](https://docs.opnsense.org/manual/hardware.html).
 
 
 
@@ -214,7 +214,7 @@ Uhejeje gukuraho, uronka **ububiko burimwo ishusho mu buryo bwa ".img "**. Ushob
 
 
 
-- [Gukuraho balenaEtcher](https://igitabu.balena.io/)
+- [Gukuraho balenaEtcher](https://etcher.balena.io/)
 
 
 

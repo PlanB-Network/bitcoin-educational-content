@@ -282,8 +282,8 @@ Proton Authenticator è una delle soluzioni più complete e sicure disponibili: 
 
 ### Codice sorgente e trasparenza
 
-- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Codice sorgente aperto
-- **Audit di sicurezza**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Rapporti di audit indipendenti
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - Codice sorgente aperto
+- **Audit di sicurezza**: [proton.me/community/security-audits](https://proton.me/community/open-source) - Rapporti di audit indipendenti
 
 ### Test di sicurezza consigliati
 

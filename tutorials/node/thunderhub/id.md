@@ -122,7 +122,7 @@ For users outside Umbrel (e.g. on a personal server, a Raspberry Pi with RaspiBl
 
 
 
-**Prerequisites:** Make sure that your system meets the minimum requirements according to [documentation setup](https://docs.thunderhub.io/setup):
+**Prerequisites:** Make sure that your system meets the minimum requirements according to [documentation setup](https://docs.thunderhub.io/configure):
 
 
 
@@ -136,7 +136,7 @@ For users outside Umbrel (e.g. on a personal server, a Raspberry Pi with RaspiBl
 
 
 
-**1. Retrieve ThunderHub code:** Clone the project's GitHub repository as described in the [installation documentation](https://docs.thunderhub.io/installation):
+**1. Retrieve ThunderHub code:** Clone the project's GitHub repository as described in the [installation documentation](https://docs.thunderhub.io/get-started):
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Main configuration file:** Create a `.env.local` file at the root of the ThunderHub folder to customize the configuration (this will prevent your settings from being overwritten during updates). Main variables as per [setup documentation](https://docs.thunderhub.io/setup):
+**1. Main configuration file:** Create a `.env.local` file at the root of the ThunderHub folder to customize the configuration (this will prevent your settings from being overwritten during updates). Main variables as per [setup documentation](https://docs.thunderhub.io/configure):
 
 
 
@@ -304,8 +304,8 @@ The ThunderHub login page appears. Select the configured account and enter the p
 
 
 
-- **Installation:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- **Configuration:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Installation:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- **Configuration:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

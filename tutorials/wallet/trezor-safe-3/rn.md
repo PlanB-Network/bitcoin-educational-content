@@ -6,7 +6,7 @@ description: Gutegura no gukoresha Hardware Wallet Safe 3
 
 
 
-*Ishusho: [Trezor.io]*
+*Ishusho: [Trezor.io](https://trezor.io/)*
 
 
 
@@ -93,7 +93,7 @@ Ugukoresha iyo mashini biragoye: ukoreshe buto y’iburyo kugira ngo ugende ibur
 
 
 
-Ku bw’iyi nyigisho, ngiye kukwereka ingene wokoresha Trezor Safe 3 ukoresheje [porogarama yo gucunga Sparrow wallet Wallet](https://sparrowwallet.com/gukuraho/). Niba utarashiramwo iyi porogaramu, ndagusavye uyishiremwo ubu. Niba ukeneye gufashwa, turafise kandi inyigisho ido n'ido ku bijanye no gutunganya Sparrow wallet :
+Ku bw’iyi nyigisho, ngiye kukwereka ingene wokoresha Trezor Safe 3 ukoresheje [porogarama yo gucunga Sparrow wallet Wallet](https://sparrowwallet.com/download/). Niba utarashiramwo iyi porogaramu, ndagusavye uyishiremwo ubu. Niba ukeneye gufashwa, turafise kandi inyigisho ido n'ido ku bijanye no gutunganya Sparrow wallet :
 
 
 
@@ -103,7 +103,7 @@ Uzokenera kandi porogarama ya Trezor Suite kugira ngo ushobore gutunganya Safe 3
 
 
 
-[Kura urubuga rwa Trezor Suite ku rubuga rwemewe]
+[Kura urubuga rwa Trezor Suite ku rubuga rwemewe](https://trezor.io/trezor-suite)
 
 
 

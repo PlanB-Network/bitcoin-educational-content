@@ -296,7 +296,7 @@ KaleidoSwap управляет активами Bitcoin и RGB. В процес�
 - WebSocket**: Для подписки на рыночные данные в режиме реального времени.
 
 
-Полный перечень конечных точек и спецификаций см. в [Документации API](https://docs.kaleidoswap.com/api/introduction).
+Полный перечень конечных точек и спецификаций см. в [Документации API](https://docs.kaleidoswap.com/api-reference/introduction).
 
 
 ## Заключение

@@ -95,7 +95,7 @@ For more information: [Channels | Zeus Documentation](https://docs.zeusln.app/)
 ![image](assets/en/07.webp)
 _Bitbanana Screenshot_
 
-For more information: [BitBanana](https://bitbanana.com)
+For more information: [BitBanana](https://bitbanana.app)
 
 Once your channel is open, payments can be routed through it to other participants in the network. Balances adjust off-chain, ensuring transactions are nearly instant and incur minimal fees.
 If you no longer need a channel, you can close it. This action settles the final balance between you and your peer and records it on-chain. Ideally both parties agree and are online for a “cooperative close” (faster and less fees vs. a “forced close” with an unresponsive/offline peer).

@@ -267,7 +267,7 @@ Blockchain, Transactie, Dubbele besteding, Byzantijns Generaalsprobleem, [Mining
 Het doel van dit cursusblok is om een algemeen begrip te krijgen van de BTCPay Server software. In een gedeelde omgeving, is het aanbevolen om de demonstratie van de instructeur te volgen en het BTCPay Server Coursebook te raadplegen om mee te volgen met de docent. U leert hoe u een Wallet kunt creëren via verschillende methoden. Voorbeelden zijn Hot Wallet setups en [hardware wallets](https://planb.academy/resources/glossary/hardware-wallet) verbonden via BTCPay Server Vault. Deze doelstellingen komen voor in de Demo-omgeving, die wordt weergegeven en waartoe u toegang krijgt van uw cursusleider.
 
 
-Als u deze cursus zelf volgt, kunt u een lijst van hosts van derden voor demo-doeleinden vinden op https://directory.btcpayserver.org/filter/hosts. We raden sterk af om deze opties van derden te gebruiken als productieomgevingen; ze dienen echter het juiste doel om het gebruik van Bitcoin en BTCPay Server te introduceren.
+Als u deze cursus zelf volgt, kunt u een lijst van hosts van derden voor demo-doeleinden vinden op https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. We raden sterk af om deze opties van derden te gebruiken als productieomgevingen; ze dienen echter het juiste doel om het gebruik van Bitcoin en BTCPay Server te introduceren.
 
 
 Als BTCPay Server rockstar trainee heb je misschien al ervaring met het opzetten van een Bitcoin node. Deze cursus is specifiek afgestemd op de BTCPay Server Software stack.
@@ -2379,10 +2379,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin knooppuntlogboeken
 
 
-Naast [logs bekijken](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) van uw bitcoind container, kunt u ook gebruik maken van de [bitcoin-cli commando's](https://developer.Bitcoin.org/reference/RPC/index.html)
+Naast [logs bekijken](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) van uw bitcoind container, kunt u ook gebruik maken van de [bitcoin-cli commando's](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(opent nieuw venster)](https://developer.Bitcoin.org/reference/RPC/index.html) om informatie te verkrijgen van uw Bitcoin knooppunt. BTCPay bevat een script waarmee u gemakkelijk kunt communiceren met uw Bitcoin knooppunt.
+[(opent nieuw venster)](https://developer.bitcoin.org/reference/rpc/index.html) om informatie te verkrijgen van uw Bitcoin knooppunt. BTCPay bevat een script waarmee u gemakkelijk kunt communiceren met uw Bitcoin knooppunt.
 
 
 Haal in de map btcpayserver-docker de Blockchain informatie op met je knooppunt:

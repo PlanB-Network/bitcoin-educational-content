@@ -337,7 +337,7 @@ Lightningの請求書をCashuトークンで支払うには、"送信 "をタッ
 
 
 - 技術文書[docs.cashu.space](https://docs.cashu.space)
-- パブリックミントのリスト：[bitcoinmints.com](https://bitcoinmints.com)
+- パブリックミントのリスト：[bitcoinmints.com](https://cashumints.space/)
 - 公式プロトコルサイト[cashu.space](https://cashu.space)
 
 

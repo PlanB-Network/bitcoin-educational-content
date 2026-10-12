@@ -57,7 +57,7 @@ Blockstream Jade - Mobile Bitcoin Hardware Wallet FULL TUTORIAL by BTCsession
 更新 Jade 的韌體之後，在您想要使用的網路和安全政策上選擇 Setup Jade。
 
 
-**Tip:** 安全政策列在下圖登入畫面的類型之下。如果您不確定是選擇 Singlesig 還是 Multisig Shield，請查看我們的指南 [這裡](https://help.blockstream.com/hc/en-us/articles/4403642609433)
+**Tip:** 安全政策列在下圖登入畫面的類型之下。如果您不確定是選擇 Singlesig 還是 Multisig Shield，請查看我們的指南 [這裡](https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 
 ![image](assets/3.webp)
@@ -287,7 +287,7 @@ shasum -a 256 BlockstreamGreen_MacOS_x86_64.zip
 ![image](assets/22.webp)
 
 
-來源：https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+來源：https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 
 ### Green 應用程式

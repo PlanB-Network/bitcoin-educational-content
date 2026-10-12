@@ -25,7 +25,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 ## Unganisha kwa Proton Wallet
 
 
-Nenda kwenye [tovuti ya Proton Wallet](https://proton.me/Wallet) na ubofye kitufe cha "*Pata Protoni Wallet*".
+Nenda kwenye [tovuti ya Proton Wallet](https://proton.me/wallet) na ubofye kitufe cha "*Pata Protoni Wallet*".
 
 
 ![Image](assets/fr/01.webp)
@@ -215,7 +215,7 @@ Pakua Proton Wallet kutoka kwa duka lako la programu:
 
 
 - [Kwenye App Store](https://apps.apple.com/us/app/proton-Wallet-secure-btc/id6479609548);
-- [Kwenye Google Play Store](https://play.google.com/store/apps/details?id=me.proton.Wallet.android).
+- [Kwenye Google Play Store](https://play.google.com/store/apps/details?id=me.proton.wallet.android).
 
 
 ![Image](assets/fr/26.webp)

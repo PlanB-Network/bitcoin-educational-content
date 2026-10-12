@@ -474,7 +474,7 @@ W zakładce Status Miner można obserwować różne informacje na temat działan
 Teraz przeanalizujemy oprogramowanie dla układów ASIC Braiins OS+ (https://braiins.com/os/plus). Oprogramowanie to zostało opracowane przez firmę [Braiins](https://braiins.com/), która jest spółką macierzystą Mining pool Braiins Pool (https://braiins.com/pool). Ten Mining pool ma obecnie 4,39% globalnego Hashrate w momencie pisania tego tekstu. Firma z siedzibą w Pradze była wcześniej znana jako Slushpool i jest pierwszym Mining pool, który wystartował w listopadzie 2010 roku. [Tutaj](https://Mempool.space/Mining/pool/braiinspool) można znaleźć zaktualizowane statystyki Hashrate i dominacji w puli.
 
 
-Obecnie firma, w ramach swojej różnorodnej działalności, oferuje narzędzia do badania rentowności Mining (https://insights.braiins.com/en), rozwiązania do zarządzania farmą Mining równolegle z działalnością w zakresie puli oraz oprogramowanie do optymalizacji układów ASIC. Oferuje również Mining przy użyciu nowego protokołu Stratum V2 (https://braiins.com/Bitcoin-Mining-stack-upgrade).
+Obecnie firma, w ramach swojej różnorodnej działalności, oferuje narzędzia do badania rentowności Mining (https://insights.braiins.com/en), rozwiązania do zarządzania farmą Mining równolegle z działalnością w zakresie puli oraz oprogramowanie do optymalizacji układów ASIC. Oferuje również Mining przy użyciu nowego protokołu Stratum V2 (https://braiins.com/bitcoin-mining-stack-upgrade).
 
 
 Dlatego też bardziej szczegółowo przeanalizujemy działanie urządzeń Bitmain, które są obecnie jedynymi kompatybilnymi modelami:

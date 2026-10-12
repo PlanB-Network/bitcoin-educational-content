@@ -38,7 +38,7 @@ Nenda kwenye duka lako la programu na usakinishe Phoenix :
 
 
 
-- Kwenye [Google Play Store](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.Mainnet);
+- Kwenye [Google Play Store](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet);
 - Kwenye [App Store](https://apps.apple.com/fr/app/phoenix-Wallet/id1544097028?l=en-GB).
 
 

@@ -435,9 +435,9 @@ Naho ifise aho igarukira (nta guhindura kwihuta, kugabanya ukuntu ishobora gukor
 
 
 
-- [Urubuga rwemewe rwa LibreWolf](https://libreWolf.net)
-- [Ikode y'inkomoko kuri Codeberg]
-- [Ibibazo vyemewe]( https://librewolf.net/inyandiko/ibibazo)
+- [Urubuga rwemewe rwa LibreWolf](https://librewolf.net)
+- [Ikode y'inkomoko kuri Codeberg](https://codeberg.org/librewolf)
+- [Ibibazo vyemewe]( https://librewolf.net/docs/faq)
 
 
 
@@ -446,8 +446,8 @@ Naho ifise aho igarukira (nta guhindura kwihuta, kugabanya ukuntu ishobora gukor
 
 
 
-- [Inyigisho z'ubuzima bwite](https://www.inyigisho z'ubuzima bwite.org/ru/ibikoresho-vy'ibiro/)
-- [Ibipimo vy'ubuzima bwite bigereranywa](https://ibipimo vy'ubuzima bwite.org)
+- [Inyigisho z'ubuzima bwite](https://www.privacyguides.org/en/desktop-browsers/)
+- [Ibipimo vy'ubuzima bwite bigereranywa](https://privacytests.org)
 
 
 
@@ -456,5 +456,5 @@ Naho ifise aho igarukira (nta guhindura kwihuta, kugabanya ukuntu ishobora gukor
 
 
 
-- [Ikiganiro c'Igihugu](www.reddit.com/r/Igihugu c'Igihugu/)
-- [Ikigereranyo c'Umugende](https://igikoko.to/#/#igikoko:igikoko.org)
+- [Ikiganiro c'Igihugu](https://www.reddit.com/r/LibreWolf/)
+- [Ikigereranyo c'Umugende](https://matrix.to/#/#librewolf:matrix.org)

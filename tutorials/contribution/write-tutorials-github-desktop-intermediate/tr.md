@@ -253,7 +253,7 @@ Tüm bilgiler girildikten ve doğrulandıktan sonra, eğitim dosyalarınızın o
 Artık "Python betiğim olmadan" alt bölümünü ve 3. adım olan "YAML dosyasını doldurun" kısmını atlayabilirsiniz, çünkü betik bu işlemleri sizin için zaten tamamlamıştır. Doğrudan 4. adıma geçin ve öğreticinizi yazmaya başlayın.
 
 
-Bu Python betiği hakkında daha fazla bilgi için [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) adresine de göz atabilirsiniz.
+Bu Python betiği hakkında daha fazla bilgi için [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md) adresine de göz atabilirsiniz.
 
 
 ### Python betiğim olmadan

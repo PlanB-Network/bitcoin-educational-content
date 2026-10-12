@@ -5,7 +5,7 @@ description: 適合所有人的簡約型 Bitcoin Wallet
 
 ![cover](assets/cover.webp)
 
-
+> **警告（2026年10月）：** StashPay 已停止營運。其作者於 2026 年 7 月 26 日宣布專案結束，應用程式已於 2026 年 8 月 31 日關閉；網站已下線（[閱讀公告](https://blog.onionmill.com/p/sunsetting-stashpay)）。若要找回您的 Liquid 錢包，請將您的復原短語匯入 Blockstream App。我們保留此頁面以供參考。
 
 用戶體驗是全球採用 Bitcoin 解決方案的關鍵因素。提供流暢、簡單且不受技術限制的體驗是許多錢包和 Exchange 平台的優先考量。在這方面，StashPay 以其簡約的方式脫穎而出，同時也展示了 Lightning Network 的強大功能。
 
@@ -23,7 +23,7 @@ StashPay 是一款 Lightning 自保管 Wallet，主要因其簡約、以使用�
 
 
 
-StashPay 是一個以 React Native 開發的開放源碼專案，旨在解決即使在 Bitcoin 協定的主鏈上進行交易，也需要支付高昂交易費用的問題。它是 Android 和 iOS 平台上的行動應用程式，可透過 [網站](https://stashpay.me/) 上的下載連結下載。
+StashPay 是一個以 React Native 開發的開放源碼專案，旨在解決即使在 Bitcoin 協定的主鏈上進行交易，也需要支付高昂交易費用的問題。它是 Android 和 iOS 平台上的行動應用程式，可透過 網站 上的下載連結下載。
 
 
 

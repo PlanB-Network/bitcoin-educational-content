@@ -337,7 +337,7 @@ El modelo de custodia exige vigilancia y buenas prácticas de seguridad. Utiliza
 
 
 - Documentación técnica: [docs.cashu.space](https://docs.cashu.space)
-- Lista de cecas públicas: [bitcoinmints.com](https://bitcoinmints.com)
+- Lista de cecas públicas: [bitcoinmints.com](https://cashumints.space/)
 - Sitio web oficial del protocolo: [cashu.space](https://cashu.space)
 
 

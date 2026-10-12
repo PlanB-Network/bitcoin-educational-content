@@ -39,7 +39,7 @@ Once your Jade appears in Green, update Jade by clicking Check for updates and s
 
 After you have updated Jade's firmware, select Setup Jade on the network and security policy you would like to use.
 
-**Tip:** The security policy is listed under Type on the login screen shown below. If you are not sure whether to select Singlesig or Multisig Shield, please review our guide [here](https://help.blockstream.com/hc/en-us/articles/4403642609433)
+**Tip:** The security policy is listed under Type on the login screen shown below. If you are not sure whether to select Singlesig or Multisig Shield, please review our guide [here](https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 ![image](assets/3.webp)
 
@@ -195,7 +195,7 @@ You have now successfully set up your wallet and you can begin receiving, storin
 
 ![image](assets/22.webp)
 
-source: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+source: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 ### green app
 

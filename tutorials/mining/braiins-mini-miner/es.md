@@ -10,7 +10,7 @@ description: Minar Bitcoin fácilmente desde casa.
 
 El Mini Miner braiins BMM 100 es un producto creado por Mining pool Braiins. Este dispositivo tiene un diseño atractivo y es extremadamente silencioso. Produce 1,1 Th/s de potencia de cálculo y consume unos 40 vatios. A diferencia de otros dispositivos, no es de código abierto, pero es realmente fácil de instalar, ¡realmente sólo se necesitan unos pocos clics! El Mini Miner BMM 100 es la primera versión que salió al mercado. Ahora está en producción la versión 2, llamada BMM 101, que se diferencia de la primera por tener una pantalla más grande y la presencia de Wi-Fi, pero los procedimientos de instalación son los mismos.
 
-También puede encontrar mucha más información importante consultando la guía completa directamente en [sitio del fabricante](https://braiins.com/hardware/mini-Miner-bmm-100).
+También puede encontrar mucha más información importante consultando la guía completa directamente en [sitio del fabricante](https://braiins.com/hardware/mini-miner-bmm-100).
 
 ### Visión general de BMM 100
 el dispositivo parece un paralelepípedo con una pantalla en la parte frontal

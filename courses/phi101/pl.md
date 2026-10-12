@@ -344,7 +344,7 @@ Analiza ta odzwierciedla niezrozumienie wartości nadwyżkowej oraz kooperacyjne
 ### Rewolucja przemysłowa pod znakiem zapytania
 
 
-W rzeczywistości marksistowska analiza zniekształca historyczną rzeczywistość rewolucji przemysłowej. Ludwig von Mises wyjaśnił tę kwestię w swoim traktacie ekonomicznym [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (zob. zwłaszcza rozdział zatytułowany [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)), jak również w serii wykładów opublikowanych pod tytułem: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Warto również przeczytać The Anti-Capitalistic Mentality [tutaj](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) i [tutaj](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+W rzeczywistości marksistowska analiza zniekształca historyczną rzeczywistość rewolucji przemysłowej. Ludwig von Mises wyjaśnił tę kwestię w swoim traktacie ekonomicznym [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (zob. zwłaszcza rozdział zatytułowany [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)), jak również w serii wykładów opublikowanych pod tytułem: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Warto również przeczytać The Anti-Capitalistic Mentality [tutaj](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) i [tutaj](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![image](assets/pl/014.webp)
 

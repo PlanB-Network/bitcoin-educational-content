@@ -253,7 +253,7 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 अब आप उपखंड "मेरी पायथन स्क्रिप्ट के बिना" के साथ-साथ चरण 3, "YAML फ़ाइल भरें" को छोड़ सकते हैं, क्योंकि स्क्रिप्ट ने आपके लिए ये क्रियाएँ पहले ही पूरी कर ली हैं। सीधे चरण 4 पर जाएँ और अपना ट्यूटोरियल लिखना शुरू करें।
 
 
-इस पायथन स्क्रिप्ट के बारे में अधिक जानकारी के लिए, आप [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) भी देख सकते हैं।
+इस पायथन स्क्रिप्ट के बारे में अधिक जानकारी के लिए, आप [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md) भी देख सकते हैं।
 
 
 ### मेरी पायथन स्क्रिप्ट के बिना

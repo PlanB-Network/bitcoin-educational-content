@@ -217,7 +217,7 @@ Aby wyświetlić logi węzła Bitcoin związane konkretnie z jego interakcją z 
 
 
 - [Strona Wiki wyjaśniająca Tor i jego związek z Bitcoin](https://en.Bitcoin.it/wiki/Tor)
-- [Generator plików konfiguracyjnych Bitcoin core autorstwa Jamesona Loppa](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [Generator plików konfiguracyjnych Bitcoin core autorstwa Jamesona Loppa](https://jlopp.github.io/bitcoin-core-config-generator/)
 - [Przewodnik konfiguracji Tora autorstwa Jona Atacka](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 

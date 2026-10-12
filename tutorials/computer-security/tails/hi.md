@@ -13,7 +13,7 @@ description: USB कुंजी पर टेल्स स्थापित �
 ## टेल्स के साथ यूएसबी कुंजी क्यों स्थापित की गई है?
 
 
-टेल्स (https://tails.boum.org/) हर समय आपके पास सुरक्षित कंप्यूटर रखने का सबसे आसान तरीका है, जो आपके द्वारा उपयोग किए जाने वाले कंप्यूटर पर कोई निशान नहीं छोड़ेगा।
+टेल्स (https://tails.net/) हर समय आपके पास सुरक्षित कंप्यूटर रखने का सबसे आसान तरीका है, जो आपके द्वारा उपयोग किए जाने वाले कंप्यूटर पर कोई निशान नहीं छोड़ेगा।
 
 
 टेल्स का उपयोग करने के लिए, जिस कंप्यूटर तक आपकी पहुंच है उसे बंद कर दें (अपने माता-पिता के घर पर, अपने दोस्तों के घर पर, इंटरनेट कैफे में...) और इसे विंडोज, मैकओएस या लिनक्स के बजाय अपनी टेल्स यूएसबी कुंजी से शुरू करें।
@@ -80,7 +80,7 @@ description: USB कुंजी पर टेल्स स्थापित �
 ![image](assets/1.webp)
 
 
-🔗 **आधिकारिक टेल्स अनुभाग:** https://tails.boum.org/install/linux/index.fr.html#download
+🔗 **आधिकारिक टेल्स अनुभाग:** https://tails.net/install/linux/index.fr.html#download
 
 
 .img एक्सटेंशन वाली इंस्टॉलेशन फ़ाइल को डाउनलोड करने में आपकी इंटरनेट डाउनलोड स्पीड के आधार पर कुछ समय लग सकता है, इसलिए पहले से योजना बना लें। आधुनिक और कुशल कनेक्शन के साथ, इसमें 5 मिनट से भी कम समय लगेगा।
@@ -95,7 +95,7 @@ description: USB कुंजी पर टेल्स स्थापित �
 ![image](assets/2.webp)
 
 
-🔗 **आधिकारिक टेल्स अनुभाग:** https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 **आधिकारिक टेल्स अनुभाग:** https://tails.net/install/linux/index.fr.html#verify
 
 
 डाउनलोड का सत्यापन करने से यह सुनिश्चित हो जाता है कि यह टेल्स डेवलपर्स द्वारा जारी किया गया है और डाउनलोड के दौरान दूषित या बाधित नहीं हुआ है।
@@ -117,8 +117,8 @@ description: USB कुंजी पर टेल्स स्थापित �
 
 
 
-- **लिनक्स:** https://tails.boum.org/install/linux/index.fr.html#install
-- **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher और https://tails.boum.org/install/mac/index.fr.html#install
+- **लिनक्स:** https://tails.net/install/linux/index.fr.html#install
+- **macOS:** https://tails.net/install/mac/index.fr.html#etcher और https://tails.net/install/mac/index.fr.html#install
 
 
 अपने USB कुंजी पर टेल्स स्थापित करने का यह चरण पूरे गाइड में सबसे कठिन है, खासकर यदि आपने इसे पहले कभी नहीं किया है। सबसे महत्वपूर्ण बिंदु आपके ऑपरेटिंग सिस्टम के लिए आधिकारिक अनुभाग में सही प्रक्रिया चुनना है: लिनक्स या मैकओएस।
@@ -136,7 +136,7 @@ description: USB कुंजी पर टेल्स स्थापित �
 ![image](assets/4.webp)
 
 
-🔗 **आधिकारिक टेल्स अनुभाग:** https://tails.boum.org/install/linux/index.en.html#restart
+🔗 **आधिकारिक टेल्स अनुभाग:** https://tails.net/install/linux/index.en.html#restart
 
 
 अब समय आ गया है कि आप अपने नए USB स्टिक का उपयोग करके अपने कंप्यूटर को चालू करें। इसे किसी USB पोर्ट में डालें और पुनः चालू करें!
@@ -178,7 +178,7 @@ description: USB कुंजी पर टेल्स स्थापित �
 ![image](assets/6.webp)
 
 
-🔗 **आधिकारिक टेल्स अनुभाग:** https://tails.boum.org/install/linux/index.en.html#tails
+🔗 **आधिकारिक टेल्स अनुभाग:** https://tails.net/install/linux/index.en.html#tails
 
 
 बूट लोडर और लोडिंग स्क्रीन के एक या दो मिनट बाद, स्वागत स्क्रीन दिखाई देती है।

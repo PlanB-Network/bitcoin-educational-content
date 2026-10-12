@@ -43,7 +43,7 @@ LNbits 充當用戶與 Lightning 節點之間的 Interface，提供簡單易用�
 ## 示範平台
 
 
-您可以在 [https://legend.lnbits.com](https://legend.lnbits.com)找到示範。其功能完整，可用來了解 LNbits 和 LNURL 的 Lightning Network 和一般功能。雖然我們無法阻止您使用它，但請您不要將它用於您的生產設定。我們不僅經常在伺服器上測試新功能，也鼓勵您以主權的方式運行自己的節點和 LNbits。如果您認為運行一個節點是太多的要求，你可以在雲端連接 LNbits 到保管人資金服務，如 Opennode、Luna 或 Votage，或到 Telegram 上的 Lightning Tipbot，僅舉幾個例子。
+您可以在 [https://demo.lnbits.com](https://demo.lnbits.com)找到示範。其功能完整，可用來了解 LNbits 和 LNURL 的 Lightning Network 和一般功能。雖然我們無法阻止您使用它，但請您不要將它用於您的生產設定。我們不僅經常在伺服器上測試新功能，也鼓勵您以主權的方式運行自己的節點和 LNbits。如果您認為運行一個節點是太多的要求，你可以在雲端連接 LNbits 到保管人資金服務，如 Opennode、Luna 或 Votage，或到 Telegram 上的 Lightning Tipbot，僅舉幾個例子。
 
 
 ## LNbits 傳單
@@ -69,7 +69,7 @@ LNbits 基於 LNURL 通訊協定運作，這表示請求有兩種形式：https:
 
 
 - [LND 指南](https://docs.lightning.engineering/) | 安裝 LND
-- [LND 組態範例](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | LND 設定
+- [LND 組態範例](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | LND 設定
 - [CLN 指南](https://docs.corelightning.org/docs/installation) | 安裝 CLN
 - [LUDs](https://github.com/lnurl/luds) LNURL Spec | [NIPs](https://github.com/nostr-protocol/nips) Nostr Spec
 - [Run a Watchtower](https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | 非常重要！
@@ -81,7 +81,7 @@ LNbits 基於 LNURL 通訊協定運作，這表示請求有兩種形式：https:
 
 - [Getting Started with LNbits](https://darthcoin.substack.com/p/getting-started-lnbits) | Substack guide
 - [ToDos for your safety with LNbits](https://youtu.be/i5FQf96e6zg) | Youtube Video
-- [Lightning Network上的私人銀行](https://darthcoin.substack.com/p/Bitcoin-private-banks-over-lightning) | 分包指南
+- [Lightning Network上的私人銀行](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | 分包指南
 - [為您的親朋好友運行保管錢包](https://darthcoin.substack.com/p/the-bank-of-lnbits) | Substack guide
 - [LNbits for a small restaurant / hotel](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | Substack guide
 - [Using LNbits Streamer copilot](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | Substack guide
@@ -116,7 +116,7 @@ LNbits 可以安裝在任何 Linux 作業系統的機器上。它不需要強大
 [更多安裝方案在此](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server)。
 
 
-對於 bundle 軟體節點，請參閱其有關 LNbits 的特定說明文件：[Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+對於 bundle 軟體節點，請參閱其有關 LNbits 的特定說明文件：[Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
 ### LNbits SaaS
@@ -202,17 +202,19 @@ LNbits 可以運行在許多雷射網路資金來源之上。目前已支援 Cor
   - LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend 示範伺服器 (!! 請勿將此伺服器用於生產/商業用途，僅用於測試 !!!)
   - lnbits_backend_wallet_class`： **LNbitsWallet**
-  - `lnbits_endpoint`: https://legend.lnbits.com
+  - `lnbits_endpoint`: https://demo.lnbits.com
   - LNBITS_KEY: legend-lnbits-AdminKey
 
 #### 閃電提示機器人
+
+> **警告（2026 年 10 月）：** LightningTipBot 和 ln.tips 已停止營運；關閉公告發布於 2024 年 4 月 29 日。除非您自行託管機器人，否則此資金來源已無法使用。
 
 
 要從 Telegram 連接您的 [Lightning Tipbot](https://t.me/LightningTipBot)，您需要設定以下參數：
 
 
   - lnbits_backend_wallet_class`： **LnTipsWallet**
-  - `lnbits_endpoint`: https://LN.tips
+  - `lnbits_endpoint`: `https://LN.tips`
   - LNBITS_KEY`：要取得 Key，您需要在 Telegram 上與 LightningTipbot 私聊一次，執行 /api。
 
 
@@ -229,11 +231,13 @@ LNbits 可以運行在許多雷射網路資金來源之上。目前已支援 Cor
 
 #### LNPay
 
-為了讓 Invoice 監聽器運作，您必須在您的 LNbits 設定一個公開存取的 URL，並設定一個 [LNPay webhook](https://dashboard.lnpay.co/webhook/)，指向 `<您的 LNbits 主機>/Wallet/webhook`，並設定 "Wallet Receive" 事件，且不給予任何秘密。設定 `https://mylnbits/Wallet/webhook` 將會是收到任何付款通知的端點 url。
+> **警告（2026 年 10 月）：** LNPay 似乎已停止營運：lnpay.co 網域已無回應。此資金來源很可能已無法使用。
+
+為了讓 Invoice 監聽器運作，您必須在您的 LNbits 設定一個公開存取的 URL，並設定一個 LNPay webhook，指向 `<您的 LNbits 主機>/Wallet/webhook`，並設定 "Wallet Receive" 事件，且不給予任何秘密。設定 `https://mylnbits/Wallet/webhook` 將會是收到任何付款通知的端點 url。
 
 
   - lnbits_backend_wallet_class`： **LNPayWallet**
-  - `lnpay_api_endpoint`: https://api.lnpay.co/v1/
+  - `lnpay_api_endpoint`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -514,7 +518,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ##### LNURL 適用於閃電-Address 反之亦然
 
 
-試試 fiatjaf 的 [encoder](https://lnurl-codec.netlify.app/) 或 [this one](https://lightningdecoder.com/).若要支付或檢查 LNURLp，您也可以使用 [LNurlpay](https://wwww.lnurlpay.com/)。它應該說明 HTTPS 而不是 HTTP。
+試試 fiatjaf 的 [encoder](https://lnurl-codec.netlify.app/) 或 [this one](https://lightningdecoder.com/).若要支付或檢查 LNURLp，您也可以使用 [LNurlpay](https://www.lnurlpay.com/)。它應該說明 HTTPS 而不是 HTTP。
 
 
 
@@ -537,7 +541,9 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ###### 透過外部交換服務。
 
 
-其他無法存取您的 LNb 的使用者可以使用交換服務，例如 [Boltz](https://boltz.Exchange/)、[FixedFloat](https://fixedfloat.com/)、[DiamondHands](https://swap.diamondhands.technology/) 或 [ZigZag](https://zigzag.io/)。如果您在 LNbits 實例中只提供 LNURL/LN 發票，但付款人只有 onchain Sats，因此他們必須先在自己這邊交換這些 Sats，這就很有用了。程序很簡單：用戶發送 onchain btc 到交換服務，並提供來自 LNbits 的 LNURL / LN Invoice 作為交換的目的地。
+其他無法存取您的 LNb 的使用者可以使用交換服務，例如 Boltz、[FixedFloat](https://fixedfloat.com/) 或 [ZigZag](https://zigzag.io/)。如果您在 LNbits 實例中只提供 LNURL/LN 發票，但付款人只有 onchain Sats，因此他們必須先在自己這邊交換這些 Sats，這就很有用了。程序很簡單：用戶發送 onchain btc 到交換服務，並提供來自 LNbits 的 LNURL / LN Invoice 作為交換的目的地。
+
+> **警告（2026 年 10 月）：** 在多個漏洞遭到利用後，Boltz 於 2026 年 8 月 3 日暫停了所有交換，其網站已離線。目前無法使用 Boltz 和 LNbits 的 Boltz 擴充功能。
 
 
 ###### 使用 Onchain 和 Boltz LNbits 延伸。
@@ -595,7 +601,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ### 使用 LNbits 製作工具與建置
 
 
-LNbits 擁有各式各樣的 [開放 API](https://legend.lnbits.com/docs)和工具，可針對數千萬種不同的使用情況，編寫程式並連接至許多不同的裝置。
+LNbits 擁有各式各樣的 [開放 API](https://demo.lnbits.com/docs)和工具，可針對數千萬種不同的使用情況，編寫程式並連接至許多不同的裝置。
 
 
 如果你是個新手，可以從 Ben Arc 提供的 [MakerBits 簡報](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) 開始，了解如何根據 LNbits 製作小工具。

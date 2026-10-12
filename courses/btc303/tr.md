@@ -320,7 +320,7 @@ Trustless ile ne demek istiyorlar? Pieter Wuille bu yaygın kullanılan terimi [
 Kısacası, *Trustless* kelimesi Bitcoin protokolünün mantıksal olarak "herhangi bir güvenilir taraf" olmadan çalışabilmesini sağlayan bir özelliğine atıfta bulunmaktadır. Bu, kaçınılmaz olarak çalıştırdığınız yazılım ya da donanıma duymak zorunda olduğunuz güvenden farklıdır. Güvenin bu ikinci yönü hakkında daha fazla bilgi bu bölümün ilerleyen kısımlarında ele alınacaktır.
 
 
-Merkezi sistemlerde, merkezi bir aktörün güvenliğe dikkat edeceğinden ya da sorun çıkması halinde geri adım atacağından emin olmak için itibarına ve herhangi bir ihlali yaptırıma bağlayacak yasal sisteme güveniriz. Bu güven gereksinimleri takma isimli merkezi olmayan sistemlerde sorunludur - rücu imkanı yoktur, bu nedenle gerçekten herhangi bir güven olamaz. Bitcoin whitepaper]'ın (https://Bitcoin.org/Bitcoin.pdf) giriş bölümünde Satoshi Nakamoto bu sorunu açıklamaktadır:
+Merkezi sistemlerde, merkezi bir aktörün güvenliğe dikkat edeceğinden ya da sorun çıkması halinde geri adım atacağından emin olmak için itibarına ve herhangi bir ihlali yaptırıma bağlayacak yasal sisteme güveniriz. Bu güven gereksinimleri takma isimli merkezi olmayan sistemlerde sorunludur - rücu imkanı yoktur, bu nedenle gerçekten herhangi bir güven olamaz. Bitcoin whitepaper]'ın (https://bitcoin.org/bitcoin.pdf) giriş bölümünde Satoshi Nakamoto bu sorunu açıklamaktadır:
 
 
 > İnternet üzerinden yapılan ticaret, elektronik ödemelerin işlenmesi için neredeyse yalnızca güvenilir üçüncü taraflar olarak hizmet veren finans kuruluşlarına dayanır hale gelmiştir.
@@ -333,7 +333,7 @@ Görünüşe göre güvene dayalı merkezi olmayan bir sisteme sahip olamayız v
 Bitcoin'yi Trustless tarzında kullanmak için, tam doğrulamalı bir Bitcoin düğümü çalıştırmanız gerekir. Ancak o zaman başkalarından aldığınız blokların mutabakat kurallarına uyduğunu doğrulayabilirsiniz; örneğin, Coin ihraç programına uyulduğunu ve Blockchain'da çifte harcama yapılmadığını. Bir Full node çalıştırmıyorsanız, Bitcoin bloklarının doğrulanmasını başka birine yaptırırsınız ve size doğruyu söyleyeceklerine güvenirsiniz, bu da Bitcoin'yi güvenle kullanmadığınız anlamına gelir.
 
 
-David Harding, [Bitcoin.org web sitesinde](https://Bitcoin.org/en/Bitcoin-core/features/validation) Full node çalıştırmanın - veya Bitcoin'i güvenle kullanmanın - aslında size nasıl yardımcı olduğunu açıklayan bir makale yazdı:
+David Harding, [Bitcoin.org web sitesinde](https://bitcoin.org/en/bitcoin-core/features/validation) Full node çalıştırmanın - veya Bitcoin'i güvenle kullanmanın - aslında size nasıl yardımcı olduğunu açıklayan bir makale yazdı:
 
 
 > Bitcoin para birimi yalnızca insanlar Exchange'daki bitcoinleri diğer değerli şeyler için kabul ettiğinde çalışır. Bu, ona değer veren ve Bitcoin'nin nasıl çalışması gerektiğine karar verenlerin bitcoinleri kabul eden insanlar olduğu anlamına gelir.
@@ -522,7 +522,7 @@ Adresleri veya açık anahtarları kullanarak, önceden bir şekilde takma ad ka
 Blockchain gizliliği, Blockchain üzerinde işlem yaparak ifşa ettiğiniz bilgileri ifade eder. Hem gönderdiğiniz hem de aldığınız tüm işlemler için geçerlidir.
 
 
-Satoshi Nakamoto, [Bitcoin whitepaper]'ının 7. bölümünde (https://Bitcoin.org/Bitcoin.pdf) On-Chain gizliliği üzerine düşünmektedir:
+Satoshi Nakamoto, [Bitcoin whitepaper]'ının 7. bölümünde (https://bitcoin.org/bitcoin.pdf) On-Chain gizliliği üzerine düşünmektedir:
 
 
 > Ek bir güvenlik duvarı olarak, her bir işlemin ortak bir sahibine bağlanmasını önlemek için yeni bir anahtar çifti kullanılmalıdır. Girdilerinin aynı sahibine ait olduğunu ortaya çıkaran çok girdili işlemlerde bir miktar bağlantı kaçınılmazdır. Risk, bir anahtarın sahibinin ortaya çıkması halinde, bağlantının aynı sahibine ait diğer işlemleri de ortaya çıkarmasıdır.
@@ -755,7 +755,7 @@ Bunu söylemek mümkün değil ama birkaç şey biliyoruz:
 - Sıfır blok sübvansiyonu ve boş ya da neredeyse boş bir Mempool ile, ücretler nedeniyle işler sallantılı hale gelebilir.
 
 
-Ücretli Block reward'e geçiş çok uzak bir gelecekte olduğu için, hemen sonuca varmamak ve potansiyel sorunları elimizden geldiğince çözmeye çalışmak akıllıca olabilir. Örneğin Peter Todd, Bitcoin'ün güvenlik bütçesinin gelecekte yeterli olmayacağına dair gerçek bir risk olduğunu düşünüyor ve sonuç olarak Bitcoin'te küçük bir sürekli enflasyonu savunuyor. Bununla birlikte, [What Bitcoin Did podcast'inde söylediği gibi](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin) şu anda böyle bir konuyu tartışmanın iyi bir fikir olmadığını da düşünüyor:
+Ücretli Block reward'e geçiş çok uzak bir gelecekte olduğu için, hemen sonuca varmamak ve potansiyel sorunları elimizden geldiğince çözmeye çalışmak akıllıca olabilir. Örneğin Peter Todd, Bitcoin'ün güvenlik bütçesinin gelecekte yeterli olmayacağına dair gerçek bir risk olduğunu düşünüyor ve sonuç olarak Bitcoin'te küçük bir sürekli enflasyonu savunuyor. Bununla birlikte, [What Bitcoin Did podcast'inde söylediği gibi](https://www.youtube.com/watch?v=8yah3N9n84k) şu anda böyle bir konuyu tartışmanın iyi bir fikir olmadığını da düşünüyor:
 
 
 > Ama bu 10, 20 yıl sonrası için bir risk. Bu çok uzun bir süre. Ve o zamana kadar risklerin ne olduğunu kim bilebilir ki?
@@ -817,7 +817,7 @@ Tam tersi, [geriye dönük uyumluluk](https://en.wikipedia.org/wiki/Backward_com
 Bitcoin mutabakat kurallarında yapılan bir değişikliğin tam uyumlu olması halinde *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)* olduğu söylenir. Bu, bu bölümde daha sonra tartışacağımız bir dizi nedenden dolayı Bitcoin'u yükseltmenin en yaygın yoludur. Bitcoin mutabakat kurallarında yapılan bir değişiklik geriye doğru uyumlu ancak ileriye doğru uyumlu değilse buna *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)* denir.
 
 
-Soft çatalları ve Hard çatallarına teknik bir genel bakış için lütfen [Grokking Bitcoin'ün 11. bölümünü](https://rosenbaum.se/book/grokking-Bitcoin-11.html) okuyun. Bu terimleri açıklar ve ayrıca yükseltme mekanizmalarına dalar. Kesinlikle gerekli olmasa da, okumaya devam etmeden önce bu konuda bilgi sahibi olmanız önerilir.
+Soft çatalları ve Hard çatallarına teknik bir genel bakış için lütfen [Grokking Bitcoin'ün 11. bölümünü](https://rosenbaum.se/book/grokking-bitcoin-11.html) okuyun. Bu terimleri açıklar ve ayrıca yükseltme mekanizmalarına dalar. Kesinlikle gerekli olmasa da, okumaya devam etmeden önce bu konuda bilgi sahibi olmanız önerilir.
 
 
 ### Tarihi iyileştirmeler
@@ -851,7 +851,7 @@ Aaron van Wirdum, Bitcoin Magazine makalesinde [The Long Road To SegWit](https:/
 
 > Shaolinfry bir alternatif önerdi: kullanıcı tarafından etkinleştirilen Soft Fork (UASF). Hash güç aktivasyonu yerine, kullanıcı tarafından aktive edilen bir Soft Fork, düğümlerin gelecekte önceden belirlenmiş bir zamanda uygulamaya başladığı bir "'bayrak günü aktivasyonuna" sahip olacaktır Böyle bir UASF ekonomik bir çoğunluk tarafından uygulandığı sürece, bu madencilerin çoğunluğunu Soft Fork'ü takip etmeye (veya etkinleştirmeye) zorlamalıdır.
 
-Diğer şeylerin yanı sıra, Shaolinfry'nin Bitcoin-dev posta listesine gönderdiği e-postaya atıfta bulunuyor. Bu vesileyle Shaolinfry [Miner'nın Soft çatallarını etkinleştirmesine karşı çıktı](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html) ve bunlarla ilgili bir dizi sorunu listeledi:
+Diğer şeylerin yanı sıra, Shaolinfry'nin Bitcoin-dev posta listesine gönderdiği e-postaya atıfta bulunuyor. Bu vesileyle Shaolinfry [Miner'nın Soft çatallarını etkinleştirmesine karşı çıktı](https://gnusha.org/pi/bitcoindev/jo5-7HCZX7tgdMpIQgK85HCPP14FWxvOIbjV_oerIfc-HOP1GbK3SxFX82Ls23yU1L7y95QsFFggddMNdo5Sxy7YhTJhRFN1f8d6PaA8b7s=@protonmail.ch/) ve bunlarla ilgili bir dizi sorunu listeledi:
 
 
 > İlk olarak, Hash gücünün aktivasyondan sonra doğrulanacağına güvenmeyi gerektirir.  BIP66 Soft Fork, Hashrate'un %95'inin hazır olma sinyali verdiği ancak gerçekte yaklaşık yarısının yükseltilmiş kuralları doğrulamadığı ve yanlışlıkla geçersiz bir blok üzerine madencilik yaptığı bir durumdu.
@@ -884,7 +884,7 @@ SegWit dağıtımından sonra, dağıtım mekanizmaları hakkında bir tartışm
 
 > Bir noktada muhtemelen Bitcoin protokolüne daha fazla özellik eklemek isteyeceğiz. Bu kendimize sorduğumuz büyük bir felsefi soru. Bir sonraki için bir UASF yapacak mıyız? Hibrit bir yaklaşıma ne dersiniz? Tek başına aktive edilen Miner elendi. bip9'u tekrar kullanmayacağız.
 
-Ocak 2020'de Matt Corallo, Bitcoin-dev posta listesine gelecekteki Soft Fork dağıtım mekanizmaları hakkında bir tartışma başlatan bir e-posta] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html) gönderdi. Bir yükseltmede gerekli olduğunu düşündüğü beş hedefi listeledi. David Harding [bunları bir Bitcoin Optech bülteninde](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) şöyle özetliyor:
+Ocak 2020'de Matt Corallo, Bitcoin-dev posta listesine gelecekteki Soft Fork dağıtım mekanizmaları hakkında bir tartışma başlatan bir e-posta] (https://gnusha.org/pi/bitcoindev/4a132f8a-22e3-8e31-e338-bed9ef46d2ef@mattcorallo.com/) gönderdi. Bir yükseltmede gerekli olduğunu düşündüğü beş hedefi listeledi. David Harding [bunları bir Bitcoin Optech bülteninde](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) şöyle özetliyor:
 
 
 > Önerilen mutabakat kuralları değişikliklerine ciddi bir itiraz ile karşılaşılması durumunda iptal etme yeteneği. Güncellenmiş yazılımın yayınlanmasından sonra çoğu ekonomik düğümün bu kuralları uygulayacak şekilde yükseltilmesini sağlamak için yeterli zaman ayrılması . Ağ Hash oranının değişiklikten önce ve sonra ve herhangi bir geçiş sırasında aşağı yukarı aynı olacağı beklentisi . Yeni kurallara göre geçersiz olan ve yükseltilmemiş düğümlerde ve SPV istemcilerinde yanlış onaylara yol açabilecek blokların oluşturulmasının mümkün olduğunca önlenmesi. İptal mekanizmalarının, bilinen hiçbir sorunu olmayan ve yaygın olarak istenen bir yükseltmeyi engellemek için kederli kişiler veya partizanlar tarafından kötüye kullanılamayacağının güvence altına alınması
@@ -956,7 +956,7 @@ Bu yedi ay boyunca tartışma devam etti ve hangi dağıtım mekanizmasının ku
 
 "Bakalım ne olacak" yaklaşımı nihayet insanların zihninde yer etmiş görünüyordu. Bu süreç, kısa sinyalizasyon süresi nedeniyle daha sonra "Hızlı Yargılama" olarak adlandırılacaktır. David Harding bu fikri daha geniş bir topluluğa şöyle açıklıyor
 
-[Bitcoin-dev posta listesine e-posta](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-March/018583.html):
+[Bitcoin-dev posta listesine e-posta](https://gnusha.org/pi/bitcoindev/20210306034343.fhwrxmq6gbb2os5m@ganymede/):
 
 > Bu teklifin önceki versiyonu 200 gün önce belgelendirildi ve Taproot'ün temel kodu 140 gün önce Bitcoin core ile birleştirildi.Taproot'ün birleştirildiği sırada Hızlı Deneme'ye başlamış olsaydık (ki bu biraz gerçekçi değil), Taproot'e sahip olmamıza iki aydan daha az bir süre kalmış olacaktı ya da bir ay önce bir sonraki etkinleştirme girişimine geçecektik.
 >
@@ -1260,7 +1260,7 @@ Birçok geliştirici, takma bir isim altında çalışarak ve gerçek kimlikleri
 makaleler ve Bitcoin ve Lightning Network üzerindeki çalışmalarım.
 
 
-Onun durumunda, takma ad kullanmasının nedeni, takma adın arkasındaki kişi veya kişilerin kim olduğu veya olduğu değil, kendi esasına göre değerlendirilmelidir. İlginç bir şekilde, CoinDesk'teki bir [makalede](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) takma adın farklı bir nedenle oluşturulduğunu açıkladı.
+Onun durumunda, takma ad kullanmasının nedeni, takma adın arkasındaki kişi veya kişilerin kim olduğu veya olduğu değil, kendi esasına göre değerlendirilmelidir. İlginç bir şekilde, CoinDesk'teki bir [makalede](https://www.coindesk.com/markets/2020/06/29/many-bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) takma adın farklı bir nedenle oluşturulduğunu açıkladı.
 
 
 > Takma ad kullanmamın ilk nedeni basitçe büyük bir hata yapmaktan endişe etmemdi; dolayısıyla ZmnSCPxj başlangıçta böyle bir durumda terk edilebilecek tek kullanımlık bir takma ad olarak tasarlanmıştı. Ancak çoğunlukla olumlu bir ün kazanmış gibi görünüyor, bu yüzden onu korudum
@@ -1335,7 +1335,7 @@ Bir fikir nihai olarak benimsenme yolunda genellikle çeşitli tartışma ve inc
 Bu aşamaların her birinde farklı bakış açılarına ve geçmişlere sahip kişiler, kaynak kodu, bir BIP veya sadece gevşek bir şekilde tanımlanmış bir fikir gibi mevcut bilgileri gözden geçirir. Aşamalar genellikle yukarıdan aşağıya katı bir şekilde gerçekleştirilmez, aslında birden fazla aşama aynı anda gerçekleşebilir ve bazen bunlar arasında gidip gelirsiniz. Farklı aşamalar sırasında farklı kişiler de geri bildirim sağlayabilir.
 
 
-Bitcoin core'daki en üretken kod gözden geçiricilerden biri Jon Atack'tır. Bitcoin core'da çekme isteklerinin nasıl gözden geçirileceği hakkında [bir blog yazısı](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) yazdı. İyi bir kod gözden geçiricinin en iyi nasıl değer katabileceğine odaklandığını vurguluyor.
+Bitcoin core'daki en üretken kod gözden geçiricilerden biri Jon Atack'tır. Bitcoin core'da çekme isteklerinin nasıl gözden geçirileceği hakkında [bir blog yazısı](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core) yazdı. İyi bir kod gözden geçiricinin en iyi nasıl değer katabileceğine odaklandığını vurguluyor.
 
 
 > Yeni gelen biri olarak amaç, mümkün olduğunca çok şey öğrenirken, samimiyet ve alçakgönüllülükle değer katmaya çalışmaktır.
@@ -1380,7 +1380,7 @@ Bitcoin'ün sürekli başarısıyla ilgilenen şirketler, bireyler ve kuruluşla
 İnsanlar bazen Bitcoin geliştiricileri arasında çok fazla çekişme ve sonu gelmeyen hararetli tartışmalar olduğu ve karar vermekten aciz oldukları izlenimine kapılıyor.
 
 
-Örneğin, Taproot dağıtım mekanizması, iki "kampın" oluştuğu uzun bir süre boyunca tartışıldı. Biri, madencilerin belirli bir andan sonra yeni kurallar için ezici bir çoğunlukla oy kullanmaması halinde yükseltmenin "başarısız" olmasını isterken, diğeri ne olursa olsun o andan sonra kuralları uygulamak istedi. Michael Folkson, iki kampın argümanlarını Bitcoin-dev posta listesine gönderdiği bir [e-posta](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) ile özetliyor.
+Örneğin, Taproot dağıtım mekanizması, iki "kampın" oluştuğu uzun bir süre boyunca tartışıldı. Biri, madencilerin belirli bir andan sonra yeni kurallar için ezici bir çoğunlukla oy kullanmaması halinde yükseltmenin "başarısız" olmasını isterken, diğeri ne olursa olsun o andan sonra kuralları uygulamak istedi. Michael Folkson, iki kampın argümanlarını Bitcoin-dev posta listesine gönderdiği bir [e-posta](https://gnusha.org/pi/bitcoindev/CAFvNmHSnd4OM+c0_L8fFXRNrxo23WdQpNdBjTJjhmGuHumgLDA@mail.gmail.com/) ile özetliyor.
 
 
 Tartışma sonsuza kadar sürecekmiş gibi görünüyordu ve bu konuda yakın zamanda bir fikir birliği oluşması gerçekten Hard idi. Bu durum insanları sinirlendirdi ve sonuç olarak hararet arttı. Gregory Maxwell (nullc kullanıcısı olarak) [Reddit'te](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) uzun tartışmaların yükseltmeyi daha az güvenli hale getireceğinden endişelendi:
@@ -1468,7 +1468,7 @@ Yakında ölçeklendirmeye yönelik farklı yaklaşımları inceleyeceğiz, anca
 > Satoshi Nakamoto yazdı:
 >
 
-> "Güvenilir bir üçüncü taraf olmadan, tamamen eşler arası çalışan yeni bir elektronik para sistemi üzerinde çalışıyorum.  Makaleye http://www.Bitcoin.org/Bitcoin.pdf adresinden ulaşabilirsiniz."
+> "Güvenilir bir üçüncü taraf olmadan, tamamen eşler arası çalışan yeni bir elektronik para sistemi üzerinde çalışıyorum.  Makaleye http://www.bitcoin.org/bitcoin.pdf adresinden ulaşabilirsiniz."
 >
 
 > Böyle bir sisteme çok ama çok ihtiyacımız var, ancak teklifinizi anladığım kadarıyla gerekli büyüklükte ölçeklendirilebilecek gibi görünmüyor.
@@ -1482,7 +1482,7 @@ Bu konuşma kendi içinde çok ilginç ya da doğru olmayabilir, ancak ölçekle
 2015 yılında Montreal'de [Scaling Bitcoin](https://scalingbitcoin.org/) adlı bir konferans düzenlenmiş, altı ay sonra Hong Kong'da ve daha sonra dünyanın çeşitli yerlerinde bir takip konferansı yapılmıştır. Odak noktası tam olarak Address'in nasıl ölçeklendirileceğiydi. Birçok Bitcoin geliştiricisi ve diğer meraklılar bu konferanslarda bir araya gelerek çeşitli ölçeklendirme konularını ve önerilerini tartıştılar. Bu tartışmaların çoğu blok boyutu artışları etrafında değil, daha uzun vadeli çözümler etrafında dönüyordu.
 
 
-Aralık 2015'teki Hong Kong konferansından sonra Gregory Maxwell, bazı genel ölçeklendirme felsefesiyle başlayarak tartışılan birçok konu hakkındaki görüşlerini [özetledi](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html):
+Aralık 2015'teki Hong Kong konferansından sonra Gregory Maxwell, bazı genel ölçeklendirme felsefesiyle başlayarak tartışılan birçok konu hakkındaki görüşlerini [özetledi](https://gnusha.org/pi/bitcoindev/CAAS2fgQyVs1fAEj+vqp8E2=FRnqsgs7VUKqALNBHNxRMDsHdVg@mail.gmail.com/):
 
 
 > Mevcut teknoloji ile ölçek ve ademi merkeziyetçilik arasında temel ödünleşimler vardır. Eğer sistem çok maliyetli ise insanlar sistemin kurallarını bağımsız olarak uygulamak yerine üçüncü taraflara güvenmek zorunda kalacaklardır. Bitcoin Blockchain'in mevcut teknolojiye göre kaynak kullanımı çok büyükse, Bitcoin eski sistemlere kıyasla rekabet avantajlarını kaybeder çünkü doğrulama çok maliyetli olacak (birçok kullanıcıyı dışarıda bırakacaktır) ve güveni sisteme geri dönmeye zorlayacaktır.  Kapasite çok düşükse ve işlem yapma yöntemlerimiz çok verimsizse, anlaşmazlıkların çözümü için zincire erişim çok maliyetli olacak ve yine güveni sisteme geri itecektir.
@@ -1551,7 +1551,7 @@ Doğrulamasız Mining, Full node ademi merkeziyetçiliğini daha da zayıflatır
 Yatay ölçeklendirme, iş yükünü birden fazla makineye bölen teknikleri ifade eder. Bu, popüler web siteleri ve veritabanları arasında yaygın bir ölçeklendirme yaklaşımı olsa da, Bitcoin'da kolayca yapılamaz.
 
 
-Birçok kişi bu Bitcoin ölçeklendirme yaklaşımını *sharding* olarak adlandırmaktadır. Temel olarak, her bir Full node'in Blockchain'in sadece bir kısmını doğrulamasına izin vermekten ibarettir. Peter Todd sharding kavramı üzerine çok kafa yormuştur. Sharding'i genel hatlarıyla açıklayan bir [blog yazısı](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) yazmış ve ayrıca *treechains* adlı kendi fikrini sunmuştur. Makale zor bir okuma, ancak Todd oldukça sindirilebilir bazı noktalara değiniyor:
+Birçok kişi bu Bitcoin ölçeklendirme yaklaşımını *sharding* olarak adlandırmaktadır. Temel olarak, her bir Full node'in Blockchain'in sadece bir kısmını doğrulamasına izin vermekten ibarettir. Peter Todd sharding kavramı üzerine çok kafa yormuştur. Sharding'i genel hatlarıyla açıklayan bir [blog yazısı](https://petertodd.org/2015/why-scaling-bitcoin-with-sharding-is-very-hard) yazmış ve ayrıca *treechains* adlı kendi fikrini sunmuştur. Makale zor bir okuma, ancak Todd oldukça sindirilebilir bazı noktalara değiniyor:
 
 
 > Parçalanmış sistemlerde "Full node savunması" en azından doğrudan çalışmaz. Bütün mesele, herkesin tüm verilere sahip olmamasıdır, bu nedenle mevcut olmadığında ne olacağına karar vermeniz gerekir.
@@ -1730,7 +1730,7 @@ güvenlik açıkları. Hackerlar ve bilgisayar güvenlik bilimcileri, kamuoyunu 
 Bu, bir güvenlik sorunu bulmanız halinde bunu sistemden sorumlu ekibe bildirmeniz gerektiği anlamına gelir. Peki bu Bitcoin bağlamında ne anlama geliyor? Bitcoin'yi kimse kontrol etmiyor, ancak şu anda Bitcoin'nin geliştirilmesi için bir odak noktası var, yani [Bitcoin core Github deposu](https://github.com/Bitcoin/Bitcoin). Söz konusu deponun sorumluları depodaki koddan sorumludur, ancak bir bütün olarak sistemden sorumlu değildirler - kimse sorumlu değildir. Bununla birlikte, genel olarak en iyi uygulama security@bitcoincore.org adresine bir e-posta göndermektir.
 
 
-Anthony Towns, 2017 tarihli "Hataların sorumlu bir şekilde ifşa edilmesi" başlıklı bir [e-posta dizisi](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) yazısında, mevcut en iyi uygulamalar olarak algıladıklarını özetlemeye çalışmıştır. Konuyla ilgili görüşünü bildirmek için çeşitli kaynaklardan ve farklı kişilerden girdiler toplamıştı.
+Anthony Towns, 2017 tarihli "Hataların sorumlu bir şekilde ifşa edilmesi" başlıklı bir [e-posta dizisi](https://gnusha.org/pi/bitcoindev/20170914052740.GA2674@erisian.com.au/) yazısında, mevcut en iyi uygulamalar olarak algıladıklarını özetlemeye çalışmıştır. Konuyla ilgili görüşünü bildirmek için çeşitli kaynaklardan ve farklı kişilerden girdiler toplamıştı.
 
 
 
@@ -1753,12 +1753,12 @@ Anthony Towns, 2017 tarihli "Hataların sorumlu bir şekilde ifşa edilmesi" ba�
 Bu liste, Bitcoin için yama yayınlarken ne kadar dikkatli olunması gerektiğini göstermektedir, çünkü yamanın kendisi güvenlik açığını ele verebilir. Dördüncü madde, bir yamanın yeterince iyi gizlenip gizlenmediğinin nasıl test edileceğini açıkladığı için özellikle ilginçtir. Gerçekten de, birkaç deneyimli geliştirici yamanın bir güvenlik açığını düzelttiğini bilse bile bu açığı fark edemiyorsa, diğerlerinin bunu keşfetmesi muhtemelen gerçekten Hard olacaktır.
 
 
-Bu e-postaya yol açan konu başlığı, altcoinlere ve Bitcoin'nın diğer uygulamalarına yönelik güvenlik açıklarının ifşa edilip edilmeyeceğini, ne zaman ve nasıl ifşa edileceğini tartışıyordu. Burada net bir cevap yok. "İyi adamlara yardım etmek" yapılması gereken mantıklı bir şey gibi görünüyor, ancak bunların kim olduğuna kim karar veriyor ve sınır nerede çiziliyor? Bryan Bishop, altcoinlerin ve hatta scamcoinlerin güvenlik açıklarına karşı kendilerini savunmalarına yardımcı olmanın ahlaki bir görev olduğunu [savundu](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html):
+Bu e-postaya yol açan konu başlığı, altcoinlere ve Bitcoin'nın diğer uygulamalarına yönelik güvenlik açıklarının ifşa edilip edilmeyeceğini, ne zaman ve nasıl ifşa edileceğini tartışıyordu. Burada net bir cevap yok. "İyi adamlara yardım etmek" yapılması gereken mantıklı bir şey gibi görünüyor, ancak bunların kim olduğuna kim karar veriyor ve sınır nerede çiziliyor? Bryan Bishop, altcoinlerin ve hatta scamcoinlerin güvenlik açıklarına karşı kendilerini savunmalarına yardımcı olmanın ahlaki bir görev olduğunu [savundu](https://gnusha.org/pi/bitcoindev/CABaSBawaN8GTES96yZBKa574A0TiDAHvukipYH9MGk0Euev6PA@mail.gmail.com/):
 
 
 > Bitcoin'yi ve kullanıcılarını aktif tehditlerden korumak yeterli değildir, her türlü kullanıcıyı ve farklı yazılımı her türlü tehditten korumak için daha genel bir sorumluluk vardır, insanlar kişisel olarak bakımını yapmadığınız, katkıda bulunmadığınız veya savunmadığınız aptalca ve güvensiz yazılımlar kullanıyor olsalar bile. Bir güvenlik açığı bilgisini ele almak hassas bir konudur ve başlangıçta tanımlanandan daha ciddi doğrudan veya dolaylı etkiye sahip bir bilgi alıyor olabilirsiniz.
 
-Ayrıca Town'ın yukarıdaki e-postasına öncülük eden Gregory Maxwell'in güvenlik açıklarının göründüğünden daha ciddi olabileceğini savunduğu bir [gönderi](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) vardı:
+Ayrıca Town'ın yukarıdaki e-postasına öncülük eden Gregory Maxwell'in güvenlik açıklarının göründüğünden daha ciddi olabileceğini savunduğu bir [gönderi](https://gnusha.org/pi/bitcoindev/CAAS2fgRD_poPjFaG6QD3L7R1GYKEO5LikrzXz+niBFBPbLCRQg@mail.gmail.com/) vardı:
 
 
 > Birçok kez Hard'un istismar edilmesi gereken bir sorunun doğru hileyi bulduğunuzda önemsiz hale geldiğini veya küçük bir dos sorununun çok daha ciddi hale geldiğini gördüm.
@@ -2031,7 +2031,7 @@ BIP 4 Temmuz 2015 tarihinde yürürlüğe girmiştir. Ancak, yukarıda belirtile
 
 Bu konunun tam açıklaması 28 Temmuz 2015 tarihinde Pieter Wuille tarafından
 
-[Bitcoin-dev posta listesine e-posta gönderin](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
+[Bitcoin-dev posta listesine e-posta gönderin](https://gnusha.org/pi/bitcoindev/55B79146.70309@gmail.com/):
 
 
 > Herkese merhaba,
@@ -2066,7 +2066,7 @@ BIP66'yı çevreleyen olayların zaman çizelgesi. Siyah renkli maddeler yukarı
 Kimsenin bu konudan haberi olmadan, işlemlerin yanlış şekillendirilebilme olasılığını azaltmaya yönelik bir öneri olan ve artık geniş bir alana yayılan BIP62 ile bu sorun çözülebilirdi. BIP62'de önerilen değişiklikler arasında imzaların kodlanması için mutabakat kurallarının sıkılaştırılması ya da "katı DER kodlaması" da vardı. Pieter Wuille, Temmuz 2014'te BIP'de sorunu çözecek bazı değişiklikler önerdi:
 
 
-> 2014-Temmuz-18: Bitcoin'nin imza kodlama kurallarının OpenSSL'in özel ayrıştırıcısına bağlı olmaması için BIP62 teklifini, katı DER imzaları gerekliliğinin sürüm 1 işlemlerine de uygulanmasını sağlayacak şekilde değiştirdim. O sırada artık DER olmayan imzalar bloklara kazılmıyordu, bu nedenle bunun herhangi bir etkisi olmayacağı varsayıldı. Bkz. https://github.com/Bitcoin/bips/pull/90 ve http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. O sırada bilinmiyordu, ancak uygulanmış olsaydı bu güvenlik açığını çözmüş olacaktı.
+> 2014-Temmuz-18: Bitcoin'nin imza kodlama kurallarının OpenSSL'in özel ayrıştırıcısına bağlı olmaması için BIP62 teklifini, katı DER imzaları gerekliliğinin sürüm 1 işlemlerine de uygulanmasını sağlayacak şekilde değiştirdim. O sırada artık DER olmayan imzalar bloklara kazılmıyordu, bu nedenle bunun herhangi bir etkisi olmayacağı varsayıldı. Bkz. https://github.com/Bitcoin/bips/pull/90 ve https://gnusha.org/pi/bitcoindev/CAPg+sBiTURdRAZbyk3guF5YzAAQebo8yY_TuXHUKYDEdLjDUdQ@mail.gmail.com/. O sırada bilinmiyordu, ancak uygulanmış olsaydı bu güvenlik açığını çözmüş olacaktı.
 
 Bu BIP'nin "katı DER kodlamasından" çok daha fazlasını kapsayan genişliği nedeniyle, sürekli değişiyordu ve hiçbir zaman dağıtıma yaklaşamadı. BIP daha sonra geri çekildi çünkü Segregated Witness, BIP141, işlem uyumsuzluğunu farklı ve daha eksiksiz bir şekilde çözdü.
 
@@ -2075,7 +2075,7 @@ Bu BIP'nin "katı DER kodlamasından" çok daha fazlasını kapsayan genişliği
 
 
 
-OpenSSL, Bitcoin'te en başından beri kullanılması halinde sorunu çözecek yamaları içeren yazılımlarının yeni sürümlerini yayınladı. Ancak, OpenSSL'in herhangi bir yeni sürümünü yalnızca Bitcoin core'ün yeni bir sürümünde kullanmak sorunları daha da kötüleştirecektir. Gregory Maxwell bunu Ocak 2015'te başka bir [e-posta dizisinde](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) açıklamaktadır:
+OpenSSL, Bitcoin'te en başından beri kullanılması halinde sorunu çözecek yamaları içeren yazılımlarının yeni sürümlerini yayınladı. Ancak, OpenSSL'in herhangi bir yeni sürümünü yalnızca Bitcoin core'ün yeni bir sürümünde kullanmak sorunları daha da kötüleştirecektir. Gregory Maxwell bunu Ocak 2015'te başka bir [e-posta dizisinde](https://gnusha.org/pi/bitcoindev/CAAS2fgR2a+3wb+He611pxy_Ypur0gq+o7SRjUHa4-R+xHLLnyA@mail.gmail.com/) açıklamaktadır:
 
 
 > Çoğu uygulama için bazı imzaları hevesle reddetmek genellikle kabul edilebilir olsa da, Bitcoin tüm katılımcıların girdi verilerinin kesin geçerliliği veya geçersizliği konusunda genel olarak hemfikir olması gereken bir mutabakat sistemidir.  Bir anlamda tutarlılık "doğruluktan" daha önemlidir.
@@ -2101,7 +2101,7 @@ Buradan çıkarılacak en önemli sonuç, BIP'lerin aşağı yukarı *atomik* ol
 
 
 
-Ne yazık ki BIP66'nın hikayesi burada bitmedi. BIP66 etkinleştirildiğinde, bazı madenciler genişletmeye çalıştıkları blokları doğrulamadıkları için oldukça karışık bir durum ortaya çıktı. Buna doğrulamasız Mining ya da SPV-Mining (Basitleştirilmiş Ödeme Doğrulaması gibi) deniyor. Bitcoin düğümlerine [sorunu açıklayan bir web sayfasına](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining) bağlantı içeren bir uyarı mesajı gönderildi:
+Ne yazık ki BIP66'nın hikayesi burada bitmedi. BIP66 etkinleştirildiğinde, bazı madenciler genişletmeye çalıştıkları blokları doğrulamadıkları için oldukça karışık bir durum ortaya çıktı. Buna doğrulamasız Mining ya da SPV-Mining (Basitleştirilmiş Ödeme Doğrulaması gibi) deniyor. Bitcoin düğümlerine [sorunu açıklayan bir web sayfasına](https://bitcoin.org/en/alert/2015-07-04-spv-mining) bağlantı içeren bir uyarı mesajı gönderildi:
 
 
 > 4 Temmuz 2015 sabahı erken saatlerde 950/1000 (%95) eşiğine ulaşıldı. Bundan kısa bir süre sonra, küçük bir Miner (yükseltilmemiş %5'in bir parçası) geçersiz bir blok çıkardı; bu beklenen bir durumdu. Ne yazık ki, ağ Hash oranının yaklaşık yarısının blokları tam olarak doğrulamadan Mining olduğu (SPV Mining olarak adlandırılır) ve bu geçersiz bloğun üzerine yeni bloklar inşa ettiği ortaya çıktı.

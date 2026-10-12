@@ -13,7 +13,7 @@ Przenośny i amnezyjny system operacyjny, który chroni przed inwigilacją i cen
 ## Po co mieć klucz USB z zainstalowanym Tails?
 
 
-Tails (https://tails.boum.org/) to najprostszy sposób na posiadanie bezpiecznego komputera, który nie pozostawia żadnych śladów na komputerze, z którym jest używany.
+Tails (https://tails.net/) to najprostszy sposób na posiadanie bezpiecznego komputera, który nie pozostawia żadnych śladów na komputerze, z którym jest używany.
 
 
 Aby korzystać z Tails, wyłącz komputer, do którego masz dostęp (u rodziców, u znajomych, w kafejce internetowej...) i uruchom go za pomocą klucza USB Tails zamiast systemu Windows, macOS lub Linux.
@@ -80,7 +80,7 @@ Wymagania wstępne:
 ![image](assets/1.webp)
 
 
-🔗 **Oficjalna sekcja Tails:** https://tails.boum.org/install/linux/index.fr.html#download
+🔗 **Oficjalna sekcja Tails:** https://tails.net/install/linux/index.fr.html#download
 
 
 Pobieranie pliku instalacyjnego z rozszerzeniem .img może zająć trochę czasu w zależności od szybkości pobierania z Internetu, więc zaplanuj to z wyprzedzeniem. Przy nowoczesnym i wydajnym łączu zajmie to mniej niż 5 minut.
@@ -95,7 +95,7 @@ Zapisz plik w znanym folderze, takim jak Pobrane, ponieważ będzie on potrzebny
 ![image](assets/2.webp)
 
 
-🔗 **Oficjalna sekcja Tails:** https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 **Oficjalna sekcja Tails:** https://tails.net/install/linux/index.fr.html#verify
 
 
 Weryfikacja pobierania zapewnia, że zostało ono wydane przez programistów Tails i nie zostało uszkodzone lub przechwycone podczas pobierania.
@@ -117,8 +117,8 @@ Aby zweryfikować plik, użyj przycisku "Wybierz pobieranie..." dostępnego w of
 
 
 
-- **Linux:** https://tails.boum.org/install/linux/index.fr.html#install
-- **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher i https://tails.boum.org/install/mac/index.fr.html#install
+- **Linux:** https://tails.net/install/linux/index.fr.html#install
+- **macOS:** https://tails.net/install/mac/index.fr.html#etcher i https://tails.net/install/mac/index.fr.html#install
 
 
 Ten krok instalacji Tails na kluczu USB jest najtrudniejszy w całym przewodniku, zwłaszcza jeśli nigdy wcześniej tego nie robiłeś. Najważniejszą kwestią jest wybranie właściwej procedury w oficjalnej sekcji dla danego systemu operacyjnego: Linux lub macOS.
@@ -136,7 +136,7 @@ Powodzenia i do zobaczenia na 4. etapie.
 ![image](assets/4.webp)
 
 
-🔗 **Oficjalna sekcja Tails:** https://tails.boum.org/install/linux/index.en.html#restart
+🔗 **Oficjalna sekcja Tails:** https://tails.net/install/linux/index.en.html#restart
 
 
 Nadszedł czas, aby uruchomić jeden z komputerów za pomocą nowej pamięci USB. Włóż ją do jednego z portów USB i uruchom ponownie!
@@ -178,7 +178,7 @@ Po wybraniu pamięci USB powinieneś zobaczyć nowy ekran rozruchowy, co jest ba
 ![image](assets/6.webp)
 
 
-🔗 **Oficjalna sekcja Tails:** https://tails.boum.org/install/linux/index.en.html#tails
+🔗 **Oficjalna sekcja Tails:** https://tails.net/install/linux/index.en.html#tails
 
 
 Po jednej lub dwóch minutach od uruchomienia programu ładującego i wyświetlenia ekranu ładowania pojawi się ekran powitalny.

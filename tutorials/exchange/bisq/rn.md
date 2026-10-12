@@ -10,9 +10,9 @@ description: Uko wokoresha Bisq, umugenzi ku wundi Exchange.
 Bisq ni urubuga rw'ubudandaji rwigenga rw'itunga ry'ubuhinga bwa none, ahanini Bitcoin. Itanga ubucuruzi butaziguye, butekanye kandi bwihariye hagati y’abakoresha kw’isi yose ata n’umwe akeneye guhuza.
 
 
-Urubuga: https://bisq.urubuga/
+Urubuga: https://bisq.network/
 
-amakuru: https://bisq.urubuga/gutangura/
+amakuru: https://bisq.network/getting-started/
 
 
 _Urabe maso ntugire ico ukora ataco ukora, Bisq ni umuti uteye imbere. Iyo imaze gushirwaho, irakomeye cane, ariko nimba uri umutanguzi wuzuye, yoshobora kutagubereye._
@@ -30,7 +30,7 @@ Inyigisho yuzuye ya BTC Session:
 ## Inyobora yo kwandika:
 
 
-Inyigisho y'umwimerere ivuye mu mugwi wa bisq: https://bisq.urubuga/gutangura/
+Inyigisho y'umwimerere ivuye mu mugwi wa bisq: https://bisq.network/getting-started/
 
 
 _Niba uzi uburongozi bushasha bufise ishusho n'ibindi bimenyetso vy'abatanguzi, ntaco ushobora kubidusangiza!_
@@ -44,13 +44,13 @@ _Niba uzi uburongozi bushasha bufise ishusho n'ibindi bimenyetso vy'abatanguzi, 
 ![Download, Verify, and Install Bisq: Windows](https://youtu.be/XABzwXw6X0A)
 
 
-Ushobora gukura no gushiramwo Bisq mu buryo bworoshe kuri uru rubuga (https://bisq.urubuga/ibikurwako) canke kuri GitHub (https://github.com/urubuga-bisq/bisq/ibisohotse/vya nyuma).
+Ushobora gukura no gushiramwo Bisq mu buryo bworoshe kuri uru rubuga (https://bisq.network/downloads) canke kuri GitHub (https://github.com/bisq-network/bisq/releases/latest nyuma).
 
 
 Ni vyiza kandi kugenzura dosiye yawe y'installer kugira ngo umenye neza ko ataco yinjiyemwo. Raba amavidewo aha kugira ngo ubone amabwirizwa. Ibindi bisobanuro biri muri iyi nkuru ya wiki. (gukuraho_no_gushiramwo)
 
 
-Niba wifuza kwubaka Bisq uhereye ku ntango, ng'aya amabwirizwa (https://github.com/urubuga-bisq/bisq/blob/umukuru/inyandiko/kwubaka.md). Bisq ni porogaramu y’ubuntu/y’ubuntu ushobora gutanga umusanzu. (Urutonde rw'abatanze)
+Niba wifuza kwubaka Bisq uhereye ku ntango, ng'aya amabwirizwa (https://github.com/bisq-network/bisq/blob/master/docs/build.md). Bisq ni porogaramu y’ubuntu/y’ubuntu ushobora gutanga umusanzu. (https://bisq.wiki/Contributor_checklist)
 
 
 ![image](assets/1.webp)
@@ -91,7 +91,7 @@ ububiko bwawe bw'amakuru. (Ububiko_bw'amakuru y'ikoreshwa)
 Kugira ngo ucuruze Bitcoin kuri Bisq, ubwirizwa gushinga uburyo bwo kohereza canke kwakira ayandi mahera. Bisq ikora gusa uruhande rwa Bitcoin rw’ubudandaji—urundi ruhande rukora biciye ku bikorwa vyo kwishura fiat (amabanki, amahera yo gutanga, amahera) canke amasakoshi ya Altcoin.
 
 
-Ntuzi neza ubwoko bwa konti yo kwishura woshiraho? Hari urutonde rw'uburyo bwo kwishura kuri wiki (https://bisq.wiki/Uburyo_ bwo kwishura). Niba uzoba uriko uracuruza fiat, ndagusavye urabe neza ko ubona amasanamu y'imipaka ya konti canke usome iyi nkuru kuri wiki.(https://bisq.wiki/Imipaka_ya konti)
+Ntuzi neza ubwoko bwa konti yo kwishura woshiraho? Hari urutonde rw'uburyo bwo kwishura kuri wiki (https://bisq.wiki/Payment_methods_ bwo kwishura). Niba uzoba uriko uracuruza fiat, ndagusavye urabe neza ko ubona amasanamu y'imipaka ya konti canke usome iyi nkuru kuri wiki.(https://bisq.wiki/Account_limits konti)
 
 
 Hariho altcoins nyinshi zishobora gucuruzwa kuri Bisq. Akira inama zimwe zimwe ku masoko yo hejuru:
@@ -114,7 +114,7 @@ Hariho altcoins nyinshi zishobora gucuruzwa kuri Bisq. Akira inama zimwe zimwe k
 Gutanga igiciro bizokuronsa igiciro ciza n’ubugenzuzi bwinshi (nk’akarorero, gushinga uburyo bwo kwishura n’ijanisha ry’amahera ushiramwo), ariko gufata igiciro birashobora kuba vyiza.
 
 
-Raba amafaranga y’ubudandaji hano(https://bisq.wiki/Amafaranga_y’ubudandaji).
+Raba amafaranga y’ubudandaji hano(https://bisq.wiki/Trading_fees).
 
 
 Uzobona abatanga ama offer bariha bike cane. Zirikana ko hariho porogarama ya telefone ngendanwa ya iOS na Android ushobora gukoresha kugira uronke amamenyesha y’ibintu bishasha n’ibikorwa ku bucuruzi bufunguye. Kugira ngo ubone impande zompi z’ubudandaji bwa Bisq igihe kimwe, iruhande n’uruhande, urabe neza ko uraba videwo yacu y’ubudandaji bwa Bisq y’Ijisho ry’Inyoni.

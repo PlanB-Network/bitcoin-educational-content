@@ -61,7 +61,7 @@ Ehe icateye ubwoba abakoresha benshi: Gushinga Blink biranyaruka kuruta gukora k
 
 
 - Gukuraho Blink Wallet
- - Rondera “Blink Wallet” ku [Iduka ry’Iporogarama](iOS), [Iduka rya Google](Iduka ry’Iporogarama) (Iduka ry’Iporogarama) [Igikoresho ca porogarama](Huawei), bivanye n’igikoresho cawe.
+ - Rondera “Blink Wallet” ku [Iduka ry’Iporogarama](https://apps.apple.com/ng/app/bitcoin-beach-wallet/id1531383905)(iOS), [Iduka rya Google](https://play.google.com/store/apps/details?id=com.galoyapp) (Iduka ry’Iporogarama) [Igikoresho ca porogarama](https://appgallery.huawei.com/app/C105387593)(Huawei), bivanye n’igikoresho cawe.
  - Ushobora kandi kuyikura ku rubuga rwa [Blink Wallet](https://blink.sv).
 - Rema Wallet
  - Kanda kuri “Rema Wallet nshasha”
@@ -269,7 +269,7 @@ Ushobora gushika ku bikoresho vy’ubudandaji biteye imbere mu Mitunganyirize �
  - Nta mafaranga yerekanwa - abakiriya bahitamwo ingene botanga/bazotanga
 
 
-Uronke ubumenyi bwinshi ku [Blink POS](https://www.blink.sv/blog/hindura-ubumenyi-bwawe bwo kwishura-n’ivyo-blink-pos), kandi utore uburyo bw’agaciro bw’abacuruzi mu [Blink Branding no Gushiramwo](https://www.brand.sv/ru).
+Uronke ubumenyi bwinshi ku [Blink POS](https://www.blink.sv/blog/transform-your-payment-experience-with-the-blink-pos), kandi utore uburyo bw’agaciro bw’abacuruzi mu [Blink Branding no Gushiramwo](https://www.blink.sv/en/brand).
 
 
 ## Kwiga no kuronka Bitcoin vyakozwe vyoroshe na Blink
@@ -305,7 +305,7 @@ Blink ni Wallet y’ububiko, bisobanura ko bafata kandi bagacungera amahera yawe
 
 
 - Ivyiza: Gutegura vyoroshe, gukoresha neza Interface, ubufasha bw'abaguzi buraboneka
-- Ivyiza: Ntushobora kugenzura [imfunguruzo zawe z’ibanga](https://www.blink.sv/blog/si-imfunguruzo-zawe-si-ibiceri-vyawe), ivyo bisigura ko wizigira Blink kugira ngo icunge amahera yawe
+- Ivyiza: Ntushobora kugenzura [imfunguruzo zawe z’ibanga](https://www.blink.sv/blog/not-your-keys-not-your-coins), ivyo bisigura ko wizigira Blink kugira ngo icunge amahera yawe
 
 
 ### Imipaka y'ugucuruza
@@ -356,9 +356,9 @@ Blink ni Wallet y’ububiko, bisobanura ko bafata kandi bagacungera amahera yawe
 
 
 
-- Suzuma inyandiko za Blink na [ibibazo bikunda kwibazwa]
+- Suzuma inyandiko za Blink na [ibibazo bikunda kwibazwa](https://faq.blink.sv/)
 - Baza abafasha abakiriya biciye kuri porogaramu
-- Suzuma [Urupapuro rwo gufasha Blink](https://www.gufasha.sv/ru/gufasha)
+- Suzuma [Urupapuro rwo gufasha Blink](https://www.blink.sv/en/support)
 - Injira mu [muryango w'itelegaramu y'amaso](https://t.me/blinkbtc) ku bibazo rusangi
 
 
@@ -381,7 +381,7 @@ Uko ugenda umenyerera Blink, ushobora gushaka gutohoza:
 ![image](assets/fr/03.webp)
 
 
-[Wallet](https://blink.sv/) itanga inzira nziza cane yo kwinjira mw'isi ya Bitcoin. Ihuriro ryayo ry’uko ryoroshe gukoresha, ry’ugushigikira amafaranga abiri, n’ugushiramwo [Lightning Network](https://www.blink.sv/blog/ni-iki-urusobe-rw’umuravyo) rituma riba ryiza cane ku:
+[Wallet](https://blink.sv/) itanga inzira nziza cane yo kwinjira mw'isi ya Bitcoin. Ihuriro ryayo ry’uko ryoroshe gukoresha, ry’ugushigikira amafaranga abiri, n’ugushiramwo [Lightning Network](https://www.blink.sv/blog/what-is-the-lightning-network) rituma riba ryiza cane ku:
 
 
 

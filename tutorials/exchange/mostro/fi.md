@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - Yksityinen Nostr**-avain (muoto `nsec1...`)
- - Luo oma kaupankäyntiavain [nostrkeygen.com](https://nostrkeygen.com/)
+ - Luo oma kaupankäyntiavain [nostrkeygen.com](https://nostrtool.com/)
  - Tärkeää**: Älä koskaan käytä henkilökohtaista Nostr-avainta
  - Säilytä yksityinen avain turvallisessa paikassa (salasanahallinta)
 
@@ -962,7 +962,7 @@ Itsenäisyyttä ja luottamuksellisuutta arvostaville bitcoin-käyttäjille Mostr
 
 
 - [Pääasiallinen GitHub-arkisto](https://github.com/MostroP2P/mostro)
-- [Web client](https://github.com/MostroP2P/mostro-web)
+- [Web client](https://github.com/MostroP2P/app)
 - [Asiakas CLI](https://github.com/MostroP2P/mostro-cli)
 
 

@@ -1332,7 +1332,7 @@ W celu dalszej dyskusji na temat współczesnej teorii liczb można zapoznać si
 [3] Zobacz [YouTube Video](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
 
-[4] Socratica, [Abstract Algebra](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Abstract Algebra](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 
 [5] Katz i Lindell, *Introduction to Modern Cryptography*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar i Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlin).
@@ -2715,7 +2715,7 @@ O funkcji Hash $H$ mówi się, że jest **odporna na kolizje**, jeśli nie jest 
 Odporne na kolizje funkcje Hash są ważne na przykład przy weryfikacji oprogramowania. Załóżmy, że chcesz pobrać wersję Bitcoin Core 0.21.0 dla systemu Windows (aplikacja serwerowa do przetwarzania ruchu sieciowego Bitcoin). Główne kroki, które należałoby wykonać, aby zweryfikować legalność oprogramowania, są następujące:
 
 
-1.	Najpierw należy pobrać i zaimportować klucze publiczne jednego lub więcej współtwórców Bitcoin Core do oprogramowania, które może weryfikować podpisy cyfrowe (np. Kleopetra). Te klucze publiczne można znaleźć [tutaj](https://github.com/Bitcoin/Bitcoin/blob/master/contrib/builder-keys/keys.txt). Zaleca się zweryfikowanie oprogramowania Bitcoin Core za pomocą kluczy publicznych od wielu dostawców.
+1.	Najpierw należy pobrać i zaimportować klucze publiczne jednego lub więcej współtwórców Bitcoin Core do oprogramowania, które może weryfikować podpisy cyfrowe (np. Kleopetra). Te klucze publiczne można znaleźć [tutaj](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys). Zaleca się zweryfikowanie oprogramowania Bitcoin Core za pomocą kluczy publicznych od wielu dostawców.
 
 2.	Następnie należy zweryfikować zaimportowane klucze publiczne. Przynajmniej jednym krokiem, który powinieneś podjąć, jest sprawdzenie, czy znalezione klucze publiczne są takie same, jak opublikowane w różnych innych lokalizacjach. Możesz na przykład zapoznać się z osobistymi stronami internetowymi, stronami Twittera lub stronami Github osób, których klucze publiczne zaimportowałeś. Zazwyczaj porównanie kluczy publicznych odbywa się poprzez porównanie krótkiego Hash klucza publicznego znanego jako odcisk palca.
 

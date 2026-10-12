@@ -2,7 +2,10 @@
 name: Lipa
 description: Thiết lập và sử dụng ví di động Lipa Lightning
 ---
+
 ![cover](assets/cover.webp)
+
+> **Cảnh báo (tháng 10 năm 2026):** Ví Lipa đã ngừng hoạt động vào ngày 31 tháng 12 năm 2025, và nhà phát hành của nó, lightning payment services ag, đang trong quá trình thanh lý. Ứng dụng không còn tải xuống được và các bước trong hướng dẫn này không còn hoạt động. Chúng tôi giữ trang này để tham khảo cho đến khi nó được cập nhật.
 
 Ví Bitcoin Lightning là ứng dụng di động cho phép giao dịch tức thời, chi phí thấp trên mạng lưới Lightning của Bitcoin. Không giống như giao dịch trên blockchain chính (trên chuỗi), thanh toán Lightning gần như tức thời và chỉ yêu cầu mức phí tối thiểu, khiến chúng đặc biệt phù hợp với các khoản thanh toán nhỏ, hàng ngày.
 
@@ -31,7 +34,7 @@ Các tính năng chính bao gồm:
 Bước đầu tiên là tải xuống ứng dụng Lipa. Hiện tại, ứng dụng này chỉ khả dụng trên iOS:
 
 
-- [Dành cho Apple](https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
+- Dành cho Apple
 
 Phiên bản Android hiện đang được phát triển và sẽ sớm ra mắt.
 

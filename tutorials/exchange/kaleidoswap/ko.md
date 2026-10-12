@@ -296,7 +296,7 @@ KaleidoSwap을 기반으로 구축하는 개발자를 위해 애플리케이션�
 - WebSocket**: 실시간 시장 데이터 구독용.
 
 
-전체 엔드포인트 및 사양은 [API 문서](https://docs.kaleidoswap.com/api/introduction)를 참조하세요.
+전체 엔드포인트 및 사양은 [API 문서](https://docs.kaleidoswap.com/api-reference/introduction)를 참조하세요.
 
 
 ## 결론

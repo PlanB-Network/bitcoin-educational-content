@@ -27,7 +27,7 @@ Rumble Wallet เป็น wallet แบบเคลื่อนที่ที�
 ## 2. วิธีการติดตั้ง Rumble Wallet?
 
 
-แอปพลิเคชันสามารถติดตั้งได้ทั้งบน [Android](https://play.google.com/store/apps/details?id=com.wallet.rumble) และ iOS ผ่านร้านค้าอย่างเป็นทางการของแต่ละระบบ
+แอปพลิเคชันสามารถติดตั้งได้ทั้งบน [Android](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet) และ iOS ผ่านร้านค้าอย่างเป็นทางการของแต่ละระบบ
 
 
 ![Image](assets/fr/01.webp)

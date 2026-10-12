@@ -113,7 +113,7 @@ Dana WalletをAndroidにインストールするには、セキュリティ設�
 
 
 
-AndroidデバイスでF-Droidアプリケーションを開き、右下のアイコンから「設定」にアクセスします。アプリのソースを管理するために「リポジトリ」を選択します。を押して新しいリポジトリを追加し、QRコードをスキャンするか、`https://fdroid.silentpayments.dev/fdroid/repo`リンクを貼り付けます。リポジトリが追加されると、Dana Walletの3つのバージョンが表示されます。Dana Wallet - Bookmark」を選択し、「Install」を押してください。
+AndroidデバイスでF-Droidアプリケーションを開き、右下のアイコンから「設定」にアクセスします。アプリのソースを管理するために「リポジトリ」を選択します。を押して新しいリポジトリを追加し、QRコードをスキャンするか、`https://fdroid.danawallet.app/fdroid/repo`リンクを貼り付けます。リポジトリが追加されると、Dana Walletの3つのバージョンが表示されます。Dana Wallet - Bookmark」を選択し、「Install」を押してください。
 
 
 
@@ -410,7 +410,7 @@ Dana Walletは、リスクのない環境でサイレント・ペイメントに
 
 
 - Dana Wallet GitHub リポジトリ: https://github.com/cygnet3/danawallet
-- F-Cold デポジット：https://fdroid.silentpayments.dev
+- F-Cold デポジット：https://fdroid.danawallet.app/fdroid/repo/
 - サイレント・ペイメント・コミュニティ・サイト：https://silentpayments.xyz
 - 仕様 BIP-352：https://bips.dev/352
 

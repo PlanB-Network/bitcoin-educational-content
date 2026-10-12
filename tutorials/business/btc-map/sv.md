@@ -28,7 +28,6 @@ Tillgänglig på:
 
 
 - iOS via [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
-- Android via [Play Store](https://play.google.com/store/apps/details?id=org.btcmap.app)
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) Android-appkatalogen med öppen källkod
 - genom att ladda ner [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) direkt från projektets github
 - via webbappen från din webbläsare (vår syn idag)

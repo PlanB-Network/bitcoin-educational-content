@@ -104,11 +104,11 @@ RGB ma swoją własną króliczą norę wewnątrz króliczej nory Bitcoin, podcz
 
 
 
-- 1 https://plan99.net/~mike/Satoshi-emails/thread4.html
+- 1 https://plan99.net/~mike/satoshi-emails/thread4.html
 - 2 https://btctranscripts.com/chaincode-labs/chaincode-residency/2018-10-22-christian-decker-history-of-lightning/
-- 3 https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2016-June/012773.html
-- 4 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0020.md
-- 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
+- 3 https://gnusha.org/pi/bitcoindev/20160620085649.GA29964@fedora-21-dvm/
+- 4 https://github.com/RGB-WG/RFC/blob/master/RGB-0020.md
+- 5 https://github.com/RGB-WG/RFC/blob/master/RGB-0021.md
 
 
 ## Samouczek węzła RGB

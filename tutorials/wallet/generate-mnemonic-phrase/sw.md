@@ -51,7 +51,7 @@ Ili kuunda kifungu chako cha urejeshaji kwa mkono, utahitaji:
 Baadaye, matumizi ya kompyuta yenye terminal yatakuwa muhimu kwa hesabu ya checksum. Ni kwa sababu hii hasa ninashauri dhidi ya utengenezaji wa maneno ya mnemonic kwa mikono. Kwa maoni yangu, kuingilia kati kwa kompyuta, hata chini ya tahadhari zilizotajwa katika mafunzo haya, huongeza kwa kiasi kikubwa udhaifu wa wallet.
 
 
-Kwa mbinu ya majaribio kuhusu "wallet ya uwongo", inawezekana kutumia kompyuta yako ya kawaida na terminal yake. Hata hivyo, kwa mbinu kali zaidi inayolenga kupunguza hatari za kuathiri kifungu chako, bora itakuwa kutumia PC iliyounganishwa na mtandao (ikiwezekana bila sehemu ya wifi au muunganisho wa waya wa RJ45), iliyo na vifaa vya pembeni vya chini (vyote vinapaswa kuunganishwa kwa kebo, ili kuepuka Bluetooth), na zaidi ya yote, inayoendeshwa kwenye usambazaji wa Linux usio na kumbukumbu kama vile [Tails](https://tails.boum.org/index.fr.html), iliyoanzishwa kutoka kwa njia inayoweza kutolewa.
+Kwa mbinu ya majaribio kuhusu "wallet ya uwongo", inawezekana kutumia kompyuta yako ya kawaida na terminal yake. Hata hivyo, kwa mbinu kali zaidi inayolenga kupunguza hatari za kuathiri kifungu chako, bora itakuwa kutumia PC iliyounganishwa na mtandao (ikiwezekana bila sehemu ya wifi au muunganisho wa waya wa RJ45), iliyo na vifaa vya pembeni vya chini (vyote vinapaswa kuunganishwa kwa kebo, ili kuepuka Bluetooth), na zaidi ya yote, inayoendeshwa kwenye usambazaji wa Linux usio na kumbukumbu kama vile [Tails](https://tails.net/index.fr.html), iliyoanzishwa kutoka kwa njia inayoweza kutolewa.
 
 
 ![mnemonic](assets/notext/2.webp)

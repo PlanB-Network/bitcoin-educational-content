@@ -54,7 +54,7 @@ Watch-only wallet 또는 읽기 전용 Wallet은 사용자가 해당 개인 키�
 멀티서명 Wallet을 추적하고자 하는 분들을 위해 제가 아는 한 이러한 유형의 지갑에 시계 전용 모드를 제공하는 애플리케이션은 Blue Wallet이 유일하며, Android와 iOS 모두에서 액세스할 수 있습니다.
 
 
-센티널의 대안을 찾는 iOS 사용자의 경우, [Green Wallet](https://blockstream.com/Green/) 또는 [Blue Wallet](https://bluewallet.io/watch-only/)가 옵션이 될 수 있지만 시계 전용 기능은 센티널만큼 포괄적이지는 않습니다.
+센티널의 대안을 찾는 iOS 사용자의 경우, [Green Wallet](https://blockstream.com/green/) 또는 [Blue Wallet](https://bluewallet.io/watch-only/)가 옵션이 될 수 있지만 시계 전용 기능은 센티널만큼 포괄적이지는 않습니다.
 
 ![watch-only](assets/notext/2.webp)
 

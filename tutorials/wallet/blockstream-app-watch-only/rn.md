@@ -145,7 +145,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Blockstream App** ni porogaramu yo kuri telefone ngendanwa (iOS, Android) no ku biro yo gucunga ibiharuro vya Bitcoin n’itunga kuri Liquid Network. Yaronswe na [Blockstream] mu mwaka w’2016, mbere yari yitwa *Green Address* hanyuma yitwa *Blockstream Green*.
+- Blockstream App** ni porogaramu yo kuri telefone ngendanwa (iOS, Android) no ku biro yo gucunga ibiharuro vya Bitcoin n’itunga kuri Liquid Network. Yaronswe na [Blockstream](https://blockstream.com/) mu mwaka w’2016, mbere yari yitwa *Green Address* hanyuma yitwa *Blockstream Green*.
 - Ibirango vy'ingenzi**:
 - Ku ruzitiro** ubucuruzi kuri Blockchain Bitcoin.
     - Ivy’ugucuruza ku rubuga rwa **Liquid** (Sidechain ku bijanye n’uguhanahana amakuru vyihuta kandi vy’ibanga).
@@ -170,10 +170,10 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Ku **Androyidi**:
-    - Gukuraho [Iporogarama yo guhagarika](https://ugukina.google.com/ububiko/porogaramu/ibisobanuro?id=com.aderesi y'icatsi kibisi.
-    - Iyindi nzira: Shiraho biciye ku dosiye ya APK iri kuri [GitHub yemewe ya Blockstream]
+    - Gukuraho [Iporogarama yo guhagarika](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet y'icatsi kibisi.
+    - Iyindi nzira: Shiraho biciye ku dosiye ya APK iri kuri [GitHub yemewe ya Blockstream](https://github.com/Blockstream/green_android)
 - Ku **iOS**:
-    - Gukuraho [Iporogarama y’Igikorwa co Guhagarika](Iporogarama y’Iporogarama.
+    - Gukuraho [Iporogarama y’Igikorwa co Guhagarika](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) y’Iporogarama.
 - Iciyumviro**: Urabe ko ushobora gukura amakuru mu bibanza vyemewe kugira ngo wirinde amaporogarama y’ubuhendanyi.
 
 
@@ -430,12 +430,12 @@ https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 - Insobanuro :
- - [Imfunguruzo za bose zagutse](https://planb.urubuga/fr/ibikoresho/insobanuro/urufunguzo-rwagutse)
- - [xpub](https://umugambi.urubuga/fr/ibikoresho/insobanuro y'amajambo/xpub)
- - [ypub](https://umugambi.urubuga/fr/ibikoresho/insobanuro y'amajambo/ypub)
- - [zpub](https://umugambi.urubuga/fr/ibikoresho/insobanuro y'amajambo/zpub)
+ - [Imfunguruzo za bose zagutse](https://planb.academy/fr/resources/glossary/extended-key)
+ - [xpub](https://planb.academy/fr/resources/glossary/xpub)
+ - [ypub](https://planb.academy/fr/resources/glossary/ypub)
+ - [zpub](https://planb.academy/fr/resources/glossary/zpub)
 - Inzira :
- - [Ivyagezwe vy'abantu bose](ku rubuga rwa interineti/amashure/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
+ - [Ivyagezwe vy'abantu bose](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
 
 
 
@@ -515,24 +515,24 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Amahuza yemewe:**
-- [Urubuga rwemewe](https://ububiko.com/)
-- [Ishigikira porogaramu yo kuri telefone ngendanwa](https://imfashanyo.
-- [GitHub](imbuga z'ububiko/ibara ry'icatsi kibisi)
+- [Urubuga rwemewe](https://blockstream.com/)
+- [Ishigikira porogaramu yo kuri telefone ngendanwa](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/).
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
 - Abagenzuzi b'Ibarabara:**
- - Ku murongo: **[Mempool.ikibanza](Mempool.ikibanza/)**
- - Liquid : **[Amakuru y'uruzi](amakuru y'uruzi/Liquid)**
- - Umuravyo: ** [1ML (Lightning Network)]
+ - Ku murongo: **[Mempool.ikibanza](https://Mempool.space/)**
+ - Liquid : **[Amakuru y'uruzi](https://blockstream.info/Liquid)**
+ - Umuravyo: ** [1ML (Lightning Network)](https://1ml.com/)
 
 
 
 
 
-- Ivyigwa n'inyigisho:** **[Plan ₿ Academy]
+- Ivyigwa n'inyigisho:** **[Plan ₿ Academy](https://planb.academy/)
   - Gukingira ijambo ryawe ryo gukira
 
 
@@ -545,7 +545,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Liquid Network** :
-- [Insobanuro y'amajambo](https://umugambi.urubuga/fr/ibikoresho/insobanuro y'amajambo/Liquid-urubuga)
+- [Insobanuro y'amajambo](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
@@ -556,7 +556,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 - Lightning Network**:
-- [Insobanuro](https://planb.urubuga/fr/ibikoresho/insobanuro/urubuga-rw'umuravyo)
+- [Insobanuro](https://planb.academy/fr/resources/glossary/lightning-network)
 
 
 

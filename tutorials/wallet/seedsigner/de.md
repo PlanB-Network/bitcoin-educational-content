@@ -94,7 +94,7 @@ Um Ihren SeedSigner zu bauen, benötigen Sie die folgenden Komponenten:
 
 - Gehäuse (optional, aber empfohlen)** (optional, aber empfohlen)** (optional, aber empfohlen)** (optional, aber empfohlen)**)
     - Schützt das Gerät und macht es einfach zu bedienen.
-    - Das beliebteste Modell ist das "*Orange Pill Case*", für das [Open-Source STL-Dateien für den 3D-Druck verfügbar sind](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - Das beliebteste Modell ist das "*Orange Pill Case*", für das [Open-Source STL-Dateien für den 3D-Druck verfügbar sind](https://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - Die Boxen sind auch bei [unabhängigen, mit dem Projekt verbundenen Wiederverkäufern] erhältlich (https://seedsigner.com/hardware/).
 
 

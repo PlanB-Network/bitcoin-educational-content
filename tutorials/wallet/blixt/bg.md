@@ -663,7 +663,7 @@ asia.blixtwallet.com
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Бликст момичешки календар](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - промоционално видео (можете да тествате първата си употреба на LN)
 - [Листовка за разпечатване във формат А4 с първите стъпки при използването на Blixt, на различни езици](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt също така предлага напълно функционална демо версия](https://blixt-wallet-git-master-hsjoberg.vercel.app/) точно на своя уебсайт или на специална версия на уеб, за да имате пълно тестване на опита, преди да започнете да използвате в реалния свят.
+- [Blixt също така предлага напълно функционална демо версия](https://blixtwallet.github.io/) точно на своя уебсайт или на специална версия на уеб, за да имате пълно тестване на опита, преди да започнете да използвате в реалния свят.
 
 
 ---

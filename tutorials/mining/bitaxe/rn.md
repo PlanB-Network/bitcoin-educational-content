@@ -27,7 +27,7 @@ Hariho verisiyo nyinshi za BitAxe, zifise ibice bitandukanye n’imikorere:
 Muri iyi nyigisho, tuzoba turiko turakoresha BitAxe Ultra 204 ifise igice c’umubiri citwa BM1366, gikoreshwa ku gikoresho citwa Antminer S19XP. Iyi iramaze gukoranirizwa hamwe no guca ibibatsi n’umucuruzi.
 
 
-[Urutonde rw'abagurisha ruraboneka kuri iyi paji](https://bitaxe.org/legit.html)
+[Urutonde rw'abagurisha ruraboneka kuri iyi paji](https://www.bitaxe.org/buy)
 
 
 ![signup](assets/2.webp)
@@ -70,7 +70,7 @@ Rero, werekane SSID ya Wi-Fi, ni ukuvuga izina ry’urubuga rwawe, ijambo banga,
 Nk'uko ushobora kubibona ku rubuga, ukeneye gukuraho ibice `stratum+tcp://` na `:3333`, ugasigaza `eu.stratum.braiins.com` gusa. Hanyuma, mu mwanya wa `Port`, shiramwo imibare 4 ku mpera ya URL yatanzwe n'ikidengeri, ariko ata `:`. Aha rero, ni `3333`.
 
 
-Muri iyi nyigisho, turiko turakoresha Braiins mining pool, ariko wewe urafise umwidegemvyo wo guhitamwo uwundi. Ushobora gusanga inyigisho zacu ku mining pools [ku rubuga rwa Plan ₿ Academy](https://planb.academy/ru/inyigisho/mining).
+Muri iyi nyigisho, turiko turakoresha Braiins mining pool, ariko wewe urafise umwidegemvyo wo guhitamwo uwundi. Ushobora gusanga inyigisho zacu ku mining pools [ku rubuga rwa Plan ₿ Academy](https://planb.academy/en/tutorials/mining).
 
 
 Ibikurikira, muri `Ukoresha`, shiramwo ikimenyetso cawe hanyuma `Ijambobanga`, kenshi, ni `"x"` canke `"Ikintu cose123"`.

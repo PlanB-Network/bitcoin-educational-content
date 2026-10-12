@@ -122,7 +122,7 @@ Dla użytkowników spoza Umbrel (np. na osobistym serwerze, Raspberry Pi z Raspi
 
 
 
-**Wymagania wstępne:** Upewnij się, że twój system spełnia minimalne wymagania zgodnie z [dokumentacją konfiguracji](https://docs.thunderhub.io/setup):
+**Wymagania wstępne:** Upewnij się, że twój system spełnia minimalne wymagania zgodnie z [dokumentacją konfiguracji](https://docs.thunderhub.io/configure):
 
 
 
@@ -136,7 +136,7 @@ Dla użytkowników spoza Umbrel (np. na osobistym serwerze, Raspberry Pi z Raspi
 
 
 
-**1. Pobierz kod ThunderHub:** Sklonuj repozytorium GitHub projektu zgodnie z opisem w [dokumentacji instalacyjnej](https://docs.thunderhub.io/installation):
+**1. Pobierz kod ThunderHub:** Sklonuj repozytorium GitHub projektu zgodnie z opisem w [dokumentacji instalacyjnej](https://docs.thunderhub.io/get-started):
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Główny plik konfiguracyjny:** Utwórz plik `.env.local` w katalogu głównym folderu ThunderHub, aby dostosować konfigurację (zapobiegnie to nadpisywaniu ustawień podczas aktualizacji). Główne zmienne zgodnie z [dokumentacją konfiguracji](https://docs.thunderhub.io/setup):
+**1. Główny plik konfiguracyjny:** Utwórz plik `.env.local` w katalogu głównym folderu ThunderHub, aby dostosować konfigurację (zapobiegnie to nadpisywaniu ustawień podczas aktualizacji). Główne zmienne zgodnie z [dokumentacją konfiguracji](https://docs.thunderhub.io/configure):
 
 
 
@@ -304,8 +304,8 @@ Zostanie wyświetlona strona logowania ThunderHub. Wybierz skonfigurowane konto 
 
 
 
-- **Instalacja:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- **Konfiguracja:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Instalacja:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- **Konfiguracja:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

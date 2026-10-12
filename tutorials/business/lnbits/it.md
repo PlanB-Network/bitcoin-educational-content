@@ -32,7 +32,7 @@ NOTA: tutti i fondi che i tuoi "clienti" depositano nei loro conti bancari LNbit
 
 ## Piattaforma demo
 
-La demo si trova all'indirizzo [https://legend.lnbits.com](https://legend.lnbits.com). È completamente funzionante e può essere utilizzata per conoscere la rete Lightning e le caratteristiche di LNbits e LNURL in generale. Sebbene non possiamo impedirti di utilizzarla, ti chiediamo di non usarla per la tua configurazione di produzione. Non solo lavoriamo spesso sui server per testare nuove funzionalità, ma vorremmo anche incoraggiarti a gestire il tuo nodo e LNbits in modo sovrano. Se pensi che gestire un nodo sia troppo impegnativo per il momento, puoi collegare LNbits a un servizio di finanziamento custodial nel cloud come Opennode, Luna o Votage o al Lightning Tipbot su Telegram, solo per citarne alcuni.
+La demo si trova all'indirizzo [https://demo.lnbits.com](https://demo.lnbits.com). È completamente funzionante e può essere utilizzata per conoscere la rete Lightning e le caratteristiche di LNbits e LNURL in generale. Sebbene non possiamo impedirti di utilizzarla, ti chiediamo di non usarla per la tua configurazione di produzione. Non solo lavoriamo spesso sui server per testare nuove funzionalità, ma vorremmo anche incoraggiarti a gestire il tuo nodo e LNbits in modo sovrano. Se pensi che gestire un nodo sia troppo impegnativo per il momento, puoi collegare LNbits a un servizio di finanziamento custodial nel cloud come Opennode, Luna o Votage o al Lightning Tipbot su Telegram, solo per citarne alcuni.
 
 
 ## Volantino di LNbits
@@ -84,7 +84,7 @@ Per tutti coloro che sono alle prime armi, troverai guide dettagliate passo-pass
 
 [Altri scenari di installazione qui](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
-Per i nodi software bundle, fare riferimento alla loro documentazione specifica su LNbits: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+Per i nodi software bundle, fare riferimento alla loro documentazione specifica su LNbits: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 ### LNbits SaaS
 
@@ -148,15 +148,17 @@ Per criptare il macaroon, esegui `./venv/bin/python lnbits/wallets/macaroon/maca
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend Demo Server (!NON utilizzare questo server per scopi produttivi/commerciali, ma solo per i test!!!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### Lightning TipBot
 
+> **Avviso (ottobre 2026):** LightningTipBot e ln.tips hanno cessato l'attività; la chiusura è stata annunciata il 29 aprile 2024. Questa fonte di finanziamento non funziona più, a meno che tu non ospiti un tuo bot.
+
 Per collegare il [Lightning Tipbot](https://t.me/LightningTipBot) da Telegram è necessario impostare i seguenti parametri:
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://ln.tips
+  - `LNBITS_ENDPOINT`: `https://ln.tips`
   - `LNBITS_KEY`: Per ottenere la chiave è necessario eseguire /api in una chat privata con LightningTipbot su Telegram una volta.
 
 Vedi anche questo tutorial su come installare [LNbits con LightningTipBot via vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
@@ -169,10 +171,12 @@ Per maggiori informazioni, vedi [IBEX API-Documentation](https://ibexpay-api.rea
 
 #### LNPay
 
-Affinché l'invoice listener funzioni, è necessario disporre di un URL accessibile pubblicamente nel tuo LNbits e impostare un [LNPay webhook](https://dashboard.lnpay.co/webhook/) che punti a `<l'host di LNbits>/wallet/webhook` con l'evento "Wallet Receive" e nessun segreto. L'impostazione `https://mylnbits/wallet/webhook` sarà l'url dell'endpoint che riceverà la notifica di ogni pagamento.
+> **Avviso (ottobre 2026):** LNPay sembra aver cessato l'attività: il dominio lnpay.co non risponde più. Questa fonte di finanziamento probabilmente non è più utilizzabile.
+
+Affinché l'invoice listener funzioni, è necessario disporre di un URL accessibile pubblicamente nel tuo LNbits e impostare un LNPay webhook che punti a `<l'host di LNbits>/wallet/webhook` con l'evento "Wallet Receive" e nessun segreto. L'impostazione `https://mylnbits/wallet/webhook` sarà l'url dell'endpoint che riceverà la notifica di ogni pagamento.
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -374,7 +378,7 @@ In questo modo sostituisci "f8a43fc363ea428db5c53b3559935f1f" con il valore che 
 
 ##### LNURL per un indirizzo di posta elettronica viceversa
 
-Provate questo [encoder](https://lnurl-codec.netlify.app/) di fiatjaf o [questo](https://lightningdecoder.com/). Per pagare o controllare un LNURLp si può anche usare [LNurlpay](https://wwww.lnurlpay.com/). Dovrebbe essere indicato HTTPS e non HTTP.
+Provate questo [encoder](https://lnurl-codec.netlify.app/) di fiatjaf o [questo](https://lightningdecoder.com/). Per pagare o controllare un LNURLp si può anche usare [LNurlpay](https://www.lnurlpay.com/). Dovrebbe essere indicato HTTPS e non HTTP.
 
 ##### Configurare un commento che le persone vedono quando pagano al mio LNURLp QR
 
@@ -390,7 +394,9 @@ Esistono due modi per scambiare sats da BTC onchain a LN BTC (rispettivamente a 
 
 ###### Tramite un servizio di swap esterno.
 
-Altri utenti che non hanno accesso al tuo LNbits possono usare un servizio di swap come [Boltz](https://boltz.exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) o [ZigZag](https://zigzag.io/). Questo è utile se fornisci solo invoice LNURL/LN dalla tua istanza LNbits, ma se un cliente dispone solo di sats onchain, dovrà  quindi prima scambiarli dalla propria parte. La procedura è semplice: l'utente invia btc onchain al servizio di swap e fornisce l'invoice LNURL/LN di LNbits come destinazione dello swap.
+Altri utenti che non hanno accesso al tuo LNbits possono usare un servizio di swap come Boltz, [FixedFloat](https://fixedfloat.com/) o [ZigZag](https://zigzag.io/). Questo è utile se fornisci solo invoice LNURL/LN dalla tua istanza LNbits, ma se un cliente dispone solo di sats onchain, dovrà  quindi prima scambiarli dalla propria parte. La procedura è semplice: l'utente invia btc onchain al servizio di swap e fornisce l'invoice LNURL/LN di LNbits come destinazione dello swap.
+
+> **Avviso (ottobre 2026):** Boltz ha sospeso tutti gli swap il 3 agosto 2026 dopo lo sfruttamento di diverse vulnerabilità, e il suo sito è offline. Boltz e l'estensione Boltz di LNbits al momento non sono utilizzabili.
 
 ###### Utilizzo Onchain dell'estensione Boltz LNbits.
 
@@ -428,7 +434,7 @@ Se verifichi l'errore "tipo di hash non supportato" quando utilizzi un ypub nell
 
 ### Attrezzi e utensili da costruzione con LNbits
 
-LNbits dispone di ogni sorta di [API aperte](https://legend.lnbits.com/docs) e di strumenti per programmare e connettersi a molti dispositivi diversi per una miriade di casi d'uso.
+LNbits dispone di ogni sorta di [API aperte](https://demo.lnbits.com/docs) e di strumenti per programmare e connettersi a molti dispositivi diversi per una miriade di casi d'uso.
 
 Se sei alle prime armi con la creazione di gadget, iniziate con questa [MakerBits presentations](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) di Ben Arc sulla costruzione di gadget basati su LNbits.
 

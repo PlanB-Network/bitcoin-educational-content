@@ -747,7 +747,7 @@ Selless jaotises sukeldume erinevatesse tehingukihtidesse, olgu need siis fiat v
 
 Bitcoini plokiahel koosneb, nagu nimigi ütleb, plokkidest. Nendel plokkidel on teoreetiline maksimaalne suurus 4 megabaiti. _Sellegipoolest on kirjutamise hetkel keskmine ploki suurus umbes 1,5mb._ Selle piirangu tõttu on Bitcoinil piirang, kui palju tehinguid ta saab sekundis töödelda, mis on seitse kuni kümme tehingut sekundis (tps).
 
-Seetõttu võite mõelda: Kuidas saab Bitcoini plokiahel võimalikult konkureerida selliste võrkudega nagu Visa või Mastercard, mis teevad tehinguid [1,700 tps](https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
+Seetõttu võite mõelda: Kuidas saab Bitcoini plokiahel võimalikult konkureerida selliste võrkudega nagu Visa või Mastercard, mis teevad tehinguid [1,700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
 Vastus on lihtne. See ei konkureeri nendega.
 Bitcoini plokiahela võrdlemine Visa või Mastercardiga on nagu rahvusvahelise konteinerlaeva võrdlemine kohaliku riistvara poe kassaga. Konteinerlaev on mõeldud harvadeks suurteks tehinguteks, samas kui kassa on loodud sagedaste väikeste tehingute jaoks. Kuigi mõlemad liigutavad kaupu, on nende võrdlemine nagu õunte ja apelsinide võrdlemine.
@@ -1061,14 +1061,14 @@ Ilmselt mõtlete: Mis on siin probleem?
 
 Raha saatmine tagasi välismaale läbi rahaülekandeteenuse, nagu näiteks Western Union, ei ole tasuta. See maksab raha, ja mitte vähe, vaid märkimisväärse summa.
 
-100 USA dollari saatmine Tongasse toob kaasa [12,61 dollari](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) suuruse tasu pluss lisakadu 8,60 dollarit ebasoodsa vahetuskursi tõttu. See tähendab, et rohkem kui 21% saadetud summast läheb Western Unionile, mitmerahvuselisele korporatsioonile. Selle tulemusena jõuab märkimisväärne summa, mis oleks võinud kuuluda teenivatele Tonga peredele, rahaülekandeteenuse pakkuja taskusse.
+100 USA dollari saatmine Tongasse toob kaasa [12,61 dollari](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) suuruse tasu pluss lisakadu 8,60 dollarit ebasoodsa vahetuskursi tõttu. See tähendab, et rohkem kui 21% saadetud summast läheb Western Unionile, mitmerahvuselisele korporatsioonile. Selle tulemusena jõuab märkimisväärne summa, mis oleks võinud kuuluda teenivatele Tonga peredele, rahaülekandeteenuse pakkuja taskusse.
 Kas kujutate ette, millised oleksid eelised, kui teie sissetulekule lisanduks veel 21%?
 
 Pealegi, arvestades, et Tonga SKP oli 2021. aastal [469](https://tradingeconomics.com/tonga/gdp) miljonit dollarit ja 45,5% sellest tuleb rahaülekannetest, tähendab kodumaale saatmiseks nõutavate ülemääraste tasude olemasolu, et Tonga jääb ilma täiendavast 45,2 miljonist dollarist. See summa tähendaks SKP-s 9,6% suurust kasvu, kui neid tasusid ei oleks.
 
 Ja kui arvasite, et Tonga on selles üksi, mõelge uuesti.
 
-Siin on näide sellest, kui palju Western Union [nõuab](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) 100 USA dollari saatmise eest mõnedesse teistesse silmapaistvatesse riikidesse:
+Siin on näide sellest, kui palju Western Union [nõuab](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) 100 USA dollari saatmise eest mõnedesse teistesse silmapaistvatesse riikidesse:
 
 - **Hiina:** 21,21 dollari tasu + 2,60 dollari vahetuskursi kaotus (23,81% kaotus)
 - **Kanada, USA, Mehhiko:** 16,86 dollari tasu + 1,20 dollari vahetuskursi kaotus (18,06% kaotus)
@@ -1277,8 +1277,8 @@ Kuid Bitcoin konkureerib ka teise taseme tehingumeetoditega, millele on loodud t
 #### Väärarusaam Kuus: Bitcoin'i kasutatakse peamiselt ebaseaduslikuks tegevuseks
 
 Hoolimata arvukatest uuringutest, mis kummutavad väärad väited, kritiseeritakse Bitcoin'i ikka veel sageli peamiselt ebaseadusliku tegevuse jaoks kasutamise eest. Jällegi, see ei saaks olla kaugemal tõest.
-Üks [uuring](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf), mille viis läbi CIA endine asejuht, leidis, et "laiad üldistused Bitcoini kasutamise kohta ebaseaduslikus finantstegevuses on oluliselt liialdatud." Tegelikult on alates 2016. aastast vähem kui 1% Bitcoini kogu tehingumahust kasutatud ebaseaduslikuks tegevuseks. Võrdluseks, "mõned arvavad, et allmaamajandus moodustab 11% kuni 12% USA sisemajanduse kogutoodangust," millest enamus toimub USA dollari vahendusel.
-Ja vastavalt Chainalysis 2020. aasta aruandele moodustab ebaseaduslik tegevus ainult umbes [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) kõigist Bitcoini tehingutest.
+Üks [uuring](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf), mille viis läbi CIA endine asejuht, leidis, et "laiad üldistused Bitcoini kasutamise kohta ebaseaduslikus finantstegevuses on oluliselt liialdatud." Tegelikult on alates 2016. aastast vähem kui 1% Bitcoini kogu tehingumahust kasutatud ebaseaduslikuks tegevuseks. Võrdluseks, "mõned arvavad, et allmaamajandus moodustab 11% kuni 12% USA sisemajanduse kogutoodangust," millest enamus toimub USA dollari vahendusel.
+Ja vastavalt Chainalysis 2020. aasta aruandele moodustab ebaseaduslik tegevus ainult umbes [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) kõigist Bitcoini tehingutest.
 
 Siiski, isegi selle tõendusmaterjali valguses jätkavad võimul olevad isikud eksitavate väidete tegemist, nagu USA rahandusminister Janet Yellen [väitis](https://home.treasury.gov/news/press-releases/jy0023), "Krüptovaluutasid on kasutatud veebipõhiste narkokaubitsejate kasumite pesemiseks; need on olnud vahend terrorismi rahastamiseks."
 
@@ -1458,7 +1458,7 @@ Lõppkokkuvõttes kuulub detsentraliseeritud finantside tulevik neile, kes on va
 
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
-Tänapäeva globaliseerunud maailmas on juurdepääs finantsteenustele kriitiline majandusliku osalemise ja sõltumatuse komponent. Hoolimata sellest on endiselt liiga paljud inimesed traditsioonilisest pangandussüsteemist välja jäetud, naistel lasub sageli selle väljajätmise suurim koorem. Ehmatavalt, kuigi tarbetult jääb [veerand](https://www.worldbank.org/en/publication/globalfindex) maailma elanikkonnast pangandusteenusteta, on riikides nagu Saudi Araabia [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) naistest ilma põhilistele pangateenustele juurdepääsuta, takistades neil täielikult osalemast oma riigi majanduses ja ühiskonnas.
+Tänapäeva globaliseerunud maailmas on juurdepääs finantsteenustele kriitiline majandusliku osalemise ja sõltumatuse komponent. Hoolimata sellest on endiselt liiga paljud inimesed traditsioonilisest pangandussüsteemist välja jäetud, naistel lasub sageli selle väljajätmise suurim koorem. Ehmatavalt, kuigi tarbetult jääb [veerand](https://www.worldbank.org/en/publication/globalfindex) maailma elanikkonnast pangandusteenusteta, on riikides nagu Saudi Araabia [36,5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) naistest ilma põhilistele pangateenustele juurdepääsuta, takistades neil täielikult osalemast oma riigi majanduses ja ühiskonnas.
 
 Siin on vaid mõned näited tingimustest, mida naised üle maailma tänapäeval veel taluvad:
 

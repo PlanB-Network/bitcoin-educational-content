@@ -7,6 +7,8 @@ description: RoninDojo v2 Bitcoin düğümünüzü bir Raspberry Pi'ye yükleme
 
 ***UYARI:** Samourai Wallet'nin kurucularının tutuklanması ve sunucularına 24 Nisan'da el konulmasının ardından, RoninDojo'nun Whirlpool gibi bazı özellikleri artık çalışmıyor. Bununla birlikte, bu araçların önümüzdeki haftalarda eski haline getirilmesi veya farklı bir şekilde yeniden başlatılması mümkündür. Ayrıca, RoninDojo kodu Samourai'nin GitLab'ında barındırıldığından ve bu GitLab'a da el konulduğundan, kodu uzaktan indirmek şu anda mümkün değil. RoninDojo ekipleri muhtemelen kodu yeniden yayınlamak için çalışıyorlar.*
 
+> **Güncelleme (Ekim 2026):** RoninDojo o zamandan beri kodunu kendi platformunda ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) yeniden yayımladı ve artık 3. sürümde. Bu eğitim daha eski bir sürümü anlatıyor: bazı bağlantılar ve komutlar artık çalışmıyor. Güncel prosedür için resmi belgelere bakın: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 
 _Bu davayla ilgili gelişmeleri ve ilgili araçlarla ilgili gelişmeleri yakından takip ediyoruz. Yeni bilgiler elde edildikçe bu eğitimi güncelleyeceğimizden emin olabilirsiniz._
 
@@ -37,7 +39,9 @@ https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-
 Dojo başlangıçta Bitcoin'e dayanan ve Samourai Bitcoin core ekipleri tarafından geliştirilen tam bir Wallet düğüm uygulamasıdır. Bu çözüm herhangi bir ekipmana kurulabilir. Diğer Çekirdek uygulamalarının aksine Dojo, Samourai Wallet'nın Android uygulama ortamıyla entegre olacak şekilde özel olarak optimize edilmiştir. RoninDojo ise bir Dojo'nun ve diğer çeşitli tamamlayıcı araçların kurulumunu ve yönetimini kolaylaştırmak için tasarlanmış bir yardımcı programdır. Kısacası RoninDojo, kurulumunu ve yönetimini basitleştirirken çok sayıda ek aracı entegre ederek Dojo'nun temel uygulamasını zenginleştirir.
 
 
-Ronin ayrıca "*Tanto*" olarak adlandırılan [kutu içinde düğüm çözümü](https://ronindojo.io/en/products), RoninDojo'nun kendi ekipleri tarafından bir araya getirilmiş bir sisteme zaten yüklenmiş olduğu bir cihaz sunmaktadır. Tanto ücretli bir seçenektir ve teknik komplikasyonlardan kaçınmayı tercih edenler için ilginç olabilir. Ancak RoninDojo'nun kaynak kodu açık olduğundan, kendi donanımınıza yerleştirmek de mümkündür. Daha ekonomik olan bu alternatif, yine de bu eğitimde ele alacağımız bazı ek manipülasyonlar gerektirir.
+Ronin ayrıca "*Tanto*" olarak adlandırılan [kutu içinde düğüm çözümü](https://docs.ronindojo.io/hardware/tanto/), RoninDojo'nun kendi ekipleri tarafından bir araya getirilmiş bir sisteme zaten yüklenmiş olduğu bir cihaz sunmaktadır. Tanto ücretli bir seçenektir ve teknik komplikasyonlardan kaçınmayı tercih edenler için ilginç olabilir. Ancak RoninDojo'nun kaynak kodu açık olduğundan, kendi donanımınıza yerleştirmek de mümkündür. Daha ekonomik olan bu alternatif, yine de bu eğitimde ele alacağımız bazı ek manipülasyonlar gerektirir.
+
+> **Not (Ekim 2026):** RoninDojo artık Tanto'yu satmıyor gibi görünüyor ve çevrimiçi mağazası kapalı. Uyumlu donanım listesine bakın: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
 
 RoninDojo bir Dojo'dur, bu nedenle mümkün olan en iyi CoinJoin deneyimini sağlamak için Whirlpool CLI'un Bitcoin düğümünüze kolayca entegre edilmesini sağlar. Whirlpool CLI ile, kişisel bilgisayarınızın açık kalmasına gerek kalmadan, haftanın 7 günü, günün 24 saati bitcoinlerinizi sürekli olarak yeniden karıştırmak mümkün hale gelir.
 
@@ -56,7 +60,9 @@ Umbrel tarafından sunulan genel işlevlere veya Lightning Network ile ilgili i�
 
 ## RoninDojo v2'yi yüklemek için hangi donanımı seçmeliyim?
 
-RoninDojo, yazılımının [RockPro64](https://ronindojo.io/en/download) üzerine otomatik kurulumu için bir görüntü sunmaktadır. Ancak, bizim eğitimimiz Raspberry Pi 4'e manuel kurulum prosedürüne odaklanmaktadır. Raspberry Pi 5 yakın zamanda piyasaya sürülmüş olmasına ve bu öğreticinin teorik olarak bu yeni modelle uyumlu olması gerekmesine rağmen, henüz kişisel olarak test etme şansım olmadı ve topluluktan herhangi bir geri bildirim bulamadım. Pi 5'i ve uyumlu bileşenleri edinir edinmez, sizi bilgilendirmek için bu öğreticiyi güncelleyeceğim. Bu arada, benim node'umda mükemmel çalıştığı için Pi 4'e öncelik vermenizi öneririm.
+RoninDojo, yazılımının [RockPro64](https://ronindojo.io/downloads) üzerine otomatik kurulumu için bir görüntü sunmaktadır. Ancak, bizim eğitimimiz Raspberry Pi 4'e manuel kurulum prosedürüne odaklanmaktadır. Raspberry Pi 5 yakın zamanda piyasaya sürülmüş olmasına ve bu öğreticinin teorik olarak bu yeni modelle uyumlu olması gerekmesine rağmen, henüz kişisel olarak test etme şansım olmadı ve topluluktan herhangi bir geri bildirim bulamadım. Pi 5'i ve uyumlu bileşenleri edinir edinmez, sizi bilgilendirmek için bu öğreticiyi güncelleyeceğim. Bu arada, benim node'umda mükemmel çalıştığı için Pi 4'e öncelik vermenizi öneririm.
+
+> **Not (Ekim 2026):** RoninDojo artık Rock5B+, Raspberry Pi 5 ve x86 makineler için de resmi RoninOS imajları sunuyor.
 
 Kendi adıma, RoninDojo'yu 8 GB RAM ile donatılmış bir Raspberry Pi üzerinde çalıştırıyorum. Bazı topluluk üyeleri yalnızca 4 GB RAM'e sahip cihazlarda çalıştırmayı başarmış olsa da, bu yapılandırmayı kendim test etmedim. Aradaki küçük fiyat farkı göz önüne alındığında, 8 GB RAM versiyonunu tercih etmek akıllıca görünüyor. Bu, Raspberry Pi'nizi gelecekte başka kullanımlar için yeniden kullanmayı planlıyorsanız da yararlı olabilir.
 
@@ -290,6 +296,8 @@ Güncellemeler tamamlandıktan sonra, komutu kullanarak *Git* ve *Dialog* yükle
 `sudo apt install git dialog -y`
 
 
+> **Not (Ekim 2026):** Aşağıdaki komut artık çalışmıyor: Samourai'nin GitLab'ına (code.samourai.io) 24 Nisan 2024'te el konuldu. RoninDojo kodunu artık burada barındırıyor: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Güncel kurulum prosedürü için bakın: [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
+
 Ardından, _RoninOS_ Git deposunun `master` dalını çalıştırarak klonlayın:
 
 `sudo git clone --branch master https://code.samourai.io/ronindojo/RoninOS.git /opt/RoninOS`
@@ -479,7 +487,9 @@ Samourai Wallet'nizi Dojo'nuza bağlamak için, uygulama kurulumu sırasında bu
 ![Samourai Wallet connection](assets/notext/36.webp)
 
 
-Ronin Dojo'nuzu kurmadan önce zaten bir Samourai Wallet'ünüz varsa, Wallet'ünüzü geri yüklemeden önce Wallet'ünüzü yedeklemeniz, Samourai Wallet uygulamasını kaldırmanız ve ardından yeniden yüklemeniz gerekir. Yeniden yüklenen uygulamayı başlattıktan sonra, yeni bir Dojo'ya bağlanma seçeneğiniz olacaktır. **Dikkatli olun, bu işlem doğru yapılmazsa bitcoinlerinizi kaybetme riski taşır ** Samourai Wallet'ünüzün yedeğinin dosyalarınızda olduğundan emin olun ve passphrase'ünüzün geçerliliğini `Ayarlar > Sorun Giderme > passphrase` aracılığıyla doğrulayın. Kurtarma ifadenizin ve passphrase'ünüzün okunabilir bir yedeğinin olması da önemlidir. Bu işlemde daha fazla hassasiyet için bu ayrıntılı öğreticiyi izlemeniz önerilir: [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+Ronin Dojo'nuzu kurmadan önce zaten bir Samourai Wallet'ünüz varsa, Wallet'ünüzü geri yüklemeden önce Wallet'ünüzü yedeklemeniz, Samourai Wallet uygulamasını kaldırmanız ve ardından yeniden yüklemeniz gerekir. Yeniden yüklenen uygulamayı başlattıktan sonra, yeni bir Dojo'ya bağlanma seçeneğiniz olacaktır. **Dikkatli olun, bu işlem doğru yapılmazsa bitcoinlerinizi kaybetme riski taşır ** Samourai Wallet'ünüzün yedeğinin dosyalarınızda olduğundan emin olun ve passphrase'ünüzün geçerliliğini `Ayarlar > Sorun Giderme > passphrase` aracılığıyla doğrulayın. Kurtarma ifadenizin ve passphrase'ünüzün okunabilir bir yedeğinin olması da önemlidir. Bu işlemde daha fazla hassasiyet için bu ayrıntılı öğreticiyi izlemeniz önerilir: [https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+
+> **Uyarı (Ekim 2026):** Samourai Wallet artık yok: 24 Nisan 2024'te sunucularına el konuldu ve kurucuları tutuklandı. Yukarıdaki bağlantı, rehberin arşivlenmiş bir kopyasına gider. RoninDojo artık Samourai Wallet'ın bir çatalı olan Ashigaru'yu belgeliyor: [docs.ronindojo.io/guides-wallet/ashigaru](https://docs.ronindojo.io/guides-wallet/ashigaru/)
 
 
 ### Kendi Mempool.space Block explorer'inizi kullanma
@@ -824,7 +834,7 @@ RoninUI kontrol panelinizde bulunan diğer sekmelerle ilgili olarak:
 - `Ayarlar`: Kullanıcı şifrenizi değiştirmenizi sağlar.
 
 
-İşte bu kadar! Bu dersi sonuna kadar takip ettiğiniz için teşekkür ederim. Eğer hoşunuza gittiyse, sosyal medyada paylaşmanızı tavsiye ederim. Ayrıca, fırsatınız varsa, bu ücretsiz ve açık kaynaklı yazılımları topluluğumuzun kullanımına sunan geliştiricileri bir bağışla desteklemeyi düşünün: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). RoninDojo hakkındaki bilgilerinizi derinleştirmek ve daha fazla kaynak keşfetmek için, aşağıda belirtilen harici kaynakların bağlantılarına başvurmanızı şiddetle tavsiye ederim.
+İşte bu kadar! Bu dersi sonuna kadar takip ettiğiniz için teşekkür ederim. Eğer hoşunuza gittiyse, sosyal medyada paylaşmanızı tavsiye ederim. Ayrıca, fırsatınız varsa, bu ücretsiz ve açık kaynaklı yazılımları topluluğumuzun kullanımına sunan geliştiricileri bir bağışla desteklemeyi düşünün: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). RoninDojo hakkındaki bilgilerinizi derinleştirmek ve daha fazla kaynak keşfetmek için, aşağıda belirtilen harici kaynakların bağlantılarına başvurmanızı şiddetle tavsiye ederim.
 
 
 **Harici kaynaklar:**
@@ -834,4 +844,4 @@ RoninUI kontrol panelinizde bulunan diğer sekmelerle ilgili olarak:
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)

@@ -289,6 +289,8 @@ Vos satoshis Lightning sont immédiatement disponibles dans votre portefeuille.
 
 ## SwapMarket vs Boltz : Quelle différence ?
 
+> **Note (octobre 2026) :** Boltz Exchange a suspendu tous ses swaps le 3 août 2026 et son site est hors ligne. Ce fournisseur peut ne plus être disponible sur SwapMarket.
+
 ### Boltz : Technologie vs Service
 
 **Boltz est la technologie open source** (`boltz-backend` sur GitHub) qui implémente les échanges atomiques via HTLC entre Bitcoin, Lightning et Liquid.
@@ -330,9 +332,9 @@ La compétition entre fournisseurs améliore les tarifs et multiplie les sources
 ### Documentation officielle
 - [SwapMarket - Application web](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Documentation technique](https://docs.boltz.exchange/)
+- [Documentation technique](https://github.com/BoltzExchange/boltz-backend)
 - [Guide self-hosting](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 ### Projets connexes
-- [Boltz Exchange](https://boltz.exchange) - Service d'échanges atomiques originel
+- Boltz Exchange - Service d'échanges atomiques originel
 - [ZEUS Swaps](https://zeusln.com) - Fournisseur d'échanges Lightning

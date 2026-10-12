@@ -3,9 +3,9 @@ name: Boltz
 description: Swap between different Bitcoin layers while maintaining control.
 ---
 
-
 ![cover](assets/cover.webp)
 
+> **Warning (October 2026):** Boltz suspended all swaps on 3 August 2026 after several exploited vulnerabilities, and its website is offline. The links and steps in this tutorial no longer work. We keep this page for reference until it is updated.
 
 Since its deployment in 2009, Bitcoin's peer-to-peer electronic cash system has grown exponentially, giving life to solutions that today enable it to be a system we can use instantly in our everyday actions, notably through Lightning Network.
 
@@ -16,7 +16,7 @@ However, a major problem remained between the Bitcoin protocol layers: fluid int
 ## What is Boltz?
 
 
-[Boltz](https://boltz.Exchange) is a non-custodial platform ideal for anyone wishing to transact between the different layers of the Bitcoin protocol:
+Boltz is a non-custodial platform ideal for anyone wishing to transact between the different layers of the Bitcoin protocol:
 
 
 - **on chain**: Bitcoin's main chain where transactions are confirmed every 10 minutes on average, transaction fees are often high, which does not necessarily meet users' needs ;

@@ -94,7 +94,7 @@ Da biste napravili svoj SeedSigner, biće vam potrebne sledeće komponente:
 
 - Stanovanje (opciono, ali preporučeno)** (opciono, ali preporučeno)** (opciono, ali preporučeno)** (opciono, ali preporučeno)**)
     - Štiti uređaj i olakšava korišćenje.
-    - Najpopularniji model je "*Orange Pill Case*", za koji su [open-source STL fajlovi dostupni za 3D štampu](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - Najpopularniji model je "*Orange Pill Case*", za koji su [open-source STL fajlovi dostupni za 3D štampu](https://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - Kutije su takođe dostupne od [nezavisnih prodavaca povezanih sa projektom](https://seedsigner.com/hardware/).
 
 

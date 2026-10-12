@@ -33,7 +33,7 @@ V tomto návodu se podíváme na 3 způsoby použití **Watchtower** :
 
 
 
-*Tento návod je převzat z [oficiální dokumentace ke LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). V původní verzi mohly být provedeny některé změny
+*Tento návod je převzat z [oficiální dokumentace ke LND](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). V původní verzi mohly být provedeny některé změny
 
 
 
@@ -519,13 +519,7 @@ Ve stejné nabídce najdete také URI služby Watchtower, pokud jste ji aktivova
 
 
 
-Na internetu je k dispozici několik strážních věží. Například [LN+ a Voltage nabízejí altruistickou Watchtower](https://lightningnetwork.plus/Watchtower), ke které se můžete připojit:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+Na internetu je k dispozici několik strážních věží. LN+ a Voltage dříve nabízely altruistickou Watchtower, ale ta již není dostupná (říjen 2026). LN+ nyní nabízí [Watch Swaps](https://lightningnetwork.plus/watch_swaps), při kterých si dva provozovatelé uzlů navzájem hlídají kanály, a zveřejňuje [průvodce altruistickými Watchtower](https://lightningnetwork.plus/posts/12).
 
 
 

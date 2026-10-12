@@ -293,7 +293,6 @@ Koristite javnu oznaku kao :
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -650,7 +649,7 @@ U pozadini sve većeg finansijskog nadzora, decentralizovani alati za zaštitu p
 
 
 
-- [Joinstr official website](https://joinstr.xyz)
+- [Joinstr official website](https://docs.joinstr.xyz/)
 - [Korisnička dokumentacija](https://docs.joinstr.xyz/users/using-joinstr)
 - [Tehnička dokumentacija](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab izvorni kod](https://gitlab.com/invincible-privacy/joinstr)
@@ -682,6 +681,5 @@ U pozadini sve većeg finansijskog nadzora, decentralizovani alati za zaštitu p
 
 
 
-- [Bookmark Faucet](https://signetfaucet.com) - Besplatni testni Bitcoini
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet alternativa
 - [Mempool.space](https://mempool.space) - Block explorer sa analizom privatnosti

@@ -94,7 +94,7 @@ K sestavení aplikace SeedSigner budete potřebovat následující komponenty:
 
 - Bydlení (nepovinné, ale doporučené)** (nepovinné, ale doporučené)** (nepovinné, ale doporučené)** (nepovinné, ale doporučené)**)
     - Chrání zařízení a usnadňuje jeho používání.
-    - Nejoblíbenějším modelem je "*Orange Pill Case*", pro který jsou k dispozici [open-source soubory STL pro 3D tisk](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - Nejoblíbenějším modelem je "*Orange Pill Case*", pro který jsou k dispozici [open-source soubory STL pro 3D tisk](https://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - Krabice jsou k dispozici také u [nezávislých prodejců spojených s projektem](https://seedsigner.com/hardware/).
 
 

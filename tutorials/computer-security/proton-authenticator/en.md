@@ -427,8 +427,8 @@ Proton Authenticator is one of the most comprehensive and secure solutions avail
 ### Source code and transparency
 
 
-- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Open source code
-- **Security audits**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Independent audit reports
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - Open source code
+- **Security audits**: [proton.me/community/security-audits](https://proton.me/community/open-source) - Independent audit reports
 
 
 ### Recommended safety tests

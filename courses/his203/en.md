@@ -398,7 +398,7 @@ As we said at the beginning of 2011, the Mt. Gox platform was not secure. And it
 
 On March 1, 2011, just as the transfer was about to be made official, 80,000 bitcoins [evaporated](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) into thin air thanks to malicious access to the site's [wallet](https://planb.academy/resources/glossary/wallet).dat file. On the 3rd, Jed McCaleb noticed the withdrawal and [informed](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Mark on IRC that "something bad happened". It was a major loss (one bitcoin sold for $0.92 at the time), which would grow larger and larger over the following months with the unprecedented rise in price.
 
-This problem was [mentioned](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) by Jed on April 18 in an email to Mark, where he wrote:
+This problem was [mentioned](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) by Jed on April 18 in an email to Mark, where he wrote:
 
 > "I can't tell how big an issue it will be to be short 80k BTC if the price goes to $100 or something. That is quite a bit to owe at that point but mtgox should have made a ton of BTC (Bitcoin) getting to there. There is also still the fact that the BTC (Bitcoin) balance will probably never fall below 80k. So maybe you don't really need to worry about it."
 
@@ -462,7 +462,7 @@ In April, the three men founded [Bitcoin Consultancy](https://web.archive.org/we
 On June 6, Bitcoin Consultancy [launched](https://bitcointalk.org/index.php?topic=26543.msg332466#msg332466) a new foreign exchange platform, aimed at the European market, called Intersango (like the software behind it). Britcoin and Intersango eventually merged a few months later to form a single site.
 
 
-In Eastern Europe, the Bitomat platform, based in Poland, was [launched](https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871) on April 4. The interface was rudimentary, but allowed Polish users to exchange their zlotys for bitcoins. Also worth mentioning is Cavirtex, [opened](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) on July 2, which operated in Canada.
+In Eastern Europe, the Bitomat platform, based in Poland, was [launched](https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166) on April 4. The interface was rudimentary, but allowed Polish users to exchange their zlotys for bitcoins. Also worth mentioning is Cavirtex, [opened](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) on July 2, which operated in Canada.
 
 
 Another platform was VirWoX (*Virtual World Exchange*), based in Austria. Opened in 2007, it was a leading marketplace for the exchange of video game virtual currencies, including the Linden dollar from *Second Life*. On April 27, 2011, the site [added](https://web.archive.org/web/20110511075334/https://www.virwox.com/) bitcoin to its offerings, initially offering exchange only with the Linden dollar, which enabled users to obtain Nakamoto’s cryptocurrency.
@@ -931,7 +931,7 @@ In early March 2012, Bitcoinica [accepted](https://bitcointalk.org/index.php?top
 ### Issuing financial securities with GLBSE
 
 
-In 2011, Bitcoin's lack of need for authorization led community members to imagine uses that went beyond simple monetary exchange and speculation. They were looking to liberalize investment by providing a means of issuing shares and bonds for companies in the ecosystem. The aim was to circumvent regulations imposed by the *Securities and Exchange Commission* in the United States (the American equivalent of the AMF), by [taking advantage](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) of Bitcoin's innovative character and the legal vagueness that surrounded it. The idea was to create an alternative model to the classic financial system, which could be self-entrenching according to the agorist approach.
+In 2011, Bitcoin's lack of need for authorization led community members to imagine uses that went beyond simple monetary exchange and speculation. They were looking to liberalize investment by providing a means of issuing shares and bonds for companies in the ecosystem. The aim was to circumvent regulations imposed by the *Securities and Exchange Commission* in the United States (the American equivalent of the AMF), by [taking advantage](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) of Bitcoin's innovative character and the legal vagueness that surrounded it. The idea was to create an alternative model to the classic financial system, which could be self-entrenching according to the agorist approach.
 
 
 One of the individuals involved in this movement was James McCarthy, who used the pseudonym Nefario on the Bitcoin forum, in reference to the character of the same name in the animated film *Despicable Me*. Nefario was an Irishman living in China, with a job as an English professor at a university. He was interested in the [Austrian school](https://planb.academy/resources/glossary/austrian-school) and the ideas of the cypherpunks, [declaring](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) himself to be "something of a cypherpunk". He [discovered](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) the existence of Bitcoin during 2010 and mined over a thousand of them. He then got involved in several projects, including the Bitcoin Weekly online magazine project.
@@ -961,7 +961,7 @@ Despite this, GLBSE continued to operate. By early autumn, some 30 assets were [
 ### MPEx: options and shares
 
 
-Another such project to emerge some time later was MPEx, the creation of a highly controversial figure by the name of Mircea Popescu. Romanian, originally from Transylvania, he was a prolific writer on his blog [Trilema](http://trilema.com/archives-categories/): he wrote on all subjects (philosophy, politics, sexuality), in a deliberately provocative style, initially in Romanian. He became interested in Bitcoin in the summer of 2011 and began to [talk](http://trilema.com/2011/ce-este-bitcoin/) about it on his blog.
+Another such project to emerge some time later was MPEx, the creation of a highly controversial figure by the name of Mircea Popescu. Romanian, originally from Transylvania, he was a prolific writer on his blog [Trilema](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/): he wrote on all subjects (philosophy, politics, sexuality), in a deliberately provocative style, initially in Romanian. He became interested in Bitcoin in the summer of 2011 and began to [talk](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/) about it on his blog.
 
 
 ![Mircea Popescu, date unknown](assets/en/030.webp)
@@ -973,7 +973,7 @@ Another such project to emerge some time later was MPEx, the creation of a highl
 In August, Mircea [opened](https://bitcointalk.org/index.php?topic=15672.msg444367#msg444367) "Mircea Popescu's BTC Options Trading Emporium" (MPOE), which [offered](https://web.archive.org/web/20110824221522/http://polimedia.us/bitcoin/options.php) BTC *call* and *put* options. It copied a similar service called Bitoption.org, [launched](https://bitcointalk.org/index.php?topic=9611.msg138413#msg138413) in May. The platform was profitable overall, making over 140 BTC in net profits over six months.
 
 
-At the end of February 2012, he proceeded with a [fundraising](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) by issuing shares and bonds, raising over 3,200 bitcoins, or around $16,000 at the time. On April 11, after a beta phase, the platform [finally became](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) a bitcoin exchange allowing the issuance and trading of various stocks, and was renamed MPEx(for "Mircea Popescu's Exchange").
+At the end of February 2012, he proceeded with a [fundraising](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) by issuing shares and bonds, raising over 3,200 bitcoins, or around $16,000 at the time. On April 11, after a beta phase, the platform [finally became](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) a bitcoin exchange allowing the issuance and trading of various stocks, and was renamed MPEx(for "Mircea Popescu's Exchange").
 
 
 ![MPEx screenshot, August 2012](assets/en/031.webp)
@@ -982,7 +982,7 @@ At the end of February 2012, he proceeded with a [fundraising](http://trilema.co
 *Capture of MPEx, August 2012 (source: [archive](https://web.archive.org/web/20120829092213/http://polimedia.us/bitcoin/mpex.php) from Polymedia.us)*
 
 
-The platform would go on to achieve a certain degree of success and would notably host the “IPO” of SatoshiDICE, the online casino operated by Erik Voorhees. It evolved over time, [integrating](http://trilema.com/2012/futures-on-mpex/) futures contracts in December.
+The platform would go on to achieve a certain degree of success and would notably host the “IPO” of SatoshiDICE, the online casino operated by Erik Voorhees. It evolved over time, [integrating](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) futures contracts in December.
 
 
 ### A construction phase
@@ -1121,7 +1121,7 @@ Deterministic wallets are largely the brainchild of American developer Gregory M
 ![Gregory Maxwell in 2006](assets/en/038.webp)
 
 
-*Gregory Maxwell in 2006 (source: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*Gregory Maxwell in 2006 (source: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 Gregory Maxwell had lots of ideas on how to improve the use of Bitcoin, and key derivation was one of them. He was not the first to have this idea (Casascius [made](https://bitcointalk.org/index.php?topic=6897.msg100975#msg100975) a similar proposal in April), but he was the first to formalize it. On June 18, following [discussions](https://buildingbitcoin.org/bitcoin-dev/log-2011-06-08.html#l-1089) on IRC, he wrote a description on the forum. He [wrote](https://bitcointalk.org/index.php?topic=19137.msg239768#msg239768):
@@ -1302,7 +1302,7 @@ On August 19, Casascius publicly [shared](https://bitcointalk.org/index.php?topi
 ![The first Casascius bitcoins in 2011](assets/en/049.webp)
 
 
-*Casascius' first bitcoins in 2011 (source: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*Casascius' first bitcoins in 2011 (source: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 Initially available in 1 and 25 BTC coins, Casascius bitcoins were quickly offered in other denominations and as bars, reaching up to 1,000 BTC! Physical representations of bitcoin were [sold](https://web.archive.org/web/20111107191637/https://www.casascius.com/) on Casascius's personal website, but [also](https://web.archive.org/web/20111028171555/http://www.memorydealers.com/bieq.html) on MemoryDealers (Roger Ver's online store) from October. They were also made [available](https://odysee.com/@adamkokesh:2/moment-in-monetary-history-bitcoin-by:9) through an ATM at the following year's PorcFest, in June 2012.
@@ -1512,7 +1512,7 @@ The model [relied](https://im.forre.st/pb/85341005.txt) on a "sharechain, which 
 ![Share chain visualization](assets/en/058.webp)
 
 
-*Sharechain visualization (source: Gregory Maxwell for [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Sharechain visualization (source: Gregory Maxwell for [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 On July 19, 2011, after a trial run on the test network, P2Pool was [deployed](https://bitcointalk.org/index.php?topic=61131.msg379115#msg379115) on the main Bitcoin network. The decentralized pool [found](https://bitcointalk.org/index.php?topic=61131.msg476766#msg476766) its first block on August 23, after several upgrades and more than a month of hashing! Other blocks followed, but activity remained anecdotal for months.
@@ -1588,7 +1588,7 @@ Following the release of version 0.4 of the software on September 23, which mark
 ![Bitcoin-Qt 0.5.2 screenshot in February 2012](assets/en/060.webp)
 
 
-*Capture of Bitcoin-Qt 0.5.2 in February 2012 (source: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) for Wikimedia)*
+*Capture of Bitcoin-Qt 0.5.2 in February 2012 (source: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) for Wikimedia)*
 
 
 Gavin is still the project leader, but he was helped by several people. As of October 2011, Bitcoin's "titular" developers (i.e. those [listed](https://web.archive.org/web/20111022025640/http://www.bitcoin.org/) on Bitcoin.org) are Gavin Andresen, Pieter Wuille, Nils Schneider, Jeff Garzik and Wladimir van der Laan. These programmers were supposed to represent Bitcoin on a technical level, and could be contacted by e-mail. They were maintainers, who [benefited](https://bitcointalk.org/index.php?topic=1774750.msg17700787#msg17700787) from write access to the GitHub repository. Gregory Maxwell [joined](https://web.archive.org/web/20120223113428/http://www.bitcoin.org/) in February 2012, and Nils Schneider stopped contributing in May of the same year. The resulting team of developers [would remain](https://bitcointalk.org/index.php?topic=1774750.msg17700787#msg17700787) in place until 2014.

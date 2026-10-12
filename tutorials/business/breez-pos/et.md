@@ -5,7 +5,7 @@ description: Breez teeb bitcoin-maksete kogumise teie ettevõttele lihtsaks.
 
 ![cover](assets/cover.webp)
 
-
+> **Hoiatus (oktoober 2026):** Breez eemaldas 2026. aastal oma varasema mobiilirakenduse (Breez: Lightning Client & POS) rakendusepoodidest ja sulges kasutajate kanalid. Selle juhendi allalaadimislingid ja sammud ei tööta enam. Endised kasutajad saavad oma raha tagasi tööriistaga [breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery). Säilitame selle lehe viitena, kuni seda uuendatakse.
 
 Pärast COVID-19 pandeemiat on kontaktivabad digitaalsed maksed levinud isegi kõige väiksemates kauplustes. Selle aja jooksul on paljud ettevõtted avastanud bitcoini sularahalahenduste praktilisuse, mis võimaldab neil võtta vastu makseid üle kogu maailma. Siiski on need lahendused mõnikord raskesti kasutatavad või ei sobi väikestele ettevõtetele. Selles õpetuses vaatleme Breezi makseterminali, mis on lahendus, mis paistab silma oma kasutusmugavuse poolest, andes samas täieliku kontrolli bitcoinide haldamise üle.
 
@@ -15,7 +15,7 @@ Pärast COVID-19 pandeemiat on kontaktivabad digitaalsed maksed levinud isegi k�
 
 
 
-Breez POS on Breez wallet poolt pakutav iseteeninduse teenus. Selle teenuse kasulikkus seisneb selles, et kaupmehed saavad koguda makseid Bitcoin kaudu, jäädes samal ajal lihtsa kasutajaliidese juurde, mis on väga sarnane erinevate Lightning rahakottidega. Breez POS on saadaval [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) ja [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS) allalaadimisplatvormidel.
+Breez POS on Breez wallet poolt pakutav iseteeninduse teenus. Selle teenuse kasulikkus seisneb selles, et kaupmehed saavad koguda makseid Bitcoin kaudu, jäädes samal ajal lihtsa kasutajaliidese juurde, mis on väga sarnane erinevate Lightning rahakottidega. Breez POS on saadaval Google Play Store (Android) ja App Store (iOS) allalaadimisplatvormidel.
 
 
 

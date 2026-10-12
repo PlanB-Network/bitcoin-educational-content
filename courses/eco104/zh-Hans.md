@@ -750,7 +750,7 @@ _**有趣的事实：** 即使比特币交易被确认，如果节点拒绝区�
 
 比特币的区块链由块组成，正如其名称所示。这些块的理论最大大小为4兆字节。*也就是说，撰写本文时的平均块大小约为1.5mb。*因此，这个限制限制了比特币每秒可以处理的交易数量，即每秒七到十笔交易（tps）。
 
-因此，你可能会想：比特币的区块链如何可能与Visa或Mastercard这样的网络竞争，后者的交易速度为[每秒1,700笔](https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)？
+因此，你可能会想：比特币的区块链如何可能与Visa或Mastercard这样的网络竞争，后者的交易速度为[每秒1,700笔](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)？
 
 答案很简单。它并不与它们竞争。
 将比特币的区块链与Visa或Mastercard进行比较，就像是将一艘国际集装箱船与本地五金店的收银台进行比较。集装箱船适用于不频繁的大宗交易，而收银台则围绕高频、小额交易构建。尽管两者都是移动货物，但比较它们就像是拿苹果和橘子做比较。
@@ -1061,14 +1061,14 @@ Adanna一直对能够控制自己的金钱感到好奇，但这一直是一个�
 
 通过像西联这样的汇款服务将钱汇回海外并不是免费的。这需要花费钱，而且不是一点点，而是一大笔。
 
-将100美元汇回汤加的费用为[12.61美元](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)加上由于不利汇率而额外损失的8.60美元。这意味着发送的总金额中有超过21%的部分流向了西联这样的跨国公司。因此，本可以到达应得汤加家庭手中的相当一部分钱最终进入了汇款服务提供商的口袋。
+将100美元汇回汤加的费用为[12.61美元](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)加上由于不利汇率而额外损失的8.60美元。这意味着发送的总金额中有超过21%的部分流向了西联这样的跨国公司。因此，本可以到达应得汤加家庭手中的相当一部分钱最终进入了汇款服务提供商的口袋。
 你能想象在你的收入中额外增加21%的好处吗？
 
 此外，考虑到汤加2021年的GDP为[4.69亿美元](https://tradingeconomics.com/tonga/gdp)，其中45.5%来自汇款，因汇款回家而收取的高额费用意味着汤加错失了额外的4520万美元。如果没有这些费用，这笔金额将转化为GDP的9.6%的增长。
 
 如果你认为只有汤加面临这个问题，那就再想想。
 
-以下是西联[收费](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)将100美元汇往一些其他主要国家的样本：
+以下是西联[收费](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)将100美元汇往一些其他主要国家的样本：
 
 - **中国：**21.21美元费用 + 2.60美元汇率损失（23.81%损失）
 - **加拿大、美国、墨西哥：**16.86美元费用 + 1.20美元汇率损失（18.06%损失）
@@ -1273,8 +1273,8 @@ _然而，这个理论忘记了市场是由个体组成的，而人性本身是�
 #### 误解六：比特币主要用于非法活动
 
 尽管许多研究已经揭穿了这些错误的说法，比特币仍然经常被批评主要用于非法活动。再次强调，这完全不符合事实。
-一项由前中央情报局副局长进行的[研究](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf)发现，“关于比特币在非法金融活动中的使用的广泛概括被严重夸大了。”实际上，自2016年以来，比特币总交易量中用于非法活动的比例不到1%。相比之下，“有些人估计地下经济占美国国内生产总值的11%到12%，”其中大部分是通过美元进行的。
-根据Chainalysis在2020年的一份报告，非法活动仅占所有比特币交易的大约[0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf)。
+一项由前中央情报局副局长进行的[研究](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf)发现，“关于比特币在非法金融活动中的使用的广泛概括被严重夸大了。”实际上，自2016年以来，比特币总交易量中用于非法活动的比例不到1%。相比之下，“有些人估计地下经济占美国国内生产总值的11%到12%，”其中大部分是通过美元进行的。
+根据Chainalysis在2020年的一份报告，非法活动仅占所有比特币交易的大约[0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf)。
 
 然而，即使有这些证据，一些掌权者仍然继续发表误导性声明，比如美国财政部长珍妮特·耶伦[声称](https://home.treasury.gov/news/press-releases/jy0023)，“加密货币被用来洗钱在线毒品贩子的利润；它们已成为资助恐怖主义的工具。”
 
@@ -1460,7 +1460,7 @@ _**图示：** 燃烧[气](https://arstechnica.com/science/2022/09/oil-industry-
 
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
-在当今全球化的世界中，获得金融服务是经济参与和独立的关键组成部分。尽管如此，仍有太多人被排除在传统银行系统之外，女性往往是这种排斥的主要受害者。令人震惊的是，尽管全球有不必要的[四分之一](https://www.worldbank.org/en/publication/globalfindex)人口未被银行服务覆盖，在像沙特阿拉伯这样的国家，[36.5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.)的女性缺乏基本的银行服务，阻碍了她们完全参与本国的经济和社会。
+在当今全球化的世界中，获得金融服务是经济参与和独立的关键组成部分。尽管如此，仍有太多人被排除在传统银行系统之外，女性往往是这种排斥的主要受害者。令人震惊的是，尽管全球有不必要的[四分之一](https://www.worldbank.org/en/publication/globalfindex)人口未被银行服务覆盖，在像沙特阿拉伯这样的国家，[36.5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.)的女性缺乏基本的银行服务，阻碍了她们完全参与本国的经济和社会。
 
 以下是世界各地女性今天仍然忍受的一些条件的例子：
 

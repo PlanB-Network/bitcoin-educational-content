@@ -221,11 +221,11 @@ Niba ushaka gufungura/kuzimya Antminer yawe ukoresheje telefone yawe ngendanwa n
 
 
 - 2X 3D igice c'umuhinduzi 140mm kugeza kuri 120mm
-- 2X NF-A14 iPPC-2000 PWM [ihuza]
-- 2X 140mm umuyaga w'umuyaga [ihuza]
-- Noctua NF-A6x25 PWM [ihuriro](ihuriro]
-- Isukari y'umuyagankuba 2,5mm2 [ihuriro]
-- 11g-300 [ihuriro](ikiraro-cohindura-Ethernet/dp/B014SK2H6W)
+- 2X NF-A14 iPPC-2000 PWM [ihuza](https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW)
+- 2X 140mm umuyaga w'umuyaga [ihuza](https://www.amazon.fr/dp/B06XD4FTSQ)
+- Noctua NF-A6x25 PWM [ihuriro](https://www.amazon.fr/Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4)
+- Isukari y'umuyagankuba 2,5mm2 [ihuriro](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS)
+- 11g-300 [ihuriro](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W)
 
 
 ## Igice ca 3 - INYIGISHO: Ni gute wohindura Miner ngo ibe Heater?

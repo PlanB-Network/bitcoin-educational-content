@@ -19,7 +19,7 @@ Kromě toho, že je Voltz správcovskou službou Lightning wallet, která umož�
 
 
 
-Přejděte na platformu [Voltz](https://www.lnvoltz.xyz/en) a vytvořte si účet kliknutím na tlačítko "Try now".
+Přejděte na platformu [Voltz](https://lnbits.lnvoltz.com/) a vytvořte si účet kliknutím na tlačítko "Try now".
 
 
 

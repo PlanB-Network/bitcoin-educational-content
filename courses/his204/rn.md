@@ -309,7 +309,7 @@ Abbé wa Saint-Pierre yavuze ko ingoma ya Louis XIV, n'urugo rwayo rw'ubutunzi b
 
 Ku bijanye n'ivyiyumviro vy'ivy'ubutunzi, yakoresha imisi yose ingingo ngenderwako y'akamaro, nk'ukwo Jeremy Bentham yahavuye abigira, kandi akenshi yatanga ivyiyumviro bitomoye. Mu kuvugisha ukuri, yari aracakwegwa n'ivyiyumviro vya mercantilism, ivyo ata muntu yari yaravavanuye rwose ico gihe.
 
-Yamara, Abbé wa Saint-Pierre yagize ivyiyumviro bitomoye ku vy'ubutunzi. Mbere imbere ya *Condillac*, uwukunda guhabwa iteka kubera ico ciyumviro, yavuze atomora ko mu guhanahana kwose, impande zibiri zironkeramwo akamaro. Ivyo bisanzwe mu gitabu ciwe co mu 1733 ["Project for Improving France's Trade"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), aho yanditse:
+Yamara, Abbé wa Saint-Pierre yagize ivyiyumviro bitomoye ku vy'ubutunzi. Mbere imbere ya *Condillac*, uwukunda guhabwa iteka kubera ico ciyumviro, yavuze atomora ko mu guhanahana kwose, impande zibiri zironkeramwo akamaro. Ivyo bisanzwe mu gitabu ciwe co mu 1733 ["Project for Improving France's Trade"](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), aho yanditse:
 
 > Iyo umuguzi n'umudandaza baguranye, uwudandaza aronkeramwo akamaro, n'uwuguze na we nyene; kuko iyo hataba akamaro nyakuri canke akamaro kabonwa ku mpande zibiri, uwudandaza ntiyodandaza ku giciro nk'ico, kandi uwuguze na we ntiyogura ku giciro nk'ico.
 
@@ -469,7 +469,7 @@ Ivyavuye mu bwenge bw'umurwi wa Gournay vyagize ingaruka nkomeye ku mateka y'ivy
 
 ![Ubushakashatsi ku bisohokayandikiro vy'ivy'ubutunzi mu Bufaransa, 1566-1789.](assets/en/035.webp)
 
-Kugira bakwize ugukunda impaka z'ivy'ubutunzi mu Bafaransa, Gournay n'abagenzi biwe barakoze ngo bibe bitahurwa biciye ku bitabu vy'inkuru z'uruhimbo. Inyuma y'igitabu *Memoir on the Trades*, icanenguye amashirahamwe y'abakozi, Gournay na Cliquot-Blervache barafashije Gabriel-François Coyer kwandika inkuru ngufi y'urwenya yitwa Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Kugira bakwize ugukunda impaka z'ivy'ubutunzi mu Bafaransa, Gournay n'abagenzi biwe barakoze ngo bibe bitahurwa biciye ku bitabu vy'inkuru z'uruhimbo. Inyuma y'igitabu *Memoir on the Trades*, icanenguye amashirahamwe y'abakozi, Gournay na Cliquot-Blervache barafashije Gabriel-François Coyer kwandika inkuru ngufi y'urwenya yitwa Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Abbé Gabriel-François Coyer, “Chinki”](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ Mu *Maxims* ziwe twavuze aho hejuru, Quesnay avuga:
 
 Aba Physiocrats bari babonye ivyononwa n'ukwivanga kw'ubutegetsi, canecane mu budandaji bw'impeke. Dutegerezwa kwemera, ni ko bavuga, ko ubutegetsi ntibuzokwigera bushobora kuyobora ubudandaji nk'ukwo abantu ku giti cabo babigira, kuko bwokwiye kwishura ku vyo bikenewe vyose no kwitaba impinduka yose y'ivyo bisabwa canke ivyo bitangwa. Ivyo vyose birenze kure ubushobozi bwa mbere n'ubutegetsi bufise ubwenge kuruta ayandi umuntu ashobora kwiyumvira. Ni co gituma, ni ngombwa kureka ibintu bigende kandi kureka bitembe.
 
-Kubera ko bufise akamaro kamere, ubudandaji butegerezwa kugira umwidegemvyo wuzuye kandi utagira agahaze. Umwe muri bo, Le Trosne, yanditse mbere agatabu kitwa [*The Freedom of the Grain Trade: Always Useful, Never Harmful*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Kubera ko bufise akamaro kamere, ubudandaji butegerezwa kugira umwidegemvyo wuzuye kandi utagira agahaze. Umwe muri bo, Le Trosne, yanditse mbere agatabu kitwa [*The Freedom of the Grain Trade: Always Useful, Never Harmful*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/).
 
 ### Ingingo ngenderwako ya gatanu: Abantu bose ni bavukanyi
 

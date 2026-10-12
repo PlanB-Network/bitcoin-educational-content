@@ -5,6 +5,8 @@ description: Gushiramwo no gukoresha urudodo rwawe rwa RoninDojo Bitcoin.
 ---
 ***IMBURIZO:** Inyuma y'aho abashinze Samourai Wallet bafashwe, ama server yabo bagafatwa kw'igenekerezo rya 24 Ndamukiza, hari ibintu bimwe bimwe vyo muri RoninDojo, nka Whirlpool, bitagikora. Ariko birashoboka ko ivyo bikoresho vyosubira gukoreshwa canke bikagaruka gukoreshwa mu buryo butandukanye mu ndwi ziza. Ikindi, kubera ko kode ya RoninDojo yari yashizwe kuri GitLab ya Samourai, na yo nyene yafashwe, ubu ntibishoboka ko umuntu ayikura kure. Amashirahamwe ya RoninDojo birashoboka ko ariko arakora ku bijanye no gusubira gusohora iyo kode.*
 
+> **Amakuru mashasha (Gitugutu 2026):** RoninDojo yarasubiye gusohora kode yayo ku rubuga rwayo bwite ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)), kandi ubu igeze kuri verisiyo ya 3. Iyi nyigisho isigura verisiyo ya kera: amahuza amwe n'amategeko amwe ntibigikora. Ku buryo bukoreshwa ubu, raba inyandiko zemewe: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 
 _Turiko turakurikirana cane iterambere ry’uru rubanza hamwe n’iterambere ryerekeye ibikoresho bijana. Nimwizere ko tuzosubiramwo iyi nyigisho uko amakuru mashasha azoboneka._
 
@@ -84,10 +86,12 @@ None ko twashoboye gushushanya ishusho ya RoninDojo, reka turabe ingene twoshira
 Kugira uhitemwo imashini yakira kandi ikoresha RoninDojo, urafise uburyo bwinshi.
 
 
-Nk’uko vyasiguwe imbere y’aho, uburyo bworoshe bwo guhitamwo ni ugusaba Tanto, imashini ishobora gukoreshwa n’umuyagankuba, ikaba yagenewe canecane iyo ntumbero. Kugira ngo usabe ivyawe, genda hano: [ihuriro](https://iduka.ronindojo.io/urutonde rw'ibicuruzwa/ibihimba/).
+Nk’uko vyasiguwe imbere y’aho, uburyo bworoshe bwo guhitamwo ni ugusaba Tanto, imashini ishobora gukoreshwa n’umuyagankuba, ikaba yagenewe canecane iyo ntumbero.
+
+> **Icitonderwa (Gitugutu 2026):** Bisa n'uko RoninDojo itakigurisha Tanto, kandi iduka ryayo ryo kuri internet ntirigikora. Raba urutonde rw'ibikoresho bihuye: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
 
 
-Kubera ko amashirahamwe ya RoninDojo akora kode y’inkomoko yuguruye, birashoboka kandi gushirwa mu ngiro RoninDojo ku zindi mashini. Ushobora kubona amaverisiyo mashasha y’umuhinga wo gushiramwo kuri iyi paji: [ihuriro](https://ronindojo.io/ru/downloads.html), n’amaverisiyo mashasha ya kode kuri iyi paji: [ihuriro](https://code.samourai.io/ronindojo/RoninDojo).
+Kubera ko amashirahamwe ya RoninDojo akora kode y’inkomoko yuguruye, birashoboka kandi gushirwa mu ngiro RoninDojo ku zindi mashini. Ushobora kubona amaverisiyo mashasha y’umuhinga wo gushiramwo kuri iyi paji: [ihuriro](https://ronindojo.io/downloads), n’amaverisiyo mashasha ya kode kuri iyi paji: [ihuriro](https://git.ronindojo.io/Ronin/monorepo).
 
 
 Ku bwanje, nayishize kuri Raspberry Pi 4 8GB kandi vyose birakora neza cane.
@@ -118,7 +122,7 @@ Aha ni akarorero k'ingene woshiraho urudodo rwawe rwa RoninDojo:
 Umaze gukoranya imashini yawe, urashobora gutangura gushiramwo RoninDojo. Kugira ngo ubikore, tangura ukoresheje ikarita micro SD ishobora gufungurwa mu kuyiturirako ishusho ya disiki ibereye.
 
 
-Injira ikarita yawe ya micro SD muri mudasobwa yawe bwite, hanyuma ugende ku rubuga rwemewe rwa RoninDojo kugira ngo ubone ishusho ya disiki ya RoninOS: https://ronindojo.io/ru/downloads.html.
+Injira ikarita yawe ya micro SD muri mudasobwa yawe bwite, hanyuma ugende ku rubuga rwemewe rwa RoninDojo kugira ngo ubone ishusho ya disiki ya RoninOS: https://ronindojo.io/downloads.
 
 
 Gukuraho ishusho ya disiki ihuye n’ibikoresho vyawe. Mu gihe canje, narakuyeho ishusho ya "MANJARO-ARM-RONINOS-RPI4-22.03.IMG.XZ":
@@ -130,7 +134,7 @@ Gukuraho ishusho ya disiki ihuye n’ibikoresho vyawe. Mu gihe canje, narakuyeho
 Ishusho imaze gukurwako, suzuma ubutungane bwayo ukoresheje dosiye .SHA256 ihuye. Nzodondora mu buryo burambuye ingene ivyo bikorwa muri iyi nkuru: Ni gute wogenzura ubutungane bwa porogarama ya Bitcoin kuri Windows?
 
 
-Amabwirizwa yihariye yo kugenzura ubutungane bwa RoninOS araboneka no kuri iyi paji: https://wiki.ronindojo.io/ru/extras/verify.
+Amabwirizwa yihariye yo kugenzura ubutungane bwa RoninOS araboneka no kuri iyi paji: https://docs.ronindojo.io/install/verify-os/.
 
 
 Kugira ngo uturire iyo shusho ku ikarita yawe ya micro SD, ushobora gukoresha porogarama nka Balena Etcher, ushobora kuyikura hano: https://www.balena.io/etcher/.
@@ -232,6 +236,8 @@ Mu nzira, bizomera gutya:
 
 Ubu rero uhuye n’imashini yawe, ubu ifise RoninOS gusa. Ubu rero ukeneye gushiramwo RoninDojo kuri yo.
 
+
+> **Icitonderwa (Gitugutu 2026):** Itegeko riri aha hepfo ntirigikora: GitLab ya Samourai (code.samourai.io) yafashwe ku wa 24 Ndamukiza 2024. Ubu RoninDojo ibika kode yayo aha: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Ku buryo bwo gushiramwo bukoreshwa ubu, raba [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
 
 Gukuraho verisiyo nshasha ya RoninDojo winjiza itegeko rikurikira:
 
@@ -508,16 +514,16 @@ Iyo ukora CoinJoin n’ugushirwa mu ngiro kwa Whirlpool, porogarama uriko urakor
 
 Umuti umwe w’iyi ngorane ni ugukoresha WhirlpoolCLI ku mashini igenewe kuguma ikora, nk’uruzitiro rwa Bitcoin. Ivyo bituma UTXO zacu zishobora gusubirwamwo 24/7 ataco zikeneye kuguma zikoresha iyindi mashini atari node yacu ya Bitcoin.
 
-WhirlpoolCLI ikoreshwa na WhirlpoolGUI, igishushanyo Interface co gushirwa kuri mudasobwa y’umuntu ku giti ciwe kugira ngo ushobore gucunga Coinjoins mu buryo bworoshe. Nzobasigurira mu buryo burambuye ingene woshiraho Whirlpool CLI ufise dojo yawe bwite muri iyi nkuru: [ihuriro](https://www.pandul.fr/iposita/ugutahura-n'ugukoresha-CoinJoin-ku-Bitcoin#:~:umwandiko=dans%20cette%20p artie.-,Inyigisho%20%3A%20Ikiyaga%20CLI%20sur%20Ikiyaga%20et%20Ikiyaga%20GUI.,-Si%20vous%20souhaitez).
+WhirlpoolCLI ikoreshwa na WhirlpoolGUI, igishushanyo Interface co gushirwa kuri mudasobwa y’umuntu ku giti ciwe kugira ngo ushobore gucunga Coinjoins mu buryo bworoshe. Nzobasigurira mu buryo burambuye ingene woshiraho Whirlpool CLI ufise dojo yawe bwite muri iyi nkuru: [ihuriro](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
 
 
-Kugira ngo umenye vyinshi ku vyerekeye CoinJoin muri rusangi, ndabasigurira vyose muri iyi nkuru: [link](https://www.pandul.fr/post/ukoresha-CoinJoin-ku-Bitcoin).
+Kugira ngo umenye vyinshi ku vyerekeye CoinJoin muri rusangi, ndabasigurira vyose muri iyi nkuru: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
 
 ### Gukoresha igikoresho ca Whirlpool.
 
 
-Inyuma yo gukora CoinJoins na Whirlpool, ushobora gushaka kumenya urugero nyarwo rw’ubuzima bwite bw’ama UTXO yawe avunganye. Whirlpool Stat Tool iragufasha gukora ivyo mu buryo bworoshe. Ukoresheje iki gikoresho, urashobora kubara amanota y’imbere n’ay’inyuma y’ama UTXO yawe avunganye. Kugira ngo umenye vyinshi ku bijanye no kubara izo Anon Sets n’ingene zikora, ndagusavye gusoma iki gice: [ihuriro](https://www.pandul.fr/iposita/ugutahura-n'ugukoresha-CoinJoin-ku-Bitcoin#:~:umwandiko=perdre% 20ru%20ibanga%C3%A9.-,Anon%20Imigwi.,-Comme%20gusobanura%C3%A9%20pr%C3%A9c%C3%A9Igihano).
+Inyuma yo gukora CoinJoins na Whirlpool, ushobora gushaka kumenya urugero nyarwo rw’ubuzima bwite bw’ama UTXO yawe avunganye. Whirlpool Stat Tool iragufasha gukora ivyo mu buryo bworoshe. Ukoresheje iki gikoresho, urashobora kubara amanota y’imbere n’ay’inyuma y’ama UTXO yawe avunganye. Kugira ngo umenye vyinshi ku bijanye no kubara izo Anon Sets n’ingene zikora, ndagusavye gusoma iki gice: [ihuriro](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
 
 
 Ico gikoresho kirabanza gushirwa kuri RoninDojo yawe. Ubu rero, iboneka gusa kuri RoninCLI. Kugira ngo uyitangure uhereye kuri menyu nyamukuru, genda kuri:
@@ -604,7 +610,7 @@ WST izoca yerekana amanota y’inyuma (Ibipimo vy’inyuma) ikurikiwe n’amanot
 Urashobora kubona ko amanota y’ivyizigiro y’ivyo UTXO yawe ibarirwa ashingiye ku txid y’umuvumba wawe wa mbere, atari umuvumba wawe wa nyuma. Ku rundi ruhande, igiharuro c’inyuma c’umugwi wa UTXO giharurwa hakurikijwe txid y’ingendo ya nyuma.
 
 
-Na none, nimba udatahura ivyo vyiyumviro vya Anon Sets, ndagusavye gusoma iki gice c’ingingo yanje ku CoinJoin aho ndasigura vyose mu buryo burambuye nkoresheje ibishushanyo: [https://www.pandul.fr/post/ugutahura-n'uwukoresha-CoinJoin-ku-Bitcoin#:~:umwandiko=perdre%20en%20ibanga%C3%A9.-,Imigwi%20Itamenyekana.,-Itangazo%20Isobanuro%A%A9%C9%320 (https://www.pandul.fr/post/ugutahura-n'uwukoresha-CoinJoin-ku-Bitcoin#:~:umwandiko=perdre%20en%20ibanga%C3%A9.-,Imigwi%20Itamenyekana.,-Itangazo%20Isobanuro%A%A9%C9%C2)
+Na none, nimba udatahura ivyo vyiyumviro vya Anon Sets, ndagusavye gusoma iki gice c’ingingo yanje ku CoinJoin aho ndasigura vyose mu buryo burambuye nkoresheje ibishushanyo: [https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
 
 
 ### Ukoresheje igiharuro ca Boltzmann.
@@ -862,7 +868,7 @@ Bisq icungera uguhanahana kw’urunganwe biciye ku buryo bw’imikono myinshi 2/
 Kugira ngo ubone porogarama ya Bisq, genda ku rubuga rwabo rwemewe: https://bisq.network/
 
 
-Kugira ngo utangure gukoresha porogarama, ndagusavye gusoma iyi paji: https://bisq.network/gutangura/
+Kugira ngo utangure gukoresha porogarama, ndagusavye gusoma iyi paji: https://bisq.network/getting-started/
 
 
 Kugira ngo ubone urubuga rwo gufatanya na RoninDojo yawe, uzokenera gufatanya na RoninCLI biciye kuri SSH. Hanyuma ugende kuri menyu:
@@ -968,7 +974,7 @@ Twarabonye ingene twoshiramwo no gutangura n’iki gikoresho ciza cane ari co Ro
 Nimba gukoresha terminal bitagutera ubwoba kandi nimba udakeneye ibikoresho bijanye na Lightning Network, rero RoninDojo yoshobora kugukwegera.
 
 
-Niba ushobora, niwiyumvire gutanga intererano ku bategura porogarama bagukorera mu mwidegemvyo: https://donate.ronindojo.io/
+Niba ushobora, niwiyumvire gutanga intererano ku bategura porogarama bagukorera mu mwidegemvyo: https://docs.ronindojo.io/main/donations/
 
 
 Kugira ngo umenye vyinshi ku vyerekeye RoninDojo, ndagusavye kuraba amahuzu ari mu bikoresho vyanje vyo hanze biri aha hepfo.
@@ -987,10 +993,10 @@ Kugira ngo umenye vyinshi ku vyerekeye RoninDojo, ndagusavye kuraba amahuzu ari 
 
 
 
-- Urutonde rw'ibintu
-- https://wiki.ronindojo.io/ru/inzu
-- LaurentMT/e758767ca4038ac40aaf
-- 85930984a159
-- Urubuga rwa Boltzmann
-- https://wiki.ronindojo.io/ru/gutegura/bisq
-- urubuga rwa bisq/
+- https://ronindojo.io/index.html
+- https://wiki.ronindojo.io/en/home
+- https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
+- https://medium.com/@laurentmt/introducing-boltzmann-85930984a159
+- https://en.wikipedia.org/wiki/Boltzmann_formula
+- https://web.archive.org/web/20240214172859/https://wiki.ronindojo.io/en/setup/bisq
+- https://bisq.network/

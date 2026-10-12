@@ -940,7 +940,7 @@ Para profundizar en la teoría moderna de números, puede consultar muchos debat
 
 [3] Ver [YouTube Video](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
-[4] Socratica, [Álgebra Abstracta](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Álgebra Abstracta](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 [5] Katz y Lindell, *Introduction to Modern Cryptography*, 2ª edn, 2015 (CRC Press: Boca Ratón, FL). Paar y Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlín).
 
@@ -1900,7 +1900,7 @@ Se dice que una función hash $H$ es **resistente a colisiones** si no es factib
 
 Las funciones hash resistentes a colisiones son importantes, por ejemplo, en la verificación de software. Supongamos que quiere descargar la versión para Windows de Bitcoin Core 0.21.0 (una aplicación de servidor para procesar el tráfico de red de Bitcoin). Los principales pasos que tendría que dar, para verificar la legitimidad del software, son los siguientes:
 
-1.	Primero debe descargar e importar las claves públicas de uno o más colaboradores Bitcoin Core en un software que pueda verificar firmas digitales (por ejemplo, Kleopetra). Puede encontrar estas claves públicas [aquí](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Se recomienda verificar el software Bitcoin Core con las claves públicas de múltiples contribuidores.
+1.	Primero debe descargar e importar las claves públicas de uno o más colaboradores Bitcoin Core en un software que pueda verificar firmas digitales (por ejemplo, Kleopetra). Puede encontrar estas claves públicas [aquí](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys). Se recomienda verificar el software Bitcoin Core con las claves públicas de múltiples contribuidores.
 
 2.	A continuación, tienes que verificar las claves públicas que has importado. Al menos un paso que deberías dar es verificar que las claves públicas que has encontrado son las mismas que se han publicado en otros lugares. Por ejemplo, puedes consultar las páginas web personales, las páginas de Twitter o las páginas de Github de las personas cuyas claves públicas importaste. Normalmente, esta comparación de claves públicas se realiza comparando un hash corto de la clave pública conocido como huella digital.
 

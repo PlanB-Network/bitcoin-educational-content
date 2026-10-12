@@ -935,7 +935,7 @@ Per approfondire la teoria moderna dei numeri, è possibile consultare molte dis
 
 [3] Vedere [Video YouTube](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
-[4] Socratica, [Algebra astratta](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Algebra astratta](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 [5] Katz e Lindell, *Introduzione alla crittografia moderna*, 2a ed., 2015 (CRC Press: Boca Raton, FL). Paar e Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlino).
 
@@ -1891,7 +1891,7 @@ Una funzione hash $H$ si dice **resistente alle collisioni** se è impossibile t
 
 Le funzioni hash resistenti alle collisioni sono importanti, ad esempio, nella verifica del software. Supponiamo di voler scaricare la versione Windows di Bitcoin Core 0.21.0 (un'applicazione server per l'elaborazione del traffico di rete Bitcoin). I passi principali da compiere per verificare la legittimità del software sono i seguenti:
 
-1.	Per prima cosa è necessario scaricare e importare le chiavi pubbliche di uno o più collaboratori di Bitcoin Core in un software in grado di verificare le firme digitali (ad esempio Kleopetra). È possibile trovare queste chiavi pubbliche [qui](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Si raccomanda di verificare il software Bitcoin Core con le chiavi pubbliche di più collaboratori.
+1.	Per prima cosa è necessario scaricare e importare le chiavi pubbliche di uno o più collaboratori di Bitcoin Core in un software in grado di verificare le firme digitali (ad esempio Kleopetra). È possibile trovare queste chiavi pubbliche [qui](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys). Si raccomanda di verificare il software Bitcoin Core con le chiavi pubbliche di più collaboratori.
 
 2.	Successivamente, è necessario verificare le chiavi pubbliche importate. Almeno uno dei passi da compiere è verificare che le chiavi pubbliche trovate siano le stesse pubblicate in altri luoghi. Ad esempio, si possono consultare le pagine web personali, le pagine Twitter o le pagine Github delle persone di cui si sono importate le chiavi pubbliche. In genere, il confronto tra le chiavi pubbliche viene effettuato confrontando un breve hash della chiave pubblica, noto come impronta digitale.
 

@@ -27,7 +27,7 @@ Graças a uma parceria com a MoonPay, também é possível comprar e vender Bitc
 ## 2. Como instalar o Rumble Wallet?
 
 
-A aplicação pode ser instalada no [Android](https://play.google.com/store/apps/details?id=com.wallet.rumble) e no iOS através das respectivas lojas oficiais.
+A aplicação pode ser instalada no [Android](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet) e no iOS através das respectivas lojas oficiais.
 
 
 ![Image](assets/fr/01.webp)

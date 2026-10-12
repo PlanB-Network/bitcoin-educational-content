@@ -643,8 +643,8 @@ Orion+ استقلال پروژه را تضمین می‌کند: "کمک مالی
 
 
 - **وب‌سایت رسمی**: [kagi.com/orion](https://kagi.com/orion/)
-- **پرسش‌های متداول کامل**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **انجمن جامعه**: [community.kagi.com](https://community.kagi.com)
+- **پرسش‌های متداول کامل**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **انجمن جامعه**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **ردیابی باگ**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - اجزای متن‌باز
 - **وبلاگ Kagi**: [blog.kagi.com](https://blog.kagi.com) - اخبار و به‌روزرسانی‌ها

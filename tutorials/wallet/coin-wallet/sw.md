@@ -44,10 +44,6 @@ Coin Wallet inapatikana kwenye mifumo yote mikubwa.
 
 
 
-- [Android (Duka la Galaxy)](https://galaxystore.samsung.com/detail/com.coinspace.app)
-
-
-
 - [Android (Huawei AppGallery)](https://appgallery.huawei.com/app/C112183767)
 
 
@@ -408,7 +404,7 @@ https://coin.space/
 https://support.coin.space/hc/en-us
 
 
-https://sw.bitcoin.it/wiki/Wallet
+https://en.bitcoin.it/wiki/Wallet
 
 
 https://bitcoinops.org/

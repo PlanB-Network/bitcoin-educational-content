@@ -14,7 +14,7 @@ RASPIBLITZ - Jak provozovat Lightning a Bitcoin Full Node od BTC session
 
 ## Parmanův průvodce nastavením Raspiblitz
 
-Raspiblitz je vynikající systém pro provozování Bitcoin uzlu a souvisejících aplikací. Doporučuji jej spolu s uzlem MyNode většině uživatelů (ideálně mít dva uzly pro redundanci). Jednou z hlavních výhod je, že uzel Raspiblitz je „Free Open Source Software“, na rozdíl od MyNode nebo Umbrel. [Proč je to důležité? Vysvětluje Vlad Costa.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Raspiblitz můžete také provozovat přes WiFi připojení místo ethernetu – zde je [doplňkový návod](https://armantheparman.com/headless-wifi/) k tomu. (U MyNode jsem nenašel způsob, jak to udělat).
+Raspiblitz je vynikající systém pro provozování Bitcoin uzlu a souvisejících aplikací. Doporučuji jej spolu s uzlem MyNode většině uživatelů (ideálně mít dva uzly pro redundanci). Jednou z hlavních výhod je, že uzel Raspiblitz je „Free Open Source Software“, na rozdíl od MyNode nebo Umbrel. [Proč je to důležité? Vysvětluje Vlad Costea.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Raspiblitz můžete také provozovat přes WiFi připojení místo ethernetu – zde je [doplňkový návod](https://armantheparman.com/headless-wifi/) k tomu. (U MyNode jsem nenašel způsob, jak to udělat).
 
 Můžete koupit připravený uzel s připojeným mini displejem, nebo si ho můžete postavit sami (nepotřebujete displej).
 
@@ -63,7 +63,7 @@ Před pokračováním, pokud nevíte, jak se orientovat v souborovém systému p
 Zde je [užitečné video pro Linux, ale platí také pro Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Pro Windows je zde [jednoduchý návod](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
-_AKTUALIZACE: Ověření pgp/gpg je nyní k dispozici. Budete potřebovat veřejný klíč Openoms. [Zde](http://parman.org/downloadable/openoms.txt) je (možná budete potřebovat anonymní režim, aby odkaz fungoval – http, ne https)_
+_AKTUALIZACE: Ověření pgp/gpg je nyní k dispozici. Aktuální obrazy RaspiBlitz podepisuje rootzoll, ne Openoms (otisk klíče: 92A746AE33A3C186D014BF5C1C73060C7C176461). Klíč a příkaz `gpg --verify` najdete v [oficiálním FAQ](https://docs.raspiblitz.org/docs/faq#how-to-verify-the-sd-card-image-after-download)._
 Mac/Linux
 
 Počkejte, až se soubor dokončí stahování (důležité!), a poté otevřete terminál, přejděte do složky, kam jste soubor stáhli, a zadejte následující příkaz…

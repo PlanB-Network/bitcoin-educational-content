@@ -5,7 +5,7 @@ description: Breez olakšava prikupljanje bitcoin uplata za vaše poslovanje.
 
 ![cover](assets/cover.webp)
 
-
+> **Upozorenje (oktobar 2026):** Breez je 2026. godine uklonio svoju prvobitnu mobilnu aplikaciju (Breez: Lightning Client & POS) iz prodavnica aplikacija i zatvorio kanale korisnika. Linkovi za preuzimanje i koraci iz ovog uputstva više ne rade. Bivši korisnici mogu da povrate svoja sredstva pomoću alata [breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery). Ovu stranicu čuvamo kao referencu dok ne bude ažurirana.
 
 Od pandemije COVID-19, beskontaktna digitalna plaćanja postala su rasprostranjena, čak i u najmanjim prodavnicama. Tokom ovog perioda, mnogi biznisi su otkrili praktičnost bitcoin cash rešenja, omogućavajući im da primaju uplate iz celog sveta. Međutim, ova rešenja su ponekad teška za korišćenje ili neprikladna za male biznise. U ovom vodiču, pogledaćemo Breez terminal za plaćanje, rešenje koje se ističe svojom lakoćom korišćenja, dok vam pruža potpunu kontrolu nad upravljanjem vašim bitcoinima.
 
@@ -15,7 +15,7 @@ Od pandemije COVID-19, beskontaktna digitalna plaćanja postala su rasprostranje
 
 
 
-Breez POS je usluga samostalnog čuvanja koju pruža Breez wallet. Korisnost ove usluge je omogućavanje trgovcima da prikupljaju uplate putem Bitcoin dok ostaju na jednostavnom interfejsu, vrlo sličnom raznim Lightning novčanicima. Breez POS je dostupan na platformama za preuzimanje [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) i [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS).
+Breez POS je usluga samostalnog čuvanja koju pruža Breez wallet. Korisnost ove usluge je omogućavanje trgovcima da prikupljaju uplate putem Bitcoin dok ostaju na jednostavnom interfejsu, vrlo sličnom raznim Lightning novčanicima. Breez POS je dostupan na platformama za preuzimanje Google Play Store (Android) i App Store (iOS).
 
 
 

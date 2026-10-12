@@ -3,10 +3,9 @@ name: Boltz
 description: Badilisha kati ya tabaka tofauti za Bitcoin huku ukidumisha udhibiti.
 ---
 
-
 ![cover](assets/cover.webp)
 
-
+> **Onyo (Oktoba 2026):** Boltz ilisitisha ubadilishaji wote tarehe 3 Agosti 2026 baada ya udhaifu kadhaa kutumiwa vibaya, na tovuti yake haipatikani mtandaoni. Viungo na hatua katika mafunzo haya hazifanyi kazi tena. Tunahifadhi ukurasa huu kwa marejeleo hadi utakaposasishwa.
 
 Tangu ilipoanza kutumika mwaka wa 2009, mfumo wa fedha wa kielektroniki wa Bitcoin umekua kwa kasi kubwa, na kutoa maisha kwa masuluhisho ambayo leo yanauwezesha kuwa mfumo tunaoweza kutumia papo hapo katika shughuli zetu za kila siku, haswa kupitia Lightning Network.
 
@@ -20,7 +19,7 @@ Hata hivyo, tatizo kubwa lilibaki kati ya tabaka za itifaki ya Bitcoin: ushiriki
 
 
 
-[Boltz](https://boltz.Exchange) ni jukwaa lisilodhibiti hali bora kwa yeyote anayetaka kufanya miamala kati ya tabaka tofauti za itifaki ya Bitcoin:
+Boltz ni jukwaa lisilodhibiti hali bora kwa yeyote anayetaka kufanya miamala kati ya tabaka tofauti za itifaki ya Bitcoin:
 
 
 

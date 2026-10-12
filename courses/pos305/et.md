@@ -267,7 +267,7 @@ Blockchain, tehing, topeltkulu, Bütsantsi kindlusprobleem, Mining, Proof of Wor
 Selle kursusebloki eesmärk on saada üldine arusaam BTCPay Serveri tarkvarast. Ühiskeskkonnas on soovitatav jälgida õpetaja demonstratsiooni ja vaadata BTCPay Server kursuseraamatut, et koos õpetajaga kaasa elada. Te saate teada, kuidas luua Wallet mitme meetodi abil. Näidetena võib tuua Hot Wallet seadistused ja BTCPay Server Vault'i kaudu ühendatud riistvaralised rahakotid. Need eesmärgid toimuvad demokeskkonnas, mida kuvab ja millele annab juurdepääsu teie kursuse juhendaja.
 
 
-Kui te järgite seda kursust ise, leiate nimekirja kolmandate osapoolte hostidest demo eesmärgil aadressil https://directory.btcpayserver.org/filter/hosts. Soovitame tungivalt mitte kasutada neid kolmanda osapoole võimalusi tootmiskeskkondadena; need täidavad siiski õiget eesmärki Bitcoin ja BTCPay Serveri kasutamise tutvustamiseks.
+Kui te järgite seda kursust ise, leiate nimekirja kolmandate osapoolte hostidest demo eesmärgil aadressil https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Soovitame tungivalt mitte kasutada neid kolmanda osapoole võimalusi tootmiskeskkondadena; need täidavad siiski õiget eesmärki Bitcoin ja BTCPay Serveri kasutamise tutvustamiseks.
 
 
 BTCPay Server rockstar'i praktikandina võib teil olla eelnev kogemus Bitcoin sõlme seadistamisel. See kursus on spetsiaalselt kohandatud BTCPay Serveri tarkvarapaketi jaoks.
@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin sõlme logid
 
 
-Lisaks oma bitcoind konteineri [logide vaatamisele](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) saate kasutada ka mõnda [bitcoin-cli käsku](https://developer.Bitcoin.org/reference/RPC/index.html)
+Lisaks oma bitcoind konteineri [logide vaatamisele](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) saate kasutada ka mõnda [bitcoin-cli käsku](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(avaneb uus aken)](https://developer.Bitcoin.org/reference/RPC/index.html), et saada teavet oma Bitcoin sõlme kohta. BTCPay sisaldab skripti, mis võimaldab teil oma Bitcoin sõlmpunktiga hõlpsasti suhelda.
+[(avaneb uus aken)](https://developer.bitcoin.org/reference/rpc/index.html), et saada teavet oma Bitcoin sõlme kohta. BTCPay sisaldab skripti, mis võimaldab teil oma Bitcoin sõlmpunktiga hõlpsasti suhelda.
 
 
 Btcpayserver-docker kausta sees, saada Blockchain teave oma sõlme abil:

@@ -5,7 +5,7 @@ description: Breez를 사용하면 비즈니스를 위한 비트코인 결제를
 
 ![cover](assets/cover.webp)
 
-
+> **주의 (2026년 10월):** Breez는 2026년에 기존 모바일 앱(Breez: Lightning Client & POS)을 앱 스토어에서 삭제하고 사용자의 채널을 닫았습니다. 이 튜토리얼의 다운로드 링크와 단계는 더 이상 작동하지 않습니다. 기존 사용자는 [breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery) 도구로 자금을 복구할 수 있습니다. 이 페이지는 업데이트될 때까지 참고용으로 유지합니다.
 
 코로나19 팬데믹 이후 비접촉식 디지털 결제는 아주 작은 상점에서도 널리 보급되었습니다. 이 기간 동안 많은 비즈니스가 비트코인 캐시 솔루션의 실용성을 발견하고 전 세계에서 결제를 받을 수 있게 되었습니다. 하지만 이러한 솔루션은 때때로 사용하기 어렵거나 소규모 비즈니스에 적합하지 않은 경우가 있습니다. 이 튜토리얼에서는 사용 편의성이 뛰어나면서도 비트코인 관리를 완벽하게 제어할 수 있는 솔루션인 Breez 결제 단말기에 대해 살펴보겠습니다.
 
@@ -15,7 +15,7 @@ description: Breez를 사용하면 비즈니스를 위한 비트코인 결제를
 
 
 
-Breez POS는 Breez wallet에서 제공하는 셀프 커스터디 서비스입니다. 이 서비스의 유용성은 판매자가 다양한 라이트닝 지갑과 매우 유사한 간단한 인터페이스를 유지하면서 Bitcoin을 통해 결제를 수금할 수 있도록 하는 것입니다. Breez POS는 [구글 플레이 스토어](https://play.google.com/store/apps/details?id=com.breez.client)(Android) 및 [앱 스토어](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142)(iOS) 다운로드 플랫폼에서 사용할 수 있습니다.
+Breez POS는 Breez wallet에서 제공하는 셀프 커스터디 서비스입니다. 이 서비스의 유용성은 판매자가 다양한 라이트닝 지갑과 매우 유사한 간단한 인터페이스를 유지하면서 Bitcoin을 통해 결제를 수금할 수 있도록 하는 것입니다. Breez POS는 구글 플레이 스토어(Android) 및 앱 스토어(iOS) 다운로드 플랫폼에서 사용할 수 있습니다.
 
 
 

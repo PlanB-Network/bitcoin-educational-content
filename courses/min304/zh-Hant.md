@@ -423,7 +423,7 @@ Antminer S9 由以下部分組成：
 
 用一句話概括本指南： **「不要相信，要驗證 」**。
 
-[您也可以向專業的機器翻新人員尋求協助，例如我們的合作夥伴 21energy。他們提供經過測試的 S9 機器，已清洗並安裝 BraiiinOS+ 軟體。使用聯盟代碼 "decouvre"，您將在購買 S9 時獲得 10% 的折扣，同時支持 Attakai 專案。](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[您也可以向專業的機器翻新人員尋求協助，例如我們的合作夥伴 21energy。他們提供經過測試的 S9 機器，已清洗並安裝 BraiiinOS+ 軟體。使用聯盟代碼 "decouvre"，您將在購買 S9 時獲得 10% 的折扣，同時支持 Attakai 專案。](https://21energy.com/products/bitmain-antminer-s9)
 
 ## S9 硬體改裝採購指南
 

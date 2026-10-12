@@ -122,7 +122,7 @@ Umbrel се грижи за предоставянето на ThunderHub на и
 
 
 
-**Предпоставки:** Уверете се, че системата ви отговаря на минималните изисквания съгласно [документация за настройка](https://docs.thunderhub.io/setup):
+**Предпоставки:** Уверете се, че системата ви отговаря на минималните изисквания съгласно [документация за настройка](https://docs.thunderhub.io/configure):
 
 
 
@@ -136,7 +136,7 @@ Umbrel се грижи за предоставянето на ThunderHub на и
 
 
 
-**1. Извличане на кода ThunderHub:** Клонирайте хранилището на проекта в GitHub, както е описано в [документацията за инсталиране](https://docs.thunderhub.io/installation):
+**1. Извличане на кода ThunderHub:** Клонирайте хранилището на проекта в GitHub, както е описано в [документацията за инсталиране](https://docs.thunderhub.io/get-started):
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Основен конфигурационен файл:** Създайте файл `.env.local` в корена на папката ThunderHub, за да персонализирате конфигурацията (това ще предотврати презаписването на вашите настройки по време на актуализации). Основни променливи, както е посочено в [документацията за настройка](https://docs.thunderhub.io/setup):
+**1. Основен конфигурационен файл:** Създайте файл `.env.local` в корена на папката ThunderHub, за да персонализирате конфигурацията (това ще предотврати презаписването на вашите настройки по време на актуализации). Основни променливи, както е посочено в [документацията за настройка](https://docs.thunderhub.io/configure):
 
 
 
@@ -304,8 +304,8 @@ docker pull apotdevin/thunderhub:base-v0.11.1
 
 
 
-- Инсталация:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- Конфигурация:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- Инсталация:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- Конфигурация:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

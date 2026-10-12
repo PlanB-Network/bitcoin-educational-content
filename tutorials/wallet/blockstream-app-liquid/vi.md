@@ -35,7 +35,7 @@ description: Cách cấu hình ứng dụng Blockstream và sử dụng Liquid N
 
 
 
-**Liquid** là **Sidechain** của Bitcoin, do **[Blockstream](https://blockstream.com/Liquid/)** phát triển, được thiết kế để cung cấp chức năng nhanh hơn, mạnh hơn Confidential Transactions và tiên tiến hơn, đồng thời vẫn kết nối với Blockchain Bitcoin chính.
+**Liquid** là **Sidechain** của Bitcoin, do **[Blockstream](https://blockstream.com/liquid/)** phát triển, được thiết kế để cung cấp chức năng nhanh hơn, mạnh hơn Confidential Transactions và tiên tiến hơn, đồng thời vẫn kết nối với Blockchain Bitcoin chính.
 
 
 
@@ -408,7 +408,9 @@ Khóa quyền truy cập vào ứng dụng bằng mã PIN mạnh:
 
 
 
-Ngoài ra, bạn có thể Exchange bitcoin của mình trên chuỗi hoặc thông qua Lightning Network để lấy L-BTC bằng cách sử dụng [một cầu nối như Boltz](https://boltz.Exchange/): nhập Liquid của bạn để nhận Address, thực hiện thanh toán theo ý muốn và nhận L-BTC của bạn.
+Ngoài ra, bạn có thể Exchange bitcoin của mình trên chuỗi hoặc thông qua Lightning Network để lấy L-BTC bằng cách sử dụng một cầu nối như Boltz: nhập Liquid của bạn để nhận Address, thực hiện thanh toán theo ý muốn và nhận L-BTC của bạn.
+
+> **Lưu ý (tháng 10 năm 2026):** Boltz đã tạm ngừng mọi giao dịch swap vào ngày 3 tháng 8 năm 2026 và trang web của họ không còn truy cập được. Phương pháp này hiện không hoạt động.
 
 
 

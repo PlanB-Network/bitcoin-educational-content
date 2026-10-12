@@ -309,7 +309,7 @@ Opat od Saint-Pierrea tvrdio je da vladavina Luja XIV, sa svojim luksuznim dvoro
 
 U pogledu ekonomske misli, dosledno je primenjivao načelo korisnosti, veoma slično onome što će Jeremy Bentham učiniti kasnije, i često je nudio valjana zapažanja. Pošteno rečeno, još je bio pod uticajem merkantilističkih ideja, kojih se u to vreme niko nije potpuno oslobodio.
 
-Ipak, opat od Saint-Pierrea izneo je neka tačna zapažanja o ekonomiji. Još pre *Condillaca*, kome se ta ideja često pripisuje, jasno je rekao da u svakoj razmeni obe strane imaju korist. To se može naći u njegovom ["Projektu za poboljšanje francuske trgovine"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) iz 1733, gde je napisao:
+Ipak, opat od Saint-Pierrea izneo je neka tačna zapažanja o ekonomiji. Još pre *Condillaca*, kome se ta ideja često pripisuje, jasno je rekao da u svakoj razmeni obe strane imaju korist. To se može naći u njegovom ["Projektu za poboljšanje francuske trgovine"](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) iz 1733, gde je napisao:
 
 > Kada se prodaja obavi između trgovaca, prodavac dobija, a dobija i kupac; jer da nema neke stvarne ili percipirane koristi na obe strane, ni prodavac ne bi prodavao po toj i toj ceni, niti bi kupac, sa svoje strane, kupovao po toj ceni.
 
@@ -469,7 +469,7 @@ Intelektualna produkcija Gournayevog kruga imala je veliki uticaj na istoriju id
 
 ![Studija o ekonomskom izdavaštvu u Francuskoj, 1566-1789.](assets/en/035.webp)
 
-Da bi širili ukus za ekonomske rasprave među francuskim stanovništvom, Gournay i njegovi prijatelji radili su na tome da ih učine pristupačnim kroz romane. Posle *Memoara o zanatima*, koji je kritikovao gilde, Gournay i Cliquot-Blervache pomogli su Gabrielu-Françoisu Coyeru da napiše kratak satirični roman pod naslovom Chinki: [Kočinčineska priča primenljiva na druge nacije](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Da bi širili ukus za ekonomske rasprave među francuskim stanovništvom, Gournay i njegovi prijatelji radili su na tome da ih učine pristupačnim kroz romane. Posle *Memoara o zanatima*, koji je kritikovao gilde, Gournay i Cliquot-Blervache pomogli su Gabrielu-Françoisu Coyeru da napiše kratak satirični roman pod naslovom Chinki: [Kočinčineska priča primenljiva na druge nacije](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Opat Gabriel-François Coyer, „Chinki”](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ U svojim prethodno navedenim *Maksimama*, Quesnay kaže:
 
 Fiziokrate su videle štetu koju je izazvalo uplitanje vlade, posebno u trgovini žitom. Mora se priznati, kažu, da vlast nikada neće moći da upravlja trgovinom tako dobro kao pojedinci, jer bi morala da odgovori na svaku potrebu i reaguje na svaku promenu potražnje ili ponude. Sve to je daleko iznad sposobnosti čak i najmudrije vlade koju možemo zamisliti. Zato je neophodno pustiti stvari da budu i pustiti ih da teku.
 
-Korisna po prirodi, trgovina mora biti potpuno i savršeno slobodna. Jedan od njihovih članova, Le Trosne, čak je napisao pamflet pod naslovom [*Sloboda trgovine žitom: uvek korisna, nikada štetna*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Korisna po prirodi, trgovina mora biti potpuno i savršeno slobodna. Jedan od njihovih članova, Le Trosne, čak je napisao pamflet pod naslovom [*Sloboda trgovine žitom: uvek korisna, nikada štetna*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/).
 
 ### Peto načelo: Svi ljudi su braća
 

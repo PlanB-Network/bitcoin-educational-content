@@ -57,7 +57,7 @@ Blockstream Green खोलें, फिर डिवाइस के अंत
 जेड के फर्मवेयर को अपडेट करने के बाद, उस नेटवर्क और सुरक्षा नीति पर जेड सेटअप करें जिसे आप उपयोग करना चाहते हैं।
 
 
-**टिप:** सुरक्षा नीति नीचे दिखाए गए लॉगिन स्क्रीन पर टाइप के अंतर्गत सूचीबद्ध है। यदि आप सुनिश्चित नहीं हैं कि सिंगलसिग या Multisig शील्ड का चयन करना है, तो कृपया हमारी मार्गदर्शिका [यहाँ](https://help.blockstream.com/hc/en-us/articles/4403642609433) देखें
+**टिप:** सुरक्षा नीति नीचे दिखाए गए लॉगिन स्क्रीन पर टाइप के अंतर्गत सूचीबद्ध है। यदि आप सुनिश्चित नहीं हैं कि सिंगलसिग या Multisig शील्ड का चयन करना है, तो कृपया हमारी मार्गदर्शिका [यहाँ](https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained) देखें
 
 
 ![image](assets/3.webp)
@@ -287,7 +287,7 @@ shasum -a 256 BlockstreamGreen_MacOS_x86_64.zip
 ![image](assets/22.webp)
 
 
-स्रोत: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+स्रोत: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 
 ### Green ऐप

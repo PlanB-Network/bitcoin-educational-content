@@ -131,7 +131,7 @@ git push -u origin tuto-green-wallet-loic
 ### 3 - Dodaj dokumenty samouczka
 
 
-***Uwaga:*** Kroki 3 i 4 można zautomatyzować za pomocą [mojego skryptu Python GUI](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Uruchom go bezpośrednio z folderu w lokalnym klonie, a następnie wypełnij wymagane pola w GUI. Więcej informacji na temat instalacji i użytkowania można znaleźć w [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Uwaga:*** Kroki 3 i 4 można zautomatyzować za pomocą [mojego skryptu Python GUI](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/data-creator). Uruchom go bezpośrednio z folderu w lokalnym klonie, a następnie wypełnij wymagane pola w GUI. Więcej informacji na temat instalacji i użytkowania można znaleźć w [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md).
 
 
 Jeśli wolisz zrobić to ręcznie, wykonaj następujące kroki:

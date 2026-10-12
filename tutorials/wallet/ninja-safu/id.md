@@ -36,7 +36,7 @@ Pendekatan Ninja SAFU menawarkan beberapa keuntungan:
 
 
 
-- **Keandalan**: Diuji sejak tahun 2020, metode ini telah dicoba dan diuji oleh para ahli keselamatan seperti [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), yang telah melakukan uji coba yang ketat (panas ekstrem, korosi, tekanan mekanis).
+- **Keandalan**: Diuji sejak tahun 2020, metode ini telah dicoba dan diuji oleh para ahli keselamatan seperti [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/), yang telah melakukan uji coba yang ketat (panas ekstrem, korosi, tekanan mekanis).
 
 
 
@@ -354,13 +354,13 @@ Menurut Jameson Lopp:
 
 
 
-- [Laporan](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) tentang metode Ninja SAFU
+- [Laporan](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) tentang metode Ninja SAFU
 
 
 
 
 
-- Tabel perbandingan [lengkap](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Tabel perbandingan [lengkap](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 
@@ -429,4 +429,4 @@ https://x.com/econoalchemist/status/1329271981712289797
 https://www.waivio.com/@themarkymark/create-your-own-metal-seed-key-backup
 
 
-https://github.com/minibolt-guide/minibolt/blob/main/bonus/Bitcoin/safu-ninja.md
+https://github.com/minibolt-guide/minibolt/blob/2c4770443e7f01ed9c471d995ef5af254719b51e/bonus/bitcoin/safu-ninja.md

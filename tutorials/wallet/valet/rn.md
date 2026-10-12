@@ -23,10 +23,10 @@ Ubu Valet iboneka gusa ku bikoresho vya Android, kandi ishobora gukurwa no gushi
 ## Gukuraho no gushiramwo Valet
 
 
-Valet ishobora gukurwako nk'idosiye ya APK kuri paji ya GitHub ya Sats'. [Itegeko Sats](https://itegeko.github.io/) ni ryo shirahamwe ryateguye Valet.
+Valet ishobora gukurwako nk'idosiye ya APK kuri paji ya GitHub ya Sats'. [Itegeko Sats](https://standardsats.github.io/) ni ryo shirahamwe ryateguye Valet.
 
 
-👉 Kugira ngo ubone Valet, genda kuri Standard Sats [paje ya GitHub](https://github.com.
+👉 Kugira ngo ubone Valet, genda kuri Standard Sats [paje ya GitHub](https://github.com/standardsats/valet/releases).
 
 
 👉 Genda kuri **Assets** ukande kuri dosiye ifise extension **.apk** gusa. Ivyo uzokurako bizotangura ubwavyo.
@@ -47,7 +47,7 @@ Valet ishobora gukurwako nk'idosiye ya APK kuri paji ya GitHub ya Sats'. [Itegek
 ![valet_icon_on_homescreen](assets/en/003.webp)
 
 
-Canke, urashobora kandi gukura Valet mu bubiko bwa porogarama **F-Droid**. Niba udafise porogarama ya F-Droid ku gikoresho cawe, urashobora kuyikurako ukayishiramwo [hano](https://f-droid.org/ru/).
+Canke, urashobora kandi gukura Valet mu bubiko bwa porogarama **F-Droid**. Niba udafise porogarama ya F-Droid ku gikoresho cawe, urashobora kuyikurako ukayishiramwo [hano](https://f-droid.org/en/).
 
 
 👉 Ku rubuga rwawe rw'imbere, fungura F-Droid urondere **Valet**. Hitamwo uburyo bwa mbere bufise **ikimenyetso c'ibara ry'umuyugubwe n'umweru** mu mahitamwo abiri azoboneka, hanyuma ukande **Gukuraho**.
@@ -210,7 +210,7 @@ Rero ihitamwo ryacu ryo kuja hano ni **Gucapura Node QR**. Muri iki gihe, uteger
 ![channel_opening_options](assets/en/016.webp)
 
 
-👉 Uzoca usubira kuri page ikurikira, aho ubu utegerezwa gutanga amahera kuri channel yawe. Na none, gukoresha urubuga rwa Lightning rwo kwizigama bisaba ko ukoresha Bitcoins zawe kugira ngo utere amahera umurongo. Ivyo bisigura ko utegerezwa kuba ufise ama Bitcoin muri on-chain wallet yawe uzokoresha mu gufasha umurongo wa Lightning. Turagusavye urabe iyi nkuru yanditswe na [Hacken](https://hacken.io/discover/urubuga-rw’umuravyo/), usome vyinshi ku bijanye n’urubuga rw’umuravyo.
+👉 Uzoca usubira kuri page ikurikira, aho ubu utegerezwa gutanga amahera kuri channel yawe. Na none, gukoresha urubuga rwa Lightning rwo kwizigama bisaba ko ukoresha Bitcoins zawe kugira ngo utere amahera umurongo. Ivyo bisigura ko utegerezwa kuba ufise ama Bitcoin muri on-chain wallet yawe uzokoresha mu gufasha umurongo wa Lightning. Turagusavye urabe iyi nkuru yanditswe na [Hacken](https://hacken.io/discover/lightning-network/), usome vyinshi ku bijanye n’urubuga rw’umuravyo.
 
 
 ![fund_channel](assets/en/017.webp)

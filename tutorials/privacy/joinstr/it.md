@@ -293,7 +293,6 @@ Utilizzate un segnalibro pubblico come :
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -650,7 +649,7 @@ In un contesto di crescente controllo finanziario, gli strumenti decentralizzati
 
 
 
-- [Sito ufficiale di Joinstr](https://joinstr.xyz)
+- [Sito ufficiale di Joinstr](https://docs.joinstr.xyz/)
 - [Documentazione per l'utente](https://docs.joinstr.xyz/users/using-joinstr)
 - [Documentazione tecnica](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [Codice sorgente GitLab](https://gitlab.com/invincible-privacy/joinstr)
@@ -682,6 +681,5 @@ In un contesto di crescente controllo finanziario, gli strumenti decentralizzati
 
 
 
-- [Bookmark Faucet](https://signetfaucet.com) - Bitcoin di prova gratuiti
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Alternativa Faucet
 - [Mempool.space](https://mempool.space) - Block explorer con analisi della privacy

@@ -75,7 +75,7 @@ https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 
 
-Aha niho hari uburongozi burambuye bwo kugufasha gutangura: **[Itunganywa rya mbere rya serveri ya Ubuntu - Intambwe ku yindi](https://danielpcostas.
+Aha niho hari uburongozi burambuye bwo kugufasha gutangura: **[Itunganywa rya mbere rya serveri ya Ubuntu - Intambwe ku yindi](https://danielpcostas.dev/ubuntu-server-initial-configuration-a-step-by-step-guide/).
 
 
 
@@ -638,10 +638,10 @@ Kwiyakira bisigura inshingano: gusubiza inyuma imbuto, kurinda ukuronka, gutangu
 
 
 
-- [Inyandiko z'ibice vya LN](inyandiko.ibice vy'inyandiko.org)
-- [Ikibanza c'ibice vya LN](ibice vy'ibice/ibice vy'ibice)
-- [Ikinyamakuru ca Phoenixd](ubutumwa bwa Phoenixd)
-- [Inyigisho yemewe yo gushiramwo](https:
+- [Inyandiko z'ibice vya LN](https://docs.lnbits.org)
+- [Ikibanza c'ibice vya LN](https://github.com/lnbits/lnbits)
+- [Ikinyamakuru ca Phoenixd](https://github.com/ACINQ/phoenixd)
+- [Inyigisho yemewe yo gushiramwo](https://github.com/lnbits/lnbits/blob/main/docs/guide/installation.md):
 
 
 
@@ -650,7 +650,7 @@ Kwiyakira bisigura inshingano: gusubiza inyuma imbuto, kurinda ukuronka, gutangu
 
 
 
-- [Imitunganyirize y'intango y'umurongo wa Ubuntu](intambwe-ku-intambwe-y'uburongozi/) na Daniel P. Costas (umutekano wa VPS intambwe ku yindi)
-- [Gushiramwo LNbits + Phoenixd kuri Ubuntu VPS](gushiramwo-lnbits-phoenixd-vps-ubuntu/) na Daniel P. Costas (uburongozi bushitse)
-- [Serveri ya LNbits kuri Clearnet](https/Igikoresho c'ibice/ru/) na Axel
-- [Ibice vya LN kuri VPS](Ibice vya LN) na Hannes
+- [Imitunganyirize y'intango y'umurongo wa Ubuntu](https://danielpcostas.dev/ubuntu-server-initial-configuration-a-step-by-step-guide/) na Daniel P. Costas (umutekano wa VPS intambwe ku yindi)
+- [Gushiramwo LNbits + Phoenixd kuri Ubuntu VPS](https://danielpcostas.dev/install-lnbits-phoenixd-vps-ubuntu/) na Daniel P. Costas (uburongozi bushitse)
+- [Serveri ya LNbits kuri Clearnet](https://ereignishorizont.xyz/lnbits-server/en/) na Axel
+- [Ibice vya LN kuri VPS](https://github.com/TrezorHannes/vps-lnbits) na Hannes

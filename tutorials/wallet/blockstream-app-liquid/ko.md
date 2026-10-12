@@ -35,7 +35,7 @@ description: 블록스트림 앱을 구성하고 Liquid Network을 사용하는 
 
 
 
-**Liquid**는 **[블록스트림](https://blockstream.com/Liquid/)**에서 개발한 Bitcoin의 **Sidechain**으로, 더 빠르고 더 많은 Confidential Transactions 및 고급 기능을 제공하면서 메인 Blockchain Bitcoin과 연결되도록 설계되었습니다.
+**Liquid**는 **[블록스트림](https://blockstream.com/liquid/)**에서 개발한 Bitcoin의 **Sidechain**으로, 더 빠르고 더 많은 Confidential Transactions 및 고급 기능을 제공하면서 메인 Blockchain Bitcoin과 연결되도록 설계되었습니다.
 
 
 
@@ -408,7 +408,9 @@ Liquid-비트코인(L-BTC)을 받으려면 몇 가지 옵션을 사용할 수 �
 
 
 
-또는 [볼츠와 같은 브릿지](https://boltz.Exchange/)를 사용하여 온체인 또는 L-BTC용 Lightning Network를 통해 비트코인을 Exchange으로 보내세요: Address을 받는 Liquid을 입력하고 원하는 대로 결제한 후 L-BTC를 받습니다.
+또는 볼츠와 같은 브릿지를 사용하여 온체인 또는 L-BTC용 Lightning Network를 통해 비트코인을 Exchange으로 보내세요: Address을 받는 Liquid을 입력하고 원하는 대로 결제한 후 L-BTC를 받습니다.
+
+> **참고 (2026년 10월):** Boltz는 2026년 8월 3일에 모든 스왑을 중단했으며 웹사이트는 오프라인 상태입니다. 이 방법은 현재 작동하지 않습니다.
 
 
 

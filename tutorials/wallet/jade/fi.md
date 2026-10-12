@@ -39,7 +39,7 @@ Kun Jadesi ilmestyy Greeniin, päivitä Jade klikkaamalla Tarkista päivitykset 
 
 Kun olet päivittänyt Jaden laiteohjelmiston, valitse Aseta Jade käyttöön valitsemallasi verkko- ja turvallisuuspolitiikalla.
 
-> Vinkki: Turvallisuuspolitiikka on lueteltu Tyypin alla kirjautumisnäytössä alla. Jos et ole varma, valitsetko Singlesig vai Multisig Shield, tutustu oppaaseemme täällä. (https://help.blockstream.com/hc/en-us/articles/4403642609433)
+> Vinkki: Turvallisuuspolitiikka on lueteltu Tyypin alla kirjautumisnäytössä alla. Jos et ole varma, valitsetko Singlesig vai Multisig Shield, tutustu oppaaseemme täällä. (https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 ![kuva](assets/3.webp)
 
@@ -189,7 +189,7 @@ Olet nyt onnistuneesti asettanut lompakkosi ja voit aloittaa bitcoinien vastaano
 
 ![kuva](assets/22.webp)
 
-lähde: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+lähde: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 ### green app
 Jos olet enemmän mobiiliopas, voit käyttää sitä yhdessä Blockstream Greenin kanssa

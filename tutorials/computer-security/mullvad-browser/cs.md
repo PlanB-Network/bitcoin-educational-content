@@ -547,7 +547,7 @@ Přestože má určitá omezení (chybí mobilní verze, relace nejsou trvalé),
 
 - [Oficiální stránky prohlížeče Mullvad](https://mullvad.net/fr/browser)
 - [Stránka pro stažení prohlížeče Mullvad](https://mullvad.net/en/download/browser)
-- [Podrobné technické specifikace](https://mullvad.net/en/browser/Hard-facts)
+- [Podrobné technické specifikace](https://mullvad.net/en/browser/hard-facts)
 - [Rozšíření prohlížeče Mullvad](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

@@ -61,7 +61,7 @@ Elementsはオープンソースのサイドチェーン対応[ブロックチ�
 
 エレメンツとは、分散型ブロックチェーン台帳に格納された資産の移転と創造を支配する[取引履歴](https://planb.academy/resources/glossary/transaction-tx)とルールについて、[合意形成](https://planb.academy/resources/glossary/consensus)を可能にするプロトコルを中核とするものである。
 
-Elementsの背景情報については、Elementsプロジェクトのウェブサイト(https://elementsproject.org/)、Liquidの公式ブログ(https://blog.liquid.net/)、開発者ポータル(https://liquid.net/devs)をご覧ください。
+Elementsの背景情報については、Elementsプロジェクトのウェブサイト(https://elementsproject.org/)、Liquidの公式ブログ(https://blog.liquid.net/)、開発者ポータル(https://liquid.net/developers)をご覧ください。
 
 ### エレメント
 

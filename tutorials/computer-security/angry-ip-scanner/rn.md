@@ -10,7 +10,7 @@ ___
 
 
 
-*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Florian BURNEL vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](ku rubuga rwacu/uruhusha/ku-NC/4.0/). Birashoboka ko hari ivyo bahinduye mu canditswe c’intango.*
+*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Florian BURNEL vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Birashoboka ko hari ivyo bahinduye mu canditswe c’intango.*
 
 
 
@@ -26,7 +26,7 @@ Ni gute ushobora gucapura urubuga rwa Windows kugira ngo ubone amashini ahuye mu
 
 
 
-Ico gikoresho gishobora gukoreshwa n’abantu ku giti cabo kugira ngo **basuzume urubuga rwabo rwo mu karere**, ariko kandi n’abahinga mu vy’ubuhinga bwa none ku ntumbero imwe. Ikimenyamenya c'uko **iki gikoresho gikora cane**, caramaze gukoreshwa n'**imigwi imwe imwe y'abagizi ba nabi bo kuri internet** mu gucapura imihora y'amashirahamwe (mu buryo bumwe na Nmap). Akarorero keza ni [umugwi w’abacunguzi RansomHub](https://www.it-connect.fr/deja-210-abakozweko-ncungu-mu-mugwi-w’abacunguzi-mu-kubera-mu-2024/). Ni porogarama nziza, ariko nk’uko biri ku bindi bikoresho vy’urubuga n’umutekano, gukoresha nabi birashobora gukoreshwa nabi.
+Ico gikoresho gishobora gukoreshwa n’abantu ku giti cabo kugira ngo **basuzume urubuga rwabo rwo mu karere**, ariko kandi n’abahinga mu vy’ubuhinga bwa none ku ntumbero imwe. Ikimenyamenya c'uko **iki gikoresho gikora cane**, caramaze gukoreshwa n'**imigwi imwe imwe y'abagizi ba nabi bo kuri internet** mu gucapura imihora y'amashirahamwe (mu buryo bumwe na Nmap). Akarorero keza ni [umugwi w’abacunguzi RansomHub](https://www.it-connect.fr/deja-210-victimes-pour-le-groupe-de-ransomware-ransomhub-lance-en-fevrier-2024/). Ni porogarama nziza, ariko nk’uko biri ku bindi bikoresho vy’urubuga n’umutekano, gukoresha nabi birashobora gukoreshwa nabi.
 
 
 
@@ -58,7 +58,7 @@ Ushobora gukuraho verisiyo nshasha ya Angry IP Scanner ku rubuga rwemewe rw’iy
 
 
 
-- [Igikoresho co gupima IP gishavuye GitHub](ibara ry'agahama/ipscan/ibisohoka/ivya nyuma)
+- [Igikoresho co gupima IP gishavuye GitHub](https://github.com/angryip/ipscan/releases/latest)
 
 
 

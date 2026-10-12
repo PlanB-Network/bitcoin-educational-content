@@ -541,7 +541,7 @@ Prve dve heuristike analize lanca otkrio je sam Satoshi Nakamoto. On o njima gov
 ![BTC204](assets/sr-Latn/031.webp)
 
 
-Izvor: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
+Izvor: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 Videćemo šta su oni u narednim poglavljima, ali već je zanimljivo primetiti da ove dve heuristike i dalje zadržavaju preimućstvo u analizi lanaca danas.
@@ -938,7 +938,7 @@ Kao što je objašnjeno u uvodu trećeg dela, ovu heuristiku je otkrio sam Satos
 ![BTC204](assets/sr-Latn/055.webp)
 
 
-Izvor: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
+Izvor: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 Na primer, ovo je primer adrese koja je korišćena u nekoliko transakcija:
@@ -1604,7 +1604,7 @@ Pošto je blokčejn javan, lako je videti koje adrese zaključavaju koji UTXO i 
 ![BTC204](assets/sr-Latn/070.webp)
 
 
-Izvor: S. Nakamoto, "Bitcoin: Sistem elektronskog novca od osobe do osobe", https://Bitcoin.org/Bitcoin.pdf, 2009.
+Izvor: S. Nakamoto, "Bitcoin: Sistem elektronskog novca od osobe do osobe", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 Namera Satoshija u ovoj rečenici bila je da stvori dodatnu zaštitu u slučaju povezivanja identiteta korisnika i para ključeva na Bitcoin-u, kako bi se sprečilo da cela njegova aktivnost bude javno povezana sa njegovim identitetom. Danas, sa proliferacijom kompanija za analizu blokčejna i KYC regulativama, korišćenje jedinstvenih adresa više nije "dodatna zaštita", već neophodna praksa za svakoga ko želi da sačuva minimum privatnosti.
@@ -2737,7 +2737,7 @@ Jedan od glavnih nedostataka JoinMarket-a je njegova složenost upotrebe, koja z
 ![BTC204](assets/sr-Latn/137.webp)
 
 
-Izvor: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Izvor: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 
 Međutim, tehnička barijera ostaje glavna prepreka. U ekosistemu CoinJoin-a, gde je poverljivost pojačana brojem učesnika, svako ograničenje koje smanjuje pristupačnost direktno utiče na dostupnu likvidnost, što je ključni faktor u efikasnosti miksanja. Bitcoin je već niša u okviru finansijskih transakcija, coinjoin predstavlja još užu podnišu unutar toga, a JoinMarket još specifičniji segment — što ograničava njegovu sposobnost da poveća broj korisnika unutar anonimnih skupova (anonseta).

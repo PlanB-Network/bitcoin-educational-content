@@ -25,7 +25,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 ## 프로톤 Wallet에 연결
 
 
-프로톤 Wallet 웹사이트](https://proton.me/Wallet)로 이동하여 "*프로톤 Wallet 받기*" 버튼을 클릭합니다.
+프로톤 Wallet 웹사이트](https://proton.me/wallet)로 이동하여 "*프로톤 Wallet 받기*" 버튼을 클릭합니다.
 
 
 ![Image](assets/fr/01.webp)
@@ -215,7 +215,7 @@ Wallet로 비트코인을 받으려면 Interface 왼쪽에서 원하는 계정�
 
 
 - [앱 스토어](https://apps.apple.com/us/app/proton-Wallet-secure-btc/id6479609548);
-- [구글 플레이 스토어](https://play.google.com/store/apps/details?id=me.proton.Wallet.android).
+- [구글 플레이 스토어](https://play.google.com/store/apps/details?id=me.proton.wallet.android).
 
 
 ![Image](assets/fr/26.webp)

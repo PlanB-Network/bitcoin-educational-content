@@ -43,7 +43,7 @@ OBS: alla medel som dina "kunder" sätter in på sina LNbits-bankkonton på din 
 ## Demo plattform
 
 
-Demot finns på [https://legend.lnbits.com](https://legend.lnbits.com). Den är fullt funktionell och kan användas för att lära sig mer om Lightning Network och funktionerna i LNbits och LNURL i allmänhet. Även om vi inte kan hindra dig från det skulle vi vilja be dig att inte använda det för din produktionsinställning. Vi arbetar inte bara ofta på servrarna för att testa nya funktioner utan vi vill också uppmuntra dig att köra din egen nod och LNbits på ett suveränt sätt. Om du tycker att det är för mycket begärt att köra en nod för tillfället kan du ansluta LNbits till en förvaringsfinansieringstjänst i molnet som Opennode, Luna eller Votage eller till Lightning Tipbot på Telegram för att bara nämna några.
+Demot finns på [https://demo.lnbits.com](https://demo.lnbits.com). Den är fullt funktionell och kan användas för att lära sig mer om Lightning Network och funktionerna i LNbits och LNURL i allmänhet. Även om vi inte kan hindra dig från det skulle vi vilja be dig att inte använda det för din produktionsinställning. Vi arbetar inte bara ofta på servrarna för att testa nya funktioner utan vi vill också uppmuntra dig att köra din egen nod och LNbits på ett suveränt sätt. Om du tycker att det är för mycket begärt att köra en nod för tillfället kan du ansluta LNbits till en förvaringsfinansieringstjänst i molnet som Opennode, Luna eller Votage eller till Lightning Tipbot på Telegram för att bara nämna några.
 
 
 ## LNbits flygblad
@@ -69,7 +69,7 @@ Innan du installerar LNbits ska du se till att du har läst och förstått följ
 
 
 - [LND Guide](https://docs.lightning.engineering/) | Installera LND
-- [LND konfigurationsexempel](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | LND inställningar
+- [LND konfigurationsexempel](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | LND inställningar
 - [CLN-guide](https://docs.corelightning.org/docs/installation) | Installera CLN
 - [LUDs](https://github.com/lnurl/luds) LNURL Spec | [NIPs](https://github.com/nostr-protocol/nips) Nostr Spec
 - [Kör en Watchtower](https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | Mycket viktigt!
@@ -81,7 +81,7 @@ Mer detaljerade guider för användning av LNbits i specifika användningsscenar
 
 - [Komma igång med LNbits](https://darthcoin.substack.com/p/getting-started-lnbits) | Substack-guide
 - [ToDos för din säkerhet med LNbits](https://youtu.be/i5FQf96e6zg) | Youtube Video
-- [Privata banker på Lightning Network](https://darthcoin.substack.com/p/Bitcoin-private-banks-over-lightning) | Substack guide
+- [Privata banker på Lightning Network](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | Substack guide
 - [Kör depåplånböcker för dina vänner och familj](https://darthcoin.substack.com/p/the-bank-of-lnbits) | Substack guide
 - [LNbits för en liten restaurang / hotell](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | Substack guide
 - [Använda LNbits Streamer copilot](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | Substack guide
@@ -116,7 +116,7 @@ Du kan också hitta en video på [dockerised Setup on a VPS with PostgreSQ, Ligh
 [Fler installationsscenarier här](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
 
-För programvarunoder i paket hänvisas till deras specifika dokumentation om LNbits: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+För programvarunoder i paket hänvisas till deras specifika dokumentation om LNbits: [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
 ### LNbits SaaS
@@ -202,17 +202,19 @@ För att kryptera din macaroon, kör `./venv/bin/python lnbits/wallets/macaroon/
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - LNbits Legend Demo Server (!! Använd INTE den här för produktion / kommersiella ändamål, endast för testning !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbits plånbok**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### Blixt TipBot
+
+> **Varning (oktober 2026):** LightningTipBot och ln.tips har lagts ned; nedläggningen tillkännagavs den 29 april 2024. Den här finansieringskällan fungerar inte längre, om du inte driver din egen bot.
 
 
 För att ansluta din [Lightning Tipbot](https://t.me/LightningTipBot) från Telegram måste du ställa in följande parameter:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsPlånbok**
-  - `LNBITS_ENDPOINT`: https://LN.tips
+  - `LNBITS_ENDPOINT`: `https://LN.tips`
   - `LNBITS_KEY`: För att få nyckeln måste du köra /api i en privat chatt med LightningTipbot på Telegram en gång.
 
 
@@ -229,11 +231,13 @@ Mer information finns i [IBEX API-Dokumentation](https://ibexpay-api.readme.io/r
 
 #### LNPay
 
-För att Invoice-lyssnaren ska fungera har du en allmänt tillgänglig URL i din LNbits och måste ställa in en [LNPay webhook](https://dashboard.lnpay.co/webhook/) som pekar på `<your LNbits host>/Wallet/webhook` med händelsen "Wallet Receive" och ingen hemlighet angiven. Inställningen `https://mylnbits/Wallet/webhook` kommer att vara slutpunktens url som får meddelande om alla betalningar.
+> **Varning (oktober 2026):** LNPay verkar ha lagts ned: domänen lnpay.co svarar inte längre. Den här finansieringskällan går troligen inte längre att använda.
+
+För att Invoice-lyssnaren ska fungera har du en allmänt tillgänglig URL i din LNbits och måste ställa in en LNPay webhook som pekar på `<your LNbits host>/Wallet/webhook` med händelsen "Wallet Receive" och ingen hemlighet angiven. Inställningen `https://mylnbits/Wallet/webhook` kommer att vara slutpunktens url som får meddelande om alla betalningar.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -514,7 +518,7 @@ Därmed ersätter du f8a43fc363ea428db5c53b3559935f1f med det värde som kommer 
 ##### LNURL för en blixt-Address vice versa
 
 
-Prova den här [encoder](https://lnurl-codec.netlify.app/) från fiatjaf eller [den här](https://lightningdecoder.com/). För att betala eller kontrollera en LNURLp kan du lika gärna använda [LNurlpay](https://wwww.lnurlpay.com/). Det ska stå HTTPS INTE HTTP.
+Prova den här [encoder](https://lnurl-codec.netlify.app/) från fiatjaf eller [den här](https://lightningdecoder.com/). För att betala eller kontrollera en LNURLp kan du lika gärna använda [LNurlpay](https://www.lnurlpay.com/). Det ska stå HTTPS INTE HTTP.
 
 
 
@@ -537,7 +541,9 @@ Det finns två sätt att Exchange Sats från onchain BTC till LN BTC (respektive
 ###### Via en extern bytestjänst.
 
 
-Andra användare som inte har tillgång till din LNbits-instans kan använda en swapptjänst som [Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) eller [ZigZag](https://zigzag.io/). Detta är användbart om du endast tillhandahåller LNURL/LN-fakturor från din LNbits-instans, men en betalare endast har Sats i kedjan, så de måste byta dessa Sats först på sin sida. Förfarandet är enkelt: användaren skickar onchain btc till swap-tjänsten och tillhandahåller LNURL / LN Invoice från LNbits som destination för swapet.
+Andra användare som inte har tillgång till din LNbits-instans kan använda en swapptjänst som Boltz, [FixedFloat](https://fixedfloat.com/) eller [ZigZag](https://zigzag.io/). Detta är användbart om du endast tillhandahåller LNURL/LN-fakturor från din LNbits-instans, men en betalare endast har Sats i kedjan, så de måste byta dessa Sats först på sin sida. Förfarandet är enkelt: användaren skickar onchain btc till swap-tjänsten och tillhandahåller LNURL / LN Invoice från LNbits som destination för swapet.
+
+> **Varning (oktober 2026):** Boltz stoppade alla swappar den 3 augusti 2026 efter att flera sårbarheter utnyttjats, och webbplatsen är offline. Boltz och LNbits Boltz-tillägg kan inte användas för närvarande.
 
 
 ###### Med hjälp av Onchain och Boltz LNbits-tillägget.
@@ -595,7 +601,7 @@ Om du har ett fel "unsupported Hash type" när du använder en ypub i On-Chain-t
 ### Verktyg och konstruktion med LNbits
 
 
-LNbits har alla möjliga [öppna API:er](https://legend.lnbits.com/docs) och verktyg för att programmera och ansluta till en mängd olika enheter för en miljard olika användningsområden.
+LNbits har alla möjliga [öppna API:er](https://demo.lnbits.com/docs) och verktyg för att programmera och ansluta till en mängd olika enheter för en miljard olika användningsområden.
 
 
 Om du är nybörjare kan du börja med denna [MakerBits-presentationer](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) från Ben Arc om att bygga prylar baserade på LNbits.

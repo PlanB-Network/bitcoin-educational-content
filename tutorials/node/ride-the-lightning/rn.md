@@ -103,7 +103,7 @@ Gushiramwo n'amaboko ni vyiza nimba ukunda kuguma ugenzura neza, canke nimba uri
 
 
 
-**Ibisabwa:** urabe ko ufise **urudodo rwa Bitcoin rukoranye** n'urudodo rwa Lightning rukora (LND, CLN canke Eclair) ku mashini. RTL nta n’urudodo rwa Lightning irimwo, ifatanya n’urudodo ruriho. Ukeneye kandi **Node.js** ishizwemwo (verisiyo 14+ irasabwa). Ushobora kugenzura na `node -v` canke ugashiramwo Node ku rubuga rwemewe (https://nodejs.org/ru/gukuraho/) canke umucungerezi wawe w'amapaki.
+**Ibisabwa:** urabe ko ufise **urudodo rwa Bitcoin rukoranye** n'urudodo rwa Lightning rukora (LND, CLN canke Eclair) ku mashini. RTL nta n’urudodo rwa Lightning irimwo, ifatanya n’urudodo ruriho. Ukeneye kandi **Node.js** ishizwemwo (verisiyo 14+ irasabwa). Ushobora kugenzura na `node -v` canke ugashiramwo Node ku rubuga rwemewe (https://nodejs.org/en/download/) canke umucungerezi wawe w'amapaki.
 
 
 
@@ -259,7 +259,7 @@ Niwakoresha [Umutaka](https://getumbrel.com), gushiramwo RTL biroroshe cane:
 
 
 
-- Ushobora gushika ku mutaka Interface (kenshi uciye kuri `http://umutaka.aho hantu`)
+- Ushobora gushika ku mutaka Interface (kenshi uciye kuri `http://umbrel.local`)
 - Genda kuri **Iduka ry'amaporogarama**
 - Rondera "Gera ku Muravyo"
 
@@ -682,11 +682,11 @@ Kugira ngo umenye vyinshi :
 
 
 
-- Urubuga rwemewe rwa RTL: https://www.amakuru y'umuravyo/
+- Urubuga rwemewe rwa RTL: https://www.ridethelightning.info/ y'umuravyo/
 - GitHub RTL: gutwara-umuravyo/RTL
-- Reddit r/umuravyo**: [r/umuravyo](https://www.reddit.com/r/umuravyo) - Ibiganiro vy'ubuhinga, amatangazo y'umugambi, inyishu n'ibikoresho vy'inyigisho
+- Reddit r/umuravyo**: [r/umuravyo](https://www.reddit.com/r/lightningnetwork) - Ibiganiro vy'ubuhinga, amatangazo y'umugambi, inyishu n'ibikoresho vy'inyigisho
 - Ihuriro ry'abanyagihugu ry'Umutaka**: [abanyagihugu.
-- Lightning Network Abahinguzi**: [github.com/umuravyo](https://github.com/umuravyo) - Ububiko buzwi bwa GitHub bwo gukurikirana iterambere no gutanga kode y'inkomoko
+- Lightning Network Abahinguzi**: [github.com/umuravyo](https://github.com/lightning) - Ububiko buzwi bwa GitHub bwo gukurikirana iterambere no gutanga kode y'inkomoko
 - - Ibibazo n'inyishu vy'ubuhinga n'abahinguzi n'abakoresha bateye imbere
 
 

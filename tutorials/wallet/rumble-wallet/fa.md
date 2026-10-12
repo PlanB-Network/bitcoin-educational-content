@@ -27,7 +27,7 @@ description: به خالقانی بپیوندید که از آزادی بیان 
 ## 2. چگونه Rumble Wallet را نصب کنیم؟
 
 
-این برنامه را می‌توان بر روی هر دو سیستم‌عامل [اندروید](https://play.google.com/store/apps/details?id=com.wallet.rumble) و iOS از طریق فروشگاه‌های رسمی مربوطه نصب کرد.
+این برنامه را می‌توان بر روی هر دو سیستم‌عامل [اندروید](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet) و iOS از طریق فروشگاه‌های رسمی مربوطه نصب کرد.
 
 
 ![Image](assets/fr/01.webp)

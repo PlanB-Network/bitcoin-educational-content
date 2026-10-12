@@ -643,8 +643,8 @@ Orion Browser เป็นก้าวสำคัญสำหรับควา
 
 
 - เว็บไซต์ทางการ**: [kagi.com/orion](https://kagi.com/orion/)
-- คำถามที่พบบ่อยทั้งหมด**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- ฟอรัมชุมชน**: [community.kagi.com](https://community.kagi.com)
+- คำถามที่พบบ่อยทั้งหมด**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- ฟอรัมชุมชน**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - การติดตามข้อบกพร่อง**: [orionfeedback.org](https://orionfeedback.org)
 - GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - ส่วนประกอบโอเพนซอร์ส
 - บล็อก Kagi**: [blog.kagi.com](https://blog.kagi.com) - ข่าวสารและการอัปเดต

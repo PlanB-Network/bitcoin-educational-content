@@ -116,7 +116,7 @@ Since Bitcoin is a system, it must necessarily be run on computers. And, because
 ![Image](assets/fr/047.webp)
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 It is precisely these users who ensure Bitcoin's security. As Eric Voskuil explains in his book *Cryptoeconomics*, the security of Bitcoin relies neither on [blockchain](https://planb.academy/resources/glossary/blockchain), nor on [hashing power](https://planb.academy/resources/glossary/hashrate), nor on validation, decentralization, [cryptography](https://planb.academy/resources/glossary/cryptography), [open source](https://planb.academy/resources/glossary/foss), nor game theory. The security of Bitcoin depends primarily on the individuals who are willing to expose themselves to personal risk. Decentralization allows this risk to be spread over a large number of individuals, and it is only their ability to resist that ensures the system's robustness.
@@ -156,7 +156,7 @@ The first task of a node is to maintain a local copy of the blockchain. To preve
 
 > The only way to confirm the absence of a transaction is to be aware of all transactions.
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 Blockchain is therefore an evolving register: each time a new block is published by a [miner](https://planb.academy/resources/glossary/miner), the node checks its validity before adding it to its own local copy of the chain. As of today (July 2025), the complete blockchain exceeds 675 GB, and this size continues to grow, as a new block is added on average every 10 minutes.
@@ -289,7 +289,7 @@ In theory, Bitcoin Core does not represent the Bitcoin protocol; rather, it is j
 ### Current distribution of implementations
 
 
-According to [data collected in August 2025 by Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (a well-known developer in the ecosystem), the distribution of implementations among the network's public nodes is as follows:
+According to [data collected in August 2025 by Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (a well-known developer in the ecosystem), the distribution of implementations among the network's public nodes is as follows:
 
 
 - **Bitcoin Core**: 87.3% of nodes
@@ -576,7 +576,7 @@ An [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (*Simplif
 ![Image](assets/fr/066.webp)
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 This type of node is obviously much lighter in terms of storage and CPU usage than a full node or even a pruned node. The SPV node is therefore well-suited to smaller devices and intermittent connections. In fact, it is often integrated directly into the wallet, especially mobile software such as the Blockstream App.
@@ -1137,7 +1137,7 @@ One of Umbrel's key advantages over its competitors is its vast and highly activ
 ### UmbrelOS license
 
 
-Umbrel's code is publicly available (you can view, fork, and modify it), but it is not under a true open-source license. In fact, umbrelOS is distributed under the [*PolyForm Noncommercial 1.0*] license (https://polyformproject.org/licenses/noncommercial/1.0.0/), although some associated development tools are available under the MIT license.
+Umbrel's code is publicly available (you can view, fork, and modify it), but it is not under a true open-source license. In fact, umbrelOS is distributed under the [*PolyForm Noncommercial 1.0*] license (https://polyformproject.org/licenses/noncommercial/1.0.0), although some associated development tools are available under the MIT license.
 
 
 In practical terms, you can do pretty much anything you like with umbrelOS, as long as it's for personal, non-commercial use: modification, redistribution for non-profit purposes, creation of derivatives for yourself or for non-profit organizations, provided you respect the legal notices.
@@ -2883,7 +2883,7 @@ Finally, the `bitcoin.conf` file also allows you to configure the access paramet
 - `uacomment=<cmt>`: Adds a comment to User-Agent P2P.
 
 
-We've now finished listing most of the configuration parameters. This `bitcoin.conf` file thus constitutes the real dashboard of your node: it defines network configuration, mempool management, disk and memory usage, indexing, and general administration. If you'd like to learn more about this file and create one tailored to your needs, I recommend using [Jameson Lopp's generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
+We've now finished listing most of the configuration parameters. This `bitcoin.conf` file thus constitutes the real dashboard of your node: it defines network configuration, mempool management, disk and memory usage, indexing, and general administration. If you'd like to learn more about this file and create one tailored to your needs, I recommend using [Jameson Lopp's generator](https://jlopp.github.io/bitcoin-core-config-generator/).
 
 
 We've reached the conclusion of this BTC 202 course, which will have enabled you not only to understand the basics of how nodes work and how they interact within the system, but also to set up your own. You're now a sovereign Bitcoiner, with your own self-custody wallet, broadcasting your transactions via your own node. Congratulations!

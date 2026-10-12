@@ -60,7 +60,7 @@ Igihe co gukoresha JavaScript ni porogarama idasanzwe ikora izo dosiye.
 Igihe co gukoresha JavaScript gisanzwe ni NodeJS.
 
 
-Ushobora kuyishiramwo ukurikije [amabwirizwa yemewe](https://nodejs.org/ru/gukuraho).
+Ushobora kuyishiramwo ukurikije [amabwirizwa yemewe](https://nodejs.org/en/download).
 
 
 Paje yo gukuraho izoguha amabwirizwa y’ivyo bikoresho vyose bitatu bihambaye: Windows, Linux na MacOS. Bifata ko uzi gufungura terminal muri OS yawe.
@@ -6190,7 +6190,7 @@ Ibi nivyo biriko biraba muri kode:
 
 2. `http.remaServeri()` irema Serveri. Waciye kuri `http.remaServer()` gusubira guhamagara `(req, res) => {...}` kugira ngo ukore igihe cose umuntu ahuye.
 
-3. Washizeho code ya status ya 200 (yerekana ko igikorwa cakozwe neza) ku nyishu. Ushobora gusoma ivyerekeye amakode y'imiterere ya http [hano](https://umuhinguzi.mozilla.org/ru-Amerika/inyandiko/Urubuga/HTTP/Ishingiro/Imimerere)
+3. Washizeho code ya status ya 200 (yerekana ko igikorwa cakozwe neza) ku nyishu. Ushobora gusoma ivyerekeye amakode y'imiterere ya http [hano](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status)
 
 3. `res.end()` yohereza inyishu maze irangize ihuriro.
 

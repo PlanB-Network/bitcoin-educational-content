@@ -213,7 +213,7 @@ Klõpsake nuppu "*Start*".
 
 ![Image](assets/fr/15.webp)
 
-Võite kasutada Jade Plus'i karbis kaasasolevat QR-koodi baasi. Valige sobiv kast sõltuvalt sellest, kas olete valinud 12- või 24-sõnalise lause. Võite ka [printida malli Blockstream'i veebisaidilt](https://help.blockstream.com/hc/article_attachments/41928319071769).
+Võite kasutada Jade Plus'i karbis kaasasolevat QR-koodi baasi. Valige sobiv kast sõltuvalt sellest, kas olete valinud 12- või 24-sõnalise lause. Võite ka [printida malli Blockstream'i veebisaidilt](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase).
 
 Teie Jade Plus kuvab iga QR-koodi tsooni.
 

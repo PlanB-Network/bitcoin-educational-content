@@ -566,6 +566,8 @@ Lightning satoshis ของคุณพร้อมใช้งานทัน�
 
 ## SwapMarket กับ Boltz: มีความแตกต่างกันอย่างไร?
 
+> **หมายเหตุ (ตุลาคม 2026):** Boltz Exchange ระงับการสวอปทั้งหมดเมื่อวันที่ 3 สิงหาคม 2026 และเว็บไซต์ออฟไลน์อยู่ ผู้ให้บริการรายนี้อาจไม่มีให้ใช้บน SwapMarket อีกต่อไป
+
 
 
 ### Boltz: เทคโนโลยี vs. การบริการ
@@ -639,7 +641,7 @@ SwapMarket อำนวยความสะดวกในการแลกเ
 
 - [SwapMarket - Web application](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Technical documentation](https://docs.boltz.exchange/)
+- [Technical documentation](https://github.com/BoltzExchange/boltz-backend)
 - [คู่มือการโฮสต์ด้วยตนเอง](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 
@@ -649,5 +651,5 @@ SwapMarket อำนวยความสะดวกในการแลกเ
 
 
 
-- [Boltz Exchange](https://boltz.exchange) - บริการแลกเปลี่ยนอะตอมมิกดั้งเดิม
+- Boltz Exchange - บริการแลกเปลี่ยนอะตอมมิกดั้งเดิม
 - [ZEUS Swaps](https://zeusln.com) - ผู้ให้บริการแลกเปลี่ยน Lightning

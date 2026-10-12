@@ -122,7 +122,7 @@ Umbrel dışındaki kullanıcılar için (örneğin kişisel bir sunucuda, Raspi
 
 
 
-**Önkoşullar:** Sisteminizin [documentation setup](https://docs.thunderhub.io/setup)'a göre minimum gereksinimleri karşıladığından emin olun:
+**Önkoşullar:** Sisteminizin [documentation setup](https://docs.thunderhub.io/configure)'a göre minimum gereksinimleri karşıladığından emin olun:
 
 
 
@@ -136,7 +136,7 @@ Umbrel dışındaki kullanıcılar için (örneğin kişisel bir sunucuda, Raspi
 
 
 
-**1. ThunderHub kodunu alın:** Projenin GitHub deposunu [kurulum belgelerinde](https://docs.thunderhub.io/installation) açıklandığı gibi klonlayın:
+**1. ThunderHub kodunu alın:** Projenin GitHub deposunu [kurulum belgelerinde](https://docs.thunderhub.io/get-started) açıklandığı gibi klonlayın:
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Ana yapılandırma dosyası:** Yapılandırmayı özelleştirmek için ThunderHub klasörünün kök dizininde bir `.env.local` dosyası oluşturun (bu, güncellemeler sırasında ayarlarınızın üzerine yazılmasını önleyecektir). Ana değişkenler [kurulum belgeleri](https://docs.thunderhub.io/setup) uyarınca:
+**1. Ana yapılandırma dosyası:** Yapılandırmayı özelleştirmek için ThunderHub klasörünün kök dizininde bir `.env.local` dosyası oluşturun (bu, güncellemeler sırasında ayarlarınızın üzerine yazılmasını önleyecektir). Ana değişkenler [kurulum belgeleri](https://docs.thunderhub.io/configure) uyarınca:
 
 
 
@@ -304,8 +304,8 @@ ThunderHub oturum açma sayfası görünür. Yapılandırılmış hesabı seçin
 
 
 
-- **Kurulum:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- **Yapılandırma:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Kurulum:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- **Yapılandırma:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

@@ -89,7 +89,7 @@ Elements, Confidential Transactions ve Issued Assets gibi topluluk üyeleri tara
 Elements, özünde, dağıtılmış bir Blockchain Ledger'da depolanan varlıkların transferini ve oluşturulmasını yöneten [işlem](https://planb.academy/resources/glossary/transaction-tx) geçmişi ve kuralları etrafında [fikir birliği](https://planb.academy/resources/glossary/consensus) oluşturulmasını sağlayan bir protokoldür.
 
 
-Elements hakkında daha fazla arka plan bilgisi Elements Projesi web sitesinde (https://elementsproject.org/), resmi Liquid blogunda (https://blog.Liquid.net/) ve geliştirici portalında (https://Liquid.net/devs) kolayca bulunabilir.
+Elements hakkında daha fazla arka plan bilgisi Elements Projesi web sitesinde (https://elementsproject.org/), resmi Liquid blogunda (https://blog.Liquid.net/) ve geliştirici portalında (https://liquid.net/developers) kolayca bulunabilir.
 
 
 ### Elements

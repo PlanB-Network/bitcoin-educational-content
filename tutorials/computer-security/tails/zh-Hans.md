@@ -10,7 +10,7 @@ description: 在USB密钥上安装Tails
 
 ## 为什么要在USB密钥上安装Tails？
 
-Tails (https://tails.boum.org/) 是随时拥有一台安全计算机的最简单方式，使用它不会在您使用的计算机上留下任何痕迹。
+Tails (https://tails.net/) 是随时拥有一台安全计算机的最简单方式，使用它不会在您使用的计算机上留下任何痕迹。
 
 要使用Tails，关闭您可以访问的计算机（在您父母家、朋友家、网吧...）并用您的Tails USB密钥启动它，而不是Windows、macOS或Linux。
 
@@ -55,7 +55,7 @@ Tails从不写入硬盘，只使用计算机的RAM来运行。当Tails关闭时�
 
 ![image](assets/1.webp)
 
-> 🔗 官方Tails部分：https://tails.boum.org/install/linux/index.fr.html#download
+> 🔗 官方Tails部分：https://tails.net/install/linux/index.fr.html#download
 
 下载带有.img扩展名的安装文件可能需要一些时间，这取决于您的互联网下载速度，因此请提前计划。如果连接现代且高效，将不到5分钟。
 
@@ -64,7 +64,7 @@ Tails从不写入硬盘，只使用计算机的RAM来运行。当Tails关闭时�
 ## 第2步：验证您的下载
 
 ![image](assets/2.webp)
-🔗 官方 Tails 部分：https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 官方 Tails 部分：https://tails.net/install/linux/index.fr.html#verify
 验证下载确保它是由 Tails 开发者发布的，并且在下载过程中没有被损坏或拦截。
 
 使用 PGP 手动验证您刚下载的文件是否是预期的文件是可能的，但如果没有高级知识，这种验证提供的安全级别与下载页面上的 JavaScript 验证相同，而且更加复杂且容易出错。
@@ -77,8 +77,8 @@ Tails从不写入硬盘，只使用计算机的RAM来运行。当Tails关闭时�
 
 > 🔗 官方 Tails 部分：
 >
-> - Linux: https://tails.boum.org/install/linux/index.fr.html#install
-> - macOS: https://tails.boum.org/install/mac/index.fr.html#etcher 和 https://tails.boum.org/install/mac/index.fr.html#install
+> - Linux: https://tails.net/install/linux/index.fr.html#install
+> - macOS: https://tails.net/install/mac/index.fr.html#etcher 和 https://tails.net/install/mac/index.fr.html#install
 
 在整个指南中，将 Tails 安装到您的 USB 键上是最困难的步骤，尤其是如果您以前从未这样做过。最重要的一点是为您的操作系统选择官方部分中的正确程序：Linux 或 macOS。
 
@@ -90,7 +90,7 @@ Tails从不写入硬盘，只使用计算机的RAM来运行。当Tails关闭时�
 
 ![image](assets/4.webp)
 
-> 🔗 官方 Tails 部分：https://tails.boum.org/install/linux/index.en.html#restart
+> 🔗 官方 Tails 部分：https://tails.net/install/linux/index.en.html#restart
 > 现在是时候使用您的新 USB 闪存盘启动您的一台计算机了。将其插入其一个 USB 端口并重启！
 
 > 💡 大多数计算机不会自动从 Tails USB 闪存盘启动，但您可以按下启动菜单键以显示可能从中启动的设备列表。
@@ -123,7 +123,7 @@ Tails从不写入硬盘，只使用计算机的RAM来运行。当Tails关闭时�
 
 ![image](assets/6.webp)
 
-> 🔗 官方 Tails 部分：https://tails.boum.org/install/linux/index.en.html#tails
+> 🔗 官方 Tails 部分：https://tails.net/install/linux/index.en.html#tails
 
 在引导加载器和加载屏幕之后一两分钟，欢迎屏幕出现。
 

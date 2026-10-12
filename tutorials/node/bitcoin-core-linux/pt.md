@@ -217,7 +217,7 @@ Para ver os logs do seu nó Bitcoin especificamente relacionados com a sua inter
 
 
 - [Página Wiki que explica o Tor e a sua relação com o Bitcoin](https://en.Bitcoin.it/wiki/Tor)
-- [Gerador de ficheiros de configuração Bitcoin core por Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [Gerador de ficheiros de configuração Bitcoin core por Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/)
 - [Guia de configuração do Tor por Jon Atack](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 

@@ -20,7 +20,7 @@ Niba wipfuza gusubirana amahera kuri Liana Wallet iriho, soma ikiganiro kiri aha
 ## Kuzana porogaramu ya Liana
 
 
-Liana ni porogarama yuguruye yagenewe kurema no gucunga amasakoshi ateye imbere, cane cane nk’igice c’uburyo bwo kuragwa bwikoresha canke uburyo bukomeye bwo gucungera. Uwo mugambi wateguwe kuva mu mwaka w’2022 n’ishirahamwe ryitwa Wizardsardine, ryashinzwe na Kévin Loaec na Antoine Poinsot. Ku rubuga rwemewe, Liana yerekanwa nk'"Wallet yoroshe yo kwivura, ifise ubushobozi bwo gukira no kuragwa". Iyi porogaramu ikoreshwa kuri mudasobwa -- Linux, MacOS, Windows -- kandi kode yayo (ifunguye) iraboneka [kuri GitHub].
+Liana ni porogarama yuguruye yagenewe kurema no gucunga amasakoshi ateye imbere, cane cane nk’igice c’uburyo bwo kuragwa bwikoresha canke uburyo bukomeye bwo gucungera. Uwo mugambi wateguwe kuva mu mwaka w’2022 n’ishirahamwe ryitwa Wizardsardine, ryashinzwe na Kévin Loaec na Antoine Poinsot. Ku rubuga rwemewe, Liana yerekanwa nk'"Wallet yoroshe yo kwivura, ifise ubushobozi bwo gukira no kuragwa". Iyi porogaramu ikoreshwa kuri mudasobwa -- Linux, MacOS, Windows -- kandi kode yayo (ifunguye) iraboneka [kuri GitHub](https://github.com/wizardsardine/liana).
 
 
 Liana yubakiye ku bushobozi bwa Bitcoin kugira ngo ireme Wallet iteye imbere. Cane cane, rikoresha uburyo bwo gufunga igihe (*timelocks*), butuma amahera akoreshwa rimwe gusa igihe kanaka kirangiye, kandi bufise uruhara mu kugarura amafaranga y’ama Bitcoins. Liana Wallet rero igizwe n’inzira nyinshi zo gukoresha amahera:
@@ -43,7 +43,7 @@ Iyi nzira ishobora kugufasha gushinga imiterere itandukanye, harimwo :
 
 
 
-- Itegeko ry’ugukurikirana (canke ry’iragi), rituma abazungu bashobora gusubirana amahera iyo uwuriko arakoresha apfuye. Kugira ngo umenye vyinshi kuri iyo nkuru, turagusavye gusoma [igice ca 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac08026-
+- Itegeko ry’ugukurikirana (canke ry’iragi), rituma abazungu bashobora gusubirana amahera iyo uwuriko arakoresha apfuye. Kugira ngo umenye vyinshi kuri iyo nkuru, turagusavye gusoma [igice ca 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038
 - Igikoresho co gusubiza inyuma gikomeye gifise igihe co gusubirana, giha uwugikoresha ubushobozi bwo gukoresha Wallet yiwe ataco ategerezwa kubika ijambo ry’ibanga rihuye n’iryo jambo kandi akagira ingorane yo kwibwa, mu gihe c’ubusuma nk’akarorero.
 - Urusenga rw'umutekano ku bantu batangura na Bitcoin: bazocungera Wallet yabo, kandi "uwubacungera" (incuti yabo, nk'akarorero) azoba afise uburenganzira bwo gusubirana amahera yabo inyuma y'igihe kinaka.
 - Itegeko ry’imikono myinshi (*Multisig*) rifise ibisabwa bigabanywa uko igihe kigenda kirarenga, kugira ngo umuntu ashobore guhangana n’ukubura kw’umwe canke benshi mu bari muri iyo nama, nk’abafatanyabikorwa b’ishirahamwe.
@@ -86,7 +86,7 @@ https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 ## Gushiramwo no gutunganya
 
 
-Sura urubuga rwemewe rwa Wizardsardine maze ushiremwo Liana kuri https://wizardsardine.com/Liana/. Ushobora kandi gukuraho verisiyo nshasha [mu bubiko bwa GitHub](https://github.com/wizardsardine/Liana/releases), aho ushobora kugenzura ukuri kw’iyo porogarama. Verisiyo ikoreshwa muri iyi nyigisho ni 0.9.
+Sura urubuga rwemewe rwa Wizardsardine maze ushiremwo Liana kuri https://wizardsardine.com/liana/. Ushobora kandi gukuraho verisiyo nshasha [mu bubiko bwa GitHub](https://github.com/wizardsardine/Liana/releases), aho ushobora kugenzura ukuri kw’iyo porogarama. Verisiyo ikoreshwa muri iyi nyigisho ni 0.9.
 
 
 ![Télécharger Liana](assets/fr/02.webp)
@@ -366,7 +366,7 @@ Iyo yemejwe, Coin yawe iratekanye! Ushobora kuruhuka gushika kw’itariki y’ih
 Igihe usubirana amahera muri Liana Wallet, woshobora guhura na kimwe muri ivyo bintu bibiri. Ushobora kuronka uburenganzira bwo gukoresha mudasobwa iyo porogarama ishizweko, muri ivyo ivyo ubwirizwa gukora vyose ni ukuyifungura (ivyo bizoshika mu gihe c’umuderi w’ububiko bwa enhanced). Ariko rero, ushobora kuba udashobora gukoresha iyi mudasobwa, rero tuzotangura kuva ku ntango hano. Zirikana ko uburyo bwo gukira ari bumwe muri ivyo bihe vyose bibiri.
 
 
-Kugira ngo utangure, fungura Liana kuri [urubuga rwemewe rwa Wizardsardine](https://wizardsardine.com/Liana/), canke kuri [ububiko bwa GitHub](https://github.com/wizardsardine/Liana/releases), aho ushobora kumenya ukuri kw'iyo porogarama. Shiraho iyo porogarama maze uyikoreshe. Verisiyo yakoreshejwe muri twebwe ni 0.9, rero amashusho yoshobora kuba yarahindutse. Ku rubuga rw'akabazo, hitamwo "Ongerako Liana Wallet iriho".
+Kugira ngo utangure, fungura Liana kuri [urubuga rwemewe rwa Wizardsardine](https://wizardsardine.com/liana/), canke kuri [ububiko bwa GitHub](https://github.com/wizardsardine/Liana/releases), aho ushobora kumenya ukuri kw'iyo porogarama. Shiraho iyo porogarama maze uyikoreshe. Verisiyo yakoreshejwe muri twebwe ni 0.9, rero amashusho yoshobora kuba yarahindutse. Ku rubuga rw'akabazo, hitamwo "Ongerako Liana Wallet iriho".
 
 
 ![Ajouter portefeuille existant](assets/fr/34.webp)

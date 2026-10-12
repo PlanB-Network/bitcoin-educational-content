@@ -33,7 +33,7 @@ Watchtower จะสามารถระบุได้อย่างไรว
 
 
 
-*บทแนะนำนี้นำมาจาก [เอกสารทางการของ LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md) อาจมีการเปลี่ยนแปลงบางอย่างจากเวอร์ชันต้นฉบับ
+*บทแนะนำนี้นำมาจาก [เอกสารทางการของ LND](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md) อาจมีการเปลี่ยนแปลงบางอย่างจากเวอร์ชันต้นฉบับ
 
 
 
@@ -519,13 +519,7 @@ ERROR [teosd] Not enough blocks to start the tower (required: 100). Mine at leas
 
 
 
-มีหอคอยเฝ้าระวังหลายแห่งที่สามารถเข้าถึงได้ทางออนไลน์ ตัวอย่างเช่น, [LN+ และ Voltage เสนอ Watchtower ที่มีความเอื้อเฟื้อ](https://lightningnetwork.plus/Watchtower) ที่คุณสามารถเชื่อมต่อได้:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+มีหอคอยเฝ้าระวังหลายแห่งที่สามารถเข้าถึงได้ทางออนไลน์ LN+ และ Voltage เคยให้บริการ Watchtower แบบไม่คิดค่าใช้จ่าย แต่ปัจจุบันไม่มีให้บริการแล้ว (ตุลาคม 2026) ตอนนี้ LN+ ให้บริการ [Watch Swaps](https://lightningnetwork.plus/watch_swaps) ซึ่งผู้ดูแลโหนดสองรายจะเฝ้าดูช่องทางของกันและกัน และเผยแพร่[คู่มือเกี่ยวกับ Watchtower แบบไม่คิดค่าใช้จ่าย](https://lightningnetwork.plus/posts/12)
 
 
 

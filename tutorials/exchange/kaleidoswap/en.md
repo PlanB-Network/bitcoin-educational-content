@@ -192,7 +192,7 @@ For developers building on top of KaleidoSwap, the application exposes an API th
 - **Swap API**: For programmatic trading and market making.
 - **WebSocket**: For real-time market data subscriptions.
 
-Refer to the [API Documentation](https://docs.kaleidoswap.com/api/introduction) for full endpoints and specifications.
+Refer to the [API Documentation](https://docs.kaleidoswap.com/api-reference/introduction) for full endpoints and specifications.
 
 ## Conclusion
 

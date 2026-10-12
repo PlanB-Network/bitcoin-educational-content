@@ -39,7 +39,7 @@ Kui teie Jade ilmub Greenis, uuendage Jade'i, klõpsates Kontrolli uuendusi ja v
 
 Pärast Jade'i püsivara uuendamist valige Setup Jade võrgus ja turvapoliitika, mida soovite kasutada.
 
-> Nipp: Turvapoliitika on loetletud tüübi all sisselogimisekraanil allpool. Kui te pole kindel, kas valida Singlesig või Multisig Shield, palun vaadake meie juhendit siin. (https://help.blockstream.com/hc/en-us/articles/4403642609433)
+> Nipp: Turvapoliitika on loetletud tüübi all sisselogimisekraanil allpool. Kui te pole kindel, kas valida Singlesig või Multisig Shield, palun vaadake meie juhendit siin. (https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 ![pilt](assets/3.webp)
 
@@ -188,7 +188,7 @@ Nüüd oled edukalt seadistanud oma rahakoti ja saad alustada oma bitcoinide vas
 
 ![image](assets/22.webp)
 
-allikas: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+allikas: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 ### green app
 Kui olete rohkem mobiilse juhendi kasutaja, saate seda kasutada koos Blockstream Greeniga

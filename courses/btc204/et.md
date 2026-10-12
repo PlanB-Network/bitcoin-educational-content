@@ -1917,7 +1917,7 @@ Selle mudeli puhul teevad "tegijad" oma bitcoinid kättesaadavaks "võtjatele" j
 
 ![BTC204](assets/et/137.webp)
 
-Allikas : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Allikas : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 Tehnilised takistused on siiski endiselt suur takistus. Coinjoini ökosüsteemis, kus konfidentsiaalsust tugevdab osalejate arv, mõjutab igasugune ligipääsetavust vähendav piirang otseselt kättesaadavat likviidsust, mis on kombinatsiooni tõhususe seisukohalt oluline tegur. Bitcoin, mis on juba nišš finantstehingute valdkonnas, näeb coinjoinide kasutamist alamniššina ning JoinMarket esindab sellest veelgi spetsialiseeritumat osa, mis seetõttu piirab selle potentsiaali kasutajate anonüümide suurendamisel.
 

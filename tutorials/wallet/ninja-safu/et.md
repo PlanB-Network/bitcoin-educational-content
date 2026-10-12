@@ -36,7 +36,7 @@ Ninja SAFU lähenemisviis pakub mitmeid eeliseid:
 
 
 
-- **Usaldusväärsus**: [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), kes on seda katsetanud rangetele stressitestidele (äärmuslik kuumus, korrosioon, mehaaniline surve).
+- **Usaldusväärsus**: [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/), kes on seda katsetanud rangetele stressitestidele (äärmuslik kuumus, korrosioon, mehaaniline surve).
 
 
 
@@ -354,13 +354,13 @@ Jameson Loppi sõnul:
 
 
 
-- [Raport](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) Ninja SAFU meetodi kohta
+- [Raport](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) Ninja SAFU meetodi kohta
 
 
 
 
 
-- Võrdlustabel [täielik](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Võrdlustabel [täielik](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 
@@ -429,4 +429,4 @@ https://x.com/econoalchemist/status/1329271981712289797
 https://www.waivio.com/@themarkymark/create-your-own-metal-seed-key-backup
 
 
-https://github.com/minibolt-guide/minibolt/blob/main/bonus/Bitcoin/safu-ninja.md
+https://github.com/minibolt-guide/minibolt/blob/2c4770443e7f01ed9c471d995ef5af254719b51e/bonus/bitcoin/safu-ninja.md

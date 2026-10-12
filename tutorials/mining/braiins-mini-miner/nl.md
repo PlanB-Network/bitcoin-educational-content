@@ -14,7 +14,7 @@ De Mini Miner Braiins BMM 100 is een product gemaakt door Mining pool Braiins. D
 
 
 
-Je kunt ook veel meer belangrijke informatie vinden door de volledige handleiding rechtstreeks op [site van de fabrikant](https://braiins.com/hardware/mini-Miner-bmm-100) te bekijken.
+Je kunt ook veel meer belangrijke informatie vinden door de volledige handleiding rechtstreeks op [site van de fabrikant](https://braiins.com/hardware/mini-miner-bmm-100) te bekijken.
 
 
 

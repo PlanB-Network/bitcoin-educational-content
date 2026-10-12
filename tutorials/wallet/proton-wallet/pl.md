@@ -25,7 +25,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 ## Połączenie z Proton Wallet
 
 
-Wejdź na [stronę internetową Proton Wallet](https://proton.me/Wallet) i kliknij przycisk "*Get Proton Wallet*".
+Wejdź na [stronę internetową Proton Wallet](https://proton.me/wallet) i kliknij przycisk "*Get Proton Wallet*".
 
 
 ![Image](assets/fr/01.webp)
@@ -215,7 +215,7 @@ Pobierz Proton Wallet ze swojego sklepu z aplikacjami:
 
 
 - [W App Store](https://apps.apple.com/us/app/proton-Wallet-secure-btc/id6479609548);
-- [W sklepie Google Play](https://play.google.com/store/apps/details?id=me.proton.Wallet.android).
+- [W sklepie Google Play](https://play.google.com/store/apps/details?id=me.proton.wallet.android).
 
 
 ![Image](assets/fr/26.webp)

@@ -7,6 +7,8 @@ description: Instaliranje vašeg RoninDojo v2 Bitcoin čvora na Raspberry Pi
 
 **UPOZORENJE:** Nakon hapšenja osnivača Samourai novčanika i zaplene njihovih servera 24. aprila, određene funkcije RoninDojo-a, kao što je Whirlpool, više nisu operativne. Međutim, moguće je da bi ovi alati mogli biti ponovo uspostavljeni ili pokrenuti na drugačiji način u narednim nedeljama. Dodatno, pošto je RoninDojo kod bio hostovan na Samourai-evom GitLab-u, koji je takođe zaplenjen, trenutno nije moguće preuzeti kod sa interneta. Timovi RoninDojo-a verovatno rade na ponovnom objavljivanju koda.*
 
+> **Ažuriranje (oktobar 2026):** RoninDojo je u međuvremenu ponovo objavio svoj kod na sopstvenoj platformi ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) i sada je u verziji 3. Ovaj vodič opisuje stariju verziju: neki linkovi i komande više ne rade. Aktuelni postupak potražite u zvaničnoj dokumentaciji: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 
 _Pažljivo pratimo razvoj ovog slučaja kao i razvoj povezanih alata. Budite sigurni da ćemo ažurirati ovaj vodič čim nove informacije budu dostupne._
 
@@ -37,7 +39,9 @@ https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-
 Dojo je u početku potpuna implementacija Bitcoin čvora, zasnovana na Bitcoin Core-u, i razvijena od strane Samourai Wallet timova. Ovo rešenje može biti instalirano na bilo koju opremu. Za razliku od drugih Core implementacija, Dojo je specifično optimizovan za integraciju sa Android aplikacionim okruženjem Samourai novčanik. Što se tiče RoninDojo, to je alat dizajniran da olakša instalaciju i upravljanje Dojo-om, kao i raznim drugim komplementarnim alatima. Ukratko, RoninDojo obogaćuje osnovnu implementaciju Dojo-a integracijom mnoštva dodatnih alata, dok pojednostavljuje njegovu instalaciju i upravljanje.
 
 
-Ronin takođe nudi [rešenje "node-in-box", pod nazivom "*Tanto*"](https://ronindojo.io/en/products), uređaj sa već instaliranim RoninDojo sistemom koji je sastavila njihova ekipa. Tanto je plaćena opcija, koja može biti zanimljiva za one koji žele da izbegnu tehničke komplikacije. Ali pošto je izvorni kod RoninDojo-a otvoren, moguće ga je instalirati i na sopstvenom hardveru. Ova alternativa, ekonomičnija, ipak zahteva dodatne manipulacije, koje ćemo pokriti u ovom vodiču.
+Ronin takođe nudi [rešenje "node-in-box", pod nazivom "*Tanto*"](https://docs.ronindojo.io/hardware/tanto/), uređaj sa već instaliranim RoninDojo sistemom koji je sastavila njihova ekipa. Tanto je plaćena opcija, koja može biti zanimljiva za one koji žele da izbegnu tehničke komplikacije. Ali pošto je izvorni kod RoninDojo-a otvoren, moguće ga je instalirati i na sopstvenom hardveru. Ova alternativa, ekonomičnija, ipak zahteva dodatne manipulacije, koje ćemo pokriti u ovom vodiču.
+
+> **Napomena (oktobar 2026):** Izgleda da RoninDojo više ne prodaje Tanto, a njegova onlajn prodavnica nije dostupna. Pogledajte listu kompatibilnog hardvera: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
 
 RoninDojo je Dojo, tako da omogućava laku integraciju Whirlpool CLI u vaš Bitcoin čvor kako bi se obezbedilo najbolje moguće CoinJoin iskustvo. Sa Whirlpool CLI, postaje moguće kontinuirano mešati vaše bitkoine, 24 sata dnevno, 7 dana u nedelji, bez potrebe da vaš lični računar ostane uključen.
 
@@ -56,7 +60,9 @@ Sada kada smo predstavili RoninDojo, hajde da zajedno vidimo kako da postavimo o
 
 ## Koji hardver odabrati za instalaciju RoninDojo v2?
 
-RoninDojo nudi sliku za automatsku instalaciju svog softvera na [RockPro64](https://ronindojo.io/en/download). Međutim, naš vodič se fokusira na ručnu proceduru instalacije na Raspberry Pi 4. Iako je Raspberry Pi 5 nedavno lansiran, i ovaj vodič bi teoretski trebao biti kompatibilan sa ovim novim modelom, još uvek nisam imao priliku da ga lično testiram, niti sam pronašao povratne informacije iz zajednice. Čim nabavim Pi 5 i kompatibilne komponente, ažuriraću ovaj vodič kako bih vas obavestio. U međuvremenu, preporučujem da se prioritet da Pi 4, jer savršeno radi za moj čvor.
+RoninDojo nudi sliku za automatsku instalaciju svog softvera na [RockPro64](https://ronindojo.io/downloads). Međutim, naš vodič se fokusira na ručnu proceduru instalacije na Raspberry Pi 4. Iako je Raspberry Pi 5 nedavno lansiran, i ovaj vodič bi teoretski trebao biti kompatibilan sa ovim novim modelom, još uvek nisam imao priliku da ga lično testiram, niti sam pronašao povratne informacije iz zajednice. Čim nabavim Pi 5 i kompatibilne komponente, ažuriraću ovaj vodič kako bih vas obavestio. U međuvremenu, preporučujem da se prioritet da Pi 4, jer savršeno radi za moj čvor.
+
+> **Napomena (oktobar 2026):** RoninDojo sada nudi zvanične RoninOS slike i za Rock5B+, Raspberry Pi 5 i x86 računare.
 
 Što se mene tiče, pokrećem RoninDojo na Raspberry Pi opremljenim sa 8 GB RAM-a. Iako su neki članovi zajednice uspeli da ga pokrenu na uređajima sa samo 4 GB RAM-a, nisam lično testirao ovu konfiguraciju. S obzirom na malu razliku u ceni, čini se mudrim odlučiti se za verziju sa 8 GB RAM-a. Ovo bi takođe moglo biti korisno ako planirate da svoj Raspberry Pi iskoristite za druge svrhe u budućnosti.
 
@@ -290,6 +296,8 @@ Kada se ažuriranja završe, nastavite sa instalacijom *Git* i *Dialog* koriste�
 `sudo apt install git dialog -y`
 
 
+> **Napomena (oktobar 2026):** Komanda ispod više ne radi: Samourai GitLab (code.samourai.io) zaplenjen je 24. aprila 2024. RoninDojo sada čuva svoj kod ovde: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Aktuelni postupak instalacije potražite na [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
+
 Zatim, klonirajte granu `master` Git repozitorijuma _RoninOS_ izvršavanjem:
 
 `sudo git clone --branch master https://code.samourai.io/ronindojo/RoninOS.git /opt/RoninOS`
@@ -478,7 +486,9 @@ Da biste povezali svoj Samourai novčanik sa svojim Dojo-om, jednostavno skenira
 ![Samourai Wallet connection](assets/notext/36.webp)
 
 
-Ako ste već imali Samourai novčanik pre nego što ste postavili svoj Ronin Dojo, potrebno je da napravite rezervnu kopiju svog novčanika, deinstalirate i zatim ponovo instalirate Samourai novčanik aplikaciju, pre nego što obnovite svoj novčanik. Kada pokrenete ponovo instaliranu aplikaciju, imaćete opciju da se povežete sa novim Dojo-om. **Budite oprezni, ovaj proces nosi rizik od gubitka vaših bitcoina ako nije pravilno izvršen!** Uverite se da imate rezervnu kopiju svog Samourai novčanika u svojim fajlovima i proverite validnost svog passphrase-a putem `Settings > Troubleshoot > passphrase`. Takođe je važno da imate čitljivu rezervnu kopiju svoje fraze za oporavak i svog passphrase. Za više preciznosti u ovoj operaciji, preporučuje se da pratite ovaj detaljni vodič: [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+Ako ste već imali Samourai novčanik pre nego što ste postavili svoj Ronin Dojo, potrebno je da napravite rezervnu kopiju svog novčanika, deinstalirate i zatim ponovo instalirate Samourai novčanik aplikaciju, pre nego što obnovite svoj novčanik. Kada pokrenete ponovo instaliranu aplikaciju, imaćete opciju da se povežete sa novim Dojo-om. **Budite oprezni, ovaj proces nosi rizik od gubitka vaših bitcoina ako nije pravilno izvršen!** Uverite se da imate rezervnu kopiju svog Samourai novčanika u svojim fajlovima i proverite validnost svog passphrase-a putem `Settings > Troubleshoot > passphrase`. Takođe je važno da imate čitljivu rezervnu kopiju svoje fraze za oporavak i svog passphrase. Za više preciznosti u ovoj operaciji, preporučuje se da pratite ovaj detaljni vodič: [https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+
+> **Upozorenje (oktobar 2026):** Samourai Wallet više ne postoji: njegovi serveri su zaplenjeni, a osnivači uhapšeni 24. aprila 2024. Link iznad vodi na arhiviranu kopiju vodiča. RoninDojo sada dokumentuje Ashigaru, fork Samourai Wallet-a: [docs.ronindojo.io/guides-wallet/ashigaru](https://docs.ronindojo.io/guides-wallet/ashigaru/)
 
 
 ### Korišćenje sopstvenog Mempool.space blok-istraživača
@@ -823,7 +833,7 @@ Kartica `Push Tx` je još jedna zanimljiva funkcija RoninUI, koja omogućava emi
 - `Settings`: Omogućava vam da promenite korisničku lozinku.
 
 
-Eto! Hvala što ste pratili ovaj vodič do kraja. Ako vam se dopao, ohrabrujem vas da ga podelite na društvenim mrežama. Štaviše, ako imate priliku, razmislite o podršci programerima koji omogućavaju da ovaj besplatni i open-source softver bude dostupan našoj zajednici donacijom: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Da biste produbili svoje znanje o RoninDojo i otkrili više resursa, toplo preporučujem da konsultujete linkove ka spoljnim resursima pomenutim u nastavku.
+Eto! Hvala što ste pratili ovaj vodič do kraja. Ako vam se dopao, ohrabrujem vas da ga podelite na društvenim mrežama. Štaviše, ako imate priliku, razmislite o podršci programerima koji omogućavaju da ovaj besplatni i open-source softver bude dostupan našoj zajednici donacijom: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). Da biste produbili svoje znanje o RoninDojo i otkrili više resursa, toplo preporučujem da konsultujete linkove ka spoljnim resursima pomenutim u nastavku.
 
 
 **Spoljni resursi:**
@@ -833,5 +843,5 @@ Eto! Hvala što ste pratili ovaj vodič do kraja. Ako vam se dopao, ohrabrujem v
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)
 

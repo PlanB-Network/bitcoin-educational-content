@@ -8,7 +8,7 @@ description: Itegeko ry’ubudandaji ry’abagenzi ku bashasha bakoresha bitcoin
 ## Imenyekanisha
 
 
-Iryo tegeko ry’ubudandaji rya [Bisq Easy] (Bisq Easy] (Bisq 2] (Bisq 2] (Bisq 2] (Bisq Easy] (Bisq v1] (Bisq v1] (Bisq v1). Bisq 2 izoshigikira amategeko menshi y’ubudandaji, imihora y’ubuzima bwite, n’akaranga. Bituma umuntu ashobora kugura Bitcoin ata mahera y’ubudandaji afise kandi ata n’amahera y’umutekano asabwa. Igenewe abaguzi bashasha ba Bitcoin barondera uburyo butagiramwo KYC bipfuza gukoreshwa neza n’abagurisha bazi utuntu n’utundi kandi bafise ubumenyi bamenyereye urubuga rwa Bisq.
+Iryo tegeko ry’ubudandaji rya [Bisq Easy](https://bisq.network/bisq-easy/) (Bisq Easy] (Bisq 2] (Bisq 2] (Bisq 2] (Bisq Easy] (Bisq v1] (Bisq v1] (Bisq v1). Bisq 2 izoshigikira amategeko menshi y’ubudandaji, imihora y’ubuzima bwite, n’akaranga. Bituma umuntu ashobora kugura Bitcoin ata mahera y’ubudandaji afise kandi ata n’amahera y’umutekano asabwa. Igenewe abaguzi bashasha ba Bitcoin barondera uburyo butagiramwo KYC bipfuza gukoreshwa neza n’abagurisha bazi utuntu n’utundi kandi bafise ubumenyi bamenyereye urubuga rwa Bisq.
 
 
 Ubu, Bisq Easy ni yo nzira yonyene y'ubudandaji ya Bisq 2. Hariho n’ibindi bitegekanijwe mu gihe kizoza. Menya vyinshi ku vyerekeye Bisq 2 muri iyi nyigisho:
@@ -16,13 +16,13 @@ Ubu, Bisq Easy ni yo nzira yonyene y'ubudandaji ya Bisq 2. Hariho n’ibindi bit
 
 https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-Iyi nkuru ngufi ni iyo kwuzuza inyigisho iri hejuru ku bijanye no kugura Bitcoin ukoresheje porogarama ya [Bisq Easy Mobile] n’umuravyo.
+Iyi nkuru ngufi ni iyo kwuzuza inyigisho iri hejuru ku bijanye no kugura Bitcoin ukoresheje porogarama ya [Bisq Easy Mobile](https://github.com/bisq-network/bisq-mobile) n’umuravyo.
 
 
 ## 1️⃣ Gutangura
 
 
-Kugira ngo utangure, fungura Bisq Easy Mobile kuri [urupapuro rwo gukuraho](https://bisq.urubuga/ivyo gukuraho/). Ni vyiza ko ugenzura ivyo waronse. Amabwirizwa yo kugenzura araboneka kandi kuri [paji yo gukuraho](https://bisq.network/ugukuraho/). Inyuma yo gushiramwo, ukeneye kwemera `Amasezerano y'Ukoresha`. Inyuma, rema urutonde rwa bose rugizwe n'izina ry'ibanga` n'ishusho (igereranywa n'ikimenyetso ca bot`). Na Bisq Easy, urashobora kandi gukora imirongo y'abakoresha benshi mu mukiriya umwe. Inyuma y'ugutangura gatoyi, uzoshika ku `Igishushanyo c'Ingoro`. Iyo porogarama irashira ahabona ibintu vy’inyigisho ata guca ku ruhande kuri paji nyamukuru. Kanda kuri `Igitabu c'ubudandaji gifungura` kugira ngo umenye amakuru mashasha.
+Kugira ngo utangure, fungura Bisq Easy Mobile kuri [urupapuro rwo gukuraho](https://bisq.network/downloads/). Ni vyiza ko ugenzura ivyo waronse. Amabwirizwa yo kugenzura araboneka kandi kuri [paji yo gukuraho](https://bisq.network/downloads/). Inyuma yo gushiramwo, ukeneye kwemera `Amasezerano y'Ukoresha`. Inyuma, rema urutonde rwa bose rugizwe n'izina ry'ibanga` n'ishusho (igereranywa n'ikimenyetso ca bot`). Na Bisq Easy, urashobora kandi gukora imirongo y'abakoresha benshi mu mukiriya umwe. Inyuma y'ugutangura gatoyi, uzoshika ku `Igishushanyo c'Ingoro`. Iyo porogarama irashira ahabona ibintu vy’inyigisho ata guca ku ruhande kuri paji nyamukuru. Kanda kuri `Igitabu c'ubudandaji gifungura` kugira ngo umenye amakuru mashasha.
 
 
 ![image](assets/en/01.webp)
@@ -67,7 +67,7 @@ Kuva ku `Home screen`, hari uburyo bubiri bwo kuja ku vyo utanga. Kanda ku `Guto
 ![image](assets/en/03.webp)
 
 
-Udakunze [Bisq 1](https://planb.academy/ru/inyigisho/uguhanahana/urunganwe-ku-bagenzi/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04), isaba umutekano, Bisq Easy yizigira cane ku bijanye n’ugusubiramwo. Naho iyo nzira ituma abaguzi bashobora kugura Bitcoin ku ncuro ya mbere ata n’umwe abayifise, ishira icizigiro kinini ku bushobozi bw’uwugurisha bwo gutanga Bitcoin amaze kwakira amahera y’amahera. Rero, uburyo bw’umutekano bworoshe bwa Bisq buratunganijwe gusa ku mahera make y’ubudandaji kandi ubudandaji bugarukira ku madolari 600 y’Amerika angana n’ugucuruza kugira ngo bigabanye ingorane. Mu gice ca `Igitabo c'Ishikanwa`, hitamwo amayunguruzo y'uburyo bwo kwishura n'uguheba mu Muravyo canke Bitcoin (on-chain).
+Udakunze [Bisq 1](https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04), isaba umutekano, Bisq Easy yizigira cane ku bijanye n’ugusubiramwo. Naho iyo nzira ituma abaguzi bashobora kugura Bitcoin ku ncuro ya mbere ata n’umwe abayifise, ishira icizigiro kinini ku bushobozi bw’uwugurisha bwo gutanga Bitcoin amaze kwakira amahera y’amahera. Rero, uburyo bw’umutekano bworoshe bwa Bisq buratunganijwe gusa ku mahera make y’ubudandaji kandi ubudandaji bugarukira ku madolari 600 y’Amerika angana n’ugucuruza kugira ngo bigabanye ingorane. Mu gice ca `Igitabo c'Ishikanwa`, hitamwo amayunguruzo y'uburyo bwo kwishura n'uguheba mu Muravyo canke Bitcoin (on-chain).
 
 
 ![image](assets/en/04.webp)
@@ -169,4 +169,4 @@ Bisq Easy ishoboza kugura Bitcoin ata n’ingwati, igatorera umuti ingorane ya k
 ## 📚 Bisq Ibikoresho vyoroshe vyo kuri telefone ngendanwa
 
 
-[Github](urubuga rwa bisq/telefone ngendanwa) | [Urubuga ](urubuga rwa bisq/bisq-rworoshe/)| [Wiki](Bisq_Byoroshe)
+[Github](https://github.com/bisq-network/bisq-mobile) | [Urubuga ](https://bisq.network/bisq-easy/)| [Wiki](https://bisq.wiki/Bisq_Easy)

@@ -113,7 +113,7 @@ Ikindi kintu gishimishije cane co gukoresha Seedkeeper ni ubushobozi bwo gushigi
 
 
 
-Hari uburyo bubiri nyamukuru bwo kuronka Umucungezi wawe w’Imbuto. Ushobora [kuyigura ataco uhinduye mu iduka ryemewe rya Satochip](https://satochip.io/igicuruzwa/umucungezi w’imbuto/) canke ku mucuruzi yemerewe. Ariko kuko [applet ya Seedkeeper ari inkomoko yuguruye](https://github.com/Toporin/Seedkeeper-Applet), urafise kandi uburenganzira bwo kuyishira wewe nyene ku [ikarita y’ubwenge idafise ikintu]
+Hari uburyo bubiri nyamukuru bwo kuronka Umucungezi wawe w’Imbuto. Ushobora [kuyigura ataco uhinduye mu iduka ryemewe rya Satochip](https://satochip.io/product/seedkeeper/) canke ku mucuruzi yemerewe. Ariko kuko [applet ya Seedkeeper ari inkomoko yuguruye](https://github.com/Toporin/Seedkeeper-Applet), urafise kandi uburenganzira bwo kuyishira wewe nyene ku [ikarita y’ubwenge idafise ikintu](https://satochip.io/product/blank-javacard-for-diy-project/)
 
 
 
@@ -125,7 +125,7 @@ Niba wipfuza gukoresha ubuhinga bwo gucungera amakuru bwa Seedkeeper, biragaraga
 
 
 
-Muri iyi nyigisho, tuzosubiramwo igitabu cacu ca seed ku Mucungezi wacu w'Imbuto. Intambwe ya mbere ni ugushira iyo porogarama kuri mudasobwa yawe canke kuri telefone yawe. Kuri PC, uzokenera [gukuraho verisiyo nshasha ya Satochip-Utils](ibisohoka). Ku mbuga ngurukanabumenyi, porogarama ya Seedkeeper iraboneka ku [Iduka rya Google Play](Iduka ry’Imbuto) be no kuri [Iduka ry’Imbuto rya Apple](Iduka ry’Imbuto ry’Imbuto).
+Muri iyi nyigisho, tuzosubiramwo igitabu cacu ca seed ku Mucungezi wacu w'Imbuto. Intambwe ya mbere ni ugushira iyo porogarama kuri mudasobwa yawe canke kuri telefone yawe. Kuri PC, uzokenera [gukuraho verisiyo nshasha ya Satochip-Utils](https://github.com/Toporin/Satochip-Utils/releases). Ku mbuga ngurukanabumenyi, porogarama ya Seedkeeper iraboneka ku [Iduka rya Google Play](https://play.google.com/store/apps/details?id=org.satochip.seedkeeper) be no kuri [Iduka ry’Imbuto rya Apple](https://apps.apple.com/be/app/seedkeeper/id6502836060).
 
 
 

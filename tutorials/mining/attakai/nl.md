@@ -474,7 +474,7 @@ In het tabblad Status van de Miner kun je verschillende informatie over de live 
 Nu bestuderen we de software voor ASIC's Braiins OS+ (https://braiins.com/os/plus). De software is ontwikkeld door het bedrijf [Braiins](https://braiins.com/), dat het moederbedrijf is van de Mining pool Braiins Pool (https://braiins.com/pool). Deze Mining pool heeft op het moment van schrijven 4,39% van de wereldwijde Hashrate in handen. Het in Praag gevestigde bedrijf stond vroeger bekend als Slushpool en is de eerste Mining pool die in november 2010 van start ging. [Hier](https://Mempool.space/Mining/pool/braiinspool) vind je bijgewerkte Hashrate en pool dominantie statistieken.
 
 
-Vandaag de dag biedt het bedrijf, met zijn verschillende activiteiten, rentabiliteitsstudietools voor Mining (https://insights.braiins.com/en), oplossingen voor het beheer van Mining boerderijen, parallel aan zijn poolactiviteiten, en zijn optimalisatiesoftware voor ASIC's. Het biedt ook Mining volgens het nieuwe Stratum V2 protocol (https://braiins.com/Bitcoin-Mining-stack-upgrade).
+Vandaag de dag biedt het bedrijf, met zijn verschillende activiteiten, rentabiliteitsstudietools voor Mining (https://insights.braiins.com/en), oplossingen voor het beheer van Mining boerderijen, parallel aan zijn poolactiviteiten, en zijn optimalisatiesoftware voor ASIC's. Het biedt ook Mining volgens het nieuwe Stratum V2 protocol (https://braiins.com/bitcoin-mining-stack-upgrade).
 
 
 Daarom zullen we de werking van Bitmain-apparaten, momenteel de enige compatibele modellen, nader bestuderen:

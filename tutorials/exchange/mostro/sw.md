@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - Kitufe cha kibinafsi cha Nostr** (umbizo `nsec1...`)
- - Unda ufunguo maalum wa biashara kwenye [nostrkeygen.com](https://nostrkeygen.com/)
+ - Unda ufunguo maalum wa biashara kwenye [nostrkeygen.com](https://nostrtool.com/)
  - Muhimu**: Kamwe usitumie kitufe chako kikuu cha kibinafsi cha Nostr
  - Weka ufunguo wako wa faragha mahali salama (kidhibiti cha nenosiri)
 
@@ -962,7 +962,7 @@ Kwa bitcoiners ambao wanapendelea uhuru na usiri, Mostro ni chaguo linalofaa lin
 
 
 - [Hazina kuu ya GitHub](https://github.com/MostroP2P/mostro)
-- [Mteja wa wavuti](https://github.com/MostroP2P/mostro-web)
+- [Mteja wa wavuti](https://github.com/MostroP2P/app)
 - [Mteja CLI](https://github.com/MostroP2P/mostro-cli)
 
 

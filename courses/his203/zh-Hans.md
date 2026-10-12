@@ -523,7 +523,7 @@ Gawker 的文章也引起了当局的注意。6 月 5 日，在文章发表几�
 2011 年 3 月 1 日，就在转账即将正式完成时，由于网站的 wallet.dat 文件被恶意访问，8 万枚比特币[蒸发](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114)得无影无踪。3 日，Jed McCaleb 注意到比特币被提走，并在 IRC 上[通知](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) 马克 "出大事了"。这是一次重大损失（当时一枚比特币的售价为 0.92 美元），在接下来的几个月里，随着比特币价格的空前上涨，损失会越来越大。
 
 
-4 月 18 日，杰德在给马克的电子邮件中[提到](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox)了这个问题，他写道：
+4 月 18 日，杰德在给马克的电子邮件中[提到](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox)了这个问题，他写道：
 
 
 > "我不知道如果价格涨到 100 美元或更高，缺少 8 万套 BTC 会是多大的问题。到那个时候，欠下的钱就不少了，但 mtgox 应该已经赚了一大笔 BTC（Bitcoin）了。此外，BTC（Bitcoin）的余额可能永远不会低于 8 万。所以也许你真的不需要担心这个问题"。
@@ -608,7 +608,7 @@ Mt.Gox的成功激发了美国和其他地方的模仿者。随着价格和需�
 
 
 
-在东欧，波兰的 Bitomat 平台于 4 月 4 日[推出](https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871)。该平台界面简陋，但允许波兰用户用波兰兹罗提兑换比特币。值得一提的还有 Cavirtex，它于 7 月 2 日[开通](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448)，在加拿大运营。
+在东欧，波兰的 Bitomat 平台于 4 月 4 日[推出](https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166)。该平台界面简陋，但允许波兰用户用波兰兹罗提兑换比特币。值得一提的还有 Cavirtex，它于 7 月 2 日[开通](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448)，在加拿大运营。
 
 
 
@@ -1230,7 +1230,7 @@ Bitcoinica 于 2011 年 9 月 8 日[推出](https://bitcointalk.org/index.php?to
 
 
 
-2011 年，Bitcoin 无需授权，这促使社区成员开始设想其用途，而不仅仅是简单的货币交换和投机。他们希望通过为生态系统中的公司提供一种发行股票和债券的方式来实现投资自由化。其目的是通过[利用](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/)Bitcoin 的创新性和法律上的模糊性，规避美国证券和 Exchange 委员会（相当于 AMF）的监管。我们的想法是创建一个传统金融体系的替代模式，根据激动主义者的方法，这种模式可能会自我强化。
+2011 年，Bitcoin 无需授权，这促使社区成员开始设想其用途，而不仅仅是简单的货币交换和投机。他们希望通过为生态系统中的公司提供一种发行股票和债券的方式来实现投资自由化。其目的是通过[利用](https://web.archive.org/web/20260609181633/http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/)Bitcoin 的创新性和法律上的模糊性，规避美国证券和 Exchange 委员会（相当于 AMF）的监管。我们的想法是创建一个传统金融体系的替代模式，根据激动主义者的方法，这种模式可能会自我强化。
 
 
 
@@ -1270,7 +1270,7 @@ Bitcoinica 于 2011 年 9 月 8 日[推出](https://bitcointalk.org/index.php?to
 
 
 
-一段时间后出现的另一个此类项目是 MPEx，这是一个名叫 Mircea Popescu 的极具争议的人物的作品。他是罗马尼亚人，原籍特兰西瓦尼亚，在他的博客 [Trilema](http://trilema.com/archives-categories/) 上是一位多产作家：他以故意挑衅的风格撰写各种主题（哲学、政治、性）的文章，最初使用罗马尼亚语。2011 年夏天，他对 Bitcoin 产生了兴趣，并开始在自己的博客[talk](http://trilema.com/2011/ce-este-bitcoin/) 上谈论此事。
+一段时间后出现的另一个此类项目是 MPEx，这是一个名叫 Mircea Popescu 的极具争议的人物的作品。他是罗马尼亚人，原籍特兰西瓦尼亚，在他的博客 [Trilema](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/) 上是一位多产作家：他以故意挑衅的风格撰写各种主题（哲学、政治、性）的文章，最初使用罗马尼亚语。2011 年夏天，他对 Bitcoin 产生了兴趣，并开始在自己的博客[talk](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/) 上谈论此事。
 
 
 
@@ -1286,7 +1286,7 @@ Bitcoinica 于 2011 年 9 月 8 日[推出](https://bitcointalk.org/index.php?to
 
 
 
-2012 年 2 月底，他通过发行股票和债券进行[筹款](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745)，筹集了 3200 多个比特币，约合当时的 1.6 万美元。4 月 11 日，经过测试阶段后，该平台[终于成为](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) 该平台终于成为允许发行和交易各种股票的比特币交易所，并更名为 MPEx（意为 "米尔恰-波佩斯库的 Exchange"）。
+2012 年 2 月底，他通过发行股票和债券进行[筹款](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745)，筹集了 3200 多个比特币，约合当时的 1.6 万美元。4 月 11 日，经过测试阶段后，该平台[终于成为](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) 该平台终于成为允许发行和交易各种股票的比特币交易所，并更名为 MPEx（意为 "米尔恰-波佩斯库的 Exchange"）。
 
 
 
@@ -1298,7 +1298,7 @@ Bitcoinica 于 2011 年 9 月 8 日[推出](https://bitcointalk.org/index.php?to
 
 
 
-该平台后来取得了一定程度的成功，尤其是 Erik Voorhees 经营的在线赌场 SatoshiDICE 的 "首次公开募股"。随着时间的推移，该平台不断发展，[整合](http://trilema.com/2012/futures-on-mpex/) 12 月份的期货合约。
+该平台后来取得了一定程度的成功，尤其是 Erik Voorhees 经营的在线赌场 SatoshiDICE 的 "首次公开募股"。随着时间的推移，该平台不断发展，[整合](https://web.archive.org/web/20260608143158/http://trilema.com/2012/futures-on-mpex/) 12 月份的期货合约。
 
 
 
@@ -1484,7 +1484,7 @@ Bitcoin 协议的重写并未就此停止。2011 年 7 月，在 Satoshi 离开�
 
 
 
-*2006 年的 Gregory Maxwell（资料来源：[维基媒体]()*）：[Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*2006 年的 Gregory Maxwell（资料来源：[维基媒体]()*）：[Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 
@@ -1724,7 +1724,7 @@ Cold 存储可以通过将私人密钥存储在 USB 盘等数字备份介质上�
 
 
 
-*2011年Casascius的第一批比特币（来源：Casascius：[casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*2011年Casascius的第一批比特币（来源：Casascius：[casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -2004,7 +2004,7 @@ mining 池的广泛使用所导致的集中化问题的一种解决方法是去�
 
 
 
-*Sharechain 可视化（来源：Gregory Maxwell for [Bitcoin Wiki]()Gregory Maxwell for [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Sharechain 可视化（来源：Gregory Maxwell for [Bitcoin Wiki]()Gregory Maxwell for [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 
@@ -2106,7 +2106,7 @@ Satoshi Nakamoto 离开后，软件开发工作由社区接管，社区必须在
 
 
 
-*2012 年 2 月 Bitcoin-Qt 0.5.2 的截图（来源：维基媒体 [JimNelin]()[JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) for Wikimedia)*
+*2012 年 2 月 Bitcoin-Qt 0.5.2 的截图（来源：维基媒体 [JimNelin]()[JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) for Wikimedia)*
 
 
 

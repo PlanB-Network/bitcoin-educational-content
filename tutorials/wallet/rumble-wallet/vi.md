@@ -27,7 +27,7 @@ Nhờ hợp tác với MoonPay, bạn cũng có thể mua và bán Bitcoin và c
 ## 2. Làm thế nào để cài đặt Rumble Wallet?
 
 
-Ứng dụng có thể được cài đặt trên cả [Android](https://play.google.com/store/apps/details?id=com.wallet.rumble) và iOS thông qua các cửa hàng chính thức tương ứng.
+Ứng dụng có thể được cài đặt trên cả [Android](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet) và iOS thông qua các cửa hàng chính thức tương ứng.
 
 
 ![Image](assets/fr/01.webp)

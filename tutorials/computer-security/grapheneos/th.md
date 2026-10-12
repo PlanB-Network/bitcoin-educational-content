@@ -162,7 +162,7 @@ _คุณอาจต้องการทำขั้นตอนเพิ่�
 
 
 
-- แอป [Auditor](https://play.google.com/store/apps/details?id=app.attestation.auditor) ใช้คุณสมบัติด้านความปลอดภัยที่ใช้ฮาร์ดแวร์ในการตรวจสอบยืนยันตัวตนของอุปกรณ์พร้อมกับความถูกต้องและความสมบูรณ์ของระบบปฏิบัติการ มันจะตรวจสอบว่าอุปกรณ์กำลังใช้งานระบบปฏิบัติการดั้งเดิมพร้อมกับบูตโหลดเดอร์ที่ถูกล็อกและไม่มีการดัดแปลงระบบปฏิบัติการเกิดขึ้น
+- แอป [Auditor](https://play.google.com/store/apps/details?id=app.attestation.auditor.play) ใช้คุณสมบัติด้านความปลอดภัยที่ใช้ฮาร์ดแวร์ในการตรวจสอบยืนยันตัวตนของอุปกรณ์พร้อมกับความถูกต้องและความสมบูรณ์ของระบบปฏิบัติการ มันจะตรวจสอบว่าอุปกรณ์กำลังใช้งานระบบปฏิบัติการดั้งเดิมพร้อมกับบูตโหลดเดอร์ที่ถูกล็อกและไม่มีการดัดแปลงระบบปฏิบัติการเกิดขึ้น
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) เป็นเว็บเบราว์เซอร์ Chromium ที่ถูกปรับปรุงให้มีความเป็นส่วนตัวและความปลอดภัยสูงขึ้น
 
 
@@ -435,7 +435,7 @@ Spotube
 
 
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) นำเสนอทางออกสำหรับการจัดการรหัสผ่านที่ฟรีและ E2EE ข้ามแพลตฟอร์มสำหรับอุปกรณ์ทั้งหมดของคุณ บริการที่ต้องชำระเงินของพวกเขาช่วยให้คุณสามารถรวมรหัส 2FA เข้ากับแอปได้ ฝั่งเซิร์ฟเวอร์ของ Bitwarden สามารถโฮสต์เองได้และแอป Android สามารถใช้งานได้ผ่าน F-Droid
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo) นำเสนอทางออกสำหรับการจัดการรหัสผ่านที่ฟรีและ E2EE ข้ามแพลตฟอร์มสำหรับอุปกรณ์ทั้งหมดของคุณ บริการที่ต้องชำระเงินของพวกเขาช่วยให้คุณสามารถรวมรหัส 2FA เข้ากับแอปได้ ฝั่งเซิร์ฟเวอร์ของ Bitwarden สามารถโฮสต์เองได้และแอป Android สามารถใช้งานได้ผ่าน F-Droid
 - [Proton Pass](https://proton.me/pass/download) ให้บริการฟรีที่คล้ายกับ Bitwarden แต่ลูกค้า [Proton Unlimited](https://proton.me/pricing) สามารถเข้าถึงฟีเจอร์ขั้นสูงเพิ่มเติมได้ Proton Pass สามารถใช้งานได้ผ่าน APK หรือ Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) เป็นแอปพลิเคชันการยืนยันตัวตนสองปัจจัยสำหรับระบบที่ใช้โปรโตคอลรหัสผ่านครั้งเดียว สามารถเพิ่มโทเค็นได้อย่างง่ายดายโดยการสแกน QR โค้ด FreeOTP มีให้บริการผ่าน F-Droid.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) เป็นแอปฟรี ปลอดภัย และโอเพ่นซอร์สสำหรับ Android เพื่อจัดการโทเค็นการยืนยันแบบ 2 ขั้นตอนสำหรับบริการออนไลน์ของคุณ Aegis สามารถใช้งานได้ผ่านทาง F-Droid.
@@ -602,7 +602,6 @@ GrapheneOS เป็นโพรงกระต่ายที่ใคร ๆ �
 - [คู่มือการใช้งาน GrapheneOS อย่างเป็นทางการ](https://grapheneos.org/usage) - เว็บไซต์ทางการ
 - [GrapheneOS Forum](https://discuss.grapheneos.org/) - เว็บไซต์ทางการ
 - [GrapheneOS Settings Masterclass](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - วิดีโอโดย 'The Privacy Wayfinder'
-- [GrapheneOS General Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - พอดแคสต์โดย 'Watchman Privacy'
 
 
 *บทแนะนำนี้เป็นการดัดแปลงเนื้อหาต้นฉบับที่เผยแพร่โดย [BitcoinQnA บน Bitcoiner.Guide ภายใต้ใบอนุญาต MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) ซึ่งเครดิตทั้งหมดเป็นของผู้เขียนต้นฉบับ*

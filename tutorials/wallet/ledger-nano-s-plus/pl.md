@@ -52,7 +52,7 @@ Moim zdaniem Ledger Nano S Plus jest dobrą opcją do zabezpieczenia Bitcoin Wal
 ## Jak kupić Ledger Nano S Plus?
 
 
-Ledger Nano S Plus jest dostępny w sprzedaży [na oficjalnej stronie internetowej](https://shop.Ledger.com/products/Ledger-nano-s-plus). Aby kupić go w fizycznym sklepie, można również znaleźć [listę certyfikowanych sprzedawców](https://www.Ledger.com/reseller) na stronie Ledger.
+Ledger Nano S Plus jest dostępny w sprzedaży [na oficjalnej stronie internetowej](https://shop.ledger.com/products/ledger-nano-s-plus). Aby kupić go w fizycznym sklepie, można również znaleźć [listę certyfikowanych sprzedawców](https://www.Ledger.com/reseller) na stronie Ledger.
 
 
 ## Wymagania wstępne

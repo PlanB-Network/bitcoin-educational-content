@@ -541,7 +541,7 @@ Pierwsze dwie heurystyki analizy łańcucha zostały odkryte przez samego Satosh
 ![BTC204](assets/pl/031.webp)
 
 
-Źródło: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
+Źródło: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 Zobaczymy, czym one są w kolejnych rozdziałach, ale już teraz warto zauważyć, że te dwie heurystyki nadal utrzymują przewagę w analizie łańcucha.
@@ -938,7 +938,7 @@ Jak wyjaśniono we wstępie do części 3, heurystyka ta została odkryta przez 
 ![BTC204](assets/pl/055.webp)
 
 
-Źródło: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
+Źródło: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 Na przykład, oto Address, który jest ponownie wykorzystywany w kilku transakcjach:
@@ -1605,7 +1605,7 @@ Ponieważ Blockchain jest publiczny, łatwo jest zobaczyć, które adresy blokuj
 ![BTC204](assets/pl/070.webp)
 
 
-Źródło: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
+Źródło: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 Intencją Satoshi w tym zdaniu było stworzenie dodatkowego firewalla w przypadku powiązania tożsamości użytkownika z parą kluczy na Bitcoin, aby zapobiec publicznemu powiązaniu całej jego aktywności z jego tożsamością. Obecnie, wraz z rozprzestrzenianiem się firm analizujących Blockchain i regulacjami KYC, korzystanie z unikalnych adresów nie jest już "dodatkową zaporą ogniową", ale niezbędną praktyką dla każdego, kto chce zachować minimum prywatności.
@@ -2739,7 +2739,7 @@ Jedną z głównych wad JoinMarket jest jego złożoność, która wymaga pewneg
 ![BTC204](assets/pl/137.webp)
 
 
-Źródło: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Źródło: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 
 Bariera techniczna pozostaje jednak główną przeszkodą. W ekosystemie CoinJoin, w którym poufność jest wzmacniana przez liczbę uczestników, wszelkie ograniczenia zmniejszające dostępność bezpośrednio wpływają na dostępną płynność, która jest kluczowym czynnikiem wpływającym na efektywność miksu. Bitcoin, będąc już niszą w transakcjach finansowych, postrzega wykorzystanie coinjoinów jako pod-niszę, a JoinMarket reprezentuje jeszcze bardziej wyspecjalizowaną jej część, co ogranicza jej potencjał do zwiększania anonsów użytkowników.

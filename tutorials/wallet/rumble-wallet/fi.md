@@ -27,7 +27,7 @@ MoonPayn kanssa solmitun kumppanuuden ansiosta on myös mahdollista ostaa ja myy
 ## 2. Kuinka asentaa Rumble Wallet?
 
 
-Sovellus voidaan asentaa sekä [Android](https://play.google.com/store/apps/details?id=com.wallet.rumble) että iOS-käyttöjärjestelmiin niiden virallisten kauppojen kautta.
+Sovellus voidaan asentaa sekä [Android](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet) että iOS-käyttöjärjestelmiin niiden virallisten kauppojen kautta.
 
 
 ![Image](assets/fr/01.webp)

@@ -30,8 +30,6 @@ Coin Wallet is available on all major platforms.
 
 - [Android Google Play](https://play.google.com/store/apps/details?id=com.coinspace.app)
 
-- [Android (Galaxy Store)](https://galaxystore.samsung.com/detail/com.coinspace.app)
-
 - [Android (Huawei AppGallery)](https://appgallery.huawei.com/app/C112183767)
 
 - [Android (Uptodown)](https://coin-wallet.en.uptodown.com/android)

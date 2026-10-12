@@ -293,7 +293,6 @@ Gibi herkese açık bir yer imi kullanın:
 
 
 
-- [signetfaucet.com](https://signetfaucet.com)
 - [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bookmark257.bublina.eu.org](https://signet257.bublina.eu.org)
 
@@ -650,7 +649,7 @@ Finansal incelemelerin arttığı bir ortamda, gizliliği korumaya yönelik merk
 
 
 
-- [Joinstr resmi web sitesi](https://joinstr.xyz)
+- [Joinstr resmi web sitesi](https://docs.joinstr.xyz/)
 - [Kullanıcı belgeleri](https://docs.joinstr.xyz/users/using-joinstr)
 - [Teknik dokümantasyon](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab kaynak kodu](https://gitlab.com/invincible-privacy/joinstr)
@@ -682,6 +681,5 @@ Finansal incelemelerin arttığı bir ortamda, gizliliği korumaya yönelik merk
 
 
 
-- [Bookmark Faucet](https://signetfaucet.com) - Ücretsiz test Bitcoinleri
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet alternatifi
 - [Mempool.space](https://mempool.space) - Gizlilik analizi ile Block explorer

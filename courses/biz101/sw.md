@@ -1166,7 +1166,7 @@ Biashara lazima zihakikishe kuwa zana zozote za **Malipo** wanazotumia zinatoa u
 
 <chapterId>e7b31be5-1176-4835-944e-3cba1b7040fa</chapterId>
 
-Kampuni inapoamua kujumuisha Bitcoin katika uhasibu wake, zana mbalimbali na programu maalumu hurahisisha ukusanyaji na usindikaji wa data. Miongoni mwa masuluhisho yanayojulikana zaidi ni [CoinTracker](https://www.cointracker.io/), [Waltio](https://www.waltio.com/), [Cryptio](https://cryptio.co/), [Koinly](https://koinly.io/), [TokenTax](https://tokentax.o/Ledger). Majukwaa haya yanalenga hasa vipengele vinne:
+Kampuni inapoamua kujumuisha Bitcoin katika uhasibu wake, zana mbalimbali na programu maalumu hurahisisha ukusanyaji na usindikaji wa data. Miongoni mwa masuluhisho yanayojulikana zaidi ni [CoinTracker](https://www.cointracker.io/), [Waltio](https://www.waltio.com/), [Cryptio](https://cryptio.co/), [Koinly](https://koinly.io/), [TokenTax](https://tokentax.co/). Majukwaa haya yanalenga hasa vipengele vinne:
 
 
 - ukusanyaji wa data moja kwa moja;

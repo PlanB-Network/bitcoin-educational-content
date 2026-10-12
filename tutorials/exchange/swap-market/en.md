@@ -426,6 +426,8 @@ Your Lightning satoshis are immediately available in your wallet.
 
 ## SwapMarket vs Boltz: What's the difference?
 
+> **Note (October 2026):** Boltz Exchange suspended all swaps on 3 August 2026 and its website is offline. This provider may no longer be available on SwapMarket.
+
 
 ### Boltz: Technology vs. Service
 
@@ -483,12 +485,12 @@ Competition between providers improves rates and multiplies sources of liquidity
 
 - [SwapMarket - Web application](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Technical documentation](https://docs.boltz.exchange/)
+- [Technical documentation](https://github.com/BoltzExchange/boltz-backend)
 - [Guide self-hosting](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 
 ### Related projects
 
 
-- [Boltz Exchange](https://boltz.exchange) - Original atomic swap service
+- Boltz Exchange - Original atomic swap service
 - [ZEUS Swaps](https://zeusln.com) - Lightning swaps provider

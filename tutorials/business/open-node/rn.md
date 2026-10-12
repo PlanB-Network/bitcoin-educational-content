@@ -20,4 +20,4 @@ OpenNode (https://www.openNode.com/) ni umuti woroshe wo kwishura Bitcoin. Uronk
 Hariho doc iratomoye cane kandi turacari dukeneye gutanga ubuyobozi bwo kwandika ku vy'ukuri abatangura gushirwa mu ngiro
 
 
-https://abategura.ugufungura.com/inyandiko/gutangura
+https://developers.opennode.com/docs/getting-started

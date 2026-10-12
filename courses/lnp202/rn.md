@@ -415,7 +415,9 @@ Inyungu nini y’iyi nzira, ugereranyije n’iyindi wallet isanzwe y’ububiko b
 
 
 
-Ivyinshi mu bitabo bitanga ubwo bwoko bw’imikorere bishingiye kuri [Boltz](https://boltz.exchange/) ku bijanye n’igice c’ubuhinga c’uguhinduranya.
+Ivyinshi mu bitabo bitanga ubwo bwoko bw’imikorere bishingiye kuri Boltz ku bijanye n’igice c’ubuhinga c’uguhinduranya.
+
+> **Icitonderwa (Gitugutu 2026):** Boltz yarahagaritse uguhinduranya kwose ku wa 3 Myandagaro 2026, kandi urubuga rwayo ntirugikora. Amasakoshi yishimikiza Boltz ashobora kuba atagitanga ubu buryo.
 
 
 
@@ -998,7 +1000,7 @@ Aha niho ufise amakuru yo kwinjira:
 023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@34.216.52.158:9911
 ```
 
-Kugira ngo ubashimire ko batanze iyo nsiguro y’umunara w’inderetsi ku buntu, [ushobora gutanga intererano biciye ku Muravyo](https://umuravyo.plus/intererano).
+Kugira ngo ubashimire ko batanze iyo nsiguro y’umunara w’inderetsi ku buntu, [ushobora gutanga intererano biciye ku Muravyo](https://lightningnetwork.plus/donation).
 
 
 Ubu ko turiko turakoresha umunara w'ibarabara, reka turabe ingene twowutunganya ku nzira yacu ya LND iri munsi ya Umbrel.
@@ -1402,9 +1404,9 @@ Mu porogarama zizwi cane harimwo:
 
 
 
-- [Alby Hub](ku rubuga rwacu);
-- [Gutwara Umuravyo](https://www.gutwara umuravyo.amakuru/);
-- [ThunderHub](ku rubuga rw'inkuba).
+- [Alby Hub](https://albyhub.com/);
+- [Gutwara Umuravyo](https://www.ridethelightning.info/);
+- [ThunderHub](https://thunderhub.io/).
 
 
 
@@ -1581,7 +1583,7 @@ Hari uburyo bwinshi bwo kugura amahera yinjira. Ico jewe ubwanje nkoresha kandi 
 
 
 
-Genda kuri [urubuga rwa Magma](https://magma.amboss.tech/gura), mu gice ca `Gura Imirongo`.
+Genda kuri [urubuga rwa Magma](https://magma.amboss.tech/buy), mu gice ca `Gura Imirongo`.
 
 
 
@@ -1669,7 +1671,7 @@ Niba utari umucuruzi, ariko ukaba ukeneye amahera yinjira (nk’akarorero, kugir
 
 
 
-Ushobora, birumvikana, gutunganya ivyo ataco uhinduye n’abagenzi bawe ba bitcoiners. Ariko rero, hariho urubuga rwerekeye ubwo bwoko bw’ugufungura uruziga: [Lightning Network +](https://umuravyo.plus/). Ingingo ngenderwako si iyo gufungura imihora ibiri hagati y’abantu bamwe, ahubwo ni iyo gushinga imirongo y’uruziga irimwo abantu batatu n’imiburiburi, canke mbere n’abarenga.
+Ushobora, birumvikana, gutunganya ivyo ataco uhinduye n’abagenzi bawe ba bitcoiners. Ariko rero, hariho urubuga rwerekeye ubwo bwoko bw’ugufungura uruziga: [Lightning Network +](https://lightningnetwork.plus/). Ingingo ngenderwako si iyo gufungura imihora ibiri hagati y’abantu bamwe, ahubwo ni iyo gushinga imirongo y’uruziga irimwo abantu batatu n’imiburiburi, canke mbere n’abarenga.
 
 
 
@@ -1703,7 +1705,7 @@ Kugira ngo ukoreshe Lightning Network +, ufise uburyo bubiri: ukoreshe porogaram
 
 
 
-Genda ku rubuga [Lightning Network +](https://umuravyo.plus/) hanyuma ukande kuri buto `Injira` iri hejuru iburyo bw’urubuga.
+Genda ku rubuga [Lightning Network +](https://lightningnetwork.plus/) hanyuma ukande kuri buto `Injira` iri hejuru iburyo bw’urubuga.
 
 
 
@@ -2050,7 +2052,7 @@ Niba utavyemera n’ihuriro rya Tailscale, canke nimba gucunga VPN ibiri bisa n�
 
 
 
-Ku bijanye n’akarorero, tuzoba turiko turakoresha porogarama yo kuri telefone yitwa Alby Go, ikaba yateguwe neza cane kandi cane cane yoroshe kwiga. Ivyo bivuzwe, urashobora kandi gukoresha Zeus canke iyindi porogarama iyo ari yo yose ihuye na NWC. Uzosanga urutonde rw'ibikorwa bihuye kuri [ububiko bwa GitHub `buteye ubwoba-nwc`]
+Ku bijanye n’akarorero, tuzoba turiko turakoresha porogarama yo kuri telefone yitwa Alby Go, ikaba yateguwe neza cane kandi cane cane yoroshe kwiga. Ivyo bivuzwe, urashobora kandi gukoresha Zeus canke iyindi porogarama iyo ari yo yose ihuye na NWC. Uzosanga urutonde rw'ibikorwa bihuye kuri [ububiko bwa GitHub `buteye ubwoba-nwc`](https://github.com/getAlby/awesome-nwc)
 
 
 
@@ -2141,9 +2143,9 @@ Kuri telefone yawe, shiramwo porogarama Alby Go:
 
 
 
-- [Iduka ry'imikino ya Google](https://imikino.com/iduka/amaporogarama/ibisobanuro?id=com.getalby.mobile);
-- [Iduka ry'amaporogarama y'ipome](iporogarama y'ipome
-- [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq3jhml5fvklgnq9fxpete767txn9zfzqdkc0sxfptmnchfrexje7qqfxxmmd9enk2jxpd3).
+- [Iduka ry'imikino ya Google](https://play.google.com/store/apps/details?id=com.getalby.mobile);
+- [Iduka ry'amaporogarama y'ipome](https://apps.apple.com/us/app/alby-go/id6471335774) y'ipome
+- [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq3jhml5fvklgnq9fxpete767txn9zfzqdkc0sxfptmnchfrexje7qqfxxmmd9enk2arpd338jtndda3xjmr9pzj5tk).
 
 
 

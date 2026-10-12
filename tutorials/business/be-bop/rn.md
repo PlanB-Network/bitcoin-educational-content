@@ -349,7 +349,7 @@ Intambwe zo gutunganya:
 
 
 
-**Iciyumviro:** Utegerezwa kuba ufise konti y’ubucuruzi ya PayPal kugira ngo generate ivyo bimenyetso. Ushobora kubironka biciye ku rubuga [rw'abahinguzi](https://abahinguzi.paypal.com)
+**Iciyumviro:** Utegerezwa kuba ufise konti y’ubucuruzi ya PayPal kugira ngo generate ivyo bimenyetso. Ushobora kubironka biciye ku rubuga [rw'abahinguzi](https://developer.paypal.com)
 
 
 
@@ -1647,7 +1647,7 @@ Amadosiye y'ubuhinduzi ari muri JSON. Urashobora:
 Ihuza n'amadosiye y'umwimerere:
 
 
-[ubuhinduzi](ubuhinduzi](ubuhinduzi]
+[ubuhinduzi](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
 
 
 

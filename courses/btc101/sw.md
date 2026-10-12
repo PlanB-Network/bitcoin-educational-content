@@ -374,7 +374,7 @@ Baada ya kufanya kazi hii kwa ufanisi, wachimbaji wanapata thawabu kwa utoaji wa
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Tutatazama upya dhana ya uchimbaji kwa maelezo zaidi katika [sura ya Miner](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9fdfd1b).
+Tutatazama upya dhana ya uchimbaji kwa maelezo zaidi katika [sura ya Miner](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Kuhakikisha uhaba wa kidijitali
 
@@ -557,7 +557,7 @@ Kiasi ambacho mtu yuko tayari kuondoa kwa kiwango maalum cha usalama kinategemea
 
 Kwa kumalizia, umilikisho wa moja kwa moja wa bitcoins ni kipengele muhimu ili kuhakikisha uhuru wa kifedha. Inapendekezwa kutumia Wallet ya simu ya mkononi kwa gharama za kila siku na nje ya mtandao, au "Cold," Wallet halisi ili kuhifadhi kiasi kikubwa zaidi. Biashara, kwa upande mwingine, zinafaa kuzingatia kutumia mifumo ya sahihi nyingi, au "Multisig," kwa usalama ulioongezeka na wa pamoja. Pia ni muhimu kuepuka huduma za uhifadhi, ambazo zinaweza kuiga udhaifu fulani wa mfumo wa jadi na kifedha.
 
-Kwa kuzingatia hili, sasa tunaweza kuhamia sehemu inayofuata ambapo tunaelezea jinsi ya kuunda Bitcoin Wallet. Hata hivyo, ikiwa ungependa kuchunguza zaidi mada ya usalama, unaweza kusoma [makala ya DarthCoin](https://asi0.substack.com/p/Bitcoin-soyez-votre-propre-banque).
+Kwa kuzingatia hili, sasa tunaweza kuhamia sehemu inayofuata ambapo tunaelezea jinsi ya kuunda Bitcoin Wallet. Hata hivyo, ikiwa ungependa kuchunguza zaidi mada ya usalama, unaweza kusoma [makala ya DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
 ## Kuanzisha Wallet
 
@@ -781,7 +781,7 @@ Nodi ni kipengele cha msingi cha usanifu wa mtandao wa Bitcoin, kwani hufanya ka
 - Kusambaza habari kwa nodi zingine
 - Utekelezaji wa sheria za itifaki za Bitcoin.
 
-Kwa hivyo, kifaa chochote kinachotumia kipande cha programu ya Bitcoin, kinachoitwa nodi ya Bitcoin (mara nyingi hutumia [Bitcoin Core](https://Bitcoin.org/en/Bitcoin-core/)), huchangia katika ugatuaji wa mtandao.
+Kwa hivyo, kifaa chochote kinachotumia kipande cha programu ya Bitcoin, kinachoitwa nodi ya Bitcoin (mara nyingi hutumia [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), huchangia katika ugatuaji wa mtandao.
 
 ![image](assets/sw/050.webp)
 

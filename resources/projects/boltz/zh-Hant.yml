@@ -1,2 +1,4 @@
 description: |
   Boltz 是一個開放原始碼專案，用於 Bitcoin、Lightning 和 Liquid 之間的自動原子交換。
+
+  在攻擊者利用多個漏洞之後，Boltz 於 2026 年 8 月 3 日暫停了所有 swap。其網站自 2026 年 9 月起已下線。

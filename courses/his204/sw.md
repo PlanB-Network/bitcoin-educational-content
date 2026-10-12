@@ -309,7 +309,7 @@ Abbot wa Saint-Pierre alibisha kwamba utawala wa Louis XIV, pamoja na mahakama y
 
 Kwa upande wa mawazo ya kiuchumi, alitumia kwa uthabiti kanuni ya manufaa, kama Jeremy Bentham angefanya baadaye, na mara nyingi alitoa maarifa mazuri. Kwa haki, bado aliathiriwa na mawazo ya mercantilist, ambayo hakuna mtu alikuwa ameyaacha kikamilifu wakati huo.
 
-Hata hivyo, Abbot wa Saint-Pierre alitoa uchunguzi sahihi kuhusu uchumi. Hata kabla ya *Condillac*, ambaye mara nyingi hupewa sifa ya wazo hili, alisema wazi kwamba katika ubadilishanaji wowote, pande zote mbili hunufaika. Hili linaweza kupatikana katika ["Mradi wa Kuboresha Biashara ya Ufaransa"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) yake ya 1733, ambapo aliandika:
+Hata hivyo, Abbot wa Saint-Pierre alitoa uchunguzi sahihi kuhusu uchumi. Hata kabla ya *Condillac*, ambaye mara nyingi hupewa sifa ya wazo hili, alisema wazi kwamba katika ubadilishanaji wowote, pande zote mbili hunufaika. Hili linaweza kupatikana katika ["Mradi wa Kuboresha Biashara ya Ufaransa"](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) yake ya 1733, ambapo aliandika:
 
 > Wakati mauzo yanafanyika kati ya wafanyabiashara, muuzaji hupata, na mnunuzi pia; kwa maana kama kusingekuwa na manufaa fulani ya kweli au yanayodhaniwa kwa pande zote mbili, muuzaji hangeuza kwa bei fulani, wala mnunuzi, kwa upande wake, hangenunua kwa bei fulani.
 
@@ -469,7 +469,7 @@ Uzalishaji wa kifikra wa duru ya Gournay ulikuwa na athari kubwa kwa historia ya
 
 ![Utafiti kuhusu uchapishaji wa kiuchumi nchini Ufaransa, 1566-1789.](assets/en/035.webp)
 
-Ili kueneza hamu ya mijadala ya kiuchumi miongoni mwa watu wa Ufaransa, Gournay na marafiki zake walifanya kazi kuifanya ipatikane kupitia riwaya. Baada ya *Kumbukumbu kuhusu Mashirika ya Kazi*, iliyokosoa magildi, Gournay na Cliquot-Blervache walimsaidia Gabriel-François Coyer kuandika riwaya fupi ya kejeli iitwayo Chinki: [Hadithi ya Cochinchina Inayoweza Kutumika kwa Mataifa Mengine](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Ili kueneza hamu ya mijadala ya kiuchumi miongoni mwa watu wa Ufaransa, Gournay na marafiki zake walifanya kazi kuifanya ipatikane kupitia riwaya. Baada ya *Kumbukumbu kuhusu Mashirika ya Kazi*, iliyokosoa magildi, Gournay na Cliquot-Blervache walimsaidia Gabriel-François Coyer kuandika riwaya fupi ya kejeli iitwayo Chinki: [Hadithi ya Cochinchina Inayoweza Kutumika kwa Mataifa Mengine](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Abbé Gabriel-François Coyer, “Chinki”](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ Katika *Maxims* zake zilizotajwa hapo awali, Quesnay anasema:
 
 Wanafiziokrati walikuwa wameona uharibifu uliosababishwa na uingiliaji wa serikali, hasa katika biashara ya nafaka. Lazima tukubali, wanasema, kwamba mamlaka haitaweza kamwe kusimamia biashara vizuri kama watu binafsi wanavyofanya, kwa sababu ingehitaji kujibu kila hitaji na kuguswa na kila mabadiliko ya mahitaji au ugavi. Yote haya yako mbali sana na uwezo hata wa serikali yenye hekima zaidi inayoweza kufikiriwa. Kwa hiyo, ni lazima kuyaacha mambo yawe na yatiririke.
 
-Kwa asili yake yenye manufaa, biashara lazima iwe huru kabisa na kikamilifu. Mmoja wa wanachama wao, Le Trosne, hata aliandika kijitabu chenye kichwa [*Uhuru wa Biashara ya Nafaka: Daima Una Manufaa, Kamwe Hauna Madhara*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Kwa asili yake yenye manufaa, biashara lazima iwe huru kabisa na kikamilifu. Mmoja wa wanachama wao, Le Trosne, hata aliandika kijitabu chenye kichwa [*Uhuru wa Biashara ya Nafaka: Daima Una Manufaa, Kamwe Hauna Madhara*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/).
 
 ### Kanuni ya tano: Watu wote ni ndugu
 

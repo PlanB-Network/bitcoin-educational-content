@@ -152,7 +152,7 @@ Eftersom Bitcoin är ett system måste det nödvändigtvis köras på datorer. O
 
 
 
-Nakamoto, S. (2008). *Bitcoin: Ett elektroniskt peer-to-peer-kontantsystem*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Ett elektroniskt peer-to-peer-kontantsystem*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -204,7 +204,7 @@ Den första uppgiften för en nod är att upprätthålla en lokal kopia av Block
 
 > Det enda sättet att bekräfta att en transaktion inte har ägt rum är att vara medveten om alla transaktioner.
 
-Nakamoto, S. (2008). *Bitcoin: Ett elektroniskt peer-to-peer-system för kontanter*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Ett elektroniskt peer-to-peer-system för kontanter*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -383,7 +383,7 @@ I teorin representerar Bitcoin core inte Bitcoin-protokollet; det är snarare ba
 
 
 
-Enligt [data som samlades in i augusti 2025 av Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (en välkänd utvecklare i ekosystemet) är fördelningen av implementeringar bland nätverkets publika noder enligt följande:
+Enligt [data som samlades in i augusti 2025 av Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (en välkänd utvecklare i ekosystemet) är fördelningen av implementeringar bland nätverkets publika noder enligt följande:
 
 
 
@@ -766,7 +766,7 @@ En [SPV](https://planb.academy/resources/glossary/spv-node-light-node)-nod (*Sim
 
 
 
-Nakamoto, S. (2008). *Bitcoin: Ett elektroniskt peer-to-peer-system för kontanter*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Ett elektroniskt peer-to-peer-system för kontanter*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -1521,7 +1521,7 @@ En av Umbrels viktigaste fördelar jämfört med sina konkurrenter är dess stor
 
 
 
-Umbrels kod är offentligt tillgänglig (du kan se, Fork och ändra den), men den är inte under en riktig öppen källkodslicens. Faktum är att umbrelOS distribueras under [*PolyForm Noncommercial 1.0*]-licensen (https://polyformproject.org/licenses/noncommercial/1.0.0/), även om vissa tillhörande utvecklingsverktyg är tillgängliga under MIT-licensen.
+Umbrels kod är offentligt tillgänglig (du kan se, Fork och ändra den), men den är inte under en riktig öppen källkodslicens. Faktum är att umbrelOS distribueras under [*PolyForm Noncommercial 1.0*]-licensen (https://polyformproject.org/licenses/noncommercial/1.0.0), även om vissa tillhörande utvecklingsverktyg är tillgängliga under MIT-licensen.
 
 
 
@@ -3884,7 +3884,7 @@ Slutligen kan du i filen `Bitcoin.conf` även konfigurera åtkomstparametrarna f
 
 
 
-Vi är nu färdiga med att lista de flesta konfigurationsparametrarna. Denna fil `Bitcoin.conf` utgör således den verkliga instrumentpanelen för din nod: den definierar nätverkskonfiguration, Mempool-hantering, disk- och minnesanvändning, indexering och allmän administration. Om du vill lära dig mer om den här filen och skapa en som är skräddarsydd efter dina behov rekommenderar jag att du använder [Jameson Lopps generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Vi är nu färdiga med att lista de flesta konfigurationsparametrarna. Denna fil `Bitcoin.conf` utgör således den verkliga instrumentpanelen för din nod: den definierar nätverkskonfiguration, Mempool-hantering, disk- och minnesanvändning, indexering och allmän administration. Om du vill lära dig mer om den här filen och skapa en som är skräddarsydd efter dina behov rekommenderar jag att du använder [Jameson Lopps generator](https://jlopp.github.io/bitcoin-core-config-generator/).
 
 
 

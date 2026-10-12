@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - Uma chave privada Nostr** (formato `nsec1...`)
- - Criar uma chave de negociação dedicada em [nostrkeygen.com](https://nostrkeygen.com/)
+ - Criar uma chave de negociação dedicada em [nostrkeygen.com](https://nostrtool.com/)
  - Importante**: Nunca utilize a sua chave Nostr pessoal principal
  - Guarde a sua chave privada num local seguro (gestor de palavras-passe)
 
@@ -962,7 +962,7 @@ Para os bitcoiners que preferem autonomia e confidencialidade, a Mostro é uma o
 
 
 - [Repositório principal do GitHub](https://github.com/MostroP2P/mostro)
-- [Cliente Web](https://github.com/MostroP2P/mostro-web)
+- [Cliente Web](https://github.com/MostroP2P/app)
 - [Cliente CLI](https://github.com/MostroP2P/mostro-cli)
 
 

@@ -436,7 +436,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 - Hitamwo **amafaranga yo gucuruza** (ntibikenewe) :
  - Hitamwo mu mahitamwo yashikirijwe (vyihuta, biringaniye, bigenda buhoro) bivanye n’ukwihutirwa, n’igihe co kwemeza kigereranywa.
- - Ku bijanye n’ibiciro vy’abantu, hindura n’amaboko igitigiri c’amasatoshi kuri vbyte. Ivyo vyerekanwa ku rubuga rw’intango. Raba kandi [Mempool.ikibanza](Mempool.ikibanza/).
+ - Ku bijanye n’ibiciro vy’abantu, hindura n’amaboko igitigiri c’amasatoshi kuri vbyte. Ivyo vyerekanwa ku rubuga rw’intango. Raba kandi [Mempool.ikibanza](https://Mempool.space/).
 
 
 
@@ -534,7 +534,7 @@ https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 - Imipaka**:
     - RBF ntiboneka ku bikorwa vya Liquid canke Lightning.
     - Ivyo bikoresho vya mbere bitegerezwa gushirwako ikimenyetso c’uko bihuye na RBF, ivyo Blockstream App ikora ubwo nyene.
-- Ushaka kumenya vyinshi, raba [urutonde rw’amajambo yacu](https://planb.academy/ibikoresho/urutonde rw’amajambo/RBF-gusubirira amafaranga).
+- Ushaka kumenya vyinshi, raba [urutonde rw’amajambo yacu](https://planb.academy/resources/glossary/rbf-replacebyfee).
 
 
 
@@ -580,7 +580,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-    - Guhindura amafaranga bivanye n’ukwihutirwa be n’uguhagarara kw’urubuga (raba [Mempool.ikibanza](https://Mempool.ikibanza/)).
+    - Guhindura amafaranga bivanye n’ukwihutirwa be n’uguhagarara kw’urubuga (raba [Mempool.ikibanza](https://mempool.space/)).
     - Koresha Liquid canke Lightning ku bikorwa vyihuta, bihenda bidasaba umutekano wo ku ruzitiro.
 - Kuvugurura porogaramu:
 
@@ -599,18 +599,18 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Amahuza yemewe**:
-    - [Urubuga rwemewe](https://ububiko.com/)
-    - [Ishigikira Porogaramu y'Uguhagarika](https://imfashanyo.guhagarika.com/hc/ru-us/ibice/900000056183-Uguhagarika-Green/): inyandiko n'ibiganiro
-    - [GitHub](imbuga y'ububiko/ibara ry'icatsi kibisi)
+    - [Urubuga rwemewe](https://blockstream.com/)
+    - [Ishigikira Porogaramu y'Uguhagarika](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): inyandiko n'ibiganiro
+    - [GitHub](https://github.com/Blockstream/green_qt)
 
 
 
 
 
 - Guhagarika Abashakashatsi**:
-    - Ku ruzitiro : [Igihugu-116.ikibanza](Ikibanza Mempool/)
-    - Liquid : [Amakuru y'Uruzi](amakuru y'Uruzi/Liquid)
-    - Umuravyo : [1ML (Lightning Network)]
+    - Ku ruzitiro : [Igihugu-116.ikibanza](https://Mempool.space/)
+    - Liquid : [Amakuru y'Uruzi](https://blockstream.info/Liquid)
+    - Umuravyo : [1ML (Lightning Network)](https://1ml.com/)
 
 
 
@@ -630,7 +630,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-[Insobanuro y'amajambo](https://umugambib.urubuga/fr/ibikoresho/insobanuro y'amajambo/Liquid-urubuga)
+[Insobanuro y'amajambo](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
@@ -642,7 +642,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-[Insobanuro](https://planb.urubuga/fr/ibikoresho/insobanuro/urubuga-rw'umuravyo)
+[Insobanuro](https://planb.academy/fr/resources/glossary/lightning-network)
 
 
 

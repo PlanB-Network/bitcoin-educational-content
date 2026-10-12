@@ -77,9 +77,9 @@ Debian มีสภาพแวดล้อมเดสก์ท็อปหล�
 
 
 
-- AMD64**: download the "live hybrid" edition from the [download] list (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- ARM64**: รับภาพ DVD จากเว็บไซต์ทางการ [Debian](https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- สถาปัตยกรรมอื่นๆ**: ค้นหา ISO ที่ตรงกับสถาปัตยกรรมของคุณ [ที่นี่](https://debian.obspm.fr/debian-cd/12.11.0/).
+- AMD64**: download the "live hybrid" edition from the [download] list (https://debian.obspm.fr/debian-cd/current-live/amd64/iso-hybrid/).
+- ARM64**: รับภาพ DVD จากเว็บไซต์ทางการ [Debian](https://debian.obspm.fr/debian-cd/current/arm64/iso-dvd/).
+- สถาปัตยกรรมอื่นๆ**: ค้นหา ISO ที่ตรงกับสถาปัตยกรรมของคุณ [ที่นี่](https://debian.obspm.fr/debian-cd/current/).
 
 
 

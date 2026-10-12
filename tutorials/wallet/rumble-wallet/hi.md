@@ -27,7 +27,7 @@ description: उन रचनाकारों से जुड़ें जो
 ## 2. रम्बल Wallet कैसे स्थापित करें?
 
 
-एप्लिकेशन को [एंड्रॉइड](https://play.google.com/store/apps/details?id=com.wallet.rumble) और iOS दोनों पर उनके संबंधित आधिकारिक स्टोर के माध्यम से इंस्टॉल किया जा सकता है।
+एप्लिकेशन को [एंड्रॉइड](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet) और iOS दोनों पर उनके संबंधित आधिकारिक स्टोर के माध्यम से इंस्टॉल किया जा सकता है।
 
 
 ![Image](assets/fr/01.webp)

@@ -13,7 +13,7 @@ Before going through the different steps, let's list the necessary equipment to 
 
 - a [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - a [USB-C power supply](https://amzn.eu/d/gIOot90)
-- a 3D case: if you have a 3D printer, you can download the [3D file](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) otherwise you can buy one on the [Silexperience online store](https://silexperience.company.site/NerdMiner_V2-p544379757).
+- a 3D case: if you have a 3D printer, you can download the [3D file](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) otherwise you can buy one on the [Bitronics online store](https://bitronics.store/).
 - a PC with Chrome Browser installed
 - an internet connection
 - a bitcoin address
@@ -64,7 +64,6 @@ For NerdMiners, you can choose to connect to one of these pools:
 | ----------------- | ----- | -------------------------- | ---------------------------------------- |
 | public-pool.io    | 21496 | https://web.public-pool.io | Default Solo and open-source mining pool |
 | pool.nerdminer.io | 3333  | https://nerdminer.io       | Maintained by CHMEX                      |
-| pool.vkbit.com    | 3333  | https://vkbit.com/         | Maintained by djerfy                     |
 
 Once you have chosen your pool, you need to enter your bitcoin address to receive the reward in case (exceptionally) a block is found.
 
@@ -128,4 +127,4 @@ Knowing that the total hashrate is about 450 EH/s (or 4.5 x 10^20 hashes per sec
 Here are some links if you want to further read about the subject:
 
 - [NerdMiner_v2 project page](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Complete documentation of NerdMiners](https://docs.bitwater.ch/nerd-miner-v2/)
+- [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

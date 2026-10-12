@@ -112,7 +112,7 @@ Untuk informasi lebih lanjut: [Saluran | Dokumentasi Zeus](https://docs.zeusln.a
 
 tangkapan Layar Bitbanana
 
-Untuk informasi lebih lanjut: [BitBanana](https://bitbanana.com)
+Untuk informasi lebih lanjut: [BitBanana](https://bitbanana.app)
 
 Setelah channel kamu terbuka, pembayaran bisa disalurkan lewat channel itu ke peserta lain di jaringan. Saldo akan menyesuaikan secara off-chain, jadi transaksi hampir instan dan biayanya sangat kecil.
 

@@ -53,7 +53,7 @@ objectives:
 
 
 
-- [нарастващия интерес на хората по света към използването на Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), за да се освободят от банковата система и/или да използват по-малко волатилна или по-малко обезценена валута, какъвто е случаят с населението в Ливан, Сирия, Египет, Аржентина и др;
+- [нарастващия интерес на хората по света към използването на Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), за да се освободят от банковата система и/или да използват по-малко волатилна или по-малко обезценена валута, какъвто е случаят с населението в Ливан, Сирия, Египет, Аржентина и др;
 - поскъпването му с течение на времето, утвърждавайки го като средство за съхранение на стойност и дългосрочна инвестиция, което се дължи на фиксираната парична политика;
 - последователния растеж на пазара на спекулативни криптовалути, особено през 2017-2018 г. и 2020-2021 г.;
 - Нарастващото присъствие на Bitcoin в основните медии.
@@ -707,7 +707,7 @@ Bitcoin е децентрализирана, така че естествено 
 
 
 
-- [ ] *Създай лого на Bitcoin с Лондонския мост и Биг Бен на заден план. Футуристично* - [Връзка](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *Създай лого на Bitcoin с Лондонския мост и Биг Бен на заден план. Футуристично*
 
 
 
@@ -720,7 +720,7 @@ Bitcoin е децентрализирана, така че естествено 
 
 
 
-- [ ] *Направи четвъртата част много по-реалистична* - [Връзка](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *Направи четвъртата част много по-реалистична*
 
 
 
@@ -738,7 +738,7 @@ Bitcoin е децентрализирана, така че естествено 
 
 
 
-- [ ] *Създай логото на "London Bitcoin Meetup" в британски и изчистен стил* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Създай логото на "London Bitcoin Meetup" в британски и изчистен стил*
 
 
 
@@ -1383,7 +1383,7 @@ Twitter е много лесен за използване, а за да под�
 
 
 - [Btcmap.org](https://btcmap.org/) - уебсайт с две карти, които се актуализират ежедневно: **[световна карта на търговците, приемащи Bitcoin](https://btcmap.org/map)** и **[карта на общностите по цял свят](https://btcmap.org/communities/map)**. Много биткойнъри редовно проверяват тези карти, независимо дали пътуват или се занимават с ежедневието си, за да се запознаят с нови хора или да намерят места, където да похарчат своите [сатошита](https://planb.academy/resources/glossary/satoshi-sat). Btcmap е глобалната референция и включването на вашата общност в нея е от съществено значение за видимостта
-- [BitcoinerEvents](https://www.bitcoinerevents.com/) - уебсайт, създаден от биткойнъри за биткойнъри. **Той ви позволява да публикувате предстоящите събития на вашата общност**. Във Франция обаче той все още не се използва широко.
+- BitcoinerEvents - уебсайт, създаден от биткойнъри за биткойнъри. **Той ви позволява да публикувате предстоящите събития на вашата общност**. Във Франция обаче той все още не се използва широко. **Бележка (октомври 2026 г.):** този сайт вече не е достъпен. [BitcoinOnly Events](https://bitcoinonly.events/) е подобен календар, който все още работи.
 - в зависимост от вашата страна може да има и други местни инициативи. Във Франция, например, има [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), където всеки месец се публикуват десетки събития, свързани с Bitcoin. Така че, ако все още не сте ги последвали в Twitter или не сте се свързали с тях, за да споделите информация за вашата общност и събития, сега е моментът! **За да помогнете за поддържането на френския календар на събитията в актуално състояние, би било чудесно, ако всички френски общности на Bitcoin придобият навика да:**
     - споменават @bitcoinpointfr в Twitter за всяко ново събитие на общността
     - прикрепят нови съобщения за събития в тяхната група в Telegram.
@@ -1403,7 +1403,7 @@ Twitter е много лесен за използване, а за да под�
 
 Въпреки че последните две платформи могат да помогнат за увеличаване на видимостта, те не се препоръчват при стартиране на общност, просто защото не са безплатни.
 
-**Начинайте с вписване в [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/), а за френските общности - в [Bitcoin.fr](https://Bitcoin.fr), което е повече от достатъчно**.
+**Начинайте с вписване в [btcmap.org](https://btcmap.org/), [BitcoinOnly Events](https://bitcoinonly.events/), а за френските общности - в [Bitcoin.fr](https://Bitcoin.fr), което е повече от достатъчно**.
 
 
 Поздравления! Вашата **общност е създадена**, вашите **визуални материали са готови**, вашите **цели са поставени**, вашите **канали за комуникация са създадени**, вашите **социални мрежи са пуснати** и вашата **стратегия за видимост е определена**.
@@ -1491,7 +1491,7 @@ Twitter е много лесен за използване, а за да под�
 - да донесете **Nerdminer**, Bitaxe, FPGA или дори ASIC;
 - с **Bitcoin** листовка;
 - разработване на визуален проект или лого за вашата общност;
-- играете **[Bitcoin игра с карти](https://www.Maximalist.ovh/accueil/20-game-le-coin-de-table.html)**;
+- играете **[Bitcoin игра с карти](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - показвате **[btcmap.org](https://btcmap.org/)** картата на общностите и търговците;
 - изпращане или получаване на Bitcoin с помощта на **Lightning Network**.
 
@@ -1861,7 +1861,7 @@ Twitter е много лесен за използване, а за да под�
 
 - Вечер в ресторанта за **Деня на пицата** на 22 май
 - Вечер или уикенд за отбелязване на следващия **Halving**
-- Семейна вечер на **игрите** за Bitcoin и как работи, като се използват игри като [Le Coin de Table](https://www.Maximalist.ovh/) или [SHAmory](https://shamory.com/)
+- Семейна вечер на **игрите** за Bitcoin и как работи, като се използват игри като [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) или [SHAmory](https://shamory.com/)
 - Работилница по **копаене**, представяща различни видове хардуер (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - **Следобед или вечер за начинаещи** с тематични семинари
 - **съвместна среща със съседни общности**
@@ -1996,7 +1996,7 @@ Twitter е много лесен за използване, а за да под�
 Няколко листовки вече са **достъпни като отворен код в [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** в planB.network и с течение на времето ще бъдат добавени още.
 
 
-Пример за това е [пълна листовка](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) с 21 причини да използвате Bitcoin. Нейният дизайн също е [достъпен в отворен код](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), за да можете да го променяте, адаптирате и споделяте. Само не забравяйте да посочите източниците си.
+Пример за това е [пълна листовка](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) с 21 причини да използвате Bitcoin. Нейният дизайн също е [достъпен в отворен код](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), за да можете да го променяте, адаптирате и споделяте. Само не забравяйте да посочите източниците си.
 
 
 
@@ -2040,7 +2040,7 @@ Twitter е много лесен за използване, а за да под�
 - Бялата книга за Bitcoin, преведена на френски език.
 
 
-Ето [споделената сред френските биткойнъри](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) брошура, която е поставена в десетки книжарници в цялата страна. Нейният дизайн също е [достъпен като отворен код](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Ето [споделената сред френските биткойнъри](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) брошура, която е поставена в десетки книжарници в цялата страна. Нейният дизайн също е [достъпен като отворен код](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

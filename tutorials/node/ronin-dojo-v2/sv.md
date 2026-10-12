@@ -7,6 +7,8 @@ description: Installera din RoninDojo v2 Bitcoin-nod på en Raspberry Pi
 
 **VARNING:** Efter gripandet av grundarna av Samourai Wallet och beslagtagandet av deras servrar den 24 april är vissa funktioner i RoninDojo, såsom Whirlpool, inte längre i drift. Det är dock möjligt att dessa verktyg kan återinföras eller återlanseras på olika sätt under de kommande veckorna. Eftersom RoninDojo-koden fanns på Samourais GitLab, som också beslagtogs, är det för närvarande inte möjligt att ladda ner koden på distans. RoninDojo-teamen arbetar sannolikt med att publicera koden på nytt.*
 
+> **Uppdatering (oktober 2026):** RoninDojo har sedan dess publicerat sin kod på nytt på en egen plattform ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) och är nu på version 3. Den här handledningen beskriver en äldre version: vissa länkar och kommandon fungerar inte längre. Se den officiella dokumentationen för det aktuella tillvägagångssättet: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 
 _Vi följer noga utvecklingen av detta fall och utvecklingen av de tillhörande verktygen. Du kan vara säker på att vi kommer att uppdatera denna handledning när ny information blir tillgänglig._
 
@@ -37,7 +39,9 @@ https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-
 Dojo är ursprungligen en fullständig Bitcoin-nodimplementering, baserad på Bitcoin Core, och utvecklad av Samourais Wallet-team. Den här lösningen kan installeras på vilken utrustning som helst. Till skillnad från andra Core-implementeringar har Dojo optimerats specifikt för att integreras med Android-applikationsmiljön i Samourai Wallet. RoninDojo är ett verktyg som är utformat för att underlätta installation och hantering av en Dojo, liksom olika andra kompletterande verktyg. Kort sagt, RoninDojo berikar den grundläggande implementeringen av Dojo genom att integrera en mängd ytterligare verktyg, samtidigt som installationen och hanteringen förenklas.
 
 
-Ronin erbjuder också [en node-in-box-lösning, kallad "*Tanto*"](https://ronindojo.io/en/products), en enhet med RoninDojo redan installerad på ett system som monterats av deras team. Tanto är ett betalt alternativ, vilket kan vara intressant för dem som föredrar att undvika tekniska komplikationer. Men eftersom källkoden för RoninDojo är öppen är det också möjligt att distribuera den på din egen hårdvara. Detta alternativ, mer ekonomiskt, kräver dock några ytterligare manipuleringar, som vi kommer att täcka i denna handledning.
+Ronin erbjuder också [en node-in-box-lösning, kallad "*Tanto*"](https://docs.ronindojo.io/hardware/tanto/), en enhet med RoninDojo redan installerad på ett system som monterats av deras team. Tanto är ett betalt alternativ, vilket kan vara intressant för dem som föredrar att undvika tekniska komplikationer. Men eftersom källkoden för RoninDojo är öppen är det också möjligt att distribuera den på din egen hårdvara. Detta alternativ, mer ekonomiskt, kräver dock några ytterligare manipuleringar, som vi kommer att täcka i denna handledning.
+
+> **Obs (oktober 2026):** RoninDojo verkar inte längre sälja Tanto, och webbutiken är offline. Se listan över kompatibel hårdvara: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
 
 RoninDojo är en Dojo, vilket gör det möjligt att enkelt integrera Whirlpool CLI i din Bitcoin-nod för att ge bästa möjliga CoinJoin-upplevelse. Med Whirlpool CLI blir det möjligt att kontinuerligt remixa dina bitcoins, 24 timmar om dygnet, 7 dagar i veckan, utan att din persondator behöver vara påslagen.
 
@@ -56,7 +60,9 @@ Nu när vi har beskrivit RoninDojo, låt oss tillsammans se hur man ställer in 
 
 ## Vilken hårdvara ska man välja för att installera RoninDojo v2?
 
-RoninDojo erbjuder en bild för automatisk installation av sin programvara på en [RockPro64](https://ronindojo.io/en/download). Vår handledning fokuserar dock på den manuella installationsproceduren på en Raspberry Pi 4. Även om Raspberry Pi 5 nyligen har lanserats, och denna handledning teoretiskt sett borde vara kompatibel med den nya modellen, har jag ännu inte haft möjlighet att testa den personligen, och jag har inte hittat någon feedback från communityn. Så snart jag får tag på Pi 5 och kompatibla komponenter kommer jag att uppdatera den här handledningen för att hålla dig informerad. Under tiden rekommenderar jag att du prioriterar Pi 4, eftersom den fungerar perfekt för min nod.
+RoninDojo erbjuder en bild för automatisk installation av sin programvara på en [RockPro64](https://ronindojo.io/downloads). Vår handledning fokuserar dock på den manuella installationsproceduren på en Raspberry Pi 4. Även om Raspberry Pi 5 nyligen har lanserats, och denna handledning teoretiskt sett borde vara kompatibel med den nya modellen, har jag ännu inte haft möjlighet att testa den personligen, och jag har inte hittat någon feedback från communityn. Så snart jag får tag på Pi 5 och kompatibla komponenter kommer jag att uppdatera den här handledningen för att hålla dig informerad. Under tiden rekommenderar jag att du prioriterar Pi 4, eftersom den fungerar perfekt för min nod.
+
+> **Obs (oktober 2026):** RoninDojo erbjuder nu även officiella RoninOS-avbilder för Rock5B+, Raspberry Pi 5 och x86-maskiner.
 
 För egen del kör jag RoninDojo på en Raspberry Pi med 8 GB RAM-minne. Även om vissa communitymedlemmar har lyckats få det att fungera på enheter med endast 4 GB RAM, har jag inte testat den här konfigurationen själv. Med tanke på den lilla prisskillnaden verkar det klokt att välja 8 GB RAM-versionen. Detta kan också visa sig vara användbart om du planerar att återanvända din Raspberry Pi för andra användningsområden i framtiden.
 
@@ -290,6 +296,8 @@ När uppdateringarna är klara fortsätter du att installera *Git* och *Dialog* 
 `sudo apt installera git dialog -y`
 
 
+> **Obs (oktober 2026):** Kommandot nedan fungerar inte längre: Samourais GitLab (code.samourai.io) beslagtogs den 24 april 2024. RoninDojo har nu sin kod här: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Se [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/) för den aktuella installationsproceduren
+
 Klona sedan `master'-grenen i _RoninOS_ Git-förvaret genom att köra:
 
 `sudo git clone --branch master https://code.samourai.io/ronindojo/RoninOS.git /opt/RoninOS`
@@ -479,7 +487,9 @@ För att koppla din Samourai Wallet till din Dojo skannar du helt enkelt den hä
 ![Samourai Wallet connection](assets/notext/36.webp)
 
 
-Om du redan hade en Samourai Wallet innan du satte upp din Ronin Dojo, är det nödvändigt att säkerhetskopiera din Wallet, avinstallera och sedan installera om Samourai Wallet-appen innan du återställer din Wallet. När du startar den ominstallerade appen kommer du att ha möjlighet att ansluta till en ny Dojo. **Se till att du har säkerhetskopian av din Samourai Wallet i dina filer och verifiera giltigheten för din passphrase via** `Inställningar > Felsökning > passphrase`. Det är också viktigt att ha en läsbar säkerhetskopia av din återställningsfras och din passphrase. För mer precision i denna operation rekommenderas att du följer denna detaljerade handledning: [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+Om du redan hade en Samourai Wallet innan du satte upp din Ronin Dojo, är det nödvändigt att säkerhetskopiera din Wallet, avinstallera och sedan installera om Samourai Wallet-appen innan du återställer din Wallet. När du startar den ominstallerade appen kommer du att ha möjlighet att ansluta till en ny Dojo. **Se till att du har säkerhetskopian av din Samourai Wallet i dina filer och verifiera giltigheten för din passphrase via** `Inställningar > Felsökning > passphrase`. Det är också viktigt att ha en läsbar säkerhetskopia av din återställningsfras och din passphrase. För mer precision i denna operation rekommenderas att du följer denna detaljerade handledning: [https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://web.archive.org/web/20240214172904/https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+
+> **Varning (oktober 2026):** Samourai Wallet finns inte längre: servrarna beslagtogs och grundarna greps den 24 april 2024. Länken ovan går till en arkiverad kopia av guiden. RoninDojo dokumenterar nu Ashigaru, en fork av Samourai Wallet: [docs.ronindojo.io/guides-wallet/ashigaru](https://docs.ronindojo.io/guides-wallet/ashigaru/)
 
 
 ### Använda din egen Mempool.space Block explorer
@@ -824,7 +834,7 @@ När det gäller de andra flikarna som finns tillgängliga på din RoninUI-panel
 - `Inställningar`: Här kan du ändra ditt användarlösenord.
 
 
-Så där ja! Tack för att du följde denna handledning till slutet. Om du tyckte om det uppmuntrar jag dig att dela det på sociala medier. Om du har möjlighet kan du dessutom överväga att stödja de utvecklare som gör dessa gratis programvaror med öppen källkod tillgängliga för vårt samhälle med en donation: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). För att fördjupa din kunskap om RoninDojo och upptäcka fler resurser rekommenderar jag starkt att du konsulterar länkarna till de externa resurser som nämns nedan.
+Så där ja! Tack för att du följde denna handledning till slutet. Om du tyckte om det uppmuntrar jag dig att dela det på sociala medier. Om du har möjlighet kan du dessutom överväga att stödja de utvecklare som gör dessa gratis programvaror med öppen källkod tillgängliga för vårt samhälle med en donation: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). För att fördjupa din kunskap om RoninDojo och upptäcka fler resurser rekommenderar jag starkt att du konsulterar länkarna till de externa resurser som nämns nedan.
 
 
 **Externa resurser:**
@@ -834,5 +844,5 @@ Så där ja! Tack för att du följde denna handledning till slutet. Om du tyckt
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)
 

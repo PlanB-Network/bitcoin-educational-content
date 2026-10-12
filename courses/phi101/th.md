@@ -350,7 +350,7 @@ Condorcet, ในผลงานของเขา [_Sketch for a Historical Pic
 ### การปฏิวัติอุตสาหกรรมในคำถาม
 
 
-ในความเป็นจริง การวิเคราะห์แบบมาร์กซิสต์บิดเบือนความเป็นจริงทางประวัติศาสตร์ของการปฏิวัติอุตสาหกรรม ลุดวิก ฟอน มีเซส ได้ชี้แจงประเด็นนี้ในตำราเศรษฐศาสตร์ของเขา [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (ดูโดยเฉพาะบทที่มีชื่อว่า [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) รวมถึงในชุดบรรยายที่ตีพิมพ์ภายใต้ชื่อ: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm) (นอกจากนี้ยังควรอ่าน The Anti-Capitalistic Mentality [ที่นี่](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) และ [ที่นี่](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm))
+ในความเป็นจริง การวิเคราะห์แบบมาร์กซิสต์บิดเบือนความเป็นจริงทางประวัติศาสตร์ของการปฏิวัติอุตสาหกรรม ลุดวิก ฟอน มีเซส ได้ชี้แจงประเด็นนี้ในตำราเศรษฐศาสตร์ของเขา [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (ดูโดยเฉพาะบทที่มีชื่อว่า [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) รวมถึงในชุดบรรยายที่ตีพิมพ์ภายใต้ชื่อ: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm) (นอกจากนี้ยังควรอ่าน The Anti-Capitalistic Mentality [ที่นี่](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) และ [ที่นี่](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm))
 
 ![image](assets/en/014.webp)
 

@@ -2312,7 +2312,7 @@ Loomulikult võivad need liidesed sõltuvalt kuupäevast, mil te selle kursusega
 
 #### Näide liidese kohta
 
-See Rusti koodilõik näitab [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) liidest (asendatav vara). See kood on võetud standardse RGB raamatukogu failist `rgb20.rs`. Vaatame seda, et mõista Interface'i struktuuri ja seda, kuidas see loob silla ühelt poolt äriloogika (defineeritud Schema's) ja teiselt poolt rahakottidele ja kasutajatele avatud funktsionaalsuse vahel.
+See Rusti koodilõik näitab [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) liidest (asendatav vara). See kood on võetud standardse RGB raamatukogu failist `rgb20.rs`. Vaatame seda, et mõista Interface'i struktuuri ja seda, kuidas see loob silla ühelt poolt äriloogika (defineeritud Schema's) ja teiselt poolt rahakottidele ja kasutajatele avatud funktsionaalsuse vahel.
 
 ```rust
 // ...

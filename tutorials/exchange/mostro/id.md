@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - Kunci pribadi Nostr** (format `nsec1...`)
- - Buat kunci perdagangan khusus di [nostrkeygen.com](https://nostrkeygen.com/)
+ - Buat kunci perdagangan khusus di [nostrkeygen.com](https://nostrtool.com/)
  - Penting**: Jangan pernah menggunakan tombol Nostr pribadi utama Anda
  - Simpan kunci pribadi Anda di tempat yang aman (pengelola kata sandi)
 
@@ -962,7 +962,7 @@ Bagi para pengguna bitcoin yang lebih memilih otonomi dan kerahasiaan, Mostro me
 
 
 - [Repositori GitHub utama](https://github.com/MostroP2P/mostro)
-- [Klien web](https://github.com/MostroP2P/mostro-web)
+- [Klien web](https://github.com/MostroP2P/app)
 - [Pelanggan CLI](https://github.com/MostroP2P/mostro-cli)
 
 

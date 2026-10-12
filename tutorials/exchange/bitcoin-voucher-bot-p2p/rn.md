@@ -7,7 +7,7 @@ description: Uko wogura no kugurisha Bitcoin P2P ukoresheje ubuhinga bwa Bitcoin
 
 
 
-Turacariko twumva ivya BitcoinVoucherBot, bot ya Telegram yaremewe kugura Bitcoin ata [KYC] Ikibabaje, kuva mu kwezi kwa 11/2025, BitcoinVoucherBot mu buryo bwayo buhurikiye hamwe ntigishobora gukoreshwa nk’igikorwa ata KYC.
+Turacariko twumva ivya BitcoinVoucherBot, bot ya Telegram yaremewe kugura Bitcoin ata [KYC](https://planb.academy/resources/glossary/kyc-know-your-customer) Ikibabaje, kuva mu kwezi kwa 11/2025, BitcoinVoucherBot mu buryo bwayo buhurikiye hamwe ntigishobora gukoreshwa nk’igikorwa ata KYC.
 
 
 
@@ -25,13 +25,13 @@ Mu wallets zishigikiwe turashobora gusangamwo:
 
 
 
-- [Sats.Mobi](Umugambi/amashure/inyigisho/wallet/telefone ngendanwa/satsmobi-ea04e1cd-609a-4ea8-9c61-f9de1fe3a1fb) (Bot Telegram) (Ubucungezi)
-- [Wallet Ya Satoshi](wallet-ya-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7) na Nonstop-
-- [Breez] (Ntibishobora gucungera)
+- [Sats.Mobi](https://planb.academy/tutorials/wallet/mobile/satsmobi-ea04e1cd-609a-4ea8-9c61-f9de1fe3a1fb) (Bot Telegram) (Ubucungezi)
+- [Wallet Ya Satoshi](https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7) na Nonstop-
+- [Breez](https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06) (Ntibishobora gucungera)
 
 
 
-Canke wallet iyo ari yo yose ifise "Address y'umuravyo" kandi itanga invoice ya Bolt11. wallets zitanga invoice ya Bolt12 ntizishigikirwa ubu. Ushaka kumenya vyinshi raba insobanuro ya [Bolt](https://umugambi.ishure/ibikoresho/insobanuro y'amajambo/bolt).
+Canke wallet iyo ari yo yose ifise "Address y'umuravyo" kandi itanga invoice ya Bolt11. wallets zitanga invoice ya Bolt12 ntizishigikirwa ubu. Ushaka kumenya vyinshi raba insobanuro ya [Bolt](https://planb.academy/resources/glossary/bolt).
 
 
 
@@ -57,8 +57,8 @@ Ubwa mbere, nimba utarayishira kuri telefone yawe, nuronke Wallet of Satoshi.
 
 
 
-- [Ikiganiro ca Google](ibisobanuro?id=com.icumba c'uburaro ca Satoshi.wallet&pli=1)
-- [Iduka rya porogaramu] (iporogaramu
+- [Ikiganiro ca Google](https://play.google.com/store/apps/details?id=com.livingroomofsatoshi.wallet&pli=1)
+- [Iduka rya porogaramu](https://apps.apple.com/au/app/wallet-of-satoshi/id1438599608) (iporogaramu
 
 
 
@@ -96,9 +96,9 @@ Ubu rero nuhitemwo ingene ushaka gushika ku rubuga.
 
 
 
-- [Igikoresho c'Igiciro c'Igiciro] (Igikoresho c'Igiciro c'Igiciro? gutangura=55360009) (Telegram)
-- [Ibiro vya Pc / Telefone ngendanwa y'umucukumbuzi](https://p2p
-- [Tor .Igitunguru](http://igitunguru/?ref=55360009)
+- [Igikoresho c'Igiciro c'Igiciro](https://t.me/BitcoinVoucherBot?start=55360009) (Igikoresho c'Igiciro c'Igiciro? gutangura=55360009) (Telegram)
+- [Ibiro vya Pc / Telefone ngendanwa y'umucukumbuzi](https://p2p.bitcoinvoucher.bot/?ref=55360009)
+- [Tor .Igitunguru](http://umembxtpokml6fkogemcfnpyt3qqvyw6u3hnvwinevo3gvoe6j7vfyad.onion/?ref=55360009)
 
 
 

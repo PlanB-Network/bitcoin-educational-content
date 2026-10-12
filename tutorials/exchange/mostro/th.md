@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - คีย์ส่วนตัว Nostr** (รูปแบบ `nsec1...`)
- - สร้างคีย์การซื้อขายเฉพาะที่ [nostrkeygen.com](https://nostrkeygen.com/)
+ - สร้างคีย์การซื้อขายเฉพาะที่ [nostrkeygen.com](https://nostrtool.com/)
  - สำคัญ**: อย่าใช้กุญแจ Nostr ส่วนตัวหลักของคุณ
  - เก็บคีย์ส่วนตัวของคุณไว้ในที่ปลอดภัย (ตัวจัดการรหัสผ่าน)
 
@@ -962,7 +962,7 @@ Mostro P2P แสดงถึงทางเลือกที่มีศัก
 
 
 - [Main GitHub repository](https://github.com/MostroP2P/mostro)
-- [เว็บไคลเอนต์](https://github.com/MostroP2P/mostro-web)
+- [เว็บไคลเอนต์](https://github.com/MostroP2P/app)
 - [ลูกค้า CLI](https://github.com/MostroP2P/mostro-cli)
 
 

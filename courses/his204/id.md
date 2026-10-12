@@ -309,7 +309,7 @@ Abbé de Saint-Pierre berargumen bahwa pemerintahan Louis XIV, dengan istananya 
 
 Dalam pemikiran ekonominya, ia secara konsisten menerapkan prinsip utilitas, mirip dengan yang kelak dilakukan Jeremy Bentham, dan sering menawarkan wawasan yang tepat. Jujur saja, ia masih dipengaruhi oleh gagasan merkantilis, yang belum sepenuhnya ditinggalkan siapa pun pada masa itu.
 
-Meski begitu, Abbé de Saint-Pierre membuat beberapa pengamatan akurat tentang ekonomi. Bahkan sebelum *Condillac*, yang sering dianggap sebagai pencetus gagasan ini, ia menyatakan dengan jelas bahwa dalam setiap pertukaran, kedua belah pihak diuntungkan. Ini dapat ditemukan dalam ["Project for Improving France's Trade"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) tahun 1733, di mana ia menulis:
+Meski begitu, Abbé de Saint-Pierre membuat beberapa pengamatan akurat tentang ekonomi. Bahkan sebelum *Condillac*, yang sering dianggap sebagai pencetus gagasan ini, ia menyatakan dengan jelas bahwa dalam setiap pertukaran, kedua belah pihak diuntungkan. Ini dapat ditemukan dalam ["Project for Improving France's Trade"](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) tahun 1733, di mana ia menulis:
 
 > Ketika terjadi penjualan antar-pedagang, penjual memperoleh keuntungan, begitu pula pembeli; sebab jika tidak ada manfaat nyata atau yang dirasakan oleh kedua belah pihak, penjual tidak akan menjual pada harga sekian, begitu pula pembeli, di sisi lain, tidak akan membeli pada harga sekian.
 
@@ -469,7 +469,7 @@ Hasil intelektual dari lingkaran Gournay memiliki dampak besar pada sejarah gaga
 
 ![Kajian tentang penerbitan ekonomi di Prancis, 1566-1789.](assets/en/035.webp)
 
-Untuk menyebarkan minat pada diskusi ekonomi di kalangan penduduk Prancis, Gournay dan teman-temannya berupaya membuatnya dapat diakses melalui novel. Setelah *Memoir on the Trades*, yang mengkritik serikat, Gournay dan Cliquot-Blervache membantu Gabriel-François Coyer menulis novel satir pendek berjudul Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Untuk menyebarkan minat pada diskusi ekonomi di kalangan penduduk Prancis, Gournay dan teman-temannya berupaya membuatnya dapat diakses melalui novel. Setelah *Memoir on the Trades*, yang mengkritik serikat, Gournay dan Cliquot-Blervache membantu Gabriel-François Coyer menulis novel satir pendek berjudul Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Abbé Gabriel-François Coyer, "Chinki"](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ Dalam *Maxims*-nya yang telah dikutip sebelumnya, Quesnay menyatakan:
 
 Kaum Fisiokrat telah menyaksikan kerusakan yang disebabkan oleh campur tangan pemerintah, terutama dalam perdagangan gandum. Kita harus mengakui, kata mereka, bahwa otoritas tidak akan pernah bisa mengelola perdagangan sebaik yang dilakukan individu, karena otoritas itu perlu merespons setiap kebutuhan dan bereaksi terhadap setiap perubahan permintaan atau penawaran. Semua ini jauh melampaui kemampuan bahkan pemerintah paling bijaksana yang dapat dibayangkan. Oleh karena itu, perlu membiarkan segala sesuatu berjalan dan mengalir dengan sendirinya.
 
-Bermanfaat secara alami, perdagangan harus sepenuhnya dan sempurna bebas. Salah satu anggota mereka, Le Trosne, bahkan menulis sebuah pamflet berjudul [*The Freedom of the Grain Trade: Always Useful, Never Harmful*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Bermanfaat secara alami, perdagangan harus sepenuhnya dan sempurna bebas. Salah satu anggota mereka, Le Trosne, bahkan menulis sebuah pamflet berjudul [*The Freedom of the Grain Trade: Always Useful, Never Harmful*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/).
 
 ### Prinsip kelima: Semua manusia bersaudara
 

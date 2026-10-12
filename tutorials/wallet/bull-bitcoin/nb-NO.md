@@ -106,7 +106,7 @@ Før vi går dypere inn i dette, la oss ta en titt på startskjermen for å orie
 - Få tilgang til `Bitcoin Bull Exchange` for å `kjøpe, selge eller betale` (dette avhenger av jurisdiksjonen og kan kreve KYC).
 - overføring av penger mellom lommebøker
 - `Secure Bitcoin` er lik Onchain Bitcoin Wallet
-- lynbetalinger via Lightning- / Liquid Network *(Merk: Bull Bitcoin Wallet gjør det mulig å foreta og motta betalinger via Lightning. Midler mottatt via Lightning lagres i [*Liquid-nettverket](https://liquid.net/) (i Wallet Instant Payments) takket være en automatisk utveksling via [*Boltz exchange](https://boltz.exchange/). Dette gir deg muligheten til å samhandle med Lightning uten å måtte administrere likviditetskanaler, samtidig som du forblir i egen depot)
+- lynbetalinger via Lightning- / Liquid Network *(Merk: Bull Bitcoin Wallet gjør det mulig å foreta og motta betalinger via Lightning. Midler mottatt via Lightning lagres i [*Liquid-nettverket](https://liquid.net/) (i Wallet Instant Payments) takket være en automatisk utveksling via Boltz exchange. Dette gir deg muligheten til å samhandle med Lightning uten å måtte administrere likviditetskanaler, samtidig som du forblir i egen depot)
 - sende og motta penger
 
 
@@ -418,6 +418,8 @@ For å fullføre transaksjonen må du gi avsenderen `adressen` eller `URI`. Dett
 
 
 
+> **Merk (oktober 2026):** Boltz stanset alle swapper 3. august 2026, og nettstedet er offline. Lightning-betalingene i Bull Bitcoin Wallet bygger på Boltz og fungerer kanskje ikke lenger.
+
 Bull Bitcoin Wallet lar deg også sende og motta betalinger via Lightning Network. En viktig funksjon er at midler som mottas via Lightning, automatisk byttes og lagres på Liquid Network i Wallet for øyeblikkelige betalinger. Denne tjenesten drives av `Boltz`. Dette designet gjør at du kan nyte godt av hastigheten og de lave kostnadene ved Lightning uten kompleksiteten ved å administrere likviditetskanaler, samtidig som du opprettholder full selvforvaring av midlene dine. Selv om denne hybridtilnærmingen er selvforvaltende og unngår kompleksiteten ved å administrere kanaler, introduserer den en tredjepartstjeneste (Boltz), et lite byttegebyr og avhengighet av Liquid Networks føderasjon av funksjonærer som nøkkelinnehavere, noe som er forskjellig fra en tradisjonell, ikke-forvaltende Lightning wallet der du administrerer dine egne kanaler. Du kan lese mer om Liquid og styringsmodellen her:
 
 
@@ -508,6 +510,8 @@ Du kan enten skanne en Lightning Address (f.eks. `runningbitcoin@rizful.com`), s
 
 *Merk at minimumsbeløp og gebyrer gjelder*
 
+
+> **Merk (oktober 2026):** Boltz stanset alle swapper 3. august 2026, og nettstedet er offline. Lightning-betalingene i Bull Bitcoin Wallet bygger på Boltz og fungerer kanskje ikke lenger.
 
 Bull Bitcoin Wallet sender Lightning-betalinger ved å ta ut midler fra din `Instant Payments Wallet` (på Liquid) og bytte dem via `Boltz`. Denne hybridtilnærmingen er helt selvforvaltende og unngår de høye on-chain-gebyrene for å administrere en dedikert Lightning-kanal, men den krever at du betaler et `byttegebyr`. Den laveste kostnaden får du ved å sende direkte til en mottakers Liquid-adresse hvis de også bruker en Bull Bitcoin wallet.
 

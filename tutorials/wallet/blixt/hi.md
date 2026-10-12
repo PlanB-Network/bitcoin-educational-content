@@ -11,7 +11,7 @@ description: अपने मोबाइल पर शक्तिशाली 
 [Blixt Wallet](https://blixtwallet.com/) का उपयोग करके, अपने मोबाइल पर एक पूर्ण LN नोड, चाहे आप कहीं भी हों।
 
 
-यदि आपने कभी Bitcoin Lightning Network का उपयोग नहीं किया है, तो शुरू करने से पहले, [कृपया Lightning Network (LN) के बारे में यह सरल स्पष्टीकरण सादृश्य पढ़ें](https://darth-coin.github.io/beginner/LN-airport-analogy-en.html)।
+यदि आपने कभी Bitcoin Lightning Network का उपयोग नहीं किया है, तो शुरू करने से पहले, [कृपया Lightning Network (LN) के बारे में यह सरल स्पष्टीकरण सादृश्य पढ़ें](https://darth-coin.github.io/beginner/ln-airport-analogy-en.html)।
 
 
 ## महत्वपूर्ण पहलू:
@@ -22,11 +22,11 @@ description: अपने मोबाइल पर शक्तिशाली 
 
 
 
-- Blixt LND (aezeed) को Wallet बैकएंड के रूप में उपयोग कर रहा है, इसलिए इसमें अन्य प्रकार के Bitcoin वॉलेट आयात करने का प्रयास न करें। [यहाँ आपने Wallet Mnemonic बीजों के प्रकारों को समझाया है](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/)। और यहाँ [सभी प्रकार के वॉलेट्स की अधिक विस्तृत सूची](https://walletsrecovery.org/) है। इसलिए यदि आपके पास पहले LND नोड था, तो आप seed और backup.channels को Blixt में आयात कर सकते हैं, [जैसा कि इस गाइड में समझाया गया है](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html)।
+- Blixt LND (aezeed) को Wallet बैकएंड के रूप में उपयोग कर रहा है, इसलिए इसमें अन्य प्रकार के Bitcoin वॉलेट आयात करने का प्रयास न करें। [यहाँ आपने Wallet Mnemonic बीजों के प्रकारों को समझाया है](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/)। और यहाँ [सभी प्रकार के वॉलेट्स की अधिक विस्तृत सूची](https://walletsrecovery.org/) है। इसलिए यदि आपके पास पहले LND नोड था, तो आप seed और backup.channels को Blixt में आयात कर सकते हैं, [जैसा कि इस गाइड में समझाया गया है](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html)।
 
 
 
-- इस गाइड के अंत में आपको ["टिप्स और ट्रिक्स"](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips) वाला एक विशेष अनुभाग मिलेगा
+- इस गाइड के अंत में आपको ["टिप्स और ट्रिक्स"](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#tips) वाला एक विशेष अनुभाग मिलेगा
 
 
 
@@ -65,7 +65,7 @@ description: अपने मोबाइल पर शक्तिशाली 
 
 - "Tor सक्षम करें" - उपयोगकर्ता Tor नेटवर्क के साथ शुरू कर सकता है, विशेष रूप से यदि वह पुराने LND नोड को पुनर्स्थापित करना चाहता है जो केवल Tor साथियों के साथ चल रहा था।
 - "Bitcoin नोड सेट करें" - यदि उपयोगकर्ता न्यूट्रिनो के माध्यम से ब्लॉक को सिंक करने के लिए सीधे अपने नोड से कनेक्ट करना चाहता है, तो वह इसे स्वागत स्क्रीन से सीधे कर सकता है। यह विकल्प उस स्थिति में भी अच्छा है जब आपका इंटरनेट कनेक्शन या टोर, डिफ़ॉल्ट Bitcoin नोड (node.blixtwallet.com) से कनेक्ट करने के लिए इतना स्थिर नहीं है।
-- जल्द ही इसमें भाषा जोड़ दी जाएगी, ताकि उपयोगकर्ता सीधे उस भाषा से शुरुआत कर सके जो उसके लिए सुविधाजनक हो। यदि आप अन्य भाषाओं में अनुवाद के साथ इस ओपन सोर्स प्रोजेक्ट में योगदान देना चाहते हैं, तो कृपया यहाँ शामिल हों](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/)।
+- जल्द ही इसमें भाषा जोड़ दी जाएगी, ताकि उपयोगकर्ता सीधे उस भाषा से शुरुआत कर सके जो उसके लिए सुविधाजनक हो। यदि आप अन्य भाषाओं में अनुवाद के साथ इस ओपन सोर्स प्रोजेक्ट में योगदान देना चाहते हैं, तो कृपया यहाँ शामिल हों](https://explore.transifex.com/blixt-wallet/blixt-wallet/)।
 
 
 ### विकल्प A - नया Wallet बनाएं
@@ -241,7 +241,7 @@ Bitcoin लाइटनिंग की शुभकामनाएँ!
 याद रखें, अध्याय एक में "प्रथम संपर्क" में स्वागत स्क्रीन में 2 विकल्प थे:
 
 
-- [विकल्प A](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - नया Wallet बनाएं
+- [विकल्प A](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#option-a) - नया Wallet बनाएं
 - विकल्प बी - Wallet को पुनर्स्थापित करें
 
 
@@ -251,7 +251,7 @@ Bitcoin लाइटनिंग की शुभकामनाएँ!
 ### विकल्प बी - Wallet को पुनर्स्थापित करें
 
 
-अतीत में मैंने [क्रैश हुए अम्ब्रेल नोड को कैसे पुनर्स्थापित करें](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html) के बारे में एक समर्पित गाइड लिखा था, जहाँ मैंने अम्ब्रेल से seed + channel.backup फ़ाइल का उपयोग करके त्वरित पुनर्स्थापना प्रक्रिया के रूप में ब्लिक्सट का उपयोग करने की विधि का भी उल्लेख किया था।
+अतीत में मैंने [क्रैश हुए अम्ब्रेल नोड को कैसे पुनर्स्थापित करें](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html) के बारे में एक समर्पित गाइड लिखा था, जहाँ मैंने अम्ब्रेल से seed + channel.backup फ़ाइल का उपयोग करके त्वरित पुनर्स्थापना प्रक्रिया के रूप में ब्लिक्सट का उपयोग करने की विधि का भी उल्लेख किया था।
 
 
 मैंने एक गाइड भी लिखा है कि कैसे अपने Blixt नोड को पुनर्स्थापित करें या अपने Blixt को किसी अन्य डिवाइस पर माइग्रेट करें, [यहां](https://blixtwallet.github.io/faq#blixt-restore)।
@@ -663,7 +663,7 @@ asia.blixtwallet.com
 - [ब्लिक्सट प्रस्तुति - प्रोमो वीडियो](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [ब्लिक्सट गर्ल्स कैलेंडर](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - प्रोमो वीडियो (आप LN के अपने पहले उपयोग का परीक्षण कर सकते हैं)
 - [विभिन्न भाषाओं में Blixt का उपयोग करने के पहले चरणों के साथ प्रिंट करने योग्य A4 फ़्लायर](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt अपनी वेबसाइट पर या एक समर्पित संस्करण वेब पर एक पूर्ण कार्यात्मक डेमो](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) भी प्रदान करता है, ताकि वास्तविक दुनिया में उपयोग शुरू करने से पहले पूर्ण अनुभव परीक्षण किया जा सके।
+- [Blixt अपनी वेबसाइट पर या एक समर्पित संस्करण वेब पर एक पूर्ण कार्यात्मक डेमो](https://blixtwallet.github.io/) भी प्रदान करता है, ताकि वास्तविक दुनिया में उपयोग शुरू करने से पहले पूर्ण अनुभव परीक्षण किया जा सके।
 
 
 ---

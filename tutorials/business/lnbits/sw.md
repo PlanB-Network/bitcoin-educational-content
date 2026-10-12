@@ -42,7 +42,7 @@ KUMBUKA: pesa zote ambazo "wateja" wako huweka kwenye akaunti zao za benki za LN
 ## Jukwaa la onyesho
 
 
-Onyesho linaweza kupatikana katika [https://legend.lnbits.com](https://legend.lnbits.com). Inafanya kazi kikamilifu na inaweza kutumika kujifunza kuhusu Lightning Network na vipengele vya LNbits na LNURL kwa ujumla. Ingawa hatuwezi kukuzuia, tungependa kukuuliza usiitumie kwa usanidi wako wa uzalishaji. Sio tu kwamba tunafanya kazi kwenye server mara kwa mara ili kujaribu vipengele vipya lakini pia tungependa kukuhimiza kuendesha node yako mwenyewe na LNbits kwa njia huru. Iwapo unafikiri kuwa kuendesha node kunaulizwa sana kwa sasa unaweza kuunganisha LNbits kwa huduma ya ufadhili ya msimamizi katika cloud kama vile Opennode, Luna au Votage au kwa Tipbot ya Lightning kwenye Telegram ili kutaja baadhi tu.
+Onyesho linaweza kupatikana katika [https://demo.lnbits.com](https://demo.lnbits.com). Inafanya kazi kikamilifu na inaweza kutumika kujifunza kuhusu Lightning Network na vipengele vya LNbits na LNURL kwa ujumla. Ingawa hatuwezi kukuzuia, tungependa kukuuliza usiitumie kwa usanidi wako wa uzalishaji. Sio tu kwamba tunafanya kazi kwenye server mara kwa mara ili kujaribu vipengele vipya lakini pia tungependa kukuhimiza kuendesha node yako mwenyewe na LNbits kwa njia huru. Iwapo unafikiri kuwa kuendesha node kunaulizwa sana kwa sasa unaweza kuunganisha LNbits kwa huduma ya ufadhili ya msimamizi katika cloud kama vile Opennode, Luna au Votage au kwa Tipbot ya Lightning kwenye Telegram ili kutaja baadhi tu.
 
 
 ## Kipeperushi cha LNbits
@@ -68,7 +68,7 @@ Kabla ya kusakinisha LNbits hakikisha kuwa umesoma na kuelewa miongozo ifuatayo 
 
 
 - [Mwongozo wa LND](https://docs.lightning.engineering/) | Inasakinisha LND
-- [Mfano wa Usanidi wa LND](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | Mipangilio ya LND
+- [Mfano wa Usanidi wa LND](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | Mipangilio ya LND
 - [Mwongozo wa CLN](https://docs.corelightning.org/docs/installation) | Inasakinisha CLN
 - [LUDs](https://github.com/lnurl/luds) LNURL Maalum | [NIPs](https://github.com/nostr-protocol/nips) Aina ya Nostr
 - [Endesha Watchtower](https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | Muhimu sana!
@@ -80,7 +80,7 @@ Miongozo ya kina zaidi kwa kutumia LNbits katika hali maalum za utumiaji hapa:
 
 - [Kuanza na LNbits](https://darthcoin.substack.com/p/getting-started-lnbits) | Mwongozo wa hifadhi ndogo
 - [Mambo ya Kufanya kwa usalama wako ukitumia LNbits](https://youtu.be/i5FQf96e6zg) | Video ya Youtube
-- [Benki za Kibinafsi kwenye Lightning Network](https://darthcoin.substack.com/p/Bitcoin-benki-za-binafsi-over-lightning) | Mwongozo wa hifadhi ndogo
+- [Benki za Kibinafsi kwenye Lightning Network](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | Mwongozo wa hifadhi ndogo
 - [Endesha wallet za mlezi kwa marafiki na familia yako](https://darthcoin.substack.com/p/the-bank-of-lnbits) | Mwongozo wa hifadhi ndogo
 - [LNbits kwa mkahawa/hoteli ndogo](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | Mwongozo wa hifadhi ndogo
 - [Kutumia nakala ya LNbits Streamer](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | Mwongozo wa hifadhi ndogo
@@ -115,7 +115,7 @@ Unaweza pia kupata video kwenye [Usanidi uliowekwa kwenye VPS ukitumia PostgreSQ
 [Matukio zaidi ya usakinishaji hapa](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
 
-Kwa vifurushi vya programu, tafadhali rejelea hati zao mahususi kuhusu LNbits: [Citadel](https://runcitadel.space) | [Mwavuli](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
+Kwa vifurushi vya programu, tafadhali rejelea hati zao mahususi kuhusu LNbits: [Mwavuli](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
 ### LNbits SaaS
@@ -201,17 +201,19 @@ Ili kusimba macaroon yako, endesha `./venv/bin/python lnbits/wallets/macaroon/ma
   - `LNBITS_KEY`: my-lnbits-AdminKey
 - Server ya Onyesho ya Legend ya LNbits (!! USITUMIE hii kwa madhumuni ya uzalishaji/biashara, kwa majaribio pekee !!)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_ENDPOINT`: https://demo.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
 #### Lightning TipBot
+
+> **Onyo (Oktoba 2026):** LightningTipBot na ln.tips zimefungwa; kufungwa kulitangazwa tarehe 29 Aprili 2024. Chanzo hiki cha ufadhili hakifanyi kazi tena, isipokuwa ukiendesha bot yako mwenyewe.
 
 
 Ili kuunganisha [Kidokezo cha Lightning](https://t.me/LightningTipBot) kutoka kwa Telegramu utahitaji kuweka kigezo kifuatacho:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
-  - `LNBITS_ENDPOINT`: https://LN.tips
+  - `LNBITS_ENDPOINT`: `https://LN.tips`
   - `LNBITS_KEY`: Ili kupata Ufunguo utahitaji kuendesha /api kwenye gumzo la faragha na LightningTipBot kwenye Telegram mara moja.
 
 
@@ -228,11 +230,13 @@ Maelezo zaidi angalia [IBEX API-Documentation](https://ibexpay-api.readme.io/ref
 
 #### LNPay
 
-Ili msikilizaji wa Invoice afanye kazi una URL inayoweza kufikiwa na umma katika LNbits zako na unatakiwa kusanidi [LNPay webhook](https://dashboard.lnpay.co/webhook/) inayoelekeza kwenye `<mpangishi wako wa LNbits>/Wallet/webhook` kwa tukio la "Wallet Pokea" na hakuna tukio la Kupokea. Mipangilio `https://mylnbits/Wallet/webhook` itakuwa url ya mwisho ambayo itaarifiwa kuhusu malipo yoyote.
+> **Onyo (Oktoba 2026):** LNPay inaonekana kuwa imesitishwa: kikoa cha lnpay.co hakijibu tena. Huenda chanzo hiki cha ufadhili hakitumiki tena.
+
+Ili msikilizaji wa Invoice afanye kazi una URL inayoweza kufikiwa na umma katika LNbits zako na unatakiwa kusanidi LNPay webhook inayoelekeza kwenye `<mpangishi wako wa LNbits>/Wallet/webhook` kwa tukio la "Wallet Pokea" na hakuna tukio la Kupokea. Mipangilio `https://mylnbits/Wallet/webhook` itakuwa url ya mwisho ambayo itaarifiwa kuhusu malipo yoyote.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_ENDPOINT`: `https://api.lnpay.co/v1/`
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
@@ -513,7 +517,7 @@ Ambapo unabadilisha f8a43fc363ea428db5c53b3559935f1f na thamani inayokuja kabla 
 ##### LNURL ya Lightning-Address kinyume chake
 
 
-Jaribu hii [encoder](https://lnurl-codec.netlify.app/) kutoka fiatjaf au [hii](https://lightningdecoder.com/). Ili kulipa au kuangalia LNURLp unaweza pia kutumia [LNurlpay](https://wwww.lnurlpay.com/). Inapaswa kusema HTTPS SI HTTP.
+Jaribu hii [encoder](https://lnurl-codec.netlify.app/) kutoka fiatjaf au [hii](https://lightningdecoder.com/). Ili kulipa au kuangalia LNURLp unaweza pia kutumia [LNurlpay](https://www.lnurlpay.com/). Inapaswa kusema HTTPS SI HTTP.
 
 
 
@@ -536,7 +540,9 @@ Kuna njia mbili za Exchange Sats kutoka onchain BTC hadi LN BTC (resp. to LNbits
 ###### Kupitia huduma ya ubadilishaji wa nje.
 
 
-Watumiaji wengine ambao hawawezi kufikia LNb yako wanaweza kutumia huduma ya kubadilishana kama vile [Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) au [ZigZag](https://zigza).g. Hii ni muhimu ikiwa utatoa tu ankara za LNURL/LN kutoka kwa mfano wako wa LNbits, lakini mlipaji ana onchain Sats pekee kwa hivyo atalazimika kubadilisha hizo Sats kwanza upande wao. Utaratibu ni rahisi: mtumiaji hutuma onchain btc kwa huduma ya kubadilishana na hutoa LNURL / LN Invoice kutoka LNbits kama marudio ya kubadilishana.
+Watumiaji wengine ambao hawawezi kufikia LNb yako wanaweza kutumia huduma ya kubadilishana kama vile Boltz, [FixedFloat](https://fixedfloat.com/) au [ZigZag](https://zigza).g. Hii ni muhimu ikiwa utatoa tu ankara za LNURL/LN kutoka kwa mfano wako wa LNbits, lakini mlipaji ana onchain Sats pekee kwa hivyo atalazimika kubadilisha hizo Sats kwanza upande wao. Utaratibu ni rahisi: mtumiaji hutuma onchain btc kwa huduma ya kubadilishana na hutoa LNURL / LN Invoice kutoka LNbits kama marudio ya kubadilishana.
+
+> **Onyo (Oktoba 2026):** Boltz ilisitisha ubadilishaji wote tarehe 3 Agosti 2026 baada ya udhaifu kadhaa kutumiwa vibaya, na tovuti yake haipatikani. Boltz na kiendelezi cha Boltz cha LNbits haviwezi kutumika kwa sasa.
 
 
 ###### Kwa kutumia kiendelezi cha Onchain na Boltz LNbits.
@@ -594,7 +600,7 @@ Iwapo una Hitilafu "aina ya Hash isiyotumika" unapotumia ypub katika kiendelezi 
 ### Vyombo na Ujenzi na LNbits
 
 
-LNbits ina kila aina ya [API zilizofunguliwa](https://legend.lnbits.com/docs) na zana za kupanga na kuunganisha kwenye vifaa vingi tofauti kwa gazilioni ya visa vya utumiaji.
+LNbits ina kila aina ya [API zilizofunguliwa](https://demo.lnbits.com/docs) na zana za kupanga na kuunganisha kwenye vifaa vingi tofauti kwa gazilioni ya visa vya utumiaji.
 
 
 Ukiwa mgeni anza na [Maonyesho ya MakerBits](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) kutoka kwa Ben Arc kuhusu kujenga vifaa kulingana na LNbits.

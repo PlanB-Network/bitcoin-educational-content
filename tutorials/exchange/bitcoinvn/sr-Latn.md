@@ -65,7 +65,7 @@ Ručno unesite iznos koji želite da zamenite i koristite [dnevne limite](https:
 Zapamtite da **stope transakcija variraju**, zato uvek proverite konačnu cenu pre potvrđivanja.
 
 
-**Nalog nije potreban sa** dnevnim transakcijama ograničenim na VND 250,000 (~ USD $8). Dalje informacije su dostupne u našim [pravilima o bankovnim transferima](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**Nalog nije potreban sa** dnevnim transakcijama ograničenim na VND 250,000 (~ USD $8). Dalje informacije su dostupne u našim [pravilima o bankovnim transferima](https://support.bitcoinvn.io/help/en-us/4-orders-payments/17-vnd-bank-transfer).
 
 
 **Upozorenje**: naknada za mrežu je obično jeftinija kada izaberete Lightning Network u poređenju sa metodom transakcije na lancu.

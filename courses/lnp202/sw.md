@@ -415,7 +415,9 @@ Faida kubwa ya mbinu hii, ikilinganishwa na wallet ya kawaida ya kuhifadhi umeme
 
 
 
-Kwingineko nyingi zinazotoa aina hii ya utendaji hutegemea [Boltz](https://boltz.exchange/) kwa sehemu ya kiufundi ya ubadilishaji.
+Kwingineko nyingi zinazotoa aina hii ya utendaji hutegemea Boltz kwa sehemu ya kiufundi ya ubadilishaji.
+
+> **Kumbuka (Oktoba 2026):** Boltz ilisitisha ubadilishaji wote tarehe 3 Agosti 2026 na tovuti yake haipatikani mtandaoni. Pochi zinazotegemea Boltz huenda zisitoe tena kipengele hiki.
 
 
 

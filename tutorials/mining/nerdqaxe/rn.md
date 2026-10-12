@@ -12,7 +12,7 @@ description: Ni gute wocukura ukoresheje NerdQaxe?
 
 
 
-Amasanamu yavuye kuri [umurongo wa YouTube *Ivyigwa vya BTC*](https://www.
+Amasanamu yavuye kuri [umurongo wa YouTube *Ivyigwa vya BTC*](https://www.youtube.com/@BTCSessions).
 
 
 
@@ -24,7 +24,7 @@ Amasanamu yavuye kuri [umurongo wa YouTube *Ivyigwa vya BTC*](https://www.
 
 
 
-Amasanamu yavuye kuri [umurongo wa YouTube wa *Vortex Bitcoin*].
+Amasanamu yavuye kuri [umurongo wa YouTube wa *Vortex Bitcoin*](https://www.youtube.com/@VortexBitcoin).
 
 
 
@@ -36,7 +36,7 @@ Amasanamu yavuye kuri [umurongo wa YouTube wa *Vortex Bitcoin*].
 
 
 
-Amasanamu yavuye kuri [umurongo wa YouTube wa *Vortex Bitcoin*].
+Amasanamu yavuye kuri [umurongo wa YouTube wa *Vortex Bitcoin*](https://www.youtube.com/@VortexBitcoin).
 
 
 

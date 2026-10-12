@@ -10,7 +10,7 @@ ___
 
 
 
-*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Florian Duchemin vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](ku rubuga rwacu/uruhusha/ku-NC/4.0/). Birashoboka ko hari ivyo bahinduye mu canditswe c’intango.*
+*Iyi nyigisho ishingiye ku bintu vy’umwimerere vya Florian Duchemin vyasohowe kuri [IT-Connect](https://www.it-connect.fr/). Uruhusha [CC KURI-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Birashoboka ko hari ivyo bahinduye mu canditswe c’intango.*
 
 
 
@@ -98,7 +98,7 @@ Birashoboka cane gutera router munsi ya Linux ukayishirako ntopng. Intambamyi im
 
 
 
-Iciyumviro: ku basomyi b'ingingo [Rema umurongo wa Wifi ukoresheje Raspberry Pi na RaspAP](https://www.it-connect.fr/) birashoboka cane gushiramwo ntopcurate statistics kuri Rpi yawe kugira ngo ubone!
+Iciyumviro: ku basomyi b'ingingo [Rema umurongo wa Wifi ukoresheje Raspberry Pi na RaspAP](https://www.it-connect.fr/creer-un-routeur-wifi-avec-un-raspberry-pi-et-raspap/) birashoboka cane gushiramwo ntopcurate statistics kuri Rpi yawe kugira ngo ubone!
 
 
 

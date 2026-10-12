@@ -27,7 +27,7 @@ Zahvaljujući partnerstvu sa MoonPay, takođe je moguće kupovati i prodavati Bi
 ## 2. Kako instalirati Rumble Wallet?
 
 
-Aplikacija se može instalirati na oba [Android](https://play.google.com/store/apps/details?id=com.wallet.rumble) i iOS putem njihovih zvaničnih prodavnica.
+Aplikacija se može instalirati na oba [Android](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet) i iOS putem njihovih zvaničnih prodavnica.
 
 
 ![Image](assets/fr/01.webp)

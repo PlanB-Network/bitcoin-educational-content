@@ -3,10 +3,9 @@ name: Boltz
 description: Byt mellan olika Bitcoin-lager samtidigt som du behåller kontrollen.
 ---
 
-
 ![cover](assets/cover.webp)
 
-
+> **Varning (oktober 2026):** Boltz stoppade alla swappar den 3 augusti 2026 efter att flera sårbarheter hade utnyttjats, och webbplatsen är offline. Länkarna och stegen i denna handledning fungerar inte längre. Vi behåller sidan som referens tills den uppdateras.
 
 Sedan lanseringen 2009 har Bitcoin:s peer-to-peer-system för elektroniska kontanter vuxit exponentiellt och gett upphov till lösningar som idag gör det möjligt att använda systemet direkt i vår vardag, framför allt genom Lightning Network.
 
@@ -20,7 +19,7 @@ Det återstod dock ett stort problem mellan Bitcoin-protokollets lager: interope
 
 
 
-[Boltz](https://boltz.Exchange) är en plattform utan förvaring som är idealisk för alla som vill göra transaktioner mellan de olika lagren i Bitcoin-protokollet:
+Boltz är en plattform utan förvaring som är idealisk för alla som vill göra transaktioner mellan de olika lagren i Bitcoin-protokollet:
 
 
 

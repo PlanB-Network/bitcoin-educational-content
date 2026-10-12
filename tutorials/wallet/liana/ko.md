@@ -86,7 +86,7 @@ https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 ## 설치 및 구성
 
 
-위자드인 공식 웹사이트(https://wizardsardine.com/Liana/)를 방문하여 Liana을 다운로드하세요. 소프트웨어의 진위 여부를 확인할 수 있는 GitHub 리포지토리(https://github.com/wizardsardine/Liana/releases)에서 최신 버전을 다운로드할 수도 있습니다. 이 튜토리얼에 사용된 버전은 0.9입니다.
+위자드인 공식 웹사이트(https://wizardsardine.com/liana/)를 방문하여 Liana을 다운로드하세요. 소프트웨어의 진위 여부를 확인할 수 있는 GitHub 리포지토리(https://github.com/wizardsardine/Liana/releases)에서 최신 버전을 다운로드할 수도 있습니다. 이 튜토리얼에 사용된 버전은 0.9입니다.
 
 
 ![Télécharger Liana](assets/fr/02.webp)
@@ -366,7 +366,7 @@ Liana은 'Coin 제어' 기능도 제공합니다. 어떤 Coin(UTXO)를 사용할
 Liana Wallet에서 자금을 복구할 때 다음 두 가지 상황 중 하나에 직면할 수 있습니다. 소프트웨어가 설치된 컴퓨터에 액세스할 수 있는 경우, 이 경우 해당 컴퓨터를 열기만 하면 됩니다(향상된 백업 모델의 경우). 그러나 이 컴퓨터에 액세스할 수 없는 경우에는 처음부터 다시 시작하겠습니다. 복구 절차는 두 경우 모두 동일하다는 점에 유의하세요.
 
 
-시작하려면 [위자딘 공식 웹사이트](https://wizardsardine.com/Liana/) 또는 소프트웨어의 진위 여부를 확인할 수 있는 [GitHub 저장소](https://github.com/wizardsardine/Liana/releases)에서 Liana을 다운로드하세요. 소프트웨어를 설치하고 실행합니다. 저희의 경우 0.9 버전을 사용했기 때문에 비주얼이 변경되었을 수 있습니다. 시작 화면에서 "기존 Liana Wallet 추가" 옵션을 선택합니다.
+시작하려면 [위자딘 공식 웹사이트](https://wizardsardine.com/liana/) 또는 소프트웨어의 진위 여부를 확인할 수 있는 [GitHub 저장소](https://github.com/wizardsardine/Liana/releases)에서 Liana을 다운로드하세요. 소프트웨어를 설치하고 실행합니다. 저희의 경우 0.9 버전을 사용했기 때문에 비주얼이 변경되었을 수 있습니다. 시작 화면에서 "기존 Liana Wallet 추가" 옵션을 선택합니다.
 
 
 ![Ajouter portefeuille existant](assets/fr/34.webp)

@@ -102,7 +102,7 @@ Nå som du er satt opp, kan du legge merke til hvor skjelett GrapheneOS ser ut v
 
 Standard apper
 De eneste to du kanskje ikke er kjent med er 'Auditor' og 'Vanadium'.
-- '[Auditor-appen](https://play.google.com/store/apps/details?id=app.attestation.auditor) bruker maskinvarebaserte sikkerhetsfunksjoner for å validere identiteten til en enhet sammen med autentisiteten og integriteten til operativsystemet. Den vil verifisere at enheten kjører det originale operativsystemet med bootloader låst og at det ikke har skjedd noen manipulering med operativsystemet.'
+- '[Auditor-appen](https://play.google.com/store/apps/details?id=app.attestation.auditor.play) bruker maskinvarebaserte sikkerhetsfunksjoner for å validere identiteten til en enhet sammen med autentisiteten og integriteten til operativsystemet. Den vil verifisere at enheten kjører det originale operativsystemet med bootloader låst og at det ikke har skjedd noen manipulering med operativsystemet.'
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) er en variant av Chromium-nettleseren som er forsterket med tanke på personvern og sikkerhet.
 
 ## Tilpasning
@@ -294,7 +294,7 @@ Høyre: Proton Calendar
 
 ### Sikkerhet/Personvern
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) tilbyr en gratis og E2EE tverrplattform passordbehandlerløsning for alle enhetene dine. Deres betalte tjeneste lar deg integrere 2FA-koder i appen. Serverdelen av Bitwarden kan være selvhostet og Android-appen er tilgjengelig via F-Droid.
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo) tilbyr en gratis og E2EE tverrplattform passordbehandlerløsning for alle enhetene dine. Deres betalte tjeneste lar deg integrere 2FA-koder i appen. Serverdelen av Bitwarden kan være selvhostet og Android-appen er tilgjengelig via F-Droid.
 - [Proton Pass](https://proton.me/pass/download) tilbyr en lignende gratis tjeneste som Bitwarden, men [Proton Unlimited](https://proton.me/pricing) kunder kan få tilgang til ytterligere avanserte funksjoner. Proton Pass er tilgjengelig via APK eller Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) er en tofaktor-autentiseringsapplikasjon for systemer som bruker engangspassordprotokoller. Token kan enkelt legges til ved å skanne en QR-kode. FreeOTP er tilgjengelig via F-Droid.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) er en gratis, sikker og Open Source-app for Android for å håndtere dine 2-trinns verifiseringstoken for dine nettjenester. Aegis er tilgjengelig via F-Droid.
@@ -408,7 +408,6 @@ GrapheneOS er et kaninhull enhver kunne lett tilbringe uker på å utforske. Det
 - [GrapheneOS Offisiell Brukerguide](https://grapheneos.org/usage) - Offisiell Nettside
 - [GrapheneOS Forum](https://discuss.grapheneos.org/) - Offisiell Nettside
 - [GrapheneOS Innstillinger Masterclass](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video av 'The Privacy Wayfinder'
-- [GrapheneOS Generell Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast av 'Watchman Privacy'
 
 *Denne veiledningen er en tilpasning av det opprinnelige innholdet publisert av [BitcoinQnA på Bitcoiner.Guide under MIT-lisensen](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), som har all ære for det opprinnelige skrivearbeidet.*
 

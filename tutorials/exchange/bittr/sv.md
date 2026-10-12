@@ -21,7 +21,7 @@ Låt oss gå igenom hur enkelt det är att börja stapla Sats med Bittr.
 ## Komma igång med Bittr
 
 
-- På webben eller mobilen gå till [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) och klicka på "Köp Bitcoin"
+- På webben eller mobilen gå till [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) och klicka på "Köp Bitcoin"
 
 
 

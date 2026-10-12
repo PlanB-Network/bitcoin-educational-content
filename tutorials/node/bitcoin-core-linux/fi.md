@@ -217,7 +217,7 @@ Jos haluat tarkastella Bitcoin-solmusi lokitietoja, jotka liittyvät erityisesti
 
 
 - [Wikisivu, jossa selitetään Tor ja sen suhde Bitcoin:een](https://en.Bitcoin.it/wiki/Tor)
-- [Bitcoin core konfigurointitiedoston generaattori Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [Bitcoin core konfigurointitiedoston generaattori Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/)
 - [Jon Atackin Tor-konfigurointiopas](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 

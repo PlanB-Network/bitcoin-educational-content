@@ -35,7 +35,7 @@ description: Jak nakonfigurovat aplikaci Blockstream a používat Liquid Network
 
 
 
-**Liquid** je **Sidechain** Bitcoin, vyvinutý společností **[Blockstream](https://blockstream.com/Liquid/)**, navržený tak, aby nabízel rychlejší a pokročilejší funkce Confidential Transactions a zároveň zůstal napojený na hlavní Blockchain Bitcoin.
+**Liquid** je **Sidechain** Bitcoin, vyvinutý společností **[Blockstream](https://blockstream.com/liquid/)**, navržený tak, aby nabízel rychlejší a pokročilejší funkce Confidential Transactions a zároveň zůstal napojený na hlavní Blockchain Bitcoin.
 
 
 
@@ -408,7 +408,9 @@ Pro příjem Liquid-Bitcoins (L-BTC) je k dispozici několik možností. Můžet
 
 
 
-Případně můžete své bitcoiny Exchange získat v řetězci nebo prostřednictvím Lightning Network pro L-BTC pomocí [můstku, jako je Boltz](https://boltz.Exchange/): zadejte svůj Liquid přijímající Address, proveďte platbu podle svých preferencí a obdržte své L-BTC.
+Případně můžete své bitcoiny Exchange získat v řetězci nebo prostřednictvím Lightning Network pro L-BTC pomocí můstku, jako je Boltz: zadejte svůj Liquid přijímající Address, proveďte platbu podle svých preferencí a obdržte své L-BTC.
+
+> **Poznámka (říjen 2026):** Boltz pozastavil všechny swapy 3. srpna 2026 a jeho webové stránky jsou mimo provoz. Tato metoda v současné době nefunguje.
 
 
 

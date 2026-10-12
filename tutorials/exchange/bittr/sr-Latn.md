@@ -21,7 +21,7 @@ Hajde da prođemo kroz to koliko je lako početi slagati Sats sa Bittr.
 ## Početak sa Bittr
 
 
-- Na webu ili mobilnom uređaju idite na [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) i kliknite na „Buy Bitcoin“
+- Na webu ili mobilnom uređaju idite na [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) i kliknite na „Buy Bitcoin“
 
 
 

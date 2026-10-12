@@ -38,7 +38,7 @@ Hari impamvu zibiri nyamukuru zo gukoresha uwundi mukiriya nka Knots aho gukores
 ## None noshiramwo gute Bitcoin Knots?
 
 
-Genda kuri [urubuga rwemewe rwa Bitcoin Knots](https://bitcoinknots.org/#gukuraho) kugira ngo ubone verisiyo y’ivyo ukoresha. Ntimwibagire gukuraho urutoke n’imikono kugira ngo mugenzure neza iyo porogarama. Izo dosiye ziraboneka kandi [ku bubiko bwa Bitcoin Knots GitHub](Bitcoin).
+Genda kuri [urubuga rwemewe rwa Bitcoin Knots](https://bitcoinknots.org/#download) kugira ngo ubone verisiyo y’ivyo ukoresha. Ntimwibagire gukuraho urutoke n’imikono kugira ngo mugenzure neza iyo porogarama. Izo dosiye ziraboneka kandi [ku bubiko bwa Bitcoin Knots GitHub](https://github.com/bitcoinknots/Bitcoin).
 
 
 ![Image](assets/fr/02.webp)

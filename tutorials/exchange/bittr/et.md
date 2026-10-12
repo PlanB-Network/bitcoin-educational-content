@@ -21,7 +21,7 @@ Vaatame läbi, kui lihtne on alustada Sats virnastamist Bittriga.
 ## Bittriga alustamine
 
 
-- Mine veebis või mobiilis [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) ja klõpsa "Buy Bitcoin"
+- Mine veebis või mobiilis [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) ja klõpsa "Buy Bitcoin"
 
 
 

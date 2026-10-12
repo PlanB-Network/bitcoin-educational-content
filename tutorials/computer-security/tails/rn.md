@@ -13,7 +13,7 @@ Igikoresho co gukoresha gishobora gutwara kandi kigukingira gucungera no gucenge
 ## Ni kuki hariho urufunguzo rwa USB rufise Tails?
 
 
-Tails (https://tails.boum.org/) ni uburyo bworoshe bwo kugira mudasobwa itekanye igihe cose, itazosiga akamenyetso kuri mudasobwa ukoresha.
+Tails (https://tails.net/) ni uburyo bworoshe bwo kugira mudasobwa itekanye igihe cose, itazosiga akamenyetso kuri mudasobwa ukoresha.
 
 
 Kugira ngo ukoreshe Tails, zima mudasobwa ufise uburenganzira bwo gukoresha (ku bavyeyi bawe, ku ncuti zawe, mu kafe ka Internet...) hanyuma uyitangure ukoresheje urufunguzo rwawe rwa USB rwa Tails aho gukoresha Windows, macOS canke Linux.
@@ -46,7 +46,7 @@ Buri gihe habaho ikintu co kwizigira mu gukoresha porogarama, ariko ntibitegerez
 
 
 
-- Inkomoko ya bose: https://gitlab.imirizo.boum.org/;
+- Inkomoko ya bose: https://gitlab.tails.boum.org/;
 - Umugambi ushingiye ku migambi izwi cane: Tor na Debian;
 - Ivyo gukuraho bishobora kugenzurwa no gusubirwamwo;
 - Impanuro zitangwa n’abantu n’imiryango itandukanye.
@@ -118,7 +118,7 @@ Kugira ngo ugenzure dosiye, koresha ubuto "Hitamwo ivyo ushobora gukuraho..." bu
 
 
 - Linux:**
-- macOS:** https://imirizo.boum.org/shiramwo/urutonde
+- macOS:** https://tails.net/install/mac/index.fr.html#etcher
 
 
 Iyi ntambwe yo gushiramwo Tails ku rufunguzo rwawe rwa USB ni yo igoye cane muri iyo nzira yose, cane cane iyo utigeze uyikora. Iciyumviro gihambaye cane ni uguhitamwo uburyo bubereye mu gice cemewe c’umurongo wawe: Linux canke macOS.

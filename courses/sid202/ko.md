@@ -89,7 +89,7 @@ Elements은 Sidechain를 지원하는 오픈 소스 [Blockchain](https://planb.a
 Elements은 핵심적으로 분산형 Blockchain Ledger에 저장된 자산의 이전과 생성을 관리하는 [거래](https://planb.academy/resources/glossary/transaction-tx) 내역과 규칙에 대한 [합의](https://planb.academy/resources/glossary/consensus)를 형성할 수 있는 프로토콜입니다.
 
 
-Elements에 대한 자세한 배경 정보는 Elements 프로젝트 웹사이트(https://elementsproject.org/), Liquid 공식 블로그(https://blog.Liquid.net/), 개발자 포털(https://Liquid.net/devs)에서 쉽게 확인할 수 있습니다.
+Elements에 대한 자세한 배경 정보는 Elements 프로젝트 웹사이트(https://elementsproject.org/), Liquid 공식 블로그(https://blog.Liquid.net/), 개발자 포털(https://liquid.net/developers)에서 쉽게 확인할 수 있습니다.
 
 
 ### Elements

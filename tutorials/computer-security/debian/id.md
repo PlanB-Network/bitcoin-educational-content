@@ -42,9 +42,9 @@ Sebelum memulai pemasangan, pastikan Anda memiliki peralatan berikut ini:
 
 Pilihan image Debian tergantung pada arsitektur prosesor Anda:
 
-- **AMD64**: unduh edisi "live hybrid" dari daftar [unduh](https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- **ARM64**: dapatkan image DVD dari situs web resmi [Debian](https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- **Arsitektur lain**: temukan ISO yang sesuai dengan arsitektur Anda [di sini](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: unduh edisi "live hybrid" dari daftar [unduh](https://debian.obspm.fr/debian-cd/current-live/amd64/iso-hybrid/).
+- **ARM64**: dapatkan image DVD dari situs web resmi [Debian](https://debian.obspm.fr/debian-cd/current/arm64/iso-dvd/).
+- **Arsitektur lain**: temukan ISO yang sesuai dengan arsitektur Anda [di sini](https://debian.obspm.fr/debian-cd/current/).
 
 ![download](assets/fr/01.webp)
 

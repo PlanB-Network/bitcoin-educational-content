@@ -31,7 +31,7 @@ Twifatanye natwe maze uhindure ubumenyi bwawe bube ubuhinga nyabwo bwo gukora!
 ___
 
 
-Iyi nyigisho ya NET 302 ni uguhindura ivyigwa *Ivy’ishimikiro ku rubuga: TCP/IP, IPv4 na IPv6*, vyanditswe mu gifaransa na Philippe Pierre kandi vyasohowe kuri [IT-Connect](it-connect.fr/cours/les-bases-du-reseau-tcpip6/ Uruhusha mpuzamakungu rwo gutanga-Uruhusha-Rutari urw’ubudandaji 4.0 ([CC BY-NC 4.0]
+Iyi nyigisho ya NET 302 ni uguhindura ivyigwa *Ivy’ishimikiro ku rubuga: TCP/IP, IPv4 na IPv6*, vyanditswe mu gifaransa na Philippe Pierre kandi vyasohowe kuri [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/) Uruhusha mpuzamakungu rwo gutanga-Uruhusha-Rutari urw’ubudandaji 4.0 ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
 
 
@@ -1010,7 +1010,7 @@ Mu mihora ya none, aderesi IP ifatanywa n'ibindi bimenyetso:
 Kugira ngo ushobore guhangana n'ubukene bwa IPv4 Address no kwongerako Layer y'umutekano, imihora akenshi ikoresha ubuhinduzi bwa Address (_NAT_). NAT iremeza ko ibikoresho vyinshi vy’abantu ku giti cabo bishobora gusangira IP imwe ya bose Address igihe bikoresha Internet.
 
 
-**Iciyumviro**: Ibikoresho vyo kuri interineti n’ivyo mu OS vyubatswemwo, nk’igiharuro ca [Grenoble CRIC](http://cric.grenoble.cnrs.fr/Administrators/Outils/CalculMasque/), bituma uguharura kw’urubuga n’uguharura kw’amabara vyoroha cane.
+**Iciyumviro**: Ibikoresho vyo kuri interineti n’ivyo mu OS vyubatswemwo, nk’igiharuro ca [Grenoble CRIC](http://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/), bituma uguharura kw’urubuga n’uguharura kw’amabara vyoroha cane.
 
 Ivyo bikoresho bifasha gutegura neza ugucapura urubuga.
 

@@ -813,7 +813,7 @@ https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 결론적으로, 자신의 비트코인을 직접 Ownership에 보관하는 것은 금융 주권을 보장하기 위한 필수 요소입니다. 일상적인 지출에는 모바일 Wallet를 사용하고, 더 많은 금액을 보관할 때는 오프라인 또는 "Cold" 실물 Wallet를 사용하는 것이 좋습니다. 반면에 기업에서는 보안을 강화하고 공유하려면 다중 서명 시스템 또는 "Multisig" 사용을 고려해야 합니다. 또한 기존 금융 시스템의 일부 취약점을 복제할 수 있는 커스터디 서비스를 피하는 것도 필수적입니다.
 
 
-이를 염두에 두고 이제 Bitcoin Wallet을 만드는 방법을 설명하는 다음 섹션으로 넘어가겠습니다. 그러나 보안에 대해 더 자세히 알아보려면 이 [다스코인의 글](https://asi0.substack.com/p/Bitcoin-soyez-votre-propre-banque)을 읽어보시기 바랍니다.
+이를 염두에 두고 이제 Bitcoin Wallet을 만드는 방법을 설명하는 다음 섹션으로 넘어가겠습니다. 그러나 보안에 대해 더 자세히 알아보려면 이 [다스코인의 글](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque)을 읽어보시기 바랍니다.
 
 
 ## Wallet 설정
@@ -1141,7 +1141,7 @@ Bitcoin 노드가 어떻게 작동하는지 자세히 살펴보겠습니다.
 - Bitcoin 프로토콜의 규칙을 적용합니다.
 
 
-따라서 Bitcoin 노드([Bitcoin core](https://Bitcoin.org/en/Bitcoin-core/)를 주로 사용)라고 하는 Bitcoin 소프트웨어를 실행하는 모든 장치는 네트워크의 탈중앙화에 기여합니다.
+따라서 Bitcoin 노드([Bitcoin core](https://bitcoin.org/en/bitcoin-core/)를 주로 사용)라고 하는 Bitcoin 소프트웨어를 실행하는 모든 장치는 네트워크의 탈중앙화에 기여합니다.
 
 
 ![image](assets/ko/050.webp)

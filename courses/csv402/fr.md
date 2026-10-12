@@ -2053,7 +2053,7 @@ D’autres Interfaces sont envisagées pour des usages plus spécialisés, mais 
 
 #### Exemple d'Interface
 
-Dans cet extrait de code Rust, on peut voir une Interface [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) (actif fongible). Ce code est tiré du fichier `rgb20.rs` dans la bibliothèque standard RGB. Nous allons l’examiner pour comprendre la structure d’une Interface et la façon dont elle fournit un pont entre, d’une part, le business logic (définie dans le Schema) et d’autre part, les fonctionnalités exposées aux wallets et aux utilisateurs.
+Dans cet extrait de code Rust, on peut voir une Interface [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) (actif fongible). Ce code est tiré du fichier `rgb20.rs` dans la bibliothèque standard RGB. Nous allons l’examiner pour comprendre la structure d’une Interface et la façon dont elle fournit un pont entre, d’une part, le business logic (définie dans le Schema) et d’autre part, les fonctionnalités exposées aux wallets et aux utilisateurs.
 
 ```rust
 // ...

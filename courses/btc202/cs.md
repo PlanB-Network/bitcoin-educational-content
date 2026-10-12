@@ -152,7 +152,7 @@ Protože Bitcoin je systém, musí být nutně spuštěn na počítačích. A vz
 
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -204,7 +204,7 @@ Prvním úkolem uzlu je udržovat místní kopii Blockchain. Aby bylo možné za
 
 > Jediný způsob, jak potvrdit neexistenci transakce, je mít povědomí o všech transakcích.
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -383,7 +383,7 @@ Teoreticky Bitcoin core nepředstavuje protokol Bitcoin; je to spíše jen jedna
 
 
 
-Podle [údajů, které v srpnu 2025 shromáždil Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (známý vývojář v ekosystému) je rozložení implementací mezi veřejnými uzly sítě následující:
+Podle [údajů, které v srpnu 2025 shromáždil Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (známý vývojář v ekosystému) je rozložení implementací mezi veřejnými uzly sítě následující:
 
 
 
@@ -766,7 +766,7 @@ Uzel [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (*Simpl
 
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -1521,7 +1521,7 @@ Jednou z klíčových výhod společnosti Umbrel oproti konkurenci je rozsáhlá
 
 
 
-Kód Umbrelu je veřejně dostupný (můžete si ho prohlížet, Fork a upravovat), ale není pod skutečnou open-source licencí. Ve skutečnosti je umbrelOS šířen pod licencí [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), ačkoli některé související vývojové nástroje jsou k dispozici pod licencí MIT.
+Kód Umbrelu je veřejně dostupný (můžete si ho prohlížet, Fork a upravovat), ale není pod skutečnou open-source licencí. Ve skutečnosti je umbrelOS šířen pod licencí [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0), ačkoli některé související vývojové nástroje jsou k dispozici pod licencí MIT.
 
 
 
@@ -3884,7 +3884,7 @@ Soubor `Bitcoin.conf` také umožňuje konfigurovat přístupové parametry pro 
 
 
 
-Nyní jsme dokončili výpis většiny konfiguračních parametrů. Tento soubor `Bitcoin.conf` tak představuje skutečný řídicí panel vašeho uzlu: definuje konfiguraci sítě, správu Mempool, využití disku a paměti, indexování a obecnou správu. Pokud se chcete o tomto souboru dozvědět více a vytvořit si jej na míru svým potřebám, doporučuji použít [generátor Jamesona Loppa](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Nyní jsme dokončili výpis většiny konfiguračních parametrů. Tento soubor `Bitcoin.conf` tak představuje skutečný řídicí panel vašeho uzlu: definuje konfiguraci sítě, správu Mempool, využití disku a paměti, indexování a obecnou správu. Pokud se chcete o tomto souboru dozvědět více a vytvořit si jej na míru svým potřebám, doporučuji použít [generátor Jamesona Loppa](https://jlopp.github.io/bitcoin-core-config-generator/).
 
 
 

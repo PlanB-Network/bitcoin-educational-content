@@ -5,6 +5,8 @@ description: RoninDojo Bitcoin düğümünüzü yükleme ve kullanma.
 ---
 ***UYARI:** Samourai Wallet'nin kurucularının tutuklanması ve sunucularına 24 Nisan'da el konulmasının ardından, RoninDojo'nun Whirlpool gibi bazı özellikleri artık çalışmıyor. Bununla birlikte, bu araçların önümüzdeki haftalarda eski haline getirilmesi veya farklı bir şekilde yeniden başlatılması mümkündür. Ayrıca, RoninDojo kodu Samourai'nin GitLab'ında barındırıldığından ve bu GitLab'a da el konulduğundan, kodu uzaktan indirmek şu anda mümkün değil. RoninDojo ekipleri muhtemelen kodu yeniden yayınlamak için çalışıyorlar.*
 
+> **Güncelleme (Ekim 2026):** RoninDojo o zamandan beri kodunu kendi platformunda ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) yeniden yayımladı ve artık 3. sürümde. Bu eğitim daha eski bir sürümü anlatıyor: bazı bağlantılar ve komutlar artık çalışmıyor. Güncel prosedür için resmi belgelere bakın: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 
 _Bu davayla ilgili gelişmeleri ve ilgili araçlarla ilgili gelişmeleri yakından takip ediyoruz. Yeni bilgiler elde edildikçe bu eğitimi güncelleyeceğimizden emin olabilirsiniz._
 
@@ -84,10 +86,12 @@ Artık RoninDojo'nun bir resmini çizebildiğimize göre, bu düğümü nasıl k
 RoninDojo'yu barındıran ve çalıştıran makineyi seçmek için birkaç seçeneğiniz vardır.
 
 
-Daha önce açıklandığı gibi, en basit seçim, özellikle bu amaç için tasarlanmış bir tak ve çalıştır makinesi olan Tanto'yu sipariş etmektir. Kendinizinkini sipariş etmek için buraya gidin: [link](https://shop.ronindojo.io/product-category/nodes/).
+Daha önce açıklandığı gibi, en basit seçim, özellikle bu amaç için tasarlanmış bir tak ve çalıştır makinesi olan Tanto'yu sipariş etmektir.
+
+> **Not (Ekim 2026):** RoninDojo artık Tanto'yu satmıyor gibi görünüyor ve çevrimiçi mağazası kapalı. Uyumlu donanım listesine bakın: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
 
 
-RoninDojo ekipleri açık kaynaklı kod ürettiğinden, RoninDojo'yu başka makinelerde de uygulamak mümkündür. Kurulum sihirbazının en son sürümlerini bu sayfada bulabilirsiniz: [link](https://ronindojo.io/en/downloads.html) ve kodun en son sürümlerini bu sayfada bulabilirsiniz: [link](https://code.samourai.io/ronindojo/RoninDojo).
+RoninDojo ekipleri açık kaynaklı kod ürettiğinden, RoninDojo'yu başka makinelerde de uygulamak mümkündür. Kurulum sihirbazının en son sürümlerini bu sayfada bulabilirsiniz: [link](https://ronindojo.io/downloads) ve kodun en son sürümlerini bu sayfada bulabilirsiniz: [link](https://git.ronindojo.io/Ronin/monorepo).
 
 
 Şahsen ben Raspberry Pi 4 8GB üzerine kurdum ve her şey mükemmel çalışıyor.
@@ -118,7 +122,7 @@ Ancak, RoninDojo ekiplerinin kasa ve SSD adaptörü ile ilgili sıklıkla sorunl
 Makinenizi bir araya getirdikten sonra, RoninDojo'nun kurulumuna başlayabilirsiniz. Bunu yapmak için, uygun disk görüntüsünü üzerine yazarak önyüklenebilir bir mikro SD kart oluşturarak başlayın.
 
 
-Mikro SD kartınızı kişisel bilgisayarınıza takın, ardından RoninOS disk görüntüsünü indirmek için resmi RoninDojo web sitesine gidin: https://ronindojo.io/en/downloads.html.
+Mikro SD kartınızı kişisel bilgisayarınıza takın, ardından RoninOS disk görüntüsünü indirmek için resmi RoninDojo web sitesine gidin: https://ronindojo.io/downloads.
 
 
 Donanımınıza karşılık gelen disk görüntüsünü indirin. Benim durumumda, "MANJARO-ARM-RONINOS-RPI4-22.03.IMG.XZ" imajını indirdim:
@@ -130,7 +134,7 @@ Donanımınıza karşılık gelen disk görüntüsünü indirin. Benim durumumda
 Görüntü indirildikten sonra, ilgili .SHA256 dosyasını kullanarak bütünlüğünü doğrulayın. Bu makalede bunun nasıl yapılacağını ayrıntılı olarak açıklayacağım: Windows'ta Bitcoin yazılımının bütünlüğü nasıl doğrulanır?
 
 
-RoninOS'un bütünlüğünü doğrulamak için özel talimatlar da bu sayfada mevcuttur: https://wiki.ronindojo.io/en/extras/verify.
+RoninOS'un bütünlüğünü doğrulamak için özel talimatlar da bu sayfada mevcuttur: https://docs.ronindojo.io/install/verify-os/.
 
 
 Bu görüntüyü mikro SD kartınıza yazmak için buradan indirebileceğiniz Balena Etcher gibi bir yazılım kullanabilirsiniz: https://www.balena.io/etcher/.
@@ -232,6 +236,8 @@ Terminalde şu şekilde görünecektir:
 
 Şu anda sadece RoninOS'a sahip olan makinenize bağlandınız. Şimdi üzerine RoninDojo'yu yüklemeniz gerekiyor.
 
+
+> **Not (Ekim 2026):** Aşağıdaki komut artık çalışmıyor: Samourai'nin GitLab'ına (code.samourai.io) 24 Nisan 2024'te el konuldu. RoninDojo kodunu artık burada barındırıyor: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Güncel kurulum prosedürü için bakın: [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
 
 Aşağıdaki komutu girerek RoninDojo'nun en son sürümünü indirin:
 
@@ -508,16 +514,16 @@ Whirlpool uygulamasıyla bir CoinJoin gerçekleştirdiğinizde, miks ve remiksle
 
 Bu kısıtlamaya bir çözüm, Bitcoin düğümü gibi sürekli açık olması amaçlanan bir makinede WhirlpoolCLI kullanmaktır. Bu sayede UTXO'larımız, Bitcoin düğümümüz dışında başka bir makineyi çalışır durumda tutmaya gerek kalmadan 7/24 yeniden karıştırılabilir.
 
-WhirlpoolCLI, Coinjoins'in kolay yönetimi için kişisel bir bilgisayara kurulacak grafiksel bir Interface olan WhirlpoolGUI ile birlikte kullanılır. Bu makalede Whirlpool CLI'i kendi dojonuzla nasıl kuracağınızı ayrıntılı olarak açıklayacağım: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
+WhirlpoolCLI, Coinjoins'in kolay yönetimi için kişisel bir bilgisayara kurulacak grafiksel bir Interface olan WhirlpoolGUI ile birlikte kullanılır. Bu makalede Whirlpool CLI'i kendi dojonuzla nasıl kuracağınızı ayrıntılı olarak açıklayacağım: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
 
 
-Genel olarak CoinJoin hakkında daha fazla bilgi edinmek için bu makalede her şeyi açıklıyorum: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin).
+Genel olarak CoinJoin hakkında daha fazla bilgi edinmek için bu makalede her şeyi açıklıyorum: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
 
 ### Whirlpool İstatistik Aracını Kullanma.
 
 
-Whirlpool ile CoinJoins gerçekleştirdikten sonra, karışık UTXO'larınızın gerçek gizlilik seviyesini bilmek isteyebilirsiniz. Whirlpool Stat Tool bunu kolayca yapmanızı sağlar. Bu araçla, karma UTXO'larınızın ileriye dönük puanını ve geriye dönük puanını hesaplayabilirsiniz. Bu Anon Setlerinin hesaplanması ve nasıl çalıştıkları hakkında daha fazla bilgi edinmek için bu bölümü okumanızı tavsiye ederim: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
+Whirlpool ile CoinJoins gerçekleştirdikten sonra, karışık UTXO'larınızın gerçek gizlilik seviyesini bilmek isteyebilirsiniz. Whirlpool Stat Tool bunu kolayca yapmanızı sağlar. Bu araçla, karma UTXO'larınızın ileriye dönük puanını ve geriye dönük puanını hesaplayabilirsiniz. Bu Anon Setlerinin hesaplanması ve nasıl çalıştıkları hakkında daha fazla bilgi edinmek için bu bölümü okumanızı tavsiye ederim: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
 
 
 Araç RoninDojo'nuza önceden yüklenmiştir. Şimdilik sadece RoninCLI'dan kullanılabilir. Ana menüden başlatmak için şu adrese gidin:
@@ -604,7 +610,7 @@ WST daha sonra geriye dönük skoru (Geriye dönük metrikler) ve ardından iler
 Lütfen UTXO'inizin ileriye dönük puanının son karışımınıza göre değil, ilk karışımınızın txid'sine göre hesaplandığını unutmayın. Tersine, bir UTXO'in geriye dönük puanı, son döngünün txid'sine göre hesaplanır.
 
 
-Bir kez daha, Anon Setlerinin bu kavramlarını anlamadıysanız, CoinJoin ile ilgili makalemin her şeyi diyagramlarla ayrıntılı olarak açıkladığım bu bölümünü okumanızı tavsiye ederim: [https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
+Bir kez daha, Anon Setlerinin bu kavramlarını anlamadıysanız, CoinJoin ile ilgili makalemin her şeyi diyagramlarla ayrıntılı olarak açıkladığım bu bölümünü okumanızı tavsiye ederim: [https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
 
 
 ### Boltzmann hesap makinesini kullanarak.
@@ -968,7 +974,7 @@ RoninDojo adlı bu harika aracı nasıl kuracağımızı ve kullanmaya başlayac
 Terminal kullanmak sizi korkutmuyorsa ve Lightning Network ile ilgili araçlara ihtiyacınız yoksa, RoninDojo size hitap edebilir.
 
 
-Eğer yapabiliyorsanız, bu açık kaynaklı yazılımları sizin için özgürce üreten geliştiricilere bağış yapmayı düşünün: https://donate.ronindojo.io/
+Eğer yapabiliyorsanız, bu açık kaynaklı yazılımları sizin için özgürce üreten geliştiricilere bağış yapmayı düşünün: https://docs.ronindojo.io/main/donations/
 
 
 RoninDojo hakkında daha fazla bilgi edinmek için aşağıdaki harici kaynaklarımdaki bağlantılara göz atmanızı tavsiye ederim.
@@ -992,5 +998,5 @@ RoninDojo hakkında daha fazla bilgi edinmek için aşağıdaki harici kaynaklar
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/introducing-boltzmann-85930984a159
 - https://en.wikipedia.org/wiki/Boltzmann_formula
-- https://wiki.ronindojo.io/en/setup/bisq
+- https://web.archive.org/web/20240214172859/https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/

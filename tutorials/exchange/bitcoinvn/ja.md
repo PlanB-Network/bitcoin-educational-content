@@ -65,7 +65,7 @@ You receive "セクション（Bitcoinのロゴのある大きな四角）で、
 取引レートは変動する**ことをお忘れなく。
 
 
-**口座は必要ありません。1日のお取引は250,000ドン（～8米ドル）までです。詳細は[銀行振込規定](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer)をご覧ください。
+**口座は必要ありません。1日のお取引は250,000ドン（～8米ドル）までです。詳細は[銀行振込規定](https://support.bitcoinvn.io/help/en-us/4-orders-payments/17-vnd-bank-transfer)をご覧ください。
 
 
 **注意**：Lightning Networkを選択した場合、ネットワーク手数料はオンチェーン取引に比べ一般的に安くなる。

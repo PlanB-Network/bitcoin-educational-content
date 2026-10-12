@@ -57,7 +57,7 @@ Kada se vaš Jade pojavi u Green, ažurirajte Jade klikom na Check for updates i
 Nakon što ažurirate Jadeov firmver, izaberite Postavljanje Jade-a na mrežu i sigurnosnu politiku koju želite koristiti.
 
 
-**Savet:** Bezbednosna politika je navedena pod Tip na ekranu za prijavu prikazanom ispod. Ako niste sigurni da li da izaberete Singlesig ili Multisig Shield, molimo vas da pregledate naš vodič [ovde](https://help.blockstream.com/hc/en-us/articles/4403642609433)
+**Savet:** Bezbednosna politika je navedena pod Tip na ekranu za prijavu prikazanom ispod. Ako niste sigurni da li da izaberete Singlesig ili Multisig Shield, molimo vas da pregledate naš vodič [ovde](https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 
 ![image](assets/3.webp)
@@ -287,7 +287,7 @@ Sada ste uspešno postavili svoj Wallet i možete početi primati, skladištiti 
 ![image](assets/22.webp)
 
 
-izvor: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+izvor: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 
 ### Green aplikacija

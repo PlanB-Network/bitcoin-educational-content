@@ -77,9 +77,9 @@ Izbor Debian slike zavisi od arhitekture vašeg procesora:
 
 
 
-- **AMD64**: preuzmite izdanje "live hybrid" sa [download] liste (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- **ARM64**: preuzmite DVD sliku sa zvanične [Debian] veb stranice (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- **Druge arhitekture**: pronađite ISO koji odgovara vašoj arhitekturi [ovde](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: preuzmite izdanje "live hybrid" sa [download] liste (https://debian.obspm.fr/debian-cd/current-live/amd64/iso-hybrid/).
+- **ARM64**: preuzmite DVD sliku sa zvanične [Debian] veb stranice (https://debian.obspm.fr/debian-cd/current/arm64/iso-dvd/).
+- **Druge arhitekture**: pronađite ISO koji odgovara vašoj arhitekturi [ovde](https://debian.obspm.fr/debian-cd/current/).
 
 
 

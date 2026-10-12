@@ -818,10 +818,10 @@ Iako je Bitcoin osvojio umove miliona svojim disruptivnim potencijalom i jedinst
 U svakom slučaju, hajde da pogledamo mit i legendu.
 
 
-Satoshi Nakamoto se pojavio na internetu 2008. godine sa revolucionarnom idejom: peer-to-peer elektronski novac. Svoju viziju podelio je u [devetostraničnom dokumentu](https://Bitcoin.org/Bitcoin.pdf) pod nazivom "Bitcoin: A Peer-to-Peer Electronic Cash System" sa Cypherpunk mejling listom. Uprkos početnom nezainteresovanju većine članova mejling liste, ideja je izazvala dovoljno radoznalosti kod jednog člana, Hala Finneya, koji je na kraju stupio u kontakt sa Satoshi. Halovo učešće u razvoju Bitcoin pokazalo se kao prelomna tačka, što je dovelo do toga da više ljudi ponudi svoju podršku.
+Satoshi Nakamoto se pojavio na internetu 2008. godine sa revolucionarnom idejom: peer-to-peer elektronski novac. Svoju viziju podelio je u [devetostraničnom dokumentu](https://bitcoin.org/bitcoin.pdf) pod nazivom "Bitcoin: A Peer-to-Peer Electronic Cash System" sa Cypherpunk mejling listom. Uprkos početnom nezainteresovanju većine članova mejling liste, ideja je izazvala dovoljno radoznalosti kod jednog člana, Hala Finneya, koji je na kraju stupio u kontakt sa Satoshi. Halovo učešće u razvoju Bitcoin pokazalo se kao prelomna tačka, što je dovelo do toga da više ljudi ponudi svoju podršku.
 
 
-Međutim, nakon dve godine rada na projektu, Satoshi je nestao bez traga, sa [njegovom poslednjom verodostojnom komunikacijom](https://plan99.net/~mike/Satoshi-emails/thread5.html) 23. aprila 2011, gde je naveo da je "prešao na druge stvari."
+Međutim, nakon dve godine rada na projektu, Satoshi je nestao bez traga, sa [njegovom poslednjom verodostojnom komunikacijom](https://plan99.net/~mike/satoshi-emails/thread5.html) 23. aprila 2011, gde je naveo da je "prešao na druge stvari."
 
 
 Misteriozni nestanak Satoshi Nakamoto doveo je do raznih teorija o tome gde je otišao. Neki nagađaju da je osetio da je postigao ono što je nameravao, dok drugi veruju da mu je postalo neprijatno zbog pažnje koju je Bitcoin privlačio. U decembru [2010](https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad), kada je WikiLeaksu bilo zabranjeno korišćenje tradicionalnih metoda plaćanja, okrenuo se Bitcoin za finansiranje. Zabrinutost Satoshi zbog povećane pažnje na Bitcoin i potencijalnih pravnih posledica stvaranja valute koja se koristi za mešanje u geopolitičke interese SAD mogla ga je navesti da se povuče. Alternativno, možda je prebacio fokus na druge projekte, možda i dalje doprinosi Bitcoin pod drugim imenima, ili je čak preminuo.
@@ -1168,7 +1168,7 @@ U ovom odeljku, istražićemo različite slojeve transakcija, bilo u fiat valuti
 Bitcoin-ov Blockchain je sastavljen od blokova, kao što ime sugeriše. Ovi blokovi imaju teoretsku maksimalnu veličinu od 4 megabajta. _Ipak, prosečna veličina bloka u trenutku pisanja iznosi oko 1,5mb._ Zbog ovog ograničenja, postoji restrikcija na to koliko transakcija Bitcoin može obraditi po sekundi, što je između sedam do deset transakcija po sekundi (tps).
 
 
-Stoga se možete zapitati: Kako Bitcoin-ov Blockchain može konkurisati mrežama kao što su Visa ili Mastercard koje obavljaju transakcije pri [1.700 tps](https://towardsdatascience.com/the-Blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
+Stoga se možete zapitati: Kako Bitcoin-ov Blockchain može konkurisati mrežama kao što su Visa ili Mastercard koje obavljaju transakcije pri [1.700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
 
 Odgovor je jednostavan. Ne takmiči se sa njima.
@@ -1240,7 +1240,7 @@ Postoje i bezbrojna druga skrbnička Wallet rešenja dostupna za mobilne uređaj
 Novčanik bez staratelja je tip Bitcoin Wallet gde ste vi jedini staratelj svojih sredstava, što znači da imate potpunu kontrolu nad svojim [privatnim ključevima](https://planb.academy/resources/glossary/private-key). Privatni ključevi su poput lozinke za vaš Wallet i koriste se za potpisivanje i autorizaciju transakcija. Bez njih, ne možete pristupiti ili preneti svoj Bitcoin.
 
 
-Novčanik bez staratelja nudi viši nivo sigurnosti i privatnosti u odnosu na novčanike sa starateljem, jer ste vi jedini odgovorni za bezbednost vaših sredstava. Primeri novčanika bez staratelja uključuju [hardverske novčanike](https://planb.academy/resources/glossary/hardware-wallet) kao što su [Coldcard](https://store.coinkite.com/store/coldcard) i [Trezor](https://trezor.io/), koji su fizički uređaji koji čuvaju vaše privatne ključeve van mreže i pružaju dodatni Layer nivo sigurnosti. Drugi popularni novčanici bez staratelja su softverski novčanici kao što su [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), i [Blockstream Green](https://blockstream.com/Green/), koji se mogu preuzeti i instalirati na vaš računar ili mobilni uređaj.
+Novčanik bez staratelja nudi viši nivo sigurnosti i privatnosti u odnosu na novčanike sa starateljem, jer ste vi jedini odgovorni za bezbednost vaših sredstava. Primeri novčanika bez staratelja uključuju [hardverske novčanike](https://planb.academy/resources/glossary/hardware-wallet) kao što su [Coldcard](https://store.coinkite.com/store/coldcard) i [Trezor](https://trezor.io/), koji su fizički uređaji koji čuvaju vaše privatne ključeve van mreže i pružaju dodatni Layer nivo sigurnosti. Drugi popularni novčanici bez staratelja su softverski novčanici kao što su [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), i [Blockstream Green](https://blockstream.com/green/), koji se mogu preuzeti i instalirati na vaš računar ili mobilni uređaj.
 
 
 \*_Iako ne možemo preporučiti određeni Wallet, toplo savetujemo da preuzmete kontrolu nad svojim Bitcoin putem samostalnog ili zajedničkog čuvanja, što podrazumeva odabir Wallet koji odgovara vašim potrebama i preferencijama. Neophodno je sprovesti temeljno istraživanje pre nego što se odlučite za Wallet kako biste osigurali da odgovara vašim zahtevima za sigurnost i upotrebljivost._*
@@ -1665,7 +1665,7 @@ Verovatno se pitate: U čemu je problem ovde?
 Slanje novca nazad u inostranstvo putem usluge za transfer novca kao što je Western Union nije besplatno. To košta novac, i to ne samo malo, već značajnu sumu.
 
 
-Slanje \$100 US nazad u Tongu nosi trošak od [\$12.61](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus dodatni gubitak od \$8.60 zbog nepovoljnog Exchange kursa. To znači da više od 21% ukupnog iznosa poslatog ide Western Union-u, multinacionalnoj korporaciji. Kao rezultat, značajna suma koja je mogla biti u rukama zaslužnih tonganskih porodica završava u džepovima pružaoca usluga prenosa novca.
+Slanje \$100 US nazad u Tongu nosi trošak od [\$12.61](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus dodatni gubitak od \$8.60 zbog nepovoljnog Exchange kursa. To znači da više od 21% ukupnog iznosa poslatog ide Western Union-u, multinacionalnoj korporaciji. Kao rezultat, značajna suma koja je mogla biti u rukama zaslužnih tonganskih porodica završava u džepovima pružaoca usluga prenosa novca.
 
 Možete li zamisliti prednosti kada biste imali dodatnih 21% na vaš prihod?
 
@@ -1676,7 +1676,7 @@ Možete li zamisliti prednosti kada biste imali dodatnih 21% na vaš prihod?
 A ako ste mislili da je Tonga sama u tome, razmislite ponovo.
 
 
-Evo uzorka koliko Western Union [naplaćuje](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) za slanje 100 USD u neke druge istaknute zemlje:
+Evo uzorka koliko Western Union [naplaćuje](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) za slanje 100 USD u neke druge istaknute zemlje:
 
 
 
@@ -1691,7 +1691,7 @@ Ovo je zapanjujuća količina novca koja je sada u rukama velikih američkih kor
 Za razliku od tradicionalnih usluga prenosa novca, USDt je digitalna valuta koja se, u svrhu transakcija, kreće po šinama Blockchain. Pošto ne zahteva posrednike kao što su banke ili usluge prenosa novca, naknade su značajno niže. Pored toga, kako se transakcije izvršavaju na javnom Blockchain, to osigurava veću transparentnost kao i privatnost. To znači da pojedinci mogu slati novac svojim voljenima u drugim zemljama gotovo trenutno, sigurno i po znatno nižoj ceni.
 
 
-Na primer, USDt, koji primarno funkcioniše na Ethereum i Tron blokčejnovima, imao je prosečne transakcione naknade od [\$1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) i [\$0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions), respektivno, tokom protekle godine, bez obzira na poslatu sumu— naknada ostaje ista bilo da šaljete \$5 ili \$10,000. I dok govorimo, programeri rade na [stablecoins](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-Bitcoin-developers-to-mint-and-transfer-assets-on-the-Blockchain/) izgrađenim na Bitcoin-ovom Lightning Network, koji bi imali naknade od oko [\$0.0003](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption).
+Na primer, USDt, koji primarno funkcioniše na Ethereum i Tron blokčejnovima, imao je prosečne transakcione naknade od [\$1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) i [\$0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions), respektivno, tokom protekle godine, bez obzira na poslatu sumu— naknada ostaje ista bilo da šaljete \$5 ili \$10,000. I dok govorimo, programeri rade na [stablecoins](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-bitcoin-developers-to-mint-and-transfer-assets-on-the-blockchain/) izgrađenim na Bitcoin-ovom Lightning Network, koji bi imali naknade od oko [\$0.0003](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption).
 
 
 Sa USDt, Tonganci, kao i svi drugi koji šalju novac nazad svojim porodicama, mogu primiti mnogo više od svojih doznaka, što može značajno poboljšati njihov kvalitet života i doprineti ekonomskom razvoju njihove zemlje.
@@ -2021,10 +2021,10 @@ Ali Bitcoin takođe konkuriše sa Layer dve metode transakcija, sa tehnologijama
 Uprkos brojnim studijama koje opovrgavaju lažne tvrdnje, Bitcoin se i dalje često kritikuje kao supstanca koja se prvenstveno koristi za nezakonite aktivnosti. Još jednom, ovo ne može biti dalje od istine.
 
 
-Jedna [studija](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) koju je sproveo bivši zamenik direktora CIA-e otkrila je da su "široke generalizacije o korišćenju Bitcoin u nezakonitom finansiranju značajno preuveličane." Zapravo, od 2016. godine, manje od 1% ukupnog obima transakcija Bitcoin korišćeno je za nezakonite aktivnosti. Za poređenje, "neki procenjuju da podzemna ekonomija čini 11% do 12% bruto domaćeg [proizvoda](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp) SAD-a," od čega se većina obavlja korišćenjem američkog dolara.
+Jedna [studija](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) koju je sproveo bivši zamenik direktora CIA-e otkrila je da su "široke generalizacije o korišćenju Bitcoin u nezakonitom finansiranju značajno preuveličane." Zapravo, od 2016. godine, manje od 1% ukupnog obima transakcija Bitcoin korišćeno je za nezakonite aktivnosti. Za poređenje, "neki procenjuju da podzemna ekonomija čini 11% do 12% bruto domaćeg [proizvoda](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp) SAD-a," od čega se većina obavlja korišćenjem američkog dolara.
 
 
-I prema izveštaju Chainalysis-a iz 2020. godine, nezakonite aktivnosti čine samo oko [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) svih Bitcoin transakcija.
+I prema izveštaju Chainalysis-a iz 2020. godine, nezakonite aktivnosti čine samo oko [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) svih Bitcoin transakcija.
 
 
 Međutim, čak i uz ove dokaze, obmanjujuće izjave i dalje daju oni na vlasti, kao što je američka sekretarka trezora Janet Yellen [koja tvrdi](https://home.treasury.gov/news/press-releases/jy0023), "Kriptovalute su korišćene za pranje profita od online trgovaca drogom; bile su alat za finansiranje terorizma."
@@ -2318,7 +2318,7 @@ U konačnici, budućnost decentralizovanih finansija počiva na onima koji su sp
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
 
-U današnjem globalizovanom svetu, pristup finansijskim uslugama je ključna komponenta ekonomske participacije i nezavisnosti. Uprkos tome, previše pojedinaca je i dalje isključeno iz tradicionalnog bankarskog sistema, pri čemu žene često snose najveći teret ovog isključenja. Šokantno je da, iako nepotrebno [jedna četvrtina](https://www.worldbank.org/en/publication/globalfindex) globalne populacije ostaje bez bankovnih usluga, u zemljama poput Saudijske Arabije, [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) žena nema pristup osnovnim bankarskim uslugama, što ih sprečava da u potpunosti učestvuju u ekonomiji i društvu svoje zemlje.
+U današnjem globalizovanom svetu, pristup finansijskim uslugama je ključna komponenta ekonomske participacije i nezavisnosti. Uprkos tome, previše pojedinaca je i dalje isključeno iz tradicionalnog bankarskog sistema, pri čemu žene često snose najveći teret ovog isključenja. Šokantno je da, iako nepotrebno [jedna četvrtina](https://www.worldbank.org/en/publication/globalfindex) globalne populacije ostaje bez bankovnih usluga, u zemljama poput Saudijske Arabije, [36,5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) žena nema pristup osnovnim bankarskim uslugama, što ih sprečava da u potpunosti učestvuju u ekonomiji i društvu svoje zemlje.
 
 
 Evo samo nekoliko primera uslova koje žene širom sveta i dalje trpe danas:

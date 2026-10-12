@@ -267,7 +267,7 @@ Blockchain، تراکنش، خرج کردن دوگانه، مسئله ژنرال
 هدف این بخش از دوره، داشتن درک کلی از نرم‌افزار BTCPay Server خواهد بود. در یک محیط مشترک، توصیه می‌شود که نمایش مربی را دنبال کرده و همراه با کتاب دوره BTCPay Server پیش بروید تا معلم را دنبال کنید. شما یاد خواهید گرفت که چگونه یک Wallet را از طریق روش‌های متعدد ایجاد کنید. مثال‌ها شامل تنظیمات Hot Wallet و کیف پول‌های سخت‌افزاری متصل از طریق BTCPay Server Vault می‌باشند. این اهداف در محیط دمو رخ می‌دهند که توسط مربی دوره شما نمایش داده شده و به آن دسترسی داده می‌شود.
 
 
-اگر این دوره را به تنهایی دنبال کنید، می‌توانید فهرستی از میزبان‌های شخص ثالث برای اهداف نمایشی در https://directory.btcpayserver.org/filter/hosts پیدا کنید. ما به شدت توصیه می‌کنیم که از این گزینه‌های شخص ثالث به عنوان محیط‌های تولید استفاده نکنید، اما آن‌ها برای معرفی استفاده از Bitcoin و BTCPay Server مناسب هستند.
+اگر این دوره را به تنهایی دنبال کنید، می‌توانید فهرستی از میزبان‌های شخص ثالث برای اهداف نمایشی در https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/ پیدا کنید. ما به شدت توصیه می‌کنیم که از این گزینه‌های شخص ثالث به عنوان محیط‌های تولید استفاده نکنید، اما آن‌ها برای معرفی استفاده از Bitcoin و BTCPay Server مناسب هستند.
 
 
 به عنوان یک کارآموز ستاره راک BTCPay Server، ممکن است تجربه قبلی در راه‌اندازی یک نود Bitcoin داشته باشید. این دوره به طور خاص به نرم‌افزار BTCPay Server اختصاص دارد.
@@ -2395,10 +2395,10 @@ bitcoin-lightning-cli.sh getlog
 #### گزارش‌های گره Bitcoin
 
 
-علاوه بر [مشاهده لاگ‌ها](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) در کانتینر bitcoind خود، می‌توانید از هر یک از [دستورات bitcoin-cli](https://developer.Bitcoin.org/reference/RPC/index.html) نیز استفاده کنید.
+علاوه بر [مشاهده لاگ‌ها](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) در کانتینر bitcoind خود، می‌توانید از هر یک از [دستورات bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html) نیز استفاده کنید.
 
 
-[(opens new window)](https://developer.Bitcoin.org/reference/RPC/index.html) برای به‌دست‌آوردن اطلاعات از نود Bitcoin شما. BTCPay شامل یک اسکریپت است که به شما اجازه می‌دهد به‌راحتی با نود Bitcoin خود ارتباط برقرار کنید.
+[(opens new window)](https://developer.bitcoin.org/reference/rpc/index.html) برای به‌دست‌آوردن اطلاعات از نود Bitcoin شما. BTCPay شامل یک اسکریپت است که به شما اجازه می‌دهد به‌راحتی با نود Bitcoin خود ارتباط برقرار کنید.
 
 
 در داخل پوشه btcpayserver-docker، اطلاعات Blockchain را با استفاده از نود خود دریافت کنید:

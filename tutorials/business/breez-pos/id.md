@@ -5,7 +5,7 @@ description: Breez memudahkan pengumpulan pembayaran bitcoin untuk bisnis Anda.
 
 ![cover](assets/cover.webp)
 
-
+> **Peringatan (Oktober 2026):** Breez menarik aplikasi seluler lamanya (Breez: Lightning Client & POS) dari toko aplikasi pada tahun 2026 dan menutup kanal para penggunanya. Tautan unduhan dan langkah-langkah dalam tutorial ini tidak lagi berfungsi. Pengguna lama dapat memulihkan dana mereka dengan alat [breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery). Kami mempertahankan halaman ini sebagai referensi sampai diperbarui.
 
 Sejak pandemi COVID-19, pembayaran digital nirsentuh telah tersebar luas, bahkan di toko-toko terkecil sekalipun. Selama periode ini, banyak bisnis telah menemukan kepraktisan solusi uang tunai bitcoin, yang memungkinkan mereka untuk menerima pembayaran dari seluruh dunia. Akan tetapi, solusi-solusi ini terkadang sulit digunakan atau tidak cocok untuk bisnis kecil. Dalam tutorial ini, kita akan melihat terminal pembayaran Breez, sebuah solusi yang menonjol karena kemudahan penggunaannya, sekaligus memberikan Anda kendali penuh atas pengelolaan bitcoin Anda.
 
@@ -15,7 +15,7 @@ Sejak pandemi COVID-19, pembayaran digital nirsentuh telah tersebar luas, bahkan
 
 
 
-Breez POS adalah layanan penitipan mandiri yang disediakan oleh Breez wallet. Kegunaan dari layanan ini adalah untuk memungkinkan pedagang untuk mengumpulkan pembayaran melalui Bitcoin dengan tetap menggunakan antarmuka yang sederhana, sangat mirip dengan berbagai dompet Lightning. Breez POS tersedia di platform unduhan [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) dan [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS).
+Breez POS adalah layanan penitipan mandiri yang disediakan oleh Breez wallet. Kegunaan dari layanan ini adalah untuk memungkinkan pedagang untuk mengumpulkan pembayaran melalui Bitcoin dengan tetap menggunakan antarmuka yang sederhana, sangat mirip dengan berbagai dompet Lightning. Breez POS tersedia di platform unduhan Google Play Store (Android) dan App Store (iOS).
 
 
 

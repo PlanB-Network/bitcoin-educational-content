@@ -818,10 +818,10 @@ Chociaż Bitcoin zachwycił umysły milionów ludzi swoim przełomowym potencja�
 Tak czy inaczej, przyjrzyjmy się mitowi i legendzie.
 
 
-Satoshi Nakamoto pojawił się w Internecie w 2008 roku z rewolucyjnym pomysłem: elektroniczną gotówką peer-to-peer. Swoją wizją podzielił się w [dziewięciostronicowym dokumencie](https://Bitcoin.org/Bitcoin.pdf) zatytułowanym "Bitcoin: A Peer-to-Peer Electronic Cash System" na liście mailingowej Cypherpunk. Pomimo początkowego braku zainteresowania ze strony większości członków listy mailingowej, pomysł wzbudził wystarczającą ciekawość u jednego z członków, Hala Finneya, który ostatecznie skontaktował się z Satoshi. Zaangażowanie Hala w rozwój Bitcoin okazało się punktem zwrotnym, który doprowadził do tego, że więcej osób zaoferowało swoje wsparcie.
+Satoshi Nakamoto pojawił się w Internecie w 2008 roku z rewolucyjnym pomysłem: elektroniczną gotówką peer-to-peer. Swoją wizją podzielił się w [dziewięciostronicowym dokumencie](https://bitcoin.org/bitcoin.pdf) zatytułowanym "Bitcoin: A Peer-to-Peer Electronic Cash System" na liście mailingowej Cypherpunk. Pomimo początkowego braku zainteresowania ze strony większości członków listy mailingowej, pomysł wzbudził wystarczającą ciekawość u jednego z członków, Hala Finneya, który ostatecznie skontaktował się z Satoshi. Zaangażowanie Hala w rozwój Bitcoin okazało się punktem zwrotnym, który doprowadził do tego, że więcej osób zaoferowało swoje wsparcie.
 
 
-Jednak po dwóch latach pracy nad projektem, Satoshi zniknął bez śladu, z [jego ostatnim wiarygodnym komunikatem](https://plan99.net/~mike/Satoshi-emails/thread5.html) 23 kwietnia 2011 r., w którym stwierdził, że "przeszedł do innych rzeczy"
+Jednak po dwóch latach pracy nad projektem, Satoshi zniknął bez śladu, z [jego ostatnim wiarygodnym komunikatem](https://plan99.net/~mike/satoshi-emails/thread5.html) 23 kwietnia 2011 r., w którym stwierdził, że "przeszedł do innych rzeczy"
 
 
 Tajemnicze zniknięcie Satoshi Nakamoto doprowadziło do różnych teorii na temat tego, dokąd się udał. Niektórzy spekulują, że czuł, że osiągnął to, co zamierzał zrobić, podczas gdy inni uważają, że czuł się niekomfortowo z powodu uwagi, jaką przyciągał Bitcoin. W grudniu [2010](https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad), kiedy WikiLeaks otrzymał zakaz korzystania z tradycyjnych metod płatności, zwrócił się do Bitcoin o finansowanie. Obawy Satoshi związane ze zwiększonym zainteresowaniem Bitcoin i potencjalnymi konsekwencjami prawnymi tworzenia waluty wykorzystywanej do ingerowania w geopolityczne interesy USA mogły skłonić go do wycofania się. Alternatywnie, mógł on skupić się na innych projektach, nadal wnosić wkład w Bitcoin pod innymi nazwami lub nawet umrzeć.
@@ -1168,7 +1168,7 @@ W tej sekcji zagłębimy się w różne warstwy transakcji, zarówno fiat, jak i
 Bitcoin's Blockchain składa się z bloków, jak sama nazwa wskazuje. Te bloki mają teoretyczny maksymalny rozmiar 4 megabajtów. ze względu na ten limit, istnieje ograniczenie liczby transakcji, które Bitcoin może przetwarzać na sekundę, która wynosi od siedmiu do dziesięciu transakcji na sekundę (tps).
 
 
-Dlatego można się zastanawiać: W jaki sposób Bitcoin może konkurować z sieciami takimi jak Visa czy Mastercard, które dokonują transakcji z prędkością [1700 tps](https://towardsdatascience.com/the-Blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
+Dlatego można się zastanawiać: W jaki sposób Bitcoin może konkurować z sieciami takimi jak Visa czy Mastercard, które dokonują transakcji z prędkością [1700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
 
 Odpowiedź jest prosta. Nie konkuruje z nimi.
@@ -1240,7 +1240,7 @@ Istnieją również niezliczone inne rozwiązania Wallet dostępne dla urządze�
 Portfele typu non-custodial to rodzaj Bitcoin Wallet, w którym użytkownik jest jedynym powiernikiem swoich środków, co oznacza, że ma pełną kontrolę nad [kluczami prywatnymi](https://planb.academy/resources/glossary/private-key). Klucze prywatne są jak hasło do Wallet i służą do podpisywania i autoryzowania transakcji. Bez nich nie można uzyskać dostępu ani przenieść Bitcoin.
 
 
-Portfele typu non-custodial oferują wyższy poziom bezpieczeństwa i prywatności w porównaniu z portfelami typu custodial, ponieważ tylko użytkownik jest odpowiedzialny za bezpieczeństwo swoich środków. Przykłady portfeli niepowierniczych obejmują [portfele sprzętowe](https://planb.academy/resources/glossary/hardware-wallet), takie jak [Coldcard](https://store.coinkite.com/store/coldcard) i [Trezor](https://trezor.io/), które są fizycznymi urządzeniami przechowującymi klucze prywatne w trybie offline i zapewniającymi dodatkowe Layer bezpieczeństwa. Innymi popularnymi portfelami niebędącymi portfelami powierniczymi są portfele programowe, takie jak [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home) i [Blockstream Green](https://blockstream.com/Green/), które można pobrać i zainstalować na komputerze lub urządzeniu mobilnym.
+Portfele typu non-custodial oferują wyższy poziom bezpieczeństwa i prywatności w porównaniu z portfelami typu custodial, ponieważ tylko użytkownik jest odpowiedzialny za bezpieczeństwo swoich środków. Przykłady portfeli niepowierniczych obejmują [portfele sprzętowe](https://planb.academy/resources/glossary/hardware-wallet), takie jak [Coldcard](https://store.coinkite.com/store/coldcard) i [Trezor](https://trezor.io/), które są fizycznymi urządzeniami przechowującymi klucze prywatne w trybie offline i zapewniającymi dodatkowe Layer bezpieczeństwa. Innymi popularnymi portfelami niebędącymi portfelami powierniczymi są portfele programowe, takie jak [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home) i [Blockstream Green](https://blockstream.com/green/), które można pobrać i zainstalować na komputerze lub urządzeniu mobilnym.
 
 
 *Chociaż nie możemy polecić konkretnego Wallet, zdecydowanie zalecamy przejęcie kontroli nad Bitcoin poprzez samodzielną lub wspólną opiekę, która obejmuje wybór Wallet, który odpowiada Twoim potrzebom i preferencjom. Przed podjęciem decyzji o wyborze Wallet należy przeprowadzić dokładne badania, aby upewnić się, że spełnia on wymagania dotyczące bezpieczeństwa i użyteczności*
@@ -1665,7 +1665,7 @@ Prawdopodobnie zastanawiasz się: W czym problem?
 Wysyłanie pieniędzy z powrotem za granicę za pośrednictwem usługi przekazu pieniężnego, takiej jak Western Union, nie jest darmowe. To kosztuje, i to nie tylko trochę, ale znaczną kwotę.
 
 
-Wysłanie 100 USD z powrotem do Tonga wiąże się z kosztem [12,61 USD](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus dodatkową stratą w wysokości 8,60 USD z powodu niekorzystnego kursu Exchange. Oznacza to, że ponad 21% całkowitej wysłanej kwoty trafia do Western Union, międzynarodowej korporacji. W rezultacie znaczna suma, która mogła trafić w ręce zasłużonych tongańskich rodzin, kończy w kieszeniach dostawcy usług transferu pieniędzy.
+Wysłanie 100 USD z powrotem do Tonga wiąże się z kosztem [12,61 USD](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus dodatkową stratą w wysokości 8,60 USD z powodu niekorzystnego kursu Exchange. Oznacza to, że ponad 21% całkowitej wysłanej kwoty trafia do Western Union, międzynarodowej korporacji. W rezultacie znaczna suma, która mogła trafić w ręce zasłużonych tongańskich rodzin, kończy w kieszeniach dostawcy usług transferu pieniędzy.
 
 Czy możesz sobie wyobrazić korzyści płynące z dodania dodatkowych 21% do swojego dochodu?
 
@@ -1676,7 +1676,7 @@ Co więcej, biorąc pod uwagę, że PKB Tonga wyniósł [469](https://tradingeco
 A jeśli myślałeś, że Tonga jest w tym osamotniona, zgadnij jeszcze raz.
 
 
-Oto przykładowa kwota, jaką Western Union [pobiera](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) za wysłanie 100 USD do kilku innych znanych krajów:
+Oto przykładowa kwota, jaką Western Union [pobiera](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) za wysłanie 100 USD do kilku innych znanych krajów:
 
 
 
@@ -1691,7 +1691,7 @@ Jest to oszałamiająca kwota pieniędzy, która znajduje się obecnie w rękach
 W przeciwieństwie do tradycyjnych usług przelewów pieniężnych, USDt jest walutą cyfrową, która na potrzeby transakcji porusza się po szynach Blockchain. Ponieważ nie wymaga pośredników, takich jak banki lub usługi przekazów pieniężnych, opłaty są znacznie niższe. Ponadto, ponieważ transakcje są wykonywane na publicznym Blockchain, zapewnia to większą przejrzystość, a także prywatność. Oznacza to, że osoby fizyczne mogą wysyłać pieniądze do swoich bliskich w innych krajach niemal natychmiast, bezpiecznie i po znacznie niższych kosztach.
 
 
-Na przykład USDt, który działa głównie na blockchainach Ethereum i Tron, w ciągu ostatniego roku uśrednił opłaty transakcyjne odpowiednio [1,02 USD](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) i [0,000005 USD](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions), niezależnie od wysłanej kwoty - opłata pozostaje taka sama niezależnie od tego, czy wysyłasz 5 USD, czy 10 000 USD. W chwili obecnej deweloperzy pracują nad [stablecoinami](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-Bitcoin-developers-to-mint-and-transfer-assets-on-the-Blockchain/) zbudowanymi na Bitcoin's Lightning Network, w przypadku których opłaty wyniosłyby około [0,0003 USD](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption).
+Na przykład USDt, który działa głównie na blockchainach Ethereum i Tron, w ciągu ostatniego roku uśrednił opłaty transakcyjne odpowiednio [1,02 USD](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) i [0,000005 USD](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions), niezależnie od wysłanej kwoty - opłata pozostaje taka sama niezależnie od tego, czy wysyłasz 5 USD, czy 10 000 USD. W chwili obecnej deweloperzy pracują nad [stablecoinami](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-bitcoin-developers-to-mint-and-transfer-assets-on-the-blockchain/) zbudowanymi na Bitcoin's Lightning Network, w przypadku których opłaty wyniosłyby około [0,0003 USD](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption).
 
 
 Dzięki USDt Tongańczycy, a także wszyscy inni, którzy wysyłają pieniądze z powrotem do swoich rodzin, mogą otrzymywać znacznie więcej swoich przekazów pieniężnych, co może znacznie poprawić ich jakość życia i przyczynić się do rozwoju gospodarczego ich kraju.
@@ -2021,10 +2021,10 @@ Jednak Bitcoin konkuruje również z Layer dwiema metodami transakcji, z technol
 Pomimo licznych badań obalających fałszywe twierdzenia, Bitcoin jest nadal często krytykowany jako wykorzystywany głównie do nielegalnej działalności. Po raz kolejny nie może to być dalsze od prawdy.
 
 
-Jedno [badanie](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) przeprowadzone przez byłego zastępcę dyrektora CIA wykazało, że "szerokie uogólnienia dotyczące wykorzystania Bitcoin w nielegalnym finansowaniu są znacznie zawyżone" W rzeczywistości od 2016 r. mniej niż 1% całkowitego wolumenu transakcji Bitcoin zostało wykorzystane do nielegalnej działalności. Dla porównania, "niektórzy szacują podziemną gospodarkę na 11% do 12% produktu krajowego brutto USA (https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)", z czego większość jest ułatwiona przy użyciu dolara amerykańskiego.
+Jedno [badanie](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) przeprowadzone przez byłego zastępcę dyrektora CIA wykazało, że "szerokie uogólnienia dotyczące wykorzystania Bitcoin w nielegalnym finansowaniu są znacznie zawyżone" W rzeczywistości od 2016 r. mniej niż 1% całkowitego wolumenu transakcji Bitcoin zostało wykorzystane do nielegalnej działalności. Dla porównania, "niektórzy szacują podziemną gospodarkę na 11% do 12% produktu krajowego brutto USA (https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)", z czego większość jest ułatwiona przy użyciu dolara amerykańskiego.
 
 
-Według raportu Chainalysis z 2020 r., nielegalna działalność stanowi jedynie około [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) wszystkich transakcji Bitcoin.
+Według raportu Chainalysis z 2020 r., nielegalna działalność stanowi jedynie około [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) wszystkich transakcji Bitcoin.
 
 
 Jednak nawet w obliczu tych dowodów, rządzący nadal wygłaszają wprowadzające w błąd oświadczenia, takie jak sekretarz skarbu USA Janet Yellen [twierdząca](https://home.treasury.gov/news/press-releases/jy0023), że "kryptowaluty były wykorzystywane do prania zysków internetowych handlarzy narkotyków; były narzędziem finansowania terroryzmu"
@@ -2318,7 +2318,7 @@ Ostatecznie przyszłość zdecentralizowanych finansów zależy od tych, którzy
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
 
-W dzisiejszym zglobalizowanym świecie dostęp do usług finansowych jest kluczowym elementem udziału w życiu gospodarczym i niezależności. Pomimo tego, zbyt wiele osób jest nadal wykluczonych z tradycyjnego systemu bankowego, a kobiety często ponoszą ciężar tego wykluczenia. Szokujące jest to, że chociaż [jedna czwarta](https://www.worldbank.org/en/publication/globalfindex) światowej populacji pozostaje bez dostępu do bankowości, w krajach takich jak Arabia Saudyjska [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) kobiet nie ma dostępu do podstawowych usług bankowych, co uniemożliwia im pełne uczestnictwo w gospodarce i społeczeństwie swojego kraju.
+W dzisiejszym zglobalizowanym świecie dostęp do usług finansowych jest kluczowym elementem udziału w życiu gospodarczym i niezależności. Pomimo tego, zbyt wiele osób jest nadal wykluczonych z tradycyjnego systemu bankowego, a kobiety często ponoszą ciężar tego wykluczenia. Szokujące jest to, że chociaż [jedna czwarta](https://www.worldbank.org/en/publication/globalfindex) światowej populacji pozostaje bez dostępu do bankowości, w krajach takich jak Arabia Saudyjska [36,5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) kobiet nie ma dostępu do podstawowych usług bankowych, co uniemożliwia im pełne uczestnictwo w gospodarce i społeczeństwie swojego kraju.
 
 
 Oto tylko kilka przykładów warunków, w jakich do dziś żyją kobiety na całym świecie:

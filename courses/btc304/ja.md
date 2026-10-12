@@ -48,7 +48,7 @@ BTC304へようこそ！
 
 
 
-- レバノン、シリア、エジプト、アルゼンチンなどの人々がそうであるように、[ビットコインを使うことへの世界中の人々の関心の高まり](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin)は、銀行システムからの解放、および／または変動の少ない、または切り下げられた通貨を使うことを意味する；
+- レバノン、シリア、エジプト、アルゼンチンなどの人々がそうであるように、[ビットコインを使うことへの世界中の人々の関心の高まり](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin)は、銀行システムからの解放、および／または変動の少ない、または切り下げられた通貨を使うことを意味する；
 - 金融政策の固定化によって、長期的に価格が上昇し、価値の保存と長期投資としての地位を確立している；
 - 特に2017年から2018年、2020年から2021年にかけて、投機的な暗号通貨市場が連続的に成長する；
 - 主流メディアで存在感を増すビットコイン。
@@ -701,7 +701,7 @@ Bitcoin London」ミートアップの未来的なロゴをデザインしたい
 
 
 
-- [ ] *プロンプトロンドン橋とビッグベンを背景にビットコインのロゴを作ってください。Futuristic* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+- [ ] *プロンプトロンドン橋とビッグベンを背景にビットコインのロゴを作ってください。Futuristic*
 
 
 
@@ -714,7 +714,7 @@ Bitcoin London」ミートアップの未来的なロゴをデザインしたい
 
 
 
-- [ ] *プロンプト4枚目をもっとリアルに* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+- [ ] *プロンプト4枚目をもっとリアルに*
 
 
 
@@ -732,7 +732,7 @@ Bitcoin London」ミートアップの未来的なロゴをデザインしたい
 
 
 
-- [ ] *プロンプトLondon Bitcoin Meetup "のロゴをブリティッシュでクリーンなスタイルで作成してください* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *プロンプトLondon Bitcoin Meetup "のロゴをブリティッシュでクリーンなスタイルで作成してください*
 
 
 
@@ -1390,7 +1390,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 
 
 - [Btcmap.org](https://btcmap.org/)は、2つの地図を毎日更新しているウェブサイトです： **[ビットコインを受け入れるビジネスの世界地図](https://btcmap.org/map)**と**[世界コミュニティ地図](https://btcmap.org/communities/map)**である。多くのビットコイナーは、旅行中であれ、日常生活中であれ、新しい人々に出会ったり、[Sats](https://planb.academy/resources/glossary/satoshi-sat)を過ごす場所を見つけたりするために、これらのマップを定期的にチェックしている。Btcmapは世界的なリファレンスであり、そこにあなたのコミュニティを掲載することは、知名度を上げるために不可欠です。
-- [ビットコイナーイベント](https://www.bitcoinerevents.com/)は、ビットコイナーによるビットコイナーのためのウェブサイトです。**あなたのコミュニティで開催予定のイベントを掲載することができます。しかし、フランスではまだあまり使われていない。**
+- ビットコイナーイベントは、ビットコイナーによるビットコイナーのためのウェブサイトです。**あなたのコミュニティで開催予定のイベントを掲載することができます。しかし、フランスではまだあまり使われていない。** **注記（2026年10月）：** このサイトは現在アクセスできません。同様のイベントカレンダーとして、[BitcoinOnly Events](https://bitcoinonly.events/)が現在も利用できます。
 - あなたの国によっては、他にもローカルな取り組みがあるかもしれません。例えばフランスでは、[Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/)があり、**毎月何十ものビットコインイベントがリストアップされている**。もしあなたがまだツイッターで彼らをフォローしたり、あなたのコミュニティやイベントについての情報を共有するために彼らに連絡を取っていないのであれば、今がその時です！ **フランスのイベント・カレンダーを最新に保つために、すべてのフランスのビットコインコミュニティが以下の習慣を身につけるとよいでしょう。**
     - 新しいコミュニティイベントが開催されるたびに、Twitterで@bitcoinpointfrに言及する。
     - テレグラム・グループに新しいイベント告知をピン留めする。
@@ -1410,7 +1410,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 
 最後の2つのプラットフォームは知名度を上げるのに役立つが、コミュニティを立ち上げる際にはお勧めできない。
 
-**[btcmap.org](https://btcmap.org/)、[BitcoinerEvents](https://www.bitcoinerevents.com/)、フランスのコミュニティの場合は[Bitcoin.fr](https://Bitcoin.fr)に掲載することから始めれば十分です**。
+**[btcmap.org](https://btcmap.org/)、[BitcoinOnly Events](https://bitcoinonly.events/)、フランスのコミュニティの場合は[Bitcoin.fr](https://Bitcoin.fr)に掲載することから始めれば十分です**。
 
 
 おめでとうございます！あなたの**コミュニティは作られ**、**ビジュアルは準備され**、**目標は設定され**、**コミュニケーション・チャンネルは整えられ**、**ソーシャル・ネットワークは立ち上げられ**、**ビジビリティ戦略は決定された**。
@@ -1498,7 +1498,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 - **Nerdminer**、Bitaxe、FPGA、あるいはASICを持ってくる；
 - ビットコインのチラシを持っている；
 - ビットコインのビジュアルやロゴをあなたのコミュニティで考えてみませんか？
-- [ビットコインカードゲーム](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)；
+- [ビットコインカードゲーム](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)；
 - [btcmap.org](https://btcmap.org/) **コミュニティと商店の地図を表示する；**
 - **ライトニング**を使用してビットコインを送信または受信する。
 
@@ -1864,7 +1864,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 
 - 5月22日の**ピッツァの日**のためのレストラン・ナイト
 - 次の**Halving**を祝う夜または週末
-- [Le Coin de Table](https://www.Maximalist.ovh/)や[SHAmory](https://shamory.com/)のようなゲームを使って、ビットコインとその仕組みについて家族で**ゲームナイト**をする。
+- [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)や[SHAmory](https://shamory.com/)のようなゲームを使って、ビットコインとその仕組みについて家族で**ゲームナイト**をする。
 - さまざまな種類のハードウェア（CPU、GPU、FPGA、ASIC、Nerdminer、Bitaxe）を紹介する**Miningワークショップ**。
 - テーマに沿ったワークショップを行う、**初心者のための午後または夕方の時間**。
 - 近隣地域との**合同ミートアップ**。
@@ -1999,7 +1999,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 いくつかのチラシは、planB.networkの[教育用ツールキット](https://planb.academy/fr/resources/bet)ですでにオープンソースとして入手可能であり、今後も追加される予定である。
 
 
-一例として、ビットコインを使う21の理由が書かれた[完全なソースのチラシ](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin)がある。そのデザインも[オープンソースで入手可能](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)であり、あなたが修正・翻案して共有することができる。出典のクレジットをお忘れなく。
+一例として、ビットコインを使う21の理由が書かれた[完全なソースのチラシ](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin)がある。そのデザインも[オープンソースで入手可能](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)であり、あなたが修正・翻案して共有することができる。出典のクレジットをお忘れなく。
 
 
 
@@ -2043,7 +2043,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 - フランス語に翻訳されたビットコインホワイトペーパー。
 
 
-こちらは[フランスのビットコイナーたちの間で共有されている小冊子](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle)で、国中の何十もの本箱に置かれている。そのデザインは[オープンソースとしても利用できる](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)。
+こちらは[フランスのビットコイナーたちの間で共有されている小冊子](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle)で、国中の何十もの本箱に置かれている。そのデザインは[オープンソースとしても利用できる](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)。
 
 
 

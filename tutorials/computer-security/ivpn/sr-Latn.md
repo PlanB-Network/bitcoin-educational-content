@@ -78,7 +78,7 @@ Kada je instalacija završena, potrebno je uneti ID vašeg naloga. Videćemo kak
 ## Kako instalirati IVPN na pametni telefon?
 
 
-Preuzmite IVPN iz vaše prodavnice aplikacija, bilo da je to [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) za iOS korisnike, [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) za Android, ili [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Ako koristite Android, takođe imate opciju da preuzmete `.apk` datoteku direktno sa [IVPN sajta](https://www.ivpn.net/en/apps-android/).
+Preuzmite IVPN iz vaše prodavnice aplikacija, bilo da je to [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) za iOS korisnike, [Google Play Store](https://www.ivpn.net/en/apps-android/) za Android, ili [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Ako koristite Android, takođe imate opciju da preuzmete `.apk` datoteku direktno sa [IVPN sajta](https://www.ivpn.net/en/apps-android/).
 
 ![IVPN](assets/notext/05.webp)
 

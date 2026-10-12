@@ -217,7 +217,7 @@ Um die Logs deines Bitcoin-Knotens zu sehen, die sich speziell auf seine Interak
 
 
 - [Wiki-Seite, die Tor und seine Beziehung zu Bitcoin erklärt](https://en.Bitcoin.it/wiki/Tor)
-- [Bitcoin core Konfigurationsdatei-Generator von Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [Bitcoin core Konfigurationsdatei-Generator von Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/)
 - [Tor-Konfigurationsanleitung von Jon Atack](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 

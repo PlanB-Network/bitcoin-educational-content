@@ -28,7 +28,6 @@ Saatavilla:
 
 
 - iOS kautta [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
-- Android kautta [Play Store](https://play.google.com/store/apps/details?id=org.btcmap.app)
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) androidin avoimen lähdekoodin sovellusluettelo
 - lataamalla [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) suoraan projektin githubista
 - verkkosovelluksen kautta selaimesta (tämänhetkinen näkemyksemme)

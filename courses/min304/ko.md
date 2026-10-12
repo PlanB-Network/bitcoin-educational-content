@@ -618,7 +618,7 @@ Antminer S9는 다음과 같은 부품으로 구성되어 있습니다:
 이 가이드를 한 문장으로 요약하면 다음과 같습니다: **"믿지 말고 검증하세요."**
 
 
-[파트너인 21energy와 같은 Mining 머신 리컨디셔닝 전문가에게 의뢰할 수도 있습니다. 이 업체는 테스트를 거친 S9 머신을 제공하며, 청소 및 BraiiinOS+ 소프트웨어가 사전 설치되어 있습니다. 제휴 코드 "decouvre"를 사용하면 Attakai 프로젝트를 지원하면서 S9 구매 시 10% 할인을 받을 수 있습니다.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[파트너인 21energy와 같은 Mining 머신 리컨디셔닝 전문가에게 의뢰할 수도 있습니다. 이 업체는 테스트를 거친 S9 머신을 제공하며, 청소 및 BraiiinOS+ 소프트웨어가 사전 설치되어 있습니다. 제휴 코드 "decouvre"를 사용하면 Attakai 프로젝트를 지원하면서 S9 구매 시 10% 할인을 받을 수 있습니다.](https://21energy.com/products/bitmain-antminer-s9)
 
 
 ## S9용 하드웨어 수정 구매 가이드

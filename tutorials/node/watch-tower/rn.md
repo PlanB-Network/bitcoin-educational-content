@@ -33,7 +33,7 @@ Muri iyi nyigisho, turaza kuraba uburyo 3 bwo gukoresha **Watchtower** :
 
 
 
-*Iyi nyigisho yakuwe muri [inyandiko zizwi za LND] Hari ivyo bishobora kuba vyahinduwe kuri verisiyo y'intango .
+*Iyi nyigisho yakuwe muri [inyandiko zizwi za LND](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md) Hari ivyo bishobora kuba vyahinduwe kuri verisiyo y'intango .
 
 
 
@@ -331,7 +331,7 @@ OPTIONS:
 
 
 
-Ijisho rya Satoshi ([Rust-TEOS]) ni umuravyo Watchtower udafise ububiko, uhuye n’[Bolt]. 13](blog.com/sr-gi/bolt13/blob/master/13-iminara y'abacungera. Gigizwe n’ibice bibiri nyamukuru:
+Ijisho rya Satoshi ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)) ni umuravyo Watchtower udafise ububiko, uhuye n’[Bolt](https://github.com/sr-gi/bolt13/blob/master/13-watchtowers.md?ref=blog.summerofbitcoin.org). 13](blog.com/sr-gi/bolt13/blob/master/13-iminara y'abacungera. Gigizwe n’ibice bibiri nyamukuru:
 
 
 
@@ -519,13 +519,7 @@ Muri iyo menyu nyene, uzosanga kandi URI ya serivisi yawe ya Watchtower nimba wa
 
 
 
-Hariho Iminara y’Inderetsi myinshi iboneka kuri Internet. Nk’akarorero, [LN+ na Voltage bitanga Watchtower y’ubugwaneza](Watchtower) ushobora gufatanya nayo:
-
-
-
-```
-023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
-```
+Hariho Iminara y’Inderetsi myinshi iboneka kuri Internet. LN+ na Voltage vyahora bitanga Watchtower y’ubugwaneza, ariko ntikiboneka (Gitugutu 2026). Ubu LN+ itanga [Watch Swaps](https://lightningnetwork.plus/watch_swaps), aho abakoresha inode babiri bacungerana imiyoboro, kandi yasohoye [inyobozo ku Watchtower z’ubugwaneza](https://lightningnetwork.plus/posts/12).
 
 
 

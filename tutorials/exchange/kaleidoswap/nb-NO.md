@@ -296,7 +296,7 @@ For utviklere som bygger på toppen av KaleidoSwap, eksponerer applikasjonen en 
 - WebSocket**: For abonnement på markedsdata i sanntid.
 
 
-Se [API Documentation](https://docs.kaleidoswap.com/api/introduction) for fullstendige endepunkter og spesifikasjoner.
+Se [API Documentation](https://docs.kaleidoswap.com/api-reference/introduction) for fullstendige endepunkter og spesifikasjoner.
 
 
 ## Konklusjon

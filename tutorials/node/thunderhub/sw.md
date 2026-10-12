@@ -122,7 +122,7 @@ Kwa watumiaji walio nje ya Umbrel (k.m. kwenye seva ya kibinafsi, Raspberry Pi i
 
 
 
-**Masharti:** Hakikisha kuwa mfumo wako unatimiza mahitaji ya chini kabisa kulingana na [usanidi wa hati](https://docs.thunderhub.io/setup):
+**Masharti:** Hakikisha kuwa mfumo wako unatimiza mahitaji ya chini kabisa kulingana na [usanidi wa hati](https://docs.thunderhub.io/configure):
 
 
 
@@ -136,7 +136,7 @@ Kwa watumiaji walio nje ya Umbrel (k.m. kwenye seva ya kibinafsi, Raspberry Pi i
 
 
 
-**1. Rejesha msimbo wa ThunderHub:** Weka hazina ya GitHub ya mradi kama ilivyofafanuliwa katika [hati za usakinishaji](https://docs.thunderhub.io/installation):
+**1. Rejesha msimbo wa ThunderHub:** Weka hazina ya GitHub ya mradi kama ilivyofafanuliwa katika [hati za usakinishaji](https://docs.thunderhub.io/get-started):
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Faili kuu ya usanidi:** Unda faili ya `.env.local` kwenye mzizi wa folda ya ThunderHub ili kubinafsisha usanidi (hii itazuia mipangilio yako kufutwa wakati wa masasisho). Vigezo kuu kulingana na [hati za usanidi](https://docs.thunderhub.io/setup):
+**1. Faili kuu ya usanidi:** Unda faili ya `.env.local` kwenye mzizi wa folda ya ThunderHub ili kubinafsisha usanidi (hii itazuia mipangilio yako kufutwa wakati wa masasisho). Vigezo kuu kulingana na [hati za usanidi](https://docs.thunderhub.io/configure):
 
 
 
@@ -304,8 +304,8 @@ Ukurasa wa kuingia kwa ThunderHub unaonekana. Chagua akaunti iliyosanidiwa na in
 
 
 
-- **Usakinishaji:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- **Usanidi:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Usakinishaji:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- **Usanidi:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

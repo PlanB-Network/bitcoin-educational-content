@@ -5,6 +5,8 @@ description: Het installeren en gebruiken van je RoninDojo Bitcoin knooppunt.
 ---
 ***WAARSCHUWING:** Na de arrestatie van de oprichters van Samourai Wallet en de inbeslagname van hun servers op 24 april, zijn bepaalde functies van RoninDojo, zoals Whirlpool, niet langer operationeel. Het is echter mogelijk dat deze tools in de komende weken worden hersteld of op een andere manier opnieuw worden gelanceerd. Bovendien, omdat de RoninDojo code werd gehost op Samourai's GitLab, dat ook in beslag werd genomen, is het momenteel niet mogelijk om de code op afstand te downloaden. De RoninDojo teams werken waarschijnlijk aan het opnieuw publiceren van de code.*
 
+> **Update (oktober 2026):** RoninDojo heeft zijn code inmiddels opnieuw gepubliceerd op een eigen platform ([git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin)) en zit nu op versie 3. Deze handleiding beschrijft een oudere versie: sommige links en commando's werken niet meer. Raadpleeg voor de huidige procedure de officiële documentatie: [docs.ronindojo.io](https://docs.ronindojo.io/)
+
 
 we volgen de ontwikkelingen van deze zaak en de ontwikkelingen met betrekking tot de bijbehorende tools op de voet. Wees gerust dat we deze handleiding zullen bijwerken zodra er nieuwe informatie beschikbaar is._
 
@@ -84,10 +86,12 @@ Nu we een beeld hebben kunnen schetsen van RoninDojo, laten we eens kijken hoe w
 Om de machine te kiezen die RoninDojo host en draait, heb je verschillende opties.
 
 
-Zoals eerder uitgelegd is de eenvoudigste keuze om de Tanto te bestellen, een plug-and-play machine die speciaal voor dit doel is ontworpen. Om de jouwe te bestellen, ga hier: [link](https://shop.ronindojo.io/product-category/nodes/).
+Zoals eerder uitgelegd is de eenvoudigste keuze om de Tanto te bestellen, een plug-and-play machine die speciaal voor dit doel is ontworpen.
+
+> **Opmerking (oktober 2026):** RoninDojo lijkt de Tanto niet meer te verkopen, en de webwinkel is offline. Bekijk de lijst met compatibele hardware: [docs.ronindojo.io/hardware/compatible](https://docs.ronindojo.io/hardware/compatible/)
 
 
-Omdat de RoninDojo teams open-source code produceren, is het ook mogelijk om RoninDojo op andere machines te implementeren. Je kunt de laatste versies van de installatiewizard op deze pagina vinden: [link](https://ronindojo.io/en/downloads.html), en de laatste versies van de code op deze pagina: [link](https://code.samourai.io/ronindojo/RoninDojo).
+Omdat de RoninDojo teams open-source code produceren, is het ook mogelijk om RoninDojo op andere machines te implementeren. Je kunt de laatste versies van de installatiewizard op deze pagina vinden: [link](https://ronindojo.io/downloads), en de laatste versies van de code op deze pagina: [link](https://git.ronindojo.io/Ronin/monorepo).
 
 
 Persoonlijk heb ik het geïnstalleerd op een Raspberry Pi 4 8GB en alles werkt perfect.
@@ -118,7 +122,7 @@ Hier is een voorbeeld van hoe je je eigen RoninDojo knooppunt kunt opzetten:
 Zodra je je machine in elkaar hebt gezet, kun je beginnen met de installatie van RoninDojo. Om dit te doen, begin je met het maken van een opstartbare micro SD kaart door de juiste disk image erop te branden.
 
 
-Plaats je micro SD kaart in je computer en ga dan naar de officiële RoninDojo website om de RoninOS disk image te downloaden: https://ronindojo.io/en/downloads.html.
+Plaats je micro SD kaart in je computer en ga dan naar de officiële RoninDojo website om de RoninOS disk image te downloaden: https://ronindojo.io/downloads.
 
 
 Download de schijfimage die overeenkomt met je hardware. In mijn geval heb ik de image "MANJARO-ARM-RONINOS-RPI4-22.03.IMG.XZ" gedownload:
@@ -130,7 +134,7 @@ Download de schijfimage die overeenkomt met je hardware. In mijn geval heb ik de
 Zodra de image is gedownload, controleer je de integriteit ervan met behulp van het bijbehorende .SHA256-bestand. In dit artikel beschrijf ik in detail hoe je dat doet: Hoe de integriteit van Bitcoin software op Windows controleren?
 
 
-Specifieke instructies voor het controleren van de integriteit van RoninOS zijn ook beschikbaar op deze pagina: https://wiki.ronindojo.io/en/extras/verify.
+Specifieke instructies voor het controleren van de integriteit van RoninOS zijn ook beschikbaar op deze pagina: https://docs.ronindojo.io/install/verify-os/.
 
 
 Om deze image op je micro SD-kaart te branden, kun je software gebruiken zoals Balena Etcher, die je hier kunt downloaden: https://www.balena.io/etcher/.
@@ -232,6 +236,8 @@ In de terminal ziet het er als volgt uit:
 
 Je bent nu verbonden met je machine, die op dit moment alleen RoninOS heeft. Nu moet je RoninDojo erop installeren.
 
+
+> **Opmerking (oktober 2026):** Het onderstaande commando werkt niet meer: de GitLab van Samourai (code.samourai.io) is op 24 april 2024 in beslag genomen. RoninDojo host zijn code nu hier: [git.ronindojo.io/Ronin](https://git.ronindojo.io/Ronin). Zie voor de huidige installatieprocedure [docs.ronindojo.io/install/manual](https://docs.ronindojo.io/install/manual/)
 
 Download de laatste versie van RoninDojo door het volgende commando in te voeren:
 
@@ -508,16 +514,16 @@ Wanneer je een CoinJoin uitvoert met de Whirlpool implementatie, moet de applica
 
 Een oplossing voor deze beperking is om WhirlpoolCLI te gebruiken op een machine die bedoeld is om constant aan te staan, zoals een Bitcoin knooppunt. Hierdoor kunnen onze UTXO's 24/7 worden geremixed zonder dat het nodig is om een andere machine dan ons Bitcoin knooppunt draaiende te houden.
 
-WhirlpoolCLI wordt gebruikt in combinatie met WhirlpoolGUI, een grafisch Interface programma dat op een pc geïnstalleerd moet worden om Coinjoins eenvoudig te beheren. In dit artikel leg ik in detail uit hoe je Whirlpool CLI kunt instellen met je eigen dojo: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
+WhirlpoolCLI wordt gebruikt in combinatie met WhirlpoolGUI, een grafisch Interface programma dat op een pc geïnstalleerd moet worden om Coinjoins eenvoudig te beheren. In dit artikel leg ik in detail uit hoe je Whirlpool CLI kunt instellen met je eigen dojo: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
 
 
-Om meer te weten te komen over CoinJoin in het algemeen, leg ik alles uit in dit artikel: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin).
+Om meer te weten te komen over CoinJoin in het algemeen, leg ik alles uit in dit artikel: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
 
 ### Whirlpool Stat Tool gebruiken.
 
 
-Na het uitvoeren van CoinJoins met Whirlpool, wilt u misschien weten wat het werkelijke niveau van privacy van uw gemengde UTXO's is. Met Whirlpool Stat Tool kunt u dit eenvoudig doen. Met deze tool kunt u de prospectieve score en de retrospectieve score van uw gemengde UTXO's berekenen. Om meer te weten te komen over het berekenen van deze Anon Sets en hoe ze werken, raad ik je aan deze sectie te lezen: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
+Na het uitvoeren van CoinJoins met Whirlpool, wilt u misschien weten wat het werkelijke niveau van privacy van uw gemengde UTXO's is. Met Whirlpool Stat Tool kunt u dit eenvoudig doen. Met deze tool kunt u de prospectieve score en de retrospectieve score van uw gemengde UTXO's berekenen. Om meer te weten te komen over het berekenen van deze Anon Sets en hoe ze werken, raad ik je aan deze sectie te lezen: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
 
 
 De tool is vooraf geïnstalleerd op je RoninDojo. Op dit moment is het alleen beschikbaar via RoninCLI. Om het te starten vanuit het hoofdmenu, ga naar:
@@ -604,7 +610,7 @@ WST toont dan de retrospectieve score (Backward-looking metrics) gevolgd door de
 Let op: de prospectieve score van je UTXO wordt berekend op basis van de txid van je eerste mix, niet je laatste mix. Omgekeerd wordt de retrospectieve score van een UTXO berekend op basis van de txid van de laatste cyclus.
 
 
-Nogmaals, als je deze concepten van Anon Sets niet begrijpt, raad ik je aan dit deel van mijn artikel over CoinJoin te lezen, waar ik alles in detail uitleg met diagrammen: [https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
+Nogmaals, als je deze concepten van Anon Sets niet begrijpt, raad ik je aan dit deel van mijn artikel over CoinJoin te lezen, waar ik alles in detail uitleg met diagrammen: [https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
 
 
 ### Met behulp van de Boltzmann-calculator.
@@ -968,7 +974,7 @@ We hebben gezien hoe je RoninDojo installeert en ermee aan de slag gaat. Het is 
 Als het gebruik van de terminal je niet afschrikt en als je geen tools nodig hebt die gerelateerd zijn aan de Lightning Network, dan kan RoninDojo je aanspreken.
 
 
-Als je kunt, overweeg dan om een donatie te doen aan de ontwikkelaars die deze open-source software gratis voor je maken: https://donate.ronindojo.io/
+Als je kunt, overweeg dan om een donatie te doen aan de ontwikkelaars die deze open-source software gratis voor je maken: https://docs.ronindojo.io/main/donations/
 
 
 Om meer te weten te komen over RoninDojo, raad ik je aan om de links in mijn externe bronnen hieronder te bekijken.
@@ -992,5 +998,5 @@ Om meer te weten te komen over RoninDojo, raad ik je aan om de links in mijn ext
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/introducing-boltzmann-85930984a159
 - https://en.wikipedia.org/wiki/Boltzmann_formula
-- https://wiki.ronindojo.io/en/setup/bisq
+- https://web.archive.org/web/20240214172859/https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/

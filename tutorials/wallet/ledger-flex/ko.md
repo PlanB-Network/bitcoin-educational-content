@@ -52,7 +52,7 @@ Ledger Flex에는 CC EAL6+ 인증을 받은 "secure element" 칩이 장착되어
 ## Ledger 플렉스는 어떻게 구매하나요?
 
 
-Ledger Flex는 [공식 웹사이트](https://shop.Ledger.com/pages/Ledger-flex)에서 구매할 수 있습니다. 오프라인 매장에서 구매하려면 Ledger 웹사이트에서 [공인 리셀러 목록](https://www.Ledger.com/reseller)을 확인할 수도 있습니다.
+Ledger Flex는 [공식 웹사이트](https://shop.ledger.com/pages/ledger-flex)에서 구매할 수 있습니다. 오프라인 매장에서 구매하려면 Ledger 웹사이트에서 [공인 리셀러 목록](https://www.Ledger.com/reseller)을 확인할 수도 있습니다.
 
 
 ## 전제 조건

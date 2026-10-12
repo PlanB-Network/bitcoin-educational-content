@@ -97,7 +97,7 @@ Maintenant que vous êtes prêt, vous remarquerez peut-être à quel point Graph
 
 Applications par défaut
 Les seuls termes avec lesquels vous pourriez ne pas être familiers sont "Auditor" et "Vanadium".
-- "L'application [Auditor](https://play.google.com/store/apps/details?id=app.attestation.auditor) utilise des fonctionnalités de sécurité basées sur le matériel pour valider l'identité d'un appareil ainsi que l'authenticité et l'intégrité du système d'exploitation. Elle vérifiera que l'appareil exécute le système d'exploitation d'origine avec le chargeur de démarrage verrouillé et qu'aucune altération du système d'exploitation n'a eu lieu."
+- "L'application [Auditor](https://play.google.com/store/apps/details?id=app.attestation.auditor.play) utilise des fonctionnalités de sécurité basées sur le matériel pour valider l'identité d'un appareil ainsi que l'authenticité et l'intégrité du système d'exploitation. Elle vérifiera que l'appareil exécute le système d'exploitation d'origine avec le chargeur de démarrage verrouillé et qu'aucune altération du système d'exploitation n'a eu lieu."
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) est une variante du navigateur web Chromium renforcée en termes de confidentialité et de sécurité.
 
 ## Personnalisation
@@ -287,7 +287,7 @@ Droite : Proton Calendar
 
 ### Sécurité/Vie privée
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) propose une solution de gestionnaire de mots de passe gratuite et E2EE multiplateforme pour tous vos appareils. Leur service payant vous permet d'intégrer des codes 2FA dans l'application. Le serveur de Bitwarden peut être auto-hébergé et l'application Android est disponible via F-Droid.
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo) propose une solution de gestionnaire de mots de passe gratuite et E2EE multiplateforme pour tous vos appareils. Leur service payant vous permet d'intégrer des codes 2FA dans l'application. Le serveur de Bitwarden peut être auto-hébergé et l'application Android est disponible via F-Droid.
 - [Proton Pass](https://proton.me/pass/download) propose un service gratuit similaire à Bitwarden, mais les clients [Proton Unlimited](https://proton.me/pricing) peuvent accéder à des fonctionnalités avancées supplémentaires. Proton Pass est disponible via APK ou Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) est une application d'authentification à deux facteurs pour les systèmes utilisant des protocoles de mots de passe à usage unique. Les jetons peuvent être ajoutés facilement en scannant un code QR. FreeOTP est disponible via F-Droid.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) est une application gratuite, sécurisée et open source pour Android qui permet de gérer vos jetons de vérification en deux étapes pour vos services en ligne. Aegis est disponible via F-Droid.
@@ -401,7 +401,6 @@ GrapheneOS est un véritable labyrinthe dans lequel n'importe qui pourrait facil
 - [Guide d'utilisation officiel de GrapheneOS](https://grapheneos.org/usage) - Site officiel
 - [Forum GrapheneOS](https://discuss.grapheneos.org/) - Site officiel
 - [Cours magistral sur les paramètres de GrapheneOS](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Vidéo par 'The Privacy Wayfinder'
-- [Podcast général sur GrapheneOS](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast par 'Watchman Privacy'
 
 *Ce tutoriel est une adaptation du contenu original publié par [BitcoinQnA sur Bitcoiner.Guide sous licence MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), auquel revient l’intégralité du crédit pour le travail de rédaction initial.*
 

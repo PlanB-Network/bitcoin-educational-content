@@ -395,7 +395,7 @@ Nachdem Sie all diese Punkte überprüft haben, können Sie Ihre Maschine mit ma
 
 Um diesen Leitfaden in einem Satz zusammenzufassen: **"Vertraue nicht, überprüfe"**.
 
-[Sie können sich auch an professionelle Anbieter von gebrauchten Mining-Maschinen wenden, wie unseren Partner 21energy. Sie bieten getestete, gereinigte S9-Maschinen mit bereits installierter BraiiinOS+ Software an. Mit dem Affiliate-Code "decouvre" erhalten Sie einen 10% Rabatt auf den Kauf einer S9-Maschine und unterstützen gleichzeitig das Attakai-Projekt.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[Sie können sich auch an professionelle Anbieter von gebrauchten Mining-Maschinen wenden, wie unseren Partner 21energy. Sie bieten getestete, gereinigte S9-Maschinen mit bereits installierter BraiiinOS+ Software an. Mit dem Affiliate-Code "decouvre" erhalten Sie einen 10% Rabatt auf den Kauf einer S9-Maschine und unterstützen gleichzeitig das Attakai-Projekt.](https://21energy.com/products/bitmain-antminer-s9)
 
 ## Anleitung zum Kauf von Hardwarekomponenten für die Modifikation des S9
 

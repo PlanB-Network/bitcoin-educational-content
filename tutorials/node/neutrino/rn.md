@@ -11,7 +11,7 @@ description: Inyigisho yo gushiramwo LND Neutrino
 ### 1. Gukuraho Raspberry Pi OS Lite
 
 
-Amabwirizwa yo gukura no gushiramwo ishusho ku ikarita ya micro SD muri Windows, Mac, na Linux urashobora kuyasanga kuri [iyi paji](https://www.raspberrypi.org/porogarama/imirongo-ikoreshwa/).
+Amabwirizwa yo gukura no gushiramwo ishusho ku ikarita ya micro SD muri Windows, Mac, na Linux urashobora kuyasanga kuri [iyi paji](https://www.raspberrypi.org/software/operating-systems/).
 
 
 ### 2. Guhindura ikarita SD

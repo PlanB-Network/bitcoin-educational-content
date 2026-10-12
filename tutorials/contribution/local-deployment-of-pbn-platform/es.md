@@ -26,9 +26,9 @@ Este tutorial proporciona pasos detallados para configurar la plataforma, maneja
 
 Clona el repositorio en tu máquina local:
 
-git clone [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 
-[cd](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd) Bitcoin-sistema de gestión del aprendizaje
+cd bitcoin-learning-management-system
 
 ```bash
 git clone https://github.com/PlanB-Network/bitcoin-learning-management-system

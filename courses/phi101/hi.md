@@ -243,7 +243,7 @@ PHI101 में आपका स्वागत है!
 
 ### सवाल में औद्योगिक क्रांति
 
-दरअसल, मार्क्सवादी विश्लेषण औद्योगिक क्रांति के ऐतिहासिक यथार्थ को विकृत करता है। लुडविग वॉन मिसेस ने इस मुद्दे को अपने अर्थशास्त्र ग्रंथ [_ह्यूमन एक्शन_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (खासकर ["औद्योगिक क्रांति की लोकप्रिय व्याख्या"](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2) शीर्षक अध्याय) और [_इकोनॉमिक पॉलिसी: थॉट्स फॉर टुडे एंड टुमॉरो_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm) नामक व्याख्यान श्रृंखला में स्पष्ट किया है। (इनके अलावा, _द एंटी-कैपिटलिस्टिक मेंटैलिटी_ भी पढ़ने लायक है - [यहाँ](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) और [यहाँ](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm))।
+दरअसल, मार्क्सवादी विश्लेषण औद्योगिक क्रांति के ऐतिहासिक यथार्थ को विकृत करता है। लुडविग वॉन मिसेस ने इस मुद्दे को अपने अर्थशास्त्र ग्रंथ [_ह्यूमन एक्शन_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (खासकर ["औद्योगिक क्रांति की लोकप्रिय व्याख्या"](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2) शीर्षक अध्याय) और [_इकोनॉमिक पॉलिसी: थॉट्स फॉर टुडे एंड टुमॉरो_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm) नामक व्याख्यान श्रृंखला में स्पष्ट किया है। (इनके अलावा, _द एंटी-कैपिटलिस्टिक मेंटैलिटी_ भी पढ़ने लायक है - [यहाँ](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) और [यहाँ](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm))।
 
 ![image](assets/hi/014.webp)
 

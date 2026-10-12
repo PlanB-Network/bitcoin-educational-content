@@ -939,7 +939,7 @@ Für weitere Diskussionen über die moderne Zahlentheorie können Sie viele fort
 
 [3] Siehe [YouTube Video](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
-[4] Socratica, [Abstrakte Algebra](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Abstrakte Algebra](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 [5] Katz und Lindell, *Introduction to Modern Cryptography*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar und Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlin).
 
@@ -1901,7 +1901,7 @@ Eine Hash-Funktion $H$ ist **kollisionssicher**, wenn es nicht möglich ist, zwe
 
 Kollisionssichere Hash-Funktionen sind z. B. für die Überprüfung von Software wichtig. Angenommen, Sie möchten die Windows-Version von Bitcoin Core 0.21.0 (eine Serveranwendung zur Verarbeitung des Bitcoin-Netzwerkverkehrs) herunterladen. Die wichtigsten Schritte, die Sie unternehmen müssten, um die Legitimität der Software zu überprüfen, sind die folgenden:
 
-1.	Sie müssen zunächst die öffentlichen Schlüssel eines oder mehrerer Mitwirkender von Bitcoin Core herunterladen und in eine Software importieren, die digitale Signaturen überprüfen kann (z. B. Kleopetra). Sie können diese öffentlichen Schlüssel [hier](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt) finden. Es wird empfohlen, die Bitcoin Core Software mit den öffentlichen Schlüsseln von mehreren Mitwirkenden zu verifizieren.
+1.	Sie müssen zunächst die öffentlichen Schlüssel eines oder mehrerer Mitwirkender von Bitcoin Core herunterladen und in eine Software importieren, die digitale Signaturen überprüfen kann (z. B. Kleopetra). Sie können diese öffentlichen Schlüssel [hier](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys) finden. Es wird empfohlen, die Bitcoin Core Software mit den öffentlichen Schlüsseln von mehreren Mitwirkenden zu verifizieren.
 
 2.	Als nächstes müssen Sie die von Ihnen importierten öffentlichen Schlüssel überprüfen. Zumindest ein Schritt sollte darin bestehen, dass Sie überprüfen, ob die gefundenen öffentlichen Schlüssel mit den an verschiedenen anderen Stellen veröffentlichten übereinstimmen. Sie können zum Beispiel die persönlichen Webseiten, Twitter-Seiten oder Github-Seiten der Personen konsultieren, deren öffentliche Schlüssel Sie importiert haben. In der Regel erfolgt dieser Vergleich öffentlicher Schlüssel durch den Vergleich eines kurzen Hashwerts des öffentlichen Schlüssels, des sogenannten Fingerabdrucks.
 

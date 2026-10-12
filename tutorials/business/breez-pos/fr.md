@@ -5,11 +5,13 @@ description: Encaissez facilement des paiements en bitcoins dans votre commerce 
 
 ![cover](assets/cover.webp)
 
+> **Avertissement (octobre 2026) :** Breez a retiré son application mobile historique (Breez: Lightning Client & POS) des magasins d'applications en 2026 et a fermé les canaux de ses utilisateurs. Les liens de téléchargement et les étapes de ce tutoriel ne fonctionnent plus. Les anciens utilisateurs peuvent récupérer leurs fonds avec l'outil [breez-mobile-recovery](https://github.com/breez/breez-mobile-recovery). Nous conservons cette page pour référence jusqu'à sa mise à jour.
+
 Depuis la pandémie de COVID-19, les paiements numériques sans contact se sont généralisés, même dans les plus petits commerces. Durant cette période, de nombreux commerces ont découvert l'utilité pratique des solutions d'encaissement en bitcoins, qui leur permettaient de recevoir des paiements du monde entier. Toutefois, ces solutions sont parfois difficiles à utiliser ou peu adaptées aux petits commerces. Dans ce tutoriel, nous allons découvrir le terminal de paiement de Breez, une solution qui se distingue par sa simplicité d’utilisation tout en vous offrant un contrôle total sur la gestion de vos bitcoins.
 
 ## Installer Breez POS
 
-Le point de vente Breez est un service en self-custody fourni par le portefeuille Breez. L'utilité de ce service est de permettre aux commerçants d'encaisser des paiements via Bitcoin tout en restant sur une interface simple, très similaire aux différents portefeuilles Lightning. Le point de vente Breez est disponible sur les plateformes de téléchargement [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) et [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS).
+Le point de vente Breez est un service en self-custody fourni par le portefeuille Breez. L'utilité de ce service est de permettre aux commerçants d'encaisser des paiements via Bitcoin tout en restant sur une interface simple, très similaire aux différents portefeuilles Lightning. Le point de vente Breez est disponible sur les plateformes de téléchargement Google Play Store (Android) et App Store (iOS).
 
 ![download](assets/fr/01.webp)
 

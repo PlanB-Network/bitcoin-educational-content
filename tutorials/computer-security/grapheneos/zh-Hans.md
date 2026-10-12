@@ -101,7 +101,7 @@ _您可能还想采取额外的、可选但推荐的步骤，通过Auditor app�
 默认应用程序
 您可能不熟悉的两个术语是“审计员”和“钒”。
 
-- [审计员应用](https://play.google.com/store/apps/details?id=app.attestation.auditor)利用基于硬件的安全特性来验证设备的身份以及操作系统的真实性和完整性。它将验证设备是否运行着原厂操作系统、引导程序是否已锁定，以及操作系统是否未被篡改。
+- [审计员应用](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)利用基于硬件的安全特性来验证设备的身份以及操作系统的真实性和完整性。它将验证设备是否运行着原厂操作系统、引导程序是否已锁定，以及操作系统是否未被篡改。
 - [钒](https://github.com/GrapheneOS/Vanadium)是基于Chromium网络浏览器的隐私和安全加固变体。
 
 ## 自定义
@@ -291,7 +291,7 @@ Spotube
 
 ### 安全/隐私
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) 提供一个免费且端到端加密的跨平台密码管理解决方案，适用于您的所有设备。他们的付费服务允许您将2FA代码集成到应用中。Bitwarden的服务器端可以自托管，Android应用可通过F-Droid获得。
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo) 提供一个免费且端到端加密的跨平台密码管理解决方案，适用于您的所有设备。他们的付费服务允许您将2FA代码集成到应用中。Bitwarden的服务器端可以自托管，Android应用可通过F-Droid获得。
 - [Proton Pass](https://proton.me/pass/download) 提供一个类似于Bitwarden的免费服务，但[Proton Unlimited](https://proton.me/pricing)客户能够访问额外的高级功能。Proton Pass可以通过APK或Aurora下载。
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) 是一个用于支持一次性密码协议系统的双因素认证应用。用户可以通过扫描二维码轻松添加令牌。FreeOTP 可通过 F-Droid 获取。
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) 是一个免费、安全且开源的 Android 应用，用于管理您在线服务的两步验证令牌。Aegis 可通过 F-Droid 获取。
@@ -406,7 +406,6 @@ GrapheneOS是一个任何人都可以轻松花费数周时间深入研究的领�
 - [GrapheneOS官方使用指南](https://grapheneos.org/usage) - 官方网站
 - [GrapheneOS论坛](https://discuss.grapheneos.org/) - 官方网站
 - [GrapheneOS设置大师班](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - 'The Privacy Wayfinder'的视频
-- [GrapheneOS通用播客](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - 'Watchman Privacy'的播客
 
 *本教程改编自 [BitcoinQnA 在 Bitcoiner.Guide 上以 MIT 许可发布的原始内容](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md)，其最初的撰写工作应全部归功于 BitcoinQnA。*
 

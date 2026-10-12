@@ -615,7 +615,7 @@ Gushinga neza ikidengeri co mu nzu ca mining bigereranya intambwe ikomeye mu bij
 Mu isi y’ugutera ivyuma ku ruhande (SMD), cane cane iyo ukorana n’imigambi ya Bitaxe, kugira ibikoresho bikwiye biratuma habaho itandukaniro hagati y’ugucika intege n’uguterimbere. Iyi nkuru yuzuye ivuga ku bikoresho vy’ingenzi bikenewe kugira ngo ushobore guhangana n’imigambi yo gutera SMD neza, kuva ku bikoresho vy’ishimikiro vy’amaboko gushika ku bikoresho vyihariye bizoduza ubushobozi bwawe bwo gutera.
 
 
-Niba ushaka kwerekeza ku nyandiko zimwe zimwe zijanye n'imirongo, reba iyi [GitHub repo](https://github.com/skot/bitaxe-doc/igiti/igikuru).
+Niba ushaka kwerekeza ku nyandiko zimwe zimwe zijanye n'imirongo, reba iyi [GitHub repo](https://github.com/skot/bitaxe-doc/tree/main).
 
 
 ### Ibikoresho vy'ishimikiro vy'amaboko n'ibikoresho vy'ukuri
@@ -964,7 +964,7 @@ Bitaxe Web Installer igereranya uburyo bubereye bwo gucunga porogarama y’ibiko
 ### Kuronka no guhuza n'umucukumbuzi bisabwa
 
 
-Igikoresho co gushiramwo urubuga rwa Bitaxe gishobora gushikwako biciye ku rubuga rwa URL rwihariye [https://bitaxeorg.github.io/bitaxe-web-flasher/](ico kigaragazwa muri videwo mu bikorwa vyose vyacitse intege). Ariko rero, kugira ngo iki gikoresho gishingiye ku rubuga gikore neza, bisaba ko umucukumbuzi akora neza, kuko uwugishiramwo yizigira ubuhinga bwihariye bwo ku rubuga butashigikirwa n’umucukumbuzi wose. Chrome ihagaze nk’umucukumbuzi w’intango ushimikiye ku mucukumbuzi, itanga ubufatanye bushitse n’ibiranga vyose n’imikorere. Naho izindi nzira zikoreshwa na Chromium zishobora gutanga ibikorwa nk’ivyo, izindi nzira zizwi cane nka Brave na Firefox ntizigira ubufasha bukenewe bw’urubuga rwa API, bikaba bituma zidahuye n’ibikorwa nyamukuru vy’uwuzishiramwo.
+Igikoresho co gushiramwo urubuga rwa Bitaxe gishobora gushikwako biciye ku rubuga rwa URL rwihariye [https://bitaxeorg.github.io/bitaxe-web-flasher/](https://bitaxeorg.github.io/bitaxe-web-flasher/)(ico kigaragazwa muri videwo mu bikorwa vyose vyacitse intege). Ariko rero, kugira ngo iki gikoresho gishingiye ku rubuga gikore neza, bisaba ko umucukumbuzi akora neza, kuko uwugishiramwo yizigira ubuhinga bwihariye bwo ku rubuga butashigikirwa n’umucukumbuzi wose. Chrome ihagaze nk’umucukumbuzi w’intango ushimikiye ku mucukumbuzi, itanga ubufatanye bushitse n’ibiranga vyose n’imikorere. Naho izindi nzira zikoreshwa na Chromium zishobora gutanga ibikorwa nk’ivyo, izindi nzira zizwi cane nka Brave na Firefox ntizigira ubufasha bukenewe bw’urubuga rwa API, bikaba bituma zidahuye n’ibikorwa nyamukuru vy’uwuzishiramwo.
 
 
 Ivyo biva ku kwizigira kw’uwushiramwo ubuhinga bwo guhanahana amakuru n’ibikoresho vya Bitaxe biciye ku rubuga. Urubuga rwa API, rushobora gutuma umuntu ashobora guhanahana amakuru, ruracari urugero rushasha rw’urubuga rutarashika ku kwemerwa n’abacukumbuzi bose. Abakoresha bagerageza gushika ku mucukumbuzi udashigikiwe bazohura n’ibibazo vyo gukorana n’ibikoresho vyabo be n’ukudashobora kuvugana n’ibikoresho vyabo, bikaba bisaba ko bahindukira bakaja ku mucukumbuzi ahuye imbere y’uko babandanya ibikorwa vyose vyo gushiramwo.

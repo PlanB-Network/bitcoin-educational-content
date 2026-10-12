@@ -110,7 +110,7 @@ Cisofy 웹사이트에서도 다운로드할 수 있습니다:
 
 
 ```
-sudo wget https://downloads.cisofy.com/lynis/lynis-3.0.9.tar.gz
+sudo wget https://downloads.cisofy.com/lynis/lynis-3.1.7.tar.gz
 ```
 
 

@@ -1,0 +1,4 @@
+description: |
+  SoloLuck is a solo mining pool for Bitcoin, built on ckpool. Each miner connects with their own Bitcoin address as the username and searches for a block alone: no work or reward is shared between miners. If a miner solves a block, the network pays the whole reward, subsidy plus fees, straight to that address in the coinbase transaction. The pool never holds funds, charges no fee (0%) and needs no account.
+
+  Any SHA-256 miner can connect, from Bitaxe-class devices to large ASICs, and a port with a minimum share difficulty of 1 lets very small devices such as NerdMiners and CPUs take part. Encrypted stratum (TLS) is available. The site publishes live pool statistics, a public stats page for every miner address and a solo odds calculator. The odds of finding a block are the miner's hashrate against the whole network, so for home hardware solo mining works like a lottery. SoloLuck is new and has not found a Bitcoin block yet.

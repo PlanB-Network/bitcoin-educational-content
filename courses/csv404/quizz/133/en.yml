@@ -1,0 +1,9 @@
+question: "Why is it recommended to verify your asset inventory with `tapcli assets list` before executing a burn?"
+answer: "To identify the exact asset and confirm its asset ID, since burning the wrong asset is irreversible"
+wrong_answers:
+  - "To ensure the TAPD daemon is fully synchronized with the entire Lightning Network before proceeding"
+  - "To check that the asset has received sufficient confirmations from the original minting transaction"
+  - "To verify that the asset supports the burn opcode, since some asset types are marked non-burnable"
+explanation: >-
+  Before any destructive operation, you must verify your current holdings to carefully identify the exact asset you intend to burn and note its asset ID. A mistake at this stage could result in burning the wrong asset, and since burns are irreversible once confirmed on-chain, there is no way to undo the error. This pre-burn check is a critical safety step.
+reviewed: false

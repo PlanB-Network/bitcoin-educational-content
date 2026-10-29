@@ -1,0 +1,13 @@
+question: What authentication credentials does Polar automatically generate for each node's API access?
+answer: TLS certificates and macaroon files required for secure REST and gRPC communication
+wrong_answers:
+  - OAuth2 access tokens and refresh tokens that automatically expire after 24 hours of inactivity
+  - A plaintext username and password pair stored in the node's local configuration file
+  - SSH key pairs and GPG signatures used for encrypted peer-to-peer node communication
+explanation: >-
+  Each node in Polar automatically generates TLS certificates and macaroon files,
+  which are the same authentication credentials used in production TAPD deployments.
+  These credentials enable secure, authenticated communication via both REST and
+  gRPC interfaces. They can be found in each node's detail panel within the
+  Polar interface.
+reviewed: false

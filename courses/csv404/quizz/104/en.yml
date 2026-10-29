@@ -1,0 +1,9 @@
+question: "What is the API endpoint used to finalize a minting batch?"
+answer: "/v1/taproot-assets/assets/mint/finalize"
+wrong_answers:
+  - "/v1/taproot-assets/assets/mint/commitment"
+  - "/v1/taproot-assets/assets/mint/finalized"
+  - "/v1/taproot-assets/mint/broadcast/status"
+explanation: >-
+  The finalize endpoint is /v1/taproot-assets/assets/mint/finalize, called as a POST request with an empty JSON body. This endpoint triggers the on-chain commitment of all assets in the current batch. The other paths listed do not exist in the TAPD REST API specification.
+reviewed: false

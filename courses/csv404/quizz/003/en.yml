@@ -1,0 +1,12 @@
+question: What consensus change does the Taproot Assets Protocol require to function on Bitcoin?
+answer: None — it is fully opt-in and requires no consensus changes
+wrong_answers:
+  - A soft fork to enable asset-aware transaction validation rules
+  - A new opcode dedicated to Merkle tree verification inside scripts
+  - An extension to the Taproot script versioning system for asset commitments
+explanation: >-
+  The Taproot Assets Protocol is designed to work entirely within Bitcoin's
+  existing consensus rules. It leverages the design space opened by the
+  Taproot upgrade (BIP 341) to embed asset data via the taptweak, without
+  requiring any additional protocol-level changes.
+reviewed: false

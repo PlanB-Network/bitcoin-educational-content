@@ -1,0 +1,9 @@
+question: "How many endpoints are involved in the API workflow for sending Taproot Assets?"
+answer: "Three endpoints: verify assets, generate address, and send funds"
+wrong_answers:
+  - "One single endpoint that handles verification, addressing, and sending together"
+  - "Two endpoints: one for address generation and one for sending the assets"
+  - "Five endpoints for verification, address creation, signing, sending, confirmation"
+explanation: >-
+  The API workflow for sending Taproot Assets uses three endpoints: a GET endpoint to verify available assets, a POST endpoint to generate a receiving address, and a POST endpoint to execute the transfer. This three-step process mirrors the CLI workflow but through HTTP requests.
+reviewed: false

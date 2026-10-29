@@ -1,0 +1,9 @@
+question: "When updating a Polar installation, what might be required for major version jumps?"
+answer: "Polar itself may need to be replaced, and networks may need to be recreated from scratch"
+wrong_answers:
+  - "Each node must be individually migrated using a dedicated command-line export and import tool"
+  - "The underlying Docker engine must be manually upgraded to match the new Polar version exactly"
+  - "A database migration script must be run manually against each node's own data directory"
+explanation: >-
+  For major version jumps, Polar itself may need to be replaced by downloading the latest release. The chapter warns that significant updates sometimes require recreating your networks from scratch, which is why noting down your current network topology beforehand is recommended so you can recreate it if needed.
+reviewed: false

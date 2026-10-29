@@ -1,0 +1,12 @@
+question: In the cross-asset payment scenario described in the chapter, what happens when Alice (holding stablecoins) pays Bob's Bitcoin Lightning invoice?
+answer: Alice sends stablecoins to the edge node, which converts them and forwards the corresponding bitcoin amount to Bob
+wrong_answers:
+  - Alice's node automatically swaps her stablecoins for bitcoin on a decentralized exchange before sending the payment
+  - Bob's node accepts the stablecoins directly and converts them to bitcoin using its built-in atomic swap capability
+  - The Lightning Network routes the stablecoins through intermediate nodes that each perform partial conversions
+explanation: >-
+  The edge node serves as the bridge in this transaction. Alice sends stablecoins to the edge node
+  on one side, and the edge node releases the equivalent bitcoin amount to Bob on the other side.
+  Alice never needs to own bitcoin, and Bob never sees stablecoins. The conversion happens entirely
+  at the edge node.
+reviewed: false

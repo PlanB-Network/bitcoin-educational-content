@@ -1,0 +1,12 @@
+question: What does the asset group functionality in Taproot Assets v0.2 enable?
+answer: Multiple minting rounds that produce fungible units sharing the same group ID
+wrong_answers:
+  - Grouping different asset types into a single non-fungible collection
+  - Merging assets from different issuers into one unified liquidity pool
+  - Creating hierarchical asset structures where child assets inherit parent properties
+explanation: >-
+  Asset groups allow an issuer to mint an asset with emission enabled, creating
+  a group that accommodates future minting rounds (tranches). Each subsequent
+  mint shares the same group ID and produces fungible units across all issuances,
+  enabling flexible supply strategies while maintaining cryptographic coherence.
+reviewed: false

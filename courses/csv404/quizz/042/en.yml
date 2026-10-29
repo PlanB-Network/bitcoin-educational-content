@@ -1,0 +1,12 @@
+question: Which TAPD API service is responsible for asset discovery, synchronization, and proof distribution?
+answer: UniverseService
+wrong_answers:
+  - TaprootAssetService
+  - AssetWalletService
+  - MintService
+explanation: >-
+  TAPD exposes four distinct API services. The UniverseService handles asset
+  discovery, synchronization, and proof distribution. TaprootAssetService covers
+  core protocol operations like transfers and address generation, AssetWalletService
+  manages wallet operations, and MintService handles asset creation and batch management.
+reviewed: false

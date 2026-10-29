@@ -1,0 +1,13 @@
+question: What is the correct order of the software stack on which TAPD operates, from the base layer upward?
+answer: Bitcoin Core provides the base layer, LND provides the Lightning layer, and TAPD manages asset logic on top of both
+wrong_answers:
+  - TAPD provides the base layer, Bitcoin Core provides blockchain anchoring, and LND provides routing services
+  - LND provides the base layer, TAPD provides the asset layer, and Bitcoin Core provides an indexing service only
+  - Bitcoin Core and LND operate as peers at the same layer, with TAPD coordinating between them as middleware
+explanation: >-
+  The TAPD stack is a strict hierarchy. Bitcoin Core sits at the base, providing
+  on-chain data and blockchain access. LND operates on top of Bitcoin Core,
+  providing Lightning Network functionality and key management. TAPD sits at
+  the top, managing Taproot Asset logic and delegating all signing to LND.
+  This layered architecture means TAPD depends on both lower layers.
+reviewed: false

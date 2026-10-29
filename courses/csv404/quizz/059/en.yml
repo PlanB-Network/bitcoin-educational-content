@@ -1,0 +1,12 @@
+question: Where does TAPD look for its configuration file by default?
+answer: In the .tapd directory located under the current user's home folder (e.g., ~/.tapd/tapd.conf)
+wrong_answers:
+  - In the /etc/tapd/ system-wide configuration directory (e.g., /etc/tapd/tapd.conf)
+  - In the same directory as the tapd binary (e.g., $HOME/go/bin/tapd.conf)
+  - In the LND configuration directory alongside the lnd.conf file (e.g., ~/.lnd/tapd.conf)
+explanation: >-
+  TAPD looks for its configuration file in the .tapd directory under the user's
+  home folder. The configuration file path is ~/.tapd/tapd.conf. While CLI flags
+  can be used to pass parameters at startup, a dedicated configuration file in
+  this location is the recommended approach for maintainability.
+reviewed: false

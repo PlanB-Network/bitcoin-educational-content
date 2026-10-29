@@ -1,0 +1,9 @@
+question: "What is the most common cause of failed Taproot Asset transfers?"
+answer: "Incomplete universe federation between the sender and receiver nodes"
+wrong_answers:
+  - "Insufficient Bitcoin balance to cover the on-chain transaction fee"
+  - "A mismatch between the asset name specified by the sender and receiver"
+  - "The receiver's node running an incompatible version of the TAPD software"
+explanation: >-
+  According to the chapter, the most common cause of transfer failures is incomplete universe synchronization. If the receiver's node lacks the asset metadata or is not part of the same universe federation as the sender, it cannot validate the incoming proofs and the transfer will fail. Ensuring proper federation setup before attempting transfers is critical.
+reviewed: false

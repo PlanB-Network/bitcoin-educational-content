@@ -1,0 +1,9 @@
+question: "When sending Taproot assets over the Lightning Network, what do intermediate routing nodes forward?"
+answer: "Ordinary satoshis, with no awareness whatsoever that the endpoints are dealing in Taproot assets"
+wrong_answers:
+  - "Encrypted Taproot Asset packets that are decoded and re-signed at each hop along the route"
+  - "Special TAP-enabled HTLCs that carry both the asset data and the satoshi value directly"
+  - "Asset proofs wrapped in onion-routed messages alongside the Lightning payment amount"
+explanation: >-
+  When sending TAP assets over Lightning, only the sending and receiving nodes need Taproot Asset-enabled channels holding the specific asset. All intermediate nodes along the payment route simply forward ordinary satoshis, completely unaware that the endpoints are dealing in Taproot assets. This design leverages the existing Lightning routing infrastructure without requiring TAP awareness at every hop.
+reviewed: false

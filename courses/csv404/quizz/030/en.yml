@@ -1,0 +1,9 @@
+question: "What are the three layers of the TAPD software architecture stack, from bottom to top?"
+answer: "Bitcoin Core (base layer), LND (Lightning layer), and TAPD (topmost asset layer)"
+wrong_answers:
+  - "Bitcoin Core (base layer), TAPD (asset layer), and LND (Lightning layer)"
+  - "LND (Lightning layer), Bitcoin Core (base layer), and TAPD (asset layer)"
+  - "TAPD (asset layer), Bitcoin Core (base layer), and LND (Lightning layer)"
+explanation: >-
+  The TAPD stack follows a deliberate three-tier architecture. Bitcoin Core forms the base layer handling blockchain data and transaction broadcasting. LND sits above it as the Lightning layer managing channels and private key custody. TAPD operates at the top as the asset layer, handling Taproot tweak computation, asset tracking, and proof management.
+reviewed: false

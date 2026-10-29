@@ -1,0 +1,9 @@
+question: "What is the recommended practice for production systems after executing a burn through the API?"
+answer: "Log every burn response in its entirety as a permanent audit record"
+wrong_answers:
+  - "Send an automated notification to all asset holders about the supply change"
+  - "Immediately re-mint the same number of assets to maintain a constant supply"
+  - "Broadcast the burn transaction hash to a public block explorer for verification"
+explanation: >-
+  For production systems, the chapter recommends logging every burn response in its entirety as an audit record. This creates a permanent trail of all destructive operations, which is essential for compliance, debugging, and accountability. Simply broadcasting to an explorer or notifying holders does not provide the same level of internal record-keeping.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What happens when the API send endpoint receives a request but the node does not hold enough of the specified asset?"
+answer: "The send endpoint rejects the request with an error response indicating insufficient balance"
+wrong_answers:
+  - "The endpoint queues the transfer and retries automatically once additional assets are received"
+  - "The endpoint completes the transfer for the available amount and returns a partial transfer receipt"
+  - "The endpoint creates the transaction but marks it as pending until the balance is replenished"
+explanation: >-
+  When a node does not hold enough of the specified asset, the send endpoint rejects the request outright. It does not perform a partial transfer, queue the request, or create a pending transaction. Production applications must check the available balance via the GET /v1/taproot-assets/assets endpoint before attempting a send to handle this scenario gracefully.
+reviewed: false

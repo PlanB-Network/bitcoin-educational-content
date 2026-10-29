@@ -1,0 +1,13 @@
+question: What are the four production considerations the chapter recommends for running a price oracle?
+answer: Using multiple price feeds, defining asset support policies, implementing comprehensive logging, and setting up monitoring with alerting
+wrong_answers:
+  - Enabling rate limiting, configuring mutual TLS, deploying redundant oracle instances, and auditing smart contract logic
+  - Caching exchange rates for efficiency, rotating API keys daily, backing up the oracle database hourly, and limiting quote validity to one second
+  - Running the oracle in a Docker container, load-balancing across regions, encrypting all RFQ messages, and publishing rate history on-chain
+explanation: >-
+  The chapter lists four specific production considerations: querying at least two or three
+  independent price sources, only supporting assets whose market dynamics you understand, logging
+  every quote, price fetch, and calculation, and setting up alerts for oracle downtime or price
+  feed failures. These measures ensure reliability and auditability for a production edge node
+  handling real-value cross-asset conversions.
+reviewed: false

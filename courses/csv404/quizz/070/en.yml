@@ -1,0 +1,9 @@
+question: "How many services does Lightning Terminal (LitD) bundle into a single binary?"
+answer: "Five: LND, TAPD, Loop, Pool, and Faraday"
+wrong_answers:
+  - "Three: LND, TAPD, and Loop"
+  - "Four: LND, TAPD, Loop, and Pool"
+  - "Six: LND, TAPD, Loop, Pool, Faraday, and Neutrino"
+explanation: >-
+  LitD bundles exactly five services: LND for Lightning Network operations, TAPD for Taproot Assets, Loop for submarine swaps, Pool for the Lightning channel liquidity marketplace, and Faraday for channel analytics and recommendations. This integrated approach eliminates the complexity of managing separate installations for each service.
+reviewed: false

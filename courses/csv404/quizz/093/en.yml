@@ -1,0 +1,9 @@
+question: "What prerequisite must be met before a TAPD node can mint a Taproot asset?"
+answer: "The TAPD node must be connected to an LND node with confirmed on-chain funds available"
+wrong_answers:
+  - "The TAPD node must have at least one active Lightning channel with sufficient outbound liquidity"
+  - "The TAPD node must be synchronized with at least three universe federation servers"
+  - "The TAPD node must have registered its public key with the Taproot Assets genesis registry"
+explanation: >-
+  Before minting, the TAPD node must be running and properly connected to an LND node that has confirmed on-chain funds. The minting transaction consumes a Bitcoin UTXO to anchor the new asset data into the blockchain. Lightning channels or universe federation connections are not prerequisites for the minting operation itself.
+reviewed: false

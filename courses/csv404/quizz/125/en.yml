@@ -1,0 +1,9 @@
+question: "After submitting a transfer via the API, who is responsible for monitoring whether the transaction has been confirmed on-chain?"
+answer: "The application itself must monitor the state, as the API does not provide push notifications for confirmations"
+wrong_answers:
+  - "TAPD automatically sends a signed webhook callback to a pre-configured URL once the transaction confirms on-chain"
+  - "The receiver's node sends an acknowledgment message through the universe federation once the transfer is confirmed"
+  - "The API provides a WebSocket subscription that emits an event whenever the transfer status changes to a new state"
+explanation: >-
+  The TAPD API does not provide push notifications when a transfer confirms. Your application is responsible for polling or otherwise monitoring the on-chain state to determine when the Bitcoin transaction has been confirmed in a block. This means production applications need to implement their own confirmation monitoring logic.
+reviewed: false

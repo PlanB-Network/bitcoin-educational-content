@@ -1,0 +1,13 @@
+question: What alternative installation methods exist besides compiling TAPD from source?
+answer: Pre-built binaries from the Lightning Labs releases page, or Lightning Terminal (LitD), bundling TAPD with LND
+wrong_answers:
+  - A Docker image officially maintained by Bitcoin Core, or installation via the Ubuntu apt manager
+  - A snap package available in the Canonical store, or a Homebrew formula for macOS-only users
+  - An npm package installable via Node.js, or a pip package that wraps the compiled Go binary
+explanation: >-
+  Besides compiling from source, two alternatives are available. Pre-built binaries
+  from the Lightning Labs releases page eliminate the need for a Go toolchain.
+  Lightning Terminal (LitD) provides an even more integrated approach by bundling
+  TAPD alongside LND and several other services into a single package, which the
+  course covers in detail in a later chapter.
+reviewed: false

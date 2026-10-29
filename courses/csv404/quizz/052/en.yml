@@ -1,0 +1,13 @@
+question: What are the two security-critical file paths that must be correctly specified in the TAPD configuration?
+answer: The LND TLS certificate path and the macaroon file path
+wrong_answers:
+  - The Bitcoin Core RPC password file and the LND seed phrase backup
+  - The TAPD private key file and the Bitcoin Core wallet.dat path
+  - The SSL certificate for the REST API and the admin password hash file
+explanation: >-
+  The TAPD configuration file requires two security-critical paths:
+  lnd.tlspath pointing to the TLS certificate and lnd.macaroonpath pointing
+  to the macaroon file. These provide the cryptographic credentials for
+  authenticated, encrypted communication between TAPD and LND. If either
+  path is incorrect, the daemon will refuse to start.
+reviewed: false

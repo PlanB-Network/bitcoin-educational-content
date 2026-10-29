@@ -1,0 +1,9 @@
+question: "How is the burn operation functionally described in terms of traditional Bitcoin transactions?"
+answer: "It is equivalent to sending funds to an address with no known private key"
+wrong_answers:
+  - "It is equivalent to creating a coinbase transaction that returns value to miners"
+  - "It is equivalent to a double-spend that invalidates the original asset outputs"
+  - "It is equivalent to a timelocked transaction that becomes unspendable after expiry"
+explanation: >-
+  The chapter describes that you should treat every burn command as if it were a transaction sending funds to an address with no known private key, because functionally, that is exactly what it is. The assets are sent to an unspendable destination, making them permanently irrecoverable. This analogy helps clarify why burns are truly irreversible.
+reviewed: false

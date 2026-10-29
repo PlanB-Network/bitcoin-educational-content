@@ -1,0 +1,9 @@
+question: "What is the REST API endpoint for adding a universe to a TAPD federation?"
+answer: "POST to /v1/taproot-assets/universe/federation on port 8089 by default"
+wrong_answers:
+  - "PUT to /v1/taproot-assets/universe/add on port 8080 by default"
+  - "POST to /v1/tap/federation/servers on port 10029 for RPC access"
+  - "POST to /v1/taproot-assets/universe/sync on port 8089 endpoint"
+explanation: >-
+  The REST endpoint for adding a universe to a federation is a POST request to /v1/taproot-assets/universe/federation on port 8089 (the default TAPD REST port). The request body includes a 'servers' array with the host and id of the universe to add. This is distinct from the stats endpoint which uses a GET request to /v1/taproot-assets/universe/stats on the same port.
+reviewed: false

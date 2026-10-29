@@ -1,0 +1,9 @@
+question: "In Plato's cycle of regimes, what does democracy decay into?"
+answer: "Tyranny."
+wrong_answers:
+  - "Aristocracy."
+  - "Oligarchy."
+  - "Monarchy."
+explanation: |
+  Greek thought saw regimes in cycles: aristocracy decays into oligarchy, which transforms into democracy, which decays into tyranny. Our 'end of history' assumption that democracy simply continues forever leaves us unprepared for change.
+reviewed: false

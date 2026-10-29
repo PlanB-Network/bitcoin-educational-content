@@ -1,0 +1,9 @@
+question: "What is Duverger's law?"
+answer: "First-past-the-post systems tend toward a duopoly of two alternating parties with converging programs."
+wrong_answers:
+  - "Voters always re-elect incumbents in economic booms."
+  - "Turnout falls as the number of parties rises."
+  - "Proportional systems always produce coalitions of more than five parties."
+explanation: |
+  Observable in the UK and US: the mechanics of plurality voting naturally produce two dominant parties — a structural, not conspiratorial, restriction of choice.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What is 'Bonapartism' as described by Robert Michels?"
+answer: "Ruling authoritarianly by invoking one's democratic election: the elected leader personifies the majority, so resistance to him is 'anti-democratic'."
+wrong_answers:
+  - "The restoration of a hereditary monarchy after a revolution."
+  - "The military conquest of neighboring countries."
+  - "The delegation of power to technocratic ministers."
+explanation: |
+  Named for Napoleon III, it is Mosca's formula weaponized: 'I am just the instrument of the people's will — how can I be at fault?' Repeated referendums in Europe until the people vote 'correctly' illustrate the logic.
+reviewed: false

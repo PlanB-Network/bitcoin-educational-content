@@ -1,0 +1,9 @@
+question: "Which policy domains are decided without the majority ever being involved?"
+answer: "Foreign policy, monetary policy, defense and immigration, among others."
+wrong_answers:
+  - "Local taxes and municipal budgets."
+  - "School holiday calendars."
+  - "None \u2014 in a democracy voters decide all policies."
+explanation: |
+  These domains are the exclusive province of the ruling minority: rarely in electoral programs, often not even communicated afterwards. Strikingly, the majority does not expect to decide them — an implicit admission that representation is partial.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What did Alexis de Tocqueville say about democracy and liberty?"
+answer: "\"I dearly love liberty and respect for rights, but not democracy.\""
+wrong_answers:
+  - "\"Democracy is the guarantee of liberty.\""
+  - "\"Liberty is impossible without universal suffrage.\""
+  - "\"Democracy and liberty are two words for the same thing.\""
+explanation: |
+  Two centuries ago the author of Democracy in America already made the distinction this course explores: one can love liberty while remaining critical of democracy.
+reviewed: false

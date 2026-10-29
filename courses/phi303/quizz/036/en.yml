@@ -1,0 +1,9 @@
+question: "How did Ludwig von Mises define real democracy?"
+answer: "Self-determination, self-government, self-rule \u2014 down to the inhabitants of every territory, and ultimately the individual."
+wrong_answers:
+  - "Majority rule enforced by a strong central state."
+  - "Government by referendum on all questions."
+  - "The election of judges by universal suffrage."
+explanation: |
+  Mises rejected self-determination as a right of nations only: it is the right of the inhabitants of every territory to decide which state they wish to belong to — which implies the right to secede.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "According to the Machiavellians, how do most voters approach politics?"
+answer: "Emotionally and superficially, not scientifically."
+wrong_answers:
+  - "Rationally, after studying party programs in detail."
+  - "Cynically, voting only for their own profession's interests."
+  - "Randomly, with no pattern at all."
+explanation: |
+  Burnham: it is 'exceedingly difficult for men to be scientific or logical about social and political problems' — largely because political decisions affect our lives only indirectly and with delay.
+reviewed: false

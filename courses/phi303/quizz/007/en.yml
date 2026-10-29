@@ -1,0 +1,9 @@
+question: "How can a small minority rule over a large majority?"
+answer: "The minority is motivated, organized and informed, while the majority is large but disorganized, uninformed and consenting."
+wrong_answers:
+  - "The minority always controls the army and rules by force alone."
+  - "The majority is legally forbidden from organizing."
+  - "The minority hypnotizes the majority through television."
+explanation: |
+  This is Mosca's key insight. Force is not the primary mechanism: organization and information asymmetry, plus the majority's implicit consent (Hume's 'implicit submission'), explain minority rule in every regime.
+reviewed: false

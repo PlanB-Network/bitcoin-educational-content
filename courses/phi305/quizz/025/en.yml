@@ -1,9 +1,9 @@
-question: Did René Descartes believe in Free Will?
-answer: Never.
+question: What was Descartes' position on free will?
+answer: He believed humans have absolute power over their actions.
 wrong_answers:
-  - For adults only.
-  - Only if we'd studied philosophy.
-  - Under certain conditions.
+  - He denied free will entirely, like Spinoza.
+  - He considered free will an illusion caused by ignorance.
+  - He believed only philosophers could exercise free will.
 explanation: |
-  René Descartes never believed in free will. He maintained that all our actions are determined by prior causes, although he tried to preserve some form of freedom of the will.
+  Descartes claimed that humans possess an absolute, indeterminate power of decision, and that "there is no soul which, when well guided, cannot acquire absolute power over its actions and passions." Spinoza firmly criticized this position, arguing instead that humans are conscious of their actions but ignorant of the causes that determine them.
 reviewed: false
